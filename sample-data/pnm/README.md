@@ -11,7 +11,7 @@ Source code and documentation also on Github:
 * https://github.com/ailintom/persons-names-MK for the web application and the SQL database
 * https://github.com/ailintom/persons-names-MK-rdf for the SPARQL endpoint and RDF representation
 
-The following SPARQL query was used to obtain the data: 
+The following SPARQL query was used to obtain the sample data: 
 
 ```Turtle
 prefix pnm: <https://pnm.uni-mainz.de/ontology#>
@@ -64,6 +64,7 @@ where {
  LIMIT 6000000
 ```
 
+The sample data does not include data on inscriptions, objects, bibliography, find groups, and many other entities contained in the dataset.
 
 License: CC BY 4.0
 
