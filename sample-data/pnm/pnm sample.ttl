@@ -1,0 +1,1479 @@
+@prefix crm:     <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmeh:   <http://purl.org/crmeh#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix geo:     <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:    <http://lawd.info/ontology/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix pav:     <http://purl.org/pav/2.0/> .
+@prefix pnm:     <https://pnm.uni-mainz.de/ontology#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<https://pnm.uni-mainz.de/person/1783#bond_187>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SpouseOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/58> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1783> .
+
+<https://pnm.uni-mainz.de/inscription/656#bond_15371>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/656#9866> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/656#9875> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "snt⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/2526#14487>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/2526> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jw-n⸗s-jtj" ;
+        pnm:attested_title_string      "nbt pr" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/2526#14487_identity_statement_4645> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/935#1259> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/6> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:location_in_the_inscription
+                "2nd register" .
+
+<https://pnm.uni-mainz.de/inscription/4096#20406_identity_statement_1428>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2018-09-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, title, and parents' names" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1616> .
+
+<https://pnm.uni-mainz.de/inscription/656#bond_19342>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/656#9866> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/656#9869> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "sn⸗f" .
+
+<https://pnm.uni-mainz.de/person/479#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/13th%20Dyn.> ;
+        crm:P7_took_place_at    <https://pnm.uni-mainz.de/place/2> .
+
+<https://pnm.uni-mainz.de/inscription/4168#bond_14738>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/4168#45390> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/4168#45389> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "ms.n" .
+
+<https://pnm.uni-mainz.de/inscription/2763#bond_6472>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/2763#14179> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/2763#14186> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "ms.n" .
+
+<https://pnm.uni-mainz.de/inscription/15233#65205>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2023-08-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2023-08-01T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/15233> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "sbk-nḫt" ;
+        pnm:attested_title_string      "jmj-rꜣ šnꜥw n ḥtpw-nṯr" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/15233#65205_identity_statement_9515> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/347#493> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/223> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:location_in_the_inscription
+                "rt 12" .
+
+<https://pnm.uni-mainz.de/inscription/655#bond_12698>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/655#43226> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/655#43229> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "sꜢt⸗f" .
+
+<https://pnm.uni-mainz.de/person/479#bond_992>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/1885> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/479> .
+
+<https://pnm.uni-mainz.de/person/2027#bond_801>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/1119> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/2027> .
+
+<https://pnm.uni-mainz.de/inscription/655#43226_identity_statement_6810>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_rejected ;
+        pnm:has_reasoning  "different title" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/184> .
+
+<https://pnm.uni-mainz.de/inscription/393#45459>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/393> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "sꜣ-ꜣst ḥrj-jb" ;
+        pnm:epithet                    "ḥrj-jb" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/393#45459_identity_statement_5717> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/1682#2798> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:location_in_the_inscription
+                "2nd register" .
+
+<https://pnm.uni-mainz.de/inscription/3081#20967_identity_statement_1470>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, title, and mother's name" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/479> .
+
+<https://pnm.uni-mainz.de/person/1814#bond_107>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/1813> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1814> .
+
+<https://pnm.uni-mainz.de/person/1065#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/Sobekhotep%20IV%20ḫꜥ-nfr-rꜥ%20sbk-ḥtp> .
+
+<https://pnm.uni-mainz.de/inscription/20037#60390>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2022-01-12T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/20037> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jꜥḥ-ms" ;
+        pnm:attested_title_string      "sꜣt-nsw; snt-nsw" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/20037#60390_identity_statement_7881> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/173#15779> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/64> , <https://pnm.uni-mainz.de/title/297> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:status_in_the_inscription  "owner" .
+
+<https://pnm.uni-mainz.de/inscription/4168#45390>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/4168> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "sꜣt-šnḏt" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/4168#45390_identity_statement_3522> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/2211#3945> ;
+        pnm:has_visual_representation  pnm:not_represented .
+
+<https://pnm.uni-mainz.de/inscription/4168#45390_identity_statement_3522>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "same find group" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1206> .
+
+<https://pnm.uni-mainz.de/inscription/657#bond_16298>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/657#25881> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/657#12600> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "snt⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/20037#60390_identity_statement_7881>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2022-01-12T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_is_weak ;
+        pnm:has_reasoning  "same name, same father (but possibly identical to namesake sister)" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/2650> .
+
+<https://pnm.uni-mainz.de/inscription/3081#20967>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/3081> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "ẖnmw-ḥtp" ;
+        pnm:attested_title_string      "qnbtj n w" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/3081#20967_identity_statement_1470> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/556#11483> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/397> ;
+        pnm:has_visual_representation  pnm:human_figure ;
+        pnm:location_in_the_inscription
+                "4th register" .
+
+<https://pnm.uni-mainz.de/person/1065#bond_462>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/1577> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1065> .
+
+<https://pnm.uni-mainz.de/inscription/3081#bond_7646>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/3081#20971> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/3081#20967> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/person/3010#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/Amenemhat%20III%20nj-mꜣꜥt-rꜥ%20jmn-m-ḥꜣt> ;
+        crm:P7_took_place_at    <https://pnm.uni-mainz.de/place/23> .
+
+<https://pnm.uni-mainz.de/inscription/857#26824_identity_statement_4663>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, son's name and title" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1055> .
+
+<https://pnm.uni-mainz.de/person/1813>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2023-08-01T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/1813#life> ;
+        pnm:person_gender          "f" ;
+        pnm:person_personal_names  "jkjj" .
+
+<https://pnm.uni-mainz.de/person/184#bond_523>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/992> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/184> .
+
+<https://pnm.uni-mainz.de/inscription/657#bond_15372>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/657#25881> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/657#46812> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ParentOf> ;
+        pnm:has_wording               "mwt⸗f" .
+
+<https://pnm.uni-mainz.de/person/2027>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/2027#life> ;
+        pnm:person_gender          "m" ;
+        pnm:person_personal_names  "sꜣ-ꜣst-ḥrj-jb" .
+
+<https://pnm.uni-mainz.de/inscription/2895#bond_14038>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2018-09-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/2895#22421> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/2895#22420> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "snt⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/858#27328_identity_statement_4664>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, son's name and title" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1055> .
+
+<https://pnm.uni-mainz.de/person/1813#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/Senusret%20III%20-%20Amenemhat%20III> ;
+        crm:P7_took_place_at    <https://pnm.uni-mainz.de/place/36> .
+
+<https://pnm.uni-mainz.de/inscription/656#9866>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/656> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "jmnjj/ꜥnḫ-rn" ;
+        pnm:attested_title_string      "jrj-ꜥt" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/656#9866_identity_statement_3916> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/284#277> , <https://pnm.uni-mainz.de/name/653#777> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/144> ;
+        pnm:has_visual_representation  pnm:human_figure ;
+        pnm:location_in_the_inscription
+                "1st register" ;
+        pnm:status_in_the_inscription  "owner" .
+
+<https://pnm.uni-mainz.de/inscription/2453#bond_789>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/2453#5718> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/2453#7991> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "sꜢt⸗f" .
+
+<https://pnm.uni-mainz.de/person/994#bond_521>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/184> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/994> .
+
+<https://pnm.uni-mainz.de/inscription/656#bond_15370>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/656#9866> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/656#41625> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "snt⸗f" .
+
+<https://pnm.uni-mainz.de/person/58>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/58#life> ;
+        pnm:person_gender          "m" ;
+        pnm:person_personal_names  "jbw" ;
+        pnm:person_title_string    "jmj-rꜣ pr; jdnw n ḥꜣtj-ꜥ n ṯbw" .
+
+<https://pnm.uni-mainz.de/inscription/20037#bond_22347>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/20037#60391> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/20037#60390> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "ms(t).n" .
+
+<https://pnm.uni-mainz.de/inscription/2526#bond_791>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/2526#5719> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/2526#14487> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "Daughter sꜣt Father" .
+
+<https://pnm.uni-mainz.de/inscription/4096#bond_7563>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2018-09-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/4096#20411> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/4096#20406> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "ms.n" .
+
+<https://pnm.uni-mainz.de/inscription/857#bond_15347>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/857#12867> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/857#26824> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "mst(.n)" .
+
+<https://pnm.uni-mainz.de/inscription/2455#7999>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/2455> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jw-n⸗s-jtj⸗s" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/2455#7999_identity_statement_4644> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/2874#5606> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:location_in_the_inscription
+                "1st register" .
+
+<https://pnm.uni-mainz.de/inscription/656#bond_19339>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/656#53655> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/656#9866> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "sn⸗f" .
+
+<https://pnm.uni-mainz.de/person/3010#bond_1396>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2023-08-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2023-08-01T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/3011> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/3010> .
+
+<https://pnm.uni-mainz.de/person/58#bond_958>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/1784> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/58> .
+
+<https://pnm.uni-mainz.de/inscription/872#bond_18279>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/872#5040> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/872#5063> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "snt⸗f" .
+
+<https://pnm.uni-mainz.de/person/1055>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/1055#life> ;
+        pnm:person_gender          "f" ;
+        pnm:person_personal_names  "jwtt" .
+
+<https://pnm.uni-mainz.de/person/1206>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/1206#life> ;
+        pnm:person_gender          "f" ;
+        pnm:person_personal_names  "sꜣt-šnḏt" .
+
+<https://pnm.uni-mainz.de/inscription/1201#bond_4399>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/1201#3286> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/1201#3284> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/inscription/2895#22420>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/2895> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jꜥḥ-ms šrt" ;
+        pnm:attested_title_string      "sꜣt-nsw" ;
+        pnm:epithet                    "A17" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/2895#22420_identity_statement_7880> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/173#2719> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/297> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:status_in_the_inscription  "patron" .
+
+<https://pnm.uni-mainz.de/person/1065#bond_461>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/428> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1065> .
+
+<https://pnm.uni-mainz.de/inscription/872#bond_18273>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/872#5040> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/872#5057> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "sꜢ⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/1201#3286_identity_statement_376>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, son, grandchildren" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1813> .
+
+<https://pnm.uni-mainz.de/person/1207#bond_284>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/1206> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1207> .
+
+<https://pnm.uni-mainz.de/inscription/4096#bond_2140>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2018-09-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/4096#20408> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/4096#20406> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/person/2645#bond_1258>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/184> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/2645> .
+
+<https://pnm.uni-mainz.de/inscription/2475#5066>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/2475> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "jbw" ;
+        pnm:attested_title_string      "jmj-rꜣ pr" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/2475#5066_identity_statement_608> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/835#1075> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/4> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:status_in_the_inscription  "owner" .
+
+<https://pnm.uni-mainz.de/inscription/873#bond_689>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/873#5026> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/873#5028> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ParentOf> ;
+        pnm:has_wording               "jtj⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/656#bond_19340>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/656#9866> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/656#53655> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "sn⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/1971#bond_2721>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2018-09-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/1971#28698> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/1971#28696> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/person/2027#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/mid-12th%20Dyn.> .
+
+<https://pnm.uni-mainz.de/inscription/1201#3286>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/1201> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jk" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/1201#3286_identity_statement_376> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/606#1151> ;
+        pnm:has_visual_representation  pnm:not_represented .
+
+<https://pnm.uni-mainz.de/person/479>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/479#life> ;
+        pnm:person_gender          "m" ;
+        pnm:person_personal_names  "ẖnmw-ḥtp" ;
+        pnm:person_title_string    "qnbtj n w" .
+
+<https://pnm.uni-mainz.de/person/1206#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/early%2012th%20Dyn.> .
+
+<https://pnm.uni-mainz.de/inscription/657#bond_15369>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/657#25881> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/657#25883> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "snt⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/11772#45557>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/11772> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "sꜣt-šnḏt" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/11772#45557_identity_statement_3572> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/2211#4366> ;
+        pnm:has_visual_representation  pnm:not_represented .
+
+<https://pnm.uni-mainz.de/inscription/873#5028>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/873> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "jbw" ;
+        pnm:attested_title_string      "jmj-rꜣ pr" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/873#5028_identity_statement_602> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/835#1075> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/4> ;
+        pnm:has_visual_representation  pnm:human_figure .
+
+<https://pnm.uni-mainz.de/inscription/655#bond_12696>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/655#43227> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/655#43226> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "ms.n" .
+
+<https://pnm.uni-mainz.de/inscription/2475#5066_identity_statement_608>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, title, mother's name" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/58> .
+
+<https://pnm.uni-mainz.de/inscription/657#25881>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/657> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "ꜥnḫ-rn" ;
+        pnm:attested_title_string      "jmj-rꜣ ꜥẖnwtj" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/657#25881_identity_statement_3917> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/653#777> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/9> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:status_in_the_inscription  "owner" .
+
+<https://pnm.uni-mainz.de/person/184#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/Senusret%20I%20-%20Amenemhat%20II> .
+
+<https://pnm.uni-mainz.de/inscription/15465#64232_identity_statement_9513>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2023-08-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2023-08-01T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, title, and father's name, location" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/3010> .
+
+<https://pnm.uni-mainz.de/inscription/2763#14186>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/2763> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "ẖnmw-ḥtp" ;
+        pnm:attested_title_string      "qnbtj n w" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/2763#14186_identity_statement_1128> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/556#858> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/397> ;
+        pnm:has_visual_representation  pnm:not_represented .
+
+<https://pnm.uni-mainz.de/inscription/11772#45557_identity_statement_3572>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "same find group" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1206> .
+
+<https://pnm.uni-mainz.de/inscription/393#bond_14800>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/393#36301> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/393#45459> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/inscription/2453#7991>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/2453> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jw-n⸗s-jtj⸗s (?)" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/2453#7991_identity_statement_5909> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/2874#6267> ;
+        pnm:has_visual_representation  pnm:not_represented .
+
+<https://pnm.uni-mainz.de/inscription/4169#45388>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/4169> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "sꜣt-šnḏt" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/4169#45388_identity_statement_3523> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/2211#3943> , <https://pnm.uni-mainz.de/name/2211#3944> ;
+        pnm:has_visual_representation  pnm:not_represented .
+
+<https://pnm.uni-mainz.de/inscription/873#5028_identity_statement_602>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, title, wife's name, son's name" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/58> .
+
+<https://pnm.uni-mainz.de/inscription/872#bond_18272>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/872#5040> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/872#5056> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "sꜢ⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/1205#3403_identity_statement_385>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, son, grandchildren" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1813> .
+
+<https://pnm.uni-mainz.de/inscription/4169#bond_14737>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/4169#45388> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/4169#45387> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "ms.n" .
+
+<https://pnm.uni-mainz.de/person/993#bond_522>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/184> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/993> .
+
+<https://pnm.uni-mainz.de/inscription/1105#bond_14412>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/1105#7432> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/1105#45018> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "sn⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/858#27328>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/858> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jwtt" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/858#27328_identity_statement_4664> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/4605#10503> ;
+        pnm:has_visual_representation  pnm:not_represented .
+
+<https://pnm.uni-mainz.de/person/2650#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/Seqenenre%20sqn.n-rꜥ%20t-ꜥꜣ> .
+
+<https://pnm.uni-mainz.de/inscription/1971#28696>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/1971> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "wjꜣw" ;
+        pnm:attested_title_string      "sš (n) wḏḥw" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/1971#28696_identity_statement_1695> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/2768#5349> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/360> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:status_in_the_inscription  "owner" .
+
+<https://pnm.uni-mainz.de/person/1055#bond_473>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SpouseOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/521> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1055> .
+
+<https://pnm.uni-mainz.de/inscription/2526#bond_13328>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/2526#8052> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/2526#14487> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "mst.n" .
+
+<https://pnm.uni-mainz.de/inscription/656#bond_5499>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/656#9868> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/656#9866> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/inscription/393#45459_identity_statement_5717>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, parents" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/2027> .
+
+<https://pnm.uni-mainz.de/inscription/858#bond_9025>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/858#27328> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/858#26835> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/inscription/872#bond_18271>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/872#5040> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/872#5041> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SpouseOf> ;
+        pnm:has_wording               "ḥmt⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/872#5040>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/872> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "jbw" ;
+        pnm:attested_title_string      "jdnw n ḥꜣtj-ꜥ n ṯbw" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/872#5040_identity_statement_604> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/835#1075> , <https://pnm.uni-mainz.de/name/835#1546> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/1594> ;
+        pnm:has_visual_representation  pnm:human_figure ;
+        pnm:location_in_the_inscription
+                "1st register" ;
+        pnm:status_in_the_inscription  "patron" .
+
+<https://pnm.uni-mainz.de/inscription/1971#bond_9355>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2018-09-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/1971#28700> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/1971#28696> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "ms.n" .
+
+<https://pnm.uni-mainz.de/person/1616>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2018-09-14T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/1616#life> ;
+        pnm:person_gender          "m" ;
+        pnm:person_personal_names  "wjꜣw" ;
+        pnm:person_title_string    "sš n wḏḥw" .
+
+<https://pnm.uni-mainz.de/person/2027#bond_803>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/527> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/2027> .
+
+<https://pnm.uni-mainz.de/inscription/15465#bond_23180>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2023-08-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2023-08-01T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/15465#64233> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/15465#64232> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "Father sꜣ Son" .
+
+<https://pnm.uni-mainz.de/inscription/656#9866_identity_statement_3916>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "same name, parents' names" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/184> .
+
+<https://pnm.uni-mainz.de/inscription/11772#bond_14921>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/11772#45557> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/11772#45555> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "ms.n" .
+
+<https://pnm.uni-mainz.de/inscription/15233#65205_identity_statement_9515>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2023-08-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2023-08-01T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, title, and father's name, location" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/3010> .
+
+<https://pnm.uni-mainz.de/person/1055#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/13th%20Dyn.> .
+
+<https://pnm.uni-mainz.de/inscription/872#5040_identity_statement_604>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, mother's name, wife's name, son's name" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/58> .
+
+<https://pnm.uni-mainz.de/person/1616#bond_676>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2018-09-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/841> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1616> .
+
+<https://pnm.uni-mainz.de/person/3010>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2023-08-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2023-08-01T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/3010#life> ;
+        pnm:person_gender          "m" ;
+        pnm:person_personal_names  "sbk-nḫt" ;
+        pnm:person_title_string    "jmj-rꜣ šnꜥw n ḥtp-nṯr" .
+
+<https://pnm.uni-mainz.de/person/1641#bond_475>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/1055> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1641> .
+
+<https://pnm.uni-mainz.de/inscription/657#25881_identity_statement_3917>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "same name, parents' names" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/184> .
+
+<https://pnm.uni-mainz.de/inscription/2763#bond_13557>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/2763#7379> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/2763#14186> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "sn⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/2526#14487_identity_statement_4645>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, parents" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1065> .
+
+<https://pnm.uni-mainz.de/inscription/2475#bond_4696>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/2475#5067> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/2475#5066> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/inscription/1205#3403>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/1205> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jkjj" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/1205#3403_identity_statement_385> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/675#8766> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:location_in_the_inscription
+                "1st register" .
+
+<https://pnm.uni-mainz.de/inscription/15233#bond_23526>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2023-08-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2023-08-01T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/15233#65206> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/15233#65205> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "Father sꜣ Son" .
+
+<https://pnm.uni-mainz.de/inscription/872#bond_18276>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/872#5040> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/872#5060> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "sꜢt⸗f" .
+
+<https://pnm.uni-mainz.de/person/184#bond_525>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/991> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/184> .
+
+<https://pnm.uni-mainz.de/inscription/2453#7991_identity_statement_5909>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, parents" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1065> .
+
+<https://pnm.uni-mainz.de/person/709#bond_33>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/58> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/709> .
+
+<https://pnm.uni-mainz.de/person/1065>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/1065#life> ;
+        pnm:person_gender          "f" ;
+        pnm:person_personal_names  "jw-n⸗s-jtj⸗s" .
+
+<https://pnm.uni-mainz.de/inscription/1105#45018>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/1105> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "sꜣ-ꜣst ḥrj-jb" ;
+        pnm:epithet                    "ḥrj-jb" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/1105#45018_identity_statement_5716> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/1682#3124> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:location_in_the_inscription
+                "3rd register" .
+
+<https://pnm.uni-mainz.de/person/2650>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2022-01-12T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/2650#life> ;
+        pnm:person_gender          "f" ;
+        pnm:person_personal_names  "jꜥḥ-ms šrt" ;
+        pnm:person_title_string    "sꜣt-nsw" .
+
+<https://pnm.uni-mainz.de/inscription/2763#14186_identity_statement_1128>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, title, and mother's name" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/479> .
+
+<https://pnm.uni-mainz.de/inscription/656#bond_19343>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/656#9866> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/656#9879> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "sn⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/1205#bond_4429>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/1205#3403> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/1205#3401> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jr.n" .
+
+<https://pnm.uni-mainz.de/inscription/857#26824>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/857> ;
+        pnm:attested_gender            "f" ;
+        pnm:attested_personal_names    "jwtt" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/857#26824_identity_statement_4663> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/4605#10503> ;
+        pnm:has_visual_representation  pnm:human_figure ;
+        pnm:location_in_the_inscription
+                "1st register" .
+
+<https://pnm.uni-mainz.de/inscription/1971#28696_identity_statement_1695>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2018-09-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, title, and parents' names" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1616> .
+
+<https://pnm.uni-mainz.de/person/1467#bond_1260>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/2650> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1467> .
+
+<https://pnm.uni-mainz.de/person/1616#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/SIP> .
+
+<https://pnm.uni-mainz.de/person/2027#bond_802>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/511> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/2027> .
+
+<https://pnm.uni-mainz.de/inscription/655#bond_12699>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/655#43226> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/655#43230> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SpouseOf> ;
+        pnm:has_wording               "ḥmt⸗f" .
+
+<https://pnm.uni-mainz.de/person/58#life>
+        rdf:type                pnm:life ;
+        crm:P117_occurs_during  <https://pnm.uni-mainz.de/thesaurus/late%2012th%20Dyn.> ;
+        crm:P7_took_place_at    <https://pnm.uni-mainz.de/place/39> .
+
+<https://pnm.uni-mainz.de/inscription/4096#20406>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/4096> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "wjꜣw" ;
+        pnm:attested_title_string      "sš (n) wḏḥw" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/4096#20406_identity_statement_1428> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/2768#5350> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/360> ;
+        pnm:has_visual_representation  pnm:not_represented ;
+        pnm:status_in_the_inscription  "owner" .
+
+<https://pnm.uni-mainz.de/inscription/655#43226>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/655> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "ꜥnḫ-rn" ;
+        pnm:attested_title_string      "jmj-rꜣ ꜥẖnwtj n pr-ḥḏ" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/655#43226_identity_statement_6810> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/653#777> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/856> ;
+        pnm:has_visual_representation  pnm:human_figure ;
+        pnm:status_in_the_inscription  "owner" .
+
+<https://pnm.uni-mainz.de/person/184>
+        rdf:type                   crm:E21_Person ;
+        dcterms:created            "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified           "2022-01-12T00:00:00"^^xsd:dateTime ;
+        pnm:lived                  <https://pnm.uni-mainz.de/person/184#life> ;
+        pnm:person_gender          "m" ;
+        pnm:person_personal_names  "jmnjj/ꜥnḫ-rn" ;
+        pnm:person_title_string    "jmj-rꜣ ꜥẖnwtj; jrj-ꜥt" .
+
+<https://pnm.uni-mainz.de/inscription/4169#45388_identity_statement_3523>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "same find group" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1206> .
+
+<https://pnm.uni-mainz.de/person/1616#bond_675>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2018-09-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2018-09-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/840> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/1616> .
+
+<https://pnm.uni-mainz.de/inscription/1105#45018_identity_statement_5716>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, parents" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/2027> .
+
+<https://pnm.uni-mainz.de/person/36#bond_474>
+        rdf:type                      pnm:persons_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:persons_bond_statement_object
+                <https://pnm.uni-mainz.de/person/1055> ;
+        pnm:persons_bond_statement_subject
+                <https://pnm.uni-mainz.de/person/36> .
+
+<https://pnm.uni-mainz.de/inscription/2455#7999_identity_statement_4644>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2021-08-14T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_accepted ;
+        pnm:has_reasoning  "name, parents" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/1065> .
+
+<https://pnm.uni-mainz.de/inscription/656#bond_1381>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/656#9866> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/656#9871> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ParentOf> ;
+        pnm:has_wording               "jtj⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/657#bond_16299>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/657#25881> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/657#48185> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/SiblingOf> ;
+        pnm:has_wording               "sn⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/2895#22420_identity_statement_7880>
+        rdf:type           pnm:identity_statement ;
+        dcterms:created    "2022-01-12T00:00:00"^^xsd:dateTime ;
+        dcterms:modified   "2022-01-12T00:00:00"^^xsd:dateTime ;
+        crm:P2_has_type    pnm:identification_is_weak ;
+        pnm:has_reasoning  "same name, same father" ;
+        pnm:refers_to      <https://pnm.uni-mainz.de/person/2650> .
+
+<https://pnm.uni-mainz.de/inscription/2455#bond_786>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/2455#5716> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/2455#7999> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "sꜢt⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/1205#bond_4430>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/1205#3403> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/1205#3416> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "jrt.n" .
+
+<https://pnm.uni-mainz.de/inscription/872#bond_18275>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/872#5040> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/872#5059> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ChildOf> ;
+        pnm:has_wording               "sꜢt⸗f" .
+
+<https://pnm.uni-mainz.de/inscription/15465#64232>
+        rdf:type                       pnm:person_attestation ;
+        dcterms:created                "2023-08-01T00:00:00"^^xsd:dateTime ;
+        dcterms:modified               "2023-08-01T00:00:00"^^xsd:dateTime ;
+        crm:P67i_is_referred_to_by     <https://pnm.uni-mainz.de/inscription/15465> ;
+        pnm:attested_gender            "m" ;
+        pnm:attested_personal_names    "sbk-nḫt" ;
+        pnm:attested_title_string      "jmj-rꜣ šnꜥw n ḥtpw-nṯr" ;
+        pnm:has_identity_statement     <https://pnm.uni-mainz.de/inscription/15465#64232_identity_statement_9513> ;
+        pnm:has_spelled_personal_name  <https://pnm.uni-mainz.de/name/347#493> ;
+        pnm:has_title                  <https://pnm.uni-mainz.de/title/223> ;
+        pnm:has_visual_representation  pnm:not_represented .
+
+<https://pnm.uni-mainz.de/inscription/657#bond_15373>
+        rdf:type                      pnm:attested_bond ;
+        dcterms:created               "2021-08-14T00:00:00"^^xsd:dateTime ;
+        dcterms:modified              "2021-08-14T00:00:00"^^xsd:dateTime ;
+        pnm:attested_bond_statement_object
+                <https://pnm.uni-mainz.de/inscription/657#25881> ;
+        pnm:attested_bond_statement_subject
+                <https://pnm.uni-mainz.de/inscription/657#25882> ;
+        pnm:bond_statement_predicate  <https://pnm.uni-mainz.de/thesaurus/ParentOf> ;
+        pnm:has_wording               "jtj⸗f" .
