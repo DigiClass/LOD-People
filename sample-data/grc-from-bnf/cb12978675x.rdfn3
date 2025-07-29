@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+   xmlns:bnfroles="http://data.bnf.fr/vocabulary/roles/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdaa="http://rdaregistry.info/Elements/a/#"
+   xmlns:rdagroup2elements="http://rdvocab.info/ElementsGr2/"
+   xmlns:rdau="http://rdaregistry.info/Elements/u/#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb12978675x">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12978675</bnf-onto:FRBNF>
+    <skos:prefLabel xml:lang="fr">Nicholas M. Poulantzas</skos:prefLabel>
+    <skos:note xml:lang="fr">Ecrit aussi en anglais</skos:note>
+    <skos:note xml:lang="fr">Juriste. - Spécialiste de droit international. - Professeur à l'Université d'Utrecht, Pays-bas (en 1969)</skos:note>
+    <dcterms:created>1994-03-16</dcterms:created>
+    <dcterms:modified>2012-04-13</dcterms:modified>
+    <foaf:focus rdf:resource="https://data.bnf.fr/ark:/12148/cb12978675x#about"/>
+    <rdfs:seeAlso rdf:resource="https://catalogue.bnf.fr/ark:/12148/cb12978675x"/>
+    <rdau:P61160 rdf:resource="http://www.rdaregistry.info/termList/statIdentification/1003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb12978675x#about">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:givenName>Nicholas M.</foaf:givenName>
+    <foaf:familyName>Poulantzas</foaf:familyName>
+    <foaf:name>Nicholas M. Poulantzas</foaf:name>
+    <bnf-onto:firstYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1931</bnf-onto:firstYear>
+    <rdagroup2elements:biographicalInformation>Ecrit aussi en anglais</rdagroup2elements:biographicalInformation>
+    <rdagroup2elements:biographicalInformation>Juriste. - Spécialiste de droit international. - Professeur à l'Université d'Utrecht, Pays-bas (en 1969)</rdagroup2elements:biographicalInformation>
+    <rdaa:P50113>Ecrit aussi en anglais</rdaa:P50113>
+    <rdaa:P50113>Juriste. - Spécialiste de droit international. - Professeur à l'Université d'Utrecht, Pays-bas (en 1969)</rdaa:P50113>
+    <foaf:page rdf:resource="https://data.bnf.fr/ark:/12148/cb12978675x"/>
+    <rdagroup2elements:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/grc"/>
+    <rdaa:P50102 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/grc"/>
+    <rdagroup2elements:countryAssociatedWithThePerson rdf:resource="http://id.loc.gov/vocabulary/countries/gr"/>
+    <rdaa:P50097 rdf:resource="http://id.loc.gov/vocabulary/countries/gr"/>
+    <owl:sameAs rdf:resource="https://data.bnf.fr/ark:/12148/cb12978675x#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb38905480t#Expression">
+    <bnfroles:r70 rdf:resource="https://data.bnf.fr/ark:/12148/cb12978675x#about"/>
+    <marcrel:aut rdf:resource="https://data.bnf.fr/ark:/12148/cb12978675x#about"/>
+    <dcterms:contributor rdf:resource="https://data.bnf.fr/ark:/12148/cb12978675x#about"/>
+  </rdf:Description>
+</rdf:RDF>

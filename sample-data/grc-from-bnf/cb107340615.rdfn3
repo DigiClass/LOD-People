@@ -1,0 +1,94 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb107340615studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb107340615#about> .
+
+<https://data.bnf.fr/ark:/12148/cb177167060> dcterms:subject <https://data.bnf.fr/ark:/12148/cb107340615#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30020352v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb107340615#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb107340615#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb107340615#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30919735w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb107340615#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb107340615#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb107340615#about> .
+
+<https://data.bnf.fr/ark:/12148/cb107340615> a skos:Concept ;
+    bnf-onto:FRBNF 10734061 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2024-09-12" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Andronic_II_Pal%C3%A9ologue>,
+        <https://catalogue.bnf.fr/ark:/12148/cb107340615> ;
+    skos:altLabel "Andronic 50 (empereur de Byzance, 1259-1332)"@fr,
+        "Andronic Paléologue (empereur de Byzance, 1259-1332)"@fr,
+        "A̓ndrónikos 50 (empereur de Byzance, 1259-1332)"@fr,
+        "A̓ndrónikos Palaiológos (empereur de Byzance, 1259-1332)"@fr,
+        "A̓ndrónikos V´ Palaiológos (empereur de Byzance, 1259-1332)"@fr,
+        "Ἀνδρόνικος 50 (empereur de Byzance, 1259-1332)"@fr,
+        "Ἀνδρόνικος Β' Παλαιολόγος (empereur de Byzance, 1259-1332)"@fr,
+        "Ἀνδρόνικος Παλαιολόγος (1259-1332)"@fr,
+        "Andronicus 2 (empereur de Byzance, 1259-1332)"@la,
+        "Andronicus 50 (empereur de Byzance, 1259-1332)"@la,
+        "Andronicus II (empereur de Byzance, 1259-1332)"@la,
+        "Andronicus II Palaeologus (empereur de Byzance, 1259-1332)"@la,
+        "Andronicus Palaeologus (1259-1332)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119132877>,
+        <http://datos.bne.es/resource/XX832437>,
+        <http://id.loc.gov/authorities/n85041124>,
+        <http://isni.org/isni/0000000121430382> ;
+    skos:editorialNote "Andronici, ejus nominis secundi, Imperatoris Constantinopolitani, aurea bulla, data Henrico... duci Brunsvicensi, regiones Orientis perlustranti, ante annos pene CCC. Cum notis ad bullam... Henrici Meibomii, 1614. - . - Robert, 1985. - . -"@fr,
+        "Oxford Dictionary of Byzantium, 1991 : Andronikos II Palaiologos. - . - Biographisches Lexikon zur Geschichte Südosteuropas, 1972-1981 : Andronikos II. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Andronic_II_Pal%C3%A9ologue>,
+        <http://fr.wikipedia.org/wiki/Andronic_II_Pal%C3%A9ologue>,
+        <http://viaf.org/viaf/89594853/>,
+        <http://wikidata.org/entity/Q37067>,
+        <http://www.idref.fr/130622370> ;
+    skos:note "Empereur du 11 décembre 1282 au 23 mai 1328, associé avec son fils Michel IX de 1294 à 1320"@fr ;
+    skos:prefLabel "Andronic II Paléologue (empereur de Byzance, 1259-1332)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb107340615#about> .
+
+<https://data.bnf.fr/ark:/12148/cb107340615#about> a foaf:Person ;
+    bnf-onto:firstYear 1259 ;
+    bnf-onto:lastYear 1332 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Empereur du 11 décembre 1282 au 23 mai 1328, associé avec son fils Michel IX de 1294 à 1320" ;
+    rdaa:P50118 "Constantinople (aujourd'hui Istanbul, Turquie)" ;
+    rdaa:P50119 "Nicée (aujourd'hui İznik, Turquie)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1332/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1259/> ;
+    rdagroup2elements:biographicalInformation "Empereur du 11 décembre 1282 au 23 mai 1328, associé avec son fils Michel IX de 1294 à 1320" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1259/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1332/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Nicée (aujourd'hui İznik, Turquie)" ;
+    rdagroup2elements:placeOfDeath "Constantinople (aujourd'hui Istanbul, Turquie)" ;
+    bio:birth "1259-03-25" ;
+    bio:death "1332-02-13" ;
+    = <http://fr.dbpedia.org/resource/Andronic_II_Pal%C3%A9ologue>,
+        <http://viaf.org/viaf/89594853>,
+        <http://www.idref.fr/130622370/id>,
+        <https://data.bnf.fr/ark:/12148/cb107340615#foaf:Person> ;
+    foaf:birthday "03-25" ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Andronikos%2520II%2520Palaiologos%2520%2528head%2529.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/AndronikosIIandMichaelIXPalaeologusSilverBasilikon.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8530886d.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8530887t.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b85308887.thumbnail> ;
+    foaf:familyName "Andronic" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb107340615> .
+

@@ -1,0 +1,56 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb41051681c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb167249780#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb167249780#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167249780#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45002507f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb167249780#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb167249780#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167249780#about> .
+
+<https://data.bnf.fr/ark:/12148/cb167249780> a skos:Concept ;
+    bnf-onto:FRBNF 16724978 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000065683632" ;
+    dcterms:created "2013-11-22" ;
+    dcterms:modified "2015-03-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Philagrios_d%27%C3%89pire>,
+        <https://catalogue.bnf.fr/ark:/12148/cb167249780> ;
+    skos:altLabel "Filagrio (Physicien)"@it,
+        "Philagrius Epirotes (Physicien)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102402566>,
+        <http://id.loc.gov/authorities/no2005009961>,
+        <https://www.idref.fr/06773233X> ;
+    skos:editorialNote "Frammenti / Filagrio; testo edito per la prima volta, con introduzione, apparato critico, traduzione e note a cura di Rita Masullo, 1999. - . - LCNA. - http://authorities.loc.gov. - 2013-11-22"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Philagrios_d%27%C3%89pire>,
+        <http://fr.wikipedia.org/wiki/Philagrios_d%27%C3%89pire>,
+        <http://isni.org/isni/0000000065683632>,
+        <http://viaf.org/viaf/90638629/>,
+        <http://wikidata.org/entity/Q722430> ;
+    skos:prefLabel "Philagrio d' Epirus (Physicien)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb167249780#about> .
+
+<https://data.bnf.fr/ark:/12148/cb167249780#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://fr.dbpedia.org/resource/Philagrios_d%27%C3%89pire>,
+        <http://viaf.org/viaf/90638629>,
+        <https://data.bnf.fr/ark:/12148/cb167249780#foaf:Person> ;
+    foaf:familyName "Philagrio d' Epirus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb167249780> .
+

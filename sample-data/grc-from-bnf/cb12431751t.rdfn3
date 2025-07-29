@@ -1,0 +1,70 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16582437f#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12431751t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31157130m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12431751t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12431751t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12431751t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32548362n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12431751t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12431751t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12431751t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37667848h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12431751t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12431751t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12431751t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12431751t> a skos:Concept ;
+    bnf-onto:FRBNF 12431751 ;
+    dcterms:created "1994-11-23" ;
+    dcterms:modified "2012-03-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12431751t> ;
+    skos:altLabel "Ptolemaîos (01..-0165?)"@fr,
+        "Πτολεμαῖος (01..-0165?)"@fr,
+        "Ptolemaeus Gnosticus (01..-0165?)"@la,
+        "Ptolemaeus Valentinianus (01..-0165?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102404585>,
+        <http://id.loc.gov/authorities/no92024538>,
+        <http://isni.org/isni/0000000359071295> ;
+    skos:editorialNote "BN Cat. gén. 1960-1969 : Ptolemaeus gnosticus. - . - Clavis SGL : Ptolemaeus Gnosticus Valentinianus. - . -"@fr,
+        "DOC / V. Volpi, 1994 : Ptolemaeus Gnosticus. - . - BN Cat. gén. : Ptolémée le gnostique. - . -"@fr,
+        "Lettre à Flora / Ptolémée ; trad., comment. et index grec de Gilles Quispel, 1966. - . - Clavis SGL : Ptolemaeus Gnosticus Valentinianus. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/213401559/>,
+        <http://wikidata.org/entity/Q430051>,
+        <http://www.idref.fr/033453608> ;
+    skos:note "Un des chefs de la section italique de l'école valentinienne. - Résidait probablement à Rome"@fr ;
+    skos:prefLabel "Ptolémée le gnostique (01..-0165?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12431751t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12431751t#about> a foaf:Person ;
+    bnf-onto:lastYear 165 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Un des chefs de la section italique de l'école valentinienne. - Résidait probablement à Rome" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0165/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Un des chefs de la section italique de l'école valentinienne. - Résidait probablement à Rome" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0165/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "01.." ;
+    bio:death "165" ;
+    = <http://viaf.org/viaf/213401559>,
+        <http://www.idref.fr/033453608/id>,
+        <https://data.bnf.fr/ark:/12148/cb12431751t#foaf:Person> ;
+    foaf:familyName "Ptolémée le gnostique" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12431751t> .
+

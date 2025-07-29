@@ -1,0 +1,64 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb457574695#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb17843966g#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb17843966g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17843966g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb47302254x#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb17843966g#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb17843966g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17843966g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17843966g> a skos:Concept ;
+    bnf-onto:FRBNF 17843966 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-09-11"^^xsd:date ;
+    isni:identifierValid "000000051770970X" ;
+    dcterms:created "2019-10-17" ;
+    dcterms:modified "2024-09-11" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17843966g> ;
+    skos:altLabel "Maria Lagogianni- Georgakarakos"@fr,
+        "Maria Lagogianni-Georgakarakos"@fr,
+        "Maria Lagogiannë-Geōrgakarakou"@fr,
+        "Maria Lagogiannë-Geōrgakaraku"@fr,
+        "María Lagogiánni- Geōrgakarákou"@fr,
+        "Μαρία Λαγογιάννη-Γεωργακαράκου"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/122475151>,
+        <http://id.loc.gov/authorities/no2001044203> ;
+    skos:editorialNote "Hadrianus : Adriano e Atene / [direzione scientifica e cura museale Maria Lagogianni-Georgakarakos, ideazione Emanuele Papi].-Athīna : Ethniko Archaiologiko Mouseio ; Atene : Scuola archeologica italiana di Atene, copyright 2018.-[Texte. Image fixe]. - . - BnF, Service grec moderne, 2019-11-26. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000051770970X>,
+        <http://viaf.org/viaf/55030345/>,
+        <http://wikidata.org/entity/Q51572369>,
+        <http://www.idref.fr/152475478> ;
+    skos:note "Archéologue. - En poste : Musée épigraphique, Athènes, Grèce (en 2019). - Directrice : National Archaeological Museum, Athènes, Grèce (en 2020)"@fr ;
+    skos:prefLabel "María Lagogiánnī-Geōrgakarákou"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17843966g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17843966g#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Archéologue. - En poste : Musée épigraphique, Athènes, Grèce (en 2019). - Directrice : National Archaeological Museum, Athènes, Grèce (en 2020)" ;
+    rdagroup2elements:biographicalInformation "Archéologue. - En poste : Musée épigraphique, Athènes, Grèce (en 2019). - Directrice : National Archaeological Museum, Athènes, Grèce (en 2020)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/55030345>,
+        <http://www.idref.fr/152475478/id>,
+        <https://data.bnf.fr/ark:/12148/cb17843966g#foaf:Person> ;
+    foaf:familyName "Lagogiánnī-Geōrgakarákou" ;
+    foaf:gender "female" ;
+    foaf:givenName "María" ;
+    foaf:name "María Lagogiánnī-Geōrgakarákou" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17843966g> .
+

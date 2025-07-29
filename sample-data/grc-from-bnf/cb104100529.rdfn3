@@ -1,0 +1,86 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16170156h#about> dcterms:contributor <https://data.bnf.fr/ark:/12148/cb104100529#about> .
+
+<https://data.bnf.fr/ark:/12148/cb310680011#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb104100529#about> .
+
+<https://data.bnf.fr/ark:/12148/cb421200788#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb104100529#about> .
+
+<https://data.bnf.fr/ark:/12148/cb421208205#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb104100529#about> .
+
+<https://data.bnf.fr/ark:/12148/cb421325890#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb104100529#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42165250g#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb104100529#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42165268j#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb104100529#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb104100529#about> .
+
+<https://data.bnf.fr/ark:/12148/cb104100529> a skos:Concept ;
+    bnf-onto:FRBNF 10410052 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000076212123" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2015-03-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb104100529> ;
+    skos:altLabel "Paulos (1...-1054)",
+        "Paulos Euergetinos (1...-1054)",
+        "Paul (1...-1054)"@fr,
+        "Paulus (1...-1054)"@la,
+        "Paulus Evergetinus (1...-1054)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100957242> ;
+    skos:editorialNote "Paroles et exemples des Anciens : recueil ascétique de Paul, surnommé Évergétinos / [trad. du grec par l'higoumène Nicolas], 2009. - . - Dict. spiritualité : PAUL ÉVERGÉTINOS (de l'Évergétis). - . -"@fr,
+        "Tusculum-Lexikon griechischer und lateinischer Autoren des Altertums und des Mittelalters. 3. Aufl., 1982 : Paulos Euergetinos. - . - BN Cat. gén. : PAUL ÉVERGÉTINOS. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000076212123>,
+        <http://viaf.org/viaf/103648642/>,
+        <http://wikidata.org/entity/Q130361118>,
+        <http://www.idref.fr/158014898> ;
+    skos:note "Auteur de l'«Évergétinon», florilège de la littérature ascétique, depuis la «Vie d'Antoine le Grand» jusqu'à Grégoire le Grand"@fr,
+        "Fondateur (en 1048 ou 1049) et higoumène du Monastère de la Mère de Dieu Bienfaitrice (Evergetis, Evergetidos), près de Constantinople"@fr ;
+    skos:prefLabel "Paul Évergétinos (1...-1054)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb104100529#about> .
+
+<https://data.bnf.fr/ark:/12148/cb104100529#about> a foaf:Person ;
+    bnf-onto:lastYear 1054 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur de l'«Évergétinon», florilège de la littérature ascétique, depuis la «Vie d'Antoine le Grand» jusqu'à Grégoire le Grand",
+        "Fondateur (en 1048 ou 1049) et higoumène du Monastère de la Mère de Dieu Bienfaitrice (Evergetis, Evergetidos), près de Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1054/> ;
+    rdagroup2elements:biographicalInformation "Auteur de l'«Évergétinon», florilège de la littérature ascétique, depuis la «Vie d'Antoine le Grand» jusqu'à Grégoire le Grand",
+        "Fondateur (en 1048 ou 1049) et higoumène du Monastère de la Mère de Dieu Bienfaitrice (Evergetis, Evergetidos), près de Constantinople" ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1054/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1..." ;
+    bio:death "1054-04-16" ;
+    = <http://viaf.org/viaf/103648642>,
+        <http://www.idref.fr/158014898/id>,
+        <https://data.bnf.fr/ark:/12148/cb104100529#foaf:Person> ;
+    foaf:familyName "Paul Évergétinos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb104100529> .
+

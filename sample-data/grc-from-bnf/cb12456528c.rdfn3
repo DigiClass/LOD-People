@@ -1,0 +1,92 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12456528cstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12456528c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30025417t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12456528c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12456528c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12456528c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb300254185#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12456528c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12456528c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12456528c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12456528c> a skos:Concept ;
+    bnf-onto:FRBNF 12456528 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000080193017" ;
+    dcterms:created "1995-04-07" ;
+    dcterms:modified "2019-06-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Archytas_de_Tarente>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12456528c> ;
+    skos:altLabel "Archytas of Tarentum (0430?-0350? av. J.-C.)"@en,
+        "A̓rkhútas Tarantî̄nos (0430?-0350? av. J.C.)"@fr,
+        "Ἀρχύτας Ταραντῖνος (0430?-0350? av. J.C.)"@fr,
+        "Archita (0430?-0350? av. J.-C.)"@it,
+        "Archita di Taranto (0430?-0350? av. J.C.)"@it,
+        "Architas Tarentinus (0430?-0350? av. J.-C.)"@la,
+        "Archytas Tarentinus (0430?-0350? av. J.-C.)"@la,
+        "Archytas pythagoricus (0430?-0350? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118645617>,
+        <http://datos.bne.es/resource/XX1241848>,
+        <http://id.loc.gov/authorities/no96021781> ;
+    skos:editorialNote "Architae Tarentini decem praedicamenta / Dominico Pizimentio Vibonensi interprete, 1561. - . - GDEL. - . -"@fr,
+        "Larousse 19e s.. - . - Clavis SGL. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Archytas_de_Tarente>,
+        <http://fr.wikipedia.org/wiki/Archytas_de_Tarente>,
+        <http://isni.org/isni/0000000080193017>,
+        <http://viaf.org/viaf/40191578/>,
+        <http://wikidata.org/entity/Q202001>,
+        <http://www.idref.fr/069285349> ;
+    skos:note "Mathématicien. - Philosophe pythagoricien. - Originaire de Tarente"@fr ;
+    skos:prefLabel "Archytas de Tarente (0430?-0350? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12456528c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12456528c#about> a foaf:Person ;
+    bnf-onto:firstYear -430 ;
+    bnf-onto:lastYear -350 ;
+    rdaa:P50100 <http://dewey.info/class/100/>,
+        <http://dewey.info/class/510/>,
+        "Mathématiques",
+        "Philosophie" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Mathématicien. - Philosophe pythagoricien. - Originaire de Tarente" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0350/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0430/> ;
+    rdagroup2elements:biographicalInformation "Mathématicien. - Philosophe pythagoricien. - Originaire de Tarente" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0430/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0350/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/100/>,
+        <http://dewey.info/class/510/>,
+        "Mathématiques",
+        "Philosophie" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 430" ;
+    bio:death "- 350" ;
+    = <http://fr.dbpedia.org/resource/Archytas_de_Tarente>,
+        <http://viaf.org/viaf/40191578>,
+        <http://www.idref.fr/069285349/id>,
+        <https://data.bnf.fr/ark:/12148/cb12456528c#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Archytas%2520of%2520Taras.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10335443n.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b103354443.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10335445j.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b103354460.thumbnail> ;
+    foaf:familyName "Archytas de Tarente" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12456528c> .
+

@@ -1,0 +1,71 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb366086104#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119914947#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119914947#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119914947#about> .
+
+<https://data.bnf.fr/ark:/12148/cb119914947> a skos:Concept ;
+    bnf-onto:FRBNF 11991494 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000382590894" ;
+    dcterms:created "1986-01-14" ;
+    dcterms:modified "2022-08-29" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb119914947> ;
+    skos:altLabel "Andreas Michaïlidis- Nouaros"@fr,
+        "Andreas Mihaēlidēs-Nouaros (1922-2009)"@fr,
+        "Andreas Mikhaïlidis-Nouaros"@fr,
+        "André M. Nouaros"@fr,
+        "Ανδρέας Μιχαηλίδης Νουάρος"@fr,
+        "Ανδρέας Μιχαηλίδης-Νουάρος (1922-2009)"@fr ;
+    skos:editorialNote "Une fable grecque moderne : structure-éléments originaux qui dénotent la mentalité particulière du jeune grec / André M. Nouaros, 1979. - . - Bibliothèque nationale, autorités, Grèce. - https://catalogue.nlg.gr/Authority/Record?id=au.24390. - 2022-08-29"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000382590894>,
+        <http://viaf.org/viaf/265542464/>,
+        <http://www.idref.fr/085980765> ;
+    skos:note "Pédagogue. - Bibliographe"@fr ;
+    skos:prefLabel "Andréas Michaīlídīs-Nouáros (1922-2009)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb119914947#about> .
+
+<https://data.bnf.fr/ark:/12148/cb119914947#about> a foaf:Person ;
+    bnf-onto:firstYear 1922 ;
+    bnf-onto:lastYear 2009 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Pédagogue. - Bibliographe" ;
+    rdaa:P50118 "Thessalonique (Grèce)" ;
+    rdaa:P50119 "Smyrne (auj. Izmir, Turquie)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/2009/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1922/> ;
+    rdagroup2elements:biographicalInformation "Pédagogue. - Bibliographe" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1922/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/2009/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Smyrne (auj. Izmir, Turquie)" ;
+    rdagroup2elements:placeOfDeath "Thessalonique (Grèce)" ;
+    bio:birth "1922-01-21" ;
+    bio:death "2009-09-04" ;
+    = <http://viaf.org/viaf/265542464>,
+        <http://www.idref.fr/085980765/id>,
+        <https://data.bnf.fr/ark:/12148/cb119914947#foaf:Person> ;
+    foaf:birthday "01-21" ;
+    foaf:familyName "Michaīlídīs-Nouáros" ;
+    foaf:gender "male" ;
+    foaf:givenName "Andréas" ;
+    foaf:name "Andréas Michaīlídīs-Nouáros" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb119914947> .
+

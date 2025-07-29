@@ -1,0 +1,84 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb37494483g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13479039x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb377323939#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13479039x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38993517q#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13479039x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb390957029#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13479039x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44691575f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13479039x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb446925463#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13479039x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb446933145#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13479039x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13479039x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13479039x> a skos:Concept ;
+    bnf-onto:FRBNF 13479039 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-30"^^xsd:date ;
+    isni:identifierValid "0000000109378999" ;
+    dcterms:created "1998-01-07" ;
+    dcterms:modified "2022-09-10" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb13479039x> ;
+    skos:altLabel "Spiros Cotsakis"@fr,
+        "Σπύρος Κωτσάκης‏"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/121563421>,
+        <http://id.loc.gov/authorities/n95120026> ;
+    skos:editorialNote "Global structure and evolution in general relativity / Spiros Cotsakis, Gary W. Gibbons, 1996. - . - Bibliothèque nationale, autorités, Grèce. - https://catalogue.nlg.gr/Authority/Record?id=au.51966. - 2022-09-10"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000109378999>,
+        <http://viaf.org/viaf/114795993/>,
+        <http://wikidata.org/entity/Q64398498>,
+        <http://www.idref.fr/070668280> ;
+    skos:note "En poste : Department of mathematics, University of the Aegean Karlovassi, Samos, Grèce (en 1996)"@fr,
+        "Écrit aussi en anglais"@fr ;
+    skos:prefLabel "Spýros Kōtsákīs"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13479039x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13479039x#about> a foaf:Person ;
+    bnf-onto:firstYear 1963 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "En poste : Department of mathematics, University of the Aegean Karlovassi, Samos, Grèce (en 1996)",
+        "Écrit aussi en anglais" ;
+    rdagroup2elements:biographicalInformation "En poste : Department of mathematics, University of the Aegean Karlovassi, Samos, Grèce (en 1996)",
+        "Écrit aussi en anglais" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/114795993>,
+        <http://www.idref.fr/070668280/id>,
+        <https://data.bnf.fr/ark:/12148/cb13479039x#foaf:Person> ;
+    foaf:familyName "Kōtsákīs" ;
+    foaf:gender "male" ;
+    foaf:givenName "Spýros" ;
+    foaf:name "Spýros Kōtsákīs" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13479039x> .
+

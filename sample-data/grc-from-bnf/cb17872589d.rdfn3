@@ -1,0 +1,73 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb17872589dstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb17872589d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31130235h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17872589d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17872589d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17872589d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17872589d> a skos:Concept ;
+    bnf-onto:FRBNF 17872589 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-01-26"^^xsd:date ;
+    isni:identifierValid "0000000089033466" ;
+    dcterms:created "2020-03-08" ;
+    dcterms:modified "2022-01-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Pol%C3%A9mon_d%27Ilion>,
+        <https://catalogue.bnf.fr/ark:/12148/cb17872589d> ;
+    skos:altLabel "Polémōn periēgētḗs"@fr,
+        "Polémōn periīgītī́s"@fr,
+        "Polémon le Géographe"@fr,
+        "Polémon le Périégète"@fr,
+        "Πολέμων περιηγητής"@fr,
+        "Polemone di Ilio"@it,
+        "Polemon Iliensis"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100549837>,
+        <http://id.loc.gov/authorities/no2019104333> ;
+    skos:editorialNote "Dictionnaire des philosophes antiques / R. Goulet, 1989 : Polémon d'Ilion le Périégète. - . - DOC / V. Volpi, 1994. - . - Dizionario biografico degli Italiani. - http://www.treccani.it/. - 2020-03-10"@fr,
+        "Polemonis Periegetae Fragmenta ; collegit... notis auxit L. Preller ; accedunt de Polemonis vita et scriptis et de historia atque arte Periegetarum commentationes, 1838. - . - Polemone di Ilio e la Grecia : testimonianze e frammenti di periegesi antiquaria / Roberto Capel Badino, 2018. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Pol%C3%A9mon_d%27Ilion>,
+        <http://fr.wikipedia.org/wiki/Pol%C3%A9mon_d%27Ilion>,
+        <http://isni.org/isni/0000000089033466>,
+        <http://viaf.org/viaf/8687164423021620530000/>,
+        <http://wikidata.org/entity/Q1150145>,
+        <http://www.idref.fr/24514837X/id> ;
+    skos:note "Philosophe. - Géographe"@fr ;
+    skos:prefLabel "Polémon d'Ilion"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17872589d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17872589d#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe. - Géographe" ;
+    rdaa:P50119 "Ílion (Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:biographicalInformation "Philosophe. - Géographe" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Ílion (Grèce)" ;
+    bio:birth "- 022." ;
+    bio:death "- 016." ;
+    = <http://fr.dbpedia.org/resource/Pol%C3%A9mon_d%27Ilion>,
+        <http://viaf.org/viaf/8687164423021620530000>,
+        <http://www.idref.fr/24514837X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb17872589d#foaf:Person> ;
+    foaf:familyName "Polémon d'Ilion" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17872589d> .
+

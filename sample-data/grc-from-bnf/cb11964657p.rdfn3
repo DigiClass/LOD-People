@@ -1,0 +1,89 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb11964657pstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb11964657p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41334622p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11964657p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11964657p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11964657p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11964657p> a skos:Concept ;
+    bnf-onto:FRBNF 11964657 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000359214858" ;
+    dcterms:created "1985-07-06" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Thal%C3%A8s>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11964657p> ;
+    skos:altLabel "Talete (0625?-0547? av. J.-C.)"@fr,
+        "Talete di Mileto (0625?-0547? av. J.-C.)"@fr,
+        "Thales of Miletus (0625?-0547? av. J.-C.)"@fr,
+        "Thales von Milet (0625?-0547? av. J.-C.)"@fr,
+        "Thalê̄s ho Milé̄sios (0625?-0547? av. J.-C.)"@fr,
+        "Thalî̄s ho Milí̄sios (0625?-0547? av. J.-C.)"@fr,
+        "Θαλῆς ὁ Μιλήσιος (0625?-0547? av. J.-C.)"@fr,
+        "Thales Milesius (0625?-0547? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118801732>,
+        <http://datos.bne.es/resource/XX1675736>,
+        <http://id.loc.gov/authorities/n86024245>,
+        <https://www.idref.fr/027649660> ;
+    skos:editorialNote "Thalès de Milet / Michel Mirault, Gérard Pradalier, 1983. - . - GDEL. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Thal%C3%A8s>,
+        <http://fr.wikipedia.org/wiki/Thal%C3%A8s>,
+        <http://isni.org/isni/0000000359214858>,
+        <http://viaf.org/viaf/215981166/>,
+        <http://wikidata.org/entity/Q36303>,
+        <http://www.idref.fr/027649660/id>,
+        <https://musicbrainz.org/artist/b91527cc-dc7b-456f-8d23-8cbac990bb6b> ;
+    skos:note "Astronome, philosophe et mathématicien"@fr ;
+    skos:prefLabel "Thalès de Milet (0625?-0547? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11964657p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11964657p#about> a foaf:Person ;
+    bnf-onto:firstYear -625 ;
+    bnf-onto:lastYear -547 ;
+    rdaa:P50100 <http://dewey.info/class/100/>,
+        <http://dewey.info/class/510/>,
+        "Mathématiques",
+        "Philosophie" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Astronome, philosophe et mathématicien" ;
+    rdaa:P50118 "Milet" ;
+    rdaa:P50119 "Milet" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0547/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0625/> ;
+    rdagroup2elements:biographicalInformation "Astronome, philosophe et mathématicien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0625/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0547/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/100/>,
+        <http://dewey.info/class/510/>,
+        "Mathématiques",
+        "Philosophie" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Milet" ;
+    rdagroup2elements:placeOfDeath "Milet" ;
+    bio:birth "- 625" ;
+    bio:death "- 547" ;
+    = <http://fr.dbpedia.org/resource/Thal%C3%A8s>,
+        <http://viaf.org/viaf/215981166>,
+        <http://www.idref.fr/027649660/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb11964657p#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Illustrerad%2520Verldshistoria%2520band%2520I%2520Ill%2520107.svg> ;
+    foaf:familyName "Thalès de Milet" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11964657p> .
+

@@ -1,0 +1,80 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb41807971p#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491074b#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491074b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491074b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41807973c#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491074b#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491074b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491074b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41807974q#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491074b#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491074b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491074b#about> .
+
+<https://data.bnf.fr/temp-work/49a3994eef9fed758bc311e44ab492a3/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16491074b#about> .
+
+<https://data.bnf.fr/temp-work/63346b3c6183440c40f7ab8bdc0e0ad9/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16491074b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16491074b> a skos:Concept ;
+    bnf-onto:FRBNF 16491074 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-10-09"^^xsd:date ;
+    isni:identifierValid "0000000517833540" ;
+    dcterms:created "2017-03-23" ;
+    dcterms:modified "2024-10-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16491074b> ;
+    skos:altLabel "Mithridátīs 4 (roi du Pont, 01..-0151? av. J.-C.)"@el,
+        "Mithridátīs D´ (roi du Pont, 01..-0151? av. J.-C.)"@el,
+        "Mithridátīs D´ Filopátōr Filádelfos (roi du Pont, 01..-0151? av. J.-C.)"@el,
+        "Mιθριδάτης 4 (roi du Pont, 01..-0151? av. J.-C.)"@el,
+        "Mιθριδάτης Δʹ (roi du Pont, 01..-0151? av. J.-C.)"@el,
+        "Μιθριδάτης Δʹ Φιλοπάτωρ Φιλάδελφος (roi du Pont, 01..-0151? av. J.-C.)"@el,
+        "Mithridate 4 (roi du Pont, 01..-0151? av. J.-C.)"@fr,
+        "Mithridate IV Philopatôr Philadelphe (roi du Pont, 01..-0151? av. J.-C.)"@fr,
+        "Mithradates 4 (roi du Pont, 01..-151? av. J.-C.)"@la,
+        "Mithradates IV (roi du Pont, 01..-151? av. J.-C.)"@la,
+        "Mithridates 4 (roi du Pont, 01..-0151? av. J.-C.)"@la,
+        "Mithridates IV (roi du Pont, 01..-0151? av. J.-C.)"@la,
+        "Mithridates IV Philopator Philadelphus (roi du Pont, 01..-0151? av. J.-C.)"@la ;
+    skos:exactMatch <http://isni.org/isni/0000000517833540> ;
+    skos:note "Roi du Pont de 170 environ à 151 environ av. J.-C.. - Fils de Mithridate III, frère et successeur de Pharnace Ier"@fr ;
+    skos:prefLabel "Mithridate IV (roi du Pont, 01..-0151? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16491074b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16491074b#about> a foaf:Person ;
+    bnf-onto:lastYear -151 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Roi du Pont de 170 environ à 151 environ av. J.-C.. - Fils de Mithridate III, frère et successeur de Pharnace Ier" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0151/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Roi du Pont de 170 environ à 151 environ av. J.-C.. - Fils de Mithridate III, frère et successeur de Pharnace Ier" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0151/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 01.." ;
+    bio:death "- 151" ;
+    = <https://data.bnf.fr/ark:/12148/cb16491074b#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b85602724.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8560274z.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8560275c.thumbnail> ;
+    foaf:familyName "Mithridate" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16491074b> .
+

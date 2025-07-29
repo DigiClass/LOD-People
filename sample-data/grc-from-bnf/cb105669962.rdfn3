@@ -1,0 +1,83 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb304051147#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30405115k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30405116x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb304051178#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30405118m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30405119z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb306956395#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30765733x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105669962#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb105669962> a skos:Concept ;
+    bnf-onto:FRBNF 10566996 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2014-07-18" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb105669962> ;
+    skos:altLabel "Ai̓skhínīs ho Sōkratikós"@fr,
+        "Αἰσχίνης ὁ Σωκρατατικός"@fr,
+        "Aschines Socraticus"@la ;
+    skos:editorialNote "Aeschini Socratici reliquiae / edidit et commentario instruxit Heinrich Krauss, 1911. - . - Buchwald. - . -"@fr,
+        "DOC / V. Volpi, 1994. - . - BN Cat. gén.. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/309574893/>,
+        <http://www.idref.fr/135494516/id> ;
+    skos:note "Élève de Socrate"@fr ;
+    skos:prefLabel "Eschine le Socratique"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb105669962#about> .
+
+<https://data.bnf.fr/ark:/12148/cb105669962#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Élève de Socrate" ;
+    rdaa:P50119 "Sphettos, Grèce" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Élève de Socrate" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Sphettos, Grèce" ;
+    bio:birth "- 04.." ;
+    bio:death "- 04.." ;
+    = <http://viaf.org/viaf/309574893>,
+        <http://www.idref.fr/135494516/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb105669962#foaf:Person> ;
+    foaf:familyName "Eschine le Socratique" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb105669962> .
+

@@ -1,0 +1,76 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13330232w#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb120772871#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37395086g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120772871#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120772871#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120772871#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41654052w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120772871#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120772871#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120772871#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120772871> a skos:Concept ;
+    bnf-onto:FRBNF 12077287 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-24"^^xsd:date ;
+    isni:identifierValid "0000000369378362" ;
+    dcterms:created "1988-06-15" ;
+    dcterms:modified "2014-04-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb120772871> ;
+    skos:altLabel "Hephaestio Thebanus (0380-04..)"@fr,
+        "Hephaestion (0380-04..)"@fr,
+        "Hephaistion (0380-04..)"@fr,
+        "Hephestion (0380-04..)"@fr,
+        "Hīfaistíōn (0380-04..)"@fr,
+        "Hëphaistíōn (0380-04..)"@fr,
+        "Ἡφαιστίων (0380-04..)"@fr,
+        "Hephaestion Thebanus (0380-04..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119265842>,
+        <http://id.loc.gov/authorities/nr95047401> ;
+    skos:editorialNote "Apotelesmatica / Hephaestionis Thebani ; ed. D. Pingree, 1973-1974. - . - Buchwald. - . -"@fr,
+        "DOC / V. Volpi, 1994 : Hephaestion Thebanus. - . - Kleine Pauly : Hephaestio Thebanus. - . - Oxford Dict. of Byzantium : Hephaistion of Thebes. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000369378362>,
+        <http://viaf.org/viaf/54119484/>,
+        <http://wikidata.org/entity/Q1320609>,
+        <http://www.idref.fr/029070414> ;
+    skos:note "Astrologue"@fr ;
+    skos:prefLabel "Hephestion de Thèbes (0380-04..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb120772871#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120772871#about> a foaf:Person ;
+    bnf-onto:firstYear 380 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Astrologue" ;
+    rdaa:P50119 "Thèbes, Égypte" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0380/> ;
+    rdagroup2elements:biographicalInformation "Astrologue" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0380/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Thèbes, Égypte" ;
+    bio:birth "0380-11-26" ;
+    bio:death "04.." ;
+    = <http://viaf.org/viaf/54119484>,
+        <http://www.idref.fr/029070414/id>,
+        <https://data.bnf.fr/ark:/12148/cb120772871#foaf:Person> ;
+    foaf:birthday "11-26" ;
+    foaf:familyName "Hephestion de Thèbes" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb120772871> .
+

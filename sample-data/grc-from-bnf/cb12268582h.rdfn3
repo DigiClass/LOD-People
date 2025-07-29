@@ -1,0 +1,77 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12268582hstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12268582h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30356747z#Expression> bnfroles:r680 <https://data.bnf.fr/ark:/12148/cb12268582h#about> ;
+    marcrel:trl <https://data.bnf.fr/ark:/12148/cb12268582h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12268582h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30434647z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12268582h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12268582h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12268582h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31451743p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12268582h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12268582h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12268582h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36122702w#Expression> bnfroles:r680 <https://data.bnf.fr/ark:/12148/cb12268582h#about> ;
+    marcrel:trl <https://data.bnf.fr/ark:/12148/cb12268582h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12268582h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12268582h> a skos:Concept ;
+    bnf-onto:FRBNF 12268582 ;
+    dcterms:created "1992-10-23" ;
+    dcterms:modified "2003-10-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Symmaque_l%27%C3%89bionite>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12268582h> ;
+    skos:altLabel "Simaco (traducteur de l'Ancien Testament, 02..-02..)"@it,
+        "Simmaco (traducteur de l'Ancien Testament, 02..-02..)"@it,
+        "Symmachus (traducteur de l'Ancien Testament, 02..-02..)"@la,
+        "Symmachus traductor Samaritanus (traducteur de l'Ancien Testament, 02..-02..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102406960>,
+        <http://id.loc.gov/authorities/n80039416>,
+        <http://isni.org/isni/0000000097853923>,
+        <https://www.idref.fr/188204032> ;
+    skos:editorialNote "Dictionnaire encyclopédique du christianisme ancien / sous la dir. de A. Di Bernardino, 1990. - . - Larousse 19e s. - . - Clavis scriptorum graecorum et latinorum. - . -"@fr,
+        "Marietti. - . - BN Cat. gén.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Symmaque_l%27%C3%89bionite>,
+        <http://fr.wikipedia.org/wiki/Symmaque_l%27%C3%89bionite>,
+        <http://viaf.org/viaf/68988128/>,
+        <http://wikidata.org/entity/Q1458645>,
+        <http://www.idref.fr/188204032/id> ;
+    skos:note "Sage samaritain converti au judaïsme ; auteur d'une traduction grecque du Pentateuque"@fr ;
+    skos:prefLabel "Symmaque (traducteur de l'Ancien Testament, 02..-02..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12268582h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12268582h#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Sage samaritain converti au judaïsme ; auteur d'une traduction grecque du Pentateuque" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0201-0300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Sage samaritain converti au judaïsme ; auteur d'une traduction grecque du Pentateuque" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "02.." ;
+    = <http://fr.dbpedia.org/resource/Symmaque_l%27%C3%89bionite>,
+        <http://viaf.org/viaf/68988128>,
+        <http://www.idref.fr/188204032/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12268582h#foaf:Person> ;
+    foaf:familyName "Symmaque" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12268582h> .
+

@@ -1,0 +1,67 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb355288772#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12264122k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12264122k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12264122k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12264122k> a skos:Concept ;
+    bnf-onto:FRBNF 12264122 ;
+    dcterms:created "1992-09-25" ;
+    dcterms:modified "2012-04-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Hermarque_de_Mytil%C3%A8ne>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12264122k> ;
+    skos:altLabel "'Ermarhos (0340?-02.. av. J.-C.)",
+        "Hermarchos (0340?-02.. av. J.-C.)",
+        "Hermarkhos (0340?-02.. av. J.-C.)",
+        "Ermarco di Mitilene (0340?-02.. av. J.-C.)"@it ;
+    skos:closeMatch <http://d-nb.info/gnd/10239511X>,
+        <http://datos.bne.es/resource/XX1071927>,
+        <http://id.loc.gov/authorities/nr95018231>,
+        <http://isni.org/isni/0000000373432202>,
+        <https://www.idref.fr/144730952> ;
+    skos:editorialNote "Encicl. italiana : Ermarco di Mitilene, Hermarcus. - . - Grande encyclopédie grecque. - . -"@fr,
+        "Frammenti / Ermarco ; trad. e commento a cura di Francesca Longo Auricchio, 1987. - . - Clavis scriptorum graecorum et latinorum : Hermarchus Mytilenaeus, Hermachus Mytilenaeus. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Hermarque_de_Mytil%C3%A8ne>,
+        <http://fr.wikipedia.org/wiki/Hermarque_de_Mytil%C3%A8ne>,
+        <http://viaf.org/viaf/270146462723127772448/>,
+        <http://wikidata.org/entity/Q542808>,
+        <http://www.idref.fr/144730952/id> ;
+    skos:note "Philosophe, disciple et successeur d'Épicure à la direction du Jardin"@fr ;
+    skos:prefLabel "Hermarchus Mytilenaeus (0340?-02.. av. J.-C.)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12264122k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12264122k#about> a foaf:Person ;
+    bnf-onto:firstYear -340 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe, disciple et successeur d'Épicure à la direction du Jardin" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0340/> ;
+    rdagroup2elements:biographicalInformation "Philosophe, disciple et successeur d'Épicure à la direction du Jardin" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0340/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 340" ;
+    bio:death "- 02.." ;
+    = <http://fr.dbpedia.org/resource/Hermarque_de_Mytil%C3%A8ne>,
+        <http://viaf.org/viaf/270146462723127772448>,
+        <http://www.idref.fr/144730952/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12264122k#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Bearded%2520Philosopher%2520-%2520Hermarcus%2520or%2520Democritus%2520Palazzo%2520Massimo%2520alle%2520Terme.jpg> ;
+    foaf:familyName "Hermarchus Mytilenaeus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12264122k> .
+

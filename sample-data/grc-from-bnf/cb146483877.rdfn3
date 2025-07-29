@@ -1,0 +1,95 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb146483877studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb146483877#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31618136z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146483877#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38847561z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146483877#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41130419x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146483877#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42738847c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146483877#about> .
+
+<https://data.bnf.fr/ark:/12148/cb435755672#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146483877#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146483877#about> .
+
+<https://data.bnf.fr/ark:/12148/cb146483877> a skos:Concept ;
+    bnf-onto:FRBNF 14648387 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "0000000122715881" ;
+    dcterms:created "2005-07-29" ;
+    dcterms:modified "2016-02-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Ascl%C3%A9piade_de_Samos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb146483877> ;
+    skos:altLabel "Asclepiades of Samos (035.?-02.. av. J.-C.)"@en,
+        "Asklepiades of Samos (035.?-02..? av. J.-C.)"@en,
+        "A̓sklepiádīs ho Sámios (035.?-02..? av. J.C.)"@fr,
+        "A̓sklepia̓dīs (035.?-02..? av. J.-C.)"@fr,
+        "Ἀσκλεπιάδης (035.?-02.. av. J.-C.)"@fr,
+        "Ἀσκλεπιάδης ὁ Σάμιος (035.?-02..? av. J.-C.)"@fr,
+        "Asclepiades Samius (035.?-02..? av. J.-C.)"@la,
+        "Asclepiades Sicelidas (035.?-02..? av. J.-C.)"@la,
+        "Sicelidas Asclepiades (035.?-02..? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118650688>,
+        <http://datos.bne.es/resource/XX930929>,
+        <http://id.loc.gov/authorities/n99014922>,
+        <https://www.idref.fr/068868871> ;
+    skos:editorialNote "Asclepiades of Samos and Leonidas of Tarentum : the poems / [edited by] Jerry Clack, 1999. - . - GDEL : Asclepiade de Samos. - . -"@fr,
+        "Clavis SGL : Asclepiades Samius. - . - Kleine Pauly : Asklepiades. - . - Dictionnaire des auteurs grecs et latins de l'Antiquité et du moyen âge : Asclépiade de Samos (connu sous le pseudonyme de Sicelidas). - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Ascl%C3%A9piade_de_Samos>,
+        <http://fr.wikipedia.org/wiki/Ascl%C3%A9piade_de_Samos>,
+        <http://isni.org/isni/0000000122715881>,
+        <http://viaf.org/viaf/172606645/>,
+        <http://wikidata.org/entity/Q471464>,
+        <http://www.idref.fr/068868871/id> ;
+    skos:note "Poète alexandrin"@fr ;
+    skos:prefLabel "Asclepiade de Samos (035.?-02..? av. J.-C)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb146483877#about> .
+
+<https://data.bnf.fr/ark:/12148/cb146483877#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète alexandrin" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:biographicalInformation "Poète alexandrin" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 035." ;
+    bio:death "- 02.." ;
+    = <http://fr.dbpedia.org/resource/Ascl%C3%A9piade_de_Samos>,
+        <http://viaf.org/viaf/172606645>,
+        <http://www.idref.fr/068868871/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb146483877#foaf:Person> ;
+    foaf:familyName "Asclepiade de Samos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb146483877> .
+

@@ -1,0 +1,61 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb469617786#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17998861w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17998861w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17998861w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb472921817#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17998861w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17998861w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17998861w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb47472936j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17998861w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17998861w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17998861w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17998861w> a skos:Concept ;
+    bnf-onto:FRBNF 17998861 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-02-23"^^xsd:date ;
+    isni:identifierValid "0000000506306585" ;
+    dcterms:created "2022-02-18" ;
+    dcterms:modified "2022-02-23" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17998861w> ;
+    skos:exactMatch <http://isni.org/isni/0000000506306585>,
+        <http://viaf.org/viaf/9164657946303130243/>,
+        <http://www.idref.fr/270891005/id> ;
+    skos:note "Moine palestinien"@fr ;
+    skos:prefLabel "Philémon de Gaza"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17998861w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17998861w#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine palestinien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Moine palestinien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://viaf.org/viaf/9164657946303130243>,
+        <http://www.idref.fr/270891005/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb17998861w#foaf:Person> ;
+    foaf:familyName "Philémon de Gaza" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17998861w> .
+

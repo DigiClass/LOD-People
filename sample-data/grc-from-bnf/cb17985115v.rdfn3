@@ -1,0 +1,49 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb46900664r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17985115v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17985115v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17985115v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17985115v> a skos:Concept ;
+    bnf-onto:FRBNF 17985115 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-12-15"^^xsd:date ;
+    isni:identifierValid "000000050549318X" ;
+    dcterms:created "2021-12-08" ;
+    dcterms:modified "2021-12-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17985115v> ;
+    skos:exactMatch <http://isni.org/isni/000000050549318X>,
+        <http://viaf.org/viaf/8164187843118202528/> ;
+    skos:note "Dessinateur de bandes dessinées"@fr ;
+    skos:prefLabel "Christos Karakitsos"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17985115v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17985115v#about> a foaf:Person ;
+    bnf-onto:firstYear 1981 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Dessinateur de bandes dessinées" ;
+    rdagroup2elements:biographicalInformation "Dessinateur de bandes dessinées" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/8164187843118202528>,
+        <https://data.bnf.fr/ark:/12148/cb17985115v#foaf:Person> ;
+    foaf:familyName "Karakitsos" ;
+    foaf:gender "male" ;
+    foaf:givenName "Christos" ;
+    foaf:name "Christos Karakitsos" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17985115v> .
+

@@ -1,0 +1,85 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb120003306studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb120003306#about> .
+
+<https://data.bnf.fr/ark:/12148/cb162628008#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb120003306#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31471484v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120003306#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120003306#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120003306#about> .
+
+<https://data.bnf.fr/ark:/12148/cb316490743#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120003306#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120003306#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120003306#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31649075f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120003306#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120003306#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120003306#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38968510w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120003306#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120003306#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120003306#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120003306> a skos:Concept ;
+    bnf-onto:FRBNF 12000330 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-24"^^xsd:date ;
+    isni:identifierValid "0000000120208341" ;
+    dcterms:created "1986-07-24" ;
+    dcterms:modified "2014-11-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Timoth%C3%A9e_de_Milet>,
+        <https://catalogue.bnf.fr/ark:/12148/cb120003306> ;
+    skos:altLabel "Thimotheus of Miletus (0447?-0360? av. J.-C.)"@fr,
+        "Timoteo di Mileto (0447?-0360? av. J.-C.)"@fr,
+        "Timotheos von Milet (0447?-0360? av. J.-C.)"@fr,
+        "Timotheus Poeta (0447?-0360? av. J.-C.)"@fr,
+        "Timótheos ho Milī́sios (0447?-0360? av. J.-C.)"@fr,
+        "Τιμόθεος ὁ Μιλήσιος (0447?-0360? av. J.-C.)"@fr,
+        "Timotheus Milesius (0447?-0360? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/11862279X>,
+        <http://id.loc.gov/authorities/n84179678>,
+        <https://www.idref.fr/028101758> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - BN Cat. gén.. - . -"@fr,
+        "Persae / Timotheus ; a commentary by T. H. Janssen, 1984. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Timoth%C3%A9e_de_Milet>,
+        <http://fr.wikipedia.org/wiki/Timoth%C3%A9e_de_Milet>,
+        <http://isni.org/isni/0000000120208341>,
+        <http://viaf.org/viaf/262405895/>,
+        <http://wikidata.org/entity/Q669691>,
+        <http://www.idref.fr/028101758/id> ;
+    skos:prefLabel "Timothée de Milet (0447?-0360? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb120003306#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120003306#about> a foaf:Person ;
+    bnf-onto:firstYear -447 ;
+    bnf-onto:lastYear -360 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0360/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0447/> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0447/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0360/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 447" ;
+    bio:death "- 360" ;
+    = <http://fr.dbpedia.org/resource/Timoth%C3%A9e_de_Milet>,
+        <http://viaf.org/viaf/262405895>,
+        <http://www.idref.fr/028101758/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb120003306#foaf:Person> ;
+    foaf:familyName "Timothée de Milet" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb120003306> .
+

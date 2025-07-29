@@ -1,0 +1,55 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb37118247v#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb135670111#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb135670111#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135670111#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135670111> a skos:Concept ;
+    bnf-onto:FRBNF 13567011 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-31"^^xsd:date ;
+    isni:identifierValid "0000000061498536" ;
+    dcterms:created "2000-08-23" ;
+    dcterms:modified "2013-07-31" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb135670111> ;
+    skos:altLabel "Adamantius (auteur d'un dialogue anti-marcionite, 02..-03..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102378010> ;
+    skos:editorialNote "Dialogue on the true faith in God / Adamantius ; translated with a commentary by Robert A. Pretty ; ed. for publication by Garry W. Trompf, 1997. - . - Clavis SGL. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000061498536>,
+        <http://viaf.org/viaf/311229154/>,
+        <http://wikidata.org/entity/Q4680115> ;
+    skos:note "Auteur d'un dialogue anti-marcionite \"sur la vraie foi en Dieu\" souvent attribué à Origène et composé entre 280 et 313. - Vécut probablement en Asie mineure ou Syrie"@fr ;
+    skos:prefLabel "Adamantius antimarcionista (02..-03..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb135670111#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135670111#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur d'un dialogue anti-marcionite \"sur la vraie foi en Dieu\" souvent attribué à Origène et composé entre 280 et 313. - Vécut probablement en Asie mineure ou Syrie" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0301-0400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Auteur d'un dialogue anti-marcionite \"sur la vraie foi en Dieu\" souvent attribué à Origène et composé entre 280 et 313. - Vécut probablement en Asie mineure ou Syrie" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "03.." ;
+    = <http://viaf.org/viaf/311229154>,
+        <https://data.bnf.fr/ark:/12148/cb135670111#foaf:Person> ;
+    foaf:familyName "Adamantius antimarcionista" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb135670111> .
+

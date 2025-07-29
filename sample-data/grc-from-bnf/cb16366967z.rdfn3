@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bio="http://vocab.org/bio/0.1/"
+   xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+   xmlns:bnfroles="http://data.bnf.fr/vocabulary/roles/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdaa="http://rdaregistry.info/Elements/a/#"
+   xmlns:rdagroup2elements="http://rdvocab.info/ElementsGr2/"
+   xmlns:rdau="http://rdaregistry.info/Elements/u/#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb16366967z#about">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:familyName>Gabriel Hieromonachos</foaf:familyName>
+    <foaf:gender>male</foaf:gender>
+    <bio:death>14..</bio:death>
+    <bio:birth>14..</bio:birth>
+    <rdagroup2elements:biographicalInformation>Compositeur et théoricien de la musique. - Moine au couvent des Xanthopouloi à Constantinople. - Actif dans la première moitié du 15e siècle</rdagroup2elements:biographicalInformation>
+    <rdaa:P50113>Compositeur et théoricien de la musique. - Moine au couvent des Xanthopouloi à Constantinople. - Actif dans la première moitié du 15e siècle</rdaa:P50113>
+    <foaf:page rdf:resource="https://data.bnf.fr/ark:/12148/cb16366967z"/>
+    <rdagroup2elements:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/grc"/>
+    <rdaa:P50102 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/grc"/>
+    <rdagroup2elements:countryAssociatedWithThePerson rdf:resource="http://id.loc.gov/vocabulary/countries/gr"/>
+    <rdaa:P50097 rdf:resource="http://id.loc.gov/vocabulary/countries/gr"/>
+    <owl:sameAs rdf:resource="https://data.bnf.fr/ark:/12148/cb16366967z#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb16366967z">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16366967</bnf-onto:FRBNF>
+    <skos:editorialNote xml:lang="fr">Abhandlung über den Kirchengesang / Gabriel Hieromonachos, 1985 (Monumenta musicae byzantinae. Corpus scriptorum de re musica. 1). - . - The Oxford dictionary of Byzantium : Gabriel Hieromonachos. - . -</skos:editorialNote>
+    <skos:editorialNote xml:lang="fr">MGG : Gabriel Hieromonachos. - . - Grove 6 : Gabriel Hieromonachus. - . - Clavis SGL : Gabriel Hieromonachus. - . -</skos:editorialNote>
+    <skos:prefLabel>Gabriel Hieromonachos</skos:prefLabel>
+    <skos:altLabel xml:lang="la">Gabriel Hieromonachus</skos:altLabel>
+    <skos:note xml:lang="fr">Compositeur et théoricien de la musique. - Moine au couvent des Xanthopouloi à Constantinople. - Actif dans la première moitié du 15e siècle</skos:note>
+    <dcterms:created>2013-01-02</dcterms:created>
+    <dcterms:modified>2014-01-17</dcterms:modified>
+    <foaf:focus rdf:resource="https://data.bnf.fr/ark:/12148/cb16366967z#about"/>
+    <rdfs:seeAlso rdf:resource="https://catalogue.bnf.fr/ark:/12148/cb16366967z"/>
+    <rdau:P61160 rdf:resource="http://www.rdaregistry.info/termList/statIdentification/1003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb430504183#Expression">
+    <bnfroles:r70 rdf:resource="https://data.bnf.fr/ark:/12148/cb16366967z#about"/>
+    <marcrel:aut rdf:resource="https://data.bnf.fr/ark:/12148/cb16366967z#about"/>
+    <dcterms:contributor rdf:resource="https://data.bnf.fr/ark:/12148/cb16366967z#about"/>
+  </rdf:Description>
+</rdf:RDF>

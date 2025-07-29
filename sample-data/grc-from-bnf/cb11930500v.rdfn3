@@ -1,0 +1,93 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30947560p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930500v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34818644q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930500v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34942406z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930500v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35623019n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930500v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb452812348#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930500v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930500v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11930500v> a skos:Concept ;
+    bnf-onto:FRBNF 11930500 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-24"^^xsd:date ;
+    isni:identifierValid "000000008132383X" ;
+    dcterms:created "1985-06-22" ;
+    dcterms:modified "2014-07-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nic%C3%A9phore_Basilak%C3%A8s>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11930500v> ;
+    skos:altLabel "Niceforo Basilace (1115?-1182?)"@fr,
+        "Nicephorus Basilaca (1115?-1182?)"@fr,
+        "Nicephorus Basilaces (1115?-1182?)"@fr,
+        "Nicephorus Basilicas (1115?-1182?)"@fr,
+        "Nicéphore Basilicas (1115?-1182?)"@fr,
+        "Nikīfóros Vasilákīs (1115?-1182?)"@fr,
+        "Nikëfóros Basilákës (1115?-1182?)"@fr,
+        "Nikëphórus Basilákës (1115?-1182?)"@fr,
+        "Νικηφόρος Βασιλάκης (1115?-1182?)"@fr,
+        "Nicephorus Basilaces (1115?-1182?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100954405>,
+        <http://datos.bne.es/resource/XX1708274>,
+        <http://id.loc.gov/authorities/n79027126> ;
+    skos:editorialNote "DOC / V. Volpi, 1994 : Nicephorus Basilaces. - . - Oxford Dict. of Byzantium : Basilakes, Nikephoros. - . - Encicl. italiana : Niceforo Basilace. - . -"@fr,
+        "Nicephori Basilacae Orationes et epistolae, 1984. - . - Buchwald : Basilicas, Nicéphore. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nic%C3%A9phore_Basilak%C3%A8s>,
+        <http://fr.wikipedia.org/wiki/Nic%C3%A9phore_Basilak%C3%A8s>,
+        <http://isni.org/isni/000000008132383X>,
+        <http://viaf.org/viaf/54156222/>,
+        <http://wikidata.org/entity/Q3875929>,
+        <http://www.idref.fr/027214206> ;
+    skos:note "Rhéteur du temps d'Adrien Commène, condamné comme hérésiarque en 1156-1157"@fr ;
+    skos:prefLabel "Nicéphore Basilakès (1115?-1182?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11930500v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11930500v#about> a foaf:Person ;
+    bnf-onto:firstYear 1115 ;
+    bnf-onto:lastYear 1182 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Rhéteur du temps d'Adrien Commène, condamné comme hérésiarque en 1156-1157" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1182/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1115/> ;
+    rdagroup2elements:biographicalInformation "Rhéteur du temps d'Adrien Commène, condamné comme hérésiarque en 1156-1157" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1115/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1182/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1115" ;
+    bio:death "1182" ;
+    = <http://fr.dbpedia.org/resource/Nic%C3%A9phore_Basilak%C3%A8s>,
+        <http://viaf.org/viaf/54156222>,
+        <http://www.idref.fr/027214206/id>,
+        <https://data.bnf.fr/ark:/12148/cb11930500v#foaf:Person> ;
+    foaf:familyName "Basilakès" ;
+    foaf:gender "male" ;
+    foaf:givenName "Nicéphore" ;
+    foaf:name "Nicéphore Basilakès" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11930500v> .
+

@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12356269zstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12356269z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30950201v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12356269z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12356269z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12356269z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35577838z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12356269z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12356269z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12356269z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb474703906#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12356269z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12356269z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12356269z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12356269z> a skos:Concept ;
+    bnf-onto:FRBNF 12356269 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000139971099" ;
+    dcterms:created "1993-12-21" ;
+    dcterms:modified "2019-07-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Mimnerme>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12356269z> ;
+    skos:altLabel "Mimnermos ho Kolofōniakos (0670?-06.. av. J.-C.)",
+        "Mimnermos ho Kolofōnios (0670?-06.. av. J.-C.)"@fr,
+        "Mímnermos (0670?-06.. av. J.-C.)"@fr,
+        "Μίμνερμος (0670?-06.. av. J.-C)"@fr,
+        "Μίμνερμος ὁ Κολοφώνιακος (0670?-06.. av. J.-C.)"@fr,
+        "Μίμνερμος ὁ Κολοφώνιος (0670?-06.. av. J.-C.)"@fr,
+        "Mimnermus Colophonius (0670?-06.. av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118784080>,
+        <http://datos.bne.es/resource/XX1000355>,
+        <http://id.loc.gov/authorities/n83319399> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Encycl. Grèce. - . -"@fr,
+        "GLE. - . - Larousse 20 s.. - . - Kleine Pauly. - . -"@fr,
+        "The fragments of Mimnermus / Archibald Allen, 1993. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Mimnerme>,
+        <http://fr.wikipedia.org/wiki/Mimnerme>,
+        <http://isni.org/isni/0000000139971099>,
+        <http://viaf.org/viaf/249318061/>,
+        <http://wikidata.org/entity/Q316129>,
+        <http://www.idref.fr/088480763> ;
+    skos:note "Poète élégiaque et musicien. - Né à Colophon, cité ionienne de Lydie (plutôt qu'à Smyrne, de parents originaires de Colophon). - Actif entre 632 et 600"@fr ;
+    skos:prefLabel "Mimnerme de Colophon (0670?-06.. av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12356269z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12356269z#about> a foaf:Person ;
+    bnf-onto:firstYear -670 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète élégiaque et musicien. - Né à Colophon, cité ionienne de Lydie (plutôt qu'à Smyrne, de parents originaires de Colophon). - Actif entre 632 et 600" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0700--0601/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0670/> ;
+    rdagroup2elements:biographicalInformation "Poète élégiaque et musicien. - Né à Colophon, cité ionienne de Lydie (plutôt qu'à Smyrne, de parents originaires de Colophon). - Actif entre 632 et 600" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0670/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0700--0601/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 670" ;
+    bio:death "- 06.." ;
+    = <http://fr.dbpedia.org/resource/Mimnerme>,
+        <http://viaf.org/viaf/249318061>,
+        <http://www.idref.fr/088480763/id>,
+        <https://data.bnf.fr/ark:/12148/cb12356269z#foaf:Person> ;
+    foaf:familyName "Mimnerme de Colophon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12356269z> .
+

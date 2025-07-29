@@ -1,0 +1,68 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16969066w#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16969062h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb43894663n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16969062h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16969062h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16969062h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16969062h> a skos:Concept ;
+    bnf-onto:FRBNF 16969062 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2018-12-26"^^xsd:date ;
+    isni:identifierValid "0000000454211911" ;
+    dcterms:created "2015-06-03" ;
+    dcterms:modified "2018-12-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Ph%C3%A8dre_%28philosophe%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16969062h> ;
+    skos:altLabel "Phaedrus the Epicurean (0138? av. J.-C.-0070 av. J.-C.)"@en,
+        "Faîdros (0138? av. J.-C.-0070 av. J.-C.)"@fr,
+        "Phaîdros (0138? av. J.-C.-0070 av. J.-C.)"@fr,
+        "Φαῖδρος (0138? av. J.-C.-0070 av. J.-C.)"@fr,
+        "Fèdro (0138? av. J.-C.-0070 av. J.-C.)"@it,
+        "Phaedrus (0138? av. J.-C.-0070 av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119165368> ;
+    skos:editorialNote "Phaedri Epicurei, vulgo Anonymi Herculanensis, De natura deorum / fragmentum instauratum et illustratum a Christiano Petersen, 1833. - . - Dictionnaire des philosophes antiques / dir. Richard Goulet, 1989- : Phèdre d'Athènes. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Ph%C3%A8dre_%28philosophe%29>,
+        <http://fr.wikipedia.org/wiki/Ph%C3%A8dre_%28philosophe%29>,
+        <http://isni.org/isni/0000000454211911>,
+        <http://viaf.org/viaf/1304145857046422921300/>,
+        <http://wikidata.org/entity/Q1050414> ;
+    skos:note "Philosophe épicurien"@fr ;
+    skos:prefLabel "Phèdre d'Athènes (0138? av. J.-C.-0070 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16969062h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16969062h#about> a foaf:Person ;
+    bnf-onto:firstYear -138 ;
+    bnf-onto:lastYear -70 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe épicurien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0070/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0138/> ;
+    rdagroup2elements:biographicalInformation "Philosophe épicurien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0138/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0070/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 138" ;
+    bio:death "- 70" ;
+    = <http://fr.dbpedia.org/resource/Ph%C3%A8dre_%28philosophe%29>,
+        <http://viaf.org/viaf/1304145857046422921300>,
+        <https://data.bnf.fr/ark:/12148/cb16969062h#foaf:Person> ;
+    foaf:familyName "Phèdre d'Athènes" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16969062h> .
+

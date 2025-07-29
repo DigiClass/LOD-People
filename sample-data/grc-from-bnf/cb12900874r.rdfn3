@@ -1,0 +1,66 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb35302449h#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb12900874r#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb12900874r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12900874r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12900874r> a skos:Concept ;
+    bnf-onto:FRBNF 12900874 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000389171481" ;
+    dcterms:created "1991-07-18" ;
+    dcterms:modified "2017-02-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12900874r> ;
+    skos:altLabel "Theodore de Syncelle"@fr,
+        "Theódōros Sýgkellos"@fr,
+        "Théodore le Syncelle"@fr,
+        "Θεόδωρος Σύγκελλος"@fr,
+        "Teodoro Sincello"@it,
+        "Theodorus Syncellus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/103115439>,
+        <http://id.loc.gov/authorities/n90640880> ;
+    skos:editorialNote "DOC : dizionario delle opere classiche / Vittorio Volpi, 1994. - . - Clavis SGL : Theodorus Constantinopolitanus presbyter et syncellus. - . - Karagiannopoulos. - . -"@fr,
+        "Opuscula byzantina 3. Traduction et commentaire de l'homélie écrit probablement par Théodore le Syncelle sur le siège de Constantinople en 626 / Ferenc Makk ; avec un préface de S. Szádeczky-Kardoss, 1975. - . - Chevalier : Théodore, prêtre et syncelle de l'Église patriarchale à Constantinople. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000389171481>,
+        <http://viaf.org/viaf/282558418/>,
+        <http://wikidata.org/entity/Q96598013>,
+        <http://www.idref.fr/161433162> ;
+    skos:note "Hagiographe et chroniqueur. - Syncelle de Sainte Sophie, Constantinople"@fr ;
+    skos:prefLabel "Théodore Syncelle"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12900874r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12900874r#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Hagiographe et chroniqueur. - Syncelle de Sainte Sophie, Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0801-0900/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:biographicalInformation "Hagiographe et chroniqueur. - Syncelle de Sainte Sophie, Constantinople" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "08.." ;
+    bio:death "08.." ;
+    = <http://viaf.org/viaf/282558418>,
+        <http://www.idref.fr/161433162/id>,
+        <https://data.bnf.fr/ark:/12148/cb12900874r#foaf:Person> ;
+    foaf:familyName "Théodore Syncelle" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12900874r> .
+

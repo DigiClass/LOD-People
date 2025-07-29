@@ -1,0 +1,57 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb41051673r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16550351m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16550351m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16550351m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16550351m> a skos:Concept ;
+    bnf-onto:FRBNF 16550351 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "0000000432706331" ;
+    dcterms:created "2011-11-16" ;
+    dcterms:modified "2020-12-10" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16550351m> ;
+    skos:altLabel "Paul Nicaios"@fr,
+        "Paulos Nikaios"@fr,
+        "Paûlos Nikaíos"@fr,
+        "Παῦλος Νικαίος"@fr,
+        "Paolo di Nicea"@it,
+        "Paulus Nicaenus"@la,
+        "Paulus Nicaeus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100957277>,
+        <https://www.idref.fr/261807625> ;
+    skos:editorialNote "Manuale medico / Paolo di Nicea ; testo edito per la prima volta, con introduzione, apparato critico, traduzione e note a cura di Anna Maria Ieraci Bio, 1996. - . - Dictionnaire des auteurs grecs et latins de l'Antiquité et du moyen âge : Paul Nicaios. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000432706331>,
+        <http://viaf.org/viaf/266085843/>,
+        <http://wikidata.org/entity/Q112135948>,
+        <http://www.idref.fr/261807625/id> ;
+    skos:note "Auteur d'un ouvrage médical. - Aurait vécu entre le VIIe et le Xe siècle"@fr ;
+    skos:prefLabel "Paul de Nicée"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16550351m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16550351m#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur d'un ouvrage médical. - Aurait vécu entre le VIIe et le Xe siècle" ;
+    rdagroup2elements:biographicalInformation "Auteur d'un ouvrage médical. - Aurait vécu entre le VIIe et le Xe siècle" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/266085843>,
+        <http://www.idref.fr/261807625/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb16550351m#foaf:Person> ;
+    foaf:familyName "Paul de Nicée" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16550351m> .
+

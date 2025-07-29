@@ -1,0 +1,57 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb454392397#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17725291n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17725291n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17725291n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17725291n> a skos:Concept ;
+    bnf-onto:FRBNF 17725291 ;
+    dcterms:created "2018-04-03" ;
+    dcterms:modified "2018-06-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Alexandre_de_Cotyaion>,
+        <https://catalogue.bnf.fr/ark:/12148/cb17725291n> ;
+    skos:altLabel "Alexandros aus Kotiaeion"@de,
+        "Alexander of Cotianeum"@en ;
+    skos:closeMatch <http://d-nb.info/gnd/1159718172>,
+        <http://id.loc.gov/authorities/n2018037481>,
+        <https://www.idref.fr/225362163> ;
+    skos:editorialNote "Fragments / Alexandros de Cotiaeon ; introduits, traduits et commentés par Jean-Luc Vix, 2018. - . - New Pauly : Alexandros aus Kotiaeion. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Alexandre_de_Cotyaion>,
+        <http://fr.wikipedia.org/wiki/Alexandre_de_Cotyaion>,
+        <http://viaf.org/viaf/126152380135201762130/>,
+        <http://wikidata.org/entity/Q2834170> ;
+    skos:note "Grammairien phrygien, né vers 70-80, mort vers 150. - Précepteur de Marc-Aurèle"@fr ;
+    skos:prefLabel "Alexandros de Cotiaeon"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17725291n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17725291n#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Grammairien phrygien, né vers 70-80, mort vers 150. - Précepteur de Marc-Aurèle" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Grammairien phrygien, né vers 70-80, mort vers 150. - Précepteur de Marc-Aurèle" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "00.." ;
+    bio:death "01.." ;
+    = <http://fr.dbpedia.org/resource/Alexandre_de_Cotyaion>,
+        <http://viaf.org/viaf/126152380135201762130>,
+        <https://data.bnf.fr/ark:/12148/cb17725291n#foaf:Person> ;
+    foaf:familyName "Alexandros de Cotiaeon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17725291n> .
+

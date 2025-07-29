@@ -1,0 +1,91 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12205314hstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12205314h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18014984s#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12205314h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31685604f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12205314h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12205314h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12205314h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31685605s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12205314h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12205314h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12205314h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb316856064#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12205314h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12205314h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12205314h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31685607g#Expression> bnfroles:r170 <https://data.bnf.fr/ark:/12148/cb12205314h#about> ;
+    marcrel:clb <https://data.bnf.fr/ark:/12148/cb12205314h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12205314h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12205314h> a skos:Concept ;
+    bnf-onto:FRBNF 12205314 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-10-16"^^xsd:date ;
+    isni:identifierValid "0000000381760310" ;
+    dcterms:created "1991-06-27" ;
+    dcterms:modified "2024-10-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Z%C3%A9non_de_Kition>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12205314h> ;
+    skos:altLabel "Zenon von Kition"@de,
+        "Zī́nōn ho Kitieús (0335?-0264? av. J.-C.)"@el,
+        "Ζήνων ὁ Κιτιεύς (0335?-0264? av. J.-C.)"@el,
+        "Zénon de Cittium"@fr,
+        "Zénon de Kition"@fr,
+        "Zeno Citiensis (0335?-0264? av. J.-C.)"@la,
+        "Zeno Citieus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118636510>,
+        <http://datos.bne.es/resource/XX866438>,
+        <http://id.loc.gov/authorities/n50061829>,
+        <https://www.idref.fr/030687276> ;
+    skos:editorialNote "Encycl. Grèce. - . - BN Cat. gén. : Zénon de Kition. - . -"@fr,
+        "GLU. - . - Dictionnaire des philosophes, 1984. - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Zenonis Citiensis De rebus physicis doctrinae fundamentum / ex adjectis fragmentis constituit Karl Troost, 1891. - . - Zenon von Kition : Positionen und Probleme / Andreas Graeser, 1975. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Z%C3%A9non_de_Kition>,
+        <http://fr.wikipedia.org/wiki/Z%C3%A9non_de_Kition>,
+        <http://isni.org/isni/0000000381760310>,
+        <http://viaf.org/viaf/316435744/>,
+        <http://wikidata.org/entity/Q171303>,
+        <http://www.idref.fr/030687276/id> ;
+    skos:note "Philosophe. - Fondateur de l'école stoïcienne"@fr ;
+    skos:prefLabel "Zénon de Cition (0335?-0264? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12205314h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12205314h#about> a foaf:Person ;
+    bnf-onto:firstYear -335 ;
+    bnf-onto:lastYear -264 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe. - Fondateur de l'école stoïcienne" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0264/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0335/> ;
+    rdagroup2elements:biographicalInformation "Philosophe. - Fondateur de l'école stoïcienne" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0335/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0264/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 335" ;
+    bio:death "- 264" ;
+    = <http://fr.dbpedia.org/resource/Z%C3%A9non_de_Kition>,
+        <http://viaf.org/viaf/316435744>,
+        <http://www.idref.fr/030687276/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12205314h#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Paolo%2520Monti%2520-%2520Servizio%2520fotografico%2520%2528Napoli%252C%25201969%2529%2520-%2520BEIC%25206353768.jpg> ;
+    foaf:familyName "Zénon de Cition" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12205314h> .
+

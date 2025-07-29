@@ -1,0 +1,103 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12256863cstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30008668k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30008669x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31298024n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31708282c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32080409h#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb320804112#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb355213441#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35621790g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256863c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12256863c> a skos:Concept ;
+    bnf-onto:FRBNF 12256863 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "0000000369547277" ;
+    dcterms:created "1992-07-27" ;
+    dcterms:modified "2016-11-07" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Alcman>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12256863c> ;
+    skos:altLabel "Alcmane"@fr,
+        "Alkman"@fr,
+        "̓Alkmán"@fr,
+        "Ἀλκμάν"@fr,
+        "Alcman Lydus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118644467>,
+        <http://datos.bne.es/resource/XX1002282>,
+        <http://id.loc.gov/authorities/n85148658>,
+        <https://www.idref.fr/031333605> ;
+    skos:editorialNote "Alcman, Stesichorus, Ibycus / ed. Malcolm Davies, 1991. - . - GDEL. - . -"@fr,
+        "DOC / V. Volpi, 1994. - . - BN Cat. gén.. - . -"@fr,
+        "Laffont Bompiani, Auteurs. - . - Buchwald : Alcman de Sardes. - . - Clavis SGL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Alcman>,
+        <http://fr.wikipedia.org/wiki/Alcman>,
+        <http://isni.org/isni/0000000369547277>,
+        <http://viaf.org/viaf/100166478/>,
+        <http://wikidata.org/entity/Q298850>,
+        <http://www.idref.fr/031333605/id> ;
+    skos:note "Poète lyrique"@fr ;
+    skos:prefLabel "Alcman"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12256863c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12256863c#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète lyrique" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0700--0601/> ;
+    rdagroup2elements:biographicalInformation "Poète lyrique" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0700--0601/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 06.." ;
+    bio:death "- 05.." ;
+    = <http://fr.dbpedia.org/resource/Alcman>,
+        <http://viaf.org/viaf/100166478>,
+        <http://www.idref.fr/031333605/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12256863c#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Mosa%25C3%25AFque%2520romaine%2520d%2527%25C3%2589gypte%2520repr%25C3%25A9sentant%2520le%2520po%25C3%25A8te%2520grec%2520Alkman%2520buvant%2520du%2520vin.jpg> ;
+    foaf:familyName "Alcman" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12256863c> .
+

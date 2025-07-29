@@ -1,0 +1,87 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30041071z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134850631#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134850631#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134850631#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31101171q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134850631#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134850631#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134850631#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31101173d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134850631#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134850631#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134850631#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31102281j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134850631#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134850631#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134850631#about> .
+
+<https://data.bnf.fr/ark:/12148/cb134850631> a skos:Concept ;
+    bnf-onto:FRBNF 13485063 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000117727861" ;
+    dcterms:created "1998-07-28" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb134850631> ;
+    skos:altLabel "Filippo il Solitario"@fr,
+        "Fílippos ho Monótikos"@fr,
+        "Fílippos ho Monótropos"@fr,
+        "Fílippos ho Solitários"@fr,
+        "Philippe Monotropos"@fr,
+        "Philippus Monotropus"@fr,
+        "Phílippos ho Monótikos"@fr,
+        "Phílippos ho Monótropos"@fr,
+        "Phílippos ho Solitários"@fr,
+        "Φίλιππος ὁ Μονότικος"@fr,
+        "Φίλιππος ὁ Μονότροπος"@fr,
+        "Φίλιππος ὁ Σολιτάριος"@fr,
+        "Philippus Solitarius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/10095846X>,
+        <http://datos.bne.es/resource/XX1772132>,
+        <http://id.loc.gov/authorities/no2009026864>,
+        <https://www.idref.fr/067046681> ;
+    skos:editorialNote "Chevalier. - . - Buchwald : Philippe Monotropos. - . - Clavis SGL, PMA et Dizionario delle opere classiche / Vittorio Volpi, 1994 : Philippus Solitarius. - . -"@fr,
+        "Encycl. Grèce. - . - BN Cat. gén.. - . -"@fr,
+        "Pleurs / de Philippe le Solitaire, poème en vers politique ; publié d'après six manuscrits de la Bibliothèque nationale par l'abbé Emmanuel Auvray, 1875. - . - Philippi Solitarii Dioptra, id est Regula [...] / omnia nunc primum latinitate donata a Jacobo Pontano, 1604. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000117727861>,
+        <http://viaf.org/viaf/102335977/>,
+        <http://wikidata.org/entity/Q7184092>,
+        <http://www.idref.fr/067046681/id> ;
+    skos:note "Moine, a vécu du temps d'Alexis I (1081-1118). - Auteur d'un poème et d'un traité en pentadécasyllabes sur la connaissance de soi"@fr ;
+    skos:prefLabel "Philippe le Solitaire"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb134850631#about> .
+
+<https://data.bnf.fr/ark:/12148/cb134850631#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine, a vécu du temps d'Alexis I (1081-1118). - Auteur d'un poème et d'un traité en pentadécasyllabes sur la connaissance de soi" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1101-1200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:biographicalInformation "Moine, a vécu du temps d'Alexis I (1081-1118). - Auteur d'un poème et d'un traité en pentadécasyllabes sur la connaissance de soi" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1101-1200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "10.." ;
+    bio:death "11.." ;
+    = <http://viaf.org/viaf/102335977>,
+        <http://www.idref.fr/067046681/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb134850631#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k330489.thumbnail> ;
+    foaf:familyName "Philippe le Solitaire" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb134850631> .
+

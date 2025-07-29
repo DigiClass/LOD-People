@@ -1,0 +1,64 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb136081313studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb136081313#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37213485x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb136081313#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb136081313#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb136081313#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45039580t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb136081313#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb136081313#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb136081313#about> .
+
+<https://data.bnf.fr/ark:/12148/cb136081313> a skos:Concept ;
+    bnf-onto:FRBNF 13608131 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000374059403" ;
+    dcterms:created "2001-02-26" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Domninos_de_Larissa>,
+        <https://catalogue.bnf.fr/ark:/12148/cb136081313> ;
+    skos:altLabel "Domninos Larissaon",
+        "Domninus de Laodicée"@fr,
+        "Domninus le Philosophe"@fr,
+        "Domnino di Larissa"@it,
+        "Domninus Larissus"@la,
+        "Domninus Philosophus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102391726>,
+        <http://id.loc.gov/authorities/no2001064983> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Domninos_de_Larissa>,
+        <http://fr.wikipedia.org/wiki/Domninos_de_Larissa>,
+        <http://isni.org/isni/0000000374059403>,
+        <http://viaf.org/viaf/2119406/>,
+        <http://wikidata.org/entity/Q1238588>,
+        <http://www.idref.fr/069507880> ;
+    skos:note "Philosophe néo-platonicien. - Pas de forme française consacrée par l'usage, 2001-2-26"@fr ;
+    skos:prefLabel "Domninus de Larisse"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb136081313#about> .
+
+<https://data.bnf.fr/ark:/12148/cb136081313#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe néo-platonicien. - Pas de forme française consacrée par l'usage, 2001-2-26" ;
+    rdagroup2elements:biographicalInformation "Philosophe néo-platonicien. - Pas de forme française consacrée par l'usage, 2001-2-26" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://fr.dbpedia.org/resource/Domninos_de_Larissa>,
+        <http://viaf.org/viaf/2119406>,
+        <http://www.idref.fr/069507880/id>,
+        <https://data.bnf.fr/ark:/12148/cb136081313#foaf:Person> ;
+    foaf:familyName "Domninus de Larisse" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb136081313> .
+

@@ -1,0 +1,70 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb155775038#about> dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13517842g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb307921215#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb13517842g#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb13517842g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13517842g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13517842g> a skos:Concept ;
+    bnf-onto:FRBNF 13517842 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "0000000066308762" ;
+    dcterms:created "1998-12-23" ;
+    dcterms:modified "2018-05-22" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/L%C3%A9on_le_Grammairien>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13517842g> ;
+    skos:altLabel "Léōn Grammatikós"@fr,
+        "Leo Asianus"@la,
+        "Leo Car"@la,
+        "Leo Caramenus"@la,
+        "Leo Grammaticus"@la,
+        "Leo Grammaticus Asianus Caramenus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100951767>,
+        <https://www.idref.fr/067058841> ;
+    skos:editorialNote "Encycl. Grèce. - . - BN Cat. gén.. - . -"@fr,
+        "Hoefer. - . - DOC / Vittorio Volpi, 1994. - . - Clavis SGL : Leo Grammaticus Asianus Caramenus. - . -"@fr,
+        "S. P. N. Theophanis abbatis agri et confessoris Chronographia. Cui accedunt Leonis Grammatici, auctoris incerti, Anastasii Bibliothecarii historiarum sui temporis quae supersunt. Coronidis vice ponitur Godefridi Henschenii dissertatio de Chronographia S. Theophanis / accurante et denuo recognoscente J.-P. Migne, 1996. - . - Buchwald. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/L%C3%A9on_le_Grammairien>,
+        <http://fr.wikipedia.org/wiki/L%C3%A9on_le_Grammairien>,
+        <http://isni.org/isni/0000000066308762>,
+        <http://viaf.org/viaf/7176151247960044270000/>,
+        <http://wikidata.org/entity/Q1625599>,
+        <http://www.idref.fr/067058841/id> ;
+    skos:note "Historien byzantin. - Mentionné en 1013"@fr ;
+    skos:prefLabel "Léon le Grammairien"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13517842g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13517842g#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien byzantin. - Mentionné en 1013" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1001-1100/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:biographicalInformation "Historien byzantin. - Mentionné en 1013" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "09.." ;
+    bio:death "10.." ;
+    = <http://fr.dbpedia.org/resource/L%C3%A9on_le_Grammairien>,
+        <http://viaf.org/viaf/7176151247960044270000>,
+        <http://www.idref.fr/067058841/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb13517842g#foaf:Person> ;
+    foaf:familyName "Léon le Grammairien" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13517842g> .
+

@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb178242144#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb178240090#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30600998f#Expression> bnfroles:r120 <https://data.bnf.fr/ark:/12148/cb178240090#about> ;
+    marcrel:cwt <https://data.bnf.fr/ark:/12148/cb178240090#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb178240090#about> .
+
+<https://data.bnf.fr/ark:/12148/cb325140627#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb178240090#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb178240090#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45551015b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb178240090#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb178240090#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb178240090#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45785224s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb178240090#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb178240090#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb178240090#about> .
+
+<https://data.bnf.fr/ark:/12148/cb178240090> a skos:Concept ;
+    bnf-onto:FRBNF 17824009 ;
+    dcterms:created "2019-07-08" ;
+    dcterms:modified "2019-07-11" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb178240090> ;
+    skos:altLabel "Iohannes Pediasimus"@fr,
+        "I̓ō̄ánnīs ho Pediásimos"@fr,
+        "I̓ō̄ánnīs ho Pediásimos (1240?-131.)"@fr,
+        "I̓ō̄ánnës ho Pediásimos"@fr,
+        "Joannes Pedasimus"@fr,
+        "John Pediasimos"@fr,
+        "Ἰοάννης ὁ Πεδιάσιμος"@fr,
+        "Ἰοάννης ὁ Πεδιάσιμος (1240?-131.)"@fr,
+        "Johannes Pediasimus (1240?-131.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100968937>,
+        <http://datos.bne.es/resource/XX5350762>,
+        <http://id.loc.gov/authorities/no2009027533>,
+        <http://isni.org/isni/0000000440384731> ;
+    skos:editorialNote "Essai sur les douze travaux d'Héracles / Jean Pédiasimos ; é́dition critique, traduction et introduction par Katrien Levrie, 2018. - . - DOC / V. Volpi, 1994 : Johannes Pediasimus. - . -"@fr,
+        "LC Authorithies : Pediasimus, Ioannes. - http://id.loc.gov/authorities/. - 2019-07-08 The Oxford Dictionary of Byzantium, 2005 : Pediasimos, John. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/235844321/>,
+        <http://wikidata.org/entity/Q16853945>,
+        <http://www.idref.fr/152311815> ;
+    skos:note "Savant et lettré byzantin, mythographe"@fr ;
+    skos:prefLabel "Jean Pediasimos (1240?-131.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb178240090#about> .
+
+<https://data.bnf.fr/ark:/12148/cb178240090#about> a foaf:Person ;
+    bnf-onto:firstYear 1240 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Savant et lettré byzantin, mythographe" ;
+    rdaa:P50119 "Thessalonique" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1301-1400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1240/> ;
+    rdagroup2elements:biographicalInformation "Savant et lettré byzantin, mythographe" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1240/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Thessalonique" ;
+    bio:birth "1240" ;
+    bio:death "131." ;
+    = <http://viaf.org/viaf/235844321>,
+        <http://www.idref.fr/152311815/id>,
+        <https://data.bnf.fr/ark:/12148/cb178240090#foaf:Person> ;
+    foaf:familyName "Pediasimos" ;
+    foaf:gender "male" ;
+    foaf:givenName "Jean" ;
+    foaf:name "Jean Pediasimos" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb178240090> .
+

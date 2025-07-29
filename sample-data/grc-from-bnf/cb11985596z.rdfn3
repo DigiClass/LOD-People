@@ -1,0 +1,76 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb312689773#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11985596z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb348218632#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11985596z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41636175w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11985596z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44426516b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11985596z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46816036b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11985596z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11985596z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11985596z> a skos:Concept ;
+    bnf-onto:FRBNF 11985596 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-24"^^xsd:date ;
+    isni:identifierValid "0000000081650443" ;
+    dcterms:created "1985-09-05" ;
+    dcterms:modified "2013-07-25" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Rufin_%28po%C3%A8te_grec%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11985596z> ;
+    skos:altLabel "Rufin (poète, 00.. ?-01.. ?)"@fr,
+        "Rufinus (poète, 00.. ?-01.. ?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102405093>,
+        <http://id.loc.gov/authorities/no97005749> ;
+    skos:editorialNote "The Epigrams of Rufinus, 1978. - . - Année philologique. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Rufin_%28po%C3%A8te_grec%29>,
+        <http://fr.wikipedia.org/wiki/Rufin_%28po%C3%A8te_grec%29>,
+        <http://isni.org/isni/0000000081650443>,
+        <http://viaf.org/viaf/92504576/>,
+        <http://wikidata.org/entity/Q2114435>,
+        <http://www.idref.fr/027916219> ;
+    skos:note "Poète de l'Anthologie palatine, auteur d'épigrammes érotiques"@fr ;
+    skos:prefLabel "Rufinus Epigrammaticus (00.. ?-01.. ?)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11985596z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11985596z#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète de l'Anthologie palatine, auteur d'épigrammes érotiques" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Poète de l'Anthologie palatine, auteur d'épigrammes érotiques" ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "00.." ;
+    bio:death "01.." ;
+    = <http://fr.dbpedia.org/resource/Rufin_%28po%C3%A8te_grec%29>,
+        <http://viaf.org/viaf/92504576>,
+        <http://www.idref.fr/027916219/id>,
+        <https://data.bnf.fr/ark:/12148/cb11985596z#foaf:Person> ;
+    foaf:familyName "Rufinus Epigrammaticus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11985596z> .
+

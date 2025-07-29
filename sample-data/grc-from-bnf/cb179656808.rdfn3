@@ -1,0 +1,56 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb46843196c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb179656808#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb179656808#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb179656808#about> .
+
+<https://data.bnf.fr/ark:/12148/cb179656808> a skos:Concept ;
+    bnf-onto:FRBNF 17965680 ;
+    dcterms:created "2021-09-09" ;
+    dcterms:modified "2021-09-11" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb179656808> ;
+    skos:altLabel "Ephippus d'Athènes (04..?-03..? av. J.-C.)"@fr,
+        "Éphippe (04..?-03..? av. J.-C.)"@fr,
+        "̓́Ephippos (04..?-03..? av. J.-C.)"@fr,
+        "̓́Ephippos ho A̓thīnaîos"@fr,
+        "Ἔφιππος (04..?-03..? av. J.-C.)"@fr,
+        "Ἔφιππος ὁ Ἀθηναῖος"@fr,
+        "Efippo (04..?-03..? av. J.-C.)"@it,
+        "Ephippus (04..?-03..? av. J.-C.)"@la,
+        "Ephippus Atheniensis"@la ;
+    skos:editorialNote "Ephippus / introduction, translation, commentary Athina Papachrysostomou, cop. 2021. - . - Larousse, 19e s.. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/18163408942000092271/> ;
+    skos:note "Poète comique"@fr ;
+    skos:prefLabel "Éphippe d'Athènes"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb179656808#about> .
+
+<https://data.bnf.fr/ark:/12148/cb179656808#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète comique" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Poète comique" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 03.." ;
+    = <http://viaf.org/viaf/18163408942000092271>,
+        <https://data.bnf.fr/ark:/12148/cb179656808#foaf:Person> ;
+    foaf:familyName "Éphippe d'Athènes" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb179656808> .
+

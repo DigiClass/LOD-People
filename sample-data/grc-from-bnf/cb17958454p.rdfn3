@@ -1,0 +1,62 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb417594097#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb17958454p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb17958454p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17958454p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17958454p> a skos:Concept ;
+    bnf-onto:FRBNF 17958454 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-08-11"^^xsd:date ;
+    isni:identifierValid "0000000503160437" ;
+    dcterms:created "2021-07-23" ;
+    dcterms:modified "2024-09-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17958454p> ;
+    skos:altLabel "ʼAgathókleia (reine de Bactriane, 01..-0100? av. J.-C.)"@el,
+        "ʼAgathókleia Theótropos (reine de Bactriane, 01..-0100? av. J.-C.)"@el,
+        "Ἀγαθόκλεια (reine de Bactriane, 01.-0100? av. J.-C.)"@el,
+        "Ἀγαθόκλεια Θεότροπος (reine de Bactriane, 01..-0100? av. J.-C.)"@el,
+        "Agathocleia of Bactria (reine de Bactriane, 01..-0100? av. J.-C.)"@en,
+        "Agathocleia Theotropos (reine de Bactriane, 01..-0100 av. J.-C.)"@fr,
+        "Agathocleia (reine de Bactriane, 01..-0100? av. J.-C.)"@la ;
+    skos:exactMatch <http://isni.org/isni/0000000503160437>,
+        <http://viaf.org/viaf/32163155851001311684/> ;
+    skos:note "Reine indo-grecque, en tant que régente de son fils Straton Ier, de 110 environ à 100 environ av. J.-C.. - Serait la veuve de Ménandre Ier ou, plus tardivement de Nicias ou de Théophilos"@fr ;
+    skos:prefLabel "Agathocléia (reine de Bactriane, 01..-0100? v. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17958454p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17958454p#about> a foaf:Person ;
+    bnf-onto:lastYear -100 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Reine indo-grecque, en tant que régente de son fils Straton Ier, de 110 environ à 100 environ av. J.-C.. - Serait la veuve de Ménandre Ier ou, plus tardivement de Nicias ou de Théophilos" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0100/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Reine indo-grecque, en tant que régente de son fils Straton Ier, de 110 environ à 100 environ av. J.-C.. - Serait la veuve de Ménandre Ier ou, plus tardivement de Nicias ou de Théophilos" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0100/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 01.." ;
+    bio:death "- 100" ;
+    = <http://viaf.org/viaf/32163155851001311684>,
+        <https://data.bnf.fr/ark:/12148/cb17958454p#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b85110761.thumbnail> ;
+    foaf:familyName "Agathocléia" ;
+    foaf:gender "female" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17958454p> .
+

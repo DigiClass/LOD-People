@@ -1,0 +1,64 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb41280907h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16504215d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16504215d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16504215d#about> .
+
+<https://data.bnf.fr/temp-work/4a192a7bf91b19a8aa8b9c2b229ed656/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16504215d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16504215d> a skos:Concept ;
+    bnf-onto:FRBNF 16504215 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000118748576" ;
+    dcterms:created "2011-04-21" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16504215d> ;
+    skos:altLabel "Bárbara Pastor"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/1074663926>,
+        <http://datos.bne.es/resource/XX1045704>,
+        <http://id.loc.gov/authorities/nr95003092> ;
+    skos:editorialNote "Diccionario etimológico indoeuropeo de la lengua española / Edward A. Roberts y Bárbara Pastor, 1996. - . - Bibliothèque nationale, Espagne. - http://catalogo.bne.es. - 2011-04-21"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000118748576>,
+        <http://viaf.org/viaf/35278705/>,
+        <http://wikidata.org/entity/Q106577771>,
+        <http://www.idref.fr/069658323> ;
+    skos:note "Enseigne la philologie classique"@fr ;
+    skos:prefLabel "Bárbara Pastor de Arozena"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16504215d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16504215d#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/sp> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/eng>,
+        <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat>,
+        <http://id.loc.gov/vocabulary/iso639-2/spa> ;
+    rdaa:P50113 "Enseigne la philologie classique" ;
+    rdagroup2elements:biographicalInformation "Enseigne la philologie classique" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/sp> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/eng>,
+        <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat>,
+        <http://id.loc.gov/vocabulary/iso639-2/spa> ;
+    = <http://viaf.org/viaf/35278705>,
+        <http://www.idref.fr/069658323/id>,
+        <https://data.bnf.fr/ark:/12148/cb16504215d#foaf:Person> ;
+    foaf:familyName "Pastor de Arozena" ;
+    foaf:gender "female" ;
+    foaf:givenName "Bárbara" ;
+    foaf:name "Bárbara Pastor de Arozena" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16504215d> .
+

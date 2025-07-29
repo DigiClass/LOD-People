@@ -1,0 +1,75 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb43571789z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16678199k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16678199k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16678199k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16678199k> a skos:Concept ;
+    bnf-onto:FRBNF 16678199 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000063203500" ;
+    dcterms:created "2013-04-19" ;
+    dcterms:modified "2013-12-18" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Apollodore_de_Pergame>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16678199k> ;
+    skos:altLabel "Apollódōros (0104?-0022? av. J.-C.)"@fr,
+        "Apollódōros o Pergamīnós (0104?-0022? av. J.-C.)"@fr,
+        "̓Apollódōros (0104?-0022? av. J.-C.)"@fr,
+        "̓Apollódōros ho Pergamīnòs (0104?-0022? av. J.-C.)"@fr,
+        "̓Apollódōros ho Pergamënòs (0104?-0022? av. J.-C.)"@fr,
+        "Απολλόδωρος (0104?-0022? av. J.-C.)"@fr,
+        "Απολλόδωρος ο Περγαμηνός (0104?-0022? av. J.-C.)"@fr,
+        "Ἀπολλόδωρος (0104?-0022? av. J.-C.)"@fr,
+        "Ἀπολλόδωρος ὁ Περγαμηνὸς (0104?-0022? av. J.-C.)"@fr,
+        "Apollodorus Pergamenus (0104?-0022? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119442841>,
+        <http://id.loc.gov/authorities/no95032676>,
+        <https://www.idref.fr/142867462> ;
+    skos:editorialNote "Encycl. Grèce :  ̓Apollódōros ho Pergamīnós (né en 63 av. J.-C.?). - . - Encycl. Pápyros : Apollódōros (né en 104 av. J.-C. ; mort en 22 av. J.-C.). - . - LC Authorities : Apollodorus Pergamenus (né en 104 av. J.-C. ; mort en 22 av. J.-C.). - http://authorities.loc.gov. - 2013-04-27"@fr,
+        "Fragments et témoignages / Apollodore de Pergame [et] Théodore de Gadara ; texte édité, traduit et commenté par Frédérique Woerther, 2013. - . - Larousse 20e s. : Apollodore de Pergame. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Apollodore_de_Pergame>,
+        <http://fr.wikipedia.org/wiki/Apollodore_de_Pergame>,
+        <http://isni.org/isni/0000000063203500>,
+        <http://viaf.org/viaf/90244114/>,
+        <http://wikidata.org/entity/Q963952> ;
+    skos:note "Rhéteur grec, originaire de Pergame, Asie mineure (Ier siècle av. J.-C.) ; contemporain de Cicéron. - Membre de l'École de rhétorique de Pergame, il fonda à Rome une école renommée et eut comme disciple Octave, le futur empereur Auguste"@fr ;
+    skos:prefLabel "Apollodore de Pergame (0104?-0022? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16678199k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16678199k#about> a foaf:Person ;
+    bnf-onto:firstYear -104 ;
+    bnf-onto:lastYear -22 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Rhéteur grec, originaire de Pergame, Asie mineure (Ier siècle av. J.-C.) ; contemporain de Cicéron. - Membre de l'École de rhétorique de Pergame, il fonda à Rome une école renommée et eut comme disciple Octave, le futur empereur Auguste" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0022/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0104/> ;
+    rdagroup2elements:biographicalInformation "Rhéteur grec, originaire de Pergame, Asie mineure (Ier siècle av. J.-C.) ; contemporain de Cicéron. - Membre de l'École de rhétorique de Pergame, il fonda à Rome une école renommée et eut comme disciple Octave, le futur empereur Auguste" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0104/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0022/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 104" ;
+    bio:death "- 22" ;
+    = <http://fr.dbpedia.org/resource/Apollodore_de_Pergame>,
+        <http://viaf.org/viaf/90244114>,
+        <https://data.bnf.fr/ark:/12148/cb16678199k#foaf:Person> ;
+    foaf:familyName "Apollodore de Pergame" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16678199k> .
+

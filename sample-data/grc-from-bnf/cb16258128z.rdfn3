@@ -1,0 +1,73 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb162581446#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16258128z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31419870z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16258128z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16258128z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16258128z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16258128z> a skos:Concept ;
+    bnf-onto:FRBNF 16258128 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "0000000002742236" ;
+    dcterms:created "2011-01-20" ;
+    dcterms:modified "2022-12-22" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Philippe_de_Sid%C3%A8>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16258128z> ;
+    skos:altLabel "Fílippos ho Sidítīs"@fr,
+        "Phílippos ho Sidítës"@fr,
+        "Φίλιππος ὁ Σιδίτης"@fr,
+        "Filippo de Side"@it,
+        "Philippus Pamphylius"@la,
+        "Philippus Sidensis"@la,
+        "Philippus Sidetes"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100233740>,
+        <http://id.loc.gov/authorities/n85356045> ;
+    skos:editorialNote "Die \"Erzählung des Aphroditian\" / Katharina Heyden, 2009. - . - BN Cat. gén.. - . -"@fr,
+        "Dissertationes in Irenaeum / auctore Henrico Dodwello,... Accedit fragmentum Philippi Sidetae hactenus ineditum de catechistarum Alexandrinorum successione, 1689. - . - Dictionnaire encyclopédique du christianisme : Philippe de Sidé. - . -"@fr,
+        "Initiation aux Pères de l'Église. III / Johannes Quasten,1963, p. 739 : Philippe de Sidé. - . - DOC / V. Volpi, 1994 : Philippus Sidensis ; Philippus Pamphylius ; Philippus Sidetes ; Filippo de Side. - . - Clavis PG : Philippus Sidensis. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Philippe_de_Sid%C3%A8>,
+        <http://fr.wikipedia.org/wiki/Philippe_de_Sid%C3%A8>,
+        <http://isni.org/isni/0000000002742236>,
+        <http://viaf.org/viaf/311358489/>,
+        <http://wikidata.org/entity/Q1816321> ;
+    skos:note "Historien. - Ordonné diacre et prêtre par Jean Chrysostome à Constantinople"@fr ;
+    skos:prefLabel "Philippe de Sidé"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16258128z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16258128z#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien. - Ordonné diacre et prêtre par Jean Chrysostome à Constantinople" ;
+    rdaa:P50119 "Sidé, Pamphylie" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Historien. - Ordonné diacre et prêtre par Jean Chrysostome à Constantinople" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Sidé, Pamphylie" ;
+    bio:birth "03.." ;
+    bio:death "04.." ;
+    = <http://fr.dbpedia.org/resource/Philippe_de_Sid%C3%A8>,
+        <http://viaf.org/viaf/311358489>,
+        <https://bp16.bnf.fr/ark:/12148/cb16258128z>,
+        <https://data.bnf.fr/ark:/12148/cb16258128z#foaf:Person> ;
+    foaf:familyName "Philippe de Sidé" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16258128z> .
+

@@ -1,0 +1,81 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb10717328gstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb10717328g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42459507f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10717328g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10717328g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10717328g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10717328g> a skos:Concept ;
+    bnf-onto:FRBNF 10717328 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "0000000061460087" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Germain_II_de_Constantinople>,
+        <https://catalogue.bnf.fr/ark:/12148/cb10717328g> ;
+    skos:altLabel "Germain 2 (patriarche de Constantinople, 1175?-1240)"@fr,
+        "Germanòs 2 (patriarche de Constantinople, 1175?-1240)"@fr,
+        "Germanòs V  ́ (patriarche de Constantinople, 1175?-1240)"@fr,
+        "Germanós 2 (patriarche de Constantinople, 1175?-1240)"@fr,
+        "Germanós V  ́ (patriarche de Constantinople, 1175?-1240)"@fr,
+        "Γερμανός 2 (patriarche de Constantinople, 1175?-1240)"@fr,
+        "Γερμανός Β´ (patriarche de Constantinople, 1175?-1240)"@fr,
+        "Γερμανὸς 2 (patriarche de Constantinople, 1175?-1240)"@fr,
+        "Γερμανὸς Β´ (patriarche de Constantinople, 1175?-1240)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/102435642>,
+        <http://id.loc.gov/authorities/no2008010256> ;
+    skos:editorialNote "Bibliothèque nationale de Grèce. - http://www.nlg.gr. - 2014-09-17 BN Cat. gén. : Germain II (patriarche de Constantinople). - . -"@fr,
+        "Germanoû V  ́ Kyriakodrómion :  ī̓́toi Patriarchikòn homiliárion V  ́ : katà toùs e̓n Parisíois kṓdikas / kritikī̀ é̓kdosis Zacharíou K. Xīntára, 1999. - . - Karagiannópoulos. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Germain_II_de_Constantinople>,
+        <http://fr.wikipedia.org/wiki/Germain_II_de_Constantinople>,
+        <http://isni.org/isni/0000000061460087>,
+        <http://viaf.org/viaf/19477764/>,
+        <http://wikidata.org/entity/Q3084273>,
+        <http://www.idref.fr/187660972> ;
+    skos:note "Patriarche oecuménique de Constantinople et Nicée de 1222 à 1240"@fr ;
+    skos:prefLabel "Germain II (patriarche de Constantinople, 1175?-1240)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10717328g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10717328g#about> a foaf:Person ;
+    bnf-onto:firstYear 1175 ;
+    bnf-onto:lastYear 1240 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Patriarche oecuménique de Constantinople et Nicée de 1222 à 1240" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1240/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1175/> ;
+    rdagroup2elements:biographicalInformation "Patriarche oecuménique de Constantinople et Nicée de 1222 à 1240" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1175/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1240/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1175" ;
+    bio:death "1240" ;
+    = <http://fr.dbpedia.org/resource/Germain_II_de_Constantinople>,
+        <http://viaf.org/viaf/19477764>,
+        <http://www.idref.fr/187660972/id>,
+        <https://data.bnf.fr/ark:/12148/cb10717328g#foaf:Person> ;
+    foaf:familyName "Germain" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10717328g> .
+

@@ -1,0 +1,74 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16933233dstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb16933233d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17842265z#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16933233d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb458132737#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16933233d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16933233d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16933233d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16933233d> a skos:Concept ;
+    bnf-onto:FRBNF 16933233 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-17"^^xsd:date ;
+    isni:identifierValid "000000044246417X" ;
+    dcterms:created "2014-12-17" ;
+    dcterms:modified "2016-02-17" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Palladas>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16933233d> ;
+    skos:altLabel "Palladâs (03..?-04..?)"@fr,
+        "Palládas (03..?-04..?)"@fr,
+        "Παλλαδᾶς (03..?-04..?)"@fr,
+        "Παλλάδας (03..?-04..?)"@fr,
+        "Pallada (03..?-04..?)"@it ;
+    skos:closeMatch <http://d-nb.info/gnd/118789333>,
+        <http://id.loc.gov/authorities/n86130306>,
+        <https://www.idref.fr/183304977> ;
+    skos:editorialNote "DOC / V. Volpi, 1994 : Palladas Alexandrinus. - . - Der kleine Pauly. - . -"@fr,
+        "New epigrams / of Palladas : a fragmentary papyrus codex (P. CtYBR inv. 4000) ; by Kevin W. Wilkinson, 2012. - . - Dictionnaire de l'Antiquité. Mythologie, littérature, civilisation, 1996. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Palladas>,
+        <http://fr.wikipedia.org/wiki/Palladas>,
+        <http://isni.org/isni/000000044246417X>,
+        <http://viaf.org/viaf/2666160667851803560003/>,
+        <http://wikidata.org/entity/Q939680>,
+        <http://www.idref.fr/183304977/id> ;
+    skos:note "Poète grec ayant vécu à Alexandrie. - Auteur d'épigrammes transmises par l'Anthologie grecque"@fr ;
+    skos:prefLabel "Palladas (03..?-04..?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16933233d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16933233d#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète grec ayant vécu à Alexandrie. - Auteur d'épigrammes transmises par l'Anthologie grecque" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Poète grec ayant vécu à Alexandrie. - Auteur d'épigrammes transmises par l'Anthologie grecque" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "03.." ;
+    bio:death "- 04.." ;
+    = <http://fr.dbpedia.org/resource/Palladas>,
+        <http://viaf.org/viaf/2666160667851803560003>,
+        <http://www.idref.fr/183304977/id/id>,
+        <https://bp16.bnf.fr/ark:/12148/cb16933233d>,
+        <https://data.bnf.fr/ark:/12148/cb16933233d#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k5790012c.thumbnail> ;
+    foaf:familyName "Palladas" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16933233d> .
+

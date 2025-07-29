@@ -1,0 +1,45 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb45883955p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb173607584#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb173607584#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb173607584#about> .
+
+<https://data.bnf.fr/ark:/12148/cb173607584> a skos:Concept ;
+    bnf-onto:FRBNF 17360758 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-06-23"^^xsd:date ;
+    isni:identifierValid "0000000382211794" ;
+    dcterms:created "2021-06-14" ;
+    dcterms:modified "2024-07-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb173607584> ;
+    skos:altLabel "Philumène"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000382211794> ;
+    skos:note "Médecin grec"@fr ;
+    skos:prefLabel "Philumenus"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb173607584#about> .
+
+<https://data.bnf.fr/ark:/12148/cb173607584#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Médecin grec" ;
+    rdagroup2elements:biographicalInformation "Médecin grec" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <https://data.bnf.fr/ark:/12148/cb173607584#foaf:Person> ;
+    foaf:familyName "Philumenus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb173607584> .
+

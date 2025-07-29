@@ -1,0 +1,63 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb135148464#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb135494387#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13514865d#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb135494387#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37048663n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb135494387#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb135494387#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135494387#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135494387> a skos:Concept ;
+    bnf-onto:FRBNF 13549438 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000140004100" ;
+    dcterms:created "1999-10-25" ;
+    dcterms:modified "2019-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb135494387> ;
+    skos:altLabel "Pseudo-Philon (0050? av. J.-C.-0050?)"@fr,
+        "Philo Alexandrinus (auteur prétendu, 0050? av. J.-C.-0050?)"@la,
+        "Pseudo-Philo (0050? av. J.-C.-0050?)"@la ;
+    skos:editorialNote "Prédications synagogales / Pseudo-Philon ; trad., notes et commentaire par Folker Siegert et Jacques de Roulet ; avec la collab. de Jean-Jacques Aubert et Nicolas Cochand, 1999. - . - ICCU : Pseudo-Philo. - http://opac.sbn.it. - 1999-10-25"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000140004100>,
+        <http://viaf.org/viaf/17386737/>,
+        <http://www.idref.fr/050492411/id> ;
+    skos:note "Auteur de prédications transmises sous le nom de Philon d'Alexandrie. - Peut-être contemporain du philosophe de la diaspora grecque?"@fr ;
+    skos:prefLabel "Philon d'Alexandrie (auteur prétendu, 0050? av. J.-C.-0050?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb135494387#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135494387#about> a foaf:Person ;
+    bnf-onto:firstYear -50 ;
+    bnf-onto:lastYear 50 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur de prédications transmises sous le nom de Philon d'Alexandrie. - Peut-être contemporain du philosophe de la diaspora grecque?" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0050/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0050/> ;
+    rdagroup2elements:biographicalInformation "Auteur de prédications transmises sous le nom de Philon d'Alexandrie. - Peut-être contemporain du philosophe de la diaspora grecque?" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0050/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0050/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 50" ;
+    bio:death "50" ;
+    = <http://viaf.org/viaf/17386737>,
+        <http://www.idref.fr/050492411/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb135494387#foaf:Person> ;
+    foaf:familyName "Philon d'Alexandrie" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb135494387> .
+

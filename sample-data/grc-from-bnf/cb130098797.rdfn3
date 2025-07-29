@@ -1,0 +1,77 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30935450d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb130098797#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb130098797#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb130098797#about> .
+
+<https://data.bnf.fr/ark:/12148/cb130098797> a skos:Concept ;
+    bnf-onto:FRBNF 13009879 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "0000000001607710" ;
+    dcterms:created "1995-05-10" ;
+    dcterms:modified "2015-03-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/M%C3%A9trodore_de_Lampsaque_%28le_Jeune%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb130098797> ;
+    skos:altLabel "Métrodore (0331?-0278? av. J.-C.)"@fr,
+        "Métrodore de Lampsaque (0331?-0278? av. J.-C.)"@fr,
+        "Mētródōros Lampskēnós (0331?-0278? av. J.-C.)"@fr,
+        "Mētródōros ho Lampsakēnós (0331?-0278? av. J.-C.)"@fr,
+        "Mītródōros Lampsakīnós (0331?-0278? av. J.-C.)"@fr,
+        "Mītródōros ho Lampsakīnós (0331?-0278? av. J.-C.)"@fr,
+        "Μητρόδωρος Λαμψακηνός (0331?-0278? av. J.-C.)"@fr,
+        "Μητρόδωρος ὁ Λαμψακηνός (0331?-0278? av. J.-C.)"@fr,
+        "Metrodorus Epicureus (0331?-0278? av. J.-C.)"@la,
+        "Metrodorus Lampsacenus (0331?-0278? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/11878353X>,
+        <http://id.loc.gov/authorities/n86092955> ;
+    skos:editorialNote "Encycl. grèce. - . - BN Cat. gén. : Métrodore l'épicurien. - . -"@fr,
+        "Les oeuvres philosophiques. Dictionnaire. t. I / vol. dirigé par Jean-François Mattei, 1992 : cf. art. : Métrodore de Lampsaque. - . - Clavis SGL : Metrodorus Lampsacenus Epicureus. - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Metrodori Epicurei fragmenta collegit scriptoris incerti epicurei commentarium moralem / subjecit Alfredus Koerte, 1890. - . - Larousse 19e et Chevalier : Métrodore. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/M%C3%A9trodore_de_Lampsaque_%28le_Jeune%29>,
+        <http://fr.wikipedia.org/wiki/M%C3%A9trodore_de_Lampsaque_%28le_Jeune%29>,
+        <http://isni.org/isni/0000000001607710>,
+        <http://viaf.org/viaf/12440139/>,
+        <http://wikidata.org/entity/Q780259>,
+        <http://www.idref.fr/253882931/id> ;
+    skos:note "Philosophe, ami et disciple d'Épicure"@fr ;
+    skos:prefLabel "Métrodore l'Épicurien (0331?-0278? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb130098797#about> .
+
+<https://data.bnf.fr/ark:/12148/cb130098797#about> a foaf:Person ;
+    bnf-onto:firstYear -331 ;
+    bnf-onto:lastYear -278 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe, ami et disciple d'Épicure" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0278/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0331/> ;
+    rdagroup2elements:biographicalInformation "Philosophe, ami et disciple d'Épicure" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0331/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0278/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 331" ;
+    bio:death "- 278" ;
+    = <http://fr.dbpedia.org/resource/M%C3%A9trodore_de_Lampsaque_%28le_Jeune%29>,
+        <http://viaf.org/viaf/12440139>,
+        <http://www.idref.fr/253882931/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb130098797#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Metrodorus%2520Louvre.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k65022q.thumbnail> ;
+    foaf:familyName "Métrodore l'Épicurien" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb130098797> .
+

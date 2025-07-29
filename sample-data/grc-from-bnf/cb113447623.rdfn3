@@ -1,0 +1,77 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb113447623studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb113447623#about> .
+
+<https://data.bnf.fr/ark:/12148/cb113447623> a skos:Concept ;
+    bnf-onto:FRBNF 11344762 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000078285369" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2024-09-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Constantin_III_Lichoud%C3%A8s>,
+        <https://catalogue.bnf.fr/ark:/12148/cb113447623> ;
+    skos:altLabel "Kōnstantínos 3 (patriarche de Constantinople, 10..?-1063)",
+        "Kōnstantínos G´ (patriarche de Constantinople, 10..?-1063)",
+        "Kōnstantinos Leichoudēs (patriarche de Constantinople, 10..?-1063)",
+        "Constantin 3 (patriarche de Constantinople, 10..?-1063)"@fr,
+        "Constantin Lichudis (patriarche de Constantinople, 10..?-1063)"@fr,
+        "Kōnstantínos Leichoúdīs (patriarche de Constantinople, 10..?-1063)"@fr,
+        "Kōnstantínos Leichoúdēs (patriarche de Constantinople, 10..?-1063)"@fr,
+        "Κωνσταντίνος 3 (patriarche de Constantinople, 10..?-1063)"@fr,
+        "Κωνσταντίνος Γʹ (patriarche de Constantinople, 10..?-1063)"@fr,
+        "Κωνσταντίνος Λειχούδης (patriarche de Constantinople, 10..?-1063)"@fr,
+        "Costantino Lichudi (patriarche de Constantinople, 10..?-1063)"@it,
+        "Constantinus Lichudes (patriarche de Constantinople, 10..?-1063)"@la ;
+    skos:closeMatch <http://id.loc.gov/authorities/nr89002184> ;
+    skos:editorialNote "Chronologie des patriarches de Constantinople de 966 à 1111 in : \"Échos d'Orient\", XXXV, 1936, p. 77 sq.. - . - LC Authorities : Leichoudēs, Kōnstantinos, d. 1064. - http://authorities.loc.gov/. - 2006-05-24"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Constantin_III_Lichoud%C3%A8s>,
+        <http://fr.wikipedia.org/wiki/Constantin_III_Lichoud%C3%A8s>,
+        <http://isni.org/isni/0000000078285369>,
+        <http://viaf.org/viaf/9689751/>,
+        <http://wikidata.org/entity/Q139194> ;
+    skos:note "Premier ministre de Constantin IX (1042-vers 1050). - Patriarche de Constantinople du 9 février 1059 à sa mort. - Meurt le 9 ou le 10 août 1063"@fr ;
+    skos:prefLabel "Constantin III (patriarche de Constantinople, 10..?-1063)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb113447623#about> .
+
+<https://data.bnf.fr/ark:/12148/cb113447623#about> a foaf:Person ;
+    bnf-onto:lastYear 1063 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Premier ministre de Constantin IX (1042-vers 1050). - Patriarche de Constantinople du 9 février 1059 à sa mort. - Meurt le 9 ou le 10 août 1063" ;
+    rdaa:P50118 "Constantinople" ;
+    rdaa:P50119 "Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1063/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:biographicalInformation "Premier ministre de Constantin IX (1042-vers 1050). - Patriarche de Constantinople du 9 février 1059 à sa mort. - Meurt le 9 ou le 10 août 1063" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1063/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Constantinople" ;
+    rdagroup2elements:placeOfDeath "Constantinople" ;
+    bio:birth "10.." ;
+    bio:death "1063-08-10" ;
+    = <http://fr.dbpedia.org/resource/Constantin_III_Lichoud%C3%A8s>,
+        <http://viaf.org/viaf/9689751>,
+        <https://data.bnf.fr/ark:/12148/cb113447623#foaf:Person> ;
+    foaf:familyName "Constantin" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb113447623> .
+

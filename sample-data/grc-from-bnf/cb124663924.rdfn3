@@ -1,0 +1,63 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb35737136v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb124663924#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb124663924#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb124663924#about> .
+
+<https://data.bnf.fr/ark:/12148/cb124663924> a skos:Concept ;
+    bnf-onto:FRBNF 12466392 ;
+    dcterms:created "1995-06-01" ;
+    dcterms:modified "2012-02-23" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Adrien_de_Cantorb%C3%A9ry>,
+        <https://catalogue.bnf.fr/ark:/12148/cb124663924> ;
+    skos:altLabel "Hadrian (063.-0709?)"@en,
+        "Hadrian of Africa (063.-0709?)"@en,
+        "Adrien (063.-0709?)"@fr,
+        "Adrianus (063.-0709?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119222272>,
+        <https://www.idref.fr/033848084> ;
+    skos:editorialNote "Biblical commentaries from the Canterbury school of Theodore and Hadrian / ed. by Bernhard Bischoff and Michael Lapidge, 1994. - . - Larousse 19e s. : abbé Adrien (article \"Théodore (saint), archevêque de Cantorbéry\"). - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Adrien_de_Cantorb%C3%A9ry>,
+        <http://fr.wikipedia.org/wiki/Adrien_de_Cantorb%C3%A9ry>,
+        <http://viaf.org/viaf/221787681/>,
+        <http://wikidata.org/entity/Q1274084>,
+        <http://www.idref.fr/033848084/id> ;
+    skos:note "Enseignait et écrivait aussi en latin"@fr,
+        "Peut-être originaire de Libye. - Venu en Italie à la suite des conquêtes arabes, il fut abbé d'un monastère en Italie du Sud ; il suivit Théodore de Canterbury en Angleterre où il devint  et demeura jusqu'à sa mort abbé du monastère de SS Pierre et Paul (devenu plus tard monastère de saint Augustin) à Canterbury. - Son enseignement exégétique nous est connu par les notes de ses auditeurs. - Pas de forme française de son nom consacrée par l'usage, 1995-12-18"@fr ;
+    skos:prefLabel "Hadrianus (063.-0709?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb124663924#about> .
+
+<https://data.bnf.fr/ark:/12148/cb124663924#about> a foaf:Person ;
+    bnf-onto:lastYear 709 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Enseignait et écrivait aussi en latin",
+        "Peut-être originaire de Libye. - Venu en Italie à la suite des conquêtes arabes, il fut abbé d'un monastère en Italie du Sud ; il suivit Théodore de Canterbury en Angleterre où il devint  et demeura jusqu'à sa mort abbé du monastère de SS Pierre et Paul (devenu plus tard monastère de saint Augustin) à Canterbury. - Son enseignement exégétique nous est connu par les notes de ses auditeurs. - Pas de forme française de son nom consacrée par l'usage, 1995-12-18" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0709/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:biographicalInformation "Enseignait et écrivait aussi en latin",
+        "Peut-être originaire de Libye. - Venu en Italie à la suite des conquêtes arabes, il fut abbé d'un monastère en Italie du Sud ; il suivit Théodore de Canterbury en Angleterre où il devint  et demeura jusqu'à sa mort abbé du monastère de SS Pierre et Paul (devenu plus tard monastère de saint Augustin) à Canterbury. - Son enseignement exégétique nous est connu par les notes de ses auditeurs. - Pas de forme française de son nom consacrée par l'usage, 1995-12-18" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0709/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "063." ;
+    bio:death "709" ;
+    = <http://fr.dbpedia.org/resource/Adrien_de_Cantorb%C3%A9ry>,
+        <http://viaf.org/viaf/221787681>,
+        <http://www.idref.fr/033848084/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb124663924#foaf:Person> ;
+    foaf:familyName "Hadrianus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb124663924> .
+

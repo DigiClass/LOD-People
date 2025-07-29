@@ -1,0 +1,60 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16641787xstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb16641787x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16641787x> a skos:Concept ;
+    bnf-onto:FRBNF 16641787 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "0000000078572675" ;
+    dcterms:created "2012-11-15" ;
+    dcterms:modified "2016-11-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16641787x> ;
+    skos:altLabel "Antiochos von Askalon (0120?-0068 av. J.C.)"@de,
+        "Antiochus of Ascalon (0120?-0068 av. J.-C.)"@en,
+        "Antiochos d'Ascalon (0120?-0068 av.J.-C.)"@fr,
+        "̓Antíochōs ho ̓Askalōnítīs (0120?-0068 av. J.-C.)"@fr,
+        "Ἀντίοχως ὁ Ἀσκαλωνίτης (0120?-0068 av. J.-C.)"@fr,
+        "Antioco di Ascalona (0120?-0068 av. J.-C.)"@it,
+        "Antiochus Ascalonius (0120?-0068 av. J.-C.)"@la ;
+    skos:editorialNote "Ency. philo. univ., III, Dict. des oeuvres philosophiques, t. 1, p. 28. - . - Ency. univ.. - http://www.universalis.fr/encyclopedie/antiochus-d-ascalon/. - LC Authorities : Antiochus, of Ascalon, d. 68 B.C.. - http://authorities.loc.gov. - 2012-11-15"@fr,
+        "The philosophy of Antiochus / edited by David Sedley, 2012. - . - Dictionnaire des philosophes antiques / éd. R. Goulet, vol. 1, p. 216-218. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000078572675> ;
+    skos:note "Né à Ascalon, Palestine ; élève et successeur de Philon de Larissa à la tête de l'Académie en 79 av. J.C., son éclectisme ou syncrétisme a forgé l'idée d'une \"philosophia perennis\" et concilié les académiciens, péripatéticiens et stoïciens ; il eut une grande influence sur Cicéron, Brutus et Varron"@fr ;
+    skos:prefLabel "Antiochus d'Ascalon (0120?-0068 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16641787x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16641787x#about> a foaf:Person ;
+    bnf-onto:firstYear -120 ;
+    bnf-onto:lastYear -68 ;
+    rdaa:P50100 <http://dewey.info/class/930/>,
+        "Archéologie. Préhistoire. Histoire ancienne" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Né à Ascalon, Palestine ; élève et successeur de Philon de Larissa à la tête de l'Académie en 79 av. J.C., son éclectisme ou syncrétisme a forgé l'idée d'une \"philosophia perennis\" et concilié les académiciens, péripatéticiens et stoïciens ; il eut une grande influence sur Cicéron, Brutus et Varron" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0068/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0120/> ;
+    rdagroup2elements:biographicalInformation "Né à Ascalon, Palestine ; élève et successeur de Philon de Larissa à la tête de l'Académie en 79 av. J.C., son éclectisme ou syncrétisme a forgé l'idée d'une \"philosophia perennis\" et concilié les académiciens, péripatéticiens et stoïciens ; il eut une grande influence sur Cicéron, Brutus et Varron" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0120/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0068/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/930/>,
+        "Archéologie. Préhistoire. Histoire ancienne" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 120" ;
+    bio:death "- 68" ;
+    = <https://data.bnf.fr/ark:/12148/cb16641787x#foaf:Person> ;
+    foaf:familyName "Antiochus d'Ascalon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16641787x> .
+

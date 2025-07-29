@@ -1,0 +1,70 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb18119814qstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb18119814q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb302657065#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb18119814q#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb18119814q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb18119814q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31192408w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb18119814q#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb18119814q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb18119814q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb473377188#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb18119814q#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb18119814q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb18119814q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18119814q> a skos:Concept ;
+    bnf-onto:FRBNF 18119814 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2023-12-20"^^xsd:date ;
+    isni:identifierValid "000000006254539X" ;
+    dcterms:created "2023-12-14" ;
+    dcterms:modified "2024-02-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb18119814q> ;
+    skos:altLabel "Kōnstantínos ho Ródios (0870?-093.?)"@el,
+        "Κωνσταντίνος ὁ Ρόδιος (0870?-093.?)"@el,
+        "Constantin de Rhodes (0870?-093.?)"@fr,
+        "Constantinus Rhodius (0870?-093.?)"@la ;
+    skos:editorialNote "Dictionnaire des auteurs grecs et latins du l'Antiquité et du Moyen-Âge, 1991 : Constantin le Rhodien. - . - DOC / V. Volpi, 1994 : Constantinus Rhodius. - . -"@fr,
+        "Ecphrasis ecclesiae sanctorum apostolorum ; Carmina scoptica ; Appendices / Constantinus Rhodius. Carmina scoptica / Theodorus Paphlago ; ediderunt Claudio De Stefani, Gioacchino Strano, 2024. - . - BNN Cat. gén.. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000006254539X> ;
+    skos:note "Poète, né vers 870 ou 880 à Lindos, Rhodes, décédé après 931. - Fonctionnaire de la chancellerie impériale, auteur d'épigrammes et de poèmes satiriques sur Léon Choirosphactès et Théodore de Paphlagonie, d'une description des sept merveilles de Constantinoples et de l'église des Saints-Apôtres, restaurée par Justinien"@fr ;
+    skos:prefLabel "Constantin le Rhodien (0870?-093.?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb18119814q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18119814q#about> a foaf:Person ;
+    bnf-onto:firstYear 870 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète, né vers 870 ou 880 à Lindos, Rhodes, décédé après 931. - Fonctionnaire de la chancellerie impériale, auteur d'épigrammes et de poèmes satiriques sur Léon Choirosphactès et Théodore de Paphlagonie, d'une description des sept merveilles de Constantinoples et de l'église des Saints-Apôtres, restaurée par Justinien" ;
+    rdaa:P50118 "Rhodes (Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0901-1000/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0870/> ;
+    rdagroup2elements:biographicalInformation "Poète, né vers 870 ou 880 à Lindos, Rhodes, décédé après 931. - Fonctionnaire de la chancellerie impériale, auteur d'épigrammes et de poèmes satiriques sur Léon Choirosphactès et Théodore de Paphlagonie, d'une description des sept merveilles de Constantinoples et de l'église des Saints-Apôtres, restaurée par Justinien" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0870/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfDeath "Rhodes (Grèce)" ;
+    bio:birth "870" ;
+    bio:death "093." ;
+    = <https://data.bnf.fr/ark:/12148/cb18119814q#foaf:Person> ;
+    foaf:familyName "Constantin le Rhodien" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb18119814q> .
+

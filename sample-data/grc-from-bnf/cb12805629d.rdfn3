@@ -1,0 +1,91 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16701176z#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12805629d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb167011779#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12805629d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb167152276#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12805629d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30032671n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12805629d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12805629d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12805629d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb352834644#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12805629d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12805629d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12805629d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42730545x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12805629d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12805629d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12805629d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12805629d> a skos:Concept ;
+    bnf-onto:FRBNF 12805629 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000382049811" ;
+    dcterms:created "1991-01-08" ;
+    dcterms:modified "2025-03-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Ascl%C3%A9pios_de_Tralles>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12805629d> ;
+    skos:altLabel "'Asklēpios Trallianós (05..-05..)"@fr,
+        "'Asklīpiós Trallianós (05..-05..)"@fr,
+        "Asclépios de Tralles (05..-05..)"@fr,
+        "Ἀσκληπιός Τραλλιανός (05..-05..)"@fr,
+        "Asclepius (commentateur d'Aristote, 05..-05..)"@la,
+        "Asclepius Trallensis (05..-05..)"@la,
+        "Asclepius Trallensis Neoplatonicus (05..-05..)"@la,
+        "Asclepius Trallianus (05..-05..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100938507>,
+        <http://datos.bne.es/resource/XX5202814>,
+        <http://id.loc.gov/authorities/n00123190> ;
+    skos:editorialNote "Asclepii in Aristotelis metaphysicorum libros A-Z commentaria / ed. Michael Hayduck, 1888. - . - Dictionnaire des philosophes antiques / publ. sous la dir. de Richard Goulet, 1989. - . -"@fr,
+        "Buchwald : Asclépios de Tralles. - . - Clavis SGL : Asclepius Trallensis Neoplatonicus. - . - Dizionario delle opere classiche / Vittorio Volpi, 1994 : Asclepius Trallianus. - . -"@fr,
+        "Encycl. Grèce. - . - BN Cat. gén.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Ascl%C3%A9pios_de_Tralles>,
+        <http://fr.wikipedia.org/wiki/Ascl%C3%A9pios_de_Tralles>,
+        <http://isni.org/isni/0000000382049811>,
+        <http://viaf.org/viaf/24956661/>,
+        <http://wikidata.org/entity/Q732098>,
+        <http://www.idref.fr/067066755> ;
+    skos:note "Philosophe néoplatonicien, auteur de commentaires sur Aristote"@fr ;
+    skos:prefLabel "Asclépius de Tralles (05..-05..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12805629d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12805629d#about> a foaf:Person ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe néoplatonicien, auteur de commentaires sur Aristote" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Philosophe néoplatonicien, auteur de commentaires sur Aristote" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://fr.dbpedia.org/resource/Ascl%C3%A9pios_de_Tralles>,
+        <http://viaf.org/viaf/24956661>,
+        <http://www.idref.fr/067066755/id>,
+        <https://data.bnf.fr/ark:/12148/cb12805629d#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Asclepio%2520di%2520tralle%252C%2520commentario%2520al%2520libro%2520alpha%2520meizon%2520della%2520metafisica%2520di%2520aristotele%2520%2528in%2520greco%2529%252C%2520corf%25C3%25B9%25201564%2520%2528pluteo%252086.11%2529.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k25505p.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k3043028p.thumbnail> ;
+    foaf:familyName "Asclépius de Tralles" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12805629d> .
+

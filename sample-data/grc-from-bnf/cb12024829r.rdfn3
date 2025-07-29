@@ -1,0 +1,98 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12024829rstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb306068331#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb316356408#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb324300379#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33042459v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34797992n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb356971614#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41215416v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12024829r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12024829r> a skos:Concept ;
+    bnf-onto:FRBNF 12024829 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000381877578" ;
+    dcterms:created "1987-03-16" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Hipponax>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12024829r> ;
+    skos:altLabel "Hiponacte"@es,
+        "Hippô̄nax"@fr,
+        "Ἱππῶναξ"@fr,
+        "Ipponatte"@it,
+        "Hipponax Ephesius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118705156>,
+        <http://datos.bne.es/resource/XX1772125>,
+        <http://id.loc.gov/authorities/n84058405>,
+        <https://www.idref.fr/028407261> ;
+    skos:editorialNote "BN Cat. gén.. - . - BN Cat. gén. 1960-1969. - . -"@fr,
+        "Clavis SGL : Hipponax Ephesius. - . - DOC / V. Volpi, 1994 : Hipponax Ephesius. - . - Encicl. italiana : Ipponatte. - . -"@fr,
+        "GLE. - . - Laffon--Bompiani, Auteurs. - . - Kleine Pauly. - . -"@fr,
+        "Hipponactis testimonia et fragmenta / itervm ed. Hentzivs Degani, 1991. - . - Larousse, 19e s.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Hipponax>,
+        <http://fr.wikipedia.org/wiki/Hipponax>,
+        <http://isni.org/isni/0000000381877578>,
+        <http://viaf.org/viaf/100169461/>,
+        <http://wikidata.org/entity/Q367377>,
+        <http://www.idref.fr/028407261/id> ;
+    skos:note "Poète satirique. - Fut exilé à Clazomènes. - Aurait été le créateur du vers iambique scazon ou choliambe"@fr ;
+    skos:prefLabel "Hipponax"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12024829r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12024829r#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète satirique. - Fut exilé à Clazomènes. - Aurait été le créateur du vers iambique scazon ou choliambe" ;
+    rdaa:P50119 "Éphèse" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:biographicalInformation "Poète satirique. - Fut exilé à Clazomènes. - Aurait été le créateur du vers iambique scazon ou choliambe" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Éphèse" ;
+    bio:birth "- 05.." ;
+    bio:death "- 05.." ;
+    = <http://fr.dbpedia.org/resource/Hipponax>,
+        <http://viaf.org/viaf/100169461>,
+        <http://www.idref.fr/028407261/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12024829r#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Hipponax%2520of%2520Ephesus.jpg> ;
+    foaf:familyName "Hipponax" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12024829r> .
+

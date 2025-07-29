@@ -1,0 +1,82 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb123481767studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb123481767#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15938552k#about> dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123481767#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32649808n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123481767#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123481767#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123481767#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35662495f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123481767#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123481767#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123481767#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37397869k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123481767#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123481767#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123481767#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123481767> a skos:Concept ;
+    bnf-onto:FRBNF 12348176 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000403614323" ;
+    dcterms:created "1993-11-16" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Straton_de_Lampsaque>,
+        <https://catalogue.bnf.fr/ark:/12148/cb123481767> ;
+    skos:altLabel "Straton von Lampsakos (0340?-0268 av. J.-C.)"@de,
+        "Straton le Physicien (0340?-0268 av. J.-C.)"@fr,
+        "Strátōn (0340?-0268 av. J.C.)"@fr,
+        "Στράτων (0340?-0268 av. J.C.)"@fr,
+        "Straton Lampsacenus (0340?-0268 av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118755765>,
+        <http://datos.bne.es/resource/XX1281785>,
+        <http://id.loc.gov/authorities/n97001996> ;
+    skos:editorialNote "Straton von Lampsakos : Texte und Kommentar / hrsg. von Fritz Wehrli, 1969. - . - Oeuvres philosophiques, 1992. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Straton_de_Lampsaque>,
+        <http://fr.wikipedia.org/wiki/Straton_de_Lampsaque>,
+        <http://isni.org/isni/0000000403614323>,
+        <http://viaf.org/viaf/239298019/>,
+        <http://wikidata.org/entity/Q316353>,
+        <http://www.idref.fr/032455372> ;
+    skos:note "Philosophe péripatéticien, surnommé \"le Physicien\""@fr ;
+    skos:prefLabel "Straton de Lampsaque (0340?-0268 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb123481767#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123481767#about> a foaf:Person ;
+    bnf-onto:firstYear -340 ;
+    bnf-onto:lastYear -268 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe péripatéticien, surnommé \"le Physicien\"" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0268/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0340/> ;
+    rdagroup2elements:biographicalInformation "Philosophe péripatéticien, surnommé \"le Physicien\"" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0340/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0268/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 340" ;
+    bio:death "- 268" ;
+    = <http://fr.dbpedia.org/resource/Straton_de_Lampsaque>,
+        <http://viaf.org/viaf/239298019>,
+        <http://www.idref.fr/032455372/id>,
+        <https://data.bnf.fr/ark:/12148/cb123481767#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Strato%2520Nuremberg%2520Chronicle.jpg> ;
+    foaf:familyName "Straton de Lampsaque" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb123481767> .
+

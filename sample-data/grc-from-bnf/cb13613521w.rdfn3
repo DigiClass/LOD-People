@@ -1,0 +1,51 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13613521wstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13613521w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13613521w> a skos:Concept ;
+    bnf-onto:FRBNF 13613521 ;
+    dcterms:created "2001-04-03" ;
+    dcterms:modified "2001-04-05" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb13613521w> ;
+    skos:altLabel "'Emmanouḕl Pansélēnos (12..-13..)"@fr,
+        "'Emmanouī̀l Pansélīnos (12..-13..)"@fr,
+        "Manouḕl Pansélēnos (12..-13..)"@fr,
+        "Manouī̀l Pansélīnos (12..-13..)"@fr ;
+    skos:editorialNote "BN Service grec. - . - Encycl. Grèce : Pansélīnos, 'Emmanouī́l. - . -"@fr,
+        "Encycl. Pápyros : Pansélīnos, Manouī́l (fin du 13e s.-début du 14e s.). - . - Macedonian school : the school of Panselinos (1290-1320) : a flowering of Greek art / I. M. Chadjiphotis, 1995. - . -"@fr ;
+    skos:exactMatch <http://www.idref.fr/253182743/id> ;
+    skos:note "Peintre sacré byzantin ; chef de l'École macédonienne, il s'est illustré par ses fresques au Mont Athos, notamment celles de l'église du Protaton à Karyès. - Longtemps considéré comme légendaire du fait de la rareté des informations à son sujet, il fut situé par certains au 16e siècle, avant que des sources plus récentes ne le fassent vivre, plus probablement, au début du 14e siècle"@fr ;
+    skos:prefLabel "Manuel Pansélinos (12..-13..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13613521w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13613521w#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Peintre sacré byzantin ; chef de l'École macédonienne, il s'est illustré par ses fresques au Mont Athos, notamment celles de l'église du Protaton à Karyès. - Longtemps considéré comme légendaire du fait de la rareté des informations à son sujet, il fut situé par certains au 16e siècle, avant que des sources plus récentes ne le fassent vivre, plus probablement, au début du 14e siècle" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1301-1400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1201-1300/> ;
+    rdagroup2elements:biographicalInformation "Peintre sacré byzantin ; chef de l'École macédonienne, il s'est illustré par ses fresques au Mont Athos, notamment celles de l'église du Protaton à Karyès. - Longtemps considéré comme légendaire du fait de la rareté des informations à son sujet, il fut situé par certains au 16e siècle, avant que des sources plus récentes ne le fassent vivre, plus probablement, au début du 14e siècle" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1201-1300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "12.." ;
+    bio:death "13.." ;
+    = <http://www.idref.fr/253182743/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb13613521w#foaf:Person> ;
+    foaf:familyName "Pansélinos" ;
+    foaf:givenName "Manuel" ;
+    foaf:name "Manuel Pansélinos" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13613521w> .
+

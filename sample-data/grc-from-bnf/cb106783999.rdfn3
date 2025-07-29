@@ -1,0 +1,71 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb17748522s#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb106783999#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31451514j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb106783999#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb106783999#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb106783999#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32503290k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb106783999#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb106783999#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb106783999#about> .
+
+<https://data.bnf.fr/ark:/12148/cb106783999> a skos:Concept ;
+    bnf-onto:FRBNF 10678399 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2018-07-18"^^xsd:date ;
+    isni:identifierValid "0000000467938706" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb106783999> ;
+    skos:altLabel "Theodoros von Tabennese (saint, 0306?-0368)"@fr,
+        "Théodore le Tabennésiote (saint, 0306?-0368)"@fr,
+        "Teodoro di Tabennesi (saint, 0306?-0368)"@it,
+        "Theodorus Tabennensis (saint, 0306?-0368)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102407509> ;
+    skos:editorialNote "Dictionnaire encyclopédique du christianisme ancien : Théodore de Tabennesi. - . - DOC / V. Volpi, 1994 : Theodorus Tabennensis. - . - Lexikon des Mittelalters : Theodoros v. Tabennese. - . -"@fr,
+        "Pachomiana latina : règle et épitres de S. Pachome, épitre de S. Théodore et \"Liber\" de S. Orsiesius, texte latin de S. Jérôme / édité par Dom Amand Boon,..., 1932. - . - Dict. spiritualité : Théodore de Tabennesi. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000467938706>,
+        <http://viaf.org/viaf/4021153411834941700003/>,
+        <http://wikidata.org/entity/Q770191> ;
+    skos:note "Moine égyptien, disciple de saint Pacôme"@fr ;
+    skos:prefLabel "Théodore de Tabennesi (saint, 0306?-0368)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb106783999#about> .
+
+<https://data.bnf.fr/ark:/12148/cb106783999#about> a foaf:Person ;
+    bnf-onto:firstYear 306 ;
+    bnf-onto:lastYear 368 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/ua> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine égyptien, disciple de saint Pacôme" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0368/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0306/> ;
+    rdagroup2elements:biographicalInformation "Moine égyptien, disciple de saint Pacôme" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/ua> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0306/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0368/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "306" ;
+    bio:death "368" ;
+    = <http://viaf.org/viaf/4021153411834941700003>,
+        <https://data.bnf.fr/ark:/12148/cb106783999#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Theodore%2520the%2520Sanctified.JPG>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k5747864n.thumbnail> ;
+    foaf:familyName "Théodore de Tabennesi" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb106783999> .
+

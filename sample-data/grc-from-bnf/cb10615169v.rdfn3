@@ -1,0 +1,80 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb10615169vstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb10615169v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37737948b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10615169v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10615169v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10615169v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb469797410#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10615169v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10615169v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10615169v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10615169v> a skos:Concept ;
+    bnf-onto:FRBNF 10615169 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-02-20"^^xsd:date ;
+    isni:identifierValid "0000000004864747" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2024-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/C%C3%B4me_de_Ma%C3%AFouma>,
+        <https://catalogue.bnf.fr/ark:/12148/cb10615169v> ;
+    skos:altLabel "Cosma di Gerusalemme (saint, 07..-0781)"@fr,
+        "Cosmas Hagiopolites (saint, 07..-0781)"@fr,
+        "Cosmas Hierosolymitanus (saint, 07..-0781)"@fr,
+        "Cosmas Philogregorii (saint, 07..-0781)"@fr,
+        "Cosmas de Jérusalem (saint, 07..-0781)"@fr,
+        "Cosme (saint, 07..-0781)"@fr,
+        "Kosmas o Melodos"@fr,
+        "Kosmâz Hierosolymítīs (saint, 07..-0781)"@fr,
+        "Κοσμᾶς Ἱεροσολυμίτης (saint, 07..-0781)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/189567198>,
+        <http://datos.bne.es/resource/XX5285191>,
+        <http://id.loc.gov/authorities/n82050274>,
+        <https://www.idref.fr/097984205> ;
+    skos:editorialNote "Commentario ai carmi di Gregorio Nazianzeno / Cosma di Gerusalemme ; introduzione, testo critico e note a cura di Giuseppe Lozza, 2000. - . - Chevalier : Cosme (saint). - . -"@fr,
+        "DOC / V. Volpi, 1997. - . - Der kleine Pauly. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/C%C3%B4me_de_Ma%C3%AFouma>,
+        <http://fr.wikipedia.org/wiki/C%C3%B4me_de_Ma%C3%AFouma>,
+        <http://isni.org/isni/0000000004864747>,
+        <http://viaf.org/viaf/103649216/>,
+        <http://wikidata.org/entity/Q2496948>,
+        <https://musicbrainz.org/artist/6ae4ab26-bb03-4074-b3dd-40232eb4d71c> ;
+    skos:note "Poète liturgique byzantin. - Frère adoptif de Jean Damascène. - Évêque de Majuna"@fr ;
+    skos:prefLabel "Cosme de Jérusalem (saint, 07..-0781)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10615169v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10615169v#about> a foaf:Person ;
+    bnf-onto:lastYear 781 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète liturgique byzantin. - Frère adoptif de Jean Damascène. - Évêque de Majuna" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0781/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0701-0800/> ;
+    rdagroup2elements:biographicalInformation "Poète liturgique byzantin. - Frère adoptif de Jean Damascène. - Évêque de Majuna" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0701-0800/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0781/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "07.." ;
+    bio:death "781" ;
+    = <http://fr.dbpedia.org/resource/C%C3%B4me_de_Ma%C3%AFouma>,
+        <http://viaf.org/viaf/103649216>,
+        <https://data.bnf.fr/ark:/12148/cb10615169v#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Kosma-ierusalimskij.jpg> ;
+    foaf:familyName "Cosme de Jérusalem" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10615169v> .
+

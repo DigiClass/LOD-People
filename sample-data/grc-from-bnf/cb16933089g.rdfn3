@@ -1,0 +1,62 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16933089gstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb16933089g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb438090295#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16933089g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16933089g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16933089g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16933089g> a skos:Concept ;
+    bnf-onto:FRBNF 16933089 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2023-12-13"^^xsd:date ;
+    isni:identifierValid "0000000453190119" ;
+    dcterms:created "2014-12-17" ;
+    dcterms:modified "2023-12-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16933089g> ;
+    skos:altLabel "Nikophon (04..-03.. av. J.-C.)"@de,
+        "Nikofô̄n (04..-03.. av. J.-C.)"@fr,
+        "Nikophô̄n (04..-03.. av. J.-C.)"@fr,
+        "Νικοφῶν (04..-03.. av. J.-C.)"@fr,
+        "Nicofonte (04..-03.. av. J.-C.)"@it,
+        "Nicopho (04..-03.. av. J.-C.)"@la,
+        "Nicopho Comicus (04..-03.. av. J.-C.)"@la ;
+    skos:editorialNote "DOC / V. Volpi, 1994 : Nicophon. - . - Der neue Pauly. - . -"@fr,
+        "Nicofonte : introduzione, traduzione e commento / Matteo Pellegrino, 2013. - . - Larousse, 19e s.. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000453190119>,
+        <http://viaf.org/viaf/305229409/> ;
+    skos:note "Auteur de comédies"@fr ;
+    skos:prefLabel "Nicophon (04..-03.. av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16933089g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16933089g#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur de comédies" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Auteur de comédies" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 03.." ;
+    = <http://viaf.org/viaf/305229409>,
+        <https://data.bnf.fr/ark:/12148/cb16933089g#foaf:Person> ;
+    foaf:familyName "Nicophon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16933089g> .
+

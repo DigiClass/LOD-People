@@ -1,0 +1,69 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121602232studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121602232#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35119949f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121602232#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121602232#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121602232#about> .
+
+<https://data.bnf.fr/ark:/12148/cb388620984#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121602232#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121602232#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121602232#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121602232> a skos:Concept ;
+    bnf-onto:FRBNF 12160223 ;
+    dcterms:created "1990-09-04" ;
+    dcterms:modified "2014-07-21" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/%C5%92uvres_d%27Antiphon>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121602232> ;
+    skos:altLabel "Antiphon the Sophist"@fr,
+        "̓̓Antifô̄n ho Sofistḯs"@fr,
+        "̓̓Antiphô̄n ho Sophistë́s"@fr,
+        "Ἀντιφῶν ὁ σοφιστής"@fr,
+        "Antiphon Sophistes"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118649655>,
+        <http://id.loc.gov/authorities/n92070218>,
+        <http://isni.org/isni/0000000447761616>,
+        <https://www.idref.fr/030123216> ;
+    skos:editorialNote "Discours / Antiphon. Suivis des fragments / d'Antiphon le Sophiste ; texte établi et trad. par Louis Gernet, 1989. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/%C5%92uvres_d%27Antiphon>,
+        <http://fr.wikipedia.org/wiki/%C5%92uvres_d%27Antiphon>,
+        <http://viaf.org/viaf/70588804/>,
+        <http://wikidata.org/entity/Q15078686>,
+        <http://www.idref.fr/030123216/id> ;
+    skos:note "Sophiste athénien de la 2e moitié du Ve s., auteur des fragments sophistiques attribués parfois à Antiphon l'Orateur"@fr ;
+    skos:prefLabel "Antiphon le Sophiste"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121602232#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121602232#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Sophiste athénien de la 2e moitié du Ve s., auteur des fragments sophistiques attribués parfois à Antiphon l'Orateur" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Sophiste athénien de la 2e moitié du Ve s., auteur des fragments sophistiques attribués parfois à Antiphon l'Orateur" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "04.." ;
+    = <http://fr.dbpedia.org/resource/%C5%92uvres_d%27Antiphon>,
+        <http://viaf.org/viaf/70588804>,
+        <http://www.idref.fr/030123216/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb121602232#foaf:Person> ;
+    foaf:familyName "Antiphon le Sophiste" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121602232> .
+

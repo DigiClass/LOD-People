@@ -1,0 +1,75 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb125260992studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb125260992#about> .
+
+<https://data.bnf.fr/ark:/12148/cb319513396#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb125260992#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb125260992#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb125260992#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35359773x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb125260992#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb125260992#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb125260992#about> .
+
+<https://data.bnf.fr/ark:/12148/cb125260992> a skos:Concept ;
+    bnf-onto:FRBNF 12526099 ;
+    dcterms:created "1996-08-22" ;
+    dcterms:modified "2014-05-22" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Cl%C3%A9arque_de_Soles>,
+        <https://catalogue.bnf.fr/ark:/12148/cb125260992> ;
+    skos:altLabel "Kléarchos (0340?-0260? av. J.-C.)"@fr,
+        "Kléarkhos (0340?-0260? av. J.-C.)"@fr,
+        "Κλέαρχος (0340?-0260? av. J.-C.)"@fr,
+        "Clearchus (0340?-0260? av. J.-C.)"@la,
+        "Clearchus Cyprianus (0340?-0260? av. J.-C.)"@la,
+        "Clearchus Solensis (0340?-0260? av. J.-C.)"@la,
+        "Clearchus Soleus (0340?-0260? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102385033>,
+        <http://id.loc.gov/authorities/n2011039033>,
+        <http://isni.org/isni/0000000058731042>,
+        <https://www.idref.fr/034511857> ;
+    skos:editorialNote "Encycl. Grèce. - . - Encycl. Papyros. - . - Dizionario delle opere classiche / Vittorio Volpi, 1994 : Clearchus Soleus. - . -"@fr,
+        "Klearchos : [Texte und Kommentar], 1969. - . - Larousse 19e s.. - . -"@fr,
+        "PMA : Clearchus Solensis. - . - BN Service grec. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Cl%C3%A9arque_de_Soles>,
+        <http://fr.wikipedia.org/wiki/Cl%C3%A9arque_de_Soles>,
+        <http://viaf.org/viaf/206928350/>,
+        <http://wikidata.org/entity/Q736433>,
+        <http://www.idref.fr/034511857/id> ;
+    skos:note "Philosophe de l'École aristotélicienne. - Composa un recueil de biographies, un traité sur la flatterie, un recueil d'énigme, etc., parvenus sous forme de fragments"@fr ;
+    skos:prefLabel "Cléarque de Soles (0340?-0260? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb125260992#about> .
+
+<https://data.bnf.fr/ark:/12148/cb125260992#about> a foaf:Person ;
+    bnf-onto:firstYear -340 ;
+    bnf-onto:lastYear -260 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe de l'École aristotélicienne. - Composa un recueil de biographies, un traité sur la flatterie, un recueil d'énigme, etc., parvenus sous forme de fragments" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0260/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0340/> ;
+    rdagroup2elements:biographicalInformation "Philosophe de l'École aristotélicienne. - Composa un recueil de biographies, un traité sur la flatterie, un recueil d'énigme, etc., parvenus sous forme de fragments" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0340/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0260/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 340" ;
+    bio:death "- 260" ;
+    = <http://fr.dbpedia.org/resource/Cl%C3%A9arque_de_Soles>,
+        <http://viaf.org/viaf/206928350>,
+        <http://www.idref.fr/034511857/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb125260992#foaf:Person> ;
+    foaf:familyName "Cléarque de Soles" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb125260992> .
+

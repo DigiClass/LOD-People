@@ -1,0 +1,83 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb300012005#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12104592f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31152602j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12104592f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31152603w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12104592f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb311526047#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12104592f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb315884362#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12104592f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34999210c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12104592f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46608409g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12104592f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12104592f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12104592f> a skos:Concept ;
+    bnf-onto:FRBNF 12104592 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-25"^^xsd:date ;
+    isni:identifierValid "0000000080555962" ;
+    dcterms:created "1989-02-23" ;
+    dcterms:modified "2018-05-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Th%C3%A9odore_Priscien>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12104592f> ;
+    skos:altLabel "Octavius Horatianus"@fr,
+        "Teodoro Prisciano"@fr,
+        "Théodore Priscien"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/102407606>,
+        <http://datos.bne.es/resource/XX1614813>,
+        <http://id.loc.gov/authorities/n85056645> ;
+    skos:editorialNote "Theodorus Priscianus und die römische Medizin, 1909. - . - BN Cat. gén. : Priscianus (Theodorus), pseud. Horatianus (Octavius). - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Th%C3%A9odore_Priscien>,
+        <http://fr.wikipedia.org/wiki/Th%C3%A9odore_Priscien>,
+        <http://isni.org/isni/0000000080555962>,
+        <http://viaf.org/viaf/79060995/>,
+        <http://wikidata.org/entity/Q1320120>,
+        <http://www.idref.fr/029412544> ;
+    skos:note "Médecin qui a vécu vraisemblablement aux 4e et 5e siècles. - Auteur d'un “Euporiston”"@fr ;
+    skos:prefLabel "Theodorus Priscianus"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12104592f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12104592f#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Médecin qui a vécu vraisemblablement aux 4e et 5e siècles. - Auteur d'un “Euporiston”" ;
+    rdagroup2elements:biographicalInformation "Médecin qui a vécu vraisemblablement aux 4e et 5e siècles. - Auteur d'un “Euporiston”" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://fr.dbpedia.org/resource/Th%C3%A9odore_Priscien>,
+        <http://viaf.org/viaf/79060995>,
+        <http://www.idref.fr/029412544/id>,
+        <https://data.bnf.fr/ark:/12148/cb12104592f#foaf:Person> ;
+    foaf:familyName "Priscianus" ;
+    foaf:givenName "Theodorus" ;
+    foaf:name "Theodorus Priscianus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12104592f> .
+

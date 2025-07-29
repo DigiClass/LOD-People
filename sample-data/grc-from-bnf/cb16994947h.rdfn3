@@ -1,0 +1,71 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb306527794#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16994947h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16994947h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16994947h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30652780b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16994947h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16994947h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16994947h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30652781p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16994947h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16994947h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16994947h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb306527821#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16994947h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16994947h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16994947h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16994947h> a skos:Concept ;
+    bnf-onto:FRBNF 16994947 ;
+    dcterms:created "2015-10-01" ;
+    dcterms:modified "2023-06-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_de_J%C3%A9rusalem>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16994947h> ;
+    skos:altLabel "Ierṓnymos Ierosolymítīs (06..-06..)"@fr,
+        "Ιερώνυμος Ιεροσολυμίτης (06..-06..)"@fr,
+        "Hieronymus Hierosolymitanus (06..-06..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102421269> ;
+    skos:editorialNote "B. Hieronymi unius e' græcis Patribus disputatio ad institutionem christianorum utilissima, & eruditissima / 1598. - . - DTC : Jérôme de Jérusalem. - . -"@fr,
+        "Dictionnaire de spiritualité : Jérôme le Grec (ou de Jérusalem ?). - . - DOC / V. Volpi, 1994. - . - Clavis PG. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/J%C3%A9r%C3%B4me_de_J%C3%A9rusalem>,
+        <http://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_de_J%C3%A9rusalem>,
+        <http://viaf.org/viaf/281261784/>,
+        <http://wikidata.org/entity/Q3191096>,
+        <http://www.idref.fr/087216094> ;
+    skos:note "Prêtre et théologien résidant à Jérusalem"@fr ;
+    skos:prefLabel "Jérôme de Jérusalem (06..-06...)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16994947h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16994947h#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Prêtre et théologien résidant à Jérusalem" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0601-0700/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:biographicalInformation "Prêtre et théologien résidant à Jérusalem" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "06.." ;
+    bio:death "06.." ;
+    = <http://fr.dbpedia.org/resource/J%C3%A9r%C3%B4me_de_J%C3%A9rusalem>,
+        <http://viaf.org/viaf/281261784>,
+        <http://www.idref.fr/087216094/id>,
+        <https://data.bnf.fr/ark:/12148/cb16994947h#foaf:Person> ;
+    foaf:familyName "Jérôme de Jérusalem" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16994947h> .
+

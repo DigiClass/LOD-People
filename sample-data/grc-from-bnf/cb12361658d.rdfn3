@@ -1,0 +1,86 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12361658dstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12361658d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32544529d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12361658d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12361658d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12361658d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb356558414#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12361658d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12361658d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12361658d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb373978714#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12361658d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12361658d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12361658d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42668964p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12361658d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12361658d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12361658d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12361658d> a skos:Concept ;
+    bnf-onto:FRBNF 12361658 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000403603106" ;
+    dcterms:created "1994-01-19" ;
+    dcterms:modified "2024-11-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Praxiphane>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12361658d> ;
+    skos:altLabel "Praxifánes"@fr,
+        "Praxiphánes"@fr,
+        "Πραξιφάνες"@fr,
+        "Prassifane di Mitilene"@it,
+        "Prassifane di Rodi"@it,
+        "Praxiphanes Mytilenaeus"@la,
+        "Praxiphanes Rhodius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102404348>,
+        <http://id.loc.gov/authorities/n2012046294>,
+        <https://www.idref.fr/032621515> ;
+    skos:editorialNote "Clavis SGL. - . - DOC / V. Volpi, 1994. - . - Kleine Pauly : Praxiphanes. - . -"@fr,
+        "Phainias von Eresos, Chamaileon, Praxiphanes : Texte und Kommentar / hrsg. von Fritz Wehrli, 1969. - . - Prassifane, testimonianze e frammenti / Elisabetta Matelli, 2012. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Praxiphane>,
+        <http://fr.wikipedia.org/wiki/Praxiphane>,
+        <http://isni.org/isni/0000000403603106>,
+        <http://viaf.org/viaf/209783934/>,
+        <http://wikidata.org/entity/Q1159316>,
+        <http://www.idref.fr/032621515/id> ;
+    skos:note "Originaire de Mythilène, citoyen de Rhodes et de Delos. - Grammairien et philosophe aristotélicien, élève de Théophraste, maître d'Épicure"@fr ;
+    skos:prefLabel "Praxiphane"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12361658d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12361658d#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Originaire de Mythilène, citoyen de Rhodes et de Delos. - Grammairien et philosophe aristotélicien, élève de Théophraste, maître d'Épicure" ;
+    rdaa:P50119 "Mythilène" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:biographicalInformation "Originaire de Mythilène, citoyen de Rhodes et de Delos. - Grammairien et philosophe aristotélicien, élève de Théophraste, maître d'Épicure" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Mythilène" ;
+    bio:birth "- 03.." ;
+    bio:death "- 02.." ;
+    = <http://fr.dbpedia.org/resource/Praxiphane>,
+        <http://viaf.org/viaf/209783934>,
+        <http://www.idref.fr/032621515/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12361658d#foaf:Person> ;
+    foaf:familyName "Praxiphane" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12361658d> .
+

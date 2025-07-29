@@ -1,0 +1,71 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121633968studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121633968#about> .
+
+<https://data.bnf.fr/ark:/12148/cb171292562#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb121633968#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35294777r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121633968#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121633968#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121633968#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37195850b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121633968#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121633968#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121633968#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45069174d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121633968#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121633968#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121633968#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121633968> a skos:Concept ;
+    bnf-onto:FRBNF 12163396 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "000000039350201X" ;
+    dcterms:created "1990-09-27" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb121633968> ;
+    skos:altLabel "Denys d'Alexandrie (saint, 02..?-0265)"@fr,
+        "Dionigi di Alessandria (saint, 02..?-0265)"@fr,
+        "Dionysios von Alexandreia (saint, 02..?-0265)"@fr,
+        "Dionysius of Alexandrie (saint, 02..?-0265)"@fr,
+        "Dionysius the Great (saint, 02..?-0265)"@fr,
+        "Dionysius von Alexandrien (saint, 02..?-0265)"@fr,
+        "Dionysius Alexandrinus (saint, 02..?-0265)"@la ;
+    skos:editorialNote "The Ante-Nicene Fathers, vol. 6. Dionysius the Great ... / A. Roberts and J. Donaldson ed., 1987. - . - Clavis scriptorum Graecorum et Latinorum. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000039350201X>,
+        <http://viaf.org/viaf/41879900/> ;
+    skos:note "Théologien grec, élève d'Origène. - Évêque d'Alexandrie de 248 à 265"@fr ;
+    skos:prefLabel "Denis d'Alexandrie (saint, 02..?-0265)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121633968#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121633968#about> a foaf:Person ;
+    bnf-onto:lastYear 265 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Théologien grec, élève d'Origène. - Évêque d'Alexandrie de 248 à 265" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0265/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Théologien grec, élève d'Origène. - Évêque d'Alexandrie de 248 à 265" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0265/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "265" ;
+    = <http://viaf.org/viaf/41879900>,
+        <https://data.bnf.fr/ark:/12148/cb121633968#foaf:Person> ;
+    foaf:familyName "Denis d'Alexandrie" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121633968> .
+

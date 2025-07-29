@@ -1,0 +1,66 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb31014627c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134766553#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134766553#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134766553#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37521979m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134766553#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134766553#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134766553#about> .
+
+<https://data.bnf.fr/ark:/12148/cb400936899#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134766553#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134766553#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134766553#about> .
+
+<https://data.bnf.fr/ark:/12148/cb134766553> a skos:Concept ;
+    bnf-onto:FRBNF 13476655 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-08"^^xsd:date ;
+    isni:identifierValid "0000000373967995" ;
+    dcterms:created "1997-10-21" ;
+    dcterms:modified "2016-11-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nic%C3%A9tas_de_Byzance>,
+        <https://catalogue.bnf.fr/ark:/12148/cb134766553> ;
+    skos:closeMatch <http://d-nb.info/gnd/100954529>,
+        <http://datos.bne.es/resource/XX1381759>,
+        <http://id.loc.gov/authorities/no2006034401>,
+        <https://www.idref.fr/143722174> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nic%C3%A9tas_de_Byzance>,
+        <http://fr.wikipedia.org/wiki/Nic%C3%A9tas_de_Byzance>,
+        <http://isni.org/isni/0000000373967995>,
+        <http://viaf.org/viaf/53899250/>,
+        <http://wikidata.org/entity/Q1708673>,
+        <http://www.idref.fr/143722174/id> ;
+    skos:prefLabel "Nicetas Byzantinus"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb134766553#about> .
+
+<https://data.bnf.fr/ark:/12148/cb134766553#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50120 <https://data.bnf.fr/date/0801-0900/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "08.." ;
+    bio:death "08.." ;
+    = <http://fr.dbpedia.org/resource/Nic%C3%A9tas_de_Byzance>,
+        <http://viaf.org/viaf/53899250>,
+        <http://www.idref.fr/143722174/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb134766553#foaf:Person> ;
+    foaf:familyName "Nicetas Byzantinus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb134766553> .
+

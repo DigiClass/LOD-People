@@ -1,0 +1,100 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12450235cstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12450235c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31371309n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12450235c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12450235c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12450235c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31371310v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12450235c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12450235c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12450235c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31382498t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12450235c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12450235c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12450235c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35688985c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12450235c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12450235c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12450235c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12450235c> a skos:Concept ;
+    bnf-onto:FRBNF 12450235 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "000000006595464X" ;
+    dcterms:created "1995-02-28" ;
+    dcterms:modified "2022-04-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/S%C3%A9monide_d%27Amorgos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12450235c> ;
+    skos:altLabel "Sēmōnídēs 'o A̓morgios (06..-05..? av. J.-C.)",
+        "Semonides von Amorgos (06..-05..? av. J.-C.)"@de,
+        "Semonides of Amorgos (06..-05..? av. J.-C.)"@en,
+        "Simonides of Amorgos (06..-05..? av. J.-C.)"@en,
+        "Simonides of Samos (06..-05..? av. J.-C.)"@en,
+        "Simonide d'Amorgos (06..-05..? av. J.-C.)"@fr,
+        "Simōnídīs ho A̓morgînos (06..-05..? av. J.-C.)"@fr,
+        "Sémonide de Samos (06..-05..? av. J.-C.)"@fr,
+        "Σιμωνίδης ὁ Ἀνοργῖνος (06..-05..? av. J.-C.)"@fr,
+        "Semonide Amorgino (06..-05..? av. J.-C.)"@it,
+        "Semonide di Samo (06..-05..? av. J.-C.)"@it,
+        "Amorgius (06..-05..? av. J.-C.)"@la,
+        "Samius (06..-05..? av. J.-C.)"@la,
+        "Semonides Amorginus (06..-05..? av. J.-C.)"@la,
+        "Simonides Amorginus (06..-05..? av. J.-C.)"@la,
+        "Simonides Samius (06..-05..? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118796151>,
+        <http://datos.bne.es/resource/XX1134595>,
+        <http://id.loc.gov/authorities/n50038257>,
+        <https://www.idref.fr/067030858> ;
+    skos:editorialNote "Clavis SGL : Simonides Amorginus. - . - Kleine Pauly : Semonides (Sēmōnidēs, auch als Simōnidēs überliefert) von Amorgos. - . - LC Authorities : Semonides, of Amorgos. - http://authorities.loc.gov. - 2022-04-08"@fr,
+        "Semonides : testimonia et fragmenta / ed. Aetius Pellizer, Ianuarius Tedeschi, 1990. - . - GDEL : Sémonide de Samos ou d'Amorgos, en gr. Semonidês. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/S%C3%A9monide_d%27Amorgos>,
+        <http://fr.wikipedia.org/wiki/S%C3%A9monide_d%27Amorgos>,
+        <http://isni.org/isni/000000006595464X>,
+        <http://viaf.org/viaf/90630343/>,
+        <http://wikidata.org/entity/Q381049>,
+        <http://www.idref.fr/067030858/id> ;
+    skos:note "Poète iambique, auteur d'élégies et d'oeuvres satiriques. - Né sur l'île de Samos, il fut le chef des colons samiens qui s'établirent dans l'île d'Amorgos"@fr ;
+    skos:prefLabel "Sémonide d'Amorgos (06..-05..? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12450235c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12450235c#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète iambique, auteur d'élégies et d'oeuvres satiriques. - Né sur l'île de Samos, il fut le chef des colons samiens qui s'établirent dans l'île d'Amorgos" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0700--0601/> ;
+    rdagroup2elements:biographicalInformation "Poète iambique, auteur d'élégies et d'oeuvres satiriques. - Né sur l'île de Samos, il fut le chef des colons samiens qui s'établirent dans l'île d'Amorgos" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0700--0601/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 06.." ;
+    bio:death "- 05.." ;
+    = <http://fr.dbpedia.org/resource/S%C3%A9monide_d%27Amorgos>,
+        <http://viaf.org/viaf/90630343>,
+        <http://www.idref.fr/067030858/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12450235c#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Pitagora%2520da%2520Reggio%2520-%2520Louvre%2520-%2520Statua%2520di%2520un%2520suonatore%2520di%2520lira2.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k262657m.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k262657m/f2.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k262657m/f3.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k262657m/f4.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k262657m/f5.item.thumbnail> ;
+    foaf:familyName "Sémonide d'Amorgos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12450235c> .
+

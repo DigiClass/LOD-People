@@ -1,0 +1,67 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb417476109#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb164987650#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb164987650#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb164987650#about> .
+
+<https://data.bnf.fr/temp-work/ff5acb1f6745bdf52f6f6a353c2390df/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb164987650#about> .
+
+<https://data.bnf.fr/ark:/12148/cb164987650> a skos:Concept ;
+    bnf-onto:FRBNF 16498765 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-10-06"^^xsd:date ;
+    isni:identifierValid "0000000503812458" ;
+    dcterms:created "2019-12-07" ;
+    dcterms:modified "2024-10-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb164987650> ;
+    skos:altLabel "Dēmonikos 1 (roi de Lapethos, 05..-0480 av. J.-C.)"@el,
+        "Dēmonikos A´ (roi de Lapethos, 05..-0480 av. J.-C.)"@el,
+        "Dīmónikos 1 (roi de Lapethos, 05..-0480 av. J.-C.)"@el,
+        "Dīmónikos A´ (roi de Lapethos, 05..-0480 av. J.-C.)"@el,
+        "Δημόνικος 1 (roi de Lapethos, 05..-0480 av. J.-C)"@el,
+        "Δημόνικος Αʹ (roi de Lapethos, 05..-0480 av. J.-C)"@el,
+        "Démonicos 1 (roi de Lapethos, 05..-0480 av. J.-C.)"@fr,
+        "Demonicus 1 (roi de Lapethos, 05..-0480 av. J.-C.)"@la,
+        "Demonicus I (roi de Lapethos, 05..-0480 av. J.-C.)"@la ;
+    skos:editorialNote "Catalogue of the Greek coins of Cyprus / par G. F. Hill, 1904. xxxvii pl. XIX , 9-13. - . - Nomisma. - http://nomisma.org/id/demonicus_i_lapethus. - 2024-10-04"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000503812458>,
+        <http://viaf.org/viaf/5163408723200091790/> ;
+    skos:note "Roi de Lapethos de 525 à 480 av. J.-C."@fr ;
+    skos:prefLabel "Démonicos Ier (roi de Lapethos, 05..-0480 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb164987650#about> .
+
+<https://data.bnf.fr/ark:/12148/cb164987650#about> a foaf:Person ;
+    bnf-onto:lastYear -480 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Roi de Lapethos de 525 à 480 av. J.-C." ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0480/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:biographicalInformation "Roi de Lapethos de 525 à 480 av. J.-C." ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0480/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 05.." ;
+    bio:death "- 480" ;
+    = <http://viaf.org/viaf/5163408723200091790>,
+        <https://data.bnf.fr/ark:/12148/cb164987650#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b11318126p.thumbnail> ;
+    foaf:familyName "Démonicos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb164987650> .
+

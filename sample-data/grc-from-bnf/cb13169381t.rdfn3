@@ -1,0 +1,79 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb31131827s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13169381t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13169381t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13169381t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31871024k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13169381t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13169381t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13169381t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13169381t> a skos:Concept ;
+    bnf-onto:FRBNF 13169381 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000369653766" ;
+    dcterms:created "1997-09-23" ;
+    dcterms:modified "2025-02-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Polybe_de_Cos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13169381t> ;
+    skos:altLabel "Polibo (médecin, 04..-03..? av. J.-C.)"@fr,
+        "Polúvios (médecin, 04..-03..? av. J.-C.)"@fr,
+        "Polybius (médecin, 04..-03..? av. J.-C.)"@fr,
+        "Polúbios (médecin, 04..-03..? av. J.-C.)"@fr,
+        "Πολύβιος (médecin, 04..-03..? av. J.-C.)"@fr,
+        "Polybius Cous (04..-03..? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/11874142X>,
+        <http://datos.bne.es/resource/XX5455928>,
+        <http://id.loc.gov/authorities/n2017180367> ;
+    skos:editorialNote "De victus salubris ratione privatorum Polybii tractatus, 1555. - . - Clavis SGL. - . -"@fr,
+        "Dizionario biografico universale / G. Garollo, 1907 : Polibio. - . - BN Cat. gén.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Polybe_de_Cos>,
+        <http://fr.wikipedia.org/wiki/Polybe_de_Cos>,
+        <http://isni.org/isni/0000000369653766>,
+        <http://viaf.org/viaf/230683751/>,
+        <http://wikidata.org/entity/Q1986160>,
+        <http://www.idref.fr/103674322> ;
+    skos:note "Médecin. - Gendre et élève d'Hippocrate"@fr ;
+    skos:prefLabel "Polybe de Cos (04..-03..? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13169381t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13169381t#about> a foaf:Person ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Médecin. - Gendre et élève d'Hippocrate" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Médecin. - Gendre et élève d'Hippocrate" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 03.." ;
+    = <http://fr.dbpedia.org/resource/Polybe_de_Cos>,
+        <http://viaf.org/viaf/230683751>,
+        <http://www.idref.fr/103674322/id>,
+        <https://bp16.bnf.fr/ark:/12148/cb13169381t>,
+        <https://data.bnf.fr/ark:/12148/cb13169381t#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k53541p/f3.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k857566n/f2.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k8701071p/f2.item.thumbnail> ;
+    foaf:familyName "Polybe de Cos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13169381t> .
+

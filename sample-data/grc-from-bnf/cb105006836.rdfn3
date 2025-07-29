@@ -1,0 +1,58 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30538711c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105006836#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105006836#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105006836#about> .
+
+<https://data.bnf.fr/ark:/12148/cb105006836> a skos:Concept ;
+    bnf-onto:FRBNF 10500683 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2003-01-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb105006836> ;
+    skos:altLabel "Gregorios Presbyter (panégyriste, 07..?-08..?)"@de,
+        "Gregorios von Kaisareia (panégyriste, 07..?-08..?)"@de,
+        "Grégoire de Césarée de Cappadoce (panégyriste, 07..?-08..?)"@fr,
+        "Grégoire le Panégyriste"@fr,
+        "Georgius Caesareensis (panégyriste, 07..?-08..?)"@la,
+        "Gregorius Caesareae (panégyriste, 07..?-08..?)"@la,
+        "Gregorius Caesareensis Cappadox episcopus (panégyriste, 07..?-08..?)"@la,
+        "Gregorius Caesariensis (panégyriste, 07..?-08..?)"@la,
+        "Gregorius Cappadox (panégyriste, 07..?-08..?)"@la,
+        "Gregorius Presbyter (panégyriste, 07..?-08..?)"@la ;
+    skos:editorialNote "Catholicisme ; DHGE : Grégoire de Césarée de Cappadoce. - . - PMA : Gregorius Caesariensis. - . - Clavis SGL : Gregorius Caesareensis Cappadox episcopus. - . -"@fr,
+        "Gregorios Lobrede auf die 318 Väter des Konzils zu Nikaia und Konstantin den Grossen / hrsg. und erläutert von Joh. Compernass, 1909 [thèse]. - . - Dictionnaire encyclopédique du christianisme ancien / sous la dir. de A. Di Berardino, 1990 ; Buchwald : Grégoire. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/66457501/> ;
+    skos:note "Prêtre. - Auteur d'un Panégyrique des 318 Pères de Nicée"@fr ;
+    skos:prefLabel "Grégoire de Césarée (panégyriste, 07..?-08..?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb105006836#about> .
+
+<https://data.bnf.fr/ark:/12148/cb105006836#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Prêtre. - Auteur d'un Panégyrique des 318 Pères de Nicée" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0801-0900/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0701-0800/> ;
+    rdagroup2elements:biographicalInformation "Prêtre. - Auteur d'un Panégyrique des 318 Pères de Nicée" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0701-0800/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "07.." ;
+    bio:death "08.." ;
+    = <http://viaf.org/viaf/66457501>,
+        <https://data.bnf.fr/ark:/12148/cb105006836#foaf:Person> ;
+    foaf:familyName "Grégoire de Césarée" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb105006836> .
+

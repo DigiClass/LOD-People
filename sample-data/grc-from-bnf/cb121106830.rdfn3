@@ -1,0 +1,69 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb31737477q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121106830#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121106830#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121106830#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35622179j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121106830#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121106830#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121106830#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39912190x#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb121106830#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb121106830#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121106830#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121106830> a skos:Concept ;
+    bnf-onto:FRBNF 12110683 ;
+    dcterms:created "1989-04-21" ;
+    dcterms:modified "2024-01-24" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Athanase_Ier_d%27Antioche>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121106830> ;
+    skos:altLabel "Athanase 1 (patriarche jacobite d'Antioche, 05..-063.?)"@fr,
+        "Athanase Gammala (05..-063.?)"@fr,
+        "Athanase le Chamelier (05..-063.?)"@fr,
+        "Athanasius 1 (patriarche jacobite d'Antioche, 05..-063.?)"@la,
+        "Athanasius I (patriarche jacobite d'Antioche, 05..-063.?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/143386794>,
+        <http://id.loc.gov/authorities/n89631685> ;
+    skos:editorialNote "The Conflict of Severus, patriarch of Antioch / by Athanasius, 1907 [réimpr., 1981]. - . - DHGE (t. IV, 1930, col. 1363-1364) : Athanase Ier Gammala. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Athanase_Ier_d%27Antioche>,
+        <http://fr.wikipedia.org/wiki/Athanase_Ier_d%27Antioche>,
+        <http://viaf.org/viaf/41871053/>,
+        <http://wikidata.org/entity/Q2868987>,
+        <http://www.idref.fr/06163459X/id> ;
+    skos:note "Patriarche jacobite d'Antioche de 595? à 630?. - Auparavant, moine à Qennesrê"@fr ;
+    skos:prefLabel "Athanase I (patriarche jacobite d'Antioche, 05..-063.?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121106830#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121106830#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Patriarche jacobite d'Antioche de 595? à 630?. - Auparavant, moine à Qennesrê" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0601-0700/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Patriarche jacobite d'Antioche de 595? à 630?. - Auparavant, moine à Qennesrê" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "063." ;
+    = <http://fr.dbpedia.org/resource/Athanase_Ier_d%27Antioche>,
+        <http://viaf.org/viaf/41871053>,
+        <http://www.idref.fr/06163459X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb121106830#foaf:Person> ;
+    foaf:familyName "Athanase" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121106830> .
+

@@ -1,0 +1,98 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121356979studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121356979#about> .
+
+<https://data.bnf.fr/ark:/12148/cb302655356#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121356979#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121356979#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121356979#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30792108z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121356979#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121356979#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121356979#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35299518w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121356979#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121356979#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121356979#about> .
+
+<https://data.bnf.fr/ark:/12148/cb366575579#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121356979#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121356979#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121356979#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121356979> a skos:Concept ;
+    bnf-onto:FRBNF 12135697 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2017-08-18"^^xsd:date ;
+    isni:identifierValid "000000040257784X" ;
+    dcterms:created "1990-01-16" ;
+    dcterms:modified "2024-09-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Constantin_V>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121356979> ;
+    skos:altLabel "Constantine of Isauria (0718-0775)"@en,
+        "Constantin 5 (empereur de Byzance, 0718-0775)"@fr,
+        "Constantin Copronyme (0718-0775)"@fr,
+        "Constantino 5 (empereur de Byzance, 0718-0775)"@fr,
+        "Constantino V (empereur de Byzance, 0718-0775)"@fr,
+        "Kōnstantínos Coprṓnymos (0718-0775)"@fr,
+        "Kōnstantínos 5 (empereur de Byzance, 0718-0775)"@fr,
+        "Kōnstantínos E´ (empereur de Byzance, 0718-0775)"@fr,
+        "Mamon (0718?-0775)"@fr,
+        "Κωνσταντίνος 5 (empereur de Byzance, 0718-0775)"@fr,
+        "Κωνσταντίνος E´ (empereur de Byzance, 0718-0775)"@fr,
+        "Κωνσταντίνος Κοπρώνυμος (0718-0775)"@fr,
+        "Constantinus 5 (empereur de Byzance, 0718-0775)"@la,
+        "Constantinus Copronymus (0718-0775)"@la,
+        "Constantinus V (empereur de Byzance, 0718-0775)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119178265>,
+        <http://id.loc.gov/authorities/nr95010671> ;
+    skos:editorialNote "A manual of Roman law : the Ecloga / published by the emperors Leo III and Constantine V of Isauria ; rendered into English by Edwin Hanson Freshfield, 1976. - . - GDEL : Constantin V. - . -"@fr,
+        "Clavis SGL : Constantinus Imperator V Copronymus. - . - BN Cat. gén. : Constantin V, Copronyme. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Constantin_V>,
+        <http://fr.wikipedia.org/wiki/Constantin_V>,
+        <http://isni.org/isni/000000040257784X>,
+        <http://viaf.org/viaf/298155661/>,
+        <http://wikidata.org/entity/Q41635>,
+        <http://www.idref.fr/029809827> ;
+    skos:note "Empereur de Byzance du 18 juin 741 au 14 septembre 775. - Législateur. - Iconoclaste"@fr ;
+    skos:prefLabel "Constantin V (empereur de Byzance, 0718-0775)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121356979#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121356979#about> a foaf:Person ;
+    bnf-onto:firstYear 718 ;
+    bnf-onto:lastYear 775 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Empereur de Byzance du 18 juin 741 au 14 septembre 775. - Législateur. - Iconoclaste" ;
+    rdaa:P50119 "Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0775/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0718/> ;
+    rdagroup2elements:biographicalInformation "Empereur de Byzance du 18 juin 741 au 14 septembre 775. - Législateur. - Iconoclaste" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0718/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0775/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Constantinople" ;
+    bio:birth "0718-07" ;
+    bio:death "0775-09-14" ;
+    = <http://fr.dbpedia.org/resource/Constantin_V>,
+        <http://viaf.org/viaf/298155661>,
+        <http://www.idref.fr/029809827/id>,
+        <https://data.bnf.fr/ark:/12148/cb121356979#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Solidus-Leo%2520III%2520and%2520Constantine%2520V-sb1504.jpg> ;
+    foaf:familyName "Constantin" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121356979> .
+

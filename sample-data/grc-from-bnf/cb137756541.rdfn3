@@ -1,0 +1,64 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb377133020#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb137756541#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb137756541#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb137756541#about> .
+
+<https://data.bnf.fr/ark:/12148/cb137756541> a skos:Concept ;
+    bnf-onto:FRBNF 13775654 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-31"^^xsd:date ;
+    isni:identifierValid "0000000056223423" ;
+    dcterms:created "2002-02-16" ;
+    dcterms:modified "2013-08-01" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb137756541> ;
+    skos:altLabel "Georges Lapithis"@fr,
+        "Geṓrgios Lapíthīs"@fr,
+        "Geṓrgios Lapī́thīs"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/100967965>,
+        <http://datos.bne.es/resource/XX1290449> ;
+    skos:editorialNote "Encycl. Pápyros : Lapíthīs, Geṓrgios. - . - Encycl. Chypre : Lapíthīs, Geṓrgios. - . -"@fr,
+        "Stíchoi politikoì 'autoschédioi 'eis koinī̀n 'akoī̀n toû sofōtátou kyríou Geōrgíou Lapíthou toû Kypríou / Geṓrgios Lapíthīs ī́ Lapī́thīs ; epiméleia, Antréas Chatzīsávvas = [Poème moral de Georges Lapithis : vers politiques improvisés destinés à être entendus par tout public du très sage sieur Georges Lapithis] / Georges Lapithis ; [éd. par Andréas Chatzisavas], 2001. - . - Encycl. Grèce : Lapī́thīs ou Lapíthīs, Geṓrgios. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000056223423>,
+        <http://viaf.org/viaf/37099915/>,
+        <http://wikidata.org/entity/Q11724959>,
+        <http://www.idref.fr/067645429> ;
+    skos:note "Lettré byzantin ; théologien, adversaire des hésychastes ; philosophe, poète, philologue et astronome. - Vécut à Chypre dans la 1re moitié du 14e siècle. - Probablement originaire de la ville chypriote de Lápithos/Lápīthos, dont il tire son nom"@fr ;
+    skos:prefLabel "Geórgios Lapíthis"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb137756541#about> .
+
+<https://data.bnf.fr/ark:/12148/cb137756541#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/cy> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Lettré byzantin ; théologien, adversaire des hésychastes ; philosophe, poète, philologue et astronome. - Vécut à Chypre dans la 1re moitié du 14e siècle. - Probablement originaire de la ville chypriote de Lápithos/Lápīthos, dont il tire son nom" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1301-1400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:biographicalInformation "Lettré byzantin ; théologien, adversaire des hésychastes ; philosophe, poète, philologue et astronome. - Vécut à Chypre dans la 1re moitié du 14e siècle. - Probablement originaire de la ville chypriote de Lápithos/Lápīthos, dont il tire son nom" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/cy> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "13.." ;
+    bio:death "13.." ;
+    = <http://viaf.org/viaf/37099915>,
+        <http://www.idref.fr/067645429/id>,
+        <https://data.bnf.fr/ark:/12148/cb137756541#foaf:Person> ;
+    foaf:familyName "Lapíthis" ;
+    foaf:givenName "Geórgios" ;
+    foaf:name "Geórgios Lapíthis" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb137756541> .
+

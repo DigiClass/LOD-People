@@ -1,0 +1,66 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb162583097studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb162583097#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16258434q#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb162583097#about> .
+
+<https://data.bnf.fr/ark:/12148/cb313315306#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb162583097#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb162583097#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb162583097#about> .
+
+<https://data.bnf.fr/ark:/12148/cb162583097> a skos:Concept ;
+    bnf-onto:FRBNF 16258309 ;
+    dcterms:created "2011-01-20" ;
+    dcterms:modified "2023-03-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Hi%C3%A9rocl%C3%A8s_%28sto%C3%AFcien%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb162583097> ;
+    skos:altLabel "Hierocles stoicus"@fr,
+        "Hierokles (le stoïcien, 01..-01..)"@fr,
+        "Hieroklî̄s stōikós"@fr,
+        "Ἱεροκλῆς στωικός"@fr,
+        "Hierocles (le stoïcien, 01..-01..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102036160>,
+        <http://id.loc.gov/authorities/n2009044984>,
+        <http://isni.org/isni/0000000374278366> ;
+    skos:editorialNote "Hierocles the Stoic : elements of ethics, fragments, and excerpts / by Ilaria Ramelli ; translated by David Konstan, 2009. - . - Dictionnaire des auteurs grecs et latins de l'Antiquité et du Moyen Age, 1991 : Hierocles le Stoïcien. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Hi%C3%A9rocl%C3%A8s_%28sto%C3%AFcien%29>,
+        <http://fr.wikipedia.org/wiki/Hi%C3%A9rocl%C3%A8s_%28sto%C3%AFcien%29>,
+        <http://viaf.org/viaf/10227403/>,
+        <http://wikidata.org/entity/Q1355265>,
+        <http://www.idref.fr/156730693> ;
+    skos:note "Philosophe"@fr ;
+    skos:prefLabel "Hiéroclès (le stoïcien, 01..-01..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb162583097#about> .
+
+<https://data.bnf.fr/ark:/12148/cb162583097#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Philosophe" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "01.." ;
+    bio:death "01.." ;
+    = <http://fr.dbpedia.org/resource/Hi%C3%A9rocl%C3%A8s_%28sto%C3%AFcien%29>,
+        <http://viaf.org/viaf/10227403>,
+        <http://www.idref.fr/156730693/id>,
+        <https://data.bnf.fr/ark:/12148/cb162583097#foaf:Person> ;
+    foaf:familyName "Hiéroclès" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb162583097> .
+

@@ -1,0 +1,95 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb31357890r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10723075d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb313578913#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10723075d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31357892f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10723075d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36826385g#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10723075d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb43656275v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10723075d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10723075d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10723075d> a skos:Concept ;
+    bnf-onto:FRBNF 10723075 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-08-17"^^xsd:date ;
+    isni:identifierValid "0000000139497331" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2023-06-10" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Gabriel_S%C3%A9v%C3%A8ros>,
+        <https://catalogue.bnf.fr/ark:/12148/cb10723075d> ;
+    skos:altLabel "Gabriēl Sbēros (1541-1616)",
+        "Gabriēl Sebēros (1541-1616)",
+        "Gabriēl ho Sebēros (1541-1616)",
+        "Γαβριὴλ Σβῆρος (1541-1616)",
+        "Γαβριὴλ Σεβῆρος (1541-1616)",
+        "Γαβριὴλ ὁ Σεβῆρος (1541-1616)",
+        "Gabriel Severos (1541-1616)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/100136389>,
+        <http://id.loc.gov/authorities/no2006057468>,
+        <http://viaf.org/viaf/207471336>,
+        <https://www.idref.fr/150018282> ;
+    skos:editorialNote "Legrand, Bibliographie hellénique, II, n° 235, p. 142-151. - . - Un théologien grec du XVIe siècle : Gabriel Sévère et les divergences entre les deux Églises / Martin Jugie. In : Échos d'Orient, t. 16, no 99, 1913, p. 97-108. - . - Evro Layton, The Sixteenth century Greek book in Italy, 1994, p. 171-172. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Gabriel_S%C3%A9v%C3%A8ros>,
+        <http://fr.wikipedia.org/wiki/Gabriel_S%C3%A9v%C3%A8ros>,
+        <http://isni.org/isni/0000000139497331>,
+        <http://wikidata.org/entity/Q9265139> ;
+    skos:note "Moine grec. - Réside longtemps en Crète puis s'installe à Venise (présence attestée à partir de 1572). - Étudie à l'Université de Padoue. - En 1573, devient curé de l'église San Giorgio dei Greci à Venise. - En 1577, nommé Métropolite de Philadelphie (Asie Mineure) par le Patriarche de Constantinople Jérémie II Tranos. - N'ayant pas rejoint son diocèse, il est nommé exarque par le patriarche, non seulement pour la communauté grecque de Venise mais aussi pour les Grecs de Dalmatie, et il reste curé de l'église de San Giorgio dei Greci de Venise"@fr ;
+    skos:prefLabel "Gabriel Sévère (1541-1616)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10723075d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10723075d#about> a foaf:Person ;
+    bnf-onto:firstYear 1541 ;
+    bnf-onto:lastYear 1616 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine grec. - Réside longtemps en Crète puis s'installe à Venise (présence attestée à partir de 1572). - Étudie à l'Université de Padoue. - En 1573, devient curé de l'église San Giorgio dei Greci à Venise. - En 1577, nommé Métropolite de Philadelphie (Asie Mineure) par le Patriarche de Constantinople Jérémie II Tranos. - N'ayant pas rejoint son diocèse, il est nommé exarque par le patriarche, non seulement pour la communauté grecque de Venise mais aussi pour les Grecs de Dalmatie, et il reste curé de l'église de San Giorgio dei Greci de Venise" ;
+    rdaa:P50118 "Lesina (auj. Hvar, Croatie)" ;
+    rdaa:P50119 "Monemvasia (Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1616/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1541/> ;
+    rdagroup2elements:biographicalInformation "Moine grec. - Réside longtemps en Crète puis s'installe à Venise (présence attestée à partir de 1572). - Étudie à l'Université de Padoue. - En 1573, devient curé de l'église San Giorgio dei Greci à Venise. - En 1577, nommé Métropolite de Philadelphie (Asie Mineure) par le Patriarche de Constantinople Jérémie II Tranos. - N'ayant pas rejoint son diocèse, il est nommé exarque par le patriarche, non seulement pour la communauté grecque de Venise mais aussi pour les Grecs de Dalmatie, et il reste curé de l'église de San Giorgio dei Greci de Venise" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1541/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1616/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Monemvasia (Grèce)" ;
+    rdagroup2elements:placeOfDeath "Lesina (auj. Hvar, Croatie)" ;
+    bio:birth "1541" ;
+    bio:death "1616-10-21" ;
+    = <http://fr.dbpedia.org/resource/Gabriel_S%C3%A9v%C3%A8ros>,
+        <https://data.bnf.fr/ark:/12148/cb10723075d#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Gavriil%2520Seviros.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k135348m/f14.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k65586967.thumbnail> ;
+    foaf:familyName "Sévère" ;
+    foaf:gender "male" ;
+    foaf:givenName "Gabriel" ;
+    foaf:name "Gabriel Sévère" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10723075d> .
+

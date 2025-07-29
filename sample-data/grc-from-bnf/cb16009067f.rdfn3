@@ -1,0 +1,68 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb160089890#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16009067f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30536322f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16009067f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16009067f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16009067f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33629010q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16009067f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16009067f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16009067f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16009067f> a skos:Concept ;
+    bnf-onto:FRBNF 16009067 ;
+    dcterms:created "2009-04-23" ;
+    dcterms:modified "2014-10-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nic%C3%A9phore_Ouranos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16009067f> ;
+    skos:altLabel "Nikīfóros Ou̓ranós"@fr,
+        "Nikëphóros  ̓Uranós"@fr,
+        "Νικηφόρος Οὐρανός"@fr,
+        "Nicephorus Uranus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100954502>,
+        <http://id.loc.gov/authorities/n94064427>,
+        <http://isni.org/isni/0000000032233862>,
+        <https://www.idref.fr/151049122> ;
+    skos:editorialNote "Oxford Dict. of Byzantium / ed. Alexander P. Kazhdan, 1991 : Ouranos, Nikephoros. - . - Lexikon des Mittelalters,  1980-1999 : Nikephoros Uranos. - . - LC Authorities : Nicephorus Uranus, 10th cent.. - http://authorities.loc.gov/. - 2009-04-23"@fr,
+        "Traité de tactique connu sous le titre \"Peri katastaseōs aplēktou\", \"Traité de castramétation\" : rédigé, à ce qu'on croit, par ordre de l'Empereur Nicéphore Phocas / texte grec inédit, établi d'après les manuscrits de l'Escurial, Paris, Bâle et Madrid, et annoté par Charles Graux ; préparé pour l'impression et augmenté d'une préface, par Albert Martin, 1898. - . - DOC / Vittorio Volpi, 1994 : Nicephorus Uranus. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nic%C3%A9phore_Ouranos>,
+        <http://fr.wikipedia.org/wiki/Nic%C3%A9phore_Ouranos>,
+        <http://viaf.org/viaf/311431812/>,
+        <http://wikidata.org/entity/Q3118581> ;
+    skos:note "Haut dignitaire byzantin. - Meurt après 1007"@fr ;
+    skos:prefLabel "Nicéphore Ouranos"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16009067f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16009067f#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Haut dignitaire byzantin. - Meurt après 1007" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1001-1100/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:biographicalInformation "Haut dignitaire byzantin. - Meurt après 1007" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "09.." ;
+    bio:death "10.." ;
+    = <http://fr.dbpedia.org/resource/Nic%C3%A9phore_Ouranos>,
+        <http://viaf.org/viaf/311431812>,
+        <https://data.bnf.fr/ark:/12148/cb16009067f#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Skylitzes-Ouranos%2520kills%2520Bulgarians.jpg> ;
+    foaf:familyName "Nicéphore Ouranos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16009067f> .
+

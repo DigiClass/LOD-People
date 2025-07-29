@@ -1,0 +1,88 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb123339672studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb123339672#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135170083#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb123339672#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17746017b#about> dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123339672#about> .
+
+<https://data.bnf.fr/ark:/12148/cb324135448#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123339672#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123339672#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123339672#about> .
+
+<https://data.bnf.fr/ark:/12148/cb373906905#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123339672#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123339672#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123339672#about> .
+
+<https://data.bnf.fr/ark:/12148/cb420060753#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123339672#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123339672#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123339672#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123339672> a skos:Concept ;
+    bnf-onto:FRBNF 12333967 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2018-04-18"^^xsd:date ;
+    isni:identifierValid "0000000373852872" ;
+    dcterms:created "1993-09-21" ;
+    dcterms:modified "2018-04-18" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Man%C3%A9thon_de_Sebennytos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb123339672> ;
+    skos:altLabel "Manethṓn (historien)"@fr,
+        "Manéthon d'Égypte"@fr,
+        "Μανεθών (historien)"@fr,
+        "Manetone (historien)"@it,
+        "Manetho (historien)"@la,
+        "Manetho Aegyptius"@la,
+        "Manetho Aegyptus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118730622>,
+        <http://datos.bne.es/resource/XX1184311>,
+        <http://id.loc.gov/authorities/n88132204> ;
+    skos:editorialNote "Chronologie des deux premiers livres de Manethon / par le comte Jean Potocki, 1805. - . - [Works] / Manetho ; with an english transl. by William Gillian Waddell, 1980. - . -"@fr,
+        "Dizionario delle opere classiche / Vittorio Volpi, 1994 : Manetho (storico). - . - Encicl. italiana : Manetone. - . - Encycl. britt. : Manetho. - . -"@fr,
+        "GLU. - . - Buchwald : Manéthon d'Égypte. - . - Clavis SGL : Manetho Sebennytus Aegyptus. - . -"@fr,
+        "LCNA (CD), 1996-06 : Manetho. - . - BN Cat. gén. : Manethon (confond les deux auteurs). - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Man%C3%A9thon_de_Sebennytos>,
+        <http://fr.wikipedia.org/wiki/Man%C3%A9thon_de_Sebennytos>,
+        <http://isni.org/isni/0000000373852872>,
+        <http://viaf.org/viaf/59155489/>,
+        <http://wikidata.org/entity/Q174380>,
+        <http://www.idref.fr/032279493> ;
+    skos:note "Historien grec et grand-prêtre d'Héliopolis, auteur d'une \"Histoire de l'Égypte\" vraisemblablement écrite à la lumière des listes royales gravéees en hiéroglyphes. - Giovanni Nanni, de Viterbe, a placé sous son nom une certain nombre de textes qui sont autant de faux historiques"@fr ;
+    skos:prefLabel "Manéthon (historien)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb123339672#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123339672#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        <http://dewey.info/class/900/>,
+        "Histoire",
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien grec et grand-prêtre d'Héliopolis, auteur d'une \"Histoire de l'Égypte\" vraisemblablement écrite à la lumière des listes royales gravéees en hiéroglyphes. - Giovanni Nanni, de Viterbe, a placé sous son nom une certain nombre de textes qui sont autant de faux historiques" ;
+    rdagroup2elements:biographicalInformation "Historien grec et grand-prêtre d'Héliopolis, auteur d'une \"Histoire de l'Égypte\" vraisemblablement écrite à la lumière des listes royales gravéees en hiéroglyphes. - Giovanni Nanni, de Viterbe, a placé sous son nom une certain nombre de textes qui sont autant de faux historiques" ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        <http://dewey.info/class/900/>,
+        "Histoire",
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://fr.dbpedia.org/resource/Man%C3%A9thon_de_Sebennytos>,
+        <http://viaf.org/viaf/59155489>,
+        <http://www.idref.fr/032279493/id>,
+        <https://data.bnf.fr/ark:/12148/cb123339672#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k104358z/f5.item.thumbnail> ;
+    foaf:familyName "Manéthon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb123339672> .
+

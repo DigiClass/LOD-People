@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13321442s#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14474322z#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16511894p#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16513435j#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb317298893#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38926874n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38927169c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39009679q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41034241b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14474314b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14474314b> a skos:Concept ;
+    bnf-onto:FRBNF 14474314 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "0000000001082854" ;
+    dcterms:created "2003-05-23" ;
+    dcterms:modified "2015-03-12" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb14474314b> ;
+    skos:altLabel "Pseudo-Aelius Aristide"@fr,
+        "Pseudo-Aelius Aristides"@fr,
+        "Pseudo-Aristides Aelius"@fr,
+        "Aristides Aelius (auteur prétendu, 03..?-04..?)"@la ;
+    skos:closeMatch <http://id.loc.gov/authorities/no2013098141>,
+        <https://www.idref.fr/035460636> ;
+    skos:exactMatch <http://isni.org/isni/0000000001082854>,
+        <http://viaf.org/viaf/91145542374096640538/>,
+        <http://wikidata.org/entity/Q107982072> ;
+    skos:note "Compilateur et commentateur anonyme d'un ensemble de textes rhétoriques, transmis sous le nom d'Aelius Aristide, ensemble réalisé probablement entre le 4e et le 5e siècle. - Auteur anonyme d'un \"Éloge de l'Empereur\" (probablement Philippe l'Arabe, empereur romain de 244 à 249), longtemps attribué à Aelius Aristide"@fr ;
+    skos:prefLabel "Aelius Aristide (auteur prétendu, 03..?-04..?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb14474314b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14474314b#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Compilateur et commentateur anonyme d'un ensemble de textes rhétoriques, transmis sous le nom d'Aelius Aristide, ensemble réalisé probablement entre le 4e et le 5e siècle. - Auteur anonyme d'un \"Éloge de l'Empereur\" (probablement Philippe l'Arabe, empereur romain de 244 à 249), longtemps attribué à Aelius Aristide" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Compilateur et commentateur anonyme d'un ensemble de textes rhétoriques, transmis sous le nom d'Aelius Aristide, ensemble réalisé probablement entre le 4e et le 5e siècle. - Auteur anonyme d'un \"Éloge de l'Empereur\" (probablement Philippe l'Arabe, empereur romain de 244 à 249), longtemps attribué à Aelius Aristide" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "03.." ;
+    bio:death "04.." ;
+    = <http://viaf.org/viaf/91145542374096640538>,
+        <https://data.bnf.fr/ark:/12148/cb14474314b#foaf:Person> ;
+    foaf:familyName "Aristide" ;
+    foaf:gender "male" ;
+    foaf:givenName "Aelius" ;
+    foaf:name "Aelius Aristide" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb14474314b> .
+

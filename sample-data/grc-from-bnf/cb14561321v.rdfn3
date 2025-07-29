@@ -1,0 +1,87 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb14561321vstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb14561321v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb310398622#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14561321v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14561321v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14561321v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31039863d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14561321v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14561321v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14561321v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31097077n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14561321v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14561321v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14561321v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb316635973#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14561321v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14561321v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14561321v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14561321v> a skos:Concept ;
+    bnf-onto:FRBNF 14561321 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-08-02"^^xsd:date ;
+    isni:identifierValid "0000000061353839" ;
+    dcterms:created "2004-08-09" ;
+    dcterms:modified "2013-08-02" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Orion_de_Th%C3%A8bes>,
+        <https://catalogue.bnf.fr/ark:/12148/cb14561321v> ;
+    skos:altLabel "Orion (de Thébes, 04..-04..)"@fr,
+        "Orion le Thébain"@fr,
+        "̓Ōríōn (04..-04..)"@fr,
+        "Orion Thebanus (04-..-04..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102401160>,
+        <http://id.loc.gov/authorities/no2001098317> ;
+    skos:editorialNote "CORC. - http://corc.oclc.org. - 2004-08-09"@fr,
+        "Das Florilegium des Orion : mit einer Einleitung hrsg., übersetzt und kommentiert / Medard Haffner, 2001. - . - GLE. - . -"@fr,
+        "Larousse 19e s.. - . - Hoefer. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Orion_de_Th%C3%A8bes>,
+        <http://fr.wikipedia.org/wiki/Orion_de_Th%C3%A8bes>,
+        <http://isni.org/isni/0000000061353839>,
+        <http://viaf.org/viaf/17465356/>,
+        <http://wikidata.org/entity/Q1225578>,
+        <http://www.idref.fr/069094411> ;
+    skos:note "Lexicographe grec d'Égypte,  né probablement dans le dernier quart du 4è siècle après J. C."@fr ;
+    skos:prefLabel "Orion (lexicographe, 04..-04..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb14561321v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14561321v#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/900/>,
+        "Histoire" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Lexicographe grec d'Égypte,  né probablement dans le dernier quart du 4è siècle après J. C." ;
+    rdaa:P50119 "Thébes, Égypte" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:biographicalInformation "Lexicographe grec d'Égypte,  né probablement dans le dernier quart du 4è siècle après J. C." ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/900/>,
+        "Histoire" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Thébes, Égypte" ;
+    bio:birth "04.." ;
+    bio:death "04.." ;
+    = <http://fr.dbpedia.org/resource/Orion_de_Th%C3%A8bes>,
+        <http://viaf.org/viaf/17465356>,
+        <http://www.idref.fr/069094411/id>,
+        <https://data.bnf.fr/ark:/12148/cb14561321v#foaf:Person> ;
+    foaf:familyName "Orion" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb14561321v> .
+

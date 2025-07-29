@@ -1,0 +1,99 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb11947479rstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb11947479r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33238916j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11947479r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11947479r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11947479r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb43798910p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11947479r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11947479r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11947479r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11947479r> a skos:Concept ;
+    bnf-onto:FRBNF 11947479 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-24"^^xsd:date ;
+    isni:identifierValid "0000000122763461" ;
+    dcterms:created "1985-07-06" ;
+    dcterms:modified "2024-11-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Cyrille_de_Thessalonique>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11947479r> ;
+    skos:altLabel "Kiril (saint, 0827?-0869)"@bg,
+        "Кирил (saint, 0827?-0869)"@bg,
+        "Cyril (saint, 0827?-0869)"@en,
+        "Constantin le Philosophe (0827?-0869)"@fr,
+        "Kýrillos (saint, 0827?-0869)"@fr,
+        "Sveti Konstantin (0827?-0869)"@fr,
+        "Κύριλλος (saint, 0827?-0869)"@fr,
+        "Kirilo (saint, 0827?-0869)"@hr,
+        "Cirillo (saint, 0827?-0869)"@it,
+        "Cyryl (saint, 0827?-0869)"@pl,
+        "Ćirilo (saint, 0827?-0869)"@sr,
+        "Ћирило (saint, 0827?-0869)"@sr ;
+    skos:closeMatch <http://d-nb.info/gnd/118523120>,
+        <http://datos.bne.es/resource/XX875349>,
+        <http://id.loc.gov/authorities/n50078539>,
+        <https://www.idref.fr/02743222X> ;
+    skos:editorialNote "LC Authorities. - http://authorities.loc.gov. - 2024-11-08 BnF Service langues slaves du Sud, 2015-09-24. - . -"@fr,
+        "Ćirilo i Metodije / Pavle Popović, 2004. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Cyrille_de_Thessalonique>,
+        <http://fr.wikipedia.org/wiki/Cyrille_de_Thessalonique>,
+        <http://isni.org/isni/0000000122763461>,
+        <http://viaf.org/viaf/10637017/>,
+        <http://wikidata.org/entity/Q351026>,
+        <http://www.idref.fr/02743222X/id> ;
+    skos:note "Philosophe byzantin, théologien, missionnaire, linguiste, traducteur et hymnographe. - Fondateur de l'alphabet glagolitique et de la littérature slave. - Frère de saint Méthode, né en 827 ou 828 selon GDEL"@fr ;
+    skos:prefLabel "Cyrille (saint, 0827?-0869)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11947479r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11947479r#about> a foaf:Person ;
+    bnf-onto:firstYear 827 ;
+    bnf-onto:lastYear 869 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        <http://dewey.info/class/400/>,
+        "Langues",
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe byzantin, théologien, missionnaire, linguiste, traducteur et hymnographe. - Fondateur de l'alphabet glagolitique et de la littérature slave. - Frère de saint Méthode, né en 827 ou 828 selon GDEL" ;
+    rdaa:P50118 "Rome" ;
+    rdaa:P50119 "Thessalonique (Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0869/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0827/> ;
+    rdagroup2elements:biographicalInformation "Philosophe byzantin, théologien, missionnaire, linguiste, traducteur et hymnographe. - Fondateur de l'alphabet glagolitique et de la littérature slave. - Frère de saint Méthode, né en 827 ou 828 selon GDEL" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0827/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0869/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        <http://dewey.info/class/400/>,
+        "Langues",
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Thessalonique (Grèce)" ;
+    rdagroup2elements:placeOfDeath "Rome" ;
+    bio:birth "827" ;
+    bio:death "0869-02-14" ;
+    = <http://fr.dbpedia.org/resource/Cyrille_de_Thessalonique>,
+        <http://viaf.org/viaf/10637017>,
+        <http://www.idref.fr/02743222X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb11947479r#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Icon%2520of%2520Saint%2520Cyril%252C%2520The%2520Holy%2520Mount%2520of%2520Grabarka.jpg> ;
+    foaf:familyName "Cyrille" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11947479r> .
+

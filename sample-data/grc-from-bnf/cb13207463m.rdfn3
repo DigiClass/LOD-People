@@ -1,0 +1,97 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13207463mstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13207463m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30650398t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13207463m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13207463m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13207463m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb375373815#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13207463m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13207463m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13207463m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13207463m> a skos:Concept ;
+    bnf-onto:FRBNF 13207463 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-10-24"^^xsd:date ;
+    isni:identifierValid "0000000083422399" ;
+    dcterms:created "1998-06-03" ;
+    dcterms:modified "2022-03-29" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Jean_XI_Vekkos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13207463m> ;
+    skos:altLabel "Giovanni Bekkos (1235?-1297)"@fr,
+        "Jean 11 (1235?-1297)"@fr,
+        "Jean 11 (patriarche de Constantinople, 1235?-1297)"@fr,
+        "Jean Bekkos (1235?-1297)"@fr,
+        "Jean Bekkos 11 (1235?-1297)"@fr,
+        "Jean Bekkos XI (1235?-1297)"@fr,
+        "Jean XI (patriarche de Constantinople, 1235?-1297)"@fr,
+        "Jean XI Bekkos (1235?-1297)"@fr,
+        "Joannes Veccus (1235?-1297)"@fr,
+        "Veccus Symmystarum (1235?-1297)"@fr,
+        "ʼIōánnēs Békkos (1235?-1297)"@fr,
+        "ʼIōánnīs Vékkos (1235?-1297)"@fr,
+        "ʼIōánnīs Vékos (1235?-1297)"@fr,
+        "ʼIōánnīs Vékōn (1235?-1297)"@fr,
+        "Ἰωάννης Βέκκος (1235?-1397)"@fr,
+        "Ἰωάννης Βέκος (1235?-1297)"@fr,
+        "Ἰωάννης Βέκων (1235?-1297)"@fr,
+        "Johannes Beccus (1235?-1297)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100948413>,
+        <http://datos.bne.es/resource/XX1475270>,
+        <http://id.loc.gov/authorities/nb2006022006> ;
+    skos:editorialNote "Chevalier : Jean Veccus (meurt en mars 1288). - . - Clavis SGL : Beccus. Iohannes Beccus (1235-1297). - . - Dizionario delle opere classiche / Vittorio Volpi, 1994 : Johannes Beccus. - . -"@fr,
+        "Encycl. Grèce : Vékkos, ʼIōánnīs. - . - BN Cat. gén. : Jean Veccus (Jean XI, patriarche de Constantinople, dit). - . -"@fr,
+        "Joannis Vecci Cp. patriarchae opera omnia. Accedunt Constantini Meliteniotae, Georgii Metochitae, Vecci Symmystarum, libri pro tuenda orthodoxia editi ; accurante et denuo recognoscente J.-P. Migne, 1992. - . - Buchwald : Jean XI Bekkos. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Jean_XI_Vekkos>,
+        <http://fr.wikipedia.org/wiki/Jean_XI_Vekkos>,
+        <http://isni.org/isni/0000000083422399>,
+        <http://viaf.org/viaf/315938611/>,
+        <http://wikidata.org/entity/Q2622606>,
+        <http://www.idref.fr/121244733> ;
+    skos:note "Chartophylax, puis patriarche de Constantinople (1275-1282)"@fr ;
+    skos:prefLabel "Jean Veccus (1235?-1297)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13207463m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13207463m#about> a foaf:Person ;
+    bnf-onto:firstYear 1235 ;
+    bnf-onto:lastYear 1297 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Chartophylax, puis patriarche de Constantinople (1275-1282)" ;
+    rdaa:P50118 "Nicomédie" ;
+    rdaa:P50119 "Nicée" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1297/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1235/> ;
+    rdagroup2elements:biographicalInformation "Chartophylax, puis patriarche de Constantinople (1275-1282)" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1235/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1297/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Nicée" ;
+    rdagroup2elements:placeOfDeath "Nicomédie" ;
+    bio:birth "1235" ;
+    bio:death "1297-03" ;
+    = <http://fr.dbpedia.org/resource/Jean_XI_Vekkos>,
+        <http://viaf.org/viaf/315938611>,
+        <http://www.idref.fr/121244733/id>,
+        <https://data.bnf.fr/ark:/12148/cb13207463m#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Johnbekkos.jpg> ;
+    foaf:familyName "Veccus" ;
+    foaf:gender "male" ;
+    foaf:givenName "Jean" ;
+    foaf:name "Jean Veccus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13207463m> .
+

@@ -1,0 +1,79 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb315440930#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10381796c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10381796c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10381796c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31544094b#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb10381796c#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb10381796c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10381796c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31544095p#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb10381796c#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb10381796c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10381796c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10381796c> a skos:Concept ;
+    bnf-onto:FRBNF 10381796 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "0000000081603102" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2016-11-07" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb10381796c> ;
+    skos:altLabel "Rezso Vari"@fr,
+        "Rezsö Vári"@fr,
+        "Rudolfus Vári"@fr,
+        "Rudolph Vári"@fr,
+        "Vári Rezső"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/117349615>,
+        <http://id.loc.gov/authorities/nb2010010087> ;
+    skos:exactMatch <http://isni.org/isni/0000000081603102>,
+        <http://viaf.org/viaf/83233672/>,
+        <http://wikidata.org/entity/Q18665663>,
+        <http://www.idref.fr/078851149> ;
+    skos:note "Philologue et byzantinologue hongrois."@fr ;
+    skos:prefLabel "Rezső Vári (1867-1940)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10381796c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10381796c#about> a foaf:Person ;
+    bnf-onto:firstYear 1867 ;
+    bnf-onto:lastYear 1940 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/hu> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philologue et byzantinologue hongrois." ;
+    rdaa:P50120 <https://data.bnf.fr/date/1940/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1867/> ;
+    rdagroup2elements:biographicalInformation "Philologue et byzantinologue hongrois." ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/hu> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1867/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1940/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1867" ;
+    bio:death "1940" ;
+    = <http://viaf.org/viaf/83233672>,
+        <http://www.idref.fr/078851149/id>,
+        <https://data.bnf.fr/ark:/12148/cb10381796c#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/V%25C3%25A1ri%2520Rezs%25C5%2591.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bd6t5770062x.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bd6t57838702.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bd6t5783871f.thumbnail> ;
+    foaf:familyName "Vári" ;
+    foaf:gender "male" ;
+    foaf:givenName "Rezső" ;
+    foaf:name "Rezső Vári" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10381796c> .
+

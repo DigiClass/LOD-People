@@ -1,0 +1,83 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb167299515#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb11997554q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32441554q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11997554q#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11997554q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11997554q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34916648s#Expression> bnfroles:r680 <https://data.bnf.fr/ark:/12148/cb11997554q#about> ;
+    marcrel:trl <https://data.bnf.fr/ark:/12148/cb11997554q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11997554q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37145776q#Expression> bnfroles:r680 <https://data.bnf.fr/ark:/12148/cb11997554q#about> ;
+    marcrel:trl <https://data.bnf.fr/ark:/12148/cb11997554q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11997554q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11997554q> a skos:Concept ;
+    bnf-onto:FRBNF 11997554 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-24"^^xsd:date ;
+    isni:identifierValid "0000000083438219" ;
+    dcterms:created "1986-06-03" ;
+    dcterms:modified "2014-09-10" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb11997554q> ;
+    skos:altLabel "Prochoros Kydones (1333?-1368)"@de,
+        "Próhoros Kydṓnīs (1333?-1368)"@fr,
+        "Prókhoros Kydṓnēs (1333?-1368)"@fr,
+        "Πρόχορος Κυδώης (1333?-1368)"@fr,
+        "Πρόχορος Κυδώνης (1333?-1368)"@fr,
+        "Procoro Cidone (1333?-1368)"@it,
+        "Procoro Cidonio (1333?-1368)"@it,
+        "Prochorus Cydonius (1333?-1368)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118741942>,
+        <http://id.loc.gov/authorities/n86094657>,
+        <https://www.idref.fr/02806593X> ;
+    skos:editorialNote "GDEL : Cydonès (Prochore). - . - Encycl. Grèce et Encycl. Papyros : Kudōnēs, Prohoros. - . -"@fr,
+        "Prochoros Kydones, Übersetzung von acht Briefen des Hl. Augustinus, 1984. - . - Boethius \"De topicis differentiis\" kai 'oi buzantines metafraseis tōn Manouēl 'Olobōlou kai Prohorou Kudōnē / eis. kai krit. ekd. tōn keimenōn 'upo Dēmētriou Nikēta = Boethius' \"De topicis differentiis\" und die byzantinische Rezeption dieses Werkes / Einleitung und textkritische Ausg. von Dimitrios Z. Nikitas, 1990. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000083438219>,
+        <http://viaf.org/viaf/56619258/>,
+        <http://wikidata.org/entity/Q7247406>,
+        <http://www.idref.fr/02806593X/id> ;
+    skos:note "Théologien byzantin ; adversaire de la doctrine palamite et de l'hésychasme. - Né entre 1330 et 1335. - Frère de Démétrius Cydonès. - Moine au monastère de la Grande Lavra (mont Athos), il fut dégradé et excommunié par un synode de Constantinople (en 1368). - Traducteur de fragments des oeuvres de saint Augustin, saint Thomas d'Aquin et Boèce en grec"@fr ;
+    skos:prefLabel "Prochore Cydonès (1333?-1368)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11997554q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11997554q#about> a foaf:Person ;
+    bnf-onto:firstYear 1333 ;
+    bnf-onto:lastYear 1368 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Théologien byzantin ; adversaire de la doctrine palamite et de l'hésychasme. - Né entre 1330 et 1335. - Frère de Démétrius Cydonès. - Moine au monastère de la Grande Lavra (mont Athos), il fut dégradé et excommunié par un synode de Constantinople (en 1368). - Traducteur de fragments des oeuvres de saint Augustin, saint Thomas d'Aquin et Boèce en grec" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1368/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1333/> ;
+    rdagroup2elements:biographicalInformation "Théologien byzantin ; adversaire de la doctrine palamite et de l'hésychasme. - Né entre 1330 et 1335. - Frère de Démétrius Cydonès. - Moine au monastère de la Grande Lavra (mont Athos), il fut dégradé et excommunié par un synode de Constantinople (en 1368). - Traducteur de fragments des oeuvres de saint Augustin, saint Thomas d'Aquin et Boèce en grec" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1333/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1368/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1333" ;
+    bio:death "1368" ;
+    = <http://viaf.org/viaf/56619258>,
+        <http://www.idref.fr/02806593X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb11997554q#foaf:Person> ;
+    foaf:familyName "Cydonès" ;
+    foaf:gender "male" ;
+    foaf:givenName "Prochore" ;
+    foaf:name "Prochore Cydonès" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11997554q> .
+

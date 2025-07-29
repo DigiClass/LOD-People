@@ -1,0 +1,79 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13483680sstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13483680s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb303977669#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13483680s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13483680s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13483680s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33074409d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13483680s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13483680s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13483680s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39910969t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13483680s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13483680s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13483680s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45442353k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13483680s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13483680s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13483680s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13483680s> a skos:Concept ;
+    bnf-onto:FRBNF 13483680 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000386794608" ;
+    dcterms:created "1998-06-17" ;
+    dcterms:modified "2015-07-27" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Elias_%28philosophe%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13483680s> ;
+    skos:altLabel "Hēlías (philosophe, 05..-05..)",
+        "Hīlías (philosophe, 05..-05..)",
+        "Élie (philosophe, 05..-05..)"@fr,
+        "Elias (philosophe, 05..-05..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102370826> ;
+    skos:editorialNote "Eliae in Porphirii Isagogen et Aristotelis Categorias commentaria / consilio et auctoritate Academia litterarum regiae borussicae ; ed. Adolfus Busse, 1900. - . - Clavis SGL : Elias Neoplatonicus. - . -"@fr,
+        "Encycl. Grèce. - . - DOC : dizionario delle opere classiche / Vittorio Volpi, 1994 : Elias (filosofo). - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Elias_%28philosophe%29>,
+        <http://fr.wikipedia.org/wiki/Elias_%28philosophe%29>,
+        <http://isni.org/isni/0000000386794608>,
+        <http://viaf.org/viaf/263163859/>,
+        <http://wikidata.org/entity/Q974885>,
+        <http://www.idref.fr/132278243> ;
+    skos:note "Philosophe néoplatonicien"@fr ;
+    skos:prefLabel "Elias Neoplatonicus (05..-05..)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13483680s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13483680s#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe néoplatonicien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Philosophe néoplatonicien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://fr.dbpedia.org/resource/Elias_%28philosophe%29>,
+        <http://viaf.org/viaf/263163859>,
+        <http://www.idref.fr/132278243/id>,
+        <https://data.bnf.fr/ark:/12148/cb13483680s#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k25523m.thumbnail> ;
+    foaf:familyName "Elias Neoplatonicus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13483680s> .
+

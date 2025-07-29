@@ -1,0 +1,66 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb470907545#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb18044778x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb18044778x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb18044778x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18044778x> a skos:Concept ;
+    bnf-onto:FRBNF 18044778 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-11-16"^^xsd:date ;
+    isni:identifierValid "0000000451453405" ;
+    dcterms:created "2022-11-08" ;
+    dcterms:modified "2022-12-27" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb18044778x> ;
+    skos:altLabel "Theopompus Atheniensis"@fr,
+        "Theópompos (04..-03.. av. J.-C.)"@fr,
+        "Théopompe d'Athènes"@fr,
+        "Θεόπομπος (04..-03.. av. J.-C.)"@fr,
+        "Theopompus (04..-03.. av. J.C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102407983>,
+        <http://id.loc.gov/authorities/no2022076871>,
+        <http://viaf.org/viaf/291869701>,
+        <https://www.idref.fr/268487642> ;
+    skos:editorialNote "Theopompus : introduction, translation, commentary / Matthew C. Farmer, cop. 2022. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000451453405>,
+        <http://wikidata.org/entity/Q3983959>,
+        <http://www.idref.fr/268487642/id> ;
+    skos:note "Poète comique et auteur dramatique. - Serait mort après 380 av. J.-C."@fr ;
+    skos:prefLabel "Théopompe (04..-03.. av. J.C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb18044778x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18044778x#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète comique et auteur dramatique. - Serait mort après 380 av. J.-C." ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Poète comique et auteur dramatique. - Serait mort après 380 av. J.-C." ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 03.." ;
+    = <http://www.idref.fr/268487642/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb18044778x#foaf:Person> ;
+    foaf:familyName "Théopompe" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb18044778x> .
+

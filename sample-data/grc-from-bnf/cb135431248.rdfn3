@@ -1,0 +1,80 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb135431248studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb135431248#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30589176k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb135431248#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb135431248#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135431248#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38995480p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb135431248#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb135431248#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135431248#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135431248> a skos:Concept ;
+    bnf-onto:FRBNF 13543124 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-31"^^xsd:date ;
+    isni:identifierValid "0000000354487312" ;
+    dcterms:created "2000-02-16" ;
+    dcterms:modified "2018-03-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Hellanicos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb135431248> ;
+    skos:altLabel "Ellanico di Lesbo (0460?-0395? av. J.-C.)"@fr,
+        "Ellanico di Mitilene (0460?-0395? av. J.-C.)"@fr,
+        "Hellanicos de Lesbos (0460?-0395? av. J.-C.)"@fr,
+        "Hellanicus of Lesbos (0460?-0395? av. J.-C.)"@fr,
+        "Hellánikos (0460?-0395? av. J.-C.)"@fr,
+        "Helánico de Lesbos (0460?-0395? av. J.-C.)"@fr,
+        "Ἑλλάνικος (0460?-0395? av. J.-C.)"@fr,
+        "Hellanicus Lesbius (0460?-0395? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/101004001>,
+        <http://datos.bne.es/resource/XX1664727>,
+        <http://id.loc.gov/authorities/n81119914>,
+        <https://www.idref.fr/050743163> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Oxford classical dictionary, 3rd ed., 1996. - . -"@fr,
+        "Fragmentos / Helánico de Lesbos, 1991. - . - GLU. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Hellanicos>,
+        <http://fr.wikipedia.org/wiki/Hellanicos>,
+        <http://isni.org/isni/0000000354487312>,
+        <http://viaf.org/viaf/10145003615161340147/>,
+        <http://wikidata.org/entity/Q504744>,
+        <http://www.idref.fr/050743163/id> ;
+    skos:note "Historien grec"@fr ;
+    skos:prefLabel "Hellanicos de Mitilène (0460?-0395? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb135431248#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135431248#about> a foaf:Person ;
+    bnf-onto:firstYear -460 ;
+    bnf-onto:lastYear -395 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien grec" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0395/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0460/> ;
+    rdagroup2elements:biographicalInformation "Historien grec" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0460/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0395/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 460" ;
+    bio:death "- 395" ;
+    = <http://fr.dbpedia.org/resource/Hellanicos>,
+        <http://viaf.org/viaf/10145003615161340147>,
+        <http://www.idref.fr/050743163/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb135431248#foaf:Person> ;
+    foaf:familyName "Hellanicos de Mitilène" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb135431248> .
+

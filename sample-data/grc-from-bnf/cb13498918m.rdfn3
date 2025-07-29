@@ -1,0 +1,80 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13498918mstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13498918m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46685894k#Expression> bnfroles:r120 <https://data.bnf.fr/ark:/12148/cb13498918m#about> ;
+    marcrel:cwt <https://data.bnf.fr/ark:/12148/cb13498918m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13498918m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46691398t#Expression> bnfroles:r120 <https://data.bnf.fr/ark:/12148/cb13498918m#about> ;
+    marcrel:cwt <https://data.bnf.fr/ark:/12148/cb13498918m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13498918m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46719134g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13498918m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13498918m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13498918m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13498918m> a skos:Concept ;
+    bnf-onto:FRBNF 13498918 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-05-26"^^xsd:date ;
+    isni:identifierValid "0000000458876005" ;
+    dcterms:created "1998-08-04" ;
+    dcterms:modified "2021-05-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb13498918m> ;
+    skos:altLabel "Leontius (mathématicien, 06..-06..)"@fr,
+        "Leóntios (mathématicien, 06..-06..)"@fr,
+        "Leóntios Mēchaníkos (06..-06..)"@fr,
+        "Leóntios Mīchaníkos (06..-06..)"@fr,
+        "Λεόντιος (mathématicien, 06..-06..)"@fr,
+        "Λεόντιος Μηχανίκος (06..-06..)"@fr,
+        "Leontius Mathematicus (06..-06..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/141800690>,
+        <http://datos.bne.es/resource/XX5598783>,
+        <http://id.loc.gov/authorities/no2011198622>,
+        <https://www.idref.fr/097525359> ;
+    skos:editorialNote "Dizionario delle opere classiche / Vittorio Volpi, 1994. - . - Encycl. Grèce. - . -"@fr,
+        "ʼArátoy Soléōs Fainómena kaì diosīmeîa. Théō̄nos Skólia. Leontíou Mīchanikoû Perì ʼarateías sfaíras, 1559. - . - Clavis SGL : Leontius Mathematicus. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000458876005>,
+        <http://viaf.org/viaf/12462398/>,
+        <http://wikidata.org/entity/Q11931348>,
+        <http://www.idref.fr/097525359/id> ;
+    skos:note "Mathématicien, astronome. - Commentateur des oeuvres d'Aratos"@fr ;
+    skos:prefLabel "Léonce le Mécanicien (06..-06..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13498918m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13498918m#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Mathématicien, astronome. - Commentateur des oeuvres d'Aratos" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0601-0700/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:biographicalInformation "Mathématicien, astronome. - Commentateur des oeuvres d'Aratos" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "06.." ;
+    bio:death "06.." ;
+    = <http://viaf.org/viaf/12462398>,
+        <http://www.idref.fr/097525359/id/id>,
+        <https://bp16.bnf.fr/ark:/12148/cb13498918m>,
+        <https://data.bnf.fr/ark:/12148/cb13498918m#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k52391f/f2.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k62113736/f3.item.thumbnail> ;
+    foaf:familyName "Léonce le Mécanicien" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13498918m> .
+

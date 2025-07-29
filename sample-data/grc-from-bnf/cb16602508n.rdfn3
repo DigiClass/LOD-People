@@ -1,0 +1,57 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb426820467#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16602508n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16602508n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16602508n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16602508n> a skos:Concept ;
+    bnf-onto:FRBNF 16602508 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000371275880" ;
+    dcterms:created "2012-06-06" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Mazaris_%28auteur%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16602508n> ;
+    skos:altLabel "Maximus Mazaris"@fr,
+        "Mazaris"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/100953638>,
+        <http://datos.bne.es/resource/XX1209617> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Mazaris_%28auteur%29>,
+        <http://fr.wikipedia.org/wiki/Mazaris_%28auteur%29>,
+        <http://isni.org/isni/0000000371275880>,
+        <http://viaf.org/viaf/250833588/>,
+        <http://wikidata.org/entity/Q1250328> ;
+    skos:note "Ecrivain satyrique grec du XV ème siècle."@fr ;
+    skos:prefLabel "Manuel Mazaris"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16602508n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16602508n#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Ecrivain satyrique grec du XV ème siècle." ;
+    rdagroup2elements:biographicalInformation "Ecrivain satyrique grec du XV ème siècle." ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://fr.dbpedia.org/resource/Mazaris_%28auteur%29>,
+        <http://viaf.org/viaf/250833588>,
+        <https://data.bnf.fr/ark:/12148/cb16602508n#foaf:Person> ;
+    foaf:familyName "Mazaris" ;
+    foaf:gender "male" ;
+    foaf:givenName "Manuel" ;
+    foaf:name "Manuel Mazaris" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16602508n> .
+

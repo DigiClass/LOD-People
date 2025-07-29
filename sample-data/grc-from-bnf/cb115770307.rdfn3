@@ -1,0 +1,79 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16748783d#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb115770307#about> .
+
+<https://data.bnf.fr/ark:/12148/cb167487973#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb115770307#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33000881t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb115770307#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb115770307#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb115770307#about> .
+
+<https://data.bnf.fr/ark:/12148/cb437734429#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb115770307#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb115770307#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb115770307#about> .
+
+<https://data.bnf.fr/ark:/12148/cb115770307> a skos:Concept ;
+    bnf-onto:FRBNF 11577030 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000432718869" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Euth%C3%A9rios_de_Tyane>,
+        <https://catalogue.bnf.fr/ark:/12148/cb115770307> ;
+    skos:altLabel "Eutherios von Tyana (0370?-0450?)"@fr,
+        "Eutherius Cappadox (0370?-0450?)"@fr,
+        "Euthèrios de Tyane (0370?-0450?)"@fr,
+        "Eu̓thérios Tyánōn (0370?-0450?)"@fr,
+        "Εὐθέριος Τυάνων (0370?-0450?)"@fr,
+        "Eutherius Tyanensis (0370?-0450?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/11868275X>,
+        <http://id.loc.gov/authorities/no2014043770>,
+        <https://www.idref.fr/139187944> ;
+    skos:editorialNote "DOC / V. Volpi,  1994 : Eutherius Tyanensis. - . - Clavis PG. - . -"@fr,
+        "Protestation ; lettres / Euthèrios de Tyane ; texte de Martin Tetz ; introduction, traduction et notes par Joseph Paramelle ; avec la collaboration de Louis Neyrand, 2014. - . - DHGE. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Euth%C3%A9rios_de_Tyane>,
+        <http://fr.wikipedia.org/wiki/Euth%C3%A9rios_de_Tyane>,
+        <http://isni.org/isni/0000000432718869>,
+        <http://viaf.org/viaf/8020160667963903560000/>,
+        <http://wikidata.org/entity/Q3061151> ;
+    skos:note "Métropolite de Tyane"@fr ;
+    skos:prefLabel "Euthérius de Tyane (0370?-0450?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb115770307#about> .
+
+<https://data.bnf.fr/ark:/12148/cb115770307#about> a foaf:Person ;
+    bnf-onto:firstYear 370 ;
+    bnf-onto:lastYear 450 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Métropolite de Tyane" ;
+    rdaa:P50118 "Tyr" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0450/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0370/> ;
+    rdagroup2elements:biographicalInformation "Métropolite de Tyane" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0370/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0450/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfDeath "Tyr" ;
+    bio:birth "370" ;
+    bio:death "450" ;
+    = <http://fr.dbpedia.org/resource/Euth%C3%A9rios_de_Tyane>,
+        <http://viaf.org/viaf/8020160667963903560000>,
+        <https://data.bnf.fr/ark:/12148/cb115770307#foaf:Person> ;
+    foaf:familyName "Euthérius de Tyane" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb115770307> .
+

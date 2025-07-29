@@ -1,0 +1,78 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121977212studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121977212#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12231436r#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb121977212#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37701507k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121977212#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121977212#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121977212#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121977212> a skos:Concept ;
+    bnf-onto:FRBNF 12197721 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000066338574" ;
+    dcterms:created "1991-04-11" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/H%C3%A9raclide_Lembos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121977212> ;
+    skos:altLabel "Eraclide (01..-009. av. J.-C.)"@fr,
+        "Eraclide Lembo (01..-009. av. J.-C.)"@fr,
+        "Heraclides Alexandrinus (01..-009. av. J.-C.)"@fr,
+        "Heraclides Calliatides (01..-009. av. J.-C.)"@fr,
+        "Heraclides Oxyrhyncus (01..-009. av. J.-C.)"@fr,
+        "Hīrakleídīs ho Lémvos (01..-009. av. J.-C.)"@fr,
+        "Hërakleídës ho Lémbos (01..-009. av. J.-C.)"@fr,
+        "Ἡρακλείδης ὁ Λέμβος (01..-009. av. J.-C.)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/102394962>,
+        <http://datos.bne.es/resource/XX1704105>,
+        <http://id.loc.gov/authorities/nr94027924> ;
+    skos:editorialNote "Heraclidis Lembi excerpta politiarum / ed. and translated by Mervin R. Dilts, 1971. - . - Clavis scriptorum graecorum et latinorum : Heraclides Lembus. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/H%C3%A9raclide_Lembos>,
+        <http://fr.wikipedia.org/wiki/H%C3%A9raclide_Lembos>,
+        <http://isni.org/isni/0000000066338574>,
+        <http://viaf.org/viaf/93026507/>,
+        <http://wikidata.org/entity/Q2397427>,
+        <http://www.idref.fr/030593220> ;
+    skos:note "Biographe. - Historien"@fr ;
+    skos:prefLabel "Heraclides Lembus (01..-009. av. J.-C.)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121977212#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121977212#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Biographe. - Historien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0100--0001/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Biographe. - Historien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0100--0001/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 01.." ;
+    bio:death "- 009." ;
+    = <http://fr.dbpedia.org/resource/H%C3%A9raclide_Lembos>,
+        <http://viaf.org/viaf/93026507>,
+        <http://www.idref.fr/030593220/id>,
+        <https://data.bnf.fr/ark:/12148/cb121977212#foaf:Person> ;
+    foaf:familyName "Heraclides Lembus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121977212> .
+

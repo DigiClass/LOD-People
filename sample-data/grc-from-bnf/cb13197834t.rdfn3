@@ -1,0 +1,80 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13197834tstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13197834t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb315125740#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13197834t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13197834t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13197834t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13197834t> a skos:Concept ;
+    bnf-onto:FRBNF 13197834 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2025-03-19"^^xsd:date ;
+    isni:identifierValid "0000000085655428" ;
+    dcterms:created "1997-04-09" ;
+    dcterms:modified "2025-03-19" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Protagoras>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13197834t> ;
+    skos:altLabel "Protagora Abderita (0485?-0410? av. J.-C.)"@fr,
+        "Protagoras d'Abdère (0485?-0410? av. J.-C.)"@fr,
+        "Protagoras von Abdera (0485?-0410? av. J.-C.)"@fr,
+        "Protàgora d'Abdera (0485?-0410? av. J.-C.)"@fr,
+        "Prōtagóras (0485?-0410? av. J.-C.)"@fr,
+        "Πρωταγόρας (0485?-0410? av. J.-C.)"@fr,
+        "Protagoras Abderitanus (0485?-0410? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118596772>,
+        <http://datos.bne.es/resource/XX873956>,
+        <http://id.loc.gov/authorities/n81002855>,
+        <https://www.idref.fr/028569792> ;
+    skos:editorialNote "Buchwald : Protagoras d'Abdère. - . - Clavis SGL : Protagoras Abderitanus. - . - Encycl. Grèce. - . -"@fr,
+        "DOC : Protagora Abderita. - . - Dizionario biografico universale / G. Garollo, 1907. - . - LC Authorities : Protagoras. - http://authorities.loc.gov. - 2022-11-29"@fr,
+        "Fragmenta philosophorum graecorum. Volumen II, Pythagoreos, Sophistas, Cynicos et Chalcidii in priorem Timaei Platonici, partem commentarios continens / collegit, recensuit, vertit, annotationibus et prolegomenis illustravit, indicibus instruxit Fr. Guil. Aug. Mullachius, 1867. - . - Dictionnaire de l'Antiquité / Université d'Oxford, 1993. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Protagoras>,
+        <http://fr.wikipedia.org/wiki/Protagoras>,
+        <http://isni.org/isni/0000000085655428>,
+        <http://viaf.org/viaf/2925160364973763680005/>,
+        <http://wikidata.org/entity/Q169243> ;
+    skos:note "Sophiste, légiste et philosophe. - Fut expulsé d'Athènes comme athée. - Son oeuvre subsiste à l'état de fragments"@fr ;
+    skos:prefLabel "Protagoras (0485?-0410? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13197834t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13197834t#about> a foaf:Person ;
+    bnf-onto:firstYear -485 ;
+    bnf-onto:lastYear -410 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Sophiste, légiste et philosophe. - Fut expulsé d'Athènes comme athée. - Son oeuvre subsiste à l'état de fragments" ;
+    rdaa:P50119 "Abdère (Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0410/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0485/> ;
+    rdagroup2elements:biographicalInformation "Sophiste, légiste et philosophe. - Fut expulsé d'Athènes comme athée. - Son oeuvre subsiste à l'état de fragments" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0485/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0410/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Abdère (Grèce)" ;
+    bio:birth "- 485" ;
+    bio:death "- 410" ;
+    = <http://fr.dbpedia.org/resource/Protagoras>,
+        <http://viaf.org/viaf/2925160364973763680005>,
+        <https://data.bnf.fr/ark:/12148/cb13197834t#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Salvator%2520Rosa%2520-%2520D%25C3%25A9mocrite%2520et%2520Protagoras.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k28211h/f6.item.thumbnail> ;
+    foaf:familyName "Protagoras" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13197834t> .
+

@@ -1,0 +1,76 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb366695768#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123681681#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123681681#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123681681#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37411769c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123681681#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123681681#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123681681#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123681681> a skos:Concept ;
+    bnf-onto:FRBNF 12368168 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-26"^^xsd:date ;
+    isni:identifierValid "0000000122775462" ;
+    dcterms:created "1994-02-10" ;
+    dcterms:modified "2014-07-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Constantin_Acropolite>,
+        <https://catalogue.bnf.fr/ark:/12148/cb123681681> ;
+    skos:altLabel "Constantine Akropolites (125.-132.)"@en,
+        "Constantinus Acropolita (125.-132.)"@fr,
+        "Kōnstantî̄nos ̓Akropolítīs (125.-132.)"@fr,
+        "Κωνσταντῆνος Ἀκροπολίτης (125.-132.)"@fr,
+        "Costantino Acropolita (125.-132.)"@it,
+        "Constantinus Acropolita (125.-132.)"@la,
+        "Constantinus Acropolites (125.-132.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100939465>,
+        <http://id.loc.gov/authorities/nr94020414> ;
+    skos:editorialNote "Epistole / Costantino Acropolita ; saggio introduttivo, testo critico, indici a cura di Roberto Romano, 1991. - . - GLU. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Constantin_Acropolite>,
+        <http://fr.wikipedia.org/wiki/Constantin_Acropolite>,
+        <http://isni.org/isni/0000000122775462>,
+        <http://viaf.org/viaf/24680353/>,
+        <http://wikidata.org/entity/Q3695456>,
+        <http://www.idref.fr/148752160> ;
+    skos:note "Homme d'État byzantin, fils de l'homme politique Georges Acropolite. - Hagiographe et historien, poète et rhéteur"@fr ;
+    skos:prefLabel "Constantin Acropolite (125.-132.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb123681681#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123681681#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Homme d'État byzantin, fils de l'homme politique Georges Acropolite. - Hagiographe et historien, poète et rhéteur" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1301-1400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1201-1300/> ;
+    rdagroup2elements:biographicalInformation "Homme d'État byzantin, fils de l'homme politique Georges Acropolite. - Hagiographe et historien, poète et rhéteur" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1201-1300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "125." ;
+    bio:death "132." ;
+    = <http://fr.dbpedia.org/resource/Constantin_Acropolite>,
+        <http://viaf.org/viaf/24680353>,
+        <http://www.idref.fr/148752160/id>,
+        <https://data.bnf.fr/ark:/12148/cb123681681#foaf:Person> ;
+    foaf:familyName "Acropolite" ;
+    foaf:gender "male" ;
+    foaf:givenName "Constantin" ;
+    foaf:name "Constantin Acropolite" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb123681681> .
+

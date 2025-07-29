@@ -1,0 +1,54 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13554151m#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb13327320n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37067837t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13327320n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13327320n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13327320n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13327320n> a skos:Concept ;
+    bnf-onto:FRBNF 13327320 ;
+    dcterms:created "1998-09-03" ;
+    dcterms:modified "1998-09-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb13327320n> ;
+    skos:altLabel "'Ioulianós"@fr,
+        "Julian der Arianer"@fr ;
+    skos:closeMatch <https://www.idref.fr/035656042> ;
+    skos:editorialNote "Der Hiobkommentar des Arianers Julian / erstmals hrsg. von Dieter Hagedorn, 1973. - . - Dictionnaire encyclopédique de christianisme ancien, 1983. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/208013481/>,
+        <http://wikidata.org/entity/Q18626710>,
+        <http://www.idref.fr/035656042/id> ;
+    skos:note "Vraisemblablement actif à Antioche dans la seconde moitié du IVème siècle. - Théologien arien. - Auteur d'un Commentaire du livre de Job (attribué à tort à Origène par certains manuscrits). - On lui attribue également les \"Constitutions apostoliques\", les \"Quatre-vingt-cinq canons des Apôtres\", ainsi que 3 lettres qu'il interpola aux épîtres authentiques dans son édition des lettres d'Ignace d'Antioche. - Il a été confondu, à tort, avec Julien d'Halicarnasse"@fr ;
+    skos:prefLabel "Julien l'Arien"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13327320n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13327320n#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Vraisemblablement actif à Antioche dans la seconde moitié du IVème siècle. - Théologien arien. - Auteur d'un Commentaire du livre de Job (attribué à tort à Origène par certains manuscrits). - On lui attribue également les \"Constitutions apostoliques\", les \"Quatre-vingt-cinq canons des Apôtres\", ainsi que 3 lettres qu'il interpola aux épîtres authentiques dans son édition des lettres d'Ignace d'Antioche. - Il a été confondu, à tort, avec Julien d'Halicarnasse" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Vraisemblablement actif à Antioche dans la seconde moitié du IVème siècle. - Théologien arien. - Auteur d'un Commentaire du livre de Job (attribué à tort à Origène par certains manuscrits). - On lui attribue également les \"Constitutions apostoliques\", les \"Quatre-vingt-cinq canons des Apôtres\", ainsi que 3 lettres qu'il interpola aux épîtres authentiques dans son édition des lettres d'Ignace d'Antioche. - Il a été confondu, à tort, avec Julien d'Halicarnasse" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "03.." ;
+    bio:death "04.." ;
+    = <http://viaf.org/viaf/208013481>,
+        <http://www.idref.fr/035656042/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb13327320n#foaf:Person> ;
+    foaf:familyName "Julien l'Arien" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13327320n> .
+

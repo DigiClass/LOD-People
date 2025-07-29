@@ -1,0 +1,59 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb120466905studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb120466905#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34979997s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120466905#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120466905#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120466905#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35647433p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120466905#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120466905#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120466905#about> .
+
+<https://data.bnf.fr/ark:/12148/cb389616098#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120466905#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120466905#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120466905#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120466905> a skos:Concept ;
+    bnf-onto:FRBNF 12046690 ;
+    dcterms:created "1987-08-31" ;
+    dcterms:modified "2015-07-27" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb120466905> ;
+    skos:altLabel "Nonnos von Panopolis (auteur prétendu)"@fr,
+        "Nonnus (auteur prétendu)"@fr,
+        "Nonnus de Panopolis (auteur prétendu)"@fr,
+        "Pseudo-Nonnos"@fr,
+        "Nonnus Panopolitanus (auteur prétendu)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/10096575X>,
+        <http://id.loc.gov/authorities/nr94014167>,
+        <http://isni.org/isni/0000000080161082> ;
+    skos:exactMatch <http://viaf.org/viaf/61564416/>,
+        <http://wikidata.org/entity/Q24962922>,
+        <http://www.idref.fr/028681363> ;
+    skos:note "Auteur byzantin inconnu, probablement du 6è s.. - Auteur de scholies sur certaines homélies de Saint Grégoire de Nazianze"@fr ;
+    skos:prefLabel "Nonnos de Panopolis (auteur prétendu)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb120466905#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120466905#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur byzantin inconnu, probablement du 6è s.. - Auteur de scholies sur certaines homélies de Saint Grégoire de Nazianze" ;
+    rdagroup2elements:biographicalInformation "Auteur byzantin inconnu, probablement du 6è s.. - Auteur de scholies sur certaines homélies de Saint Grégoire de Nazianze" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/61564416>,
+        <http://www.idref.fr/028681363/id>,
+        <https://data.bnf.fr/ark:/12148/cb120466905#foaf:Person> ;
+    foaf:familyName "Nonnos de Panopolis" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb120466905> .
+

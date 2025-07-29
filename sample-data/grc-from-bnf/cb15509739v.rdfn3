@@ -1,0 +1,89 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb15509739vstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb15509739v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30674658s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb15509739v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb15509739v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15509739v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30891509b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb15509739v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb15509739v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15509739v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31479005j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb15509739v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb15509739v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15509739v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15509739v> a skos:Concept ;
+    bnf-onto:FRBNF 15509739 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "000000012119851X" ;
+    dcterms:created "2007-02-15" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb15509739v> ;
+    skos:altLabel "Antonij Katifor (1685-1763)"@fr,
+        "Antonije Katifor (1685-1763)"@fr,
+        "Antonio Katiforo (1685-1763)"@fr,
+        "A̓ntṓnios Katī́foros (1685-1763)"@fr,
+        "A̓ntṓnios Katë́phoros (1685-1763)"@fr,
+        "Ἀντώνιος Κατήφορος (1685-1763)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/128620188>,
+        <http://id.loc.gov/authorities/n2003057558> ;
+    skos:editorialNote "Biogr., Italie, 1979. - . - LC Authorities. - http://authorities.loc.gov. - 2007-02-15"@fr,
+        "Zivot Petra Velikoga, cara Rusije. Izpisan od arkimandrite Antonie Katifora a preveden u jezik hrvatski s malim nadodanjem od O. F. Aleksandra Tomikovicha,... \"Utišten u Osiku 1794.\" Na novo ga izdaje Ivan pl. Maršo Maršovski, 1876. - . - Antonio Catiforo e Giovanni Veludo interpreti di Fozio / Margherita Losacco, impr. 2003. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000012119851X>,
+        <http://viaf.org/viaf/8443521/>,
+        <http://wikidata.org/entity/Q18123868>,
+        <http://www.idref.fr/137746016> ;
+    skos:note "A écrit en italien et en grec"@fr,
+        "Abbé. - Historien et grammairien"@fr ;
+    skos:prefLabel "Antonio Catiforo (1685-1763)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb15509739v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15509739v#about> a foaf:Person ;
+    bnf-onto:firstYear 1685 ;
+    bnf-onto:lastYear 1763 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+    rdaa:P50113 "A écrit en italien et en grec",
+        "Abbé. - Historien et grammairien" ;
+    rdaa:P50118 "Zante, Grèce" ;
+    rdaa:P50119 "Ile de Zakinthos, Grèce" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1763/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1685/> ;
+    rdagroup2elements:biographicalInformation "A écrit en italien et en grec",
+        "Abbé. - Historien et grammairien" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1685/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1763/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+    rdagroup2elements:placeOfBirth "Ile de Zakinthos, Grèce" ;
+    rdagroup2elements:placeOfDeath "Zante, Grèce" ;
+    bio:birth "1685" ;
+    bio:death "1763-11-08" ;
+    = <http://viaf.org/viaf/8443521>,
+        <http://www.idref.fr/137746016/id>,
+        <https://data.bnf.fr/ark:/12148/cb15509739v#foaf:Person> ;
+    foaf:familyName "Catiforo" ;
+    foaf:gender "male" ;
+    foaf:givenName "Antonio" ;
+    foaf:name "Antonio Catiforo" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb15509739v> .
+

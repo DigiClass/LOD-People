@@ -1,0 +1,70 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13769627wstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13769627w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb457725340#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13769627w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13769627w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13769627w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13769627w> a skos:Concept ;
+    bnf-onto:FRBNF 13769627 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-31"^^xsd:date ;
+    isni:identifierValid "0000000106311131" ;
+    dcterms:created "2000-03-21" ;
+    dcterms:modified "2013-08-01" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nicolas_M%C3%A9sarit%C3%A8s>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13769627w> ;
+    skos:closeMatch <http://d-nb.info/gnd/119061805>,
+        <http://id.loc.gov/authorities/n94030304>,
+        <https://www.idref.fr/081811322> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nicolas_M%C3%A9sarit%C3%A8s>,
+        <http://fr.wikipedia.org/wiki/Nicolas_M%C3%A9sarit%C3%A8s>,
+        <http://isni.org/isni/0000000106311131>,
+        <http://viaf.org/viaf/22324222/>,
+        <http://wikidata.org/entity/Q3340623>,
+        <http://www.idref.fr/081811322/id> ;
+    skos:note "Rhéteur grec"@fr ;
+    skos:prefLabel "Nikolaos Mesarites (1164?-1216?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13769627w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13769627w#about> a foaf:Person ;
+    bnf-onto:firstYear 1164 ;
+    bnf-onto:lastYear 1216 ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Rhéteur grec" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1216/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1164/> ;
+    rdagroup2elements:biographicalInformation "Rhéteur grec" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1164/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1216/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1164" ;
+    bio:death "1216" ;
+    = <http://fr.dbpedia.org/resource/Nicolas_M%C3%A9sarit%C3%A8s>,
+        <http://viaf.org/viaf/22324222>,
+        <http://www.idref.fr/081811322/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb13769627w#foaf:Person> ;
+    foaf:familyName "Mesarites" ;
+    foaf:givenName "Nikolaos" ;
+    foaf:name "Nikolaos Mesarites" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13769627w> .
+

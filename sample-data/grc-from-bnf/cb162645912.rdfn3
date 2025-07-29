@@ -1,0 +1,61 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb162645912studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb162645912#about> .
+
+<https://data.bnf.fr/ark:/12148/cb162645912> a skos:Concept ;
+    bnf-onto:FRBNF 16264591 ;
+    dcterms:created "2011-02-14" ;
+    dcterms:modified "2012-02-22" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Platon_le_Comique>,
+        <https://catalogue.bnf.fr/ark:/12148/cb162645912> ;
+    skos:altLabel "Platon der Komiker (04..-038.? av. J.-C.)"@de,
+        "Plátōn kōmikós (04..-038.? av. J.-C.)"@fr,
+        "Πλάτων κωμικός (04..-038.? av. J.-C.)"@fr,
+        "Platone comico (04..-038.? av. J.-C.)"@it,
+        "Plato comicus (04..-038.? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118792504>,
+        <http://id.loc.gov/authorities/no2010048274>,
+        <http://isni.org/isni/0000000087757516>,
+        <https://www.idref.fr/137485093> ;
+    skos:editorialNote "Plato Comicus, die fragmentarischen Komödien / Serena Pirrotta, cop. 2009. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Platon_le_Comique>,
+        <http://fr.wikipedia.org/wiki/Platon_le_Comique>,
+        <http://viaf.org/viaf/173057060/>,
+        <http://wikidata.org/entity/Q446098> ;
+    skos:note "Auteur de comédies"@fr ;
+    skos:prefLabel "Platon le comique (04..-038.? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb162645912#about> .
+
+<https://data.bnf.fr/ark:/12148/cb162645912#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur de comédies" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Auteur de comédies" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 038." ;
+    = <http://fr.dbpedia.org/resource/Platon_le_Comique>,
+        <http://viaf.org/viaf/173057060>,
+        <https://data.bnf.fr/ark:/12148/cb162645912#foaf:Person> ;
+    foaf:familyName "Platon le comique" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb162645912> .
+

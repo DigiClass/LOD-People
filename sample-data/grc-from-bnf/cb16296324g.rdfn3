@@ -1,0 +1,66 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16296324gstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb16296324g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16296324g> a skos:Concept ;
+    bnf-onto:FRBNF 16296324 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "000000038147754X" ;
+    dcterms:created "2012-05-09" ;
+    dcterms:modified "2024-09-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16296324g> ;
+    skos:altLabel "'Aléxios V´ Komnēnòs (empereur de Byzance, 11169-1183)"@fr,
+        "'Aléxios V´ Komnīnòs (empereur de Byzance, 1169-1183)"@fr,
+        "Alexis 2 (empereur de Byzance, 1169-1183)"@fr,
+        "Alexis II Comnène (empereur de Byzance, 1169-1183)"@fr,
+        "Ἀλέξιος 2 (empereur de Byzance, 1169-1183)"@fr,
+        "Ἀλέξιος Βʹ (empereur de Byzance, 1169-1183)"@fr,
+        "Ἀλέξιος Βʹ Κομνηὸς (empereur de Byzance, 11169-1183)"@fr,
+        "Alexius 2 (empereur de Byzance, 1169-1183)"@la,
+        "Alexius II (empereur de Byzance, 1169-1183)"@la ;
+    skos:editorialNote "GDEL ; Mourre : Alexis II Comnène. - . - DHGE : Alexis II (Comnène). - . - Clavis SGL : Alexius Comnenus II. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000038147754X> ;
+    skos:note "Empereur d'Orient (24 septembre 1180 à octobre 1183)"@fr ;
+    skos:prefLabel "Alexis II (empereur de Byzance, 1169-1183)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16296324g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16296324g#about> a foaf:Person ;
+    bnf-onto:firstYear 1169 ;
+    bnf-onto:lastYear 1183 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Empereur d'Orient (24 septembre 1180 à octobre 1183)" ;
+    rdaa:P50118 "Constantinople" ;
+    rdaa:P50119 "Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1183/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1169/> ;
+    rdagroup2elements:biographicalInformation "Empereur d'Orient (24 septembre 1180 à octobre 1183)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1169/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1183/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Constantinople" ;
+    rdagroup2elements:placeOfDeath "Constantinople" ;
+    bio:birth "1169-09-10" ;
+    bio:death "1183-10" ;
+    = <https://data.bnf.fr/ark:/12148/cb16296324g#foaf:Person> ;
+    foaf:birthday "09-10" ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b85294676.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8529468m.thumbnail> ;
+    foaf:familyName "Alexis" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16296324g> .
+

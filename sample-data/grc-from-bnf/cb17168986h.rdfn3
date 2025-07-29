@@ -1,0 +1,86 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb44979188q#Expression> bnfroles:r373 <https://data.bnf.fr/ark:/12148/cb17168986h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17168986h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb449791892#Expression> bnfroles:r373 <https://data.bnf.fr/ark:/12148/cb17168986h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17168986h#about> .
+
+<https://data.bnf.fr/temp-work/2a73475f8c8bfa2421d261514a346037/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb17168986h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17168986h> a skos:Concept ;
+    bnf-onto:FRBNF 17168986 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-05-01"^^xsd:date ;
+    isni:identifierValid "0000000514458757" ;
+    dcterms:created "2017-12-05" ;
+    dcterms:modified "2024-09-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Tib%C3%A8re_III_Apsimar>,
+        <https://catalogue.bnf.fr/ark:/12148/cb17168986h> ;
+    skos:altLabel "Tivérios 3 (empereur de Byzance, 06..-0706)"@el,
+        "Tivérios G´ (empereur de Byzance, 06..-0706)"@el,
+        "ʼApsímaros (06..-0706)"@el,
+        "Τιβέριος 3 (empereur de Byzance, 06..-0706)"@el,
+        "Τιβέριος Γʹ (empereur de Byzance, 06..-0706)"@el,
+        "Ἀψίμαρος (06..-0706)"@el,
+        "Apsimar (06-..0706)"@fr,
+        "Tibère 3 (empereur de Byzance, 06..-0706)"@fr,
+        "Apsimarus (06..-0706)"@la,
+        "Tiberius 3 (empereur de Byzance, 06..-0706)"@la,
+        "Tiberius III (empereur de Byzance, 06..-0706)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/1159034702> ;
+    skos:editorialNote "GLU. - . - Oxford Dictionary of Byzantium /  Alexander Kazhdan (dir.) ; New York et Oxford, Oxford University Press, 1991, 1e éd.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Tib%C3%A8re_III_Apsimar>,
+        <http://fr.wikipedia.org/wiki/Tib%C3%A8re_III_Apsimar>,
+        <http://isni.org/isni/0000000514458757>,
+        <http://viaf.org/viaf/5151594341905350290/>,
+        <http://wikidata.org/entity/Q41637> ;
+    skos:note "Empereur d'Orient du 15 février 698 au 21 août 705"@fr ;
+    skos:prefLabel "Tibère III (empereur de Byzance, 06..-0706)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17168986h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17168986h#about> a foaf:Person ;
+    bnf-onto:lastYear 706 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50100 <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat> ;
+    rdaa:P50113 "Empereur d'Orient du 15 février 698 au 21 août 705" ;
+    rdaa:P50118 "Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0706/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:biographicalInformation "Empereur d'Orient du 15 février 698 au 21 août 705" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0706/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat> ;
+    rdagroup2elements:placeOfDeath "Constantinople" ;
+    bio:birth "06.." ;
+    bio:death "0706-02-15" ;
+    = <http://fr.dbpedia.org/resource/Tib%C3%A8re_III_Apsimar>,
+        <http://viaf.org/viaf/5151594341905350290>,
+        <https://data.bnf.fr/ark:/12148/cb17168986h#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Solidus-Tiberius%2520III-sb1360.4.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b113503330.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b11350334f.thumbnail> ;
+    foaf:familyName "Tibère" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17168986h> .
+

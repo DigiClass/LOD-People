@@ -1,0 +1,66 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb15010825mstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb15010825m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30954946q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb15010825m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb15010825m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15010825m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb392067788#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb15010825m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb15010825m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15010825m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15010825m> a skos:Concept ;
+    bnf-onto:FRBNF 15010825 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "0000000356397644" ;
+    dcterms:created "2005-10-10" ;
+    dcterms:modified "2018-11-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb15010825m> ;
+    skos:altLabel "Mnaséas de Patara"@fr,
+        "Μνασέας"@fr,
+        "Mnasea"@it,
+        "Mnaseas Patrensis"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102399700>,
+        <http://id.loc.gov/authorities/n2006069337>,
+        <https://www.idref.fr/077481968> ;
+    skos:editorialNote "I frammenti di Mnasea : introduzione, testo e commento / Pietro Cappelletto, 2003. - . - GLE, 1963. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000356397644>,
+        <http://viaf.org/viaf/19957468/>,
+        <http://wikidata.org/entity/Q1230889> ;
+    skos:note "Historien et géographe grec. - Des fragments de son oeuvre nous sont parvenus, notamment de son \"Périple\" et de son \"Recueil des oracles de Delphes\", en partie dans les papyrus d'Oxyrhynchos"@fr ;
+    skos:prefLabel "Mnaséas"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb15010825m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15010825m#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien et géographe grec. - Des fragments de son oeuvre nous sont parvenus, notamment de son \"Périple\" et de son \"Recueil des oracles de Delphes\", en partie dans les papyrus d'Oxyrhynchos" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0201-0300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:biographicalInformation "Historien et géographe grec. - Des fragments de son oeuvre nous sont parvenus, notamment de son \"Périple\" et de son \"Recueil des oracles de Delphes\", en partie dans les papyrus d'Oxyrhynchos" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 02.." ;
+    bio:death "02.." ;
+    = <http://viaf.org/viaf/19957468>,
+        <https://data.bnf.fr/ark:/12148/cb15010825m#foaf:Person> ;
+    foaf:familyName "Mnaséas" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb15010825m> .
+

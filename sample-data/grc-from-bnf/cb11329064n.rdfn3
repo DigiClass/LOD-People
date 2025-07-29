@@ -1,0 +1,88 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30357913f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11329064n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30649677n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11329064n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb308162270#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11329064n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32051628z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11329064n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb320516299#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11329064n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32051630h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11329064n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11329064n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11329064n> a skos:Concept ;
+    bnf-onto:FRBNF 11329064 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2022-07-07" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb11329064n> ;
+    skos:altLabel "Flavian 1"@fr,
+        "Flavian I"@fr,
+        "Flavianós 1 (patriarche d'Antioche, 0320?-0404)"@fr,
+        "Flavianós A' (patriarche d'Antioche, 0320?-0404)"@fr,
+        "Flavianus I"@fr,
+        "Flavien 1 (patriarche d'Antioche, 0320?-0404)"@fr,
+        "Flavien Ier"@fr,
+        "Phlabianós 1 (patriarche d'Antioche, 0320?-0404)"@fr,
+        "Phlabianós A' (patriarche d'Antioche, 0320?-0404)"@fr,
+        "Φλαβιανός 1 (patriarche d'Antioche, 0320?-0404)"@fr,
+        "Φλαβιανός Α΄ (patriarche d'Antioche, 0320?-0404)"@fr,
+        "Flavianus 1 (patriarche d'Antioche, 0320?-0404)"@la,
+        "Flavianus Antiochenus"@la,
+        "Flavianus I (patriarche d'Antioche, 0320?-0404)"@la ;
+    skos:editorialNote "DOC / V. Volpi, 1994 : Flavianus Antiochenus. - . - Hellīnikī̀ patrología / Panag. K. Chrī́stou, 2006 : Flavianós A'. - . - A dictionary of christian biography and literature, 1911 : Flavianus I. - . -"@fr,
+        "Discours / de Flavien et de Libanius à l'Empereur Théodose en faveur de la ville d'Antioche ; traduits du grec en français et analysés par J.-L. Génin, 1826. - . - DHGE : Flavien Ier. - . -"@fr ;
+    skos:note "Archevêque et patriarche d'Antioche de 381 à sa mort"@fr ;
+    skos:prefLabel "Flavien Ier (patriarche d'Antioche, 0320?-0404)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11329064n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11329064n#about> a foaf:Person ;
+    bnf-onto:firstYear 320 ;
+    bnf-onto:lastYear 404 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Archevêque et patriarche d'Antioche de 381 à sa mort" ;
+    rdaa:P50118 "Antioche" ;
+    rdaa:P50119 "Antioche" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0404/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0320/> ;
+    rdagroup2elements:biographicalInformation "Archevêque et patriarche d'Antioche de 381 à sa mort" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0320/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0404/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Antioche" ;
+    rdagroup2elements:placeOfDeath "Antioche" ;
+    bio:birth "320" ;
+    bio:death "0404-02" ;
+    = <https://data.bnf.fr/ark:/12148/cb11329064n#foaf:Person> ;
+    foaf:familyName "Flavien" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11329064n> .
+

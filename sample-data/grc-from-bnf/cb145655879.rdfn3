@@ -1,0 +1,63 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb145678430#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb145655879#about> .
+
+<https://data.bnf.fr/ark:/12148/cb179743347#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb145655879#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37219552p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb145655879#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb145655879#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb145655879#about> .
+
+<https://data.bnf.fr/ark:/12148/cb145655879> a skos:Concept ;
+    bnf-onto:FRBNF 14565587 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "000000009107497X" ;
+    dcterms:created "2004-08-31" ;
+    dcterms:modified "2021-10-19" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb145655879> ;
+    skos:altLabel "Stephanos diakonos"@fr,
+        "Stephanos von Konstantinopel"@fr,
+        "Stephanus Constantinopolitanus"@fr,
+        "Stephanus diaconus"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/10096124X>,
+        <http://datos.bne.es/resource/XX1381719>,
+        <http://id.loc.gov/authorities/n96121066> ;
+    skos:editorialNote "La \"Vie d'Étienne le Jeune\" / par Étienne le Diacre ; introd., éd., et trad. par Marie-France Auzépy, 1997. - . - PMA. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000009107497X>,
+        <http://viaf.org/viaf/26135966/>,
+        <http://wikidata.org/entity/Q2344362>,
+        <http://www.idref.fr/261805541/id> ;
+    skos:prefLabel "Étienne le Diacre"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb145655879#about> .
+
+<https://data.bnf.fr/ark:/12148/cb145655879#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50120 <https://data.bnf.fr/date/0801-0900/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0701-0800/> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0701-0800/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "07.." ;
+    bio:death "08.." ;
+    = <http://viaf.org/viaf/26135966>,
+        <http://www.idref.fr/261805541/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb145655879#foaf:Person> ;
+    foaf:familyName "Étienne le Diacre" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb145655879> .
+

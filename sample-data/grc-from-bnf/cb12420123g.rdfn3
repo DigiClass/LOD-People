@@ -1,0 +1,76 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb373950885#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12420123g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12420123g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12420123g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb40036088s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12420123g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12420123g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12420123g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb426115040#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12420123g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12420123g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12420123g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12420123g> a skos:Concept ;
+    bnf-onto:FRBNF 12420123 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "000000008102256X" ;
+    dcterms:created "1994-09-27" ;
+    dcterms:modified "2015-03-12" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Hermagoras_de_Temnos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12420123g> ;
+    skos:altLabel "Ermagora"@fr,
+        "Hermágoras"@fr,
+        "Ἑρμάγορας"@fr,
+        "Hermagoras Temnites"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118774093>,
+        <http://datos.bne.es/resource/XX1610496>,
+        <http://id.loc.gov/authorities/n85206199>,
+        <https://www.idref.fr/033323968> ;
+    skos:editorialNote "Der kleine Pauly : Hermagoras. - . - Larousse 19e s. : Hermagoras de Temnos. - . -"@fr,
+        "Hermagorae Temnitae Testimonia et fragmenta : adiunctis et Hermagorae cuiusdam discipuli Theodori Gadarei et Hermagorae Minoris fragmentis / coll. Dieter Matthes, 1962. - . - Clavis SGL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Hermagoras_de_Temnos>,
+        <http://fr.wikipedia.org/wiki/Hermagoras_de_Temnos>,
+        <http://isni.org/isni/000000008102256X>,
+        <http://viaf.org/viaf/163695048/>,
+        <http://wikidata.org/entity/Q1610221>,
+        <http://www.idref.fr/033323968/id> ;
+    skos:note "Rhéteur, actif vers 150 av. J.-C."@fr ;
+    skos:prefLabel "Hermagoras de Temnos"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12420123g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12420123g#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Rhéteur, actif vers 150 av. J.-C." ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Rhéteur, actif vers 150 av. J.-C." ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 01.." ;
+    bio:death "- 01.." ;
+    = <http://fr.dbpedia.org/resource/Hermagoras_de_Temnos>,
+        <http://viaf.org/viaf/163695048>,
+        <http://www.idref.fr/033323968/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12420123g#foaf:Person> ;
+    foaf:familyName "Hermagoras de Temnos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12420123g> .
+

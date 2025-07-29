@@ -1,0 +1,95 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb178046542#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12391509j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17804664c#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12391509j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb300405597#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391509j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31353766n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391509j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33172811r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391509j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37367391r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391509j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45698820t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391509j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391509j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12391509j> a skos:Concept ;
+    bnf-onto:FRBNF 12391509 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-26"^^xsd:date ;
+    isni:identifierValid "0000000087049341" ;
+    dcterms:created "1994-05-10" ;
+    dcterms:modified "2019-04-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Serenus_d%27Antino%C3%AB>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12391509j> ;
+    skos:altLabel "Serenus d'Antinoeia"@fr,
+        "Serenus d'Antinoë"@fr,
+        "Serî̄nos geōmétros (0300?-0350?)"@fr,
+        "Sérénus (0300?-0350?)"@fr,
+        "Σερῆνος γεωμέτρος (0300?-0350?)"@fr,
+        "Serenus aegyptius"@la,
+        "Serenus antissaeus"@la,
+        "Serenus antissensis"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102405778>,
+        <http://datos.bne.es/resource/XX1610253>,
+        <http://id.loc.gov/authorities/nr93035833> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Kleine Pauly : Serenos. - . -"@fr,
+        "Le Livre de la section du cylindre et le Livre de la section du cône / Serenus d'Antinoë ; oeuvres trad. pour la première fois du grec en français avec une introd. et des notes par Paul Ver Eecke, 1969. - . - Clavis SGL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Serenus_d%27Antino%C3%AB>,
+        <http://fr.wikipedia.org/wiki/Serenus_d%27Antino%C3%AB>,
+        <http://isni.org/isni/0000000087049341>,
+        <http://viaf.org/viaf/12391352/>,
+        <http://wikidata.org/entity/Q1297839>,
+        <http://www.idref.fr/033003793> ;
+    skos:note "Géomètre. - Originaire d'Antissa, ville de l'île de Lesbos ou d'Antinoë en Égypte?. - Pas de forme française a̲t̲t̲e̲s̲t̲é̲e̲, 1994-06-08"@fr ;
+    skos:prefLabel "Serenus antinoensis (0300?-0350?)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12391509j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12391509j#about> a foaf:Person ;
+    bnf-onto:firstYear 300 ;
+    bnf-onto:lastYear 350 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Géomètre. - Originaire d'Antissa, ville de l'île de Lesbos ou d'Antinoë en Égypte?. - Pas de forme française a̲t̲t̲e̲s̲t̲é̲e̲, 1994-06-08" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0350/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0300/> ;
+    rdagroup2elements:biographicalInformation "Géomètre. - Originaire d'Antissa, ville de l'île de Lesbos ou d'Antinoë en Égypte?. - Pas de forme française a̲t̲t̲e̲s̲t̲é̲e̲, 1994-06-08" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0350/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "300" ;
+    bio:death "350" ;
+    = <http://fr.dbpedia.org/resource/Serenus_d%27Antino%C3%AB>,
+        <http://viaf.org/viaf/12391352>,
+        <http://www.idref.fr/033003793/id>,
+        <https://data.bnf.fr/ark:/12148/cb12391509j#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k15199936/f1.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k9760213g/f1.item.thumbnail> ;
+    foaf:familyName "Serenus antinoensis" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12391509j> .
+

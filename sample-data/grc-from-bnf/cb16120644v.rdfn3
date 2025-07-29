@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16120644vstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb16120644v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42044412n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16120644v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16120644v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16120644v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16120644v> a skos:Concept ;
+    bnf-onto:FRBNF 16120644 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-08-07"^^xsd:date ;
+    isni:identifierValid "0000000066346857" ;
+    dcterms:created "2009-08-27" ;
+    dcterms:modified "2025-02-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Leonardo_Dellaporta>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16120644v> ;
+    skos:altLabel "Leonárdos Ntellapórtas (1330?-1419?)"@el,
+        "Linárdos Ntellapórtas (1330?-1419?)"@el,
+        "Lounárdos Ntellapórtas (1330?-1419?)"@el,
+        "Λεονάρδος Ντελλαπόρτας (1330?-1419?)"@el,
+        "Λινάρδος Ντελλαπόρτας (1330?-1419?)"@el,
+        "Λουνάρδος Ντελλαπόρτας (1330?-1419?)"@el ;
+    skos:closeMatch <http://id.loc.gov/authorities/nr98035397>,
+        <https://www.idref.fr/13340689X> ;
+    skos:editorialNote "Bibliothèque de l'Université de Chypre : Ntellapórtas, Leonárdos [1330-1419/1420]. - http://www.ucy.ac.cy. - 2009-08-27 BnF Service grec, 2009-09-09. - . -"@fr,
+        "Encycl. Grèce : Ntellapórtas, Leonárdos Krī̀s [ca 1350-1419/1420]. - . - Pátsīs : Ntellapórtas, Leonárdos [ca 1350-1419/1420]. - . - Bibliothèque nationale de Grèce : Ntellapórtas, Leonárdos [1330-ca 1419]. - http://www.nlg.gr. - 2009-08-27"@fr,
+        "Leonárdou Ntellapórta poiī́mata : 1403-1411 / é̓kdosī kritikī́, ei̓sagōgī́, schólia kaì heuretī́ria M. I. Manoúsaka, 1995. - . - Leonárdou Ntellapórta poiī́mata : 1403-1411 / é̓kdosī kritikī́, ei̓sagōgī́, schólia kaì heuretī́ria M. I. Manoúsaka, 1995 [sur la jaquette : Léonard Dellaporta]. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Leonardo_Dellaporta>,
+        <http://fr.wikipedia.org/wiki/Leonardo_Dellaporta>,
+        <http://isni.org/isni/0000000066346857>,
+        <http://viaf.org/viaf/44215556/>,
+        <http://wikidata.org/entity/Q3229712>,
+        <http://www.idref.fr/13340689X/id> ;
+    skos:note "Poète crétois de l'époque byzantine, issu d'une famille d'origine italienne (probablement génoise) hellénisée et convertie à l'orthodoxie. - Dignitaire de la République de Venise, qu'il servit successivement dans diverses fonctions : commerçant, marin, interprète, commandant de galère de combat, ambassadeur auprès de divers souverains, avocat et directeur d'un asile d'invalides. - Écrivit ses poèmes au cours d'une période d'emprisonnement causée par une disgrâce inattendue (de 1403 à 1411). - Mort entre le 21 juillet 1419 et le 12 juin 1420"@fr,
+        "Écrivit en grec populaire médiéval"@fr ;
+    skos:prefLabel "Léonard Dellaporta (1330?-1419?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16120644v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16120644v#about> a foaf:Person ;
+    bnf-onto:firstYear 1330 ;
+    bnf-onto:lastYear 1419 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète crétois de l'époque byzantine, issu d'une famille d'origine italienne (probablement génoise) hellénisée et convertie à l'orthodoxie. - Dignitaire de la République de Venise, qu'il servit successivement dans diverses fonctions : commerçant, marin, interprète, commandant de galère de combat, ambassadeur auprès de divers souverains, avocat et directeur d'un asile d'invalides. - Écrivit ses poèmes au cours d'une période d'emprisonnement causée par une disgrâce inattendue (de 1403 à 1411). - Mort entre le 21 juillet 1419 et le 12 juin 1420",
+        "Écrivit en grec populaire médiéval" ;
+    rdaa:P50118 "Megálo Kástro/Candie [Héraclion] (Crète, Grèce)" ;
+    rdaa:P50119 "Megálo Kástro/Candie [Héraclion] (Crète, Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1419/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1330/> ;
+    rdagroup2elements:biographicalInformation "Poète crétois de l'époque byzantine, issu d'une famille d'origine italienne (probablement génoise) hellénisée et convertie à l'orthodoxie. - Dignitaire de la République de Venise, qu'il servit successivement dans diverses fonctions : commerçant, marin, interprète, commandant de galère de combat, ambassadeur auprès de divers souverains, avocat et directeur d'un asile d'invalides. - Écrivit ses poèmes au cours d'une période d'emprisonnement causée par une disgrâce inattendue (de 1403 à 1411). - Mort entre le 21 juillet 1419 et le 12 juin 1420",
+        "Écrivit en grec populaire médiéval" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1330/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1419/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Megálo Kástro/Candie [Héraclion] (Crète, Grèce)" ;
+    rdagroup2elements:placeOfDeath "Megálo Kástro/Candie [Héraclion] (Crète, Grèce)" ;
+    bio:birth "1330" ;
+    bio:death "1419" ;
+    = <http://fr.dbpedia.org/resource/Leonardo_Dellaporta>,
+        <http://viaf.org/viaf/44215556>,
+        <http://www.idref.fr/13340689X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb16120644v#foaf:Person> ;
+    foaf:familyName "Dellaporta" ;
+    foaf:gender "male" ;
+    foaf:givenName "Léonard" ;
+    foaf:name "Léonard Dellaporta" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16120644v> .
+

@@ -1,0 +1,95 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12458765mstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12458765m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb343474064#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12458765m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb357357319#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12458765m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35866449k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12458765m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36978413k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12458765m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39143518s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12458765m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12458765m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12458765m> a skos:Concept ;
+    bnf-onto:FRBNF 12458765 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-29"^^xsd:date ;
+    isni:identifierValid "0000000079030528" ;
+    dcterms:created "1995-04-24" ;
+    dcterms:modified "2013-07-30" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Pierre_III_d%27Antioche>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12458765m> ;
+    skos:altLabel "Peter Callinicus (0540?-0591)"@en,
+        "Peter of Callinicum (0540?-0591)"@en,
+        "Petros Kallinicos (0540?-0591)"@fr,
+        "Pierre de Callinicie (0540?-0591)"@fr,
+        "Pierre de Callinicum (0540?-0591)"@fr,
+        "Pietro di Callinico (0540?-0591)"@it,
+        "Petrus Calliniacensis (0540?-0591)"@la,
+        "Petrus Callinicensis (0540?-0591)"@la,
+        "Petrus Callinicus (0540?-0591)"@la,
+        "Petrus minor (0540?-0591)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102477329>,
+        <http://id.loc.gov/authorities/n82167128>,
+        <https://www.idref.fr/03375201X> ;
+    skos:editorialNote "Dict. encycl. du christianisme ancien / sous la dir. de Angelo Di Berardino, 1990 : Pierre de Callinicie. - . - Hist. du christianisme / sous la dir. de Jean-Marie Mayeur, Charles et Luce Pietri (t. 3, 1998, p. 473) : Pierre de Callinicum. - . - Corpus christianorum. Series graeca : Petrus Callinicensis. - . -"@fr,
+        "Petri Callinicensis patriarchae Antiocheni Contra Damianvm / d. et anglice reddiderunt Rifaat Y. Ebied, Albert Van Roey, Lionel R. Wickham, 1996. - . - Une controverse christologique sous le patriarcat de Pierre de Callinique / Albert van Roey i̲n̲ Symposium syriacum (02 ; 1976), 1978, pp. 349-357 : forme française retenue. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Pierre_III_d%27Antioche>,
+        <http://fr.wikipedia.org/wiki/Pierre_III_d%27Antioche>,
+        <http://isni.org/isni/0000000079030528>,
+        <http://viaf.org/viaf/94663839/>,
+        <http://wikidata.org/entity/Q3385498>,
+        <http://www.idref.fr/03375201X/id> ;
+    skos:note "Patriarche jacobite d'Antioche (581-591). - Né à Callinique, aujourd'hui Raqqa (Syrie), sur les bords de l'Euphrate, aux environs de 540. - Il est resté célèbre en raison de ses controverses christologiques avec Damien, patriarche d'Alexandrie (578-605). - Son oeuvre, certainement écrite en grec à l'origine, ne nous est parvenue qu'en version syriaque et incomplète"@fr ;
+    skos:prefLabel "Pierre de Callinique (0540?-0591)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12458765m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12458765m#about> a foaf:Person ;
+    bnf-onto:firstYear 540 ;
+    bnf-onto:lastYear 591 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/sy> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Patriarche jacobite d'Antioche (581-591). - Né à Callinique, aujourd'hui Raqqa (Syrie), sur les bords de l'Euphrate, aux environs de 540. - Il est resté célèbre en raison de ses controverses christologiques avec Damien, patriarche d'Alexandrie (578-605). - Son oeuvre, certainement écrite en grec à l'origine, ne nous est parvenue qu'en version syriaque et incomplète" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0591/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0540/> ;
+    rdagroup2elements:biographicalInformation "Patriarche jacobite d'Antioche (581-591). - Né à Callinique, aujourd'hui Raqqa (Syrie), sur les bords de l'Euphrate, aux environs de 540. - Il est resté célèbre en raison de ses controverses christologiques avec Damien, patriarche d'Alexandrie (578-605). - Son oeuvre, certainement écrite en grec à l'origine, ne nous est parvenue qu'en version syriaque et incomplète" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/sy> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0540/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0591/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "540" ;
+    bio:death "0591-04-22" ;
+    = <http://fr.dbpedia.org/resource/Pierre_III_d%27Antioche>,
+        <http://viaf.org/viaf/94663839>,
+        <http://www.idref.fr/03375201X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12458765m#foaf:Person> ;
+    foaf:familyName "Pierre de Callinique" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12458765m> .
+

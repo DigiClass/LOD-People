@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+   xmlns:bnfroles="http://data.bnf.fr/vocabulary/roles/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdaa="http://rdaregistry.info/Elements/a/#"
+   xmlns:rdagroup2elements="http://rdvocab.info/ElementsGr2/"
+   xmlns:rdau="http://rdaregistry.info/Elements/u/#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb10591485f#about">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:familyName>Philochorus le Sophiste</foaf:familyName>
+    <foaf:gender>male</foaf:gender>
+    <foaf:page rdf:resource="https://data.bnf.fr/ark:/12148/cb10591485f"/>
+    <rdagroup2elements:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/grc"/>
+    <rdaa:P50102 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/grc"/>
+    <rdagroup2elements:countryAssociatedWithThePerson rdf:resource="http://id.loc.gov/vocabulary/countries/gr"/>
+    <rdaa:P50097 rdf:resource="http://id.loc.gov/vocabulary/countries/gr"/>
+    <owl:sameAs rdf:resource="https://data.bnf.fr/ark:/12148/cb10591485f#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb10591485f">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10591485</bnf-onto:FRBNF>
+    <skos:prefLabel xml:lang="fr">Philochorus le Sophiste</skos:prefLabel>
+    <dcterms:created>1997-07-01</dcterms:created>
+    <dcterms:modified>2011-08-12</dcterms:modified>
+    <foaf:focus rdf:resource="https://data.bnf.fr/ark:/12148/cb10591485f#about"/>
+    <rdfs:seeAlso rdf:resource="https://catalogue.bnf.fr/ark:/12148/cb10591485f"/>
+    <rdau:P61160 rdf:resource="http://www.rdaregistry.info/termList/statIdentification/1003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb31451298k#Expression">
+    <bnfroles:r73 rdf:resource="https://data.bnf.fr/ark:/12148/cb10591485f#about"/>
+    <marcrel:dub rdf:resource="https://data.bnf.fr/ark:/12148/cb10591485f#about"/>
+    <dcterms:contributor rdf:resource="https://data.bnf.fr/ark:/12148/cb10591485f#about"/>
+  </rdf:Description>
+</rdf:RDF>

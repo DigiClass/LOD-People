@@ -1,0 +1,78 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12406237gstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12406237g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35659413r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12406237g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12406237g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12406237g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb356632803#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12406237g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12406237g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12406237g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12406237g> a skos:Concept ;
+    bnf-onto:FRBNF 12406237 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000356258222" ;
+    dcterms:created "1994-07-12" ;
+    dcterms:modified "2013-12-17" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Speusippe>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12406237g> ;
+    skos:altLabel "Speúsippos (0393-0339 av. J.-C.)"@fr,
+        "Σπεύσιππος (0393-0339 av. J.-C.)"@fr,
+        "Speusippo (0393-0339 av. J.-C.)"@it,
+        "Speusippus (0393-0339 av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/11875193X>,
+        <http://datos.bne.es/resource/XX5466836>,
+        <http://id.loc.gov/authorities/n82071572> ;
+    skos:editorialNote "Clavis SGL : Speusippus Atheniensis. - . - Encycl. Grèce. - . -"@fr,
+        "Frammenti / Speusippo ; ed., trad. e comment. a cura di Margherita Isnardi Parente, 1980. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Speusippe>,
+        <http://fr.wikipedia.org/wiki/Speusippe>,
+        <http://isni.org/isni/0000000356258222>,
+        <http://viaf.org/viaf/123145542419096640044/>,
+        <http://wikidata.org/entity/Q325955>,
+        <http://www.idref.fr/033168377> ;
+    skos:note "Philosophe platonicien. - Neveu de Platon"@fr ;
+    skos:prefLabel "Speusippe (0393-0339 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12406237g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12406237g#about> a foaf:Person ;
+    bnf-onto:firstYear -393 ;
+    bnf-onto:lastYear -339 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe platonicien. - Neveu de Platon" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0339/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0393/> ;
+    rdagroup2elements:biographicalInformation "Philosophe platonicien. - Neveu de Platon" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0393/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0339/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 393" ;
+    bio:death "- 339" ;
+    = <http://fr.dbpedia.org/resource/Speusippe>,
+        <http://viaf.org/viaf/123145542419096640044>,
+        <http://www.idref.fr/033168377/id>,
+        <https://bp16.bnf.fr/ark:/12148/cb12406237g>,
+        <https://data.bnf.fr/ark:/12148/cb12406237g#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Speusippus%2520in%2520Thomas%2520Stanley%2520History%2520of%2520Philosophy.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k585129/f8.item.thumbnail> ;
+    foaf:familyName "Speusippe" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12406237g> .
+

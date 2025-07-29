@@ -1,0 +1,75 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb18025980v#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb18025901q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46882787n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb18025901q#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb18025901q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb18025901q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18025901q> a skos:Concept ;
+    bnf-onto:FRBNF 18025901 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-07-27"^^xsd:date ;
+    isni:identifierValid "0000000062184539" ;
+    dcterms:created "2022-07-22" ;
+    dcterms:modified "2022-10-10" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nic%C3%A9tas_de_Thessalonique>,
+        <https://catalogue.bnf.fr/ark:/12148/cb18025901q> ;
+    skos:altLabel "Nicétas de Thessalonique"@fr,
+        "Nikḗtas toû Marōneías"@fr,
+        "Nikī́tas toû Marōneías"@fr,
+        "Νικήτας τοῦ Μαρωνείας"@fr,
+        "Nicetas Maroneaeus"@la,
+        "Nicetas Maroniensis"@la,
+        "Nicetas Thessalonicensis metropolita"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/10095457X>,
+        <http://datos.bne.es/resource/XX1381747>,
+        <http://id.loc.gov/authorities/no2021147720>,
+        <http://viaf.org/viaf/2166834901335940012>,
+        <https://www.idref.fr/187844313> ;
+    skos:editorialNote "DOC / V. Volpi, 1994 : Nicetas Maroniensis. - . - CCSG, 92. - . - Dict. des auteurs grecs et latins de l'Antiquité et du Moyen âge / W. Buchwald, A. Hohlweg, O. Prinz, 1991. - . -"@fr,
+        "Nicetae Thessalonicensis Dialogi sex de processione Spiritus Sancti / quos ediderunt Alessandra Bucossi et Luigi D'Amelia, 2021. - . - DTC : Nicétas de Maronée. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nic%C3%A9tas_de_Thessalonique>,
+        <http://fr.wikipedia.org/wiki/Nic%C3%A9tas_de_Thessalonique>,
+        <http://isni.org/isni/0000000062184539>,
+        <http://wikidata.org/entity/Q10336690> ;
+    skos:note "Théologien et canoniste byzantin. - Chartophylax de l'Église Sainte Sophie à Constantinople, puis archevêque de Thessalonique en 1132. - Auteur des \"Six dialogues sur la procession de l'Esprit Saint\""@fr ;
+    skos:prefLabel "Nicétas de Maronée (11..-1145?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb18025901q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18025901q#about> a foaf:Person ;
+    bnf-onto:lastYear 1145 ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Théologien et canoniste byzantin. - Chartophylax de l'Église Sainte Sophie à Constantinople, puis archevêque de Thessalonique en 1132. - Auteur des \"Six dialogues sur la procession de l'Esprit Saint\"" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1145/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1101-1200/> ;
+    rdagroup2elements:biographicalInformation "Théologien et canoniste byzantin. - Chartophylax de l'Église Sainte Sophie à Constantinople, puis archevêque de Thessalonique en 1132. - Auteur des \"Six dialogues sur la procession de l'Esprit Saint\"" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1101-1200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1145/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "11.." ;
+    bio:death "1145" ;
+    = <http://fr.dbpedia.org/resource/Nic%C3%A9tas_de_Thessalonique>,
+        <https://data.bnf.fr/ark:/12148/cb18025901q#foaf:Person> ;
+    foaf:familyName "Nicétas de Maronée" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb18025901q> .
+

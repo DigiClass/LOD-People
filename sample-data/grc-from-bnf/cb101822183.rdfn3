@@ -1,0 +1,58 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30025087w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101822183#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101822183#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101822183#about> .
+
+<https://data.bnf.fr/ark:/12148/cb101822183> a skos:Concept ;
+    bnf-onto:FRBNF 10182218 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2022-11-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb101822183> ;
+    skos:altLabel "Arkádios (grammairien, 04..?-04..?)"@fr,
+        "A̓rkádios ho A̓ntiocheús"@fr,
+        "Ἀρκάδιος (grammairien, 04..?-04..)"@fr,
+        "Ἀρκάδιος ὁ Ἀντιοχεύς"@fr,
+        "Arcadius Antiochenus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100015867>,
+        <http://isni.org/isni/0000000403627407>,
+        <http://viaf.org/viaf/204244615> ;
+    skos:editorialNote "Perì tónōn / A̓rkádios ; e cod. Parisinis primum ed. Edmund. Henr. Barkerus ; add. est editoris epistola critica ad Jo. Fr. Boissonade, 1820. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://wikidata.org/entity/Q60461>,
+        <http://www.idref.fr/279479794/id> ;
+    skos:note "Grammairien. - On lui attribue par erreur un ouvrage, le \"Peri tonon\", épitome d'Hérodien, qui est vraisemblablement de Théodose d'Alexandrie"@fr ;
+    skos:prefLabel "Arcadius (grammairien, 04..?-04..?)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb101822183#about> .
+
+<https://data.bnf.fr/ark:/12148/cb101822183#about> a foaf:Person ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Grammairien. - On lui attribue par erreur un ouvrage, le \"Peri tonon\", épitome d'Hérodien, qui est vraisemblablement de Théodose d'Alexandrie" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:biographicalInformation "Grammairien. - On lui attribue par erreur un ouvrage, le \"Peri tonon\", épitome d'Hérodien, qui est vraisemblablement de Théodose d'Alexandrie" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "04.." ;
+    bio:death "04.." ;
+    = <http://www.idref.fr/279479794/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb101822183#foaf:Person> ;
+    foaf:familyName "Arcadius" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb101822183> .
+

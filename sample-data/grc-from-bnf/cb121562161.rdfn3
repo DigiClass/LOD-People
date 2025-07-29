@@ -1,0 +1,93 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121562161studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121562161#about> .
+
+<https://data.bnf.fr/ark:/12148/cb169942765#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb121562161#about> .
+
+<https://data.bnf.fr/ark:/12148/cb177911430#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb121562161#about> .
+
+<https://data.bnf.fr/ark:/12148/cb314522426#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121562161#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121562161#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121562161#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31452243j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121562161#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121562161#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121562161#about> .
+
+<https://data.bnf.fr/ark:/12148/cb443257274#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121562161#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121562161#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121562161#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44395583h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121562161#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121562161#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121562161#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121562161> a skos:Concept ;
+    bnf-onto:FRBNF 12156216 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000120060068" ;
+    dcterms:created "1990-07-30" ;
+    dcterms:modified "2019-02-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Th%C3%A9opompe>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121562161> ;
+    skos:altLabel "Theópompos (0378?-0323? av. J.-C.)"@fr,
+        "Théopompe de Chios (0378?-0323? av. J.-C.)"@fr,
+        "Θεόπομπος (0378?-0323? av. J.-C.)"@fr,
+        "Theopompus (0378?-0323? av. J.-C.)"@la,
+        "Theopompus Chius (0378?-0323? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118756931>,
+        <http://datos.bne.es/resource/XX1365381>,
+        <http://id.loc.gov/authorities/nr90005938>,
+        <https://www.idref.fr/030072786> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Laffont Bompiani, Auteurs, 1980. - . -"@fr,
+        "Theopompi Fragmenta / collegit, disposuit et explicavit, ejusdemque de vita et scriptis commentationem praemisit R. H. Eyssonius Wichers, 1829. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Th%C3%A9opompe>,
+        <http://fr.wikipedia.org/wiki/Th%C3%A9opompe>,
+        <http://isni.org/isni/0000000120060068>,
+        <http://viaf.org/viaf/24448325/>,
+        <http://wikidata.org/entity/Q4318>,
+        <http://www.idref.fr/030072786/id> ;
+    skos:note "Historien"@fr ;
+    skos:prefLabel "Théopompe (0378?-0323? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121562161#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121562161#about> a foaf:Person ;
+    bnf-onto:firstYear -378 ;
+    bnf-onto:lastYear -323 ;
+    rdaa:P50100 <http://dewey.info/class/900/>,
+        "Histoire" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0323/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0378/> ;
+    rdagroup2elements:biographicalInformation "Historien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0378/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0323/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/900/>,
+        "Histoire" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 378" ;
+    bio:death "- 323" ;
+    = <http://fr.dbpedia.org/resource/Th%C3%A9opompe>,
+        <http://viaf.org/viaf/24448325>,
+        <http://www.idref.fr/030072786/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb121562161#foaf:Person> ;
+    foaf:familyName "Théopompe" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121562161> .
+

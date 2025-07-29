@@ -1,0 +1,67 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb38813979j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14525815f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14525815f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14525815f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14525815f> a skos:Concept ;
+    bnf-onto:FRBNF 14525815 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000382592750" ;
+    dcterms:created "2004-02-18" ;
+    dcterms:modified "2013-12-18" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Aristocl%C3%A8s>,
+        <https://catalogue.bnf.fr/ark:/12148/cb14525815f> ;
+    skos:altLabel "̓Aristoklî̄s Messí̄nios (01..?-01..? av. J.-C.)",
+        "Aristokles (01..?-01..? av. J.-C.)"@de,
+        "Aristocles of Messene (01..?-01..? av. J.-C.)"@en,
+        "Aristoclès de Messine (01..?-01..? av. J.-C.)"@fr,
+        "Aristoclès de Messène (01..?-01..? av. J.-C.)"@fr,
+        "Aristocles Messenius (01..?-01..? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102381585>,
+        <http://id.loc.gov/authorities/n00104145>,
+        <https://www.idref.fr/061693944> ;
+    skos:editorialNote "Aristocles of Messine : Testimonia and fragments / ed. with transl. and comment. by Maria Lorenza Chiesara, 2001. - . - Encyclopédie philosophique universelle. III, Les Oeuvres philosophiques (sous : Aristoclès) : forme retenue. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Aristocl%C3%A8s>,
+        <http://fr.wikipedia.org/wiki/Aristocl%C3%A8s>,
+        <http://isni.org/isni/0000000382592750>,
+        <http://viaf.org/viaf/216068243/>,
+        <http://wikidata.org/entity/Q666667> ;
+    skos:note "Philosophe se réclamant d'Aristote. - On ne sait rien de sa vie, son lieu de naissance est incertain, on ne sait pas non plus quand il a vécu, incertitudes renforcées par les confusions entre les divers Aristoclès et un échange entre les noms Aristote et Aristoclès. - Le \"De philosophia\" (\"Peri philosophias\") en 10 livres, une histoire critique de la philosophie, est le seul de ses ouvrages que l'on connaît grâce à des citations et à des témoignages"@fr ;
+    skos:prefLabel "Aristoclès (01..?-01..? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb14525815f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14525815f#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe se réclamant d'Aristote. - On ne sait rien de sa vie, son lieu de naissance est incertain, on ne sait pas non plus quand il a vécu, incertitudes renforcées par les confusions entre les divers Aristoclès et un échange entre les noms Aristote et Aristoclès. - Le \"De philosophia\" (\"Peri philosophias\") en 10 livres, une histoire critique de la philosophie, est le seul de ses ouvrages que l'on connaît grâce à des citations et à des témoignages" ;
+    rdaa:P50119 "Messine en Sicile, ou Messène dans le Péloponèse" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Philosophe se réclamant d'Aristote. - On ne sait rien de sa vie, son lieu de naissance est incertain, on ne sait pas non plus quand il a vécu, incertitudes renforcées par les confusions entre les divers Aristoclès et un échange entre les noms Aristote et Aristoclès. - Le \"De philosophia\" (\"Peri philosophias\") en 10 livres, une histoire critique de la philosophie, est le seul de ses ouvrages que l'on connaît grâce à des citations et à des témoignages" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Messine en Sicile, ou Messène dans le Péloponèse" ;
+    bio:birth "- 01.." ;
+    bio:death "- 01.." ;
+    = <http://fr.dbpedia.org/resource/Aristocl%C3%A8s>,
+        <http://viaf.org/viaf/216068243>,
+        <https://data.bnf.fr/ark:/12148/cb14525815f#foaf:Person> ;
+    foaf:familyName "Aristoclès" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb14525815f> .
+

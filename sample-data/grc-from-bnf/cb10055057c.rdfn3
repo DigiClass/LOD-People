@@ -1,0 +1,69 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb17856156w#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb10055057c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb308775248#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10055057c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10055057c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10055057c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30877525m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10055057c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10055057c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10055057c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10055057c> a skos:Concept ;
+    bnf-onto:FRBNF 10055057 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-12-18"^^xsd:date ;
+    isni:identifierValid "0000000062573729" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-12-27" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb10055057c> ;
+    skos:altLabel "Markellos Sidëtës",
+        "Marcellus von Side"@de,
+        "Marcellus de Side"@fr,
+        "Márkellos Sidītīs"@fr,
+        "Márkellos Sidë́tës"@fr,
+        "Μάρκελλος Σιδήτης"@fr,
+        "Marcellus Sidetes"@la ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - BN Cat. gén.. - . -"@fr,
+        "Theocritus, Bion, Moschus / recognovit et praefatione critica instruxit C. Fr. Ameis. Nicander, Oppianus, Marcellus Sideta de piscibus, poeta de herbis / recognovit F. S. Lehrs, 1846. - . - Hoefer. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000062573729>,
+        <http://www.idref.fr/278860087/id> ;
+    skos:note "Poète et médecin. - Vécu sous les règnes d'Adrien et d'Antonin le Pieux. - Auteur d'un volumineux traité médical intitulé Ἰατρικά, composé en hexamètres grecs et comprenant 42 livres, où il présentait les remèdes tirés des animaux, des plantes et des minéraux et dont il ne reste que deux fragments, le Lycanthrope et les Remèdes tirés des poissons"@fr ;
+    skos:prefLabel "Marcellus Sidétès"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10055057c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10055057c#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète et médecin. - Vécu sous les règnes d'Adrien et d'Antonin le Pieux. - Auteur d'un volumineux traité médical intitulé Ἰατρικά, composé en hexamètres grecs et comprenant 42 livres, où il présentait les remèdes tirés des animaux, des plantes et des minéraux et dont il ne reste que deux fragments, le Lycanthrope et les Remèdes tirés des poissons" ;
+    rdaa:P50119 "Side, Pamphylie" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Poète et médecin. - Vécu sous les règnes d'Adrien et d'Antonin le Pieux. - Auteur d'un volumineux traité médical intitulé Ἰατρικά, composé en hexamètres grecs et comprenant 42 livres, où il présentait les remèdes tirés des animaux, des plantes et des minéraux et dont il ne reste que deux fragments, le Lycanthrope et les Remèdes tirés des poissons" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Side, Pamphylie" ;
+    bio:birth "01.." ;
+    bio:death "01.." ;
+    = <http://www.idref.fr/278860087/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb10055057c#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k6244677n/f4.item.thumbnail> ;
+    foaf:familyName "Marcellus Sidétès" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10055057c> .
+

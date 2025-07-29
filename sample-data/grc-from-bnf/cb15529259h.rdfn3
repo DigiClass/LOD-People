@@ -1,0 +1,59 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb40054383t#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb15529259h#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb15529259h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15529259h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb400549944#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb15529259h#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb15529259h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15529259h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb424576929#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb15529259h#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb15529259h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15529259h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15529259h> a skos:Concept ;
+    bnf-onto:FRBNF 15529259 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-08-06"^^xsd:date ;
+    isni:identifierValid "0000000108140401" ;
+    dcterms:created "2007-05-03" ;
+    dcterms:modified "2013-08-06" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb15529259h> ;
+    skos:editorialNote "Xenophontis operum concordantiae / curaverunt Carlos Schrader, José Vela, Vicente Ramon, 2003. - . - Bibliothèque nationale, Espagne. - http://www.bne.es. - 2007-05-03"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000108140401>,
+        <http://viaf.org/viaf/27375198/>,
+        <http://www.idref.fr/075005093> ;
+    skos:note "Helléniste"@fr ;
+    skos:prefLabel "José Vela (helléniste)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb15529259h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15529259h#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/sp> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Helléniste" ;
+    rdagroup2elements:biographicalInformation "Helléniste" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/sp> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/27375198>,
+        <http://www.idref.fr/075005093/id>,
+        <https://data.bnf.fr/ark:/12148/cb15529259h#foaf:Person> ;
+    foaf:familyName "Vela" ;
+    foaf:gender "male" ;
+    foaf:givenName "José" ;
+    foaf:name "José Vela" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb15529259h> .
+

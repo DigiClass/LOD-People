@@ -1,0 +1,69 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb42130544j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16242710w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16242710w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16242710w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16242710w> a skos:Concept ;
+    bnf-onto:FRBNF 16242710 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000389621817" ;
+    dcterms:created "2010-11-09" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Kallinikos_de_Petra>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16242710w> ;
+    skos:altLabel "Kallinikos von Petra (02..-02..)"@de,
+        "Callinicus (02..-02..)"@fr,
+        "Callinique de Pétra (02..-02..)"@fr,
+        "Kallínikos (02..-02..)"@fr,
+        "Καλλίνικος (02..-02..)"@fr,
+        "Callinico di Petra (02..-02..)"@it,
+        "Callinicus Petraeus (02..-02..)"@la,
+        "Callinicus Suetorius (02..-02..)"@la,
+        "Callinicus Sutorius (02..-02..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102383812>,
+        <http://id.loc.gov/authorities/no91013588> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Teubner. - . -"@fr,
+        "Progymnasmata quae exstant omnia / Severus Sophista Alexandrinus ; collegit edidit apparatu critico instruxit Eugenio Amato ; cum indice graecitatis a Bastien Kindt confecto. Accedunt Callinici Petraei et Adriani Tyrii sophistarum testimonia et fragmenta necnon incerti auctoris ethopoeia nondum vulgata, 2009. - . - Dict. des philosophes antiques / R. Goulet, 1994. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Kallinikos_de_Petra>,
+        <http://fr.wikipedia.org/wiki/Kallinikos_de_Petra>,
+        <http://isni.org/isni/0000000389621817>,
+        <http://viaf.org/viaf/3324151247942144270000/>,
+        <http://wikidata.org/entity/Q1496242> ;
+    skos:note "Sophiste. - Historien. - A vécu sous les empereurs Gallien (260-268) et Aurélien (270-275)"@fr ;
+    skos:prefLabel "Callinicos de Petras (02..-02..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16242710w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16242710w#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Sophiste. - Historien. - A vécu sous les empereurs Gallien (260-268) et Aurélien (270-275)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0201-0300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Sophiste. - Historien. - A vécu sous les empereurs Gallien (260-268) et Aurélien (270-275)" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "02.." ;
+    = <http://fr.dbpedia.org/resource/Kallinikos_de_Petra>,
+        <http://viaf.org/viaf/3324151247942144270000>,
+        <https://data.bnf.fr/ark:/12148/cb16242710w#foaf:Person> ;
+    foaf:familyName "Callinicos de Petras" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16242710w> .
+

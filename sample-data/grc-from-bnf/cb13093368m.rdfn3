@@ -1,0 +1,63 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13093368m> a skos:Concept ;
+    bnf-onto:FRBNF 13093368 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000356998917" ;
+    dcterms:created "1996-12-11" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Jean_Lazaropoulos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13093368m> ;
+    skos:altLabel "'Iōsḗph (métropolite de Trébizonde, 131.?-1369?)"@fr,
+        "'Iōsī́f (métropolite de Trébizonde, 131.?-1369?)"@fr,
+        "'Iōánnēs Lazarópoulos (131.?-1369?)"@fr,
+        "John Lazaropoulos (131.?-1369?)"@fr,
+        "Joseph (métropolite de Trébizonde, 131.?-1369?)"@fr,
+        "Ἰωσήφ (metropolite de Trébizonde, 131.?-1369?)"@fr,
+        "Ἰωάννης Λαζαρόπουλος (131.?-1369?)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/1089721668> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Jean_Lazaropoulos>,
+        <http://fr.wikipedia.org/wiki/Jean_Lazaropoulos>,
+        <http://isni.org/isni/0000000356998917>,
+        <http://viaf.org/viaf/192668705/>,
+        <http://wikidata.org/entity/Q16206704>,
+        <http://www.idref.fr/034722041> ;
+    skos:note "Né autour de 1310 ou peu auparavant, mort avant décembre 1369. - Métropolite de Trébizonde (sous le nom de Joseph, semble-t-il) en 1364, il renonce à sa charge en 1367 et se retire dans un monastère. - Auteur d'ouvrages hagiographiques"@fr ;
+    skos:prefLabel "'Iōánnīs Lazarópoulos (131.?-1369?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13093368m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13093368m#about> a foaf:Person ;
+    bnf-onto:lastYear 1369 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Né autour de 1310 ou peu auparavant, mort avant décembre 1369. - Métropolite de Trébizonde (sous le nom de Joseph, semble-t-il) en 1364, il renonce à sa charge en 1367 et se retire dans un monastère. - Auteur d'ouvrages hagiographiques" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1369/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:biographicalInformation "Né autour de 1310 ou peu auparavant, mort avant décembre 1369. - Métropolite de Trébizonde (sous le nom de Joseph, semble-t-il) en 1364, il renonce à sa charge en 1367 et se retire dans un monastère. - Auteur d'ouvrages hagiographiques" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1369/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "131." ;
+    bio:death "1369" ;
+    = <http://fr.dbpedia.org/resource/Jean_Lazaropoulos>,
+        <http://viaf.org/viaf/192668705>,
+        <http://www.idref.fr/034722041/id>,
+        <https://data.bnf.fr/ark:/12148/cb13093368m#foaf:Person> ;
+    foaf:familyName "'Iōánnīs Lazarópoulos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13093368m> .
+

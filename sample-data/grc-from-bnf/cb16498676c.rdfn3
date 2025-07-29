@@ -1,0 +1,62 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb417588349#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16498676c#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16498676c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16498676c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41758835n#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16498676c#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16498676c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16498676c#about> .
+
+<https://data.bnf.fr/temp-work/8c9e33ae3baa8a5ce0866fe87248c61f/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16498676c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16498676c> a skos:Concept ;
+    bnf-onto:FRBNF 16498676 ;
+    dcterms:created "2019-12-07" ;
+    dcterms:modified "2024-09-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16498676c> ;
+    skos:altLabel "ʼAgathoklī̃s (roi de Bactriane, 02..-0180? av. J.-C.)"@el,
+        "ʼAgathoklī̃s Díkaios (roi de Bactriane, 02..-0180 av. J.-.C)"@el,
+        "Ἀγαθοκλῆς (roi de Bactriane, 02..-0180? av. J.-C.)"@el,
+        "Ἀγαθοκλῆς Δίκαιος (roi de Bactriane, 02..-0180? av. J.-C.)"@el,
+        "Agathocles of Bactria (roi de Bactriane, 02..-0180? av. J.-C.)"@en,
+        "Agathocle le Juste (roi de Bactriane, 02..-0180 av. J.-C.)"@fr,
+        "Agathocles (roi de Bactriane, 02..-0180? av. J.-C.)"@la ;
+    skos:note "Roi gréco-bactrien/indo-grec, qui régna entre 190 environ et 180 environ av. J.-C.. - Probablement fils de Diodote II, et frère et successeur de Pantaleon"@fr ;
+    skos:prefLabel "Agathocle (roi de Bactriane, 02..-0180? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16498676c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16498676c#about> a foaf:Person ;
+    bnf-onto:lastYear -180 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Roi gréco-bactrien/indo-grec, qui régna entre 190 environ et 180 environ av. J.-C.. - Probablement fils de Diodote II, et frère et successeur de Pantaleon" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0180/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:biographicalInformation "Roi gréco-bactrien/indo-grec, qui régna entre 190 environ et 180 environ av. J.-C.. - Probablement fils de Diodote II, et frère et successeur de Pantaleon" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0180/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 02.." ;
+    bio:death "- 180" ;
+    = <https://data.bnf.fr/ark:/12148/cb16498676c#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b8550846f.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8550847v.thumbnail> ;
+    foaf:familyName "Agathocle" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16498676c> .
+

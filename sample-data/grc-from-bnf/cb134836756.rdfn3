@@ -1,0 +1,89 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb134836756studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb134836756#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17111631p#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb134836756#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33054895h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134836756#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134836756#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134836756#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33054896v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134836756#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134836756#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134836756#about> .
+
+<https://data.bnf.fr/ark:/12148/cb330548976#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134836756#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134836756#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134836756#about> .
+
+<https://data.bnf.fr/ark:/12148/cb450934105#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb134836756#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb134836756#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb134836756#about> .
+
+<https://data.bnf.fr/ark:/12148/cb134836756> a skos:Concept ;
+    bnf-onto:FRBNF 13483675 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000374090048" ;
+    dcterms:created "1998-06-17" ;
+    dcterms:modified "2017-03-02" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Jamblique_%28romancier%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb134836756> ;
+    skos:altLabel "ʼIamblichos ho mythistoriográphos (01..-01..)",
+        "ʼIámblichos ʼerōtikós (01..-01..)",
+        "ʼIamvlichos ʼerōtikós (01..-01..)"@fr,
+        "ʼIámvlichos ho mythistoriográfos (01..-01..)"@fr,
+        "Ἰάμβλιχος ἐρωτικός (01..-01..)"@fr,
+        "Ἰάμβλιχος ὁ μυθιστοριογράφος (01..-01..)"@fr,
+        "Giamblico (poète érotique, 01..-01..)"@it,
+        "Iamblichus Fabulator (01..-01..)"@la,
+        "Iamblichus Syrus (01..-01..)"@la,
+        "Jamblichus Syrus (01..-01..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118843575>,
+        <http://id.loc.gov/authorities/n88029479> ;
+    skos:editorialNote "Clavis SGL : Iamblichus Syrus Eroticus. - . - Encycl. Grèce. - . - Dizionario delle opere classiche / Vittorio Volpi, 1994 : Iamblichus (scrittore erotico). - . -"@fr,
+        "[Drama / Jamblichus Syrus] in : Erotici scriptores / ex nova recensione Guillelmi Adriani Hitschig, 1856. - . - Larousse 19e s. et Buchwald : Jamblique. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Jamblique_%28romancier%29>,
+        <http://fr.wikipedia.org/wiki/Jamblique_%28romancier%29>,
+        <http://isni.org/isni/0000000374090048>,
+        <http://viaf.org/viaf/5390156677162333770003/>,
+        <http://wikidata.org/entity/Q666210>,
+        <http://www.idref.fr/067060862> ;
+    skos:note "Auteur d'un roman grec, connu par le résumé de Photius. - Né en Syrie, actif entre 160 et 180"@fr ;
+    skos:prefLabel "Jamblique le Syrien (01..-01..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb134836756#about> .
+
+<https://data.bnf.fr/ark:/12148/cb134836756#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur d'un roman grec, connu par le résumé de Photius. - Né en Syrie, actif entre 160 et 180" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Auteur d'un roman grec, connu par le résumé de Photius. - Né en Syrie, actif entre 160 et 180" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "01.." ;
+    bio:death "01.." ;
+    = <http://fr.dbpedia.org/resource/Jamblique_%28romancier%29>,
+        <http://viaf.org/viaf/5390156677162333770003>,
+        <http://www.idref.fr/067060862/id>,
+        <https://data.bnf.fr/ark:/12148/cb134836756#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k28212v/f8.item.thumbnail> ;
+    foaf:familyName "Jamblique le Syrien" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb134836756> .
+

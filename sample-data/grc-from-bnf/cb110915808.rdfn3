@@ -1,0 +1,70 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb323205526#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb110915808#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb110915808#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb110915808#about> .
+
+<https://data.bnf.fr/ark:/12148/cb110915808> a skos:Concept ;
+    bnf-onto:FRBNF 11091580 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000408330020" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-12-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb110915808> ;
+    skos:altLabel "Adam Zernikaw (1653-1693?)"@fr,
+        "Adam Ziornikabiu (1652-1693?)"@fr,
+        "Adam Zoirnikavios (1652-1693?)"@fr,
+        "̓Adám Zoirnikavíou (1652-1693?)"@fr,
+        "Ἀδάμ Ζοιρνικαβίου (1652-1693?)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/1051793807> ;
+    skos:editorialNote "Adam Zoirnikabiou Hai loipai dōdeka tōn 19 pramateiōn tōn peri tēs ekporeuseos tu Hagiu Pneumatos ek monu tu Patros, 1797. - . - Altpreussische Biographie, 1967 : Zernikaw (Zörnikau), Adam. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000408330020>,
+        <http://viaf.org/viaf/301109802/>,
+        <http://wikidata.org/entity/Q95893958> ;
+    skos:note "Philologue. - De confession luthérienne, se convertit à l'orthodoxie et devint moine sous le nom d'Adam. - Meurt en 1693 ou 1694, est enterré dans un monastère de Baturyn"@fr ;
+    skos:prefLabel "Adam Zoernickau (1652-1693?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb110915808#about> .
+
+<https://data.bnf.fr/ark:/12148/cb110915808#about> a foaf:Person ;
+    bnf-onto:firstYear 1652 ;
+    bnf-onto:lastYear 1693 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/xdhh> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philologue. - De confession luthérienne, se convertit à l'orthodoxie et devint moine sous le nom d'Adam. - Meurt en 1693 ou 1694, est enterré dans un monastère de Baturyn" ;
+    rdaa:P50118 "Baturyn (?), Ukraine" ;
+    rdaa:P50119 "Königsberg, Allemagne" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1693/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1652/> ;
+    rdagroup2elements:biographicalInformation "Philologue. - De confession luthérienne, se convertit à l'orthodoxie et devint moine sous le nom d'Adam. - Meurt en 1693 ou 1694, est enterré dans un monastère de Baturyn" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/xdhh> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1652/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1693/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Königsberg, Allemagne" ;
+    rdagroup2elements:placeOfDeath "Baturyn (?), Ukraine" ;
+    bio:birth "1652-09-21" ;
+    bio:death "1693" ;
+    = <http://viaf.org/viaf/301109802>,
+        <https://data.bnf.fr/ark:/12148/cb110915808#foaf:Person> ;
+    foaf:birthday "09-21" ;
+    foaf:familyName "Zoernickau" ;
+    foaf:gender "male" ;
+    foaf:givenName "Adam" ;
+    foaf:name "Adam Zoernickau" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb110915808> .
+

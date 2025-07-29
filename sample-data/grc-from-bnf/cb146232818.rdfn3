@@ -1,0 +1,83 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb14623309t#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb146232818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb301150150#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146232818#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146232818#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146232818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb308509697#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146232818#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146232818#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146232818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39095117p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146232818#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146232818#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146232818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb146232818> a skos:Concept ;
+    bnf-onto:FRBNF 14623281 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "0000000139137758" ;
+    dcterms:created "2005-04-25" ;
+    dcterms:modified "2018-06-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb146232818> ;
+    skos:altLabel "Makarios von Magnesia (03..-04..)"@de,
+        "Makarius von Magnesia (03..-04..)"@de,
+        "Macaire Magnès (03..-04..)"@fr,
+        "Macarios de Magnésie (03..-04..)"@fr,
+        "Macários Mágnës (03..-04..)"@fr,
+        "Makários Mágnīs (03..-04..)"@fr,
+        "Μακάριος Μάγνης (03..-04..)"@fr,
+        "Macario Magnete (03..-04..)"@it,
+        "Macario di Magnesia (03..-04..)"@it,
+        "Macarius Magnes (03..-04..)"@la,
+        "Macarius Magnesius (03..-04..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119266415>,
+        <http://id.loc.gov/authorities/no2004058827> ;
+    skos:editorialNote "DOC / V. Volpi, 1994 : Macarius Magnes. - . - DTC : Macaire Magnès. - . - Encycl. universalis, 1996 : Macarius, évêque de Magnésie. - . -"@fr,
+        "Dict. spiritualité : Macaire Magnès. - . - Dict. encyclopédique du christianisme ancien / sous la dir. de A. Di Berardino, 1990 : Makarios Magnès. - . - Dict. du christianisme ancien / J.F. Kelly, 1994 : Macarius Magnes. - . -"@fr,
+        "Initiation aux Pères de l'Église. III, L'âge d'or de la littérature patristique du concile de Nicée au concile de Chalcédoine / J. Quasten, 1962, p. 681-683 : Macaire Magnès. - . - BN Cat. gén. : Macaire Magnès. - . -"@fr,
+        "Le monogénès / Macarios de Magnésie, 2003. - . - Catholicisme : Macaire de Magnésie. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000139137758>,
+        <http://viaf.org/viaf/811144928103854341714/>,
+        <http://wikidata.org/entity/Q719224>,
+        <http://www.idref.fr/061186678> ;
+    skos:note "Apologiste chrétien"@fr ;
+    skos:prefLabel "Macaire de Magnésie (03..-04..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb146232818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb146232818#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Apologiste chrétien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Apologiste chrétien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "03.." ;
+    bio:death "04.." ;
+    = <http://viaf.org/viaf/811144928103854341714>,
+        <http://www.idref.fr/061186678/id>,
+        <https://data.bnf.fr/ark:/12148/cb146232818#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k5498442n/f2.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k6535278f.thumbnail> ;
+    foaf:familyName "Macaire de Magnésie" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb146232818> .
+

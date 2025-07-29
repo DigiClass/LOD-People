@@ -1,0 +1,62 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb177832457#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb17783240h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb456326317#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17783240h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17783240h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17783240h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17783240h> a skos:Concept ;
+    bnf-onto:FRBNF 17783240 ;
+    dcterms:created "2018-12-21" ;
+    dcterms:modified "2019-02-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17783240h> ;
+    skos:altLabel "Georges Monos"@fr,
+        "Georges d'Alexandrie (grammairien, 04..-04..)"@fr,
+        "Georgius Alexandrinus Sophista"@fr,
+        "Georgius Monus Diacreta"@fr,
+        "Geṓrgios Mónos"@fr,
+        "Γεώργιος Μόνος"@fr,
+        "Georgius Monus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102394040> ;
+    skos:editorialNote "Études sur les \"États de cause\" d'Hermogène : la \"Division\" / Georges Monos d'Alexandrie ; texte établi et traduit par Michel Patillon, 2018. - . - DOC / V. Volpi, 1994 : Georgius Monus. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/16154739853752992176/>,
+        <http://wikidata.org/entity/Q20004304>,
+        <http://www.idref.fr/238451461> ;
+    skos:note "Commentateur d'Hermogène"@fr ;
+    skos:prefLabel "Georges Monos d'Alexandrie"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17783240h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17783240h#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Commentateur d'Hermogène" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:biographicalInformation "Commentateur d'Hermogène" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "04.." ;
+    bio:death "04.." ;
+    = <http://viaf.org/viaf/16154739853752992176>,
+        <http://www.idref.fr/238451461/id>,
+        <https://data.bnf.fr/ark:/12148/cb17783240h#foaf:Person> ;
+    foaf:familyName "Georges Monos d'Alexandrie" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17783240h> .
+

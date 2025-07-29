@@ -1,0 +1,71 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb122613123#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12261621w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb302133621#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12261621w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12261621w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261621w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30341308j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12261621w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12261621w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261621w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb355151803#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12261621w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12261621w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261621w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12261621w> a skos:Concept ;
+    bnf-onto:FRBNF 12261621 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000113077654" ;
+    dcterms:created "1992-09-07" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12261621w> ;
+    skos:altLabel "Pseudo-Caesarius"@fr,
+        "Pseudo-Cesario"@fr,
+        "Pseudo-Césaire"@fr,
+        "Pseudo-Kaisarios"@fr,
+        "Caesarius Nazianzenus (saint)"@la ;
+    skos:closeMatch <http://datos.bne.es/resource/XX5758256> ;
+    skos:editorialNote "Die Erotapokriseis / Pseudo-Kaisarios ; erstmals vollständig hrsg. von Rudolf Riedinger, 1989. - . - Clavis scriptorum graecorum et latinorum : Caesarius Nazianzenus Sanctus (Pseudo). - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000113077654>,
+        <http://viaf.org/viaf/207989101/>,
+        <http://wikidata.org/entity/Q110323581>,
+        <http://www.idref.fr/031393217> ;
+    skos:note "Théologien"@fr ;
+    skos:prefLabel "Césaire de Nazianze (saint)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12261621w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12261621w#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Théologien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Théologien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://viaf.org/viaf/207989101>,
+        <http://www.idref.fr/031393217/id>,
+        <https://data.bnf.fr/ark:/12148/cb12261621w#foaf:Person> ;
+    foaf:familyName "Césaire de Nazianze" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12261621w> .
+

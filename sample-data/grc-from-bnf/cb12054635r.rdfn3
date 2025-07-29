@@ -1,0 +1,91 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb349246533#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12054635r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12054635r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12054635r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36621881x#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb12054635r#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb12054635r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12054635r#about> .
+
+<https://data.bnf.fr/temp-work/13d7098af2ac57a5e42aa96557979d35/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12054635r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12054635r> a skos:Concept ;
+    bnf-onto:FRBNF 12054635 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000107778825" ;
+    dcterms:created "1987-11-16" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12054635r> ;
+    skos:altLabel "Barwk Pwdwlsqiy (1940-2011)"@he,
+        "ברוך פודולסקי (1940-2011)"@he,
+        "Baruh Podolʹskij (1940-2011)"@ru,
+        "Boris Semënovič Podolʹskij (1940-2011)"@ru,
+        "Барух Подольский (1940-2011)"@ru,
+        "Борис Семёнович Подольский (1940-2011)"@ru ;
+    skos:closeMatch <http://id.loc.gov/authorities/n84127274>,
+        <https://www.idref.fr/02878121X> ;
+    skos:editorialNote "A Greek Tatar-English glossary / Baruch Podolsky, 1985. - . - National library of Russia : Podolʹskij, B. (caractères cyrilliques ici translittérés selon la norme ISO 9, 1995). - http://www.nlr.ru. - 2011-02-22"@fr,
+        "JNUL. - http://jnul.huji.ac.il. - 2011-02-22 TAU. - http://www.tau.ac.il. - 2011-02-22"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000107778825>,
+        <http://viaf.org/viaf/17243033/>,
+        <http://wikidata.org/entity/Q4368059>,
+        <http://www.idref.fr/02878121X/id> ;
+    skos:note "Linguiste, lexicographe. - Spécialiste en langues sémitiques. - Professeur, Section of Semitic linguistics, Department of Hebrew culture, Lester and Sally Entin faculty of humanities, Tel-Aviv university (1973-2011)"@fr ;
+    skos:prefLabel "Baruch Podolsky (1940-2011)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12054635r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12054635r#about> a foaf:Person ;
+    bnf-onto:firstYear 1940 ;
+    bnf-onto:lastYear 2011 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/is> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/amh>,
+        <http://id.loc.gov/vocabulary/iso639-2/eng>,
+        <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/heb>,
+        <http://id.loc.gov/vocabulary/iso639-2/rus>,
+        <http://id.loc.gov/vocabulary/iso639-2/tat> ;
+    rdaa:P50113 "Linguiste, lexicographe. - Spécialiste en langues sémitiques. - Professeur, Section of Semitic linguistics, Department of Hebrew culture, Lester and Sally Entin faculty of humanities, Tel-Aviv university (1973-2011)" ;
+    rdaa:P50118 "Holon (Israël)" ;
+    rdaa:P50119 "Moscou" ;
+    rdaa:P50120 <https://data.bnf.fr/date/2011/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1940/> ;
+    rdagroup2elements:biographicalInformation "Linguiste, lexicographe. - Spécialiste en langues sémitiques. - Professeur, Section of Semitic linguistics, Department of Hebrew culture, Lester and Sally Entin faculty of humanities, Tel-Aviv university (1973-2011)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/is> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1940/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/2011/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/amh>,
+        <http://id.loc.gov/vocabulary/iso639-2/eng>,
+        <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/heb>,
+        <http://id.loc.gov/vocabulary/iso639-2/rus>,
+        <http://id.loc.gov/vocabulary/iso639-2/tat> ;
+    rdagroup2elements:placeOfBirth "Moscou" ;
+    rdagroup2elements:placeOfDeath "Holon (Israël)" ;
+    bio:birth "1940" ;
+    bio:death "2011-02-21" ;
+    = <http://viaf.org/viaf/17243033>,
+        <http://www.idref.fr/02878121X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12054635r#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Baruch%2520Podolsky.jpg> ;
+    foaf:familyName "Podolsky" ;
+    foaf:gender "male" ;
+    foaf:givenName "Baruch" ;
+    foaf:name "Baruch Podolsky" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12054635r> .
+

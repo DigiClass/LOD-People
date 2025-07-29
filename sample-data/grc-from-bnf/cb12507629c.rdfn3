@@ -1,0 +1,59 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb358040232#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12507629c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12507629c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12507629c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12507629c> a skos:Concept ;
+    bnf-onto:FRBNF 12507629 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "0000000382259202" ;
+    dcterms:created "1996-03-29" ;
+    dcterms:modified "2016-11-07" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12507629c> ;
+    skos:altLabel "Nikēphóros"@fr,
+        "Nikīfóros"@fr,
+        "Nicephorus Constantinopolitanus presbyter"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100966160> ;
+    skos:editorialNote "Encycl. Grèce. - . - Clavis SGL : Nicephorus Constantinopolitanus presbyter. - . - PMA : Nicephr̲orus presbyter. - . -"@fr,
+        "The life of St Andrew the fool / [Nikephoros] ; ed. by Lennart Rydén, 1995. - . - Buchwald : Nicéphore. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000382259202>,
+        <http://viaf.org/viaf/264233746/>,
+        <http://wikidata.org/entity/Q102258414>,
+        <http://www.idref.fr/034308164> ;
+    skos:note "Prêtre à Sainte Sophie de Constantinople?. - Auteur d'une Vie d'André Salos, l'un des plus célèbres \"fous pour l'amour du Christ\" qu'il situe aux Ve/VIe s. et dont il prétend être le contemporain"@fr ;
+    skos:prefLabel "Nicéphore"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12507629c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12507629c#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Prêtre à Sainte Sophie de Constantinople?. - Auteur d'une Vie d'André Salos, l'un des plus célèbres \"fous pour l'amour du Christ\" qu'il situe aux Ve/VIe s. et dont il prétend être le contemporain" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0901-1000/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:biographicalInformation "Prêtre à Sainte Sophie de Constantinople?. - Auteur d'une Vie d'André Salos, l'un des plus célèbres \"fous pour l'amour du Christ\" qu'il situe aux Ve/VIe s. et dont il prétend être le contemporain" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "09.." ;
+    bio:death "09.." ;
+    = <http://viaf.org/viaf/264233746>,
+        <http://www.idref.fr/034308164/id>,
+        <https://data.bnf.fr/ark:/12148/cb12507629c#foaf:Person> ;
+    foaf:familyName "Nicéphore" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12507629c> .
+

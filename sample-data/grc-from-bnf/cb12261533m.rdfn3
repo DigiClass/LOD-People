@@ -1,0 +1,92 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12190040q#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16506656k#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb300237264#Expression> bnfroles:r120 <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    marcrel:cwt <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30023727g#Expression> bnfroles:r120 <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    marcrel:cwt <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32085870w#Expression> bnfroles:r120 <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    marcrel:cwt <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33984978c#Expression> bnfroles:r120 <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    marcrel:cwt <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39062843t#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb448494235#Expression> bnfroles:r990 <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12261533m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12261533m> a skos:Concept ;
+    bnf-onto:FRBNF 12261533 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-25"^^xsd:date ;
+    isni:identifierValid "000000038337080X" ;
+    dcterms:created "1992-09-04" ;
+    dcterms:modified "2020-01-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Eutocius_d%27Ascalon>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12261533m> ;
+    skos:altLabel "̓Eutókios (0480?-05..)"@fr,
+        "Εὐτόκιος (0480?-05..)"@fr,
+        "Eutocius Ascalonius (0480?-05..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100940919>,
+        <http://datos.bne.es/resource/XX4851325>,
+        <http://id.loc.gov/authorities/n85056938> ;
+    skos:editorialNote "GDEL : Eutocius d'Ascalon. - . - Larousse 19e s.. - . - Clavis scriptorum graecorum et latinorum : Eutocius Ascalonius. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Eutocius_d%27Ascalon>,
+        <http://fr.wikipedia.org/wiki/Eutocius_d%27Ascalon>,
+        <http://isni.org/isni/000000038337080X>,
+        <http://viaf.org/viaf/268702803/>,
+        <http://wikidata.org/entity/Q510719>,
+        <http://www.idref.fr/031392040> ;
+    skos:note "Astrologue, mathématicien, géomètre"@fr ;
+    skos:prefLabel "Eutocius d'Ascalon (0480?-05..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12261533m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12261533m#about> a foaf:Person ;
+    bnf-onto:firstYear 480 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Astrologue, mathématicien, géomètre" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0480/> ;
+    rdagroup2elements:biographicalInformation "Astrologue, mathématicien, géomètre" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0480/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "480" ;
+    bio:death "05.." ;
+    = <http://fr.dbpedia.org/resource/Eutocius_d%27Ascalon>,
+        <http://viaf.org/viaf/268702803>,
+        <http://www.idref.fr/031392040/id>,
+        <https://data.bnf.fr/ark:/12148/cb12261533m#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k15199936.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k1520207h/f1.item.thumbnail> ;
+    foaf:familyName "Eutocius d'Ascalon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12261533m> .
+

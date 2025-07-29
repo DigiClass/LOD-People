@@ -1,0 +1,69 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12393780zstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12393780z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32536731s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12393780z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12393780z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12393780z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12393780z> a skos:Concept ;
+    bnf-onto:FRBNF 12393780 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-26"^^xsd:date ;
+    isni:identifierValid "0000000116787723" ;
+    dcterms:created "1994-05-18" ;
+    dcterms:modified "2015-04-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Pan%C3%A9tios_de_Rhodes>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12393780z> ;
+    skos:altLabel "Panaetius (0180?-0110? av. J.-C.)"@fr,
+        "Panätius (0180?-0110? av. J.-C.)"@fr,
+        "Panétius de Rhodes (0180?-0110? av. J.-C.)"@fr,
+        "Panezio (0180?-0110? av. J.-C.)"@it ;
+    skos:closeMatch <http://d-nb.info/gnd/118591509>,
+        <http://id.loc.gov/authorities/n86046623> ;
+    skos:editorialNote "GLU. - . - Dict. des phil., 1984. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Pan%C3%A9tios_de_Rhodes>,
+        <http://fr.wikipedia.org/wiki/Pan%C3%A9tios_de_Rhodes>,
+        <http://isni.org/isni/0000000116787723>,
+        <http://viaf.org/viaf/268843930/>,
+        <http://wikidata.org/entity/Q297420>,
+        <http://www.idref.fr/201758725> ;
+    skos:note "Philosophe grec, représentant du moyen stoïcisme"@fr ;
+    skos:prefLabel "Panaitios de Rhodes (0180?-0110? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12393780z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12393780z#about> a foaf:Person ;
+    bnf-onto:firstYear -180 ;
+    bnf-onto:lastYear -110 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe grec, représentant du moyen stoïcisme" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0110/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0180/> ;
+    rdagroup2elements:biographicalInformation "Philosophe grec, représentant du moyen stoïcisme" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0180/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0110/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 180" ;
+    bio:death "- 110" ;
+    = <http://fr.dbpedia.org/resource/Pan%C3%A9tios_de_Rhodes>,
+        <http://viaf.org/viaf/268843930>,
+        <http://www.idref.fr/201758725/id>,
+        <https://data.bnf.fr/ark:/12148/cb12393780z#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Panaetius%2520Nuremberg%2520Chronicle.jpg> ;
+    foaf:familyName "Panaitios de Rhodes" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12393780z> .
+

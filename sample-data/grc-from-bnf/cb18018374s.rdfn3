@@ -1,0 +1,55 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb18018383r#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb18018374s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb470022056#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb18018374s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb18018374s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb18018374s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18018374s> a skos:Concept ;
+    bnf-onto:FRBNF 18018374 ;
+    dcterms:created "2022-06-07" ;
+    dcterms:modified "2022-06-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb18018374s> ;
+    skos:altLabel "Pseudo-Sopatros"@fr,
+        "Sṓpatros (auteur prétendu, 04..?-05..?)"@fr,
+        "Σώπατρος (auteur prétendu, 04..?-05..?)"@fr ;
+    skos:closeMatch <http://id.loc.gov/authorities/no2022040284>,
+        <https://www.idref.fr/261008269> ;
+    skos:editorialNote "Sur \"Les états de cause\" d'Hermogène / Pseudo-Sopatros ; éd. Michel Patillon, 2022. - . - Dictionnaire des philosophes antiques. VI, De Sabinillus à Tyrsénos / publié sous la direction de Richard Goulet, DL 2016, p. 472 (b). - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/8165746421153930075/>,
+        <http://wikidata.org/entity/Q116716542> ;
+    skos:note "Commentateur anonyme d'un texte rhétorique, transmis sous le nom de Sopater le rhéteur, ensemble réalisé probablement entre le 5e et le 6e siècle. - Probablement actif à Alexandrie"@fr ;
+    skos:prefLabel "Sopatros (auteur prétendu, 04..?-05..?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb18018374s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb18018374s#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Commentateur anonyme d'un texte rhétorique, transmis sous le nom de Sopater le rhéteur, ensemble réalisé probablement entre le 5e et le 6e siècle. - Probablement actif à Alexandrie" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:biographicalInformation "Commentateur anonyme d'un texte rhétorique, transmis sous le nom de Sopater le rhéteur, ensemble réalisé probablement entre le 5e et le 6e siècle. - Probablement actif à Alexandrie" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "04.." ;
+    bio:death "05.." ;
+    = <http://viaf.org/viaf/8165746421153930075>,
+        <https://data.bnf.fr/ark:/12148/cb18018374s#foaf:Person> ;
+    foaf:familyName "Sopatros" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb18018374s> .
+

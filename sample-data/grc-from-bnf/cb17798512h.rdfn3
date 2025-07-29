@@ -1,0 +1,70 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb17798512hstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb17798512h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30499629g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17798512h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17798512h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17798512h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32525858n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17798512h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17798512h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17798512h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb325267369#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb17798512h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17798512h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17798512h> a skos:Concept ;
+    bnf-onto:FRBNF 17798512 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-04-24"^^xsd:date ;
+    isni:identifierValid "0000000382481794" ;
+    dcterms:created "2019-03-07" ;
+    dcterms:modified "2019-04-24" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17798512h> ;
+    skos:altLabel "Phoinix von Kolophon"@de,
+        "Phoînix"@fr,
+        "Φοῖνιξ"@fr,
+        "Fenice di Colofone"@it,
+        "Phoenix"@la,
+        "Phoenix Colophonius"@la ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Encicl. italiana. - . -"@fr,
+        "Studi su Fenice di Colofone e altri testi in coliambi / Claudio de Stefani, 2018. - . - Larousse, 19e s.. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000382481794>,
+        <http://viaf.org/viaf/6723155769098327880002/>,
+        <http://www.idref.fr/247952648/id> ;
+    skos:note "Poète. - Actif à Athènes au IIIe siècle avant J. C."@fr ;
+    skos:prefLabel "Phenix de Colophon"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17798512h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17798512h#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète. - Actif à Athènes au IIIe siècle avant J. C." ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:biographicalInformation "Poète. - Actif à Athènes au IIIe siècle avant J. C." ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 02.." ;
+    bio:death "- 02.." ;
+    = <http://viaf.org/viaf/6723155769098327880002>,
+        <http://www.idref.fr/247952648/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb17798512h#foaf:Person> ;
+    foaf:familyName "Phenix de Colophon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17798512h> .
+

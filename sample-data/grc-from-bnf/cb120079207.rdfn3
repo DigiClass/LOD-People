@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb120079207studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb120079207#about> .
+
+<https://data.bnf.fr/ark:/12148/cb309240876#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120079207#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120079207#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120079207#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32546691k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120079207#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120079207#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120079207#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36624586j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120079207#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120079207#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120079207#about> .
+
+<https://data.bnf.fr/ark:/12148/cb438693711#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120079207#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120079207#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120079207#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120079207> a skos:Concept ;
+    bnf-onto:FRBNF 12007920 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "000000007980292X" ;
+    dcterms:created "1987-02-24" ;
+    dcterms:modified "2016-11-07" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/M%C3%A9nandre_le_Protecteur>,
+        <https://catalogue.bnf.fr/ark:/12148/cb120079207> ;
+    skos:altLabel "Menander the Guardsman"@en,
+        "Ménandros ho Protī́ctōr"@fr,
+        "Μένανδρος ὁ Προτήκτωρ"@fr,
+        "Menandro il Protettore"@it,
+        "Menander Protector"@la,
+        "Menander Protector Constantinopolitanus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100953743>,
+        <http://datos.bne.es/resource/XX1465757>,
+        <http://id.loc.gov/authorities/n86082820> ;
+    skos:editorialNote "Année philol.. - . - PMA. - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Buchwald : Ménandre, surnommé \"Protector\". - . - Clavis SGL : Menander Protector Constantinopolitanus. - . -"@fr,
+        "The history of Menander the Guardsman / introductory essay, text, translation... [by] R. C. Blockley, 1985. - . - Larousse, 19e s.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/M%C3%A9nandre_le_Protecteur>,
+        <http://fr.wikipedia.org/wiki/M%C3%A9nandre_le_Protecteur>,
+        <http://isni.org/isni/000000007980292X>,
+        <http://viaf.org/viaf/100901163/>,
+        <http://wikidata.org/entity/Q336070>,
+        <http://www.idref.fr/028194594> ;
+    skos:note "Surnommé \"Protector\" parce qu'il avait la garde de l'empereur Maurice. - Continuateur d'Agathias pour les années 558-582. - Son oeuvre nous a été transmise par Constantin VII Porphyrogénète"@fr ;
+    skos:prefLabel "Ménandre Protector"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb120079207#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120079207#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Surnommé \"Protector\" parce qu'il avait la garde de l'empereur Maurice. - Continuateur d'Agathias pour les années 558-582. - Son oeuvre nous a été transmise par Constantin VII Porphyrogénète" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Surnommé \"Protector\" parce qu'il avait la garde de l'empereur Maurice. - Continuateur d'Agathias pour les années 558-582. - Son oeuvre nous a été transmise par Constantin VII Porphyrogénète" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "055." ;
+    bio:death "05.." ;
+    = <http://fr.dbpedia.org/resource/M%C3%A9nandre_le_Protecteur>,
+        <http://viaf.org/viaf/100901163>,
+        <http://www.idref.fr/028194594/id>,
+        <https://data.bnf.fr/ark:/12148/cb120079207#foaf:Person> ;
+    foaf:familyName "Ménandre Protector" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb120079207> .
+

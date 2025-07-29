@@ -1,0 +1,48 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb163700092> a skos:Concept ;
+    bnf-onto:FRBNF 16370009 ;
+    dcterms:created "2013-01-02" ;
+    dcterms:modified "2015-02-19" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb163700092> ;
+    skos:altLabel "Ei̓rīnaíos Referendários"@fr,
+        "Ei̓rënaíos Repherendários"@fr,
+        "Irénée (poète, 05..-05..)"@fr,
+        "Εἰρηναίος Ρεφερενδάριος"@fr,
+        "Irenaeus Referendarius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102370915> ;
+    skos:editorialNote "La rebelle / Irénée. In : Les plus jolies roses de l'Anthologie grecque [Musique imprimée] / cueillies par Gabriel Soulages ; musique de Emile Trépart, cop. 1921. - . - Chevalier. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/314852197/>,
+        <http://wikidata.org/entity/Q11926845> ;
+    skos:note "Poète"@fr ;
+    skos:prefLabel "Irénée le Référendaire"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb163700092#about> .
+
+<https://data.bnf.fr/ark:/12148/cb163700092#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Poète" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://viaf.org/viaf/314852197>,
+        <https://data.bnf.fr/ark:/12148/cb163700092#foaf:Person> ;
+    foaf:familyName "Irénée le Référendaire" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb163700092> .
+

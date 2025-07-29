@@ -1,0 +1,99 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12026621x#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb120266228#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120266228studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb120266228#about> .
+
+<https://data.bnf.fr/ark:/12148/cb40269230q#Expression> bnfroles:r522 <https://data.bnf.fr/ark:/12148/cb120266228#about> ;
+    marcrel:art <https://data.bnf.fr/ark:/12148/cb120266228#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120266228#about> .
+
+<https://data.bnf.fr/ark:/12148/cb445412146#Expression> bnfroles:r522 <https://data.bnf.fr/ark:/12148/cb120266228#about> ;
+    marcrel:art <https://data.bnf.fr/ark:/12148/cb120266228#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120266228#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120266228> a skos:Concept ;
+    bnf-onto:FRBNF 12026622 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000382064480" ;
+    dcterms:created "1987-03-16" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Apelle>,
+        <https://catalogue.bnf.fr/ark:/12148/cb120266228> ;
+    skos:altLabel "Apellēs (03..-03.. av. J.-C.)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/118649787>,
+        <http://id.loc.gov/authorities/n80139966> ;
+    skos:editorialNote "GDEL. - . - Bénézit. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Apelle>,
+        <http://fr.wikipedia.org/wiki/Apelle>,
+        <http://isni.org/isni/0000000382064480>,
+        <http://viaf.org/viaf/262959121/>,
+        <http://wikidata.org/entity/Q216822>,
+        <http://www.idref.fr/028428994> ;
+    skos:note "Peintre de l'école de Sycione, originaire de Colophon et mort à Cos"@fr ;
+    skos:prefLabel "Apelle (03..-03.. av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb120266228#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120266228#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/750/>,
+        <http://dewey.info/class/930/>,
+        "Archéologie. Préhistoire. Histoire ancienne",
+        "Peinture" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Peintre de l'école de Sycione, originaire de Colophon et mort à Cos" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:biographicalInformation "Peintre de l'école de Sycione, originaire de Colophon et mort à Cos" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/750/>,
+        <http://dewey.info/class/930/>,
+        "Archéologie. Préhistoire. Histoire ancienne",
+        "Peinture" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 03.." ;
+    bio:death "- 03.." ;
+    = <http://fr.dbpedia.org/resource/Apelle>,
+        <http://viaf.org/viaf/262959121>,
+        <http://www.idref.fr/028428994/id>,
+        <https://data.bnf.fr/ark:/12148/cb120266228#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Formella%252018%252C%2520apelle%2520o%2520la%2520pittura%252C%2520nino%2520pisano%252C%25201334-1336%2520dettaglio%252001.JPG>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10335170d.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10335171v.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b103351729.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10335173r.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b532303393.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b53240062c.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b532460343.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b532461477.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b6956045p.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b84473894.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8447404c.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8447413b.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8447414r.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b84474155.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8447416k.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b84474170.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8447428s.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b84474296.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8447450m.thumbnail> ;
+    foaf:familyName "Apelle" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb120266228> .
+

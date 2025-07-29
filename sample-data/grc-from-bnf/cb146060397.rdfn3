@@ -1,0 +1,81 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb146060397studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb146060397#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39921828d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146060397#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146060397#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146060397#about> .
+
+<https://data.bnf.fr/ark:/12148/cb146060397> a skos:Concept ;
+    bnf-onto:FRBNF 14606039 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "0000000078207555" ;
+    dcterms:created "2005-02-16" ;
+    dcterms:modified "2016-02-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nikon_de_la_Montagne_Noire>,
+        <https://catalogue.bnf.fr/ark:/12148/cb146060397> ;
+    skos:altLabel "Nicon Palaestinus"@fr,
+        "Nicon Raithensis"@fr,
+        "Nikon Černogorec"@fr,
+        "Nikon Tchernogorets"@fr,
+        "Nikon of the Black Mountain"@fr,
+        "Nikon vom Schwarzen Berg"@fr,
+        "Níkōn toû Rhoidíou"@fr,
+        "Níkōn tî̄s Rhaithoû"@fr,
+        "Νίκων τοῦ Ῥοιδίου"@fr,
+        "Νίκων τῆς Ῥαιθοῦ"@fr,
+        "Nicon Raithuensis"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100955452>,
+        <http://id.loc.gov/authorities/n00093993>,
+        <https://www.idref.fr/183922816> ;
+    skos:editorialNote "Dict. Spiritualité. - . - Buchwald. - . - DOC / V. Volpi, 1994 : Nicon : Raithuensis. - . -"@fr,
+        "Les textes juridiques dans les Pandectes de Nicon de la Montagne noire / Carlo De Clerq, 1942. - . - Die Pandekten des Nikon vom Schwarzen Berge (Nikon Černogorec) in der ältesten slavischen Übersetzung / Edition von Rumjana Pavlova und Săbka Bogdanova, 2000. - . -"@fr,
+        "Oxford Dict. of Byzantium : Nikon of the Black Mountain. - . - LC Authorities : Nikon, Chernogorets. - http://authorities.loc.gov. - 2014-07-11"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nikon_de_la_Montagne_Noire>,
+        <http://fr.wikipedia.org/wiki/Nikon_de_la_Montagne_Noire>,
+        <http://isni.org/isni/0000000078207555>,
+        <http://viaf.org/viaf/274469304/>,
+        <http://wikidata.org/entity/Q1467989>,
+        <http://www.idref.fr/183922816/id> ;
+    skos:note "Moine byzantin. - D'abord soldat puis général, se fait moine au monastère de la Montagne Noire, près d'Antioche. - Encyclopédiste. - Meurt en Syrie ou en Arménie"@fr ;
+    skos:prefLabel "Nicon de la Montagne Noire"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb146060397#about> .
+
+<https://data.bnf.fr/ark:/12148/cb146060397#about> a foaf:Person ;
+    bnf-onto:firstYear 1025 ;
+    bnf-onto:lastYear 1088 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine byzantin. - D'abord soldat puis général, se fait moine au monastère de la Montagne Noire, près d'Antioche. - Encyclopédiste. - Meurt en Syrie ou en Arménie" ;
+    rdaa:P50119 "Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1088/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1025/> ;
+    rdagroup2elements:biographicalInformation "Moine byzantin. - D'abord soldat puis général, se fait moine au monastère de la Montagne Noire, près d'Antioche. - Encyclopédiste. - Meurt en Syrie ou en Arménie" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1025/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1088/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Constantinople" ;
+    bio:birth "1025" ;
+    bio:death "1088" ;
+    = <http://fr.dbpedia.org/resource/Nikon_de_la_Montagne_Noire>,
+        <http://viaf.org/viaf/274469304>,
+        <http://www.idref.fr/183922816/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb146060397#foaf:Person> ;
+    foaf:familyName "Nicon de la Montagne Noire" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb146060397> .
+

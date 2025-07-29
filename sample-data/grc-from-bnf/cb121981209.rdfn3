@@ -1,0 +1,85 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121981209studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121981209#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15673324w#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb121981209#about> .
+
+<https://data.bnf.fr/ark:/12148/cb156736926#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb121981209#about> .
+
+<https://data.bnf.fr/ark:/12148/cb354495097#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121981209#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121981209#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121981209#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36153269n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121981209#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121981209#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121981209#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121981209> a skos:Concept ;
+    bnf-onto:FRBNF 12198120 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000006562806" ;
+    dcterms:created "1991-04-11" ;
+    dcterms:modified "2023-01-11" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Th%C3%A9odore_le_Lecteur>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121981209> ;
+    skos:altLabel "Theódōros ho A̓nagnó̄stīs (05..-05..)"@fr,
+        "Theódōros ho A̓nagnó̄stēs (05..-05..)"@fr,
+        "Théodore Lecteur (05..-05..)"@fr,
+        "Θεόδωρος ὁ Ἀναγνώστης (05..-05..)"@fr,
+        "Theodorus Anagnosta (05..-05..)"@la,
+        "Theodorus Anagnostes Constantinopolitanus (05..-05..)"@la,
+        "Theodorus Lector (05..-05..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119287102>,
+        <http://datos.bne.es/resource/XX1452654>,
+        <http://id.loc.gov/authorities/no98093191>,
+        <https://www.idref.fr/030598370> ;
+    skos:editorialNote "BN Cat. gén.. - . - BN Service grec. - . -"@fr,
+        "GLE. - . - Clavis scriptorum Graecorum et Latinorum : Theodorus anagnostes Constantinopolitanus. - . - Encycl. Britannica : Theodorus Lector. - . -"@fr,
+        "Histoire ecclésiastique / de Théodoret, évêque de Cyr et d'Evagre le Scolastique, avec un choix des histoires de Philostorge & de Théodore le Lecteur, 1673. - . - Kirchengeschichte / Theodoros Anagnostes ; hrsg. von Günther Christian Hansen, 1971. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Th%C3%A9odore_le_Lecteur>,
+        <http://fr.wikipedia.org/wiki/Th%C3%A9odore_le_Lecteur>,
+        <http://isni.org/isni/0000000006562806>,
+        <http://viaf.org/viaf/263146864/>,
+        <http://wikidata.org/entity/Q920986>,
+        <http://www.idref.fr/030598370/id> ;
+    skos:note "Historien ; auteur d'une “Histoire ecclésiastique” dont la 1re partie est connue sous le nom d'“Historia tripartita”. - Lecteur à la basilique Sainte-Sophie de Constantinople dans la 1re moitié du 6e siècle"@fr ;
+    skos:prefLabel "Théodore le Lecteur (05..-05..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121981209#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121981209#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien ; auteur d'une “Histoire ecclésiastique” dont la 1re partie est connue sous le nom d'“Historia tripartita”. - Lecteur à la basilique Sainte-Sophie de Constantinople dans la 1re moitié du 6e siècle" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Historien ; auteur d'une “Histoire ecclésiastique” dont la 1re partie est connue sous le nom d'“Historia tripartita”. - Lecteur à la basilique Sainte-Sophie de Constantinople dans la 1re moitié du 6e siècle" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://fr.dbpedia.org/resource/Th%C3%A9odore_le_Lecteur>,
+        <http://viaf.org/viaf/263146864>,
+        <http://www.idref.fr/030598370/id/id>,
+        <https://bp16.bnf.fr/ark:/12148/cb121981209>,
+        <https://data.bnf.fr/ark:/12148/cb121981209#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k411657j/f4.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k87119764.thumbnail> ;
+    foaf:familyName "Théodore le Lecteur" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121981209> .
+

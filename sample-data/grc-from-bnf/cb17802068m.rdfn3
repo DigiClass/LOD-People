@@ -1,0 +1,58 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb35677875b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17802068m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17802068m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17802068m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17802068m> a skos:Concept ;
+    bnf-onto:FRBNF 17802068 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-03-27"^^xsd:date ;
+    isni:identifierValid "0000000432588224" ;
+    dcterms:created "2019-03-22" ;
+    dcterms:modified "2019-03-27" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17802068m> ;
+    skos:altLabel "monachòs tīs megístīs Laúras Ἀthanásios",
+        "monachòs Ἀthanásios",
+        "μοναχὸς τῆς μεγίστης Λαύρας Ἀθανάσιος",
+        "μοναχὸς Ἀθανάσιος",
+        "Atanasio di Panaghiou"@fr,
+        "Athanase de Lavra"@fr,
+        "Athanasius Panagiou"@fr,
+        "Athanasius monachus"@fr ;
+    skos:editorialNote "Vitae duae antiquae sancti Athanasii Athonitae / editae a Jacques Noret, 1982. - . - Pinakes. - https://pinakes.irht.cnrs.fr/notices/auteur/2882/. - 2019-03-22"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000432588224> ;
+    skos:note "Moine orthodoxe auteur d'une biographie d'Athanase l'Athonite. - Il fut l'élève d'un disciple d'Athanase l'Athonite. - D'abord tenu pour un moine de la Grande Laure du Mont Athos, les recherches récentes tendent à le situer dans le monastère constantinopolitain de Panagiou. - Peut-être identique avec Athanase higoumène de Panagiou, actif dans le 2e ou 3e quart du XIe siècle"@fr ;
+    skos:prefLabel "Athanase de Panagiou"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17802068m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17802068m#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine orthodoxe auteur d'une biographie d'Athanase l'Athonite. - Il fut l'élève d'un disciple d'Athanase l'Athonite. - D'abord tenu pour un moine de la Grande Laure du Mont Athos, les recherches récentes tendent à le situer dans le monastère constantinopolitain de Panagiou. - Peut-être identique avec Athanase higoumène de Panagiou, actif dans le 2e ou 3e quart du XIe siècle" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1001-1100/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:biographicalInformation "Moine orthodoxe auteur d'une biographie d'Athanase l'Athonite. - Il fut l'élève d'un disciple d'Athanase l'Athonite. - D'abord tenu pour un moine de la Grande Laure du Mont Athos, les recherches récentes tendent à le situer dans le monastère constantinopolitain de Panagiou. - Peut-être identique avec Athanase higoumène de Panagiou, actif dans le 2e ou 3e quart du XIe siècle" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "10.." ;
+    bio:death "10.." ;
+    = <https://data.bnf.fr/ark:/12148/cb17802068m#foaf:Person> ;
+    foaf:familyName "Athanase de Panagiou" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17802068m> .
+

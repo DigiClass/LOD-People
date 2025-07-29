@@ -1,0 +1,77 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb11990396dstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb11990396d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12262544h#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb11990396d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34832493b#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb11990396d#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb11990396d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11990396d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36196054m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11990396d#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11990396d#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11990396d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11990396d> a skos:Concept ;
+    bnf-onto:FRBNF 11990396 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000358681008" ;
+    dcterms:created "1985-12-10" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/L%C3%A9once_de_Constantinople>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11990396d> ;
+    skos:altLabel "Leontius Presbyter"@fr,
+        "Leontius of Constantinople"@fr,
+        "Leontius Constantinopolitanus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/1089140940>,
+        <http://id.loc.gov/authorities/nr89004025>,
+        <https://www.idref.fr/027975754> ;
+    skos:editorialNote "Leontii presbyteri Constantinopolitani Homiliae / quarum editionem curaverunt Cornelis Datema et Pauline Allen, 1987. - . - Clavis SGL : Leontius Constantinopolitanus presbyter. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/L%C3%A9once_de_Constantinople>,
+        <http://fr.wikipedia.org/wiki/L%C3%A9once_de_Constantinople>,
+        <http://isni.org/isni/0000000358681008>,
+        <http://viaf.org/viaf/29543280/>,
+        <http://wikidata.org/entity/Q11931360>,
+        <http://www.idref.fr/027975754/id> ;
+    skos:note "Prêtre. - Huit homélies ont été transmises sous son nom, mais d'autres sont sans doute de lui : on en conserverait au moins quatorze, soit les huit qui lui sont traditionnellement attribuées, 3 conservées à la fois sous son nom et sous un ou plusieurs autres, 3 transmises sous le nom de saint Jean Chrysostome"@fr ;
+    skos:prefLabel "Léonce de Constantinople"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11990396d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11990396d#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Prêtre. - Huit homélies ont été transmises sous son nom, mais d'autres sont sans doute de lui : on en conserverait au moins quatorze, soit les huit qui lui sont traditionnellement attribuées, 3 conservées à la fois sous son nom et sous un ou plusieurs autres, 3 transmises sous le nom de saint Jean Chrysostome" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:biographicalInformation "Prêtre. - Huit homélies ont été transmises sous son nom, mais d'autres sont sans doute de lui : on en conserverait au moins quatorze, soit les huit qui lui sont traditionnellement attribuées, 3 conservées à la fois sous son nom et sous un ou plusieurs autres, 3 transmises sous le nom de saint Jean Chrysostome" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "04.." ;
+    bio:death "05.." ;
+    = <http://fr.dbpedia.org/resource/L%C3%A9once_de_Constantinople>,
+        <http://viaf.org/viaf/29543280>,
+        <http://www.idref.fr/027975754/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb11990396d#foaf:Person> ;
+    foaf:familyName "Léonce de Constantinople" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11990396d> .
+

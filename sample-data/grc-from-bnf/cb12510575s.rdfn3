@@ -1,0 +1,65 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12510575sstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12510575s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35475367h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12510575s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12510575s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12510575s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12510575s> a skos:Concept ;
+    bnf-onto:FRBNF 12510575 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000391876034" ;
+    dcterms:created "1996-04-22" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12510575s> ;
+    skos:altLabel "Zosime (saint, 04..-05..)"@fr,
+        "Zosimas (saint, 04..-05..)"@la,
+        "Zosimas abbas (saint, 04..-05..)"@la,
+        "Zosimus Palaestinus (saint, 04..-05..)"@la,
+        "Zosimus abbas (saint, 04..-05..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/103153683>,
+        <http://id.loc.gov/authorities/n2002091044> ;
+    skos:editorialNote "Entretiens ou Chapitres très utiles / Zosime ; introd. , trad. et notes par dom Lucien Regnault, [dans] : Enseignements des Pères du désert / Hyperéchios, Étienne de Thèbes, Zosime ; préf. de dom Michel Van Parys, O.S.B., 1991. - . - Clavis scriptorum Graecorum et Latinorum : Zosimus abbas sanctus. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000391876034>,
+        <http://viaf.org/viaf/285795703/>,
+        <http://wikidata.org/entity/Q2993862>,
+        <http://www.idref.fr/034340939> ;
+    skos:note "Moine originaire de Sindé, près de Tyr, puis supérieur d'une communauté monastique près de Césarée, en Palestine"@fr ;
+    skos:prefLabel "Zosimus (saint, 04..-05..)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12510575s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12510575s#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine originaire de Sindé, près de Tyr, puis supérieur d'une communauté monastique près de Césarée, en Palestine" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:biographicalInformation "Moine originaire de Sindé, près de Tyr, puis supérieur d'une communauté monastique près de Césarée, en Palestine" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "04.." ;
+    bio:death "05.." ;
+    = <http://viaf.org/viaf/285795703>,
+        <http://www.idref.fr/034340939/id>,
+        <https://data.bnf.fr/ark:/12148/cb12510575s#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Assisi%2520zosimus.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k411654d.thumbnail> ;
+    foaf:familyName "Zosimus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12510575s> .
+

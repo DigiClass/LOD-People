@@ -1,0 +1,73 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121825918studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121825918#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36206267t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121825918#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121825918#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121825918#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121825918> a skos:Concept ;
+    bnf-onto:FRBNF 12182591 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-25"^^xsd:date ;
+    isni:identifierValid "0000000073581310" ;
+    dcterms:created "1991-01-30" ;
+    dcterms:modified "2013-07-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Michel_Italikos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121825918> ;
+    skos:altLabel "Michaé̄l Italicós (109.-115.)"@fr,
+        "Michaé̄l ho Italicós (109.-115.)"@fr,
+        "Mihaí̄l Italikós (109.-115.)"@fr,
+        "Mihaí̄l ho Italikós (109.-115.)"@fr,
+        "Mikhaé̄l ho Italikós (109.-115.)"@fr,
+        "Μιχαήλ Ιταλικός (109.-115.)"@fr,
+        "Μιχαήλ ὁ Ιταλικός (109.-115.)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/100953964>,
+        <http://id.loc.gov/authorities/no2009205976> ;
+    skos:editorialNote "Encycl. Grèce. - . - Encycl. Papyros. - . - Karagiannopoulos. - . -"@fr,
+        "Lettres et discours / Michel Italikos ; éd. par Paul Gautier, 1972. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Michel_Italikos>,
+        <http://fr.wikipedia.org/wiki/Michel_Italikos>,
+        <http://isni.org/isni/0000000073581310>,
+        <http://viaf.org/viaf/79073384/>,
+        <http://wikidata.org/entity/Q962945>,
+        <http://www.idref.fr/030405513> ;
+    skos:note "Érudit byzantin du XIIe s.. - Maître de rhétorique et de philosophie à Constantinople, il y enseigna aussi la médecine, tout en exerçant un ministère ecclésiastique à Sainte-Sophie. - Promu didascale des Évangiles, il fut ordonné métropolite de Philippopolis en 1142 (ou 1143, selon les sources). - Il mourut avant 1166. - De toute son oeuvre littéraire, il ne reste que 45 lettres et quelques discours d'apparat"@fr ;
+    skos:prefLabel "Michel Italikos (109.-115.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121825918#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121825918#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Érudit byzantin du XIIe s.. - Maître de rhétorique et de philosophie à Constantinople, il y enseigna aussi la médecine, tout en exerçant un ministère ecclésiastique à Sainte-Sophie. - Promu didascale des Évangiles, il fut ordonné métropolite de Philippopolis en 1142 (ou 1143, selon les sources). - Il mourut avant 1166. - De toute son oeuvre littéraire, il ne reste que 45 lettres et quelques discours d'apparat" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1101-1200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:biographicalInformation "Érudit byzantin du XIIe s.. - Maître de rhétorique et de philosophie à Constantinople, il y enseigna aussi la médecine, tout en exerçant un ministère ecclésiastique à Sainte-Sophie. - Promu didascale des Évangiles, il fut ordonné métropolite de Philippopolis en 1142 (ou 1143, selon les sources). - Il mourut avant 1166. - De toute son oeuvre littéraire, il ne reste que 45 lettres et quelques discours d'apparat" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1101-1200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "109." ;
+    bio:death "115." ;
+    = <http://fr.dbpedia.org/resource/Michel_Italikos>,
+        <http://viaf.org/viaf/79073384>,
+        <http://www.idref.fr/030405513/id>,
+        <https://data.bnf.fr/ark:/12148/cb121825918#foaf:Person> ;
+    foaf:familyName "Michel Italikos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121825918> .
+

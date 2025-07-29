@@ -1,0 +1,105 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb120227577studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12362917w#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb165928519#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16592911b#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb313685388#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31368540t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb347899411#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb375179477#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38109051q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb423845488#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120227577#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120227577> a skos:Concept ;
+    bnf-onto:FRBNF 12022757 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2018-06-06"^^xsd:date ;
+    isni:identifierValid "0000000119534692" ;
+    dcterms:created "1987-03-15" ;
+    dcterms:modified "2024-02-29" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Sym%C3%A9on_de_Thessalonique>,
+        <https://catalogue.bnf.fr/ark:/12148/cb120227577> ;
+    skos:altLabel "Sumeōn Thessalonikēs (13..-1429)",
+        "Symeōn Thessalonikēs",
+        "Symeon von Thessalonike"@de,
+        "Symeon of Thessalonica"@en,
+        "Siméon de Thessalonique"@fr,
+        "Συμεὼν Θεσσαλονίκης (13..-1429)"@fr,
+        "Simeon Thessalonicensis"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118620304>,
+        <http://datos.bne.es/resource/XX1441289>,
+        <http://id.loc.gov/authorities/n80103955> ;
+    skos:editorialNote "Clavis SGL : Simeon Thessalonicensis archiepiscopus. - . - LTK : Symeon von Thessalonike. - . - Encycl. Grèce. - . -"@fr,
+        "Karagiannopoulos. - . - BN Cat. gén. : Siméon, archevêque de Thessalonique. - . -"@fr,
+        "Politico-historical works of Symeon, archbishop of Thessalonica, 1416-17 to 1429 / critical Greek text with introd. and comment. by David Balfour, 1979. - . - DTC ; Dict. spiritualité : Syméon de Thessalonique. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Sym%C3%A9on_de_Thessalonique>,
+        <http://fr.wikipedia.org/wiki/Sym%C3%A9on_de_Thessalonique>,
+        <http://isni.org/isni/0000000119534692>,
+        <http://viaf.org/viaf/100907299/>,
+        <http://wikidata.org/entity/Q246426>,
+        <http://www.idref.fr/068531109> ;
+    skos:note "Théologien et liturgiste byzantin. - Archevêque de Thessalonique (1416-1429)"@fr ;
+    skos:prefLabel "Syméon de Thessalonique (13..-1429)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb120227577#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120227577#about> a foaf:Person ;
+    bnf-onto:lastYear 1429 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Théologien et liturgiste byzantin. - Archevêque de Thessalonique (1416-1429)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1429/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:biographicalInformation "Théologien et liturgiste byzantin. - Archevêque de Thessalonique (1416-1429)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1429/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "13.." ;
+    bio:death "1429-09" ;
+    = <http://fr.dbpedia.org/resource/Sym%C3%A9on_de_Thessalonique>,
+        <http://viaf.org/viaf/100907299>,
+        <http://www.idref.fr/068531109/id>,
+        <https://data.bnf.fr/ark:/12148/cb120227577#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Peinture%2520sainte%2520sophie%252001558.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Symeon%2520of%2520Thessaloniki.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bd6t57520175/f1.item.thumbnail> ;
+    foaf:familyName "Syméon de Thessalonique" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb120227577> .
+

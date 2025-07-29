@@ -1,0 +1,57 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12668340qstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12668340q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12668340q> a skos:Concept ;
+    bnf-onto:FRBNF 12668340 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "0000000006497178" ;
+    dcterms:created "1987-03-15" ;
+    dcterms:modified "2015-03-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12668340q> ;
+    skos:altLabel "Theodorus Rentius (1510?-1580)"@fr,
+        "Theodorus Rhendius (1510?-1580)"@fr,
+        "Théodoros Rendios (1510?-1580)"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000006497178>,
+        <http://viaf.org/viaf/133044/>,
+        <http://www.idref.fr/157329518> ;
+    skos:note "Écrivain"@fr ;
+    skos:prefLabel "Théodoros Rendis (1510?-1580)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12668340q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12668340q#about> a foaf:Person ;
+    bnf-onto:firstYear 1510 ;
+    bnf-onto:lastYear 1580 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Écrivain" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1580/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1510/> ;
+    rdagroup2elements:biographicalInformation "Écrivain" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1510/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1580/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1510" ;
+    bio:death "1580" ;
+    = <http://viaf.org/viaf/133044>,
+        <http://www.idref.fr/157329518/id>,
+        <https://data.bnf.fr/ark:/12148/cb12668340q#foaf:Person> ;
+    foaf:familyName "Rendis" ;
+    foaf:givenName "Théodoros" ;
+    foaf:name "Théodoros Rendis" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12668340q> .
+

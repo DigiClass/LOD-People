@@ -1,0 +1,75 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb39327863b#Expression> bnfroles:r40 <https://data.bnf.fr/ark:/12148/cb12215761b#about> ;
+    marcrel:ann <https://data.bnf.fr/ark:/12148/cb12215761b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12215761b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39327864p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12215761b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12215761b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12215761b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46765173f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12215761b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12215761b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12215761b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12215761b> a skos:Concept ;
+    bnf-onto:FRBNF 12215761 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000382844612" ;
+    dcterms:created "1991-08-12" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Phocylide_de_Milet>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12215761b> ;
+    skos:altLabel "Phokylides",
+        "Focilide"@it,
+        "Phocylides Milesius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118791990>,
+        <http://datos.bne.es/resource/XX5547688>,
+        <http://id.loc.gov/authorities/n86122591>,
+        <https://www.idref.fr/086698265> ;
+    skos:editorialNote "Clavis SGL. - . - Encicl. italiana : Focilide. - . -"@fr,
+        "Theognidis et Phocylidis fragmenta et adespota quaedam gnomica / ed. M. L. West, 1978. - . - Larousse 19e s. ; Van Tieghem. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Phocylide_de_Milet>,
+        <http://fr.wikipedia.org/wiki/Phocylide_de_Milet>,
+        <http://isni.org/isni/0000000382844612>,
+        <http://viaf.org/viaf/267472904/>,
+        <http://wikidata.org/entity/Q972799>,
+        <http://www.idref.fr/086698265/id> ;
+    skos:note "Poète gnomique dont on a conservé quelques sentences"@fr ;
+    skos:prefLabel "Phocylide"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12215761b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12215761b#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète gnomique dont on a conservé quelques sentences" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:biographicalInformation "Poète gnomique dont on a conservé quelques sentences" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 05.." ;
+    bio:death "- 05.." ;
+    = <http://fr.dbpedia.org/resource/Phocylide_de_Milet>,
+        <http://viaf.org/viaf/267472904>,
+        <http://www.idref.fr/086698265/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12215761b#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k8700999j/f1.item.thumbnail> ;
+    foaf:familyName "Phocylide" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12215761b> .
+

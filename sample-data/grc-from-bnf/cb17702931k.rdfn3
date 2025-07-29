@@ -1,0 +1,53 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb45398724d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17702931k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17702931k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17702931k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17702931k> a skos:Concept ;
+    bnf-onto:FRBNF 17702931 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2017-12-27"^^xsd:date ;
+    isni:identifierValid "0000000122388518" ;
+    dcterms:created "2017-12-20" ;
+    dcterms:modified "2017-12-27" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17702931k> ;
+    skos:closeMatch <http://d-nb.info/gnd/1013619056>,
+        <http://id.loc.gov/authorities/no2012138453> ;
+    skos:exactMatch <http://isni.org/isni/0000000122388518>,
+        <http://viaf.org/viaf/172091237/>,
+        <http://wikidata.org/entity/Q13518215> ;
+    skos:note "Poète"@fr ;
+    skos:prefLabel "Yannis Livadas"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17702931k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17702931k#about> a foaf:Person ;
+    bnf-onto:firstYear 1969 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète" ;
+    rdagroup2elements:biographicalInformation "Poète" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/172091237>,
+        <https://data.bnf.fr/ark:/12148/cb17702931k#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Yannis%2520Livadas..jpg> ;
+    foaf:familyName "Livadas" ;
+    foaf:gender "male" ;
+    foaf:givenName "Yannis" ;
+    foaf:name "Yannis Livadas" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17702931k> .
+

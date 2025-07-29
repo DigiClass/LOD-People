@@ -1,0 +1,66 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb35475367h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12510572r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12510572r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12510572r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb47524677x#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb12510572r#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb12510572r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12510572r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12510572r> a skos:Concept ;
+    bnf-onto:FRBNF 12510572 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000391259255" ;
+    dcterms:created "1996-04-22" ;
+    dcterms:modified "2019-04-10" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12510572r> ;
+    skos:altLabel "Hyperéchios (saint)"@fr,
+        "Ὑπερέχιος (saint)"@fr,
+        "Iperechio (saint)"@it,
+        "Hyperechius abbas"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102395985> ;
+    skos:editorialNote "Conseils aux ascètes / Hyperéchios ; introd. , trad. et notes par dom Paul Tirot, [dans] : Enseignements des Pères du désert / Hyperéchios, Étienne de Thèbes, Zosime ; préf. de dom Michel Van Parys, O.S.B., 1991. - . - Clavis scriptorum Graecorum et Latinorum : Hyperechius abbas. - . -"@fr,
+        "DOC / V Volpi, 1994. - . - BN Cat. gén. : HYPERECHIUS (saint), abbé. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000391259255>,
+        <http://viaf.org/viaf/285013408/>,
+        <http://wikidata.org/entity/Q104708206>,
+        <http://www.idref.fr/034340890> ;
+    skos:note "Père du désert. - Pourrait être un prêtre dirigeant une confrérie d'ascètes vivant en ville"@fr ;
+    skos:prefLabel "Hyperechius (saint)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12510572r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12510572r#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Père du désert. - Pourrait être un prêtre dirigeant une confrérie d'ascètes vivant en ville" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0301-0400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Père du désert. - Pourrait être un prêtre dirigeant une confrérie d'ascètes vivant en ville" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "03.." ;
+    bio:death "03.." ;
+    = <http://viaf.org/viaf/285013408>,
+        <http://www.idref.fr/034340890/id>,
+        <https://data.bnf.fr/ark:/12148/cb12510572r#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k411654d.thumbnail> ;
+    foaf:familyName "Hyperechius" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12510572r> .
+

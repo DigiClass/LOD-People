@@ -1,0 +1,80 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16666689zstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb16666689z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb166667359#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16666689z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb43536408p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16666689z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16666689z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16666689z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44453304p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16666689z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16666689z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16666689z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16666689z> a skos:Concept ;
+    bnf-onto:FRBNF 16666689 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000066662577" ;
+    dcterms:created "2013-02-28" ;
+    dcterms:modified "2019-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Th%C3%A9odore_Agallianos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16666689z> ;
+    skos:altLabel "Theódōros A̓gallianós (1400?-1474?)"@fr,
+        "Théodore Agallianus (1400?-1474?)"@fr,
+        "Théophane (Métropolite de Médie, 1400?-1474?)"@fr,
+        "Θεόδωρος Ἀγαλλιανός (1400?-1474?)"@fr,
+        "Théodorus Agallianus (1400?-1474?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100962181>,
+        <http://datos.bne.es/resource/XX1285666>,
+        <http://id.loc.gov/authorities/no2009120620> ;
+    skos:editorialNote "DOC / V. Volpi, 1994 : Théodorus Agallianus. - . - BN Cat. gén. : Théodore Agallianus. - . -"@fr,
+        "Dialogue avec un moine contre les Latins / Théodore Agallianos ; édition critique, traduction française et commentaire par Marie-Hélène Blanchet, 2013. - . - Dict. des auteurs grecs et latins de l'Antiquité et du Moyen âge / W. Buchwald, A. Hohlweg, O. Prinz, 1991 : Agallianos, Théodore. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Th%C3%A9odore_Agallianos>,
+        <http://fr.wikipedia.org/wiki/Th%C3%A9odore_Agallianos>,
+        <http://isni.org/isni/0000000066662577>,
+        <http://viaf.org/viaf/27422547/>,
+        <http://wikidata.org/entity/Q6558731>,
+        <http://www.idref.fr/167512986> ;
+    skos:note "Né à constantinople au tout début du 15e siècle. - Hiéromnémon du patriarche de Constantinople, il est fait prisonnier lors de la prise de Constantinople en 1453. - De 1454 à 1464-1465 il occupe la fonction de grand chartophylax. - Vers 1468 il devient métropolite de Médie sous le nom de Théophane"@fr ;
+    skos:prefLabel "Théodore Agallianos (1400?-1474?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16666689z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16666689z#about> a foaf:Person ;
+    bnf-onto:firstYear 1400 ;
+    bnf-onto:lastYear 1474 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Né à constantinople au tout début du 15e siècle. - Hiéromnémon du patriarche de Constantinople, il est fait prisonnier lors de la prise de Constantinople en 1453. - De 1454 à 1464-1465 il occupe la fonction de grand chartophylax. - Vers 1468 il devient métropolite de Médie sous le nom de Théophane" ;
+    rdaa:P50119 "Constantinople (Empire byzantin), aujourd'hui Istanbul (Turquie)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1474/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1400/> ;
+    rdagroup2elements:biographicalInformation "Né à constantinople au tout début du 15e siècle. - Hiéromnémon du patriarche de Constantinople, il est fait prisonnier lors de la prise de Constantinople en 1453. - De 1454 à 1464-1465 il occupe la fonction de grand chartophylax. - Vers 1468 il devient métropolite de Médie sous le nom de Théophane" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1474/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Constantinople (Empire byzantin), aujourd'hui Istanbul (Turquie)" ;
+    bio:birth "1400" ;
+    bio:death "1474" ;
+    = <http://fr.dbpedia.org/resource/Th%C3%A9odore_Agallianos>,
+        <http://viaf.org/viaf/27422547>,
+        <http://www.idref.fr/167512986/id>,
+        <https://data.bnf.fr/ark:/12148/cb16666689z#foaf:Person> ;
+    foaf:familyName "Théodore Agallianos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16666689z> .
+

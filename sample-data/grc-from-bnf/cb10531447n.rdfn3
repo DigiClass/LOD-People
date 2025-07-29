@@ -1,0 +1,46 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb10531447nstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb10531447n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10531447n> a skos:Concept ;
+    bnf-onto:FRBNF 10531447 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-04-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb10531447n> ;
+    skos:altLabel "Miltiades (01..-01..)"@la,
+        "Miltiades Apologetes"@la ;
+    skos:editorialNote "Hermiae Irrisio gentilium philosophorum . Apologetarum Quadrati Aristides, Aristonis, Miltiades, Melitonis, Apollinaris reliquiae... / recensuit... collegit... edidit... commentariis illustravit Jo. Car. Th. eques de Otto.-Ienae : in libraria Mauki, 1872. - . - Dictionnaire des philosophes antiques. IV, De Labeo à Ovidius / publié sous la direction de Richard Goulet. - Paris : CNRS éd., impr. 2005 : Miltiade. - . -"@fr,
+        "Kleine Pauly : Miltiades. - . - Clavis SGL : Miltiades Apologetes. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/4155767390727762343/> ;
+    skos:note "Apologiste chrétien"@fr ;
+    skos:prefLabel "Miltiade (01..-01..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10531447n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10531447n#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Apologiste chrétien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Apologiste chrétien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "01.." ;
+    bio:death "01.." ;
+    = <http://viaf.org/viaf/4155767390727762343>,
+        <https://data.bnf.fr/ark:/12148/cb10531447n#foaf:Person> ;
+    foaf:familyName "Miltiade" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10531447n> .
+

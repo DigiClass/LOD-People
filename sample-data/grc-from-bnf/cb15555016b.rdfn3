@@ -1,0 +1,50 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb15555016bstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb15555016b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb305980121#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb15555016b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb15555016b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15555016b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15555016b> a skos:Concept ;
+    bnf-onto:FRBNF 15555016 ;
+    dcterms:created "2007-08-09" ;
+    dcterms:modified "2023-12-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb15555016b> ;
+    skos:altLabel "Hīródotos (médecin, 04..-01..)"@fr,
+        "Ἡρόδοτος (médecin, 00..-01..)"@fr,
+        "Herodotus (médecin, 00..-01..)"@la ;
+    skos:editorialNote "Erotiani, Galeni, et Herodoti glossaria in Hippocratem / Johann Georg Friedrich Franz, 2005. - . - DOC / V. Volpi, 1994 : Herododus (medico). - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/316445108/> ;
+    skos:note "Médecin cité par Galien et Oribase"@fr ;
+    skos:prefLabel "Hérodote de Lycie"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb15555016b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15555016b#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Médecin cité par Galien et Oribase" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Médecin cité par Galien et Oribase" ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "00.." ;
+    bio:death "01.." ;
+    = <http://viaf.org/viaf/316445108>,
+        <https://data.bnf.fr/ark:/12148/cb15555016b#foaf:Person> ;
+    foaf:familyName "Hérodote de Lycie" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb15555016b> .
+

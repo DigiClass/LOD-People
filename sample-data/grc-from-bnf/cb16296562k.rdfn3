@@ -1,0 +1,59 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16296562kstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb16296562k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16296562k> a skos:Concept ;
+    bnf-onto:FRBNF 16296562 ;
+    dcterms:created "2012-05-09" ;
+    dcterms:modified "2024-09-27" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Amyntas_Ier>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16296562k> ;
+    skos:altLabel "ʼAmýntas 1 (roi de Macédoine, 05..-0498 av. J.-C.)"@el,
+        "ʼAmýntas A´ (roi de Macédoine, 05..-0498 av. J.-C.)"@el,
+        "Ἀμύντας 1 (roi de Macédoine, 05..-0498 av. J.-C.)"@el,
+        "Ἀμύντας Αʹ (roi de Macédoine, 05..-0498 av. J.-C.)"@el,
+        "Amyntas 1 (roi de Macédoine, 05..-0498 av. J.-C.)"@fr,
+        "Aminta 1 (roi de Macédoine, 05..-0498 av. J.-C.)"@la,
+        "Aminta I (roi de Macédoine, 05..-0498 av. J.-C.)"@la ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Amyntas_Ier>,
+        <http://fr.wikipedia.org/wiki/Amyntas_Ier>,
+        <http://viaf.org/viaf/316448519/>,
+        <http://wikidata.org/entity/Q313912> ;
+    skos:note "Roi de Macédoine de 540 à 498 av. J.-C.. - Fils et successeur d'Alcétas Ier"@fr ;
+    skos:prefLabel "Amyntas Ier (roi de Macédoine, 05..-0498 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16296562k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16296562k#about> a foaf:Person ;
+    bnf-onto:lastYear -498 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Roi de Macédoine de 540 à 498 av. J.-C.. - Fils et successeur d'Alcétas Ier" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0498/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:biographicalInformation "Roi de Macédoine de 540 à 498 av. J.-C.. - Fils et successeur d'Alcétas Ier" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0498/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 05.." ;
+    bio:death "- 498" ;
+    = <http://fr.dbpedia.org/resource/Amyntas_Ier>,
+        <http://viaf.org/viaf/316448519>,
+        <https://data.bnf.fr/ark:/12148/cb16296562k#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/MACEDON%252C%2520Aegae.%2520Circa%2520510-480%2520BC.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8530557n.thumbnail> ;
+    foaf:familyName "Amyntas" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16296562k> .
+

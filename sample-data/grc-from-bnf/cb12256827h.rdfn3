@@ -1,0 +1,102 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12256827hstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb165920397#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30414379b#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31298024n#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb314062397#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31406240f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31611263f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb355213441#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42557018d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44254953f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256827h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12256827h> a skos:Concept ;
+    bnf-onto:FRBNF 12256827 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2017-08-18"^^xsd:date ;
+    isni:identifierValid "0000000444703445" ;
+    dcterms:created "1992-07-27" ;
+    dcterms:modified "2017-08-18" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/St%C3%A9sichore>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12256827h> ;
+    skos:altLabel "Stesicoro (0640?-0550? av. J.-C.)"@fr,
+        "Stīsíkhoros (0640?-0550? av. J.-C.)"@fr,
+        "Stësíkhoros (0640?-0550? av. J.-C.)"@fr,
+        "Στησίχορος (0640?-0550? av. J.-C.)"@fr,
+        "Stesichorus Himerensis major (0640?-0550? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118617966>,
+        <http://datos.bne.es/resource/XX1243815>,
+        <http://id.loc.gov/authorities/n81003957>,
+        <https://www.idref.fr/031333206> ;
+    skos:editorialNote "Alcman, Stesichorus, Ibycus / ed. Malcolm Davies, 1991. - . - GDEL. - . -"@fr,
+        "Laffont Bompiani, Auteurs. - . - Clavis SGL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/St%C3%A9sichore>,
+        <http://fr.wikipedia.org/wiki/St%C3%A9sichore>,
+        <http://isni.org/isni/0000000444703445>,
+        <http://viaf.org/viaf/200853583/>,
+        <http://wikidata.org/entity/Q332797>,
+        <http://www.idref.fr/031333206/id> ;
+    skos:note "Poète lyrique. - Nom véritable : Tisias Himerensis"@fr ;
+    skos:prefLabel "Stésichore (0640?-0550? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12256827h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12256827h#about> a foaf:Person ;
+    bnf-onto:firstYear -640 ;
+    bnf-onto:lastYear -550 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète lyrique. - Nom véritable : Tisias Himerensis" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0550/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0640/> ;
+    rdagroup2elements:biographicalInformation "Poète lyrique. - Nom véritable : Tisias Himerensis" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0640/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0550/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 640" ;
+    bio:death "- 550" ;
+    = <http://fr.dbpedia.org/resource/St%C3%A9sichore>,
+        <http://viaf.org/viaf/200853583>,
+        <http://www.idref.fr/031333206/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12256827h#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Stesichorus.jpg> ;
+    foaf:familyName "Stésichore" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12256827h> .
+

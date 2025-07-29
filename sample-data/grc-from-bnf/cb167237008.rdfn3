@@ -1,0 +1,77 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb366326736#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167237008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37517936k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167237008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38801468t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167237008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb412998006#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167237008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41460934b#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167237008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb425107195#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167237008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45582278n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb167237008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb167237008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb167237008> a skos:Concept ;
+    bnf-onto:FRBNF 16723700 ;
+    bnf-onto:isniAttributionAgency "saisie" ;
+    bnf-onto:isniAttributionDate "2015-08-21"^^xsd:date ;
+    isni:identifierValid "0000000108609951" ;
+    dcterms:created "2013-11-18" ;
+    dcterms:modified "2015-08-21" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb167237008> ;
+    skos:editorialNote "Il fragmentum Grenfellianum, P. Dryton 50 / introduzione, testo critico, traduzione e commento, Elena Esposito, 2005. - . - Bibliothèque nationale, Italie. - http://opac.sbn.it. - 2013-11-18"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000108609951>,
+        <http://viaf.org/viaf/40368/>,
+        <http://www.idref.fr/143190903> ;
+    skos:note "Professeur de littérature grecque, Università degli studi, Bologne, Italie (en 2005)"@fr ;
+    skos:prefLabel "Elena Esposito"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb167237008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb167237008#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/it> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+    rdaa:P50113 "Professeur de littérature grecque, Università degli studi, Bologne, Italie (en 2005)" ;
+    rdagroup2elements:biographicalInformation "Professeur de littérature grecque, Università degli studi, Bologne, Italie (en 2005)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/it> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+    = <http://viaf.org/viaf/40368>,
+        <http://www.idref.fr/143190903/id>,
+        <https://data.bnf.fr/ark:/12148/cb167237008#foaf:Person> ;
+    foaf:familyName "Esposito" ;
+    foaf:gender "female" ;
+    foaf:givenName "Elena" ;
+    foaf:name "Elena Esposito" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb167237008> .
+

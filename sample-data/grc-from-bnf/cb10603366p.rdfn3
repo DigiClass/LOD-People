@@ -1,0 +1,91 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb10603366pstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb10603366p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30636700d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10603366p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10603366p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10603366p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb371541839#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10603366p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10603366p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10603366p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44260526p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10603366p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10603366p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10603366p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10603366p> a skos:Concept ;
+    bnf-onto:FRBNF 10603366 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000041335473" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb10603366p> ;
+    skos:altLabel "Isidore de Thessalonique (1342-1396)"@fr,
+        "Isídōros (archevêque de Thessalonique, 1342-1396)"@fr,
+        "Isídōros Glavás (archevêque de Thessalonique, 1342-1396)"@fr,
+        "̓Isídōros (archevêque de Thessalonique, 1342-1396)"@fr,
+        "̓Isídōros Glavâs (archevêque de Thessalonique, 1342-1396)"@fr,
+        "Ισίδωρος (archevêque de Thessalonique, 1342-1396)"@fr,
+        "Ισίδωρος Γλαβάς (archevêque de Thessalonique, 1342-1396)"@fr,
+        "Ἰσίδωρος (archevêque de Thessalonique, 1342-1396)"@fr,
+        "Ἰσίδωρος Γλαβᾶς (archevêque de Thessalonique, 1342-1396)"@fr,
+        "Isidorus (archevêque de Thessalonique, 1342-1396)"@la,
+        "Isidorus Thessalonicensis (1342-1396)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100967671>,
+        <http://id.loc.gov/authorities/n91117917> ;
+    skos:editorialNote "BN Cat. gén. : Isidore de Thessalonique. - . - BnF Service grec, 2015-01-26. - . -"@fr,
+        "Bibliothèque nationale de Grèce : Isídōros Glavás, archevêque de Thessalonique. - http://www.nlg.gr. - 2015-01-22 Bibliothèque de Chypre : Isídōros Glavás, archevêque de Thessalonique. - http://www.cypruslibrary.gov.cy. - 2015-01-22 Bibliothèque de l'Université de Chypre : Isídōros, archevêque de Thessalonique. - http://beta.lib.ucy.ac.cy/el. - 2015-01-22"@fr,
+        "Encycl. Grèce : Glavâs,  ̓Isídōros, archevêque de Thessalonique. - . - Encycl. Pápyros : Isídōros o Glavás, métropolite de Thessalonique [avec renvoi de : Glavás, Isídōros]. - . - Karagiannópoulos :  ̓Isídōros Glavâs, archevêque de Thessalonique ; Glavâs,  ̓Isídōros. - . -"@fr,
+        "Isidori, archiepiscopi Thessalonicensis Mariale, quo ejusdem Isidori de Maria, Deipara Virgine, praeclara monumenta, ex Graeco ms. codice Bibliothecae Vaticanae eruta, Latine reddita, notisque illustrata, nunc primo legentium oculis exhibentur / studio ac labore P. Hippolyti Maraccii, 1661. - . - Homilíes /  ̓Isidṓrou Glavâ, a̓rchiepiskópou Thessaloníkīs ; Venizélos Ch. Christoforídīs, 1992-1996. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000041335473>,
+        <http://viaf.org/viaf/48413784/>,
+        <http://wikidata.org/entity/Q21808700>,
+        <http://www.idref.fr/161432255> ;
+    skos:note "Clerc et théologien byzantin. - Archevêque/métropolite de Thessalonique de 1380 à 1396"@fr ;
+    skos:prefLabel "Isidore (archevêque de Thessalonique, 1342-1396)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10603366p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10603366p#about> a foaf:Person ;
+    bnf-onto:firstYear 1342 ;
+    bnf-onto:lastYear 1396 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Clerc et théologien byzantin. - Archevêque/métropolite de Thessalonique de 1380 à 1396" ;
+    rdaa:P50118 "Thessalonique" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1396/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1342/> ;
+    rdagroup2elements:biographicalInformation "Clerc et théologien byzantin. - Archevêque/métropolite de Thessalonique de 1380 à 1396" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1342/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1396/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfDeath "Thessalonique" ;
+    bio:birth "1342" ;
+    bio:death "1396" ;
+    = <http://viaf.org/viaf/48413784>,
+        <http://www.idref.fr/161432255/id>,
+        <https://data.bnf.fr/ark:/12148/cb10603366p#foaf:Person> ;
+    foaf:familyName "Isidore" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10603366p> .
+

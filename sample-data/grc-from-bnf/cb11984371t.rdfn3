@@ -1,0 +1,51 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb34815493n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11984371t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11984371t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11984371t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11984371t> a skos:Concept ;
+    bnf-onto:FRBNF 11984371 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000090342602" ;
+    dcterms:created "1985-07-31" ;
+    dcterms:modified "2013-12-17" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Malchos_de_Philadelphie>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11984371t> ;
+    skos:altLabel "Malchus Philadelphensis"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/100952755>,
+        <http://id.loc.gov/authorities/n84019671>,
+        <https://www.idref.fr/02790153X> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Malchos_de_Philadelphie>,
+        <http://fr.wikipedia.org/wiki/Malchos_de_Philadelphie>,
+        <http://isni.org/isni/0000000090342602>,
+        <http://viaf.org/viaf/131864982/>,
+        <http://wikidata.org/entity/Q721022>,
+        <http://www.idref.fr/02790153X/id> ;
+    skos:prefLabel "Malchus"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11984371t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11984371t#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://fr.dbpedia.org/resource/Malchos_de_Philadelphie>,
+        <http://viaf.org/viaf/131864982>,
+        <http://www.idref.fr/02790153X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb11984371t#foaf:Person> ;
+    foaf:familyName "Malchus" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11984371t> .
+

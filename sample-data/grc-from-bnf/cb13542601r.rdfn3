@@ -1,0 +1,88 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13542601rstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13542601r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb370836789#Expression> bnfroles:r72 <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    marcrel:ant <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13542601r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb450758439#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13542601r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45309928q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13542601r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45594531h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13542601r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45776939s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13542601r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13542601r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13542601r> a skos:Concept ;
+    bnf-onto:FRBNF 13542601 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000366411403" ;
+    dcterms:created "2000-02-10" ;
+    dcterms:modified "2014-07-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Cratinos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13542601r> ;
+    skos:altLabel "Kratínos (0519?-0422? av. J.-C.)"@fr,
+        "Kratînos (0519?-0422? av. J.-C.)"@fr,
+        "Κρατῖνος (0519?-0422? av. J.-C)"@fr,
+        "Cratinus (0519?-0422? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119496593>,
+        <http://datos.bne.es/resource/XX1452350>,
+        <http://id.loc.gov/authorities/n87874644>,
+        <https://www.idref.fr/114208042> ;
+    skos:editorialNote "Larousse 20e s. [mort en 422?]. - . - Encycl. Grèce [né vers 520 et mort en 422]. - . - Encycl. Pápyros [né dans la décennie 490-480, ou vers 520]. - . -"@fr,
+        "Ī Pytínī tou Kratínou : fantastikī́ anáplasī kai merikī́ \"anastī́lōsī\" tīs \"Pytínīs\", teleutaías chaménīs kōmōdías tou megálou archaíou kōmōdiográfou Kratínou / Chrī́stou Samouīlídī, 1994. - . - Bailly [né en 519 et mort en 422]. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Cratinos>,
+        <http://fr.wikipedia.org/wiki/Cratinos>,
+        <http://isni.org/isni/0000000366411403>,
+        <http://viaf.org/viaf/27229470/>,
+        <http://wikidata.org/entity/Q350517>,
+        <http://www.idref.fr/114208042/id> ;
+    skos:note "Poète comique athénien, l'un des grands créateurs de la Comédie ancienne attique. - Auteur de 21 pièces d'après le Lexique de Suidas (ou même 24 et 28 titres recensés selon d'autres sources), dont seuls quelques fragments nous sont parvenus. - Rival en fin de carrière du jeune Aristophane, neuf fois couronné dans les concours, il aurait vécu 97 ans"@fr ;
+    skos:prefLabel "Cratinos (0519?-0422? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13542601r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13542601r#about> a foaf:Person ;
+    bnf-onto:firstYear -519 ;
+    bnf-onto:lastYear -422 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète comique athénien, l'un des grands créateurs de la Comédie ancienne attique. - Auteur de 21 pièces d'après le Lexique de Suidas (ou même 24 et 28 titres recensés selon d'autres sources), dont seuls quelques fragments nous sont parvenus. - Rival en fin de carrière du jeune Aristophane, neuf fois couronné dans les concours, il aurait vécu 97 ans" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0422/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0519/> ;
+    rdagroup2elements:biographicalInformation "Poète comique athénien, l'un des grands créateurs de la Comédie ancienne attique. - Auteur de 21 pièces d'après le Lexique de Suidas (ou même 24 et 28 titres recensés selon d'autres sources), dont seuls quelques fragments nous sont parvenus. - Rival en fin de carrière du jeune Aristophane, neuf fois couronné dans les concours, il aurait vécu 97 ans" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0519/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0422/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 519" ;
+    bio:death "- 422" ;
+    = <http://fr.dbpedia.org/resource/Cratinos>,
+        <http://viaf.org/viaf/27229470>,
+        <http://www.idref.fr/114208042/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb13542601r#foaf:Person> ;
+    foaf:familyName "Cratinos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13542601r> .
+

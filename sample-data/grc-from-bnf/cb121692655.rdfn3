@@ -1,0 +1,82 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121692655studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121692655#about> .
+
+<https://data.bnf.fr/ark:/12148/cb144991012#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb121692655#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38966669b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121692655#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121692655#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121692655#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41324919d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121692655#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121692655#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121692655#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121692655> a skos:Concept ;
+    bnf-onto:FRBNF 12169265 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-10-24"^^xsd:date ;
+    isni:identifierValid "0000000109087729" ;
+    dcterms:created "1990-11-16" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Pamphile_de_C%C3%A9sar%C3%A9e>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121692655> ;
+    skos:altLabel "Pamphile de Césarée (0250?-0310)"@fr,
+        "Pamphilus von Caesarea (0250?-0310)"@fr,
+        "Pámfylos (saint, 0250?-0310)"@fr,
+        "Pámphylos (saint, 0250?-0310)"@fr,
+        "Πάμφυλος (saint, 0250?-0310)"@fr,
+        "Pamphilus (saint, 0250?-0310)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118873865>,
+        <http://id.loc.gov/authorities/nr2002032339> ;
+    skos:editorialNote "Apologie pour Origène / Pamphile et Eusèbe de Césarée ;  [trad. en latin par Rufin d'Aquilée].  Suivi de Sur la falsification des livres d'Origène / Rufin d'Aquilée ;  [éd.] par René Amacker et Éric Junod, 2002. - . - Diz. encicl. ital.. - . -"@fr,
+        "Dict. spiritualité : Pamphile de Césarée (Saint). - . - DTC : Pamphile de Césarée. - . - Encycl. Grèce. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Pamphile_de_C%C3%A9sar%C3%A9e>,
+        <http://fr.wikipedia.org/wiki/Pamphile_de_C%C3%A9sar%C3%A9e>,
+        <http://isni.org/isni/0000000109087729>,
+        <http://viaf.org/viaf/64047121/>,
+        <http://wikidata.org/entity/Q1855156>,
+        <http://www.idref.fr/060239921> ;
+    skos:note "Prêtre à Césarée en Palestine, responsable de la bibliothèque ecclésiastique"@fr ;
+    skos:prefLabel "Pamphile (saint, 0250?-0310)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121692655#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121692655#about> a foaf:Person ;
+    bnf-onto:firstYear 250 ;
+    bnf-onto:lastYear 310 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Prêtre à Césarée en Palestine, responsable de la bibliothèque ecclésiastique" ;
+    rdaa:P50119 "Beyrouth" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0310/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0250/> ;
+    rdagroup2elements:biographicalInformation "Prêtre à Césarée en Palestine, responsable de la bibliothèque ecclésiastique" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0250/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0310/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Beyrouth" ;
+    bio:birth "250" ;
+    bio:death "0310-02-16" ;
+    = <http://fr.dbpedia.org/resource/Pamphile_de_C%C3%A9sar%C3%A9e>,
+        <http://viaf.org/viaf/64047121>,
+        <http://www.idref.fr/060239921/id>,
+        <https://data.bnf.fr/ark:/12148/cb121692655#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Pamphilus%2520of%2520Caesarea.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b84963258.thumbnail> ;
+    foaf:familyName "Pamphile" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121692655> .
+

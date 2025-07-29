@@ -1,0 +1,114 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb14633311kstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14633314m#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16667474m#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31025558t#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31314399x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb330039151#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33003916c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33003917q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb40079251j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb40092326b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb413090996#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb422220887#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45770804d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14633311k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14633311k> a skos:Concept ;
+    bnf-onto:FRBNF 14633311 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-08-02"^^xsd:date ;
+    isni:identifierValid "000000010899831X" ;
+    dcterms:created "2005-05-30" ;
+    dcterms:modified "2013-08-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Favorinus_d%27Arles>,
+        <https://catalogue.bnf.fr/ark:/12148/cb14633311k> ;
+    skos:altLabel "Favorin von Arelate (0080?-0150?)"@fr,
+        "Favorino di Arelate (0080?-0150?)"@fr,
+        "Favorinos d'Arles (0080?-0150?)"@fr,
+        "Favorinus (0080?-0150?)"@fr,
+        "Favorînos (0080?-0150?)"@fr,
+        "Φαβορῖνος (0080?-0150?)"@fr,
+        "Favorinus Arelatensis (0080?-0150?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118686267>,
+        <http://id.loc.gov/authorities/no98002268> ;
+    skos:editorialNote "Dict. des auteurs grecs et latins de l'Antiquité et du Moyen âge. - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Über das Alter : eine historisch-kritische Analyse der Schriften \"Über das Alter/perì gī́rōs von Musonius, Favorinus und Iuncus / Marcus Sigismund, 2003. - . - Dict. des philosophes antiques / dir. Richard Goulet, 1989-. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Favorinus_d%27Arles>,
+        <http://fr.wikipedia.org/wiki/Favorinus_d%27Arles>,
+        <http://isni.org/isni/000000010899831X>,
+        <http://viaf.org/viaf/50019529/>,
+        <http://wikidata.org/entity/Q554387>,
+        <http://www.idref.fr/093673191> ;
+    skos:note "Philosophe"@fr ;
+    skos:prefLabel "Favorinus d'Arles (0080?-0150?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb14633311k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14633311k#about> a foaf:Person ;
+    bnf-onto:firstYear 80 ;
+    bnf-onto:lastYear 150 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe" ;
+    rdaa:P50119 "Arles" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0150/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0080/> ;
+    rdagroup2elements:biographicalInformation "Philosophe" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0080/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0150/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Arles" ;
+    bio:birth "80" ;
+    bio:death "150" ;
+    = <http://fr.dbpedia.org/resource/Favorinus_d%27Arles>,
+        <http://viaf.org/viaf/50019529>,
+        <http://www.idref.fr/093673191/id>,
+        <https://data.bnf.fr/ark:/12148/cb14633311k#foaf:Person> ;
+    foaf:familyName "Favorinus d'Arles" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb14633311k> .
+

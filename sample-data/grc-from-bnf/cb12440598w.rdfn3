@@ -1,0 +1,89 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12440598wstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12440598w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15546263f#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12440598w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30492879w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12440598w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12440598w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12440598w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31471065g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12440598w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12440598w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12440598w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44394767k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12440598w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12440598w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12440598w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45454918d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12440598w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12440598w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12440598w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12440598w> a skos:Concept ;
+    bnf-onto:FRBNF 12440598 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-08"^^xsd:date ;
+    isni:identifierValid "0000000396861384" ;
+    dcterms:created "1995-01-13" ;
+    dcterms:modified "2016-11-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Tim%C3%A9e_de_Taurom%C3%A9nion>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12440598w> ;
+    skos:altLabel "Tímaios (0356?-0260? av. J.-C.)",
+        "Τίμαιος (0356?-0260? av. J.-C.)",
+        "Timée de Taormine (0356?-0260? av. J.-C.)"@fr,
+        "Timée de Tauroménion (0356?-0260? av. J.-C.)"@fr,
+        "Timeo di Tauromenio (0356?-0260? av. J.-C.)"@it,
+        "Timaeus (0356?-0260? av. J.-C.)"@la,
+        "Timaeus Tauromenitanus (0356?-0260? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118802275>,
+        <http://datos.bne.es/resource/XX5362194>,
+        <http://id.loc.gov/authorities/n84058439>,
+        <https://www.idref.fr/066912695> ;
+    skos:editorialNote "DOC / V. Volpi, 1994 : Timaeus Tauromenitanus. - . - Kleine Pauly : forme grecque retenue. - . - Encicl. italiana. - . -"@fr,
+        "De situ et origine Syracusarum / ad explicandam Thucydidis potissimum historiam, scripsit ; atque Philisti et Timaei Rerum sicularum fragmenta ; adjecit Franciscus Göller, 1818. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Tim%C3%A9e_de_Taurom%C3%A9nion>,
+        <http://fr.wikipedia.org/wiki/Tim%C3%A9e_de_Taurom%C3%A9nion>,
+        <http://isni.org/isni/0000000396861384>,
+        <http://viaf.org/viaf/291870274/>,
+        <http://wikidata.org/entity/Q367298>,
+        <http://www.idref.fr/066912695/id> ;
+    skos:note "Historien"@fr ;
+    skos:prefLabel "Timée (0356?-0260? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12440598w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12440598w#about> a foaf:Person ;
+    bnf-onto:firstYear -356 ;
+    bnf-onto:lastYear -260 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0260/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0356/> ;
+    rdagroup2elements:biographicalInformation "Historien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0356/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0260/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 356" ;
+    bio:death "- 260" ;
+    = <http://fr.dbpedia.org/resource/Tim%C3%A9e_de_Taurom%C3%A9nion>,
+        <http://viaf.org/viaf/291870274>,
+        <http://www.idref.fr/066912695/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12440598w#foaf:Person> ;
+    foaf:familyName "Timée" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12440598w> .
+

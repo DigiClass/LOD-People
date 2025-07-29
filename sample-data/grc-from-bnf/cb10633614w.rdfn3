@@ -1,0 +1,98 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb31108934d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10633614w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10633614w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10633614w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb394578080#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb10633614w#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb10633614w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10633614w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42426266s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10633614w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10633614w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10633614w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10633614w> a skos:Concept ;
+    bnf-onto:FRBNF 10633614 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-08"^^xsd:date ;
+    isni:identifierValid "000000011833690X" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Pierre_d%27Alexandrie>,
+        <https://catalogue.bnf.fr/ark:/12148/cb10633614w> ;
+    skos:altLabel "Pétros 1 (patriarche d'Alexandrie, 02..-0311)",
+        "Pétros A ́ (patriarche d'Alexandrie, 02..-0311)",
+        "Πέτρος 1 (patriarche d'Alexandrie, 02..-0311)",
+        "Πέτρος Α´ (patriarche d'Alexandrie, 02..-0311)",
+        "Petrus von Alexandrina (saint, 02..-0311)"@de,
+        "Peter of Alexandria (saint, 02..-0311)"@en,
+        "Pierre 1 (patriarche d'Alexandrie, 02..-0311)"@fr,
+        "Pierre Ier (patriarche d'Alexandrie, 02..-0311)"@fr,
+        "Pierre d' Alexandrie (saint, 02..-0311)"@fr,
+        "Pétros ho  ̓Alexandreías (saint, 02..-0311)"@fr,
+        "Pétros ho ̓Alexandreías (saint, 02..-0311)"@fr,
+        "Pétros o Alexandreías (saint, 02..-0311)"@fr,
+        "Πέτρος ο Αλεξανδρείας (saint, 02..-0311)"@fr,
+        "Πέτρος ὁ Ἀλεξανδρείας (saint, 02..-0311)"@fr,
+        "Pietro di Alessandria (saint, 02..-0311)"@it,
+        "Petrus 1 (patriarche d'Alexandrie, 02..-0311)"@la,
+        "Petrus Alexandrinus (saint, 02..-0311)"@la,
+        "Petrus I (patriarche d'Alexandrie, 02..-0311)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118875329>,
+        <http://id.loc.gov/authorities/n87843630> ;
+    skos:editorialNote "BBK : Petrus von Alexandria. - . - Encycl. Grèce : Pétros A ́ ho mártys, patriárchīs  ̓Alexandreías. - . - Encycl. Pápyros : Pétros o A ,́ archiepískopos/patriárchīs Alexandreías. - . -"@fr,
+        "BN Cat. gén. : Pierre Ier d'Alexandrie. - . - BnF Service grec, 2008-07-31. - . -"@fr,
+        "Bibliothèque nationale, Grèce : Pétros o Alexandreías. - http://www.nlg.gr. - 2008-07-30 Bibliothèque de l'Université de Chypre : Pétros Alexandreías. - http://www.ucy.ac.cy. - 2008-07-30 Marietti : Pietro I di Alessandria. - . -"@fr,
+        "De poenitentia Petri, archiepiscopi Alexandrini et martyris, Canones, 1518. - . - Two Coptic homilies attributed to saint Peter of Alexandria : On riches, On the epiphany / [ed. and translated by] Birger Pearson and Tim Vivian with the assistance of Donald B. Spanel, 1993. - . -"@fr,
+        "Larousse 20e s. : Pierre (saint), patriarche d'Alexandrie et martyr. - . - DOC : Petrus Alexandrinus ; Pétros A ́, patriárchīs  ̓Alexandreías ; Pietro di Alessandria <1>. - . - Kleine Pauly : Petros. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Pierre_d%27Alexandrie>,
+        <http://fr.wikipedia.org/wiki/Pierre_d%27Alexandrie>,
+        <http://isni.org/isni/000000011833690X>,
+        <http://viaf.org/viaf/26126432/>,
+        <http://wikidata.org/entity/Q365927>,
+        <http://www.idref.fr/132393697> ;
+    skos:note "Père de l'Église et martyr. - Directeur de l'école de théologie d'Alexandrie, puis patriarche de cette ville (élu en 300). - Décapité en 311 sous la persécution de l'empereur Dioclétien"@fr,
+        "Écrivit aussi (peut-être) en copte (et en syriaque?)"@fr ;
+    skos:prefLabel "Pierre d'Alexandrie (saint, 02..-0311)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10633614w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10633614w#about> a foaf:Person ;
+    bnf-onto:lastYear 311 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Père de l'Église et martyr. - Directeur de l'école de théologie d'Alexandrie, puis patriarche de cette ville (élu en 300). - Décapité en 311 sous la persécution de l'empereur Dioclétien",
+        "Écrivit aussi (peut-être) en copte (et en syriaque?)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0311/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Père de l'Église et martyr. - Directeur de l'école de théologie d'Alexandrie, puis patriarche de cette ville (élu en 300). - Décapité en 311 sous la persécution de l'empereur Dioclétien",
+        "Écrivit aussi (peut-être) en copte (et en syriaque?)" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0311/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "311" ;
+    = <http://fr.dbpedia.org/resource/Pierre_d%27Alexandrie>,
+        <http://viaf.org/viaf/26126432>,
+        <http://www.idref.fr/132393697/id>,
+        <https://data.bnf.fr/ark:/12148/cb10633614w#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Pope%2520Peter%2520of%2520Alexandria.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bd6t5751981t/f3.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k87178757/f10.item.thumbnail> ;
+    foaf:familyName "Pierre d'Alexandrie" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10633614w> .
+

@@ -1,0 +1,65 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb15538605nstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb15538605n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15538605n> a skos:Concept ;
+    bnf-onto:FRBNF 15538605 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-02-20"^^xsd:date ;
+    isni:identifierValid "0000000453275438" ;
+    dcterms:created "2007-06-08" ;
+    dcterms:modified "2019-02-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb15538605n> ;
+    skos:altLabel "Theofánīs ho Graptós (saint, 0775?-0845?)"@fr,
+        "Theophánës ho Graptós (saint, 0775-0845?)"@fr,
+        "Θεοφάνης ὁ  Γραπτός (saint, 0775?-0845?)"@fr,
+        "Theophanes Graptos (saint, 0775?-0845?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100962629>,
+        <http://id.loc.gov/authorities/no2002041441> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - LC Authorities. - http://authorities.loc.gov/. - 2007-06-08 WBI : Theophanes Graptos : dates : 778-845. - . -"@fr,
+        "Jerusalem - Konstantinopel - Rom : die Viten des Michael Synkellos und der Brüder Theodoros und Theophanes Graptoi / Claudia Sode, 2001. - . - Dix mille saints : Théodore et Théophane. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000453275438>,
+        <http://viaf.org/viaf/134446586/>,
+        <http://wikidata.org/entity/Q7782265> ;
+    skos:note "Saint orthodoxe. Frère de Théodore Graptos"@fr ;
+    skos:prefLabel "Théophane Graptos (saint, 0775?-0845?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb15538605n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15538605n#about> a foaf:Person ;
+    bnf-onto:firstYear 775 ;
+    bnf-onto:lastYear 845 ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Saint orthodoxe. Frère de Théodore Graptos" ;
+    rdaa:P50118 "Nicée (?)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0845/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0775/> ;
+    rdagroup2elements:biographicalInformation "Saint orthodoxe. Frère de Théodore Graptos" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0775/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0845/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfDeath "Nicée (?)" ;
+    bio:birth "775" ;
+    bio:death "845" ;
+    = <http://viaf.org/viaf/134446586>,
+        <https://data.bnf.fr/ark:/12148/cb15538605n#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/TheophanesG.jpg> ;
+    foaf:familyName "Théophane Graptos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb15538605n> .
+

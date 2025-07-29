@@ -1,0 +1,81 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30023770m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105632116#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30023771z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105632116#about> .
+
+<https://data.bnf.fr/ark:/12148/cb300237729#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105632116#about> .
+
+<https://data.bnf.fr/ark:/12148/cb317258414#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105632116#about> .
+
+<https://data.bnf.fr/ark:/12148/cb427580734#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb105632116#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb105632116#about> .
+
+<https://data.bnf.fr/ark:/12148/cb105632116> a skos:Concept ;
+    bnf-onto:FRBNF 10563211 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000430753935" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Apollonios_le_Sophiste>,
+        <https://catalogue.bnf.fr/ark:/12148/cb105632116> ;
+    skos:altLabel "Apollonio Sofista"@fr,
+        "A̓pollṓnios sofistí̄s"@fr,
+        "Ἀπολλώνιος σοφιστής"@fr,
+        "Apollonius Sophista"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118649841>,
+        <http://datos.bne.es/resource/XX1194353>,
+        <https://www.idref.fr/139887253> ;
+    skos:editorialNote "Apollonii sophistae Lexicon homericum ; ex recensione Immanuelis Bekkeri, 1833. - . - Larousse, 19e s.. - . -"@fr,
+        "DOC / V. Volpi, 1994 : Apollonius (sofista). - . - Encicl. italiana. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Apollonios_le_Sophiste>,
+        <http://fr.wikipedia.org/wiki/Apollonios_le_Sophiste>,
+        <http://isni.org/isni/0000000430753935>,
+        <http://viaf.org/viaf/262677656/>,
+        <http://wikidata.org/entity/Q2696542> ;
+    skos:note "Grammairien. - A enseigné à Rome à la fin du Ier siècle ap. J.-C."@fr ;
+    skos:prefLabel "Apollonius le Sophiste"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb105632116#about> .
+
+<https://data.bnf.fr/ark:/12148/cb105632116#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Grammairien. - A enseigné à Rome à la fin du Ier siècle ap. J.-C." ;
+    rdaa:P50119 "Alexandrie, Égypte" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Grammairien. - A enseigné à Rome à la fin du Ier siècle ap. J.-C." ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Alexandrie, Égypte" ;
+    bio:birth "00.." ;
+    bio:death "01.." ;
+    = <http://fr.dbpedia.org/resource/Apollonios_le_Sophiste>,
+        <http://viaf.org/viaf/262677656>,
+        <https://data.bnf.fr/ark:/12148/cb105632116#foaf:Person> ;
+    foaf:familyName "Apollonius le Sophiste" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb105632116> .
+

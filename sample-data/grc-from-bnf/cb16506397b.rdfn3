@@ -1,0 +1,62 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb39134589b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16506397b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16506397b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16506397b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16506397b> a skos:Concept ;
+    bnf-onto:FRBNF 16506397 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "0000000358970125" ;
+    dcterms:created "2011-05-03" ;
+    dcterms:modified "2016-02-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16506397b> ;
+    skos:altLabel "03..-03..? av. J.-C. Craterus of Macedon"@en,
+        "Kraterós ho Makedó̄n (03..-03..? av. J.-C.)"@fr,
+        "Κρατερός ὁ Μακεδών (03..-03..? av. J.-C.)"@fr,
+        "Cratero il Macedone (03..-03..? av. J.-C.)"@it ;
+    skos:closeMatch <http://d-nb.info/gnd/102385866>,
+        <http://id.loc.gov/authorities/n2004041551>,
+        <https://www.idref.fr/073956872> ;
+    skos:editorialNote "Cratero il Macedone : testimonianze e frammenti / a cura di Donatella Erdas, 2002. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000358970125>,
+        <http://viaf.org/viaf/171387465/>,
+        <http://wikidata.org/entity/Q1407696> ;
+    skos:note "Compilateur"@fr ;
+    skos:prefLabel "Craterus Macedo (03..-03..? av. J.-C.)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16506397b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16506397b#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Compilateur" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:biographicalInformation "Compilateur" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 03.." ;
+    bio:death "- 03.." ;
+    = <http://viaf.org/viaf/171387465>,
+        <https://data.bnf.fr/ark:/12148/cb16506397b#foaf:Person> ;
+    foaf:familyName "Craterus Macedo" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16506397b> .
+

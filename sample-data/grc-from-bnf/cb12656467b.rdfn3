@@ -1,0 +1,59 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16709984q#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12656467b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16710628f#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12656467b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34749079d#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb12656467b#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb12656467b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12656467b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12656467b> a skos:Concept ;
+    bnf-onto:FRBNF 12656467 ;
+    dcterms:created "1987-03-14" ;
+    dcterms:modified "2011-02-21" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12656467b> ;
+    skos:altLabel "Basileios von Ankyra (03..?-0363?)"@de,
+        "Basilius von Ankyra (03..?-0363?)"@de,
+        "Basíleios A̓gkýras (03..?-0363?)"@fr,
+        "Vasíleios A̓gkýras (03..?-0363?)"@fr,
+        "Βασίλειος Ἀγκύρας (03..?-0363?)"@fr,
+        "Basilius  Ancyranus (03..?-0363?)"@la ;
+    skos:editorialNote "DHGE : Basile (42), évêque d'Ancyre. - . - DOC / V. Volpi, 1994 : Basilius Ancyranus. - . - Biographisch-Bibliographisches Kirchenlexikon : Basilius von Ankyra. - http://www.bautz.de/bbkl/. - 2010-10-06"@fr,
+        "De la véritable intégrité dans la virginité / Basile d'Ancyre, 1981. - . - DTC : Basile d'Ancyre. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/168763694/> ;
+    skos:note "Évêque d'Ancyre, métropole de Galicie, de 336 à 344, puis après 350. Mort après 363"@fr ;
+    skos:prefLabel "Basile d'Ancyre (03..?-0363?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12656467b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12656467b#about> a foaf:Person ;
+    bnf-onto:lastYear 363 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Évêque d'Ancyre, métropole de Galicie, de 336 à 344, puis après 350. Mort après 363" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0363/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Évêque d'Ancyre, métropole de Galicie, de 336 à 344, puis après 350. Mort après 363" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0363/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "03.." ;
+    bio:death "363" ;
+    = <http://viaf.org/viaf/168763694>,
+        <https://data.bnf.fr/ark:/12148/cb12656467b#foaf:Person> ;
+    foaf:familyName "Basile d'Ancyre" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12656467b> .
+

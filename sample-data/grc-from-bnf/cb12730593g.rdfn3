@@ -1,0 +1,87 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12730593gstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12730593g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31451924z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12730593g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12730593g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12730593g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31451926n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12730593g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12730593g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12730593g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31451928b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12730593g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12730593g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12730593g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb420838606#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12730593g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12730593g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12730593g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12730593g> a skos:Concept ;
+    bnf-onto:FRBNF 12730593 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000386993869" ;
+    dcterms:created "1989-06-14" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12730593g> ;
+    skos:altLabel "Theofánīs ho Nikaías (13..-1382)"@fr,
+        "Theophanes (13..-1382)"@fr,
+        "Theophanes Nicaenus 3 (archiepiscopus, 13..-1382)"@fr,
+        "Theophanes Nicaenus III (archiepiscopus, 13..-1382)"@fr,
+        "Theophanes of Nicaea (13..-1382)"@fr,
+        "Theophánēs ho Nikaías (13..-1382)"@fr,
+        "Théophane (13..-1382)"@fr,
+        "Théophane (archevêque de Nicée, 13..-1382)"@fr,
+        "Théophane 3 (archevêque de Nicée, 13..-1382)"@fr,
+        "Théophane III (archevêque de Nicée, 13..-1382)"@fr,
+        "Θεοφάνης ὁ Νικαίας (13..-1382)"@fr,
+        "Theophanes Nicaenus (13..-1382)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119384507>,
+        <http://datos.bne.es/resource/XX1388925>,
+        <http://id.loc.gov/authorities/no94021608> ;
+    skos:editorialNote "Chevalier : Théophane, archevêque de Nicée. - . - Clavis SGL : Theophanes Nicaenus III archiepiscopus. - . - Dizionario dellle opere classiche / Vittorio Volpi, 1994 : Theophanes Nicaenus. - . -"@fr,
+        "Encycl. Grèce. - . - BN Cat. gén. : Théophane de Nicée. - . -"@fr,
+        "Vie / [par Théophane] et Office de Michel le Maléinote. (Suivis du) Traité ascétique de Basile le Maléinote / texte grec publ. par Louis Petit, 1903. - . - Theophanis, archiepiscopi Nicaeni, quae extant opera / nunc primum, ex Bibliotheca Vaticana, graece et latine edita, D. Consalvo Ponce de Leon interprete, 1590. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000386993869>,
+        <http://viaf.org/viaf/279870572/>,
+        <http://wikidata.org/entity/Q16327569>,
+        <http://www.idref.fr/073270024> ;
+    skos:note "Archevêque de Nicée (1370-). - Théologien, prédicateur et hagiographe. - Saint"@fr ;
+    skos:prefLabel "Théophane de Nicée (13..-1382)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12730593g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12730593g#about> a foaf:Person ;
+    bnf-onto:lastYear 1382 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Archevêque de Nicée (1370-). - Théologien, prédicateur et hagiographe. - Saint" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1382/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:biographicalInformation "Archevêque de Nicée (1370-). - Théologien, prédicateur et hagiographe. - Saint" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1382/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "13.." ;
+    bio:death "1382" ;
+    = <http://viaf.org/viaf/279870572>,
+        <http://www.idref.fr/073270024/id>,
+        <https://data.bnf.fr/ark:/12148/cb12730593g#foaf:Person> ;
+    foaf:familyName "Théophane de Nicée" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12730593g> .
+

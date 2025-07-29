@@ -1,0 +1,55 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb177212089#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb17721203k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45457862b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17721203k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17721203k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17721203k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17721203k> a skos:Concept ;
+    bnf-onto:FRBNF 17721203 ;
+    dcterms:created "2018-03-14" ;
+    dcterms:modified "2018-03-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17721203k> ;
+    skos:altLabel "Eu̓stathios (rhéteur, 03..-03..)"@fr,
+        "Εὐστάθιος (rhéteur, 03..-03..)"@fr ;
+    skos:editorialNote "Explication des \"États de cause\" d'Hermogène / Eustathe, 2018. - . - Dictionnaire des philosophes antiques / publié sous la direction de Richard Goulet, 2005 (sous : Eustathe de Cappadoce) : \"un rhéteur Eustathe\". - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/10152329132402670884/>,
+        <http://www.idref.fr/225722488/id> ;
+    skos:note "Rhéteur, commentateur d'Hermogène"@fr ;
+    skos:prefLabel "Eustathe (rhéteur, 03..-03..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17721203k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17721203k#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Rhéteur, commentateur d'Hermogène" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0301-0400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Rhéteur, commentateur d'Hermogène" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "03.." ;
+    bio:death "03.." ;
+    = <http://viaf.org/viaf/10152329132402670884>,
+        <http://www.idref.fr/225722488/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb17721203k#foaf:Person> ;
+    foaf:familyName "Eustathe" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17721203k> .
+

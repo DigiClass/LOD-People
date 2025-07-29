@@ -1,0 +1,78 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb155538538studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb155538538#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41858359f#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb155538538#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb155538538#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb155538538#about> .
+
+<https://data.bnf.fr/ark:/12148/cb155538538> a skos:Concept ;
+    bnf-onto:FRBNF 15553853 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "0000000085655460" ;
+    dcterms:created "2007-08-03" ;
+    dcterms:modified "2017-02-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Timol%C3%A9on>,
+        <https://catalogue.bnf.fr/ark:/12148/cb155538538> ;
+    skos:altLabel "Timoléōn (0411?-0337 av. J.C.)"@fr,
+        "Τιμολέων (0411?-0337 av. J.-C.)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/118802283>,
+        <http://datos.bne.es/resource/XX1449546>,
+        <http://id.loc.gov/authorities/n83177745> ;
+    skos:editorialNote "Timoleon und die Neugründung von Syrakus / Bernhard Smarczyk, 2003. - . - LCNA (en ligne), 2007-08-03 : Timoleon, ca. 411-337 B.C.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Timol%C3%A9on>,
+        <http://fr.wikipedia.org/wiki/Timol%C3%A9on>,
+        <http://isni.org/isni/0000000085655460>,
+        <http://viaf.org/viaf/89497956/>,
+        <http://wikidata.org/entity/Q451587>,
+        <http://www.idref.fr/076138828> ;
+    skos:note "Envoyé en 345 av. J.-C. avec une troupe de mercenaires à Syracuse. Il est vainqueur d'Hikétas et de ses alliés puniques, et chasse son rival Denys le Jeune ; puis il crée une oligarchie modérée, et contraint la plupart des tyrans des autres cités grecques de Sicile occidentale à céder le pouvoir au profit de régimes oligarchiques. Mais son œuvre la plus durable est la recolonisation de la Sicile par des citoyens de Corinthe et de toute la Grèce"@fr ;
+    skos:prefLabel "Timoléon (0411?-0337 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb155538538#about> .
+
+<https://data.bnf.fr/ark:/12148/cb155538538#about> a foaf:Person ;
+    bnf-onto:firstYear -411 ;
+    bnf-onto:lastYear -337 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Envoyé en 345 av. J.-C. avec une troupe de mercenaires à Syracuse. Il est vainqueur d'Hikétas et de ses alliés puniques, et chasse son rival Denys le Jeune ; puis il crée une oligarchie modérée, et contraint la plupart des tyrans des autres cités grecques de Sicile occidentale à céder le pouvoir au profit de régimes oligarchiques. Mais son œuvre la plus durable est la recolonisation de la Sicile par des citoyens de Corinthe et de toute la Grèce" ;
+    rdaa:P50119 "Corinthe" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0337/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0411/> ;
+    rdagroup2elements:biographicalInformation "Envoyé en 345 av. J.-C. avec une troupe de mercenaires à Syracuse. Il est vainqueur d'Hikétas et de ses alliés puniques, et chasse son rival Denys le Jeune ; puis il crée une oligarchie modérée, et contraint la plupart des tyrans des autres cités grecques de Sicile occidentale à céder le pouvoir au profit de régimes oligarchiques. Mais son œuvre la plus durable est la recolonisation de la Sicile par des citoyens de Corinthe et de toute la Grèce" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0411/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0337/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Corinthe" ;
+    bio:birth "- 411" ;
+    bio:death "- 337" ;
+    = <http://fr.dbpedia.org/resource/Timol%C3%A9on>,
+        <http://viaf.org/viaf/89497956>,
+        <http://www.idref.fr/076138828/id>,
+        <https://data.bnf.fr/ark:/12148/cb155538538#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Timoleon%2520in%2520Syracuse%252C%2520344%2520BC%252C%2520publ.%25201882.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b103344545.thumbnail> ;
+    foaf:familyName "Timoléon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb155538538> .
+

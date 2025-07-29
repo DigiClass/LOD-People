@@ -1,0 +1,72 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb123482008studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb123482008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35641416n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123482008#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123482008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123482008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37397872g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123482008#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123482008#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123482008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123482008> a skos:Concept ;
+    bnf-onto:FRBNF 12348200 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000358426330" ;
+    dcterms:created "1993-11-16" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Hi%C3%A9ronymos_de_Rhodes>,
+        <https://catalogue.bnf.fr/ark:/12148/cb123482008> ;
+    skos:altLabel "Hieronymos von Rhodos (0290?-0230? av. J.-C.)"@de,
+        "Hieronymus Rhodius (0290?-0230? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118704680>,
+        <http://id.loc.gov/authorities/n2004094776>,
+        <https://www.idref.fr/032455631> ;
+    skos:editorialNote "Hieronymos von Rhodos, Kritolaos und seine Schüler : Texte und Kommentar / hrsg. von Fritz Wehrli, 1969. - . - Larousse 19 s.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Hi%C3%A9ronymos_de_Rhodes>,
+        <http://fr.wikipedia.org/wiki/Hi%C3%A9ronymos_de_Rhodes>,
+        <http://isni.org/isni/0000000358426330>,
+        <http://viaf.org/viaf/20210111/>,
+        <http://wikidata.org/entity/Q1036270>,
+        <http://www.idref.fr/032455631/id> ;
+    skos:note "Philosophe péripatéticien"@fr ;
+    skos:prefLabel "Hiéronyme de Rhodes (0290?-0230? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb123482008#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123482008#about> a foaf:Person ;
+    bnf-onto:firstYear -290 ;
+    bnf-onto:lastYear -230 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe péripatéticien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0230/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0290/> ;
+    rdagroup2elements:biographicalInformation "Philosophe péripatéticien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0290/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0230/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 290" ;
+    bio:death "- 230" ;
+    = <http://fr.dbpedia.org/resource/Hi%C3%A9ronymos_de_Rhodes>,
+        <http://viaf.org/viaf/20210111>,
+        <http://www.idref.fr/032455631/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb123482008#foaf:Person> ;
+    foaf:familyName "Hiéronyme de Rhodes" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb123482008> .
+

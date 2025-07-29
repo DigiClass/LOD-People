@@ -1,0 +1,108 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb123505382studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb123505382#about> .
+
+<https://data.bnf.fr/ark:/12148/cb150349765#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb123505382#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31033416b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123505382#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123505382#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123505382#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32495593m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123505382#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123505382#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123505382#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32495594z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123505382#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123505382#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123505382#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35191077x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123505382#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123505382#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123505382#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123505382> a skos:Concept ;
+    bnf-onto:FRBNF 12350538 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-26"^^xsd:date ;
+    isni:identifierValid "000000007818439X" ;
+    dcterms:created "1993-11-24" ;
+    dcterms:modified "2018-03-12" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Mikl%C3%B3s_Ol%C3%A1h>,
+        <https://catalogue.bnf.fr/ark:/12148/cb123505382> ;
+    skos:altLabel "Nicolas Oláh (1493-1568)"@fr,
+        "Nicolaus Olahus (1493-1568)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/119003546>,
+        <http://datos.bne.es/resource/XX1384670>,
+        <http://id.loc.gov/authorities/n88049265> ;
+    skos:editorialNote "BN Cat. gén.. - . - BnF Service finno-ougrien, balte. - . -"@fr,
+        "Biogr. Hongrie, 1969 : décédé le 14 juin 1568. - . - Új magyar irodalmi lexikon, 1994 : décédé le 15 janvier 1568. - . - Új magyar életrajzi lexikon, 2002 : décédé le 14 janvier 1568. - . -"@fr,
+        "Hungaria. Athila / Nicolaus Olahus ; ediderunt Colomannus Eperjessy et Ladislaus Juhász, 1938. - . - Oláh Miklós hungariája : egy eddig ismeretlen kézirat és a magyar nyelvi adatok tanulságai / Fodor István, 1990. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Mikl%C3%B3s_Ol%C3%A1h>,
+        <http://fr.wikipedia.org/wiki/Mikl%C3%B3s_Ol%C3%A1h>,
+        <http://isni.org/isni/000000007818439X>,
+        <http://viaf.org/viaf/9923869/>,
+        <http://wikidata.org/entity/Q497524>,
+        <http://www.idref.fr/032484305> ;
+    skos:note "Humaniste érasmien. - Secrétaire du roi Louis II et de la reine Marie de Habsbourg (1426). - Séjour aux Pays Bas (1428-1542) au service de la reine Marie. - Chancellier de Ferdinand I et évêque de Zagreb (1543-1548). - Évêque d'Eger (1548-53), archevêque d'Esztergom (1553-1568). - A lancé la contre-réforme en Hongrie. - Inaugure le premier séminaire jésuite en Hongrie, à Nagyszombat (1566)"@fr ;
+    skos:prefLabel "Miklós Oláh (1493-1568)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb123505382#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123505382#about> a foaf:Person ;
+    bnf-onto:firstYear 1493 ;
+    bnf-onto:lastYear 1568 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/hu> ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        <http://dewey.info/class/320/>,
+        <http://dewey.info/class/800/>,
+        "Littératures",
+        "Religion",
+        "Science politique" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat> ;
+    rdaa:P50113 "Humaniste érasmien. - Secrétaire du roi Louis II et de la reine Marie de Habsbourg (1426). - Séjour aux Pays Bas (1428-1542) au service de la reine Marie. - Chancellier de Ferdinand I et évêque de Zagreb (1543-1548). - Évêque d'Eger (1548-53), archevêque d'Esztergom (1553-1568). - A lancé la contre-réforme en Hongrie. - Inaugure le premier séminaire jésuite en Hongrie, à Nagyszombat (1566)" ;
+    rdaa:P50118 "Nagyszombat  = Trnava (Haute Hongrie)" ;
+    rdaa:P50119 "Nagyszeben = Sibiu (Transylvanie)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1568/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1493/> ;
+    rdagroup2elements:biographicalInformation "Humaniste érasmien. - Secrétaire du roi Louis II et de la reine Marie de Habsbourg (1426). - Séjour aux Pays Bas (1428-1542) au service de la reine Marie. - Chancellier de Ferdinand I et évêque de Zagreb (1543-1548). - Évêque d'Eger (1548-53), archevêque d'Esztergom (1553-1568). - A lancé la contre-réforme en Hongrie. - Inaugure le premier séminaire jésuite en Hongrie, à Nagyszombat (1566)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/hu> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1493/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1568/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        <http://dewey.info/class/320/>,
+        <http://dewey.info/class/800/>,
+        "Littératures",
+        "Religion",
+        "Science politique" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat> ;
+    rdagroup2elements:placeOfBirth "Nagyszeben = Sibiu (Transylvanie)" ;
+    rdagroup2elements:placeOfDeath "Nagyszombat  = Trnava (Haute Hongrie)" ;
+    bio:birth "1493-01-10" ;
+    bio:death "1568-01-14" ;
+    = <http://fr.dbpedia.org/resource/Mikl%C3%B3s_Ol%C3%A1h>,
+        <http://viaf.org/viaf/9923869>,
+        <http://www.idref.fr/032484305/id>,
+        <https://data.bnf.fr/ark:/12148/cb123505382#foaf:Person> ;
+    foaf:birthday "01-10" ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Nicolaus%2520olahus.jpg> ;
+    foaf:familyName "Oláh" ;
+    foaf:gender "male" ;
+    foaf:givenName "Miklós" ;
+    foaf:name "Miklós Oláh" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb123505382> .
+

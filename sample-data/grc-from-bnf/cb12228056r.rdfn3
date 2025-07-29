@@ -1,0 +1,78 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12228056rstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12228056r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12231791q#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12228056r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35486317d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12228056r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12228056r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12228056r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12228056r> a skos:Concept ;
+    bnf-onto:FRBNF 12228056 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000078602168" ;
+    dcterms:created "1991-12-10" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Timon_de_Phlionte>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12228056r> ;
+    skos:altLabel "Timon de Phlionte (0320-0230 av. J.-C.)"@fr,
+        "Timon of Phlius (0320-0230 av. J.-C.)"@fr,
+        "Timone di Fliunte (0320-0230 av. J.-C.)"@fr,
+        "Tímōn ho Fliásios (0320-0230 av. J.-C.)"@fr,
+        "Τίμων ὁ Φλιάσιος (0320-0230 av. J.-C.)"@fr,
+        "Timon Phliasius (0320-0230 av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119013967>,
+        <http://datos.bne.es/resource/XX5559048>,
+        <http://id.loc.gov/authorities/n91032219>,
+        <https://www.idref.fr/082115990> ;
+    skos:editorialNote "Clavis scriptorum graecorum et latinorum : Timon Phliasius. - . - DOC / V. Volpi, 1994 Timon Phliasius. - . -"@fr,
+        "Silli / Timone di Fliunte ; trad. e commento a cura di M. Di Marco, 1989. - . - GDEL : Timon le Sillographe. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Timon_de_Phlionte>,
+        <http://fr.wikipedia.org/wiki/Timon_de_Phlionte>,
+        <http://isni.org/isni/0000000078602168>,
+        <http://viaf.org/viaf/14822991/>,
+        <http://wikidata.org/entity/Q280872>,
+        <http://www.idref.fr/082115990/id> ;
+    skos:note "Poète. - Philosophe, disciple de Pyrrhon. - Polémiste"@fr ;
+    skos:prefLabel "Timon le Sillographe (0320-0230 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12228056r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12228056r#about> a foaf:Person ;
+    bnf-onto:firstYear -320 ;
+    bnf-onto:lastYear -230 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète. - Philosophe, disciple de Pyrrhon. - Polémiste" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0230/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0320/> ;
+    rdagroup2elements:biographicalInformation "Poète. - Philosophe, disciple de Pyrrhon. - Polémiste" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0320/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0230/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 320" ;
+    bio:death "- 230" ;
+    = <http://fr.dbpedia.org/resource/Timon_de_Phlionte>,
+        <http://viaf.org/viaf/14822991>,
+        <http://www.idref.fr/082115990/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12228056r#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Timon%2520in%2520Thomas%2520Stanley%2520History%2520of%2520Philosophy.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k282105/f2.item.thumbnail> ;
+    foaf:familyName "Timon le Sillographe" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12228056r> .
+

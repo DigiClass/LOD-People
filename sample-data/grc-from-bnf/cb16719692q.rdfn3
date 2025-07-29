@@ -1,0 +1,64 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16719692qstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb16719692q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39006013d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16719692q#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16719692q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16719692q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16719692q> a skos:Concept ;
+    bnf-onto:FRBNF 16719692 ;
+    dcterms:created "2013-10-29" ;
+    dcterms:modified "2013-10-29" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Alexandre_d%27%C3%89tolie>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16719692q> ;
+    skos:altLabel "Alessandro Etolo (-0315?-02..?)"@fr,
+        "Alexander Aetolus (-0315?-02..?)"@fr,
+        "Alexandri Aetoli (-0315?-02..?)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/118647962>,
+        <http://id.loc.gov/authorities/n00036747> ;
+    skos:editorialNote "Testimonia et fragmenta / Alexandri Aetoli; introduzione, edizione critica, traduzione e commento a cura di Enrico Magnelli, 1999. - . - Oxford classical dictionary. - . - 2013-10-29"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Alexandre_d%27%C3%89tolie>,
+        <http://fr.wikipedia.org/wiki/Alexandre_d%27%C3%89tolie>,
+        <http://viaf.org/viaf/213854447/>,
+        <http://wikidata.org/entity/Q622261>,
+        <http://www.idref.fr/261807986> ;
+    skos:note "Poète. - Grammairien"@fr ;
+    skos:prefLabel "Alexander (-0315?-02..?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16719692q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16719692q#about> a foaf:Person ;
+    bnf-onto:firstYear -315 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète. - Grammairien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0315/> ;
+    rdagroup2elements:biographicalInformation "Poète. - Grammairien" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0315/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 315" ;
+    bio:death "- 02.." ;
+    = <http://fr.dbpedia.org/resource/Alexandre_d%27%C3%89tolie>,
+        <http://viaf.org/viaf/213854447>,
+        <http://www.idref.fr/261807986/id>,
+        <https://data.bnf.fr/ark:/12148/cb16719692q#foaf:Person> ;
+    foaf:familyName "Alexander" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16719692q> .
+

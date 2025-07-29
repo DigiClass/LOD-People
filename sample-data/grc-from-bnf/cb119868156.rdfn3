@@ -1,0 +1,65 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb34831068s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119868156#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119868156#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119868156#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34933426m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119868156#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119868156#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119868156#about> .
+
+<https://data.bnf.fr/ark:/12148/cb375245797#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb119868156#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb119868156#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119868156#about> .
+
+<https://data.bnf.fr/temp-work/63798f1686a06e3327d505b9dd6c84f2/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb119868156#about> .
+
+<https://data.bnf.fr/ark:/12148/cb119868156> a skos:Concept ;
+    bnf-onto:FRBNF 11986815 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-24"^^xsd:date ;
+    isni:identifierValid "0000000073590057" ;
+    dcterms:created "1985-10-01" ;
+    dcterms:modified "2022-08-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb119868156> ;
+    skos:altLabel "Tína I̓ōánnou"@fr,
+        "Τίνα Ἰωάννου"@fr ;
+    skos:editorialNote "La communauté grecque du Québec / Tina Ioannou, 1983. - . - LC Authorities. - http://authorities. - 2022-08-26"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000073590057>,
+        <http://viaf.org/viaf/17232041/>,
+        <http://www.idref.fr/027932176> ;
+    skos:note "Historienne. - Professeur à l'Université de Montréal"@fr ;
+    skos:prefLabel "Tina Ioannou"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb119868156#about> .
+
+<https://data.bnf.fr/ark:/12148/cb119868156#about> a foaf:Person ;
+    bnf-onto:firstYear 1956 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/xxc> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/fre>,
+        <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historienne. - Professeur à l'Université de Montréal" ;
+    rdagroup2elements:biographicalInformation "Historienne. - Professeur à l'Université de Montréal" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/xxc> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/fre>,
+        <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/17232041>,
+        <http://www.idref.fr/027932176/id>,
+        <https://data.bnf.fr/ark:/12148/cb119868156#foaf:Person> ;
+    foaf:familyName "Ioannou" ;
+    foaf:givenName "Tina" ;
+    foaf:name "Tina Ioannou" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb119868156> .
+

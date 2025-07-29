@@ -1,0 +1,82 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30186417g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14529023t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14529023t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14529023t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30186418t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14529023t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14529023t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14529023t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31899267r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14529023t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14529023t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14529023t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39138329w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb14529023t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb14529023t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb14529023t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14529023t> a skos:Concept ;
+    bnf-onto:FRBNF 14529023 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "0000000080435469" ;
+    dcterms:created "2004-03-03" ;
+    dcterms:modified "2015-03-12" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Manuel_Cal%C3%A9cas>,
+        <https://catalogue.bnf.fr/ark:/12148/cb14529023t> ;
+    skos:altLabel "Manuel Caleca (13..-1410)"@fr,
+        "Manuel Kalekas (13..-1410)"@fr,
+        "Manuele Caleca (13..-1410)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/10095281X>,
+        <http://datos.bne.es/resource/XX1221966> ;
+    skos:editorialNote "DTC. - . - PMA. - . -"@fr,
+        "Manuelis Calicae ordinis Fratrum praedicatorum, Constantinopolitani patriarchae opera omnia. Accedunt Joannis Cyparissiotae, Matthaei Cantacuzeni, scripta theologica et exegetica. Nec non Joannis Glycis... [et al.]  diplomata, synodicae constitutiones, epistolae ; accurante et denuo recognoscente J.-P. Migne, 2003. - . - GLU. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Manuel_Cal%C3%A9cas>,
+        <http://fr.wikipedia.org/wiki/Manuel_Cal%C3%A9cas>,
+        <http://isni.org/isni/0000000080435469>,
+        <http://viaf.org/viaf/121882476/>,
+        <http://wikidata.org/entity/Q10324035>,
+        <http://www.idref.fr/147951488> ;
+    skos:note "Grammairien, rhéteur et théologien byzantin. - Devenu moine dominicain après sa conversion au catholicisme"@fr ;
+    skos:prefLabel "Manuel Calécas (13..-1410)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb14529023t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb14529023t#about> a foaf:Person ;
+    bnf-onto:lastYear 1410 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Grammairien, rhéteur et théologien byzantin. - Devenu moine dominicain après sa conversion au catholicisme" ;
+    rdaa:P50118 "Mytilène" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1410/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:biographicalInformation "Grammairien, rhéteur et théologien byzantin. - Devenu moine dominicain après sa conversion au catholicisme" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1301-1400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1410/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfDeath "Mytilène" ;
+    bio:birth "13.." ;
+    bio:death "1410" ;
+    = <http://fr.dbpedia.org/resource/Manuel_Cal%C3%A9cas>,
+        <http://viaf.org/viaf/121882476>,
+        <http://www.idref.fr/147951488/id>,
+        <https://data.bnf.fr/ark:/12148/cb14529023t#foaf:Person> ;
+    foaf:familyName "Calécas" ;
+    foaf:gender "male" ;
+    foaf:givenName "Manuel" ;
+    foaf:name "Manuel Calécas" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb14529023t> .
+

@@ -1,0 +1,50 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12248514mstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12248514m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12248514m> a skos:Concept ;
+    bnf-onto:FRBNF 12248514 ;
+    dcterms:created "1992-05-18" ;
+    dcterms:modified "2022-11-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12248514m> ;
+    skos:altLabel "Mnēsiklê̄s (04..-04.. av. J.-C.)"@el,
+        "Mnesicle (04..-04.. av. J.-C.)"@fr,
+        "Mnesikles (04..-04.. av. J.-C.)"@fr,
+        "Mnīsiklî̄s (04..-04.. av. J.-C.)"@fr,
+        "Μνησικλῆς (04..-04.. av. J.-C.)"@fr ;
+    skos:editorialNote "The Propylaia of the Akropolis in Athens : the project of Mnesikles / by Jos de Waele, 1990. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://www.idref.fr/031229123/id> ;
+    skos:note "Architecte athénien, constructeur des Propylées de l'Acropole de 437 à 432"@fr ;
+    skos:prefLabel "Mnésiclès (04..-04.. av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12248514m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12248514m#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Architecte athénien, constructeur des Propylées de l'Acropole de 437 à 432" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Architecte athénien, constructeur des Propylées de l'Acropole de 437 à 432" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 04.." ;
+    = <http://www.idref.fr/031229123/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12248514m#foaf:Person> ;
+    foaf:familyName "Mnésiclès" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12248514m> .
+

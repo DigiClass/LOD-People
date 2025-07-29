@@ -1,0 +1,64 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb17962182vstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb17962182v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46624859k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17962182v#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17962182v#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17962182v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17962182v> a skos:Concept ;
+    bnf-onto:FRBNF 17962182 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-08-18"^^xsd:date ;
+    isni:identifierValid "0000000503360906" ;
+    dcterms:created "2021-08-13" ;
+    dcterms:modified "2023-12-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17962182v> ;
+    skos:altLabel "Astydamas le Jeune (0397?-0340? av. J.-C.)"@fr,
+        "̓Astydámas (0397?-0340? av. J.-C.)"@fr,
+        "Ἀστυδάμας (0397?-0340? av. J.-C.)"@fr,
+        "Astidamante (0397?-0340? av. J.-C.)"@it,
+        "Astidamante di Atene (0397?-0340? av. J.-C.)"@it,
+        "Astydamas Minor (0397?-0340? av. J.-C.)"@la ;
+    skos:editorialNote "Astidamante di Atene : testimonianze e frammenti / a cura di Valerio Pacelli, 2020. - . - Histoire de la littérature grecque d'Homère à Aristote : Astydamas. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000503360906>,
+        <http://viaf.org/viaf/31163156057701312511/>,
+        <http://www.idref.fr/257161732/id> ;
+    skos:note "Poète tragique grec. - Fils d'Astydamas l'Ancien"@fr ;
+    skos:prefLabel "Astydamas (0397?-0340? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17962182v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17962182v#about> a foaf:Person ;
+    bnf-onto:firstYear -397 ;
+    bnf-onto:lastYear -340 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète tragique grec. - Fils d'Astydamas l'Ancien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0340/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0397/> ;
+    rdagroup2elements:biographicalInformation "Poète tragique grec. - Fils d'Astydamas l'Ancien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0397/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0340/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 397" ;
+    bio:death "- 340" ;
+    = <http://viaf.org/viaf/31163156057701312511>,
+        <http://www.idref.fr/257161732/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb17962182v#foaf:Person> ;
+    foaf:familyName "Astydamas" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17962182v> .
+

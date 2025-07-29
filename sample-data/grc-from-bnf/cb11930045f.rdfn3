@@ -1,0 +1,98 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb11930045fstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb11930045f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31673181t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930045f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb316731825#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930045f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb348024613#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930045f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb393186169#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930045f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb47559139t#Expression> bnfroles:r73 <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    marcrel:dub <https://data.bnf.fr/ark:/12148/cb11930045f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11930045f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11930045f> a skos:Concept ;
+    bnf-onto:FRBNF 11930045 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "000000006962404X" ;
+    dcterms:created "1985-06-22" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/X%C3%A9nocrate>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11930045f> ;
+    skos:altLabel "Xenokrates (0406?-0314? av. J.-C.)"@de,
+        "Xenokrátēs ho Chalkēdónios (0406?-0314? av. J.-C.)"@fr,
+        "Xenokrátīs ho Chalkīdónios (0406?-0314? av. J.-C.)"@fr,
+        "Xénocrate (0406?-0314? av. J.-C.)"@fr,
+        "Ξενοκράτης ὁ Χαλκηδόνιος (0406?-0314? av. J.-C.)"@fr,
+        "Senocrate (0406?-0314? av. J.-C.)"@it,
+        "Xenocrates (0406?-0314? av. J.-C.)"@la,
+        "Xenocrates Chalcedonius (0406?-0314? av. J.-C.)"@la,
+        "Xenokratis (0406?-0314? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118808087>,
+        <http://datos.bne.es/resource/XX4971741>,
+        <http://id.loc.gov/authorities/n83319392>,
+        <https://www.idref.fr/027208451> ;
+    skos:editorialNote "Buchwald. - . - Les oeuvres philosophiques. III ; dictionnaire, t. I : Xénocrate. - . -"@fr,
+        "De morte / Xenocrates, 1515. - . - Frammenti / Senocrate, Ermodoro ; ed., trad. e commento a cura di Margherita Isnardi Parente, 1982. - . - Darstellung der Lehre und Sammlung der Fragmente / Xenokrates, 1892. - . -"@fr,
+        "Dict. des philosophes : Xénocrate. - . - Clavis SGL : Xenocrates Chalcedonius. - . - Encycl. Grèce : né en 394. - . -"@fr,
+        "Encycl. Papyros : né en 396/5. - . - BN Cat. gén.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/X%C3%A9nocrate>,
+        <http://fr.wikipedia.org/wiki/X%C3%A9nocrate>,
+        <http://isni.org/isni/000000006962404X>,
+        <http://viaf.org/viaf/265542383/>,
+        <http://wikidata.org/entity/Q214121>,
+        <http://www.idref.fr/027208451/id> ;
+    skos:note "Troisième scholarque de l'Académie platonicienne (339-314 av. J.-C.). - Influencé par les pythagoriciens"@fr ;
+    skos:prefLabel "Xénocrate de Chalcédoine (0406?-0314? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11930045f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11930045f#about> a foaf:Person ;
+    bnf-onto:firstYear -406 ;
+    bnf-onto:lastYear -314 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Troisième scholarque de l'Académie platonicienne (339-314 av. J.-C.). - Influencé par les pythagoriciens" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0314/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0406/> ;
+    rdagroup2elements:biographicalInformation "Troisième scholarque de l'Académie platonicienne (339-314 av. J.-C.). - Influencé par les pythagoriciens" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0406/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0314/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 406" ;
+    bio:death "- 314" ;
+    = <http://fr.dbpedia.org/resource/X%C3%A9nocrate>,
+        <http://viaf.org/viaf/265542383>,
+        <http://www.idref.fr/027208451/id/id>,
+        <https://bp16.bnf.fr/ark:/12148/cb11930045f>,
+        <https://data.bnf.fr/ark:/12148/cb11930045f#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Xenocrates.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10548948p.thumbnail> ;
+    foaf:familyName "Xénocrate de Chalcédoine" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11930045f> .
+

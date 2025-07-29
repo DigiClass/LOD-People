@@ -1,0 +1,88 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12021417xstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12021417x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb122639158#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12021417x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30623761p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12021417x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30923874t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12021417x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33403046h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12021417x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb354606626#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12021417x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42302444g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12021417x#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12021417x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12021417x> a skos:Concept ;
+    bnf-onto:FRBNF 12021417 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-08"^^xsd:date ;
+    isni:identifierValid "0000000444702709" ;
+    dcterms:created "1987-03-15" ;
+    dcterms:modified "2016-11-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Agatharchide>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12021417x> ;
+    skos:altLabel "Agatharkhides",
+        "Agatharchide von Knidos"@de,
+        "Agatharchides of Cnidus"@en,
+        "Agatharchides Cnidius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118643975>,
+        <http://datos.bne.es/resource/XX4771254>,
+        <http://id.loc.gov/authorities/n80138659>,
+        <https://www.idref.fr/087206870> ;
+    skos:editorialNote "Clavis SGL. - . - BN Cat. gén. : Agatharchides. - . -"@fr,
+        "On the Erythraean sea / Agatharchides of Cnidus ; translated and ed. by S. M. Burstein, 1989. - . - Larousse 19 s.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Agatharchide>,
+        <http://fr.wikipedia.org/wiki/Agatharchide>,
+        <http://isni.org/isni/0000000444702709>,
+        <http://viaf.org/viaf/19690579/>,
+        <http://wikidata.org/entity/Q391216>,
+        <http://www.idref.fr/087206870/id> ;
+    skos:note "Géographe, historien, philosophe aristotélicien. - Originaire de Cnide, ville de Carie en Asie Mineure"@fr ;
+    skos:prefLabel "Agatharchide de Cnide"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12021417x#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12021417x#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Géographe, historien, philosophe aristotélicien. - Originaire de Cnide, ville de Carie en Asie Mineure" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Géographe, historien, philosophe aristotélicien. - Originaire de Cnide, ville de Carie en Asie Mineure" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 01.." ;
+    bio:death "- 01.." ;
+    = <http://fr.dbpedia.org/resource/Agatharchide>,
+        <http://viaf.org/viaf/19690579>,
+        <http://www.idref.fr/087206870/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12021417x#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k28215w/f4.item.thumbnail> ;
+    foaf:familyName "Agatharchide de Cnide" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12021417x> .
+

@@ -1,0 +1,64 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30500142f#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb180398279#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb180398279#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb180398279#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36826352h#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb180398279#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb180398279#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb180398279#about> .
+
+<https://data.bnf.fr/ark:/12148/cb180398279> a skos:Concept ;
+    bnf-onto:FRBNF 18039827 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-10-19"^^xsd:date ;
+    isni:identifierValid "000000050838945X" ;
+    dcterms:created "2022-10-12" ;
+    dcterms:modified "2022-10-19" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb180398279> ;
+    skos:altLabel "Theophanēs Logaras (15..-1581?)",
+        "Θεοφάνης Λογαράς (15..-1581?)",
+        "Théophane Logaras (15..-1581?)"@fr,
+        "Theofanis Logaras (15..-1581?)"@it ;
+    skos:exactMatch <http://isni.org/isni/000000050838945X> ;
+    skos:note "Prêtre et érudit grec, originaire de Chypre. - Aurait quitté Chypre lors de sa conquête par les Turcs en 1570-1571 pour venir s'installer en Italie. - La première mention de lui date de 1573 lorsqu'il est élu vicaire de l'église orthodoxe San Giorgio dei Greci, à Venise. - Il y officie jusqu'en 1575. - Editeur de textes liturgiques grecs. - A collaboré avec l'éditeur Giacomo Leoncini"@fr ;
+    skos:prefLabel "Theophanes Logaras (15..-1581?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb180398279#about> .
+
+<https://data.bnf.fr/ark:/12148/cb180398279#about> a foaf:Person ;
+    bnf-onto:lastYear 1581 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50098 "1575-1581" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Prêtre et érudit grec, originaire de Chypre. - Aurait quitté Chypre lors de sa conquête par les Turcs en 1570-1571 pour venir s'installer en Italie. - La première mention de lui date de 1573 lorsqu'il est élu vicaire de l'église orthodoxe San Giorgio dei Greci, à Venise. - Il y officie jusqu'en 1575. - Editeur de textes liturgiques grecs. - A collaboré avec l'éditeur Giacomo Leoncini" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1581/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1501-1600/> ;
+    rdagroup2elements:biographicalInformation "Prêtre et érudit grec, originaire de Chypre. - Aurait quitté Chypre lors de sa conquête par les Turcs en 1570-1571 pour venir s'installer en Italie. - La première mention de lui date de 1573 lorsqu'il est élu vicaire de l'église orthodoxe San Giorgio dei Greci, à Venise. - Il y officie jusqu'en 1575. - Editeur de textes liturgiques grecs. - A collaboré avec l'éditeur Giacomo Leoncini" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1501-1600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1581/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:periodOfActivityOfThePerson "1575-1581" ;
+    bio:birth "15.." ;
+    bio:death "1581" ;
+    = <https://data.bnf.fr/ark:/12148/cb180398279#foaf:Person> ;
+    foaf:familyName "Logaras" ;
+    foaf:gender "male" ;
+    foaf:givenName "Theophanes" ;
+    foaf:name "Theophanes Logaras" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb180398279> .
+

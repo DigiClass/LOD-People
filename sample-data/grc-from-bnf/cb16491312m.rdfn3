@@ -1,0 +1,91 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb41808017n#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb418080180#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41808019b#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41808020j#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41808021w#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb418080227#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16491312m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/temp-work/e24664959d4adbb87dd0512893511bb6/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/temp-work/ebfd6305d8217058bdf9084887846b05/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16491312m> a skos:Concept ;
+    bnf-onto:FRBNF 16491312 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-10-09"^^xsd:date ;
+    isni:identifierValid "0000000517833698" ;
+    dcterms:created "2017-03-23" ;
+    dcterms:modified "2024-10-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16491312m> ;
+    skos:altLabel "Trýfaina (reine du Pont, 0010 av. J.-C.-0055)"@el,
+        "ʼAntōnía Trýfaina (reine du Pont, 0010 av. J.-C.-0055)"@el,
+        "Τρύφαινα (reine du Pont, 0010 av. J.-C.-0055)"@el,
+        "Ἀντωνία Τρύφαινα (reine du Pont, 0010 av. J.-C.-0055)"@el,
+        "Antonia Tryphaena (reine du Pont, 0010 av. J.-C.-0055)"@la,
+        "Tryphaena (reine du Pont, 0010 av. J.-C.-0055)"@la ;
+    skos:exactMatch <http://isni.org/isni/0000000517833698> ;
+    skos:note "Reine du Pont de 21 à 27 et reine des royaumes thraces des Sapéens et des Odryses de 12 à 19 en tant qu'épouse de Cotys VIII"@fr ;
+    skos:prefLabel "Tryphaine (reine du Pont, 0010 av. J.-C.-0055)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16491312m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16491312m#about> a foaf:Person ;
+    bnf-onto:firstYear -10 ;
+    bnf-onto:lastYear 55 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Reine du Pont de 21 à 27 et reine des royaumes thraces des Sapéens et des Odryses de 12 à 19 en tant qu'épouse de Cotys VIII" ;
+    rdaa:P50118 "Cyzique" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0055/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0010/> ;
+    rdagroup2elements:biographicalInformation "Reine du Pont de 21 à 27 et reine des royaumes thraces des Sapéens et des Odryses de 12 à 19 en tant qu'épouse de Cotys VIII" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0010/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0055/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfDeath "Cyzique" ;
+    bio:birth "- 10" ;
+    bio:death "55" ;
+    = <https://data.bnf.fr/ark:/12148/cb16491312m#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b8560318p.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b85603193.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8560320r.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b85603215.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8560322k.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b85603230.thumbnail> ;
+    foaf:familyName "Tryphaine" ;
+    foaf:gender "female" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16491312m> .
+

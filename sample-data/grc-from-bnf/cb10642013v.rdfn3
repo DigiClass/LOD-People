@@ -1,0 +1,51 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb10642013v> a skos:Concept ;
+    bnf-onto:FRBNF 10642013 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-09-18"^^xsd:date ;
+    isni:identifierValid "0000000115669901" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2024-09-18" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb10642013v> ;
+    skos:altLabel "ʼIōḗlos"@fr,
+        "ʼIōī́los (chronographe, 11..-12..)"@fr,
+        "Ἰωήλος (chronographe, 11..-12..)"@fr,
+        "Joel (chronographe, 11..-12..)"@la ;
+    skos:editorialNote "A Dictionary of Greek and Roman biography and mythology. Vol. 2 / ed. by William Smith, 1867. - . - BN Cat. gén. : Joël (chronographe byzantin). - . -"@fr,
+        "Nicetae Choniatae opera omnia. Praemittuntur Joelis Byzantini Chronographi, Isidori Thessalonicensis, Nicetae Maroniensis... [et al.] scripta quae supersunt, tum edita, tum inedita, 1865. - . - Michaud. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000115669901> ;
+    skos:note "Chroniqueur"@fr ;
+    skos:prefLabel "Joël (chronographe, 11..-12..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10642013v#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10642013v#about> a foaf:Person ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Chroniqueur" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1201-1300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1101-1200/> ;
+    rdagroup2elements:biographicalInformation "Chroniqueur" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1101-1200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1201-1300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "11.." ;
+    bio:death "12.." ;
+    = <https://data.bnf.fr/ark:/12148/cb10642013v#foaf:Person> ;
+    foaf:familyName "Joël" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10642013v> .
+

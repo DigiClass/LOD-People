@@ -1,0 +1,64 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb101902075studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb101902075#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30594792g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101902075#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101902075#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101902075#about> .
+
+<https://data.bnf.fr/ark:/12148/cb101902075> a skos:Concept ;
+    bnf-onto:FRBNF 10190207 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-06-22"^^xsd:date ;
+    isni:identifierValid "0000000424552483" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2022-06-22" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb101902075> ;
+    skos:altLabel "Eracleone Gnostico"@fr,
+        "Heracleon Philologus"@fr,
+        "Herakléōn"@fr,
+        "Hīrakléōn"@fr,
+        "Ἡρακλέων"@fr,
+        "Heracleon Gnosticus"@la ;
+    skos:editorialNote "The fragments of Heracleon / newly edited from the mss., with an introduction and notes by A. E. Brooke, 1891. - . - Sources chrétiennes : Héracléon le Gnostique. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000424552483>,
+        <http://viaf.org/viaf/268408013/> ;
+    skos:note "Théologien gnostique de la secte des Valentiniens. - Auteur d'un commentaire sur l'Évangile de Jean connu uniquement par les fragments cités dans les oeuvres d'Origène. - Actif au IIe siècle"@fr ;
+    skos:prefLabel "Heracléon le Gnostique"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb101902075#about> .
+
+<https://data.bnf.fr/ark:/12148/cb101902075#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Théologien gnostique de la secte des Valentiniens. - Auteur d'un commentaire sur l'Évangile de Jean connu uniquement par les fragments cités dans les oeuvres d'Origène. - Actif au IIe siècle" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Théologien gnostique de la secte des Valentiniens. - Auteur d'un commentaire sur l'Évangile de Jean connu uniquement par les fragments cités dans les oeuvres d'Origène. - Actif au IIe siècle" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "01.." ;
+    bio:death "01.." ;
+    = <http://viaf.org/viaf/268408013>,
+        <https://data.bnf.fr/ark:/12148/cb101902075#foaf:Person> ;
+    foaf:familyName "Heracléon le Gnostique" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb101902075> .
+

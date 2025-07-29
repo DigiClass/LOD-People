@@ -1,0 +1,60 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb14435825s#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb10175356f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31269026z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10175356f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10175356f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10175356f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31915757c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10175356f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10175356f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10175356f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10175356f> a skos:Concept ;
+    bnf-onto:FRBNF 10175356 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2002-12-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb10175356f> ;
+    skos:altLabel "Rhoûfos (rhétoricien, 01..-01..)"@fr,
+        "Rhoûphos (rhétoricien, 01..-01..)"@fr,
+        "Rufus de Périnthe (rhétoricien, 01..-01..)"@fr,
+        "Rufus Perinthius (rhétoricien, 01..-01..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/10240514X>,
+        <https://www.idref.fr/05908393X> ;
+    skos:editorialNote "Tiberius Rhetor De figuris. Altera parte auctior ; una cum Rufi Arte rhetorica / ed. I. F. Boissonade, 1815. - . - Fragments / Longin ; texte établi et trad. par Michel Patillon et Luc Brisson ; Art rhétorique / Rufus ; texte établi et traduit par Michel Patillon, 2001. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/287651622/>,
+        <http://wikidata.org/entity/Q110812700> ;
+    skos:note "Sophiste"@fr ;
+    skos:prefLabel "Rufus (rhétoricien, 01..-01..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10175356f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10175356f#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Sophiste" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Sophiste" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "01.." ;
+    bio:death "01.." ;
+    = <http://viaf.org/viaf/287651622>,
+        <https://data.bnf.fr/ark:/12148/cb10175356f#foaf:Person> ;
+    foaf:familyName "Rufus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10175356f> .
+

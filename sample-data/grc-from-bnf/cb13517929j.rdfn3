@@ -1,0 +1,78 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb393804435#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13517929j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13517929j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13517929j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13517929j> a skos:Concept ;
+    bnf-onto:FRBNF 13517929 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-07"^^xsd:date ;
+    isni:identifierValid "0000000383337196" ;
+    dcterms:created "1999-01-13" ;
+    dcterms:modified "2019-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Ars%C3%A8ne_de_Sc%C3%A9t%C3%A9>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13517929j> ;
+    skos:altLabel "Arsène le Grand (0350?-0445?)"@fr,
+        "̓Arsénios (saint, 0350?-0445?)"@fr,
+        "Ἀρσένιος (saint, 0350?-0445?)"@fr,
+        "Arsenius (saint, 0350?-0445?)"@la,
+        "Arsenius abbas (0350?-0445?)"@la,
+        "Arsenius anachoreta (0350?-0445?)"@la,
+        "Arsenius eremita (0350?-0445?)"@la,
+        "Arsenius magnus eremita (0350?-0445?)"@la,
+        "Arsenius monachus (0350?-0445?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100981038>,
+        <http://datos.bne.es/resource/XX1441669> ;
+    skos:editorialNote "GDEL : Arsène (saint). - . - Chevalier : Arsène (st) le Grand. - . - Clavis SGL : Arsenius eremita magnus sanctus. - . -"@fr,
+        "Synesii episcopi Cyrenes Opera quae exstant omnia / ed... Dionysio Petavio. Accedunt Theodori Mopsuesteni episcopi, S. Arsenii eremitae Scripta vel scriptorum fragmenta quae supersunt / accurante et recognoscente J.-P. Migne, 1997 [reprod. de l'éd. de 1859]. - . - DHGE : Arsène, anachorète en Égypte. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Ars%C3%A8ne_de_Sc%C3%A9t%C3%A9>,
+        <http://fr.wikipedia.org/wiki/Ars%C3%A8ne_de_Sc%C3%A9t%C3%A9>,
+        <http://isni.org/isni/0000000383337196>,
+        <http://viaf.org/viaf/268273846/>,
+        <http://wikidata.org/entity/Q530065>,
+        <http://www.idref.fr/168837412> ;
+    skos:note "Anachorète au désert de Scété, Égypte"@fr ;
+    skos:prefLabel "Arsène (saint, 0350?-0445?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13517929j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13517929j#about> a foaf:Person ;
+    bnf-onto:firstYear 350 ;
+    bnf-onto:lastYear 445 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Anachorète au désert de Scété, Égypte" ;
+    rdaa:P50118 "Troé, auj. Troua près du Caire" ;
+    rdaa:P50119 "Rome" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0445/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0350/> ;
+    rdagroup2elements:biographicalInformation "Anachorète au désert de Scété, Égypte" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0350/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0445/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Rome" ;
+    rdagroup2elements:placeOfDeath "Troé, auj. Troua près du Caire" ;
+    bio:birth "350" ;
+    bio:death "445" ;
+    = <http://fr.dbpedia.org/resource/Ars%C3%A8ne_de_Sc%C3%A9t%C3%A9>,
+        <http://viaf.org/viaf/268273846>,
+        <http://www.idref.fr/168837412/id>,
+        <https://data.bnf.fr/ark:/12148/cb13517929j#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Arsenius%2520the%2520Great.jpg> ;
+    foaf:familyName "Arsène" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13517929j> .
+

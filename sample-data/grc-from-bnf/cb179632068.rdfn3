@@ -1,0 +1,63 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb179632068studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb179632068#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42517999w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb179632068#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb179632068#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb179632068#about> .
+
+<https://data.bnf.fr/ark:/12148/cb179632068> a skos:Concept ;
+    bnf-onto:FRBNF 17963206 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-08-25"^^xsd:date ;
+    isni:identifierValid "0000000431435365" ;
+    dcterms:created "2021-08-18" ;
+    dcterms:modified "2021-09-11" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb179632068> ;
+    skos:altLabel "Onoma'critus (0560?-0510? av. J.-C.)"@fr,
+        "Onomacrite d'Athènes (0560?-0510? av. J.-C)"@fr,
+        "Onomacritos (0560?-0510? av. J.-C.)"@fr,
+        "̓Onomákritos (0560?-0510? av. J.-C.)"@fr,
+        "Ὀνομάκριτος (0560?-0510? av. J.-C.)"@fr,
+        "Onomacrito (0560?-0510? av. J.-C.)"@it,
+        "Onomacritus (0560?-0510? av. J.-C.)"@la ;
+    skos:editorialNote "Onomacriti testimonia et fragmenta / collegit disposuit adnotatione critica prolegomenis commentariisque instruxit Hector D'Agostino = Onomacrito : testimonianze e frammenti / introduzione, testo critico, traduzione e commento a cura di Ettore D'Agostino, 2007. - . - Larousse, 19e. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000431435365>,
+        <http://viaf.org/viaf/196191877/> ;
+    skos:note "Poète grec, compilateur d'oracles. - Actif au VIe siècle av. J.-C."@fr ;
+    skos:prefLabel "Onomacrite (0560?-0510? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb179632068#about> .
+
+<https://data.bnf.fr/ark:/12148/cb179632068#about> a foaf:Person ;
+    bnf-onto:firstYear -560 ;
+    bnf-onto:lastYear -510 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète grec, compilateur d'oracles. - Actif au VIe siècle av. J.-C." ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0510/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0560/> ;
+    rdagroup2elements:biographicalInformation "Poète grec, compilateur d'oracles. - Actif au VIe siècle av. J.-C." ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0560/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0510/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 560" ;
+    bio:death "- 510" ;
+    = <http://viaf.org/viaf/196191877>,
+        <https://data.bnf.fr/ark:/12148/cb179632068#foaf:Person> ;
+    foaf:familyName "Onomacrite" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb179632068> .
+

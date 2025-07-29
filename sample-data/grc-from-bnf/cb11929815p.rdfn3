@@ -1,0 +1,79 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb300237144#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11929815p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb306063867#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11929815p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31327844z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11929815p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32904955x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11929815p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb329049568#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11929815p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45883924d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11929815p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11929815p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11929815p> a skos:Concept ;
+    bnf-onto:FRBNF 11929815 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000072834240" ;
+    dcterms:created "1985-06-22" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb11929815p> ;
+    skos:altLabel "Apollonios von Kition"@fr,
+        "Apollonius von Kitium"@fr,
+        "A̓pollṓnios ho Kiteús"@fr,
+        "Ἀπολλώνιος ὁ Κιτεύς"@fr,
+        "Apollonius Citiensis"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102380740> ;
+    skos:editorialNote "Ann. phil.. - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Apollonii Citiensis in Hippocratis de articulis commentarius, 1965. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000072834240>,
+        <http://viaf.org/viaf/102333676/>,
+        <http://wikidata.org/entity/Q619395>,
+        <http://www.idref.fr/027205681> ;
+    skos:note "Médecin empiriste"@fr ;
+    skos:prefLabel "Apollonius de Citium"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11929815p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11929815p#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Médecin empiriste" ;
+    rdagroup2elements:biographicalInformation "Médecin empiriste" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 00.." ;
+    bio:death "- 00.." ;
+    = <http://viaf.org/viaf/102333676>,
+        <http://www.idref.fr/027205681/id>,
+        <https://data.bnf.fr/ark:/12148/cb11929815p#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Apollonios%2520von%2520Kition%2520Larnaka.jpg> ;
+    foaf:familyName "Apollonius de Citium" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11929815p> .
+

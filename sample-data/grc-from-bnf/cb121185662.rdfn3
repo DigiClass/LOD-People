@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb121185662studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb121185662#about> .
+
+<https://data.bnf.fr/ark:/12148/cb373136442#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121185662#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121185662#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121185662#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44283718r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121185662#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121185662#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121185662#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45733946h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb121185662#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb121185662#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb121185662#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121185662> a skos:Concept ;
+    bnf-onto:FRBNF 12118566 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "000000038535327X" ;
+    dcterms:created "1989-07-06" ;
+    dcterms:modified "2015-06-05" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Mar%C3%ADnos_Fali%C3%A9ros>,
+        <https://catalogue.bnf.fr/ark:/12148/cb121185662> ;
+    skos:altLabel "Μαρίνος Φαλιέρος (1395?-1474)"@el,
+        "Marin Falier (1395?-1474)"@fr,
+        "Marinos Phalieros (1395?-1474)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/100953026>,
+        <http://id.loc.gov/authorities/nr91037626> ;
+    skos:editorialNote "Bibliothèque de Chypre. - http://www.cypruslibrary.gov.cy. - 2015-06-05 Bibliothèque de l'Université de Chypre [ca 1395-1474]. - http://beta.lib.ucy.ac.cy/el. - 2015-06-05"@fr,
+        "GLE. - . - Bibliothèque nationale de Grèce [15e s.]. - http://www.nlg.gr. - 2015-06-05"@fr,
+        "The \"Logoi didaktikoi\" of Marinos Phalieros / a critical ed. with introd., notes and index verborum by W. F. Bakker and A. F. van Gemert, 1977. - . - ̓Erōtikà o̓́neira / Marínou Faliérou ; krit. é̓kd. mè ei̓s., schól. k. lex., Arnold van Gemert, 1980. - . - Lógoi didaktikoí tou patrós pros ton yión / Marínos Faliéros ; epiméleia, Arnold van Gemert [k.] Wim Bakker, cop. 2014. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Mar%C3%ADnos_Fali%C3%A9ros>,
+        <http://fr.wikipedia.org/wiki/Mar%C3%ADnos_Fali%C3%A9ros>,
+        <http://isni.org/isni/000000038535327X>,
+        <http://viaf.org/viaf/90718113/>,
+        <http://wikidata.org/entity/Q1535835> ;
+    skos:note "Poète crétois. - Identification restée longtemps incertaine : les arguments historiques penchant en faveur de Marínos Faliéros l'ancien (né entre 1395 et 1397, marié en 1418, mort en juin 1474), et les éléments littéraires privilégiant l'attribution des oeuvres à Marínos Faliéros (marié en 1496, mort entre le 6 décembre 1527 et le 5 mars 1528), petit-fils du précédent"@fr ;
+    skos:prefLabel "Marínos Faliéros (1395?-1474)"@el ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb121185662#about> .
+
+<https://data.bnf.fr/ark:/12148/cb121185662#about> a foaf:Person ;
+    bnf-onto:firstYear 1395 ;
+    bnf-onto:lastYear 1474 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète crétois. - Identification restée longtemps incertaine : les arguments historiques penchant en faveur de Marínos Faliéros l'ancien (né entre 1395 et 1397, marié en 1418, mort en juin 1474), et les éléments littéraires privilégiant l'attribution des oeuvres à Marínos Faliéros (marié en 1496, mort entre le 6 décembre 1527 et le 5 mars 1528), petit-fils du précédent" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1474/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1395/> ;
+    rdagroup2elements:biographicalInformation "Poète crétois. - Identification restée longtemps incertaine : les arguments historiques penchant en faveur de Marínos Faliéros l'ancien (né entre 1395 et 1397, marié en 1418, mort en juin 1474), et les éléments littéraires privilégiant l'attribution des oeuvres à Marínos Faliéros (marié en 1496, mort entre le 6 décembre 1527 et le 5 mars 1528), petit-fils du précédent" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1395/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1474/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1395" ;
+    bio:death "1474-06" ;
+    = <http://fr.dbpedia.org/resource/Mar%C3%ADnos_Fali%C3%A9ros>,
+        <http://viaf.org/viaf/90718113>,
+        <https://data.bnf.fr/ark:/12148/cb121185662#foaf:Person> ;
+    foaf:familyName "Faliéros" ;
+    foaf:gender "male" ;
+    foaf:givenName "Marínos" ;
+    foaf:name "Marínos Faliéros" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb121185662> .
+

@@ -1,0 +1,71 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb310074249#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10726328f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10726328f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10726328f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31007425n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10726328f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10726328f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10726328f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10726328f> a skos:Concept ;
+    bnf-onto:FRBNF 10726328 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2018-11-14"^^xsd:date ;
+    isni:identifierValid "0000000472218033" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nectaire_de_Constantinople>,
+        <https://catalogue.bnf.fr/ark:/12148/cb10726328f> ;
+    skos:altLabel "Nektarios archiepiskopou Kōnstantinoupoleōs (saint, 0300?-400?)",
+        "Νεκταρίος ἀρχιεπισκόπου Κωνσταντίνουπόλεως (saint, 0300?-400?)" ;
+    skos:closeMatch <http://d-nb.info/gnd/136245714>,
+        <http://datos.bne.es/resource/XX5766701>,
+        <https://www.idref.fr/15128668X> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nectaire_de_Constantinople>,
+        <http://fr.wikipedia.org/wiki/Nectaire_de_Constantinople>,
+        <http://isni.org/isni/0000000472218033>,
+        <http://viaf.org/viaf/6154440045935341484/>,
+        <http://wikidata.org/entity/Q1560559> ;
+    skos:note "Patriarche de Constantinople (381-397), successeur de Grégoire de Nazianze"@fr ;
+    skos:prefLabel "Nectaire de Constantinople (saint, 0300?-400?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10726328f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10726328f#about> a foaf:Person ;
+    bnf-onto:firstYear 300 ;
+    bnf-onto:lastYear 400 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Patriarche de Constantinople (381-397), successeur de Grégoire de Nazianze" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0300/> ;
+    rdagroup2elements:biographicalInformation "Patriarche de Constantinople (381-397), successeur de Grégoire de Nazianze" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "300" ;
+    bio:death "400" ;
+    = <http://fr.dbpedia.org/resource/Nectaire_de_Constantinople>,
+        <http://viaf.org/viaf/6154440045935341484>,
+        <https://data.bnf.fr/ark:/12148/cb10726328f#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Council%2520of%2520Constantinople%2520381%2520BnF%2520MS%2520Gr510%2520fol355.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k4116353/f2.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k87004406.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k8700441m.thumbnail> ;
+    foaf:familyName "Nectaire de Constantinople" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10726328f> .
+

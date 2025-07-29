@@ -1,0 +1,95 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb11984595cstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb11984595c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15023855g#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb11984595c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb156081096#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb11984595c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31357919n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11984595c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11984595c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11984595c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb348114883#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11984595c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11984595c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11984595c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb356319891#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11984595c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11984595c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11984595c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41096634w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11984595c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11984595c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11984595c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11984595c> a skos:Concept ;
+    bnf-onto:FRBNF 11984595 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "000000036207506X" ;
+    dcterms:created "1985-08-06" ;
+    dcterms:modified "2014-08-06" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/S%C3%A9v%C3%A9rien_de_Gabala>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11984595c> ;
+    skos:altLabel "Seberianós ho Gabalō̂n (037.?-040.?)"@fr,
+        "Severiano di Gabala (037.?-040.?)"@fr,
+        "Severianos von Gabala (037.?-040.?)"@fr,
+        "Severianus (évêque de Gabala)"@fr,
+        "Severianus Gabalensis (037.?-040.?)"@fr,
+        "Severianós ho Gavalō̂n (037.?-040.?)"@fr,
+        "Σεβεριανός ὁ Γαβαλὼν (037.?-040.?)"@fr,
+        "Severianus Gabalitanus (037.?-040.?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118796771>,
+        <http://datos.bne.es/resource/XX1468747>,
+        <http://id.loc.gov/authorities/nr99019655>,
+        <https://www.idref.fr/02790427X> ;
+    skos:editorialNote "Clavis PG. - . - BBKL. - . -"@fr,
+        "Un traité inédit de christologie / de Sévérien de Gabala, 1983. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/S%C3%A9v%C3%A9rien_de_Gabala>,
+        <http://fr.wikipedia.org/wiki/S%C3%A9v%C3%A9rien_de_Gabala>,
+        <http://isni.org/isni/000000036207506X>,
+        <http://viaf.org/viaf/266409260/>,
+        <http://wikidata.org/entity/Q722953>,
+        <http://www.idref.fr/02790427X/id> ;
+    skos:note "Évêque de Gabala, défenseur du concile de Nicée. - Serait né avant 380, et mort vers ou après 408"@fr ;
+    skos:prefLabel "Sévérien de Gabala (037.?-040.?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11984595c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11984595c#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Évêque de Gabala, défenseur du concile de Nicée. - Serait né avant 380, et mort vers ou après 408" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Évêque de Gabala, défenseur du concile de Nicée. - Serait né avant 380, et mort vers ou après 408" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "037." ;
+    bio:death "040." ;
+    = <http://fr.dbpedia.org/resource/S%C3%A9v%C3%A9rien_de_Gabala>,
+        <http://viaf.org/viaf/266409260>,
+        <http://www.idref.fr/02790427X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb11984595c#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Hexameron%2520of%2520Severian%2520of%2520Gabala%252001.jpg> ;
+    foaf:familyName "Sévérien de Gabala" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11984595c> .
+

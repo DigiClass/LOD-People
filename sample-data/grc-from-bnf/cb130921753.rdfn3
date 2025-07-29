@@ -1,0 +1,85 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb11950893x#about> dcterms:contributor <https://data.bnf.fr/ark:/12148/cb130921753#about> .
+
+<https://data.bnf.fr/ark:/12148/cb130921753studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb130921753#about> .
+
+<https://data.bnf.fr/ark:/12148/cb314220917#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb130921753#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb130921753#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb130921753#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32085448m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb130921753#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb130921753#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb130921753#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35359776z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb130921753#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb130921753#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb130921753#about> .
+
+<https://data.bnf.fr/ark:/12148/cb130921753> a skos:Concept ;
+    bnf-onto:FRBNF 13092175 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000139758212" ;
+    dcterms:created "1991-03-07" ;
+    dcterms:modified "2023-05-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Eud%C3%A8me_de_Rhodes>,
+        <https://catalogue.bnf.fr/ark:/12148/cb130921753> ;
+    skos:altLabel "Eudemos von Rhodos"@de,
+        "Eudème de Rhodes"@fr,
+        "Eu̓́dīmos"@fr,
+        "Εὔδημος"@fr,
+        "Eudemius Rhodius"@la,
+        "Eudemus Peripateticus Senior"@la,
+        "Eudemus Rhodius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119163446>,
+        <http://datos.bne.es/resource/XX5039526>,
+        <http://id.loc.gov/authorities/n2002102662>,
+        <https://www.idref.fr/030505356> ;
+    skos:editorialNote "Aristotelis Ethica Eudemia, Eudemii Rhodii Ethica, adjecto de virtutibus et vitiis libello. [Graece edita] ; recognovit Franciscus Susemihl, 1884. - . - Eudemos von Rhodos, 1969. - . -"@fr,
+        "Buchwald. - . - Clavis scriptorum graecorum et latinorum. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Eud%C3%A8me_de_Rhodes>,
+        <http://fr.wikipedia.org/wiki/Eud%C3%A8me_de_Rhodes>,
+        <http://isni.org/isni/0000000139758212>,
+        <http://viaf.org/viaf/69067186/>,
+        <http://wikidata.org/entity/Q358482>,
+        <http://www.idref.fr/030505356/id> ;
+    skos:note "Philosophe aristotélicien. - Astrologue, mathématicien, théologien"@fr ;
+    skos:prefLabel "Eudemos de Rhodes"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb130921753#about> .
+
+<https://data.bnf.fr/ark:/12148/cb130921753#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe aristotélicien. - Astrologue, mathématicien, théologien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:biographicalInformation "Philosophe aristotélicien. - Astrologue, mathématicien, théologien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 03.." ;
+    bio:death "- 02.." ;
+    = <http://fr.dbpedia.org/resource/Eud%C3%A8me_de_Rhodes>,
+        <http://viaf.org/viaf/69067186>,
+        <http://www.idref.fr/030505356/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb130921753#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Eudemos%2520von%2520Rhodos.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k11659296.thumbnail> ;
+    foaf:familyName "Eudemos de Rhodes" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb130921753> .
+

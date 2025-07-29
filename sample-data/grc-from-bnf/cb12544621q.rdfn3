@@ -1,0 +1,80 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12544621qstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12544621q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32005846c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12544621q#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12544621q#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12544621q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12544621q> a skos:Concept ;
+    bnf-onto:FRBNF 12544621 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000382148035" ;
+    dcterms:created "1996-12-11" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Marc_%28%C3%A9vang%C3%A9liste%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12544621q> ;
+    skos:altLabel "Markus (saint, ....-0075?)"@de,
+        "Mark (saint, ....-0075?)"@en,
+        "Marc l'évangéliste (saint, ....-0075?)"@fr,
+        "Marco (saint, ....-0075?)"@it,
+        "Marcus (saint, ....-0075?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118578030>,
+        <http://id.loc.gov/authorities/n50044098> ;
+    skos:editorialNote "Théo. - . - GDEL. - . - Marietti : Marco (vangelo). - . -"@fr,
+        "[Histoire de Saint Jean-Baptiste / attribuée à Saint Marc l'évangéliste] i̲n̲ Recueil de monographies. II / [par F. Nau] ; [avec le concours de J. Bousquet], 1981 [reprod. de l'éd. de 1908]. - . - Dictionnaire encyclopédique du christianisme ancien / sous la dir. de Angelo Di Berardino, 1990. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Marc_%28%C3%A9vang%C3%A9liste%29>,
+        <http://fr.wikipedia.org/wiki/Marc_%28%C3%A9vang%C3%A9liste%29>,
+        <http://isni.org/isni/0000000382148035>,
+        <http://viaf.org/viaf/264405984/>,
+        <http://wikidata.org/entity/Q31966>,
+        <http://www.idref.fr/034721770> ;
+    skos:note "Un des quatre évangélistes. - Disciple des apôtres Paul et Pierre"@fr ;
+    skos:prefLabel "Marc (saint, ....-0075?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12544621q#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12544621q#about> a foaf:Person ;
+    bnf-onto:lastYear 75 ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Un des quatre évangélistes. - Disciple des apôtres Paul et Pierre" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0075/> ;
+    rdagroup2elements:biographicalInformation "Un des quatre évangélistes. - Disciple des apôtres Paul et Pierre" ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0075/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:death "75" ;
+    = <http://fr.dbpedia.org/resource/Marc_%28%C3%A9vang%C3%A9liste%29>,
+        <http://viaf.org/viaf/264405984>,
+        <http://www.idref.fr/034721770/id>,
+        <https://data.bnf.fr/ark:/12148/cb12544621q#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Caxias%2520museumunicipal4.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Jose%2520leonardo-san%2520marcos.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b6937910b.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b6945382d.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b6951527x.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b7700088x.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b7741465q.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8496252t.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8496330k.thumbnail> ;
+    foaf:familyName "Marc" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12544621q> .
+

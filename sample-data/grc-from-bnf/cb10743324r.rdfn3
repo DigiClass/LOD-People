@@ -1,0 +1,82 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb44979223d#Expression> bnfroles:r373 <https://data.bnf.fr/ark:/12148/cb10743324r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10743324r#about> .
+
+<https://data.bnf.fr/temp-work/e8f9fec08c2ad8dd710d7b5d6e51ae55/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb10743324r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10743324r> a skos:Concept ;
+    bnf-onto:FRBNF 10743324 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2024-09-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Tib%C3%A8re_II_Constantin>,
+        <https://catalogue.bnf.fr/ark:/12148/cb10743324r> ;
+    skos:altLabel "Tivérios 2 (empereur de Byzance, 0526?-0582)",
+        "Tivérios Cōnstantínos (empereur de Byzance, 0526?-0582)",
+        "Tivérios V  ́Cōnstantínos (empereur de Byzance, 0526?-0582)",
+        "Τιβέριος 2 (empereur de Byzance, 0526?-0582)",
+        "Τιβέριος Β′ Κωνσταντίνος (empereur de Byzance, 0526?-0582)",
+        "Τιβέριος Κωνσταντίνος (empereur de Byzance, 0526?-0582)",
+        "Tibère 2 (empereur de Byzance, 0526?-0582)"@fr,
+        "Tibère Constantin (empereur de Byzance, 0526?-0582)"@fr,
+        "Flavius Tiberius Constantinus Augustus (0526?-0582)"@la,
+        "Tiberius 2 (empereur de Byzance, 0526?-0582)"@la,
+        "Tiberius Constantinus (empereur de Byzance, 0526?-0582)"@la,
+        "Tiberius II Contantinus (empereur de Byzance, 0526?-0582)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102816921>,
+        <http://id.loc.gov/authorities/nb2010016600> ;
+    skos:editorialNote "GLU. - . - Mourre. - . - Rulers and governments of the world. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Tib%C3%A8re_II_Constantin>,
+        <http://fr.wikipedia.org/wiki/Tib%C3%A8re_II_Constantin>,
+        <http://viaf.org/viaf/315533679/>,
+        <http://wikidata.org/entity/Q31491>,
+        <http://www.idref.fr/197950507> ;
+    skos:note "Empereur d'Orient du 5 octobre 578 au 14 août 582"@fr ;
+    skos:prefLabel "Tibère II Constantin (empereur de Byzance, 0526?-0582)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10743324r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10743324r#about> a foaf:Person ;
+    bnf-onto:firstYear 526 ;
+    bnf-onto:lastYear 582 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50100 <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat> ;
+    rdaa:P50113 "Empereur d'Orient du 5 octobre 578 au 14 août 582" ;
+    rdaa:P50118 "Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0582/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0526/> ;
+    rdagroup2elements:biographicalInformation "Empereur d'Orient du 5 octobre 578 au 14 août 582" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0526/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0582/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat> ;
+    rdagroup2elements:placeOfDeath "Constantinople" ;
+    bio:birth "526" ;
+    bio:death "0582-08-14" ;
+    = <http://fr.dbpedia.org/resource/Tib%C3%A8re_II_Constantin>,
+        <http://viaf.org/viaf/315533679>,
+        <http://www.idref.fr/197950507/id>,
+        <https://data.bnf.fr/ark:/12148/cb10743324r#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Tiberios%2520II%2520%2528obverse%2529.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b11350368g.thumbnail> ;
+    foaf:familyName "Tibère" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10743324r> .
+

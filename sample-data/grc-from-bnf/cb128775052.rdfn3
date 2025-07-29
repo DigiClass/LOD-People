@@ -1,0 +1,90 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb37592996w#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128775052#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37592998k#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128775052#about> .
+
+<https://data.bnf.fr/ark:/12148/cb389759872#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128775052#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45710622j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128775052#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45710638x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128775052#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128775052#about> .
+
+<https://data.bnf.fr/ark:/12148/cb128775052> a skos:Concept ;
+    bnf-onto:FRBNF 12877505 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "0000000047473922" ;
+    dcterms:created "1991-06-28" ;
+    dcterms:modified "2020-08-21" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb128775052> ;
+    skos:altLabel "Constantinus Nikas"@fr,
+        "Costantino Nikas"@fr,
+        "Κωνσταντίνος Νικάς (1935-2016)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/103729445>,
+        <http://id.loc.gov/authorities/no2002062925> ;
+    skos:editorialNote "Analecta hymnica graeca. 8. Canones Aprilis / Constantinus Nikas collegit et instruxit, 1970. - . - LC Authorities. - http://authorities.loc.gov. - 2020-08-21"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000047473922>,
+        <http://viaf.org/viaf/71815002/>,
+        <http://wikidata.org/entity/Q1136444>,
+        <http://www.idref.fr/183827546> ;
+    skos:note "A aussi écrit en latin et en italien"@fr,
+        "Professeur de langue néo-hellénique, Università degli studi l'Orientale, Naples, Italie (1974-)"@fr ;
+    skos:prefLabel "Kōnstantínos Nikás (1935-2016)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb128775052#about> .
+
+<https://data.bnf.fr/ark:/12148/cb128775052#about> a foaf:Person ;
+    bnf-onto:firstYear 1935 ;
+    bnf-onto:lastYear 2016 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "A aussi écrit en latin et en italien",
+        "Professeur de langue néo-hellénique, Università degli studi l'Orientale, Naples, Italie (1974-)" ;
+    rdaa:P50118 "Kiaton (Grèce)" ;
+    rdaa:P50119 "Kiaton (Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/2016/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1935/> ;
+    rdagroup2elements:biographicalInformation "A aussi écrit en latin et en italien",
+        "Professeur de langue néo-hellénique, Università degli studi l'Orientale, Naples, Italie (1974-)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1935/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/2016/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Kiaton (Grèce)" ;
+    rdagroup2elements:placeOfDeath "Kiaton (Grèce)" ;
+    bio:birth "1935-04-07" ;
+    bio:death "2016-04-26" ;
+    = <http://viaf.org/viaf/71815002>,
+        <http://www.idref.fr/183827546/id>,
+        <https://data.bnf.fr/ark:/12148/cb128775052#foaf:Person> ;
+    foaf:birthday "04-07" ;
+    foaf:familyName "Nikás" ;
+    foaf:gender "male" ;
+    foaf:givenName "Kōnstantínos" ;
+    foaf:name "Kōnstantínos Nikás" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb128775052> .
+

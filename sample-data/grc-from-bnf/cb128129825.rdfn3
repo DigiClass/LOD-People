@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb314519228#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128129825#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128129825#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128129825#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35312569m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128129825#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128129825#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128129825#about> .
+
+<https://data.bnf.fr/ark:/12148/cb411227536#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128129825#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128129825#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128129825#about> .
+
+<https://data.bnf.fr/ark:/12148/cb128129825> a skos:Concept ;
+    bnf-onto:FRBNF 12812982 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-30"^^xsd:date ;
+    isni:identifierValid "0000000081624894" ;
+    dcterms:created "1991-01-30" ;
+    dcterms:modified "2014-06-17" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Jean_Caminiat%C3%A8s>,
+        <https://catalogue.bnf.fr/ark:/12148/cb128129825> ;
+    skos:altLabel "John Kaminiates"@en,
+        "I̓ōánnīs Kameniátīs"@fr,
+        "I̓ōánnī̄s Kameniátī̄s"@fr,
+        "I̓ōánnës Kameniátës"@fr,
+        "Jean Cameniata"@fr,
+        "Joannes Kaminiates"@fr,
+        "Johannes Caminiata"@fr,
+        "Ἰωάννης Καμενιάτης"@fr,
+        "Ὶωάννης Καμενιάτης"@fr,
+        "Johannes Cameniata"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118557874>,
+        <http://datos.bne.es/resource/XX5641135>,
+        <http://id.loc.gov/authorities/n87883813> ;
+    skos:editorialNote "LC Authorities : Iōannës, Kameniatës, 10th cent.. - http://authorities.loc.gov. - 2008-10-09 BN Cat. gén. : Jean Cameniata. - . -"@fr,
+        "Sur la prise de Thessalonique / Jean Caminiatès in \"Thessalonique\", 2005. - . - The capture of Thessaloniki / John Kaminiates, 2000. - . -"@fr,
+        "WBI : Ioannes ho Kameniates ; Kameniates; Kaminiates : dates : env. 875- env. 905. - . - DOC / V. Volpi, 1994. - . - Oxford Dict. of Byzantium : Kaminiates, John. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Jean_Caminiat%C3%A8s>,
+        <http://fr.wikipedia.org/wiki/Jean_Caminiat%C3%A8s>,
+        <http://isni.org/isni/0000000081624894>,
+        <http://viaf.org/viaf/88655626/>,
+        <http://wikidata.org/entity/Q121550>,
+        <http://www.idref.fr/088613682> ;
+    skos:note "Écclésiastique fait prisonnier en 904 lors de la prise de Salonique par les pirates musulmans (raid de \"Léon de Tripoli\")"@fr ;
+    skos:prefLabel "Jean Caminiatès"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb128129825#about> .
+
+<https://data.bnf.fr/ark:/12148/cb128129825#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Écclésiastique fait prisonnier en 904 lors de la prise de Salonique par les pirates musulmans (raid de \"Léon de Tripoli\")" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0901-1000/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:biographicalInformation "Écclésiastique fait prisonnier en 904 lors de la prise de Salonique par les pirates musulmans (raid de \"Léon de Tripoli\")" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "08.." ;
+    bio:death "09.." ;
+    = <http://fr.dbpedia.org/resource/Jean_Caminiat%C3%A8s>,
+        <http://viaf.org/viaf/88655626>,
+        <http://www.idref.fr/088613682/id>,
+        <https://data.bnf.fr/ark:/12148/cb128129825#foaf:Person> ;
+    foaf:familyName "Jean Caminiatès" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb128129825> .
+

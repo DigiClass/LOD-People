@@ -1,0 +1,74 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb124482818#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12968495s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12968495sstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12968495s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35650214c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12968495s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12968495s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12968495s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12968495s> a skos:Concept ;
+    bnf-onto:FRBNF 12968495 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2017-05-24"^^xsd:date ;
+    isni:identifierValid "0000000090757939" ;
+    dcterms:created "1994-02-18" ;
+    dcterms:modified "2018-04-19" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/M%C3%A9gasth%C3%A8ne>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12968495s> ;
+    skos:altLabel "Megasthénēs"@fr,
+        "Megasthénīs"@fr,
+        "Mégasthène"@fr,
+        "Μεγασθένης"@fr,
+        "Megastene"@it,
+        "Megasthenes"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102398771>,
+        <http://id.loc.gov/authorities/n82154900>,
+        <https://www.idref.fr/032724543> ;
+    skos:editorialNote "Clavis SGL. - . - Dizionario delle opere classiche / Vittorio Volpi, 1994. - . - Clavis SGL : Megasthenes Historicus. - . -"@fr,
+        "Encycl. Grèce. - . - LC Authorities : Megasthenes. - http://authorities.loc.gov. - 2017-01-31"@fr,
+        "McCrindle's Ancient India as described by Megasthenes and Arrian  / ed. by Ramchandra Jain, 1972. - . - Buchwald. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/M%C3%A9gasth%C3%A8ne>,
+        <http://fr.wikipedia.org/wiki/M%C3%A9gasth%C3%A8ne>,
+        <http://isni.org/isni/0000000090757939>,
+        <http://viaf.org/viaf/262846250/>,
+        <http://wikidata.org/entity/Q312548>,
+        <http://www.idref.fr/032724543/id> ;
+    skos:note "Auteur d'un ouvrage sur l'Inde dont il ne subsiste que des fragments, principalement chez Diodore. - Ionien d'Asie mineure, a été ambassadeur de Seleucos Ier auprès du roi indien Sandrakottos. - Actif entre 323 et 291 av. J.-C.. - Giovanni Nanni, de Viterbe, a placé sous son nom (Metasthenes Persae) divers textes qui sont autant de faux historiques"@fr ;
+    skos:prefLabel "Mégasthénès"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12968495s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12968495s#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur d'un ouvrage sur l'Inde dont il ne subsiste que des fragments, principalement chez Diodore. - Ionien d'Asie mineure, a été ambassadeur de Seleucos Ier auprès du roi indien Sandrakottos. - Actif entre 323 et 291 av. J.-C.. - Giovanni Nanni, de Viterbe, a placé sous son nom (Metasthenes Persae) divers textes qui sont autant de faux historiques" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:biographicalInformation "Auteur d'un ouvrage sur l'Inde dont il ne subsiste que des fragments, principalement chez Diodore. - Ionien d'Asie mineure, a été ambassadeur de Seleucos Ier auprès du roi indien Sandrakottos. - Actif entre 323 et 291 av. J.-C.. - Giovanni Nanni, de Viterbe, a placé sous son nom (Metasthenes Persae) divers textes qui sont autant de faux historiques" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 03.." ;
+    bio:death "- 02.." ;
+    = <http://fr.dbpedia.org/resource/M%C3%A9gasth%C3%A8ne>,
+        <http://viaf.org/viaf/262846250>,
+        <http://www.idref.fr/032724543/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12968495s#foaf:Person> ;
+    foaf:familyName "Mégasthénès" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12968495s> .
+

@@ -1,0 +1,70 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb425169880#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb166376271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45305233d#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb166376271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45594523w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb166376271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb473377188#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    bnfroles:r550 <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    marcrel:aui <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb166376271#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb166376271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb166376271> a skos:Concept ;
+    bnf-onto:FRBNF 16637627 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-08-08"^^xsd:date ;
+    isni:identifierValid "0000000118835098" ;
+    dcterms:created "2012-10-29" ;
+    dcterms:modified "2018-04-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb166376271> ;
+    skos:altLabel "Claudio de Stefani"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/1158710194>,
+        <http://id.loc.gov/authorities/nr2006018448>,
+        <https://www.persee.fr/authority/245165> ;
+    skos:editorialNote "Descriptio Sanctae Sophiae ; Descriptio ambonis / Paulus silentiarius ; edidit Claudio De Stefani, 2011. - . - Istituto Centrale per il Catalogo Unico (ICCU). - http://opac.sbn.it. - 2018-04-13"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000118835098>,
+        <http://viaf.org/viaf/166055249/>,
+        <http://wikidata.org/entity/Q110769259>,
+        <http://www.idref.fr/115871136> ;
+    skos:prefLabel "Claudio De Stefani"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb166376271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb166376271#about> a foaf:Person ;
+    bnf-onto:firstYear 1963 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/it> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/it> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/ita> ;
+    = <http://viaf.org/viaf/166055249>,
+        <http://www.idref.fr/115871136/id>,
+        <https://data.bnf.fr/ark:/12148/cb166376271#foaf:Person> ;
+    foaf:familyName "De Stefani" ;
+    foaf:gender "male" ;
+    foaf:givenName "Claudio" ;
+    foaf:name "Claudio De Stefani" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb166376271> .
+

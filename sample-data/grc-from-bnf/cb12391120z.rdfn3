@@ -1,0 +1,86 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12391120zstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12391120z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31945939m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391120z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391120z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391120z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39288833q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391120z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391120z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391120z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41100940h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391120z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391120z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391120z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42011418c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12391120z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12391120z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12391120z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12391120z> a skos:Concept ;
+    bnf-onto:FRBNF 12391120 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "0000000371449043" ;
+    dcterms:created "1994-05-10" ;
+    dcterms:modified "2015-03-12" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Chrysippe_de_Soles>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12391120z> ;
+    skos:altLabel "Khrúsippos (0280?-0200? av. J. C.)"@fr,
+        "Χρύσιππος (0280?-0200? av. J.-C.)"@fr,
+        "Crisippo (0280?-0220? av. J.-C.)"@it,
+        "Chrisippus (0280?-0200? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118520741>,
+        <http://datos.bne.es/resource/XX1316909>,
+        <http://id.loc.gov/authorities/nr94013919>,
+        <https://www.idref.fr/032999267> ;
+    skos:editorialNote "Clavis SGL. - . - DOC / V. Volpi, 1994. - . - Encycl. Grèce. - . -"@fr,
+        "GLU. - . -"@fr,
+        "Oeuvre philosophique / Chrysippe, 2004. - . - Dict. des philosophes / dir. D. Huisman, 1984. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Chrysippe_de_Soles>,
+        <http://fr.wikipedia.org/wiki/Chrysippe_de_Soles>,
+        <http://isni.org/isni/0000000371449043>,
+        <http://viaf.org/viaf/265285548/>,
+        <http://wikidata.org/entity/Q211411>,
+        <http://www.idref.fr/032999267/id> ;
+    skos:note "Philosophe et logicien stoïcien"@fr ;
+    skos:prefLabel "Chrysippe (0280?-0200? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12391120z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12391120z#about> a foaf:Person ;
+    bnf-onto:firstYear -280 ;
+    bnf-onto:lastYear -200 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe et logicien stoïcien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0280/> ;
+    rdagroup2elements:biographicalInformation "Philosophe et logicien stoïcien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0280/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 280" ;
+    bio:death "- 200" ;
+    = <http://fr.dbpedia.org/resource/Chrysippe_de_Soles>,
+        <http://viaf.org/viaf/265285548>,
+        <http://www.idref.fr/032999267/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12391120z#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Chrysippos%2520BM%25201846.jpg> ;
+    foaf:familyName "Chrysippe" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12391120z> .
+

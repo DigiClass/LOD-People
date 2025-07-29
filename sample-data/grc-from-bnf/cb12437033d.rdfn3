@@ -1,0 +1,48 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12437033dstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12437033d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12437033d> a skos:Concept ;
+    bnf-onto:FRBNF 12437033 ;
+    dcterms:created "1994-12-20" ;
+    dcterms:modified "2024-10-23" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12437033d> ;
+    skos:altLabel "ʼIásōn (tyran de Phères, 04..-0370? av. J.-C.)"@el,
+        "Ἰάσων (tyran de Phères, 04..-0370? av. J.-C.)"@el ;
+    skos:editorialNote "Thessaly in the Fourth century B.C. / H. D. Westlake, 1993. - . - Mourre. - . -"@fr ;
+    skos:exactMatch <http://www.idref.fr/061383295/id> ;
+    skos:note "Tyran de Phères de 380 environ à 370 environ av. J.-C."@fr ;
+    skos:prefLabel "Jason (tyran de Phères, 04..-0370? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12437033d#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12437033d#about> a foaf:Person ;
+    bnf-onto:lastYear -370 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Tyran de Phères de 380 environ à 370 environ av. J.-C." ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0370/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Tyran de Phères de 380 environ à 370 environ av. J.-C." ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0370/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 370" ;
+    = <http://www.idref.fr/061383295/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12437033d#foaf:Person> ;
+    foaf:familyName "Jason" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12437033d> .
+

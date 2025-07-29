@@ -1,0 +1,88 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12142862pstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12142862p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31328870r#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12142862p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb39007596j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12142862p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41395648v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12142862p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44298783m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12142862p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb47241126t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12142862p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12142862p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12142862p> a skos:Concept ;
+    bnf-onto:FRBNF 12142862 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000373893180" ;
+    dcterms:created "1990-03-27" ;
+    dcterms:modified "2016-08-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Posidippe>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12142862p> ;
+    skos:altLabel "Poseidippos (0312?-0280? av. J.-C.)"@fr,
+        "Poseídippos ho Pellaîos (0312?-0280? av. J.-C.)"@fr,
+        "Posidipo de Pela (0312?-0280? av. J.-C.)"@fr,
+        "Ποσείδιππος ὁ Πελλαῖος (0312?-0280? av. J.-C.)"@fr,
+        "Posidippus Pellensis (0312?-0280? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/11932816X>,
+        <http://datos.bne.es/resource/XX1161397>,
+        <http://id.loc.gov/authorities/nr97044893>,
+        <https://www.idref.fr/030604982> ;
+    skos:editorialNote "Encicl. italiana. - . - Der kleine Pauly. - . - Clavis SGL. - . -"@fr,
+        "Posidipo de Pela / [ed.] por Emilio Fernández-Galiano, 1987. - . - GLE. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Posidippe>,
+        <http://fr.wikipedia.org/wiki/Posidippe>,
+        <http://isni.org/isni/0000000373893180>,
+        <http://viaf.org/viaf/79066202/>,
+        <http://wikidata.org/entity/Q1392801>,
+        <http://www.idref.fr/030604982/id> ;
+    skos:note "Poète, sans doute élève d'Asclépiade de Samos"@fr ;
+    skos:prefLabel "Posidippe de Pella (0312?-0280? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12142862p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12142862p#about> a foaf:Person ;
+    bnf-onto:firstYear -312 ;
+    bnf-onto:lastYear -280 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète, sans doute élève d'Asclépiade de Samos" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0280/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0312/> ;
+    rdagroup2elements:biographicalInformation "Poète, sans doute élève d'Asclépiade de Samos" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0312/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0280/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 312" ;
+    bio:death "- 280" ;
+    = <http://fr.dbpedia.org/resource/Posidippe>,
+        <http://viaf.org/viaf/79066202>,
+        <http://www.idref.fr/030604982/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12142862p#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Erma%2520di%2520posidippo%252C%252050%2520ac%2520ca.%252C%2520in%2520marmo%2520pentelico%252C%252002.jpg> ;
+    foaf:familyName "Posidippe de Pella" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12142862p> .
+

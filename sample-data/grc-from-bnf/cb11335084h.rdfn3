@@ -1,0 +1,60 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30402090b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11335084h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11335084h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11335084h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30402093c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11335084h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11335084h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11335084h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11335084h> a skos:Concept ;
+    bnf-onto:FRBNF 11335084 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2014-05-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb11335084h> ;
+    skos:altLabel "Epiphanius Hierosolymitanus"@fr,
+        "E̓pifánios Hagiopolítīs"@fr,
+        "Épiphane de Jérusalem"@fr,
+        "Ἐπιφάνιος Ἁγιοπολίτης"@fr,
+        "Epiphanius Hagiopolita"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100940870>,
+        <https://www.idref.fr/192136461> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - BN Cat. gén. : Épiphane l'Hagiopolite (ou de Jérusalem). - . -"@fr,
+        "Epiphanii... edita et inedita ; cura Alberti Dressel, 1843. - . - Buchwald. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/308704048/>,
+        <http://wikidata.org/entity/Q124652454> ;
+    skos:note "Moine de Jérusalem. - Auteur d'un manuel de voyage sur la Syrie et la Ville Sainte"@fr ;
+    skos:prefLabel "Épiphane Hagiopolite"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11335084h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11335084h#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine de Jérusalem. - Auteur d'un manuel de voyage sur la Syrie et la Ville Sainte" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0801-0900/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:biographicalInformation "Moine de Jérusalem. - Auteur d'un manuel de voyage sur la Syrie et la Ville Sainte" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "08.." ;
+    bio:death "08.." ;
+    = <http://viaf.org/viaf/308704048>,
+        <https://data.bnf.fr/ark:/12148/cb11335084h#foaf:Person> ;
+    foaf:familyName "Épiphane Hagiopolite" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11335084h> .
+

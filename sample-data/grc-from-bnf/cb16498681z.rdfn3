@@ -1,0 +1,73 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb41836306z#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16498681z#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16498681z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16498681z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb418363079#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16498681z#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16498681z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16498681z#about> .
+
+<https://data.bnf.fr/temp-work/5eb6e6fcee6b24196ac538771f6fb736/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16498681z#about> .
+
+<https://data.bnf.fr/temp-work/9a030ede1f11c16c0b7b946e637c390e/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16498681z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16498681z> a skos:Concept ;
+    bnf-onto:FRBNF 16498681 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-10-06"^^xsd:date ;
+    isni:identifierValid "000000050381244X" ;
+    dcterms:created "2019-12-07" ;
+    dcterms:modified "2024-09-24" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16498681z> ;
+    skos:altLabel "ʼAmýntas 2 (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "ʼAmýntas V´ (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "ʼAmýntas ho Mikrós (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "Ἀμύντας 2 (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "Ἀμύντας Βʹ (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "Ἀμύντας ὁ Μικρός (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "Amyntas 2 (roi de Macédoine, 04..-0393 av. J.-C.)"@fr,
+        "Amyntas le Petit (roi de Macédoine, 04..-0393 av. J.-C.)"@fr ;
+    skos:editorialNote "Nomisma.org. - http://nomisma.org/id/amyntas_ii_macedon. - 2021-06-14 Handbook of Coins of Macedon and its Neighbors. Part I : Macedon, Illyria, and Epeiros. Sixth to First Centuries BC [Texte imprimé] / par O. Hoover.-Lancaster/London : Classical Numismatic Group, Inc., 2016, n° 818. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000050381244X>,
+        <http://viaf.org/viaf/5163408708900091764/> ;
+    skos:note "Roi de Macédoine de 394 à 393 av. J.-C."@fr ;
+    skos:prefLabel "Amyntas II (roi de Macédoine, 04..-0393 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16498681z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16498681z#about> a foaf:Person ;
+    bnf-onto:lastYear -393 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Roi de Macédoine de 394 à 393 av. J.-C." ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0393/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Roi de Macédoine de 394 à 393 av. J.-C." ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0393/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 393" ;
+    = <http://viaf.org/viaf/5163408708900091764>,
+        <https://data.bnf.fr/ark:/12148/cb16498681z#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b10303913p.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b103039144.thumbnail> ;
+    foaf:familyName "Amyntas" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16498681z> .
+

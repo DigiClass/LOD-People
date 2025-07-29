@@ -1,0 +1,64 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb466939848#Expression> bnfroles:r72 <https://data.bnf.fr/ark:/12148/cb17959030t#about> ;
+    marcrel:ant <https://data.bnf.fr/ark:/12148/cb17959030t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17959030t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46694014v#Expression> bnfroles:r72 <https://data.bnf.fr/ark:/12148/cb17959030t#about> ;
+    marcrel:ant <https://data.bnf.fr/ark:/12148/cb17959030t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17959030t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17959030t> a skos:Concept ;
+    bnf-onto:FRBNF 17959030 ;
+    dcterms:created "2021-07-28" ;
+    dcterms:modified "2021-07-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Arctinos_de_Milet>,
+        <https://catalogue.bnf.fr/ark:/12148/cb17959030t> ;
+    skos:altLabel "̓Arktínos"@fr,
+        "̓Arktínos Milí̄sios"@fr,
+        "Ἀρκτίνος"@fr,
+        "Ἀρκτίνος Μιλήσιος"@fr,
+        "Arctinus"@la,
+        "Arctinus Milesius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102381216>,
+        <https://www.idref.fr/190391642> ;
+    skos:editorialNote "La chute des légendes : d'après l'\"Éthiopide\" et \"le Sac de Troie\" d'Arctinos de Milet, VII, VIe siècle av. J.-C. / scénario, dessins et couleurs de Cosimo Ferri ; adaptation de Thierry Plée, DL 2021. - . - DOC / V. Volpi, 1994 : Arctinus ;  ̓Arktínos. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Arctinos_de_Milet>,
+        <http://fr.wikipedia.org/wiki/Arctinos_de_Milet>,
+        <http://viaf.org/viaf/5162842321373042492/>,
+        <http://wikidata.org/entity/Q554683> ;
+    skos:note "Poète épique, dont les oeuvres sont aujourd'hui perdues"@fr ;
+    skos:prefLabel "Arctinos de Milet"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17959030t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17959030t#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète épique, dont les oeuvres sont aujourd'hui perdues" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0800--0701/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0800--0701/> ;
+    rdagroup2elements:biographicalInformation "Poète épique, dont les oeuvres sont aujourd'hui perdues" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0800--0701/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0800--0701/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 07.." ;
+    bio:death "- 07.." ;
+    = <http://fr.dbpedia.org/resource/Arctinos_de_Milet>,
+        <http://viaf.org/viaf/5162842321373042492>,
+        <https://data.bnf.fr/ark:/12148/cb17959030t#foaf:Person> ;
+    foaf:familyName "Arctinos de Milet" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17959030t> .
+

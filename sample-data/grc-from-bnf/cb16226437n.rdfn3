@@ -1,0 +1,60 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb42177225z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16226437n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16226437n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16226437n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16226437n> a skos:Concept ;
+    bnf-onto:FRBNF 16226437 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "000000008125925X" ;
+    dcterms:created "2010-08-26" ;
+    dcterms:modified "2016-02-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16226437n> ;
+    skos:altLabel "Mark the monk (12..-12..)"@fr,
+        "Márkos Monachós (12..-12..)"@fr,
+        "Μάρκος Μοναχός (12..-12..)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/104652884X>,
+        <http://id.loc.gov/authorities/no2010052095> ;
+    skos:editorialNote "Marci monachi Opera ascetica : Florilegium et sermones tres / edidit Philipp Roelli, 2009. - . - LC Authorities : Marcus, Monachus, fl. 1265-1266. - http://authorities.loc.gov/. - 2010-08-27"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000008125925X>,
+        <http://viaf.org/viaf/47113740/>,
+        <http://wikidata.org/entity/Q85018169>,
+        <http://www.idref.fr/144514508> ;
+    skos:note "Moine byzantin. - Directeur spirituel d'Irène Paléologue (soeur de Michel VIII Paléologue et veuve de Jean Cantacuzène-Ange Comnène, entrée en religion) pour laquelle il écrivit un traité d'ascétique vers 1266"@fr ;
+    skos:prefLabel "Marcus Monachus (12..-12..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16226437n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16226437n#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine byzantin. - Directeur spirituel d'Irène Paléologue (soeur de Michel VIII Paléologue et veuve de Jean Cantacuzène-Ange Comnène, entrée en religion) pour laquelle il écrivit un traité d'ascétique vers 1266" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1201-1300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1201-1300/> ;
+    rdagroup2elements:biographicalInformation "Moine byzantin. - Directeur spirituel d'Irène Paléologue (soeur de Michel VIII Paléologue et veuve de Jean Cantacuzène-Ange Comnène, entrée en religion) pour laquelle il écrivit un traité d'ascétique vers 1266" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1201-1300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1201-1300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "12.." ;
+    bio:death "12.." ;
+    = <http://viaf.org/viaf/47113740>,
+        <http://www.idref.fr/144514508/id>,
+        <https://data.bnf.fr/ark:/12148/cb16226437n#foaf:Person> ;
+    foaf:familyName "Marcus Monachus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16226437n> .
+

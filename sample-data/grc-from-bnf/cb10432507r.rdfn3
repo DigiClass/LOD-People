@@ -1,0 +1,72 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30351756q#Expression> bnfroles:r3260 <https://data.bnf.fr/ark:/12148/cb10432507r#about> ;
+    bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb10432507r#about> ;
+    marcrel:bsl <https://data.bnf.fr/ark:/12148/cb10432507r#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb10432507r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10432507r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31124867j#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb10432507r#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb10432507r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10432507r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10432507r> a skos:Concept ;
+    bnf-onto:FRBNF 10432507 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-10-05"^^xsd:date ;
+    isni:identifierValid "0000000050141902" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2022-10-05" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb10432507r> ;
+    skos:altLabel "Demētrios Doukas (1480?-15..)",
+        "Δεμήτριος Δουκᾶς (1480?-15..)",
+        "Demetrios Dukas (1480?-15..)"@fr,
+        "Démétrios Doucas (1480?-15..)"@fr,
+        "Demetrio Ducas (1480?-15..)"@it,
+        "Demetrius Doucas (1480?-15..)"@la ;
+    skos:editorialNote "Borsa : ne le mentionne qu'en 1526. - . - Ascarelli, Menato. - . - Staikos, Sklavenitis. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000050141902>,
+        <http://www.idref.fr/105980862/id> ;
+    skos:note "Éditeur et professeur de grec. - Né en Crète vers 1480, il s'installe au début du XVIe siècle à Venise, où il collabore, en 1508 et 1509 au moins, avec Alde Manuce (Aldo I Manuzio) à l'édition de plusieurs ouvrages en grec. À partir de 1513, à l'invitation du cardinal Cisneros, il occupe une chaire de grec à l'université d'Alcalá. Il publie à ses frais, pour ses étudiants, les premiers livres grecs en Espagne et contribue à l'édition de la Bible polyglotte d'Alcalá. On le retrouve en 1526 et 1527 à Rome, professeur, éditeur d'ouvrages en grec et même imprimeur de l'un d'eux en oct. 1526 (d'après Deno John Geanakoplos, \"Bisanzio e il Rinascimento. Umanisti greci a Venezia e la diffusione del greco in Occidente (1400-1535)\", Roma, 1967). On perd ensuite sa trace"@fr ;
+    skos:prefLabel "Demetrios Doukas (1480?-15..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10432507r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10432507r#about> a foaf:Person ;
+    bnf-onto:firstYear 1480 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50098 "1526-1527" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Éditeur et professeur de grec. - Né en Crète vers 1480, il s'installe au début du XVIe siècle à Venise, où il collabore, en 1508 et 1509 au moins, avec Alde Manuce (Aldo I Manuzio) à l'édition de plusieurs ouvrages en grec. À partir de 1513, à l'invitation du cardinal Cisneros, il occupe une chaire de grec à l'université d'Alcalá. Il publie à ses frais, pour ses étudiants, les premiers livres grecs en Espagne et contribue à l'édition de la Bible polyglotte d'Alcalá. On le retrouve en 1526 et 1527 à Rome, professeur, éditeur d'ouvrages en grec et même imprimeur de l'un d'eux en oct. 1526 (d'après Deno John Geanakoplos, \"Bisanzio e il Rinascimento. Umanisti greci a Venezia e la diffusione del greco in Occidente (1400-1535)\", Roma, 1967). On perd ensuite sa trace" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1501-1600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1480/> ;
+    rdagroup2elements:biographicalInformation "Éditeur et professeur de grec. - Né en Crète vers 1480, il s'installe au début du XVIe siècle à Venise, où il collabore, en 1508 et 1509 au moins, avec Alde Manuce (Aldo I Manuzio) à l'édition de plusieurs ouvrages en grec. À partir de 1513, à l'invitation du cardinal Cisneros, il occupe une chaire de grec à l'université d'Alcalá. Il publie à ses frais, pour ses étudiants, les premiers livres grecs en Espagne et contribue à l'édition de la Bible polyglotte d'Alcalá. On le retrouve en 1526 et 1527 à Rome, professeur, éditeur d'ouvrages en grec et même imprimeur de l'un d'eux en oct. 1526 (d'après Deno John Geanakoplos, \"Bisanzio e il Rinascimento. Umanisti greci a Venezia e la diffusione del greco in Occidente (1400-1535)\", Roma, 1967). On perd ensuite sa trace" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1480/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1501-1600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:periodOfActivityOfThePerson "1526-1527" ;
+    bio:birth "1480" ;
+    bio:death "15.." ;
+    = <http://www.idref.fr/105980862/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb10432507r#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k8586633.thumbnail> ;
+    foaf:familyName "Doukas" ;
+    foaf:gender "male" ;
+    foaf:givenName "Demetrios" ;
+    foaf:name "Demetrios Doukas" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10432507r> .
+

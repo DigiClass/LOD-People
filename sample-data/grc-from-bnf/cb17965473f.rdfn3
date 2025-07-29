@@ -1,0 +1,69 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb17965473fstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb17965473f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46843139j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17965473f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17965473f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17965473f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb472183629#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17965473f#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17965473f#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17965473f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17965473f> a skos:Concept ;
+    bnf-onto:FRBNF 17965473 ;
+    dcterms:created "2021-09-08" ;
+    dcterms:modified "2022-07-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Antiphane>,
+        <https://catalogue.bnf.fr/ark:/12148/cb17965473f> ;
+    skos:altLabel "̓Antifánës (0408?-0334? av. J.-C.)"@fr,
+        "̓Antiphánīs (0408?-0334? av. J.-C.)"@fr,
+        "Ἀντιφάνης (0408?-0334? av. J.-C.)"@fr,
+        "Antiphanes (0408?-0334? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118645366>,
+        <http://id.loc.gov/authorities/no00091664>,
+        <http://isni.org/isni/0000000088431323>,
+        <https://www.idref.fr/079298303> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Encycl. Britannica. - https://www.britannica.com/biography/Antiphanes. - 2021-09-09 LC Authorities. - http://id.loc.gov/authorities/names/no00091664. - 2021-09-08"@fr,
+        "Sappho - Chrysis, Fragmenta incertarum fabularum, Fragmenta dubia / Antiphanes ; translation and commentary S. Douglas Olson, cop. 2021. - . - Larousse, 19e s.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Antiphane>,
+        <http://fr.wikipedia.org/wiki/Antiphane>,
+        <http://viaf.org/viaf/12163408434400090774/>,
+        <http://wikidata.org/entity/Q269301> ;
+    skos:note "Poète comique"@fr ;
+    skos:prefLabel "Antiphane (0408?-0334? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17965473f#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17965473f#about> a foaf:Person ;
+    bnf-onto:firstYear -408 ;
+    bnf-onto:lastYear -334 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète comique" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0334/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0408/> ;
+    rdagroup2elements:biographicalInformation "Poète comique" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0408/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0334/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 408" ;
+    bio:death "- 334" ;
+    = <http://fr.dbpedia.org/resource/Antiphane>,
+        <http://viaf.org/viaf/12163408434400090774>,
+        <https://data.bnf.fr/ark:/12148/cb17965473f#foaf:Person> ;
+    foaf:familyName "Antiphane" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17965473f> .
+

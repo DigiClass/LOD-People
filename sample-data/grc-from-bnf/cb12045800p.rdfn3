@@ -1,0 +1,91 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12045800pstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12045800p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34887297d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12045800p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12045800p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12045800p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12045800p> a skos:Concept ;
+    bnf-onto:FRBNF 12045800 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-02-20"^^xsd:date ;
+    isni:identifierValid "000000012149188X" ;
+    dcterms:created "1987-08-04" ;
+    dcterms:modified "2019-02-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nicolas_de_M%C3%A9thone>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12045800p> ;
+    skos:altLabel "Nicólaos (évêque de Méthone, 11..-1165?)"@el,
+        "Nicólaos Methṓnës (11..-1165?)"@el,
+        "Nikólaos (évêque de Méthone, 11..-1165?)"@el,
+        "Nikólaos Methṓnīs (11..-1165?)"@el,
+        "Νικόλαος (évêque de Méthone, 11..-1165?)"@el,
+        "Νικόλαος Μεθώνης (11..-1165?)"@el,
+        "Nicholas (évêque de Méthone, 11..-1165?)"@en,
+        "Nicholas of Methone (11..-1165?)"@en,
+        "Nicolas (évêque de Méthone, 11..-1165?)"@fr,
+        "Nicolaus (évêque de Méthone, 11..-1165?)"@la,
+        "Nicolaus Methonaeus (11..-1165?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100955126>,
+        <http://datos.bne.es/resource/XX1468314>,
+        <http://id.loc.gov/authorities/n88088546> ;
+    skos:editorialNote "BN Cat. gén. : Nicolas, évêque de Méthone. - . - BN Cat. gén. 1980-1996, grec : Nikólaos Methṓnīs. - . - BnF Service grec, 2013-08-28. - . -"@fr,
+        "Bibliothèque de l'Université de Chypre : Nikólaos, évêque de Méthone (12e s.). - http://beta.lib.ucy.ac.cy/el. - 2013-08-27 The Oxford dictionary of Byzantium. 2, 1991 : Nicholas of Methone. - . -"@fr,
+        "Karagiannópoulos : Nikólaos Methṓnīs (mort vers 1160). - . - Encycl. Pápyros : Nikólaos, évêque de Méthone (12e s.). - . - Bibliothèque nationale de Grèce : Nikólaos, évêque de Méthone (12e s.) ; Nikólaos Methṓnīs (12e s.). - http://www.nlg.gr. - 2013-08-27"@fr,
+        "Les oeuvres philosophiques. Tome 1, 1992 (Encyclopédie philosophique universelle. III) : Nicolas de Méthone. - . - Clavis SGL : Nicolaus Methonaeus episcopus. - . - Encycl. Grèce : Nikólaos, évêque de Méthone (mort vers 1165). - . -"@fr,
+        "̓Anáptyxis tî̄s Theologikî̄s stoicheiṓseōs Próklou platōnikoû filosófou / Nikoláou Methṓnīs = Refutation of Proclus' Elements of theology / Nicholas of Methone ; a critical ed. with an introd. on Nicholas' life and works by Athanasios D. Angelou, 1984. - . - DTC : Nicolas de Méthone. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nicolas_de_M%C3%A9thone>,
+        <http://fr.wikipedia.org/wiki/Nicolas_de_M%C3%A9thone>,
+        <http://isni.org/isni/000000012149188X>,
+        <http://viaf.org/viaf/54503577/>,
+        <http://wikidata.org/entity/Q5285705>,
+        <http://www.idref.fr/137181140> ;
+    skos:note "Théologien byzantin. - Évêque de Méthone, Messénie, Péloponnèse. - Ami et proche conseiller, notamment en matière théologique, de l'empereur Manuel Ier Comnène (1143-1180)"@fr ;
+    skos:prefLabel "Nicolas de Méthone (11..-1165?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12045800p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12045800p#about> a foaf:Person ;
+    bnf-onto:lastYear 1165 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/100/>,
+        <http://dewey.info/class/200/>,
+        "Philosophie",
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Théologien byzantin. - Évêque de Méthone, Messénie, Péloponnèse. - Ami et proche conseiller, notamment en matière théologique, de l'empereur Manuel Ier Comnène (1143-1180)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1165/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1101-1200/> ;
+    rdagroup2elements:biographicalInformation "Théologien byzantin. - Évêque de Méthone, Messénie, Péloponnèse. - Ami et proche conseiller, notamment en matière théologique, de l'empereur Manuel Ier Comnène (1143-1180)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1101-1200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1165/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/100/>,
+        <http://dewey.info/class/200/>,
+        "Philosophie",
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "11.." ;
+    bio:death "1165" ;
+    = <http://fr.dbpedia.org/resource/Nicolas_de_M%C3%A9thone>,
+        <http://viaf.org/viaf/54503577>,
+        <http://www.idref.fr/137181140/id>,
+        <https://bp16.bnf.fr/ark:/12148/cb12045800p>,
+        <https://data.bnf.fr/ark:/12148/cb12045800p#foaf:Person> ;
+    foaf:familyName "Nicolas de Méthone" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12045800p> .
+

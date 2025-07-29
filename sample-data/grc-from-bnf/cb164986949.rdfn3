@@ -1,0 +1,78 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb41821905v#Expression> bnfroles:r371 <https://data.bnf.fr/ark:/12148/cb164986949#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb164986949#about> .
+
+<https://data.bnf.fr/ark:/12148/cb418219066#Expression> bnfroles:r371 <https://data.bnf.fr/ark:/12148/cb164986949#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb164986949#about> .
+
+<https://data.bnf.fr/ark:/12148/cb418219302#Expression> bnfroles:r371 <https://data.bnf.fr/ark:/12148/cb164986949#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb164986949#about> .
+
+<https://data.bnf.fr/temp-work/43d9077960866ccb7d425c63fc6a4703/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb164986949#about> .
+
+<https://data.bnf.fr/temp-work/663cfc8398417161981eeaae38763df9/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb164986949#about> .
+
+<https://data.bnf.fr/temp-work/a8529565e65c62a4e07ed5307ee39c54/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb164986949#about> .
+
+<https://data.bnf.fr/temp-work/baea396f51cf2de5ffe77a3479905b07/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb164986949#about> .
+
+<https://data.bnf.fr/ark:/12148/cb164986949> a skos:Concept ;
+    bnf-onto:FRBNF 16498694 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2023-12-13"^^xsd:date ;
+    isni:identifierValid "0000000513394042" ;
+    dcterms:created "2019-12-07" ;
+    dcterms:modified "2024-09-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb164986949> ;
+    skos:altLabel "ʼAriaráthīs 8 (roi de Cappadoce, 01..-0095 av. J.-C)"@el,
+        "ʼAriaráthīs Ī´ (roi de Cappadoce, 01..-0095 av. J.-C)"@el,
+        "ʼAriaráthīs Ī´ ʼEpifanī́s (roi de Cappadoce, 01...-0095 av. J.-C.)"@el,
+        "Ἀριαράθης 8 (roi de Cappadoce, 01..-0095 av. J.-C.)"@el,
+        "Ἀριαράθης Ηʹ (roi de Cappadoce, 01..-0095 av. J.-C.)"@el,
+        "Ἀριαράθης Ηʹ Ἐπιφανής (roi de Cappadoce, 01-0095 av. J.-C.)"@el,
+        "Ariarathe 8 (roi de Cappadoce, 01..-0095 av. J.-C.)"@fr,
+        "Ariarathe VIII Épiphane (roi de Cappadoce, 01..-0095 av. J.-C.)"@fr,
+        "Ariarathes 8 (roi de Cappadoce, 01..-0095 av. J.-C.)"@la,
+        "Ariarathes VIII (roi de Cappadoce, 01..-0095 av. J.-C.)"@la,
+        "Ariarathes VIII Epiphanes (roi de Cappadoce, 01..-0095 av. J.-C.)"@la ;
+    skos:exactMatch <http://isni.org/isni/0000000513394042> ;
+    skos:note "Roi de Cappadoce de 101 ou 100 à 95 environ av. J.-C.. - Fils d'Ariarathe VI"@fr ;
+    skos:prefLabel "Ariarathe VIII (roi de Cappadoce, 01..-0095 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb164986949#about> .
+
+<https://data.bnf.fr/ark:/12148/cb164986949#about> a foaf:Person ;
+    bnf-onto:lastYear -95 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Roi de Cappadoce de 101 ou 100 à 95 environ av. J.-C.. - Fils d'Ariarathe VI" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0095/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Roi de Cappadoce de 101 ou 100 à 95 environ av. J.-C.. - Fils d'Ariarathe VI" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0095/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 01.." ;
+    bio:death "- 95" ;
+    = <https://data.bnf.fr/ark:/12148/cb164986949#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b8574538n.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b85745392.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8574563q.thumbnail> ;
+    foaf:familyName "Ariarathe" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb164986949> .
+

@@ -1,0 +1,70 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb14999891n#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb162496271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17820138w#about> dcterms:contributor <https://data.bnf.fr/ark:/12148/cb162496271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30998807b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb162496271#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb162496271#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb162496271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32476208j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb162496271#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb162496271#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb162496271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb162496271> a skos:Concept ;
+    bnf-onto:FRBNF 16249627 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-08"^^xsd:date ;
+    isni:identifierValid "0000000449236065" ;
+    dcterms:created "2010-12-09" ;
+    dcterms:modified "2019-06-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Antonius_Musa>,
+        <https://catalogue.bnf.fr/ark:/12148/cb162496271> ;
+    skos:closeMatch <http://d-nb.info/gnd/118973894>,
+        <http://datos.bne.es/resource/XX5596753>,
+        <http://id.loc.gov/authorities/no2019067800> ;
+    skos:editorialNote "BnF, Paris, Département des Manuscrits, Latin 6862 (daté IXe siècle). - . - Bibliographie des textes médicaux latins : Antiquité et haut moyen âge / dir. Guy Sabbah, 1987. - . -"@fr,
+        "Dizionario delle opere classiche / Volpi, 1994 : Musa, Antonius. - . - BnF, Département des Manuscrits, Service Médiéval, 2010-12-09. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Antonius_Musa>,
+        <http://fr.wikipedia.org/wiki/Antonius_Musa>,
+        <http://isni.org/isni/0000000449236065>,
+        <http://viaf.org/viaf/338149294242180521183/>,
+        <http://wikidata.org/entity/Q772773> ;
+    skos:note "Médecin d'Auguste (mentionné en 23 av. J.-C.)"@fr ;
+    skos:prefLabel "Antonius Musa (médecin, 00.. av. J.-C.-00..)"@la ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb162496271#about> .
+
+<https://data.bnf.fr/ark:/12148/cb162496271#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat> ;
+    rdaa:P50113 "Médecin d'Auguste (mentionné en 23 av. J.-C.)" ;
+    rdagroup2elements:biographicalInformation "Médecin d'Auguste (mentionné en 23 av. J.-C.)" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc>,
+        <http://id.loc.gov/vocabulary/iso639-2/lat> ;
+    bio:birth "- 00.." ;
+    bio:death "00.." ;
+    = <http://fr.dbpedia.org/resource/Antonius_Musa>,
+        <http://viaf.org/viaf/338149294242180521183>,
+        <https://data.bnf.fr/ark:/12148/cb162496271#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Antonius%2520Musa.%2520Bistre%2520wash%2520with%2520pencil%2520underdrawing.%2520Wellcome%2520V0004186.jpg> ;
+    foaf:familyName "Musa" ;
+    foaf:gender "male" ;
+    foaf:givenName "Antonius" ;
+    foaf:name "Antonius Musa" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb162496271> .
+

@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12256897pstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12256897p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30632595d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256897p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256897p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256897p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb320804112#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb12256897p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256897p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb355213441#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256897p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256897p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256897p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb412107274#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12256897p#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12256897p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12256897p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12256897p> a skos:Concept ;
+    bnf-onto:FRBNF 12256897 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-12"^^xsd:date ;
+    isni:identifierValid "0000000403609188" ;
+    dcterms:created "1992-07-28" ;
+    dcterms:modified "2017-03-28" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Ibycos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12256897p> ;
+    skos:altLabel "Ibukos"@fr,
+        "Í̓̓vykos"@fr,
+        "́̓Ibykos"@fr,
+        "Ἲβυκος"@fr,
+        "Ibico"@it,
+        "Ibycus Rhegius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118775448>,
+        <http://datos.bne.es/resource/XX1002297>,
+        <http://id.loc.gov/authorities/n90702411>,
+        <https://www.idref.fr/031333966> ;
+    skos:editorialNote "Alcman, Stesichorus, Ibycus / ed. Malcolm Davies, 1991. - . - GDEL : Ibycos. - . -"@fr,
+        "Clavis SGL : Ibycus Rhegius. - . - Laffont Bompiani, Auteurs : Ibycos de Rhégium. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Ibycos>,
+        <http://fr.wikipedia.org/wiki/Ibycos>,
+        <http://isni.org/isni/0000000403609188>,
+        <http://viaf.org/viaf/211785663/>,
+        <http://wikidata.org/entity/Q332802>,
+        <http://www.idref.fr/031333966/id> ;
+    skos:note "Poète lyrique. - Originaire de Rhegion, en Grande-Grèce"@fr ;
+    skos:prefLabel "Ibycos"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12256897p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12256897p#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète lyrique. - Originaire de Rhegion, en Grande-Grèce" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:biographicalInformation "Poète lyrique. - Originaire de Rhegion, en Grande-Grèce" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0600--0501/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 05.." ;
+    bio:death "- 05.." ;
+    = <http://fr.dbpedia.org/resource/Ibycos>,
+        <http://viaf.org/viaf/211785663>,
+        <http://www.idref.fr/031333966/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12256897p#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Reggio%2520calabria%2520monumento%2520ibico.jpg> ;
+    foaf:familyName "Ibycos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12256897p> .
+

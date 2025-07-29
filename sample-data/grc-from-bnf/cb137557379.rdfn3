@@ -1,0 +1,76 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb37706861d#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb137557379#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb137557379#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb137557379#about> .
+
+<https://data.bnf.fr/ark:/12148/cb137557379> a skos:Concept ;
+    bnf-onto:FRBNF 13755737 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-09-28"^^xsd:date ;
+    isni:identifierValid "0000000013558362" ;
+    dcterms:created "2001-12-07" ;
+    dcterms:modified "2022-12-29" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/D%C3%A9m%C3%A9trios_Lacon>,
+        <https://catalogue.bnf.fr/ark:/12148/cb137557379> ;
+    skos:altLabel "Demetrio Lacone"@fr,
+        "Demetrius Laconicus"@fr,
+        "Démétrios l'Épicurien"@fr,
+        "Démétrios le Laconien"@fr,
+        "Dēmḗtrios ho Lákōn"@fr,
+        "Dīmī́trios ho Lákōn"@fr,
+        "Δημήτριος ὁ Λάκων"@fr,
+        "Demetrius Lacon"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118886487>,
+        <http://datos.bne.es/resource/XX1072098>,
+        <http://id.loc.gov/authorities/n96084067>,
+        <https://www.idref.fr/066889243> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Encycl. Grèce. - . - GLE. - . -"@fr,
+        "La forma del Dio : PHerc. 1055 / Demetrio Lacone ; ed., trad. e commento a cura di Mariacarolina Santoro, 2000. - . - Les oeuvres philosophiques. Dictionnaire. Vol. 1 / sous la dir. de Jean-François Mattei, 1992. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/D%C3%A9m%C3%A9trios_Lacon>,
+        <http://fr.wikipedia.org/wiki/D%C3%A9m%C3%A9trios_Lacon>,
+        <http://isni.org/isni/0000000013558362>,
+        <http://viaf.org/viaf/29713850/>,
+        <http://wikidata.org/entity/Q1185502>,
+        <http://www.idref.fr/066889243/id> ;
+    skos:note "Philosophe. - Dirigea l'école épicurienne. - Disciple de Protarque"@fr ;
+    skos:prefLabel "Démétrius Lacon"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb137557379#about> .
+
+<https://data.bnf.fr/ark:/12148/cb137557379#about> a foaf:Person ;
+    rdaa:P50100 <http://dewey.info/class/100/>,
+        "Philosophie" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe. - Dirigea l'école épicurienne. - Disciple de Protarque" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Philosophe. - Dirigea l'école épicurienne. - Disciple de Protarque" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/100/>,
+        "Philosophie" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 01.." ;
+    bio:death "- 01.." ;
+    = <http://fr.dbpedia.org/resource/D%C3%A9m%C3%A9trios_Lacon>,
+        <http://viaf.org/viaf/29713850>,
+        <http://www.idref.fr/066889243/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb137557379#foaf:Person> ;
+    foaf:familyName "Démétrius Lacon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb137557379> .
+

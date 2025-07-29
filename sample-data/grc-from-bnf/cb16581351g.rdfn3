@@ -1,0 +1,70 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16581838n#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16581351g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31131848r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16581351g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16581351g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16581351g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb40059782s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16581351g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16581351g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16581351g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45759045j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16581351g#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16581351g#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16581351g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16581351g> a skos:Concept ;
+    bnf-onto:FRBNF 16581351 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "0000000079770681" ;
+    dcterms:created "2012-03-13" ;
+    dcterms:modified "2024-09-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb16581351g> ;
+    skos:altLabel "̓Iōánnīs  ̓Antiocheús (chroniqueur, 05..-06..)"@fr,
+        "Ἰωάννης Ἀντιοχεύς (chroniqueur, 05..-06..)"@fr,
+        "Ioannes Antiochenus (chroniqueur, 05..-06..)"@la,
+        "Joannes Antiochenus (chroniqueur, 05..-06..)"@la,
+        "Johannes Antiochenus (chroniqueur, 05..-06..)"@la ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - Encycl. Grèce. - . -"@fr,
+        "Ioannis Antiocheni Fragmenta ex Historia Chronica / introduzione, edizione critica e traduzione a cura di Umberto Roberto, 2005. - . - GLE. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000079770681>,
+        <http://viaf.org/viaf/263727662/> ;
+    skos:note "Chroniqueur byzantin. - Auteur d'une chronique allant d'Adam à l'accession au trône de l'empereur Héraclius (610)"@fr ;
+    skos:prefLabel "Jean d'Antioche (chroniqueur, 05..-06..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16581351g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16581351g#about> a foaf:Person ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Chroniqueur byzantin. - Auteur d'une chronique allant d'Adam à l'accession au trône de l'empereur Héraclius (610)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0601-0700/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Chroniqueur byzantin. - Auteur d'une chronique allant d'Adam à l'accession au trône de l'empereur Héraclius (610)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "06.." ;
+    = <http://viaf.org/viaf/263727662>,
+        <https://data.bnf.fr/ark:/12148/cb16581351g#foaf:Person> ;
+    foaf:familyName "Jean d'Antioche" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16581351g> .
+

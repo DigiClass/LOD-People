@@ -1,0 +1,107 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb10796482zstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb10796482z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31734614n#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb10796482z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10796482z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41386529b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10796482z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10796482z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10796482z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb420577441#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10796482z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10796482z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10796482z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10796482z> a skos:Concept ;
+    bnf-onto:FRBNF 10796482 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-16"^^xsd:date ;
+    isni:identifierValid "0000000120337661" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2013-07-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Art%C3%A9midore_%28g%C3%A9ographe%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb10796482z> ;
+    skos:altLabel "Artemidoros von Ephesos (01..-00.. av. J.-C.)"@de,
+        "Artemidorus der Geograph (01..-00.. av. J.-C.)"@de,
+        "Artemídōros (01..-00.. av. J.-C.)"@fr,
+        "Artemídōros o Efésios (01..-00.. av. J.-C.)"@fr,
+        "Artemídōros o Geōgráfos (01..-00.. av. J.-C.)"@fr,
+        "Artémidore (01..-00.. av. J.-C.)"@fr,
+        "Artémidore le Géographe (01..-00.. av. J.-C.)"@fr,
+        "̓Artemídōros (01..-00.. av. J.-C.)"@fr,
+        "̓Artemídōros ho  ̓Efésios (01..-00.. av. J.-C.)"@fr,
+        "̓Artemídōros ho  ̓Ephésios (01..-00.. av. J.-C.)"@fr,
+        "̓Artemídōros ho Geōgráfos (01..-00.. av. J.-C.)"@fr,
+        "̓Artemídōros ho Geōgráphos (01..-00.. av. J.-C.)"@fr,
+        "Αρτεμίδωρος (01..-00.. av. J.-C.)"@fr,
+        "Αρτεμίδωρος ο Γεωγράφος (01..-00.. av. J.-C.)"@fr,
+        "Αρτεμίδωρος ο Εφέσιος (01..-00.. av. J.-C.)"@fr,
+        "Ἀρτεμίδωρος (01..-00.. av. J.-C.)"@fr,
+        "Ἀρτεμίδωρος ὁ Γεωγράφος (01..-00.. av. J.-C.)"@fr,
+        "Ἀρτεμίδωρος ὁ Ἐφέσιος (01..-00.. av. J.-C.)"@fr,
+        "Artemidoro (01..-00.. av. J.-C.)"@it,
+        "Artemidoro di Efeso (01..-00.. av. J.-C.)"@it,
+        "Artemidorus (01..-00.. av. J.-C.)"@la,
+        "Artemidorus Ephesius (01..-00.. av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/10041768X>,
+        <http://id.loc.gov/authorities/n87857477> ;
+    skos:editorialNote "Bibliothèque de l'Université de Chypre : Artemídōros o Efésios (vécut aux alentours de 100 av. J.-C.). - http://beta.lib.ucy.ac.cy/el. - 2012-12-13 BN Cat. gén. : Artémidore d'Éphèse. - . -"@fr,
+        "Encycl. Grèce :  ̓Artemídōros ho Geōgráfos (vécut aux alentours de 100 av. J.-C.). - . - Encycl. Pápyros : Artemídōros (né vers 100 av. J.-C.). - . - Bibliothèque nationale de Grèce : Artemídōros o Efésios (IIe-Ier siècles av. J.-C.). - http://www.nlg.gr. - 2012-12-13"@fr,
+        "Geographica Marciani Heracleotae, Scylacis Caryandensis, Artemidori Ephesii, Dicaearchi Messenii, Isidori Characeni, omnia nunc primum, praeter Dicearchi illa / a Davide Hoeschelio edita, 1600. - . - Die Iberer im Westen und Osten : eine ethnographische Untersuchung über deren Stammverwandtschaft, nach der Mythe und Geschichte, mit Rücksicht auf die Cultur und Sprache dieses Volks ; nebst einer Ansicht der homerischen Kimmerier und der sogenannten homerischen Geographie überhaupt. Artemidorus der Geograph / von Dr. S. F. W. Hoffmann, 1838. - . - Périple : de Marcien d'Héraclée, Épitomé d'Artémidore, Isidore de Charax, etc., ou Supplément aux dernières éditions des Petits géographes / par E. Miller, 1839. - . -"@fr,
+        "Larousse 19e s.. - . - Larousse 20e s. : Artémidore le Géographe (fin du IIe siècele av. J.-C.). - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Marciani Periplus : Menippi Peripli fragmentum quod Artemidori nomine ferebatur. Peripli qui Stadiasmus magni maris inscribi solet fragmentum, Graece et Latine edidit / addita Dodwelli dissertatione, scripturis codicum, Hoeschelii, Hudsoni, aliorum et suis notis, S. F. Guil. Hoffmann, 1841. - . - P. Artemid. sive Artemidorus personatus / Artemidorus Ephesius ; edidit brevique commentario instruxit Societas emunctae naris ; curante Luciano Canfora, 2009. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Art%C3%A9midore_%28g%C3%A9ographe%29>,
+        <http://fr.wikipedia.org/wiki/Art%C3%A9midore_%28g%C3%A9ographe%29>,
+        <http://isni.org/isni/0000000120337661>,
+        <http://viaf.org/viaf/26128054/>,
+        <http://wikidata.org/entity/Q472620>,
+        <http://www.idref.fr/139723978> ;
+    skos:note "Géographe. - Le texte du manuscrit conservé au Museo egiziano, Turin, est d'attribution contestée"@fr ;
+    skos:prefLabel "Artémidore d'Éphèse (01..-00.. av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10796482z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10796482z#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        <http://dewey.info/class/910/>,
+        "Géographie",
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Géographe. - Le texte du manuscrit conservé au Museo egiziano, Turin, est d'attribution contestée" ;
+    rdaa:P50119 "Éphèse" ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:biographicalInformation "Géographe. - Le texte du manuscrit conservé au Museo egiziano, Turin, est d'attribution contestée" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0200--0101/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        <http://dewey.info/class/910/>,
+        "Géographie",
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Éphèse" ;
+    bio:birth "- 01.." ;
+    bio:death "- 00.." ;
+    = <http://fr.dbpedia.org/resource/Art%C3%A9midore_%28g%C3%A9ographe%29>,
+        <http://viaf.org/viaf/26128054>,
+        <http://www.idref.fr/139723978/id>,
+        <https://data.bnf.fr/ark:/12148/cb10796482z#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k3079099f/f1.item.thumbnail> ;
+    foaf:familyName "Artémidore d'Éphèse" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10796482z> .
+

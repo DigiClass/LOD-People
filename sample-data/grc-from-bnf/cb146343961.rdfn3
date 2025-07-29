@@ -1,0 +1,56 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb39234115v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb146343961#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb146343961#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb146343961#about> .
+
+<https://data.bnf.fr/ark:/12148/cb146343961> a skos:Concept ;
+    bnf-onto:FRBNF 14634396 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-08-02"^^xsd:date ;
+    isni:identifierValid "0000000116568918" ;
+    dcterms:created "2005-06-02" ;
+    dcterms:modified "2013-08-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb146343961> ;
+    skos:editorialNote "The life of St Philaretos the Merciful, written by his grandson Niketas : a critical ed. with introd., transl., notes, and indices / Lennart Rydén, 2002. - . - Biographisch-Bibliographisches Kirchenlexikon (art. Philaretos von Amnia). - http://www.bautz.de/bbkl/. - 2005-06-02"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000116568918>,
+        <http://viaf.org/viaf/61804790/> ;
+    skos:note "Moine. - Vécut à Constantinople puis en exil à Kariupolis dans le Péloponnèse. - Auteur vers 820, durant son exil, d'une vie de son grand-père et parrain saint Philarète"@fr ;
+    skos:prefLabel "Niketas (0785-08..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb146343961#about> .
+
+<https://data.bnf.fr/ark:/12148/cb146343961#about> a foaf:Person ;
+    bnf-onto:firstYear 785 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine. - Vécut à Constantinople puis en exil à Kariupolis dans le Péloponnèse. - Auteur vers 820, durant son exil, d'une vie de son grand-père et parrain saint Philarète" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0801-0900/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0785/> ;
+    rdagroup2elements:biographicalInformation "Moine. - Vécut à Constantinople puis en exil à Kariupolis dans le Péloponnèse. - Auteur vers 820, durant son exil, d'une vie de son grand-père et parrain saint Philarète" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0785/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "0785-02-17" ;
+    bio:death "08.." ;
+    = <http://viaf.org/viaf/61804790>,
+        <https://data.bnf.fr/ark:/12148/cb146343961#foaf:Person> ;
+    foaf:birthday "02-17" ;
+    foaf:familyName "Niketas" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb146343961> .
+

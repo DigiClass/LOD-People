@@ -1,0 +1,82 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16637385c#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb13755738n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37707594s#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13755738n#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13755738n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13755738n#about> .
+
+<https://data.bnf.fr/ark:/12148/cc102756w#Expression> bnfroles:r53 <https://data.bnf.fr/ark:/12148/cb13755738n#about> ;
+    marcrel:arr <https://data.bnf.fr/ark:/12148/cb13755738n#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13755738n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13755738n> a skos:Concept ;
+    bnf-onto:FRBNF 13755738 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-10-24"^^xsd:date ;
+    isni:identifierValid "0000000118273072" ;
+    dcterms:created "2001-12-07" ;
+    dcterms:modified "2013-10-24" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nil_Cabasilas>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13755738n> ;
+    skos:altLabel "Neilos (1285?-1363)",
+        "Neilos (archevêque de Thessalonique)",
+        "Neilos o Kabasilas",
+        "Nil (1285?-1363)"@fr,
+        "Nil (archevêque de Thessalonique)"@fr,
+        "Nilus (1285?-1363)"@la,
+        "Nilus (archevêque de Thessalonique)"@la,
+        "Nilus Cabasilas"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119555840>,
+        <http://datos.bne.es/resource/XX5564463>,
+        <http://id.loc.gov/authorities/nr00017053> ;
+    skos:editorialNote "Sur le Saint-Esprit / Nil Cabasilas ; introd., texte critique, trad. par le hiéromoine Théophile Kislas, 2001. - . - GDEL : Cabasilas (Nil) ; Kabasilas (Neilos o). - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nil_Cabasilas>,
+        <http://fr.wikipedia.org/wiki/Nil_Cabasilas>,
+        <http://isni.org/isni/0000000118273072>,
+        <http://viaf.org/viaf/17403574/>,
+        <http://wikidata.org/entity/Q3041512>,
+        <http://www.idref.fr/067721648> ;
+    skos:note "Archevêque de Thessalonique de 1361 à 1363"@fr ;
+    skos:prefLabel "Nil Cabasilas (1285?-1363)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13755738n#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13755738n#about> a foaf:Person ;
+    bnf-onto:firstYear 1285 ;
+    bnf-onto:lastYear 1363 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Archevêque de Thessalonique de 1361 à 1363" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1363/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1285/> ;
+    rdagroup2elements:biographicalInformation "Archevêque de Thessalonique de 1361 à 1363" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1285/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1363/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1285" ;
+    bio:death "1363" ;
+    = <http://fr.dbpedia.org/resource/Nil_Cabasilas>,
+        <http://viaf.org/viaf/17403574>,
+        <http://www.idref.fr/067721648/id>,
+        <https://data.bnf.fr/ark:/12148/cb13755738n#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b10722664f.thumbnail> ;
+    foaf:familyName "Cabasilas" ;
+    foaf:givenName "Nil" ;
+    foaf:name "Nil Cabasilas" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13755738n> .
+

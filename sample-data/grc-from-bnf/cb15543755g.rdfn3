@@ -1,0 +1,58 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb15543755gstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb15543755g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15543755g> a skos:Concept ;
+    bnf-onto:FRBNF 15543755 ;
+    dcterms:created "2007-06-28" ;
+    dcterms:modified "2012-02-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nicosth%C3%A9n%C3%A8s>,
+        <https://catalogue.bnf.fr/ark:/12148/cb15543755g> ;
+    skos:closeMatch <http://d-nb.info/gnd/121671992>,
+        <http://id.loc.gov/authorities/no00020067>,
+        <http://viaf.org/viaf/96538320>,
+        <https://www.idref.fr/070405271> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nicosth%C3%A9n%C3%A8s>,
+        <http://fr.wikipedia.org/wiki/Nicosth%C3%A9n%C3%A8s>,
+        <http://wikidata.org/entity/Q275165> ;
+    skos:note "Céramiste grec"@fr ;
+    skos:prefLabel "Nikosthenes (0550?-0525 av. J.C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb15543755g#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15543755g#about> a foaf:Person ;
+    bnf-onto:firstYear -550 ;
+    bnf-onto:lastYear -525 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/930/>,
+        "Archéologie. Préhistoire. Histoire ancienne" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Céramiste grec" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0525/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0550/> ;
+    rdagroup2elements:biographicalInformation "Céramiste grec" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0550/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0525/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/930/>,
+        "Archéologie. Préhistoire. Histoire ancienne" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 550" ;
+    bio:death "- 525" ;
+    = <http://fr.dbpedia.org/resource/Nicosth%C3%A9n%C3%A8s>,
+        <https://data.bnf.fr/ark:/12148/cb15543755g#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Nikosthenic%2520amphora%2520Louvre%2520F111.jpg> ;
+    foaf:familyName "Nikosthenes" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb15543755g> .
+

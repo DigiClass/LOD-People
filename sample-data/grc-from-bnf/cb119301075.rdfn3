@@ -1,0 +1,75 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb31052642m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119301075#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119301075#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119301075#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31052643z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119301075#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119301075#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119301075#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34801533w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119301075#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119301075#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119301075#about> .
+
+<https://data.bnf.fr/ark:/12148/cb119301075> a skos:Concept ;
+    bnf-onto:FRBNF 11930107 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000371170130" ;
+    dcterms:created "1985-06-22" ;
+    dcterms:modified "2015-03-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Palladius_%28m%C3%A9decin%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb119301075> ;
+    skos:altLabel "Palládios i̓atrosofistí̄s (05..-05..)"@fr,
+        "Palládios i̓atrosophisté̄s (05..-05..)"@fr,
+        "Παλλάδιος ἰατροσοφιστής (05..-05..)"@fr,
+        "Palladius Alexandrinus (05..-05..)"@la,
+        "Palladius Iatrosophistes (05..-05..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118591363>,
+        <http://id.loc.gov/authorities/n2024185801> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - BN Cat. gén. : Palladius, médecin grec. - . -"@fr,
+        "Palladius' Kommentar zu Hippokrates' \"De Fracturis\"... / kritische Ausgabe und Übersetzung von Dieter Irmer, 1977. - . - Clavis SGL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Palladius_%28m%C3%A9decin%29>,
+        <http://fr.wikipedia.org/wiki/Palladius_%28m%C3%A9decin%29>,
+        <http://isni.org/isni/0000000371170130>,
+        <http://viaf.org/viaf/223712473/>,
+        <http://wikidata.org/entity/Q7127720>,
+        <http://www.idref.fr/105634328> ;
+    skos:note "Médecin. - Originaire d'Alexandrie"@fr ;
+    skos:prefLabel "Palladius (05..-05..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb119301075#about> .
+
+<https://data.bnf.fr/ark:/12148/cb119301075#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Médecin. - Originaire d'Alexandrie" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Médecin. - Originaire d'Alexandrie" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://fr.dbpedia.org/resource/Palladius_%28m%C3%A9decin%29>,
+        <http://viaf.org/viaf/223712473>,
+        <http://www.idref.fr/105634328/id>,
+        <https://data.bnf.fr/ark:/12148/cb119301075#foaf:Person> ;
+    foaf:familyName "Palladius" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb119301075> .
+

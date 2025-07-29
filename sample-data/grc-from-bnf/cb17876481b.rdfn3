@@ -1,0 +1,54 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb46540066x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17876481b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17876481b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17876481b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb473007973#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17876481b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17876481b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17876481b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17876481b> a skos:Concept ;
+    bnf-onto:FRBNF 17876481 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-11-03"^^xsd:date ;
+    isni:identifierValid "0000000503964929" ;
+    dcterms:created "2020-06-15" ;
+    dcterms:modified "2021-11-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17876481b> ;
+    skos:exactMatch <http://isni.org/isni/0000000503964929>,
+        <http://viaf.org/viaf/89159397466319301672/>,
+        <http://www.idref.fr/248172425> ;
+    skos:note "Professeure de lettres grecques et FLE. - Organise des séjours culturels en France et en Grèce"@fr ;
+    skos:prefLabel "Sophia Dimopoulou"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17876481b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17876481b#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Professeure de lettres grecques et FLE. - Organise des séjours culturels en France et en Grèce" ;
+    rdagroup2elements:biographicalInformation "Professeure de lettres grecques et FLE. - Organise des séjours culturels en France et en Grèce" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <http://viaf.org/viaf/89159397466319301672>,
+        <http://www.idref.fr/248172425/id>,
+        <https://data.bnf.fr/ark:/12148/cb17876481b#foaf:Person> ;
+    foaf:familyName "Dimopoulou" ;
+    foaf:gender "female" ;
+    foaf:givenName "Sophia" ;
+    foaf:name "Sophia Dimopoulou" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17876481b> .
+

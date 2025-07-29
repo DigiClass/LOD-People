@@ -1,0 +1,95 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb305382172#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13562507z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb411151203#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13562507z#about> .
+
+<https://data.bnf.fr/ark:/12148/cc1116675/cN75022#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13562507z#about> .
+
+<https://data.bnf.fr/ark:/12148/cc1116675/cN92514#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13562507z#about> .
+
+<https://data.bnf.fr/ark:/12148/cc82977x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13562507z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13562507z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13562507z> a skos:Concept ;
+    bnf-onto:FRBNF 13562507 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-02-20"^^xsd:date ;
+    isni:identifierValid "0000000362015956" ;
+    dcterms:created "2000-07-05" ;
+    dcterms:modified "2024-02-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Gr%C3%A9goire_d%27Agrigente>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13562507z> ;
+    skos:altLabel "Gregorios ho Akragantos (saint)",
+        "Grégoire 2 (évêque d'Agrigente)"@fr,
+        "Grégoire II (évêque d'Agrigente)"@fr,
+        "Grégoire d'Agrigente (saint)"@fr,
+        "Grégoire d'Akragas (saint)"@fr,
+        "Gregorio (saint, 06.. ?-07.. ?)"@it,
+        "Gregorius (saint, 06.. ?-07.. ?)"@la,
+        "Gregorius 2 (évêque d'Agrigente)"@la,
+        "Gregorius Agrigentinus"@la,
+        "Gregorius II (évêque d'Agrigente)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119208512>,
+        <http://datos.bne.es/resource/XX1283554> ;
+    skos:editorialNote "DTC : GRÉGOIRE D'AGRIGENTE (saint). - . - Dict. spiritualité : GRÉGOIRE D'AGRIGENTE (saint). - . - BHG 707. - . -"@fr,
+        "Sancti Gregorii II,... Libri decem explanationis Ecclesiastae... ; quibus praeposita est Vita ejusdem pontificis a Leontio Monacho scripta, 1791  [éd. bilingue, grec-latin]. - . - DHGE : GRÉGOIRE (saint), évêque d'Agrigente. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Gr%C3%A9goire_d%27Agrigente>,
+        <http://fr.wikipedia.org/wiki/Gr%C3%A9goire_d%27Agrigente>,
+        <http://isni.org/isni/0000000362015956>,
+        <http://viaf.org/viaf/222282588/>,
+        <http://wikidata.org/entity/Q9282211>,
+        <http://www.idref.fr/118712950/id> ;
+    skos:note "Depuis le IXe siècle, un certain Grégoire, évêque d'Agrigente, est l'objet d'un culte dans l'Église orientale. - Ce Grégoire, qui aurait vécu au temps de Justinien II († 711), pourrait être le même que l'auteur du commentaire de l'Ecclésiaste"@fr,
+        "On connaît encore un Grégoire, évêque d'Agrigente, attesté en 591 dans la correspondance de saint Grégoire le Grand : cet évêque ne semble pas être l'auteur du commentaire de l'Ecclésiaste, et ne peut pas être le saint évêque d'Agrigente, contemporain de Justinien II († 711) - mais c'est ce personnage qui semble avoir inspiré la Vie de saint Grégoire écrite vers la fin du VIIe siècle par Léonce, higoumène ou abbé de Saint-Sabas, à Rome"@fr,
+        "Évêque d'Agrigente (en grec, Akragas ; ou encore Girgenti), auteur d'un commentaire en dix livres sur l'Ecclésiaste, texte écrit au VIIIe siècle ?"@fr ;
+    skos:prefLabel "Grégoire (saint, 06.. ?-07.. ?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13562507z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13562507z#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Depuis le IXe siècle, un certain Grégoire, évêque d'Agrigente, est l'objet d'un culte dans l'Église orientale. - Ce Grégoire, qui aurait vécu au temps de Justinien II († 711), pourrait être le même que l'auteur du commentaire de l'Ecclésiaste",
+        "On connaît encore un Grégoire, évêque d'Agrigente, attesté en 591 dans la correspondance de saint Grégoire le Grand : cet évêque ne semble pas être l'auteur du commentaire de l'Ecclésiaste, et ne peut pas être le saint évêque d'Agrigente, contemporain de Justinien II († 711) - mais c'est ce personnage qui semble avoir inspiré la Vie de saint Grégoire écrite vers la fin du VIIe siècle par Léonce, higoumène ou abbé de Saint-Sabas, à Rome",
+        "Évêque d'Agrigente (en grec, Akragas ; ou encore Girgenti), auteur d'un commentaire en dix livres sur l'Ecclésiaste, texte écrit au VIIIe siècle ?" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0701-0800/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:biographicalInformation "Depuis le IXe siècle, un certain Grégoire, évêque d'Agrigente, est l'objet d'un culte dans l'Église orientale. - Ce Grégoire, qui aurait vécu au temps de Justinien II († 711), pourrait être le même que l'auteur du commentaire de l'Ecclésiaste",
+        "On connaît encore un Grégoire, évêque d'Agrigente, attesté en 591 dans la correspondance de saint Grégoire le Grand : cet évêque ne semble pas être l'auteur du commentaire de l'Ecclésiaste, et ne peut pas être le saint évêque d'Agrigente, contemporain de Justinien II († 711) - mais c'est ce personnage qui semble avoir inspiré la Vie de saint Grégoire écrite vers la fin du VIIe siècle par Léonce, higoumène ou abbé de Saint-Sabas, à Rome",
+        "Évêque d'Agrigente (en grec, Akragas ; ou encore Girgenti), auteur d'un commentaire en dix livres sur l'Ecclésiaste, texte écrit au VIIIe siècle ?" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0701-0800/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "06.." ;
+    bio:death "07.." ;
+    = <http://fr.dbpedia.org/resource/Gr%C3%A9goire_d%27Agrigente>,
+        <http://viaf.org/viaf/222282588>,
+        <http://www.idref.fr/118712950/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb13562507z#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/San%2520Gregorio%2520II%2520di%2520Agrigento.JPG>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8458136w.thumbnail> ;
+    foaf:familyName "Grégoire" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13562507z> .
+

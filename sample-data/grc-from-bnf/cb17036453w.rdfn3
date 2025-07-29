@@ -1,0 +1,64 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb170374534#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb17036453w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb424845969#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17036453w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17036453w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17036453w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb450001969#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17036453w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17036453w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17036453w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb471097508#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17036453w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17036453w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17036453w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17036453w> a skos:Concept ;
+    bnf-onto:FRBNF 17036453 ;
+    dcterms:created "2016-03-31" ;
+    dcterms:modified "2016-04-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17036453w> ;
+    skos:altLabel "̓Anṓnymos tou Londínou"@fr,
+        "Ἀνώνυμος του Λονδίνου"@fr,
+        "Anonimo Londinese"@it,
+        "Anonymus Londinensis"@la,
+        "Anonymus Londiniensis"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102386617>,
+        <http://id.loc.gov/authorities/n2005090143>,
+        <http://isni.org/isni/0000000387326902> ;
+    skos:editorialNote "L'Anonyme de Londres... : un papyrus médical grec du Ier siècle après J.-C. / texte établi et traduit par Antonio Ricciardetto, 2016. - . - DOC / V. Volpi, 1991 : Anonymus Londiniensis. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/88632213/>,
+        <http://wikidata.org/entity/Q107676132>,
+        <http://www.idref.fr/155460838> ;
+    skos:note "Auteur d'un texte médical"@fr ;
+    skos:prefLabel "Anonyme de Londres"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17036453w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17036453w#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur d'un texte médical" ;
+    rdagroup2elements:biographicalInformation "Auteur d'un texte médical" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "00.." ;
+    bio:death "00.." ;
+    = <http://viaf.org/viaf/88632213>,
+        <http://www.idref.fr/155460838/id>,
+        <https://data.bnf.fr/ark:/12148/cb17036453w#foaf:Person> ;
+    foaf:familyName "Anonyme de Londres" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17036453w> .
+

@@ -1,0 +1,73 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb135175748#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12349763s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35663554c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12349763s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12349763s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12349763s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb373972228#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12349763s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12349763s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12349763s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb452129580#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12349763s#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12349763s#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12349763s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12349763s> a skos:Concept ;
+    bnf-onto:FRBNF 12349763 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-26"^^xsd:date ;
+    isni:identifierValid "000000007992648X" ;
+    dcterms:created "1993-11-24" ;
+    dcterms:modified "2017-06-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12349763s> ;
+    skos:altLabel "Theodósios ho Diákonos"@fr,
+        "Théodose (diacre, 09..-09..)"@fr,
+        "Théodose le Diacre"@fr,
+        "Θεοδόσιος ὁ Διάκονος"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/100962491>,
+        <http://id.loc.gov/authorities/n85070582> ;
+    skos:editorialNote "DOC / V. Volpi, 1994. - . - BN Cat. gén. : Théodose, diacre à Constantinople. - . -"@fr,
+        "Theodosii Diaconi De Creta capta / ed. Hugo Criscuolo, 1979. - . - Clavis SGL : Theodosius Diaconus historicus. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000007992648X>,
+        <http://viaf.org/viaf/42197170/>,
+        <http://wikidata.org/entity/Q7782190>,
+        <http://www.idref.fr/032474539> ;
+    skos:note "Diacre à Constantinople. - Auteur d'un poème panégyrique sur la victoire de Byzance en Crète (961) et en Syrie sur les Sarrasins. - Pas de forme française attestée, 1993-11-25"@fr ;
+    skos:prefLabel "Theodosius Diaconus"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12349763s#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12349763s#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Diacre à Constantinople. - Auteur d'un poème panégyrique sur la victoire de Byzance en Crète (961) et en Syrie sur les Sarrasins. - Pas de forme française attestée, 1993-11-25" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0901-1000/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:biographicalInformation "Diacre à Constantinople. - Auteur d'un poème panégyrique sur la victoire de Byzance en Crète (961) et en Syrie sur les Sarrasins. - Pas de forme française attestée, 1993-11-25" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "09.." ;
+    bio:death "09.." ;
+    = <http://viaf.org/viaf/42197170>,
+        <http://www.idref.fr/032474539/id>,
+        <https://data.bnf.fr/ark:/12148/cb12349763s#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k8405127/f3.item.thumbnail> ;
+    foaf:familyName "Theodosius Diaconus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12349763s> .
+

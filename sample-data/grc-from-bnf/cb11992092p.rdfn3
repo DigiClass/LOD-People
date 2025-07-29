@@ -1,0 +1,92 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb11992092pstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb11992092p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41813063t#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb11992092p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb11992092p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11992092p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb418130645#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb11992092p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb11992092p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11992092p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41813066v#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb11992092p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb11992092p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11992092p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41813122h#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb11992092p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb11992092p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11992092p#about> .
+
+<https://data.bnf.fr/temp-work/5346db3d7afbbd4555374587fc4a8637/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb11992092p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11992092p> a skos:Concept ;
+    bnf-onto:FRBNF 11992092 ;
+    dcterms:created "1986-02-03" ;
+    dcterms:modified "2024-10-17" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Cl%C3%A9om%C3%A8ne_III>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11992092p> ;
+    skos:altLabel "Kleomenês 3 (roi de Sparte, 02..-0219 av. J.-C.)",
+        "Kleomenês G´ (roi de Sparte, 02..-0219 av. J.-C.)",
+        "Kleoménīs 3 (roi de Sparte, 02..-0219 av. J.-C.)"@el,
+        "Kleoménīs G´ (roi de Sparte, 02..-0219 av. J.-C.)"@el,
+        "Κλεομένης 3 (roi de Sparte, 02..-0219 av. J.-C.)"@el,
+        "Κλεομένης Γʹ (roi de Sparte, 02..-0219 av. J.-C.)"@el,
+        "Cléomène 3 (roi de Sparte, 02..-0219 av. J.-C.)"@fr,
+        "Cleomenes 3 (roi de Sparte, 02..-0219 av. J.-C.)"@la,
+        "Cleomenes III (roi de Sparte, 02..-0219 av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102385173>,
+        <http://id.loc.gov/authorities/n83206533> ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Cl%C3%A9om%C3%A8ne_III>,
+        <http://fr.wikipedia.org/wiki/Cl%C3%A9om%C3%A8ne_III>,
+        <http://viaf.org/viaf/232153040/>,
+        <http://wikidata.org/entity/Q310811>,
+        <http://www.idref.fr/083471308> ;
+    skos:note "Roi de Sparte de 235 à 222 av. J.-C.. - Fils et successeur de Léonidas II"@fr ;
+    skos:prefLabel "Cléomène III (roi de Sparte, 02..-0219 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11992092p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11992092p#about> a foaf:Person ;
+    bnf-onto:lastYear -219 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Roi de Sparte de 235 à 222 av. J.-C.. - Fils et successeur de Léonidas II" ;
+    rdaa:P50118 "Alexandrie (Égypte)" ;
+    rdaa:P50119 "Sparte" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0219/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:biographicalInformation "Roi de Sparte de 235 à 222 av. J.-C.. - Fils et successeur de Léonidas II" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0300--0201/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0219/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Sparte" ;
+    rdagroup2elements:placeOfDeath "Alexandrie (Égypte)" ;
+    bio:birth "- 02.." ;
+    bio:death "- 219" ;
+    = <http://fr.dbpedia.org/resource/Cl%C3%A9om%C3%A8ne_III>,
+        <http://viaf.org/viaf/232153040>,
+        <http://www.idref.fr/083471308/id>,
+        <https://data.bnf.fr/ark:/12148/cb11992092p#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Sparta-02.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b85699834.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8569984j.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8569986c.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8570042k.thumbnail> ;
+    foaf:familyName "Cléomène" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11992092p> .
+

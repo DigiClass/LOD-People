@@ -1,0 +1,103 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12542649mstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30410498x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30410750r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb304107513#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30410752f#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31039776g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32085820b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38970574d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12542649m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12542649m> a skos:Concept ;
+    bnf-onto:FRBNF 12542649 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-29"^^xsd:date ;
+    isni:identifierValid "0000000119992095" ;
+    dcterms:created "1996-11-29" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Eustathe_d%27Antioche>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12542649m> ;
+    skos:altLabel "Eustathios von Antiochen (02..?-0337?)"@de,
+        "Eustathius of Antioch (02..?-0337?)"@en,
+        "Eustathe (saint, 02..?-0337?)"@fr,
+        "Eu̓stathios A̓ntiocheías (02..-?-0337?)"@fr,
+        "Εὐστάθιος Ἀντιοχείας (02..?-0337?)"@fr,
+        "Eustazio di Antiochia (02..?-0337?)"@it,
+        "Eustathius (saint, 02..?-0337?)"@la,
+        "Eustathius Antiochensis (02..?-0337?)"@la,
+        "Eustathius Antiochenus (02..?-0337?)"@la,
+        "Eustathius Beroiensis (02..?-0337?)"@la,
+        "Eustathius Sidetes (02..?-0337?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118682741>,
+        <http://id.loc.gov/authorities/no92025966> ;
+    skos:editorialNote "Berthelot. - . - Larousse 19e s. : Eustathe (Saint). - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Clavis SGL : Eustathius Antiochenus episcopus. - . - Marietti : Eustazio di Antiochia. - . -"@fr,
+        "DTC. - . - Dict. spiritualité : Eustathe d'Antioche (saint). - . - Dix mille saints : dictionnaire hagiographique / réd. par les Bénédictins de Ramsgate, 1991. - . -"@fr,
+        "[Des H. Eustathius Beurtheilung des Origenes betreffend die Auffassung der Wahrsagerin und die bezügliche Homilie des Origenes / hrsg. von Albert Jahn] i̲n̲ Die Lehre der zwölf Apostel nebst Untersuchungen zur ältesten Geschichte der Kirchenverfassung und des Kirchenrechts / von Adolf Harnack, 1991 [reprod. de l'éd. de 1886]. - . - DHGE. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Eustathe_d%27Antioche>,
+        <http://fr.wikipedia.org/wiki/Eustathe_d%27Antioche>,
+        <http://isni.org/isni/0000000119992095>,
+        <http://viaf.org/viaf/89048336/>,
+        <http://wikidata.org/entity/Q511971>,
+        <http://www.idref.fr/059912189> ;
+    skos:note "Évêque de Bérée en Syrie puis patriarche d'Antioche de 324 à 330. - Adversaire de l'arianisme, il mourut exilé par les ariens"@fr ;
+    skos:prefLabel "Eustathe d'Antioche (02..?-0337?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12542649m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12542649m#about> a foaf:Person ;
+    bnf-onto:lastYear 337 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Évêque de Bérée en Syrie puis patriarche d'Antioche de 324 à 330. - Adversaire de l'arianisme, il mourut exilé par les ariens" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0337/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Évêque de Bérée en Syrie puis patriarche d'Antioche de 324 à 330. - Adversaire de l'arianisme, il mourut exilé par les ariens" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0337/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "337" ;
+    = <http://fr.dbpedia.org/resource/Eustathe_d%27Antioche>,
+        <http://viaf.org/viaf/89048336>,
+        <http://www.idref.fr/059912189/id>,
+        <https://data.bnf.fr/ark:/12148/cb12542649m#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Eustace%2520of%2520Antioch.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k411625r.thumbnail> ;
+    foaf:familyName "Eustathe d'Antioche" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12542649m> .
+

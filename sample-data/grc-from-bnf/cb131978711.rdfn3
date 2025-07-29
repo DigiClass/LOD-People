@@ -1,0 +1,89 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb131978711studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb131978711#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30606621g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb131978711#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb131978711#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb131978711#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30924062v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb131978711#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb131978711#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb131978711#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31979082v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb131978711#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb131978711#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb131978711#about> .
+
+<https://data.bnf.fr/ark:/12148/cb131978711> a skos:Concept ;
+    bnf-onto:FRBNF 13197871 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2025-03-19"^^xsd:date ;
+    isni:identifierValid "0000000109474040" ;
+    dcterms:created "1997-04-29" ;
+    dcterms:modified "2025-03-19" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Crat%C3%A8s_de_Th%C3%A8bes>,
+        <https://catalogue.bnf.fr/ark:/12148/cb131978711> ;
+    skos:altLabel "Cratès le Cynique (0365?-0285 av. J.-C.)"@fr,
+        "Krátīs ho Thīvaîos (0365?-0285 av. J.C.)"@fr,
+        "Krátēs ho Thëbaîos (0365?-0285 av. J.-C.)"@fr,
+        "Κράτης ὁ Θηβαῖος (0365?-0285 av. J.C.)"@fr,
+        "Cratete di Tebe (0365?-0285 av. J.-C.)"@it,
+        "Crates Cynicus (0365?-0285 av. J.-C.)"@la,
+        "Crates Thebanus (0365?-0285 av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118715534>,
+        <http://datos.bne.es/resource/XX5300569>,
+        <http://id.loc.gov/authorities/n96104516> ;
+    skos:editorialNote "Clavis SGL : Crates Thebanus. - . - DOC / V. Volpi, 1994. - . - Encycl. Grèce. - . -"@fr,
+        "Cratetis fragmenta, 1867. - . - Dictionnaire de l'Antiquité / sous la dir. de M. C. Howatson, 1993. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Crat%C3%A8s_de_Th%C3%A8bes>,
+        <http://fr.wikipedia.org/wiki/Crat%C3%A8s_de_Th%C3%A8bes>,
+        <http://isni.org/isni/0000000109474040>,
+        <http://viaf.org/viaf/261346802/>,
+        <http://wikidata.org/entity/Q317947>,
+        <http://www.idref.fr/034941096> ;
+    skos:note "Philosophe cynique"@fr ;
+    skos:prefLabel "Cratès de Thèbes (0365?-0285 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb131978711#about> .
+
+<https://data.bnf.fr/ark:/12148/cb131978711#about> a foaf:Person ;
+    bnf-onto:firstYear -365 ;
+    bnf-onto:lastYear -285 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe cynique" ;
+    rdaa:P50119 "Thèbes (Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0285/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0365/> ;
+    rdagroup2elements:biographicalInformation "Philosophe cynique" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0365/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0285/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Thèbes (Grèce)" ;
+    bio:birth "- 365" ;
+    bio:death "- 285" ;
+    = <http://fr.dbpedia.org/resource/Crat%C3%A8s_de_Th%C3%A8bes>,
+        <http://viaf.org/viaf/261346802>,
+        <http://www.idref.fr/034941096/id>,
+        <https://data.bnf.fr/ark:/12148/cb131978711#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Crates%2520of%2520Thebes%2520Villa%2520Farnesina.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k28211h/f12.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8604273c.thumbnail> ;
+    foaf:familyName "Cratès de Thèbes" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb131978711> .
+

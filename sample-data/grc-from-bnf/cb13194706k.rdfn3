@@ -1,0 +1,52 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13194706kstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13194706k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb181332815#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb13194706k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb47399456q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13194706k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13194706k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13194706k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13194706k> a skos:Concept ;
+    bnf-onto:FRBNF 13194706 ;
+    dcterms:created "1998-06-15" ;
+    dcterms:modified "2017-11-29" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb13194706k> ;
+    skos:altLabel "'Aétios (00.. av. J.-C.- 00..)"@fr,
+        "Ἀέτιος (00.. av. J.-C.- 00..)"@fr ;
+    skos:editorialNote "Aëtiana : the method and intellectual context of a doxographer. Vol. The sources / J. Mansfeld and D. T. Runia, 1997. - . - Encyclopédie philosophique universelle : les Oeuvres philosophiques / J.-F. Mattéi, 1992. - . -"@fr,
+        "Dict. des philosophes antiques / R. Goulet, 1989. - . - BN Cat. gén. : Aetius (doxographe). - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/218502891/>,
+        <http://www.idref.fr/135662680/id> ;
+    skos:note "Doxographe ayant vécu entre la fin du premier siècle avant J.-C. et le début du 1er siècle après J.-C."@fr ;
+    skos:prefLabel "Aetius (00.. av. J.-C.- 00..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13194706k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13194706k#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Doxographe ayant vécu entre la fin du premier siècle avant J.-C. et le début du 1er siècle après J.-C." ;
+    rdagroup2elements:biographicalInformation "Doxographe ayant vécu entre la fin du premier siècle avant J.-C. et le début du 1er siècle après J.-C." ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 00.." ;
+    bio:death "00.." ;
+    = <http://viaf.org/viaf/218502891>,
+        <http://www.idref.fr/135662680/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb13194706k#foaf:Person> ;
+    foaf:familyName "Aetius" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13194706k> .
+

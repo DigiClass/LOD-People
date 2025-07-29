@@ -1,0 +1,113 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13514583hstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb171123522> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb300100028#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30010003m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb312069103#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb317100556#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31710056j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33237482q#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb13514583h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13514583h> a skos:Concept ;
+    bnf-onto:FRBNF 13514583 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-09-25"^^xsd:date ;
+    isni:identifierValid "0000000066788604" ;
+    dcterms:created "1999-10-14" ;
+    dcterms:modified "2024-09-25" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Alexis_Ier_Comn%C3%A8ne>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13514583h> ;
+    skos:altLabel "'Aléxios 1 (empereur de Byzance, 1057?-1118)"@fr,
+        "'Aléxios A' (empereur de Byzance, 1057?-1118)"@fr,
+        "'Aléxios A' Komnēnòs (empereur de Byzance, 1057?-1118)"@fr,
+        "'Aléxios A' Komnīnòs (empereur de Byzance, 1057?-1118)"@fr,
+        "'Aléxios Komnēnós (1057?-1118)"@fr,
+        "'Aléxios Komnīnós (1057?-1118)"@fr,
+        "Alexis 1 (empereur de Byzance, 1057?-1118)"@fr,
+        "Alexis Comnène (1057?-1118)"@fr,
+        "Alexis Ier Comnène (empereur de Byzance, 1057?-1118)"@fr,
+        "Ἀλέξιος 1 (empereur de Byzance, 1057?-1118)"@fr,
+        "Ἀλέξιος Αʹ (empereur de Byzance, 1057?-1118)"@fr,
+        "Ἀλέξιος Αʹ Κομνηὸς (empereur de Byzance, 1057?-1118)"@fr,
+        "Ἀλέξιος Κομνηνός (1057?-1118)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/118501925>,
+        <http://datos.bne.es/resource/XX1227487>,
+        <http://id.loc.gov/authorities/n50058321> ;
+    skos:editorialNote "Larousse 20e s. [né en 1048]. - . - Encycl. Grèce. - . - Encycl. Pápyros. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Alexis_Ier_Comn%C3%A8ne>,
+        <http://fr.wikipedia.org/wiki/Alexis_Ier_Comn%C3%A8ne>,
+        <http://isni.org/isni/0000000066788604>,
+        <http://viaf.org/viaf/203043065/>,
+        <http://wikidata.org/entity/Q41600>,
+        <http://www.idref.fr/050483064> ;
+    skos:note "Empereur byzantin du 1er avril 1081 au 15 août 1118. - Fondateur, après son oncle Isaac Ier (empereur de 1057 à 1059), de la dynastie des Comnène. - Père d'Anne Comnène, auteur de l'\"Alexiade\""@fr ;
+    skos:prefLabel "Alexis Ier (empereur de Byzance, 1057?-1118)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13514583h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13514583h#about> a foaf:Person ;
+    bnf-onto:firstYear 1057 ;
+    bnf-onto:lastYear 1118 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50100 <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Empereur byzantin du 1er avril 1081 au 15 août 1118. - Fondateur, après son oncle Isaac Ier (empereur de 1057 à 1059), de la dynastie des Comnène. - Père d'Anne Comnène, auteur de l'\"Alexiade\"" ;
+    rdaa:P50118 "Constantinople" ;
+    rdaa:P50119 "Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1118/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1057/> ;
+    rdagroup2elements:biographicalInformation "Empereur byzantin du 1er avril 1081 au 15 août 1118. - Fondateur, après son oncle Isaac Ier (empereur de 1057 à 1059), de la dynastie des Comnène. - Père d'Anne Comnène, auteur de l'\"Alexiade\"" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1057/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1118/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/940/>,
+        "Histoire de l'Europe" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Constantinople" ;
+    rdagroup2elements:placeOfDeath "Constantinople" ;
+    bio:birth "1057" ;
+    bio:death "1118-08-19" ;
+    = <http://fr.dbpedia.org/resource/Alexis_Ier_Comn%C3%A8ne>,
+        <http://viaf.org/viaf/203043065>,
+        <http://www.idref.fr/050483064/id>,
+        <https://data.bnf.fr/ark:/12148/cb13514583h#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Alexios%2520I%2520Komnenos.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k111230b.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b8529378n.thumbnail> ;
+    foaf:familyName "Alexis" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13514583h> .
+

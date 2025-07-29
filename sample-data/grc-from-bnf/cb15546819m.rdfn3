@@ -1,0 +1,96 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb15546819mstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb15546819m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb320804085#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb15546819m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb15546819m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15546819m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32080409h#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb15546819m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15546819m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32080410q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb15546819m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb15546819m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb15546819m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15546819m> a skos:Concept ;
+    bnf-onto:FRBNF 15546819 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-16"^^xsd:date ;
+    isni:identifierValid "0000000021587278" ;
+    dcterms:created "2007-07-10" ;
+    dcterms:modified "2016-02-16" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/%C3%89rinna>,
+        <https://catalogue.bnf.fr/ark:/12148/cb15546819m> ;
+    skos:altLabel "Erinna"@de,
+        "Erinna"@es,
+        "Īrínnī"@fr,
+        "́Īrinna"@fr,
+        "̓ ́Ērinna"@fr,
+        "̓ ́Īrinna"@fr,
+        "̓Ērínnë"@fr,
+        "̓Īrínnī"@fr,
+        "Ήριννα"@fr,
+        "Ηρίννη"@fr,
+        "Ἠρίννη"@fr,
+        "Ἤριννα"@fr,
+        "Erinna"@it,
+        "Erinna"@la,
+        "Erinne"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118685155>,
+        <http://datos.bne.es/resource/XX1474470>,
+        <http://id.loc.gov/authorities/n79045090> ;
+    skos:editorialNote "Bailly :  ̓ ́Īrinna. - . - Encycl. Grèce :  ̓ ́Īrinna. - . - Encycl. Pápyros :  ́Īrinna. - . -"@fr,
+        "Bibliothèque nationale, Grèce :  ́Īrinna. - http://www.nlg.gr. - 2008-07-10 BN Cat. gén. : Erinna. - . -"@fr,
+        "Larousse 20e s. : Érinne. - . - Gaffiot : Erinne ou Erinna (formes latines) et  ̓Īrínnī (forme grecque). - . -"@fr,
+        "Obras de Sapho, Erinna, Alcman, Stesicoro, Alceo, Ibico, Simonides, Bachilides, Archiloco, Alpheo, Pratino, Menalipides / traducidas de el griego en verso castellano por D. Joseph y D. Bernabe Canga Argüelles, 1797. - . - Oeuvres complètes de Pindare / traduction française par C. Poyard ; nouvelle édition, complètement refondue, augmentée d'Anacréon, de Sapho et d'Erinna, 1908. - . - [Ein Fragment] Erinna[s] / von Kurt Latte [herausgegeben], [1953?]. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/%C3%89rinna>,
+        <http://fr.wikipedia.org/wiki/%C3%89rinna>,
+        <http://isni.org/isni/0000000021587278>,
+        <http://viaf.org/viaf/317282446/>,
+        <http://wikidata.org/entity/Q256241>,
+        <http://www.idref.fr/076429687> ;
+    skos:note "Poétesse lyrique du milieu du IVe siècle av. J.-C., morte à l'âge de 19 ans. - Originaire de l'île de Télos (Tèlos/Tī́́́los), près de Rhodes, Grèce (plutôt que de Lesbos, les sources divergeant)"@fr ;
+    skos:prefLabel "Érinne"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb15546819m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb15546819m#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poétesse lyrique du milieu du IVe siècle av. J.-C., morte à l'âge de 19 ans. - Originaire de l'île de Télos (Tèlos/Tī́́́los), près de Rhodes, Grèce (plutôt que de Lesbos, les sources divergeant)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:biographicalInformation "Poétesse lyrique du milieu du IVe siècle av. J.-C., morte à l'âge de 19 ans. - Originaire de l'île de Télos (Tèlos/Tī́́́los), près de Rhodes, Grèce (plutôt que de Lesbos, les sources divergeant)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 03.." ;
+    bio:death "- 03.." ;
+    = <http://fr.dbpedia.org/resource/%C3%89rinna>,
+        <http://viaf.org/viaf/317282446>,
+        <http://www.idref.fr/076429687/id>,
+        <https://data.bnf.fr/ark:/12148/cb15546819m#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Sappho%2520and%2520Erinna%2520in%2520a%2520Garden%2520at%2520Mytilene.jpg> ;
+    foaf:familyName "Érinne" ;
+    foaf:gender "female" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb15546819m> .
+

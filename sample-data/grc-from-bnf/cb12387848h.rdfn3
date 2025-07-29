@@ -1,0 +1,82 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13736065f#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12387848h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb376035861#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12387848h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12387848h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12387848h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38997566w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12387848h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12387848h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12387848h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb468792136#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12387848h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12387848h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12387848h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12387848h> a skos:Concept ;
+    bnf-onto:FRBNF 12387848 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-02-20"^^xsd:date ;
+    isni:identifierValid "0000000355081330" ;
+    dcterms:created "1994-04-26" ;
+    dcterms:modified "2019-02-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12387848h> ;
+    skos:altLabel "Loukianos (auteur prétendu, 03..-03..)"@fr,
+        "Lucian (auteur prétendu, 03..-03..)"@fr,
+        "Luciano (auteur prétendu, 03..-03..)"@fr,
+        "Lucien (satiriste, 03..-03..)"@fr,
+        "Lukian (auteur prétendu, 03..-03..)"@fr,
+        "Pseudo-Loukianos (03..-03..)"@fr,
+        "Pseudo-Lucian (03..-03..)"@fr,
+        "Pseudo-Luciano (03..-03..)"@fr,
+        "Pseudo-Lucianus Samosatensis (03..-03..)"@fr,
+        "Pseudo-Lucien (03..-03..)"@fr,
+        "Pseudo-Lucien de Samosate (03..-03..)"@fr,
+        "Pseudo-Lukian (03..-03..)"@fr,
+        "Lucianus Samosatensis (auteur prétendu, 03..-03..)"@la ;
+    skos:closeMatch <http://datos.bne.es/resource/XX1663587>,
+        <https://www.idref.fr/032952104> ;
+    skos:editorialNote "Amours / Lucien ; trad. du grec par P. Maréchaux, 1993. - . - Clavis SGL : Lucianus Samosatensis (pseudo). - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000355081330>,
+        <http://viaf.org/viaf/37000485/>,
+        <http://wikidata.org/entity/Q19558843>,
+        <http://www.idref.fr/032952104/id> ;
+    skos:note "Auteur des [Amours], dialogue apocryphe attribué à tort à Lucien de Samosate. Pour cette oeuvre, consulter le Fichier d'autorité des titres uniformes"@fr,
+        "Satiriste. - Imitateur anonyme de Lucien de Samosate"@fr ;
+    skos:prefLabel "Lucien de Samosate (auteur prétendu, 03..-03..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12387848h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12387848h#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur des [Amours], dialogue apocryphe attribué à tort à Lucien de Samosate. Pour cette oeuvre, consulter le Fichier d'autorité des titres uniformes",
+        "Satiriste. - Imitateur anonyme de Lucien de Samosate" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0301-0400/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:biographicalInformation "Auteur des [Amours], dialogue apocryphe attribué à tort à Lucien de Samosate. Pour cette oeuvre, consulter le Fichier d'autorité des titres uniformes",
+        "Satiriste. - Imitateur anonyme de Lucien de Samosate" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0301-0400/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "03.." ;
+    bio:death "03.." ;
+    = <http://viaf.org/viaf/37000485>,
+        <http://www.idref.fr/032952104/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12387848h#foaf:Person> ;
+    foaf:familyName "Lucien de Samosate" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12387848h> .
+

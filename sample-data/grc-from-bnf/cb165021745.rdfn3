@@ -1,0 +1,75 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb165021745studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb165021745#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41096747h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb165021745#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb165021745#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb165021745#about> .
+
+<https://data.bnf.fr/ark:/12148/cb165021745> a skos:Concept ;
+    bnf-onto:FRBNF 16502174 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000399442214" ;
+    dcterms:created "2011-04-14" ;
+    dcterms:modified "2024-11-02" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Nicarque>,
+        <https://catalogue.bnf.fr/ark:/12148/cb165021745> ;
+    skos:altLabel "Nikarchos (0030?-0100?)"@fr,
+        "Níkarchos (0030?-0100?)"@fr,
+        "Νίκαρχος (0030?-0100?)"@fr,
+        "Nicarchus (0030?-0100?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102400385>,
+        <http://id.loc.gov/authorities/nb99167287> ;
+    skos:editorialNote "Die Epigramme des Nikarchos / Hendrich Schulte, 1999. - . - Larousse, 19e s.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Nicarque>,
+        <http://fr.wikipedia.org/wiki/Nicarque>,
+        <http://isni.org/isni/0000000399442214>,
+        <http://viaf.org/viaf/65971956/>,
+        <http://wikidata.org/entity/Q3082825>,
+        <http://www.idref.fr/165430850> ;
+    skos:note "Poète"@fr ;
+    skos:prefLabel "Nicarque (0030?-0100?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb165021745#about> .
+
+<https://data.bnf.fr/ark:/12148/cb165021745#about> a foaf:Person ;
+    bnf-onto:firstYear 30 ;
+    bnf-onto:lastYear 100 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50100 <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0100/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0030/> ;
+    rdagroup2elements:biographicalInformation "Poète" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0030/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0100/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/800/>,
+        "Littératures" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "30" ;
+    bio:death "100" ;
+    = <http://fr.dbpedia.org/resource/Nicarque>,
+        <http://viaf.org/viaf/65971956>,
+        <http://www.idref.fr/165430850/id>,
+        <https://data.bnf.fr/ark:/12148/cb165021745#foaf:Person> ;
+    foaf:familyName "Nicarque" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb165021745> .
+

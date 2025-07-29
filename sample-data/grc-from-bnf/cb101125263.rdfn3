@@ -1,0 +1,99 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb101125263studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb101125263#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30169921d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101125263#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101125263#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101125263#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30942840p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101125263#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101125263#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101125263#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42591394q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101125263#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101125263#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101125263#about> .
+
+<https://data.bnf.fr/ark:/12148/cb452811538#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101125263#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101125263#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101125263#about> .
+
+<https://data.bnf.fr/ark:/12148/cb101125263> a skos:Concept ;
+    bnf-onto:FRBNF 10112526 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2015-03-13"^^xsd:date ;
+    isni:identifierValid "0000000116548300" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2016-10-10" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Michel_Attaleiat%C3%A8s>,
+        <https://catalogue.bnf.fr/ark:/12148/cb101125263> ;
+    skos:altLabel "Michael Attaleiates (102.?-109.?)"@fr,
+        "Michaī̀l ʼAttaleiátīs (102.?-109.?)"@fr,
+        "Michaī́l Attaleiátīs (102.?-109.?)"@fr,
+        "Michaë̀l ʼAttaleiátës (102.?-109.?)"@fr,
+        "Michel Attaliates (102.?-109.?)"@fr,
+        "Michel Attaliotes (102.?-109.?)"@fr,
+        "Mikhaë̀l ʼAttaleiátës (102.?-109.?)"@fr,
+        "Μιχαήλ Ατταλειάτης (102.?-109.?)"@fr,
+        "Μιχαὴλ Ἀτταλειάτης (102.?-109.?)"@fr,
+        "Μιχαήλ Ατταλειάτης (102.?-109.?)"@fr,
+        "Michael Attaliata (102.?-109.?)"@la,
+        "Michael Attaliota (102.?-109.?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100953824>,
+        <http://datos.bne.es/resource/XX1589128>,
+        <http://id.loc.gov/authorities/nr92038111> ;
+    skos:editorialNote "Bibliothèque de l'Université de Chypre : Attaleiátīs, Michaī́l. - http://beta.lib.ucy.ac.cy/el. - 2012-10-20 BN Cat. gén. : Michel Attaliotes. - . -"@fr,
+        "Karagiannópoulos : Michaī̀l  ̓Attaleiátīs. - . - Encycl. Pápyros : Attaleiátīs, Michaī́l. - . - Bibliothèque nationale de Grèce : Michaī́l Attaleiátīs. - http://www.nlg.gr. - 2012-10-20"@fr,
+        "Larousse 20 s. : Michel Attaliate. - . - Encycl. Grèce :  ̓Attaleiátīs Michaī́l. - . -"@fr,
+        "Michaelis Attaliotae Historia : opus a Wladimiro Bruneto de Presle inventum, descriptum, correctum / recognovit Emmanuel Bekkerus, 1853. - . - Michaelis Attaliotae Opus de jure / cura J. Zepi et P. Zepi, 1931. - . - Michaelis Attaliatae Historia / recensuit Eudoxos Th. Tsolakis, 2011. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Michel_Attaleiat%C3%A8s>,
+        <http://fr.wikipedia.org/wiki/Michel_Attaleiat%C3%A8s>,
+        <http://isni.org/isni/0000000116548300>,
+        <http://viaf.org/viaf/61411948/>,
+        <http://wikidata.org/entity/Q181919>,
+        <http://www.idref.fr/086159267> ;
+    skos:note "Historien, légiste et dignitaire byzantin ; auteur d'une chronique relatant les événements des années 1034 à 1079. - Né probablement à Attalia, Pamphylie, Asie mineure (Empire byzantin), et non à Constantinople, où il vécut à partir de 1034"@fr ;
+    skos:prefLabel "Michel Attaliate (102.?-109.?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb101125263#about> .
+
+<https://data.bnf.fr/ark:/12148/cb101125263#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/900/>,
+        "Histoire" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Historien, légiste et dignitaire byzantin ; auteur d'une chronique relatant les événements des années 1034 à 1079. - Né probablement à Attalia, Pamphylie, Asie mineure (Empire byzantin), et non à Constantinople, où il vécut à partir de 1034" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1001-1100/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:biographicalInformation "Historien, légiste et dignitaire byzantin ; auteur d'une chronique relatant les événements des années 1034 à 1079. - Né probablement à Attalia, Pamphylie, Asie mineure (Empire byzantin), et non à Constantinople, où il vécut à partir de 1034" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1001-1100/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/900/>,
+        "Histoire" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "102." ;
+    bio:death "109." ;
+    = <http://fr.dbpedia.org/resource/Michel_Attaleiat%C3%A8s>,
+        <http://viaf.org/viaf/61411948>,
+        <http://www.idref.fr/086159267/id>,
+        <https://data.bnf.fr/ark:/12148/cb101125263#foaf:Person> ;
+    foaf:familyName "Attaliate" ;
+    foaf:gender "male" ;
+    foaf:givenName "Michel" ;
+    foaf:name "Michel Attaliate" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb101125263> .
+

@@ -1,0 +1,53 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb33125373m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb144230503#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb144230503#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb144230503#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38882282q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb144230503#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb144230503#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb144230503#about> .
+
+<https://data.bnf.fr/ark:/12148/cb144230503> a skos:Concept ;
+    bnf-onto:FRBNF 14423050 ;
+    dcterms:created "2002-09-03" ;
+    dcterms:modified "2012-04-11" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb144230503> ;
+    skos:altLabel "Herakleides (évêque en Arabie, 02.. ?-02..)",
+        "Heraclides (évêque en Arabie, 02.. ?-02..)"@la ;
+    skos:editorialNote "Entretien avec Héraclide / Origène ; introd., texte, trad. et notes par Jean Scherer, 1960. - . - Initiation aux Pères de l'Église / par Johannes Quasten, t. II, 1957, p. 78-82. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/61763338/> ;
+    skos:note "Évêque en Arabie. - Participa à une controverse avec Origène lors d'un synode réuni en Arabie entre 244 et 249"@fr ;
+    skos:prefLabel "Héraclide (évêque en Arabie, 02.. ?-02..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb144230503#about> .
+
+<https://data.bnf.fr/ark:/12148/cb144230503#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Évêque en Arabie. - Participa à une controverse avec Origène lors d'un synode réuni en Arabie entre 244 et 249" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0201-0300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Évêque en Arabie. - Participa à une controverse avec Origène lors d'un synode réuni en Arabie entre 244 et 249" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "02.." ;
+    = <http://viaf.org/viaf/61763338>,
+        <https://data.bnf.fr/ark:/12148/cb144230503#foaf:Person> ;
+    foaf:familyName "Héraclide" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb144230503> .
+

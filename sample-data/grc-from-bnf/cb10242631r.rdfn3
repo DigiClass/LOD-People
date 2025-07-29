@@ -1,0 +1,78 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb169992275#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb10242631r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb306500609#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10242631r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10242631r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10242631r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30650061n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10242631r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10242631r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10242631r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb356436427#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10242631r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10242631r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10242631r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44434130h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10242631r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10242631r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10242631r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10242631r> a skos:Concept ;
+    bnf-onto:FRBNF 10242631 ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2024-12-02" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb10242631r> ;
+    skos:altLabel "Johannes von Gaza (poète, 0..-05..)"@de,
+        "'Iōánnīs Gazítīs (poète, 05..-05..)"@fr,
+        "'Iōánnīs ho Gazaîos (poète, 05..-05..)"@fr,
+        "Jean le Grammairien (poète, 05..-05..)"@fr,
+        "Ἰωάννης Γαζίτης (poète, 05..-05..)"@fr,
+        "Ἰωάννης ὁ Γαζαῖος (poète, 05..-05..)"@fr,
+        "Joannes Gazaeus (poète, 05..-05..)"@la,
+        "Joannes Grammaticus (poète, 05..-05..)"@la,
+        "Johannes Gazaeus (poète, 05..-05..)"@la,
+        "Johannes Grammaticus (poète, 0...-05..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/120978326>,
+        <http://datos.bne.es/resource/XX1325747>,
+        <http://id.loc.gov/authorities/no2015156751> ;
+    skos:editorialNote "Dictionnaire des auteurs grecs et latins de l'Antiquité et du moyen âge / Wolfgang Buchwald, Armin Hohlweg, Otto Prinz, 1991. - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Joannis Gazaei Descriptio tabulae mundi ; et Anacreontea / recensuit Eugenius Abel, 1882. - . - Pauly. - . -"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/42682814/>,
+        <http://wikidata.org/entity/Q15994176>,
+        <http://www.idref.fr/190201630> ;
+    skos:note "Rhéteur et poète grec du VIe siècle (auteur de poèmes anacréontiques et de la description d'un tableau allégorique et mythologique, représentant l'univers)"@fr ;
+    skos:prefLabel "Jean de Gaza (poète, 05..-05..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10242631r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10242631r#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Rhéteur et poète grec du VIe siècle (auteur de poèmes anacréontiques et de la description d'un tableau allégorique et mythologique, représentant l'univers)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Rhéteur et poète grec du VIe siècle (auteur de poèmes anacréontiques et de la description d'un tableau allégorique et mythologique, représentant l'univers)" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://viaf.org/viaf/42682814>,
+        <http://www.idref.fr/190201630/id>,
+        <https://data.bnf.fr/ark:/12148/cb10242631r#foaf:Person> ;
+    foaf:familyName "Jean de Gaza" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10242631r> .
+

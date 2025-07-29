@@ -1,0 +1,111 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13179057b#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31412627k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb354067949#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35406818g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36152014k#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41210966k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42304403c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb425180462#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb128633803#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb128633803> a skos:Concept ;
+    bnf-onto:FRBNF 12863380 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-30"^^xsd:date ;
+    isni:identifierValid "000000011468443X" ;
+    dcterms:created "1991-04-03" ;
+    dcterms:modified "2013-07-31" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Straton_de_Sardes>,
+        <https://catalogue.bnf.fr/ark:/12148/cb128633803> ;
+    skos:altLabel "Strátōn (poète érotique, 01..-01..)"@el,
+        "Strátōnas Sardianós"@el,
+        "Στράτωνας Σαρδιανός"@el,
+        "Στράτων (poète érotique, 01..-01..)"@el,
+        "Straton of Sardis"@en,
+        "Straton de Sardes"@fr,
+        "Strátōn ho Sardianós"@fr,
+        "Strátōn o Sardianós"@fr,
+        "Στράτων ο Σαρδιανός"@fr,
+        "Στράτων ὁ Σαρδιανός"@fr,
+        "Stratone di Sardi"@it,
+        "Strato (poète érotique, 01..-01..)"@la,
+        "Strato Sardensis"@la,
+        "Straton Sardianus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/10240674X>,
+        <http://datos.bne.es/resource/XX1110129>,
+        <http://id.loc.gov/authorities/no99034552> ;
+    skos:editorialNote "Bibliothèque de l'Université de Chypre : Strátōn, apó tis Sárdeis. - http://www.ucy.ac.cy. - 2010-10-27 BN Cat. gén. : Straton (de Sardes). - . -"@fr,
+        "Clavis SGL : Straton Sardianus. - . - Encycl. Grèce : Strátōn. - . - Bibliothèque nationale de Grèce : Strátōn o Sardianós. - http://www.nlg.gr. - 2010-10-27"@fr,
+        "Epigrammi / Stratone di Sardi ; testo critico, traduzione e commento a cura di Lucia Floridi ; prefazione di Kathryn Gutzwiller, 2007. - . - Larousse 19e s.. - . -"@fr,
+        "Larousse 20e s. : Straton. - . - Dictionnaire des auteurs grecs et latins de l'Antiquité et du Moyen âge / Wolfgang Buchwald, Armin Hohlweg, Otto Prinz, 1991. - . - DOC : Straton Sardianus. - . -"@fr,
+        "Moúsa paiderastikī́ : epigrámmata / Sardianoú Strátōna ; metáfrasī, Dīmī́trīs Stamoúlīs ; epiméleia-sīmeiṓseis, Leōnídas Chrīstákīs ; diórthōsī, Chará Pelekánou, 1993. - . - La muse adolescente : choix d'épigrammes érotiques tirées du Livre XII de l'\"Anthologie grecque\" / [éd. par] Straton de Sardes ; textes choisis, annotés et préf. par Pierre Maréchaux, 1995. - . - ['Epilogī̀ a̓pò tī̀n \"Paidikī̀ Moûsa\"], 1999 [in : 'Erōtikà e̓pigrámmata : Palatinī̀ 'Anthología / e̓pil.-ei̓s.-metáfr.-schól., Níkos Ch. Chourmouziádīs]. - . -"@fr,
+        "Stratonis aliorumque veterum poetarum Graecorum epigrammata / nunc primum a Christ. Adolpho Klotzio edita, 1764. - . - Strato's Boyish muse / new first translated wholly [from Greek] into English, 1932. - . - La muse garçonnière / [Straton de Sardes]. Les Amours : [dialogue de Lucien de Samosate] / [traduits du grec et présentés par] Roger Peyrefitte, 1973. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Straton_de_Sardes>,
+        <http://fr.wikipedia.org/wiki/Straton_de_Sardes>,
+        <http://isni.org/isni/000000011468443X>,
+        <http://viaf.org/viaf/17614634/>,
+        <http://wikidata.org/entity/Q1348069>,
+        <http://www.idref.fr/030572622> ;
+    skos:note "Poète de la fin du IIe siècle ; auteur et compilateur d'épigrammes de genre érotique formant la majeure partie du Livre 12 de l'Anthologie palatine"@fr ;
+    skos:prefLabel "Straton (poète érotique, 01..-01..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb128633803#about> .
+
+<https://data.bnf.fr/ark:/12148/cb128633803#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète de la fin du IIe siècle ; auteur et compilateur d'épigrammes de genre érotique formant la majeure partie du Livre 12 de l'Anthologie palatine" ;
+    rdaa:P50119 "Sardes (Lydie, Asie mineure)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Poète de la fin du IIe siècle ; auteur et compilateur d'épigrammes de genre érotique formant la majeure partie du Livre 12 de l'Anthologie palatine" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Sardes (Lydie, Asie mineure)" ;
+    bio:birth "01.." ;
+    bio:death "01.." ;
+    = <http://fr.dbpedia.org/resource/Straton_de_Sardes>,
+        <http://viaf.org/viaf/17614634>,
+        <http://www.idref.fr/030572622/id>,
+        <https://data.bnf.fr/ark:/12148/cb128633803#foaf:Person> ;
+    foaf:familyName "Straton" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb128633803> .
+

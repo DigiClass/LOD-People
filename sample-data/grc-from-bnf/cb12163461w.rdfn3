@@ -1,0 +1,67 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb35345075h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12163461w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12163461w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12163461w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12163461w> a skos:Concept ;
+    bnf-onto:FRBNF 12163461 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "000000038683709X" ;
+    dcterms:created "1990-09-27" ;
+    dcterms:modified "2016-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Anatole_de_Laodic%C3%A9e>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12163461w> ;
+    skos:altLabel "Anatolio di Laodicea (saint)"@fr,
+        "Anatolius Alexandrinus (saint)"@fr,
+        "Anatolius Christianus (saint)"@fr,
+        "Anatolius of Alexandria (saint)"@fr,
+        "Anatolius Laodicensis (saint)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100729878>,
+        <http://id.loc.gov/authorities/nr2003025749> ;
+    skos:editorialNote "Clavis SGL : Anatolius Laodicensis episcopus sanctus. - . - DHG. - . - Marietti : Anatolio di Laodicea. - . -"@fr,
+        "The Ante-Nicene Fathers, vol. 6. Anatolius ... / A. Roberts and J. Donaldson ed., 1987. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Anatole_de_Laodic%C3%A9e>,
+        <http://fr.wikipedia.org/wiki/Anatole_de_Laodic%C3%A9e>,
+        <http://isni.org/isni/000000038683709X>,
+        <http://viaf.org/viaf/266285625/>,
+        <http://wikidata.org/entity/Q2524557>,
+        <http://www.idref.fr/132163284> ;
+    skos:note "Philosophe et mathématicien du 3e s., originaire d'Alexandrie. - Évêque de Laodicée (Syrie). - Auteur controversé d'un \"Canon pascal\""@fr ;
+    skos:prefLabel "Anatole (saint)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12163461w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12163461w#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe et mathématicien du 3e s., originaire d'Alexandrie. - Évêque de Laodicée (Syrie). - Auteur controversé d'un \"Canon pascal\"" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0201-0300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Philosophe et mathématicien du 3e s., originaire d'Alexandrie. - Évêque de Laodicée (Syrie). - Auteur controversé d'un \"Canon pascal\"" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "02.." ;
+    = <http://fr.dbpedia.org/resource/Anatole_de_Laodic%C3%A9e>,
+        <http://viaf.org/viaf/266285625>,
+        <http://www.idref.fr/132163284/id>,
+        <https://data.bnf.fr/ark:/12148/cb12163461w#foaf:Person> ;
+    foaf:familyName "Anatole" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12163461w> .
+

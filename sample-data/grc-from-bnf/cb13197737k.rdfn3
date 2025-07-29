@@ -1,0 +1,94 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13197737kstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13197737k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44455113k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13197737k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13197737k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13197737k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb44455180q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13197737k#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13197737k#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13197737k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13197737k> a skos:Concept ;
+    bnf-onto:FRBNF 13197737 ;
+    dcterms:created "1997-02-18" ;
+    dcterms:modified "2019-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/N%C3%A9ophyte_de_Chypre>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13197737k> ;
+    skos:altLabel "Neophytos the Recluse (saint, 1134?-1219?)"@en,
+        "Neophyte de Chypre (saint, 1134?-1219?)"@fr,
+        "Neófytos ho  ̓ ́Egkleistos (saint, 1134?-1219?)"@fr,
+        "Neófytos o  ́Egkleistos (saint, 1134?-1219?)"@fr,
+        "Neóphytos ho  ̓ ́Egcleistos (saint, 1134?-1219?)"@fr,
+        "Neóphytos ho  ̓ ́Encleistos (saint, 1134?-1219?)"@fr,
+        "Néophyte Enkleistos (saint, 1134?-1219?)"@fr,
+        "Νεόφυτος ο Έγκλειστος (saint, 1134?-1219?)"@fr,
+        "Νεόφυτος ὁ Ἔγκλειστος (saint, 1134?-1219?)"@fr,
+        "Neofito il Recluso (saint, 1134?-1219?)"@it,
+        "Neophytus Cypriensis (saint, 1134?-1219?)"@la,
+        "Neophytus Inclutus (saint, 1134?-1219?)"@la,
+        "Neophytus Reclusus (saint, 1134?-1219?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/119018632>,
+        <http://id.loc.gov/authorities/n90676371>,
+        <http://isni.org/isni/0000000089654959> ;
+    skos:editorialNote "Clavis SGL : Neophytus Cypriensis presbyter monachus inclusus. - . - Encycl. Grèce : Neófytos ho  ̓ ́Egkleistos (12e s.). - . - Encycl. Pápyros : Neófytos o  ́Egkleistos (12e s., mort en 1219). - . -"@fr,
+        "DTC : Néophyte le Reclus. - . - Dictionnaire des auteurs grecs et latins de l'Antiquité et du Moyen-âge, 1991 : Néophyte Enkleistos. - . - DOC : Neophytus Inclutus. - . -"@fr,
+        "Encycl. Chypre : Neófytos ágios o  ́Egkleistos (12e s., né vers 1134-début du 13e s., mort vers 1219). - . - Bibliothèque nationale, Grèce : Neófytos o  ́Egkleistos, ósios (1134-1219). - http://www.nlg.gr. - 2009-03-23 Bibliothèque de l'Université de Chypre : Neófytos o  ́Egkleistos, ágios (1134-ca 1214). - http://www.ucy.ac.cy. - 2009-03-23"@fr,
+        "Homélie sur la présentation de la Sainte Vierge au temple / Néophyte le Reclus. In  : Homélies mariales byzantines / texte grec éd. et trad. en latin par M. Jugie, 1922-1925. - . - The rules of Neophytos the Recluse. In : The foundation rules of medieval Cypriot monasteries : Makhairas and St Neophytos / [translated from the Greek by] Nicholas Coureas, 2003. - . -"@fr,
+        "The making of a saint : the life, times and sanctification of Neophytos the Recluse / Catia Galatariotou, 1991. - . - BN Cat. gén. suppl.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/N%C3%A9ophyte_de_Chypre>,
+        <http://fr.wikipedia.org/wiki/N%C3%A9ophyte_de_Chypre>,
+        <http://viaf.org/viaf/311024344/>,
+        <http://wikidata.org/entity/Q6993672>,
+        <http://www.idref.fr/033238464> ;
+    skos:note "Moine et ascète, fondateur de l'ermitage devenu monastère de l'Egkleístra/  ̓Egkleístra, près de Paphos, à Chypre, où il vécut retiré jusqu'à la fin de ses jours. - Auteur de plusieurs écrits religieux"@fr ;
+    skos:prefLabel "Néophyte le Reclus (saint, 1134?-1219?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13197737k#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13197737k#about> a foaf:Person ;
+    bnf-onto:firstYear 1134 ;
+    bnf-onto:lastYear 1219 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/cy> ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Moine et ascète, fondateur de l'ermitage devenu monastère de l'Egkleístra/  ̓Egkleístra, près de Paphos, à Chypre, où il vécut retiré jusqu'à la fin de ses jours. - Auteur de plusieurs écrits religieux" ;
+    rdaa:P50118 "Région de Paphos (Chypre)" ;
+    rdaa:P50119 "Leúkara/Léfkara ou Kátō drýs tōn Leukárōn/Kátō drŷs tô̄n Leukárōn (Chypre)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1219/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1134/> ;
+    rdagroup2elements:biographicalInformation "Moine et ascète, fondateur de l'ermitage devenu monastère de l'Egkleístra/  ̓Egkleístra, près de Paphos, à Chypre, où il vécut retiré jusqu'à la fin de ses jours. - Auteur de plusieurs écrits religieux" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/cy> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1134/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1219/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Leúkara/Léfkara ou Kátō drýs tōn Leukárōn/Kátō drŷs tô̄n Leukárōn (Chypre)" ;
+    rdagroup2elements:placeOfDeath "Région de Paphos (Chypre)" ;
+    bio:birth "1134" ;
+    bio:death "1219" ;
+    = <http://fr.dbpedia.org/resource/N%C3%A9ophyte_de_Chypre>,
+        <http://viaf.org/viaf/311024344>,
+        <http://www.idref.fr/033238464/id>,
+        <https://data.bnf.fr/ark:/12148/cb13197737k#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Agios%2520Georgios%2520Church%252C%2520Chloraka%2520%252810%2529%2520Saint%2520Neophytos.jpg>,
+        <http://commons.wikimedia.org/wiki/Special:FilePath/Ikone%2520aus%2520dem%2520Museum%2520-%2520panoramio%2520-%2520Arnold%2520Schott.jpg> ;
+    foaf:familyName "Néophyte le Reclus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13197737k> .
+

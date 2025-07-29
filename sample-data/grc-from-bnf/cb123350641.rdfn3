@@ -1,0 +1,69 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13517277g#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb123350641#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37145896m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123350641#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123350641#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123350641#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123350641> a skos:Concept ;
+    bnf-onto:FRBNF 12335064 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "000000011821980X" ;
+    dcterms:created "1993-09-23" ;
+    dcterms:modified "2022-09-13" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb123350641> ;
+    skos:altLabel "Athanasios 'o Sholastikos",
+        "Athanasios Sholastikos Emesēnos",
+        "A̓thanásios Scholastikós E̓mesīnós",
+        "A̓thanásios ho Scholastikós",
+        "Ἀθανάσιος Σχολαστικός Ἐμεσηνός",
+        "Ἀθανάσιος ὁ Σχολαστικός",
+        "Athanasios Scholastikos von Emesa"@de,
+        "Athanasios von Emesa"@de,
+        "A̓thanásios ho E̓mesaîos"@fr,
+        "Ἀθανάσιος ὁ Ἐμεσαῖος"@fr,
+        "Athanasius Emesenus Scholasticus"@la,
+        "Athanasius Scholasticus"@la ;
+    skos:editorialNote "BN Cat. gén.. - . - BN Service grec. - . -"@fr,
+        "Das Novellensyntagma des Athanasios von Emesa / hrsg. von Dieter Simon und Spyros Troianos, cop. 1989. - . - DOC / V. Volpi, 1994 : Athanasius Scholasticus. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/000000011821980X>,
+        <http://viaf.org/viaf/29605445/>,
+        <http://www.idref.fr/124737358/id> ;
+    skos:note "Rhéteur, juriste et avocat originaire de Syrie. - A vécu dans la seconde moitié du VIème siècle, sous le règne de l'empereur byzantin Justin II"@fr ;
+    skos:prefLabel "Athanase d'Émèse"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb123350641#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123350641#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Rhéteur, juriste et avocat originaire de Syrie. - A vécu dans la seconde moitié du VIème siècle, sous le règne de l'empereur byzantin Justin II" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0501-0600/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:biographicalInformation "Rhéteur, juriste et avocat originaire de Syrie. - A vécu dans la seconde moitié du VIème siècle, sous le règne de l'empereur byzantin Justin II" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0501-0600/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "05.." ;
+    bio:death "05.." ;
+    = <http://viaf.org/viaf/29605445>,
+        <http://www.idref.fr/124737358/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb123350641#foaf:Person> ;
+    foaf:familyName "Athanase d'Émèse" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb123350641> .
+

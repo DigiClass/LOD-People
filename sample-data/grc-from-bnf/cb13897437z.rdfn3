@@ -1,0 +1,105 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13897437zstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30933879r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37870462t#Expression> bnfroles:r990 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38076619f#Expression> bnfroles:r220 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:cmp <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38101084r#Expression> bnfroles:r220 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:cmp <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb38483217t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb386172944#Expression> bnfroles:r220 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:cmp <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb437845096#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cc101995t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cc1043864#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13897437z#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13897437z> a skos:Concept ;
+    bnf-onto:FRBNF 13897437 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-08"^^xsd:date ;
+    isni:identifierValid "0000000372721926" ;
+    dcterms:created "1989-06-01" ;
+    dcterms:modified "2016-11-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/M%C3%A9som%C3%A8de_de_Cr%C3%A8te>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13897437z> ;
+    skos:altLabel "Mesomī́dīs ho Krī́s (01..?-015.?)"@fr,
+        "Mesomède de Crète (01..?-015.?)"@fr,
+        "Μεσομήδης ὁ Κρής (01..?-015.?)"@fr,
+        "Mesomede (01..?-015.?)"@it,
+        "Mesomedes Cretensis (01..?-015.?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118783467>,
+        <http://id.loc.gov/authorities/n82245065>,
+        <https://www.idref.fr/119295636> ;
+    skos:editorialNote "Buchwald. - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Encycl. Britannica. - . - Grove 6. - . -"@fr,
+        "Sonnenhymnus des Mesomedes [Enregistrement sonore] / Hans-Joachim Moser, chant ; mit Chor. Odeon O 4300. - . - Inno a Phýsis / Mesomede ; introduzione, testo critico, traduzione e commento Sara Lanna, 2013. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/M%C3%A9som%C3%A8de_de_Cr%C3%A8te>,
+        <http://fr.wikipedia.org/wiki/M%C3%A9som%C3%A8de_de_Cr%C3%A8te>,
+        <http://isni.org/isni/0000000372721926>,
+        <http://viaf.org/viaf/59270318/>,
+        <http://wikidata.org/entity/Q686157>,
+        <https://musicbrainz.org/artist/f71fc545-3fbe-4a61-9aa0-5af5c668521c> ;
+    skos:note "Poète lyrique et cytharède. - Affranchi de l'empereur Hadrien"@fr ;
+    skos:prefLabel "Mésomèdes de Crète (01..?-015.?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13897437z#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13897437z#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète lyrique et cytharède. - Affranchi de l'empereur Hadrien" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Poète lyrique et cytharède. - Affranchi de l'empereur Hadrien" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "01.." ;
+    bio:death "015." ;
+    = <http://fr.dbpedia.org/resource/M%C3%A9som%C3%A8de_de_Cr%C3%A8te>,
+        <http://viaf.org/viaf/59270318>,
+        <https://data.bnf.fr/ark:/12148/cb13897437z#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k1275216/f2.item.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10722403r.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10722595r.thumbnail> ;
+    foaf:familyName "Mésomèdes de Crète" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13897437z> .
+

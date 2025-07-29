@@ -1,0 +1,77 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30178324r#Expression> bnfroles:r680 <https://data.bnf.fr/ark:/12148/cb16197009t#about> ;
+    marcrel:trl <https://data.bnf.fr/ark:/12148/cb16197009t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16197009t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30356747z#Expression> bnfroles:r680 <https://data.bnf.fr/ark:/12148/cb16197009t#about> ;
+    marcrel:trl <https://data.bnf.fr/ark:/12148/cb16197009t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16197009t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30434647z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16197009t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16197009t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16197009t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb36122702w#Expression> bnfroles:r680 <https://data.bnf.fr/ark:/12148/cb16197009t#about> ;
+    marcrel:trl <https://data.bnf.fr/ark:/12148/cb16197009t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16197009t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16197009t> a skos:Concept ;
+    bnf-onto:FRBNF 16197009 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "000000038215358X" ;
+    dcterms:created "2010-04-21" ;
+    dcterms:modified "2013-12-18" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Aquila_de_Sinope>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16197009t> ;
+    skos:altLabel "A̓kýlos (traducteur de l'Ancien Testament, 02..-02..)"@fr,
+        "Ἀκύλος (traducteur de l'Ancien Testament, 02..-02..)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/118503758>,
+        <http://id.loc.gov/authorities/n96116126> ;
+    skos:editorialNote "Larousse, 19e s. - . - Encyclopedia of early Christianity  second edition, 1997. - . - DOC / V. Volpi, 1994. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Aquila_de_Sinope>,
+        <http://fr.wikipedia.org/wiki/Aquila_de_Sinope>,
+        <http://isni.org/isni/000000038215358X>,
+        <http://viaf.org/viaf/120193055/>,
+        <http://wikidata.org/entity/Q335117>,
+        <http://www.idref.fr/242533663/id> ;
+    skos:note "Converti au christianisme ; auteur d'une traduction grecque du Pentateuque"@fr ;
+    skos:prefLabel "Aquila (traducteur de l'Ancien Testament, 02..-02..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16197009t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16197009t#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Converti au christianisme ; auteur d'une traduction grecque du Pentateuque" ;
+    rdaa:P50119 "Amasée" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0201-0300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Converti au christianisme ; auteur d'une traduction grecque du Pentateuque" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Amasée" ;
+    bio:birth "02.." ;
+    bio:death "02.." ;
+    = <http://fr.dbpedia.org/resource/Aquila_de_Sinope>,
+        <http://viaf.org/viaf/120193055>,
+        <http://www.idref.fr/242533663/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb16197009t#foaf:Person> ;
+    foaf:familyName "Aquila" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16197009t> .
+

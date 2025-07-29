@@ -1,0 +1,62 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16002681z#about> dcterms:contributor <https://data.bnf.fr/ark:/12148/cb106993780#about> .
+
+<https://data.bnf.fr/ark:/12148/cb106993780> a skos:Concept ;
+    bnf-onto:FRBNF 10699378 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000044790340" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Th%C3%A9onas_d%27Alexandrie>,
+        <https://catalogue.bnf.fr/ark:/12148/cb106993780> ;
+    skos:altLabel "Teona (saint, 02..-0300)"@fr,
+        "Theognâs A̓lexandreías (saint, 02..-0300)"@fr,
+        "Theonas of Alexandria (saint, 02..-0300)"@fr,
+        "Θεωγνᾶς Ἀλεχανδρείας (saint, 02..-0300)"@fr,
+        "Theonas (saint, 02..-300)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100635539>,
+        <http://id.loc.gov/authorities/no2004088382> ;
+    skos:editorialNote "DOC : Theonas, Alexandrinus. - . - Pauly Wissowa. - . - Encicl. cattolica. - . -"@fr,
+        "New Cath. encycl.. - . - BN Cat. gén. : Théonas (saint ; évêque d'Alexandrie). - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Th%C3%A9onas_d%27Alexandrie>,
+        <http://fr.wikipedia.org/wiki/Th%C3%A9onas_d%27Alexandrie>,
+        <http://isni.org/isni/0000000044790340>,
+        <http://viaf.org/viaf/71108450/>,
+        <http://wikidata.org/entity/Q738752> ;
+    skos:note "Évêque d'Alexandrie (282-300)"@fr ;
+    skos:prefLabel "Théonas (saint, 02..-0300)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb106993780#about> .
+
+<https://data.bnf.fr/ark:/12148/cb106993780#about> a foaf:Person ;
+    bnf-onto:lastYear 300 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Évêque d'Alexandrie (282-300)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0300/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:biographicalInformation "Évêque d'Alexandrie (282-300)" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0201-0300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0300/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "02.." ;
+    bio:death "0300-12-28" ;
+    = <http://fr.dbpedia.org/resource/Th%C3%A9onas_d%27Alexandrie>,
+        <http://viaf.org/viaf/71108450>,
+        <https://data.bnf.fr/ark:/12148/cb106993780#foaf:Person> ;
+    foaf:familyName "Théonas" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb106993780> .
+

@@ -1,0 +1,104 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb16921005x#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12411862b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb309126159#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12411862b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30912616n#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12411862b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb309126170#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12411862b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33057109w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12411862b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb366790643#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12411862b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb458107747#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12411862b#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12411862b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12411862b> a skos:Concept ;
+    bnf-onto:FRBNF 12411862 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-26"^^xsd:date ;
+    isni:identifierValid "0000000079803420" ;
+    dcterms:created "1994-08-13" ;
+    dcterms:modified "2015-04-01" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Jean_Mavropous>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12411862b> ;
+    skos:altLabel "John Mauropous (0990?-1092?)"@en,
+        "I̓ōánnīs Maurópous (0990?-1092?)"@fr,
+        "I̓ōánnīs ho Eúhaḯtōn (0990?-1092?)"@fr,
+        "I̓ōánnīs ho Maurópous (0990?-1092?)"@fr,
+        "Jean Mavropous (0990?-1092?)"@fr,
+        "Jean d'Euchaita (0990?-1092?)"@fr,
+        "Ιὠάννης Μαυρόπους (0990?-1092?)"@fr,
+        "Ιὠάννης ὁ Εὐχαίτων (0990?-1092?)"@fr,
+        "Ιὠάννης ὁ Μάυρόπους (0990?-1092?)"@fr,
+        "Giovanni Mauropode (0990?-1092?)"@it,
+        "Ioannes Mauropous (0990?-1092?)"@la,
+        "Johannes Euchaitensis (0990?-1092?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118712543>,
+        <http://datos.bne.es/resource/XX1539540>,
+        <http://id.loc.gov/authorities/n85256073> ;
+    skos:editorialNote "BN Cat. gén. : Mauropus (Jean), évêque d'Euchaita ; Jean d'Euchaita ; Johannes Euchaitensis. - . - BN Cat. gén. 1960-1969 : Joannes Mavropous, évêque d'Euchaita ; Giovanni Mauropode. - . -"@fr,
+        "DOC / V. Volpi, 1994 : Johannes Mauropus. - . - Encycl. Grèce : Iōannēs 'o Euhaïtōn ; Iōannēs 'o Mauropous ; Mauropous, Iōannēs. - . - Karagiannopoulos : Iōannēs Mauropous ; Mauropous, Iōannēs ; Johannes Euchaitarum. - . -"@fr,
+        "Ioannis Mauropodis Euchaitorum metropolitae Epistulae / ed., Anglice vertit et adnotavit Apostolos Karpozilos = The Letters of Ioannes Mauropous, metropolitan of Euchaita / Greek text, transl. and comment. by Apostolos Karpozilos, 1990. - . - Larousse 20 s. : Mauropous (Jean). - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Jean_Mavropous>,
+        <http://fr.wikipedia.org/wiki/Jean_Mavropous>,
+        <http://isni.org/isni/0000000079803420>,
+        <http://viaf.org/viaf/100971730/>,
+        <http://wikidata.org/entity/Q2622551>,
+        <http://www.idref.fr/069010757> ;
+    skos:note "Ecclésiastique et lettré byzantin, originaire de Paphlagonie. - Savant, poète, prédicateur et épistolographe. - Professeur à Constantinople, où il arriva vers 1028. - Ministre de l'empereur Constantin IX Monomaque, il réorganisa l'université de Constantinople, où il enseigna la philosophie. - Nommé métropolite syncelle d'Euchaita (vers 1046-1048). - Seul le jour de sa mort (5 octobre) est connu avec certitude"@fr ;
+    skos:prefLabel "Jean Mauropous (0990?-1092?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12411862b#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12411862b#about> a foaf:Person ;
+    bnf-onto:firstYear 990 ;
+    bnf-onto:lastYear 1092 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Ecclésiastique et lettré byzantin, originaire de Paphlagonie. - Savant, poète, prédicateur et épistolographe. - Professeur à Constantinople, où il arriva vers 1028. - Ministre de l'empereur Constantin IX Monomaque, il réorganisa l'université de Constantinople, où il enseigna la philosophie. - Nommé métropolite syncelle d'Euchaita (vers 1046-1048). - Seul le jour de sa mort (5 octobre) est connu avec certitude" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1092/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0990/> ;
+    rdagroup2elements:biographicalInformation "Ecclésiastique et lettré byzantin, originaire de Paphlagonie. - Savant, poète, prédicateur et épistolographe. - Professeur à Constantinople, où il arriva vers 1028. - Ministre de l'empereur Constantin IX Monomaque, il réorganisa l'université de Constantinople, où il enseigna la philosophie. - Nommé métropolite syncelle d'Euchaita (vers 1046-1048). - Seul le jour de sa mort (5 octobre) est connu avec certitude" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0990/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1092/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "990" ;
+    bio:death "1092-10-05" ;
+    = <http://fr.dbpedia.org/resource/Jean_Mavropous>,
+        <http://viaf.org/viaf/100971730>,
+        <http://www.idref.fr/069010757/id>,
+        <https://data.bnf.fr/ark:/12148/cb12411862b#foaf:Person> ;
+    foaf:familyName "Mauropous" ;
+    foaf:gender "male" ;
+    foaf:givenName "Jean" ;
+    foaf:name "Jean Mauropous" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12411862b> .
+

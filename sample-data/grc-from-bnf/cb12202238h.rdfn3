@@ -1,0 +1,82 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12202238hstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12202238h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb369553077#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12202238h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12202238h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12202238h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb42182669p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12202238h#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12202238h#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12202238h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12202238h> a skos:Concept ;
+    bnf-onto:FRBNF 12202238 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-25"^^xsd:date ;
+    isni:identifierValid "0000000109201691" ;
+    dcterms:created "1991-05-27" ;
+    dcterms:modified "2014-07-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Gr%C3%A9goire_Akindynos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12202238h> ;
+    skos:altLabel "Gregory Akindynos (1300?-1348)"@en,
+        "Grīgórios ̓Akíndunos (1300?-1348)"@fr,
+        "Grëgórios ̓Akíndynos (1300?-1348)"@fr,
+        "Γρηγόριος Ἀκίνδυνος (1300?-1348)"@fr,
+        "Gregorius Acindynus (1300?-1348)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100943411>,
+        <http://id.loc.gov/authorities/n83014401> ;
+    skos:editorialNote "BN Service grec. - . - BN Cat. gén.. - . -"@fr,
+        "Grand Larousse universel,  1986. - . - Buchwald. - . - DOC / V. Volpi, 1994. - . -"@fr,
+        "Gregorii Acindyni Refutationes duae operis Gregorii Palamae cui titulus Dialogus inter orthodoxum et Barlaamitam / ed. curantae Juan Nadal Canellas, 1995. - . - Letters / of Gregory Akindynos, 1983. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Gr%C3%A9goire_Akindynos>,
+        <http://fr.wikipedia.org/wiki/Gr%C3%A9goire_Akindynos>,
+        <http://isni.org/isni/0000000109201691>,
+        <http://viaf.org/viaf/103646016/>,
+        <http://wikidata.org/entity/Q2548769>,
+        <http://www.idref.fr/030647886> ;
+    skos:note "Théologien et controversiste byzantin. - Disciple et ami de Grégoire Palamas qu'il défendit contre les attaques du moine calabrais Barlaam. - Il devint en 1341 un adversaire de la théologie palamite"@fr ;
+    skos:prefLabel "Grégoire Akindynos (1300?-1348)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12202238h#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12202238h#about> a foaf:Person ;
+    bnf-onto:firstYear 1300 ;
+    bnf-onto:lastYear 1348 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Théologien et controversiste byzantin. - Disciple et ami de Grégoire Palamas qu'il défendit contre les attaques du moine calabrais Barlaam. - Il devint en 1341 un adversaire de la théologie palamite" ;
+    rdaa:P50119 "Prilep, Macédoine" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1348/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1300/> ;
+    rdagroup2elements:biographicalInformation "Théologien et controversiste byzantin. - Disciple et ami de Grégoire Palamas qu'il défendit contre les attaques du moine calabrais Barlaam. - Il devint en 1341 un adversaire de la théologie palamite" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1300/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1348/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Prilep, Macédoine" ;
+    bio:birth "1300" ;
+    bio:death "1348" ;
+    = <http://fr.dbpedia.org/resource/Gr%C3%A9goire_Akindynos>,
+        <http://viaf.org/viaf/103646016>,
+        <http://www.idref.fr/030647886/id>,
+        <https://data.bnf.fr/ark:/12148/cb12202238h#foaf:Person> ;
+    foaf:familyName "Akindynos" ;
+    foaf:gender "male" ;
+    foaf:givenName "Grégoire" ;
+    foaf:name "Grégoire Akindynos" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12202238h> .
+

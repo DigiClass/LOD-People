@@ -1,0 +1,58 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb17828986wstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb17828986w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb457246561#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb17828986w#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb17828986w#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb17828986w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17828986w> a skos:Concept ;
+    bnf-onto:FRBNF 17828986 ;
+    dcterms:created "2019-07-30" ;
+    dcterms:modified "2019-07-30" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb17828986w> ;
+    skos:altLabel "Timokles (03..-03.. av. J.-C)"@fr,
+        "Τιμοκλῆς (03..-03.. av. J.-C)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/102408378>,
+        <http://id.loc.gov/authorities/no2019025992>,
+        <http://isni.org/isni/0000000005067088> ;
+    skos:editorialNote "Timokles : translation and commentary / Kostas Apostolakis, 2019. - . - VIAF : NACO - Bibliothèque du Congrès : Timocles. - http://viaf.org/viaf/280697680. - 2019-07-30"@fr ;
+    skos:exactMatch <http://viaf.org/viaf/280697680/>,
+        <http://wikidata.org/entity/Q2434954>,
+        <http://www.idref.fr/237184869> ;
+    skos:note "Poète comique grec dont l'oeuvre nous est parvenue sous la forme de fragments"@fr ;
+    skos:prefLabel "Timocles (03..-03.. av. J.-C)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb17828986w#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17828986w#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète comique grec dont l'oeuvre nous est parvenue sous la forme de fragments" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:biographicalInformation "Poète comique grec dont l'oeuvre nous est parvenue sous la forme de fragments" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0400--0301/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 03.." ;
+    bio:death "- 03.." ;
+    = <http://viaf.org/viaf/280697680>,
+        <http://www.idref.fr/237184869/id>,
+        <https://data.bnf.fr/ark:/12148/cb17828986w#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b53246146s.thumbnail> ;
+    foaf:familyName "Timocles" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb17828986w> .
+

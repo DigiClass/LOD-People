@@ -1,0 +1,89 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb145254698#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb12216505j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30027087c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12216505j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12216505j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12216505j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30027088q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12216505j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12216505j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12216505j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35463745m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12216505j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12216505j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12216505j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb390504493#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12216505j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12216505j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12216505j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12216505j> a skos:Concept ;
+    bnf-onto:FRBNF 12216505 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-10-24"^^xsd:date ;
+    isni:identifierValid "0000000115770348" ;
+    dcterms:created "1991-08-23" ;
+    dcterms:modified "2013-10-24" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Aristide_d%27Ath%C3%A8nes>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12216505j> ;
+    skos:altLabel "Aristide d'Athènes (saint)"@fr,
+        "̓Aristeídīs (saint)"@fr,
+        "̓Aristeídës (saint)"@fr,
+        "Ἀριστείδης (saint)"@fr,
+        "Aristide di Atene (saint)"@it,
+        "Marciano Aristide"@it,
+        "Marciano Aristide (saint)"@it,
+        "Aristides (saint)"@la,
+        "Aristides Apologetes (saint)"@la,
+        "Aristides Atheniensis (saint)"@la,
+        "Marcianus Aristides"@la,
+        "Marcianus Aristides (saint)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118645749>,
+        <http://id.loc.gov/authorities/no91014418>,
+        <https://www.idref.fr/030827523> ;
+    skos:editorialNote "Apologie / Aristide ; introd., textes critiques [syriaque, grec et a, trad. et commentaire par Bernard Pouderon, Marie-Joseph Pierre ; avec la collab. de Bernard Outtier, Marina Guiorgadzé, 2003  (voir p. 25 à 28 les passages des auteurs anciens qui signalent Aristide). - . - DHGE  et DTC : ARISTIDE. - . -"@fr,
+        "Initiation aux Pères de l'Église / par Johannes Quasten. T. Ier, 1955, p. 217-221. - . - Laffont Bompiani. Auteurs. - . -"@fr,
+        "Vies des saints et des bienheureux selon l'ordre du calendrier / par les RR.PP. bénédictins de Paris, 1935-1959 : sous le 31 août. - . - Bibliotheca sanctorum : ARISTIDE, Marciano. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Aristide_d%27Ath%C3%A8nes>,
+        <http://fr.wikipedia.org/wiki/Aristide_d%27Ath%C3%A8nes>,
+        <http://isni.org/isni/0000000115770348>,
+        <http://viaf.org/viaf/4981156/>,
+        <http://wikidata.org/entity/Q349916>,
+        <http://www.idref.fr/030827523/id> ;
+    skos:note "Philosophe athénien, auteur d'une apologie de la foi chrétienne dédiée à Hadrien (empereur de 117 à 138 ; mais la version syriaque indique Antonin, empereur de 138 à 161). - La Chronique d'Eusèbe de Césarée et de saint Jérôme affirme que l'ouvrage fut remis à Hadrien en 125 (certains auteurs, admettant cette date, supposent qu'une seconde version pourrait avoir été rédigée sous Antonin)"@fr ;
+    skos:prefLabel "Aristide (saint)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12216505j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12216505j#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe athénien, auteur d'une apologie de la foi chrétienne dédiée à Hadrien (empereur de 117 à 138 ; mais la version syriaque indique Antonin, empereur de 138 à 161). - La Chronique d'Eusèbe de Césarée et de saint Jérôme affirme que l'ouvrage fut remis à Hadrien en 125 (certains auteurs, admettant cette date, supposent qu'une seconde version pourrait avoir été rédigée sous Antonin)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:biographicalInformation "Philosophe athénien, auteur d'une apologie de la foi chrétienne dédiée à Hadrien (empereur de 117 à 138 ; mais la version syriaque indique Antonin, empereur de 138 à 161). - La Chronique d'Eusèbe de Césarée et de saint Jérôme affirme que l'ouvrage fut remis à Hadrien en 125 (certains auteurs, admettant cette date, supposent qu'une seconde version pourrait avoir été rédigée sous Antonin)" ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0101-0200/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "0..." ;
+    bio:death "01.." ;
+    = <http://fr.dbpedia.org/resource/Aristide_d%27Ath%C3%A8nes>,
+        <http://viaf.org/viaf/4981156>,
+        <http://www.idref.fr/030827523/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb12216505j#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Aristides.jpg> ;
+    foaf:familyName "Aristide" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12216505j> .
+

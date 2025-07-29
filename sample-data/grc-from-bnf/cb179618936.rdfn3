@@ -1,0 +1,68 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb179618936studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb179618936#about> .
+
+<https://data.bnf.fr/ark:/12148/cb46631341m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb179618936#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb179618936#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb179618936#about> .
+
+<https://data.bnf.fr/ark:/12148/cb179618936> a skos:Concept ;
+    bnf-onto:FRBNF 17961893 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2021-08-18"^^xsd:date ;
+    isni:identifierValid "0000000503360041" ;
+    dcterms:created "2021-08-12" ;
+    dcterms:modified "2023-12-04" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Ph%C3%A9r%C3%A9crate>,
+        <https://catalogue.bnf.fr/ark:/12148/cb179618936> ;
+    skos:altLabel "Frerekrátes (0440?-0415? av. J.-C.)"@fr,
+        "Phrerekrátes (0440?-0415? av. J.-C.)"@fr,
+        "Φερεκράρες (0440?-0415? av. J.-C.)"@fr,
+        "Ferecrate (0440?-0415? av. J.-C.)"@it,
+        "Pherecrates (0440?-0415? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102122067> ;
+    skos:editorialNote "\"Krapataloi\" - \"Pseudherakles\" (frr. 85-163) / Ferecrate ; introduzione, traduzione, commento Enzo Franchini ; con la collaborazione di Michele Napolitano (fr. 155), cop. 2020. - . - GDEL : Phérécrate. - . -"@fr,
+        "DOC / V. Volpi, 1994 : Phrerecrates. - . - Oxford reference : Pherecrates. - https://www.oxfordreference.com. - 2021-08-13 Dictionnaire des auteurs grecs et latins de l'Antiquité et du Moyen âge : Phérécrate. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Ph%C3%A9r%C3%A9crate>,
+        <http://fr.wikipedia.org/wiki/Ph%C3%A9r%C3%A9crate>,
+        <http://isni.org/isni/0000000503360041>,
+        <http://viaf.org/viaf/18163155612601310191/>,
+        <http://wikidata.org/entity/Q1627567> ;
+    skos:note "Poète comique. - Auteur de comédies, dont il ne reste que quelques fragments"@fr ;
+    skos:prefLabel "Phérécrate (0440?-0415? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb179618936#about> .
+
+<https://data.bnf.fr/ark:/12148/cb179618936#about> a foaf:Person ;
+    bnf-onto:firstYear -440 ;
+    bnf-onto:lastYear -415 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète comique. - Auteur de comédies, dont il ne reste que quelques fragments" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0415/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0440/> ;
+    rdagroup2elements:biographicalInformation "Poète comique. - Auteur de comédies, dont il ne reste que quelques fragments" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0440/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0415/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 440" ;
+    bio:death "- 415" ;
+    = <http://fr.dbpedia.org/resource/Ph%C3%A9r%C3%A9crate>,
+        <http://viaf.org/viaf/18163155612601310191>,
+        <https://data.bnf.fr/ark:/12148/cb179618936#foaf:Person> ;
+    foaf:familyName "Phérécrate" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb179618936> .
+

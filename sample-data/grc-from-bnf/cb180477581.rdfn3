@@ -1,0 +1,58 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb36826216c#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb180477581#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb180477581#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb180477581#about> .
+
+<https://data.bnf.fr/ark:/12148/cb180477581> a skos:Concept ;
+    bnf-onto:FRBNF 18047758 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2022-11-30"^^xsd:date ;
+    isni:identifierValid "0000000509392044" ;
+    dcterms:created "2022-11-23" ;
+    dcterms:modified "2022-11-30" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb180477581> ;
+    skos:altLabel "Iōannēs Nathanaēl (15..-1577)",
+        "Ἰωάννης Ναθαναήλ (15..-1577)",
+        "Jean Nathanael (15..-1577)"@fr ;
+    skos:editorialNote "Ὡρολόγιον = Hōrologion, 1574. - . - E. Layton, The Sixteenth Century Greek book in Italy, p. 396-401. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000509392044> ;
+    skos:note "Prêtre et érudit grec, originaire de Rethymnon, en Crète. - A vécu en Italie où il a été copiste, commerçant de manuscrits grecs, professeur, correcteur et éditeur. - A notamment collaboré avec l'éditeur Giacomo Leoncini pour la publication de textes liturgiques grecs. - S'installe à Venise en 1559, où il est élu prêtre de l'église San Giorgio dei Greci en 1567. - A aussi séjourné à Rome"@fr ;
+    skos:prefLabel "Joannes Nathanael (15..-1577)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb180477581#about> .
+
+<https://data.bnf.fr/ark:/12148/cb180477581#about> a foaf:Person ;
+    bnf-onto:lastYear 1577 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Prêtre et érudit grec, originaire de Rethymnon, en Crète. - A vécu en Italie où il a été copiste, commerçant de manuscrits grecs, professeur, correcteur et éditeur. - A notamment collaboré avec l'éditeur Giacomo Leoncini pour la publication de textes liturgiques grecs. - S'installe à Venise en 1559, où il est élu prêtre de l'église San Giorgio dei Greci en 1567. - A aussi séjourné à Rome" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1577/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1501-1600/> ;
+    rdagroup2elements:biographicalInformation "Prêtre et érudit grec, originaire de Rethymnon, en Crète. - A vécu en Italie où il a été copiste, commerçant de manuscrits grecs, professeur, correcteur et éditeur. - A notamment collaboré avec l'éditeur Giacomo Leoncini pour la publication de textes liturgiques grecs. - S'installe à Venise en 1559, où il est élu prêtre de l'église San Giorgio dei Greci en 1567. - A aussi séjourné à Rome" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1501-1600/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1577/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "15.." ;
+    bio:death "1577" ;
+    = <https://data.bnf.fr/ark:/12148/cb180477581#foaf:Person> ;
+    foaf:familyName "Nathanael" ;
+    foaf:gender "male" ;
+    foaf:givenName "Joannes" ;
+    foaf:name "Joannes Nathanael" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb180477581> .
+

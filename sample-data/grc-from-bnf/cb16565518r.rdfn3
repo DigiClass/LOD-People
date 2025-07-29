@@ -1,0 +1,79 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb165656824#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16565518r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb311218298#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16565518r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16565518r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16565518r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb31370977j#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb16565518r#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb16565518r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16565518r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb33429592x#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb16565518r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16565518r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16565518r> a skos:Concept ;
+    bnf-onto:FRBNF 16565518 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-11-08"^^xsd:date ;
+    isni:identifierValid "0000000371549941" ;
+    dcterms:created "2012-01-17" ;
+    dcterms:modified "2016-11-08" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Simon_d%27Ath%C3%A8nes>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16565518r> ;
+    skos:altLabel "Simon von Athen"@de,
+        "Simon of Athens"@en,
+        "Simon le Socratique"@fr,
+        "Símōn ho A̓thīnaîōs"@fr,
+        "Σίμων ὁ Ἀθηναῖως"@fr,
+        "Simone di Atene"@it,
+        "Simon Atheniensis"@la,
+        "Simon Hipparchius"@la,
+        "Simon Socraticus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100786987>,
+        <https://www.idref.fr/135482585> ;
+    skos:editorialNote "[Sur l'extérieur et le choix des chevaux / Simon d'Athènes] Contenu dans : L'intégrale de l'oeuvre équestre / Xénophon, 2011. - . - DOC / V. Volpi, 1991. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Simon_d%27Ath%C3%A8nes>,
+        <http://fr.wikipedia.org/wiki/Simon_d%27Ath%C3%A8nes>,
+        <http://isni.org/isni/0000000371549941>,
+        <http://viaf.org/viaf/266366723/>,
+        <http://wikidata.org/entity/Q1493398> ;
+    skos:note "Auteur d'un traité d'art équestre"@fr ;
+    skos:prefLabel "Simon d'Athènes"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16565518r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16565518r#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Auteur d'un traité d'art équestre" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Auteur d'un traité d'art équestre" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 04.." ;
+    = <http://fr.dbpedia.org/resource/Simon_d%27Ath%C3%A8nes>,
+        <http://viaf.org/viaf/266366723>,
+        <https://data.bnf.fr/ark:/12148/cb16565518r#foaf:Person> ;
+    foaf:familyName "Simon d'Athènes" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16565518r> .
+

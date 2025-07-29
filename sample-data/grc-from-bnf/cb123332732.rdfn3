@@ -1,0 +1,79 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb123332732studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb123332732#about> .
+
+<https://data.bnf.fr/ark:/12148/cb155885569#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb123332732#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30660662v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123332732#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123332732#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123332732#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32289928p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb123332732#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb123332732#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123332732#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123332732> a skos:Concept ;
+    bnf-onto:FRBNF 12333273 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2016-02-15"^^xsd:date ;
+    isni:identifierValid "0000000354869230" ;
+    dcterms:created "1993-09-15" ;
+    dcterms:modified "2019-02-14" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb123332732> ;
+    skos:altLabel "Josif Pesnopisec (saint, 0816-0886)"@bg,
+        "̓Iōsī̀f ho Hymnográfos (saint, 0816-0886)"@fr,
+        "̓Iōsī̀f ho Sikeliṓtīs (0816-0886)"@fr,
+        "̓Iōsë̀ph ho Sikeliṓtēs (0816-0886)"@fr,
+        "̓Iōsḕph ho Hymnográphos (saint, 0816-0886)"@fr,
+        "Ἰωσὴφ ὁ 'Υμνοφράφος (saint, 0816-0886)"@fr,
+        "Ἰωσὴφ ὁ Σικελιώτης (0816-0886)"@fr,
+        "Giuseppe l'Innografo (saint, 0816-0886)"@it,
+        "Josephus Hymnographus (saint, 0816-0886)"@la ;
+    skos:editorialNote "BN Cat. gén.. - . - BN Cat. gén. suppl.. - . - BN Cat. gén. 1960-1969. - . -"@fr,
+        "Encycl. Papyros : 4e et 5e formes rejetées, ici translittérées du grec. - . - Clavis SGL : Josephus Hymnographus. - . -"@fr,
+        "S. Josephi Hymnographi Mariale... / Latine reddita... labore P. Hippolyti Marraccii, 1661. - . - Encycl. Grèce : forme grecque retenue et 1re forme rejetée, ici translittérées du grec. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000354869230>,
+        <http://viaf.org/viaf/81835/>,
+        <http://www.idref.fr/15156440X/id> ;
+    skos:note "Poète ecclésiastique byzantin, auteur de de nombreuses hymnes sacrées, appelées \"canons\" dans la liturgie grecque. - Né en Sicile (d'où son surnom de \"Sicilien\") et mort à Constantinople"@fr ;
+    skos:prefLabel "Joseph l'Hymnographe (saint, 0816-0886)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb123332732#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123332732#about> a foaf:Person ;
+    bnf-onto:firstYear 816 ;
+    bnf-onto:lastYear 886 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète ecclésiastique byzantin, auteur de de nombreuses hymnes sacrées, appelées \"canons\" dans la liturgie grecque. - Né en Sicile (d'où son surnom de \"Sicilien\") et mort à Constantinople" ;
+    rdaa:P50118 "Constantinople" ;
+    rdaa:P50119 "Palerme ou Syracuse" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0886/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0816/> ;
+    rdagroup2elements:biographicalInformation "Poète ecclésiastique byzantin, auteur de de nombreuses hymnes sacrées, appelées \"canons\" dans la liturgie grecque. - Né en Sicile (d'où son surnom de \"Sicilien\") et mort à Constantinople" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0816/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0886/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Palerme ou Syracuse" ;
+    rdagroup2elements:placeOfDeath "Constantinople" ;
+    bio:birth "816" ;
+    bio:death "0886-04-03" ;
+    = <http://viaf.org/viaf/81835>,
+        <http://www.idref.fr/15156440X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb123332732#foaf:Person> ;
+    foaf:familyName "Joseph l'Hymnographe" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb123332732> .
+

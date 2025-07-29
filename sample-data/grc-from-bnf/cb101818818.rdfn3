@@ -1,0 +1,68 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb302333497#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101818818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb315438066#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101818818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb326609906#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101818818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb43985791c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101818818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb43986507b#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb101818818#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb101818818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb101818818> a skos:Concept ;
+    bnf-onto:FRBNF 10181881 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-10-09"^^xsd:date ;
+    isni:identifierValid "0000000054505347" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2024-10-09" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb101818818> ;
+    skos:altLabel "Trýfōn (grammairien, 00..-00.. av. J.-C.)"@el,
+        "Τρύφων (grammairien, 00..-00.. av. J.-C.)"@el ;
+    skos:editorialNote "Der Neue Pauly. - . - BN Cat. gén.. - . -"@fr,
+        "Syntaxis linguae græcae, Joanne Varennio mechliniensi autore, una cum annotatiunculis paucis ad praecepta syntaxis Varennianae / per Joachimum Camerarium. Accessit praeterea opusculum perutile De passionibus dictionum / ex Tryphone grammatico, 1546. - . - DOC / V. Volp, 1994 : Tryphon I. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000054505347> ;
+    skos:note "Grammairien d'Alexandrie. - On ne connaît de son oeuvre que des fragments"@fr ;
+    skos:prefLabel "Tryphon (grammairien, 00..-00.. av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb101818818#about> .
+
+<https://data.bnf.fr/ark:/12148/cb101818818#about> a foaf:Person ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Grammairien d'Alexandrie. - On ne connaît de son oeuvre que des fragments" ;
+    rdagroup2elements:biographicalInformation "Grammairien d'Alexandrie. - On ne connaît de son oeuvre que des fragments" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 00.." ;
+    bio:death "- 00.." ;
+    = <https://bp16.bnf.fr/ark:/12148/cb101818818>,
+        <https://data.bnf.fr/ark:/12148/cb101818818#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k740560/f1.item.thumbnail> ;
+    foaf:familyName "Tryphon" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb101818818> .
+

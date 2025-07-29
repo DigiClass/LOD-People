@@ -1,0 +1,65 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb392809185#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb16844059t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb16844059t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16844059t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16844059t> a skos:Concept ;
+    bnf-onto:FRBNF 16844059 ;
+    dcterms:created "2016-01-29" ;
+    dcterms:modified "2016-04-26" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Jean_de_Karpathos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16844059t> ;
+    skos:altLabel "John of Karpathos"@en,
+        "Iōánnīs ho Karpáthios"@fr,
+        "Jean de Karpathos"@fr,
+        "Ιωάννης ὁ Καρπάθιος"@fr,
+        "Johannes Carpathius"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100948618>,
+        <http://id.loc.gov/authorities/n88166544>,
+        <http://isni.org/isni/0000000383086585>,
+        <https://www.idref.fr/11179384X> ;
+    skos:editorialNote "A supplement to the Philokalia: the second century of Saint John of Karpathos / Jean évêque de Carpathos, éd. D. Balfour, 1994. - . - Capita hortatoria, sive Documenta spiritualia / Jean évêque de Carpathos. In:  Philippi Solitarii Dioptra, id est Regula, sive Amussis rei christianae, ad Callinicum monachum, quatuor libris per dialogum explicata, 1604. - . -"@fr,
+        "Dictionnaire des auteurs grecs et latins de l'Antiquité et du Moyen âge / Wolfgang Buchwald, Armin Hohlweg, Otto Prinz, 1991: Jean de Karpathos. - . - Oxford Dictionary of Byzantium / A. P. Kazhdan, II, 1065: John of Karpathos. - . - DHGE, XXVI, 1378-79: Jean de Carpathos. - . -"@fr,
+        "VIAF. - http://viaf.org/viaf/268305530. - 2015-12-10 BN Cat. gén. : Jean, évêque de Carpathos. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Jean_de_Karpathos>,
+        <http://fr.wikipedia.org/wiki/Jean_de_Karpathos>,
+        <http://viaf.org/viaf/268305530/>,
+        <http://wikidata.org/entity/Q3175460>,
+        <http://www.idref.fr/11179384X/id> ;
+    skos:note "Évêque de l'île de Karpathos. - Auteur d'écrits ascétiques (centuria) à l'adresse des moines"@fr ;
+    skos:prefLabel "Jean de Carpathos"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16844059t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16844059t#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Évêque de l'île de Karpathos. - Auteur d'écrits ascétiques (centuria) à l'adresse des moines" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0601-0700/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:biographicalInformation "Évêque de l'île de Karpathos. - Auteur d'écrits ascétiques (centuria) à l'adresse des moines" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0601-0700/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "06.." ;
+    bio:death "06.." ;
+    = <http://fr.dbpedia.org/resource/Jean_de_Karpathos>,
+        <http://viaf.org/viaf/268305530>,
+        <http://www.idref.fr/11179384X/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb16844059t#foaf:Person> ;
+    foaf:familyName "Jean de Carpathos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16844059t> .
+

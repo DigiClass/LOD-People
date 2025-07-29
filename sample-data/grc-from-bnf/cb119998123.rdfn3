@@ -1,0 +1,105 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb119998123studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb119998123#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30538714d#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119998123#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30538715r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119998123#about> .
+
+<https://data.bnf.fr/ark:/12148/cb305387163#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119998123#about> .
+
+<https://data.bnf.fr/ark:/12148/cb32085848q#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119998123#about> .
+
+<https://data.bnf.fr/ark:/12148/cc104533h#Expression> bnfroles:r9990 <https://data.bnf.fr/ark:/12148/cb119998123#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb119998123#about> .
+
+<https://data.bnf.fr/ark:/12148/cb119998123> a skos:Concept ;
+    bnf-onto:FRBNF 11999812 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-02-20"^^xsd:date ;
+    isni:identifierValid "000000012147086X" ;
+    dcterms:created "1986-07-10" ;
+    dcterms:modified "2019-02-20" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Gr%C3%A9goire_II_de_Chypre>,
+        <https://catalogue.bnf.fr/ark:/12148/cb119998123> ;
+    skos:altLabel "Gregor von Zypern (1241-1290)"@de,
+        "Grīgórios 2 (patriarche de Constantinople, 1241-1290)"@el,
+        "Grīgórios II (patriarche de Constantinople, 1241-1290)"@el,
+        "Γρηγόριος 2 (patriarche de Constantinople, 1241-1290)"@el,
+        "Γρηγόριος II (patriarche de Constantinople, 1241-1290)"@el,
+        "Gregory of Cyprus (1241-1290)"@en,
+        "Georg von Zypern (1241-1290)"@fr,
+        "George of Cyprus (1241-1290)"@fr,
+        "Georges de Chypre (1241-1290)"@fr,
+        "Georgius Cyprius (1241-1290)"@fr,
+        "Gregorio de Chipre (1241-1290)"@fr,
+        "Gregoriou Kypriou (1241-1290)"@fr,
+        "Grégoire 2 (patriarche de Constantinople, 1241-1290)"@fr,
+        "Grégoire de Chypre (1241-1290)"@fr,
+        "Gregorius Cyprius (1241-1290)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118962310>,
+        <http://datos.bne.es/resource/XX4860202>,
+        <http://id.loc.gov/authorities/n83174295> ;
+    skos:editorialNote "BN Cat. gén.. - . - BN Cat. gén. suppl.. - . -"@fr,
+        "Dictionnaire des auteurs grecs et latins de l'Antiquité et du Moyen-âge : Grégoire II de Chypre. - . - Dictionnaire spiritualité : Grégoire de Chypre. - . - El patriarca Gregorio de Chipre, ca. 1240-1290, y la transmisión de los textos clásicos en Bizancio / Inmaculada Pérez Martín, 1996. - . -"@fr,
+        "Gregoriou Kypriou engkomion eis ten thalassan, 1591. - . - Potthast 2. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Gr%C3%A9goire_II_de_Chypre>,
+        <http://fr.wikipedia.org/wiki/Gr%C3%A9goire_II_de_Chypre>,
+        <http://isni.org/isni/000000012147086X>,
+        <http://viaf.org/viaf/24611065/>,
+        <http://wikidata.org/entity/Q531732>,
+        <http://www.idref.fr/028094913> ;
+    skos:note "Patriarche de Constantinople (1283-1289)"@fr ;
+    skos:prefLabel "Grégoire II (patriarche de Constantinople, 1241-1290)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb119998123#about> .
+
+<https://data.bnf.fr/ark:/12148/cb119998123#about> a foaf:Person ;
+    bnf-onto:firstYear 1241 ;
+    bnf-onto:lastYear 1290 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Patriarche de Constantinople (1283-1289)" ;
+    rdaa:P50119 "Chypre" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1290/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1241/> ;
+    rdagroup2elements:biographicalInformation "Patriarche de Constantinople (1283-1289)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1241/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1290/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Chypre" ;
+    bio:birth "1241" ;
+    bio:death "1290" ;
+    = <http://fr.dbpedia.org/resource/Gr%C3%A9goire_II_de_Chypre>,
+        <http://viaf.org/viaf/24611065>,
+        <http://www.idref.fr/028094913/id>,
+        <https://data.bnf.fr/ark:/12148/cb119998123#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/bpt6k6580664m.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/bpt6k8716430z.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b107237573.thumbnail> ;
+    foaf:familyName "Grégoire" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb119998123> .
+

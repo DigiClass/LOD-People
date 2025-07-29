@@ -1,0 +1,43 @@
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb47492875k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb181521785#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb181521785#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb181521785#about> .
+
+<https://data.bnf.fr/ark:/12148/cb181521785> a skos:Concept ;
+    bnf-onto:FRBNF 18152178 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-06-19"^^xsd:date ;
+    isni:identifierValid "0000000516670989" ;
+    dcterms:created "2024-06-12" ;
+    dcterms:modified "2024-06-19" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb181521785> ;
+    skos:exactMatch <http://isni.org/isni/0000000516670989> ;
+    skos:prefLabel "Spyros N. Lagopatīs"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb181521785#about> .
+
+<https://data.bnf.fr/ark:/12148/cb181521785#about> a foaf:Person ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    = <https://data.bnf.fr/ark:/12148/cb181521785#foaf:Person> ;
+    foaf:familyName "Lagopatīs" ;
+    foaf:gender "male" ;
+    foaf:givenName "Spyros N." ;
+    foaf:name "Spyros N. Lagopatīs" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb181521785> .
+

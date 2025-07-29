@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+   xmlns:bnfroles="http://data.bnf.fr/vocabulary/roles/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdaa="http://rdaregistry.info/Elements/a/#"
+   xmlns:rdagroup2elements="http://rdvocab.info/ElementsGr2/"
+   xmlns:rdau="http://rdaregistry.info/Elements/u/#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb16266643z#about">
+    <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <foaf:givenName>Dinos</foaf:givenName>
+    <foaf:familyName>Koubatis</foaf:familyName>
+    <foaf:gender>male</foaf:gender>
+    <foaf:name>Dinos Koubatis</foaf:name>
+    <bnf-onto:firstYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1944</bnf-onto:firstYear>
+    <foaf:page rdf:resource="https://data.bnf.fr/ark:/12148/cb16266643z"/>
+    <rdagroup2elements:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <rdagroup2elements:languageOfThePerson rdf:resource="http://id.loc.gov/vocabulary/iso639-2/grc"/>
+    <rdaa:P50102 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <rdaa:P50102 rdf:resource="http://id.loc.gov/vocabulary/iso639-2/grc"/>
+    <rdagroup2elements:countryAssociatedWithThePerson rdf:resource="http://id.loc.gov/vocabulary/countries/gr"/>
+    <rdaa:P50097 rdf:resource="http://id.loc.gov/vocabulary/countries/gr"/>
+    <owl:sameAs rdf:resource="https://data.bnf.fr/ark:/12148/cb16266643z#foaf:Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb42351547k#Expression">
+    <bnfroles:r70 rdf:resource="https://data.bnf.fr/ark:/12148/cb16266643z#about"/>
+    <marcrel:aut rdf:resource="https://data.bnf.fr/ark:/12148/cb16266643z#about"/>
+    <dcterms:contributor rdf:resource="https://data.bnf.fr/ark:/12148/cb16266643z#about"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/ark:/12148/cb16266643z">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16266643</bnf-onto:FRBNF>
+    <skos:prefLabel xml:lang="fr">Dinos Koubatis</skos:prefLabel>
+    <dcterms:created>2011-02-21</dcterms:created>
+    <dcterms:modified>2011-02-21</dcterms:modified>
+    <foaf:focus rdf:resource="https://data.bnf.fr/ark:/12148/cb16266643z#about"/>
+    <rdfs:seeAlso rdf:resource="https://catalogue.bnf.fr/ark:/12148/cb16266643z"/>
+    <rdau:P61160 rdf:resource="http://www.rdaregistry.info/termList/statIdentification/1003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://data.bnf.fr/temp-work/deceafd445dbee44d8f80db9d90b0241/#about">
+    <dcterms:creator rdf:resource="https://data.bnf.fr/ark:/12148/cb16266643z#about"/>
+  </rdf:Description>
+</rdf:RDF>

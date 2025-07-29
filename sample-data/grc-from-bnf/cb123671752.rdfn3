@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb123671752studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb123671752#about> .
+
+<https://data.bnf.fr/ark:/12148/cb373981347#Expression> bnfroles:r680 <https://data.bnf.fr/ark:/12148/cb123671752#about> ;
+    marcrel:trl <https://data.bnf.fr/ark:/12148/cb123671752#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb123671752#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123671752> a skos:Concept ;
+    bnf-onto:FRBNF 12367175 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-26"^^xsd:date ;
+    isni:identifierValid "0000000079781049" ;
+    dcterms:created "1994-02-10" ;
+    dcterms:modified "2022-11-03" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Manuel_Holobolos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb123671752> ;
+    skos:altLabel "Manouḗl Holóbōlos",
+        "Maximos 'Olobōlos",
+        "Maximos Holobōlos",
+        "Manouī́l Holóvōlos"@fr,
+        "Manouī́l Holóvōlos (1240?-1290?)"@fr,
+        "Manuel Holobolos"@fr,
+        "Máximos Holóvōlos"@fr,
+        "Μάξιμος Ὁλόβολος"@fr,
+        "Μανουήλ Ὁλόβωλος"@fr,
+        "Μανουήλ Ὁλόβωλος (1240?-1290?)"@fr,
+        "Manuel Holobolus"@la,
+        "Maximus Holobolus"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118553151>,
+        <http://datos.bne.es/resource/XX1311955>,
+        <http://id.loc.gov/authorities/n82115991> ;
+    skos:editorialNote "Boethius \"De topicis differentiis\" kai 'oi buzantines metafraseis tōn Manouēl 'Olobōlou kai Prohorou Kudōnē / eis. kai krit. ekd. tōn keimenōn 'upo Dēmētriou Z. Nikēta = Boethius' \"De topicis differentiis\" und die byzantinische Rezeption dieses Werkes / Einleitung und textkritische Ausg. von Dimitrios Z. Nikitas. Parartēma = Anhang : Eine Pachymeres-Weiterbearbeitung der Holobolos-Übersetzung, 1990. - . - GDEL et Larousse 20 s. : Holobolos (Manuel). - . -"@fr,
+        "Encycl. Grèce : 'Olobolos, Manouēl. - . - Karagiannopoulos : Manouēl 'Olobōlos. - . -"@fr,
+        "Larousse 19 s. : Holobolus (Manuel). - . - Clavis SGL : Holobolus. Manuel Holobolus monachus, ca 1245-ca 1284. - . - LC Authorities : Holobolos, Manouēl, 1240-1290. - http://authorities.loc.gov. - 2022-11-04"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Manuel_Holobolos>,
+        <http://fr.wikipedia.org/wiki/Manuel_Holobolos>,
+        <http://isni.org/isni/0000000079781049>,
+        <http://viaf.org/viaf/76395022/>,
+        <http://wikidata.org/entity/Q3286849>,
+        <http://www.idref.fr/032690444> ;
+    skos:note "Humaniste byzantin ; philologue, poète, philosophe et théologien ; traducteur de Boèce en grec. - Secrétaire privé de l'empereur Michel VIII Paléologue. - Professeur de grammaire et de logique à l'Université de Constantinople (en 1267), et rhéteur de Sainte-Sophie. - Adversaire de l'union des Églises grecque et latine. - Moine sous le nom de \"Maxime\""@fr ;
+    skos:prefLabel "Manuel Holobolos (1240?-1290?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb123671752#about> .
+
+<https://data.bnf.fr/ark:/12148/cb123671752#about> a foaf:Person ;
+    bnf-onto:firstYear 1240 ;
+    bnf-onto:lastYear 1290 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Humaniste byzantin ; philologue, poète, philosophe et théologien ; traducteur de Boèce en grec. - Secrétaire privé de l'empereur Michel VIII Paléologue. - Professeur de grammaire et de logique à l'Université de Constantinople (en 1267), et rhéteur de Sainte-Sophie. - Adversaire de l'union des Églises grecque et latine. - Moine sous le nom de \"Maxime\"" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1290/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1240/> ;
+    rdagroup2elements:biographicalInformation "Humaniste byzantin ; philologue, poète, philosophe et théologien ; traducteur de Boèce en grec. - Secrétaire privé de l'empereur Michel VIII Paléologue. - Professeur de grammaire et de logique à l'Université de Constantinople (en 1267), et rhéteur de Sainte-Sophie. - Adversaire de l'union des Églises grecque et latine. - Moine sous le nom de \"Maxime\"" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1240/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1290/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "1240" ;
+    bio:death "1290" ;
+    = <http://fr.dbpedia.org/resource/Manuel_Holobolos>,
+        <http://viaf.org/viaf/76395022>,
+        <http://www.idref.fr/032690444/id>,
+        <https://data.bnf.fr/ark:/12148/cb123671752#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Hyperpyron-Michael%2520VIII%2520Paleologus-sb2241.jpg> ;
+    foaf:familyName "Holobolos" ;
+    foaf:givenName "Manuel" ;
+    foaf:name "Manuel Holobolos" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb123671752> .
+

@@ -1,0 +1,102 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb135707495#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb180004560#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb301224654#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30885692r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb308856933#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb308856964#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35453170z#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37710149c#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cc102078g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb122068233#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb122068233> a skos:Concept ;
+    bnf-onto:FRBNF 12206823 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-25"^^xsd:date ;
+    isni:identifierValid "0000000116049835" ;
+    dcterms:created "1991-07-01" ;
+    dcterms:modified "2013-07-25" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Marinos_de_N%C3%A9apolis>,
+        <https://catalogue.bnf.fr/ark:/12148/cb122068233> ;
+    skos:altLabel "Marino di Neapoli (0440?-04..)"@fr,
+        "Marinos (philosophe, 0440?-04..)"@fr,
+        "Marinos de Naplouse (0440?-04..)"@fr,
+        "Marinus le philosophe (0440?-04..)"@fr,
+        "Marinus neapolitanus Samaritanus (0440?-04..)"@fr,
+        "Marînos filósofos (0440?-04..)"@fr,
+        "Μαρῖνος φιλόσοφος (0440?-04..)"@fr,
+        "Marinus Neapolitanus (0440?-04..)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100952992>,
+        <http://datos.bne.es/resource/XX1187274>,
+        <http://id.loc.gov/authorities/n86107863>,
+        <https://www.idref.fr/030705843> ;
+    skos:editorialNote "GLE : Marinos. - . - Clavis scriptorum graecorum et latinorum : Marinus neapolitanus samaritanus. - . - DOC / V. Volpi, 1994 : Marinus Neapolitanus (Samariae). - . -"@fr,
+        "Proclus ou Sur le bonheur / Marinus ; texte établi, traduit et annoté par Henri Dominique Saffrey et Alain-Philippe Segonds, 2001. - . - Vita di Proclo / Marino di Neapoli ; trad. a cura di Rita Masullo, 1985. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Marinos_de_N%C3%A9apolis>,
+        <http://fr.wikipedia.org/wiki/Marinos_de_N%C3%A9apolis>,
+        <http://isni.org/isni/0000000116049835>,
+        <http://viaf.org/viaf/30154739829852991528/>,
+        <http://wikidata.org/entity/Q581833>,
+        <http://www.idref.fr/030705843/id> ;
+    skos:note "Philosophe néoplatonicien, disciple et successeur de Proclus"@fr ;
+    skos:prefLabel "Marinus (philosophe, 0440?-04..)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb122068233#about> .
+
+<https://data.bnf.fr/ark:/12148/cb122068233#about> a foaf:Person ;
+    bnf-onto:firstYear 440 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe néoplatonicien, disciple et successeur de Proclus" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0401-0500/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0440/> ;
+    rdagroup2elements:biographicalInformation "Philosophe néoplatonicien, disciple et successeur de Proclus" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0440/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0401-0500/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "440" ;
+    bio:death "04.." ;
+    = <http://fr.dbpedia.org/resource/Marinos_de_N%C3%A9apolis>,
+        <http://viaf.org/viaf/30154739829852991528>,
+        <http://www.idref.fr/030705843/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb122068233#foaf:Person> ;
+    foaf:depiction <https://gallica.bnf.fr/ark:/12148/btv1b525090922.thumbnail> ;
+    foaf:familyName "Marinus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb122068233> .
+

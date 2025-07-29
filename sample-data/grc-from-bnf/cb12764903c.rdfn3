@@ -1,0 +1,65 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb35157729m#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12764903c#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12764903c#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12764903c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12764903c> a skos:Concept ;
+    bnf-onto:FRBNF 12764903 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2023-08-02"^^xsd:date ;
+    isni:identifierValid "0000000061457929" ;
+    dcterms:created "1990-11-28" ;
+    dcterms:modified "2023-08-02" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb12764903c> ;
+    skos:altLabel "Matthaios von Ephesos (1271?-1360?)"@de,
+        "Manouḗl Gabalâs (1271?-1360?)"@fr,
+        "Manouī́l Gavalâs (1271-?-1360?)"@fr,
+        "Matthaîos mītropolítīs E̓fésou (1271?-1360?)"@fr,
+        "Matthieu d'Éphèse (1271?-1360?)"@fr,
+        "Μανουήλ Γαβαλᾶς (1271?-1360?)"@fr,
+        "Ματθαῖος μητροπολίτης Ἐφέσου (1271?-1360?)"@fr,
+        "Matteo di Efeso"@it ;
+    skos:exactMatch <http://isni.org/isni/0000000061457929> ;
+    skos:note "Métropolite d'Éphèse (1329-1351) sous le nom de Matthieu. - Prêtre avant 1310. - Devient chartophylax de Philadelphie en 1321 puis moine en 1322. - Réside à Éphèse et à Constantinople. - Son oeuvre se répartit en écrits théologiques, philologiques, philosophiques et rhétoriques. - A également laissé des prières, des discours à l'empereur Andronic et une correspondance de plus de 90 lettres"@fr ;
+    skos:prefLabel "Manuel Gabalas (1271?-1360?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12764903c#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12764903c#about> a foaf:Person ;
+    bnf-onto:firstYear 1271 ;
+    bnf-onto:lastYear 1360 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Métropolite d'Éphèse (1329-1351) sous le nom de Matthieu. - Prêtre avant 1310. - Devient chartophylax de Philadelphie en 1321 puis moine en 1322. - Réside à Éphèse et à Constantinople. - Son oeuvre se répartit en écrits théologiques, philologiques, philosophiques et rhétoriques. - A également laissé des prières, des discours à l'empereur Andronic et une correspondance de plus de 90 lettres" ;
+    rdaa:P50119 "Philadelphie (auj. Turquie)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1360/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1271/> ;
+    rdagroup2elements:biographicalInformation "Métropolite d'Éphèse (1329-1351) sous le nom de Matthieu. - Prêtre avant 1310. - Devient chartophylax de Philadelphie en 1321 puis moine en 1322. - Réside à Éphèse et à Constantinople. - Son oeuvre se répartit en écrits théologiques, philologiques, philosophiques et rhétoriques. - A également laissé des prières, des discours à l'empereur Andronic et une correspondance de plus de 90 lettres" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1271/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1360/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Philadelphie (auj. Turquie)" ;
+    bio:birth "1271" ;
+    bio:death "1360" ;
+    = <https://data.bnf.fr/ark:/12148/cb12764903c#foaf:Person> ;
+    foaf:familyName "Gabalas" ;
+    foaf:gender "male" ;
+    foaf:givenName "Manuel" ;
+    foaf:name "Manuel Gabalas" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12764903c> .
+

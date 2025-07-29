@@ -1,0 +1,90 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb15101269s#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb10399682j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb151040240#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb10399682j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30598255v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10399682j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30598257j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10399682j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb315864179#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10399682j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb392718198#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10399682j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41610540g#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb10399682j#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb10399682j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10399682j> a skos:Concept ;
+    bnf-onto:FRBNF 10399682 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2013-12-17"^^xsd:date ;
+    isni:identifierValid "0000000382120139" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2014-07-02" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/H%C3%A9ron_de_Byzance>,
+        <https://catalogue.bnf.fr/ark:/12148/cb10399682j> ;
+    skos:altLabel "Hero (09..-09..?)"@fr,
+        "Hero Byzantinus (09..-09..?)"@fr,
+        "Hero of Byzantium (09..-09..?)"@fr,
+        "Heron of Byzantium (09..-09..?)"@fr,
+        "Hī̀rōn ho Vyzántios (09..-09..?)"@fr,
+        "Ἣρων ὁ Βυζἀντιος (09..-09..?)"@fr,
+        "Hero Byzantius (09..-09..?)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/1089115725>,
+        <http://id.loc.gov/authorities/n99254679>,
+        <https://www.idref.fr/105014389> ;
+    skos:editorialNote "Extraits des manuscrits relatifs à la géométrie pratique des Grecs. 1 ̊. Traité de la dioptre, par Héron d'Alexandrie ; 2 ̊. Fragments de Pappus ; 3 ̊. Géodésie, attribuée à un Héron de Byzance ; 4 ̊. Fragments de Jules l'Africain, etc. Textes restitués, traduits en français, annotés et publiés pour la première fois, par A.-J.-H. Vincent, 1858. - . - La tradition du texte d'Héron de Byzance / Alphonse Dain, 1933. - . -"@fr,
+        "LOC Authoririties. - http://authorities.loc.gov. - 2006-10-04 BN Cat. gén.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/H%C3%A9ron_de_Byzance>,
+        <http://fr.wikipedia.org/wiki/H%C3%A9ron_de_Byzance>,
+        <http://isni.org/isni/0000000382120139>,
+        <http://viaf.org/viaf/204014634/>,
+        <http://wikidata.org/entity/Q2247352>,
+        <http://www.idref.fr/105014389/id> ;
+    skos:note "Nom donné au compilateur et commentateur, anonyme, de deux traités scientifiques"@fr ;
+    skos:prefLabel "Héron de Byzance (09..-09..?)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb10399682j#about> .
+
+<https://data.bnf.fr/ark:/12148/cb10399682j#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Nom donné au compilateur et commentateur, anonyme, de deux traités scientifiques" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0901-1000/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:biographicalInformation "Nom donné au compilateur et commentateur, anonyme, de deux traités scientifiques" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "09.." ;
+    bio:death "09.." ;
+    = <http://fr.dbpedia.org/resource/H%C3%A9ron_de_Byzance>,
+        <http://viaf.org/viaf/204014634>,
+        <http://www.idref.fr/105014389/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb10399682j#foaf:Person> ;
+    foaf:familyName "Héron de Byzance" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb10399682j> .
+

@@ -1,0 +1,73 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb31064415v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb103258204#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb103258204#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb103258204#about> .
+
+<https://data.bnf.fr/ark:/12148/cb311089394#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb103258204#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb103258204#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb103258204#about> .
+
+<https://data.bnf.fr/ark:/12148/cb103258204> a skos:Concept ;
+    bnf-onto:FRBNF 10325820 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2019-05-22"^^xsd:date ;
+    isni:identifierValid "0000000456193999" ;
+    dcterms:created "1997-07-01" ;
+    dcterms:modified "2022-09-01" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb103258204> ;
+    skos:altLabel "Peter of Argos"@en,
+        "Peter the Wonderworker"@en,
+        "Pétros ᾿Árgous (085.-092.)"@fr,
+        "Pierre le thaumaturge (085.-092.)"@fr,
+        "Pétros ho Thaumatourgós (085.-092.)"@fr,
+        "Pétros tou A̓rgous"@fr,
+        "Πέτρος του Άργους"@fr,
+        "Πέτρος ὁ Θαυματουργός (085.-092.)"@fr,
+        "Πέτρος Ἄργους (085.-092.)"@fr,
+        "Pietro d'Argo"@it,
+        "Petrus Argivus (085.-092.)"@la,
+        "Petrus thaumaturgus (085.-092.)"@la ;
+    skos:editorialNote "Dict. de spiritualité. - . - Cath. Encycl.. - . - Oxford dict. of Byzantium : Peter of Argos. - . -"@fr,
+        "Discours sur la Conception de la Sainte Mère de Dieu dans le sein de sainte Anne. IXe siècle / de N. S. P. Pierre, évêque d'Argos (Péloponèse) ; [lu dans la rentrée solennelle de l'Académie de l'Immaculée Conception de M. V. par le P. Charles Passaglia le 15 janvier 1854] ; traduction française de F. Fayart, 1855. - . - Novae Patrum bibliothecae ab Ang. card. Maio collectae tomus nonus / editus a Josepho Cozzaluzi,... complectens, in parte prima et secunda, S. Patris nostri Theodori Studitae, parvae et magnae catecheseos sermones ; in parte tertia, S. Petri, episcopi Argosi, historiam et sermones, 1888. - . -"@fr ;
+    skos:exactMatch <http://isni.org/isni/0000000456193999>,
+        <http://viaf.org/viaf/5264156012412049700000/> ;
+    skos:note "Évêque d'Argos. - Saint"@fr ;
+    skos:prefLabel "Pierre d'Argos (085.-092.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb103258204#about> .
+
+<https://data.bnf.fr/ark:/12148/cb103258204#about> a foaf:Person ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Évêque d'Argos. - Saint" ;
+    rdaa:P50118 "Argos" ;
+    rdaa:P50119 "Constantinople" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0901-1000/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:biographicalInformation "Évêque d'Argos. - Saint" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0801-0900/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0901-1000/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Constantinople" ;
+    rdagroup2elements:placeOfDeath "Argos" ;
+    bio:birth "085." ;
+    bio:death "092." ;
+    = <http://viaf.org/viaf/5264156012412049700000>,
+        <https://data.bnf.fr/ark:/12148/cb103258204#foaf:Person> ;
+    foaf:familyName "Pierre d'Argos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb103258204> .
+

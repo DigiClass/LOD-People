@@ -1,0 +1,91 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb418363017#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16498674p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16498674p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41836303x#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16498674p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16498674p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb418363048#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16498674p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16498674p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41836305m#Expression> bnfroles:r370 <https://data.bnf.fr/ark:/12148/cb16498674p#about> ;
+    marcrel:org <https://data.bnf.fr/ark:/12148/cb16498674p#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/temp-work/13dee4af9cbc677708ebc54a20149296/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/temp-work/37443741f4ce4e8b064a9213e3ddf4b7/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/temp-work/617fd6335606e586fcdd6cbb542164b3/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/temp-work/9a030ede1f11c16c0b7b946e637c390e/#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16498674p> a skos:Concept ;
+    bnf-onto:FRBNF 16498674 ;
+    bnf-onto:isniAttributionAgency "ISNI" ;
+    bnf-onto:isniAttributionDate "2024-10-02"^^xsd:date ;
+    isni:identifierValid "0000000517793614" ;
+    dcterms:created "2019-12-07" ;
+    dcterms:modified "2024-10-02" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/A%C3%A9ropos_II>,
+        <https://catalogue.bnf.fr/ark:/12148/cb16498674p> ;
+    skos:altLabel "ʼAéropos 2 (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "ʼAéropos V´ (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "Ἀέροπος 2 (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "Ἀέροπος Βʹ (roi de Macédoine, 04..-0393 av. J.-C.)"@el,
+        "Aeropos 2 (roi de Macédoine, 04..-0393 av. J.-C.)"@fr,
+        "Aeropus 2 (roi de Macédoine, 04..-0393 av. J.-C.)"@la,
+        "Aeropus II (roi de Macédoine, 04..-0393 av. J.-C.)"@la ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/A%C3%A9ropos_II>,
+        <http://fr.wikipedia.org/wiki/A%C3%A9ropos_II>,
+        <http://isni.org/isni/0000000517793614>,
+        <http://viaf.org/viaf/222163411722700360007/>,
+        <http://wikidata.org/entity/Q346476> ;
+    skos:note "Roi de Macédoine de 399 à 393 av. J.-.C.. - Fils de Perdiccas II"@fr ;
+    skos:prefLabel "Aeropos II (roi de Macédoine, 04..-0393 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb16498674p#about> .
+
+<https://data.bnf.fr/ark:/12148/cb16498674p#about> a foaf:Person ;
+    bnf-onto:lastYear -393 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Roi de Macédoine de 399 à 393 av. J.-.C.. - Fils de Perdiccas II" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0393/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:biographicalInformation "Roi de Macédoine de 399 à 393 av. J.-.C.. - Fils de Perdiccas II" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0500--0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0393/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 04.." ;
+    bio:death "- 393" ;
+    = <http://fr.dbpedia.org/resource/A%C3%A9ropos_II>,
+        <http://viaf.org/viaf/222163411722700360007>,
+        <https://data.bnf.fr/ark:/12148/cb16498674p#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Aeropos%2520II.%2520398-395-4%2520BCE.jpg>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10303908h.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10303910b.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10303911s.thumbnail>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b103039127.thumbnail> ;
+    foaf:familyName "Aeropos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb16498674p> .
+

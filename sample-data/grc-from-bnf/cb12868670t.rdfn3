@@ -1,0 +1,95 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb12868670tstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12868670t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb161658464> dcterms:subject <https://data.bnf.fr/ark:/12148/cb12868670t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb305977837#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12868670t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12868670t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12868670t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30849366h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb12868670t#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb12868670t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12868670t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35437513s#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb12868670t#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb12868670t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12868670t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb41132347c#Expression> bnfroles:r71 <https://data.bnf.fr/ark:/12148/cb12868670t#about> ;
+    marcrel:att <https://data.bnf.fr/ark:/12148/cb12868670t#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb12868670t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12868670t> a skos:Concept ;
+    bnf-onto:FRBNF 12868670 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-30"^^xsd:date ;
+    isni:identifierValid "0000000121366093" ;
+    dcterms:created "1991-04-11" ;
+    dcterms:modified "2013-07-31" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/H%C3%A9rode_Atticus>,
+        <https://catalogue.bnf.fr/ark:/12148/cb12868670t> ;
+    skos:altLabel "Hērṓdēs ho ʼAttikós (0101-0177)"@fr,
+        "Hīrṓdīs ho ʼAttikós (0101-0177)"@fr,
+        "Ἡρώδης ὁ Άττικός (0101-0177)"@fr,
+        "Erode Attico (0101-0177)"@it,
+        "Atticus Herodes (0101-0177)"@la,
+        "Atticus Marathonius (0101-0177)"@la,
+        "Claudius Herodes (0101-0177)"@la,
+        "Herodes (0101-0177)"@la,
+        "Herodes Atticus (0101-0177)"@la,
+        "Hipparchus Herodes (0101-0177)"@la,
+        "Lucius Vibullius Hipparchus Tiberius Claudius Atticus Herodes (0101-0177)"@la,
+        "Tiberius Herodes (0101-0177)"@la,
+        "Vibullius Herodes (0101-0177)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/118549839>,
+        <http://datos.bne.es/resource/XX1465959>,
+        <http://id.loc.gov/authorities/n83164991> ;
+    skos:editorialNote "\"Peri politeias\"  / Herodes Atticus ; introduzione, testo critico e commento a cura di Umberto Albini, 1968. - . - Buchwald : Hérode Atticus (Lucius Vibullius Hipparchus Tiberius Claudius H. A.). - . -"@fr,
+        "Clavis SGL : Herodes Atticus. Lucius Vibullius Hipparchus Tiberius Claudius Atticus Herodes. - . - DOC / Vittorio Volpi, 1994 : Herodes Atticus. - . - Encycl. Grèce. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/H%C3%A9rode_Atticus>,
+        <http://fr.wikipedia.org/wiki/H%C3%A9rode_Atticus>,
+        <http://isni.org/isni/0000000121366093>,
+        <http://viaf.org/viaf/64133411/>,
+        <http://wikidata.org/entity/Q311879>,
+        <http://www.idref.fr/030593050> ;
+    skos:note "Philosophe athénien. - Épigrammatiste, rhéteur et sophiste. - Bienfaiteur d'Athènes, fut consul en 143"@fr ;
+    skos:prefLabel "Hérode Atticus (0101-0177)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb12868670t#about> .
+
+<https://data.bnf.fr/ark:/12148/cb12868670t#about> a foaf:Person ;
+    bnf-onto:firstYear 101 ;
+    bnf-onto:lastYear 177 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Philosophe athénien. - Épigrammatiste, rhéteur et sophiste. - Bienfaiteur d'Athènes, fut consul en 143" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0177/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0101/> ;
+    rdagroup2elements:biographicalInformation "Philosophe athénien. - Épigrammatiste, rhéteur et sophiste. - Bienfaiteur d'Athènes, fut consul en 143" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0101/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0177/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "101" ;
+    bio:death "177" ;
+    = <http://fr.dbpedia.org/resource/H%C3%A9rode_Atticus>,
+        <http://viaf.org/viaf/64133411>,
+        <http://www.idref.fr/030593050/id>,
+        <https://data.bnf.fr/ark:/12148/cb12868670t#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Herodes%2520Atticus%2520Louvre%2520Ma1164%2520n2.jpg> ;
+    foaf:familyName "Hérode Atticus" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb12868670t> .
+

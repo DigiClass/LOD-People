@@ -1,0 +1,75 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb30239088r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120212924#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120212924#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120212924#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34787395t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb120212924#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb120212924#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb120212924#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120212924> a skos:Concept ;
+    bnf-onto:FRBNF 12021292 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-24"^^xsd:date ;
+    isni:identifierValid "0000000079737400" ;
+    dcterms:created "1987-03-15" ;
+    dcterms:modified "2013-07-25" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Ch%C3%A9rilos_de_Samos>,
+        <https://catalogue.bnf.fr/ark:/12148/cb120212924> ;
+    skos:altLabel "Cherilo di Samo (0467-0402 av. J.-C.)"@fr,
+        "Choirílos ho Sámios (0467-0402 av. J.-C.)"@fr,
+        "Χοιρίλος ὁ Σάμιος (0467-0402 av. J.-C.)"@fr,
+        "Choerilus (0467-0402 av. J.-C.)"@la,
+        "Choerilus Samius (0467-0402 av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100980848>,
+        <http://id.loc.gov/authorities/n80137694>,
+        <https://www.idref.fr/028361989> ;
+    skos:editorialNote "BN Cat. gén. : Choerilus. - . - BN Service grec. - . -"@fr,
+        "Buchwald. - . - Clavis SGL : Choerilus Samius. - . - Encycl. Grèce. - . -"@fr,
+        "Choerili Samii Reliquiae / introduzione, testo critico e commento a cura di Paola Radici Colace, 1979. - . - Choerili, quae supersunt / collegit et illustravit, de Choerili Samii aetate, vita et poesi, aliisque Choerilis disseruit Augustus Ferdinandus Naekius, 1817. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Ch%C3%A9rilos_de_Samos>,
+        <http://fr.wikipedia.org/wiki/Ch%C3%A9rilos_de_Samos>,
+        <http://isni.org/isni/0000000079737400>,
+        <http://viaf.org/viaf/498149294230880521140/>,
+        <http://wikidata.org/entity/Q1075807>,
+        <http://www.idref.fr/028361989/id> ;
+    skos:note "Poète épique. - Auteur de poèmes à la gloire d'Athènes et de Sparte"@fr ;
+    skos:prefLabel "Choirilos de Samos (0467-0402 av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb120212924#about> .
+
+<https://data.bnf.fr/ark:/12148/cb120212924#about> a foaf:Person ;
+    bnf-onto:firstYear -467 ;
+    bnf-onto:lastYear -402 ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète épique. - Auteur de poèmes à la gloire d'Athènes et de Sparte" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0402/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0467/> ;
+    rdagroup2elements:biographicalInformation "Poète épique. - Auteur de poèmes à la gloire d'Athènes et de Sparte" ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0467/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0402/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 467" ;
+    bio:death "- 402" ;
+    = <http://fr.dbpedia.org/resource/Ch%C3%A9rilos_de_Samos>,
+        <http://viaf.org/viaf/498149294230880521140>,
+        <http://www.idref.fr/028361989/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb120212924#foaf:Person> ;
+    foaf:familyName "Choirilos de Samos" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb120212924> .
+

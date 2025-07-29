@@ -1,0 +1,84 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb11889343mstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb11889343m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb34578474t#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11889343m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11889343m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11889343m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb35164173x#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb11889343m#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb11889343m#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb11889343m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11889343m> a skos:Concept ;
+    bnf-onto:FRBNF 11889343 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-10-24"^^xsd:date ;
+    isni:identifierValid "000000012282800X" ;
+    dcterms:created "1985-06-22" ;
+    dcterms:modified "2024-02-15" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Ath%C3%A9nagoras_Ier_de_Constantinople>,
+        <https://catalogue.bnf.fr/ark:/12148/cb11889343m> ;
+    skos:altLabel "Aristoclès Spyrou (1886-1972)"@fr,
+        "Athénagoras 1 (patriarche oecuménique de Constantinople, 1886-1972)"@fr,
+        "Athénagoras I (patriarche oecuménique de Constantinople, 1886-1972)"@fr ;
+    skos:closeMatch <http://d-nb.info/gnd/118637746>,
+        <http://id.loc.gov/authorities/n82052515> ;
+    skos:editorialNote "Dialogues avec le patriarche Athénagoras / Olivier Clément, 1976. - . - GDEL. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Ath%C3%A9nagoras_Ier_de_Constantinople>,
+        <http://fr.wikipedia.org/wiki/Ath%C3%A9nagoras_Ier_de_Constantinople>,
+        <http://isni.org/isni/000000012282800X>,
+        <http://viaf.org/viaf/89600304/>,
+        <http://wikidata.org/entity/Q68359>,
+        <http://www.idref.fr/026693925> ;
+    skos:note "Patriarche oecuménique de Constantinople (élu en 1948)"@fr ;
+    skos:prefLabel "Athénagoras (patriarche de l'Église orthodoxe, 1886-1972)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb11889343m#about> .
+
+<https://data.bnf.fr/ark:/12148/cb11889343m#about> a foaf:Person ;
+    bnf-onto:firstYear 1886 ;
+    bnf-onto:lastYear 1972 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50100 <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Patriarche oecuménique de Constantinople (élu en 1948)" ;
+    rdaa:P50118 "Istanbul (Turquie)" ;
+    rdaa:P50119 "Vassilikon (Grèce)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/1972/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/1886/> ;
+    rdagroup2elements:biographicalInformation "Patriarche oecuménique de Constantinople (élu en 1948)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/1886/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/1972/> ;
+    rdagroup2elements:fieldOfActivityOfThePerson <http://dewey.info/class/200/>,
+        "Religion" ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Vassilikon (Grèce)" ;
+    rdagroup2elements:placeOfDeath "Istanbul (Turquie)" ;
+    bio:birth "1886-03-25" ;
+    bio:death "1972-07-07" ;
+    = <http://fr.dbpedia.org/resource/Ath%C3%A9nagoras_Ier_de_Constantinople>,
+        <http://viaf.org/viaf/89600304>,
+        <http://www.idref.fr/026693925/id>,
+        <https://data.bnf.fr/ark:/12148/cb11889343m#foaf:Person> ;
+    foaf:birthday "03-25" ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Patriarch%2520Athenagoras%2520%25281967%2529.jpg> ;
+    foaf:familyName "Athénagoras" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb11889343m> .
+

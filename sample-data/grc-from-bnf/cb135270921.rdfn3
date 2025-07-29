@@ -1,0 +1,119 @@
+@prefix ark: <http://ark.bnf.fr/ark:/12148/> .
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ark:mm108200109g a bnf-onto:ExpositionVirtuelle,
+        foaf:Document ;
+    dcterms:subject <https://data.bnf.fr/ark:/12148/cb135270921> ;
+    dcterms:title "Centons homériques" ;
+    foaf:depiction <http://expositions.bnf.fr/homere/images/0/105.jpg> .
+
+<https://data.bnf.fr/ark:/12148/cb135117700#about> dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135270921studies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb304098175#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30409818h#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30409819v#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb304098202#Expression> bnfroles:r360 <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    marcrel:edt <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb311532271#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37688158j#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb135270921#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135270921> a skos:Concept ;
+    bnf-onto:FRBNF 13527092 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-30"^^xsd:date ;
+    isni:identifierValid "0000000108043783" ;
+    dcterms:created "1999-07-07" ;
+    dcterms:modified "2025-03-25" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Eudoxie_%28%C3%A9pouse_de_Th%C3%A9odose_II%29>,
+        <https://catalogue.bnf.fr/ark:/12148/cb135270921> ;
+    skos:altLabel "Athenaïs (0401?-0460)"@de,
+        "Athénaïs (0401?-0460)"@fr,
+        "Eudossia (impératrice romaine d'Orient, 0401?-0460)"@fr,
+        "Eu̓dokía (impératrice romaine d'Orient, 0401?-0460)"@fr,
+        "ʼAthēnaḯs (0401?-0460)"@fr,
+        "ʼAthīnaḯs (0401?-0460)"@fr,
+        "Εὐδοκία (impératrice romaine d'Orient, 0401?-0460)"@fr,
+        "Ἀθηναΐς (0401?-0460)"@fr,
+        "Atenaide (0401?-0460)"@it,
+        "Eudoxie (impératrice romaine d'Orient, 0401?-0460)"@it,
+        "Aelia Eudocia (impératrice romaine d'Orient, 0401?-0460)"@la,
+        "Athenais (0401?-0460)"@la,
+        "Eudocia Atheniensis (impératrice romaine d'Orient, 0401?-0460)"@la,
+        "Eudocia Augusta (impératrice romaine d'Orient, 0401?-0460)"@la,
+        "Eudoxia Augusta (impératrice romaine d'Orient, 0401?-0460)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/100941028>,
+        <http://datos.bne.es/resource/XX1183307>,
+        <http://id.loc.gov/authorities/n86030065> ;
+    skos:editorialNote "Buchwald. - . - Clavis PG : Eudocia Augusta. Athenais Leontii filia. - . -"@fr,
+        "Centons homériques / Patricius, Eudocie, Optimus, Côme de Jérusalem, 1998. - . - Eudociae Augustae, Procli Lycii, Claudiani Carminum graecorum reliquiae / recensuit Arthurus Ludwich, 1897. - . - Athenaïs : Geschichte einer byzantinischen Kaiserin / von Ferdinand Gregorovius, 1892. - . -"@fr,
+        "DOC / V. Volpi, 1994. - . - Encycl. Grèce : ʼAthīnaḯs [ou] ʼEudokía. - . - LC Authorities : Eudocia, consort of Theodosius II, Emperor of the East, d. 460. - http://authorities.loc.gov. - 2025-03-24"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Eudoxie_%28%C3%A9pouse_de_Th%C3%A9odose_II%29>,
+        <http://fr.wikipedia.org/wiki/Eudoxie_%28%C3%A9pouse_de_Th%C3%A9odose_II%29>,
+        <http://isni.org/isni/0000000108043783>,
+        <http://viaf.org/viaf/105135748/>,
+        <http://wikidata.org/entity/Q229307>,
+        <http://www.idref.fr/050379380> ;
+    skos:note "Épouse de Théodose II, empereur byzantin (séparée en 440), fille du sophiste Leontios d'Athènes. - Vécut à Constantinople puis à Jérusalem. - Auteur de diverses oeuvres, continuations et adaptations en vers"@fr ;
+    skos:prefLabel "Eudocie (impératrice romaine d'Orient, 0401?-0460)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb135270921#about> .
+
+<https://data.bnf.fr/ark:/12148/cb135270921#about> a foaf:Person ;
+    bnf-onto:firstYear 401 ;
+    bnf-onto:lastYear 460 ;
+    rdaa:P50097 <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Épouse de Théodose II, empereur byzantin (séparée en 440), fille du sophiste Leontios d'Athènes. - Vécut à Constantinople puis à Jérusalem. - Auteur de diverses oeuvres, continuations et adaptations en vers" ;
+    rdaa:P50118 "Jérusalem" ;
+    rdaa:P50119 "Athènes" ;
+    rdaa:P50120 <https://data.bnf.fr/date/0460/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/0401/> ;
+    rdagroup2elements:biographicalInformation "Épouse de Théodose II, empereur byzantin (séparée en 440), fille du sophiste Leontios d'Athènes. - Vécut à Constantinople puis à Jérusalem. - Auteur de diverses oeuvres, continuations et adaptations en vers" ;
+    rdagroup2elements:countryAssociatedWithThePerson <https://data.bnf.fr/vocabulary/countrycodes/aa> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/0401/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/0460/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdagroup2elements:placeOfBirth "Athènes" ;
+    rdagroup2elements:placeOfDeath "Jérusalem" ;
+    bio:birth "401" ;
+    bio:death "0460-10-20" ;
+    = <http://fr.dbpedia.org/resource/Eudoxie_%28%C3%A9pouse_de_Th%C3%A9odose_II%29>,
+        <http://viaf.org/viaf/105135748>,
+        <http://www.idref.fr/050379380/id>,
+        <https://data.bnf.fr/ark:/12148/cb135270921#foaf:Person> ;
+    foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Hagia%2520Eudokia.jpg> ;
+    foaf:familyName "Eudocie" ;
+    foaf:gender "female" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb135270921> .
+

@@ -1,0 +1,91 @@
+@prefix bio: <http://vocab.org/bio/0.1/> .
+@prefix bnf-onto: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix bnfroles: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix isni: <http://isni.org/ontology#> .
+@prefix marcrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix rdaa: <http://rdaregistry.info/Elements/a/#> .
+@prefix rdagroup2elements: <http://rdvocab.info/ElementsGr2/> .
+@prefix rdasoi: <http://www.rdaregistry.info/termList/statIdentification/> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://data.bnf.fr/ark:/12148/cb13475231rstudies> dcterms:subject <https://data.bnf.fr/ark:/12148/cb13475231r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb17756853m#about> dcterms:creator <https://data.bnf.fr/ark:/12148/cb13475231r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb30287113p#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13475231r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13475231r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13475231r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb37519647w#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13475231r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13475231r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13475231r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45363944r#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13475231r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13475231r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13475231r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb45454537k#Expression> bnfroles:r70 <https://data.bnf.fr/ark:/12148/cb13475231r#about> ;
+    marcrel:aut <https://data.bnf.fr/ark:/12148/cb13475231r#about> ;
+    dcterms:contributor <https://data.bnf.fr/ark:/12148/cb13475231r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13475231r> a skos:Concept ;
+    bnf-onto:FRBNF 13475231 ;
+    bnf-onto:isniAttributionAgency "VIAF" ;
+    bnf-onto:isniAttributionDate "2013-07-30"^^xsd:date ;
+    isni:identifierValid "0000000077314930" ;
+    dcterms:created "1997-09-17" ;
+    dcterms:modified "2018-10-19" ;
+    rdau:P61160 rdasoi:1001 ;
+    rdfs:seeAlso <http://fr.wikipedia.org/wiki/Crinagoras>,
+        <https://catalogue.bnf.fr/ark:/12148/cb13475231r> ;
+    skos:altLabel "Crinagoras de Mytilène (0070?-0018? av. J.-C.)"@fr,
+        "Krinagóras (0070?-0018? av. J.-C.)"@fr,
+        "Krinagóras Mytilīnaíos (0070?-0018? av. J.-C.)"@fr,
+        "Krinagóras Mytilīnaîos (0070?-0018? av. J.-C.)"@fr,
+        "Κριναγόρας (0070?-0018? av. J.C.)"@fr,
+        "Κριναγόρας Μυτιληναῖος (0070?-0018? av. J.-C.)"@fr,
+        "Crinagoras Mytilenaeus (0070?-0018? av. J.-C.)"@la ;
+    skos:closeMatch <http://d-nb.info/gnd/102386021>,
+        <http://id.loc.gov/authorities/n88055358>,
+        <https://www.idref.fr/067067204> ;
+    skos:editorialNote "BN Cat. gén. : CRINAGORAS, de Mytilène. - . - BnF Service grec. - . -"@fr,
+        "GLE. - . - Encycl. Grèce. - . - Encycl. Pápyros. - . -"@fr,
+        "Krinagóras / morfī́ stá néa hellīniká, 'Odysséas 'Elýtīs, 1987. - . - Larousse 20e s.. - . -"@fr ;
+    skos:exactMatch <http://fr.dbpedia.org/resource/Crinagoras>,
+        <http://fr.wikipedia.org/wiki/Crinagoras>,
+        <http://isni.org/isni/0000000077314930>,
+        <http://viaf.org/viaf/29681211/>,
+        <http://wikidata.org/entity/Q2908699>,
+        <http://www.idref.fr/067067204/id> ;
+    skos:note "Poète, auteur d'épigrammes ; actif dans la 2e moitié du 1er siècle av. J.-C.. - Originaire de l'île de Mytilène (Lesbos)"@fr ;
+    skos:prefLabel "Crinagoras (0070?-0018? av. J.-C.)"@fr ;
+    foaf:focus <https://data.bnf.fr/ark:/12148/cb13475231r#about> .
+
+<https://data.bnf.fr/ark:/12148/cb13475231r#about> a foaf:Person ;
+    bnf-onto:firstYear -70 ;
+    bnf-onto:lastYear -18 ;
+    rdaa:P50097 <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdaa:P50102 <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    rdaa:P50113 "Poète, auteur d'épigrammes ; actif dans la 2e moitié du 1er siècle av. J.-C.. - Originaire de l'île de Mytilène (Lesbos)" ;
+    rdaa:P50120 <https://data.bnf.fr/date/-0018/> ;
+    rdaa:P50121 <https://data.bnf.fr/date/-0070/> ;
+    rdagroup2elements:biographicalInformation "Poète, auteur d'épigrammes ; actif dans la 2e moitié du 1er siècle av. J.-C.. - Originaire de l'île de Mytilène (Lesbos)" ;
+    rdagroup2elements:countryAssociatedWithThePerson <http://id.loc.gov/vocabulary/countries/gr> ;
+    rdagroup2elements:dateOfBirth <https://data.bnf.fr/date/-0070/> ;
+    rdagroup2elements:dateOfDeath <https://data.bnf.fr/date/-0018/> ;
+    rdagroup2elements:languageOfThePerson <http://id.loc.gov/vocabulary/iso639-2/grc> ;
+    bio:birth "- 70" ;
+    bio:death "- 18" ;
+    = <http://fr.dbpedia.org/resource/Crinagoras>,
+        <http://viaf.org/viaf/29681211>,
+        <http://www.idref.fr/067067204/id/id>,
+        <https://data.bnf.fr/ark:/12148/cb13475231r#foaf:Person> ;
+    foaf:familyName "Crinagoras" ;
+    foaf:gender "male" ;
+    foaf:page <https://data.bnf.fr/ark:/12148/cb13475231r> .
+
