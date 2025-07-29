@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/052546438">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/052546438/id"/>
+      <dcterms:identifier>052546438</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-07-10</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T10:31:12</dcterms:modified>
+      <skos:editorialNote>DOC / V. Volpi, 1994. Buchwald</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/052546438/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13562874</bnf-onto:FRBNF>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb13562874x#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/264213600"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Alexis (0372?-0270? av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Alexis Thurinus</skos:altLabel>
+      <skos:altLabel>Alessi</skos:altLabel>
+      <foaf:name>Alexis</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/052546438/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0372 ?</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/052546438/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0270 ?</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Poète comique grec, auteur de 245 pièces dont seuls subsistent des fragments</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139362428/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/052546438/id"/>
+      <dcterms:bibliographicCitation>Alessi  : art and poetry  / Fay Sweet / Londres : Thames &amp; Hudson , 1998</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269921559/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/052546438/id"/>
+      <dcterms:bibliographicCitation>Alessi  : testimonianze e frammenti  / testo, traduzione e commento a cura di Felice Stama  / a cura di Leonardo Di Vasto / Castrovillari : Edizioni Aicc Castrovillari</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/13734788X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/052546438/id"/>
+      <dcterms:bibliographicCitation>Mélodie, mètre et rythme dans les vers d'Alexis  : le savoir-faire d'un poète comique  / Alessandra Lukinovich / Grenoble : J. Millon , DL 2009, cop. 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006049397/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/052546438/id"/>
+      <dcterms:bibliographicCitation>Alexis, the fragments  : a commentary  / by W. Geoffrey Arnott,... / Cambridge : Cambridge University Press , 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/167904949/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/052546438/id"/>
+      <dcterms:bibliographicCitation>Poetae minores Graeci. Hesiodus, Theocritus, Moschus,... Metrodôrus. Fragmenta quaedam Philemonis, Alexidis, Amphidis,... Clearchi. Et aliorum incertorum autorum. Quibus subjungitur eorum potissimùm quae ad philosophiam moralem pertinent, index utilis. Accedunt etiam observationes Radulphi Wintertoni in Hesiodum / Cantabrigiae, ex officina Joan. Hayes, Celeberrimae Academiae typographi. MDCLXXXIV. , 1684</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006049397/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/052546438/id"/>
+      <dcterms:bibliographicCitation>Alexis, the fragments  : a commentary  / by W. Geoffrey Arnott,... / Cambridge : Cambridge University Press , 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269921559/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/052546438/id"/>
+      <dcterms:bibliographicCitation>Alessi  : testimonianze e frammenti  / testo, traduzione e commento a cura di Felice Stama  / a cura di Leonardo Di Vasto / Castrovillari : Edizioni Aicc Castrovillari</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

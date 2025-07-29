@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/067046681">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/067046681/id"/>
+      <dcterms:identifier>067046681</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-20</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-07T11:09:32</dcterms:modified>
+      <skos:editorialNote>Pleurs / de Philippe le Solitaire, poème en vers politique ; publié d'après six manuscrits de la Bibliothèque nationale par l'abbé Emmanuel Auvray, 1875. Philippi Solitarii Dioptra, id est Regula [...] / omnia nunc primum latinitate donata a Jacobo Pontano, 1604</skos:editorialNote>
+      <skos:editorialNote>Chevalier. Buchwald : Philippe Monotropos. Clavis SGL, PMA et Dizionario delle opere classiche / Vittorio Volpi, 1994 : Philippus Solitarius. Encycl. Grèce</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/067046681/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13485063</bnf-onto:FRBNF>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb134850631#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/211086453"/>
+      <skos:prefLabel>Philippe le Solitaire (10..-11..)</skos:prefLabel>
+      <skos:altLabel>Philippe Monotropos</skos:altLabel>
+      <skos:altLabel>Philippus Monotropus</skos:altLabel>
+      <skos:altLabel>Fílippos ho Monótikos</skos:altLabel>
+      <skos:altLabel>Fílippos ho Monótropos</skos:altLabel>
+      <skos:altLabel>Filippo il Solitario</skos:altLabel>
+      <skos:altLabel>Phílippos ho Monótropos</skos:altLabel>
+      <skos:altLabel>Phílippos ho Monótikos</skos:altLabel>
+      <skos:altLabel>Phílippos ho Solitários</skos:altLabel>
+      <skos:altLabel>Philippus Solitarius (10..-11..)</skos:altLabel>
+      <skos:altLabel>Fílippos ho Solitários (10..-11..)</skos:altLabel>
+      <foaf:name>Philippe le Solitaire</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/067046681/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">10XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/067046681/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">11XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Moine, a vécu du temps d'Alexis I (1081-1118). Auteur d'un poème et d'un traité en pentadécasyllabes sur la connaissance de soi</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/156962527/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/067046681/id"/>
+      <dcterms:bibliographicCitation>Ciel ou paradis  : le séjour des âmes, d'après Philippe le Solitaire, Dioptra, Livre IV, chapitre X  / A. Wenger / München : C. H. Beck , 1951</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/111766265/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/067046681/id"/>
+      <dcterms:bibliographicCitation>Philippi Solitarii Dioptra, id est, regula, sive amussis rei christianae, ad Callinicum monachum, quatuor libris per dialogum explicata... Nicolai Cabasilæ Sacellii curatoris De vita in Christo, libri VI. Ejusdem contra fœneratores oratio. Joannis Carpathiorum episcopi Capita hortatoria sive documenta spiritualia CXCI. Philothei patriarchæ Constantinopolitani in praeclaros pontifices, &amp; orbis terrarum magistros, Magnum Basilium, Gregorium Theologum, &amp; Joannem Chrysostomum laudatio, Græcolatina ... Adjectæ sunt disputatiunculæ duæ Michaëlis Glycæ. Omnia nunc primum latinitate donata, à Jacobo Pontano Societatis Jesu... / Cum gratia &amp; privilegio Cæsareæ Majestatis. Ingolstadii, ex typographia Adami Sartorii. Anno M.DCIV</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11774395X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/067046681/id"/>
+      <dcterms:bibliographicCitation>Νικηφορου του Βρυεννιου Ιστοριων βιβλια Δ'  = = Nicephori Bryennii Historiarum libri IV, Caroli Dufresnii Du Cangii notis historicis illustrati :   / accurante et denuo recognoscente J.-P. Migne, bibliothecæ cleri universæ, sive cursuum completorum in singulos scientiæ ecclesiasticæ ramos editore / [Parisiis] : Excudebatur et venit apud J.-P. Migne editorem , 1864</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051503441/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/067046681/id"/>
+      <dcterms:bibliographicCitation>Les pleurs de Philippe  : poëme  en vers politiques de Philippe le Solitaire  : publié dans le texte pour la première fois d'après six manuscrits de la Bibliothèque nationale  / par l'abbé Emmanuel Auvray,... / Paris : Librairie A. Franck , 1875</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

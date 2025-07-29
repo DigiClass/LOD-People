@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/130921335">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:identifier>130921335</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-02-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T10:05:40</dcterms:modified>
+      <skos:editorialNote>Doukas, histoire turco-byzantine : introduction, traduction et commentaire / Jean Dayantis ; directeur Gérard Dédéyan, co-directeur Marie-Paule Masson, 2004</skos:editorialNote>
+      <skos:editorialNote>Internet, http://fr.wikipedia.org, 2009-02-03 : Jean VIII Paléologue (16/12/1392- 31/10/1448), empereur byzantin de 1425 à 1448, fils de Manuel II Paléologue</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/130921335/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000026754039"/>
+      <isni:identifierValid>0000000026754039</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb16981221z#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/37307937"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Jean_VIII_Paléologue"/>
+      <skos:prefLabel>Jean VIII (1392-1448 ; empereur d'Orient)</skos:prefLabel>
+      <skos:altLabel>Jean VIII Paléologue (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Jean Paléologue VIII (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Paléologue, Jean</skos:altLabel>
+      <skos:altLabel>Iôannês Palaiologos</skos:altLabel>
+      <foaf:familyName>Jean</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Jean</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/130921335/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1392-12-16</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/130921335/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1448-10-31</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Empereur d'Orient de 1425 à 1448</skos:note>
+      <!--skos:note-->
+      <rdfs:seeAlso>
+         <dbpedia-owl:Place rdf:about="http://www.idref.fr/130921726/id">
+            <skos:prefLabel xml:lang="fr">Empire byzantin -- 1425-1448 (Jean VIII Paléologue)</skos:prefLabel>
+         </dbpedia-owl:Place>
+      </rdfs:seeAlso>
+      <rdfs:seeAlso>
+         <skos:Concept rdf:about="http://www.idref.fr/130921726/id">
+            <skos:prefLabel xml:lang="fr">Empire byzantin -- 1425-1448 (Jean VIII Paléologue)</skos:prefLabel>
+         </skos:Concept>
+      </rdfs:seeAlso>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/270384278/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Lead seals of John VIII Palaiologos from Rhodes  / Nikolaos Mastrochristos</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047739177/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Memorii 1401-1477  / Georgios Sphrantzes  ;  În anexă Cronica 1258-1481  = = Ta kath' eauton kai tina gegonota en tō chronō tīs zōīs autou 1401-1477 :   / Pseudo-Phrantzes Macarie Melissenos  / Georgios Sphrantzes  / ex recensione Basilii Grecu  ; ediţie critică de Vasile Grecu / Bucureşti : Ed. Academiei Republicii Socialiste România , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/28455281X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>"Our imperial dignity is the source, seat and highest summit of all earthly power"  : To legitimate a new signoria : the privileges of John VIII Palaiologos to Florence in 1439  / Carlo Virgilio</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186983212/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Pisanello's medallion of the Emperor John VIII Palaeologus  / Roberto Weiss / [London] : The British Museum , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/028383192/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Сумрак Византије  : време Јована VIII Палеолога (1392-1448)  / Иван Ђурић / Београд : Народна књига , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/261042564/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Chronographia  : Byzantiner und Osmanen im Kampf um die Macht und das Überleben (1341-1462)  / Dukas  ; eingeleitet, neu ediert, übersetzt und mit Anmerkungen versehen von Diether Roderich Reinsch, in Zusammenarbeit mit Ljuba H. Reinsch-Werner / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/273870440/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Chronographia  : Byzantiner und Osmanen im Kampf um die Macht und das Überleben (1341-1462)  / Dukas  ; eingeleitet, neu ediert, übersetzt und mit Anmerkungen versehen von Diether Roderich Reinsch, in Zusammenarbeit mit Ljuba H. Reinsch-Werner / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/219903972/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>L' histoire turco-byzantine de Doukas, chroniqueur byzantin du quinzième siècle  / Jean Dayantis / Saarbrücken, Allemagne : Éditions universitaires européennes</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/17590488X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Johannes VIII. Palaiologos und das Konzil von Ferrara-Florenz (1438-39)  : das byzantinische Kaisertum im Dialog mit dem Westen  / von Sebastian Kolditz / Stuttgart : A. Hiersemann , 2013-2014, cop. 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160089433/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Сумрак Византије  : време Јована VIII Палеолога (1392-1448)  / Иван Ђурић / Београд : Просвета , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/104480068/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Doukas, histoire turco-byzantine  : introduction, traduction et commentaire  / Jean Dayantis  ; directeur Gérard Dédéyan, co-directeur Marie-Paule Masson / [S.l.] : [s.n.] , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/255001029/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Sailing into union  : the byzantine naval convoy for the council of Ferrara-Florence (1438-1439)  / Lilia Campana</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/264830628/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Sumrak Vizantije  : vreme Jovana VIII Paleologa (1392-1448)  / Ivan Đurić / 2. izdanje / Zagreb : Naprijed , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/156000202/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>The fall of the Byzantine Empire  : a chronicle  / by George Sphrantzes, 1401-1477  ; translated by Marios Philippides / Amherst : University of Massachusetts Press , 1980</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/177436689/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Johannes VIII. Palaiologos und das Konzil von Ferrara-Florenz 1438/39  2. Halbband,   : das byzantinische Kaisertum im Dialog mit dem Westen  / von Sebastian Kolditz / Stuttgart : A. Hiersemann , 2014, cop. 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125209797/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Doukas, histoire turco-byzantine  : introduction, traduction et commentaire  / Jean Dayantis  ; directeur Gérard Dédéyan, co-directeur Marie-Paule Masson / Lille : Atelier national de reproduction des thèses , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187008493/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Sumrak Vizantije  : vreme Jovana VIII Paleologa, 1392-1448  = = Le crépuscule de Byzance : le temps de Jean VIII Paléologue  / Ivan Duric / Belgrade : Academ serbe des sciences et des arts , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125965036/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130921335/id"/>
+      <dcterms:bibliographicCitation>Doukas, histoire turco-byzantine  : introduction, traduction et commentaire  / Jean Dayantis  ; directeur Gérard Dédéyan, co-directeur Marie-Paule Masson / Lille : Atelier national de reproduction des thèses , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

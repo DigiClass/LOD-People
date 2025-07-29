@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/152704272">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/152704272/id"/>
+      <dcterms:identifier>152704272</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-06-01</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-03T22:55:42</dcterms:modified>
+      <skos:editorialNote>Spätbyzantinische Kirchenmusik im Spiegel der zypriotischen Handschriftentradition / Christiana I. Demetriou, 2007</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/152704272/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15592469</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000354581827"/>
+      <isni:identifierValid>0000000354581827</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb155924694#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/20851305"/>
+      <foaf:gender>female</foaf:gender>
+      <skos:prefLabel>Demetriou, Christiana I. (1965-....)</skos:prefLabel>
+      <foaf:familyName>Demetriou</foaf:familyName>
+      <foaf:givenName>Christiana I.</foaf:givenName>
+      <foaf:name>Christiana I. Demetriou</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/152704272/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1965</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/146669/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ell"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <!--skos:note-->
+      <skos:note>Musicologue. Participe au projet du centre de recherches sur la tradition musicale postbyzantine à Chypre</skos:note>
+      <skos:note>Lieu de naissance Larnaka (Chypre)</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152704728/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/152704272/id"/>
+      <dcterms:bibliographicCitation>Spätbyzantinische Kirchenmusik im Spiegel der zypriotischen Handschriftentradition  : Studien zum Machairas Kalophonon Sticherarion A4  / Christiana I. Demetriou / Frankfurt : P. Lang , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

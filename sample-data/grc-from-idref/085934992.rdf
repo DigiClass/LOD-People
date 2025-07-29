@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/085934992">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:identifier>085934992</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-04-19</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T10:07:28</dcterms:modified>
+      <skos:editorialNote>GLU, 1987</skos:editorialNote>
+      <skos:editorialNote>WBIS online, 2005-04-19</skos:editorialNote>
+      <skos:editorialNote>Internet, http://thesaurus.cerl.org/record/cnp00976299, 20140207</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/085934992/id">&#xD;<!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb10467388v#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/307499132"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Dexippe"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Dexippus, Publius Herennius (0210?-0269?)</skos:prefLabel>
+      <skos:altLabel>Dexippos</skos:altLabel>
+      <skos:altLabel>Dexippe</skos:altLabel>
+      <skos:altLabel>Dexippus, Paulus Herennius</skos:altLabel>
+      <skos:altLabel>Dexippus Atheniensis</skos:altLabel>
+      <foaf:familyName>Dexippus</foaf:familyName>
+      <foaf:givenName>Publius Herennius</foaf:givenName>
+      <foaf:name>Publius Herennius Dexippus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/085934992/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0210</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/085934992/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0269</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Historien grec du IIIe siècle. Issu de la grande famille athénienne des Kerykes, il fut archonte éponyme en 267 et stratège. Ses principaux ouvrages étaient des Chronika allant jusqu'en 268, et des Skythica relatifs à la période de 238 à 270</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113162308/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Dexipp von Athen  : Edition, Übersetzung und begleitende Studien  / Gunther Martin / Tübingen : G. Narr , cop. 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182340872/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Dexippus  / poema Suecanum Victoris Rydberg  ; Latinis versibus refinxit Ioannes Bergman.. / Athenis : in aedibus P. D. Sacellarii , 1896</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/17479827X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Testimonianze e frammenti  / Dexippo di Atene  ; a cura di Laura Mecella / Tivoli : Tored , 2013, cop. 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159369312/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Excerpta de legationibus, ex Dexippo Atheniense. Eunapio Sardiano. Petro Patricio et Magistro. Prisco Sophista. Malcho Philadelphensi. Menandro Protectore. Haec Carolus Cantoclarus in S. Regis Christianissimi Consist. Cons. &amp; libellorum supplicum Magister è Græcis Latina fecit &amp; Notas addidit.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018066542/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Corpus scriptorum historiae byzantinae  / consilio B. G. Niebuhrii C. f. instituta ...  ; Imm. Bekkeri, L. Schopeni, G. et L. Dindorfiorum al. ... / Editio emendatior et copiosior / Bonnae : impensis E. Weberi , 1828-1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/17479827X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Testimonianze e frammenti  / Dexippo di Atene  ; a cura di Laura Mecella / Tivoli : Tored , 2013, cop. 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/048416126/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Historici Graeci minores  / Edidit Ludovicus Dindorfius / Lipsiae : In aedibus B.G. Teubneri , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159369304/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Excerpta de legationibus, ex Dexippo, Malcho et aliis, latine, ex versione et cum notis Caroli Cantoclari / Paris : Pierre Chevalier , 1609</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099838818/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Eclogae legationum Dexippi Atheniensis, Eunapii Sardiani, Petri patricii et magistri, Prisci sophistae, Malchi Philadelphensis, Menandri protectoris, cum corollario excerptorum e libris Diodori Siculi amissis XXI, XXII, XXIII, XXIIII, XXV, XXVI. Omnia e Mss. Cod. a David Hoeschelio edita</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017489032/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Dexippi, Eunapii, Petri Patricii, Prisci, Malchi, Menandri historiarum quae supersunt  / e recensione Imm. Bekkeri et B. G Niebuhrii C. F.  / Photii  / Henr. Valesii, Labbei et Villoisonis  / Classeni  ; cum versione latina per Jo. Classenum emendata  ; ex Olympiodoro, Candido, Nonnoso et Theophane / Bonnae : Impensis Ed. Weberi , 1829</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113162308/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Dexipp von Athen  : Edition, Übersetzung und begleitende Studien  / Gunther Martin / Tübingen : G. Narr , cop. 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159369320/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Excerpta de legationibus, ex Dexippo, Malcho et aliis, graece et latine, interprete Carolo Cantoclaro, cum notis Henrici Valesii. Eclogae historicorum de rebus byzantinis quorum integra scripta aut... interciderunt... selegis... notisque brevibus illustravit P. Philip. Labbe. Accecunt Meursu... notae. Theophilacti Simocatae... historiarum libri VIII. Interprete Iacobo Pontano... Editio glossario graeco barbaro auctior, st et opera C. Ann. Fabroti,... sancti Nicephori,... Breviarum historicum,... interprete Dyon. Petavio. / Parisiis : E. Typogr. Regia , 1648</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016318773/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Flavii Josephi opera  : Graece et latine  / recognovit Guilelmus Dindorfius / Parisiis [Paris] : A. Firmin Didot , 1865</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/262539519/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/085934992/id"/>
+      <dcterms:bibliographicCitation>Φλαβίου Ιώσηπου τα ευρισκόμενα  Volumen secundum,   = = Flavii Josephi opera : græce et latine  / recognovit Guilelmus Dindorfius / Parisiis : editore Ambrosio Firmin Didot , 1865</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/034340912">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/034340912/id"/>
+      <dcterms:identifier>034340912</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-04-22</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T15:47:33</dcterms:modified>
+      <skos:editorialNote>Conseils aux ascètes / Hyperéchios ; introd. , trad. et notes par dom Paul Tirot, [dans] : Enseignements des Pères du désert / Hyperéchios, Étienne de Thèbes, Zosime ; préf. de dom Michel Van Parys, O.S.B., 1991</skos:editorialNote>
+      <skos:editorialNote>Clavis scriptorum Graecorum et Latinorum : Stephanus Thebaicus</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : HYPERECHIUS (saint), abbé</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/034340912/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12510573</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000357002683"/>
+      <isni:identifierValid>0000000357002683</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb125105733#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/193748605"/>
+      <skos:prefLabel>Stephanus Thebaicus (04..?-05..?)</skos:prefLabel>
+      <skos:altLabel>Étienne de Thèbes</skos:altLabel>
+      <skos:altLabel>Étienne le Thébain</skos:altLabel>
+      <skos:altLabel>Étienne le Sabbai͏̈te</skos:altLabel>
+      <skos:altLabel>Stefano di Tebe</skos:altLabel>
+      <foaf:name>Stephanus Thebaicus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/034340912/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">04XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/034340912/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">05XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/357994/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Moine égyptien du Ve ou du VIe siècle ?</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158951026/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034340912/id"/>
+      <dcterms:bibliographicCitation>Parole dal deserto  / introduzione, traduzione e note a cura di Lisa Cremaschi,... / Magnano : Qiqajon, Comunita di Bose , cop. 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00241256X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034340912/id"/>
+      <dcterms:bibliographicCitation>Enseignements des Pères du désert  / Hyperéchios, Étienne de Thèbes, Zosime  ; préf. de dom Michel van Parys,...  ; introd., trad. et notes par dom Paul Tirot,... dom Michel van Parys,... dom Lucien Regnault,... / Bégrolles-en-Mauge : Abbaye de Bellefontaine , DL 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

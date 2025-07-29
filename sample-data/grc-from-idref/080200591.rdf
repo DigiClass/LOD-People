@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/080200591">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/080200591/id"/>
+      <dcterms:identifier>080200591</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-09-09</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-24T15:37:23</dcterms:modified>
+      <skos:editorialNote>Internet, http://opera.stanford.edu/composers/,  07-09-2004 : Compositeur, Mamangakis, Nicos (3.3.1929 Rethymnon, Kriti)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/080200591/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13962232</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000078391874"/>
+      <isni:identifierValid>0000000078391874</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb139622321#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/28289232"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Níkos_Mamangákis"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Mamangakis, Nicos (1929-2013)</skos:prefLabel>
+      <skos:altLabel>Mamangakis, Nikos</skos:altLabel>
+      <foaf:familyName>Mamangakis</foaf:familyName>
+      <foaf:givenName>Nicos</foaf:givenName>
+      <foaf:name>Nicos Mamangakis</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/080200591/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1929-03-03</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/080200591/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-07-24</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Musicien</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/104647280/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/080200591/id"/>
+      <dcterms:bibliographicCitation>Heimat 2  : Chronik einer Jugend  : chronique d'une jeunesse  / Edgar Reitz, réal., scénario  ; Nikos Mamangakis, comp.  ; Henry Arnold, Salome Kammer, Anke Sevenich... [et al], act. / Paris : Diaphana Edition Video, Lumière Productie bvba , 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/19215401X/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/080200591/id"/>
+      <dcterms:bibliographicCitation>Heimat  1, Une chronique allemande  : 1919-1982  / Edgar Reitz, réal.  ; Nikos Mamangakis, mus.  ; Marita Breuer, Rüdiger Weigang, Karin Kienzler, ... [et al.], act / [Paris] : Potemkine Films [éd.] , 2016</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123256283/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/080200591/id"/>
+      <dcterms:bibliographicCitation>Pro musica nova  : Studien zum spielen neuer Musik für Violoncello  = = Studies for playing contemporary music for Violoncello : mit Werken von Günther Becker, Hans Ulrich Engelmann, Wolfgang Fortner, Michael Gielen, Mauricio Kagel...  / herausgegeben von Siegfried Palm / Wiesbaden : Breitkopf &amp; Härtel , cop. 1985</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/110219783/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/080200591/id"/>
+      <dcterms:bibliographicCitation>Heimat 3  : Chronik einer Zeitenwende  = = chronique d'une époque :   / Edgar Reitz, réal., scénario, prod.  ; Nikos Mamangakis, comp.  ; Henry Arnold, Salome Kammer, Uwe Steimle... [et al], act. / Paris : Diaphana Edition Video , 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152998683/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/080200591/id"/>
+      <dcterms:bibliographicCitation>Heimat  1, Une chronique allemande  : 1919-1982  / Edgar Reitz, réal., scénario  ; Peter Steinbach, scénario  ; Nikos Mamangakis, comp.  ; Maria Breuer, Rüdiger Weigang, Karin Rasenack... [et al.], act. / Paris : Diaphana éd. vidéo [éd., distrib.] , [DL 2006]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014028476/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/080200591/id"/>
+      <dcterms:bibliographicCitation>Die Zweite Heimat  : chronik einer Jugend in 13 Filmen  = = Une @deuxième patrie : chronique d'une jeunesse en 13 films  / von Edgar Reitz  ; musik Nikos Mamangakis  ; [interpr.] Henry Arnold  ; Salome Kammer  ; Anke Sevenich... [et al.] / Paris : Films sans frontières , [1995?] -</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099012448/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/080200591/id"/>
+      <dcterms:bibliographicCitation>Heimat 1  : eine deutsche Chronik  = = une chronique allemande :   / Edgar Reitz, réal., scénario  ; Peter Steinbach, scénario  ; Nikos Mamangakis, mus.  ; Gernot Roll, dir. photogr.  ; Marita Breuer, Rüdiger Weigang, Karin Rasenack... [et al], act. / Paris : Diaphana Edition Video, Lumière Productie bvba</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

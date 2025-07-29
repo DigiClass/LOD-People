@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/105014389">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/105014389/id"/>
+      <dcterms:identifier>105014389</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-13</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-12T01:59:28</dcterms:modified>
+      <skos:editorialNote>Grand Larousse encyclopédique</skos:editorialNote>
+      <skos:editorialNote>http://catalogue.bnf.fr, 2009-07-23</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/105014389/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000107979256"/>
+      <isni:identifierValid>0000000107979256</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb10399682j#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/22944086"/>
+      <skos:prefLabel>Héron de Byzance (09..-....)</skos:prefLabel>
+      <skos:altLabel>Hero Byzantius</skos:altLabel>
+      <skos:altLabel>Hī̀rōn ho Vyzántios</skos:altLabel>
+      <skos:altLabel>Hero Byzantinus</skos:altLabel>
+      <skos:altLabel>Heron of Byzantium</skos:altLabel>
+      <skos:altLabel>Hero of Byzantium</skos:altLabel>
+      <skos:altLabel>Héron le Jeune</skos:altLabel>
+      <foaf:familyName>Héron de Byzance</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Héron de Byzance</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/105014389/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">09XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/105014389/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">09XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Mathématicien grec auteur de deux traités De machinis bellicis et Geodesia et de deux fragments sur l'art militaire.</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063227339/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/105014389/id"/>
+      <dcterms:bibliographicCitation>La Tradition du texte d'Héron de Byzance  / par Alphonse Dain / Paris : Les Belles Lettres , 1933</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100029515/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/105014389/id"/>
+      <dcterms:bibliographicCitation>Heronis mechanici liber de machinis bellicis, necnon liber de geodaesia, a Francisco Barocio... latinitate donati... expurgati et figuris ac scholiis illustrati / Venetiis : apud Franciscum franciscium Senensem , 1572</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/237893568/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/105014389/id"/>
+      <dcterms:bibliographicCitation>Compilation anonyme sur la défense des places fortes  : traduite pour la première fois du grec  / par E. Caillemer / Besançon : imprimerie Dodivers , 1872</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/053081692/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/105014389/id"/>
+      <dcterms:bibliographicCitation>Siegecraft  : two tenth-century instructional manuals  / by "Heron of Byzantium"  ; [ed. and transl. by] Denis F. Sullivan / Washington (D.C.) : Dumbarton Oaks Research Library and Collection , cop. 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100418260/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/105014389/id"/>
+      <dcterms:bibliographicCitation>Veterum mathematicorum Athenæi, Bitonis, Apollodori, Heronis, Philonis et aliorum opera, græce et latine pleraque nunc primum edita. Ex manuscriptis codicibus Bibliothecæ regiæ. / Parisiis, :  ex Typographia regia , . M. DC XCIII., Parisiis, e Typographia regia, curante Joanne Anisson, ejusdem Typographiæ directore. M. DC. XCIII</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134289390/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/105014389/id"/>
+      <dcterms:bibliographicCitation>Mémoire sur une question proposée par l'Académie des inscriptions et belles-lettres  ;  suivi d'un opuscule de Héron de Bizance sur les mesures, traduit du grec et de quelques observations sur les mesures itinéraires des Anciens  / par M. de Fortia / Paris : Didot , 1823</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089295277/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/105014389/id"/>
+      <dcterms:bibliographicCitation>Veterum mathematicorum Athenæi, Bitonis, Apollodori, Heronis, Philonis et aliorum opera, græce et latine pleraque nunc primum edita. Ex manuscriptis codicibus Bibliothecæ regiæ. / Parisiis, ex Typographia regia. M. DC XCIII.</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

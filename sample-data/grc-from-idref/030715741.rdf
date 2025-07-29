@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030715741">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030715741/id"/>
+      <dcterms:identifier>030715741</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-07-08</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T09:20:05</dcterms:modified>
+      <skos:editorialNote>Cento epistole a Manuele II il Paleologo / Demetrio Crisolora ; trad. a cura di Ferruccio Conti Bizzarro, 1984</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Chrysoloras (Demetrios). BN Cat. gén. 1960-1969 : Chrysoloras (Dimitrios). LCNA, 1986 : Chrysolōras, Dēmētrios. BN Service grec</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030715741/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12207605</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000081510213"/>
+      <isni:identifierValid>0000000081510213</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12207605v#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/71438973"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Démétrios_Chrysoloras"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Chrysolōras, Dēmētrios (13..-14..)</skos:prefLabel>
+      <skos:altLabel>Khrysolōras, Dēmētrios</skos:altLabel>
+      <skos:altLabel>Chrysōloras, Dīmītrios</skos:altLabel>
+      <skos:altLabel>Chrysoloras, Demetrius</skos:altLabel>
+      <skos:altLabel>Hrusolôras, Dêmêtrios</skos:altLabel>
+      <skos:altLabel>Crisolora, Demetrio</skos:altLabel>
+      <skos:altLabel>Dēmētrios Chrysolōras</skos:altLabel>
+      <skos:altLabel>Hrusolōras, Dēmētrios (13..-14..)</skos:altLabel>
+      <foaf:familyName>Chrysolōras</foaf:familyName>
+      <foaf:givenName>Dēmētrios</foaf:givenName>
+      <foaf:name>Dēmētrios Chrysolōras</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030715741/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">13XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/030715741/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">14..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Théologien, philosophe et astronome originaire de Thessalonique. Ami de l'empereur byzantin Manuel II Paléologue, qui lui confia d'importantes missions politiques. Adversaire de l'union avec les Latins</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/284017868/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030715741/id"/>
+      <dcterms:bibliographicCitation>Demetrio Crisolora, Discorso su san Demetrio (BHG 545): Edizione critica, con una prima biografia dell'autore e uno studio delle fonti  / Matteo Dessilani</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150024959/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030715741/id"/>
+      <dcterms:bibliographicCitation>Action de grâces de Démétrus Chrysoloras à la Théotocos pour l'anniversaire de la bataille d'Ankara (28 juillet 1403)  / [Paul Gautier] / Paris : Insitut français d'études byzantines , 1961</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006324495/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030715741/id"/>
+      <dcterms:bibliographicCitation>Cento epistole a Manuele il Paleologo  / Demetrio Crisolora  ; testo critico, introd., trad. e commentario a cura di Ferruccio Conti Bizzarro / Napoli : M. D'Auria , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006324495/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030715741/id"/>
+      <dcterms:bibliographicCitation>Cento epistole a Manuele il Paleologo  / Demetrio Crisolora  ; testo critico, introd., trad. e commentario a cura di Ferruccio Conti Bizzarro / Napoli : M. D'Auria , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186983670/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030715741/id"/>
+      <dcterms:bibliographicCitation>La Asuncion de Maria en Demetrio Crisoloras  / [ed. y trad. por] Ismael Roca Melia. / Salamanca : Pontificia Universidad Eclesiastica , 1961</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/156832437/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030715741/id"/>
+      <dcterms:bibliographicCitation>Epitome integrae grammatice,fAlb. Torino, interpr / Basileae , 1528</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

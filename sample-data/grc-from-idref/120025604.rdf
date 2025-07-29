@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/120025604">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/120025604/id"/>
+      <dcterms:identifier>120025604</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-14</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-23T14:57:31</dcterms:modified>
+      <skos:editorialNote>The life &amp; miracles of St Luke</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/120025604/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/28639333"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Luc (0896-0953 ; Saint)</skos:prefLabel>
+      <skos:altLabel>Saint Luc de Steiris</skos:altLabel>
+      <skos:altLabel>Saint Luke of Steiris</skos:altLabel>
+      <skos:altLabel>Luc de Steiris (saint)</skos:altLabel>
+      <skos:altLabel>Luc le Stiriote (saint)</skos:altLabel>
+      <skos:altLabel>Luke Stiriote (saint)</skos:altLabel>
+      <skos:altLabel>Loukas le Stiriote (saint)</skos:altLabel>
+      <foaf:familyName>Luc</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Luc</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/120025604/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0896</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/120025604/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0953</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Fondateur du monastère Hosios Loukas, en Grèce</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/110247361/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/120025604/id"/>
+      <dcterms:bibliographicCitation>Όσιος Λουκάς  : ο βίος του οσίου Λουκά του Στειριώτη  / προλεγόμενα, μετάφραση, κριτική έκδοση του κειμένου [υπό] Δημητρίου Ζ. Σοφιανού / Αθήνα : Εκδόσεις Ακρίτας , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183009061/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/120025604/id"/>
+      <dcterms:bibliographicCitation>Όσιος Λούκας  : ο βίος του  / προλεγόμενα, μετάφραση καί κριτική έκδοση τού κειμένου Δηήτρίου Ζ. Σοφίανου / Έκδοση τρίτη / Νέα Σμύρνη : Ακρίτας , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119902516/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/120025604/id"/>
+      <dcterms:bibliographicCitation>The life and miracles of Saint Luke of Steiris  / text, translation and commentary by Carolyn L. Connor and W. Robert Connor / Brookline (Mass.) : Hellenic college press , cop. 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

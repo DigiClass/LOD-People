@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/149372337">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/149372337/id"/>
+      <dcterms:identifier>149372337</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-01-20</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-23T18:11:12</dcterms:modified>
+      <skos:editorialNote>Recettes alchimiques, Par. Gr. 2419, Holkhamicus 109 ; Chrysopée / Cosmas le Hiéromoine, 2010 [P. CXXXVII, "[Il pourrait s'agir du] Père Cosmas... qui faisait partie du scriptorium installé à Venise par le cardinal Bessarion depuis 1456 jusqu' à sa mort en 1472. Ce hiéromoine est le copiste du Marcianus gr. 295 et en partie celui du Marcianus gr. 286, manuscrits contenant des oeuvres médicales et datés tous deux de 1470</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/149372337/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16251838</bnf-onto:FRBNF>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb16251838h#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/205155672"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Cosmas le Hiéromoine</skos:prefLabel>
+      <foaf:name>Cosmas le Hiéromoine</foaf:name>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Alchimiste. Son nom apparaît à l'occasion d'une suite de recettes alchimiques désignée sous divers titres dont "Traité de Cosmas", "Chrysopée de Cosmas</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147766257/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/149372337/id"/>
+      <dcterms:bibliographicCitation>Les alchimistes grecs  Tome XI, Recettes alchimiques (Par. Gr. 2419, Holkhamicus 109)  / Cosmas le Hiéromoine  ; texte établi et traduit par Andrée Colinet,... / Paris : Les Belles lettres , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

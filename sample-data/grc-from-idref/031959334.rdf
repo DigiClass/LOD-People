@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/031959334">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:identifier>031959334</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-04-28</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-30T12:16:20</dcterms:modified>
+      <skos:editorialNote>In sanctum Pascha / Pseudo-Ippolito ; studio, ed., comment. G. Visonà, 1988</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/031959334/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12307982</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000115811285"/>
+      <isni:identifierValid>0000000115811285</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb123079829#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/203787484"/>
+      <skos:prefLabel>Hippolyte (03..?-03..? ; saint ; auteur prétendu)</skos:prefLabel>
+      <skos:altLabel>Hippolyte de Rome (saint ; auteur prétendu)</skos:altLabel>
+      <skos:altLabel>Hippolytus Romanus (saint ; auteur prétendu)</skos:altLabel>
+      <skos:altLabel>Ippolito (saint ; auteur prétendu)</skos:altLabel>
+      <skos:altLabel>Ippolito di Roma (saint ; auteur prétendu)</skos:altLabel>
+      <skos:altLabel>Pseudo-Hippolyte</skos:altLabel>
+      <skos:altLabel>Pseudo-Hippolytus</skos:altLabel>
+      <skos:altLabel>Pseudo-Ippolito</skos:altLabel>
+      <skos:altLabel>Hippolytus (03..?-03..? ; saint ; auteur prétendu)</skos:altLabel>
+      <foaf:name>Hippolyte</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/031959334/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/031959334/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Auteur d'une homélie pascale inspirée du traité sur la Pâque d'Hippolyte</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146579135/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Der Bibeltext im Daniel-Kommentar des Hippolyt von Rom  / von Joseph Ziegler / Göttingen : Vandenhoeck und Ruprecht , 1952</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10859162X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Hippolyte de Rome, Sur les bénédictions d'Isaac, de Jacob et de Moïse  / notes sur la tradition manuscrite, texte grec, versions arménienne et géorgienne par Louis Mariès / Paris : Les Belles Lettres , 1935</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10397282X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Hippolyte, commentateur de l'Apocalypse  / Pierre, Prigent / Basel : Reinhardt , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153045523/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Le Logos, fils de Dieu, dans la théologie d'Hippolyte  / [D.B. Capelle] / [S.l.] : [s.n.] , [1937]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182320006/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Die dem heiligen Hippolytus von Rom zugeschriebene Erklärung von Apok. 20, 1-3 im griechischen Texte  / von Dr. theol. Fr. Diekamp,...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006551408/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>In sanctum Pascha  / Pseudo Ippolito  ; studio, edizione, commento Giuseppe Visonà / Milano : Vita e pensiero , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/005655811/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Homélies pascales  I, Une homélie inspirée du Traité sur la Pâque d'Hippolyte  / étude, édition et trad. par Pierre Nautin / Paris : Les Ed. du Cerf , DL 1951, 1950</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108263819/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Tradizione apostolica  / Pseudo-Ippolito  ; introd., trad. e note a cura di Elio Peretto / [Roma] : Città Nuova Editrice , 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/225386909/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Confutazione di tutte le eresie  / Pseudo-Ippolito  ; traduzione, introduzione e note a cura di Augusto Cosentino / Roma : Città nuova</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/072881720/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031959334/id"/>
+      <dcterms:bibliographicCitation>Patrologiae cursus completus  010, Patrologiae Graecae  : omnium ss. patrum, doctorum scriptorumque ecclesiasticorum  : sive latinorum, sive graecorum  / accurante J.P. Migne / Turnhout : Brepols , 1858-1866</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

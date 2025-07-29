@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/155894064">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/155894064/id"/>
+      <dcterms:identifier>155894064</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-10-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-08T09:25:44</dcterms:modified>
+      <skos:editorialNote>Epinomis / Platone ; introduzione, testo critico e commento / a cura di Ottorino Specchia. - Firenze : F. Le Monnier, 1967</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/155894064/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000388251156"/>
+      <isni:identifierValid>0000000388251156</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/281413870"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Specchia, Ottorino</skos:prefLabel>
+      <foaf:familyName>Specchia</foaf:familyName>
+      <foaf:givenName>Ottorino</foaf:givenName>
+      <foaf:name>Ottorino Specchia</foaf:name>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ita"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Spécialiste italien de la philosophie grecque</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178028223/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/155894064/id"/>
+      <dcterms:bibliographicCitation>Φίλοι λόγοι  : studi in memoria di Ottorino Specchia a vint'anni dalla scomparsa, 1990-2010  / a cura di Giuseppe Caramuscio e Francesco De Paola / Galatina : Edipan , impr. 2011, cop. 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006989004/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/155894064/id"/>
+      <dcterms:bibliographicCitation>Epinomis  / Platone  / a cura di Ottorino Specchia  ; introduzione, testo critico e commento / Firenze : F. Le Monnier , 1967, cop. 1967</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/035489804">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/035489804/id"/>
+      <dcterms:identifier>035489804</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-04-11</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-15T03:06:25</dcterms:modified>
+      <skos:editorialNote>Sophoniae in libros Aristotelis de anima paraphrasis / consilio et auctoritate Academiae Litterarum Regiae Borussicae ; ed. Michael Hayduck, 1995 [document électronique : reprod. de l'éd. de 1883]</skos:editorialNote>
+      <skos:editorialNote>Buchwald. Clavis SGL : Sophonias Monachus. Dizionario delle opere classiche / Vittorio Volpi, 1994. Encycl. Grèce. LCNA (CD), 1996-06</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/035489804/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13482905</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000081590866"/>
+      <isni:identifierValid>0000000081590866</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb13482905m#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/79147450"/>
+      <skos:prefLabel>Sophonias (12..-13..)</skos:prefLabel>
+      <skos:altLabel>Sofonías</skos:altLabel>
+      <skos:altLabel>Sophonías</skos:altLabel>
+      <skos:altLabel>Sofonia</skos:altLabel>
+      <skos:altLabel>Sophonias Monachus (12..-13..)</skos:altLabel>
+      <foaf:name>Sophonias</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/035489804/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">12XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/035489804/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">13XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Moine byzantin. Auteur de paraphrases d'Aristote</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2021417214285525">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/035489804/id"/>
+      <dcterms:bibliographicCitation>[3 (f. 48-49)] Commentaire de Sophonias sur le De   anima</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15515401X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035489804/id"/>
+      <dcterms:bibliographicCitation>A rhetorical declamation of Sophonias the monk and paraphrast</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/085054992/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035489804/id"/>
+      <dcterms:bibliographicCitation>Themistii (Sophoniae) In Parva naturalia commentarium  / edidit Paulus Wendland  ; edita consilio et auctoritate Academiae litterarum regiae borussicae / Berolini : Georgii Reimeri , 1903</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/091999049/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035489804/id"/>
+      <dcterms:bibliographicCitation>Commentaria in Aristotelem graeca  Vol. XXIII, Sophoniae in libros Aristotelis De anima paraphrasis  Pars I, Sophoniae in libros Aristotelis De anima paraphrasis  Pars II, Anonymi in Aristotelis Categorias paraphrasis  Pars III, Themistii quae fertur in Aristotelis analyticorum priorum librum I paraphrasis  Pars IV, Anonymi in Aristotelis Sophisticos elenchos paraphrasis  / edidit Michael Hayduck  / edidit Maximilianus Wallies  / edidit Michael Hayduck  ; consilio et auctoritate Academiae litterarum regiae Borussicae / Berlin : G. Reimer , 1883-1894</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/052326055/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035489804/id"/>
+      <dcterms:bibliographicCitation>Sophoniae  : in libros Aristotelis De anima paraphrasis  / edidit Michael Hayduck  ; consilio et auctoritate Academiae litterarum regiae borussicae / Berolini : typis et impensis G. Reimeri , 1883</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

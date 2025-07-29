@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/129700975">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/129700975/id"/>
+      <dcterms:identifier>129700975</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-12-09</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T17:31:43</dcterms:modified>
+      <skos:editorialNote>Actes d'aliénation en commun et autres phénomènes apparentés d'après le droit de la Thessalie antique : contribution à l'étude de la copropriété familiale chez les anciens Hellènes / Antoine M. Babacos, 1966</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/129700975/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000082724635"/>
+      <isni:identifierValid>0000000082724635</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/77921046"/>
+      <!--PERSEE-->
+      <owl:sameAs rdf:resource="https://www.persee.fr/authority/12201"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Babacos, Antoine M. (1935-1964)</skos:prefLabel>
+      <skos:altLabel>Μπαμπάκος, Αντώνιος Μ</skos:altLabel>
+      <foaf:familyName>Babacos</foaf:familyName>
+      <foaf:givenName>Antoine M.</foaf:givenName>
+      <foaf:name>Antoine M. Babacos</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/129700975/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1935</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/129700975/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1964</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025888137/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/129700975/id"/>
+      <dcterms:bibliographicCitation>Actes d'aliénation en commun et autres phénomènes apparentés d'après le droit de la Thessalie antique  : contribution à l'étude de la copropriété familiale chez les anciens Hellènes  / Antoine M. Babacos,... / Thessaloniki : Séminaire d'histoire du droit hellénique et romain de l'Université de Thessaloniki , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064838285/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/129700975/id"/>
+      <dcterms:bibliographicCitation>Actes d'aliénation en commun et autres phénomènes apparentés d'après le droit de la Thessalie antique  : Contribution à l'étude de la copropriété familiale chez les Anciens Grecs  / Antoine M. Babacos... / Athènes : s.n , 1961</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/126147396/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/129700975/id"/>
+      <dcterms:bibliographicCitation>Πράξεις κοινής διαθέσεως και άλλα συγγενή φαινόμενα κατά το δίκαιον της αρχαίας Θεσσαλίας  : συμβολή εις την μελέτην της οικογενειακής κοινοκτημοσύνης εις τους αρχαίους Ελληνας / Αθήναι : χ.ο. , 1961</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/271180498/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/129700975/id"/>
+      <dcterms:bibliographicCitation>Actes d'aliénation en commun et autres phénomènes apparentés d'après le droit de la Thessalie antique  : contribution à l'étude de la copropriété familiale chez les anciens Hellènes  / Antoine M. Babacos,... / Thessaloniki : Séminaire d'histoire du droit hellénique et romain de l'Université de Thessaloniki , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06739602X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/129700975/id"/>
+      <dcterms:bibliographicCitation>Actes d'aliénation en commun et autres phénomènes apparentés d'après le droit de la Thessalie antique  : Contribution à l'étude de la copropriété familiale chez les Anciens Grecs  / Antoine M. Babacos... / Thessaloniki : s.n , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

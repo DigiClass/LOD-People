@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/026659859">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/026659859/id"/>
+      <dcterms:identifier>026659859</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-11-15</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T09:01:18</dcterms:modified>
+      <skos:editorialNote>Johannis Alexandrini Commentava in librum "De Sectis" Galeni", 1982</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/026659859/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11886634</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000079728141"/>
+      <isni:identifierValid>0000000079728141</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb11886634r#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/78770160"/>
+      <skos:prefLabel>Johannes Alexandrinus (0600?-0642?)</skos:prefLabel>
+      <skos:altLabel>Iohannes Alexandrinus</skos:altLabel>
+      <skos:altLabel>Alexandrinus, Johannis</skos:altLabel>
+      <foaf:familyName>Johannes Alexandrinus</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Johannes Alexandrinus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/026659859/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0600</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/026659859/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0642</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182480046/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/026659859/id"/>
+      <dcterms:bibliographicCitation>Praecepta Tonica  / Iohannes Alexandrinus  ; edidit Georgios A. Xenis / Berlin : De Gruyter , cop. 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018949819/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/026659859/id"/>
+      <dcterms:bibliographicCitation>Iohannis Alexandrini commentaria in sextum librum Hippocratis Epidemiarum  / recognovit et adnotatione critica instruxit C. D. Pritchet / Leiden : E. J. Brill , 1975</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/000908657/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/026659859/id"/>
+      <dcterms:bibliographicCitation>Johannis Alexandrini Commentaria in librum " De Sectis " Galeni  / recognovit et adnotatione critica instruxit C. D. Pritchet / Leiden : E. J. Brill , 1982</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/058655077/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/026659859/id"/>
+      <dcterms:bibliographicCitation>Commentary on Hippocrates Epidemics VI fragments  = = Ioannis Alexandrini in Hippocratis Epidemiarum librum VI commentarii fragmenta :   = = Anonymi in Hippocratis epidemiarum librum VI commentarii fragmenta :   = = Ioannis Alexandrini in Hippocratis De natura pueri commentarium :   / John of Alexandria  / edition, translation, and notes by John M. Duffy  / John of Alexandria  ; edition and translation by T. A. Bell, D. P. Carpenter, D. W. Schmidt... [et al.] / Berlin : Akademie Verl.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182937224/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/026659859/id"/>
+      <dcterms:bibliographicCitation>Praecepta Tonica  / Georgios A. Xenis, Éd. / Berlin : De Gruyter , 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

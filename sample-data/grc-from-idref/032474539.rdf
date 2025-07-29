@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/032474539">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:identifier>032474539</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-10-19</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-23T09:54:30</dcterms:modified>
+      <skos:editorialNote>Theodosii Diaconi De Creta capta / ed. Hugo Criscuolo, 1979</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL : Theodosius Diaconus historicus</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Théodose, diacre à Constantinople</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/032474539/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12349763</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/000000007992648X"/>
+      <isni:identifierValid>000000007992648X</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12349763s#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/42197170"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Theodosius Diaconus (09..-09..)</skos:prefLabel>
+      <skos:altLabel>Théodose (diacre)</skos:altLabel>
+      <skos:altLabel>Théodose le Diacre</skos:altLabel>
+      <skos:altLabel>Theodosios ho Diakonos</skos:altLabel>
+      <foaf:name>Theodosius Diaconus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/032474539/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">09XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/032474539/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">09XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Diacre à Constantinople. Auteur d'un poème panégyrique sur la victoire de Byzance en Crète (961) et en Syrie sur les Sarrasins</skos:note>
+      <skos:note>Pas de forme française attestée, 1993-11-25</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100539157/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Θεοδόσιος ο Διάκονος και το ποίημα αυτού "Άλωσις της Κρήτης"  / Νικόλαου Μ. Παναγιωτάκη / Ηρακλιον : Εκδοσεις Εταιριας Κρητικον Ιστορικων Μελετων , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020533896/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Του σοφωτατου δεσποτου και αυτοκρατορος Κωνσταντινου, του Πορφυρογεννητου, Τα ευρισκομενα παντα  = = Sapientissimi Imperatoris Constantini Porphyrogeniti Scripta quæ reperiri potuerunt omnia, nunc primum in unum collecta :   / accurante et denuo recognoscente J.-P. Migne, bibliothecæ cleri universæ, sive cursuum completorum in singulis scientiæ ecclesiasticæ ramos editore / [Parisiis] : Excudebatur et venit apud J.-P. Migne editorem , 1864</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018066542/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Corpus scriptorum historiae byzantinae  / consilio B. G. Niebuhrii C. f. instituta ...  ; Imm. Bekkeri, L. Schopeni, G. et L. Dindorfiorum al. ... / Editio emendatior et copiosior / Bonnae : impensis E. Weberi , 1828-1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197643701/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Ἅλωσις τῆς Κρήτης  = = La prise de la Crète : 960-961  / Θεοδοσίου Διακόνου  / Théodose le Diacre  ; Introduction, traduction et notes René-Claude Bondoux &amp; Jean-Pierre Grélois  ; illustrations par Lili Mants / Paris : ACHCByz , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099721651/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Corporis historiae byzantinae nova appendix Opera Georgii Pisidae, Theodosi diaconi, et Corippi Africani Grammatici complectens [edidit Nicolaus Maria Fogginus]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186996381/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Theodosii Acroases De Creta capta  / e recensione Fr. Jacobsii. / Bonnae : E. Weberus , 1828</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011557818/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Theodosii Diaconi De creta capta  / edidit Hugo Criscuolo / Leipzig : B.G. Teubner , 1979</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/172621232/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Tou sophōtatou despotou kai autokratoros Kōnstantinou, tou Porphyrogennētou, ta ehyriskomena panta  = = Sapientissimi Imperatoris Constantini Porphyrogeniti Scripta quæ reperiri potuerunt omnia :   / accurante J.-P. Migne,... / Turnhout : Brepols , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/189292474/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Rerum Italicarum scriptores ab anno aerae christianae quingentesimo ad millesimumquingentesimum, quorum potissima pars nunc primum in lucem prodit ex Ambrosianae, Estensis, aliarumque insignium bibliothecarum codicibus. Ludovicus Antonius Muratorius, serenissimi ducis Mutinae bibliothecae praefectus, collegit, ordinavit, &amp; praefationibus auxit, nonnullos ipse, alios vero Mediolanenses Palatini socii ad MStorum codicum fidem exactos, summoque labore, ac diligentia castigatos, variis lectionibus, &amp; notis tam editis veterum eruditorum, quàm novissimis auxere. Additis ad plenius operis, &amp; universae Italicae historiae ornamentum, novis tabulis geographicis, &amp; variis Langobardorum regum, imperatorum, aliorumque principum diplomatibus, quae ab ipsis autographis describere licuit, vel nunc primùm vulgatis, vel emendatis, necnon antiquo characterum specimine, &amp; figuris aeneis. Cum indice locupletissimo. Tomi primi pars secunda.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100539157/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Θεοδόσιος ο Διάκονος και το ποίημα αυτού "Άλωσις της Κρήτης"  / Νικόλαου Μ. Παναγιωτάκη / Ηρακλιον : Εκδοσεις Εταιριας Κρητικον Ιστορικων Μελετων , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049183222/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032474539/id"/>
+      <dcterms:bibliographicCitation>Leonis Diaconi Caloënsis historiae libri decem  / Nicephori Augusti  / e recensione Fr. Jacobsii et Luitprandi legatio cum aliis libellis qui Nicephori Phocae et Joannis Tzimiscis historiam illustrant  ; e recensione Caroli Benedicti Hasii,... / Bonnae : Impensis Ed. Weberi</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

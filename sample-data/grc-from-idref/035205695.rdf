@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/035205695">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:identifier>035205695</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-11-05</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-24T16:55:07</dcterms:modified>
+      <skos:editorialNote>Larousse 19e s.. Clavis SGL : Theon, Aelius Alexandrinus. Dizionario delle opere classiche / Vittorio Volpi, 1994 : Theon, Aelius</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/035205695/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13201477</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000117741663"/>
+      <isni:identifierValid>0000000117741663</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb13201477v#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/196976966"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Aelius_Théon"/>
+      <skos:prefLabel>Théon, Aelius (02..-03.. ; rhéteur)</skos:prefLabel>
+      <skos:altLabel>Aelius Théon</skos:altLabel>
+      <skos:altLabel>Aelius Theon</skos:altLabel>
+      <skos:altLabel>Téōn, 'Aílios</skos:altLabel>
+      <skos:altLabel>Theôn, Ailios</skos:altLabel>
+      <skos:altLabel>Elio Teone</skos:altLabel>
+      <skos:altLabel>Teone, Elio</skos:altLabel>
+      <skos:altLabel>Theon, Aelius Alexandrinus (02..-03..)</skos:altLabel>
+      <skos:altLabel>'Aílios Théōn (02..-03..)</skos:altLabel>
+      <foaf:familyName>Théon</foaf:familyName>
+      <foaf:givenName>Aelius</foaf:givenName>
+      <foaf:name>Aelius Théon</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/035205695/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">02XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/035205695/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Rhéteur</skos:note>
+      <skos:note>Progymnasmata / Aelius Théon ; texte établi et traduit par Michel Patillon, 1997</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124016480/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>I Progimnasmi di Elio Teone  Volume primo, La storia del testo  / Italo Lana  ; Università diTorino, facoltà di Lettere e Filosofia, Fondazione Parini-Chirio / Torino : Università di Torino , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170442349/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>Ejercicios de retórica  / Teón, Hermógenes, Aftonio  ; introducción, traducción y notas de Ma. Dolores Reche Martínez / Madrid : Ed. Gredos , 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164819509/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>Theonis sophistae Progymnasmata  / Aelius Théon  ; typis repetenda curavit, adnotationes selectas Joachimi Camerarii, Johannes Schefferi, Christiani Walzii editas, Joannis Henrici Lederlini ineditas, Scholia graeca et indices necessarios addidit Christoph. Eberhardus Finckh,... / Stuttgartiae : sumtibus C. G. Loeflundii , 1834</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/112809634/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>Theonis sophistae progymnasmata, hoc est, primae apud rhetorem exercitationes. Joachimo Camerario Pabergensi interprete / Parisiis, ex officina Thomae Brumennii, in clauso Brunello, sub signo Olivae. 1585</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186278004/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>ΘΕΩΝΟΣ ΣΟΦΙΣΤΟΥ ΠΡΟΓΥΜΝΑΣΜΑΤΑ. THEONIS RHETORIS DE MODO DECLAMANDI LIBELLUS / Impressum Romae : per Angelum Barbatum, Decimo octauo cal. Augusti MDXX [20 VII1520]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068717938/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>Theōnos  sophistou progymnasmata.Theonis sophistæ primæ apud rhetorem exercitationes, innumeris quibus scatebant antea mendis Joachimi Camerarii Pabergensis opera purgatæ, &amp; in sermonem latinum conversæ. Adjectus est quoque rerum &amp; uerborum in iisdem memorabilium locupletiss. Index. Cum gratia &amp; privilegio cæsareo &amp; regis Galliæ, ad septennium. / Basileæ. [1541]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181331950/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>Progymnasmatōn paradeigmata tettara  = = Premiers exercices oratoires : quatre modèles tirés d'un manuscrit de la Bibliothèque de Bourges  / et publiés pour la première fois avec une traduction française et des notes par E. Cougny,... / Paris : A. Durand , 1863</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/004239296/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>Progymnasmata  / Aelius Théon  ; texte établi et traduit par Michel Patillon,...  ; avec l'assistance pour l'arménien de Giancarlo Bolognesi,... / Paris : les Belles lettres , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136292267/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035205695/id"/>
+      <dcterms:bibliographicCitation>Theonos Sophistou Progumnasmata. Theonis Sophistae Progymnasmata, accurate emendata ac recensita. In usum scholarum Hollandiae West-Frisiaeque : ex decreto illustriss. DD. ordinum ejusdem provinciae. Accedit interpretatio latina, ita hac editione emendata, ut sit nova / Lugduni Batavorum : Ex Officina Bonaventurae &amp; Abrahami Elzevir. Academ. Typograph. CIƆ IƆC XXVI , 1626</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

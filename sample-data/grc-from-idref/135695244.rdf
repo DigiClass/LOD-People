@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/135695244">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/135695244/id"/>
+      <dcterms:identifier>135695244</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-07-28</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-11T16:00:03</dcterms:modified>
+      <skos:editorialNote>Dizionario biografico degli italiani</skos:editorialNote>
+      <skos:editorialNote>De' disegni delle piu illustri città &amp; fortezze del mondo...Venise, 1569</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/135695244/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000071394693"/>
+      <isni:identifierValid>0000000071394693</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb15401502v#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/19984741"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Ballino, Giulio (15??-159?)</skos:prefLabel>
+      <foaf:familyName>Ballino</foaf:familyName>
+      <foaf:givenName>Giulio</foaf:givenName>
+      <foaf:name>Giulio Ballino</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/135695244/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">15XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/135695244/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">159</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ita"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Avocat, humaniste vénitien, lié à Paolo Manuzio et à son fils Aldo il Giovane ; donne des traductions du grec en italien</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155001485/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/135695244/id"/>
+      <dcterms:bibliographicCitation>La vita di Mose  / composta da Filon Giudeo in lingua greca, e tradotta da Giulio Ballino in volgare italiana / Venetia : Beuilacqua , 1560</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186835299/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/135695244/id"/>
+      <dcterms:bibliographicCitation>Vita di Moise  / scritta da Filone Ebreo in lingua greca  ; e recata in italiano da Giulio Ballino / [Seconda edizione] / Ancona : Tipografia degli eredi Sottiletti , 1861</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135307422/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/135695244/id"/>
+      <dcterms:bibliographicCitation>De'Disegni delle piu illustri citta et fortezze del mondo. Parte I, la quale ne contiene cinquanta, con una breve historia delle origini et accidenti loro, secondo l'ordine de tempi : raccolta da M. Giulio Ballino / In Vinegia appresso Bolognino Zaltieri M D LXIX , 1569</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099640317/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/135695244/id"/>
+      <dcterms:bibliographicCitation>De'Disegni delle piu illustri citta et fortezze del mondo. Parte I, la quale ne contiene cinquanta, con una breve historia delle origini et accidenti loro, secondo l'ordine de tempi... / Venetiis : Bolognini Zalterii typis et formis , 1569</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/085701254">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/085701254/id"/>
+      <dcterms:identifier>085701254</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1986-12-23</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-12T09:43:30</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/119728389"/>
+      <skos:editorialNote>Nicolai progymnasmata / ed. Iosephus Felten, 1913</skos:editorialNote>
+      <skos:editorialNote>Greek rhetoric under christian emperors / George A. Kennedy, 1983</skos:editorialNote>
+      <skos:editorialNote>Pauly-Wissowa, 17,1 (21e Nikolaos), col. 424-457</skos:editorialNote>
+      <skos:editorialNote>http://catalogue.bnf.fr, 2011-03-07</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/085701254/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12005370</bnf-onto:FRBNF>
+      <!--WIKIDATA-->
+      <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q11938736"/>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000402395966"/>
+      <isni:identifierValid>0000000402395966</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12005370n#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/297696092"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Nicolas le Rhéteur (0430?-0500?)</skos:prefLabel>
+      <skos:altLabel>Nikolaos le Rhéteur</skos:altLabel>
+      <skos:altLabel>Nikolaos de Myra</skos:altLabel>
+      <skos:altLabel>Nicolaus Sophista</skos:altLabel>
+      <skos:altLabel>Νικόλαος Μύρων</skos:altLabel>
+      <skos:altLabel>Nicolaus Myrensis</skos:altLabel>
+      <skos:altLabel>Nikólaos Mýrōn</skos:altLabel>
+      <foaf:name>Nicolas le Rhéteur</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/085701254/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0430</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/085701254/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0500</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Naissance à Myra en Lycie.- Sophiste, rhéteur à Constantinople.- a repris les "Progymnasmata" de Libanios</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/131861905/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/085701254/id"/>
+      <dcterms:bibliographicCitation>De Nicolai prae exercitamentis  / scripsit Josephus Felten / Lipsiae : B. G. Teubner , 1913</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123295882/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/085701254/id"/>
+      <dcterms:bibliographicCitation>Les "Progymnasmata" de Nicolaos de Myra dans la tradition versicolore des exercices préparatoires de rhétorique  / Henry Fruteau de Laclos / Lille : Atelier national de reproduction des thèses , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049281887/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/085701254/id"/>
+      <dcterms:bibliographicCitation>Nicolai Progymnasmata  / edidit Iosephus Felten / Lipsiae : in aedibus B. G. Teuberi , 1913</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

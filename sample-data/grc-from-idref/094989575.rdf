@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/094989575">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:identifier>094989575</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-01-13</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-10-13T11:27:25</dcterms:modified>
+      <skos:editorialNote>Odyssey / Homer ; translated by Stanley Lombardo ; introduction by Sheila Murnaghan, 2000</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/094989575/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000108702523"/>
+      <isni:identifierValid>0000000108702523</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12085271c#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/12333586"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Lombardo, Stanley (1943-....)</skos:prefLabel>
+      <foaf:familyName>Lombardo</foaf:familyName>
+      <foaf:givenName>Stanley</foaf:givenName>
+      <foaf:name>Stanley Lombardo</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/094989575/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1943</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/6252001/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Enseigne le latin et le grec à l'Université du Kansas, Lawrence, état du Kansas (en 2000)</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/233679537/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Essential Iliad  / translated &amp; narrated by Stanley Lambardo and Susan Sarandon / Las Vegas, NV : Parmenides Audio</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/249156334/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Gilgamesh  / a new verse renderind by Stanley Lombardo  ; introduction by Gary Beckman / Indianapolis : Hackett Publishing Company, Inc.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/142759538/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Tao te ching  / Lao-tzu  ; introduced by Burton Watson  ; translated, with translater's preface, glossary, &amp; pronunciation guide, by Stephen Addiss &amp; Stanley Lombardo  ; ink paintings by Stanley Addiss / Indianapolis : Hackett Pub. Co. , cop. 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/094989036/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Odyssey  / Homer  ; translated by Stanley Lombardo  ; introduction by Sheila Murnaghan / Indianapolis : Hackett Publishing Company , Cop. 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/114576114/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Poems and fragments  / Sappho  / translated by Stanley Lombardo  ; edited by Susan Warden  ; introduction by Pamela Gordon / Indianapolis : Hackett , c2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/264280725/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Iliad  / Homer  ; translated by Stanley Lombardo  ; introduction by Sheila Murnaghan / Indianapolis : Hackett Publishing Company</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/233679375/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>The essential Homer  / translated &amp; narrated by Stanley Lambardo and Susan Sarandon / Las Vegas, NV : Parmenides Audio</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/19486572X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Complete poems and fragments  / Sappho  ; translated by Stanley Lombardo  ; introduction by Pamela Gordon / Indianapolis, Indiana : Hackett Publishing Company, Inc. , cop. 2016</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/128509929/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Poems and fragments  / Sappho  ; Greek text with an english translation by C. R. Haines,.. / London : Georges Routledge &amp; sons , [cop. 1927]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/272560723/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Michael Müller  Volume 1.4, Der geschenkte Tag  : Ernstes Spiel  : Catalogue Raisonné  : Kastor &amp; Polydeukes  / [Grußwort von Philipp Demandt  ; Vorwort von Gero Heschl  ; Essays von Hubertus von Amelunxen, Stanley Lombardo, Lukas Töpfer, Cora von Pape und Rudolf Zwirner  ; Gedichte von Stanley Lombardo und Michael Krüger] / Berlin : Deutscher Kunstverlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/272525693/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/094989575/id"/>
+      <dcterms:bibliographicCitation>Tales of Dionysus  : the Dionysiaca of Nonnus of Panopolis  : a group translation  / William Levitan and Stanley Lombardo, editors / Ann Arbor (Mich.) : University of Michigan Press , 2022</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

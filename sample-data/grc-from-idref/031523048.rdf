@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/031523048">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:identifier>031523048</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-11-23</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-11T13:23:29</dcterms:modified>
+      <skos:editorialNote>Traité de tactique / Asclépiodote ; texte établi et trad. par Lucien Poznanski, 1992</skos:editorialNote>
+      <skos:editorialNote>GDEL. Clavis SGL</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Asclépiodote</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/031523048/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12272159</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000381928099"/>
+      <isni:identifierValid>0000000381928099</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12272159n#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/262924258"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Asclépiodote (00..-00.. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Asklêpiodotos</skos:altLabel>
+      <skos:altLabel>Asklêpiodotos Filosofos</skos:altLabel>
+      <skos:altLabel>Asclepiodotus tacticus</skos:altLabel>
+      <foaf:name>Asclépiodote</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/031523048/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-00X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/031523048/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-00X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Stoi͏̈cien du 1er s. av. J.-C. Probablement élève de Posidonios</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/106532243/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Des Byzantiner Anonymus Kriegswissenschaft  : nebst einem dreisachen Anhange und den erklärenden Anmerkungen zu den drei Taktikern / Leipzig : Verlag von Wilhelm Engelmann , 1855</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064233677/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Poseidonios, Asklepiodot, Seneca und ihre Anschauungen über Erdbeben und Vulkane  / von Karl Wilhelm Ringshausen,... / Borna-Leipzig : R. Noske , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165796499/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Les manuscrits  : d'Enée le Tacticien, d'Asclépiodote le Philosophe, des traités tactiques d'Arrien  / Alphonse Dain / Paris : [s.n.] , 1935</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/106882023/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Aeneas Tacticus, Asclepiodotus, Onasander  / with an English translation by members of the Illinois Greek Club / London : Heinemann , 1923</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/161879861/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Tecnica della falange  ;  In appendice, Il Trattato tattico di Asclepiodoto  / Giuseppe Cascarino / Rimini : Il Cerchio , impr. 2011, cop. 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203828895/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Die Kunst der Taktik  / Arrianos, Asklepiodotos; Kai Brodersen / Berlin : De Gruyter (A) , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071679537/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Aeneas Tacticus  ;  Aesclepiodotus  ;  Onasander  / with an English transl. by members of the Illinois Greek club / Cambridge (Mass.) : Harvard university press , 1962</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/105894060/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Asklepiodotos' Taktik  : nebst einer Einleitung und zwei Stücken taktischen Inhalts aus Xenophon und Polybios / Leipzig : Verlag von Wilhelm Engelmann , 1855</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016730186/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Aeneas Tacticus  ;  Asclepiodotus  ;  Onasander  / with an English translation by members of the Illinois Greek club / [Réimpr.] / London : William Heinemann , 1962</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/190936592/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Aeneas Tacticus  ;  Asclepiodotus  ;  Onasander  / with an English translation by the members of the Illinois Greek Club / Cambridge, Massachusetts : Harvard University Press , [2014]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003291693/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>La guerre  : trois tacticiens grecs  / Enée, Asclépiodote, Onasandre  ; présentation et commentaire par Olivier Battistini  ; traduction de Pascal Charvet et Anne-Marie Ozanam  ; édition dirigée par Marie-Claude Char / Paris : NiL éditions , DL 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098805932/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Griechische Kriegsschriftsteller  / Hermann Köchly und Wilhelm Friedrich Rüstow / Leipzig : Engelmann , 1853-55</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00271633X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Traité de tactique  / Asclépiodote  ; texte établi et traduit par Lucien Poznanski,... / Paris : Les Belles Lettres , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/233226931/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Il Manuale di tattica (Technē taktikē)  / Asclepiodoto  ; introduzione, traduzione e note a cura di Antonio Sestili / Roma : Società editrice Dante Alighieri</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003502899/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031523048/id"/>
+      <dcterms:bibliographicCitation>Aeneas Tacticus, Asclepiodotus, Onasander  / with an English transl. by the members of the Illinois Greek Club / Cambridge (Mass.) : Harvard university press , 1986</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

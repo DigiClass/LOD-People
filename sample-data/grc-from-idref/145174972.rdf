@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/145174972">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/145174972/id"/>
+      <dcterms:identifier>145174972</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-18</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-04T10:53:30</dcterms:modified>
+      <skos:editorialNote>Ctesias's Persian history. Part I : introduction, text and translation / by Jan P. Stronk, 2010 : PhD thesis</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/145174972/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000078343872"/>
+      <isni:identifierValid>0000000078343872</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12559431w#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/126346"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Stronk, Jan P.</skos:prefLabel>
+      <skos:altLabel>Stronk, Jan Pieter</skos:altLabel>
+      <foaf:familyName>Stronk</foaf:familyName>
+      <foaf:givenName>Jan P.</foaf:givenName>
+      <foaf:name>Jan P. Stronk</foaf:name>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>PhD thesis, "The Ten Thousand in Thrace"</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/272117072/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/145174972/id"/>
+      <dcterms:bibliographicCitation>From Zwammerdam to Teheran, papers presented to Jan Stronk and Maarten de Weerd   / edited by : J.G. de Boer, J. Kelder and F. Woudhuizen / Amsterdam : Dutch archaeological and historical society</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145174077/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/145174972/id"/>
+      <dcterms:bibliographicCitation>Ctesias' Persian history  Part I, introduction, text and translation  / by Jan P. Stronk / Düsseldorf : Wellem Verlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/093666144/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/145174972/id"/>
+      <dcterms:bibliographicCitation>Black Athena  : ten years after  / edited by Wim M. J. van Binsbergen  ; [preface by Jan P. Stronk and Maarten D. de Weerd] / Hoofddorp : Dutch archaeological and historical society</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/200198548/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/145174972/id"/>
+      <dcterms:bibliographicCitation>Semiramis' legacy  : the history of Persia according to Diodorus of Sicily  / Jan P. Stronk / Edinburgh : Edinburgh University Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108595447/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/145174972/id"/>
+      <dcterms:bibliographicCitation>The Ten thousand in Thrace  : an archaeological and historical commentary on Xenophon's Anabasis, Books VI,3-6 - VII  / Jan P. Stronk / Amsterdam : Gieben , 1995</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145174077/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/145174972/id"/>
+      <dcterms:bibliographicCitation>Ctesias' Persian history  Part I, introduction, text and translation  / by Jan P. Stronk / Düsseldorf : Wellem Verlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011877510/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/145174972/id"/>
+      <dcterms:bibliographicCitation>The ten thousand in Thrace  : an archaeological and historical commentary on Xenophon's Anabasis, books VI.iii-vi - VII  / Jan Pieter Stronk / Amsterdam : J.C. Gieben , 1995</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

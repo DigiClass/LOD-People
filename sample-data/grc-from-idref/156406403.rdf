@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/156406403">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/156406403/id"/>
+      <dcterms:identifier>156406403</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-17</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-07T11:59:30</dcterms:modified>
+      <skos:editorialNote>La commedia greca / Platonio ; ed. critica, trad. e commento di F. Perusino, 1989</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Platonius</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/156406403/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12307552</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000382839397"/>
+      <isni:identifierValid>0000000382839397</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb123075528#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/267471573"/>
+      <skos:prefLabel>Platonius</skos:prefLabel>
+      <skos:altLabel>Platonios</skos:altLabel>
+      <skos:altLabel>Platonio</skos:altLabel>
+      <foaf:name>Platonius</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/156406403/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03..</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/156406403/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Érudit du monde grec prébyzantin. - Spécialiste du genre théâtral</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/259810223/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/156406403/id"/>
+      <dcterms:bibliographicCitation>Play and aesthetics in ancient Greece  / Stephen E. Kidd,... / Cambridge : Cambridge University Press , 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/249624222/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/156406403/id"/>
+      <dcterms:bibliographicCitation>Play and aesthetics in ancient Greece  / Stephen E. Kidd,... / Cambridge, United Kingdom : Cambridge University Press , 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170702049/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/156406403/id"/>
+      <dcterms:bibliographicCitation>Letture platoniche / Napoli : Edizioni scientifiche italiane , 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136782728/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/156406403/id"/>
+      <dcterms:bibliographicCitation>La commedia greca  / Platonio  ; edizione critica traduzione e commento di Franca Perusino / Urbino : Quattroventi</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171087356/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/156406403/id"/>
+      <dcterms:bibliographicCitation>La parole  : Concours prépas scientifiques 2013-2014 : le texte intégral des trois oeuvres au programme : Platon,"Phèdre", Marivaux, "Les fausses confidences", Verlaine, "Romances sans paroles"  / [traduction de Phèdre par Émile Chambry] / Paris : Ellipses , impr. 2012, cop. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

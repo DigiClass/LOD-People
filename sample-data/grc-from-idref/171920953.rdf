@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/171920953">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/171920953/id"/>
+      <dcterms:identifier>171920953</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-09-27</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:41:31</dcterms:modified>
+      <skos:editorialNote>Die Heilkunde der Antike / Kurt Pollak.- cop. 1969</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/171920953/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000109903562"/>
+      <isni:identifierValid>0000000109903562</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/77062685"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Pollak, Kurt (1919-)</skos:prefLabel>
+      <foaf:familyName>Pollak</foaf:familyName>
+      <foaf:givenName>Kurt</foaf:givenName>
+      <foaf:name>Kurt Pollak</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/171920953/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1919</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Médecin militaire. Historien de la médecine, notamment antique</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/062322524/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/171920953/id"/>
+      <dcterms:bibliographicCitation>Die Jünger des Hippokrates  : Der Weg des Arztes durch sechs Jahrtausende  / Kurt Pollak / Düsseldorf : Econ-Verlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/25066738X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/171920953/id"/>
+      <dcterms:bibliographicCitation>Das ärztliche hausbuch  / Kurt Pollak / 27. Auflage, 410.-444. Tausend. / Gütersloh : Bertelsmann , 1963</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171919750/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/171920953/id"/>
+      <dcterms:bibliographicCitation>Die Heilkunde der Antike  / Kurt Pollak / [1. Aufl.] / Wiesbaden : R. Löwit , [1978, cop.1969]</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

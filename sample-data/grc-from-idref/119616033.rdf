@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/119616033">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/119616033/id"/>
+      <dcterms:identifier>119616033</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-28</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-30T21:09:34</dcterms:modified>
+      <skos:editorialNote>Joannis Chrysostomi...homiliae....studio Joannis Harmari....Londini, 1590</skos:editorialNote>
+      <skos:editorialNote>Dictionary of national biography</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/119616033/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000049821660"/>
+      <isni:identifierValid>0000000049821660</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb10568743d#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/66338217"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Harmar, John (1555 ?-1613)</skos:prefLabel>
+      <foaf:familyName>Harmar</foaf:familyName>
+      <foaf:givenName>John</foaf:givenName>
+      <foaf:name>John Harmar</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/119616033/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1555</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/119616033/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1613</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Professeur de grec à Oxford à partir de 1585</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/173250661/id">
+      <dcterms:bibliographicCitation>D. Ioannis Chrysostomi Archiepiscopi Constantinopolitani homiliae ad populum Antiochenum, cum presbyter esset Antiochiæ, habitæ, duæ &amp; viginti  : Omnes, excepta prima, nunc primùm in lucem editæ, ex manuscriptis Noui Collegij Oxoniensis codicibus. Opera &amp; studio Ioannis Harmari Collegij prope Winton Magistri Informatoris. Cum Latina versione eiusdem, homiliæ decimæ nonæ, quæ in Latinis etiam exemplaribus hactenus desiderata est  / John Chrysostom / Ann Arbor, Michigan : UMI , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/173246486/id">
+      <dcterms:bibliographicCitation>D. Ioannis Chrysostomi Archiepiscopi Constantinopolitani, homiliæ sex  : ex manuscriptis codicibus Noui Collegij; Ioannis Harmari, eiusdem collegij socij, &amp; Græcarum literarum in inclyta Oxoniensi academia professoris regij, opera &amp; industria nunc primùm græcè in lucem editæ  / John Chrysostom / Ann Arbor, Michigan : UMI , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100053866/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/119616033/id"/>
+      <dcterms:bibliographicCitation>D. Joannis Chrysostomi archiepiscopi Constantinopolitani homiliae ad populum Antiochenum, cum presbyter esset Antiochiae, habitae, duae &amp; viginti. Omnes, excepta prima, nunc primum in lucem editae, ex manuscriptis Novi Collegii Oxoniensis codicibus opera et studio Joannis Harmari... Cum latina versione ejusdem, Homiliae decimae nonae quae in Latinis etiam exemplaribus hactenus desiderata est. / Londini : excudebant Georgius Bishop &amp; Rodolphus Newberie , 1590</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

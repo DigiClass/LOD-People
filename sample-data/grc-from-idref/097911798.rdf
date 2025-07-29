@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/097911798">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:identifier>097911798</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-03-10</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-06T16:40:19</dcterms:modified>
+      <skos:editorialNote>Chronique de Chypre / texte grec par E. Miler et C. Sathas, 1882</skos:editorialNote>
+      <skos:editorialNote>Internet, catalogue.bl.uk, British Library, [2006-03-10]</skos:editorialNote>
+      <skos:editorialNote>Archives Biographiques Françaises (ABF), I 741, 365-377 : né vers 1812</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/097911798/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000115773354"/>
+      <isni:identifierValid>0000000115773354</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/89292035"/>
+      <!--PERSEE-->
+      <owl:sameAs rdf:resource="https://www.persee.fr/authority/174764"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Miller, Emmanuel (1812?-1886)</skos:prefLabel>
+      <skos:altLabel>Miller, Bénigne Emmanuel Clément</skos:altLabel>
+      <skos:altLabel>Miller, M. (Emmanuel)</skos:altLabel>
+      <skos:altLabel>Miller, E. (Emmanuel)</skos:altLabel>
+      <foaf:familyName>Miller</foaf:familyName>
+      <foaf:givenName>Emmanuel</foaf:givenName>
+      <foaf:name>Emmanuel Miller</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/097911798/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1812-04-19</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/097911798/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1886-01-09</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <!--skos:note-->
+      <skos:note>Helléniste. Employé en 1833 au Cabinet des manuscrits de la Bibliothèque royale dans la section des manuscrits grecs. A partir de 1850, bibliothécaire à la Chambre des Députés. Professeur de grec moderne à l'Ecole des langues orientales vivantes (1876-1886) et membre de l'Institut</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023825480/id">
+      <marcrel:com rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Catalogue des manuscrits grecs, latins, français et espagnols et des portulans  / recueillis par feu Emmanuel Miller  ; publié par Henri Omont  ; Bibliothèque nationale / Paris : E. Leroux , 1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023825480/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Catalogue des manuscrits grecs, latins, français et espagnols et des portulans  / recueillis par feu Emmanuel Miller  ; publié par Henri Omont  ; Bibliothèque nationale / Paris : E. Leroux , 1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130473960/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Funérailles de M. Miller,... décédé à Cannes le 9 janvier 1886  / Discours de M. G. Paris,...  ; Institut de France, Académie des inscriptions et belles-lettres / Paris : Institut de France , 1886</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/024308242/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Le Mont Athos, Vatopédi, l'île de Thasos  / par Emm. Miller, ...  ; avec une notice sur la vie et les travaux de M. Emm. Miller par le m[arqu]is de Queux de Saint-Hilaire / Paris : Ernest Leroux , 1889</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20154241043845518">
+      <dcterms:subject rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[f. 15] Caricature d'Emmanuel Miller (s.d.)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20159181095986422">
+      <dcterms:subject rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[FGD 2,7-3] Passage des Théores.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2009107161099357">
+      <marcrel:rcp rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Feuillets 489-502] Miller (Emmanuel) (1882-1885)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2010211182598591">
+      <marcrel:rcp rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Ms 8120] Lettres reçues par Emmanuel Miller</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20134915405408">
+      <marcrel:rcp rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[4] Quatre estampages</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/037106783/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Revue de bibliographie analytique ou compte rendu des ouvrages scientifiques et de haute litterature publiés en France et à l'étranger ...  / par MM. Miller et Aubenas / Paris : M. Aurel , 1840-1845</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/112512925/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Chronikon Kyprou  = = Chronique de Chypre :   / Leontiou Machaira  / Leontios Mahairas  ; trad. par E. Miller, ... et C. Sathas / Paris : INLCO , 1973</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171521862/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Périple de Marcien d'Héraclée, Epitome d'Artémidore, Isidore de Charax, etc. ou supplément aux dernières éditions des petits géographes  / par E. Miller / Paris : Impr. Royale , 1839</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/095822283/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Catalogue des manuscrits grecs de la bibliothèque de l'Escurial  / Emmanuel-Clément-Bénigne Miller / Paris : B. Duprat , 1848</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113423489/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Bulles byzantines de la Collection de M. le baron B. de Köhne et de diverses autres provenances / [Paris] : [s. n.] , [1867]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113427441/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Nouvelles observations sur l'inscription gréco-latine trouvée à Fréjus  / par M. E. Miller / Paris : Didier et ce , 1861</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080443834/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Inscription inédite de Thasos et restitution d'une inscription métrique de Chypre  / Emmanuel Miller / Paris : Bureaux de la Revue archéologique , 1866</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/140365850/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Etudes sur les documents mythologiques contenus dans les Philosophumena d'Origène publiés par M. Emmanuel Miller  / Alfred Maury / Paris : A. Leleux , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080443818/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Bas-reliefs archai͏̈ques découverts dans l'île de Thasos...  / par E.M. Miller / Paris : Bureaux de la Revue archéologique , 1865</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135699932/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Recension de] Sigillographie de l'Empire byzantin, par Gustave Schlumberger, avec 1100 dessins par L. Dardel...  : Premier article  / [E. Miller] / [S.l.] , [s.n.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042834759/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Lettre de M. Adert sur les bas-reliefs de Thasos avec les observations de M. Miller  / Adert  ; Miller / [Paris : Librairie académique-Didier et Cie , s. d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113428359/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Sur une inscription grecque découverte à Cheikh Abad, l'ancienne Antinoé  / E. Miller / Paris : Aux bureaux de la Revue archéologique , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080443826/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Inscriptions grecques inédites découvertes dans l'île de Thasos  / par M.E. Miller / Paris : Bureaux de la Revue archéologique , [1866]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049212397/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Leontiou Machaira Chronikon Kyprou  = = Chronique de Chypre : texte grec  / par E. Miller et C. Sathas / Paris : Ernest Leroux , 1882</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/105925268/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Bibliothèque royale de Madrid. Catalogue des manuscrits grecs (supplément au catalogue d'Iriarte)  / par M. Miller / [Paris] : Impr. nationale , [1884]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135700507/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Sigillographie de l'Empire byzantin, par Gustave Schlumberger, avec 1100 dessins par L. Dardel...  : Deuxième article  / [E. Miller] / [S.l.] , [s.n.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065714881/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Catalogue des manuscrits grecs de la bibliothèque de l'Escurial  / par E. Miller / Amsterdam : A.M. Hakkert , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139904662/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Séance publique annuelle du vendredi 20 décembre 1872  / présidée par M. Miller  ; Institut de France, Académie des inscriptions et belles-lettres / Paris : Institut de France , 1872</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/140366296/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Etudes sur les documents mythologiques contenus dans les Philosophumena d'Origène publiés par M. Emmanuel Miller  II, suite : les Egyptiens et les Phrygiens  / Alfred Maury / Paris : A. Leleux , 1852</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/198224567/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Notice d’un manuscrit grec contenant une rédaction inédite des fables d’Esope  / par M. E. Miller / Paris : Imprimerie royale , 1841</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171006356/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Glossaire grec-latin de la bibliothèque de Laon  / par E. Miller</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067559425/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Le Mont Athos, Vatopédi, l'île de Thasos  / par Emm. Miller,... Avec une notice sur la vie et les travaux de M. Emm. Miller  ; par le Mis de Queux de Saint-Hilaire / Paris : E. Leroux , 1889</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113426801/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Lettre  à M. Waddington sur une inscription byzantine trouvée dans la petite Arménie  / E. Miller / Paris : [s. n.] , 1872</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11342759X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Un poète de la cour des Comnènes [Theodorus Ṕrodromus] / Paris : Didot , 1874</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113426518/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Inscription grecque trouvée à Memphis  / E. Miller / Paris : [s. n.] , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113423195/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Ambassades de Michel Psellus auprès de l'usurpateur Isaac Comnène / Paris : F. Didot frerès, fils et cie , 1867</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04933350X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Mélanges de philologie et d'épigraphie  Première partie,   / par E. Miller,... / Paris : Didier , 1876</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/032113633/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Fragment inédit d'Appien  / par M. E. Miller / Paris : Didier , 1869</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113428715/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Catalogue de la Bibliothèque de feu M. E. Miller / Paris : Leroux , 1887</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113423411/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Bulle byzantine inédite du Musée du Louvre / [Paris] : [imprimé par E. Thunot et cie] , [1861]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146244257/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Lettre à M. Letronne sur un article du Journal des savants  / [E. Miller] / Paris : Imprimerie de H. Fournier et Cie , 1839</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109524527/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Notice sur le manuscrit grec n° 2322 de la Bibliothèque impériale contenant le recueil des @  / par M. E. Miller / Paris : Imprimerie impériale , 1864</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152063277/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Inscriptions Grecques inédites de Thasos  / publ. par E. Miller / [S.l.] , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147782724/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Catalogue des manuscrits grecs de la Bibliothèque Royale de Madrid  : supplément au catalogue d'Iriarte  / par M. Miller / Paris , [1886]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113425333/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>De quelques marbres antiques anvoyés d'Italie au connétable de Montmorency, pendant l'année 1555  / E. Miller / [S.l.] : [s. n.] , [1866]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/157575063/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Du Mouvement scientifique et littéraire en Europe, pendant l'année 1840  : par MM. Miller et Aubenas / Paris : M. Aurel , 1841</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162310919/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Séance publique annuelle du vendredi 28 juillet 1865  / présidée par M. Egger  ; Institut impérial de France, Académie des inscriptions et belles-lettres / Paris : Institut impérial de France , 1865</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/024308242/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Le Mont Athos, Vatopédi, l'île de Thasos  / par Emm. Miller, ...  ; avec une notice sur la vie et les travaux de M. Emm. Miller par le m[arqu]is de Queux de Saint-Hilaire / Paris : Ernest Leroux , 1889</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113426186/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Glossaire grec-latin de la Bibliothèque de Laon ...  / E. Miller / [Paris] : Imprimerie nationale</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113427832/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Préface d'un auteur byzantin [Nicephorus Basilacas]  / par Emm. Miller / Paris : G. Chamerot , 1873</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14036675X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Etudes sur les documents mythologiques contenus dans les Philosophumena d'Origène publiés par M. Emmanuel Miller  III, suite et fin : les Grecs et les Thraces  / Alfred Maury / Paris : A. Leleux , 1852</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023855088/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Catalogue des manuscrits grecs de la bibliothèque de l'Escurial  / par E. Miller / Paris : imprimé par autorisation du gouvernement à l'Imprimerie nationale , 1848</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16212242X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Séance publique annuelle du vendredi 2 août 1867  / présidée par M. de Longpérier  ; Institut impérial de France, Académie des Inscriptions et belles-lettres / Paris : Institut impérial de France , 1867</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14036613X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Etudes sur les documents mythologiques contenus dans les Philosophumena d'Origène publiés par M. Emmanuel Miller  / Alfred Maury / Paris : A. Leleux , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/161909558/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Séance publique annuelle des cinq académies du mercredi 28 octobre 1874  / Présidée par M. Bertrand  ; Institut de France / Paris : Institut de France , 1874</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014480298/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Une charte concernant le Primatice  / E. Miller / [Paris : Gazette des Beaux-Arts , 1860]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014478064/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Deux sceaux amphoriques et inscriptions grecques inédites de Thasos  / E. Miller / Paris : Revue Archéologique , [n.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113426437/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Inscription grecque nouvellement découverte aux environs de [Plaisance]  / E. Miller / Paris : [s. n.] , [s. d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113426585/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Inscriptions grecques découvertes en Égypte  / par M. Miller ... / [Paris] : [J. Baer] , [1883]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113428146/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Sur un Oxybaphon du musée Campana  / E. Miller / Paris : [s. n.] , [s. d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11342714X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Mémoire sur une inscription agonistique de Larisse  / par E. Miller / Paris : Institut de France , 1873</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/084796162/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Poème allégorique de Méliténiote...  / E. Miller / Paris : imp. impériale , 1857</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113428499/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Sur une inscription grecque, en vers, découverte à Salonique  / E. Miller / Paris : [s. n.] , [s. d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2009107161099357">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Feuillets 489-502] Miller (Emmanuel) (1882-1885)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-200912141012403598">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Feuillets 27-37, pièces 927-931 A] Miller (Emmanuel)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-200912239125145349">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Pièce 317] Miller (Emmanuel) (1874)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20097171174073457">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Feuillets 271-272] Miller (Emmanuel) (1861)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201092215951406289">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Lettre d'Emmanuel Miller (s.d. (jeudi 3 h), sans doute 1850, date de la nomination de Miller comme bibliothécaire de l’Assemblée en remplacement de Beuchot)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20119291092560512">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Pièces 28-45 (111-128)] Miller, Emmanuel (12 novembre 1861 - 17 juin 1870)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20127271772155140">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Miller, Emmanuel, recommandation pour le jeune Félix Moreau (14 novembre 1875)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201521315229165109">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[92] Miller, Emmanuel</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201529162783954">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[79] Miller, Emmanuel Clément Bénigne</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20154231842647415">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[f. 12] "Je chante ce héros qui régna sur la France..." (pastiche d'un vers de Voltaire) (18 mai 1866)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201732717340901330">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[F. 935-959] Dix-huit lettres autographes d'Emmanuel Miller à Jean-François Boissonade (24 novembre 1834 - 9 mars 1855) / 25 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20174314447337316">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[F. 1420-1421] Lettre avec signature autographe, datée : Paris, 11 juin 1843 / 2 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-202406241228175828">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[79 ; 84-93] Miller (Emmanuel) (s.d.)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/D45020086">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[83-84] Emmanuel Miller</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/UNIA12884">
+      <marcrel:aut rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[MS 1180] Cahier de textes de devoirs d'Emmanuel Miller (XIXe siècle) / 180 pages</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/082292892/id">
+      <marcrel:fmo rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Pinax iconicus antiquorum ac variorum in sepulturis rituum, ex Lilio Gregorio [Giraldo] excerpta, picturisque juxta hypographas exacta arte elaboratis effigiata... / Lugduni : apud Clementem Baldinum , 1556</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183362705/id">
+      <marcrel:ann rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Voyage pittoresque dans l'Empire ottoman, en Grèce, dans la Troade, les îles de l'archipel et sur les côtes de l'Asie mineure  / par M. le comte de Choiseul-Gouffier,.. / Mountain View, Californie : Google , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/005662737/id">
+      <marcrel:ann rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Voyage pittoresque dans l'Empire ottoman, en Grèce, dans la Troade, les îles de l'archipel et sur les côtes de l'Asie mineure  / par M. le comte de Choiseul-Gouffier,.. / Seconde édition, augmentée de notices historiques d'après les voyageurs modernes les plus célèbres / Paris : à la librairie de J.-P. Aillaud , 1842</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201021116268901">
+      <marcrel:ann rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>[Ms 8119] Dessins,  caricatures et épigrammes exécutés par Adrien de Longpérier et Ferdinand de Lasteyrie au cours des séances de l'Académie des inscriptions et belles-lettres ou du Journal des savants / 35 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108971856/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Ploutarchou vios Kaisaros  = = Vie de Jules César :   / par Plutarque  ; texte grec, avec sommaires et notes en français par E. Miller,... / Nouvelle édition revue et corrigée / Paris : J. Lecoffre , [1849]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/115376879/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Ωριγένους Φιλοσοφούμενα ή κατά πασών αιρέσεων έλεγχος  = = Origenis Philosophumena sive omnium haeresium refutatio : e codice Parisino  / nunc primum edidit Emmanuel Miller / Oxonii : E typographeo academico , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/097502219/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Mélanges orientaux  / textes et traductions publiés par les professeurs de l'Ecole des Langues orientales vivantes à l'occasion du sixième Congrès international des orientalistes réuni à Leyde (Septembre 1883) / Paris : E. Leroux , 1883</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164820051/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Trois poèmes vulgaires de Théodore Prodrome  / Théodore Prodrome  ; publiés pour la première fois, avec une traduction française par E. Miller et É. Legrand / Paris : Maisonneuve , 1875</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/106426826/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Poëmes astronomiques de Théodore Prodrome et de Jean Camatère  / d'après les manuscrits de la Bibliothèque nationale de Paris, par M. E. Miller / Paris : Imprimerie nationale , 1872</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090738756/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Mélanges de littérature grecque contenant un grand nombre de textes inédits  / par E. Miller,... / Paris : imprimé par ordre de S. M. l'Empereur , 1848</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181889986/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Ploutarchou vios Kaisaros  = = Vie de Jules César :   / par Plutarque  ; texte grec, avec sommaires et notes en français par E. Miller / Paris : J. Lecoffre et Cie , 1845</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067559433/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Manuelis Philae Carmina  / ex codicibus Escurialensibus, Florentinis, Parisinis et Vaticanis nunc primum edidit E. Miller... / Parisiis : excusum in Typ. imperiali , 1855-1857</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/021974101/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Éloge de la chevelure  : discours inédit d'un auteur grec anonyme en réfutation du discours de Synésius intitulé Éloge de la calvitie  / publié d'après un manuscrit grec de la Bibliothèque royale, par E. Miller / Paris : Brockhaus et Avenarius [etc.] , 1840</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179037897/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Chronikon Kyprou  = = Chronique de Chypre :   / Leontiou Machaira  / par Léonce Machéras  ; texte grec [et] traduction française par E. Miller,... et C. Sathas / Athènes : Pelekanos , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/079785115/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Recueil des itinéraires anciens  : comprenant l'Itinéraire d'Antonin, la Table de Peutinger et un choix de périples grecs  / publié par M. le Mis de Fortia d'Urban  ; [édité par E. Miller.]  ; avec dix cartes dressées par M. le colonel Lapie / Paris : Impremerie royale , 1845</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/022584943/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Mélanges de littérature grecque  : contenant un grand nombre de textes inédits  / [recueillis] par E. Miller,... / Paris : [éditeur inconnu] , 1868</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067547788/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Périple de Marcien d'Héraclée  / par E. Miller / Paris : Impr. royale , 1839</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064921050/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Historiens grecs  II, Scriptores graeci bellorum a Francis Dei signa sequentibus in Syria susceptorum  : Adnotationes historicae et philologicae...  / [Publ. par Carl Benedict Hase, Charles Alexandre, Emmanuel Clément Miller] / Paris : Impr. Nationale , 1881</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108763870/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Chronique de Chypre  : Texte grec  / [traduction fraçaise] par E. Miller, C. Sathas / Paris : E. Leroux , 1882</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064921042/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Recueil des historiens des croisades  I, Scriptores graeci bellorum a Francis Dei signa sequentibus in Syria susceptorum  / [Publ. par Carl Benedict Hase, Charles Alexandre, Emmanuel Clément Miller] / Paris : Impr. Nationale , 1875</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/097533696/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Bibliothèque Nationale  : Catalogue des manuscrits latins, français, espagnols et des portulans  / Henri Omont  ; recueillis par feu Emmanuel Miller / Paris : E. Leroux , 1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/013178512/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/097911798/id"/>
+      <dcterms:bibliographicCitation>Χρονικον κυπρου  / Λεόντιος Μαχαιράς / Paris : E. Leroux , 1882</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/193423693">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/193423693/id"/>
+      <dcterms:identifier>193423693</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-05-30</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-22T13:11:39</dcterms:modified>
+      <skos:editorialNote>Histoire sociale et culturelle d'un athlète : Milon de Crotone / Jean-Manuel Roubineau, 2015</skos:editorialNote>
+      <skos:editorialNote>LCNA : "Milon, of Croton", http://id.loc.gov/authorities/names/n2016011560 (consultation : 2016-08-22) : formes : "Milon, de Crotone", "Milon, of Croton"</skos:editorialNote>
+      <skos:editorialNote>Fichier d'autorité de la BnF, http://catalogue.bnf.fr/ark:/12148/cb17063186x (consultation : 2016-09-09) : forme courante en français et dates biographiques : Milon de Crotone (055.-051. av. J.-C.) ; formes du nom en latin : Milon Crotoniensis, Milon Crotoniates ; forme internationale en grec polytonique : Μίλων ὁ Κροτωνιάτης ; forme internationale transliterrée-ISO en grec polytonique : Mílōn ho Krotōniátīs</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/193423693/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17063186</bnf-onto:FRBNF>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/140146573936438101751"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Milon_de_Crotone"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Milon de Crotone (055.-051. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Milon of Croton</skos:altLabel>
+      <skos:altLabel>Milon Crotoniensis</skos:altLabel>
+      <skos:altLabel>Milon Crotoniates</skos:altLabel>
+      <skos:altLabel>Μίλων ὁ Κροτωνιάτης</skos:altLabel>
+      <skos:altLabel>Mílōn ho Krotōniátīs</skos:altLabel>
+      <foaf:name>Milon de Crotone</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/193423693/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-055</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/193423693/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-051</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Athlète de la Grèce antique, champion de lutte à Olympie. - Chef de guerre. - Disciple de Pythagore. - Sa vie et sa mort sont l'objet d'anecdotes légendaires</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/193182092/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/193423693/id"/>
+      <dcterms:bibliographicCitation>Milon de Crotone  : ou l'invention du sport  / Jean-Manuel Roubineau / Paris : PUF , 2016</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/276464974/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/193423693/id"/>
+      <dcterms:bibliographicCitation>Milon de Crotone ou L'invention du sport  / Jean-Manuel Roubineau / Paris : Alpha , DL 2024</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/193420694/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/193423693/id"/>
+      <dcterms:bibliographicCitation>Histoire sociale et culturelle d'un athlète  : Milon de Crotone  : mémoire inédit  : habilitation à diriger des recherches, Sciences de l'Antiquité, 21e section CNU  / Jean-Manuel Roubineau  ; sous la direction de Francis Prost / [Lieu de publication inconnu] : [éditeur inconnu] , 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201811149114555790">
+      <dcterms:subject rdf:resource="http://www.idref.fr/193423693/id"/>
+      <dcterms:bibliographicCitation>[Archives 131/36/4] Correspondance expédiée (classement chronologique et alphabétique) / 3 pochettes, 350 pièces</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

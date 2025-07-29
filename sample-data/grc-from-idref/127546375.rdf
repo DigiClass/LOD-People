@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/127546375">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:identifier>127546375</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-09-22</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-31T12:53:58</dcterms:modified>
+      <skos:editorialNote>Leopoldi Schmidtii antiquitatum graecarum capita duo. In Indices lectionum et publicarum et privatarum quae in Academia Marburgensi..., 1867</skos:editorialNote>
+      <skos:editorialNote>LC authorities, http://authorities.loc.gov/, 22-09-2008</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/127546375/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000079761216"/>
+      <isni:identifierValid>0000000079761216</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/59157176"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Schmidt, Leopold (1824-1892)</skos:prefLabel>
+      <skos:altLabel>Schmidt, Leopoldus</skos:altLabel>
+      <skos:altLabel>Schmidt, Leopold Valentin</skos:altLabel>
+      <foaf:familyName>Schmidt</foaf:familyName>
+      <foaf:givenName>Leopold</foaf:givenName>
+      <foaf:name>Leopold Schmidt</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/127546375/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1824</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/127546375/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1892</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Philologue allemand</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/256504377/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Worte der Erinnerung am Sarge von Prof. Leopold Schmidt am 8. März 1892  : als Manuscript gedruckt  / gesprochen von Theodor Birt / Marburg : [éditeur inconnu] , [189?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/25650489X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Leopold Schmidt  : zum Gedächtniss  / von Hermann Cohen / Leipzig : Druck von B. G. Teubner , 1896</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/256504202/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Worte der Erinnerung am Sarge von Leopold Schmidt, Professor an der Universität Marburg, gesprochen im Trauerhause am 8. März 1892  / von Wolf Grafen Baudissin / Marburg : [éditeur inconnu] , [189?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147602831/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>De Aeneae commentario poliorcetico  / scripsit Adolfus Carolus Lange  ; praefatus est Leopoldus Schmidt / Berolini : Calvary , 1879</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160449642/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>De tractandae syntaxis Graecae ratione  / scripsit Leopoldus Schmidt / Marburgi : Elwert , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160449464/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Ueber die vier bedeutendsten Dramatiker der Spanier, Lope de Vega, Tirso de Molina, Alarcon und Calderon  / ein Vortrag von Leopold Schmidt / Bonn : A. Marcus , 1858</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/127547010/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Leopoldi Schmidtii commentatio de Atheniensis reipublicae indole democratica / Marburgi : typis academicis Elwerti , [1865]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160449634/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>De tractandae syntaxis graecae ratione commentatio  / Leopold Schmidt / Marburgi : Elwert , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/111024552/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Indices lectionum et publicarum et privatarum quae in Academia Marburgensi per semestre hibernum inde a d. XV. m. octobris MDCCCLXXXVI usque ad d. XV. m. martii MDCCCLXXXVII habendae proponuntur  : praemissa est Caroli Julii Caesaris vitae  / memoria a Leopoldo Schmidtio conscripta / Marburgi : [éditeur inconnu] , [1887]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160395615/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Vorlesungen über die Bedeutung der hebräischen Sprache, gehalten an der theologischen Lehranstalt zu Limburg  / von Leopold Schmid / Frankfurt am Main : Andreä , 1832</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164767568/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Indices lectionum et publicarum et privatarum quae in Academia Marburgensi per semestre hibernum inde a d. XV. m. octobris MDCCCLXVII usque ad d. XXVIII. m. martii MDCCCLXVIII habendae proponuntur / Marburgi : Typis Academicis Elwerti , 1867</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/127546707/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Leopoldi Schmidtii antiquitatum graecarum capita duo / Marburgi : typis academicis Elwerti , [1867]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160396050/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Ueber die jüngste Mainzer Bischofswahl  : ein Beitrag zur Kirchengeschichte und practischen Theologie unserer Tage, bestehend in Actenstücken und einigen wenigen Bemerkungen dazu  / von Leopold Schmid / Zweite Auflage / Giessen : Ricker , 1850</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/202995097/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Leopoldi Schmidtii disputatio De Parodi in tragoedia graeca notione / Bonnae : Caroli Georgii , 1855</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16044943X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>De Parodi in tragoedia graeca notione  / scripsit Leopoldus Schmidt / Bonnae : apud A. Marcum , 1855</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/236435299/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Ueber Calderon's Behandlung antiker Mythen  : ein Beitrag zur Geschichte der Mythologie  : aus dem Rheinischen Museum für Philologie besonders abgedruckt  / von Leopold Schmidt / Bonn : [éditeur inconnu] , 1855</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090803078/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Die Ethik der alten Griechen  / Leopold Schmidt / Berlin : Wilhelm Hertz , 1882</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164598294/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Indices lectionum et publicarum et privatarum quae in Academia Marburgensi per semestre hibernum inde a d. XXIV. m. octobris MDCCCLXIV usque ad d. XXV. m. martii MDCCCLXV habendae proponuntur / Marburgi : Typis Academicis Elwerti , 1864</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160395984/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Der Geist des Katholicism, oder Grundlegung der christlichen Irenik  / von Leopold Schmid ... / Giessen : Ricker , 1848-1850</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11547577X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Pindar's Leben and Dichtung  / dargestellt von Leopold Schmidt / Bonn : Bei Adolph Marcus , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16044957X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Inclutae litterarum universitati Fridericiae Guilelmiae Rhenanae sacra semisaecularia diebus II. III. IV. mensis Augusti A. MDCCCLXVIII feliciter celebraturae ex animi sententia gratulatur  : Inest de omissa apud optativum et coniunctivum ἄν particula commentatio e Marburgensi indice lectionum hibernarum seorsum expressa  / Leopoldus Schmidt / Marburgi : Elwerti , 1868</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160450306/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Supplementum quaestionis de Pindaricorum Carminum chronologia  / Leopold Schmidt / Marburgi , 1880</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164651012/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Indices lectionum et publicarum et privatarum quae in Academia Marburgensi per semestre hibernum inde a d. XXIII. m. octobris MDCCCLXV usque ad d. XXIII. m. martii MDCCCLXVI habendae proponuntur / Marburgi : Typis Academicis Elwerti , 1865</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160449685/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Commentatio de eironos notione apud Aristonem et Theophrastum  / Leopold Schmidt / Marburgi : Elwert , 1873</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160449529/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Commentatio de iusta ratione interpretationis Pindaricae  : Indices lectionum  / Leop. Schmidt / Marburg , 1865</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160396298/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Ultramontan oder katholisch?  : die religiöse Grundfrage Deutschlands und der Christenheit  : Abfertigung Hengstenbergs und Erklärung des Wesens der Katholicität  / Leopold Schmid / Giessen , 1867</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160449650/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Observationes de analogia et anomalia in syntaxi Graeca  : Indices lectionum  / Leop. Schmidt / Marburg , 1872</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/111024765/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Commentatio de parodi et stasimi nominibus  / Leopold Valentin Schmidt / Marburgi : typis academicis R. Friedrich , [1889]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160396166/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Grundzüge der Einleitung in die Philosophie  : mit einer Beleuchtung der durch K. Ph. Fischer, Sengler und Fortlage Ermöglichten Philosophie der That  / von Dr. Leopold Schmid,... / Giessen : Ferber , 1860</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119449803/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Geschichte der Stadt Jerusalem  : vom Jahre 2000 vor Christus bis auf unsere Tage  / von L. Schmidt / Hoyerswerda : W. Erbe , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/111024692/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Quaestionis de Pindaricorum carminum chronologia supplementum alterum  / Leopold Valentin Schmidt / Marburgi : typis academicis R. Friedrich , [1887]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045862702/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Commentationes philologae in honorem Theodori Mommseni scripservnt amici  : adiecta est tabvla / Berolini : apvd Weidmannos , 1877</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160395925/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Ueber die menschliche Erkenntnis  / Leopold Schmid, Lehrer der Theol ... zu Giessen / Münster , 1844</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160395801/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Erklärung des ersten Buches des Pentateuch, oder Hauptschlussel zum Berstande der heiligen Schrift  / von Leopold Schmid / Munster : Theissing , 1834</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171127684/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Über die religiöse Aufgabe der Deutschen  / Leopold Schmid  ; Hrsg. von A. B. Lutterbeck / Mannheim , 1875</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164805028/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Indices lectionum et publicarum et privatarum quae in Academia Marburgensi per semestre hibernum inde a d. XV. m. octobris MDCCCLXVIII usque ad d. XX. m. martii MDCCCLXIX habendae proponuntur / Marburgi : Typis Academicis Elwerti , 1868</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051527367/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Symbola philologorum bonnensium in honorem Friderici Ritschelii collecta / Lipsiae : Teubneri , 1864-1867</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103494650/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/127546375/id"/>
+      <dcterms:bibliographicCitation>Die Schauspiele Calderon's  / dargestellt und erläutert von Friedr. Wilh. Val. Schmidt aus gedruckten und ungedruckten Papieren des Verfassers zusammengesetzt, ergänzt und herausgegeben  ; von Leopold Schmidt / Elberfeld : R. L. Friederichs , 1857</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

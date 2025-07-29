@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/066889243">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:identifier>066889243</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2001-12-07</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-10-03T18:17:50</dcterms:modified>
+      <skos:editorialNote>La forma del Dio : PHerc. 1055 / Demetrio Lacone ; ed., trad. e commento a cura di Mariacarolina Santoro, 2000</skos:editorialNote>
+      <skos:editorialNote>Les oeuvres philosophiques. Dictionnaire. Vol. 1 / sous la dir. de Jean-François Mattei, 1992. DOC / V. Volpi, 1994. Encycl. Grèce. GLE. LCNA (CD), 1996-06</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/066889243/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13769965</bnf-onto:FRBNF>
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13755737</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000079748580"/>
+      <isni:identifierValid>0000000079748580</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb137557379#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/288034419"/>
+      <skos:prefLabel>Démétrius Lacon (01..-01.. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Démétrios l'Épicurien</skos:altLabel>
+      <skos:altLabel>Démétrios le Laconien</skos:altLabel>
+      <skos:altLabel>Demetrius Laconicus</skos:altLabel>
+      <skos:altLabel>Dēmé̄trios ho Lákōn</skos:altLabel>
+      <skos:altLabel>Demetrio Lacone</skos:altLabel>
+      <skos:altLabel>Demetrius Lacon (.01.-.01. av. J.-C.)</skos:altLabel>
+      <skos:altLabel>Dīmí̄trios ho Lákōn (.01.-.01. av. J.-C.)</skos:altLabel>
+      <foaf:name>Démétrius Lacon</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/066889243/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-01X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/066889243/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-01X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Philosophe. Dirigea l'école épicurienne. Disciple de Protarque</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/166824429/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>Aus der Arbeit an einem ethischen Traktat des Demetrios Lacon  / [Wolfgang Schmid] / Genova : Istituto di filologia classica , [1959]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067345492/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>La forma del Dio  : PHerc. 1055  / Demetrio Lacone  ; edizione, traduzione e commento a cura di Mariacarolina Santoro / Napoli : Bibliopolis , 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191583707/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>Poetics  / Aristotle  / Longinus  / Demetrius  ; edited and translated by Stephen Halliwell  ; translated by W. Hamilton Fyfe  ; revised by Donald Russell  ; edited and translated by Doreen C. Innes  ; based on W. Rhys Roberts / Cambridge, Massachusetts : Harvard University Press , [2014]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063685841/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>The poetics  / Aristotle  / Longinus  / Demetrius  / [with an english translation by W. Rhys Roberts]  ; [with an english translation by W. Hamilton Fyfe]  ; [with an english translation by W. Hamilton Fyfe] / London : W. Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/237849437/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>Poetics  / Aristotle  / Longinus  / Demetrius  ; edited and translated by Stephen Halliwell  ; translated by W. Hamilton Fyfe  ; revised y Donald Russell  ; edited and translated by Doreen C. Innes  ; based on W. Rhys Roberts / Reprinted with corrections / Cambridge (MA) : Harvard University Press , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/021775567/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>Aporie testuali ed esegetiche in Epicuro  : (PHerc. 1012)  / Demetrio Lacone  ; edizione, traduzione e commento a cura di Enzo Puglia / Napoli : Bibliopolis , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/142286346/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>Poetics  / Aristotle  / Longinus  / Demetrius  ; edited and translated by Stephen Halliwell  ; translated by W. Hamilton Fyfe  ; revised y Donald Russell  ; edited and translated by Doreen C. Innes  ; based on W. Rhys Roberts / Reprinted with corrections / Cambridge (Mass.) : Harvard University Press , [1999]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/021706298/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>La poesia  : (PHerc. 188 e 1014)  / Demetrio Lacone  ; edizione, traduzione e commento a cura di Costantina Romeo / Napoli : Bibliopolis , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-202501241748143416">
+      <marcrel:aut rdf:resource="http://www.idref.fr/066889243/id"/>
+      <dcterms:bibliographicCitation>[PHerc.Paris.5] / Un  / volumen /  et 37 feuillets de papier préparé sur lesquels sont contrecollés des fragments</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

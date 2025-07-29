@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/191454702">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/191454702/id"/>
+      <dcterms:identifier>191454702</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-02-17</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-25T17:55:23</dcterms:modified>
+      <skos:editorialNote>Gegen den Primat des Papstes. Studien zu Niketas Seides / Edition, Einführung, Kommentar Reinhard Gahbauer, 1975</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/191454702/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000021246545"/>
+      <isni:identifierValid>0000000021246545</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/43089881"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Nicétas_Seidès"/>
+      <skos:prefLabel>Séidès, Nikètas (10..-....)</skos:prefLabel>
+      <skos:altLabel>Σείδης, Νικήτας (10..-....)</skos:altLabel>
+      <skos:altLabel>Séidès, Nicétas</skos:altLabel>
+      <foaf:familyName>Σείδης</foaf:familyName>
+      <foaf:givenName>Νικήτας</foaf:givenName>
+      <foaf:name>Νικήτας Σείδης</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/191454702/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">10XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/191454702/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">11XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/298795/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Rhéteur et théologien byzantin actif au début du XIIe siècle</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15100403X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/191454702/id"/>
+      <dcterms:bibliographicCitation>Νικήτα Σεϊδου σύνοψις της Αγίας Γραφής κατά τον υπ'αριθ. 483 κώδικα της Εθνικής βιβλιοθήκης της Ελλάδος  : εισαγωγή, κείμενον, σχόλια  / Παναγιώτου Ν. Σιμώτα / Θεσσαλονίκη : Πατριαρχικόν Ίδρυμα Πατερικών Μελετών , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187008167/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/191454702/id"/>
+      <dcterms:bibliographicCitation>Νικήτα Σεϊδου Λόγος κατά Ευστρατίου Νικαίας  / Θεδοδώρου Ν. Ζήζη / Θεσσαλονίκη : Αριστοτέλειον Πανεπιστήμιου Θεσσαλονίκη , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068417632/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/191454702/id"/>
+      <dcterms:bibliographicCitation>Gegen den Primat des Papstes  : Studien zu Niketas Seides  : Edition, Einführung, Kommentar  / Reinhard Gahbauer / München : UNI-Druck , Cop. 1975</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

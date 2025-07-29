@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/19763043X">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/19763043X/id"/>
+      <dcterms:identifier>19763043X</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-13</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-22T10:09:09</dcterms:modified>
+      <skos:editorialNote>Théocrite [thèse] / Jacques-Dominique Chopin, 1818</skos:editorialNote>
+      <skos:editorialNote>www.textesrares.com, 2019-09-26 : Jacques Dominique Chopin, né en 1794, en Russie, à Saint-Pétersbourg : régent au collège de Sedan</skos:editorialNote>
+      <skos:editorialNote>Essai sur l'organisation de la tribu dans l'Antiquité / par M. Koutorga ; trad du russe par M. Chopin, 1839</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/19763043X/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/334148704368336932820"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Chopin, Jacques-Dominique (1794-1857)</skos:prefLabel>
+      <foaf:familyName>Chopin</foaf:familyName>
+      <foaf:givenName>Jacques-Dominique</foaf:givenName>
+      <foaf:name>Jacques-Dominique Chopin</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/19763043X/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1794</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/19763043X/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1857</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/rus"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Docteur ès lettres (Paris, 1818). Régent au collège de Sedan. Né à Saint-Pétersbourg. A aussi traduit du russe et du grec ancien au français</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/083007067/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/19763043X/id"/>
+      <dcterms:bibliographicCitation>Essai sur l'organisation de la tribu dans l'Antiquité  / par M. Koutorga,...  ; traduit du russe par M. Chopin / Paris : Firmin Didot frères , 1839</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090509285/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/19763043X/id"/>
+      <dcterms:bibliographicCitation>Théocrite  / [Jacques-Dominique Chopin] /  , 1818</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090509293/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/19763043X/id"/>
+      <dcterms:bibliographicCitation>De facultate morali  / Jacobus Dominicus Chopin, ... / 1818</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103201300/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/19763043X/id"/>
+      <dcterms:bibliographicCitation>Facultas litterarum in Academia Parisiensi  : Dissertatis philosophica de Facultate morali quam ad publicam, disceptationem proponit ad doctoris gradum promovendus  / [Jacques Dominique] / [Paris] : impr. de C. F. Patris , [1818]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100492150/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/19763043X/id"/>
+      <dcterms:bibliographicCitation>Choix d'épigrammes  : tirées de l'Anthologie grecque et traduites en vers français, avec accompagnement de notes critiques  / J.-D. Chopin / Paris : L. Hachette , 1854</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

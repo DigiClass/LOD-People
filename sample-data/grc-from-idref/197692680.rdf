@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/197692680">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/197692680/id"/>
+      <dcterms:identifier>197692680</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-01-17</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-26T15:59:24</dcterms:modified>
+      <skos:editorialNote>Internet, http://www.treccani.it/, le 2017-01-17</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/197692680/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/7775050"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Eustathe_de_Sébastée"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Eustathe de Sébastée (0300?-0377?)</skos:prefLabel>
+      <skos:altLabel>Eustathe de Sébaste</skos:altLabel>
+      <skos:altLabel>Eustathius of Sebaste</skos:altLabel>
+      <skos:altLabel>Eustazio di Sebaste</skos:altLabel>
+      <skos:altLabel>Eustathios von Sebasteia</skos:altLabel>
+      <skos:altLabel>Basileios ho Mégas (saint)</skos:altLabel>
+      <foaf:name>Eustathe de Sébastée</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/197692680/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0300</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/197692680/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0377</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Religieux chrétien né vers 300, mort en 377 ou peu après, initiateur du monachisme en Asie Mineure</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197781845/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/197692680/id"/>
+      <dcterms:bibliographicCitation>Le Législateur incertain. Recherches sur la contribution ascétique de Basile de Césarée  / Arnaud Perrot  ; sous la direction de Olivier Munnich /  , 2016</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/149467109/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/197692680/id"/>
+      <dcterms:bibliographicCitation>Eustathius von Sebaste und die Chronologie der Basilius-Briefe  / eine patristiche Studie von Dr. Friedrich Loofs / Halle a. S. : M. Niemeyer , 1898</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/275623386/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/197692680/id"/>
+      <dcterms:bibliographicCitation>Le Législateur incertain. Recherches sur la contribution ascétique de Basile de Césarée  / Arnaud Perrot  ; sous la direction de Olivier Munnich /  , 2016</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/BSGB10185">
+      <marcrel:trl rdf:resource="http://www.idref.fr/197692680/id"/>
+      <dcterms:bibliographicCitation>[1 (fol. 1)] « Incipit... Exameron sancti Basilii. » Version latine d'Eustathe.</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

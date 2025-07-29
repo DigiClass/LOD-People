@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/032610025">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:identifier>032610025</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-01-13</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-06T16:14:42</dcterms:modified>
+      <skos:editorialNote>Ocelli Lucani veteris philosophi libellus de universi natura / [trad. par Guillaume Chrestien d'Orléans], 1541-1542</skos:editorialNote>
+      <skos:editorialNote>Michaud</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/032610025/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12360693</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000118624813"/>
+      <isni:identifierValid>0000000118624813</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12360693p#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/86435125"/>
+      <skos:prefLabel>Ocellus Lucanus (04..-04.. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Lucanus, Ocellus</skos:altLabel>
+      <foaf:name>Ocellus Lucanus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/032610025/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-04X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/032610025/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-04X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Philosophe grec qui finit par enseigner dans le sud de l'Italie et en Sicile. Actif au Vème siècle av. J. C</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049282107/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>"Ocellus Lucanus"  / Text und Kommentar von Richard Harder / Berlin : Weidmannsche Buchhandlung , 1926</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165608986/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus De la nature de l'univers avec la traduction françoise &amp; des remarques  / par M. l'abbé Batteux,... / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/238544494/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Prolegomena in Pseudocelli de universi natura libellum  / scripsit Joannes de Heyden-Zielewicz / Breslau (Vratislaviae) : verlag von M. et H. Marcus , 1901</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045628343/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus De la nature de l'univers avec la traduction françoise &amp; des remarques par M. l'abbé Batteux,... / A Paris, Chez Saillant , 1768</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20221025174594163">
+      <dcterms:subject rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>[Fonds Dubois d'Amiens 3.2.1.3.] « Il ne faut donc pas écrire avec  Ocellus Lucanusque les nations croissent et meurent ». / 1 feuillet</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164718583/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Sur l'univers traduit par d'Argens / Paris : Chez J.-F. Bastien Librairie , an III [1795]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090473833/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>De la nature de l'Univers  / avec la traduction françoise et des Remarques par M. l'abbé Batteux / A Paris : Chez Saillant , 1768</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165440368/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Okellos o Leukanos philosophos... Ocellus Lucanus philosophus De vniversi natura textum è Graeco in Latinum transtulit, collatisque multis exemplaribus etiam M.SS. emendauit, paraphrasi, &amp; commentario illustrauit Carolus Emmanuel Vizzanius ... Pars physica [Pars politica, cui accesserunt ... Ludovici Nogarolae in eundem notae, ejusdem Ocelli de legibus fragmentum] / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045628343/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus De la nature de l'univers avec la traduction françoise &amp; des remarques par M. l'abbé Batteux,... / A Paris, Chez Saillant , 1768</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153841753/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Betrachtungen des Ocellus von Lukanien über die Welt  : aus dem Griechischen in das Französische übersetzt und mit verschiedenen Abhandlungen über die wichtigsten Punkte der Hauptwissenschaft der Naturlehre und der Sittenlehre der Alten, die man als den zweyten Theil der Weltweisheit der gesunden Vernunft ansehen kann, begleitet von dem Herrn Marquis d'Argens Seiner königlichen Majestät in Preussen Kammerherrn, Mitglied der königlichen Akademie der Wissenschaften und Direktor der philologischen Klasse  / Ocellus Lucanus  ; aus dem Französischen des Herrn Marquis in das Deutsche übersetzt / Bresslau : Horn , 1763</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153841478/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus en grec et en françois avec des dissertations sur les principales questions de la metaphysique, de la phisique, &amp; de la morale des anciens ; qui peuvent servir de suite à la Philosophie du bon sens. Par Mr. le marquis d'Argens chambellan de S. M. le roi de Prusse de l'Académie royale des sciences &amp; belles lettres de Berlin, directeur de la classe de philologie.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/074189433/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>... Ocellus Lucanus philosophus De universi natura. Textum è Graeco in Latinum transtulit, collatisque multis exemplaribus etiam M. SS. emendavit, paraphrasi, &amp; commentario illustravit Carolus Emmanuel Vizzanius Bononiensis. Pars physica [-politica] / Amstelædami, apud Joannem Blaeu. M DC LXI , 1661</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135820308/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>De universi natura, interprete Ludovico Nogarola : ejusdem Nogarolae annotationes in Ocellum, et epistola de viris illustribus italis qui graece scripserunt. Editio tertia / [S. l.] : Hieronymus Commelinus , 1596</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135205263/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ōkellos ho Leukanos philosophos Peri tēs tou pantos physeōs Ocellus Lucanus Philosophus De universi natura. Textum e graeco in latinum transtulit, collatisque multis exemplaribus etiam M. SS.  emendavit, paraphrasi et commentario illustravit Carolus Emmanuel Vizzanius Bononiensis. Pars physica|-Pars poitica] / Amstelaedami, apud Joannem Blaeu. MDCLXI. , [1661]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/190381868/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Bibliothek der griechischen Philosophen. Dritter Band.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064802205/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Text und Kommentar von Richard Harder  / Ocellus Lucanus / Berlin : Weidmann , 1926</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049282107/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>"Ocellus Lucanus"  / Text und Kommentar von Richard Harder / Berlin : Weidmannsche Buchhandlung , 1926</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/056172125/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Peri tēs tou pantos physeōs  = = De rerum natura : graece  / Okellos o Leukanos  / Ocellus Lucanus  ; ad fidem librorum manuscriptorum et editorum recensuit, commentario perpetuo auxit et vindicare studuit August. Frid. Guilielm. Rudolph.. / Lipsiae : sumtu Engelh. Benjam. Scwickerti , 1801</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/074245805/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ωκελλος ο λευκανος φιλοσοφος περι τις τον παντος φισεος. Ocellus Lucanus philosophus De universi natura. Textum è Græco in Latinum transtulit, collatisque multis exemplaribus etiam M.SS. emendavit, paraphrasi, &amp; commentario illustravit Carolus Emmanuel Vizzanius Bononiensis. Pars physica. Ad eminentiss. &amp; reverendiss. principem Franciscum Barberinum S. R. E. Card. Vicecancellarium</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/189609192/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>De mundo Aristotelis lib. I. Philonis lib. I. Guliemo Budæo interprete. Ocelli Lucani veteris philosophi libellus, de universi natura.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165608986/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus De la nature de l'univers avec la traduction françoise &amp; des remarques  / par M. l'abbé Batteux,... / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042837871/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Okellos o Leukanos philosophos peri tēs tou pantos physeōs. Ocellus Lucanus philosophus de universi natura, interprete Ludovico Nogarola com Veronensi. Ejusdem Nogarolae annotationes in Ocellum, &amp; epistola de viris illustribus italis qui græcè scripserunt. Editio tertia, collatione exemplarium melior facta.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164676481/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ὂκελλος ὁ Λευκανὸς Περὶ τῆς τοῦ παντὸς φύσεως. Breuis &amp; absoluta qualitatum elementarium enarratio.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136887287/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>'Ocellus Lucanus'  / Text und Kommentar von Richard Harder  ; préface de Werner Jaeger / 2. unveränderte Auflage / Dublin : Weidmann , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090473825/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus Philosophus De Universi natura  / Textum e Graeco in Latinum transtulit, collatisque multis exemplaribus etiam M. SS emandavit, Paraphrasi, et Commentario illustravit Carolus Emmanuel Vizzanius / Bonoiae : ex Typographia Ferroniana , 1646</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/169813940/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus, De la nature de l'univers,  Avec la Traduction Françoise &amp; des remarques, par M. l'Abbé Batteux, Professeur de Philosophie Grecque &amp; Latine  au Collège Royal de France, de l'Académie Françoise, &amp; de celle des Inscriptions &amp; Belles-Lettres / A Paris, Chez Saillant, rue Saint-Jean-de-Beauvais. M. DCC. LXVIII. Avec Approbation &amp; Permission , 1768</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044390343/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>De mundo Aristotelis lib. I Philonis lib. I. Gulielmo Budaeo interprete. Ocelli Lucani veteris philosophi libellis de universi natura / Parisiis. : Parisiis, apud Jacobum Bogardum. . M.DXLI , 1541</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044398271/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica, ethica, et physica, græce &amp; latine. Palæphatus, Heraclitus, Anonymus, Phurnutus, Sallustius, Ocellus Lucanus, Timæus Locrus. Demophilus, Democrates, Secundus, Sextius Pythagoricus, Theophrasti Charactêres, Pythagoricorum fragmenta. Heliodori Larissæi Optica.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135205875/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus en grec et en françois avec des dissertations sur les principales questions de la méthaphysique, de la phisique, &amp; de la morale des anciens ; qui peuvent servir de suite à la philosophie du bon sens.  par M. le marquis d'Argens chambellan de S.M. le roi de Prusse de l'académie royale des sciences &amp; belles lettres de Berlin, directeur de la classe de philologie.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044282176/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica, physica et ethica. Graece et latine. Seriem eorum sistit pagina praefationem proxime sequens</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090756630/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Sur l'Univers  / Ocellus Lucanus  ; traduit par d'Argens / A Paris : chez Jean-François Bastien , an III [1795]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044282109/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica physica et ethica. Græce et latine. Seriem eorum sistit pagina præfationem proxime sequens.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044390475/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ocellus Lucanus philosophus De universi natura , interprete Ludovico Nogarola ... / 3e éd / Genevae, in bibliopola Hieronymi Commelini. MDXCVI , 1596</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179991442/id">
+      <marcrel:null rdf:resource="http://www.idref.fr/032610025/id"/>
+      <dcterms:bibliographicCitation>Ωκελλος ο λευκανος φιλοσοφος περι τις τον παντος φισεος. Ocellus Lucanus philosophus de universi natura, interprete Ludovico Nogarola com. Veronensi. Ejusdem Nogarolae annotationes in Ocellum, &amp; epistola de viris illustribus Italis qui graecè scripserunt. Editio tertia, collatione exemplarium melior facta.</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

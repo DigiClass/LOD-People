@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/027156818">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:identifier>027156818</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1978-04-25</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-26T05:39:06</dcterms:modified>
+      <skos:editorialNote>Telitis Reliquiae / edidit, prolegomana scripsit Otto Hense, 1889</skos:editorialNote>
+      <skos:editorialNote>Buchwald. DOC. Clavis SGL : Teles Alexandrinus ? Megaricus ? [sic]. Encycl. Grèce</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Teles</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/027156818/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12641587</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000356408649"/>
+      <isni:identifierValid>0000000356408649</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12641587t#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/185995320"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Télès"/>
+      <skos:prefLabel>Télès (02..-02.. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Télēs</skos:altLabel>
+      <skos:altLabel>Teles (02..-02.. av. J.-C.)</skos:altLabel>
+      <skos:altLabel>Télīs (02..-02.. av. J.-C.)</skos:altLabel>
+      <foaf:name>Télès</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/027156818/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-02X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/027156818/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-02X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Philosophe cynique, a vécu à Athènes et à Mégare. Son oeuvre est parvenue sous forme de fragments</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119227169/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Stoa und Stoiker  [Band 3], Epiktet, Teles und Musonius  : Wege zu glückseligem Leben  / übertragen und eingeleitet von Wilhelm Capelle / Zürich : Artemis-Verlag , [1948]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120166259/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Télès le cynique  / Marie-Odile Goulet-Cazé</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065460030/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Teletis reliquiae  / Ed. Otto Hense / Tubingae : Mohr , 1909</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068435495/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Prédications  / Traduit par A. J. Festugière / Paris : Librairie J. Vrin , 1978</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/01752458X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Teles (the cynic teacher)  / [translated] by Edward N. O'Neil / Missoula, Mont. : Published by Scholars Press for the Society of Biblical Literature , c1977</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067919278/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Quae in hoc enchiridio continentur. Anthorii Lodovici... de Pudore liber unus... Michaelis Psellii... Allegoriae tres... Teles, de Comparatione divitiarum &amp; paupertatis. Sotades, quod vita plurimis plena malis. Et alia quaedam omnia ex graeco traducta ab eodem Anthonio Lodovico... / Excusum Antverpiae : typis Michaelis Hillenii , 1537</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/085915920/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Teletis reliquiae  / edidit, prolegomena scripsit Otto Hense / Friburgi in Brisgavia : I.C.B. Mohrii , 1889</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051895978/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Teletis reliquiae recognovit prolegomena  / scripsit Otto Hense / Editio secunda / Tubingae : Mohr , 1909</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00541637X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Wege zu glückseligem Leben  / Epiktet, Teles und Musonius  ; übertragen und eingeleitet von Wilhelm Capelle / Zürich : Artemis-Verlag , 1948</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011042648/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Teletis Reliquiae  / recognouit prolegomena scripsit Otto Hense / Hildesheim : G. Olms , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/230003591/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Ausgewählte Schriften  : griechisch-deutsch  / Epiktet, Teles, Musonius  ; hrsg. und übers. von Rainer Nickel / Zürich : Artemis &amp; Winkler , 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144383616/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Wege zum Glück  / Epiktet, Teles und Musonius  ; auf der Grundlage der Übertragung von Wilhelm Capelle neu übersetzt, mit Anmerkungen versehen und eingeleitet von Rainer Nickel / Zürich : Artemis Verlag , cop. 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080997716/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Reliquiae  / Teletis  ; Recognovit prolegomena scripsit Otto Hense / Ed. 2 / Tubingae : In libraria I.C.B. Mohrü , 1909</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144123762/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Elementarbuch der griechischen Sprache  Theil 3,   = = Socrates, oder Auszüge aus den philosophischen Sxhriftstellern der Griechen : für Anfänger und Geu͏̈btere  / von Friedrich Jacobs / 3., verbesserte. Auflage / Jena : F. Frommann , 1820</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007069464/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Deux prédicateurs de l'antiquité, Télès et Musonius  / Télès, Musonius  ; traduit par A. J. Festugière,... / Paris : Librairie philosophique J. Vrin , 1978</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/000183490/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027156818/id"/>
+      <dcterms:bibliographicCitation>Deux prédicateurs dans l'Antiquité, Télès et Musonius  / traduit [du grec et du latin] par A.J. Festugière,... / Paris : Librairie philosophique J. Vrin , 1978</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/120122472">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/120122472/id"/>
+      <dcterms:identifier>120122472</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-12-18</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-03T20:11:51</dcterms:modified>
+      <skos:editorialNote>Aspects of the Roman East : papers in honour of Professor Fergus Millar / edited by Richard Alston and Samuel N. C. Lieu.- Turnhout : Brepols ; [Sydney] : Ancient History Documentary Research Centre, Macquarie University, NSW Australia, 2007.- 1 vol. (xii-230 p.)</skos:editorialNote>
+      <skos:editorialNote>Karlsruher virtueller Katalog, 18. 12. 2007</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/120122472/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000046176096"/>
+      <isni:identifierValid>0000000046176096</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb15833114j#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/32330499"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Beetham, Frank</skos:prefLabel>
+      <foaf:familyName>Beetham</foaf:familyName>
+      <foaf:givenName>Frank</foaf:givenName>
+      <foaf:name>Frank Beetham</foaf:name>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2635167/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Professeur de grec ancien, à l'Université de Warwick (Midlands), Royaume Uni, vers 2001 ; a publié notamment 4 livres sur le grec archaïque, classique, biblique... de 1992 à 2007, et une traduction anglaise de la Vie de Constantin (byzantine), publiée en grec ancien par Franchi de' Cavalieri en 1896, puis améliorée par Hans-Georg Opitz en 1934 à Bruxelles, et revue et augmentée</skos:note>
+      <!--skos:note-->
+      <skos:note>Helléniste</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119719681/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/120122472/id"/>
+      <dcterms:bibliographicCitation>Aspects of the Roman East  I,   : papers in honour of Professor Fergus Millar  / edited by Richard Alston and Samuel N. C. Lieu / Turnhout : Brepols , DL 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154683930/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/120122472/id"/>
+      <dcterms:bibliographicCitation>Learning Greek with Plato  : a beginner's course in Classical Greek, based on Plato, Meno 70a1 - 81e6  / by Frank Beetham / Exeter, UK : Bristol Phoenix Press , cop. 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154679283/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/120122472/id"/>
+      <dcterms:bibliographicCitation>Beginning Greek with Homer  : an elementary course based on Odyssey V  / by Frank Beetham / Reprinted with corrections. / London : Bristol Classical Press , impr. 1998</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186977832/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/120122472/id"/>
+      <dcterms:bibliographicCitation>An introduction to New Testament greek  : a quick course in the reading of koiné greek  / by Frank Beetham / Bristol : Bristol classical press , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

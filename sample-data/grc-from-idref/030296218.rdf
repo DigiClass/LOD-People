@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030296218">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:identifier>030296218</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-12-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-01T19:11:00</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/072231327"/>
+      <skos:editorialNote>Dorothei Sidonii Carmen astrologicum... / ed. David Pingree, 1976</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL. Larousse 19e s. : Dorothée de Sidon. Kleine Pauly : Dorotheos von Sidon</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Dorotheus</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030296218/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12174207</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000066303603"/>
+      <isni:identifierValid>0000000066303603</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb121742070#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/82730567"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/316655200"/>
+      <skos:prefLabel>Dorotheus Sidonius</skos:prefLabel>
+      <skos:altLabel>Dorothée de Sidon</skos:altLabel>
+      <skos:altLabel>Dorotheos von Sidon</skos:altLabel>
+      <foaf:name>Dorotheus Sidonius</foaf:name>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Astrologue, astronome, poète. Vivait au 1er-2e s. Pas de forme française a̱ṯṯe̱s̱ṯé̱e̱, 1995-01-05</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/253368618/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Die Fragmente des Dorotheos von Sidon  2, Lieferung  / von Viktor Stegemann / Heidelberg : im Selbstverlag F. Bilabel , 1939</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119110555/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Dorotheos von Sidon und das sogenannte Introductorium des Sahl ibn Bišr  / von Viktor Stegemann / Prag : Druckerei des Protektorates Böhmen und Mähren in Prag , 1942</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/021016518/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Die Fragmente des Dorotheos von Sidon  2, Lieferung  / von Viktor Stegemann / Heidelberg : F. Bilabel , 1943</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/255936729/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Carmen astrologicum  : with charts, tables and index  / Dorotheus of Sidon  ; translated by David Pingree / Abingdon : Astrology Classics Publishers , 2005</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00634223X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Carmen astrologicum  : interpretationem arabicam in linguam versam una cum Dorothei fragmentis et graecis et latinis  / Dorothei Sidonii  ; edidit David Pingree / Leipzig : BSB B.G. Teubner Verlagsgesellschaft , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186994893/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Dorothei Sidonii Carmen astrologicum  : interpretationem arabicam in linguam anglicam versam una cum Dorothei fragmentis et graecis et latinis  / ed. David Pingree / Leipzig : B.G. Teubner , 1976, cop. 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100146791/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Liber nouem judicum in judiciis astrorum. Clarissimi auctores Mesehella, Aomar, Alkindus, Zael, Albenait, Dorotheus, Jergis, Aristoteles, Ptholemeus, istius voluminis</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/255405324/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Disiecti membra poetae  : neue Spuren des astrologischen Lehrdichters Dorotheos von Sidon  / Wolfgang Hübner / Stuttgart : Franz Steiner Verlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/27651064X/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/030296218/id"/>
+      <dcterms:bibliographicCitation>Disiecti membra poetae  : neue Spuren des astrologischen Lehrdichters Dorotheos von Sidon  / Wolfgang Hübner / Stuttgart : Franz Steiner Verlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

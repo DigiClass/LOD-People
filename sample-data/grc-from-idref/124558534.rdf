@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/124558534">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:identifier>124558534</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-06-04</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-13T09:23:40</dcterms:modified>
+      <skos:editorialNote>Faits et paroles mémorables / Valère Maxime ; [traduit du latin par Claude Frémion], cop. 2006-</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : FREMION  (Cl.-Ant.-Fél.)</skos:editorialNote>
+      <skos:editorialNote>Lorenz 1840-1865 : FREMION (C.A.F.)</skos:editorialNote>
+      <skos:editorialNote>DBF</skos:editorialNote>
+      <skos:editorialNote>http://www.textesrares.com/, 2019-09-25 : Frémion, Claude Antoine Félix (1785-1839) ; professeur au collège Charlemagne : ancien élève de la première promotion de l’École normale (1810)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/124558534/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15518363</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000121300094"/>
+      <isni:identifierValid>0000000121300094</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb15518363k#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/42193911"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Frémion, Claude-Antoine-Félix (1785-1839)</skos:prefLabel>
+      <foaf:familyName>Frémion</foaf:familyName>
+      <foaf:givenName>Claude-Antoine-Félix</foaf:givenName>
+      <foaf:name>Claude-Antoine-Félix Frémion</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/124558534/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1785</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/124558534/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">1839-10</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <skos:note>Traducteur et professeur de lettres. A enseigné au collège Charlemagne. Ancien élève de l'Ecole normale (1ère promotion, 1810). Docteur ès lettres (Paris, 1812)</skos:note>
+      <!--skos:note-->
+      <skos:note>Lieu de naissance : Varambon (Ain). Lieu de décès : Paris</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098192124/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Faits et paroles mémorables  3, [Livres 7 à 9]  / Valère Maxime  ; Traduction nouvelle par C.-A.-F. Frémion / Paris : C.-L.-F. Panckoucke , 1835</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09819206X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Faits et paroles mémorables  1, [Livres 1 à 3]  / Valère Maxime  ; Traduction nouvelle par C.-A.-F. Frémion / Paris : C. L. F Panckoucke , 1834</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158869184/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>La Religion des Romains  : cultes, auspices, présages, prodiges, songes et miracles  / Valère Maxime  ; traduit du latin par Claude Frémion / Nouvelle édition / [Clermont-Ferrand] : Ed. Paléo , 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098192108/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Faits et paroles mémorables  2, [Livres 4 à 6]  / Valère Maxime  ; Traduction nouvelle par C.-A.-F. Frémion / Paris : C.-L.-F. Panckoucke , 1834</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183300734/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Discours de S. Basile le Grand adressé aux jeunes gens, sur l'utilité qu'ils peuvent retirer de la lecture des livres païens, traduit en français ; texte en regard,revu et corrigé sur les manuscrits, avec des scholies au bas des pages ; précédé de quelques témoignages sur Saint Basile, et suivi 1°, de notes et rapprochemens ; 2°, des variantes de vingt manuscrits de la Bibliothèque du roi, soigneusement collationnés. Par C. A. F. Frémion,...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006042600/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Valère Maxime, faits et paroles mémorables, traduction nouvelle par C. A. F. Frémion, professeur au Collège royal de Charlemagne. Tome premier [-troisième]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/22345057X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Valère Maxime Faits et paroles mémorables traduction nouvelle par C. A. F. Frémion, professeur au collège royal de Charlemagne. Tome premier[-troisième].</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124555993/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Leçons théoriques et pratiques de langue grecque, ou méthode facile tant pour enseigner que pour apprendre cette langue ; où l'on trouve des exercices de traduction adaptés aux principales règles, et composés de pensées morales, dialogues, traits d'Histoire, fables, anecdotes et lettres familières ; suivis d'un vocabulaire donnant l'explication de tous les mots et idiotismes contenus dans l'ouvrage ; par C. A. F. Frémion... / A Paris : De l'imprimerie de J. M. Eberhart, rue du Foin-saint-Jacques, n° 12 , 1813</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197375189/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>De l'hymne chez les grecs  / [Cl.-Ant.Fél. Frémion] /  , 1812</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051894637/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Faits et paroles mémorables  / Valère Maxime  ; traduction nouvelle par C. A. F. Frémion, professeur au collège royal de Charlemagne / Paris : C. L. F. Panckoucke , 1834-1835</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/028961080/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Leçons théoriques et pratiques de langue grecque, adoptées par l'Université  / Cl. Ant.-Fél Frémion / 3e édition / Paris : J. M. Eberhart , 1822</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/196551862/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>Mémoire ... contre un arrêté qui l'a privé d'une partie de son traitement fixe  / de C.-A.-F. Frémion / Paris : Chaumerot , 1838</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197374603/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/124558534/id"/>
+      <dcterms:bibliographicCitation>De natura idearum  / [Cl.-Ant.-Fel. Frémion] /  , 1812</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

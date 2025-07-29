@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/031854672">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:identifier>031854672</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-02-19</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-09T03:31:56</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/086699296"/>
+      <skos:editorialNote>Les sphériques de Théodose de Tripoli / traduites par Paul Ver Eecke, 1959 : Ingénieur des Mines. Inspecteur général du travail (en 1959)</skos:editorialNote>
+      <skos:editorialNote>http://catalogue.bnf.fr/ark:/12148/cb12299213q, 2017-10-13 : Ver Eecke, Paul (1867-1959).  Naissance :  1867-02-13, Menin, Belgique ; mort :  1959-10-14, Berchem, Belgique. Forme rejetée : Eecke, Paul Ver. Historien des mathématiques. Ingénieur des Mines. Inspecteur général du travail (en 1959). Traducteur du grec ancien en français</skos:editorialNote>
+      <skos:editorialNote>http://id.loc.gov/authorities/names/n84805105, 2017-10-13 : Ver Eecke, Paul (1867-1959)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/031854672/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12299213</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000117798547"/>
+      <isni:identifierValid>0000000117798547</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12299213q#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/111046527"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Paul_Ver_Eecke"/>
+      <!--PERSEE-->
+      <owl:sameAs rdf:resource="https://www.persee.fr/authority/249127"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Ver Eecke, Paul (1867-1959 ; historien des mathématiques)</skos:prefLabel>
+      <skos:altLabel>Eecke, Paul Ver</skos:altLabel>
+      <foaf:familyName>Ver Eecke</foaf:familyName>
+      <foaf:givenName>Paul</foaf:givenName>
+      <foaf:name>Paul Ver Eecke</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/031854672/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1867-02-13</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/031854672/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1959-10-14</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2802361/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Historien des mathématiques. Ingénieur des Mines. Inspecteur général du travail (en 1959). Traducteur du grec ancien en français</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2017828178457394">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>[AIHS 18.6.3] Paul Ver Eecke (1867-1959) (1947?-1959) / 4 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017415179/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les six livres arithmétiques et le livre des nombres polygones  / Diophante d'Alexandrie  ; avec une introduction et des notes par Paul Ver Eecke / Bruges : Desclée, De Brouwer , 1926</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11147549X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>La collection mathématique  Tome second,   / Pappus d'Alexandrie  ; oeuvre traduite pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke,... / Paris : Albert Blanchard , 1982</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/004546296/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Le Livre de la section du cylindre  ;  et le Livre de la section du cône  / Serenus d'Antinoë  ; œuvres traduites pour la première fois du grec en français, avec une introduction et des notes par Paul Ver Eecke,... / Paris : Librairie scientifique et technique Albert Blanchard , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/02966716X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Le traité des hosoèdres  / Vito Caravelli  ; traduit sur le texte latin original avec des notes par Paul Ver Eecke,... / Paris : Libr. scientifique et technique A. Blanchard , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010335641/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Opuscules mathémathiques  : suivis de  / de Didyme, Diophane et Anthémius de Tralles  ;  Fragment mathématique de Bobbio ; traduit du grec en français avec une introd. et des notes par P. Ver Eecke / Paris : Desclée de Brouwer , 1940</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/126884978/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les oeuvres complètes d'Archimède  Tome 1,   : Suivies des  ;  Commentaires d'Eutocius d'Ascalon  / trad. du grec en français avec une introd. et des notes par Paul Ver Eecke / Liège : Vaillant-Carmanne , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00751610X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les sphériques de Théodose de Tripoli  / oeuvres traduites pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke,... / Paris : Librairie scientifique et technique Albert Blanchard , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064461114/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les Oeuvres complètes...  / traduites du grec en français avec une introduction et des notes... / Paris- : sn , 1921</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075332736/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les commentaires sur le premier livre des éléments d'Euclide  / Proclus de Lycie  ; trad. pour la première fois du grec en français avec une introd. et des notes par Paul Ver Eecke / [Reprod. en fac-sim.] / Villeneuve d'Ascq : IREM de Lille , [1999]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007517335/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>L'optique et la catoptrique  / Euclide  ; œuvres traduites pour la première fois du grec en français, avec une introduction et des notes par Paul Ver Eecke,... / Paris : Librairie scientifique et technique Albert Blanchard , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090777492/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les commentaires sur le premier livre des Eléments d'Euclide  / Proclus de Lycie  ; traduits pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke,... / Paris : A. Blanchard , 1948</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06456861X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les Opuscules mathématiques de Didyme, Diophane et Anthémius  : suivis du Fragment mathématique de Bobbio  / traduits du grec en français avec une introduction et des notes par Paul Ver Eecke,... / Paris : Bruges , 1940</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/261003283/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Diophante d'Alexandrie  : les six livres arithmétiques et le livre des nombres polygones  / oeuvres traduites pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke / Paris : Librairie scientifique et technique Albert Blanchard , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010215638/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les œuvres complètes d'Archimède  / traduites du grec en français avec une introduction et des notes, par Paul Ver Eecke / Paris : Desclée De Brouwer &amp; cie , 1921</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/085047139/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les Oeuvres complètes d'Archimède  : traduites du grec en français avec une introduction et des notes  / par Paul Ver Eecke,... / Paris : Desclée, De Brouwer et Cie , 1921</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/027720802/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les six livres arithmétiques et le Livre des nombres polygones  / Diophante d'Alexandrie  ; œuvres traduites pour la première fois du grec en français, avec une introduction et des notes par Paul Ver Eecke,... / Paris : Librairie scientifique et technique Albert Blanchard , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/029719208/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Le livre de la section du cylindre et le livre de la section du cône  / Serenus d'Antinoe͏̈  ; oeuvres traduites pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke / Paris : Desclée, De Brouwer et cie , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023980664/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les coniques d'Apollonius de Perge  / [Apollonius de Perge]  ; oeuvres traduites pour la première fois du grec en français, avec une introduction et des notes par Paul Ver Eecke,... / Bruges : Desclée de Brouwer , 1923</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/12688563X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les oeuvres complètes d'Archimède  Tome 2,   : Suivies des  ;  Commentaires d'Eutocius d'Ascalon  / trad. du grec en français avec une introd. et des notes par Paul Ver Eecke / Liège : Vaillant-Carmanne , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066577624/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Le livre des nombres carrés  / Léonard de Pise  ; traduit pour la première fois du latin médiéval en français avec une introduction et des notes par Paul Ver Eecke,... / Bruges : Desclée de Brouwer , 1952, cop. 1952</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09128189X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les Sphériques de Théodose de Tripoli  : oeuvres traduites pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke,...  / Théodose de Tripoli / Bruges : Desclée, de Brouwer et Cie , 1927</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066650569/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>La collection mathématique  / Pappus d'Alexandrie  ; œuvre traduite pour la première fois du grec en français, avec une introduction et des notes par Paul Ver Eecke... / Paris : Desclée de Brouwer , 1933</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152371419/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>La Collection mathématique  Tome premier,   / Pappus d'Alexandrie  ; oeuvre traduite pour la première fois du grec en français, avec une introduction et des notes par Paul Ver Eecke... / Paris : Desclée de Brouwer , 1933</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/163933073/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Diophante d'Alexandrie  : les six livres arithmétiques et le livre des nombres polygones; oeuvres traduites pour la première fois du grec en français  / avec une introduction et des notes par Paul Ver Eecke / Bruges : Desclée, De Brouwer , 1926</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/261003283/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Diophante d'Alexandrie  : les six livres arithmétiques et le livre des nombres polygones  / oeuvres traduites pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke / Paris : Librairie scientifique et technique Albert Blanchard , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00751610X/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les sphériques de Théodose de Tripoli  / oeuvres traduites pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke,... / Paris : Librairie scientifique et technique Albert Blanchard , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047167351/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les coniques d'Apollonius de Perge  / oeuvres traduites pour la première fois du grec en français, avec une introduction et des notes par Paul Ver Eecke, ... / Nouveau tirage / Paris : Albert Blanchard , 1963</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/022689192/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les œuvres complètes d'Archimède  ;  suivies des commentaires d'Eutocius d'Ascalon  Tome I,   / traduites du grec en français avec une introduction et des notes par Paul Ver Eecke,... / Paris : Librairie Scientifique et Technique Albert Blanchard</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/094666113/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>La collection mathématique  Tome premier,   / Pappus d'Alexandrie  ; oeuvre traduite pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke,... / Paris : Albert Blanchard , 1982</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018354270/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les commentaires sur le premier livre des Éléments d'Euclide  / Proclus de Lycie  ; traduits pour la première fois du grec en français avec une introduction et des notes par Paul Ver Eecke,... / Bruges : Desclée de Brouwer , 1948</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/022689222/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les œuvres complètes d'Archimède, suivies des commentaires d'Eutocius d'Ascalon  Tome II,   / traduites du grec en français avec une introd. et des notes par Paul Ver Eecke,... / Paris : Albert Blanchard</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00898526X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les oeuvres complètes d'Archimède  : Suivies des  ;  Commentaires d'Eutocius d'Ascalon  / traduites du grec en français avec une introduction et des notes par Paul Ver Eecke / [2e édition] / Liège : Vaillant-Carmanne</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012182273/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>La collection mathématique  / Pappus d'Alexandrie  ; oeuvre traduite pour la première fois du grec en français, avec une introduction et des notes par Paul Ver Eecke / Paris : Librairie scientifique et technique Albert Blanchard , 1982</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068207913/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031854672/id"/>
+      <dcterms:bibliographicCitation>Les œuvres complètes d'Archimède  / traduites du grec en français avec une introduction et des notes par Paul Ver Eecke,... / [2e édition] / Paris : Librairie scientifique et technique Albert Blanchard</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

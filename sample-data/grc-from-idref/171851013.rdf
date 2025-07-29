@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/171851013">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/171851013/id"/>
+      <dcterms:identifier>171851013</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-09-24</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-14T15:54:06</dcterms:modified>
+      <skos:editorialNote>Morphologie verbale du grec attique  / Lucie Degalle  ; M. Etienne, D. Goukowsky, R. Hodot, G. Vottéro, [ca 2006]</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/171851013/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/305303324"/>
+      <foaf:gender>female</foaf:gender>
+      <skos:prefLabel>Degalle, Lucie (19..-.... ; helléniste)</skos:prefLabel>
+      <foaf:familyName>Degalle</foaf:familyName>
+      <foaf:givenName>Lucie</foaf:givenName>
+      <foaf:name>Lucie Degalle</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/171851013/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">19XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171850777/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/171851013/id"/>
+      <dcterms:bibliographicCitation>Morphologie verbale du grec attique  / Lucie Degalle  ; M. Etienne, D. Goukowsky, R. Hodot, G. Vottéro / [Nancy] : Université de Nancy 2, UFR Lettres, grec , [ca 2006]</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

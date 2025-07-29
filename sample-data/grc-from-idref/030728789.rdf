@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030728789">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:identifier>030728789</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-07-08</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-26T18:07:08</dcterms:modified>
+      <skos:editorialNote>Recherches sur Simon le Mage / par J. M. A. Salles-Dabadie. 1. L'"Apophasis megalè", 1969</skos:editorialNote>
+      <skos:editorialNote>DTC. Chevalier. Clavis SGL. DOC / Vittorio Volpi, 1994</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030728789/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12889418</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000359231156"/>
+      <isni:identifierValid>0000000359231156</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12889418t#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/215995336"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Simon_le_Magicien"/>
+      <skos:prefLabel>Simon le Magicien (00..-0065)</skos:prefLabel>
+      <skos:altLabel>Simon le Mage</skos:altLabel>
+      <skos:altLabel>Simone Mago</skos:altLabel>
+      <skos:altLabel>Simon des Magiers</skos:altLabel>
+      <skos:altLabel>Simon de Samarie</skos:altLabel>
+      <skos:altLabel>Simon Magus (00..-0065)</skos:altLabel>
+      <foaf:name>Simon le Magicien</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030728789/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">00XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/030728789/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0065</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Gnostique. Originaire de Gitton (Samarie) meurt à Rome</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160321298/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Hermanni Schlurickii de Simonis magi fatis Romanis commentatio historica et critica  / Hermann Schlurick / Misenae : ex officina C. E. Klinkichtii , 1844</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/001674773/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Recherches sur Simon le Mage  [Tome] I, L'"Apophasis megalè"  / par J. M. A. Salles-Dabadie / Paris : J. Gabalda et Cie , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16143391X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Simon le mage, prototype de Mani selon les Acta Archelai  / Maddalena Scopello / [S.l.] : [s.n.] , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012346616/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Simon Magus und die christliche Gnosis  / von Karlmann Beyschlag / Tübingen : J.C.B. Mohr (Paul Siebeck) , 1974</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071387749/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Simon Magus : the first gnostic ?  / Stephen Haar / Berlin : de Gruyter , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/104612355/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Essai sur la vie et la doctrine de Simon le Magicien  : Thèse présentée à la Faculté de théologie de Strasbourg,... le lundi 2 décembre 1839,..., pour obtenir le grade de bachelier en théologie  / par Charles Streisguth,.. / Strasbourg : Impr. de G. Silbermann , 1839</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098545698/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>L'apôtre Paul et Simon le magicien  / par Pierre Dieterlen,... / Nancy : Berger-Levrault , 1878</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/241235278/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Métamorphoses de Simon le Magicien  : des "Actes de apôtres" au "Faustbuch"  : comme un astre vivant  = = wie ein lebendiges Gestirn :   / Bernard Pouderon / Paris : Beauchesne , DL 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/174758634/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>[La chute de Simon le magicien] . I. Callot fecit / [Rome] : [s.n.] , [entre 1609 et 1612]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00434653X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Simon "le Magicien"  : Actes 8, 5-25 et l'accusation de magie contre les prophètes thaumaturges dans l'Antiquité  / par Florent Heintz / Paris : J. Gabalda , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06025792X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Le thème de l'opposition entre Pierre et Simon dans les Pseudo-clémentines  / Dominique Côté / Paris : Institut d'études augustiniennes , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/094594678/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Simon Magus in patristic, medieval, and early modern traditions  / by Alberto Ferreiro / Leiden : Brill , 2005</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/259120928/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>La Révélation de la Grande Puissance  / Simon de Samarie  ; avec une préface de Raoul Vaneigem  ; et un frontispice de Dan Van Severen / Bruxelles : La Pierre d'Alun , DL 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/001674773/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Recherches sur Simon le Mage  [Tome] I, L'"Apophasis megalè"  / par J. M. A. Salles-Dabadie / Paris : J. Gabalda et Cie , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/001911791/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>Recherches sur Simon le Mage...  I., L' @Apophasis megalè  / par J. M. A. Salles-Dabadie / Paris : J. Gabalda et Cie , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/BSGA11739">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030728789/id"/>
+      <dcterms:bibliographicCitation>[Ms. 588]  [H. f. in-fol. 6] Vies des saints. (Fin du XIIIe - début du XIVe siècle) / I-183 f.</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

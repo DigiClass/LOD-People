@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/035049596">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:identifier>035049596</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1997-06-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-03-26T11:01:16</dcterms:modified>
+      <skos:editorialNote>Monumenti d'un manoscritto autografo di messer Gio. Boccacci / trovati et illustrati da Sebastiano Ciampi, 1827. Feriae Varsavienses, sive quae vacans ab academicis lectionibus scribebat, mense augusto anni 1820 / Sebastianus Ciampi, 1820</skos:editorialNote>
+      <skos:editorialNote>Encicl. italiana</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Ciampi, Sebastiano (abbé)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/035049596/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12573282</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000108961760"/>
+      <isni:identifierValid>0000000108961760</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb125732826#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/46878923"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Sebastiano_Ciampi"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Ciampi, Sebastiano (1769-1847)</skos:prefLabel>
+      <skos:altLabel>Ciampi, Sebastianus</skos:altLabel>
+      <foaf:familyName>Ciampi</foaf:familyName>
+      <foaf:givenName>Sebastiano</foaf:givenName>
+      <foaf:name>Sebastiano Ciampi</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/035049596/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1769-10-30</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/035049596/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1847-12-17</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ita"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Ecclésiastique. Philologue, archéologue et helléniste. Professeur de littérature grecque et latine à l'Université de Pise (1802-1817), puis de philologie à l'Université de Varsovie (1817-1822)</skos:note>
+      <skos:note>A aussi écrit en latin. A aussi traduit du grec ancien en italien</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046991816/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Sebastiano Ciampi in Polonia e la biblioteca Czartoryski  : Boccaccio, Petrarca e Cino da Pistoia  / Vittore Branca / Wroclaw : Wydawnictwo Polskiej Akademii Nauk , 1970</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/228365244/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Lettres inédites de Sebastiano Ciampi  : 1819-1831  / Léon-G. Pélissier / [Pistoia] : [Società Pistoiese di Storia Patria] , 1899</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/166066524/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Correspondenza  : Al chiarissimo signo Professore car. Sebastiano Ciampi  / dal signore Andrea Papadopulo-Vretto / [Venezia] : [s. n.] , 1830</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/258455446/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Lettera di Giuseppe de Poveda, dott. in teol. e socio corrispondente di piu' Accad. d'Italia in risposta al chiarissimo sig. canonico cavaliere Sebastiano Ciampi ... sopra le osservazioni, alla nota 2. della pag. 13. dell' Esame storico del sepolcro di Mess. Giovanni Boccaccio</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20151221412147039">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>[f. 173-175] "Projet d'arrêté pour la composition de l'Académie de Pise" par Fontanes, Louis de</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/258469730/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Descrizione della cassa di Cipselo tradotta dal Greco di Pausania ed illustrata da l'ab. Sebastiano Ciampi, professore di lettere greche nella R. Universita' di Pisa, membro onorario dell' Accademia delle belle arti di Firenze, deputato alla conservazione dei monumenti di scienze ed arti del dipartimento del Mediterraneo, socio dell' Accademie italiana, Lucchese, Pistojese, Valdarnese, ed altre societa' letterarie. S'aggiunge la dissertazione dell' Heyne sopra lo stesso argomento</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/20358628X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Gli Amori pastorali di Dafni e Cloe di Longo Sofista  / tradotti in italiano dal commendator Annibal Caro / Milano : dalla Società Tipografica de' Classici Italiani, Contrada del Cappuccio , 1812</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/118438662/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>La guerra per li principi cristiani guerreggiata contra i Saracini corrente 1095 / Firenze : L. Ciardetti , 1825</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/271009047/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Gli amori pastorali di Dafni e Cloe  / descritti da Longo sofista  ; volgarizzati da Annibal Caro  ; col supplemento tradotto da Sebastiano Ciampi / Nuova e corretta edizione illustrata con 25 incisioni / Milano : G. Daelli e Comp. Editori , 1863</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191340065/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>La guerra per li principi Cristiani  : guerreggiata contra i Saracini, corrente A. D. MLXXXXV  / in latino dichiarata per Ruberto Monaco  ; e translatata in volgare per Uno da Pistoia  ; si aggiunge la lettera del sig. Dureau Delamalle sopra le due Gerusalemme di Torquato Tasso / Firenze : Presso Leonardo Ciardetti , 1825</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123785731/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Memorie di Scipione Carteromaco  / Scipione Forteguerri  ; raccolte ed illustrate dal professore Sebastiano Ciampi / Pisa : R. Prosperi , 1811</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/022897739/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Notizie della vita letteraria e degli scritti numismatici di Giorgio Viani  / [Ab. Sebastiano Ciampi]  ; con la riposta alle censure fatte dal signor dottore Lodovico Costa all'operetta del medesimo sulla zecca e le monete di pistoia ... / Firenze : L. Ciardetti , 1817</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123785960/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>De veteribus institutis in re literaria pro temporum opportunitate sartis tectisque servandis  : oratio habita in aula Imp. et R. Academiae Pisanae  / Sebastianus Ciampi / Florentiae : [s.n.] , 1815</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123788412/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>De historia ludorum discendi synopsis  / quam legit ... per Sebastianum Ciampinum / Warszawie : imp. typ. Rza̜dowéy , 1818</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123789796/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Colpo d'occhio sopra lo studio della lingua e delle antichità etrusche in Italia  / Seb. Ciampi / [S.l.] : [s.n.] , [1825]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123788676/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Sebastiani Ciampi ... novum examen loci Liviani de Legatis Romanorum Athenas missis ut exoriberent Leges Solonis  / Seb. Ciampi / Vilnae : typ. diöc. C. Missionis , 1821</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096696389/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Viaggio in Polonia del professore Sebastiano Ciampi nella state del 1830  : con la breve descrizione di Varsavia e con altre notizie di lettere arti commercio e particolarità di quel regno con un appendice de'medici, musici, architetti, scultori e pittori italiani in Polonia che serve d'aggiunta al libro stampato in Lucca dallo stesso autore su questo proposito / Firenze : Giuseppe Galletti , 1831</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042603080/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Notizie inedite della Sagrestia pistoiese de' belli arredi del Campo santo pisano  : e di altre opere di disegno dal secolo XII. al XV  / raccolte ed illustrate dal Professor Ciampi / Firenze : Molini, Landi e compagno , 1810</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158878418/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Vita e poesie di messer Cino da Pistoia / Novella edizione rivista ed accresciuta dall'autore abata Sebastiano Ciampi / [S.l.] : Google , [20..]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123790654/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Sopra un anello longobardo e sull' origine del titolo di marchese  / dissertazione di Sebastiano Ciampi / Milano : Imp. r. stamperia , 1829</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123788293/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Breve prospetto dell'origine della statuaria delle varie materie in diversi tempi ad operate per le statue degli Dei e degli nomini  / Sebastiano Ciampi / [S.l.] : [s.n.] , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123787815/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Notizie di due pregiabili Mss. di Rime antiche  / dal Prof. Ciampi dirette al ch. Sig. Gaetano Poggioli / [S.l.] : [s.n.] , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123785669/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Memorie della vita di messer Cino da Pistoja  / raccolte ed illustrate dall' ab. Sebastiano Ciampi, ... / Pisa : presso Ranieri Prosperi , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123788439/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Osservazioni del ... sopra un anlichissima pietra scritta annulare ...  / Sebastiano Ciampi / [S.l.] : [s.n.] , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/268671737/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Feriae Varsavienses, sive quae vacans ab academicis lectionibus  / scribebat, mense augusto anni 1820, Sebastianus Ciampi ... / Mediolani : excudebat societas typographica classicorum Italiae scriptorum , 1820</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/118278509/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Rerum polonicarum  : ab excessu Stephani Regis ad Maximiliani Austriaci captivitatem  / liber singularis in lucem editus cum additamentis ab Sebastiano Ciampi / Florentiae : Typis Iosephi Galletti , 1827</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159479177/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Memorie della vita di messer Cino da Pistoja  / raccolte ed illustrate dall'ab. Sebastiano Ciampi... / Pisa : Presso R. Prosperi , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09669470X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Bibliografia critica delle antiche reciproche corrispondenze  : politiche, ecclesiastiche, scientifiche, letterarie, artistiche dell'Italia colla Russia, colla Polonia, ed altre parti settentrionali; il tutto raccolto ed illustrato con brevi cenni biografici delli autori meno conosciuti  / da Sebastiano Ciampi / Firenze : L. Allegrini e G. Mazzoni , 1834-42</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197208894/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Opere del commendatore Annibal Caro / [Milano] : [Società tip. de' Classici italiani] , 1807-1812</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123788579/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Osservazioni sulla Iscrizione latina del Monumento onorario a Dante, eretto nella chiesa di S. Core in Firenze  / Sebastiano Ciampi / [S.l.] : [s.n.] , 1829</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123790123/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Vita e memorie di messer Cino da Pistoia  Tom. 1,   / Sebastiano Ciampi / Terza edizione rivista ... dall' autor Seb. Ciampi / Pistoia : [s.n.] , 1826</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123790409/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Monumenti d'un manoscritto autografo di messer Gio. Boccacci da Certaldo  / trovati ed illustrati da Sebastiano Ciampi / Firenze : per G. Galletti , 1827</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/058632514/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Vita e poesie di messer Cino da Pistoia. Novella edizione rivista ed accresciuta dall'autore abata Sebastiano Ciampi</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103150188/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Statuti suntuari ricordati da Giovanni Villani circa il vestiario delle donne i regali e banchetti delle nozze e circa le pompe funebri ordonati dal comune di Pistoia negli anni 1332-e 1333  / [Sebastiano Ciampi] / Pisa : Ranieri Prosperi , 1815</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096695463/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Dell'antica torentica  : dissertazione  / Ciampi Sebastiano / Firenze : G. Nannei , 1815</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023266171/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>I simboli di sette scienze e della filosofia scolpiti da un artista della scuola di Giovanni Pisano in una base di marmo chesi conserva nel Campo-Santo di Pisa  / [Sebastiano Ciampi] / Pisa : Sebastiano Nistri , 1814</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020428510/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Lettera di Sebastiano Ciampi a Lorenzo Bartolini  : Celebratissimo statuario / Firenze : D. Passigli e socj. , 1834</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188425586/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Notizie di medici, maestri di musica e cantori, pittori, architetti, scultori ed altri artisti italiani in Polonia e polacchi in Italia  : con appendice degli artisti italiani in Russia, ecc  / raccolte da Sebastiano Ciampi,... / Lucca : J. Balatresi , 1830</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165036141/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Birgeri Thorlacii et Sebastiani Ciampii De septentrionalium gentium antiquitatibus et litteris runicis epistolae  / Birgerus Thorlacius et Sebastiani Ciampius / Mediolani : Sonzogno , 1827</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123788226/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>De usu linguae italicae saltem a saeculo V. R. S. acroasis  : accedit V. C. Scipionis Maffaei in idem argumentum Italica lucubratio  / Sebastianus Ciampius / Pisis : [s.n.] , 1817</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123788927/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Osservazioni intorno ai moderni sistemi sulle antichità Etrusche, con alcune idee sull' origine, uso, antichità de' vasi dipinti, volgarmente chiamati etruschi  / di Sebastiano Ciampi / [Fiesole] : Poligrafia fiesolana , 1824</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2020121516122395770">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>[RD-4] Sebastianus Ciampi.  Feriae Varsavienses sive quae vacans ab Academicis Lectionibus scribebat mense augusto anni MDCCCXIX [1819]...Varsovie (1819) / 27 pages</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2025011316111026410">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>[R54-9] Narratio rerum, quae post obitum Alexii Mikalowicz, Russorum imperatoris etc. gestae sunt Moscuae XI Kal. Octob. an. MDCLXXXII s. v. Missa ex urbe Moscua ad archiepiscopum Corinthi Franciscum Martelli Florentinum, nuntium apostolicum apud Joannem III, regem Poloniae reperta, ex autographo ad verbum scripta, et in lucem edita a Sebastiano Ciampi. Florence (1829) / 16 pages</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/265645026/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Volgarizzamento dei trattati morali di Albertano, giudice di Brescia, da Soffredi del Grazia  / ... trovato da Sebastiano Ciampi... ed ora da lui pubblicato...  ; con illustrazioni e la giunta del testamento in lingua volgare di donna Beatrice, contessa da Capraja, dell' anno 1278 / Firenze : L. Allegrini , 1832</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096696206/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Notizie dei secoli XV. e XVI. sull'Italia Polonia e Russia  / Raccolte e pubblicate da Sebastiano Ciampi colle vite di Bona Sforza de 'Duchi di Milano, Regina di Polonia e di Giovanni de' Medici detto delle Bande Nere  ; (Continuazione degl' Italiani in Polonia) / Firenza : Leopoldo Allegrini e Giov. Mazzoni , 1833</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165582898/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>De vita Caroli Magni et Rolandi historia  / Joanni Turpino,...  ; ad fidem codicis vetustioris emendata et observationibus philologicis illustrata a Sebastiano Ciampi / Florentiæ : J. Molini , 1822</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081663692/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Lettera di messer Gio. Boccacci a maestro Zanobi da Strada, con altri monumenti inediti  : a maggiore illustrazione del Zibaldone di lui, pubblicati da Sebastiano Ciampi / Firenze : N. Conti , 1827</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123785782/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Memorie di Niccolò Forteguerri, istitutore del liceo e del collegio Forteguerri di Pistoja nel secolo XV  / Scipione Forteguerri  ; [Sebastiano Ciampi] / Pisa : [s.n.] , 1813</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153276266/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Narratio rerum quae post obitum Alexii Mikalowicz, Russorum imperatoris etc. gestae sunt Moscuae, XI Kal. Octob. an 1682 S. v. missa ex urbe Moscua ad archiepiscopum Corinthi Franciscum Martelli Florentinum Nuntium apostolicum apud Joannem III. regem Poloniae Reperta  / ex autographo ad verbum scripta, et in lucem edita a Sebastiano Ciampi / Florentiae , 1829</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14378112X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Notizie del canonico Sozomeno, illustre letterato del secolo XV  : con il compendio della continuazione recentemente trovata della sua cronaca dal 1410 fino al 1455  / raccolte dal professore Sebastiano Ciampi,... / Pisa : R. Prosperi , 1810</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124178332/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Poesie di Messer  / Cino da Pistoia  ; raccolta ... dal Sebast. Ciampi / Pistoia : [s.n.] , 1826</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060201010/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>Gesta Caroli Magni ad Carcassonam et Narbonam et de aedificatione monasterii Crassensis..  / ed. Sebastiano Ciampi / Florence : Magherus , 1823</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2024111911362635312">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035049596/id"/>
+      <dcterms:bibliographicCitation>[R45-11] Sebastiano Ciampi. Lettere militari con un piano di riforma dell’esercito polacco del re Giovanni Sobiescki. (1830) / 30 pages</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

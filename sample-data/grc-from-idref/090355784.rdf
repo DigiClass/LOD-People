@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/090355784">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:identifier>090355784</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-09-20</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-04T05:17:20</dcterms:modified>
+      <skos:editorialNote>Apollonii Dyscoli quae supersunt / recensuerunt, apparatum criticum, commentarium, indices adiecerunt Richardus Schneider et Gustavus Uhlig. Volumen alterum. Apollonii Dyscoli De constructione libri quattuor /  recensuit apparatu critico et explanationibus instruxit Gustavus Uhlig ; adiectae sunt tabulae phototypicae duae</skos:editorialNote>
+      <skos:editorialNote>Internet,http://authorities.loc.gov/cgi-bin, 20-09-2005</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/090355784/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000081396529"/>
+      <isni:identifierValid>0000000081396529</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb102942048#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/59857244"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Uhlig, Gustav (1838-1914)</skos:prefLabel>
+      <skos:altLabel>Uhlig, Gustavus</skos:altLabel>
+      <skos:altLabel>Uhligius, Gustavus</skos:altLabel>
+      <foaf:familyName>Uhlig</foaf:familyName>
+      <foaf:givenName>Gustav</foaf:givenName>
+      <foaf:name>Gustav Uhlig</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/090355784/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1838</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/090355784/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1914</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <!--skos:note-->
+      <skos:note>Philologue</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025418319/id">
+      <dcterms:bibliographicCitation>Dionysii Thracis Ars grammatica qualem examplaria vetustissima exhibent subscriptis discrepantiis et testimoniis quae in codicibus recentioribus scholiis erotematis apud alios scriptores interpretem Armenium reperiuntur  / edidit Gustavus Uhlig. Praemissae sunt praeter prolegomena: Adalaberti Merxii De versione Armeniaca disputatio atque Syrii interpretis lectiones subiecta sunt: Supplementa artis Dionysianae vetusta indices tabulae photolithographicae duae. Lipsiae, In aedibus B. G. Teubneri, 1883 / Hildesheim : Georg Olms , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/251110478/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Die Entwicklung des Kampfes gegen das Gymnasium  : Vortrag in der Wiener Festversammlung der deutschen Gymnasialvereine am 2. Oktober 1909  / gehalten von Gustav Uhlig / Wien : Kais. u. kön. Hof-Buchdruckerei und Hof-Verlags-Buchhandlung Carl Fromme , 1910</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165673907/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Zusammenstellung der Gymnasiallehrpläne der Deutschen Schweiz  : der bedeutendsten deutschen Staaten und Frankreichs  : nebst pädagogischen Thesen  / Uhlig und Burckhardt-Brenner. Verfasst für die neueste Jahresversammlung des Vereins schweizer. Gymnasiallehrer / 2te Auflage / Aarau : Sauerländer , 1868</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165674822/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Die Stundenpläne für Gymnasien, Realgymnasien und lateinlose Realschulen in den bedeutendsten Staaten Deutschlands  / zsgest. von G. Uhlig / 2. vermehrte Auflage / Heidelberg : Winter , 1884</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165675187/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Die Stundenpläne für Gymnasien, Realgymnasien und lateinlose Realschulen in den bedeutendsten Staaten Deutschlands  / zusgest. von G. Uhlig / 3., nach dem neusten Stand veränderte Auflage / Heidelberg : Winter , 1891</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165810270/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Emendationum Apollonianarum specimen  / Gustavus Uhlig / Berolini : Schade , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165675292/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Die Einheitsschule mit lateinlosem Unterbau  / besprochen von Dr. G. Uhlig,... / Heidelberg : Carl Winter's Universitätsbuchhandlung , 1892</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086649361/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Festschrift zur Begrüssung der in Karlsruhe vom 27.-30. September 1882 Tagenden XXXVI. Philologen-Versammlung  / verfasst von den Philologischen Collegen an der Heidelberger Universität / Freiburg I. B. : J. C. B. Mohr , 1882</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165803134/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Die neuen Stundenpläne der Gymnasien in Preussen, Bayern, Sachsen, Württemberg, nebst 2 zusammenfassenden Tab. u. den neuen Plänen für die preußischen Realgymnasien u. Realschulen  / zsgest. von P. Uhlig / Heidelberg : Winter , 1892</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046766251/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli quae supersunt  / recensuerunt, apparatum criticum, commentarium, indices adiecerunt Richardus Schneideir et Gustavus Uhlig / Reproduction en fac-simile / Hildesheim : New York , 1979</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10653288X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli quae supersunt  / recensuerunt apparatum criticum commentarium indices adjecerunt Richardus Schneider et Gustavus Uhlig / Leipzig : Teubner , 1878-1902</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047509953/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Dionisii Thracis ars grammatica...  / edidit G. Uhlig  ;  Scholia in Dionysii Thracis artem grammaticam  / recensuit ... A. Hilgard / Lipsiae : in aed. Teubneri , 1883-1901</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064833941/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Grammatici graeci recogniti et apparatu critico instructi  Vol.I, fasc.I  : Apollonii Dyscoli Scripta minora a Richardo Schneidero edita continens  / Recensuerunt apparatum criticum commentarium indices adiecerunt Richardus Schneider et Gustavus Uhlig / Leipzig : Teubner , 1878</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/072850167/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Grammatici graeci  2.1, Apollonii Dyscoli quae supersunt / Hildesheim : G. Olms , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/07176707X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Dionysii Thracis Ars grammatica  / ed. Gustavus Uhlig  / [ed.] Alfredus Hilgard / Hildesheim : G. Olms , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046766170/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Dionysii Thracis Ars grammatica.../ ed. Gustavus Uhlig  : et  ;  Scholia in Dionysii Thracis Artem grammaticam  / recensvit et apparatum criticum indicesque adiecit Alfredus Hilgard / Hildesheim : G. Olms , 1979</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090353404/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli quae supersunt  Voluminis primi, Richardi Schneideri Commentarium criticum et exegeticum in Apollonii scripta minora continens  Fasc. II, Richardi Schneideri Commentarium criticum et exegeticum in Apollonii scripta minora continens  / recensuerunt, apparatum criticum, commentarium, indices adiecerunt Richardus Schneider et Gustavus Uhlig / Lipsiae : In aedibus B. G. Teubneri , 1902</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025339451/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Grammatici graeci / Hildesheim : Olms , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090353412/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli quae supersunt  Volumen alterum, Apollonii Dyscoli De constructione libri quattuor  / recensuerunt, apparatum criticum, commentarium, indices adiecerunt Richardus Schneider et Gustavus Uhlig  /  recensuit apparatu critico et explanationibus instruxit Gustavus Uhlig  ; adiectae sunt tabulae phototypicae duae / Lipsiae : In aedibus B. G. Teubneri , 1910</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/167960687/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Das humanistische Gymnasium  : Organ des Gymnasialvereins  / herausgegeben von Dr. G. Uhlig / Heidelberg : Carl Winter's Universitätsbuchhandlung , 1890-1936</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007975813/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Grammatici Graeci  1, Dionysii Thracis ars grammatica.../ ed. Gustavus Uhlig  3, Scholia in Dionysii Thracis artem grammaticam  / recensvit et apparatum criticum indicesque adiecit Alfredus Hilgard / Reproduction en fac-simile / Hildesheim : G. Olms , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025041282/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli quae supersun  / recensuerunt, apparatum criticum, commentarium, indices adiecerunt Richardus Schneider et Gustavus Uhlig / Lipsiae : In aedibus B. G. Teubneri , 1878-1910</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/094475709/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Jahresbericht für das Schuljahr 1880-81  : zugleich Einladung zu der am 28. und 29. Juli stattfindenden öffentlichen Prüfung und zu dem Schlussact am Nachmittag des 30. Juli  / Gymnasium zu Heidelberg  / ab G. Uhligio recensitae  ; [Dr. G. Uhlig] / Heidelberg : G. Mohr , 1881</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090401506/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli quae supersunt$$frecensuerunt, apparatum criticum, commentarium, indices adiecerunt Richardus Schneider et Gustavus Uhlig  Volumen tertium praefationem adiecit, Librorum Apollonii deperditorum fragmenta  /  collegit disposuit explicavit indices omnium librorum confecit Richardus Schneider / Lipsiae : In aedibus B. G. Teubneri , 1910</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/01849269X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Dionysii Thracis Ars grammatica qvalem exemplaria vetvstissima exhibent  : svbscriptis discrepantiis et testimoniis qvae in codicibvs recentioibvs, scholiis, erotematis, apvd alios scriptores, interpretem aremenivm reperivntvr  / edidit Gvstavvs Vhlig / Lipsiae : B. G. Tevbner , 1883</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081638329/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Dionysii Thracis Ars grammatica... Edidit Gustavus Uhlig. Praemissae sunt, praeter prolegomena, Adalberti Merxii de versione Armeniaca disputatio atque Syrii interpretis lectiones. Subjecta sunt supplementa artis Dionysianae vetusta... / Lipsiae : B. G. Teubner , 1883</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071675566/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli quae supersunt  / recensuerunt apparatum criticum commentarium indices adiecerunt Richardus et Gustavus Uhlig / Hildesheim : G. Olms , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/008152551/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli quae supersunt  II, Apollonii Dyscoli de constructione libri quattuor  III, Librorum Apollonii deperditorum fragmenta  / recensuerunt, apparatum criticum, commentarium, indices adiecerunt Richardus Schneideir et Gustave Uhlig / Lipsiae : B. G. Teubneri , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/055081541/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/090355784/id"/>
+      <dcterms:bibliographicCitation>Apollonii Dyscoli Quae supersunt  / Recensuerunt, apparatum criticum, commentarium, indices adiecerunt Richardus Schneider et Gustavus Uhlig / Hildesheim : Georg Olms , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

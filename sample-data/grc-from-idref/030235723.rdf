@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030235723">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:identifier>030235723</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-11-19</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-03T17:32:35</dcterms:modified>
+      <skos:editorialNote>The textual tradition of Plato's republic / Gerard Boter, 1989</skos:editorialNote>
+      <skos:editorialNote>Internet, http://www.brill.nl/m_catalogue_sub6_id22673.htm, 2005-11-07 : Professeur de grec à l'Université Libre d'Amsterdam</skos:editorialNote>
+      <skos:editorialNote>Brinkman's cumulatieve catalogue on CD-ROM, cop. 2004 : autre forme des prénoms</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030235723/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12169487</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000108667692"/>
+      <isni:identifierValid>0000000108667692</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb121694871#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/7431227"/>
+      <!--PERSEE-->
+      <owl:sameAs rdf:resource="https://www.persee.fr/authority/280071"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Boter, Gerard (19..-....)</skos:prefLabel>
+      <skos:altLabel>Boter, Gerardus Johannes</skos:altLabel>
+      <foaf:familyName>Boter</foaf:familyName>
+      <foaf:givenName>Gerard</foaf:givenName>
+      <foaf:name>Gerard Boter</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030235723/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">19XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2750405/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Professeur de grec à l'Université Libre d'Amsterdam</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020822154/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>The textual tradition of Plato's Republic  / by Gerard Boter / Leiden : Brill , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006932274/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>The textual tradition of Plato's Republic  / by Gerard Boter / Leiden : E.J. Brill , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/271047275/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>Critical Notes on Philostratus' 'Life of Apollonius of Tyana'  / Gerard Boter / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090848616/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>Critical notes on Plato's "Politeia"  / by S. R. Slings  ; edited by Gerard Boter and Jan Van Ophuijsen / Leiden : Brill , 2005</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/202686345/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>The Encheiridion of Epictetus and its three Christian adaptations  / transmission and critical editions by Gerard Boter / Leiden : Brill , 2016</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/261585746/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>Vita Apollonii Tyanei  / Flavius Philostratus  ; editit Gerard Boter / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/202181081/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>Encheiridion  / Epictetus  ; Gerard Boter / Berlin : De Gruyter , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046530762/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>The Encheiridion of Epictetus and its three Christian adaptations  / transmission and critical editions by Gerard Boter / Leiden : Brill , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/22958456X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>Critical notes on Plato's "Politeia"  / Slings  ; [edited by] Gerard Boter and Jan van Ophuijsen / Leiden : Brill , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11970451X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030235723/id"/>
+      <dcterms:bibliographicCitation>Encheiridion  / Epictetus  ; edidit Gerard J. Boter / Berolini : W. de Gruyter , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

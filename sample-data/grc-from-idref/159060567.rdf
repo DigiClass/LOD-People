@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/159060567">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/159060567/id"/>
+      <dcterms:identifier>159060567</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-03-09</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-17T13:25:31</dcterms:modified>
+      <skos:editorialNote>Internet, Wikipedia : http://fr.wikipedia.org/wiki/Th%C3%A9ophane_de_Byzance</skos:editorialNote>
+      <skos:editorialNote>De Byzantinae historiae scriptoribus... Proponente Philippo Labbe, 1648</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/159060567/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/280367420"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Théophane de Byzance (05..-06..?)</skos:prefLabel>
+      <skos:altLabel>Thophanes Byzantii</skos:altLabel>
+      <foaf:familyName>Théophane de Byzance</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Théophane de Byzance</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/159060567/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">05XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/159060567/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">06XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/298795/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Historien de langue grecque de la fin du VIe siècle. Auteur d'une Histoire en dix livres couvrant les règnes des empereurs Justin II (565-578) et Tibère Constantin (578-582). Cet ouvrage est perdu, mais fait l'objet du codex 64 de la Bibliothèque de Photius. Ce dernier signale qu'en introduction, Théophane mentionnait un autre livre qu'il avait consacré au règne de Justinien, mais qui, apparemment, était déjà perdu au IXe siècle. Le bref résumé donné dans le codex 64 contient deux éléments importants : d'une part l'histoire de l'introduction de l'élevage du ver à soie à Byzance, sous le règne de Justinien, par un Perse qui avait visité la Chine et en avait fait sortir des œufs cachés dans une canne creuse ; d'autre part l'une des premières mentions historiques de Turcs (Tourkoi), installés à l'est du Don, et qui envoyèrent une ambassade à Justin II au début de son règne</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164057978/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/159060567/id"/>
+      <dcterms:bibliographicCitation>Byzantine chronicles and the sixth century  / Roger Scott / Farnham, Surrey (GB) : Ashgate Variorum , cop. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/048416126/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/159060567/id"/>
+      <dcterms:bibliographicCitation>Historici Graeci minores  / Edidit Ludovicus Dindorfius / Lipsiae : In aedibus B.G. Teubneri , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075567008/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/159060567/id"/>
+      <dcterms:bibliographicCitation>De Byzantinae historiae scriptoribus, sub felicissimis Ludovici XIV. Francorum ac Navarraeorum Regis Christianissimi auspiciis publicam in lucem e luparae a typographia emittendis : ad omnes per orbem eruditos protreptikon. Proponente Philippo Labbe Biturico, soc. Jesu sacerdote. / Parisiis : E Typographia regia. M. DC. XLVIII. , 1648</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

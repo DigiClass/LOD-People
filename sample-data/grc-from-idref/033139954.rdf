@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/033139954">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:identifier>033139954</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-07-04</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-01T03:06:09</dcterms:modified>
+      <skos:editorialNote>GDEL</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/033139954/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12403677</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000453799207"/>
+      <isni:identifierValid>0000000453799207</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb124036773#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/100205952"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Phalaris_(tyran)"/>
+      <skos:prefLabel>Phalaris (0570?-0554 av. J.-C. ; tyran d'Agrigente)</skos:prefLabel>
+      <skos:altLabel>Falaride (tyran d'Agrigente)</skos:altLabel>
+      <foaf:name>Phalaris</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/033139954/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0570 ?</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/033139954/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">-055-04</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>On lui a attribué parfois des "Epistolae" (voir à "Pseudo-Phalaris")</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/079974856/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Le "Epistole" di Falaride  : catalogo dei manoscritti  / Davide Muratore / La Spezia : Agorà , impr. 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/005001366/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Falaride e Pseudofalaride  : storia e leggenda  / Serena Bianchetti / Roma : "L'Erma" di Bretschneider , cop. 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119301253/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>The battle of the books   : with selections from literature of the phalaris controversy  / by Jonathan Swift  ; edited by A. Guthkelch / London : Chatto and Windus , 1908</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060196386/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Nunc Phalaris doctum protulit ecce caput  : Antike Phalarislegende und Nachleben der Phalarisbriefe  / von Vinko Hinz / München : K.G. Saur , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100294111/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Les epistres de Phalaris, tiran des Agrigentins en Sicile, mise en... françoys par Claude Gruget,... / Paris : pour Estienne Groulleau , 1550</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154973505/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Epistolae  / Phalaris / [Rom] : [Stephan Plannck] , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16565256X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Phalaridis Agrigentinorum tyranni Epistolæ. Francisco Aretino interprete. Nunc demum opera Antonij Thomæ Savii ad Græcum exemplar collatæ, tersissimè in lucem emissæ.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/255309325/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Epistolae [in latino] Tr: Franciscus Griffolinus (Aretinus) / [Lieu de publication inconnu] : [éditeur inconnu]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154966681/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Phalaridis Epistolae graecolatinae  : in usum scholarum societatis Jesu  / Phalaris / Ingolstadii : apud E. Angermariam , 1614</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/25532412X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Epistolae [in latino]. Tr: Franciscus Griffolinus (Aretinus) / [Lieu de publication inconnu] : [éditeur inconnu]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/116936983/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Lettres de Phalaris, tyran d'Agrigente. Traduction nouvelle, par le citoyen Benaben / Angers : Veuve Pavie , an XI [1803]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100294103/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Phalaridis epistolae quas latinas fecit, et, interpositis Caroli Boyle notis commentario illustravit Ioannes Daniel a Lennep... praejixit L.C. Valckenaer / Groningae : apud Jacobum Bolt , 1777</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067931375/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Epistolae Phalaridis, Agrigentinorum tyranni seu ut Politianus sentit, Luciani ; [Ed. Petrus Danesius ; trad. Franciscus Aretinus] / S.l. : s.n. , [1521]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10029409X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Phalaridis, Agrigentorum tyranni, Epistolae doctissimae, graecè et latinè, Thoma Naogeorgo,... interprete / Basileae : per Joannem Oporinum , 1558</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099848147/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Epistolai diaphorōn philosophōn, rhētorōn kai sophistōn  / éd. Marcus Musurus / [Venezia : [Aldo Manuzio , 1499]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100294138/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Phalaridos kai Brottou epistolai. Phalaridis &amp; Bruti epistolæ. His præfixa epistolarum conscribendarum methodus, græcè &amp; latinè.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154966568/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033139954/id"/>
+      <dcterms:bibliographicCitation>Phalaridos Akragantinon Tyrannou epistolai pany thaumasiai  = = Phalaridis Agrigentinorum tyranni epistolae ingeniosissimae, et admirabiles :   / Phalaris / Iam primum in Germania editae / Rostochii : Myliandrus , 1597</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

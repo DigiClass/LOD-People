@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/032122454">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:identifier>032122454</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1993-07-16</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-12-13T11:35:38</dcterms:modified>
+      <skos:editorialNote>Le Christ de Cyrille d'Alexandrie : l'humanité, le salut et la question monophysite / par Bernard Meunier / Paris : Beauchesne, 2010</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/032122454/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12321346</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000108834518"/>
+      <isni:identifierValid>0000000108834518</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12321346r#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/29602901"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Meunier, Bernard (1959-.... ; chercheur en patristique)</skos:prefLabel>
+      <foaf:familyName>Meunier</foaf:familyName>
+      <foaf:givenName>Bernard</foaf:givenName>
+      <foaf:name>Bernard Meunier</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/032122454/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1959</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Ancien élève de l’ENS (ULM), agrégé de lettres classiques, docteur de l'École Pratique des Hautes Études, docteur en théologie. Il a enseigné durant 25 ans les Pères de l’Église à la Faculté de théologie de Lyon. Chargé de recherche au CNRS, il fait partie de l’équipe des Sources Chrétiennes dont il a été le directeur pendant dix années.</skos:note>
+      <skos:note>Traducteur de grec ancien</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/070378134/id">
+      <dcterms:bibliographicCitation>Le corps est-il porteur de Dieu ?  : Question posée à saint Irénée  / Véronique Minet  ; sous la dir. de Bernard Meunier / Lyon : Université catholique , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047406054/id">
+      <dcterms:bibliographicCitation>La notion d'apostolicité chez Irénée de Lyon  / par Paul Pitaval  ; sous la dir. de Bernard Meunier / Lyon : Université catholique de Lyon , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20181091710193">
+      <dcterms:subject rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>[PHO D/2/1979/1] [Ecole normale supérieure. Promotion de 1979 : trombinoscope]. - [Paris] ([1979-1980]) / 1 chemise (2 p.)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/013981374/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Les pères de l'Eglise au XVIIe siècle  : actes du colloque de Lyon, 2-5 octobre 1991  / publ. par E. Bury et B. Meunier, avec le concours du CNRS / Paris : I.R.H.T , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003058751/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Les Pères de l'Église au XVIIe siècle  : actes du colloque de Lyon, 2-5 octobre 1991  / [organisé par l'Institut de recherche et d'histoire des textes, l'Institut des sources chrétiennes et la Faculté de théologie de Lyon]  ; publiés par E. Bury et B. Meunier / Paris : IRHT , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/111141451/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>La personne et le christianisme ancien  / sous la direction de Bernard Meunier / Paris : les Éditions du Cerf , 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/263016048/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Enfant, famille, justice  : une femme à l'écoute de son siècle  : mélanges en l'honneur d'Emma Gounot  / sous la direction de Valérie Aubourg, Hugues Fulchiron, Bernard Meunier... [et al] / [Paris] : mare &amp; martin</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120702282/id">
+      <marcrel:rth rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Traduction et commentaire de la douzième homélie sur le "Cantique des Cantiques" de Saint Grégoire de Nysse  / Simon Valette  ; présenté sous la direction de Bernard Meunier / [S.I.] : [s.n.] , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120723115/id">
+      <marcrel:rth rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Service de Dieu et service des hommes  : le ministère de la parole chez Jean Chrysostome  : traduction et commentaire des homélies XXI et XXII sur l'Evangile de Matthieu  / Virginie Maneval  ; sous la direction de Bernard Meunier / [S.I.] : [s.n.] , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/12066867X/id">
+      <marcrel:rth rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'appel à la conversion dans l'art oratoire de Jean Chrysostome selon les "Homélies sur la pénitence"  / Quyên Bui  ; sous la direction de Bernard Meunier / [S.I.] : [s.n.] , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120768313/id">
+      <marcrel:rth rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Traduction et commentaire de la deuxième homélie sur les statues de Saint Jean Chryosotome  / Marie Foriel-Destezet  ; sous la direction de Bernard Meunier / [S.I.] : [s.n.] , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002912104/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Dieu peut-il avoir un fils?  : le débat trinitaire du IVe siècle  / introduction et commentaires par Bernard Sesboüé  ; textes traduits par Bernard Meunier et Bernard Sesboüé / Paris : les Éd. du Cerf , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/172202744/id">
+      <marcrel:opn rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'incarnation du Verbe de Dieu comme oeuvre du salut chez Athanase d'Alexandrie  / Eugen Maftei  ; sous la direction de Jean-Marie Salamito /  , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/227236548/id">
+      <marcrel:opn rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Jean Chrysostome exégète et pasteur. Les homélies sur la Deuxième épître aux Corinthiens  / Pierre Molinié  ; sous la direction de Jean-Marie Salamito /  , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.theses.fr/2017PA040224/id">
+      <marcrel:opn rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Jean Chrysostome exégète et pasteur. Les homélies sur la Deuxième épître aux Corinthiens / Pierre Molinié le 2017 [ Paris 4 ] </dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.theses.fr/2012PA040279/id">
+      <marcrel:opn rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'incarnation du Verbe de Dieu comme oeuvre du salut chez Athanase d'Alexandrie / Eugen Maftei le 2012 [ Paris 4 ] </dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/273140728/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Penser l'âme au temps de son éclipse  : les ressources de l'anthropologie chrétienne  : [colloque, Université Catholique de Lyon, 16 au 19 mars 2022]  / textes réunis par Pascal Marin et Laurence Mellerin  ; avec la collaboration de Bernard Meunier et Riccardo Rezzesi / Paris : Les éditions du Cerf , DL 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/061073121/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'histoire en christianisme  : hommage à Jean Comby  / textes réunis par Jacques Gadille &amp; Daniel Moulinet  ; avec la participation de Jean Comby, Yves Krumenacker, Bernard Meunier... [et al.] / [Lyon] : Profac , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151366691/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>La naissance du Fils et le mystère du Dieu-Trinité  : un commentaire du traité sur La Trinité d'Hilaire de Poitiers  / Lysanne Guilbault  ; préface de Bernard Meunier / Lyon : Profac , 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012966894/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'anthropologie de Cyrille d'Alexandrie  / Bernard Meunier  ; sous la direction de Gaston Pietri et de Alain Le Boulluec / [S.l.] : [s.n.] , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075843137/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Les premiers conciles de l'Église  : un ministère d'unité  / Bernard Meunier / [Lyon] : Profac , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/267971524/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Foucault, les Pères, le sexe  : Autour des Aveux de la chair  / James Bernauer, Philippe Büttgen, Philippe Chevallier [et autres]  ; Philippe Büttgen, Philippe Chevallier, Agustín Colombo, Arianna Sforzini / Paris : Éditions de la Sorbonne</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051051087/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>La naissance des dogmes chrétiens  / Bernard Meunier / Paris : Les éd. de l'atelier-éd. ouvrières , DL 2000, cop. 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002666820/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Les Pères de l'Église dans la culture européenne  : XVIe-XVIIe siècles  : quelques ouvrages conservés à la Bibliothèque Municipale de Lyon  : Lyon, Bibliothèque municipale, octobre 1991  / [catalogue par] Emmanuel Bury, Christiane Lauvergnat-Gagnière, Bernard Meunier... [et al.] / Lyon : Association des amis de la Bibliothèque municipale de Lyon , 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/25663419X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Foucault, les pères, le sexe  : autour des Aveux de la chair  / sous la direction de Philippe Büttgen, Philippe Chevallier, Agustín Colombo... [et al.] / Paris : Éditions de la Sorbonne , DL 2021</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/004306899/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Le Christ de Cyrille d'Alexandrie  : l'humanité, le salut, et la question monophysite  / par Bernard Meunier / Paris : Beauchesne , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/275219895/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'anthropologie de Cyrille d'Alexandrie  / Bernard Meunier  ; sous la direction de Gaston Pietri et de Alain Le Boulluec /  , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14517428X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'anthropologie de Cyrille d'Alexandrie  / Bernard Meunier  ; sous la direction de Gaston Pietri puis Alain Le Boulluec / Villeneuve d'Ascq : Atelier national de reproduction des thèses , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/263750701/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Foucault, les pères, le sexe  : autour des Aveux de la chair  / sous la direction de Philippe Büttgen, Philippe Chevallier, Agustín Colombo... [et al.] / Paris : Éditions de la Sorbonne</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178066346/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'autorité des Pères entre Antiquité et Moyen Âge  / par Bernard Meunier</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.theses.fr/1992EPHEA003/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>L'anthropologie de Cyrille d'Alexandrie / Bernard Meunier le 1992 [ Paris, EPHE ] </dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/078870992/id">
+      <marcrel:ths rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Ecclesia una  : pratiques et principes d'une ecclésiologie de l'unité à travers la correspondance de Cyprien de Carthage (250-258)  / par Jérôme Fay  ; sous la dir. de Bernard Meunier / Lyon : Université catholique de Lyon , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/078759137/id">
+      <marcrel:ths rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Plénitude et communion  : la participation de l'homme à la vie divine dans l'oeuvre de saint Irénée  / par Luciano Eduardo Da Silva  ; sous la dir. de Bernard Meunier / Lyon : Université catholique de Lyon , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/274433710/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Commentaire sur Jean  Tome II, Livre II  / Cyrille d'Alexandrie  ; texte grec, introduction, traduction, notes et index Bernard Meunier, ... / Paris : Les Éditions du Cerf , 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108584488/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Les Pères de l'Eglise au XVIIe siècle  : actes  / du colloque de Lyon, 2-5 octobre 1991  ; publiés par E. Bury et B. Meunier / Paris : Institut de recherche et d'histoire des textes , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/271762454/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Les stromates  Stromate I,   / Clément d'Alexandrie  ; introduction, texte critique, traduction et notes Bernard Pouderon,... / [Nouvelle édition] / Paris : Les Éditions du Cerf , 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/004506944/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Lettres festales  Tome III, XII-XVII  / Cyrille d'Alexandrie  / texte grec par W. H. Burns  ; traduction et annotation par Marie-Odile Boulnois et Bernard Meunier / Paris : Éd. du Cerf , 1998</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00375054X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Catalogue des manuscrits grecs  Troisième partie, Le supplément grec  Tome I, Nos 1 à 50  Fasc. 1, Nos 1 à 50  / Bibliothèque nationale, [Département des manuscrits]  ; [éd. par Danica Lecco, Bernard Meunier et Marie Odile Germain] / Paris : Bibliothèque nationale , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/232929165/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/032122454/id"/>
+      <dcterms:bibliographicCitation>Commentaire sur Jean  Tome I, Livre I  / Cyrille d'Alexandrie  ; texte grec, introduction, traduction, notes et index Bernard Meunier, ... / Paris : Les Éditions du Cerf , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

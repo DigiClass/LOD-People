@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/164950397">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/164950397/id"/>
+      <dcterms:identifier>164950397</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-23</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-18T16:49:26</dcterms:modified>
+      <skos:editorialNote>http://www.universalis-edu.com/encyclopedie/maxime-d-ephese/ : Richard GOULET, « MAXIME D'ÉPHÈSE (mort en 370) », Encyclopædia Universalis [en ligne], consulté le 23 octobre 2012.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/164950397/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/3159147373410141580003"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Maxime (....-0370)</skos:prefLabel>
+      <skos:altLabel>Maxime d'Éphèse</skos:altLabel>
+      <foaf:name>Maxime</foaf:name>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/164950397/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0370</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Philosophe néo-platonicien du IVe siècle, élève d'Aedesius</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179784447/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/164950397/id"/>
+      <dcterms:bibliographicCitation>Recherches sur le poème " Perì Katarchôn " de Maxime  / Nicola Zito  ; sous la direction de Pierre Chuvin et de Enrico Livrea /  , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181011158/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/164950397/id"/>
+      <dcterms:bibliographicCitation>Corpus rhetoricum  Tome V, La méthode de l'habileté  / Pseudo-Hermogène  / Maxime  / Anonyme  ; textes établis et traduits par Michel Patillon,... / Paris : Les Belles Lettres , 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181011158/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/164950397/id"/>
+      <dcterms:bibliographicCitation>Corpus rhetoricum  Tome V, La méthode de l'habileté  / Pseudo-Hermogène  / Maxime  / Anonyme  ; textes établis et traduits par Michel Patillon,... / Paris : Les Belles Lettres , 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

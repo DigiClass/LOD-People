@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/073940879">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:identifier>073940879</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-09-01</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-25T03:15:09</dcterms:modified>
+      <skos:editorialNote>Dict. encycl. du christianisme ancien, 1983 ; DTC</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/073940879/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12511664</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000066288909"/>
+      <isni:identifierValid>0000000066288909</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12511664n#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/37711435"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Marcel_d'Ancyre"/>
+      <skos:prefLabel>Marcel d'Ancyre (0280?-0374?)</skos:prefLabel>
+      <skos:altLabel>Markell von Ancyra</skos:altLabel>
+      <skos:altLabel>Marcellus of Ankara</skos:altLabel>
+      <skos:altLabel>Markellos Agkuras</skos:altLabel>
+      <skos:altLabel>Marcellus (évêque d'Ancyre)</skos:altLabel>
+      <foaf:name>Marcel d'Ancyre</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/073940879/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0280</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/073940879/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0374</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Evêque d'Ancyre en Cappadoce, adversaire d'Arius, participa aux synodes d'Ancyre et de Nicée</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081269366/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Die Lehre Markells von Ankyra in der Darstellung seiner Gegner  / von Gerhard Feige / Leipzig : Benno , 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108175561/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Marcellus von Ancyra  : ein Beitrag zur Geschichte der Theologie  / von Theodor Zahn,.. / Gotha : F. A. Perthes , 1867</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081823312/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Marcell von Ancyra  : der Logos-Christologe und Biblizist  : sein Verhältnis zur antiochenischen Theologie und zum Neuen Testament  / von Lic. theol. Wolfgang Gericke / Halle : Akademischer Verlag , 1940</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081392869/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Ideas trinitarias y cristologicas de Marcelo de Ancyra  / auctore Iosepho M. Fondevila,... / Madrid : [s.n.] , 1953</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171614070/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Encore un nouveau fragment du traité de Porphyre contre les chrétiens (Marcel d'Ancyre, fr. 88 Klostermann = fr. 22 Seibt/Vinzent) ?  / Sébastien Morlet, ...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006043178/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Pseudo-Athanasius, contra Arianos IV  : eine Schrift gegen Asterius von Kappadokien, Eusebius von Cäsarea, Markell von Ankyra und Photin von Sirmium  / Von Markus Vinzent / Leiden : E.J. Brill , 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007776365/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>&#x98;Die &#x9c;Fragmente  ;  &#x98;Der &#x9c;Brief an Julius von Rom  / Markell von Ankyra  ; hrsg., eingeleitet und übersetzt von Markus Vinzent / Leiden : E.J. Brill , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/101835779/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Marcellus of Ancyra and the lost years of the Arian controversy, 325-345  / Sara Parvis / New York : Oxford University Press , 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/062957910/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Marcellus von Ancyra  : ein Beitrag zur Geschichte der Theologie  / von Theodor Zahn / Gotha : F.A. Perthes , 1867</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/013408941/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Die Theologie des Markell von Ankyra  / Klaus Seibt / Berlin : W. de Gruyter , 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/264858115/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Opere  ;  Frammenti teologici  ;  Sulla santa Chiesa  / Marcello di Ancira  ; introduzione, testo greco e note a cura di Samuel Fernández  ; traduzione dei testi di Marcello a cura di Emanuela Prinzivalli  ; edizione italiana a cura di Emanuela Prinzivalli / Roma : Città Nuova , 2022</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/12131880X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Christ as mediator  : a study of the theologies of Eusebius of Caesarea, Marcellus of Ancrya, and Athanasius of Alexandria  / Jon M. Robertson / Oxford : Oxford University Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/156009811/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Tradition and the rule of faith in the early church  : essays in honor of Joseph T. Lienhard,...  / edited by Ronnie J. Rombs and Alexander Y. Hwang / Washington, D.C. : Catholic University of America Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010531181/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Ad graecos de vera religione  : bisher "Cohortatio ad graecos"  / Ps.-Justin (Markell von Ankyra ?)  ; Einleitung und Kommentar von Christoph Riedweg / Basel : Friedrich. Reinhardt verlag , 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068416458/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Eusebius Werke  Vierter Band, Gegen Marcell  / herausgegeben von Erich Klostermann / Leipzig : J. C. Hinrichs , 1906</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007776365/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>&#x98;Die &#x9c;Fragmente  ;  &#x98;Der &#x9c;Brief an Julius von Rom  / Markell von Ankyra  ; hrsg., eingeleitet und übersetzt von Markus Vinzent / Leiden : E.J. Brill , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/264858115/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Opere  ;  Frammenti teologici  ;  Sulla santa Chiesa  / Marcello di Ancira  ; introduzione, testo greco e note a cura di Samuel Fernández  ; traduzione dei testi di Marcello a cura di Emanuela Prinzivalli  ; edizione italiana a cura di Emanuela Prinzivalli / Roma : Città Nuova , 2022</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/263569438/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Carta a Julio  ;  Fragmentos teológicos  ;  Sobre la Santa Iglesia  / Marcelo de Ancira  ; introducción, texto críticó, traducción y notas de Samuel Fernández / Madrid : Ciudad Nueva , 2022</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051192918/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Gegen Marcell  ;  Uber die kirchliche Theologie  / Eusebius  / hrsg. von Erich Klostermann / Berlin : Akademie-Verlag , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/03551275X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073940879/id"/>
+      <dcterms:bibliographicCitation>Eusebius Werke  Vierter Band, Gegen Marcell  ;  Über die kirchliche Theologie  / hrsg. von Erich Klostermann / 3., erg. Aufl. / Berlin : Akademie-Verlag , 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

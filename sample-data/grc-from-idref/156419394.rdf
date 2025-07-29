@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/156419394">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/156419394/id"/>
+      <dcterms:identifier>156419394</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-11-17</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-09T03:53:33</dcterms:modified>
+      <skos:editorialNote>Novi Testamenti graeci verba recipiantne praepostitione praefixa vim perfectivae actionis necne / scripsit Arthurus Rapaport, 1924</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/156419394/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000111030297"/>
+      <isni:identifierValid>0000000111030297</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/161239061"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Rapaport, Artur (1889-1937)</skos:prefLabel>
+      <foaf:familyName>Rapaport</foaf:familyName>
+      <foaf:givenName>Artur</foaf:givenName>
+      <foaf:name>Artur Rapaport</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/156419394/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1889</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/156419394/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/pol"/>
+      <!--skos:note-->
+      <skos:note>Philologue classique et professeur de lycée d'origine juive, éditeur du dictionnaire grec-polonais</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/195937201/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/156419394/id"/>
+      <dcterms:bibliographicCitation>Wyprawa Cyrusa  : (Anabaza)  / Xenofont  ; przełożył i przypisami zaopatrzył Prof. Dr. Artur Rapaport  ; z wstępem Stanisława Witkowskiego / Kraków : Nakładen Krakowskiej Spółki Wydawniczej , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098491695/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/156419394/id"/>
+      <dcterms:bibliographicCitation>Novi Testamenti graeci verba recipiantne praepostitione praefixa vim perfectivae actionis necne  / scripsit Arthurus Rapaport  ; Sumptibus Societatis philologae et Ministerii instructionis publicae / Leopoli : Gubrynowicz et filius , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

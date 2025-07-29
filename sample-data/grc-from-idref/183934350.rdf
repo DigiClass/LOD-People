@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/183934350">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/183934350/id"/>
+      <dcterms:identifier>183934350</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-02-24</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-12T01:43:34</dcterms:modified>
+      <skos:editorialNote>Dialogues biographiques et moraux de Platon / traduction nouvelle avec des arguments et une esquisse sur la philosophie platonicienne par M. Schwalbé, 1852</skos:editorialNote>
+      <skos:editorialNote>De reminiscentia platonica : dissertatio : oblata ac disputata in academia Parisiensi, facultate litterarum,  / J. A. Schwalbé, 1835</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/183934350/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000020557114"/>
+      <isni:identifierValid>0000000020557114</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/17997350"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Schwalbé, J.-A. (18..-....)</skos:prefLabel>
+      <foaf:familyName>Schwalbé</foaf:familyName>
+      <foaf:givenName>J.-A.</foaf:givenName>
+      <foaf:name>J.-A. Schwalbé</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/183934350/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">18XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Traducteur et éditeur de Platon. Docteur ès lettres (Paris, 1835)</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181825821/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/183934350/id"/>
+      <dcterms:bibliographicCitation>Phédon  / Platon  ; Traduction de M. Schwalbé, précédée d'une introduction, d'un plan analytique des matières et accompagnée de notes grammaticales et philosophiques, revue par M. Charpentier,... / Paris : Librairie classique Eugène Belin , [1916?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/175321507/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/183934350/id"/>
+      <dcterms:bibliographicCitation>Dialogues biographiques et moraux de Platon  Deuxième série, Les Rivaux, ou de la Philosophie  / Traduction nouvelle avec des arguments et une esquisse sur la philosophie platonicienne par M. Schwalbé. ... / Paris : Charpentier, libraire-éditeur , 1852</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183934652/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/183934350/id"/>
+      <dcterms:bibliographicCitation>Dialogues biographiques et moraux de Platon  Première série, Euthyphron, ou de la Sainteté  / Traduction nouvelle avec des arguments et une esquisse sur la philosophie platonicienne par M. Schwalbé / Paris : Charpentier, libraire-éditeur , 1852</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/236413996/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/183934350/id"/>
+      <dcterms:bibliographicCitation>Dialogues biographiques et moraux de Platon  Première série, Euthyphron, ou de la Sainteté  : Traduction nouvelle avec des arguments et une esquisse sur la philosophie platonicienne  / par M. Schwalbé / Paris : Charpentier, libraire-éditeur , 1846</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/106071149/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/183934350/id"/>
+      <dcterms:bibliographicCitation>Phédon  / Platon  ; traduction de M. Schwalbé  ; précédée d'une introduction, d'un plan analytique des matières et accompagnée de notes grammaticales et philosophiques revue par M. Charpentier / Paris : P. Belin , 1927</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090603354/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/183934350/id"/>
+      <dcterms:bibliographicCitation>De reminiscentia Platonica  : dissertatio  : oblata ac disputata in academia Parisiensi, facultate litterarum, Kal.Aug. An. MDCCCXXXV  / A J. A. Schwalbé /  , 1835</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/101035896/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/183934350/id"/>
+      <dcterms:bibliographicCitation>Oeuvres de Platon  : Dialogues métaphysiques...  / par M. Schwalbé / Paris : chez Lefèvre, libraire , 1843</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

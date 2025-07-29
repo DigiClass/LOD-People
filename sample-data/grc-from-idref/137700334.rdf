@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/137700334">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/137700334/id"/>
+      <dcterms:identifier>137700334</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-11-05</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T10:42:55</dcterms:modified>
+      <skos:editorialNote>La Vie religieuse dans l'Empire byzantin au temps des Comnènes et des Anges / par Lysimaque Oeconomos, 1918</skos:editorialNote>
+      <skos:editorialNote>Internet, http://authorities.loc.gov, 2009-11-05</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/137700334/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000043504509"/>
+      <isni:identifierValid>0000000043504509</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/34005766"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Christodoulos_de_Patmos"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Christodoulos (1020-1093 ; saint)</skos:prefLabel>
+      <skos:altLabel>Christodule (saint)</skos:altLabel>
+      <skos:altLabel>Christodoulos de Patmos</skos:altLabel>
+      <skos:altLabel>Hristodoulos Patmou</skos:altLabel>
+      <skos:altLabel>Osios Christodoulos, o Latrīnos</skos:altLabel>
+      <foaf:familyName>Christodoulos</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Christodoulos</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/137700334/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1020</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/137700334/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1093</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Moine, fondateur d'un monastère à Patmos, il est l'auteur d'une Règle composée pour son couvent</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160665957/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/137700334/id"/>
+      <dcterms:bibliographicCitation>Τα αγιολογικά κείμενα του Οσίου Χριστόδουλου ιδρυτού της εν Πάτμω μονής  : φιλολογική παράδοσις και ιστορικαί μαρτυρίαι  / Ερας Λ. Βρανούση / Αθήνα : [χ.ό.] , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023907460/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/137700334/id"/>
+      <dcterms:bibliographicCitation>Saint Christodule et la réforme des couvents grecs au XIe siècle  / Edouard Le Barbier,... / Paris : F. Didot, frères, fils, et cie. [etc.] , 1863</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/27026633X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/137700334/id"/>
+      <dcterms:bibliographicCitation>The archaeology of Christodoulos  : Monastic practice and monastic building in eleventh-century Byzantium  / Anthony Kirby / Belfast : Queen's University of Belfast , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158262387/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/137700334/id"/>
+      <dcterms:bibliographicCitation>La vie religieuse dans l'Empire byzantin au temps des Comnènes et des Anges  / par Lysimaque Œconomos,... / Paris : E. Leroux , 1918</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010443576/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/137700334/id"/>
+      <dcterms:bibliographicCitation>La Vie religieuse dans l'Empire byzantin au temps des Comnènes et des Anges  / par Lysimaque Oeconomos,...  ; préface de M. Charles Diehl,... / Paris : E. Leroux , 1918</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/257247866/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/137700334/id"/>
+      <dcterms:bibliographicCitation>Vitae et miracula Sancti Christoduli Patmensis  / edited by Ioannis Polemis and Theodora Antonopoulou / Wien : Verlag der österreichischen Akademie der Wissenschaften</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/140382569/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/137700334/id"/>
+      <dcterms:bibliographicCitation>Ακολουθία ιερά του Οσίου και Θεοφόρου Πατρός Ημών Χριστοδούλου του θαυματουργού, ...  / Κυρίλλου Ιεροδιακόνου Βοϊνη / Εκδόσις τρίτη / Αθήνησιν : εκ του τυπογραφείου των αδελφών Πέρρη , 1884</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

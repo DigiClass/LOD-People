@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/078751098">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/078751098/id"/>
+      <dcterms:identifier>078751098</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-23T17:11:22</dcterms:modified>
+      <skos:editorialNote>Fragments / Atticus ; texte établi et traduit par Édouard Des Places, 1977</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL : Atticus philosophus</skos:editorialNote>
+      <skos:editorialNote>WBI</skos:editorialNote>
+      <skos:editorialNote>Kleine Pauly</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/078751098/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11313203</bnf-onto:FRBNF>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb11313203b#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/262426126"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Atticus_le_Platonicien"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Atticus (0150?-0200?)</skos:prefLabel>
+      <skos:altLabel>Atticos</skos:altLabel>
+      <skos:altLabel>Atticus philosophus</skos:altLabel>
+      <skos:altLabel>Attikos</skos:altLabel>
+      <skos:altLabel>Attikos Filosofos</skos:altLabel>
+      <foaf:name>Atticus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/078751098/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0150</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/078751098/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0200</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Philosophe platonicien. Maître du lexicographe Harpocration</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134644069/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/078751098/id"/>
+      <dcterms:bibliographicCitation>Augustin et Atticus  : la "quaestio "De ideis"  / Jean Pépin / [S.l.] : [s.n.] , 1990</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/277480043/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/078751098/id"/>
+      <dcterms:bibliographicCitation>Le dieu, le mouvement, la matière  : Atticus et ses critiques dans l'Antiquité tardive  / Alexandra Michalewski / Paris : les Belles lettres , 2024</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/277593727/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/078751098/id"/>
+      <dcterms:bibliographicCitation>Le dieu, le mouvement, la matière  : Atticus et ses critiques dans l'Antiquité tardive  / Alexandra Michalewski / Paris : Belles lettres</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066394775/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078751098/id"/>
+      <dcterms:bibliographicCitation>Atticos  : fragments de son oeuvre  / avec introduction et notes par J. Baudry / Paris : Les Belles Lettres , 1931</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047219955/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078751098/id"/>
+      <dcterms:bibliographicCitation>Atticos  : un commentateur de Platon adversaire d'Aristote au IIe siècle de notre ère  : fragments de son oeuvre  / avec introduction et notes par J. Baudry / Paris : Les Belles Lettres , 1931</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/000589144/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078751098/id"/>
+      <dcterms:bibliographicCitation>Fragments  / Atticus  ; texte établi et traduit par Édouard Des Places,... / Paris : les Belles Lettres , 1977</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150399634/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078751098/id"/>
+      <dcterms:bibliographicCitation>Περί Θεών και κόσμου  / Σαλούστιος  / Αττικού  ; εισαγωγή, μετάφραση, σχόλια Φιλολογική Ομάδα Κάκτου. / Αθήνα : Κάκτος , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/034340939">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/034340939/id"/>
+      <dcterms:identifier>034340939</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-04-22</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T10:32:31</dcterms:modified>
+      <skos:editorialNote>Entretiens ou Chapitres très utiles / Zosime ; introd. , trad. et notes par dom Lucien Regnault, [dans] : Enseignements des Pères du désert / Hyperéchios, Étienne de Thèbes, Zosime ; préf. de dom Michel Van Parys, O.S.B., 1991</skos:editorialNote>
+      <skos:editorialNote>Clavis scriptorum Graecorum et Latinorum : Zosimus abbas sanctus</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : ZOSIMAS (saint), abbé en Palestine</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/034340939/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12510575</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000391876034"/>
+      <isni:identifierValid>0000000391876034</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12510575s#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/285795703"/>
+      <skos:prefLabel>Zosimus (04..-05.. ; saint ; abbé en Palestine)</skos:prefLabel>
+      <skos:altLabel>Zosime</skos:altLabel>
+      <skos:altLabel>Zosimus abbas</skos:altLabel>
+      <skos:altLabel>Zosimus Palaestinus</skos:altLabel>
+      <skos:altLabel>Zosimas</skos:altLabel>
+      <skos:altLabel>Zosimas abbas</skos:altLabel>
+      <skos:altLabel>Zosima</skos:altLabel>
+      <foaf:name>Zosimus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/034340939/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">04XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/034340939/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">05XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Moine originaire de Sindé, près de Tyr, puis supérieur d'une communauté monastique près de Césarée, en Palestine</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171900103/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/034340939/id"/>
+      <dcterms:bibliographicCitation>Rome as the basis of Argument in the so-called pelagian controversy (415-418)  / Rafal Toczko, ...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096388307/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034340939/id"/>
+      <dcterms:bibliographicCitation>[Toû ’en hagíois patròs hīmō̂n ’Isidṓrou, toû Pīlousiṓtou, ’Epistolō̂n biblía pénte]  = = Sancti Isidori, Pelusiotae, Epistolarum libri quinque :   / post Jac. Billii, Cunradi Rittershusii et Andreae Schotti curas ad codices Vaticanos exegit et plus bis mille locis emendavit, restituit, supplevit P. Possinus  / accurante et denuo recognoscente J.-P. Migne,... / Parisiis : J.-P. Migne , 1864</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158951026/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034340939/id"/>
+      <dcterms:bibliographicCitation>Parole dal deserto  / introduzione, traduzione e note a cura di Lisa Cremaschi,... / Magnano : Qiqajon, Comunita di Bose , cop. 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179871315/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034340939/id"/>
+      <dcterms:bibliographicCitation>Του εν αγιοις πατρος ημων Ισιδωρου, του Πηλουσιωτου, Επιστολων βιβλια πεντε  = = Sancti Isidori, Pelusiotæ, Epistolarum libri quique :   / Post Jac. Billii, Cunradi Rittershusii et Andreæ Schotti curas ad codices Vaticanos exegit et plus bis mille locis emendavit, restituit, supplevit P. Possinus,...  ; accedunt Zosimi abbatis alloquia  ; accurante et denuo recognoscente J.-P. Migne, bibliothecæ cleri universæ, sive cursuum completorum in singulos scientiæ ecclesiasticæ ramos editore / Petit-Montrouge [Parisiis] : Excudebatur et venit apud J.-P. Migne editorem , 1860</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00241256X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034340939/id"/>
+      <dcterms:bibliographicCitation>Enseignements des Pères du désert  / Hyperéchios, Étienne de Thèbes, Zosime  ; préf. de dom Michel van Parys,...  ; introd., trad. et notes par dom Paul Tirot,... dom Michel van Parys,... dom Lucien Regnault,... / Bégrolles-en-Mauge : Abbaye de Bellefontaine , DL 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051967073/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034340939/id"/>
+      <dcterms:bibliographicCitation>Quinti sæculi scriptorum ecclesiasticorum qui ad s. Hieronymum usque floruerunt, nonnullis tantum exceptis, melius alibi collocandis, ut in eorum loco adnotabitur, opera omnia, nunc primum in unum corpus et ordine chronologico digesta... / [Parisiis] : venit apud editorem [J.-P. Migne] , 1845</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

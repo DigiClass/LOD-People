@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/132159317">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/132159317/id"/>
+      <dcterms:identifier>132159317</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-23</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-12-04T12:04:09</dcterms:modified>
+      <skos:editorialNote>Beiträge zur Geschichte des Bergbaurechts / von Ernst Schönbauer, 1929</skos:editorialNote>
+      <skos:editorialNote>https://www.austriaca.at/0xc1aa5576%200x002d4f55.pdf, 2022-12-04</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/132159317/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000119724218"/>
+      <isni:identifierValid>0000000119724218</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/170675543"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Schönbauer, Ernst (1885-1966)</skos:prefLabel>
+      <foaf:familyName>Schönbauer</foaf:familyName>
+      <foaf:givenName>Ernst</foaf:givenName>
+      <foaf:name>Ernst Schönbauer</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/132159317/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1885-12-29</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/132159317/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1966-05-03</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource=""/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Juriste et homme politique autrichien</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019556764/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/132159317/id"/>
+      <dcterms:bibliographicCitation>Beiträge zur Geschichte des Bergbaurechts  / von Ernst Schönbauer / München : C. H. Beck , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/204735270/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/132159317/id"/>
+      <dcterms:bibliographicCitation>Beiträge zur Geschichte des Liegenschaftsrechtes im Altertum  / von Ernst Schönbauer,... / Leipzig : Heimarverlag Leopold Stocker , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06832264X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/132159317/id"/>
+      <dcterms:bibliographicCitation>Die Neu gefundenen Reskripte des Septimius Severus / [S.l.] : [s.n.] , 1957</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/021752028/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/132159317/id"/>
+      <dcterms:bibliographicCitation>Die Res gestae Divi Augusti in rechtsgeschichtlicher beleuchtung  / Ernst Schönbauer / Wien : Rohrer , 1946</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154619590/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/132159317/id"/>
+      <dcterms:bibliographicCitation>Zur "Krise des romischen Rechts  / Ernst Schönbauer / [S.l. : s.n. , s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154619574/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/132159317/id"/>
+      <dcterms:bibliographicCitation>Vom Wesen der judicia arbitraria  / Ernst Schönbauer / [S.l.] : [s.n.] , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018260209/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/132159317/id"/>
+      <dcterms:bibliographicCitation>Rechtshistorische Abhandlungen  : Aus seinem Nachlasse  / hrsg. u. bearb. von Ernst Schönbauer / Graz : Böhlau in Kommission , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

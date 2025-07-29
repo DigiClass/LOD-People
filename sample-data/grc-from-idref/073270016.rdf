@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/073270016">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:identifier>073270016</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-03-17</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-06T16:15:41</dcterms:modified>
+      <skos:editorialNote>Basilii, Seleuciensis episcopi, opera quae exstant omnia. Accedunt Eudoclae imperatricis, Aeneae Gazaei, Zachariae Mitylenes [et al.] scripta vel scriptorum fragmenta quae supersunt / accurante et denuo recognoscente J.-P. Migne, 1984</skos:editorialNote>
+      <skos:editorialNote>DTC. DOC : dizionario delle opere classiche / V. Volpi, 1994. Encycl. Grèce : Vasíleios Seleukeías (ʾen ʾIsauría̧). Clavis SGL : Basilius Seleucensis Isauricus. LCNA (CD), 1996-06 : Basil, bishop of Seleucia</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Basile (Saint), métropolitain de Séleucie</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/073270016/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13205642</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000108028284"/>
+      <isni:identifierValid>0000000108028284</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb13205642q#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/212804391"/>
+      <skos:prefLabel>Basile de Séleucie (0435?-0468? ; saint)</skos:prefLabel>
+      <skos:altLabel>Basile (saint)</skos:altLabel>
+      <skos:altLabel>Basilius (saint)</skos:altLabel>
+      <skos:altLabel>Basilius Isauricus (saint)</skos:altLabel>
+      <skos:altLabel>Basilius Seleuciensis Isauricus (saint)</skos:altLabel>
+      <skos:altLabel>Vasíleios (saint)</skos:altLabel>
+      <skos:altLabel>Basíleios Seleukeías (saint)</skos:altLabel>
+      <skos:altLabel>Basíleios (saint)</skos:altLabel>
+      <skos:altLabel>Basilio di Seleucia (saint)</skos:altLabel>
+      <skos:altLabel>Basil (saint)</skos:altLabel>
+      <skos:altLabel>Basileios Seleukias (saint)</skos:altLabel>
+      <skos:altLabel>Basilius Seleuciensis (0435?-0468? ; saint)</skos:altLabel>
+      <skos:altLabel>Vasíleios Seleukeías (0435?-0468? ; saint)</skos:altLabel>
+      <foaf:name>Basile de Séleucie</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/073270016/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0435</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/073270016/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0468</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Épistolographe, hagiographe</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/185049087/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>La vie de saint Basile le grand... et celle de saint Grégoire de de Nazianze, ... / Paris : Du Puis , 1674</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/236282581/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Basil of Seleucia's In Ioseph (CPG 6656.8) and its dependance on the pseudo-chrysostomic homily, De Ioseph et de castitate (CPG 4566)  / María Panagía Miola / [Grottaferrata] : [éditeur inconnu] , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/085897426/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Der hl. Basilius in seiner Stellung zum Filioque  / von Dr. Ant. Kranich,... / Braunsberg : J.U. Wichert , 1882</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099648636/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Μακαριου Βασιλειου εγισκογου σελευκιας τὰ σωζόμενα ἅπαντα [Opera]. @. B. Basilii Seleuciae Isauriae episcopi,... Opera quae exstant. Nunc primum eruta &amp; in lucem edita / [Heidelbergae] : in bibliopolio Hieronymi Commelini , 1596</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/072900040/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Patrologiae cursus completus  085, patrologiae graecae  : omnium ss. patrum, doctorum scriptorumque ecclesiasticorum  : sive latinorum, sive graecorum  / accurante J.P. Migne / Turnhout : Brepols , 1858-1866</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099648652/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>D. Basilii... Oratio 2.a inNoe, ex graeco nuper latinitate donata et notis illustrata, per Martialem Mestraeum... / Parisiis : e typ. J. Richerii , 1602</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002333910/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Homélies pascales  : (cinq homélies inédites)  / Hésychius de Jérusalem, Basile de Séleucie, Jean de Béryte, Pseudo-Chrysostome, Léonce de Constantinople  ; introduction, texte critique, traduction, commentaire et index de Michel Aubineau,... / Paris : les Éditions du Cerf , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099648695/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>@. B. Basilii Seleuciae... Episcopi Concio in Olympicos Ludos. Ex Fed. Morello... interpretatione / Parisiis : apud F. Morellum , 1602</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080438067/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Basilii seleuciensis episcopi opera quae exstant omnia...  / Basile / Turnholti : Brépols , [ca 1970]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099648679/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Orationes XLIV. Cl. Dausqueius Audomarius... latine fecit et illustravit notis... / [Heidelberg] : in bibl. Commeliniano , 1604</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188571965/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Oratio prima in adamum, e graeco super latine per martinum mestraeum... / Paris , 1602</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099648717/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>D. Basilii, Seleuciae... episcopi, de Passione D.N. Jesu Christi, concio, adversus Arrianos &amp; Eunomianos. Nunc primum latine edita, ex interpretatione Fed. Morelli,... / Lutetiae : apud Federicum Morellum , 1600</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/257487816/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Vita et miracula Sanctae Theclae  = = Leben und Wunder der heiligen Thekla :   / Pseudo-Basilius von Seleukia  ; eingeleitet und kommentiert von Bernd Kollmann  ; übersetzt von Burghard Schröder / Freiburg [etc.] : Herder</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002107333/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Sainte Thècle  : [extraits  : [extraits  : collections grecques de miracles  / par Basile de Séleucie]  / par Sophronius de Jérusalem]  / traduits et annotés par A.-J. Festugière,... / Paris : A. et J. Picard , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067654193/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Basilii,... de Vita ac miraculis D. Theclae virginis martyris Iconiensis libri duo. Simeonis Metaphrastae,... de eadem martyre tractatus singularis. Petrus Pantinus Tiletanus,... e tenebris nunc primum eruit, latine vertit notisque illustravit / Antverpiae : ex off. Plantiniana, apud J. Moretum , 1608</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/254962491/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Sancti Joannis Chrysostomi De educandis liberis liber aureus. Ejusdem Tractatus alii quinque, quà festivi, quà paraenetici. Severiani Gabalorum episcopi, De Cruce ; Basilii Seleuciae de S. Stephano, ejusque Reliquiis. Zachariae, Hierosolymorum antistitis ad suae plebis reliquias epistola è Perside, incertique aequalis de eadem captivitate, ac sanctae urbis excidio. Ex vetustis eminentissimi cardinalis Mazarini graecis codicibus nova prodeunt, eidem eminentissimo principi inscripti inscripta ;  R. P. Francisco Combefis, ordinis FF. praedicatorum congregationis sancti Ludovici producente, omniumque interprete.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/250983893/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Sancti Ioannis Chrysostomi De educandis liberis liber aureus. Eiusdem Tractatus alij quinque, qua festiui, quà parænetici. Seueriani Gabalorum Episcopi de Cruce ; Basilij Seleuciæ de S. Stephano, eiúsque Reliquiis. Zachariæ Hierosolymorum Antistitis ad suæ plebis reliquias Epistola è Perside. Incertique æqualis de eadem captiuitate, ac sanctæ Urbis excidio. Ex vetustis Eminentissimi Cardinalis Mazarini Græcis Codicibus noua prodeunt, eidem Eminentissimo Principi inscripta ; R. P. Francisco Combefis ordinis FF. Prædicatorum Congregationis Sancti Ludouici producente, omniumque Interprete.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/115658793/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Τοῦ ἐν ἁγίοις πατρὸς ἡμῶν Βασιλείου Αρχιεπισκόπου Σελευκίας, εἰς τον προφήτην Ελισαίον, και  εἰς την Σουναμίτιν Λόγος.  S. Patris nostri Basilii archiepiscopi Seleuciæ de Elisæo et Sunamitide, cuius filium propheta ex morte resuscitaverat, oratio, Græce antehac a Commelino ed. Anno MXCVI. Nunc autem ad Latinam translatalinguam primum a M. Dethlevo Woldero cremp. Holsato.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159363160/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Ss. pp. Gregorii Neocaesariensis episc. cognomento thaumathurgi. Macarii Aegyptii, Basilii Seleuciae Isauriae episcopi. Opera omnia, quae reperiri potuerunt. Nunc primum Graecè et Latinè conjunctim edita, cum indicibus necessariis. Accessit Joannis Zonarae expositio canonicarum epistolarum. / Parisiis, : sumptibus Michaelis Sonnii, Claudii Morelli, et Sebastiani Cramoisy. Via Jacobaea. M DCXXII. Cum privilegio Regis.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188572384/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Oratio secunda in Noe, e graeco latine per martinum mestraeum. / Paris : e typ. J. Richerii , 1603</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188572694/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Oratio super illa verba : In principio creavit Deus Caelum et Terram, graece, cum interpretatione latina Dethleri Wolderi. / Hambourg , 1618</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/185417841/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Ethica, sive de civili sapientia christianorum sermones graeco-latine XXIV, in locos communes redacti a Simeona Magistro, ... collecti autem ac congesti ex scriptis D. Basilii Magni, ... nunc primum ex mss. cod. eruti et in lucem editi, interprete Stanislas Ilovio... / Francofordiae : sumptibus P. Kopffii , 1611</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158034759/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Gregorii Neocaesariensis episc. cognomento Thaumaturgi, Macarii. Aegyptii, et Basilii Seleuciae Isauriae episcopi. Opera omnia, quae reperiri potuerunt. Nunc primum graecè et latinè conjunctim edita, cum indicibus necessariis. Accessit Joannis Zonarae expositio canonicarum epistolarum.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09964875X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>D. Basilii Seleuciae episcopi, Homilia de infantibus ab Herode necatis. Item Homilia alia, auctoris ignoti, eadem de re, nunc primum edita. Utraque nupere conversa a Georgio Remo,... cum ejusdem notis / Heidelbergae : typ. Christophori Leonis &amp; Johannis Lanceloti , 1598</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108201201/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Patrologiae cursus completus  85, Basilius Seleuciensis  : series graeca  / accurante J.-P. Migne / Turnholti : Brepols , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188571159/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Basilii Seleuciae in Isauria episcopi De vita ac miraculis D. Theclae virginis martyris Iconiensis libri duo. Simeonis Metaphrastae Logothetae de eadem martyre tractatus singularis. Petrus Pantinus Tiletanus,... è tenebris nunc primum eruit, latinè vertit, notisque illustravit / Antuerpiae : ex officina Plantiniana, apud Ioannem Moretum , 1608</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099648733/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>[S. Basilii, Seleuciae episcopi, de Pastore bono, concio, nunc primum latinitate donata, &amp; notis... illustrata à Fed. Morello,...] / [Lutetiae] : [apud Federicum Morellum] , [1597]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113466994/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/073270016/id"/>
+      <dcterms:bibliographicCitation>Βασιλειου επισκοπου Σελευκιας Τα σοζωμενα παντα  = = Basilii Seleuciensis episcopi Opera quæ exstant omnia :   / accurante et denuo recognoscente J.-P. Migne, ... / Parisiis : Excudebatur et venit apud J.-P. Migne editorem , 1860</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/035605499">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:identifier>035605499</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-07-15</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T10:34:23</dcterms:modified>
+      <skos:editorialNote>ʾIatrikai ʾAporíai kaì provlí̄mata perì zó̄on kaì tetrapódōn, Kassíou ʾiatrosofístou = Cassii medici De animalibus quaestiones medicinales, 1541. Cassi iatrosophistes Naturales et medicinales quaestiones LXXXIIII ; Conrado Gesnero interprete nunc primum editae, 1562</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL. Dizionario delle opere classiche / Vittorio Volpi, 1994. Encycl. Grèce</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Cassius</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/035605499/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13498919</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000374096693"/>
+      <isni:identifierValid>0000000374096693</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb13498919z#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/10003374"/>
+      <skos:prefLabel>Cassius Medicus (00..-00.. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Cassius Iatrosophista</skos:altLabel>
+      <skos:altLabel>Kássios ʾIatrosofistí̄s</skos:altLabel>
+      <skos:altLabel>Kássios ho ʾIatrosophistḗs</skos:altLabel>
+      <skos:altLabel>Kássios ʾIatrosophistḗs</skos:altLabel>
+      <skos:altLabel>Cassius (médecin)</skos:altLabel>
+      <skos:altLabel>Kássios ho ʾIatrosofistī́s (00..?-00..? av. J.-C.)</skos:altLabel>
+      <foaf:name>Cassius Medicus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/035605499/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-00X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/035605499/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-00X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Médecin latin, aurait vécu au premier siècle avant J.-C. A écrit en grec</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/087771292/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>I problemi di Cassio Iatrosofista  : testo critico, introduzione, apparato critico, traduzione e note  / Antonio Garzya, Rita Masullo / Napoli : Accademia pontaniana , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171181612344481">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>[JB 5.7.16] Références bibliogr. sur Alexandre d'Aphrodise, Cassius Medicus, Théophylacte Simocatta /  13 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/149330995/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>Medicae artis principes post Hippocratem &amp; Galenum  :  graeci latinitate donati  :  Actuarius, Aretaeus, Nic. Myrepsus, Ruffus Ephesius, Oribasius, Paulus Aegineta, Aetius, Alex. Trallianus; latini, Corn. Celsus, Scrib. Largus, Marcell. Empiricus... Hippocr. aliquot loci cum Corn. Celsi interpretatione... Henr. Stephani de hac sua editione tetrastichon. Quaerere quos aegri per compita multa solebant, hospita nunc per me est omnibus una domus. Prima salutiserae medicorum gratia dextrae : sistenti medicos nónne secunda mihi / Tours : CESR , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10019558X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>Medicæ artis principes, post Hippocratem &amp; Galenum, græci latinitate donati, Aretæus, Ruffus Ephesius, Oribasius, Paulus Aegineta, Aetius, Alex. Trallianus,  Actuarius,  Nic. Myrepsus, Latini, Corn. Celsus, Scrib. Largus, Marcell. Empiricus. Aliíque præterea, quorum unius nomen ignoratur. Index non solùm copiosus, sed etiam ordine artificioso omnia digesta habens. Hippocr. aliquot loci cum Corn. Celsi interpretatione. Henr. Stephani de hac sua editione tetrastichon. Quærere quos ægri per compita multa solebant, hospita nunc per me est omnibus una domus. Prima salutiseræ medicorum gratia dextræ : sistenti medicos nónne secunda mihi ?</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/087771292/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>I problemi di Cassio Iatrosofista  : testo critico, introduzione, apparato critico, traduzione e note  / Antonio Garzya, Rita Masullo / Napoli : Accademia pontaniana , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/077276973/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>Cassii medici De animalibus medicae quaestiones et problemata, quæ hactenus lucem non videre, interprete Hadriano Junio Hornano, medico / Parisiis. Apud Christianum Wechelum. Anno M. D. XLI , 1541</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080453325/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>Cassii Iatrosophistæ Naturales et medicinales quaestiones LXXXIIII. circa hominis natura[m] &amp; morbos aliquot, Conrado Gesnero medico Tigurino interprete, nunc primùm editæ. Eædem Græce, longe quàm antehac castigatiores, cu[m] scholiis quibusdam. His accedit Catalogus medicamentorum simplicium et parabilium, quæ pestilenti[a]e veneno adversantur ... authore Antonio Schnebergero / [Zürich] : [Jakob Gessner] , [1562]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171512499/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>Cassii Dionis Cocceiani historiarum romanorum quae supersunt  Vol. 3,   / edidit Ursulus Philippus Boissevain / Berolini : Weidmann , 1901</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/13271258X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>Naturales et medicinales quaestiones LXXXIIII. circa hominis natura[m] &amp; morbos aliquot Conrado Gesnero medico Tigurino interprete, nunc primùm editae eaedem Graece, longe quàm antehac castigatiores, cu[m] scholijs quibusdam. His accedit Catalogus medicamentorum simplicium et parabilium, quae pestilenti[a]e ueneno aduersantur ... authore Cassii Iatrosophistae, Antonio Schnebergero ... / [Tiguri] : [excudebat Iacobus Gesnerus] , [1562]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042631939/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035605499/id"/>
+      <dcterms:bibliographicCitation>Medicæ artis principes, post Hippocratem &amp; Galenum. Graeci latinitate donati, Aretæus, Ruffus Ephesius, Oribasius, Paulus Aegineta, Ae͏̈tius, Alex. Trallianus, Actuarius, Nic. Myrepsus. Latini, Corn. Celsus, Scrib. Largus, Marcell. Empiricus. Aliíque præterea, quorum unius nomen ignoratur. Index non solùm copiosus, sed etiam ordine artificioso omnia digesta habens. Hippocr. aliquot loci cum Corn. Celsi interpretatione</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

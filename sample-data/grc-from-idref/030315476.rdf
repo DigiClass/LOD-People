@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030315476">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:identifier>030315476</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-12-10</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-11T13:19:07</dcterms:modified>
+      <skos:editorialNote>Lettres d'amour / Aristénète ; texte établi et trad. par Jean-René Vieillefond, 1992</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL : Aristaenetus Nicaenus</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Aristénète. BN Cat. gén. 1960-1969 : Aristaenetus</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030315476/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12175649</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000381912732"/>
+      <isni:identifierValid>0000000381912732</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb121756498#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/263258144"/>
+      <skos:prefLabel>Aristénète (05..-05..)</skos:prefLabel>
+      <skos:altLabel>Αρισταίνετος</skos:altLabel>
+      <skos:altLabel>Aristaenetus Bithynus</skos:altLabel>
+      <skos:altLabel>Aristainetos</skos:altLabel>
+      <skos:altLabel>Aristaenetus Nicaenus (05..-05..)</skos:altLabel>
+      <foaf:name>Aristénète</foaf:name>
+      <foaf:name>Αρισταίνετος</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030315476/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">05XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/030315476/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">05XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Épistolier. Aurait écrit dans le premier quart du VIe s</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04435052X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettre critique de F. J. Bast, secrétaire de la Légation de S. A. S. Monseigneur le Landgrave de Hesse à Paris, et conservateur désigné de la Bibliothèque de la Cour à Darmstadt, à  Mr. J. F. Boissonade, sur Antoninus Liberalis, Parthenius et Aristénète</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002716429/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettres d'amour  / Aristénète  ; texte établi et traduit par Jean-René Vieillefond / Paris : Les Belles Lettres , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178345261/id">
+      <marcrel:ant rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lectures amusantes, ou Choix varié de romans, contes moraux, et anecdotes historiques. Par une société littéraire de jolies femmes. Premiere partie.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901255/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 3 : Histoire de Gil Blas de Santillane... : tome second / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183131908/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Erotic letters  / Aristaenetus  ; introduced, translated, and annotated by Peter Bing and Regina Höschele / Atlanta (Ga.) : Society of Biblical Literature , 2014, cop. 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/278469302/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Αρισταίνετος. Aristæneti epistolæ. Ad fidem Cod. Vindob. recensuit Merceri, Pauwii, Abreschii, Huetii, Lambecii, Bastii, aliorum, notis suisque instruxit Jo. Fr. Boissonade</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/219931194/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristainetou epistolai. Arisṫæneti epistolæ græcæ. Cum latina interpretatione &amp; notis.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098654578/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristæneti epistolæ. Ad fidem Cod. Vindob. recensuit Merceri, Pauwii, Abreschii, Huetii, Lambecii, Bastii, aliorum, notis suisque instruxit Jo. Fr. Boissonade / Lutetiae : De Bure fratres , 1822</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/115612335/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>L'oeuvre amoureuse de Lucien  : La vie, les intrigues, les tarifs, la science des courtisanes, les deux amours, perversions et inversions, lesbos, lettres de courtisanes  / Introduction et notes par B. de Villeneuve / Paris : Bibliothèque des curieux , 1913</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012248010/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristaeneti Epistularum  libri II,   / edidit Otto Mazal / Stutgardiae : B. G. Teubneri , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016134885/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettres galantes d'Aristenète  / traduites du grec [par A. R. Lesage] / Paris : L'Arche du livre , 1970</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901239/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 1 : Le Diable boiteux augmenté d'une journée des Parques et des Béquilles du diable boiteux, [de l'abbé Bordelon]... / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901336/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 12 : Le Théâtre de la foire ou l'Opéra comique... : tome premier / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002716429/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettres d'amour  / Aristénète  ; texte établi et traduit par Jean-René Vieillefond / Paris : Les Belles Lettres , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099624087/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristæneti epistolæ græce cum versione latina et notis Josias Merceri, curante Joan. Cornelio de Pauw, cujus notæ accedunt</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150601093/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Les Épistres amoureuses d'Aristenet , tournées de grec en françois, par Cyre Foucault, sieur de La Coudrière ; avec l'Image du vray amant, discours tiré de Platon / Poictiers : pour A. Citoys et J. Barraud , 1597</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113685009/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>... Aristaeneti epistolae graecae  : cum latina interpretatione et notis  / Aristaenetus  ; [Hrsg. u. Übers.: Josias Mercier] / ed. 3., em. et auctior / Parisiis : Orry , 1610</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144541882/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>[Aristainetou epistolai erōtikai. Tina tōn palaiōn hērōōn epitaphia]. E bibliotheca C. V. Joan. Sambuci. / Antverpiæ, ex officina Christophori Plantini, M. D. LXVI.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06012573X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Histoire de Guzman d'Alfarache, nouvellement traduite, &amp; purgée des moralités superflues. Par Le Sage. Avec figures. Tome premier [-second] / A Amsterdam, &amp; se trouve à Paris, rue et hotel Serpente. M.DCC.LXXXIII</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113685017/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristaeneti epistolae Graecae  / Aristaenetus  ; c. versione Latina et notis Josiae Merceri, curante Jo. Cornelio de Pauw, cuius notae accedunt / Trajecti ad Rhenum : [s.n.] , 1737</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099624079/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristæneti epistolæ, cum emendationibus ac conjecturis Josiæ Merceri, Johannis Cornelii de Pauw, &amp;c. Necnon ineditis antehac Jacobi Tollii, Jacobi Philippi d'Orvillii, Ludovici Gaspari, Valeckenarii, aliorumque. Curante Friderico Ludovico Abresch, qui suas lectiones addidit.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025823795/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Les épistres amoureuses d'Aristenet tournées de grec en francois  / par Cyre Foucault, sieur de la Coudrière, avec l'Image du vray amant, discours tiré de Platon. Réimprimé sur la première éd. (Poictiers, 1597) ... / Paris : I. Liseau , 1876</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145277283/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Cartas de amor  / Filóstrato  / Aristéneto  ; introducción, traducción y notas de Rafael J. Gallé Cejudo / Madrid : Ed. Gredos , DL 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171228499/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristainetos : erotische Briefe  / eingel., neu übertragen und erläutert von Albin Lesky / Zürich , [1951]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15177403X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Αρισταίνετου επιστολαί τανύν ελληνιστί μόνον εκδίδονται. Διά φιλοτίμου δαπάνης και προτροπής των τιμιωτάτων πραγματευτών Κρ. Τρ. Ζκ. και Πς. μεθ̕ όσης οίοντε επιμελείας διορθωθείσαι / [s.l. : s.n.] , 1803</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151152349/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristainetu epistolai erōtikai. tina tōn palaiōn hērōōn epitaphia : E bibliotheca C. V. Joan. Sambuci / Aristaenetus / Antverpiae : ex officina Christophori Plantini , 1566</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/02195979X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Les Epistres amoureuses d'Aristenet  / tournées de grec en françois par Cyre Foucault..., avec L'Image du vray Amant, discours tiré de Platon / Réimprimé sur la première éd. (Poictiers, 1597) / Paris : Isidore Liseux, éditeur , 1876</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117815772/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Les épistres amoureuses  / Aristénète  ; [traduit par Cyre Foucault, sieur de La Coudrière] / Genève : Slatkine reprints , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901352/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 14 : Le Théâtre de la foire ou l'Opéra comique... : tome troisième / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134338553/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lletres d'amor  / Aristènet  ; introducció, text grec revisat, traducció de Joan Pagès / Barcelona : Fundació Bernat Metge , 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06790128X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 6 : Histoire de Guzman d'Alfarache... : tome second. [Suivi de : Lettres galantes d'Aristénète] / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901301/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 9 : Nouvelle traduction de Roland l'amoureux... : tome second / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113684991/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristainetu epistolai erōtikai. tina tōn palaiōn hērōōn epitaphia  : E bibliotheca C. V. Joan. Sambuci  / Aristaenetus / Antverpiae : Plantin , 1566</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/008221189/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettres d'amour  / Aristénète  ; texte traduit par J. Brenous / Paris : Les Belles Lettres , 1938</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071353577/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Αρισταινετου επιστολαι. Aristæneti epistolæ Græcæ. Cum latina interpretatione &amp; notis. Altera editio emendatior &amp; auctior</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269432655/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Histoire de Guzman d'Alfarache, Nouvellement traduite, &amp; purgée des moralités superflues. Par Le Sage. Avec figures. Tome premier [-second].</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901271/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 5 : Histoire de Guzman d'Alfarache nouvellement traduite et purgée des moralités superflues... tome premier / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150833202/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Les epistres amoureuses d'Aristenet. Tournées de Grec en François par Cyre Foucault Sieur de la Coudrière. Avec L'Image du vray Amant. Discours de Platon. / A Paris : , Pour la veusve Gabriel Buon, au cloz Bruneau à l'enseigne Sainct Claude. , 1597</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901344/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 13 : Le Théâtre de la foire ou l'Opéra comique... : tome deuxième / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178327298/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Cartas eróticas  / Aristéneto  ; introducción, traducción y notas de Rafael J. Gallé Cejudo / Madrid : Ediciones Clásicas , 1999, cop. 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099624052/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristainetou epistolai. Aristaeneti epistolae graecae. Cum latina interpretatione &amp; notis [Josiae Merceri] / Tertia editio emendatior et auctior / Parisiis : Apud Marcum Orry, via Jacobaea, sub insigni Leonis salientis. M. DC. X. , 1610</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901360/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 15 : Le Théâtre de la foire ou l'Opéra comique... : tome quatrième / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113685025/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettres d'Aristenete, auxquelles on an ajputé les lettres choisies d'Alciphron traduites du Grec  / Aristaenetus / a Lond. : [s.n.] , 1739</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183288785/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettere d'amore  / Alcifrone, Filostrato, Aristeneto  ; introduzione, restituzione del testo originale, traduzione e note de Fabrizio Conca e Giuseppe Zanetto / 2a edizione / Milano : BUR , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901247/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 2 : Histoire de Gil Blas de Santillane... : tome premier / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901298/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 7 : Le Bachelier de Salamanque ou les Mémoires et aventures de Don Chérubin de la Ronda... / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/009680438/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettres galantes  / d'Aristenète  ; traduites du grec [par A.-B. Lesage]. / Paris(6, rue de l'Oratoire, 75001) : l'Arche du livre , 1970</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901263/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 4 : Les Aventures de M. Robert Chevalier, dit de Beauchêne, capitaine des flibustiers dans la Nouvelle France... / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16418208X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Aristenaeti Epistolae graecae, cum latina interpretatione et notis [J. Merceri de Bordes]. / Altera editio emendatior et auctior / Parisiis : apud Marc Orry , 1606</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067901328/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Sage, avec figures. 11 : Théâtre françois de Le Sage contenant Crispin, rival de son maître..., Turcaret..., Critique de la comédie de de Turcaret..., la Tontine... / A Amsterdam : rue et hôtel Serpente , 1783</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071677321/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Epistularum  Libri II,   / Aristenete  ; éd. Otto Mazal / Stuttgart : B.G. Teubner , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123807093/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>Lettere d'amore  / Aristeneto  ; introduzione, testo, traduzione e commento a cura di Anna Tiziana Drago / Lecce : Pensa multimedia , impr. 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/MAZC11823">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030315476/id"/>
+      <dcterms:bibliographicCitation>[4] Aristénète</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/167709925">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/167709925/id"/>
+      <dcterms:identifier>167709925</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-23T12:12:05</dcterms:modified>
+      <skos:editorialNote>DHGE</skos:editorialNote>
+      <skos:editorialNote>Historici Graeci minores. Vol. I/ Edidit Ludovicus Dindorfius. - Lipsiae : In aedibus B.G. Teubneri, 1870</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/167709925/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/296954390"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Eustathe_d'Épiphanie"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Eustathe d'Epiphanie (05..?-05..?)</skos:prefLabel>
+      <skos:altLabel>Eustathe</skos:altLabel>
+      <skos:altLabel>Eustathius Epiphanienses</skos:altLabel>
+      <foaf:name>Eustathe d'Epiphanie</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/167709925/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">05..</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Syrien originaire d'Epiphanie, auteur d'une chronique grecque perdue traitant des règnes de Théodose II (408-50), Zénon (474-91) et Anastase (491-518), et de la prise d’Amida par les Perses (11 janv. 503).</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/279006365/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/167709925/id"/>
+      <dcterms:bibliographicCitation>The byzantine summaries of the lost books of Ammianus Marcellinus  / Warren Treadgold</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181813602/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/167709925/id"/>
+      <dcterms:bibliographicCitation>Asini Cumani Fraterculus, e Plauti electis electus per Eustathium / [Sans lieu, 1619]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/048416126/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/167709925/id"/>
+      <dcterms:bibliographicCitation>Historici Graeci minores  / Edidit Ludovicus Dindorfius / Lipsiae : In aedibus B.G. Teubneri , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

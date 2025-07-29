@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/136888763">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/136888763/id"/>
+      <dcterms:identifier>136888763</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-09-30</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-16T12:25:42</dcterms:modified>
+      <skos:editorialNote>Der Froschmäusekrieg / Pseudo-Homer, Helmut Ahlborn, 1968</skos:editorialNote>
+      <skos:editorialNote>Der Katzenmäusekrieg / Theodoros Prodromos, Helmut Ahlborn, 1968</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/136888763/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000072548869"/>
+      <isni:identifierValid>0000000072548869</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/62017972"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Ahlborn, Helmut</skos:prefLabel>
+      <foaf:familyName>Ahlborn</foaf:familyName>
+      <foaf:givenName>Helmut</foaf:givenName>
+      <foaf:name>Helmut Ahlborn</foaf:name>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Traducteur grec ancien / allemand</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/021814252/id">
+      <dcterms:bibliographicCitation>Der Froschmäusekrieg  / Pseudo-Homer / 4., durchgesehene Aufl. / Berlin : Akademie-Verlag , 1988, c1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016593235/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/136888763/id"/>
+      <dcterms:bibliographicCitation>Der Froschmäusekrieg  / Pseudo-Homer  / Theodoros Prodromos  ; griechisch und deutsch von Helmut Ahlborn / Berlin : Akademie-Verlag , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/236772392/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/136888763/id"/>
+      <dcterms:bibliographicCitation>Der Froschmäusekrieg  / Pseudo-Homer. Der Katzenmäusekrieg  / Theodoros Prodromos  ; griechisch und deutsch von Helmut Ahlborn / 4e édition / Berlin : Akademie-Verlag , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

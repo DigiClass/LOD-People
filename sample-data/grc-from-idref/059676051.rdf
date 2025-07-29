@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/059676051">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/059676051/id"/>
+      <dcterms:identifier>059676051</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-02-11</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-16T10:26:49</dcterms:modified>
+      <skos:editorialNote>Catholicisme, t.5, col.1141</skos:editorialNote>
+      <skos:editorialNote>Callinici De vita s. Hypatii liber / edideruint Seminarii Philologorum Bonnensis Sodales</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/059676051/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12063382</bnf-onto:FRBNF>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12063382d#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/297380928"/>
+      <skos:prefLabel>Hypace (0336-0446)</skos:prefLabel>
+      <skos:altLabel>Hypatios</skos:altLabel>
+      <foaf:name>Hypace</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/059676051/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0336</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/059676051/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0446</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Abbé de Rufiniane en Bythinie</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045878994/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/059676051/id"/>
+      <dcterms:bibliographicCitation>Callinici De vita s. Hypatii liber  / edideruint Seminarii Philologorum Bonnensis Sodales / Lipsiae : in aedibus B. G. Teubneri , 1895</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002333813/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/059676051/id"/>
+      <dcterms:bibliographicCitation>Vie d'Hypatios  / Callinicos  ; introduction, texte critique, traduction et notes par G. J. M. Bartelink,... / Paris : les Éd. du Cerf , 1971, cop. 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066413982/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/059676051/id"/>
+      <dcterms:bibliographicCitation>Callinici de vita S. Hypatii liber  : ediderunt Seminarii philologorum Bonnensis sodales / Lipsiae : B. G. Teubner , 1895</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020091060/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/059676051/id"/>
+      <dcterms:bibliographicCitation>Hypatios  : Leben und Bedeutung des Abtes von Rufiniane  / Eugen Wölfle / Frankfurt am Main : P. Lang , c1986</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/07900847X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/059676051/id"/>
+      <dcterms:bibliographicCitation>Les moines d'Orient  I, Culture ou sainteté  II, Les moines de la région de Constantinople  / A.-J. Festugière / Paris : Les éditions du Cerf , 1961</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/005293472/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/059676051/id"/>
+      <dcterms:bibliographicCitation>Les moines d'Orient  II, Les moines de la région de Constantinople  : Callinicus, Vie d'Hypatios. Anonyme, Vie de Daniel le stylite  / traduites par A.-J. Festugière / Paris : Éd. du Cerf</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

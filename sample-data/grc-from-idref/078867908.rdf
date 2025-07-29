@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/078867908">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:identifier>078867908</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-11</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T10:24:09</dcterms:modified>
+      <skos:editorialNote>Les "mémoires" du grand ecclésiarque de l'Eglise de Constantinople Sylvestre Syropoulos sur le concile de Florence (1438-1439). - Ed. du CNRS, 1971</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/078867908/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000003269567"/>
+      <isni:identifierValid>0000000003269567</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/34860114"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Syropoulos, Sylvestre (1400?-1465?)</skos:prefLabel>
+      <skos:altLabel>Συρόπουλος, Σίλβεστρος (1400?-1465?)</skos:altLabel>
+      <skos:altLabel>Syropulos, Silvester</skos:altLabel>
+      <skos:altLabel>Sylvester Syropulus</skos:altLabel>
+      <skos:altLabel>Suropoulos, Silbestros</skos:altLabel>
+      <foaf:familyName>Συρόπουλος</foaf:familyName>
+      <foaf:givenName>Σίλβεστρος</foaf:givenName>
+      <foaf:name>Σίλβεστρος Συρόπουλος</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/078867908/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1460</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/078867908/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1465</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Grand ecclésiarque de l'Eglise de Constantinople</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/235905844/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Baroque Syropouliana  : enquêtes sur l'editio vetus et la tradition récente (Rédaction-A) des Mémoires byzantines, 1610-1682  / Jacopo Quarti  ; sous la direction de Brigitte Mondrain et de Federico Barbierato /  , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/25794916X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Précisions chronologiques sur l'histoire du patriarcat de Constantinople entre 1462 et 1465  : à propos du patriarche Sôphronios Ier (Sylvestre) Syropoulos  / Dan Ioan Mureşan</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178881953/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Sylvester Syropoulos on politics and culture in the fifteenth-century Mediterranean  : themes and problems in the 'Memoirs', section IV  / [edited by] Fotini Kondyli,... Vera Andriopoulou,... Eirini Panou,... [et al.] / Farnham (Surrey) [etc.] : Ashgate , cop. 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100319882/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Vera historia unionis non verae inter Graecos et Latinos, sive Concilii Florentini exactissima narratio, graece scripta per Sylvestrum Sguropulum,... patriarchae Constantinopolitani, qui Concilio interfuit. Transtulit in sermonem latinum notasque ad calcem libri adjecit... Robertus Creyghton... Liber... nunc primum in lucem prodiens...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144150603/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Vera historia unionis non verae inter Graecos Et Latinos sive Concilii Florentini exactissima narratio, graece scripta per Sylvestrum Sguropulum... Transtulit in sermonem Latinum notasque ad calcem libri adjecti ... Robertus Creyghton / Hagae Comitis Ex typographia Adriani Vlacq , 1670</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153155299/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Leonis Allatii in Roberti Creyghtoni apparatum, versionem, et notas ad historiam Concilii Florentini scriptam a Silvestro Syropulo de unione inter Graecos et Latinos, exercitationum pars prima. / Romae : excudebat Mascardus, M. DC. LXV. , 1665</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067679196/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Vera historia unionis non verae inter Graecos et Latinos, sive Concilii florentini exactissima narratio, graece scripta, per Sylvestrum Sguropulum,... Transtulit in sermonem latinum, notasque ad calcem libri adjectit... Robertus Creyghton,... Liber e manuscripto codice nunc primum in lucem prodiens... / Hagae-Comitis : ex typographia A. Vlacq , 1660</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/001936476/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Les "Mémoires" du grand Ecclésiarque de l'Eglise de Constantinople Sylvestre Syropoulos sur le concile de Florence, 1438-1439... / Roma : Pontificium Institutum orientalium studiorum , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007177380/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078867908/id"/>
+      <dcterms:bibliographicCitation>Les Mémoires du grand ecclésiarque de l'Église de Constantinople Sylvestre Syropoulos sur le Concile de Florence (1438-1439)  / [éd. et trad. par] V. Laurent,... / Paris : Éd. du Centre national de la recherche scientifique , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/131536915">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:identifier>131536915</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-11-28T17:07:56</dcterms:modified>
+      <skos:editorialNote>Ptolemais in Oberägypten : ein Beitrag zur Geschichte des Hellenismus in Ägypten, Dr. Gerhard Plaumann, 1910</skos:editorialNote>
+      <skos:editorialNote>Internet : http://orlabs.oclc.org/viaf/DNB|101955197, 2009-03-03</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/131536915/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000118812806"/>
+      <isni:identifierValid>0000000118812806</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/118534002"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Plaumann, Gerhard (1887-1918)</skos:prefLabel>
+      <skos:altLabel>Plaumann, G.</skos:altLabel>
+      <foaf:familyName>Plaumann</foaf:familyName>
+      <foaf:givenName>Gerhard</foaf:givenName>
+      <foaf:name>Gerhard Plaumann</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/131536915/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1887</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/131536915/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1918</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/131537628/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:bibliographicCitation>Der idioslogos  : Untersuchung zur Finanzverwaltung Ägyptens in hellenistischer und römischer Zeit  / von Gerhard Plaumann / Berlin : Akademie der Wissenschaften, in Kommission bei G. Reimer , 1919</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023715588/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:bibliographicCitation>Ptolemais in Oberägypten  : ein Beitrag zur Geschichte des Hellenismus in Ägypten  / von Dr. Gerhard Plaumann / Leipzig : Quelle &amp; Meyer , 1910</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2009101316105112518">
+      <marcrel:aut rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:bibliographicCitation>[Feuillet 151] Plaumann (Gerhard) (1913)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201231318329860261">
+      <marcrel:aut rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:bibliographicCitation>[6,260] Carte postale qui concerne les comptes du Deutsche Papyruskartell, écrite  par Gerhard Plaumann pour Georg Wolfram à Berlin, le 21 juillet 1914. / 1 f.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20161117211133773723">
+      <marcrel:aut rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:bibliographicCitation>[Autographes 144,3, 719] Lettre autographe signée écrite de Nancy ([18] février 1911)  (15 février 1911) / 1 pièce (2 feuillets)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20161118181184291025">
+      <marcrel:aut rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:bibliographicCitation>[Autographes 145,1, 1018] Plaumann, Gerhard. Lettre autographe signée écrite de Leipzig (22 février 1911) / 1 pièce (2 feuillets)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/02713430X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:bibliographicCitation>Griechische Papyri der Sammlung Gradenwitz  / herausgegeben von Gerhard Plaumann  ; vorgelegt von O. Gradenwitz / Reprint / Milano : Cisalpino-Goliardica , 1974</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108185257/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/131536915/id"/>
+      <dcterms:bibliographicCitation>Griechische Papyri der Sammlung Gradenwitz  / herausgegeben von Gerhard Plaumann / Heidelberg : Carl Winters Universitätsbuchhandlung , 1914</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

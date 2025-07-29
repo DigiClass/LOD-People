@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/033602115">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:identifier>033602115</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-02-07</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-19T13:35:07</dcterms:modified>
+      <skos:editorialNote>BN APP (en ligne), 2000-02-23</skos:editorialNote>
+      <skos:editorialNote>GDEL et GLE : THÉODORE II Doukas Lascaris. Larousse 20 s. : THÉODORE II Lascaris</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : THÉODORE II (Théodoros Doucas Lascaris, empereur de Nicée sous le nom de). BN Service grec</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/033602115/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12313792</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/000000008172158X"/>
+      <isni:identifierValid>000000008172158X</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb123137929#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/106964833"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Théodore_II_Lascaris"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Théodore II (1222-1258 ; empereur d'Orient)</skos:prefLabel>
+      <skos:altLabel>Θεόδωρος Β' Λάσκαρις (1222-1258 ; Αυτοκράτορας της Νικαίας)</skos:altLabel>
+      <skos:altLabel>Theodorus II (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Theodōros II (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Theodōros II (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Teodoro II (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Doukas Lascaris, Théodore</skos:altLabel>
+      <skos:altLabel>Duca Lascaris, Theodorus</skos:altLabel>
+      <skos:altLabel>Doukas Laskaris, Theodōros</skos:altLabel>
+      <skos:altLabel>Doucas Lascaris, Theodōros</skos:altLabel>
+      <skos:altLabel>Duca Lascari, Teodoro</skos:altLabel>
+      <skos:altLabel>Lascaris, Théodore Doukas</skos:altLabel>
+      <skos:altLabel>Lascaris, Theodorus Duca</skos:altLabel>
+      <skos:altLabel>Laskaris, Theodōros Doukas</skos:altLabel>
+      <skos:altLabel>Lascaris, Theodōros Doucas</skos:altLabel>
+      <skos:altLabel>Theodôros Laskaris</skos:altLabel>
+      <skos:altLabel>Theodôros 2 Laskaris</skos:altLabel>
+      <skos:altLabel>Theodorus 2 Lascaris Duca iunior imperator</skos:altLabel>
+      <skos:altLabel>Lascari, Teodoro Duca</skos:altLabel>
+      <skos:altLabel>Lascaris, Theodorus Dukas</skos:altLabel>
+      <foaf:familyName>Θεόδωρος</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Θεόδωρος</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/033602115/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1222</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/033602115/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1258</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Empereur byzantin de Nicée (1254-1258) ; petit-fils de Théodore Ier et fils de Jean III Doukas Vatatzès</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/278361145/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Θεόδωρου του Λάσκαρη Κοσμική Δήλωσις  [B´ -Δ´],   / Nicola Festa / Firenze : [éditeur inconnu] , 1899</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/241668298/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>The Byzantine Hellene  : the life of emperor Theodore Laskaris and Byzantium in the thirteenth century  / Dimiter Angelov / Cambridge : Cambridge university press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/174721455/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Théodore II Lascaris et ses oeuvres inédites  / Eurydice Lappa / [S.l.] : [s.n.] , [1949]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016280679/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Lettre à M. D. O. Bonglie, conseiller d'intendance, à Foggia, royaume des deux-Siciles  : sur les médailles des empereurs du nom de Théodore  / [Bon Marchant] / Metz : impr. de C. Dosquet , 1828</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073312193/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Deux traités inédits de Theodore II Doucas Lascaris  : Discours de la vertu. Éloge de la sagesse  / Polytimi-Maria Palaiologou  ; sous la dir. de Brigitte Mondrain / [S.l.] : [s.n.] , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047398973/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Éloge de Nicée  : [suivi de]  ;  Éloge de Jean Vatatzès  / Théodore II Lascaris  ; éd., trad. et comment. [par] Laurence Delobette / Lille : Atelier national de Reproduction des Thèses , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049610333/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Théodore II Lascaris, Éloge de Nicée, Éloge de Jean Vatatzès  : édition, traduction annotée, introduction et commentaire historique  / Laurence Delobette  ; sous la direction de Bernard Flusin /  , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15600688X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Éloge de Nicée  ;  Éloge de Jean Vatatzès  / Théodore II Lascaris  ; éd., trad. et comment. [par] Laurence Delobette / Villeneuve d'Ascq : Presses Universitaires du Septentrion , DL 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/005460794/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Théodore II Lascaris  : empereur de Nicée  / par Jean B. Pappadopoulos, ...  / [par] Théodore II Lascaris / Paris : Librairie A. Picard et fils , 1908</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178330973/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Theodoros Dukas Laskaris  : der natürliche Zusammenhang : ein Zeugnis vom Stand der byzantinischen Philosophie in der Mitte des 13. Jahrhunderts  / Gerhard Richter / Amsterdam : A.M. Hakkert , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/278321194/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Θεόδωρου του Λάσκαρη Κοσμική Δήλωσις  A',   / Nicola Festa / Firenze : [éditeur inconnu] , 1898</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15600688X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Éloge de Nicée  ;  Éloge de Jean Vatatzès  / Théodore II Lascaris  ; éd., trad. et comment. [par] Laurence Delobette / Villeneuve d'Ascq : Presses Universitaires du Septentrion , DL 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047398973/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Éloge de Nicée  : [suivi de]  ;  Éloge de Jean Vatatzès  / Théodore II Lascaris  ; éd., trad. et comment. [par] Laurence Delobette / Lille : Atelier national de Reproduction des Thèses , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049610333/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Théodore II Lascaris, Éloge de Nicée, Éloge de Jean Vatatzès  : édition, traduction annotée, introduction et commentaire historique  / Laurence Delobette  ; sous la direction de Bernard Flusin /  , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/005460794/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Théodore II Lascaris  : empereur de Nicée  / par Jean B. Pappadopoulos, ...  / [par] Théodore II Lascaris / Paris : Librairie A. Picard et fils , 1908</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/013374893/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Encomio dell'imperatore Giovanni Duca  / Teodoro II Duca Lascari  ; testo critico, introduzione, trad. e note a cura di Luigi Tartaglia / Napoli : M. d'Auria , 1990</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066672465/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Theodori Ducae Lascaris Epistulae CCXVII  / nunc primum edidit Nicolaus Festa / Firenze : Carnesecchi , 1898</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/19767982X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Τα Θεωνυμία  = = [= Les Noms divins du très sage empereur sire Théodore Doukas Laskaris, préface et mise en page d'Alexandre Kosmatopoulos] :   / Του σοφωτάτου Βασιλέως Κυροῦ Θεοδώρου Δούκα του Λάσκαρι  ; προοίμιο, επιμέλεια Αλέξανδρος Κοσματόπουλος / 2e édition / Αθήνα : Άγρα , cop. 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100328903/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Theodori Ducæ Lascaris, imp. cæs. Joannis Aug. F. De communicatione naturali libri VI, admiranda philosophia referti : nunc primum in lucem prolati, &amp; latinam in linguam versi à Claudio Auberio Triuncuriano : ex Jo. Sambuci v. c. bibliotheca.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117767417/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Νικητα του Χωνιατου Τα ευρισκομενα παντα  = = Nicetæ Choniatæ Opera omnia :   / accurante et denuo recognoscente J.-P. Migne, bibliothecæ cleri universæ, sive cursuum completorum in singulos scientiæ ecclesiasticæ ramos editore / [Parisiis] : Excudebatur et venit apud J.-P. Migne editorem , 1865</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/052735982/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Opuscula rhetorica  / Theodorus II Ducas Lascaris  ; edidit Aloysius Tartaglia / Monachii [Munich] : K. G. Saur , 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/156009366/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Satira del pedagogo  / Teodoro II Duca Lascari  ; testo edito per la prima volta a cura di Luigi Tartaglia / Napoli : D'Auria , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/142972479/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Θεοδώρου Β' Λασκαρέως Περί χριστιανικής θεολογίας λόγοι  /  Χρίστου Θ. Κρικώνη / Θεσσαλονίκη : Πατριαρχικόν Ίδρυμα Πατερικών Μελετών , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/112220126/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Nicaea  : a Byzantine capital and its praises  : with the speeches of Theodore Laskaris  "In praise of the great city of Nicaea", and Theodore Metochites " Nicene oration"  / by Clive Foss  ; with the collaboration of Jacob Tulchin / Brookline (Mass.) : Hellenic College press , cop. 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124337503/id">
+      <marcrel:asn rdf:resource="http://www.idref.fr/033602115/id"/>
+      <dcterms:bibliographicCitation>Theodosiani codicis genuina fragmenta cum  : accedunt Theodosiani codicis variae lectiones  / ex codice palimpsesto Bibliothecae R. Taurinensis Athenaei edita tum ex membranis bibliothecae Ambrosianae Mediolanensis in lucem prolata inter se disposuit atque edidit Dr. Eduardus Puggaeus / Bonnae : [s.n.] , 1825</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

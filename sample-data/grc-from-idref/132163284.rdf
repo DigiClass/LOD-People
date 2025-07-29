@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/132163284">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/132163284/id"/>
+      <dcterms:identifier>132163284</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-03-23</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-23T15:35:29</dcterms:modified>
+      <skos:editorialNote>The ante-Nicene Christian Pasch = De ratione paschali : the paschal tract of Anatolius, bishop of Laodicea / Daniel P. Mc Carthy &amp; Aidan Breen, 2003</skos:editorialNote>
+      <skos:editorialNote>http://catalogue.bnf.fr, 20090323</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/132163284/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/000000038683709X"/>
+      <isni:identifierValid>000000038683709X</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12163461w#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/266285625"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Anatole_de_Laodicée"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Anatole (02..-.... ; saint)</skos:prefLabel>
+      <skos:altLabel>Anatolius Alexandrinus (saint)</skos:altLabel>
+      <skos:altLabel>Anatolius Christianus (saint)</skos:altLabel>
+      <skos:altLabel>Anatolius of Alexandria (saint)</skos:altLabel>
+      <skos:altLabel>Anatolio di Laodicea (saint)</skos:altLabel>
+      <skos:altLabel>Anatolius Laodicensis (saint)</skos:altLabel>
+      <foaf:name>Anatole</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/132163284/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">02XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/132163284/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">02XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Philosophe et mathématicien du 3e s., originaire d'Alexandrie. - Évêque de Laodicée (Syrie). - Auteur controversé d'un "Canon pascal"</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04102057X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/132163284/id"/>
+      <dcterms:bibliographicCitation>Une collection de scolies pseudo-héroniennes  : introduction, traduction et notes  / Jean-Yves Guillaumin  ; sous la direction de François Fuhrmann / [S.l.] : [s.n.] , 1978</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/237840103/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/132163284/id"/>
+      <dcterms:bibliographicCitation>Anatolius sur les dix premiers nombre  : mémoire lu au congrès d'Histoire des sciences , Paris 1900  / par J.L. Heiberg / Macon : Protat Frères, Imprimeurs , 1901</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108200671/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/132163284/id"/>
+      <dcterms:bibliographicCitation>The Ante-Nicene Fathers  Vol. 6, Gregory Thaumaturgus ; Dionysius the Great ; Julius Africanus ; Anatolius and minor Writers ; Methodius ; Arnobius  : translations of the writings of the Fathers down to A.D. 325  / [by] Alexander Roberts,... and James Donaldson,...  ; revised and chronologically arranged, with brief prefaces and occasional notes by A. Cleveland Coxe,... / American reprint of the Edinburgh edition / Grands Rapids (Michigan) : WM. B. Eerdmans Publishing compagny , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/132162105/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/132163284/id"/>
+      <dcterms:bibliographicCitation>The ante-Nicene Christian Pasch  = = De ratione Paschali : the paschal tract of Anatolius, bishop of Laodicea  / [edited by] Daniel P. Mc Carthy &amp; Aidan Breen / Dublin : Four Courts Press , cop. 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/112905021/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/132163284/id"/>
+      <dcterms:bibliographicCitation>Dissertazioni cronologiche  / Mauro da Leonessa / Tivoli : Officine grafiche Mantero , 1934</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

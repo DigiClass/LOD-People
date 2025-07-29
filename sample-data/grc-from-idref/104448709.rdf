@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/104448709">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/104448709/id"/>
+      <dcterms:identifier>104448709</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-07-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-23T20:45:26</dcterms:modified>
+      <skos:editorialNote>Justicia, derecho y fuerza / Salvador Rus Rufino, Joaquín E. Meabe, 2001</skos:editorialNote>
+      <skos:editorialNote>GLU</skos:editorialNote>
+      <skos:editorialNote>The Internet encyclopedia of philosophy - http://www.iep.utm.edu (2006-03-13)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/104448709/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000363862567"/>
+      <isni:identifierValid>0000000363862567</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/226086344"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Thrasymaque"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Thrasymaque de Chalcédoine (0459?-0400? av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Thrasymaque de Corinthe</skos:altLabel>
+      <skos:altLabel>Thrasumakhos</skos:altLabel>
+      <skos:altLabel>Thrasymachus</skos:altLabel>
+      <skos:altLabel>Trasímaco</skos:altLabel>
+      <foaf:familyName>Thrasymaque de Chalcédoine</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Thrasymaque de Chalcédoine</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/104448709/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0459</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/104448709/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0400</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Sophiste grec dont les oeuvres sont perdues.</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019025017/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/104448709/id"/>
+      <dcterms:bibliographicCitation>Les Sophistes  Tome 2,   / Mario Untersteiner  ; traduit de l'italien et présenté par Alonso Tordesillas, préface de Gilbert Romeyer Dherbey / 2e éd. revue et notablement augm. / Paris : J. Vrin , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/268886385/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/104448709/id"/>
+      <dcterms:bibliographicCitation>Thrasymachos: "Der Glücklichste ist der Tyrann"  : Sokrates und der Sophist über Gerechtigkeit in Platons Politeia  / von Philipp Batthyány / Berlin : Duncker &amp; Humblot</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/055513824/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/104448709/id"/>
+      <dcterms:bibliographicCitation>Sofisti  Fascicolo terzo, Trasimaco, Ippia, Anonymus Iamblichi, Δισσοί λόγοι, Anonymus Περί νόμων, Anonymus Περί μουσικής  : testimonianze e frammenti  / introduzione, traduzione e commento a cura di Mario Untersteiner / Firenze : La Nuova Italia , 1954</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/087128039/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/104448709/id"/>
+      <dcterms:bibliographicCitation>Sofisti  Fascicolo terzo, Trasimaco, Ippia, Anonymus Iamblichi, Δισσοί λόγοι, Anonymus Περί νόμων, Anonymus Περί μουσικής  : testimonianze e frammenti  / introduzione, traduzione e commento a cura di Mario Untersteiner / Firenze : La Nuova Italia , 1954</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

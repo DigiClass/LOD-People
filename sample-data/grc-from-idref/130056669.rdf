@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/130056669">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:identifier>130056669</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-12-22</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-19T01:27:35</dcterms:modified>
+      <skos:editorialNote>Die Fragmente, hrsg. C. Theodoridis, Berlin, 1976</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/130056669/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/261548342"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Philoxène d'Alexandrie (01..-02.. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Philoxenus</skos:altLabel>
+      <skos:altLabel>Philoxenos</skos:altLabel>
+      <foaf:name>Philoxène d'Alexandrie</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/130056669/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-02X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/130056669/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-02X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Grammairien grec, auteur d'une quinzaine de titres dont il ne nous reste que des fragments</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025433318/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Philoxenos von Eretria  : Archäologische Untersuchungen über zwei ALexandermosaike  / von Heinrich Fuhrmann / Gottingen : in Kommission bei der Dieterichschen Universitäts-Buchdruckerei W. Fr. Kaestner , 1931</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143104020/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Allegory transformed  : the appropriation of Philonic hermeneutics in the Letter to the Hebrews  / Stefan Nordgaard Svendsen / Tübingen : Mohr Siebeck , cop. 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006720803/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Die Fragmente des Grammatikers Philoxenos  / herausgegeben von Christos Theodoridis / Berlin : Walter de Gruyter , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100440207/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Thesaurus utriusque linguae, hoc est Philoxeni aliorumque veterum authorum glossaria latino-graeca &amp; graeco-latina. Isidori Glossae latinae. Veteres grammatici latini &amp; graeci qui de proprietate &amp; differentiis vocabulorum utriusque linguae scripserunt. Edita omnia atque recognita... opera Bonaventurae Vulcanii,... Cum ejusdem notis... / Lugduni Batavorum : excudebat Joannes Patius , 1600</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006720803/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Die Fragmente des Grammatikers Philoxenos  / herausgegeben von Christos Theodoridis / Berlin : Walter de Gruyter , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/116627298/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Cyrilli, Philoxeni, aliorumque veterum Glossaria Latino-Graeca, et Graeco-Latino, a Carolo Labbaeo collecta &amp; in duplicem alphabeticum ordinem redacta. His accedunt Glossae aliquot aliae Latino-Graecae ex iisdem Codd. MSS. quae nunc primum prodeunt ... / Lutetiae Parisiorum : P. Guignard , 1682</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/128733896/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Cyrilli, Philoxeni, aliorumque veterum Glossaria latino-graeca et graeco-latina a Carolo Labbaeo collecta et in duplicem alphabeticum ordinem redacta... Praeterea Veteres glossae verborum juris... / Lutetiae Parisiorum : cura et impensis Ludovici Billaine , 1679</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100070108/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Cyrilli, Philoxeni, aliorumque veterum Glossaria latino-graeca et graeco-latina a Carolo Labbaeo collecta et in duplicem alphabeticum ordinem redacta... Praeterea Veteres glossae verborum juris... / Lutetiae Parisiorum : cura et impensis Ludovici Billaine , 1679</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063495325/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130056669/id"/>
+      <dcterms:bibliographicCitation>Thesaurus utriusque linguae, hoc est Philoxeni aliorumque veterum authorum glossaria Latino-Graeca et Graeco-Latina</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

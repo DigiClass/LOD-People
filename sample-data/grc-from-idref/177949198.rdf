@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/177949198">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/177949198/id"/>
+      <dcterms:identifier>177949198</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-04-24</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-04-05T15:00:18</dcterms:modified>
+      <skos:editorialNote>M. Eminescu, I. Creangă : studii / [red. Eugen Todoran, Ștefan Munteanu, Ionel Stan], 1965</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/177949198/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/311581007"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Munteanu, Ștefan (1972-....)</skos:prefLabel>
+      <foaf:familyName>Munteanu</foaf:familyName>
+      <foaf:givenName>Ștefan</foaf:givenName>
+      <foaf:name>Ștefan Munteanu</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/177949198/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1972</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/798549/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ron"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <!--skos:note-->
+      <skos:note>Traduit du grec en français</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/257951598/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/177949198/id"/>
+      <dcterms:bibliographicCitation>Dictionnaire grec-français du Nouveau Testament  / Barclay M. Newman  ; édition française, Stefan Munteanu / Édition révisée / Paris : Éditions Bibli'o</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019550456/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/177949198/id"/>
+      <dcterms:bibliographicCitation>Observații de limbă rumânească  / Paul Iorgovici  ; prefață de Ștefan Munteanu  ; ediție critică, studiu introductiv, tabel cronologic, note, bibliografie de Doina Bogdan-Dascălu și Crișu Dascălu / Timișoara : "Facla , 1979</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063409836/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/177949198/id"/>
+      <dcterms:bibliographicCitation>M. Eminescu, I. Creanga. Studii  / [Red... Eugen Todoran, Stefan Muntearnu, Ionel Stan. Tehnored. George Bulic] / Timisoara : Universitatea, Facultatea de filologie , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/265101212/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/177949198/id"/>
+      <dcterms:bibliographicCitation>La vita del mondo che verrà  : Escatologia in prospettiva interconfessionale  / Ștefan Munteanu, Antonio Nitrola, Fulvio Ferrario / Milano : San Paolo</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/048287474/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/177949198/id"/>
+      <dcterms:bibliographicCitation>Crestomatie românească  : texte de limbă literară  / alese şi adnotate de Şt. Munteanu, Doina David, Ileana Oancea [et al...] / Bucureşti : Ed. didactică şi pedagogică , 1978</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/056446438/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/177949198/id"/>
+      <dcterms:bibliographicCitation>M. Eminescu, I. Creangă  : studii  / [redactorii volumului, Eugen Todoran, Ștefan Munteanu, Ionel Stan] / Timişoara : [Intreprinderea Poligrafică Banat] , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

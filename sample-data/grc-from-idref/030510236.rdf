@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030510236">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:identifier>030510236</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-03-08</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-17T13:26:26</dcterms:modified>
+      <skos:editorialNote>Demophili Democratis et Scundi veterum philosophorum sententiae morales / Démophile ; trad. de Lucas Holstein, 1638</skos:editorialNote>
+      <skos:editorialNote>Pauly-Wissowa</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030510236/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12191008</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000118391204"/>
+      <isni:identifierValid>0000000118391204</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12191008g#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/100171305"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Démophile (01..-01..)</skos:prefLabel>
+      <skos:altLabel>Damophile</skos:altLabel>
+      <skos:altLabel>Dëmophílos</skos:altLabel>
+      <foaf:name>Démophile</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030510236/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">01XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/030510236/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">01..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Moraliste grec né en Bythinie. Fils adoptif d'un consul romain. Attesté dans la seconde moitié du 2ème siècle ap. J.-C.</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/127147098/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Des Demophilos Pythagoreische Vergleichungen oder Lebensarznei  : nebst dessen Pythagoreischen Sittensprüchen  : wie auch des Philosophen Demokrates Goldene Sprüche  = = Demophilou ek ton Pythagoreion homoia ē Biou therapeia kai gnomai Pythagorikai kai Demokratus Gnomai chrysai :   / Demophilus  ; nach der Revision des Lukas Holstein ... herausgegeben in teutscher Uebersetzung von Johann Michael Fleischner / Nürnberg : Schrag , 1827</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/062149415/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Moralistes grecs  : traduit du grec  : Entretiens de Socrate  / par Cébès / Paris : Charpentier, libraire-éditeur , 1845</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044357486/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Demophili Democratis et Secundi veterum philosophorum sententiæ morales nunc primum editae a Luca Holstenio.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103477993/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Sentences de Théognis de Phocylide, de Pythagore et des sages de la Grèce, recueillies et traduites par M. Levesque</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/127146660/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Demophili, Democratis et Secundi, veterum philosorum sententiæ morales nunc primum editæ a Luca Holstenio. Juxta exemplar Romæ impressum.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044398271/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica, ethica, et physica, græce &amp; latine. Palæphatus, Heraclitus, Anonymus, Phurnutus, Sallustius, Ocellus Lucanus, Timæus Locrus. Demophilus, Democrates, Secundus, Sextius Pythagoricus, Theophrasti Charactêres, Pythagoricorum fragmenta. Heliodori Larissæi Optica.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/055091776/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Le sentenze "pitagoriche" dello pseudo-Demofilo  / Angelo Raffaele Sodano / [Roma] : Accademia nazionale dei Lincei , 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044282176/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica, physica et ethica. Graece et latine. Seriem eorum sistit pagina praefationem proxime sequens</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044282109/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica physica et ethica. Græce et latine. Seriem eorum sistit pagina præfationem proxime sequens.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/D47B11726">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>[Fol. 1] « Δημοπίλου έκ τών Πυθαγορείων έπών. Όμοία ή βίου θεραπεία… »</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/D47B11728">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030510236/id"/>
+      <dcterms:bibliographicCitation>[Fol. 14] « Δημοκράτους ϕιλοσόϕου γνώμαι χρυσαϊ. Γνωμέων μέν τών δέ εϊ τις έπαίοι… »</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

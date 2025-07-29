@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/081332203">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:identifier>081332203</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-10-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-07T03:33:55</dcterms:modified>
+      <skos:editorialNote>Hecataei milesii Fragmenta. Scylacis caryandensis periplus / ed. Rudolf Henrich Klausen</skos:editorialNote>
+      <skos:editorialNote>Dictionnaire des auteurs grecs et latins de l'Antiquité et du Moyen Age / Jean Denis Berger</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/081332203/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000086663489"/>
+      <isni:identifierValid>0000000086663489</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/280396534"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Hécatée de Milet (05..?-0475? av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Hekatée</skos:altLabel>
+      <skos:altLabel>Hékatée de Milet</skos:altLabel>
+      <skos:altLabel>Hécatée</skos:altLabel>
+      <skos:altLabel>Hécatée de Milet</skos:altLabel>
+      <skos:altLabel>Hékataios</skos:altLabel>
+      <skos:altLabel>Hékataios Milesios</skos:altLabel>
+      <skos:altLabel>Hécataeus</skos:altLabel>
+      <skos:altLabel>Hécataeus Milesius</skos:altLabel>
+      <foaf:name>Hécatée de Milet</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/081332203/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-05X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/081332203/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0475 ?</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Historien et géographe grec</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/08031578X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>De Hecataei Milesii fragmentis  : quae ad Hispaniam et Galliam pertinent  / Felix Atenstaedt / Lipsiae : typis Hirschfeldianis , 1891</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081337752/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Beiträge zur Periegese des Hekatäus von Milet  : Inaugural-Dissertation der hohen philosophischen Fakultät der Kaiser-Wilhelms-Universität Strassburg zur Erlangung der Doktorwürde  / vorgelegt von Joseph Grossstephan /  , 1915</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06021595X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Geographia graecorum antiquissima  : qualis ab Homero, Hesiodo, Aeschylo tradita, ab Hecataeo digesta et concinnata fuerit  / thesim proponebat Facultati Litterarum Parisiensi C. Hanriot,... /  , 1853</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/245283757/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Dall'Egeo all'Eufrate  : dinasti, città e santuari in età ellenistica  : settimo seminario di Geographia antiqua  : Perugia, 8 giugno 2018  / a cura di Silvia Panichi / Firenze : Leo S. Olschki , [2020]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/138760675/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Hecataei Abderitae... Eclogae sive fragmenta integri olim libri de historia et antiquitatibus sacris veterum Ebraeorum, graece et latine  ;  Praeter Prolegoma, figuras aeneas, et insigne quoddam Hecataei Milesii quod haud dissimilis argumenti est...  / Hécatée d'Abdère  ; cum notis Josephi Scaligeri  ; commentario perpetuo Petri Zornii,... / Altona : sumptibus J. Korte , 1730</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081331193/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Hecataei Milesii Fragmenta  / ed. Rud. Henr. Klausen / Berolini : Impensis G. Reimeri , 1831</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023837713/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Hérodote  / par Stéphane Gsell,.. / Alger : Typographie Adolphe Jourdan , 1915</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/024328456/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Hecataei Milesii fragmenta  / testo, introduzione, appendice e indici a cura di Giuseppe Nenci / Firenze : La Nuova Italia , 1954</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/13274872X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Historicum graecorum antiquissimorum fragmenta  : Hecataei historica itemque Charonis et Xanthi omnia  / collegit emendavit explicuit de cujusque scriptoris aetate ingenio fide commentatus est Fridericus Creuzer,... / Heidelbergae : in officina Mohrii et Zimmerii Academica , 1806</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064689476/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Fragmenta  / Hecataei Milesii  ; testo, introduzione, appendice e indicia cura di Giuseppe Nenci / Firenze : la Nuova Italia , impr.1954</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154154954/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/081332203/id"/>
+      <dcterms:bibliographicCitation>Extracts from Aristeas, Hecataeus, Origen and other early writers  / transl. by Aubrey Stewart / London : sn , 1895</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

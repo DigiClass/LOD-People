@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/061558338">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:identifier>061558338</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-07-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-05-23T12:19:42</dcterms:modified>
+      <skos:editorialNote>Sophocle, "Electre" / Marie Anne Sabiani. - Bréal, 2001</skos:editorialNote>
+      <skos:editorialNote>http://catalogue.bnf.fr/ark:/12148/cb13776808n, 2023-03-14 : Maître de conférences en langue et littérature grecques à la Faculté des lettres de Sorbonne Université.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/061558338/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000431910445"/>
+      <isni:identifierValid>0000000431910445</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb13776808n#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/208057825"/>
+      <!--PERSEE-->
+      <owl:sameAs rdf:resource="https://www.persee.fr/authority/288549"/>
+      <foaf:gender>female</foaf:gender>
+      <skos:prefLabel>Sabiani, Marie-Anne (1971-....)</skos:prefLabel>
+      <foaf:familyName>Sabiani</foaf:familyName>
+      <foaf:givenName>Marie-Anne</foaf:givenName>
+      <foaf:name>Marie-Anne Sabiani</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/061558338/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1971</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Agrégée de Lettres classiques. Maître de conférences en langue et littérature grecques à la Faculté des lettres de Sorbonne Université.</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/225464454/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>Électre  / Sophocle  ; texte établi par Alphonse Dain  ; traduction par Paul Mazon  ; introduction et commentaire par Marie Anne Sabiani / Paris : Les Belles Lettres , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179454641/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>Théâtre complet  1,   / Aristophane  ; traduction, introduction, notices et notes par Marc-Jean Alfonsi  ; bibliographie par Marie-Anne Sabiani / [Édition augmentée] / [Paris] : Flammarion , DL 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/26732068X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>Silves grecques 2023-2024  : Euripide, Médée – Diodore de Sicile, Bibliothèque historique, livre XI  / Marie Anne Sabiani, Cécile Durvye / Neuilly : Atlande , DL 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/061558249/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>Sophocle, "Electre"  / Marie-Anne Sabiani,... / Rosny-sous-Bois (Seine-Saint-Denis) : Bréal , DL 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060042869/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>Parole et personnage  : recherches sur le statut et la fonction du logos dans le théâtre de Sophocle  / par Marie-Anne Sabiani  ; sous la dir. de Jacques Jouanna / [Lieu d'édition inconnu] : [éditeur inconnu] , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/279777248/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>La guerre et la paix  / F. Bessonnat (dir.)  ; P. Belin, S. Clément-Tarantino, O. Devillers... [et al.] / [Neuilly-sur-Seine] : Atlande , DL 2024</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/070452083/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>Parole et personnage  : recherches sur le statut et la fonction du logos dans le théâtre de Sophocle  / par Marie-Anne Sabiani / Lille : Atelier national de Reproduction des Thèses , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.theses.fr/2000PA040253/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>Parole et personnage : recherches sur le statut et la fonction du logos dans le théâtre de Sophocle / Marie-Anne Sabiani le 2001 [ Paris 4 ] </dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179452371/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/061558338/id"/>
+      <dcterms:bibliographicCitation>Théâtre complet  / Eschyle  ; traduction, avant-propos, notices et notes par Emile Chambry  ; bibliographie par Marie-Anne Sabiani / Édition augmentée en 2014 / Paris : Garnier-Flammarion</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

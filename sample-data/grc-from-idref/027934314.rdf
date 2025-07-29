@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/027934314">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:identifier>027934314</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-10-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-16T14:53:33</dcterms:modified>
+      <skos:editorialNote>Sortes Astrampsychi, 1983</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/027934314/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11987012</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000403627415"/>
+      <isni:identifierValid>0000000403627415</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb119870126#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/204245043"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Astrampsychus (-03..?-02..?)</skos:prefLabel>
+      <foaf:name>Astrampsychus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/027934314/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-03X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/027934314/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-02.</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Prêtre magicien de la Perse ancienne, auquel on a atttribué un livre de sorts</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017876818/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>The papyri of the Sortes Astrampsychi  / Gerald M. Browne / Meisenheim am Glan : Verlag Anton Hain , 1974</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145747069/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Die Sortes Astrampsychi  : Problemlösungsstrategien durch Orakel im römischen Ägypten  / Franziska Naether / Tübingen : Mohr Siebeck</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165888725/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Artemidori Daldiani &amp; Achmetis Sereimi f. Oneirocritica. Astrampsychi &amp; Nicephori versus etiam Oneirocritici. Nicolai Rigaltii ad Artemidorvm notae / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100255493/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Oracula metrica Jovis, Apollinis, Hecates, Serapidis et aliorum deorum ac vatum tam virorum quam feminarum, a Joanne Opsopoeo collecta. Item Astrampsychi Oneirocreticon à Jos. Scaligero digestum et castigatum. Græce et latine</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/163939993/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Astrampsychi versus somniorum interpretes, castigati et latinis senariis expressi a Fed. Morello ... / Lutetiae, apud F. Morellum , 1599</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042866715/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Oracula metrica Jovis, Apollinis, Hecates, Serapidis, et aliorum deorum ac vatum tam virorum quam feminarum, a Johanne Opsopoes collecta. Item Astrampsychi oneirocriticon à Jos. Scaligero digestum &amp; castigatum. Græce et latine. / Parisiis, M. D. XCIX.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042619777/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>ΣΙΒΥΛΛΙΑΚΟΙ ΧΡΗΣΜΟΙ, hoc est, Sibyllina oracula, ex veteribus codicibus emendata, ac restituta et commentariis diversorum illustrata, operâ &amp; studio Servatii Gallæi : accedunt etiam Oracula magica Zoroastris, Jovis, Apollinis, &amp;c. Astrampsychi Oneiro-criticum, &amp;c. Græce &amp; Latine, cum notis variorum</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/230751628/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Artemidori Daldiani &amp; Achmetis Sereimi F. oneirocritica. Astrampsychi &amp; Nicephori versus etiam oneirocritici. Nicolai Rigaltii ad Artemidorum notae</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120802066/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Das Pythagoras-Orakel  ;  und Über magische Steine  ;  Über Traumdeutung  ;   Liebeszauber  / Astrampsychos  ; eingeleitet, herausgegeben und übersetzt von Kai Brodersen / Darmstadt : WBG</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06026182X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Sortes Astrampsychi  Vol. II,   / Edidit Randall Stewart / Monachii [i.e. München] : In aedibus K. G. Saur , cop. 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006530052/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Sortes Astrampsychi  Vol. I, Ecdosis prior  / ed. Gerald M. Browne / Leipzig : B.G. Teubner , 1983</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04265274X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Artemidori Daldiani &amp; Achmetis Sereimi f. Oneirocritica. Astrampsychi &amp; Nicephori versus etiam Oneirocritici. Nicolai Rigaltii ad Artemidorvm notae / Lutetiae, Apud Marcum Orry, MDCIII , 1603</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/114188084/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Astrampsychi oraculorum decades CIII  / Rudolphus Hercher ex codicibus Italicis nunc primum edidit / Berlin : Unger , 1863</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/168846101/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Oracula metrica Jovis, Apollinis, Hecates, Serapidis et aliorum deorum ac vatum tam virorum quam feminarum, a Johanne Opsopoeo collecta. Item Astrampsychi oneirocriticon a Jos. Scaligero digestum &amp; castigatum. Graece et latine. / [Paris, Jacques Dupuis] Anno M. D. LXXXIX. Cum privilegiis Cæsareæ &amp; Regiæ Majestatis.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134232100/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/027934314/id"/>
+      <dcterms:bibliographicCitation>Joseph Scaligeri Jul. Cæs. f. Opuscula diversa Græca &amp; Latina partim nunquam hactenus edita, partim ab auctore recensita atque aucta. Cum notis in aliquot veteres scriptores. Omnium catalogum proxima pagina lector inveniet.</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

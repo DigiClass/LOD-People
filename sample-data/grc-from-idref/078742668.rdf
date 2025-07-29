@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/078742668">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/078742668/id"/>
+      <dcterms:identifier>078742668</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-06-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-31T17:27:30</dcterms:modified>
+      <skos:editorialNote>Bibliothèque de la compagnie de Jésus, V, 1894, col. 709</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/078742668/id">&#xD;<!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb150813655#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/15114196"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Masson, Toussaint (1715-1748)</skos:prefLabel>
+      <foaf:familyName>Masson</foaf:familyName>
+      <foaf:givenName>Toussaint</foaf:givenName>
+      <foaf:name>Toussaint Masson</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/078742668/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1715-07-22</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/078742668/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1748-07-05</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Jésuite. Entre au noviciat le 7 septembre 1732. Professa les humanités et la rhétorique. Partit ensuite pour les Indes et mourut à Mozambique</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/078743109/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078742668/id"/>
+      <dcterms:bibliographicCitation>Eis Lodoikon Pentekaidekaton anerrōsanta. Eidyllion / [Paris , 1744]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100190685/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078742668/id"/>
+      <dcterms:bibliographicCitation>@ - In Ludovicum XV ex morbo convalescentem, idyllium ex graeco latine redditum / [Parisiis] : [impr. Thiboust] , [1744]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/078743346/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078742668/id"/>
+      <dcterms:bibliographicCitation>Eis to tēs basilissēs kai tōn basilikōn teknōn penthos kai charma / [Paris , 1744]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100190693/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/078742668/id"/>
+      <dcterms:bibliographicCitation>@ - Sur la tristesse de la reine et de la famille royale, changée tout-à-coup en joye. Trad. de l'ode grecque / [Paris] : [impr. Thiboust] , [1744]</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

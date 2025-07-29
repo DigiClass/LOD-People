@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/031337392">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:identifier>031337392</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1992-07-29</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-25T11:01:10</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/026972603"/>
+      <skos:editorialNote>GDEL : forme retenue</skos:editorialNote>
+      <skos:editorialNote>Cioranescu 16 s. : Lefèvre de La Boderie, Gui</skos:editorialNote>
+      <skos:editorialNote>BN Cat.gén.</skos:editorialNote>
+      <skos:editorialNote>Michaud : Boderie, Guy Le Fèvre de La</skos:editorialNote>
+      <skos:editorialNote>[ Bible.N.T.(grec-latin-syriaque).1584 ] / éd. par G. Fabricius Boderianus</skos:editorialNote>
+      <skos:editorialNote>L'Encyclie des secrets de l'éternité; l'Ode à Martin de Masparraute, 1570. Voir : BRÄKLING-GERSUNY (Gabriel). Orpheus, der Logos-Träger, 1975</skos:editorialNote>
+      <skos:editorialNote>Lyse Schwarzfuchs. Le livre hébreu à Paris au 16e siècle, p.211 : pseudonyme David Agios</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/031337392/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11911592</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000108552844"/>
+      <isni:identifierValid>0000000108552844</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb119115925#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/14772471"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Guy_Lefèvre_de_La_Boderie"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Le Fèvre de La Boderie, Guy (1541-1598)</skos:prefLabel>
+      <skos:altLabel>Lefèvre de La Boderie, Gui</skos:altLabel>
+      <skos:altLabel>La Boderie, Guy Le Fèvre de</skos:altLabel>
+      <skos:altLabel>Boderie, Guy Le Fèvre de La</skos:altLabel>
+      <skos:altLabel>Fabricius Boderianus, Guido</skos:altLabel>
+      <skos:altLabel>Agios, David</skos:altLabel>
+      <skos:altLabel>ΑΓΙΟΣ ΔΑΒΙΔ ΟΡΘΙΚΩΞ ΕΝ ΒΡΥΟΙ</skos:altLabel>
+      <foaf:familyName>Le Fèvre de La Boderie</foaf:familyName>
+      <foaf:givenName>Guy</foaf:givenName>
+      <foaf:name>Guy Le Fèvre de La Boderie</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/031337392/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1541</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/031337392/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1598</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Orientaliste. Traduit du toscan et du latin en français, du syriaque en latin</skos:note>
+      <skos:note>Humaniste. Disciple de Guillaume Postel. Collabora avec Arias Montano à la Bible polyglotte d'Anvers</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/004296281/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Signes dissimilaires  : la quête des noms divins dans la poésie française de la Renaissance  / Jan Miernowski / Genève : Droz , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007049323/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'ésotérisme de Guy Le Fèvre de La Boderie  / François Secret / Genève : Librairie Droz , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/246900792/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Réinventer un "genre"  : l'Hymne dans la poésie française de la Renaissance  / Nicolas Lombart  ; sous la direction de François Roudaut / Lille : Atelier national de reproduction des thèses , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176646221/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hymnes ecclesiastiques, 1578  : édition critique  / Guy le Fèvre de la Boderie  ; introduction Jean Céard et Franco Giacone  ; texte établi et annoté par Jean Céard  ; appendices Franco Giacone / Genève : Librairie Droz SA , 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113065752/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Jean Halbout de la Becquetière  : (1593-1626)  : étude de moeurs religieuses au XVIIe siècle avec un appendice sur la famille normande de la Boderie  / par le P. Ubald d'Alençon des Frères Mineurs Capucins / Paris : Librairie Picard , 1904</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/199543070/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Signes dissimilaires  : la quête des noms divins dans la poésie française de la Renaissance  / Jan Miernowski / Genève : Librairie Droz , 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045309329/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Poésie encyclopédique et kabbale chrétienne  : onze études sur Guy Le Fèvre de La Boderie  : [actes du premier colloque de Rouen des 31 mai et 1er juin 1995]  / réunies par François Roudaut  ; préface de Jean Céard / Paris : Honoré Champion éditeur1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002623536/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Le point centrique  : contribution à l'étude de Guy Le Fèvre de la Boderie (1541-1598)  / François Roudaut / Paris : Klincksieck , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/267498373/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Diverses meslanges poetiques  / Guy Le Fèvre de la Boderie  ; édition critique par Rosanna Gorris / Genève : Librairie Droz , [2020]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002976919/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Diverses meslanges poetiques  / Guy Le Fèvre de la Boderie  ; édition critique par Rosanna Gorris / Genève : Librairie Droz , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/232345600/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'hymne dans la poésie française de la Renaissance  / Nicolas Lombart / Paris : Éditions Classiques Garnier  , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/263982203/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'ésotérisme de Guy Le Fèvre de La Boderie  / François Secret / Genève : Librairie Droz</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/268000956/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hymnes ecclesiastiques, 1578  : édition critique  / Guy le Fèvre de la Boderie  ; introduction Jean Céard et Franco Giacone  ; texte établi et annoté par Jean Céard  ; appendices Franco Giacone / Genève : Librairie Droz , [2019]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/275887030/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>"Sous le voile du mot l'essence se repose"  : étude du De l'Enfantement de la Vierge Royne des Vierges de Guy Le Fèvre de La Boderie  / Denise Ardesi  ; sous la direction de Marie-Luce Demonet /  , 2020</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/088576477/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Guy Le  Fèvre de la Boderie représentant de G. Postel à la Polyglotte d'Anvers  / par François Secret,... / Antwerpen : De nederlandsche Boekhandel , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/23157617X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'Hymne dans la poésie française de la Renaissance  / Nicolas Lombart / Paris : Classiques Garnier Numérique , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00335959X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>La Galliade, 1582  / Guy Le Fèvre de La Boderie  ; édition critique par François Roudaut  ; préf. de Robert Aulotte / Paris : Klincksieck , 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203535057/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Thesaurus dictionum hagiographicæ linguæ Chaldææ, ex canonicæ antiquitatis puritate, Danielis nempe &amp; Ezræ residuis monume[n]tis Chaldæis collectus : In quo concinnando in id potissimùm opera data est, ut dictiones Hagiographicæ Chaldææ à crudioribus Judæorum &amp; Pontificiorum, præsertim Roberti Bellarmini, &amp; Guidonis Fabricii &amp; aliorum, illitis æquivocationibus ac depravationibus defecarentur. Ac In illustri Witebergicâ Academiâ publicè propositus disputationi alteri In qua ordine recitantur &amp; explicantur singulæ dictiones Hagiographicæ Chaldaices usque ad numerum pisarum dimidium. De qua [syn theō] In auditorio majore Theologico Ad diem 31. Maii. Præside M. Abrahamo Gibelio Torgensi, respondebit Otho Musmacherus, Mellerstadius Francus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203372700/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Thesaurus dictionum hagiographicæ linguæ Chaldææ, ex canonicæ antiquitatis puritate, Danielis nempe &amp; Ezræ residuis monumentis Chaldæis collectus : In quo concinnando in id potissimum opera data est, ut dictiones hagiographicæ Chaldææ à crudioribus Judæorum &amp; Pontificiorum, præsertim Roberti Bellarmini, Bened. Ariæmontani, Guidonis Fabricii &amp; aliorum, illitis æquivocationibus ac depravationibus defecarentur. In illustri Witebergicâ Academiâ publicè propositus disputationi tertiæ, Cujus sectio altera [syn theō]. In auditorio majore theologico ad diem 13. Decembr. ventilabitur, præside M. Abrahamo Gibelio Torgensi, respondente M. Philippo Arnoldi Cintinensi Borusso</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/131894684/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Les La Boderie  : étude sur une famille normande  / par H. de la Ferrière-Percy / Paris : A. Aubry , 1857</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139215913/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Poésie encyclopédique et kabbale chrétienne  : onze études sur Guy Le Fèvre de La Boderie  : [actes du premier colloque de Rouen des 31 mai et 1er juin 1995]  / réunies par François Roudaut  ; préface de Jean Céard / Paris : Classiques Garnier Numérique , [2004]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/282967680/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Poésie encyclopédique et kabbale chrétienne  : onze études sur Guy Le Fèvre de La Boderie  / sous la direction de François Roudaut  ; préface de Jean Céard / Paris : Classiques Garnier</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/104821760/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Réinventer un "genre"  : l'Hymne dans la poésie française de la Renaissance  / Nicolas Lombart  ; sous la direction de François Roudaut / [S.l.] : [s.n.] , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146971108/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Oratio habita a Guidone Fabro oratore Caroli Galliarum regii christianiss. in generali congregatione &amp; subsequenter responsum Synodi in admissione oratorum eiusdem regis christianiss. datum in sessione quarta sacri Concilij Tridentini sub Pio p.p. IIII  IIII Iunij MDLXII / Brixiae : apud Damianum Turlinum , [1562]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/000297607/id">
+      <dcterms:bibliographicCitation>L'Harmonie du monde  : divisée en trois cantiques...  / composé en latin par François Georges,...  / de Jean Picus, comte de La Mirande  ; traduict et illustré par Guy Le Fèvre de La Boderie,...  ; translaté par Nicolas Le Fèvre de La Boderie / Paris : Arma artis , 1978</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065148282/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'Harmonie du monde, divisée en trois cantiques.Oeuvre singulier, et plein d'admirable erudition : premierement composé en Latin par François Georges venitien, &amp; depuis traduict et illustré par Guy Le Fevre de La Boderie secretaire de Monseigneur frere unique du Roy, &amp; son interprete aux langues estrangeres. Plus l'heptacle de Jean Picus, comte de la Mirande, translaté par Nicolas Le Fevre de La Boderie.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04437271X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hebraicorum bibliorum Veteris Testamenti latina interpretatio, opera olim Xantis Pagnini Lucensis nunc verò Benedicti Ariae Montani Hispalensis, Francisci Raphelengii Alnetani, Guidonis, &amp; Nicolai Fabriciorum Boderianorum fratrum collato studio, ad hebraicam dictionem diligentissimè expensa... Ad Regii sacri operis commoditatem &amp; apparatum / Christophorus Plantinus Antverpiae excudebat [1572]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117274429/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>De la nature des dieux de Marc Tul. Ciceron père de l'eloquence &amp; philosophie romaine, traduits en françois, par Guy Le Fevre de La Boderie. Au             roy tre-chrestien Henry III. roy de France et de Polongne / A Paris, chez Abel l'Angelier, au premier pillier de la grand'salle du  Palais. M.D.LXXXI Avec privilège du Roy , 1581</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099611805/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Confusion de la secte de Muhamed, livre premièrement composé en langue espagnole par Jehan André,... &amp; tourné d'italien en françois par Guy Le Fèvre de La Boderie / A Paris : chez Martin Le Jeune , 1574</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/235395536/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Novum Jesu Christi D. N. Testamentum. Sacrorum Bibliorum tomus quintus / Tours : CESR , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045242097/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Tēs Kainēs Diathēkēs hapanta ...  Novum Jesu Christi D.N. Testamentum. Sacrorum Bibliorum tomus quintus. / [Antverpiae]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/052872335/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Les trois livres de la vie  / Marsile Ficin  ; [traduit en français par Guy Le Fèvre de La Boderie]  ; [texte revu par Thierry Gontier] / [Paris] : Fayard , impr. 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042824877/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'harmonie du monde, divisée en trois cantiques. Oeuvre singulier, et plein d'admirable erudition : premierement composé en latin par François Georges venitien, &amp; depuis traduict &amp; illustré par Guy Le Fevre de La Boderie secretaire de Monseigneur frere unique du Roy, &amp; son interprete aux langues estrangeres. Plus l'Heptacle de Jean Picus, comte de la Mirande, translaté par Nicolas Le Fevre de La Boderie.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/061281034/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'harmonie du monde, divisee en trois cantiques. Oeuvre sainct, et plein d'admirable eruditon : premierement composé en latin par Francois Georges Venitien, &amp; depuis traduict &amp; illustré par Guy Le Fevre de La Boderie ... Plus en ceste edition avons adjouté l'introduction sur ladite Harmonie, &amp; L'heptable de Jean Picus comte de la Mirande translaté par Nicolas Le Fevre de La Boderie ... / A Paris, chez Berthelemy Macé. M.D.LXXXVIII , 1588</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176087354/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Tïs Kainïs Diathïkïs hapanta. Novum Jesu Christi D. N. Testamentum. Sacrorum bibliorum tomus quintus.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/281569959/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>La confusion de la secte de Muhamed  / Juan Andrés  ; traduite par Guy Le Fèvre de La Boderie  ; préface, édition critique et notes par Juliette Privat / Genève : Droz , DL 2024</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/167229087/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Novum Jesu Christi Testamentum complectens praeter vulgatam,Guidonis Fabricii è Syriaco, &amp; Benedicti Ariae Montani translationes, insuper Des. Erasmi Roterodami authoris damnati versionem permissam.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/185820190/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Tēs Kainēs Diathēkēs hapanta. Novum Iesu Christi D. N.Testamentum. Sacrorum bibliorum tomus quintus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150118554/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Confusion de la secte de Muhamed  / Livre premierement composé en langue espagnole par Jehan André, jadis More &amp; Alfaqui, natif de la cité de Sciativia, &amp; depuis faict chrestien &amp; prestre  ; &amp; tourné d'italien en françois. Par Guy le Févre de la Boderie / Tours : CESR , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099939711/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Discours de l'honneste amour sur le Banquet de Platon... trad... par Guy Le Fevre de La Borderie... [Elégie du traducteur] / Paris : J. Macé , 1578</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164119655/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'Harmonie du monde, divisée en trois cantiques. Oeuvre sainct, et plein d'admirable erudition : premierement composé en latin par François Georges, Venitien, &amp; depuis traduict &amp; illustré, par Guy Le Fevre de La Boderie secretaire de monseigneur frere unique du Roy, &amp; son interprete aux langues estrangeres. Plus en ceste edition avons adjouté l'introduction sur ladite harmonie, &amp; l'Heptable de Jean Picus comte de la Mirande translaté par Nicolas Le Fevre de La Boderie. Avec deux tables, l'une des principales matieres, &amp; l'autre des chapitres de chacun livre.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044369921/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Biblia sacra variarum translationum : tribus tomis distincta.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146980492/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Discours de l'honneste amour sur le Banquet de Platon. Par Marsile Ficin [...] traduit de toscan en françois, par Guy Le Fèvre de La Boderie [...] avec un Traicté de I. Picus Mirandulanus sur le mesme subject.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/137242751/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Les trois livres de la vie, le I. pour conserver la santé des studieux, le II. pour prolonger la vie. Le III. pour acquerir la vie du ciel. Avec une apologie pour la medecine &amp; astrologie. Le tout composé premierement en latin par Marsille Ficin, prestre, philosofe &amp; medecin tresexcellent, &amp; traduit en françois. Par Guy Le Fevre de La Boderie secretaire de monseigneur frere unique du Roi, &amp; son interprete aux langues estrangeres.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/235395706/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Sacrorum Bibliorum tomus tertius / Tours : CESR , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04267509X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Confusion de la secte de Muhamed, livre premierement composé en langue espagnole par Jehan André, jadis More &amp; Alfaqui, natif de la cité de Sciativia, &amp; depuis faict chrestien &amp; prestre : &amp; tourné d'italien en françois  / Par Guy le Févre de la Boderie / A Paris : Chez Martin le Jeune , 1574</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162084692/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Neviʼim aḥaronim = Prophētai hysteroi = Prophetae posteriores / (Antverpiae) : (Christophorus Plantinus) , (1570)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162081952/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Neviʼim rišonim = Prophētai prōtoi = Prophetae priores Divrê hay-yamim / [Antverpiae] : [Christoph. Plantinus] , [1569?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162083203/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>K̲tuvim = Hagiografoi = Sancti libri</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044346808/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Tēs Kainēs Diathēkēs hapanta. Novum Iesu Christi D. N.Testamentum. Sacrorum bibliorum tomus quintus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044346816/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Tēs Kainēs Diathēkēs hapanta. = Novum Jesu Christi D.N. Testamentum. Sacrorum bibliorum tomus quintus / [S.l., 1571]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136904602/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>De la Religion chrestienne, par Marsile Ficin philosophe, medecin &amp; theologien tres-excellent:oeuvre tresdocte &amp; fort necessaire pour la radresse de plusieurs dévoyez,&amp; confirmation des fidelles Chrestiens &amp;  bons Catholiques. Avec la harangue de la dignité de l'homme, par Jean Picus comte de Concorde &amp; de La Mirandole. Le tout traduit de latin en françois par Guy Lefevre de La Boderie, Secretaire de Monseigneur fils de France,frere unique du Roy,&amp; son interprete aux langues peregrines</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044265409/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Sacra Biblia vulgata editione, translat. ex hebraeo Sanctis Pagnini, transl. romana ex Septuag. &amp; chaldaicae paraphrasis transl. congesta fratris Fortunati Fanensis ... studio &amp; labore ... Tribus distincta partibus / Venetiis apud Antonium Pinellum M.DC.IX</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044325061/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Confusion de la secte de Muhamed. Livre premiérement composé en langue espagnole par Jehan André, jadis More &amp; Alfaqui, natif de la cité de Sciativa, &amp; depuis faict chrestien &amp; prestre: &amp; tourné d'italien en françois. Par Guy Le Févre de La Boderie / A Paris, chez Martin Le Jeune, rue S. Jean de Latran, à l'enseigne du Serpent. M. D. LXXIIII.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162077602/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Ḥamišša ḥumše tora = Pentateuchos = Quinque libri Moysi / Antverpiae : Christoph. Plantinus excud. , [ca. 1571]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044372698/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Dictionarium syro-chaldaicum, Guidone Fabricio Boderiano collectore et auctore / Antverpiae excudebat Christophorus Plantinus. M.D.LXXII</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00335959X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>La Galliade, 1582  / Guy Le Fèvre de La Boderie  ; édition critique par François Roudaut  ; préf. de Robert Aulotte / Paris : Klincksieck , 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176646221/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hymnes ecclesiastiques, 1578  : édition critique  / Guy le Fèvre de la Boderie  ; introduction Jean Céard et Franco Giacone  ; texte établi et annoté par Jean Céard  ; appendices Franco Giacone / Genève : Librairie Droz SA , 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045445753/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hymnes ecclesiastiques  : Cantiques spirituelz, &amp; autres meslanges Poe͏̈tique au Roy très Chrétien Henry troisième Roy de France et de Pologne / Paris : Robert le Manguier , 1578</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006238033/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Orpheus, der Logos-Träger  : eine Untersuchung zum Nachleben des antiken Mythos in der französischen Literatur des 16. Jahrhunderts  / von Gabriele Bräkling-Gersuny / München : W. Fink , cop. 1975</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103548289/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Dictionarium syro-chaldaicum, Guidone Fabricio Boderiano collectore et auctore / Antverpiae  : excudebat Christophorus Plantinus architypographus regius. M. D. XXIII.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094333/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Oratio habita a Guidone Fabro oratore Caroli Galliarum regis... in generali congregatione &amp; subsequenter Responsum synodi in admissione oratorum ejusdem regis... datum in sessione quarta... concilii Tridentini... IIII Junii MDLXII / Ripae : ad instantiam Petri Antonii Alciatis , 1562</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044346859/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Dictionarium syro-chaldaicum, Guidone Fabricio Boderiano collectore et auctore / Antverpiae excudebat Christophorus Plantinus. M. D. LXXII.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100136567/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Traicté du nouveau comete et du lieu où ils se font... composé premièrement en espagnol par... Hieronyme Mugnoz... et depuis traduict en françoys par Guy Lefevre de La Boderie, plus un Cantique sur ladicte estoille ou apparence lumineuse / A Paris : chez Martin Le Jeune , 1574</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100346812/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>V. ampliss. Christophori Thuani tumulus. In Jac. Aug. Thuani Æmerii pietatem...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094325/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Oratio habita a Guidone Fabro... in generali congregatione. Responsum synodi in admissione oratorum ejusdem regis... datum in sessione quarta sacri Concilii Tridentini... IIII junii 1562 / Parisiis : apud N. Chesneau , 1562</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042627478/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>La cosmographie universelle d'André Thevet cosmographe du Roy. Illustree de diverses figures des choses plus remarquables veuës par l'auteur, &amp; incogneuës de noz anciens &amp; modernes. Tome premier [-second].</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/221774815/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Annales poétiques, ou Almanach des muses depuis l'origine de la poésie françoise. Tome X.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/267498373/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Diverses meslanges poetiques  / Guy Le Fèvre de la Boderie  ; édition critique par Rosanna Gorris / Genève : Librairie Droz , [2020]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16532838X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Diverses Mélanges poétiques Le Fèvre de la Boderie / Paris : R. Le Mangnier , 1578</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094317/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>La Galliade, ou de la révolution des arts et sciences. A Monseigneur fils de France, frere unique du Roy. Par Guy Le Févre de La Boderie, Secretaire de Monseigneur, &amp; son interprete aux langues peregrines</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064769240/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Dictionarium syro-chaldaicum, Guidone Fabricio Boderiano collectore et auctore / Antverpiae : excudebat C. Plantinus, prototypographus regius M.D.LXXII [1572]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044372922/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Candido lectori Guido Fabr. Bod. in tabulam titulorum totius Novi Testamenti syriaci / [Anvers, Christophe Plantin, 1572?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04539041X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>La Galliade ou de la révolution des arts et sciences / Paris : Chaudière , 1578</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/268000956/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hymnes ecclesiastiques, 1578  : édition critique  / Guy le Fèvre de la Boderie  ; introduction Jean Céard et Franco Giacone  ; texte établi et annoté par Jean Céard  ; appendices Franco Giacone / Genève : Librairie Droz , [2019]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146975871/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Diverses meslanges poetiques. Par Guy Le Fevre de La Boderie. / A Paris, pour Robert Le Mangnier, rue neufue noste Dame, à l'image Saint Jean Baptiste, &amp; en la boutique au Palays  en la gallerie par où on va à la Chancellerie. 1578. Avec privilege du Roy. , 1578</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044347065/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Candido lectori Guido Fabr. Bod. in tabulam titulorum totius Novi Testamenti syriaci / [Anvers : Christophe Plantin , 1572?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002976919/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Diverses meslanges poetiques  / Guy Le Fèvre de la Boderie  ; édition critique par Rosanna Gorris / Genève : Librairie Droz , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011505443/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>La Galliade (1582)  / Guy Le Fèvre de La Boderie  ; édition critique par François Roudaut  ; préface de Robert Aulotte / Paris : Klincksieck , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/198001355/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Dictionnarium Syro-Chaldaicum, Guidone Fabricio Boderiano collectore et auctore / Tours : CESR , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150095449/id">
+      <marcrel:dto rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'atheomachie, et discours de l'immortalité de l'ame et resurrection des corps. Par Charles de Bourgueville, de Caen / A Paris, :  chez Martin Le Jeune, rue Sainct Jehan de Latran, à l'enseigne de S. Christophle ,  M. D. LXIIII</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/142856649/id">
+      <marcrel:fmo rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>ספר הזוהר / [Mantoue, Ya’akov Kohen de Gazolo, 318]  , 1558</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176559701/id">
+      <marcrel:fmo rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>... Liber sacrosancti Evangelii de Jesu Christo Domino &amp; Deo Nostro. Reliqua hoc codice comprehensa pagina proxima indicabit. Div. Ferdinandi rom. imperatoris designati jussu &amp; liberalitate, characteribus &amp; lingua syra, Jesu Christo vernacula, divino ipsius ore consecrata, et a Joh. Evangelista hebraica dicta, scriptorio prelo diligenter expressa. / Viennae Austriae excudebat Michael Zimmerman. M.D.LXII , 1562</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14283730X/id">
+      <marcrel:fmo rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>[תקוני הזוהר] / [Mantoue] , 1558</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10044394X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Tablita deskima d-atwata de-menhen metjalfin. Syriacæ linguæ prima elementa.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044278462/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>... Hē Kainē Diathēkē. Novum Jesu Christi D. N. Testamentum. Ad christianiss. Galliae et Poloniae regem Henricum III. potentiβ. &amp; invictiβ. principem, christianæ religionis vindicem &amp; assertorem unicum / Parisiis, M. D. LXXXIIII. Apud Joann. Bene-natum</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176532641/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hebraicorum bibliorum Veteris Testamenti latina interpretatio, opera olim Xantis Pagnini Lucensis: nunc veró Benedicti Ariae Montani Hispalensis, Francisci Raphelengii Alnetani, Guidonis, &amp; Nicolai Fabriciorum Boderianorum fratrum collato studio, ad hebraicam dictionem diligentissimè expensa / Christophorus Plantinus Antverpiae excudebat [1572]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/235344583/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hebraicorum Bibliorum Veteris Testamenti Latina interpretatio, opera olim Xantis Pagnini Lucensis : nunc vero Benedicti Ariae Montani Hispalensis, Francisci Raphelengii Alnetani, Guidonis, &amp; Nicolai Fabriciorum Boderianorum fratrum collato studio, ad Hebraicam dictionem diligentissime expensa / Tours : CESR , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044366647/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>... Hē Kainē Diathēkē = Novum Jesu Christi D.N. Testamentum. Ad christianiss. Galliae et Poloniae regem Henricum III...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044304897/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>[Dîtîqá hadatá] / [Anvers : Christophe Plantin , 1575]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099979691/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>L'Harmonie du monde,... par François Georges... traduict... par Guy Le Fevre de La Boderie,... Plus l'Heptaple de Jean Picus comte de La Mirande, translaté par Nicolas Le Fevre de La Boderie / A Paris : chez Jean Macé , 1579</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067652549/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Biblia sacra, hebraice, chaldaice, graece et latine Philippi II reg. cath. pietate et studio ad sacrosanctae ecclesiae usum / Anvers : Christoph. Plantinus excud. Antverpiae ,  [1569-1573]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044347103/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hebraicorum bibliorum Veteris Testamenti latina interpretatio, opera olim Xantis Pagnini Lucensis: nunc veró Benedicti Ariae Montani Hispalensis, Francisci Raphelengii Alnetani, Guidonis, &amp; Nicolai Fabriciorum Boderianorum fratrum collato studio, ad hebraicam dictionem diligentissimè expensa / Christophorus Plantinus Antverpiae excudebat [1572]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044346875/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hebraicorum bibliorum Veteris Testamenti latina interpretatio, opera olim Xantis Pagnini Lucensis: nunc veró Benedicti Ariae Montani Hispalensis, Francisci Raphelengii Alnetani, Guidonis, &amp; Nicolai Fabriciorum Boderianorum fratrum collato studio, ad hebraicam dictionem diligentissimè expensa... Ad Regii sacri operis commoditatem &amp; apparatum / Christophorus Plantinus Antverpiae excudebat [1572]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100389473/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>[D. Severi,... de Ritibus baptismi, et sacrae synaxis apud Syros christianos receptis, liber, nunc primum in lucem ed., Guidone Fabricio Boderiano... interprete] / Antverpiae : ex off. Christophori Plantini , 1572</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/161868738/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>D. Severi Alexandrini quondam patriarchæ de ritibus baptismi, et sacræ synaxis apud Syros christianos receptis, liber ; nunc primum in lucem editus : Guidone Fabricio Boderiano exscriptore &amp; interprete.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10356781X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>Hebraicorum bibliorum Veteris Testamenti latina interpretatio, opera olim Xantis Pagnini Lucensis : nunc verò Benedicti Ariae Montani Hispalensis, Francisci Raphelengii Alnetani, Guidonis, &amp; Nicolai Fabriciorum Boderianorum fratrum collato studio, ad hebraicam dictionem diligentissimè expensa : censorum Lovaniensium judicio examinata, et academiae suffragio comprobata : ad regii sacri operis commoditatem &amp; apparatum.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176085262/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/031337392/id"/>
+      <dcterms:bibliographicCitation>... Hï Kainï Diathïkï. Novum Jesu Christi D.N. Testamentum. Ad christianiss. Galliae et Poloniae regem Henricum III... / Parisiis, apud Hilarium Le Bouc, Sebastianum Moulin et Joannem Gueffier. 1586 , 1586</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

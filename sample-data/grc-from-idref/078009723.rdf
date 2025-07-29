@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/078009723">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/078009723/id"/>
+      <dcterms:identifier>078009723</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-05-11</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-26T11:31:18</dcterms:modified>
+      <skos:editorialNote>http://nominis.cef.fr/index.php?page=st&amp;x1=9601. Page consultée le 11-05-2004</skos:editorialNote>
+      <skos:editorialNote>Vie de S. Luc le stylite, Albert Vogt, 1909</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/078009723/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/000000038821622X"/>
+      <isni:identifierValid>000000038821622X</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/281343217"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Luc_le_Nouveau_Stylite"/>
+      <skos:prefLabel>Luc (0879-0979 ; saint ; le nouveau stylite)</skos:prefLabel>
+      <foaf:name>Luc</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/078009723/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0879</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/078009723/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0979</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Engagé dans l'armée qui défendait l'empire contre le souverain bulgare Syméon, il la quitta pour devenir moine, puis prêtre et il devint aumônier dans l'armée impériale. Après un long temps d'ascèse au monastère du Mont Olympe en Bithynie, il se fixa près d'un oratoire et s'installa sur une colonne dans un lieu désertique. L'évêque lui demanda de se fixer aux abords de Constantinople, ce qu'il fit avec obéissance et il y demeura quarante ans pour la joie de très nombreux fidèles qui, grâce à lui, se repentaient de leurs fautes.</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065882997/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/078009723/id"/>
+      <dcterms:bibliographicCitation>Vie de S. Luc le stylite  / Albert Vogt / Bruxelles : Société des Bollandistes , 1909</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/183304977">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/183304977/id"/>
+      <dcterms:identifier>183304977</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-11-21T14:33:04</dcterms:modified>
+      <skos:editorialNote>New epigrams / of Palladas : a fragmentary papyrus codex (P. CtYBR inv. 4000) ; by Kevin W. Wilkinson, 2012</skos:editorialNote>
+      <skos:editorialNote>Dictionnaire de l'Antiquité. Mythologie, littérature, civilisation, 1996</skos:editorialNote>
+      <skos:editorialNote>DOC / V. Volpi, 1994 : Palladas Alexandrinus</skos:editorialNote>
+      <skos:editorialNote>Der kleine Pauly</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/183304977/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16933233</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/000000044246417X"/>
+      <isni:identifierValid>000000044246417X</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb16933233d#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/313249156"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Palladas (03..?-04..?)</skos:prefLabel>
+      <skos:altLabel>Palládas</skos:altLabel>
+      <skos:altLabel>Παλλάδας</skos:altLabel>
+      <skos:altLabel>Pallada</skos:altLabel>
+      <skos:altLabel>Palladas (03..?-04..?)</skos:altLabel>
+      <skos:altLabel>Palladâs (03..?-04..?)</skos:altLabel>
+      <skos:altLabel>Παλλαδᾶς (03..?-04..?)</skos:altLabel>
+      <foaf:familyName>Palladas</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Palladas</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/183304977/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03..</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/183304977/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">04..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Poète grec ayant vécu à Alexandrie. - Auteur d'épigrammes transmises par l'Anthologie grecque</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/271483539/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/183304977/id"/>
+      <dcterms:bibliographicCitation>Palladas and the Yale Papyrus Codex (P. CtYBR inv. 4000)  : [international conference, 2014, University College London]  / edited by Maria Kanellou, Chris Carey / Leiden : Brill</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170482375/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/183304977/id"/>
+      <dcterms:bibliographicCitation>New epigrams of Palladas  : a fragmentary papyrus codex (P.CtYBR inv. 4000)  / by Kevin W. Wilkinson / Durham (C.) : American society of papyrologists , 2012, cop. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

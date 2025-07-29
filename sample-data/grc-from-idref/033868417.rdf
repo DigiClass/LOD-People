@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/033868417">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:identifier>033868417</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-06-15</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-20T16:23:06</dcterms:modified>
+      <skos:editorialNote>BN APP (en ligne), 1995-06-15</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/033868417/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12214625</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000374510874"/>
+      <isni:identifierValid>0000000374510874</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12214625z#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/42228523"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Valentin_(gnostique)"/>
+      <skos:prefLabel>Valentin (01..-0160?)</skos:prefLabel>
+      <skos:altLabel>Valentinus gnosticus</skos:altLabel>
+      <skos:altLabel>Valentino gnostico</skos:altLabel>
+      <skos:altLabel>Valentinus</skos:altLabel>
+      <skos:altLabel>فالانتينوس الغنوصي</skos:altLabel>
+      <foaf:name>Valentin</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/033868417/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">01XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/033868417/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0160</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Gnostique d'origine égyptienne</skos:note>
+      <rdfs:seeAlso>
+         <skos:Concept rdf:about="http://www.idref.fr/028235835/id">
+            <skos:prefLabel xml:lang="fr">Valentiniens</skos:prefLabel>
+         </skos:Concept>
+      </rdfs:seeAlso>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155244922/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Pistis Sophia  : Opus gnosticum Valentino adjudicatum e codice manuscripto coptico Londinensi  / descripsit et latine vertit M. G. Schwartze  ; edidit J. H. Petermann / Berolini : In Ferd. Duemmleri libraria , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/093951043/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Pistis Sophia  : opus gnosticum  : Valentino adjudicatum  : e codice manuscripto coptico londinensi descriptum  / latine vertit M. G. Schwartze  ; edidit J. H. Petermann / Berolini : F. Dümmler , 1853</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012733814/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Valentinus Gnosticus ?  : Untersuchungen zur valentinianischen Gnosis mit einem Kommentar zu den Fragmenten Valentins  / von Christoph Markschies / Tübingen : J.C.B. Mohr (P. Siebeck) , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15934025X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Valentino gnostico e platonico  : il valentinianesimo della «Grande notizia» di Ireneo di Lione  : fra esegesi gnostica e filosofia medio platonica  / Chiapparini Giuliano  ; prefazione di Giulia Sfameni Gasparro / Milano : V&amp;P , impr. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180368141/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>The influence of Basilides, Valentinus, and their followers on Clement of Alexandria  / by Everett Lee Procter / [Reproduction en fac-sim.] / Ann Arbor (Michigan) : UMI Dissertation Services , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154794600/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Tertullian als Montanist  / Marius Schwarz / [München] : GRIN Verlag , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/26405962X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>The crucified book  : sacred writing in the age of Valentinus  / Anne Starr Kreps / Philadelphia (Pa.) : PENN, University of Pennsylvania Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/126250871/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Beyond gnosticism  : myth, lifestyle, and society in the school of Valentinus  / Ismo Dunderberg / New York : Columbia University Press , cop. 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066423716/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Extraits de Théodote  / Clément d'Alexandrie  ; texte grec, introduction, traduction et notes [...] par François-M.-M. Sagnard,.. / Paris : Les Éditions du Cerf , 1948</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012398209/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Allegorical readers and cultural revision in ancient Alexandria  / David Dawson / Berkeley : University of California Press , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046088695/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Biblical interpretation in the Gnostic Gospel of truth from Nag Hammadi  / Jacqueline A. Williams / Atlanta, Ga. : Scholars Press , c1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012758809/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Gnosis als System  : zur Rezeption der valentinianischen Gnosis bei Origenes  / von Holger Strutwolf / Göttingen : Vandenhoeck &amp; Ruprecht , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/013310860/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Gnosis und Manichäismus  : Forschungen und Studien zu Texten von Valentin und Mani sowie zu den Bibliotheken von Nag Hammadi und Medinet Madi  / Alexander Böhlig, Christoph Markschies / Berlin : W. de Gruyter , 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/148489494/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033868417/id"/>
+      <dcterms:bibliographicCitation>Πιστις Σοφια  : ouvrage gnostique de Valentin  / traduit du copte en français avec une introduction par E. Amélineau / Paris : Chamuel , 1895</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

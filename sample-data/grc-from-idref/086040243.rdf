@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/086040243">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:identifier>086040243</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-05-12</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-24T03:05:10</dcterms:modified>
+      <skos:editorialNote>Anonyme Kirchengeschichte : Gelasius Cyzicenus, CPG 6034 / hrsg. von Günther Christian Hansen, 2002</skos:editorialNote>
+      <skos:editorialNote>CORC - http://www.corc.oclc.org (2003-05-12)</skos:editorialNote>
+      <skos:editorialNote>PMA</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/086040243/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14471945</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000107746241"/>
+      <isni:identifierValid>0000000107746241</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb14471945j#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/89139709"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Gélase_de_Cyzique"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Gélase de Cyzique</skos:prefLabel>
+      <skos:altLabel>Gelasios von Kyzikos</skos:altLabel>
+      <skos:altLabel>Gelasios Kuzikênos</skos:altLabel>
+      <skos:altLabel>Gelasius of Cyzicus</skos:altLabel>
+      <skos:altLabel>Gelasius Cyzicenus</skos:altLabel>
+      <skos:altLabel>Gelasíos ʿo kyzikīnós</skos:altLabel>
+      <foaf:name>Gélase de Cyzique</foaf:name>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Personnage qui n'aurait en réalité jamais existé, comme les recherches contemporaines l'ont démontré</skos:note>
+      <!--skos:note-->
+      <rdfs:seeAlso>
+         <frbr:Work rdf:about="http://www.idref.fr/086926667/id">
+            <skos:prefLabel xml:lang="fr">Histoire ecclésiastique</skos:prefLabel>
+         </frbr:Work>
+      </rdfs:seeAlso>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130006122/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:bibliographicCitation>Historia ecclesiastica  = = Kirchengeschichte :   / Anonymus von Cyzicus  ; übersetzt und eingeleitet von Günther Christian Hansen / Turnhout : Brepols , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09997200X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:bibliographicCitation>Gelasii Cyziceni Commentarius actorum Nicaeni concilii, Roberto Balforeo,... interprete. Acta oecumenicae tertiae synodi Ephesi habitae, Theodoro Peltano interprete. Compendium sanctarum et universalium synodorum... nunc primum in latinam linguam conversum per Abraham Scultetum... / [Sans lieu] : In bibliopolio Commeliniano , 1604</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/057802181/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:bibliographicCitation>Gelasius Kirchengeschichte  / herausgegeben im Auftrage der Kirchenväter-Commission der Königl. preussischen Akademie der Wissenschaften, auf Grund der nachgelassenen Papiere von Prof. Lic. Gerhard Loeschcke, durch Dr. Margret Heinemann / Leipzig : J. C. Hinrichs'sche Buchhandlung , 1918</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063802481/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:bibliographicCitation>Anonyme Kirchengeschichte  : Gelasius Cyzicenus, CPG 6034  / herausgegeben von Günther Christian Hansen / Berlin : W. de Gruyter , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099971992/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:bibliographicCitation>Gelasii Cyziceni Commentarius actorum Nicaeni concilii, cum corollario Theodori presbyteri de incarnatione Domini. Nunc primum graece prodeunt,... interprete Rob. Balforeo,... cum ejusdem notis... / Lutetiae : apud Federicum Morellum , 1599</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162161174/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:bibliographicCitation>Gelasiou tou Kyzikhnou syntagma ... Nicaina agian synodon ... Gelasij Cyziceni commentarius actorum Nicaeni Concilij, cum corollario Theodori Presbyteri, de incarnatione Domini. Nunc primúm Grecè prodeunt ... interprete Rob. Balforeo Scoto, cum eiusdem notis / Lutetiae : Apud Federicum Morellum , 1599</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099972018/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:bibliographicCitation>Gelasiou tou kyzikenou syntagma ton kata ten en Nikaia agian sunodon orachthenton  : Gelasii cyziceni commentarius actorum Nicaeni concilii. Cum corollario Theodori presbyteri, de incarnatione Domini. Nunc primum grece prodeunt, ex opt. bibliothecis interprete Rob. Balforeo Scoto, cum eiusdem notis / Lutetiae : apud Federicum Morellum , 1599</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113466994/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086040243/id"/>
+      <dcterms:bibliographicCitation>Βασιλειου επισκοπου Σελευκιας Τα σοζωμενα παντα  = = Basilii Seleuciensis episcopi Opera quæ exstant omnia :   / accurante et denuo recognoscente J.-P. Migne, ... / Parisiis : Excudebatur et venit apud J.-P. Migne editorem , 1860</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

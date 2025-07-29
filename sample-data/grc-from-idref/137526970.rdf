@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/137526970">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/137526970/id"/>
+      <dcterms:identifier>137526970</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-29</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-11T14:44:15</dcterms:modified>
+      <skos:editorialNote>Early Greek astronomy to Aristotle / D. R. Dicks. - London : Thames and Hudson, [cop. 1970].</skos:editorialNote>
+      <skos:editorialNote>http://members.westnet.com.au/gary-david-thompson/page9v.html, 2017-10-10 : né en 1923, décédé le 6 janvier 2011</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/137526970/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000117510080"/>
+      <isni:identifierValid>0000000117510080</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/23752776"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Dicks, David Reginald (1923-2011)</skos:prefLabel>
+      <skos:altLabel>Dicks, D.</skos:altLabel>
+      <foaf:familyName>Dicks</foaf:familyName>
+      <foaf:givenName>David Reginald</foaf:givenName>
+      <foaf:name>David Reginald Dicks</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/137526970/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">19XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2635167/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Professeur d'université spécialisé en grec ancien</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063546159/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/137526970/id"/>
+      <dcterms:bibliographicCitation>The geographical fragments of Hipparchus  / edited with an introduction and commentary by D. R. Dicks / London : The Athlone press , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063720140/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137526970/id"/>
+      <dcterms:bibliographicCitation>The Geographical fragments of Hipparchus  / with an introduction and commentary by D. R. Dicks / London : Athlone P , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014272377/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137526970/id"/>
+      <dcterms:bibliographicCitation>Early Greek astronomy to Aristotle  / D. R. Dicks / London : Thames and Hudson , [cop. 1970]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014243857/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137526970/id"/>
+      <dcterms:bibliographicCitation>Early Greek astronomy to Aristotle  / [by] D.R. Dicks / Ithaca, N.Y. : Cornell University Press , cop. 1970</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171191212613514">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137526970/id"/>
+      <dcterms:bibliographicCitation>[JB 6.10.2.11] D. R. Dicks, « Geminus »</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

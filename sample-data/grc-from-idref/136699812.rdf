@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/136699812">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:identifier>136699812</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-09-21</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-10-13T13:56:33</dcterms:modified>
+      <skos:editorialNote>Diplomi greci siciliani inediti (ultima serie) / Giuseppe Spata,1871</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/136699812/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000061497373"/>
+      <isni:identifierValid>0000000061497373</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/76698192"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Spata, Giuseppe</skos:prefLabel>
+      <foaf:familyName>Spata</foaf:familyName>
+      <foaf:givenName>Giuseppe</foaf:givenName>
+      <foaf:name>Giuseppe Spata</foaf:name>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ita"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Helléniste</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/279934874/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:bibliographicCitation>Diplomi greci siciliani inediti ricavati da alcuni manoscritti della Biblioteca comunale di Palermo  / tradotti da Giuseppe Spata / Torino : Stamperia Reale , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/219860068/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:bibliographicCitation>Capitula regni Siciliae recensioni Francisci Testa  / addenda cura Josephi Spata. / [Farmington Hills, Mich.] : Gale Cengage Learning , 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120852020/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:bibliographicCitation>Diplomi greci inediti ricavati da alcuni manoscritti della Biblioteca comunale di Palermo tradotti e pubblicati da Giuseppe Spata / Torino : Fratelli Bocca , 1870 - 71</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162468415/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:bibliographicCitation>Le Pergamene Greche esistenti nel Grande Archivio di Palermo  / tradotte ed illustrate da G. Spata  ; [With the text.] Gr. and Ital. / Palermo , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162468474/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:bibliographicCitation>Sulle carte di Sicilia esistenti ne'regii archivi di corte in Torino, notizie ed osservazioni  / di Giuseppe Spata / Roma : Tipog. delle scienze matematiche e fisiche , 1872</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136699065/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:bibliographicCitation>Diplomi greci siciliani inediti (ultima serie)  / Tradotti e pubblicati da Giuseppe Spata / Torino : Stamperia Reale , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051882779/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:bibliographicCitation>Le pergamene greche  : esistenti nel Grande archivio di Palermo  / tradotte ed illustrate da Giuseppe Spata / Palermo : Clamis e Roberti , 1861</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/20468837X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/136699812/id"/>
+      <dcterms:bibliographicCitation>Le pergamene greche esistenti nel Grande archivio di Palermo  / tradotte ed illustrate da Giuseppe Spata / Palermo : Tipografia e legatoria Clamis e Roberti , 1861</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

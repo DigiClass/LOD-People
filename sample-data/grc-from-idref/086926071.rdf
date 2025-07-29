@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/086926071">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:identifier>086926071</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-12-10</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-17T13:27:19</dcterms:modified>
+      <skos:editorialNote>Philogelos / [Hierocles, Philagrios] ; edidit R. D. Dawe , 2000</skos:editorialNote>
+      <skos:editorialNote>DOC / V. Volpi, 1994</skos:editorialNote>
+      <skos:editorialNote>LCNA - http://authorities.loc.gov (2005-03-16 : Hierocles, Grammarian)</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : confondu avec : Hiéroclès, d'Alexandrie : oeuvres sous le titre de classement : "Facetiae</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/086926071/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12783354</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000458818243"/>
+      <isni:identifierValid>0000000458818243</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12783354s#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/47152923"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Hiéroclès (03..-03.. av. J-.C. ; grammairien)</skos:prefLabel>
+      <skos:altLabel>Hierokles (grammairien)</skos:altLabel>
+      <skos:altLabel>Ieroklês</skos:altLabel>
+      <skos:altLabel>Hierocles (03..-03.. av. J.-C. ; grammairien)</skos:altLabel>
+      <skos:altLabel>Hieroklì̄s (03..-03.. av. J.-C. ; grammairien)</skos:altLabel>
+      <foaf:familyName>Hiéroclès</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Hiéroclès</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/086926071/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/086926071/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Grammairien. Auteur d'histoire drôles, qui subsistent en partie dans le recueil "Philogelos"</skos:note>
+      <!--skos:note-->
+      <rdfs:seeAlso>
+         <frbr:Work rdf:about="http://www.idref.fr/085722375/id">
+            <skos:prefLabel xml:lang="fr">Facetiae</skos:prefLabel>
+         </frbr:Work>
+      </rdfs:seeAlso>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/110198026/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Facezie della Grecia antica  : il Philogelos  : introduzione, traduzione, commento  / Cristina Bordignon / Trieste : Universita degli Studi , 1997-1998</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117748811/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Le facezie del Philogelos  : barzellette antiche e umorismo moderno  / Mario Andreassi / Lecce : Pensa multimedia , impr. 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/278341314/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Le Philogelos  : version bilingue  / d'après un manuscrit de Hiéroclès et Philagrios  ; traduction et annotations Christophe Noël / Moyenmoutier : Christophe Noël , DL 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/052264106/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Philogelos  / edidit R. D. Dawe  ; [praefatio, R. D. Dawe] / Monachii [Munich] : K.G.Saur</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/249170310/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Philogelos oder der Lach-Fan  / von Hierokles und Philagrios  ; Hrsg. und übers. von Gerhard Löwe, ill. von Wolfgang Würfel / 1 ére éd. / Leipzig : Koehler und Amelang , 1981</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16242549X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Come ridevano gli antichi  : Philogelos  / a cura di Tommaso Braccini  ; prefazione di Maurizio Bettini / Genova : Il Melangolo , impr. 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/122211316/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Va te marrer chez les grecs (Philogelos)  : recueil de blagues grecques anciennes  / établissement de l'édition, traduction du grec ancien, notes et postface par Arnaud Zucker  ; couverture de Olivier Fontvieille / [Paris] : Mille et une nuits , DL 2008, cop. 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086482238/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Philogelos der Lachfreund  / von Hierokles und Philagrios  ; griechisch-deutsch mit Einleitungen und Kommentar herausgegeben von Andreas Thierfelder / Mu͏̈nchen : Heimeran Verlag , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15619631X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>G. Pachymeris Declamationes XIII quarum XII ineditae  / curante Joanne Fr. Boissonade  ; sumptus in editionem erogante N. Yemeniz (Byzantio) / Amsterdam : A. M. Hakkert , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/110198026/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>Facezie della Grecia antica  : il Philogelos  : introduzione, traduzione, commento  / Cristina Bordignon / Trieste : Universita degli Studi , 1997-1998</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100032362/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/086926071/id"/>
+      <dcterms:bibliographicCitation>@. Hieroclis... facetiae. De priscorum studiosorum dictis et factis ridiculis... / Lubduni [sic] , 1605</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

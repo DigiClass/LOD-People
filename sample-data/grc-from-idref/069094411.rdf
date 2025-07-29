@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/069094411">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:identifier>069094411</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-12-09</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-23T10:12:55</dcterms:modified>
+      <skos:editorialNote>Paulys Real-encyclopädie der classischen Altertumwissenschaft, vol.35, 1939</skos:editorialNote>
+      <skos:editorialNote>Das Florilegium des Orion / mit einer Einl. hrsg., übers. und komm. Medard Haffner</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/069094411/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000061353839"/>
+      <isni:identifierValid>0000000061353839</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb14561321v#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/17465356"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Orion_de_Thèbes"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Orion (04..-04.. ; lexicographe)</skos:prefLabel>
+      <skos:altLabel>Orion (04..-04.. ; de Thébes)</skos:altLabel>
+      <skos:altLabel>Orion le Thébain (04..-04.. ; lexicographe)</skos:altLabel>
+      <foaf:name>Orion</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/069094411/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">04XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/069094411/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">04..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/357994/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Lexicographe grec d'Égypte, né probablement dans le dernier quart du 4è siècle après J. C. Né à Thèbes (Égypte)</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182327531/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>De Oro et Orione commentatio  : specimen historiae criticae grammaticorum Graecorum  ;  accedit de Eudemo epimetrum  / Friderici Ritschelii, ... / Vratislaviae : A. Schulzii &amp; Soc. , 1834</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/276033736/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>Una nuova edizione di un estratto dall'Etimologico di Orione  / Maria Giovanna Sandri</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/283189274/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>Un inedito Perì etymologías e altri etimologici bizantini, da Orione all'Etymologicum Gudianum  / Maria Giovanna Sandri</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/08504492X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>Orionis Thebani Etymologicum ex museo Frid. Aug. Wolfii primum edidit... Fridericus Guillelmus Sturzius. Accedunt Pet. Henr. Larcher observationes criticae in Etymologicum magnum et Amed. Peyroni commentatio in Theodosii Alexandrini tractatum de prosodia  / Orion / Lipsiae : apud J. A. G. Weigel , 1820</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/069093474/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>Das Florilegium des Orion  / mit einer Einl. hrsg., übers. und komm. Medard Haffner / Stuttgart : Steiner , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187025487/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>Orionis Thebani Etymologicon  : ex museo Frid. Aug. Wolfii  : annotationes Pet. Henr. Larcheri eiusdem Wolfii nonnullas et suas indicesque locupletissimos adiecit  / Fridericus Guilielmus Sturzius / Lipsiae : apud Ioa. Aug. Gottl. Weigel , 1820</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139875794/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>Etymologicon  : ex Museo Friderici Augusti Wolfii primum edidit  / annotationes Petri Henrici Larcheri eiusdem Wolfii nonnullas et suas indicesque locupletissimos adiecit Fridericus Guilielmus Sturzius  ; Orion Thebanus / Hildesheim : G. Olms , 1973</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065538765/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>Orionis Thebani etymologicon ex museo Frid. Aug. Wolfii, primum edidit annotationes Pet. Henr. Larcheri eiusdem Wolfii nonnullas et suas, indicesque locuplentissimos adjecit Fridericus Guilielmus Sturzius. Accedunt Pet. Henr. Larcheri observationes criticæ in etymologicum magnum et Amed. Peyroni commentatio in Theodosii Alexandrini tractatum de prosodia</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160627699/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/069094411/id"/>
+      <dcterms:bibliographicCitation>Conjectanae critica  / scripsit F. G. Schneidewin / Gottingae : Dieterich , 1839</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

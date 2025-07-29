@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/028424522">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:identifier>028424522</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-09-30T21:53:48</dcterms:modified>
+      <skos:editorialNote>Dizionario dei nomi geografici e topografici dell'egitto greco-romano / Aristide Calderini, 1988</skos:editorialNote>
+      <skos:editorialNote>Per una storia dei bibliotecari italiani del secolo XX : dizionario bio-bibliografico, 1900-1990 / a cura di Giorgio De Gregori e Simonetta Buttò, 1999</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. suppl</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/028424522/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12026260</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000121012973"/>
+      <isni:identifierValid>0000000121012973</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12026260q#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/51703653"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Calderini, Aristide (1883-1968)</skos:prefLabel>
+      <foaf:familyName>Calderini</foaf:familyName>
+      <foaf:givenName>Aristide</foaf:givenName>
+      <foaf:name>Aristide Calderini</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/028424522/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1883-10-18</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/028424522/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1968-09-15</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ita"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Lieu de naissance Tarante, Italie. Lieu de décès Milan, Italie. Professeur de littérature grecque à l'Université catholique de Milan. - Directeur de la bibliothèque de l'Académie scientifico-littéraire de Milan</skos:note>
+      <skos:note>A aussi traduit du grec ancien en italien</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014214288/id">
+      <dcterms:bibliographicCitation>Raccolta di scritti in onore di Aristide Calderini  III,  / Milano : Universitá cattolica (Scuola di papirologia) , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014214091/id">
+      <dcterms:bibliographicCitation>Raccolta di scritti in onore di Aristide Calderini ... / Milano : Universitá cattolica del Sacro Cuore, Scuola di papirologia , 1967-1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023945443/id">
+      <dcterms:bibliographicCitation>Studî della Scuola papirologica  / @R. Accademia scientifico-letteraria. Scuola papirologica / Milano , 1915-26</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108346803/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Oblatio  : raccolta di studi di antichità ed arte in onore di Aristide Calderini  / Società archeologica comense / Como : Tipografia editrice A. Noseda , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/116309695/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Taxes in Kind in Roman Egypt  / Verne B.Schuman / Milan : A.Nicola &amp; Cie , 1957</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023931086/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Studi in onore di Aristide Calderini e Roberto Paribeni / Milano : Ceschina , impr. 1956-1957</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/087003627/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Studi in onore di Aristide Calderini e Roberto Paribeni  2, Studi di papirologia e antichita orientali / Milano : Ceschina , 1957</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/037485954/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Studi della Scuola papirologica  / R. Accademia scientifico-letteraria in Milano / Milano : Ulrico Hoepli , 1915-1926</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/163849323/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Atti del Convegno di studi su la Lombardia e l'Oriente  : Milano, 11-15 giugno 1962  / [organisé par l'] Istituto lombardo, Accademia di Scienze e Lettere  ; [ed. by A. Calderini...[et al.]] / Milano : [lieu de publication inconnu] , 1963</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/038658569/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Aegyptus  : rivista italiana di egittologia e di papirologia / Milano : R. Accademia scientifico-letteraria (Scuola papirologica) , 1920-</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108283763/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Raccolta di scritti in onore di Giacomo Lumbroso (1844-1925)  / [a cura di Pietro Bonfante, Evaristo Breccia, Aristide Calderini,... [et al.] / Milano : Aegyptus , 1925</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086751581/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Guida allo studio della civiltà romana antica  Volume II,   / dir. da Vincenzo Ussani e Francesco Arnaldi, collab. Aristide Calderini, Gustavo Giovannoni, Achille Adriani ... [et al.] / Napoli : Istituto editoriale del Mezzogiorno , 1954</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/204667062/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Atti del Convegno sull'attività archeologica nell'Italia Settentrionale  : (Villa Monastero di Varenna) 9-15 giugno 1958  / [presentazione Aristide Calderini] / Milan : Istituto lombardo accademia di scienze e lettere , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/236128957/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Papiri milanesi  Parte 1, Collezione Jacovelli-Vita  / per cura della Scuola di Papirologia dell' Università Cattolica del S. Cuore  ; [prefazione Aristide Calderini] / Milano : Università Cattolica del Sacro Cuore , 1928</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066484456/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La Tradizione intorno agli edifici romani di Milano dal secolo V al secolo XVIII  : a cura di Giuseppina Mompeglio [sic pour Mompellio] - Mondini  / [Prefazione di Aristide Calderini.] / Milano : Ceschina , 1943-XXI</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108323870/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Il Circo romano  / a cura di Alberto de Capitani d'Arzago  ; con prefazione del prof. Aristide Calderini / Milano : Ceschina , 1939</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015886182/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Scavi di Caesarea Maritima  / presentazione di Giordano Dell'Amore  ; prefazioni di Aristide Calderini e Luigi Crema  ; introduzione di Antonio Frova  ; testi di Dinu Adamesteanu, Anna Albricci, Gianguido Belloni [et al.] / Milano : Cassa di risparmio delle provincie lombarde, Istituto lombardo, Accademia di scienze e lettere , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/222240784/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Caesarea Maritima (Israele)  : rapporto preliminare della Ia campagna di scavo della Missione archeologica italiana  / [introduzione Aristide Calderini]  ; [prefazione Luigi Crema] / Milano : [éditeur inconnu] , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/230332544/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>A proposito di riforme della scuola classica  / Rita Calderini  ; con prefazione e appendice di Aristide Calderini / Milano : Ceschina , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108346986/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Raccolta di scritti in onore di Antonio Giussani  / Società archeologica comense  ; [prefazione di Aristide Calderini] / Milano : U. Hoepli , 1944</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023192208/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Di un'ara greca dedicatoria agli dei inferi esistente nel Museo Archeologico di Milano / Milano : Ulrico Heopli , 1907</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016607260/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Aquileia romana  : ricerche di storia e di epigrafia  / Aristide Calderini / Ed. anastatica / Roma : "L'Erma" di Bretschneider , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025664530/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell' Egitto greco-romano  / Aristide Calderini / Milano : Cisalpino-Goliardica , 1966-</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065586905/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>L'anfiteatro romano  / a cura di Aristide Calderini / Milano : Ceschina , 1940</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/05784223X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Supplemento 2° (1987-1993),   / Aristide Calderini  / a cura di Sergio Daris / Bonn : Dr. Rudolf Habelt GMBH , 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154509701/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Contratto di somministrazione di stoppa in un papiro inedito della raccolta Castelli  / Aristide Calderini / [S.l.] : [s.n.] , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11945307X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Autori greci nelle epistole di Jacopo Cordinelli  : (Mss. Ambros. B 9 inf.; T167 sup.)  / Rita Calderini de-Marchi e Aristide Calderini / Milano : U. Hoepli , 1915</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/12827039X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>L'ostracismo  / Aristide Calderini / Como : C. Marzorati , 1945</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130306967/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>ΘΥCΑΥΡΟΙ  : ricerche di topografia e di storia della pubblica amministrazione nell'egritto greco-romano  / Aristide Calderini / Milano : Aegyptus , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154014907/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Lombardia preistorica e protostorica  / Aristide Calderini / Roma : Istituto di studi romani , 1945</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073761117/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Commento storico al libro XXXI di Livio  : appunti delle lezioni di storia romana  / Prof. Aristide Calderini / Milano : Vita e pensiero , 1946</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154509728/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Contributi italiani della papirologia greca e romana allo studio dei diritti antichi  / Aristide Calderini / [S.l.] : [s.n.] , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019644590/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Milan  / A. Calderini, R. Paribeni / Roma : La Libreria dello Stato , cop. 1952</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203334477/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Settimio Severo  / Aristide Calderini / Roma : Istituto di studi romani , 1942</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108181766/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Lombardia romana  [Vol. I],   / A. Calderini, A. Visconti, A. de Capitani d'Arzago... [et al.]  ; Istituto di studi romani; sezione Lombarda / Milano : Ceschina , 1938</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130088498/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Milano [a cura di]  / A. Calderini [e] R. Paribeni / Roma : Libreria dello Stato , [1951]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080174744/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Supplemento 1° (1935-1986),   / Aristide Calderini  / a cura di Sergio Daris / Milano : Cisalpino-Goliardica</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/129568562/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Supplemento 4, 2002-2005  / [Aristide Calderini]  ; [a cura di] Sergio Daris  ; [premessa di Mario Capasso] / Pisa : Fabrizio Serra, editore , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153969806/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Manuale di papirologia antica greca e romana ad uso delle scuole universitarie e delle persone colte  / Aristide Calderini / Milano : Ceschina , 1938</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109012895/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Aquileia Romana (Ricerche di Storia e di Epigrafia)  / Aristide Calderini / Roma : "L'Erma" di Bretschneider , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/030595517/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Thicauroi  : richerche di topografia e di storia della pubblica amministrazione nell' Egitto greco-romano  / Aristide Calderini / Ristampa anastatica. / Milano : Cisalpino-Goliardica , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15470685X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Volume primo, Fasicolo primo, Α - ΑΛΙΚΑΡΝΑΣΣΕΥΣ  / Aristide Calderini / Milano : Ciasalpino Goliardica , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/009995765/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La manomissione e la condizione dei liberti in Grecia  / Aristide Calderini / Roma : L'Erma di Bretschneider , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/079410731/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Saggi e studî di antichità  / Aristide Calderini / Milano : Vita e pensiero , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063143844/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Volume primo, Fascicolo primo, A-Αλικαρνασσεύς  / Aristide Calderini / Cairo : Società reale di geografia d'Egitto , 1935</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063143860/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Volume secondo,   Fascicol[i] 1, 2, 3, 4,   / Aristide Calderini  ; a cura di Sergio Daris / Milano : Cisalpino-Goliardica , 1973-1977</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154014486/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La "Forma urbis Mediolani" nell'anno bimillenario di Augusto  / Aristide Calderini / Milano : Istituto di studi romani , 1937</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00810395X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>I Severi  : la crisi dell'Impero nel III secolo  / di Aristide Calderini  ; Istituto di studi romani / Bologna : L. Cappelli , 1949, cop. 1949</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047355344/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Trattati internazionali nell'Antichità Greca  / Aristide Calderini / Milano : La Goliardica , 1949</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130006521/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Ritrovamenti e scavi per la "Forma Urbis Mediolani"  III,   / [A. Calderini; C. Gerra; G. G. Belloni] / Milano : Ceschina , 1951</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046633499/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto Greco-Romano  Volume quarto, quinto, Supplemento 1 (1935-1986),   / a cura di Sergio Daris / Cisalpino : Goliardica , 1983-1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063143887/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Aristide Calderini, Maria Calderini. Dizionario di antichità greche e romane / Milano : Ceschina , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/185089550/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Volume secondo, fasc.1  / Aristide Calderini  ; a cura di Sergio Daris / [Milano] : Cisalpino Goliardica , 1973</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/116283378/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Roberto Paribeni  / Aristide Calderini / Milan : De Silvestri , [19..]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119082462/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Aquileia romana  : Ricerche di storia e di epigrafia  / Aristide Calderini / Milano : "vita e pensioro" , [1930]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119453053/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>A proposito di una gita di Jacopo Corbinelli a Épernay nel 1576  / Aristide Calderini / Milano : Figli della provvidenza , 1916</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080168043/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Volume quarto,   Fascicol[i] 1, 2, 3, 4,   / Aristide Calderini  ; a cura di Sergio Daris / Milano : Cisalpino-Goliardica , 1983-1986</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/118573594/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Studi Virgiliani  volume secondo, L'Eneide  : Le Egloche - Le Georgiche  / Giuseppe Albini  ; Francesco Arnaldi  ; Alfredo Bacceli,... / Roma : Sapientia , [1932]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080168973/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Volume quinto, Τιτκῶις-Ώφίτης  / Aristide Calderini  ; a cura di Sergio Daris / Milano : Cisalpino-Goliardica</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/13030543X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Papiri latini  : appunti delle lezioni di papirologia  / Aristide Calderini / Milano : Vita e pensiero , 1945</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10830986X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La manomissione e la condizione dei liberti in Grecia  / Aristide Calderini / Milano : U. Hoepli , 1908</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066181682/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Il Glossario Lumbroso e la sua pubblicazione...  / Aristide Calderini / Milano : "Aegyptus , 1925</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064856534/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Studi recensi di Antichità e problemi relativi  / Aristide Calderini,... / (Milano) : La Goliardica , (1955-1957)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086393987/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La composizione della famiglia secondo le schede di censimento dell'Egitto romano  / Aristide Calderini / Milano : Società editrice "Vita e pensiero , [192?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108179060/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Thèsauroi  : ricerche di topografia e di storia della pubblica amministrazione nell'Egitto greco-romano  / Aristide Calderini / Milano : Cisalpino-Goliardica , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023915471/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Papyri  I, Guida allo studio della papirologia antica greca e romana  / Aristide Calderini / [2a edizione] / Milano : Casa Editriche Ceschina , [1944 ou 1945]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/112747876/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Volume secondo, [B-Pheadelpseia]  / par Aristide Calderini / Milano : Cisalpino-Goliardica , 1973-1975</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080143997/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Volume terzo,   Fascicol[i] 1, 2, 3, 4,   / Aristide Calderini  ; a cura di Sergio Daris / Milano : Cisalpino - Goliardica , 1978-1983</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063143895/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Papyri  1, Guida allo studio della papirologia antica greca e romana  / Aristide Calderini / Milano : Casa editrice Ceschina , 1962</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073761001/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La censura in Roma antica  : testi per le lezioni di antichità greche e romane  / Prof. Aristide Calderini / Milano : società editrice Vita e pensiero , 1945</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/23712503X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Liviana  : conferenze tenute in Milano in commemorazione del bimillenario liviano da professori delle Università milanesi   / [scritti di Aristide Calderini, Roberto Paribeni, Alfredo Passerini ... et al.] / Milano : Casa editrice Ceschina , 1943</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203327209/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Vespasiano e Tito  / Aristine Calderini / Roma : Istituto di studi romani , 1941</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063143852/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Vol. I, parte II, ['Αλιξαρνασσός - Αωλφ]  / Aristide Calderini / Madrid : Consejo superior de investigaciones cientificas , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063070006/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La Basilica di Aquileia. A cura del comitato per le cerimonie celebrative del 9° centenario della Basilica e del 1° decennale dei militi ignoti. (Vorr.: Aristide Calderini.) / Bologna : Zanichelli , 1933</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063619946/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>L'Associazione italiana per le biblioteche. Origini, realizzazioni, propositi / Venezia : [Associazione italiana per le biblioteche, Sezione per il Veneto orientale e la Venezia Giulia] , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016533240/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Epigrafia  / Aristide Calderini / Torino : Società editrice internazionale , 1974</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063143879/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  3,   Fasc. 1,  / Cairo : Società reale di geografia d'Egitto , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/272858919/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Recensioni e bibliografia  / A. Calderini / Milano : Presso la Università cattolica del Sacro Cuore (Scuola di papirologia) , 1937</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130282189/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La primavera di una scienza nuova  : la papirologia  : conferenze  / Aristide Calderini / Milano : Presso l'amministrazione di Aegyptus , 1921</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047355387/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Trattati internazionali nell'Antichità Greca  / Aristide Calderini / Milano : La Goliardica , s.d</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/142320803/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La basilica di S. Babila (concilum sanctorum - San Romano)  / G. Ceriani, A. Calderini, E. Cattaneo, ... [et al.] / Milano : [s. n.] , 1952</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073760897/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La crisi del III secolo D. Cr  : appunti delle lezioni di storia romana  / Prof. Aristide Calderini / Milano : Vita e pensiero , 1945</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065633423/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Aquileia Romana  : ricerche di storia e di epigrafia, ... / Edizione anastatica / Roma : "L'Erma" di Bretschneider , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020152477/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Le donne dei Severi  / Aristide Calderini / Roma : Reale Istituto di Studi Romani , 1945</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/148334571/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Supplemento 5, 2006-2009  / [Aristide Calderini]  ; [a cura di] Sergio Daris / Pisa : Fabrizio Serra editore , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/07474691X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano  Supplemento 3, 1994-2001  / Aristide Calderini  / a cura di Sergio Daris / Pisa : Giardini editori e stampatori , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015061957/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Ritrovamenti e scavi per la "Forma urbis Mediolani"  IV,   / [A. Frova; A. Calderini; C. Gerra] / Milano : Ceschina , 1955</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/004723031/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Documenti del giuramento civico greco  / Aristide Calderini / Como : C. Marzorati , 1945</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/149831307/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Aquileia romana  : ricerche di storia e di epigrafia  / Aristide Calderini / Milano : Società editrice Vita e pensiero , [1930]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073760978/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Suffragium e sortitio nella politica greca  / Prof. Aristide Calderini / Milano : Vita e pensiero , 1947</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/13000622X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Ritrovamenti e scavi per la "Forma Urbis Mediolani"  II,   / [A. Calderini; F. Reggiori; A. Frova; C. Gerra] / Milano : Ceschina , 1951</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/137461534/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Le fonti per la storia antica greca e romana  Volume primo,   / Aristide Calderini / Como : Marzo-rati , [1947]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/021676135/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Trattati internazionali nell'antichità Greca  / Aristide Calderini / Milano : "La Goliardica , [19..]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019280556/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La Basilica di S. Lorenzo Maggiore in Milano  / [di] A. Calderini, G. Chierici [e] C. Cecchelli / Milano : Fondazione Treccani degli Alfieri per la storia di Milano , [1951 ?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130003964/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Ritrovamenti e scavi per la "Forma Urbis Mediolani"  I,   / [A. Calderini; C. Gerra] / Milano : Ceschina , 1951</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130001961/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Echi elettorali  : votate per M. Tullio Cicerone  / Aristide Calderini / Milano : Ceschina , 1948</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073760943/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La guerra civile dal 50 al 48 av. Christo  : appunti delle lezioni di storia romana  / Prof. Aristide Calderini / Milano : Vita e pensiero , 1945</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2009911129543755">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>[Feuillets 58-59] Calderini (Aristido) (1916)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045398755/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Dizionario dei nomi geografici e topografici dell'Egitto greco-romano / Milano : Cisalpina Goliardica , 1972-</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065586913/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>La zona di piazza S. Sepolcro  / a cura di Aristide Calderini / Milano : Ceschina , 1940</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/131259296/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Testi e commenti concernenti l'antica Alessandria  : (Glossario Lumbroso)  / Giacomo Lumbroso  ; pubblicati per cura di Evaristo Breccia, Aristide Calderini, Giuseppe Ghedini... / Milano : Vita e Pensiero , 1934-1938</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018876838/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028424522/id"/>
+      <dcterms:bibliographicCitation>Ilias Ambrosiana  : Cod. F. 205 P. inf., Bibliothecae Ambrosianae Mediolanensis  / [Antonio Maria Ceriani, Aristide Calderini, Angelo Mai] / Berna : U. Graf , 1953</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

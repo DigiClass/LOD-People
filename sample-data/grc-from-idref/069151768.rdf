@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/069151768">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/069151768/id"/>
+      <dcterms:identifier>069151768</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-12-14</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-08-26T20:03:30</dcterms:modified>
+      <skos:editorialNote>Herodotus. Le storie, c1996</skos:editorialNote>
+      <skos:editorialNote>Anabasi / Senofonte, 2002</skos:editorialNote>
+      <skos:editorialNote>Internet (http://lcauth.dra.com/LCAUTH)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/069151768/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000061523148"/>
+      <isni:identifierValid>0000000061523148</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb14596676s#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/34705597"/>
+      <foaf:gender>female</foaf:gender>
+      <skos:prefLabel>Bevilacqua, Fiorenza</skos:prefLabel>
+      <foaf:familyName>Bevilacqua</foaf:familyName>
+      <foaf:givenName>Fiorenza</foaf:givenName>
+      <foaf:name>Fiorenza Bevilacqua</foaf:name>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ita"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086474952/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/069151768/id"/>
+      <dcterms:bibliographicCitation>Le Etiopiche  / di Eliodoro  ; a cura di Aristide Colonna / Torino : Unione Tipografico-Ed. , cop. 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/069151741/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/069151768/id"/>
+      <dcterms:bibliographicCitation>Anabasi di Senofonte  / Senofonte  ; a cura di Fiorenza Bevilacqua / Torino : Unione Tipografico-Editrice Torinese , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153631848/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/069151768/id"/>
+      <dcterms:bibliographicCitation>Memorabili  / di Senofonte  ; a cura di Fiorenza Bevilacqua / Torino : UTET , cop. 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/110135555/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/069151768/id"/>
+      <dcterms:bibliographicCitation>Le Storie  / Erodoto  ; a cura di Aristide Colonna e Fiorenza Bevilacqua / Torino : Unione Tipografico-Editrice Torinese , cop.2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/119095157">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:identifier>119095157</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-11-09</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-24T08:41:18</dcterms:modified>
+      <skos:editorialNote>Lykonphronos tou Chalcideos Alexandra : kai eis aito touto Isaaciou tou Tzetzou exegema = Lycophronis Chalcidensis Alexandra : cum graecis Isaacii Tzetzis commentariis ; accendunt versiones, variantes lectiones, emendationes, annotationes, &amp; indices necessarii / cura &amp; opera Johannis Potteri,... - Oxonii : E Theatro Sheldoniano, 1697</skos:editorialNote>
+      <skos:editorialNote>http://authorities.loc.gov/, 2009-04-08</skos:editorialNote>
+      <skos:editorialNote>http://cerl.sub.uni-goettingen.de/ct/, 2009-04-08</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/119095157/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000110265203"/>
+      <isni:identifierValid>0000000110265203</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb10336333j#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/49580848"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Isaac_Tzétzès"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Tzetzès, Isaac (10..?-1138)</skos:prefLabel>
+      <skos:altLabel>Tzetza, Isaac</skos:altLabel>
+      <skos:altLabel>Tzetzēs, Isaakios</skos:altLabel>
+      <skos:altLabel>Tzetzes, Isaacus</skos:altLabel>
+      <foaf:familyName>Tzetzès</foaf:familyName>
+      <foaf:givenName>Isaac</foaf:givenName>
+      <foaf:name>Isaac Tzetzès</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/119095157/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">10XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/119095157/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1138</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>A ne pas confondre avec son frère Jean (Johann, Ioannes) Tzetzès</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046650253/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Isaac Tzetzae De Metris pindaricis commentarius  / Edidit A.B. Drachmann ... / København : Andr. Fred. Høst &amp; Søn , 1925</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143293931/id">
+      <marcrel:cmm rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Cassandra, sive Alexandra... una cum... Isacii Tzetzis... commentariis...  / Lycophron / Basilae : sn , 1558</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10016921X/id">
+      <marcrel:cmm rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Lykophronos Alexandra to skoteinon poiēma  = = Lycophronis Clachidensis Alexandra, siue, Cassandra :   = = Ioannis Tzetzae Variarum historiarum liber versibus politicis ab eodem Graecè conscriptus :   / Lycophron  / Joannis Tzetzae  ; poema quidem obscurum etiam doctis appellatum, sed ita eruditissimis Isacii Tzetzis grammatici commentarijs, quae et doctissimo cuiq[ue] uehementer desiderata sunt hactenus et simul nunc primùm in lucem eduntur illustratum atq[ue] explicatum, ut tam historiarum et fabularum quàm aliarum quoque reconditarum scitúq[ue] dignarum rerum studiosi,horum editione magno se thesauro ditatos, agnoscere meritò possint  ; et Pauli Lacisii Veronensis opera ad uerbum Latinè conuersus, nuncq[ue] primùm in lucem editus  ; Accessit quoque Nicolai Gerbelii praefatio in qua de operis huius praestantia ac utriusq[ue] Tzetzis, Isaacij et Ioannis, uita, lectu quaedam dignissima reperies / Basileae : ex off. Joannis Oporini , 1546</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100169228/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Lykophronos tou Chalkideōs Alexandra. Eis auto touto Izakiou tou Tzetzou exēgēma. Lycophronis Chalcidensis Alexandra. Cum eruditissimis Isacii Tzetzis commentariis, ex fide manuscripti emendatioribus factis. Adjuncta est interpretatio versuum latina, ad verbum, per Gulielmum Canterum. Additæ sunt &amp; ejusdem G. Canteri annotationes, nec non Epitome Cassandræ græcolatina, carmine anacreontio.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180550985/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Lycophronis Chalcidensis Cassandra, sive Alexandra : nunc primum è Graeco in Latinum sermonem ad verbum fideliter versa, &amp; multis in locis castigata, per Bernardum Bertrandum Rheginu[m], Galloprovincialem: unà cu[m] eruditis Isacij Tzetzis grammatici commentarijs, ab eodem Bertrando iam primùm etiam Latio donatis, quibus obscurum illud poema egregiè illustratur, ac res nimis implicatae ob oculos ponuntur. Accessit locuples rerum ac vocum in his praecipuè memorabilium Index / Basilae,  : per Joannem Oporinum , [1558]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045478619/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Lykophronos Alexandra, to skoteinon poiēma. Kai polymathestaton eis auto touto Isakiou tou Tzetzou exēgēma. Lycophronis Chalcidensis Alexandra, sive Cassandra : poema quidem obscurum etiam doctis appellatum, sed ita eruditissimis Isacii Tzetzis grammatici commentariis (quæ &amp; doctissimo cuique vehementer desiderata sunt hactenus, &amp; simul nunc primùm in lucem eduntur) illustratum atque explicatum, ut tam historiarum &amp; fabularum, quàm aliarum quoque reconditarum scitúque dignarum rerum studiosi, horum editione magno se thesauro ditatos, agnoscere meritò possint. Adjectus quoque est Joannis Tzetzæ Variarum historiarum liber, versibus politicis ab eodem græcè conscriptus, &amp; Pauli Lacisii Veronensis opera ad verbum latiǹ conversus, nec unquam antea editus.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109459881/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Alexandra... cum graeco Isaacii, seu potius Joannis Tzetzae commentario. Versiones, variantes lectiones... adjecit Joannes Potterus,... Editio secunda  / Lycophron / Oxonii : sn , 1702</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188817867/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Lykophronos tou Chalkdeōs Kessandra to skoteinon poiēma  : kai eis auto touto Isaakiou mällon de Iōannou tou Tzetzou exēgėma  = = Lycophronis Chaloidensis Cassandra obscurum poema : cum Isaaci vel potius Johannis Tzetzae commentario ... Studio et impenaia Leopoldi Sebastiani / Romae : Apud Antonium Fulgonium , 1803</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/092046231/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Ισαακιου και Ιωαννου του Τζετζου σχολια ειϛ Λυκοφρονα. Lectionibus editionis Sebastianae variis in Lycophronis Alexandram praemissis et recensitis, ad supplendam et absolvendam edit. Reichardianam, e tribus codd. mss. Vitebergensibus unoque Cizensi nunc primum collatis emendavit, notis cum Georg. Frid. Thryllitzschii, tum suis illustravit, scholiis minoribus nondum editis auxit, commentarios Meursii et Potteri addidit, et indicibus instruxit uberrimis M. Christ. Gottfried Müller,... Volumen tria</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007957289/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Index nominum propriorum quae in Scholiis Tzetzianis ad Lycophronem laudantur  / Isabel Gualandri / Milano : Istituto editoriale Cisalpino</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046650253/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Isaac Tzetzae De Metris pindaricis commentarius  / Edidit A.B. Drachmann ... / København : Andr. Fred. Høst &amp; Søn , 1925</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016817931/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Index glossarum quae in Scholiis Tzetzianis ad Lycophronem laudantur  / Isabel Gualandri / Milano : Istituto editoriale cisalpino , impr. 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188536779/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Lycophronis Chalcidensis Alexandra, obscurum poema. Cum Graeco Isaacii, seu potius Joannis, Tzetzae commentario. Versiones, variantes lectiones, emendationes, adnotationes, &amp; indices necessarious adjecit Joannes Potterus, A.M. &amp; Collegii Lincolniensis Socius / Editio 2., priori auctior.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/D01042197">
+      <marcrel:aut rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>[H 516] Lycophronis chalcidensis Alexandra cum eruditissimis Isacii Tzetzis commentariis... (1601) / 270 pp. numérotées en chiffres arabes</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090954181/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/119095157/id"/>
+      <dcterms:bibliographicCitation>Λυκοφρονος του Χαλκιδεως Αλεξανδρα, και εις αιτο τoυτο Ισαακιου του Τζετζου εξηγημα. Lycophronis Chalcidensis Alexandra, cum græcis Isaacii Tzetzis commentariis. Accendunt versiones, variantes lectiones, emendationes, annotationes, &amp; indices necessarii. Cura &amp; opera Johannis Potteri, A. M. &amp; Collegii Lincolniensis Socii</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

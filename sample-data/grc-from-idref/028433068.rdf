@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/028433068">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/028433068/id"/>
+      <dcterms:identifier>028433068</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1984-01-01</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-24T17:23:11</dcterms:modified>
+      <skos:editorialNote>Frammenti / Senocrate, Ermodoro ; ed., trad. e commento a cura di Margherita Isnardi Parente, 1981</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/028433068/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12026940</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000373536183"/>
+      <isni:identifierValid>0000000373536183</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb120269401#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/150928190"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Hermodore_de_Syracuse"/>
+      <skos:prefLabel>Hermodorus Syracusanus (04..-03.. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Hermodore</skos:altLabel>
+      <skos:altLabel>Hermódōros</skos:altLabel>
+      <skos:altLabel>Ermodoro</skos:altLabel>
+      <foaf:name>Hermodorus Syracusanus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/028433068/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-04X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/028433068/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-03X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Élève de Platon à Syracuse</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/167232029/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028433068/id"/>
+      <dcterms:bibliographicCitation>Testimonianze e frammenti  / Senocrate e Ermodoro  ; edizione, traduzione e commento a cura di Margherita Isnardi Parente / Edizione rivista e aggiornata / Pisa : Edizioni della Normale , impr. 2012, cop. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/101299680/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028433068/id"/>
+      <dcterms:bibliographicCitation>Supplementum academicum  : per l'integrazione e la revisione di Speusippo, "Frammenti", e Senocrate - Ermodoro," Frammenti", "La scuola di Platone" I e III (collezione diretta da M. Gigante), ed. trad. commento a cura di M. Isnardi Parente, Napoli (Bibliopolis), 1980 e 1982  / Margherita Isnardi Parente / Roma : Accademia nazionale dei Lincei , 1995</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/000898473/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028433068/id"/>
+      <dcterms:bibliographicCitation>Frammenti  / Senocrate, Ermodoro  ; edizione, traduzione e commento a cura di Margherita Isnardi Parente / [Napoli] : Bibliopolis , [1982, cop. 1981]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/167232029/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028433068/id"/>
+      <dcterms:bibliographicCitation>Testimonianze e frammenti  / Senocrate e Ermodoro  ; edizione, traduzione e commento a cura di Margherita Isnardi Parente / Edizione rivista e aggiornata / Pisa : Edizioni della Normale , impr. 2012, cop. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

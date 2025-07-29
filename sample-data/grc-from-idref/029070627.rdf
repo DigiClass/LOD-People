@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/029070627">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:identifier>029070627</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1988-06-15</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-11T12:13:32</dcterms:modified>
+      <skos:editorialNote>Hephaestion on metre / a translation and commentary by J. M. van Ophuijsen, 1987</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/029070627/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12077303</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000109070951"/>
+      <isni:identifierValid>0000000109070951</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12077303f#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/61570390"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Héphestion_d'Alexandrie"/>
+      <skos:prefLabel>Héphestion (01..-01.. ; grammairien)</skos:prefLabel>
+      <skos:altLabel>Hephaistion (01..-01.. ; grammairien)</skos:altLabel>
+      <skos:altLabel>Hephaestion (01..-01.. ; grammairien)</skos:altLabel>
+      <skos:altLabel>Hephaestio (01..-01.. ; grammairien)</skos:altLabel>
+      <foaf:name>Héphestion</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/029070627/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">01XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/029070627/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">01..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Grammairien grec ayant vécu à Alexandrie au IIe s</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/20174659X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hephaestion on metre  : a translation and commentary  / proefschrift [...]door Johannes Max van Ophuijsen, ... / Leiden : Brill , 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020294670/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hephaestion on metre  / a translation and commentary by J.M. van Ophuijsen / Leiden : E.J. Brill , 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/077293010/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>El léxico métrico de Hefestión  / Josefa Urrea Méndez / Amsterdam : Adolf M. Hakkert , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04620573X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hephaestionis Enchiridion  : cum commentariis veteribus  / edidit Maximilianus Consbruch, accedunt variae metricorum graecorum reliquiae / Lipsiae : in Aedibus B. G. Teubner , 1906</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181003325/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hēphaistiōnos Encheiridion peri metrōn kai poiēmatōn  = = Hephaestionis Alexandrini Enchiridion :   / ad mss. fidem recensitum cum notis variorum praecipue Leonardi Hotchkis, curante Thoma Gaisford / Editio nova et auctior. / Lipsiae : Sumptibus C.H.F. Hartmanni , 1832</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012598062/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hephaestionis Enchiridion  : cum commentariis veteribus  / ed. Maximilian Consbruch  ; accedunt variae metricorum Graecorum reliquiae / Ed. stereotypa ed. anni 1906 / Stutgardiae : in aedibus B.G. Teubneri , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04621755X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Ηφαιστίωνος εγχειρίδιον περί μέτρων και ποιημάτων  = = Hephaestionis Alexandrini Enchiridion :   / iterum edidit Thomas Gaisford / Oxonii : e Typographeo academico , 1855</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099971461/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>@ Theodori Grammatices libri IIII. De Mensibus liber ejusdem. Georgii Lecapeni, de Constructione verborum. Emmanuellis Moscopuli, de Constructione nominum &amp; verborum... Ejusdem, de Accentibus. Hephaestionis, Enchiridion / Florentiae : per haered. P. Juntae , 1526</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007635826/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hephaestion on metre  : a translation and commentary  / by J. M. van Ophuijsen / Leiden : E. J. Brill , 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139468455/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hēphaistiōnos Encheiridion Peri Metrōn Kai Poiēmatōn  = = The Enkheiridion of Hehfaistio on concerning metres and poems : translated into English, and illustrated by notes and a rythmical notation  / [Alexandrinus Hephaestio]  ; by Thomas Foster Barham / Cambridge : University press , 1843</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139468137/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Encheiridion Hēphaistiōnos  = = Enchiridion Hephaestionis :   / Héphestion / Florentiae : per haeredes P. Juntae , 1526, mense aprili</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180758950/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Ἡφαιστίωνως Ἀλεξανδρέως Ἐγχειρίδιον περὶ μέτρων καὶ ποιημάτων. Εἰς τὸ αὐτὸ σχόλια. Hephæstionis Alexandrini Enchiridion de metris et poemate. Cum scholiis antiquis et animadversionibus Joannis Cornelii de Pauw</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065570332/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hephaestionis Alexandrini Enchiridion  / ad mss. fidem recensitum cum notis variorum praecipue Leonardi Hotchkis  ; curante Thoma Gaisford, accedit Procli Chrestomathia grammatica / Editio nova et auctior / Lipsiae : Hartmann , 1832</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145368750/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Métrica griega  / Hefestión  / Aristóxeno  / Ptolomeo  ; introducciónes, traducciones y notas José Urrea Méndez, Francisco Javier Pérez Cartagena y Pedro Redondo Reyes / Madrid : Ed. Gredos , DL 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154451509/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>ΗΦΑΙΣΤΙΩΝΩΣ ΑΛΕΞΑΝΔΡΕΩΣ Εγχείδιον περι μετρων και ποιηματων εις το αγτο σχολια / Typis Regiis. Parisiis, M.D.LIII. Apud Adrianum Turnebum typographum regium. Ex privilegio Regis , 1553</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100027024/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Hephaestionis Alexandrini Enchiridion ad mss. fidem recensitum cum notis variorum praecipue Leonardi Hotchkis... curante Thoma Gaisford...  / Oxonii : e typ. Clarendoniano , 1810</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134517849/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Ἡφαιστίωνος Ἀλεξανδρέως Ἐγχειρίδιον περὶ μέτρων καὶ ποιημάτων. Εἰς τὸ αὐτὸ σχόλια</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/12995473X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>De metris enchiridion et De poemata libellus, cum scholiis et Trichae Epitomis, adjecta Procli Chrestomathia grammatica  / Hephestion  ; Edidit R. Westphal / Lipsiae : B. G. Teubner , 1866</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/133456102/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/029070627/id"/>
+      <dcterms:bibliographicCitation>Enchiridion de metris et poemate, cum scholiis antiquis et animadversionibus  / Hephæstion  ; Joannis Cornelii de Pauw. / Trajecti ad Rhenum : apud M. L. Charlois , 1726</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030816378">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:identifier>030816378</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1991-08-09</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-15T03:05:58</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/086238701"/>
+      <skos:editorialNote>Oeuvres / d'Oribase ; texte grec trad. par les Drs Bussemaker et Daremberg, 1851-1876</skos:editorialNote>
+      <skos:editorialNote>Oribasius latinus / hrsg. von Henning Morland, 1940</skos:editorialNote>
+      <skos:editorialNote>Oribasii Sardiani collectorum medicinalum libri XVII / Joanne Baptista Rosario interprete, 1995 [document électronique : reprod. de l'éd. de 1554]</skos:editorialNote>
+      <skos:editorialNote>Buchwald</skos:editorialNote>
+      <skos:editorialNote>Larousse 19e s. : Oribase de Pergame</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL : Oribasius Pergamenus Sardianus</skos:editorialNote>
+      <skos:editorialNote>Encycl. Grèce</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Oribase</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030816378/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12215558</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000120955320"/>
+      <isni:identifierValid>0000000120955320</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12215558w#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/7440344"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Oribase"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Oribase (0326-0403)</skos:prefLabel>
+      <skos:altLabel>'Oreivásios</skos:altLabel>
+      <skos:altLabel>Oribase de Pergame</skos:altLabel>
+      <skos:altLabel>Oribasius Pergameus Sardianus</skos:altLabel>
+      <skos:altLabel>Oribasius Sardianus</skos:altLabel>
+      <skos:altLabel>'Oreibásios</skos:altLabel>
+      <skos:altLabel>Oreibasios</skos:altLabel>
+      <skos:altLabel>Oribasius</skos:altLabel>
+      <foaf:name>Oribase</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030816378/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0326</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/030816378/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0403</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Médecin de l'empereur Julien l'Apostat</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14250257X/id">
+      <dcterms:bibliographicCitation>De ossibus ad tyrones. De Nervorum, musculorum, venarum et arteriarum, vocalium instrumentorum, vulvae dissectioni libri. De Motu musculorum libri duo. Adjecimus praetera  : Oribasii de Musculorum dissectione libellum, ut et conferre et quid Galeno vere tribui debeat, et quid non lectore indicare possit.  / Galienus / [Deuxième édition faisant suite à celle de 1549] / Lugduni : apud G. Rouillium , 1551</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100968228/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Die Lateinischen Oribasicesübersetzungen  / von Henning Mörland / Osloae : typis expressit A. W. Brögger , 1932</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/008265917/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Dieting for an emperor  : a translation of books 1 and 4 of Oribasius' Medical compilations  / with an introduction and commentary  / by Mark Grant / Leiden : Brill , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/242511325/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Die allgemeinen Wirkungspotenziale der einfachen Arzneimittel bei Galen  : Oreibasios, Collectiones medicae XV  : Einleitung, Übersetzung und pharmazeutischer Kommentar  / Maximilian Haars  ; mit einem Geleitwort von Sabine Anagnostou / Stuttgart : In Kommission: Wissenschaftliche Verlagsgesellschaft mbH , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158295609/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Ginecología y patología sexual en las Colecciones médicas de Oribasio  / Mercedes López Pérez / Oxford : Archaeopress , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100794971/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasius latinus  Erster Teil,   / herausgegeben von Henning Mørland / Osloae : A. W. Brøgger , 1940</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/228518539/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>L' igiene in età tardoantica  : Oribasio di Pergamo  / Serena Buzzi / Alessandria : Edizioni dell'Orso</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197816770/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Zahnärztliches in den Werken des Oreibasios  : Inaugural-Dissertation zur Erlangung der Doktorwürde der Zahnheilkunde der hohen medizinischen Fakultät der Sächsischen Landesuniversität zu Leipzig  / vorgelegt von Willy Heinecke / Leipzig : [nom de l'éditeur non disponible] , 1922</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20167128720674165">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribase (0326-0403).</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2017123161367209">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 19.5] Recherches sur l’Oribase latin</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171231715066314">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 17.9.4] « Athénée d'Attale. Agathinos. Archigène. Antyllus / Démosthène […]; Créton 	[…]; Asclépiade [...] » / 7  feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171231715066337">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 17.9.8.1] « Oribase, 8 T23 100 t. 3 » / 13  feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-2017124141571918">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 18.2.5] « Παιδοτροφία / 1982 », « Semaine du 6 au 12 juillet 82 / Consulté. Noté » /  45 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171241614898220">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 21.8.5.1] « Vallambert et l'utilisation des Livres incertains d'Oribase » / 2    feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171251213481640">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 22.1.2] Hippocrate, sur la naissance des dents et Oribase et ses commentaires aux Aphorismes d’Hippocrate / 11  feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171251213481648">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 22.2.3.2] Notes concernant l’utilisation d’Oribase par Simon de Vallambert / 27 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171251414959524">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 24.10-JB 25.1] Oribase</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/250156229/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Operum Hippocratis Coi, et  Galeni Pergameni archiatrΩn Tomus XII. continens quae ad chirurgiam spectant. Cum figuris aeneis suo loco insertis. Renatvs Charterivs Vindocinensis, Doctor Medicus Paris. Regis Christianissimi Consiliarius Medicus, ac Professor, plurima interpretatus, universa emendavit, instauravit, notavit, auxit, secundum distinctas Medicinae partes in tredecim Tomos digessit, &amp; conjunctim Graecè &amp; Latinè primus edidit.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/250160595/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Operum Hippocratis Coi, et Galeni Pergameni archiatrΩn Tomus X. continens quæ ad morborum curationem spectant. Renatvs Charterivs Vindocinensis, Doctor Medicus Paris. Regis Christianissimi Consiliarius Medicus, ac Professor, plurima interpretatus, universa emendavit, instauravit, notavit, auxit, secundum distinctas Medicinae partes in tredecim Tomos digessit, &amp; conjunctim Graecè &amp; Latinè primus edidit.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/149330995/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Medicae artis principes post Hippocratem &amp; Galenum  :  graeci latinitate donati  :  Actuarius, Aretaeus, Nic. Myrepsus, Ruffus Ephesius, Oribasius, Paulus Aegineta, Aetius, Alex. Trallianus; latini, Corn. Celsus, Scrib. Largus, Marcell. Empiricus... Hippocr. aliquot loci cum Corn. Celsi interpretatione... Henr. Stephani de hac sua editione tetrastichon. Quaerere quos aegri per compita multa solebant, hospita nunc per me est omnibus una domus. Prima salutiserae medicorum gratia dextrae : sistenti medicos nónne secunda mihi / Tours : CESR , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183612655/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Les anciens et renommés autheurs de la médecine et chirurgie. Hippocrate: Des ulceres. Des fistules. Des playes de la teste. Avec les commentaires de Guy Vide sur chacun livre. Hippocrate: Des fractures. Des articles. De l'officine du chirurgien. Avec les commentaires de Galien. Galien: Des bandes. Oribase: Des lacqs. Des machines et engins Le tout traduit fidèlement du grec et du latin en françois par un docteur en medecine ... et illustré de figures / A Paris : chez Jean Gesselin , 1634</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182512614/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani Collectorum medicinalium, libri XVII, qui ex magno septuaginta librorum volumine ad nostram ætatem soli pervenerunt  / Oribasii Sardiani  ; Joanne Baptista Rasario ... interprete / Bordeaux : PRES Université de Bordeaux. Département documentation , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042692253/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Physica S. Hildegardis Elementorum, fluminum aliquot Germaniae, metallorum, leguminum, fructuum, &amp; herbarum : arborum, &amp; arbustorum : piscium denique, volatilium, &amp; animantium terrae naturas &amp; operationes. IIII libris mirabili experientia posteritati tradens. Oribasii medici De simplicibus libri quinque. Theodori physici Dieta, docens quibusnam salubriter utendum, vel abstinendum. Esculapii liber unus, de morborum, infirmitatum, passionumque corporis humani caussis, descriptionibus, &amp; cura. Omnium Capitum Indice copiosissimo in calce operis subscripto</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180450158/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>2. Tomus ... Oribasii Sardiani Collectorum ad imp. Iulian. Caes. Aug. libri .... Qui ex magno septuaginta librorum volumine ad nostram aetatem soli pervenerunt / Basileae, Isingrin,  1557</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09754535X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oeuvres d'Oribase, texte grec, en grande partie inédit  Tome cinquième,   / collationné sur les manuscrits, traduit pour la première fois en françaisavec une introduction, des notes, des tables et des planches par les docteurs Bussemaker et Ch. Daremberg / Paris : Impr. nationale , 1873</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119152126/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Medici bizantini  : Oribasio di Pergamo, Aezio d'Amida, Alessandro di Tralle, Paolo d'Egina, Leone medico  / a cura di Antonio Garzya, Roberto De Lucia, Alessia Guardasole... [et al.] / Torino : Unione tipografico-editrice torinese , cop. 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/13557434X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>De re medica huic volumini insunt Sorani Ephesij Peripatetici, &amp; vetustissimi Archiatri, in artem medendi isagoge, hactenus non visa. D. Oribasii Sardiani fragmentum, de victus ratione, quolibet anni tempore utiliti, antea, nunquam aeditum. C. Plinii Secundi de re medica libri V. accuratius recogniti, &amp; (nothis ac pseudepigraphis semotis) ab innumeris mendarum millibus, side vetutissimi codicis repurgati. L. Apuleii Madaurensis, philosophi Platonici, de herbarum virtutibus, uerè aurea &amp; salutaris historia, è tenebris eruta, &amp; à situ vindicata. Accesit his vice coronidis, Libellus utilissimus de Betonica, quem quidam Antonio Musae, nõnulli L. Apuleio adscribendum autumant, nuper excusus. Praeterea rerum &amp; verborum locupletissimus index. Cum gratia &amp; privilegio Caesareo</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04534518X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani Collectorum medicinalium libri XVII  : Qui ex magno septuaginta librorum volumine ad nostram aetatem soli pervenerunt, Joanne Baptista Rasario, medico, Novariensi, interprete</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042667275/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani Collectorum medicinalium, libri XVII, qui ex magno septuaginta librorum volumine ad nostram ætatem soli pervenerunt. Joanne Baptista Rasario ... interprete</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/092041817/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani Synopseos ad Eustathium filium libri novem : quibus tota medicina in compendium redacta continetur : Ioanne Baptista Rasario novariensi medico interprete</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/077033574/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Physica S. Hildegardis. elementorum fluminum aliquot Germaniæ, metallorum, leguminum, fructuum, &amp; herbarum... Oribasii dedici De simplicibus libri quinque. Theodori physici Dieta, docens quibusnam salubriter utendum, vel abstinendum. Esculapii liber unus, De morborum, infirmitatum, passionumq[ue] corporis humani caussis, descriptionibus, &amp; cura / Argentorati apud Joannem Schottum. M. D. XXXIII , 1533</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109454863/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Graecorum chirurgici libri Sorani unus de fracturarum signis Oribasii duo de fractis et de luxatis e collectione Nicetae ab antiquissimo et optimo codice Florentino descripti conversi atque editi ab Antonio Cocchio anatomes proferrore publico et antiquario Caesaris</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125443234/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Specimen repertae nuper Oribasii Synopsis  IX, librorum ad filium Eustathium Graece nunc primum editum  / Oribasius  ; (Script. acad. quo Just. Carolo Friderico Hecker gratulantur auditores) / Berolini : Typ. J. F. Starckii , 1843</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10019558X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Medicæ artis principes, post Hippocratem &amp; Galenum, græci latinitate donati, Aretæus, Ruffus Ephesius, Oribasius, Paulus Aegineta, Aetius, Alex. Trallianus,  Actuarius,  Nic. Myrepsus, Latini, Corn. Celsus, Scrib. Largus, Marcell. Empiricus. Aliíque præterea, quorum unius nomen ignoratur. Index non solùm copiosus, sed etiam ordine artificioso omnia digesta habens. Hippocr. aliquot loci cum Corn. Celsi interpretatione. Henr. Stephani de hac sua editione tetrastichon. Quærere quos ægri per compita multa solebant, hospita nunc per me est omnibus una domus. Prima salutiseræ medicorum gratia dextræ : sistenti medicos nónne secunda mihi ?</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125443080/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>De musculorum dissectione ex Galeno, Iunio Paulo Crasso Patauino interprete. Est autem pars libri XXV. Galeni Pergameni dissectionis venarum arteriarumque commentarium, eiusdem Gal. De nervis compendium, Antonio Fortolo Ioseriensi interprete. / Ex typographia Ioannis Barbæi. Prostant Parisiis apud Iacobum Gazellum, in via Iacobæa, sub tribus Coronis, insigni Coloniæ Agrippinẽsis. M. D. XL. VI. , [1546]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/255304137/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani Synopseos ad Eustathium filium libri nouem: quibus tota medicina in compendium redacta continetur: Ioanne Baptista Rasario Nouariensi medico interprete. / [Lieu de publication inconnu] : [éditeur inconnu]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/097544981/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oeuvres d'Oribase, texte grec, en grande partie inédit  Tome troisième,   / collationné sur les manuscrits, traduit pour la première fois en français avec une introduction, des notes, des tables et des planches par les docteurs Bussemaker et Daremberg / Paris : Impr. nationale , 1858</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109462300/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Anatomica ex libris Galeni  / Oribase / Lugduni Batavorum , 1735</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075872080/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oeuvres d'Oribase  : texte grec, en grande partie inédit, collationné sur les manuscrits  / traduit pour la première fois en français,avec une introduction, des notes, des tables et des planches par les docteurs Bussemaker et Ch. Daremberg / Edition électronique : numérisation 2003 / Paris : BIUM , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/169669602/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Classicorum auctorum e Vaticanis codicibus editorum  Tomus IV, complectens scripta aliquot Oribasii, Procopii, Isaei, Themistii, Porphyrii, Philonis, Aristidis, et alia quaedam  / curante Angelo Maio,.. / Edition électronique : numérisation 2013 / Paris : BIU Santé , 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063479133/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Opera / Basileae : [s.n.] , 1557</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136650457/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Medici antiqui Graeci, Latini, atque Arabes. Qui de Febribus scripserunt. Summo studio, atque labore ab excellentissimo d. Ioanne Fernelio, Ambiano, medico, ac philosopho olim in unum collecti, nunc vero omni diligentia in hac impressione, in lucem editi. Opus praeclarum, et tam medicis, quam rem medicam profitentibus, ad cognoscendas qualitates, differentias febrium, remediaque et curationes earum perutile, ac necessarium. Nomina auctorum, versa pagina indicabit. Cum indice, tum capitum, tum rerum locupletissimo / Venetijs, :  apud Robertum Meiettum , 1594</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/157481042/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Dissertatio philologico medica inauguralis  : exhibens librum XLIV collectaneorum medicinalium Oribasii, nuper ab Angelo Majo Romae Graece editum, cum adjuncta versione Latina adnotationibusque ...   / Ulco Cats Bussemaker / Edition électronique : numérisation 2011 / Paris : BIU Santé , 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100258174/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani, ad Eunapium libri IIII quibus facile parabilia medicamenta, facultates simplicium, morborum et locorum affectorum curationes continentur, Jo. Bap. Rasario,... interprete... His etiam Observationes interpretis in primum tomum adjecimus, et diligentius... ex interpretis recognitione, imprimenda curavimus / Venetiis : ex off. Erasmiana , 1558</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064746550/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Synopsis ad Eustathium, Libri ad Eunapium  / edidit Joannes Raeder / Lipsiae : in aedibus B. G. Teubneri , 1926</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187194033/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Claudii Galeni Aliquot opuscula nunc primum Venetorum opera inventa et excusa, quorum sequens tibi pagella catalogum indicabit / Edition électronique : numérisation 2015 / Paris : BIU Santé , 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020030193/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oeuvres d'Oribase  : texte grec, en grande partie inédit, collationné sur les manuscrits  / traduit pour la première fois en français ; avec avec une introduction, des notes, des tables et des planches par les docteurs Bussemaker et Daremberg / Paris : A l'Imprimerie nationale , 1851-1876</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/106321463/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Physica S. Hildegardis. Elementorum fluminum aliquot Germaniae metallorum, leguminum, Fructuum, &amp; Herbarum : Arborum, &amp; Arbustorum : Piscium denique, Volatilium, &amp; Animantium terrae naturas &amp; operationes. IIII. libris mirabili experientia posteritati tradens. Oribasi medici de simplicibus libri quinque. Theodori physici dieta, docens quibusnam salubriter utendum, vel abstinendum. Esculapii liber unus, de morborum, infirmitatum, passionumque corporis humani caussis, descriptionibus, &amp; cura. Omnium Capitum Indice copiosissimo in calce operis subscripto</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/091904463/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani medici longe excellentissimi Opera, quae extant omnia, tribus tomis digesta, Joanne Baptista Rasario interprete / Basileae, apud Michaelem Isingrinium, anno domini M. D. LVII , 1557</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099760401/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Chirurgia è graeco in latinum conversa, Vido Vidio Florentino interprete, cum nonnullis ejusdem Vidii co[m]mentariis / Paris : Excudebat Petrus Galterius Lutetiae Parisiorum, M. D. XLIIII , 1544</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/260914851/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Il libro X delle Collectiones medicae  / Oribasio di Pergamo  ; testo, traduzione, commento, indici a cura di Tommaso Simone / Galatina : Congedo editore , 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/106767283/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Caelii Aureliani Siccensis Tardarum passionum libri V. D. Oribasii bal ... Euporiston lib: III. Medicinæ compen: lib: I, Curationum lib: I, Trochiscoru[m] confect: lib: I / Excudebat Henricus Petrus Basileæ mense Augusto, anno M. D. XXIX</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170296024/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Ordinis Medici In Vniversitate Literaria Ienensi H. T. Decanvs D. Christ. Gottfrid. Grvner ... Dissertationem Iinavgvralem Viri Clarissimi Henrici Ernesti Ivsti Stollbergensis A.D. XX.Ivlii CICICCCLXXXII Habendam Indicit Oribasii Medicinalivm collectorvm Liber ... Et Fragmentvm Alivd E Codice Mosqvensi Nvnc Primvm Graece et Latine ; Liber 1 [cum vita candidati Henrici Ernesti Justi] / Edition électronique : numérisation 2013 / Paris : BIU Santé , 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/097544744/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oeuvres d'Oribase, texte grec, en grande partie inédit  Tome deuxième,   / collationné sur les manuscrits, traduit pour la première fois en français avec une introduction, des notes, des tables et des planches par les docteurs Bussemaker et Daremberg / Paris : Impr. nationale , 1854</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/255315600/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani Collectorum medicinalium, libri 17, qui ex magno septuaginta librorum volumine ad nostram aetatem soli peruenerunt. Ioanne Baptista Rasario, medico, Nouariensi, interprete. / [Lieu de publication inconnu] : [éditeur inconnu]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042587980/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii medici clarissimi Co[m]mentaria in Aphorismos Hippocratis hactenus non visa, Joannis Guinterii Andernaci doctoris medici industria velut è profundissimis tenebris eruta, &amp; nunc primùm in medicinae studiosorum utilitatem aedita</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100258190/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani Synopseos ad Eustathium filium libri novem : quibus tota medicina in compendium redacta continetur : Ioanne Baptista Rasario... interprete / Venetiis : apud Paulum Manutium Aldi filium , [1554]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06353844X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Les anciens et renommés aucteurs de la médicine et chirurgie. Hippocrates : Des ulceres, des fistules, des playes de la teste, avec les commentaires de Guy Vide sur chascun livre ; Hippocrates : des fractures, des articles, de l'officine du chirurgien, avec les commentaires de Galien. Galien : des bandes. Oribase : des lacqs, des machines et engins. Le tout traduit fidèlement du grec et du latin en françoys par un docteur en medicine, et illustré de figures, par lesquelles la chose est au vif representee. Aveq une table tres-ample de toutes les matieres principales. / A Lyon, par Guillaume Rouille, a l'escu de Venise, 1555, avec privilege du roy.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042689775/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>De re medica huic volumini insunt, Sorani Ephesii Peripatetici, &amp; vetustissimi Archiatri, in artem medendi isagoge, hactenus non visa. D. Oribasii Sardiani fragmentum, De victus ratione, quolibet anni tempore utili, antea nunquam aeditum. C. Plinii Secundi De re medica libri V. accuratius recogniti, &amp; (nothis ac pseudepigraphis semotis) ab innumeris mendarum millibus, fide vetutissimi [sic] codicis repurgati. L. Apuleii Madaurensis philosophi Platonici, De herbarum virtutibus vere aurea &amp; salutaris historia è tenebris eruta, &amp; à situ vindicata. Accessit his vice coronidi, libellus utilissimus De betonica, quem quidam Antonio Musae, nonnulli L. Apuleio adscribendum autumant, nuper excusus. Praeterea rerum &amp; verborum locupletissimus Index</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/202742849/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Ta ton Oribasiou iatrikon synagogon ek ton Galenou, anatomika = Oribasii collectaneorum artis medicæ liber, quo totius corporis humani sectio explicatur, ex Galeni commentariis / Edition électronique : numérisation 2017 / Paris : BIU Santé , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/161563392/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>XXI veterum et clarorum medicorum Graecorum varia opuscula. Primo nunc impensis Anastasii, Nicolaï, Zoës et Michaëlis, fratrum Zosimadarum, nobilissimorum Ioanninorum, de litteris Graecis intra et extra patriam suam optime meritorum ex Oribasii codice Mosquensi Graece edidit interpretationem Latinam Io. Baptistae Rasarii, item suas animadversiones et indicem vocabulorum adjecit Christianus Fridericus de Matthaei... Cum tabula aenea / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/157526062/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Graecorum chirurgici libri Sorani unus de fracturarum signis: Oribasii duo de fractis et de luxatis e collectione Nicetae ab antiquissimo et optimo codice Florentino descripti conversi atque editi ab Antonio Cocchi / Edition électronique : numérisation 2010 / Paris : BIUM , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/234019557/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Vidi Vidii Florentini opera varia. Omnibus medicinæ studiosis utilissima, præsertim chirurgis pernecessaria. Universa, ac singula hac postrema omnium editione, partim quæ ab Hippocrate, Galeno Oribasio, latinitate donata, partim quæ ab ipso auctore composita, summa diligentia, &amp; maturo judicio emendata &amp; illustrata.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/175739714/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani collectorum Medicinalium libri XVII, qui ex magno septuaqinta librorum volumine ad nostram aetatem soli pervenerunt Ioanne Baptista Rasario... interprete. Oribase / Parisiis : Apud Bernardinum Turrisanum , 1555</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/230825168/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii medici clarissimi co[m]mentaria in Aphorismos Hippocratis hactenus non visa, Joannis Guinterii Andernaci doctoris medici industria velut è profundissimis tenebris eruta, &amp; nunc primùm in medicinæ studiosorum utilitatem ædita.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06536242X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Classicorum auctorum e Vaticanis codicibus editorum  Tomus IV, complectens scripta aliquot Oribasii, Procopii, Isaei, Themistii, Porphyrii, Philonis, Aristidis, et alia quaedam  / curante Angelo Maio,.. / Romae : Typis Vaticanis , 1831</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025239546/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii collectionum medicarum reliquiae  / edidit Ioannes Raeder / Amsterdam : A. M. Hakkert , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/091912423/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani Synopseos ad Eustathium filium lib. novem : quibus tota medicina in compendium redacta continetur. Joanne Baptista Rasario Novariensi medico interprete / Parisiis. :  In officina Audoëni Parvi. 1554 , 1554</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108029522/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Experimentarius medicinae continens trotulae curandarum Aegritudinum Muliebrium, ante, in, &amp; post patrum LIB. unicum, nusquam antea editum. Quo foeminei sexus accidentes morbi &amp; passiones. Infantum &amp; puerorum à partu cura, nutricis delectus, ac reliqua iisce adnata. Dispositiones utriq. Sexui contingentes. Experimenta denique uariarum Aegritudinum : cum quibusdam medicamentis de corationi corporis inseruientia, edocentur. OCT. Horatini, De curationibus omnium ferme Morborum Homini accidentium. De acutis &amp; chronicis passionibus. De Mulierum accidentibus : &amp; curis eorundem. Deq. physica scientia Experimentorum libros quatuor. Lib. item quatuor Hildegardis, De elementorum, fluminum aliquot Germaniae, Metallorum, Leguminum, Fructicum, Herbarum, Arborum, Arbustorum, Piscium, Volatilium, &amp; Animantium terrae naturis &amp; operationibus. Oribasii de simplicium, quae Medicis praecipue in usu  sunt, virtutibus lib. quinque. Theodori dietam : quibusnam vel salubriter utendum, vel cautius abstinendum. Hippocratis item brevissimam, per singulos anni menses. Exculapii De Morborum, infirmitatum, corporisque accidentium origine, caussis, descriptionibus &amp; cura Lib. unum utilissimum / Argent. apud Ioannem Schottum. Anno Christi M. D. XLIIII. , 1544</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/168358182/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Galeni Sexta classis eam chirurgiae partem amplectitur, quae ad cucurbitulas scarificationes, hirudines, derivationem, revulsionem, ac phlebotomiam spectat. Cur Huic clasi in secunda hac editione... / Venetiis : apud Juntas , 1550</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020722788/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Dissertatio philologico medica inauguralis  : exhibens librum XLIV collectaneorum medicinalium Oribasii, nuper ab Angelo Majo Romae Graece editum, cum adjuncta versione Latina adnotationibusque ...   / Ulco Cats Bussemaker / Groningae : apud W. van Boekeren , 1835</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/107506343/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Hymnus der medicinischen Facultaet zur Festfeier am 21. Januar 1882  : [Als Professor Freund einen Ruf nach Breslau abgelehnt hatte]  : Amico Oribasius, pœta pathologicus laureatus  / [= Adolf Kussmaul] / Strassburg? : S.n , 1882?</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/114381860/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Cælii Aureliani Siccensis Tardarum passionum libri V. D. Oribasii Sardi Juliani Cæsaris archiatri Euporiston lib. III. Medicina compen. lib. I. Curationum lib. I. Trochiscorum confect. lib. I</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081056117/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Chirurgia. De chirurgia scriptores optimi quique veteres et recentiores, plerique in Germania antehac non editi, nunc primum in unum conjuncti volumen. Singuli qui hoc volumine continentur authores cum suis scriptis, sequente mox pagina enumerantur.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/094597030/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii medici clarissimi commentaria in aphorismos Hippocratis hactenus no[n] visa, Joannis GuinteriI Andernaci doctoris medici industria, velut è profundissimis tenebris eruta, &amp; nunc primum in medicinæ studiosorum utilitatem ædita.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11471312X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Les anciens et renommés autheurs de la médecine et chirurgie. Hippocrate: Des ulceres. Des fistules. Des playes de la teste. Avec les commentaires de Guy Vide sur chacun livre. Hippocrate: Des fractures. Des articles. De l'officine du chirurgien. Avec les commentaires de Galien. Galien: Des bandes. Oribase: Des lacqs. Des machines et engins Le tout traduit fidèlement du grec et du latin en françois par un docteur en medecine ... et illustré de figures / Paris : chez Pierre Ménard , 1634</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/122987454/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Ordinis Medici In Vniversitate Literaria Ienensi H. T. Decanvs D. Christ. Gottfrid. Grvner ... Dissertationem Iinavgvralem Viri Clarissimi Henrici Ernesti Ivsti Stollbergensis A.D. XX.Ivlii CICICCCLXXXII Habendam Indicit Oribasii Medicinalivm collectorvm Liber ... Et Fragmentvm Alivd E Codice Mosqvensi Nvnc Primvm Graece et Latine ; Liber 1 [cum vita candidati Henrici Ernesti Justi] / Jenae, Litteris Mavkii , [1782]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/270995633/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Notae et emendationes in Hippocratis Aphorismos et Praenotionum librum. Eduardi-Francisci-Mariae Bosquillon, Equitis, &amp;c. Quibus praefixa est Versio antiqua Aphorismorum, a vulgatis multum discrepans, cum Commentariis ex Oribasio excerptis, et additus Index compendii instar in Aphorismos et Praenotiones</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109446550/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Les Anciens et renommés aucteurs de la médicine et chirurgie:Hippocrates, des Ulcères, des Fistules, des Playes de la teste, avec les commentaires de Guy Vide sur chascun livre. Hippocrates, des Fractures, des Articles, de l'Oficine du chirurgien, avec les commentaires de Galien.Galien, des Bandes.Oribase, des Lacqs. des Machines et engins, le tout traduict fidèlement du grec et du latin en françoys par un docteur en médicine, &amp; illustré de figures, etc. / Paris : C. Ménard , 1634</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/280243421/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Experimentarius medicinae continens Trotulæ curandarum ægritudinum muliebrium, ante, in, &amp; post partum lib. unicum, nusquam antea editum. Quo fœminei sexus accidentes morbi &amp; passiones. Infantum &amp; puerorum à partu cura, nutricis delectus, acreliqua ijsce adnata. Dispositiones utriq sexui contingentes. Experimenta denique uariarum ægritudinum : cum quibusdam medicamentis de corationi corporis inseruientia, edocentur. Oct. Horatiani, De curationibus omnium fermè morborum homini accidentium. De acutis &amp; chronicis passionibus. De mulierum accidentibus : &amp; curis eorundem. Deq physicascientia experimentorum libros quatuor. Lib. item quatuor Hildegardis, De elementorum, fluminum aliquot Germaniæ, metallorum, leguminum, fruticum, herbarum, arborum, arbustorum, piscium, volatilium,&amp; animantium terræ naturis &amp; operationibus. Oribasii De simplicium, quae medicis præcipuè in usu sunt, virtutibus lib. quinquè. Theodori Dietam : quibusnam vel salubriter utendum, uel cautius abstinendum. Hippocratis item brevissimam, per singulos anni menses. Esculapii De morborum, infirmitatum, corporisquè accidentium origine, caussis, descriptionibus &amp; cura lib. unum utilissimum. Cum caes, maiest, privilegio ad quinquennium.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/123227879/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>XXI veterum et clarorum medicorum Graecorum varia opuscula. Primo nunc impensis Anastasii, Nicolaï, Zoës et Michaëlis, fratrum Zosimadarum, nobilissimorum Ioanninorum, de litteris Graecis intra et extra patriam suam optime meritorum ex Oribasii codice Mosquensi Graece edidit interpretationem Latinam Io. Baptistae Rasarii, item suas animadversiones et indicem vocabulorum adjecit Christianus Fridericus de Matthaei... Cum tabula aenea / Mosquae , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/092158412/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Claudii Galeni Aliquot opuscula nunc primum Venetorum opera inventa et excusa, quorum sequens tibi pagella catalogum indicabit</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096309830/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oeuvres d'Oribase, texte grec, en grande partie inédit  Tome premier,   / collationné sur les manuscrits, traduit pour la première fois en français avec une introduction, des notes, des tables et des planches par les docteurs Bussemaker et Daremberg / Paris : Impr. nationale , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/008265917/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Dieting for an emperor  : a translation of books 1 and 4 of Oribasius' Medical compilations  / with an introduction and commentary  / by Mark Grant / Leiden : Brill , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100794971/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasius latinus  Erster Teil,   / herausgegeben von Henning Mørland / Osloae : A. W. Brøgger , 1940</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180449311/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Sardiani De aquis. Oreibasiou Sardianou perì ydaton / [Sans lieu, 15..] , 1543</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042719356/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Medicae artis principes, post Hippocratem &amp; Galenum. Graeci Latinitate donati, Aretæus, Ruffus Ephesius, Oribasius, Paulus Aegineta, Aetius, Alex. Trallianus, Actuarius, Nic. Myrepsus. Latini. Corn. Celsus, Scrib. Largus, Marcell. Empiricus. Aliiq́ue præterea, quorum vnius nomen ignoratur. Index non solùm copiosus, sed etiam ordine artificioso omnia digesta habens. Hippocr. aliquot loci cum Corn. Celsi interpretatione. Henr. Stephani de hac sua editione tetrastichon. Quærere quos ægri per compita multa solebant, hospita nunc per me est omnibus una domus. Prima salutiseræ medicorum gratia dextræ : sistenti medicos nónne secunda mihi ?</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/261042467/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Les anciens et renommés autheurs de la medecine et chirurgie. Hippocrate : Des ulceres. Des fistules. Des playes de la teste. Avec les commentaires de Guy Vide sur chacun livre. Hippocrate : Des fractures. Des articles. De l'officine du chirurgien. Avec les commentaires de Galien. Galien : Des bandes. Oribase : Des lacqs. Des machines et engins. Le tout traduit fidelement du grec et du latin en françois par un docteur en medecine &amp; illustré de figures, par lesquelles la chose est au vif representée. Avec une table tres-ample de toutes les matières principales.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025239570/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Synopsis ad Eustathium, Libri ad Eunapium  / edidit Ioannes Raeder / Amsterdam : A. M. Hakkert , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/097545171/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oeuvres d'Oribase, texte grec, en grande partie inédit  Tome quatrième,   / collationné sur les manuscrits, traduit pour la première fois en français avec une introduction, des notes, des tables et des planches par les docteurs Bussemaker et Daremberg / Paris : Impr. nationale , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/078152097/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Ta ton Oribasiou iatrikon synagogon ek ton Galenou, anatomika = Oribasii collectaneorum artis medicæ liber, quo totius corporis humani sectio explicatur, ex Galeni commentariis / Parisiis, M. D. LVI. Apud Guil. Morelium , 1556</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/168363712/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Galeni Septima classis curandi methodum tum diffuse tum breviter descriptam, victus rationem in morbis acutis, singulorum morborum facile paranda remedia, privatam quorundam morborum curationem, chirurgiae constitutionem, fracturarum ac luxationum sanationem, fasciarum denique &amp; laqueorum &amp; machinamentorum tractatum continet. Totam hanc classem in hac secunda editione... / Venetiis : apud Juntas , 1550</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165430761/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Medici antiqui Graeci, Latini, atque Arabes. Qui de Febribus scripserunt. Summo studio, atque labore ab excellentissimo d. Ioanne Fernelio, Ambiano, medico, ac philosopho olim in unum collecti, nunc vero omni diligentia in hac impressione, in lucem editi. Opus praeclarum, et tam medicis, quam rem medicam profitentibus, ad cognoscendas qualitates, differentias febrium, remediaque et curationes earum perutile, ac necessarium. Nomina auctorum, versa pagina indicabit. Cum indice, tum capitum, tum rerum locupletissimo / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/229605192/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Caelii Aureliani SiccensisTardarum passionum libri V. D. Oribasii bal ... Euporiston lib: III. Medicinæ compen: lib: I, Curationum lib: I, Trochiscoru[m] confect: lib: I / Edition électronique : numérisation 2008 / Paris : BIU Santé , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100258131/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Graecorum chirurgici libri Sorani unus de fracturarum signis, Oribasii duo de fractis et de luxatis, e collectione Nicetae... descripti, conversi atque editi ab Antonio Cocchio... / Florentiae : ex typ. imperiali , 1754</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/097545619/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oeuvres d'Oribase, texte grec, en grande partie inédit  Tome sixième,   / collationné sur les manuscrits, traduit pour la première fois en françaisavec une introduction, des notes, des tables et des planches par les docteurs Bussemaker et Ch. Daremberg  / par A. Molinier,... / Paris : Impr. nationale , 1876</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063787806/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Collectionum medicarum reliquiae  Volumen I, Libri I-VIII  / edidit Johannes Raeder / Lipsiae : in aedibus B. G. Teubneri , 1928-1933</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/242511325/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Die allgemeinen Wirkungspotenziale der einfachen Arzneimittel bei Galen  : Oreibasios, Collectiones medicae XV  : Einleitung, Übersetzung und pharmazeutischer Kommentar  / Maximilian Haars  ; mit einem Geleitwort von Sabine Anagnostou / Stuttgart : In Kommission: Wissenschaftliche Verlagsgesellschaft mbH , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042631939/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Medicæ artis principes, post Hippocratem &amp; Galenum. Graeci latinitate donati, Aretæus, Ruffus Ephesius, Oribasius, Paulus Aegineta, Ae͏̈tius, Alex. Trallianus, Actuarius, Nic. Myrepsus. Latini, Corn. Celsus, Scrib. Largus, Marcell. Empiricus. Aliíque præterea, quorum unius nomen ignoratur. Index non solùm copiosus, sed etiam ordine artificioso omnia digesta habens. Hippocr. aliquot loci cum Corn. Celsi interpretatione</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171191414995116">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 8.8.3] Oribase, Collections médicales II, 58, pp. 124-159 / 50 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201712414188153">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 18.7]  « Galien, De S[anitate] T[uenda], I, 7. 11 / Oribase, Livres incertains » / 65 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201712414188154">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 18.8]  Textes de Soranus [?], Oribase, Pseudo-Plutarque, Galien / 55 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171251415511822">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[JB 23.3.7.1] Oribase, Synopse à Eustathe, III, VII, VIII et Livre à Eunape, III  / 13 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/PA1030061">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>[Pages 18 et 23] Oribasii de ligamentis et machinamentis chirurgicis, ex Heraclide Ephesio [lib. XLVIII] ; e cod. gr. 2247</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042683920/id">
+      <marcrel:asn rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>De balneis omnia quae extant apud Graecos, Latinos, et Arabas, tam medicos quàm quoscunque cȩterarum artium probatos scriptores : qui vel integris libris, vel quoquo alio modo hanc materiam tractauerunt, nuper hinc inde accurate conquisita &amp; excerpta, atque in vnum tandem hoc volumen redacta : in quo aquarum ac thermarum omnium, quae in toto ferè orbe terrarum sunt, metallorum item, &amp; reliquorum mineralium naturȩ, vires, atque vsus exquisitissime explicantur: indicibus quatuor appositis, quorum primus auctores omnes, qui in hoc volumine habentur, secundus balneorum nomina, tertius capita cuiuscunq[ue] libri, quartus mirabiles curationes in his libris contentas, quae vi ac beneficio balneorum factae fuerunt, complectitur : opus nostra hac aetate, in qua tam frequens est thermarum vsus, medicis quidem necessarium, caeteris vero omnibus tum summopere vtile, tum etiam periucundum</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042799511/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Oribasii Anatomica  / ex libris Galeni, cum versione latina Joannis Baptistæ Rasarii: curante Gulielmo Dundass  ; cujus notae accedunt / Lugduni Batavorvm : J. A. Langerack , 1735</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/283611928/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Hippocratous Aphorismoi kai Prognōsticon  = = Hippocratis Aphorismi et Praenotionum liber, Recensuit, notasque addidit Eduardus-Franciscus-Maria Bosquillon... : </dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073754919/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Caelii Aureliani siccensis tardarum passionum libri V  ;  Oribasii... Euporiston lib. III, Medicinae compen. lib. I, Curationum lib. I, Trochiscoru[m] confect. lib. I  / Caelius Aurelianus, Oribase / Edition électronique : numérisation 2003 / Paris : BIUM , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080088953/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/030816378/id"/>
+      <dcterms:bibliographicCitation>Caelii Aureliani siccensis Tardarum passionum libri V. D. Oribasii... Euporiston lib: III. Medicinæ compen: lib: I, Curationum lib: I, Trochiscoru[m] confect: lib: I / Excudebat Henricus Petrus Basileæ mense Augusto, anno M. D. XXIX , 1529</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

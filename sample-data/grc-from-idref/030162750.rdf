@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030162750">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:identifier>030162750</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-09-27</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-06T16:18:05</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/030885655"/>
+      <skos:editorialNote>The Symposium : a treatise on chastity / St. Methodius ; transl. [from the Greek] and annot. by Herbert Musurillo, 1958</skos:editorialNote>
+      <skos:editorialNote>GDEL</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL : Methodius Olympius Lycius hieromartyr sanctus</skos:editorialNote>
+      <skos:editorialNote>Marietti : Metodio di Olimpo</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Méthode Eubule, évêque d'Olympus et de Patara, puis de Tyr</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. 1960-1969 : Methodius (Saint), évêque d'Olympe</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030162750/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12163497</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000386699133"/>
+      <isni:identifierValid>0000000386699133</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12163497w#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/288530560"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Méthode_d'Olympe"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Méthode d'Olympe (0230?-0311 ; saint)</skos:prefLabel>
+      <skos:altLabel>Méthode (saint)</skos:altLabel>
+      <skos:altLabel>Méthode Eubule (saint)</skos:altLabel>
+      <skos:altLabel>Methodios (saint)</skos:altLabel>
+      <skos:altLabel>Methodios Olumpou</skos:altLabel>
+      <skos:altLabel>Methodius (saint)</skos:altLabel>
+      <skos:altLabel>Metodio di Olimpo (saint)</skos:altLabel>
+      <skos:altLabel>Methodius von Olympus</skos:altLabel>
+      <skos:altLabel>Methodius Olympius (0230?-0311 ; saint)</skos:altLabel>
+      <foaf:name>Méthode d'Olympe</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030162750/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0230</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/030162750/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0311</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Théologien. Évêque d'Olympe. A laissé d'importants traités, notamment "Le Banquet des dix vierges", "Du libre-arbitre" et "Des créatures. Martyr en 311"</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/048013285/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Méthode d'Olympe du libre arbitre  : traduction précédée d'une introduction sur les questions de l'origine du monde, du libre arbitre et du problème du mal dans la pensée grecque, judaïque et chrétienne avant méthode  / Jacques Farges / Paris : Gabriel Beauchesne , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049412574/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Vollkommenheit und Vollendung  : zur Anthropologie des Methodius von Olympus  / Katharina Bracht / Tübingen : Mohr Siebeck , cop. 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119950421/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Metodio d'Olimpo, un autore minore ?  / Benedetta Zorzi,...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/156387727/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>L'escatologia di Metodio di Olimpo  / Miroslaw Mejzner / Roma : Institutum patristicum Augustinianum , 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/048013218/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Les idées morales et religieuses de Méthode d'Olympe  : contribution à l'étude des rapports du christianisme et de l'hellénisme à la fin du troisième siècle  / par Jacques Farges,... / Paris : Gabriel Beauchesne éditeur , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051165333/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>S. Methodii Patarensis convivium decem Virginum  / Ernest Carel, ... / Parisiis : Gaume et Socios , [1880]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09585696X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Methodius, Bischof von Olympos  : eine patristische Studie  / von Andreas Pankau,...  ; nach dem Tode des verfassers herausgegeben von Dr. Franz Kipfer,... / Mainz : F. Kirchheim , 1887</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/257868097/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>De autexusio  : texte slave  : copie de G. N. Bonwetsch  / Méthode d'Olympe /  , [19..?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066574331/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>L'Inno del Simposio di S. Metodio martire  : introduzione, testo critico e commento  / Michele Pellegrino / Torino : [S.n.] , 1958</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09847880X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>L'esegesi biblica di Metodio di Olimpo  / Emanuela Prinzivalli / Roma : Institutum Patristicum Augustinianum , 1985</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134285255/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Metodio d'Olimpo  : virginità e platonismo  / Carlo Tibiletti</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/01145864X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Studien zu Methodios von Olympos  / von Vinzenz Buchheit / Berlin : Akademie-Verlag , 1958</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046782915/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Die theologie des Methodius von Olympus  / G. Nathanael Bonwetsch / Berlin : Weidmannsche Bucchandlung , 1903</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/101295324/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Les idées morales et religieuses de méthode d'Olympe  : contribution à l'étude des rapports du christianisme et de l'hellénisme à la fin du troisième siècle  / Jacques Farges / Paris : Gabriel Beauchesne , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/275641767/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Le De Resurrectione de Méthode d'Olympe  : édition critique, traduction, commentaire  / Alexey Morozov  ; sous la direction de Olivier Munnich /  , 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/280297866/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Methodius of Olympus, De lepra  : interdisciplinary approaches  : Conference, Friedrich-Schiller-Universität Jena, 2021  / edited by Katharina Bracht, Anna Jouravel, Janina Sieber / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096414359/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Methodius of Olympus  : divine sovereignty, human freedom, and life in Christ  / L.G. Patterson / Washington, D.C. : Catholic University of America Press , cop. 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/22499588X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Methodius of Olympus  : state of the art and new perspectives  / edited by Katharina Bracht / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/27215668X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Le De Resurrectione de Méthode d'Olympe  : édition critique, traduction, commentaire  / Alexey Morozov  ; sous la direction de Olivier Munnich /  , 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080309720/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Studier till den grekiska teologins frälsningslära med särskild hänsyn till Methodius av Olympus och Athanasius av Alexandria  / av Folke Boström,... / Lund : H. Ohlssons , 1932</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/193962136/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Méthode d'Olympe. Du Libre arbitre  / traduction précédée d'une introduction sur les questions de l'origine du monde, du libre arbitre et du problème du mal dans la pensée grecque, judaïque et chrétienne avant Méthode  ; par Jacques Farges,... / Paris : Gabriel Beauchesne , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/249728338/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>The aesthetics of hope in late Greek imperial literature  : Methodius of Olympus' Symposium and the crisis of the third century  / Dawn LaValle Norman / Cambridge [etc.] : Cambridge University Press , 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125085044/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Le "De autexusio" de Méthode d'Olympe  : version slave et texte grec  / édités et traduits en français par A. Vaillant ... / Turnhout : Brepols , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144488434/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Methodius and Porphyry  / Elizabeth DePalma Digeser,...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108191923/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Identidad entre el cuerpo muerto y resucitado en Origenes según el "De resurrectione" de Metodio de Olimpo  / Artemio Vitores,.. / Jerusalem : Franciscan Printing Press , 1981</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125085044/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Le "De autexusio" de Méthode d'Olympe  : version slave et texte grec  / édités et traduits en français par A. Vaillant ... / Turnhout : Brepols , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/102180156/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Dialogus inter militem et clericum  : 'Defensio curatorum'  : 'þe bygynnyng of þe world and þe ende of worldes'  / [translations] by John Trevisa, ...  ; now first edited from the mss. Harl. 1900, St. John's College, Camb., H. 1, Add. 24194, Stowe 65, and Chetham's Library, with an introduction on the description of the mss., Trevisa's life and works, and a study of the language by Aaron Jenkins Perry, ... / Woodbridge : Boydell &amp; Brewer , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/193094282/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Joannis Meursii Variorum divinorum liber unus. In quo auctores theologi Graeci varii, antehac nunquam vulgati / Lugduni Batavorum : Apud Isaacum Elzevirium. Anno M DC XIX. , 1619</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/259376531/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Collectio selecta SS. ecclesiæ patrum, complectens exquisitissima opera tum dogmatica et moralia, tum apologetica et oratoria ; accurantibus D. Caillau, missionum gallicarum presbytero, et nonnullis cleri gallicani presbyteris, una cum D. M. N. S. Guillon, in Facultate theologiæ Parisiensi eloquentiæ sacræ professore, prædicatore regio, auctore libri cui titulus Gallice : Bibliothèque choisie des Pères grecs et latins. Opus regi dicatum.Tomus decimus sextus.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/132350475/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Amphilochii Iconiensis, Methodii Patarensis et Andreae Cretensis opera omnia, quae repertir potverunt nunc primum magnam partem tenebris eruta, latine reddita, ac recognita, notisque, illustrata, opera. Studio Fransiscus Combefis</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/005666953/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Le banquet  / Méthode d'Olympe  ; introduction et texte critique par Herbert Musurillo,...  ; traduction et notes par Victor-Henry Debidour,... / Paris : Les Éditions du Cerf , 1963</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15475157X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>La Risurrezione  / Metodio di Olimpo  ; introduzione di Mirosław Mejzner, ... e M. Benedetta Zorzi, ...  ; traduzione di Mirosław Mejzner (parte paleoslava) e M. Benedetta Zorzi (parte greca)  ; note di Mirosław Mejzner / Roma : Città Nuova , impr. 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068426291/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Methodius von Olympus  I, Schriften  / von G. Nathanael Bonwetsch / Erlangen : A. Deichert , 1891</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11673549X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>The Writings of Methodius, Alexander of Lycopolis, Peter of Alexandria, and several fragments / Edinburgh : T. &amp; T. Clark , 1869</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/190186704/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Magna bibliotheca veterum patrum et antiquorum scriptorum ecclesiasticorum. Primo quidem a Margarino de La Bigne Sorbonico in academia Parisiensi theologo collecta , &amp; tertio in lucem edita, nunc vero plus quam centum authoribus &amp; opusculis plurimis locupletata, historica methodo per singula saecula, quibus scriptores quique vixerunt, disposita , &amp; in XIV tomos distributa : opera et studio doctissimorum in alma universitate Colon. Agripp. theologorum ac profess. tomus tertius, continens scriptores saeculi III. id est , ab ann. Christi 200 usq; 300. Permissu superiorum</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012728969/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>The symposium a treatrise on chastity  / St Methodius  ; translated and annoted by Herbert Musurillo,... / Westminster : Newman Press , 1958</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067547702/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Le Banquet des dix vierges  / Méthode d'Olympe  ; traduction par Jacques Farges / Paris : J. Gabalda et fils , 1932</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/12809480X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Святый Меѳодій, епископъ и мученикъ, отецъ церкви III-го вѣка  : полное собраніе его твореній  / переведенныхъ съ греческаго подъ редакціею профессора С.-Петербургской духовной академіи Евграфа Ловягина / С.-Петербургъ : [въ типографіи Втораго отдѣленія собственной Е.И.В. Канцеляріи] , 1877</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068414668/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Dionysius Areopagita, Gregorius Thaumaturgus, Methodius von Olympus aus dem Griechischen uebersetzt / Kempten : J. Kösel , 1911</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051892197/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Tou en hagiois patros hēmōn Methodiou, Episkopou kai marturos, Ta heuriskomena panta  = = S. P. N. Methodii, Episcopi et martyris, Opera omnia :   / accedunt S. Petri et S. Alexandri, Alexandrinorum praesulum ... scripta quae supersunt  ; accurante et recognoscente J.-P. Migne / Parisii : J.-P. Migne , 1857</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044357281/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>The Apologeticks of the learned athenian philosopher Athenagoras. I. For the christian religion. II. For the truth of the Resurrection. Against the scepticks and infidels of that age. Together with a curious fragment of Justin Martyr on the subject of the Resurrection... and two other fragments the one attributed to Josephus the other to Methodus, concerning the state of the dead. Both from Mss. of the late reverend Dr. Grabe. With the original greek printed in the appendix. Done into english with notes to which are prefix'd two dissertations the one concerning the jewish notion of the Resurrection the other concerning Athenagoras and his Remains. By David Humphreys / London  :  printed by Geo. James, for Richard Smith.  , 1714</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066574331/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>L'Inno del Simposio di S. Metodio martire  : introduzione, testo critico e commento  / Michele Pellegrino / Torino : [S.n.] , 1958</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/08717507X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Lucii Caecilii Firmiani Lactantii Opera / Ed. nova  / Parisiis : P. Mellier , 1842</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071516360/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Les Pères de l'Eglise et l'astrologie  : Origène, Méthode, Basile, Grégoire de Nysse, Diodore, Procope de Gaza, Jean Philopon  / introduction par Marie-Elisabeth Allamandy...  ; annotation des textes (sauf Grégoire de Nysse), guide thématique, glossaire et index par Marie-Thérèse Congourdeau / Paris : Migne , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017504651/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Le "De autexusio" de Méthode d'Olympe  : version slave et texte grec  / édités et traduits en français par A. Vaillant ... / [Paris : Firmin-Didot , 1930]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/072881755/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Patrologiae cursus completus  018, Patrologiae Graecae  : omnium ss. patrum, doctorum scriptorumque ecclesiasticorum  : sive latinorum, sive graecorum  / accurante J.P. Migne / Turnhout : Brepols , 1858-1866</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108200671/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>The Ante-Nicene Fathers  Vol. 6, Gregory Thaumaturgus ; Dionysius the Great ; Julius Africanus ; Anatolius and minor Writers ; Methodius ; Arnobius  : translations of the writings of the Fathers down to A.D. 325  / [by] Alexander Roberts,... and James Donaldson,...  ; revised and chronologically arranged, with brief prefaces and occasional notes by A. Cleveland Coxe,... / American reprint of the Edinburgh edition / Grands Rapids (Michigan) : WM. B. Eerdmans Publishing compagny , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045895945/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Du libre arbitre  / Méthode d'Olympe  ; traduction précédée d'une introduction sur les questions de l'origine du monde du libre arbitre et du problème du mal dans la pensée grecque, judai͏̈que et chrétienne avant Méthode / Paris : Gabriel Beauchesne, éditeur , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197151396/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Il libero arbitrio  / Metodio d'Olimpo  ; a cura di Roberta Franchi / Milano : Paoline</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179901419/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Patrologia orientalis  Tomus vicesimus secundus,   / [édité par] R. Graffin et F. Nau / Paris : Firmin-Didot et cie, éditeurs , 1930</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/106556851/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Le De autexusio  / Version slave et texte grec édités et traduits en français par A. Vaillant / Paris : Firmin-Didot , 1930</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006639496/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Die Dritte und vierte Redaktion des Ps.-Methodios  / [hrsg. von] Anastasios Lolos / Meisenheim am Glan : A. Hain , 1978</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/257868097/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>De autexusio  : texte slave  : copie de G. N. Bonwetsch  / Méthode d'Olympe /  , [19..?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108691977/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Die Apokalypse des Pseudo-Methodius  1, Einleitung, Texte, Indices Locorum et Nominum  : die ältesten griechischen und lateinischen Übersetzungen  / hrsg. von W.J. Aerts und G.A.A. Kortekaas / Lovanii : in aedibus Peeters , 1998</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/111140951/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Joannis Meursii Variorum divinorum liber unus. In quo auctores theologi Graeci varii, antehac nunquam vulgati / Lugduni Batavorum : Apud Isaacum Elzevirium. Anno M DC XIX. , 1619</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007977980/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Dialogus inter Militem et Clericum  ;  Richard FitzRalph's sermon: Defensio curatorum  : and  ;  Methodius: The bygynnyng of the world and the ende of worldes  / [transl.] by John Trevisa  ; with an introduction on the description of the mss., Trevisa's life and works, and a study of the language by Aaron Jenkins Perry / Millwood NY : Kraus Reprint , 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049257943/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Methodius  / herausgegeben im Auftrage der Kirchenväter-Commission der Königl. Preussischen Akademie der Wissenschaften, von G. Nathanael Bonwetsch / Leipzig : J. C. Hinrichs , 1917</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006639488/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Die Apokalypse des Ps. Methodios  / herausgegeben von Anastasios Lolos / Meisenheim am Glan : A. Hain , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/279939582/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>De lepra  : Edition des griechischen und des slavischen Textes mit einer Einleitung und einer deutschen Übersetzung  / Methodius von Olympus  ; herausgegeben von Anna Jouravel, Janina Sieber und Katharina Bracht / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/273718703/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Convivium de virginitate  = = Symposium über die Jungfräulichkeit :   / Methodius von Olympus  ; eingeleitet, kritisch ediert, übersetzt und kommentiert von Janina Sieber / Freiburg im Breisgau : Herder</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108200922/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Patrologiae cursus completus  18, Methodius, Alexander Lycopolitanus, Petrus Alexandrinus, Alexander Alexandrinus, Eusthathius Antiochenus, Titus Bostrensis, Theodorus Heracleensis  : series graeca  / accurante J.-P. Migne / Turnholti : Brepols , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018790496/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>Dialogus inter militem et clericum  : Richard FitzRalph's sermon 'Defensio curatorum'  : and Methodius 'þe bygynnyng of þe world and þe ende of worldes'  / by John Trevisa,...  ; with an introduction by Aaron Jenkins Perry,... / London : Oxford University Press , 1925</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/UNIA12982">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030162750/id"/>
+      <dcterms:bibliographicCitation>[F. 61v-62v] « Secuntur aliqua de libro Methodii. Sciendum est nobis, f. k., quomodo in principio creavit Deus... »</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

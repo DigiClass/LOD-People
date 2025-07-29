@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/151927278">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/151927278/id"/>
+      <dcterms:identifier>151927278</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-05-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-11T12:51:22</dcterms:modified>
+      <skos:editorialNote>De origine libelli "Peri psychas kosmo kai physios" inscripti, qui vulgo Timaeo Locro tribuitur quaestio / ab J. R. W. Anton, 1891</skos:editorialNote>
+      <skos:editorialNote>Internet, http://gso.gvb.de [gemeinsamer Verbundkatalog]</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/151927278/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000011976771"/>
+      <isni:identifierValid>0000000011976771</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/42714906"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Anton, Johann Richard Walter (1828-....)</skos:prefLabel>
+      <skos:altLabel>Anton, Johann R.</skos:altLabel>
+      <skos:altLabel>Anton, Gualterus</skos:altLabel>
+      <skos:altLabel>Anton, Ioannes Richardus Gualterus</skos:altLabel>
+      <skos:altLabel>Anton, Walther</skos:altLabel>
+      <skos:altLabel>Anton, Walter</skos:altLabel>
+      <foaf:familyName>Anton</foaf:familyName>
+      <foaf:givenName>Johann Richard Walter</foaf:givenName>
+      <foaf:name>Johann Richard Walter Anton</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/151927278/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1828</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Philologue classique. Enseignant à Essen</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113384483/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/151927278/id"/>
+      <dcterms:bibliographicCitation>De origine libelli [Peri psychas kosmō kai fysios] inscripti qui vulgo Timaeo Locro tribuitur  Pars I, fasc. I,   / von J. R. W. Anton,... / Erfurt : C. Villaret , 1883</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151925062/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/151927278/id"/>
+      <dcterms:bibliographicCitation>De origine libelli "Peri psychas kosmo kai physios" inscripti, qui vulgo Timaeo Locro tribuitur quaestio  / ab J. R. W. Anton,... / Numburgi ad/Sal. : A. Schirmer , 1891</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113388616/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/151927278/id"/>
+      <dcterms:bibliographicCitation>Quaestionis de origine libelli "peri psychas kosmō kai physios" inscripti, qui vulgo Timaeo Locro tribuitur, particula prima  / Gualterus Anton / Berolini : Schade , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113393717/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/151927278/id"/>
+      <dcterms:bibliographicCitation>Quaestio, de origine libelli Timaeo Locro tributi continuata  / Walther Anton / Essen : Dr. v. G. B. Bädeker , 1869</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

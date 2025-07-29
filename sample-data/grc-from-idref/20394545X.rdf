@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/20394545X">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/20394545X/id"/>
+      <dcterms:identifier>20394545X</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-09-12</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-21T18:47:34</dcterms:modified>
+      <skos:editorialNote>Canticorum tragicorum adiumentum metricum. 1, Aeschylus / Konradus Eugster, 2016</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/20394545X/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/5674150749014916420003"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Eugster, Konrad</skos:prefLabel>
+      <skos:altLabel>Eugster, Konradus</skos:altLabel>
+      <foaf:familyName>Eugster</foaf:familyName>
+      <foaf:givenName>Konrad</foaf:givenName>
+      <foaf:name>Konrad Eugster</foaf:name>
+      <dbpedia-owl:citizenship rdf:resource=""/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Philologue</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/219806543/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/20394545X/id"/>
+      <dcterms:bibliographicCitation>Canticorum tragicorum adiumentum metricum  2, Sophocles  / Sophocles  ; Konradus Eugster / [Bremgarten : [éditeur inconnu] , [2016]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203945204/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/20394545X/id"/>
+      <dcterms:bibliographicCitation>Canticorum tragicorum adiumentum metricum  1, Aeschylus  / [Aeschylus]  ; Konradus Eugster / [Bremgarten] : [éditeur inconnu] , [2016]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/223874833/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/20394545X/id"/>
+      <dcterms:bibliographicCitation>Canticorum tragicorum adiumentum metricum  3-4, Euripides  / Euripides  ; Konradus Eugster / [Bremgarten : [éditeur inconnu] , [2016]</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

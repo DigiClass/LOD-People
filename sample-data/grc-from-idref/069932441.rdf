@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/069932441">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:identifier>069932441</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-06</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T10:23:09</dcterms:modified>
+      <skos:editorialNote>Specimen sapientiæ Indorum veterum / trad. Simeo Sethus (grec) et Sebastian Gottfried Starcke (latin), 1697</skos:editorialNote>
+      <skos:editorialNote>Michaud</skos:editorialNote>
+      <skos:editorialNote>LC autorités [en ligne : 06-03-2003]</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/069932441/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000111962131"/>
+      <isni:identifierValid>0000000111962131</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb10689598z#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/162962022"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Syméon_Seth"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Simeo Sethus (10..-10..)</skos:prefLabel>
+      <skos:altLabel>Siméon Seth</skos:altLabel>
+      <skos:altLabel>Seth, Symeon</skos:altLabel>
+      <skos:altLabel>Seth, Siméon</skos:altLabel>
+      <skos:altLabel>Simeon Sethus</skos:altLabel>
+      <skos:altLabel>Simeon Sethi</skos:altLabel>
+      <skos:altLabel>Sêth, Sumeôn</skos:altLabel>
+      <foaf:familyName>Simeo Sethus</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Simeo Sethus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/069932441/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">10XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/069932441/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">10XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Médecin, né à Antioche, a traduit de l'arabe en grec</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/249156784/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>The Pañcatantra (Kalīlah wa-Dimna) and greek literature  / Jannis Niehoff-Panagiotidis</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269752439/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Stefanitis e Ichnilatis  : il Kalila e Dimna bizantino  / a cura di Francesca Rizzo Nervo  ; traduzione di Maria Grazia Mirone  ; con 14 illustrazioni originali di Rossana Barcellona / Soveria Mannelli : Rubbettino , 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/175664862/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Siméon Seth, médecin de l'empereur Michel Doucas, sa vie, son oeuvre  : première traduction en français du traité Σύνταγμα κατὰ στοιχεῖον περὶ τροφῶν δυνάμεων (Recueil des propriétés des aliments par ordre alphabétique)  / Marc-Émile-Prosper-Louis Brunet / Bordeaux : impr. de Delmas , 1939</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/261818147/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Συμεών Σηθ  : σύνταγμα περί τροφών δυνάμεων κατά στοιχείον  / Μαρία Χρόνη / Αθήνα : Εκδόσεις Κανάκη , 2021</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/069919461/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Specimen sapientiæ Indorum veterum. Id est, Liber ethico-politicus pervetustus, dictus arabice, Kalilah wa-Dimnah græce Stephanitēs kaì Ichnēlatēs, nunc primum græce ex mss. Cod. Holsteiniano prodit, cum versione nova latina, opera Sebast. Gottofr. Starkii.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/219955344/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Chitopadassa  : ī Pantsa-Tantra (Pentateuchos)  / syggrafeisa ypo tou sofou Visnousarmanos kai Psittakou mythologiai Nykterinai, metafrasthenta ek tou Vrachmanikou para Dīmītriou Galanou,...  ; nyn de prōton ekdothenta, meta tīs ypo Symeōnos Magistrou tou Sēth genomenīs metafraseōs tīs Pentateuchou, ōs symplīrōma tīs tou D. Galanou  ; kai meta prolegomenōn kai paratīrīseōn ploutisthenta, dapanī men kai meletī Geōrgiou K. Typaldou,... / En Athīnais : ek tīs typografias G. Chartofylakos , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042688701/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Simeonis sethi magistri Antiochiae Syntagma per elementorum ordinem, de alimentorum facultate ad Michaelem Ducam imperatorem à Lilio Gregorio Giraldo Ferrariense olim Latinitate donatum: nunc vero per Dominicum Monthesaurum Veronensem correctum &amp; pene reformatum / Basileae : Apud Petrum Pernam , 1561</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/28019661X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Weltall, Erde, Mensch  : Naturkunde  = = Synopsis ton physikon :   / Symeon Seth  ; zweisprachige Ausgabe von Kai Brodersen / Speyer : Kartoffeldruck-Verlag , 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136862810/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Symeonos magistrou Antiocheias tou Sethi Syntagma kata stoicheion peri trophon dynameon. Simeonis Sethi magistri Antiocheni volumen de alimentorum facultatibus iuxta ordinem literarum digestum, ex duob. Bibliothecae Mentelianae MM.SS. codd. emendatum, auctum, &amp; latina versione donatum, cum difficilium locorum explicatione a Martino Bogdano ... / Lutetiae Parisiorum, ex offic. viduae Mathurini Dupuis, via Iacobaea, sub insigne Coronae aurea , 1658</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096648333/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Symeōnos magistrou Antiocheias tou Sēthi ... Simeonis Sethi ... Syntagma per literarum ordinem, de cibariorum facultate, Lilio Gregorio Gyraldo Ferrariense interprete / Basileæ, apud Mich. Isingrinium, anno M. D. XXXVIII , 1538</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100392407/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Symeonis Sethi magistri Antiochiae, Syntagma per literarum ordinem, de cibariorum facultate, Lilio Gregorio Gyraldo... interprete / Basileae : apud M. Isingrinium , 1538</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/265353955/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Symeon Seth, Fabelbuch  :  Stephanites und Ichnelates  / Zweisprachige Ausgabe von Kai Brodersen / Speyer : Kartoffeldruck-Verlag , 2021</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051862794/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Simeonis Sethi Syntagma De alimentorum facultatibus  / edidit Bernhardus Langkavel / Lipsiae : in aedibus B. G. Teubneri , 1868</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042694051/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Sumeonos magistrou Antiocheias tou sethi, suntagma kata stoicheion peri prophon dunameon, Symeonis Sethi magistri Antiochiae, Syntagma per literarum ordinem, de cibariorum facultate, Lilio Gregorio Gyraldo Ferrariense interprete / Basileae : Apud Mich. Isingrinium , 1538</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100392415/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Simeonis Sethi magistri Antiocheni, Volumen de alimentorum facultatibus juxta ordinem literarum digestum... emendatum, auctum et latina versione donatum... a Martino Bogdano... / Lutetiae Parisiorum : ex off. D. Bechet et L. Billanii , 1658</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100392393/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069932441/id"/>
+      <dcterms:bibliographicCitation>Simeonis Sethi Magistri Antiochiae Syntagma Per Elementorvm Ordinem, De Alimentorum facultate ad Michaelem Ducam Imperatorem à Lilio Gregorio Giraldo Ferrariense olim latinitate donatum: Nvnc Vero Per Dominicvm Monthesaurum Veronensem correctum [et] penè reformatum / Basileae : apud Petrum Pernam , 1561</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

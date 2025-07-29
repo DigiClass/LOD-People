@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/137174772">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:identifier>137174772</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-14</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-14T14:08:58</dcterms:modified>
+      <skos:editorialNote>Hollis catalog.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/137174772/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000121405208"/>
+      <isni:identifierValid>0000000121405208</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/76714146"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Ermerins, Franz Zacharias (1808-1871)</skos:prefLabel>
+      <skos:altLabel>Ermerins, Franciscus Zacharias</skos:altLabel>
+      <foaf:familyName>Ermerins</foaf:familyName>
+      <foaf:givenName>Franz Zacharias</foaf:givenName>
+      <foaf:name>Franz Zacharias Ermerins</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/137174772/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1808</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/137174772/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1871</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171792750/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Specimen Medicum Inaugurale, Continens Quaedam De haemorrhagia, quae vocatur Apoplexia pulmonalis  / ex auctoritate Francisci Zachariae Ermerins  ; submittit Mauritius Salomonson / Groningae : van Zweeden , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109716078/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Epistola critica ad Soranum a se editum. Accedit de vita Ermerinsii editoris epilogus  / Franc. Zach. Ermerins / Trajecti ad Rhenum : apud Kemink et filium MDCCCLXXII , 1872</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109498186/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Anecdota medica graeca e codicibus mss. expromsit F. Z. Ermerins,... [Theophili Liber de pulsibus. Leonis Conspectus medicinae. Incerti auctoris Tractatus de cibis, e libro de medicina ad Constantinum Pogonatum. Hippocratis Epistola ad regem Ptolemaeum de hominis fabrica.]  / Théophile le Protospathaire, Franciscus Zacharias Ermerins / Lugduni Batavorum : apud S. et J. Luchtmans , 1840</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109716086/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Continuatio epimetri ad editionem Hippocratis  : accedunt nonnulla ad Aretaeum  / scripsit F. Z. Ermerins / Trajecti ad Rhenum : Kemink , 1867</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/163748675/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Dissertatio medico-forensis inauguralis de morbis simulatis, qui pertinent ad organa sensuum  / ex auctoritate Francisci Zachariae Ermerins ... submittit Petrus Antonius van der Ketten / Groningae : Barghorrn , 1850</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151283605/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Continuatio epimetri ad editionem Hippocratis  : accedunt nonnulla ad Aretaeum  / scripsit F. Z. Ermerins / Edition électronique : numérisation 2010 / Paris : BIU Santé , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/160572096/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Anecdota medica graeca e codicibus mss. expromsit F. Z. Ermerins,... [Theophili Liber de pulsibus. Leonis Conspectus medicinae. Incerti auctoris Tractatus de cibis, e libro de medicina ad Constantinum Pogonatum. Hippocratis Epistola ad regem Ptolemaeum de hominis fabrica.]  / Théophile le Protospathaire, Franciscus Zacharias Ermerins / Edition électronique : numérisation 2010 / Paris : BIUM , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/149602391/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Hippocratis et aliorum medicorum veterum reliquiae  / mandatu Academiae regiae disciplinarum quae Amstelodami est  ; edidit Franciscus Zacharias Ermerins / Edition électronique : numérisation 2010 / Paris : BIUM , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010214267/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Hippocratis et aliorum medicorum veterum reliquiae  / mandatu Academiae regiae disciplinarum quae Amstelodami est  ; edidit Franciscus Zacharias Ermerins / Traiecti ad Rhenum : apud Kemink et filium , 1859-1864</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/149601301/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Aretaei Cappadocis quae supersunt  / Aretaeus Cappadox  ; Recensuit Franciscus Zacharia Ermerins / Edition électronique : numérisation 2010 / Paris : BIUM , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103646221/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Aretaei Cappadocis quae supersunt  / Aretaeus Cappadox  ; Recensuit Franciscus Zacharia Ermerins / Trajecti ad Rhenum : Kemink , 1847</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/235484547/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>La légende hippocratique  / J-M Guardia / Paris : Au bureau de la revue Nationale , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017361869/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Anecdota medica graeca  / e codicibus mss. expromsit F. Z. Ermerins / Amsterdam : A. M. Hakkert , 1963</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109541154/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Soranou Ephesiou peri gynaikeion pathon. Sorani Ephesii Liber de muliebribus affectionibus. Recensuit et latine interpretatus est Franciscus Zacharias Ermerins / Trajecti ad Rhenum : Apud Kemink et filium , 1869</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109508777/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/137174772/id"/>
+      <dcterms:bibliographicCitation>Hippocratis liber de Victus ratione in morbis acutis  : edidit F. Z. Ermerins, med. doct.  ;  Accedunt ejusdem observationes criticae in Soranum Ephesium de arte obstetricia morbisque mulierum / Lugduni Batavorum : [éditeur inconnu] , 1841</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/195019962">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:identifier>195019962</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-13</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-09T16:51:16</dcterms:modified>
+      <skos:editorialNote>Herodoti historiarum libri novem : Accedit libellus de vita Homeri et Index historicus / Nova editio stereotypa curavit Fridericus Palm. - Lipsiae : sumtibus et typis Carolis Tauchnitii, 1839</skos:editorialNote>
+      <skos:editorialNote>https://de.wikipedia.org/wiki/Johann_Friedrich_Palm : dates</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/195019962/id">&#xD;<!--WIKIDATA-->
+      <owl:sameAs rdf:resource="http://www.wikidata.org/entity/Q1537669"/>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000109704387"/>
+      <isni:identifierValid>0000000109704387</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/50444376"/>
+      <owl:sameAs rdf:resource="http://d-nb.info/gnd/135540380"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Palm, Johann Friedrich (1813-1871)</skos:prefLabel>
+      <skos:altLabel>Palm, Fridericus</skos:altLabel>
+      <skos:altLabel>Palm, Friedrich</skos:altLabel>
+      <foaf:familyName>Palm</foaf:familyName>
+      <foaf:givenName>Johann Friedrich</foaf:givenName>
+      <foaf:name>Johann Friedrich Palm</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/195019962/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1813-10-02</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/195019962/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1871-02-14</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Philologue</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124046916/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Herodoti historiarum libri novem  / curavit Fridericus Palm / Editionis stereotypae C.Tauchnitianae. Nova impressio / Lipsiae : O. Holtze , 1870-1873</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015378977/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Handwörterbuch der griechischen Sprache  / [von] Franz Passow  ; Neu bearbeitet und zeitgemäss umgestaltet von Val. Chr. Fr. Rost und Friedrich Palm [tomes 1 à 4]  ; Otto Kreussler, Karl Keil und Ferd. Peter [tomes 3-4] / Neu bearb. und zeitgemäss umgestaltet / Darmstadt : Wissenschaftliche Buchgesellschaft , 1970</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120861453/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Historiarum libri novem  1, Lib I. II. III  / Herodote  ; curavit Fridericus Palm / Lipsiae : O. Holtze , 1869</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/110978889/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Handwörterbuch der griechischen Sprache  / begründet von Franz Passow  ; neu bearbeitet und zeitgemäss umgestaltet von Dr. Val. Chr. Fr. Rost und Dr. Friedrich Palm / Des ursprünglichen Werkes fünfte Auflage / Leipzig : Fr. Chr. Wilh. Vogel , 1841-1857</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/12086150X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Historiarum libri novem  2, Lib IV. V. VI  / Herodote  ; curavit Fridericus Palm ... / Lipsiae : O. Holtze , 1868</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/202650863/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Herodoti Historiarum  Tom. III,   : Libri novem  : Accedit libellus de vita Homeri et index historicus  / curavit Fridericus Palm / Editionis stereotypa, nova impressio / Lipsiaer : Ottonis Holtze , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/202650413/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Herodoti Historiarum  Tom. I,   : Libri novem  : Accedit libellus de vita Homeri et index historicus  / curavit Fridericus Palm / Editionis stereotypa, nova impressio / Lipsiaer : Ottonis Holtze , 1869</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/115112944/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Herodoti historiarum libri novem   : Accedit libellus de vita Homeri et Index historicus   / Nova editio stereotypa curavit Fridericus Palm / Lipsiae : sumtibus et typis Carolis Tauchnitii , 1839</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/202650723/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/195019962/id"/>
+      <dcterms:bibliographicCitation>Herodoti Historiarum  Tom. II,   : Libri novem  : Accedit libellus de vita Homeri et index historicus  / curavit Fridericus Palm / Editionis stereotypa, nova impressio / Lipsiaer : Ottonis Holtze , 1868</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

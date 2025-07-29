@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/187480249">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/187480249/id"/>
+      <dcterms:identifier>187480249</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-07-24</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-01-28T14:56:44</dcterms:modified>
+      <skos:editorialNote>ʾAgas, tapwaḥ wqiynamwn / Gabriyʾel Ṣwran ; [ʾiywriym, Ywniy Ben-Šalwm], 5755, 1995</skos:editorialNote>
+      <skos:editorialNote>JNUL - http://jnul.huji.ac.il (2010-02-18)</skos:editorialNote>
+      <skos:editorialNote>University of Haifa - http://www.haifa.ac.il (2010-02-18)</skos:editorialNote>
+      <skos:editorialNote>BnF Service hébreu, 2010-02-18</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/187480249/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16181705</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000078543428"/>
+      <isni:identifierValid>0000000078543428</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb16181705q#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/90777718"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Zoran, Gabriel (1947-....)</skos:prefLabel>
+      <skos:altLabel>Ṣwran, Gabiy</skos:altLabel>
+      <skos:altLabel>צורן, גבי</skos:altLabel>
+      <skos:altLabel>Ṣwran, Gabiy (1947-....)</skos:altLabel>
+      <skos:altLabel>צורן, גבריאל (1947-....)</skos:altLabel>
+      <foaf:familyName>Zoran</foaf:familyName>
+      <foaf:givenName>Gabriel</foaf:givenName>
+      <foaf:name>Gabriel Zoran</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/187480249/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1947</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource=""/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/heb"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Spécialiste en théories littéraires et en littératures grecque et allemande. - Écrivain, auteur de romans et d'ouvrages de littérature pour la jeunesse. - Professeur, Department of Hebrew and comparative literature, Faculty of humanities, University of Haifa, Israël (en 2010). - Né Gabriel Zorn</skos:note>
+      <!--skos:note-->
+      <skos:note>Lieu de naissance Haïfa (Israël)</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187480192/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/187480249/id"/>
+      <dcterms:bibliographicCitation>Bodies of speech  : text and textuality in Aristotle  / by Gabriel Zoran / Newcastle upon Tyne : Cambridge Scholars Publishing , 2014, cop. 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

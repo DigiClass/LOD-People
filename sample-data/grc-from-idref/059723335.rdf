@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/059723335">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:identifier>059723335</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-02-13</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T22:03:47</dcterms:modified>
+      <skos:editorialNote>Epistulae privatae Graecae quae in papyris aetatis Lagidarum servantur / edidit Stanislavs Witkowski, adiecta est tabula phototypica, 1911</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/059723335/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000083971582"/>
+      <isni:identifierValid>0000000083971582</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/79392727"/>
+      <!--PERSEE-->
+      <owl:sameAs rdf:resource="https://www.persee.fr/authority/12961"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Witkowski, Stanislaw (1866-1950)</skos:prefLabel>
+      <foaf:familyName>Witkowski</foaf:familyName>
+      <foaf:givenName>Stanislaw</foaf:givenName>
+      <foaf:name>Stanislaw Witkowski</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/059723335/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1866</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/059723335/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1950</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/798544/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/pol"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Helléniste, philologue classique , papyrologue, médiéviste, professeur</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/195937201/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Wyprawa Cyrusa  : (Anabaza)  / Xenofont  ; przełożył i przypisami zaopatrzył Prof. Dr. Artur Rapaport  ; z wstępem Stanisława Witkowskiego / Kraków : Nakładen Krakowskiej Spółki Wydawniczej , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/195927583/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Prometeusz skowany  / Aischylos  ; przełożył Jan Kasprowicz  ; wstępem i objaśnieniami zaopatrzył Stanisław Witkowski... / Kraków : Krakowska spólka wydawnicza , [ca 1920]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180963651/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>De vocibus hybrydis apud antiquos poetas romanos  / scripsit Stanislaus Witkowski / Cracoviae : Academia Cracoviensis Litterarum , 1892</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/132313839/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>De s. Basilii Magni codicibus Hispaniensibus  / Stanislaus Witkowski / W Krakowie : Nakł. Polskiej Akademii Umiejętności , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/112912397/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Analecta Graeco-Latina  : Philologis Vindobonae congregatis  / obtulerunt Cracovienses et Leopolitani / Cracoviae : Apud Bibliopolam Societatis Librariae Polonicae , 1893</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/199847835/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>De atticitate epistularum privatarum graecarum observationum specimen  / Stanislaus Witkowski / Milano : Società editrice "Vita e Pensiero" , 1933</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125864914/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Epistulae privata graecae quae in papyris retatis Lagidarum servantur  / Stan. Witkowski / Lipsiae : [s.n.] , 1907</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/24541553X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>La topographie de la nouvelle Carthage et Polybe  / Stanislaw Witkowski  / J. Wolski / Cracovie : Académie polonaise des sciences et des lettres , 1947</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/132986191/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Prodromus grammaticae papyrorum graecarum aetatis Lagidarum  / scripsit Stanislaus Witkowski / Cracoviae : Sumptibus Academiae Litterarum apud bibliopolam Societatis librariae polonicae (Spółka wydawnicza polska) , 1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047974362/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Epistulae privatae Graecae quae in papyris aetatis Lagidarum servantur  / edidit Stanislavs Witkowski / Editio altera auctior / Lipsiae : B. G. Teubner , 1911</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108202534/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Epistulae privatae Graecae  : quae in papyris aetatis Lagidarum servantur  / edidit Stanislavs Witkowski / Lipsiae : Teubner , 1911</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098491695/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Novi Testamenti graeci verba recipiantne praepostitione praefixa vim perfectivae actionis necne  / scripsit Arthurus Rapaport  ; Sumptibus Societatis philologae et Ministerii instructionis publicae / Leopoli : Gubrynowicz et filius , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045862605/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059723335/id"/>
+      <dcterms:bibliographicCitation>Epistulae privatae graecae quae in papyris aetatis Lagidarum servantur  / edidit Stanislaus Witkowski / Lipsiae : in aedibus B. G. Teubneri , 1906</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

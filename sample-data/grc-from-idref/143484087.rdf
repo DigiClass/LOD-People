@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/143484087">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/143484087/id"/>
+      <dcterms:identifier>143484087</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-04-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-23T07:55:19</dcterms:modified>
+      <skos:editorialNote>Nosside e la poesia greca dell'Italia meridionale / Franco Tarsiano, 2009</skos:editorialNote>
+      <skos:editorialNote>Internet, http://thesaurus.cerl.org/record/cnp00979556, 2014114</skos:editorialNote>
+      <skos:editorialNote>Internet, http://remacle.org/bloodwolf/erudits/Anthologie/notices3.htm#NOSSIS, 20141114</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/143484087/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/191946150"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Nossis"/>
+      <foaf:gender>female</foaf:gender>
+      <skos:prefLabel>Nossis (03..?-03..? av. J.-C.)</skos:prefLabel>
+      <foaf:name>Nossis</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/143484087/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-03X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/143484087/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-03X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Poétesse lyrique du IVe siècle avant J.-C., originaire de Locres (Grande-Grèce), contemporaine de Sappho et d'Alcée. Nous avons d'elle douze épigrammes</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143484036/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/143484087/id"/>
+      <dcterms:bibliographicCitation>Nosside e la poesia greca dell'Italia meridionale  / Franco Tarsiano / Cosenza : Periferia , 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176779868/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/143484087/id"/>
+      <dcterms:bibliographicCitation>Nossis  : Traductions de Pierre Louÿs et de Renée Vivien  / Paul-Ursin Dumont / Vendôme : Libraidisque , 1986</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181733439/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/143484087/id"/>
+      <dcterms:bibliographicCitation>Pœtriarum octo Erinnæ, Myrus, Myrtidis, Corinnæ, Telesillæ, Praxillæ, Nossidis, Anytæ, fragmenta et elogia græce et latine cum virorum doctorum notis. Accedit Gottfridi Olearii dissertatio de pœtriis Græcis auctorum veterum testimoniis et supplementis variis aucta. Cura et studio Jo. Christ. Wolfii, in gymnasio Hamburgensi professoris publici qui notas &amp; indices adjecit</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

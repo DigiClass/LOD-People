@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/191721921">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/191721921/id"/>
+      <dcterms:identifier>191721921</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-03-02</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-10-12T10:23:13</dcterms:modified>
+      <skos:editorialNote>"Helladii Besantinoi Chrestomathiae : cum interpretatione latina et notis Joannis Meursii", dans : "Thesaurus Graecarum antiquitatum, contextus &amp; designatus a Jacobo Gronovio. Volumen decimum ", Leyde, 1701</skos:editorialNote>
+      <skos:editorialNote>viaf/24957785</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/191721921/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/24957785"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Helladius Antinoupolitanus (03..-03..)</skos:prefLabel>
+      <skos:altLabel>Helladius (Grammaticus)</skos:altLabel>
+      <skos:altLabel>Helladius (Historicus)</skos:altLabel>
+      <skos:altLabel>Helladius (fils de Besantinous)</skos:altLabel>
+      <skos:altLabel>Helladius Besantinus</skos:altLabel>
+      <skos:altLabel>Helladius de Antinoea</skos:altLabel>
+      <foaf:name>Helladius Antinoupolitanus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/191721921/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/191721921/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">03XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>ca. 4e siècle. Grammairien de l'antiquité tardive</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/257835407/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/191721921/id"/>
+      <dcterms:bibliographicCitation>Index lectionum quae auspiciis regis augustissimi Guilelmi in Universitate litteraria Friderica Guilelma per semestre aestivum a D. XXV. M. aprilis usque ad D. XV. M. augusti MDCCCLXX. habebuntur / Berolini : formis academicis (G. Vogt) , [1870]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191714666/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/191721921/id"/>
+      <dcterms:bibliographicCitation>Thesaurus Graecarum antiquitatum, contextus &amp; designatus a Jacobo Gronovio. Volumen decimum. Uberem ingeniorum copiam, &amp; varias exercitiorum amoenitates recencens. Series librorum voluminis praefationem sequitur.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/133433099/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/191721921/id"/>
+      <dcterms:bibliographicCitation>Chrestomathiae, cum notis Joannis Meursii..Helladion Besantinoon / Ultrajecti : Guiljelmum vande Water , 1686</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

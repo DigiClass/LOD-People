@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/19305258X">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/19305258X/id"/>
+      <dcterms:identifier>19305258X</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-05-10</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-08-29T22:43:39</dcterms:modified>
+      <skos:editorialNote>Papyri Iandanae, cum discipulis edidit Carolus Kalbfleisch ; fasc. 7. Griechische Wirtschaftsrechnungen und Verwandtes / bearbeitet von Johann Hummel, 1938</skos:editorialNote>
+      <skos:editorialNote>https://viaf.org/viaf/29873878/#Hummel,_Johann,_1911-, 2022-08-29 : Hummel, Johann (1911-2009)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/19305258X/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000118744364"/>
+      <isni:identifierValid>0000000118744364</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/29873878"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Hummel, Johann (1911-2009)</skos:prefLabel>
+      <foaf:familyName>Hummel</foaf:familyName>
+      <foaf:givenName>Johann</foaf:givenName>
+      <foaf:name>Johann Hummel</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/19305258X/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1911</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/19305258X/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">2009</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Editeur, Traducteur</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124929532/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/19305258X/id"/>
+      <dcterms:bibliographicCitation>Papyri Iandanae, cum discipulis edidit Carolus Kalbfleisch  Fasciculus octavus, Griechische Wirtschaftsrechnungen und Verwandtes  / bearbeitet von Johann Hummel / Leipzig : Verlag und Druck von B. G. Teubner , 1938</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/109176588">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:identifier>109176588</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-09-28</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-07-08T09:02:57</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/190377186"/>
+      <skos:editorialNote>Dictionnaire historique de la papauté / sous la direction de Philippe Levillain, 1994</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/109176588/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000423387359"/>
+      <isni:identifierValid>0000000423387359</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12382937x#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/13102089"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Adrien_Ier"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Adrien I (0700-0795 ; pape)</skos:prefLabel>
+      <foaf:name>Adrien I</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/109176588/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">07XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/109176588/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0795</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/amh"/>
+      <skos:note>Pape de 772 à 795. Soutient Charlemagne contre les Lombards</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155475606/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>Hadrianus I Columna Pont. Max.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203597249/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>Hadrianus I Columna Pont. Max. / Paris : Bibliothèque Sainte-Geneviève , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203597141/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>Hadrianus I. Romanus, Theodori filius / Paris : Bibliothèque Sainte-Geneviève , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109175247/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>Hadrian I. (772-795)  : frühmittelalterliches Adelspapsttum und die Lösung Roms vom byzantinischen Kaiser  / von Florian Hartmann / Stuttgart : A. Hiersemann , 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155473883/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>Hadrianus I. Romanus, Theodori filius</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/190366850/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>Historiae Francorum scriptores, a Car. Martello Pipini R. patre, usque ad Hugonis et Roberti regum tempora. Quorum plurimi nunc primùm ex variis codicibus mss. in lucem prodeunt : alii verò auctiores &amp; emendatiores. Cum epistolis regum, pontificum, ducum, abbatum, &amp; aliis veteribus rerum Francicarum monumentis. Opera ac studio filii post patrem Francisci Du Chesne, in suprema Parisiensium curia patroni, &amp; geographici regii. Tomus III.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/169390136/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>Antiquae lectionis tomus VI &amp; ultimus. In quo XLV. veterum monumenta pleraque nunquam visa, quorum catalogum versa pagina indicat omnia nunc primum ex manuscriptis codicibus edita, ab Henrico Canisio noviomago JC. et inclyta Academia Ingolstadiensi SS. canonum professore ordinario &amp; primario. / Ingolstad : Cum gratia &amp; privilegio Caesareae majestatis. Ingolstadii ex officina typographica Ederiana, apud Andream Angermarium. ,  Anno M. DCIV.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20191291113291180">
+      <marcrel:aut rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>[16-179] Bulle du pape Adrien à Berteric, évêque de Vienne / 2 feuillets numérotés de 90 à 91</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/D01041867">
+      <marcrel:dte rdf:resource="http://www.idref.fr/109176588/id"/>
+      <dcterms:bibliographicCitation>[H 409] Psalterium romanum cum interpretationibus (fin VIIIe siècle) / Page de titre Bouhier, 347 feuillets numérotés de 1 à 346, fol. 321 bis</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

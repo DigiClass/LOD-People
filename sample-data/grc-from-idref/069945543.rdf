@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/069945543">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/069945543/id"/>
+      <dcterms:identifier>069945543</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2003-03-06</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-23T18:55:16</dcterms:modified>
+      <skos:editorialNote>La versione etiopica degli Acta Phileae nel Gadla Samāʿtāt / Alessandro Bausi. - Napoli : Istituto universitario orientale, 2002. - Numéro de : Annali / Istituto universitario orientale. Supplementi, ISSN 1125-0941, n.92, 2002</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/069945543/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/192741242"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Philéas de Thmuis (029.-0308? ; saint)</skos:prefLabel>
+      <skos:altLabel>Philéas of Thmuis</skos:altLabel>
+      <skos:altLabel>Filea di Tmui</skos:altLabel>
+      <skos:altLabel>Fileas Thmoueôs</skos:altLabel>
+      <foaf:name>Philéas de Thmuis</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/069945543/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">029X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/069945543/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0308</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/357994/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Évêque de Thmuis en Basse Egypte. Martyr vers 308.</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/069943346/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069945543/id"/>
+      <dcterms:bibliographicCitation>La versione etiopica degli Acta Phileae nel Gadla Samāʿtāt  / Alessandro Bausi / Napoli : Istituto Universitario orientale , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063684152/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069945543/id"/>
+      <dcterms:bibliographicCitation>Apologie de Philéas, évêque de Thmouis  / publié par Victor Martin,... / Cologny-Genève : Bibliotheca Bodmeriana , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/000913960/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/069945543/id"/>
+      <dcterms:bibliographicCitation>The acts of Phileas, bishop of Thmuis  : including fragments of the Greek psalter  : P. Chester Beatty XV, with a new edition of P. Bodmer XX, and Halkin's Latin "Acta"  / ed. with introd., transl. and comment. [by] Albert Pietersma with full fac sim. of the C.B. text / Genève : P. Cramer , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/107260271/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/069945543/id"/>
+      <dcterms:bibliographicCitation>The Acts  / Of Phileas, bishop of Thmuis : including fragments of the Greek psalter : P. Chester Beatty XV  ; Ed. with introd., transl. and comment. Albert Pietersma / Genève : P. Cramer , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/059647892">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/059647892/id"/>
+      <dcterms:identifier>059647892</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-02-06</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-02T16:05:31</dcterms:modified>
+      <skos:editorialNote>Apocalypsis Anastasiae : ad trivm codicvm avctoritatem, panormitani, ambrosiani, parisini / nunc primum integram edidit Rudolfus Homburg</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/059647892/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000070788973"/>
+      <isni:identifierValid>0000000070788973</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb11014718g#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/97910804"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Homburg, Rudolf (1865- ; helléniste)</skos:prefLabel>
+      <foaf:familyName>Homburg</foaf:familyName>
+      <foaf:givenName>Rudolf</foaf:givenName>
+      <foaf:name>Rudolf Homburg</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/059647892/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1865</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Helléniste</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080362710/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059647892/id"/>
+      <dcterms:bibliographicCitation>Apocalypsis Anastasiae. Edidit Rudolfus Homburg,... Dissertatio quam... proposuit scriptor / Lipsiae :  typis B. G. Teubneri , 1903</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/106800922/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059647892/id"/>
+      <dcterms:bibliographicCitation>Apocalypsis Anastasiae ad trium codicum auctoritatem Panormitani, Ambrosiani, Parisini  / nunc primum integram edidit Rudolfus Homburg / Leipzig : Teubner , 1903</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065469682/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059647892/id"/>
+      <dcterms:bibliographicCitation>Apocalypsis Anastasiae ad trium codicum auctoritatem panormitani ambrosiani parisini nunc primun integram  / edidit Rudolfus Homburg / Lipsiae : In Aedibus B.G. Teubneri , 1903</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018778178/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059647892/id"/>
+      <dcterms:bibliographicCitation>Apocalypsis Anastasiae  : ad trivm codicvm avctoritatem, panormitani, ambrosiani, parisini  / nunc primum integram edidit Rudolfus Homburg / Lipsiae : in aedibus B. G. Tevbneri , 1903</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

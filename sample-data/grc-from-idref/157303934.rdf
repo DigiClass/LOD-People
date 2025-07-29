@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/157303934">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/157303934/id"/>
+      <dcterms:identifier>157303934</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-12-22</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-16T18:37:39</dcterms:modified>
+      <skos:editorialNote>BBKL, 10, Herzberg, col. 1561-1665 (1995)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/157303934/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000109781219"/>
+      <isni:identifierValid>0000000109781219</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/60217839"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Pelargus, Ambrosius (1493?-1561)</skos:prefLabel>
+      <skos:altLabel>Storch, Ambrosius</skos:altLabel>
+      <foaf:familyName>Pelargus</foaf:familyName>
+      <foaf:givenName>Ambrosius</foaf:givenName>
+      <foaf:name>Ambrosius Pelargus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/157303934/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1493</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/157303934/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1561</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <skos:note>Dominicain allemand, né en Hesse vers 1493, théologien à Fribourg en Brisgau puis à Trier. Il a traduit en grec son vrai nom, Storch</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10005448X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/157303934/id"/>
+      <dcterms:bibliographicCitation>Divina ac sacra Liturgia Sancti Joannis Chrysostomi. Interprete Ambrosio Pelargo... Adjecta est doxologia graece et latine, quae et in missa et in precibus matutinis usui fuit veteribus... Nicenum item Symbolum latine conversum per eumdem... Adjecta sunt et annotationes... eodem autore / Vormitae , 1541</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/127637850/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/157303934/id"/>
+      <dcterms:bibliographicCitation>Ioannis Dytenbergii Theologi cōtra temerarium Martini Lutheri, de uotis monasticis iudicium, libri duo, iam ab ipso autore denuo recogniti, ac per breuem indicem ... sole clariores facti, in quibus illius rationibus, quas omnes ex ordine prætexit, ex sacris literis et luculentissime et eruditissime respondet ...  : [mit Index]  / Johannes Dietenberger  ; Mit einem Vorw. des Hrsg. Ambrosius Pelargus / Coloniae : Quentell , 1525</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155298445/id">
+      <marcrel:aui rdf:resource="http://www.idref.fr/157303934/id"/>
+      <dcterms:bibliographicCitation>Iohan Dytenbergii Theologi, contra temerarium Martini Luteri de uotis monasticis iudicium, liber primus (secundus), etc. [Edited, with a prefatory letter, by Ambrosius Pelargus.] / In ædibus Eucharij Ceruicorni: Coloniæ, 1524. , 1524</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/157303497/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/157303934/id"/>
+      <dcterms:bibliographicCitation>Apologia sacrificii Eucharistiae, per Ambrosium Pelargum Franckofordianum : rationem exigente inclyto senatu Basiliensi / Basileae : apud Ioannem Fabrum Emmeum Iuliacensem, excussum anno post Christum natum M. D.XXVIII , 1528</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10028499X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/157303934/id"/>
+      <dcterms:bibliographicCitation>Hyperaspimus sive propugnatio Apologiae Ambrosii Pelargi, quo Eucharistiae sacrificum ab Oecolampadiana calumnia strenue asseritur... / Basilae : apud J. Fabrum Emmeum Juliacensem , 1529</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100284981/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/157303934/id"/>
+      <dcterms:bibliographicCitation>Ambrosii Pelargi opuscula nunc primum excusa... / S. l : G. Gymnicus , 1534</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188730451/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/157303934/id"/>
+      <dcterms:bibliographicCitation>Bellaria epistolarum Erasmi Rot. &amp; Ambrosii Pelargi vicissim missarum. Adjectum est his judicium Amb. Pelargi de declarationibus Erasmi ad censuras theologorum Parisiensium. Nunc primum ædita</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

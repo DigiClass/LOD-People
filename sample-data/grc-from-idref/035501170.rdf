@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/035501170">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:identifier>035501170</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1998-05-22</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-04T03:17:24</dcterms:modified>
+      <skos:editorialNote>Histoire et chroniques du monde / de Jean Zonaras ; [trad. par] Jean Millet de S. Amour, 1583. Joannis Zonarae opera omnia : historica, canonica, dogmatica / accurante et denuo recognoscente J.-P. Migne, 1984. La prima parte dell'Historie / di Giovanni Zonara ; trad. da M. Lodovico Dolce, 1570</skos:editorialNote>
+      <skos:editorialNote>DTC. Clavis SGL : Zonaras. Iohannes Zonaras monacus. Dizionario delle opere classiche / Vittorio Volpi, 1994 : Johannes Zonaras. Encycl. Grèce. LCNA (CD), 1996-06 : Zonaras (Joannes). Encycl. Britt. : Zonaras (John)</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Zonaras (Jean), moine</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/035501170/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13207206</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000120358657"/>
+      <isni:identifierValid>0000000120358657</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb132072067#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/206934892"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Jean_Zonaras"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Zonaras, Jean (10..-11..)</skos:prefLabel>
+      <skos:altLabel>Ζωναρᾶς, ᾽Ιωάννης (10..-11..)</skos:altLabel>
+      <skos:altLabel>Zonare, Jean</skos:altLabel>
+      <skos:altLabel>Zonaras, Joannes</skos:altLabel>
+      <skos:altLabel>Zonaras, Jan</skos:altLabel>
+      <skos:altLabel>Zonara, Giovanni</skos:altLabel>
+      <skos:altLabel>Zonaras, John</skos:altLabel>
+      <skos:altLabel>Jean Zonaras</skos:altLabel>
+      <skos:altLabel>Jean Zonare</skos:altLabel>
+      <skos:altLabel>Joannes Zonaras</skos:altLabel>
+      <skos:altLabel>Johannes Zonaras</skos:altLabel>
+      <skos:altLabel>Iohannes Zonaras</skos:altLabel>
+      <skos:altLabel>ʾIōánnīs ho Zōnarâs</skos:altLabel>
+      <skos:altLabel>Zōnarâs, ʾIōánnēs</skos:altLabel>
+      <skos:altLabel>Zônaras, Iôannês</skos:altLabel>
+      <skos:altLabel>Jan Zonaras</skos:altLabel>
+      <skos:altLabel>Giovanni Zonara</skos:altLabel>
+      <skos:altLabel>Zonaras, Johannes</skos:altLabel>
+      <skos:altLabel>Zōnarâs, ʾIōánnīs</skos:altLabel>
+      <foaf:familyName>Ζωναρᾶς</foaf:familyName>
+      <foaf:givenName>᾽Ιωάννης</foaf:givenName>
+      <foaf:name>᾽Ιωάννης Ζωναρᾶς</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/035501170/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">10..</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/035501170/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">11..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Moine. Écrivain ecclésiastique et historien byzantin</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060720468/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Recherches sur le lexique des chroniques slaves traduites du grec au Moyen-Age  / Katia Tcheremissinoff / Paris : Association Pierre Belon , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/26209813X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>John Zonaras' Epitome of Histories  : a compendium of Jewish-Roman history and its reception  / Theofili Kampianaki / Oxford : Oxford University Press , 2022</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/279006365/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>The byzantine summaries of the lost books of Ammianus Marcellinus  / Warren Treadgold</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/008273316/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Die Reichskrise des III. Jahrhunderts in der spätantiken und byzantinischen Geschichtsschreibung  : Untersuchungen zu den nachdionisischen Quellen der Chronik des Johannes Zonaras  / Bruno Bleckmann / München : tuduv , cop. 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/242936407/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Il paradigma repubblicano nell'Epitome historiarum di Giovanni Zonara: la (ri)scoperta delle prime decadi di Cassio Dione in età comnena  / Laura Mecella</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170630722/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Το αγιολογικό και ομιλητικό έργο του Ιωάννη Ζωναρά  : εισαγωγική μελέτη, κριτική έκδοση  = = The hagiographical and homiletic works of John Zonaras : a study with a critical edition  / Ελένη Καλτσογιάννη / Θεσσαλονίκη : Κέντρο Βυζαντινών Ερευνών , 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099748150/id">
+      <marcrel:cmm rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Octoginta quinque regulæ, seu Canones apostolorum : cum vetustis Joannis monachi Zōnaræ in eosdem commentariis, latinè modò versis. / Parisiis, apud Andream Wechelum, sub Pegaso in vico Bellovaco : anno salutis, 1558. Cum privilegio Regis.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099621134/id">
+      <marcrel:cmm rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Santis Ardoyni Pisaurensis ... Opus de venenis, a multis hactenus desideratum, et nunc tandem castigatissimè editum. In quo naturalis primùm historia venenatorum omnium, siue natura siue arte constent, fidelissimè proponitur (quam partem theriacam Graeci vocant:) ... Deinde verò alexipharmacia, hoc est, ratio tum praecauendi venena, tum curandi ... Adiunximus eiusdem generis commentarium doctissimum, Ferdinandi Ponzetti cardinalis. Indicem praeterea rerum atque verborum copiosissimum / Basileae : per Henricum Petri et Petrum Pernam , 1562</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/121820467/id">
+      <marcrel:cmm rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Octoginta quinque regulas, seu Canones apostolorum, cum vetustis Joannis monachi Zonarae in eosdem commentariis latine modè versis. [Ed. à J. Quintino] / Parisiis : apud Andream Wechelum , 1558</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/221708677/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Repertorium der Handschriften des byzantinischen Rechts  Teil III, Die Handschriften des kirchlichen Rechts II (Nr. 428-527)  : Auswahl an Handschriften der Kanonessammlungen mit durchgängigen Kommentaren des Alexios Aristenos, Ioannes Zonaras und Theodoros Balsamon  / von Andreas Schminck und Dorotei Getov, mit Unterstützung mehrerer Fachkollegen / Frankfurt am Main : Löwenklau-Gesellschaft e. V. , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125343973/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Corpus historiae Byzantinae in quo non solum res a Graecis imperatoribus a tempore Constantini Magni, ad Constantinum Postremum, et Constantinopolim a Turcis occupatam, sed &amp; ab exordio mundi in variis orbis partibus hinc inde gestae, continua serie, eruditè ac luculenter exponuntur à quatuor scriptoribus graecis, paucos ante annos latinitate donatis, exquisito studio confectum, quorum : I Ioannes Zonoras, Historia ab exordio deducta Imperatorum Constantinopol. res gestas à Constantino Magno usque ad obitum Alexeii Comneni tribus tomis describit. II Nicetas Acominatus Choniates, LXXXVI. annorum historiam, videlicet ab anno restitutae salutis circiter M. C. XVII. in quo Zonaras definit, usque ad annum M. CCIII. libris XIX tractat. III. Nicephorus Gregoras Nicetae Paralipomena supplens, res per annos CXLV. à Theodoro Lascari priore, usque ad Adronici Palaeologi obitum, ab imperatoribus graecis gestas libris XI. persequitur. IIII Laonicus Chalcondyles ab Andronici Iunioris imperio, in quo Gregoras historiam suam finiit, exorsus, Graecorum imperii inclinationem, casum, atque interitum, cum commemoratione originis atque progressus tyrannidis Turcicae libris X. exactè miróque ordine exponit. Opus hoc tempore non minus lectu necessarium, quàm iucundum, dum quibus de causis florentißimum graecorum imperium conciderit, ostendit, animos eorum qui ad reipublicae gubernacula sedent, utilißimo exemplo ab intestinis aemulationibus atque dißidiis ad mutuae coniunctionis &amp; amicitiae studium revocat</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090481194/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae et Photii Lexica ; nunc prim. ex codd. mss. observationibus illustravit et indicib. instruxit J.A.H. Tittmann  / Zonaras / Lipsiae : sumptibus Siegfr. Lebr. Crusii , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075567016/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>... Joannis Zonarae ... Annales. Carolus Du Fresne, Dom. Du Cange,..., Wolfianam Editionem cum scriptis Codicibus contulit : Latinam Versionem recensuit, Annales notis illustravit. Tomus primus [-secundus] / Parisiis : E Typographia Regia , 1686-1687</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089303962/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Les Histoires et chroniques du monde, tirees tant du gros volume de Jan Zonaras, aucteur byzantin, que de plusieurs autres bons et anciens scripteurs hebrieus et grecs, &amp; mises de leurs primes &amp; nai͏̈sves langues hébrai͏̈ques &amp; greques en langage françois, par le commandement de tres illustre, tres haute, &amp; tres vertueuse dame &amp; princesse, la Royne Catherine, mere du Roy, &amp; presentees à sa hautesse &amp; majesté, par Jan de Maumont, traducteur &amp; recueilleur d'icelles.  Avec annotations mises sur la marge, pour les diverses lectures greques : &amp; aussi autres indices &amp; avertissemens des choses plus memorables.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018066542/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Corpus scriptorum historiae byzantinae  / consilio B. G. Niebuhrii C. f. instituta ...  ; Imm. Bekkeri, L. Schopeni, G. et L. Dindorfiorum al. ... / Editio emendatior et copiosior / Bonnae : impensis E. Weberi , 1828-1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/054448662/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Johannis Zonarae lexicon, ex tribus codicibus manuscriptis nunc primum edidit et indicibus instruxit Johannes Augustus Henricus Tittmann, theol. doct. et prof. ord. in Acad. Lipsiensi. Tomus prior [-posterior]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100423493/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>De L'Usage des images, approuvé par le septiesme concile de Nice, du temps de l'empereur Constantin [VI] &amp; Irene sa mere l'an... VCCLVII [sic pour: 787]. Traicté de S. Jehan Damascene, des Images. L'Origine des ennemis des images, prins de Zonaras / A Paris : chez Guil. Morel , 1562</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154438006/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>In canones SS. Apostolorum... [Traductio ab Antonio Salmatia.]  / Joannis Zonaras / Lutetiae Parisiorum , 1618</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/008484074/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Militärs und Höflinge im Ringen um das Kaisertum  : byzantinische Geschichte von 969 bis 1118  / nach der Chronik des Johannes Zonaras  ; übersetzt, eingeleitet und erklärt von Erich Trapp / Graz : Styria , cop. 1986</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/107989654/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Libro de los emperadores  : versión aragonesa del Compendio de historia universal  / patrocinada por Juan Fernández de Heredia  ; Juan Zonaras  ; edición crítica y estudio de Adelino Álvarez Rodríguez  ; investigación de fuentes bizantinas de Francisco Martín García  ; prólogo de Ángeles Romero Cambrón / Zaragoza : Prensas universitarias de Zaragoza , DL 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/08926844X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ιωαννου του Ζοναρα Επιτομη ῾ιστοριων  III,   = = Ioannis Zonarae Epitome historiarum :   / cum Caroli Ducangii suisque annotationibus  ; edidit Ludovicus Dindorfius / Lipsiae : in aedibus B. G. Teubneri , 1870</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067682219/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae,... Compendium historiarum in tres tomos distinctum. Quorum Primus agit de rebus judaicis ab exordio mundi usq. ad hierosolymitanum excidium. Secundus historiam romanam ab Urbe condita usq. ad Constantinum Magnum breviter complectitur. Tertius imperatorum res gestas a Constantino Magno usque ab obitum Alexii Comneni tractat. Opus praeclarum... liberalitate... Antonii Fuggeri atque labore Hieronymi Wolfii graece et latine, quinque codicibus inter se collatis, quam emendatissime fieri potuit, in lucem editum. Singulis tomis sui additi sunt indices et variarum lectionum annotationes / Basileae : per J. Oporinum , 1557</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100450075/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>@ Joannis Zonarae... Annales. Carolus Du Fresne, dom. Du Cange,... Wolfianam editionem cum scriptis codicibus contulit, latinam versionem recensuit, Annales notis illustravit. Tomus primus [-secundus] / Parisiis : e Typographia regia , 1686[-1687]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089268458/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ιωαννου του Ζοναρα Επιτομη ῾ιστοριων  IV,   = = Ioannis Zonarae Epitome historiarum :   / cum Caroli Ducangii suisque annotationibus  ; edidit Ludovicus Dindorfius / Lipsiae : in aedibus B. G. Teubneri , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100450113/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae,... Compendium historiarum in tres tomos distinctum. Quorum Primus agit de rebus judaicis ab exordio mundi usq. ad hierosolymitanum excidium. Secundus historiam romanam ab Urbe condita usq. ad Constantinum Magnum breviter complectitur. Tertius imperatorum res gestas a Constantino Magno usque ab obitum Alexii Comneni tractat. Opus praeclarum... liberalitate... Antonii Fuggeri atque labore Hieronymi Wolfii graece et latine, quinque codicibus inter se collatis, quam emendatissime fieri potuit, in lucem editum. Singulis tomis sui additi sunt indices et variarum lectionum annotationes / Basileae : per J. Oporinum, 1557 , 1557</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/166539732/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Les Histoires et Croniques dv monde de Jean Zonaras,... disposez en trois livres. Le Premier fait mention de l'estat des choses passées en Judée, Perse, Égypte et Grèce... Mis de nouveau de leur nayves langues en vulgaire françois, par J. de Mavmont. Le Second descrit l'histoire romaine... Le Troisième raconte les vies, faicts et gestes des empereurs depuis... Constantin jusques au trespas d'Alexie Comnène... Par J. Milles de S. Amovr. Traduit de grec en françois, avec annotations mises en la marge pour les diverses lectures grecques et advertissements et tables... / A Paris, pour Abel L'Angelier, au premier pilier   de  la grand salle du palais. M. D.LXXXIII , 1583</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096247967/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae Opera omnia  : historica, canonica, dogmatica  / accurante et denuo recognoscente J.P. Migne... / Turnholti (Belgium) : Typographi Brepols Editores Pontificii , [ca 1977]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108983102/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Lexicon, ex tribus codicibus manuscriptis  Vol. 2,   / édité par J.A.H. Tittmann / Leipzig : Crusius , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/083761039/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ioannis Zonarae epitomae historiarum  libri XVIII,   / ex recensione Mauricii Pinderi / Bonnae : Ed. Weberid , 1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/116545178/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Historia di Giovanni Zonara... diuisa in tre parti  / nuouamente tradotta dal greco, per Marco Emilio ... / Vinegia : appresso L. de gli Ananzi , 1560</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096101091/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Epitome historiarum  / Jean Zonaras / Lpz : Teubner , 1868-1874</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15297069X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Επιτομή ιστοριών  / Ιωάννης Ζωναράς  ; εισαγωγή - μετάφραση - σχόλια Ιορδάνης Γρηγοριάδης / Αθήνα : Κανάκης , 1995 - 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066639727/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae monachi In Canones SS. Apostolorum &amp; sacrorum Conciliorum, tam oecumenicorum quàm provincialium, commentarii a viris doctissimis latinitate donati &amp; annotationibus illustrati. Nnunc primum ex Regis Christianissimi &amp; aliarum regni ejus bibliothecarum codicibus Graecè ac latinè conjunctim editi. Adjectum est Concilium Constantinopolitanum sub Menna patriarcha, unà cum Constitutionibus Apostolorum, utraque lingua pariter ex iisdem libris erutum</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068422490/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Epitomae Historiarum libri XVIII  Vol. III,   : Reproduction  / Ex recensione Moritz Pinder / Bonn : Weber , 1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063529602/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae,.....Compendium historiarum; in tres Tomos distinctum  : - labore Hieronymi Wolfii, graece ac Latine - in lucem editum / Basileae : [s.n.] , 1557</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067682200/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>In canones SS. Apostolorum... [Traductio ab Antonio Salmatia.] / Lutetiae Parisiorum , 1618</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089268474/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ιωαννου του Ζοναρα Επιτομη ῾ιστοριων  VI,   = = Ioannis Zonarae Epitome historiarum :   / cum Caroli Ducangii suisque annotationibus  ; edidit Ludovicus Dindorfius / Lipsiae : in aedibus B. G. Teubneri , 1875</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100450121/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Johannis Zonarae Lexicon, ex tribus codicibus manuscriptis nunc primum edidit, observationibus illustravit... Johannes Augustus Henricus Tittmann... / Lipsiae : sumpt. S.L. Crusii , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10045013X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae monachi. In Canones SS. Apostolorum et sacrorum Conciliorum, tam oecumenicorum quam provincialium, commentarii a viris doctissimis latinitate donati et annotationibus illustrati, nunc primum ex Regis christianissimi et aliarum regni ejus bibliothecarum codicibus graece ac latine conjunctim editi. Adjectum est Concilium Constantinopolitanum sub Menna patriarcha, una cum Constitutionibus Apostolorum, utraque lingua pariter ex iisdem libris erutum / Lutetiae Parisiorum : typis regiis , 1618</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/053585704/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ιωάννου του Ζωναρά επιτομή ιστοριών  = = Ioannis Zonarae Epitome historiarum :   / cum Caroli Ducangii suisque annotationibus edidit Ludovicus Dindorfius / Lipsiae : in aedibus B.G. Teubneri , 1868-1875</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/079818501/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae Annales, ex recensione Mauricii Pinderi. Tomus I. [-III.] / Bonnae : impensis E. Weberi , 1841-1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/172599555/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>[Theodōrou tou Balsamōn Patriarchou Theoupoleōs megalēs Antiocheias ta ehyriskomena panta]  = = Theodori Balsamonis patriarchæ Theopolis magnæ Antiochiæ Opera quæ reperiri potuerunt omnia, canonica, juridica, dogmatica :   / accurante et denuo recognoscente J.-P. Migne,... / Turnholti : Brepols , 1979-1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067546315/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Annales... Tomus I [-II.] / Bonnae , 1841-1844</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100450105/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Chroniques, ou Annales de Jean Zonare... esquelles sont discourues toutes histoires mémorables advenues en ce monde, en la révolution de six mille six cens ans &amp; plus, disposées en trois parties... Traduit par J. Millet de S. Amour,... / A Lyon : par Macé Bonhomme , 1560[-1561]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135841704/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Les histoires et croniques du monde ; trad. de grec en franç. / Paris : P. l'Huillier , [15..]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047168331/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Θεοδωρου του Βαλσαμων πατριαρχου θεουπολεως μεγαλης Αντιοχειας Τα ευρισκομενα παντα  = = Theodori Balsamonis patriarchæ Theopolis magnæ Antiochiæ Opera quæ reperiri potuerunt omnia, canonica, juridica, dogmatica :   / accurante et denuo recognoscente J.-P. Migne, bibliothecæ cleri universæ, sive cursuum completorum in singulos scientiæ ecclesiasticæ ramos editore / [Parisiis] : Excudebatur et venit apud J.-P. Migne editorem , 1865</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/132793636/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>The history of Zonaras  : from Alexander Severus to the death of Theodosius the Great  / translation by Thomas M. Banchich and Eugene N. Lane  ; introduction and commentary by Thomas M. Banchich / London : Routledge , 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063060450/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ioannis Zonarae Annales  / Jean Zonaras  ; ex recensione Mauricii, Pinderi. a.s.l.t. Corpus scriptorum historiae Byzantinae; / Editio emendatior et copiosior / Bonnae : Ed. Weber , 1841-1844</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/05414275X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ioannis Zonarae Annales  / ex recensione Mauricii Pinderi  / Ioannis Zonarae  ; edidit Theodorus Büttner-Wobst / Bonnae : E. Weber , 1841-1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096247959/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Johannis Zonarae opera omnia... accedunt Eustathii Thessalonicensis scripta ad rem christianam spectantia  / accurante et denuo recognoscente J.P. Migne... / Turnholti (Belgium) : Brepols , [1864]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100450148/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae monachi in canones veterum conciliorum commentarii nunquam antea graece, aut latine editi. Nunc vero de graeco in latinum translati. Interprete Antonio Salmatia... atque ab eodem annotationibus illustrati... / Mediolani : apud M. Tradatum , 1613</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089268423/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ιωαννου του Ζοναρα Επιτομη ιστοριων  I,   = = Ioannis Zonarae Epitome historiarum :   / cum Caroli Ducangii suisque annotationibus  ; edidit Ludovicus Dindorfius / Lipsiae : in aedibus B. G. Teubneri , 1868</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098570994/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Corpus historiae byzantinae... erudite ac luculenter exponuntur a quatuor scriptoribus graecis... quorum Joannes Zonaras..., Nicetas Acominatus choniates..., Nicephorus Gregoras Nicetae..., Laonicus Chalcondyles...  / Johannes Zonaras / Francofurti ad Moenum : per Petrum Fabricium, impensis Hieronymi Feierabendi , 1568</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/140189319/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Паралипоменъ Зонаринъ  / [Préface signée : О. Водянскій] / [Москва , 1847]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/111699622/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Cyrilli archiepiscopi Alexandrini Adversus anthropomorphitas, liber unus Græcè &amp; Latinè. Ejusdem, De incarnatione unigeniti, et, Quod unus  sit Christus ac Dominus secundum Scripturas, ad Hermiam dialogi duo, nunquam  antehac editi. Interprete Bonaventura Vulcanio, cum notis ejusdem, quibus epistolæ aliquot Isidori Pelusiotæ &amp; Joannis Zonaræ, idem quod Cyrillus hisce libris argumentum tractantes multaq[ue] loca ex Cyrilli libris nondum editis sunt inserta / Lugduni Batavorum, e typographia Joannis Patii, Academiæ typographi, An. M.DC.V</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065148495/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Historia rerum in Oriente gestarum ab exordio mundi et orbe condito ad nostra haec usque tempora. In qua rato ordine et succincta miraque breuitate non tantum de origine primum auctuq́[ue] &amp; summa felicitate ac mox inclinatione, casu, &amp; tristi interitu nobilissimarum monarchiarum Assyriorum, Medorum, et Persarum, Graecorum &amp; Macedonum, verum etiam florentissimi Romani Imperii ab urbe condita successus explicantur: ... . Nomina auctorum huius operis et eorum quos secutus est F. Mod. [i.e. Franciscus Modius] in auctario suo quod continet commemorationem gestarum toto orbe ab excidio Constantinopolitano ferè ad hunc annum M.D.LXXXVII post praefationem reperies</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100450083/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae monachi Annales... Carolus Du Fresne D. Ducange... Wolfianam editionem cum... codicibus contulit: latinam versionem recensuit, Annales notis illustravit / Venetiis : ex typ. B. Javarina , 1729</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099101793/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae Epitome historiarum. Cum Caroli Ducangii suisque annotationibus edidit Ludovicus Dindorfius...  / @ / Lipsiae : in aedibus B. G. Teubneri</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075566850/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>... Joannis Zonarae ... Annales. Carolus Du Fresne, Dom. Du Cange,... Wolfianam Editionem cum scriptis Codicibus contulit : Latinam Versionem recensuit, Annales Notis illustravit. Tomus primus [-secundus] / Parisiis : E Typographia Regia , 1686-1687</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146470729/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Die byzantinische Geschichte bei Joannes Zonaras in slavischer Übersetzung / München : W. Fink , [1970]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159363160/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ss. pp. Gregorii Neocaesariensis episc. cognomento thaumathurgi. Macarii Aegyptii, Basilii Seleuciae Isauriae episcopi. Opera omnia, quae reperiri potuerunt. Nunc primum Graecè et Latinè conjunctim edita, cum indicibus necessariis. Accessit Joannis Zonarae expositio canonicarum epistolarum. / Parisiis, : sumptibus Michaelis Sonnii, Claudii Morelli, et Sebastiani Cramoisy. Via Jacobaea. M DCXXII. Cum privilegio Regis.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063525372/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Lexicon ex tribus codicibus manuscriptis nunc primum edidit... Joh. Aug. Henr. Tittmann / Lipsiae : sumt. Siegfr. Lebr. Grusii , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/054358817/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae opera omnia  / Jean Zonaras / Turnhout : Brépols , 1975</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016699211/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Johannis Zonarae Lexicon  / ex tribus codicibus manuscriptis nunc primum edidit et indicibus instruxit Johannes Augustus Henricus Tittmann / Amsterdam : A. M. Hakkert , 1967</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100447295/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Histoire romaine, écrite par Xiphilin, par Zonare, et par Zosime, traduite sur les originaux grecs, par M. Cousin, president en la cour des monnoyes.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15969860X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Chroniques, ou Annales de Jean Zonare jadis, &amp; quatre cens ans y ha, grand drungaire du guet, &amp; premier secretaire de Constantinople, esquelles sont discourues toutes histoires memorables advenues en ce monde, en la revolution de six mille six cens ans, &amp; plus : disposées en trois parties. La premiere desquelles traitte l'estat des choses passées en Judee, Perse, Egypte, &amp; Grece, depuis la creation du monde, jusques à la subversion, &amp; miserable conflagration de Hierusalem. La seconde contient l'histoire romaine prinse à l'edification de la ville, jusques à l'empire du grand Constantin. La tierce raconte les faicts &amp; gestes des empereurs depuis le susdict Constantin, jusques au trespas d'Alexie Comnene : lequel mourut environ l'an de Salut, unze cens. Oeuvre recommandable &amp; longuement desiré, traduit par J. Millet de S. Amour, au conté de Bourgongne. La fin de chascune partie donne son indice à part. / A Lyon : par Barthelemy Molin , . M. D. LX. Avec privilege du Roy.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158034759/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Gregorii Neocaesariensis episc. cognomento Thaumaturgi, Macarii. Aegyptii, et Basilii Seleuciae Isauriae episcopi. Opera omnia, quae reperiri potuerunt. Nunc primum graecè et latinè conjunctim edita, cum indicibus necessariis. Accessit Joannis Zonarae expositio canonicarum epistolarum.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144140144/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ioannou tou asketou tou Zonara ... Chronikon. Joannis Zonarae ... Annales. Carolus Du Fresne, Dom. Du Cange,... Wolfianam editionem cum scriptis codicibus contulit : Latinam versionem recensuit, annales notis illustravit. Tomus primus [-secundus] / Parisiis, e typographia Regia. M. DC. LXXXVI [-MDCLXXXVII] , 1686-1687</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100447309/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Histoire romaine  / écrite par Xiphilin, par Zonare et par Zosime  ; traduite sur les originaux grecs par Monsieur Cousin, président en la cour des Monnoyes / Paris : P. Rocolet , 1678</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089268466/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ιωαννου του Ζοναρα Επιτομη ῾ιστοριων  V,   = = Ioannis Zonarae Epitome historiarum :   / cum Caroli Ducangii suisque annotationibus  ; edidit Ludovicus Dindorfius / Lipsiae : in aedibus B. G. Teubneri , 1874</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099210800/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ioannis Zonarae Annales  / ex recensione Mauricii Pinderi / Bonnae : E. Weber , 1841-1844</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063529599/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ιωαννου του Ασκητου του Ζωναρα γεγονοτος του μεγαλου δρουγγαριου της βιγλας και πρωτοασηκρητις χρονικον  = = Joannis Zonarae Monachi Magni antea vigilum praefecti et primi a secretis Annales. Carolus Du Fresne, Dom. Du Cange, regi a consiliis, &amp; Franciae apud Ambianos Quaestor, Wolfianam Editionem cum scriptis Codicibus contulit : Latinam Versionem recensuit, Annales Notis illustravit. Tomus primus [-secundus] : </dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144100932/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Johannis Zonarae et Photii Lexica ex codicibus manuscriptis nunc primum edita observationibus illustrata et indicibus instructa / Lipsiae : Sumpt. S.L.Crusii , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089268431/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ioannis Zonarae Epitome historiarum, cum Caroli Ducangii suisque annotationibus  2, ( Lib. VI-X)  / editit Ludovicus Dindorfius... / Lipsiae : in Aedibus B. G. Teubneri , 1869</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186996349/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae Annales  1,   / ex recensione Mauricii Pinderi. / Bonnae : E. Weberus , 1841</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117767204/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Ιωαννου του Ζωναρα Τα ευρισκομενα παντα  = = Joannis Zonaræ Opera omnia historica, canonica, dogmatica :   / accurante et denuo recognoscente J.-P. Migne, bibliothecæ cleri universæ, sive cursuum completorum in singulos scientiæ ecclesiasticæ ramos editore / [Parisiis] : Excudebatur et venit apud J.-P. Migne editorem , 1864</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100450091/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Les Histoires et croniques du monde de Jean Zonaras... descrivant toutes histoires mémorables avenue͏̈s en ce monde en la révolution de six mille six cens ans &amp; plus, &amp; principalement de la Turquie. Disposez en trois livres, le premier... mis... en vulgaire françois par J. de Maumont. Le second... le troisième... par J. Milles de S. Amour... / Paris : Pierre L'Huillier , s. d. [c. 1560?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/18699642X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae Annales  2,   / ex recensione Mauricii Pinderi. / Bonnae : E. Weberus , 1844</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108983099/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Lexicon, ex tribus codicibus manuscriptis  Vol. 1,   / édité par J.A.H. Tittmann / Leipzig : Crusius , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090854055/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Joannis Zonarae Epitomae historiarum libri XIII-XVIII  / Edidit Theodorus Büttner-Wobst / Bonn : Ed. Weber , 1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/181748193/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Λεξικόν ευγενέστατων και απαλόψυχων λέξεων και εκφράσεων  : ερμηνευτικό - ετυμολογικό  / Ιωάννου Ζωναρά  ; Γιώργης Σ. Έξαρχος, Μαρία Φωτιάδου / Αθήνα : Δίαυλος , 2014, cop. 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/070947597/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Histoire romaine écrite par Xiphilin, par Zonare, et par Zosime. Traduite sur les originaux grecs, par Monsieur Cousin, President en la Cour des Monnoyes.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/D47B11672">
+      <marcrel:aut rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>[Ms.1.898]  [Ms.1.898]  [Grec 4] Joannis Zonaræ liber de rebus imperii et ecclesiæ, a Constantino usque ad Justinianum imperatorem : Τοϋ σοϕωτάτου καί λογιωτάτου κυροϋ (XVIe siècle) / 125 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/133419231/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Constantini Porphyrogennetae imperatoris Opera. In quibus Tactica nunc primum prodeunt. Joannes Meursius collegit, conjunxit, edidit / [Édition incomplète] / Lugduni Batavorum : Ex Officinâ Elzeviriana , 1617</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/131813153/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Constantini Porphyrogennetae imperatoris Opera. In quibus Tactica nunc primum prodeunt. Joannes Meursius collegit, conjunxit, edidit / [Édition complète] / Lugduni Batavorum : Ex Officinâ Elzeviriana , 1617</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065111842/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/035501170/id"/>
+      <dcterms:bibliographicCitation>Corpus universae historiae praesertim Bizantinae Joannis Zonarae annales, aucti additionibus Georgii Cedreni. Nicetae Acominati choniatae lib. XIX. Nicephori Gregorae lib. XI. Laonici Chalcondylae lib. X historiae Turcicae. Innfine etiam additus est locupletissimus rerum index / [Edidit Joannes Aymin].</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/129258997">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/129258997/id"/>
+      <dcterms:identifier>129258997</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-11-21</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-24T23:37:29</dcterms:modified>
+      <skos:editorialNote>Saffo / con introduzione, version e commenti Maria Luisa Giartosio de Courten, 1921</skos:editorialNote>
+      <skos:editorialNote>Internet, http://authorities.loc.gov, 2008-11-21</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/129258997/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000063005088"/>
+      <isni:identifierValid>0000000063005088</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/53172910"/>
+      <foaf:gender>female</foaf:gender>
+      <skos:prefLabel>Giartosio de Courten, Maria Luisa</skos:prefLabel>
+      <skos:altLabel>De Courten, Maria Luisa Giartosio</skos:altLabel>
+      <skos:altLabel>Courten, Maria Luisa Giartosio de</skos:altLabel>
+      <foaf:familyName>Giartosio de Courten</foaf:familyName>
+      <foaf:givenName>Maria Luisa</foaf:givenName>
+      <foaf:name>Maria Luisa Giartosio de Courten</foaf:name>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ita"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/249828111/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/129258997/id"/>
+      <dcterms:bibliographicCitation>La Beatrice di dante  : raggionamenti critici  / Gabriele Rossetti  ; a cura di Maria Luisa Giartioso de Courten / Milano : La vita felice , 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/17653542X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/129258997/id"/>
+      <dcterms:bibliographicCitation>La Beatrice di Dante  : ragionamenti critici  / Gabriele Rossetti  ; a cura di Maria Luisa Giartosio de Courten  ; con prefazione di Balbino Giuliano / Imola : Cooperativa tip. edit. P. Galeati , 1935</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086514296/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/129258997/id"/>
+      <dcterms:bibliographicCitation>Saffo  / con introduzione, version e commenti Maria Luisa Giartosio de Courten / Milano : S. Giuseppe , 1921</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

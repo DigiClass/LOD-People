@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030072786">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:identifier>030072786</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-07-30</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-11T16:21:13</dcterms:modified>
+      <skos:editorialNote>GDEL</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030072786/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12156216</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000120060068"/>
+      <isni:identifierValid>0000000120060068</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb121562161#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/6663148997652859870003"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Théopompe (0378?-0323? av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Theopompus Chius‏</skos:altLabel>
+      <skos:altLabel>Theopompos</skos:altLabel>
+      <skos:altLabel> Théopompe de Chios</skos:altLabel>
+      <foaf:name>Théopompe</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030072786/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0378 ?</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/030072786/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0323 ?</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Historien grec</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108590658/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompus the historian  / Gordon S. Shrimpton / Montreal : McGill-Queen's University Press , 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/263593657/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompus  : introduction, translation, commentary  / Matthew C. Farmer / Göttingen : Verlag Antike</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007993064/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompus of Chios  : history and rhetoric in the fourth century BC  / Michael Attyah Flower / Oxford : Clarendon Press , 1997, cop. 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139608184/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>La città dissipatrice  : studi sull'excursus del libro decimo dei Philippika di Teopompo  / Carla Ferretto / Genova : Il Melangolo , c1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/19614678X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Disquisitio de Herodoti philosophia  : Oratio inauguralis, quam in Academia Bernensi die X. Maji 1830  : Particula dissertationis de Lysiae vita et scriptis  : eine gekrönte Preisschrift  / Albertus de Jongh  / habuit Theoph. Studer  / disseruit Aug. Jul. Edm. Pflugk  / Quam ... publice defendet auctor Ludovicus Hoelscher  / von Thaddaeus Lau / Trajecti ad Rhenum : Ex Offic. Paddenburgii , [1833]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/127246762/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Zur Kritik des Geschichtsschreibers Theopompos  / von Dr. J. Dellios,... / Leipzig : Simmel , 1880</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/228907012/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Teopompo di Chio  : Filippiche (Fozio, Biblioteca, cod. 176)  / a cura di Gabriella Ottone  ; testo critico e introduzione a cura di Antonio Luis Chavez Reino / Tivoli : Edizioni Tored , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011810335/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompus of Chios  : history and rhetoric in the fourth century BC  / Michael Attyah Flower / Oxford : Clarendon press , 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002424134/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompus the Historian  / Gordon S. Shrimpton / Montreal : McGill-Queen's university press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120970562/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompea  : dissertatio quam ad summos in philosophia honores ab amplissimo ordine philosophorum Argentoratensi rite impetrandos  / scripsit Carolus Buenger /  , 1874</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010563709/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompus and fifth-century Athens  / W. Robert Connor / Cambridge (Mass.) : Harvard university Press ,  1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154955515/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>De Theopompi Chii vita et scriptis  / disseruit Aug. Jul. Edm. Pflugk / Berolini : Mylius , 1827</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/083588078/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Untersuchungen über die Darstellung der griechischen Geschichte von 489 bis 413 vor Chr. bei Ephoros, Theopomp u. a. Autoren  / von Dr. Ludwig Holzapfel / Leipzig : S. Hirzel , 1879</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/236369784/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Corpus dei papiri storici greci e latini  Parte A, Storici greci  2, Testi storici anepigrafi  Vol. 9.1, Frammenti storici attribuiti a Teopompo  / a cura di Claudio Biagetti  ; con un contributo di Francesco Valerio / Pisa : Fabrizio Serra editore , 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/167132962/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompus of Chios  / Michael A. Flower / Ann Arbor (Michigan) : University Microfilms International , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/001551892/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Trois historiens méconnus  : Théopompe, Duris, Phylarque  / Paul Pédech / Paris : Les Belles Lettres , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/116727586/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>De Theopompi et Ephori rerum inde ab ol.92, 1 usque ad ol. 96, 3 gestarum narrationibus  : ad summos in philosophia honores ab amplissimo Ordine Philosophorum Argentoratensi rite impetrandos  / scripsit Daniel Michel, rapoltivillensis /  , 1877</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/249274450/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Zur Charakteristik Theopomps  / [Rudolf Hirzel] / [Lieu de publication inconnu] : [éditeur inconnu] , [189?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10824069X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopomps Hellenika  : mit einer Beilage über die Rede an di Larisaeer und die Verfassung Thessaliens  / [hrsg.] von Eduard Meyer / Halle : M. Niemeyer , 1909</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146409639/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Fragmente der Historiker  : FGrHist 115-116  / Theopomp von Chios  ; übersetzt, eingeleitet und kommentiert von Barbara Gauger und Jörg-Dieter Gauger / Stuttgart : Anton Hiersemann , 2010, cop. 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182285790/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Elleniche  Libro II, PSI 1304  / Teopompo  ; a cura di Luciano Canfora e Rosa Otranto / Bari : Edizioni Dedalo</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/263593657/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompus  : introduction, translation, commentary  / Matthew C. Farmer / Göttingen : Verlag Antike</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098185837/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompi Fragmenta collegit, disposuit et explicavit, ejusdemque de vita et scriptis  / Théopompe  ; commentationem praemisit R. H. Eyssonius Wichers / Lugduni Batavorum : S. et J. Luchtmans , 1829</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/201652587/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopompi Chii Fragmenta, collegit, disposuit, et explicavit, ejusdemque de vita et scriptis commentationem praemisit R. H. Eyssonius Wichers,...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010924582/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Theopomps Hellenika  : mit einer Beilage über die Rede an die Larisaeer und die Verfassung Thessaliens  / Eduard Meyer / Hildesheim : G. Olms , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/114025827/id">
+      <marcrel:asn rdf:resource="http://www.idref.fr/030072786/id"/>
+      <dcterms:bibliographicCitation>Dissertatio de Theopompo Chio historico  / quam ad Summos in Philosophia Honores Obtinendos Publico Eruditorum examini submittit G. Josephus Aschbach / Francofurti ad Moenum : Broenner , 1823</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

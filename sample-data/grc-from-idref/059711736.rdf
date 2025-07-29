@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/059711736">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:identifier>059711736</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-02-12</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-20T13:07:07</dcterms:modified>
+      <skos:editorialNote>Epicorum graecorum fragmenta / Collegit, disposuit, commentarium criticum adiecit Godfredus Kinkel</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/059711736/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000066416827"/>
+      <isni:identifierValid>0000000066416827</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb106182017#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/51680015"/>
+      <!--DHS-->
+      <owl:sameAs rdf:resource="http://hls-dhs-dss.ch/articles/043467/"/>
+      <skos:prefLabel>Kinkel, Gottfried (1844-1891 ; helléniste)</skos:prefLabel>
+      <foaf:familyName>Kinkel</foaf:familyName>
+      <foaf:givenName>Gottfried</foaf:givenName>
+      <foaf:name>Gottfried Kinkel</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/059711736/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1844</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/059711736/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1891</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Helléniste</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186675801/id">
+      <marcrel:cmm rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Phoeniceae  / Euripide  ; für den Schlgebrauch erklärt von G. Kinkel / Berlin : Ebeling , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145827917/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Englische Zustände in der Mitte des achtzehnten Jahrhunderts  : Vortrag, gehalten im Kaufmännischen Verein zu Zürich am 19. Februar 1879  / von Dr. Gottfried Kinkel jun.,... / Berlin : C. Habel , 1881</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14582795X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Die Kulturzustände der Restaurationsepoche in England  : Vortrag, gehalten im Kaufmännischen Verein in Zürich  / von Gottfried Kinkel jr / Heidelberg : Winter , 1882</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145822656/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Euripides und die bildende Kunst  : ein Beitrag zur griechischen Litteratur- und Kunstgeschichte  / von Dr. Gottfried Kinkel,... / Berlin : H. Ebeling &amp; C. Plahn , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046083707/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Ausgewählte tragödien des Euripides  erstes Bändchen, Phönissen  : für den Schulgebrauch  / erklärt von Gottfried Kinkel / Berlin : H. Ebeling &amp; C. Plahn , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145827836/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Macaulay  : sein Leben und sein Geschichtswerk  / von Dr. Gottfried Kinkel jun.,... / Basel : H. Richter , 1879</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108323056/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Kunst und Cultur im alten Italien vor der Herrschaft der Römer  : Vortrag gehalten im Casino zu Wintherthur am 3. Dezember 1872  / von Gottfried Kinkel,... / Basel : Schweighanserische Verlagsbuchhandlungen , 1878</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049167626/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Lycophronis Alexandra  / recensuit scholia vetera codicis Marciani addidit Godofredus Kinkel / Lipsiae : in aedibus B. G. Teubneri , 1880</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06637331X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Lycophronis Alexandra... recensuit, scholia vetera codicis marciani addidit Godofredus Kinkel / Lipsiae : in aedibus B. G. Teubneri , 1880</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/022341811/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Ausgewählte tragödien des Euripides  erstes Bändchen, Phönissen  : für den Schulgebrauch  / erklärt von Gottfried Kinkel / Berlin : H. Ebeling &amp; C. Plahn , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/022930302/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Vorträge und Aufsätze aus dem Gebiete der Archäologie und Kunstgeschichte  / von Dr. K. Bernhard Stark,...  ; nach dem Tode des Verfassers herausgegeben von Dr. Gottfried Kinkel,.. / Leipzig : B. G. Teubner , 1880</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/092635202/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Hermann Köchlys gesammelte kleine philologische Schriften  = = Armini Koechly opuscula philologica :   / unter Leitung von Georg Martin Thomas  ; herausgegeben von Gottfried Kinkel iun. und Ernst Böckel / Leipzig : B.C. Teubner , 1881-1882</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045870047/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059711736/id"/>
+      <dcterms:bibliographicCitation>Epicorum graecorum fragmenta  Vol.1,   / Collegit disposuit commentarium criticum adjecit Godofredus Kinkel / Lipsiae : in aedibus B.G. Teubneri , 1877</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

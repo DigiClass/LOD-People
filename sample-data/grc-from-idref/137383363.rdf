@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/137383363">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/137383363/id"/>
+      <dcterms:identifier>137383363</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-10-21</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-06-15T19:10:59</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/145366324"/>
+      <skos:editorialNote>Internet, authorities.loc.gov., 2009-10-21 : Date  : 1572-1658</skos:editorialNote>
+      <skos:editorialNote>De triplici statv animæ rationalis ad avres, ac tenorem Aristotelis / Ioanne Cottvnio, 1645</skos:editorialNote>
+      <skos:editorialNote>Internet: http://4gym-veroias.ima.sch.gr, 2010-06-29</skos:editorialNote>
+      <skos:editorialNote>Ελληνικών επιγραμματων βιβλί δύο / Ιωαννου του Κωττουνιου, 1653</skos:editorialNote>
+      <skos:editorialNote>Ellēnikṓn epigrammatōn biblí dýo / Iōannou tou Kōttouniou, 1653</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/137383363/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000046179211"/>
+      <isni:identifierValid>0000000046179211</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/32935584"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/188715826"/>
+      <skos:prefLabel>Kōttoúnios, Iōánnēs (1572-1667)</skos:prefLabel>
+      <skos:altLabel>Κωττούνιος, Ιωάννης (1572-1667)</skos:altLabel>
+      <skos:altLabel>Cottunius, Joannes</skos:altLabel>
+      <skos:altLabel>Kottounios, Ioannis</skos:altLabel>
+      <skos:altLabel>Cottunio, Joanne</skos:altLabel>
+      <foaf:familyName>Κωττούνιος</foaf:familyName>
+      <foaf:givenName>Ιωάννης</foaf:givenName>
+      <foaf:name>Ιωάννης Κωττούνιος</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/137383363/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1572</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/137383363/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1667</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Né à Veroia, Docteur en philosophie (1613) enseignant à l'Université de Padoue, Bologne, fondateur du musée grec à Padoue</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/25033402X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/137383363/id"/>
+      <dcterms:bibliographicCitation>Το Κωττουνιανό Κολλέγιο της Πάντοβας και οι υπότροφοί του (1657-1772)  / Αθανάσιος Α. Δολαπτσόγλου</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145365778/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137383363/id"/>
+      <dcterms:bibliographicCitation>Ελληνικών επιγραμματων βιβλί δύο Ιωαννου του Κωττουνιου, ...  = = Graecorum Epigrammatum Libri duo, Auctore Joanne Cottunio, Veriensi, ... cum eiusdem versione latina :  / Patavii, apud P. Frambottum Bibliop. , 1653</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176507191/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137383363/id"/>
+      <dcterms:bibliographicCitation>Lectiones Ioannis Cottunii Veriensis. Doctoris philos. ... ab eodem in celeberrimae Bononiensis Academiae magno auditorio publice habitae, anno salutis 1630. In primum Aristotelis librum De meteoris, ... vnà cum quaestionibus hac tempestaete agitari solitis. Collectae, et editae ab Innocentio Cremonio nobili Regiensi / Bononiae, typis Nicolai Tebaldini. M.DC.XXXI. Superiorum permissu , 1631</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067867472/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137383363/id"/>
+      <dcterms:bibliographicCitation>Joannis Cottunii Orationes tres quarum duae sunt academicae, una de formis Rerumpublicarum altera, de vera nobilitate, tertia vero est liminaris ad philosophiam / [Patavii : ex typographia Pauli Frambotti , 1638]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179761560/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137383363/id"/>
+      <dcterms:bibliographicCitation>Liber de conficiendo epigrammate / Bologne , 1632</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/137381107/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/137383363/id"/>
+      <dcterms:bibliographicCitation>De triplici statv animæ rationalis ad avres, ac tenorem Aristotelis, veræque philosoph[ae], hoc est, de ea, vt oritur, vt in corpore degit, vt post corporis interitum agit, opvs non modo solidis philosophiæ fundamentis firmatum, ac varijs Stagiritæ locis ex Græco fonte erutis illustratum, sed multiplici etiam eruditione refertum.  Avctore Ioanne Cottvnio Veriensi philosoph. medic. et ... Patavini lycei moderatores. / Sumptibus Matthiae Bolzete, bibliopolae, Patauij. M. DC.XLV.</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

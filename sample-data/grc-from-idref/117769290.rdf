@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/117769290">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/117769290/id"/>
+      <dcterms:identifier>117769290</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-09-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-11-20T18:49:44</dcterms:modified>
+      <skos:editorialNote>Filocoro di Atene. 1, Testimonianze e frammenti dell'"Atthis" / a cura di Virgilio Costa.- 2007</skos:editorialNote>
+      <skos:editorialNote>V. Volpi, Dizionario delle opere classiche</skos:editorialNote>
+      <skos:editorialNote>Identifiant pérenne de la notice BnF : https://catalogue.bnf.fr/ark:/12148/cb16748522n, 20241120 : Autorité : Philochorus</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/117769290/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000356063660"/>
+      <isni:identifierValid>0000000356063660</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/178384047"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Philochore"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Philochorus (0340-0260 av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Philochore (0340-0260 av. J.-C.)</skos:altLabel>
+      <skos:altLabel>Philochoros (0340-0260 av. J.-C.)</skos:altLabel>
+      <skos:altLabel>Philochorus Atheniensis (0340-0260 av. J.-C.)</skos:altLabel>
+      <skos:altLabel>Philocoro di Atene (0340-0260 av. J.-C.)</skos:altLabel>
+      <foaf:name>Philochorus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/117769290/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-034</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/117769290/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-026</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Historien et atthidographe grec actif aux 4 et 3e siècles avant J. C.</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/241464811/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/117769290/id"/>
+      <dcterms:bibliographicCitation>Ein Bruchstück des Philochoros  / von R. Reitzenstein / [Lieu de publication inconnu] : [éditeur inconnu] , [190?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/131329545/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/117769290/id"/>
+      <dcterms:bibliographicCitation>Studi su Filarco  : le biografie plutarchee di Agide e di Cleomene  / Emilio Gabba / Pavia : Tipografia del Libro , 1957</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188728775/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/117769290/id"/>
+      <dcterms:bibliographicCitation>Phylarchi Historiarum reliquiae  : collecta digessit et animadversionibus tum eiusdem Lenzii tum suis illustrata  : Accedunt de Polemonis vita et scriptis et de historia atque arte Periegetarum commentationes  / edidit A. Brueckner,...  / edidit Carolus Godofredus Siebelis  / collegit, digessit, notis auxit L. Preller / Vratislaviae : apud G. P. Aderholz , 1811-1839</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15499927X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/117769290/id"/>
+      <dcterms:bibliographicCitation>Philochori Atheniensis librorum fragmenta a Carolo Gotthold Lenzio professore nuper Gothano, collecta digessit et animadversionibus tum ejusdem Lenzii tum suis illustrata edidit Carolus Godofredus Siebelis, gymnasii Budissini rector et Societatis Ducalis latinæ Jenensis sodalis honorar. Accedunt Androtionis Atthidos reliquiæ</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117620114/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/117769290/id"/>
+      <dcterms:bibliographicCitation>Filocoro di Atene  Volume I, Testimonianze e frammenti dell'"Atthis"  / a cura di Virgilio Costa  ; Università degli studi di Roma "Tor Vergata", Dipartimento di antichità e tradizione classica / [2e edizione, corretta e ampliata] / [Tivoli] : Tored , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

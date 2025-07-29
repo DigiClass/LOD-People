@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/028641280">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:identifier>028641280</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1987-06-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T09:21:09</dcterms:modified>
+      <skos:editorialNote>Aristotelis Ethicorum ad Nicomachum / trad. J. Argyropoulos, 1542</skos:editorialNote>
+      <skos:editorialNote>Buchwald. IBN. La civilisation byzantine / L. Bréhier, 1970. Clavis SGL : Argyropulus. Iohannes Argyropulus constantinopolitanus. Encycl. Grèce : 'Iōánnīs 'Argyrópoulos. Dictionnaire des noms, surnoms et pseudonymes latins de l'histoire littéraire du Moyen Âge / Alfred Franklin, 1875 : Argyropulus (Joannes), 'Iōánnīs ho 'Argyropoûlos, dit en français Jean Argyropulo. Dizionario biografico universale / G. Garollo, 1907 : Argiropulo (Giovanni)</skos:editorialNote>
+      <skos:editorialNote>Les dates biographiques sont incertaines : Patsis : 1415-1490 ; Drandakis : 1410-1480 ; Mastrodimitris : 1415-1487 ; Legrand ; Vasilikopoulou-Ioannidou ; Buchwald : vers 1415-1487 ; Franklin : + 1473. Clavis SGL : + 1480 ; Garollo : 1416-1486</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/028641280/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13091822</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000123749872"/>
+      <isni:identifierValid>0000000123749872</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb130918226#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/230069643"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Jean_Argyropoulos"/>
+      <skos:prefLabel>Argyropoulos, Jean (1410?-1480?)</skos:prefLabel>
+      <skos:altLabel>'Iōánnīs 'Argyrópoulos</skos:altLabel>
+      <skos:altLabel>Argyropulo, Jean</skos:altLabel>
+      <skos:altLabel>'Argyropoûlos, 'Iōánnīs ho</skos:altLabel>
+      <skos:altLabel>Argyropoulos, Joannes</skos:altLabel>
+      <skos:altLabel>Argyropylos, Joannes</skos:altLabel>
+      <skos:altLabel>Argyropoulos, Iôannês</skos:altLabel>
+      <skos:altLabel>'Argyrópoulos, 'Iōannīs</skos:altLabel>
+      <skos:altLabel>'Argyropoûlos, 'Iōannēs ho</skos:altLabel>
+      <skos:altLabel>Argyropulus, Johannes (1410?-1480?)</skos:altLabel>
+      <foaf:familyName>Argyropoulos</foaf:familyName>
+      <foaf:givenName>Jean</foaf:givenName>
+      <foaf:name>Jean Argyropoulos</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/028641280/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1410</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/028641280/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1480</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>A aussi écrit en latin et traduit du grec en latin</skos:note>
+      <skos:note>Professeur de grec et de philosophie à Padoue, Florence et à Rome. Initiateur de la philologie grecque en Italie. A traduit Aristote, Porphyre et Saint Basile le Grand du grec en latin. Membre de l'Académie florentine. Né à Constantinople, mort à Rome</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/149653522/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>La carrière de Jean Argyropoulos avant 1453  : contribution à l'histoire de la renaissance byzantine  / Sylvestre Jardin,... / [S.l.] : [S.n.] , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/148915671/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Αργυροπούλεια  : Ιωάνου Αργυροπούλου λόγοι, πραγματείαι, επιστολαί  : Προσφωνήματα, απαντήσεις και επιστολαί προς αυτόν και τον υιόν Ισαάκιον  : Επιστολαί και αποφάσεις περί αυτών  / Σπυρ. Π. Λάμπρου / Εν Αθήναις : τυπ. Σακελλαρίου, Π.Δ. , 1910</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/276640632/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ιωάννης Αργυρόπουλος  / Guiseppe Cammelli  ; μετάφραση Δημήτρης Αρβανιτάκης / Αθήνα : Βιβλιοπωλείον της Εστίας , 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/272770469/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>John Argyropoulos's Paramythetikos to emperor Constantine XI Dragaš Palaiologos upon the death of his mother empress Helena Palaiologina  / Maja Nikolić</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/168380587/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>I dotti bizantini e le origini dell'umanesimo  II, Giovanni Argiropulo  / Giuseppe Cammelli / Firenze : F. Le Monnier , 1941</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017486459/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>I dotti bizantini e le origini dell'umanesimo  / Giuseppe Cammelli / Firenze : Vallecchi , 1941-1954</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/161176437/id">
+      <dcterms:bibliographicCitation>Expositio subtilissima nec non et collectanea commentariaque in tres libros Aristotelis De anima / Venetiis : Apud Hieronymum Scotum , 1559</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113763956/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis ethicorum ad Nicomachum libri X  / Aristotelis  ; Jõe Argyropils interprete / Coloniae : [s.n.] , 1606</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146952596/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethicorum Aristotelis ad Nicomachum libri decem, Argyropilo Bizantio interprete. Iacobi Fabri Stapulensis Annotationibus, et @ scriptis commentarijs, accessere demum argumenta... Leonardi (Bruni) Aretini de Moribus Dialogus ad Galeotum... / [Lyon] , 1535</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/237077361/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Sancti Thomae Aquinatis ex Ordine Praedicatorum quinti Ecclesiae Doctoris Angelici Praeclarissima commentaria in octo Physicorum Aristotelis libros. Ex vetustissimo ac fidissimo manuscripto : exemplari diligentissimé castigata, &amp; locis quamplurimis integritati restituta : cum duplici textus translatione, antiqua, &amp; Argyropoli recognitis. Ad haec accessit Robert Linconiensis in eosdem summa. Operum tomi secundi. Pars prima.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/148100694/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Decem libri Ethicorum Aristotelis ad Nicomachum, ex traductione Joannis Argyropili... comuni, familiarique Jacobi Fabri Stapulensis commentario elucidati... - Adjectus Leonardi Aretini de Moribus dialogus ad Galeotum, dialogo parvorum moralium Aristotelis ad Eudemium fere respondens / Parisiis</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/256996156/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Commentaria doctoris subtilis Joannis Scoti in. 12. li. Metaphisicę Aristotelis : scripta recollecta &amp; ordinata ab ipsius discipulo Antonio Andreę : cum duplici textu : Argiropili s. &amp; Boecii : suis locis inserto : necnon opusculum pręclarissimum ejusdem Jo. Sco. conclusiones CCCLXXVIII. complectens : quas ex libris Metaphisicę Ari. edidit...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/234806192/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis De Cœlo lib. IIII. De Ortu &amp; interitu II. Meteorologicorum IIII. De Mundo I. Parva (ut vocant) naturalia. Græcè &amp; latinè. Jul. Pacius utrunque contextum recensuit, in tractatus &amp; capita distinxit, diagrammatis &amp; perpetuis notis illustravit. Accessit triplex index. I. Librorum, tractatuum, &amp; capitum. II. Græcorum verborum. III. Rerum memorabilium.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103647902/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Libri quatuor Aristotelis de Cœlo, Argyropylo Byzantio interprete. / Parisiis. Ex Officina Prigentii Calvarini ad Geminas Cyppas in Clauso Brunello. , 1542</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103935800/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Commentarii Collegii Conimbricensis, Societatis Jesu, in quatuor libros De coelo, Meteorologicos, Parva naturalia, &amp; Ethica Aristotelis Stagiritæ. Postrema hac editione non tam græco contextu latino respondente comptiores, quàm ab innumeris mendis tersiores, in lucem dati / Lugduni, sumptibus Joannis Pillehotte, sub signo nominis Jesu. M.DC.XVI , 1616</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146951182/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethicorum Aristotelis... libri decem ad Nicomachum  : ex traductione... Joannis Argyropili... familiarique... Jacobi Fabri Stapulensis Commentario elucidati... Adjectus est Leonardi Aretini de moribus Dialogus ad Galeotum, dialogo parvorum moralium Aristotelis ad Eudemium fere respondens / Impressum Lugduni , 1535</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103648380/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis Stagiritae Opera, Post omnes quae in hunc vsque diem prodierunt editiones, summo studio emaculata, &amp; ad Graecum exemplar diligenter recognita. Ab A. Iacobo Martino, doctore medico ac philosopho. Nuper autem noua accessione Theologiae seu philosophiae mysticae, &amp; noni ac decimi Politicorum lib. locupletata, vt octaua ab hinc pagina patet. Quibus accessit index locupletissimus recens collectus / Lugduni, :  apud Stephanum Michaëlem , 1581</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103649034/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>[Aristotelous tou Stageiritou ta sōzomena. Operum Aristotelis Stagiritae philosophorum omnium longe principis, nova editio, græcè &amp; latinè. Græcus contextus quàm emendatiβimè præter omnes omnium editiones est editus, adscriptis ad oram libri &amp; interpretum veterum recentiorúmque, &amp; aliorum doctorum virorum emendationibus: in quibus plurimæ nunc primùm in lucem prodeunt, ex bibliotheca Isaaci Casauboni. Latinæ interpretationes adjectæ sunt quæ græco contextui meliùs respondent, unà cum iis quæ antehac in hoc opere desiderabantur, partim recentiorum, partim veterum interpretum: in quibus &amp; ipsis multa nunc emendata atque illustrata eduntur. Accesserunt huic editioni Kyriaci Strozæ libri duo politicorum græcolatini, in quibus ea quæ ab Aristotele in 8. libris explicata non fuerunt, persequitur: insuper addita sunt ex libris Aristotelis qui hodie non supersunt fragmenta quædam. Adjecti sunt etiam indices duo perutiles: quorum alter nomina auctorum qui in Aristotelem scripserunt, continet: alter quid sit à quoque in singulas librorum ejus partes scriptum indicat, necnon alius index rerum omnium locupletissimus / Aureliæ Allobrogum :  excudebat Petrus de La Roviere. M. DCV. , [1605]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130644900/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Commentarii Collegii Conimbricensis Societatis Jesu. In quatuor libros De coelo Aristotelis Stagiritæ. Cum privilegio &amp; facultate superiorum. Hac secunda editione, graeci contextus latino è regione respondentis accessione auctiores / Lugduni, ex officina Juntarum. M. D. XCVIII. Cum privilegio</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/137343337/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>[Opera latina] / [Venezia : Giovanni et Gregorio de’ Gregori pour Benedetto Fontana , [13 VII 1496]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14620221X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethicorum Aristotelis libri decem, Jo. Argyropoulo et Dyonisio Lambino interpretibus, cum Donati Acciaioli commentariis et Raphhaëli Volaterranii singulus librus argumentis / Venise , 1576</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/142839000/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Contenta. Continetur hic Aristotelis castigatissime recognitum opus metaphysicum a clarissimo principe Bessarione cardinale Niceno latinitate fœliciter donatum/ xiiii libris distinctum: cum adjecto in xii primos libros Argyropyli Byzantii interpretamento/ rarum proculdubio &amp; hactenus desideratum opus. Deus optimus qui sub nomine ipsius entis in hoc opere celebratur: hoc ipsum faciat ad sui &amp; laudem &amp; cognitionem omnibus studiis proficuum. Theophrasti metaphysicorum liber I Item metaphysica introductio: quatuor dialogorum libris elucidata / [Paris] Venale habetur hoc eximium Aristotelis opus apud Henricum Stephanum e ergione scholæ Decretorum. ex cujus officina accuratissime recognitum prodiit anno christi qui summum ens entium existit MDXV. vicesima die mensis octobris</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099830809/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Co[m]mentaria... Johannis Scoti in duodecim libros Méthaphisice[sic] Aristotelis scripta, recollecta et ordinata ab ipsius discipulo Antonio Andree cu[m] duplici textu, Argiropili... et Boecii suis locis inserto / Parisiis : J. Frellon , [1520]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100332730/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>D. Thomae Aquinatis in libros de anima Aristotelis expositio. Cum triplici textus translatione, antiqua, Argyropyli et Michaelis Sophiani, nuper addita. Accedunt ad haec... quaestiones Magistri Dominici de Flandria, ad textus et expositionis dilucidationem perutiles... / Venetiis : apud Juntas , 1565</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007011989/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>De mundo  / translationes Bartholomaei et Nicholai  / edentibus L. Minio-Paluello et G. Freed Muscarella  ; edidit Willelmus L. Lorimer  ; revisit L. Minio-Paluello / Editio altera / Bruges : Desclée de Brouwer , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144813254/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethica ad Nicomachum  / Aristote  ; trad. Jean Argyropoulos, Leonardo Bruni et anonyme  ; éd. Jacques Lefèvre d'Étaples / [Paris : Jean Higman et Wolfgang Hopyl , 12 avril 1497]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162456735/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Hexameron Magni Basilii per Joannem Argyropolum e greco in latinum conversum / (Rome : apud Jacobum Mazochium) , (1515)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147331714/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis stagiritae Peripateticorum principis,  ethicorum  ad Nicomachum libri decem : Ioanne  Argyropylo   Byzantio  interprete ... et cum Donati Acciaioli Florentini viri doctissimi commentariis ... / Parisiis : apud Ioannem de Roigny , 1555</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060947764/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Sancti Thomæ Aquinatis ...  In octo Physicorum Aristotelis libros commentaria ex vetustissimo ac fidissimo manuscripto exemplari, nuper diligentissimè castigata, &amp; locis quamplurimis integritati restituta : cum duplici textus translatione, antiqua, &amp; Argyropoli recognitis. Ad hæc accessit Roberti Linconiensis in eosdem summa. Quibus etiam nuper sunt additi S. Thomæ infrascripti libelli ad negocium physicum spectantes. De principiis naturæ. De natura materiæ. De loco. De tempore libri duo. De Æternitate mundi. Ac Thomæ de Vio Caietani Quaestiones duæ, altera De subjecto naturalis scientiæ, altera De dei intensiva infinitate ... / Parisiis, apud viduam Dionysii Moreau. M.DC.XLIX. , 1649</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113719787/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Opera  / Aristoteles  ; trad. Joannes Argyropoulos / [Augsburg : Ambrosius Keller , 1479]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147282802/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis,... de Anima libri tres, interprete Joanne Argyropoulo,... Ad Graecum exemplar diligentissime recogniti &amp; annotationibus brevibus, iisque doctissimis illustrati / [Paris] , 1548</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060733640/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>S. Thomæ Aquinatis Praeclarissima commentaria in libros Aristotelis Peri Hermenias et Posteriorum analyticorum, cum antiqua textus translatione, atque etiam nova Joannis Argyropyli : itemq'ue Thomae Caietani cardinalis Supplementum commentariorum in reliquum secundi libri Peri Hermenias. Nuper ex emendatissimis exemplaribus diligentissime recognita. Logicae quoque totius summa nunc addita est, ad studiosorum utilitatem ex eiusdem Divi Thomae opusculis excerpta, et in tractatus &amp; capita divisa, juxta ordinem librorum ab Aristotele in Logicis obseruatum. His præterea index novus adjectus est / Venetiis, apud Hieronymum Scotum. M D LXII. , 1562</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147521769/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>S. Thomae Aquinatis In octo physicorum Aristotelis libros commentaria, ex uetustissimo ac fidissimo manu scripto exemplari, nuper diligentissime castigata, &amp; locis quamplurimis integritati restituta: cum duplici textus tralatione, antiqua, &amp; Argyropoli recognitis. Ad haec accessit Roberti Linconienis in eosdem summa. Quibus etiam nuper sunt additi sancti Thomae libelli ad negocium physicum spectantes. ... Ac Thomae De Vio Caietani Quaestiones duae, ... Duo item indices ... / Venetiis : apud Hieronymum Scotum , 1552</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150525842/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>S. Thomae Aquinatis praeclarissima commentaria, In libros Aristotelis Perihermenias et Posteriorum analyticorum  / Cum antiqua textus translatione, atque etiam noua Ioannis Argyropyli. Itemq[ue] Thomae Caietani cardinalis supplementum commentariorum in reliquum secundi libri Perihermenias. Nuper ex emendatissimis exemplaribus diligentissimè recognita  ; Logicae quoq[ue] totius summa nunc addita est, ad studiosorum vtilitatem ex eiusdem D. Thomae opusculis excerpta, et in tractatus &amp; capita diuisa iuxta ordinem librorum ab Aristotele in logicis obseruatum. His praeterea index nouus adiectus est / Venetijs. : Apud haeredem Hieronymi Scotti , 1583</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164835202/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Philosophia moralis ab Aristotele tradita decem libris Ethicorum ad Nicomachum a Joanne Argyropilo byzantino latinè reddita, auctore Josepho Saenz de Aguirre ... / Romae : Ex typographia Antonii de Rubeis. M.DC.XCVIII. , 1698</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147356113/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Contenta textus  Perihermenias  Aristotelis Ioanne Argyropilo Bizantio interprete. Clarissima eiusdem expositio, a magistro Ioanne  Dullaert  Gandauo, olim edita. Eius item magistri Ioannis  Dullaert , in praefatum textum  Perihermenias , acutissimae questiones, suis locis insertae. Additae sunt insuper nonnullae questiones per magistrum Clodoaldum Cenalis Parrhisiensem. Omnia Parrhisijs nuper ad amussim castigata summaque vigilantia fideliter compressa / [Jean Petit] : Venundantur Parrhisiis in vico sancti Iacobi sub intersignio lilij aurei , 1519</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/142851639/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis Stagiritæ peripateticorum principis ethicorum ad Nicomachum libri decem. Joanne Argyropylo Byzantio interprete, nuper ad græcum exemplar diligentissime recogniti, &amp; cum Donati Acciaioli Florentini viri doctissimi commentariis castigatissimis, denuò in lucem editi / Parisiis apud Joannem Roigny, via ad D. Jacobum, sub Basilisco&amp; quatuor elementis. M. D. XLI. Cum privilegio</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147230616/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelous ēthikōn Nikomacheiōn biblia I. Aristotelis ad Nicomachum de moribus libri decem. Ex optima versione Joannis Argyropyli Byzantini, cum commentariis Donati Acciaioli Florentini. Accedit Aristotelis vita ex Diogene Laertio, tum variæ græci textûs lectiones ex recensione Andreæ Du-Vallii Pontesiani / Matriti. M.D.CC.LXXII. Ex officina Joachimi Ibarra, S. C. M. typographi. Sumptibus Societatis typographorum, ac bibliopolarum Matritensium. Superiorum permissu</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/142855596/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Contenta decem librorum moralium Aristotelis, tres conversiones: prima Argyropili Byzantii, secunda Leonardi Aretini, tertia vero antiqua, per capita &amp; numeros conciliatæ: communi, familiarique commentario ad Argyropilum adjecto. I. Fab. introductio in Ethicen. Magna moralia Aristo. Georgio Valla interprete. Leonardi Aretini dialogus de moribus. Index in Ethicen. Item in Magna moralia / Parisiis ex officina Simonis Colinæi. 1527</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/237079372/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Sancti Thomae Aquinatis ex Ordine Praedicatorum quinti Ecclesiae Doctoris Angelici praeclarissima commentaria, De cœlo et mundo, in quatuor libros Aristotelis, quae, cum morte praeventus perficere non potuerit, absoluit Petrus de Alvernia : cum duplici textus translatione, antiqua videlicet, &amp; Joannis Argyropoli nova, diligenter recognitis. Operum tomi secundi. Pars secunda.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144808897/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethica ad Nicomachum  / Aristote  ; trad. Jean Argyropoulos / [Roma : Eucario Silber , kal. sptem. [1er septembre] 1492</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171455959/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis De Anima Libri tres, interprete Joanne Argyropilo Bizantio. / Parisiis. Ex officina Prigentii Calvarini ad Geminas Cyppas in Clauso Brunello. , 1538</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103647775/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis De Anima Libri tres, interprete Joanne Argyropilo Bizantio. / Parisiis. Ex officina Prigentii Calvarini ad Geminas Cyppas in Clauso Brunello. , 1541</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147504449/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Burleus super Physica[m] cu[m] duplici interpretatio[n]e et Tabula  : Excellentissimi Gualteri Burlei peripateticoru[m] secte Auerroistaru[m]q[ue] presrantissimi Co[m]me[n]taria exquisitissima super libros de physica auscultatione Aristotelis philosophorum omnium longe principis: cu[m] interpretatio[n]e noua veteriq[ue]: ac repertorio tractatuum: capitu[m]: dubiorum c[on]clusionu[m]: [et] o[mn]ium notatu digno[rum] facillimo ordine acco[m]modato ... / Venetijs : Sumptibus, cura, [et] igenio heredu[m] quanda[m] nobilis [et] egregij viri d[omi]ni Octauiani Scoti ciuis ac patritij Modoetiensis: [et] socio[rum]. Anno ... millesimo q[uin]gentesimo vigesimo quarto , 1524</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/126708177/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Naturalis auscultationis libri principaliores electi ex Aristotele. De Physico auditu. octo. De coelo &amp; mundo. quatuor. De anima. tres. Ioanne Argyropylo interprete De generatione &amp; corruptione duo. Meteorologicorum quatuor. Francisco Vatablo interp[re]te. Ex Iacopo Fabro Stapulen. Paraphrasis non aspernanda respondenter adiecta.que vice commentariorum haberi facile potest. Ex Paulo tandem Veneto. Summa Physiologiae, iuxta singulorum exigentiam questionatim distributa / Parrhisiis, in clauso brunello. Ad insigne geminarum Cipparum. Cum privilegio Regis. , [1520]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06108302X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Sancti Thomæ Aquinatis ... In quatuor libros Aristotelis De coelo, &amp; Mundo commentaria, quæ, cùm morte præventus perficere non potuerit, absolvit Petrus de Alvernia : cum duplici textus tranlatione, antiqua videlicet, &amp; Joannis Argyropoli nova, diligenter recognitis, quæ omnia nuper sunt maxima diligentia castigata. Duo item indices nunc additi sunt ... / Parisiis, apud Dionysium Moreau. M.DC.XLIX , 1649</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103648054/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Physicorum Aristotelis libri. Argumenta in singulos libros, ex optimis Graecorum commentariis iam recèns conversa adiecimus. Ioanne Argyropylo &amp; Francis. Vatablo interpretibus / Lugduni : Apud Sebastiani Gryphium , 1554</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067968678/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis stagiritae peripateticorum principis Ethicorum ad Nicomachum libri decem. Ioanne Argyropylo Byzantio interprete, nuper ad Graecum exemplar diligentißimè recogniti. Cum Donati Acciaioli Florentini viri doctissimi commentariis, denuò in lucem editi</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/221566066/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Hoc in uolumine continentur infrascripta opera Aristotelis uidelicet: in principio :// Vita eiusdem.// Epistola eiusdem ad Alexandrū Ioanne argyropilo Bizantio interpraete.// Phisicorū libri octo.// Methaphisicae libri duodecim.// De coelo &amp; mundo libri tres.// De anima libri tres.// Ethicorum libri decem cui addidimus libellum de morib[us] eiusdē Ari. interp̄te Le. Are.// Liber praedicabilium porphirii.// Liber praedicamētorū Aristo.// Perihermenias libri duo.// Liber sex principiorū Gilberti porretani interpraete hermano barbaro.// Priorum liber unus.// Posteriorum libri duo.// Opera Aristotelis quae sequūt̄ partim sunt ex antiq̄ traductione partim ex illa Leonardi// aretini. Partim Georgio ualla Placētino īterpraete ̨put suis ī locis annotatū reperies.// Ex antiqua traductione.// Topicorum libri octo.// Elenchorum libri duo.// De sensu &amp; sensato.// De memoria &amp; reminiscentia.// De somno &amp; uigilia.// De motibus animalium.// De longitudine &amp; breuitate uitæ.//  De inuentute &amp; senectute.// De respiratione &amp; inspiratione.// De uita &amp; morte.// De phisionomia.// De bona fortuna.// De coloribus.// De plantis./ /De uegetabilibus.// De lineis indiuisibilibus.// De nilo.// De proprietatibus ælementorum.// De pomo.// De intelligentia.// De mundo.// De causa.// Extractione Leonardi aretini.// Politicorū libri octo.// Economicorum liber unus.// Liber Magnorum Moralium Georgio ualla interpræte. / Venise : Giovanni et Gregorio de 'Gregori pour Benedetto Fontana , 13 VII 1496</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14340606X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Divi Thomae Aquinatis doctoris angelici tomus quintus, complectens expositionem, in decem libros ethicorum, &amp; in octo libros politicorum, Aristotelis. Cum antiqua interpretatione eorundem politicorum adjecta, per sectiones propriis restituta locis, quam olim idem divus Thomas exponendo sequutus est / Venetiis : Apud Dominicum Nicolinum, &amp; socios , 1593</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147364035/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>S. Thomæ Aquinatis præclarissima commentaria in libros Aristotelis perihermenias et posteriorum analyticorum cum antiqua textus translatione atque etiam nova Ioannis Argyropyli ... / Venetiis : Apud iuntas , 1553</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103648178/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis Stagiritæ Peripateticorvm Principis Ethicorum ad Nicomachum libri decem Ioanne Argyropylo Byzantio interprete, nuper ad graecum exemplar diligentissime recogniti ; cum Donati Acciaioli Florentini viri doctissimi commentariis, denuo in lucem editi / Lugduni, :  apud Ioannem Frellonium , 1567</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103898948/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Commentarii Collegii Conimbricensis, Societatis Jesu, in quatuor libros De coelo, Meteorologicos, Parva naturalia, &amp; Ethica Aristotelis Stagiritæ. Postrema hac editione non tam græco contextu latino respondente comptiores, quàm ab innumeris mendis tersiores, in lucem dati / Lugduni, sumptibus Horatii Cardon. M.DC.XVI , 1616</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066754062/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Physica Aristotelis. Commentarii divi Thomae Aquinatis, doct. angelici, perutiles, in octo libros Aristotelis De auscultatione naturali, ex tralatione antiqua quidem illa, sed diligenter repurgata, adjecta &amp; Joannis Argyropyli versione elegantissima : Antonii Democharis vigiliis nunc primum apud Athenas nostras, Lutetiam inquam, in lucem emissi quàm emendatissimi. Quibus ad calcem adiiciuntur ejusdem D. Thomæ quæstiones de formis, spectandi ingenii, cum capitali totius Philosophiæ naturalis historia, D. Roberto Linconiensi, philosopho præclarissimo, authore.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150377525/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aurea expositio clarissimi artiu[m] et Theologie professoris magistri Ioannis de Celaya valentini, doctoris Parisie[n]sis, in decem libros Ethicorum Aristotelis, Argyropilo bysantio traductore  : cum questio[n]ibus atq[ue] dubijs, varias difficultates morales [et] theologicas enoda[n]tib[us] / Parrhisijs : Venu[n]datur in edibus Hedmo[n]di le febure [et] Petri Viart ... , 15 Apr. 1523</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/077507967/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethica Aristotelis ad Nicomachum filium interprete Joanne Argyrophylo... / [Venetia] , [1518]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103647376/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Expositio magistri ioannis de Celaya Valentini in quattuor libros de celo &amp; mundo Aristotelis: cum questionibus eiusdem / Venundant in edibus Hedmundi le Feure in via diui Iacobi prope edem sancti Benedicti sub signo crescentis lune moram trahetis , [1518]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06093834X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Sancti Thomæ Aquinatis ... Præclarissima commentaria, in libros Aristotelis Peri hermenias Posteriorum analyticorum, De sensu &amp; sensato, De memoria &amp; reminiscentia, Somno &amp; Vigilia, De Somnii, divinatione per somnum, motu animalium, longitudine &amp; brevitate vitæ, juventute &amp; senectute, vita &amp; morte, inspiratione &amp; respiratione. Cum antiqua textus translatione, atque etìam nova Joannis Argyropyli : itemque Thomæ Caietani cardinalis supplementum commentariorum in reliquum secundi libri Peri hermenias. Nuper ex emendatissimis exemplaribus diligenntissme [sic] recognita, logicæ quoque totius summa nunc addita est ... ex ejusdem S. Thomæ Opusculis excerpta ... / Parisiis, apud Dionysium Moreau. M.DC.XLVI. , 1646</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145268144/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Physicorum Aristotelis libri. Argumenta in singulos libros, ex optimis Graecorum commentariis conversa iam recens adieccimus. Catalogum vero librorum in hoc opere contentorum sequenti pagella repeties / Lug.Apud Antonium Gryphium, 1564</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147472695/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis Stragyrite [sic] Dialectica, cu[m] qui[n]q[ue] vocibus Porphyrii Phenicis, Argyropilo [sic] traductore, a Joanne Eckio theologo facili explanatione declarata adnotationibus compendiarijs illustrata ac scholastico exercitio explicata ... / [Augsburg] : Excusa in officina Millerana Augustæ Vindelicoru[m], ad V. Cal. Maias [27 Apr.] 1517 , 1517</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187191174/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Decem libri ethicorum seu moralium Aristotelis secundum traductionem Joannis Argyrepili bizantini : cum marginalibus additionibus textum distinguentibus &amp; elucidantibus atque cum annotationibus magistri Gilberti Crab in decem prædictos libros capiti adjunctis.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147324866/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethici seu morales libri philosophorum principis Aristotelis, interprete Argyropylo, diligenter restituti: &amp; aristotelico more ab Antonio Siluestro expositi / Vęnundantur ab I. Badio &amp; B. : Aubrio Parrhisiis, , 1517.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100332722/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>S. Thomae Aquinatis commentaria in octo Physicorum Aristotelis libros... castigata, et locis quamplurimis integritati restituta, cum duplici textus tralatione, antiqua, et Argyropoli recognitis. Ad haec accessit Roberti Linconiensis in eosdem Summa. Quibus... sunt additi S. Thomae... libelli ad negocium Physicum spectantes... Ac Thomae de Vio cardinalis Caietani quaestiones duae... / Venetiis : apud Juntas , 1566</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099721600/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Magistri Anthonii Coronel Scobiensis in Posteriora Aristotelis [una cum textu a Joanne Argyropilo Byzantio traducto] commentaria... / Parisiis : in edibus [sic] P. Gaudoul , [ca. 1521]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060772905/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>S. Thomæ Aquinatis In quatuor libros Aristotelis De coelo, et mundo commentaria : quae, cum morte praeventus perficere non potuerit, absolvit Petrus de Alvernia : cum duplici textus tralatione, antiqua videlicet, &amp; Jovannis Argyropili nova, diligenter recognitis, quæ omnia nuper sunt maxima diligentia castigata. Duo item indices nunc additi sunt, alter librorum, ac lectionum summas continens, alter commentariorum scitu digna demostrans. Quorum omnium castigatio legenti patebit / Venetiis, apud Hieronymum Scotum. MDLXII , 1562</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180913417/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aethica seu moralia Aristotelis ex traductione Joannis Argyropyli ab Egidio delpho singulorum capitum argumentis prenotata : &amp; ab Ascensio indce &amp; annotatiunculis illustrata.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113764022/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis,... Philosophiae naturalis libri omnes, Joanne Argyropylo et Francisco Vatablo interpretibus ...  : adjecta sunt argumenta, cum in singulos libros ex praecipuis Graecorum commentariis desumpta, tum etiam in singula uniuscujusque libri capita  / Aristoteles  ; Joanne Argyropylo et Francisco Vatablo interpretibus / Coloniae Agrippinae : apud haeredes A. Birckmanni , 1580</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/148178855/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis De anima, libri tres, Ioanne Argyropylo Byzantio interprete / Lugduni</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/272304727/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis Stagiritae de prima philosophia seu Metaphysicorum libri XII, Joanne Argyropylo Byzantio interprete : et ad graecum exemplar diligentissime recogniti.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176141316/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Physica Pauli Veneti cum textu Argirophyli  : Adiecta sunt etiam ex Columella capita aliquot de Minimo ac Maximo naturali. Additas insuper figuras ceu (ut dicunt) historias reperies, quibus accessit Tabula Alphabetica singula que hoc in excellenti opere continentur perbreuiter commonstrans. Naturalis Auscultationis Libri principaliores electi...  / Summa philosophie naturalis prestantissimi viri Magistri Pauli Veneti, maxima diligentia nuperrime recognita, et a quam plurimis erroribus purgata, integritatique pristine restituta,   ; cum textu a Joanne Argiropylo e greco in latinum converso. </dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150675267/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Posterio. Linco. Habes accuratissime lector Aristotelis Posterioru[m] opus cum duplici traductione: antique. s. [et] Argiropyli: ac eius luculentissimum interpretem Linconiensem Burleūq[ue]. Ab eximio artium [et] medicine doctore Pamphilo de Monte Bononiensi: publice Theoricam medicine: [et] ordinarie docente: diligeti ac summa viglia nuper castigatos [et] expolitos: necnon in margine plura addita et in ordine posita: plurimumq[ue] ad opus facientia. In calce insuper inuenies questiūculas quasda[m] de mista syllogismi generatione. s. et de demonstratone ab eodem editas. que: vt spero: l[icet?] parue: non parum te delectabunt ... / [Venezia : héritiers O. Scotto , 1521]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/14736700X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>D.Thomae Aquinatis In libros de anima Aristotelis expositio. Cum duplici textus traslatione, antiqua scilicet &amp; Argyropyli, nuper recognita, &amp; doctissimorum virorum cura &amp; ingenio, innumeris expurgata erroribus, nec non curiosis &amp; antea hac non visis exactissimis adnotationibus, copiosissime referta. Accedunt ad hæc acutissimæ Quæstiones magistri Dominici de Flandria ... castigatæ ... Adduntur his, omnium in hoc opere contentorum, duo accuratissimi, ac copiosissimi indices: alter in textus expositionem,alter in Dominici Flandrensis quaestiones / Venetiis : apud Iuntas , 1549</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060866969/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Sancti Thomæ Aquinatis ... Commentarii in decem libros Ethicorum Aristotelis ... Editio nova, quamplurimis quìbus scatebat mendis correcta, cum exemplari romano, ac aliis vetustissimis manuscriptis codicibus collata, per R.P.F. Cosmam Morelles ... / Parisiis, apud Dionysium Moreau. M.DC.XLIV , 1644</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/148176445/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis De cœlo libri quatuor. Ioanne Argyropilo interprete / Lugduni</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162537980/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethicorum de Nicomachum libri decem. Joanne Argyropylo interprete... cum Donati Acciaioli,... commentariis, denno in lucem editi. / Lugduni : Apud Joannes et Franciscus Frellonios , 1544</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065111303/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Commentarii Collegii Conimbricensis, Societatis Jesu, in quatuor libros De coelo, meteorologicos &amp; parva naturalia, Aristotelis Stagiritæ. Hac quinta in Germania editione, partim Græci contextus Latino è regione  respondentis accessione auctiores, partim per omnia correctiores in studiosorum gratiam editi</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/140811877/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Divi Thomae Aquinatis doctoris angelici tomus primus. Complectens vitam ipsius D. Thomae, ex diversis auctoribus collectam. Expositionem in primum, &amp; secundum Perihermenias , &amp; in primum &amp; secundum posteriorum analyticorum Aristotelis… / Venetiis : Apud Dominicum Nicolinum, &amp; Socios , 1594</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144566842/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Decem librorum moralium Aristotelis/ tres conversiones: prima Argyropyli Byzantii/ secunda Leonardi Aretini/ tertia vero antiqua per capita et numeros conciliate: communi/ familiarique commentario  [Jacobi Fabri Stapulensis] ad Argyropylum adjecto / [Paris, 1516] Venale habetur predictum moralium Aristotelis opus ad eundem Henricum Stephanum chalcographum e regione schole Decretorum commorante</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/104474483/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Commentarii Collegii Conimbricensis Societatis Jesu: In Tres Libros De Anima Aristotelis Stagiritae, Hac Quarta Editione, Graeci contextus Latino e regione respondentis accessione auctiores &amp; emendatiores, ob studiosorum Philosophiae usum, in Germania editi. Cum indice rerum praecipuarum / Coloniae : Impensis Lazari Zetzneri , 1603</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147365473/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>S. Thomae Aquinatis in libros Aristotelis de coelo, et mundo commentaria  : quae cum morte praeventus perficere non potuerit, absoluit Petrus de Alvernia ; cum duplici textus tralatione, antiqua videlicet &amp; Io. Argyropoli nova, diligenter recognitis, quae omnia nuper sunt maxima diligentia castigata. Duo item indices nunc additi sunt, alter librorum ac lectionum summas continens, alter commentariorum scitu digna demonstrans. Quroum omnium castigationem sequenti leges epistola</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144807696/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ethica ad Nicomachum  / Aristote  ; trad. Jean Argyropoulos / [Paris : Jean Higman pour Enguilbert, Jean et Geoffroy de Marnef , 26 mars 1488-1489]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151500649/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Magistri Anthonii Coronel Scobiensis in Posteriora Aristotelis ( una cum Textu a Ioanne Argyropilo Byzantio traducto) Commentaria, Noviter recognita, atque adamussim emuncta. / Venundantur Parrhisiis in Edibus Oliverii Senant, sub intersignio Dive barbare , [1521]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151469636/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Posteriora Egidii. Egidii Romani, doctoris clarissimi ordinis Eremitarum sancti Augustini : In libros posteriorum Aristotelis profundissima commentaria. Cum duplici textus translatione, antiqua scilicet et Ioannis Argyropili Bizantii nunc primum addita... Adiecto insuper copioso Repertorio noviter ercogitato quod omnes cum Philosophi conclusiones cum etiam Doctoris ipsius egregii quesita: et notabilia alphabetice demonstrat  / Venezia : Eredi di Ottaviano Scoto &lt;1.&gt;] , 1530</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144568551/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Contenta. Decem librorum Moralium Aristotelis tres conversiones : prima Argyropyli,... secunda Leonardi Aretini, tertia vero antiqua, per capita et numeros conciliatae, communi familiarique commentario (Jacobi Fabri Stapulensis) ad Argyropylum adjecto. Jacobi Fabri Introductio in Ethicen. Magna moralia Aristotelis, Georgio Valla interprete. Leonardi Aretini Dialogus de Moribus... / Parisiis : ex officina S. Colinaei , 1542</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099624834/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis peripatetici... Ethicorum dece[m] libri ad Nicomachu[m] Argyropylo Byzantino traductore. Cum... explanatio[n]e... adjectis etia[m] questionibus... a... Gilberto Crab... confectis... Addita... sunt... tabula... a... Egidio Delpho... edita... Inserta denique... Argyropyli... prefatione in ipsa Aristotelis moralia / [Lyon] : Symon Vincent , [1517]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135811783/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Augustini Niphi suessani philosophi In Aristotelis libros posteriorum analyticorum subtilissima commentaria, cum duplici textus translatione Joannis Argyropili videlicet, &amp; ejusdem nova, ab ipso fidelissime recognitis. Omnium item conclusionum, ac notabilium dictorum novus index adjectus est. Quam vero emendatiora post omnes alias, in hac æditione sint, legenti patebit.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203015460/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ex Physiologia Aristotelis, libri duodetriginta. 1 De auscultatione naturali octo, 2 De cœlo quatuor, 5 De anima tres. Joanne Argyropylo interprete. 3 De generatione &amp; corruptione duo, 4 Meteorologicorum quatuor, 6 De sensu &amp; sensili unus, 7 De memoria &amp; reminiscentia unus, 8 De somno &amp; vigilia unus, 9 De insomniis unus, 11 De longitudine &amp; brevitate vitæ unus, 12 De iuventute &amp; senectute &amp; vita &amp; morte &amp; respiratione unus, Francisco Vatablo interprete. Quibus omnibus, antiqua tralatio tricenos libros contine[n]s, ad Græcum per eundem Vatablum recognita: columnatim respo[n]det. Cum privilegio.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/148175538/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Physicorum Aristotelis, seu de naturali auscultatione, libri octo. Ioanne Argyropylo Byzantio interprete / Lugduni</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143014730/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Decem librorum moralium Aristotelis/ tres conversiones: prima Argyropyli Byzantii/ secunda Leonardi Aretini/ tertia vero antiqua per capita et numeros conciliate: communi/ familiarique commentario ad Argyropylum adjecto / [Paris, 1516] Venale habetur predictum moralium Aristotelis opus ad eundem Henricum Stephanum chalcographum e regione schole Decretorum commorante</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100249809/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>D. Thomae Aquinatis commentaria in tres Aristotelis libros de anima... / Parisiis , 1539</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099624877/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristotelis Stagiritae... Ethicorum ad Nicomachum libri decem, Joanne Argyropylo Byzantio interprete... cum Donati Acciaioli Florentini... commentariis... [Antonius Francinus edidit] / Parisiis : apud Joannem  Roigny, via ad D. Jacobum, sub basilisco e quatuor elementis , 1542</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/140824405/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Peri hermeneias Aristotelis, liber unus, Joanne Argyropylo Byzantio interprete. Cum privilegio in biennium / Parisiis. Ex officina Jacobi Bogardi, sub insigni Divi Christophori, è regione gymnasii Cameraensis. 1542</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/258106093/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Decem libri Ethicorum Aristotelis ad Nicomachum, ex traductione Joannis Argyropyli,... communi familiarique Jacobi Fabri Stapulensis commentario elucidati... Adjectus Leonardi Aretini de Moribus dialogus ad Galeotum, dialogo Parvorum moralium Aristotelis ad Eudemium fere respondens</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143333909/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Divi Thomae Aquinatis doctoris angelici tomus secundus, complectens expositionem in octo lib. De physico audito, in quatuor libros De coelo, &amp; mundo, &amp; in libros De generatione, &amp; corruptione, Aristotelis / Venetiis : Apud Dominicum Nicolinum, &amp; socios , 1593</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/237481332/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Sancti Thomae Aquinatis ex Ordine Praedicatorum quinti Ecclesiae Doctoris Angelici In tres libros Aristotelis De Anima praeclarisima expositio : commentaria in primum et secundum Aristotelis de Generatione et corruptione. Cum duplici textus translatione : antiqua scilicet &amp; nova Argyropoli. Accedunt ad haec acutissimae quaestiones magistri dominici de Flandria à quamplurimis mendis recens castigatae &amp; ad textus &amp; expositionis dilucidationem perutiles. Operum tomi tertii. Pars secunda.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068753853/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Commentarii Collegii Conimbricensis, Societatis Jesu, in quatuor libros De coelo, Meteorologicos, Parva naturalia, &amp; Ethica Aristotelis Stagiritæ. Postrema hac editione non tam græco contextu latino respondente comptiores, quàm ab innumeris mendis tersiores, in lucem dati / Lugduni, sumptibus Horatii Cardon. M.DCVIII , 1608</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06109370X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Sancti Thomæ Aquinatis ... In tres libros Aristotelis De anima præclarissima expositio : cum duplici textus translatione : antiqua scilicet, &amp; nova Argyropyli : nuper recognita, &amp; doctissimorum virorum cura &amp; ingenio innumeris expurgata erroribus ... Accedunt ad hæc acutissimæ quæstiones magistri Dominici de Flandria ... Adduntur his, omnium in hoc opere contentorum, duo acuratissimi, ac copiosissimi indices ... / Parisiis, apud viduam Dionysii Moreau. M.DC.XLIX , 1649</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103647341/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Expositio magistri Joannis de Celaya Valentini in octo libros phisicorum Aristotelis cum questionibus ejusdem, secundum triplicem viam beati Thome realium et rominalicum. / Venundatur Parrhisijs ab Hemundo le Feure in vico sancti Iacobi prope edem sancti Benedicti sub intersignio crescentis lune commorantis , [1517]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/083492925/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>D. Thomae Aquinatis, in libros ethicorum Aristotelis ad Nicomacum expositio. Cui triplicem textus interpretationem adiecimus, antiquam videlicet, Io. Argiropili, &amp; Io. Bernardi Feliciani veneti. Librorum item, ac lectionum summulis additis, quibus facilis ad omnia lectori aditus pateat. Rerum scitu notabilium, copiosissimo elencho annexo. Quæ omnia ad vetustiorum exemplariorum norman, quæ ex plurinis collecta sunt bibliothecis, fideliter restitua, ac quàm diligentissime recognita, in lucem ædita sunt, labore ac opera.F. Remigii Florentini, ord. præd. Theol. / Venetiis apud Junctas M.D.LXIII. , 1563</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/122420306/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Disceptationes ecclesiasticae selectiores utilioresque juris canonici titulos ad forum magis accomodatos complectentes. Quamplurimis Sacrarum Congregationum novissimis decretis ornatae, et duobus tomis, ac indicibus distinctae. Opus non tantum judicibus, et  curialibus, verum etiam episcopis, ceterisque ecclesiarum praelatis, totique clero saeculari, &amp; regulari apprimè utile, et  necessarium; par Joannis Baptistae Argiro in Romana Curia advocati / Romae : Komarek , 1739</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147311535/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>D. Thomae Aquinatis, in libros ethicorum Aristotelis ad Nicomacum expositio. Cui triplicem textus interpretationem adiecimus, antiquam videlicet, Io. Argiropili, &amp; Io. Bernardi Feliciani veneti. Librorum item, ac lectionum summulis additis, quibus facilis ad omnia lectori aditus pateat...F. Remigii Florentini / Venetiis apud Junctas M.D.LXIII. , 1563</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269142215/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>[Incipit] Habes lector in hoc volumine libros octo physicorum Aristotelis cum duplici translatione antiqua videlicet et Joannis Argiropyli quae in aliis antea impressis non habetur et cum expositionibus Angelici doctoris sanctissimi Thomae Aquinatis noviter electione multorum codicum diligentissime correctis et emẽdatis per excellẽtissimũ astium et medicinae doctorem dn̄m magistrū Hieronymum de Oleariis Veronẽsem. Et summa attẽtione imp̃ssis. quibus etiam adiunxit haec quae sequuntur. Quaestiões de formis quae nusquae alias fuere impssae. Item tabulem ad oẽs materias et quaestiones operis. Item summã Linconiesis super octo libris physicorum</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/257690115/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Graeciae orthodoxae. Tomus primus, in quo continentur scriptores Nicephorus Blemmida, Ioannes Veccus Patriarch. cp., Petrus Episc. Mediolanensis, Georgius Pachymeres, Esaias Cyprius, Ioannes Argyropulus, Gregorius Protosyncellus Patriarcha Constantinop., Georgius Trapezuntius, Ioannes Plusiadenus, Hilario Monachus, Niceta Byzantinus. De Processione Spiritus sancti, &amp; alijs  : accedunt de Gregorio Palama archiepiscopo thessalonicensi Graecorum sententiae  / Leo Allatius nunc primum e tenebris eruit &amp; latine vertit : cuius notae in postremum tomum reijciuntur</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020582692/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Του κυρου Μιχαηλ Γλυκα Τα ευρισκομενα παντα  = = Michaelis Glycæ Opera omnia, post Philippi Labbei, Joannis Lamii, Francisci Fontani, Joannis Leunclavii, C. Fr. Matthæii, Leonis Allatii, Angeli Maii curas in unum corpus nunc primum collecta :   / accurante et denuo recognoscente J.-P. Migne, bibliothecæ cleri universæ, sive cursuum completorum in singulos scientiæ ecclesiasticæ ramos editore / [Parisiis] : Excudebatur et venit apud J.-P. Migne editorem , 1866</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136767761/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Ioannis Argyropuli Dialectica ad Petrum de Medicis  / [a cura di] D. M. Inguanez, D. G. Muller / Montis Casini : [s.n.] , 1943</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/048955884/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Decem librorum Moralium Aristotelis tres conversiones Prima Argyropili Byzantii secunda Leonardi Aretini tertia vero antiqua per capita et numeros conciliate communi familiarique commentario ad Argyropylum adjecto / [Paris :] Hec tertia recognitio typis absoluta est in officina Henrici Stephani impemsis ejusdem et Joannis Parvi  , [1510]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/112452671/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Graeciae orthodoxae tomus primus (-secundus), in quo continentur scriptores Nicephorus Blemmida, Ioannes Veccus Patriarch. cp., Petrus Episc. Mediolanensis, Georgius Pachymeres, Esaias Cyprius, Ioannes Argyropulus, Gregorius Protosyncellus Patriarha Constantinop., Georgius Trapezuntius, Ioannes Plusiadenus, Hilario Monachus, Niceta Byzantinus, De Processione Spiritus sancti, &amp; alijs  : accedunt de Gregorio Palama archiepiscopo thessalonicensi Graecorum sententiae  / Leo Allatius nunc primum e tenebris eruit &amp; latine vertit cuius notae in postremum tomum reijciuntur</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178199583/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>La comédie de Katablattas  : invective byzantine du XVe s.  / Jean Argyropoulos  ; édition, traduction et commentaire par P. Canivet et N. Oikonomidès / Αθήναι : Εταιρεία Βυζαντινών και Μεταβυζαντινών Μελετών , 1982-1983</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170935752/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Arguropouleia  / Ioannou Argyropoulou  ; Epur. P. Lampou / En Athenais : tupois P. D. Sakellariou , 1910</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151338728/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Quaestiones In librum Predicabilium Porphirii / Paris : Bernard Aubry, Michel Lesclencher.  , 1521</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165573597/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Aristote, Physicorum De cuelo. Joannes trad. Argyropoulos / Lyon : Vincent , 1559</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147305322/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028641280/id"/>
+      <dcterms:bibliographicCitation>Burleus super libros ethicorum. Habes in hoc uolumine candidissime lector Gualtieri Burlei expositionem super decem libros ethicorum Aristotelis cum duplici textu: antiquo videlicet et eius qui est Argyropoli. Que omnia nuper recognouit frater Ambrosius Patauus theologorum minimus ex ordine fratrum diui Augustini: ... / [Venise] , 1521</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

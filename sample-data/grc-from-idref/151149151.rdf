@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/151149151">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/151149151/id"/>
+      <dcterms:identifier>151149151</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-29</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T12:39:06</dcterms:modified>
+      <skos:editorialNote>Παλαιά τε και Νέα Διαθήκη, Βενετία 1536 / επιμέλεια κειμένου, εισαγωγή, σχόλια, γλωσσάριο Ελένη Κακουλίδη - Πάνου, γλωσσικό επίμετρο Ελένη Καραντζολα, 2000</skos:editorialNote>
+      <skos:editorialNote>Palaia te kai Nέa Diathīkī, Venetίa 1536 / epimeleia keimenoy, eisagōgī, schόlia, glōssario Elenī Kakoylίdī - Panoy glōssikό epίmetro Elenī Karantzola, 2000</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/151149151/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/000000038545349X"/>
+      <isni:identifierValid>000000038545349X</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/213896467"/>
+      <skos:prefLabel>Kartános, Iōanníkios (ca. 15ème s.)</skos:prefLabel>
+      <skos:altLabel>Καρτάνος, Ιωαννίκιος (ca. 15ος αι)</skos:altLabel>
+      <foaf:familyName>Καρτάνος</foaf:familyName>
+      <foaf:givenName>Ιωαννίκιος</foaf:givenName>
+      <foaf:name>Ιωαννίκιος Καρτάνος</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/151149151/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">14XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/151149151/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">15</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3175395/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Religieux, né à Corfou, vit à Venise où il est emprisonné puis libéré le 27 septembre 1537. Il est connu pour avoir voyagé en Grèce et à Constantinople</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151133913/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/151149151/id"/>
+      <dcterms:bibliographicCitation>Παλαιά τε και Νέα Διαθήκη, Βενετία 1536  / επιμέλεια κειμένου, εισαγωγή, σχόλια, γλωσσάριο Ελένη Κακουλίδη - Πάνου  ; γλωσσικό επίμετρο Ελένη Καραντζολα / Αθήνα : Κέντρο Ελληνικής Γλώσσας , 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

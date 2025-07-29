@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/130464155">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:identifier>130464155</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-16</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-05-08T17:31:45</dcterms:modified>
+      <skos:editorialNote>From Archilochus to Pindar : papers on Greek literature of the Archaic Period / [by] J. A. Davison,... ; with a foreword by W. B. Stanford,..., 1968</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/130464155/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000057113154"/>
+      <isni:identifierValid>0000000057113154</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/52475101"/>
+      <!--PERSEE-->
+      <owl:sameAs rdf:resource="https://www.persee.fr/authority/246722"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Davison, John Armstrong</skos:prefLabel>
+      <skos:altLabel>Davison, J. A.</skos:altLabel>
+      <foaf:familyName>Davison</foaf:familyName>
+      <foaf:givenName>John Armstrong</foaf:givenName>
+      <foaf:name>John Armstrong Davison</foaf:name>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Professeur de langue et littérature grecque à l'Université de Leeds, Royaume Uni</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046206965/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:bibliographicCitation>Homeric researches  / by Johannes Th. Kakridis / Lund : C.W.K. Gleerup , 1949</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/284045772/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:bibliographicCitation>Theognis 257-66  / J. A. Davison / [Lieu de production inconnu : Nom du producteur inconnu] , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015074536/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:bibliographicCitation>From Archilochus to Pindar  : papers on Greek literature of the Archaic Period  / [by] J. A. Davison,...  ; with a foreword by W. B. Stanford,... / London : Macmillan , 1968, cop. 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/284019984/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:bibliographicCitation>Notes on the Panathenaea  / J. A. Davison / [Londres : British Academy , 1958]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/23476158X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:bibliographicCitation>The decipherment of linear B  : the present position  / John A. Davison / Toronto : University of Toronto press , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063233614/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:bibliographicCitation>From Archilochus to Pindar  / Papers on Greek literature of the archaic period  ; With a foreword by W. B. Stanford,... / London : Macmillan , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/284045772/id">
+      <marcrel:dto rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:bibliographicCitation>Theognis 257-66  / J. A. Davison / [Lieu de production inconnu : Nom du producteur inconnu] , 1959</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/284019984/id">
+      <marcrel:dto rdf:resource="http://www.idref.fr/130464155/id"/>
+      <dcterms:bibliographicCitation>Notes on the Panathenaea  / J. A. Davison / [Londres : British Academy , 1958]</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

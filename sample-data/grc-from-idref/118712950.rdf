@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/118712950">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:identifier>118712950</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-10-24</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-03-05T03:17:07</dcterms:modified>
+      <skos:editorialNote>Sancti Gregorii II,... Libri decem explanationis Ecclesiastae... ; quibus praeposita est Vita ejusdem pontificis a Leontio Monacho scripta, 1791  [éd. bilingue, grec-latin]</skos:editorialNote>
+      <skos:editorialNote>DHGE : GRÉGOIRE (saint), évêque d'Agrigente</skos:editorialNote>
+      <skos:editorialNote>DTC : GRÉGOIRE D'AGRIGENTE (saint)</skos:editorialNote>
+      <skos:editorialNote>Dict. spiritualité : GRÉGOIRE D'AGRIGENTE (saint)</skos:editorialNote>
+      <skos:editorialNote>BHG 707</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : GRÉGOIRE II (saint), évêque de Girgenti</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/118712950/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13562507</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000362015956"/>
+      <isni:identifierValid>0000000362015956</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb13562507z#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/307484301"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Grégoire (06..?-07..? ; saint ; évêque d'Agrigente)</skos:prefLabel>
+      <skos:altLabel>Grégoire II (évêque d'Agrigente)</skos:altLabel>
+      <skos:altLabel>Gregorius II (évêque d'Agrigente)</skos:altLabel>
+      <skos:altLabel>Grégoire d'Agrigente (saint)</skos:altLabel>
+      <skos:altLabel>Grégoire d'Akragas (saint)</skos:altLabel>
+      <skos:altLabel>Gregorius Agrigentinus (saint)</skos:altLabel>
+      <skos:altLabel>Gregorios ho Akragantos (saint)</skos:altLabel>
+      <skos:altLabel>Gregorio (saint ; évêque d'Agrigente)</skos:altLabel>
+      <skos:altLabel>Grégoire II (évêque d'Agrigente)</skos:altLabel>
+      <skos:altLabel>Gregorius (saint ; évêque d'Agrigente)</skos:altLabel>
+      <foaf:name>Grégoire</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/118712950/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">06XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/118712950/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">07XX</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Évêque d'Agrigente (en grec, Akragas ; ou encore Girgenti), auteur d'un commentaire en dix livres sur l'Ecclésiaste, texte écrit au VIIIe siècle ?</skos:note>
+      <skos:note>Depuis le IXe siècle, un certain Grégoire, évêque d'Agrigente, est l'objet d'un culte dans l'Église orientale. Ce Grégoire, qui aurait vécu au temps de Justinien II (+ 711), pourrait être le même que l'auteur du commentaire de l'Ecclésiaste</skos:note>
+      <skos:note>On connaît encore un Grégoire, évêque d'Agrigente, attesté en 591 dans la correspondance de saint Grégoire le Grand : cet évêque ne semble pas être l'auteur du commentaire de l'Ecclésiaste, et ne peut pas être le saint évêque d'Agrigente, contemporain de Justinien II (+ 711) - mais c'est ce personnage qui semble avoir inspiré la Vie de saint Grégoire écrite vers la fin du VIIe siècle par Léonce, higoumène ou abbé de Saint-Sabas, à Rome</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176543074/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>A translation of abbot Leontios' Life of Saint Gregory, bishop of Agrigento  / commentary and translation by John R. C. Martyn / Lewiston : E. Mellen , 2004, cop. 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011739150/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Das Leben des Heiligen Gregorios von Agrigent  / Leontios Presbyteros von Rom  ; kritische Ausgabe, Übersetzung und Kommentar von Albrecht Berger / Berlin : Akademie Verlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153935707/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Influssi di scrittori greci nel "Commento all'ecclesiaste" di Gregorio di Agrigento  / di Salvatore Gennaro / Catania : Centro di studi di arte e letteratura cristiana antica , [1951?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/185645577/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Specimen corruptelarum pontificarum in Cypriano, Ambrosio, Gregorio M. auctore Operis imperfecti &amp; injure canonico collectione facta cum M. SS. variis inscriptum clero Anglicano. / Londini , 1626</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11796929X/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Pseudo-Gregorii Agrigentini seu Pseudo-Gregorii Nysseni Commentarius in Ecclesiasten  / editus a Gerard H. Ettlinger et Jacques Noret / Turnhout : Brepols , 2007, cop. 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089274458/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Sancti Gregorii II, Pontificis Agrigentinorum Libri decem Explanationis Ecclesiastae, Graece primum et cum Latina interpretatione ac Commentariis vulgati - Quibus praeposita est Vita ejusdem Pontificis a Leontio Monacho scripta nec fractenus graece edita  / St Grégoire / Venetiis : [s.n.] , 1790</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/18836496X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Tou en hagiois patros hēmōn Germanou archiepiskopou Konstantinoupoleōs ta heuriskomena panta  = = S.P.N. Germani archiepiscopi Constantinopolitani opera omnia. Juxta editionis card. Ang. Mai, Joan. Dominici Mansi, Jacobi Gretseri, Francisci Combefisii, ad prelum revocata. Accedunt Ss. Gregorii Agrigentini, Tarasii cp., Cosmae Hierosolymitani, Pantaleonis diaconi cp. Adriani monachi, Epiphanii Catanensis diaconi, Pachomii monachi, Philothei monachi, anonymi Becucciani, scripta quae supersunt :   / accurante et denuo recognoscente J.-P. Migne / Turnhout : Brepols , [1967]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/072900342/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Του εν αγιοις πατρος ημων Γερμανου αρχιεπισκοπου Κωνσταντινουπολεως, Τα ευρισκομενα παντα  = = S.P.N. Germani archiepiscopi Constantinopolitani, Opera omnia, juxta editiones card. Ang. Mai, Joan. Dominici Mansi, Jacobi Gretseri, Francisci Combefisii, ad prelum revocata :   / accurante et denuo recognoscente J.-P. Migne, bibliothecæ cleri universæ, sive cursuum completorum in singulos scientiæ ecclasiasticæ ramos editore / [Parisiis] : Excudebatur et venit apud J.-P. Migne editorem , 1858</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/236908014/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Commento all'Ecclesiaste  / Pseudo-Gregorio di Agrigento  ; traduzione, introduzione e note a cura di Vincenzo Lombino / Roma : Città nuova</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119976692/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Histoire des francs  Tome II,   / par Saint Grégoire,...  / par Odon,...  ; traduction nouvelle par Henri Bordier / Paris : Firmin Didot frères , 1861</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119976536/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Histoire des francs  Tome I,   / par Saint Grégoire,...  / par Odon,...  ; traduction nouvelle par Henri Bordier / Paris : Firmin Didot frères , 1859</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/129234613/id">
+      <marcrel:asn rdf:resource="http://www.idref.fr/118712950/id"/>
+      <dcterms:bibliographicCitation>Der Tricenarius des heil. Gregorius ...  / Karl Eberle / Regensburg , 1890</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/033641072">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:identifier>033641072</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-02-23</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-11T16:22:22</dcterms:modified>
+      <skos:editorialNote>GDEL. Encicl. italiana</skos:editorialNote>
+      <skos:editorialNote>Oeuvres philosophiques, 1992</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/033641072/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12448816</bnf-onto:FRBNF>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12448816g#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/203025900"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Aristobule (01..-01.. av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Aristobulo</skos:altLabel>
+      <skos:altLabel>Aristobulos</skos:altLabel>
+      <foaf:name>Aristobule</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/033641072/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-01X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/033641072/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-01X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Philosophe juif péripatéticien. A vécu à Alexandrie</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068756267/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>La filosofia di Aristobulo  : e i suoi nessi con il "De mundo" attribuito ad Aristotele  : con due appendici contenenti i frammenti di Aristobulo, traduzione a fronte e presentazione delle varianti  / Roberto Radice  ; prefazione di Abraham P.Bos / Seconda edizione riveduta e ampliata / Milano : Vita e pensiero , 1995</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/01983537X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Jüdisch-hellenistische Imitation eines orphischen Hieros Logos  : Beobachtungen zu OF 245 und 247 (sog. Testament des Orpheus)  / Christoph Riedweg / Tübingen : G. Narr Verlag , cop. 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154484970/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Historiens compagnons d'Alexandre  : Callisthène, Onésicrite, Néarque, Ptolémée, Aristobule  / par Paul Pédech / 2e tirage. / Paris : Les Belles Lettres , 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/01314104X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Der Thoraausleger Aristobulos  : Untersuchungen zu seinen Fragmenten und zu pseudepigraphischen Resten der jüdisch-hellenistischen Literatur  / von Nikolaus Walter / Berlin : Akademie-Verlag , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/076168298/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Ludovici Caspari Valckenaerii Diatribe de Aristobulo Judaeo ; philosopho peripatetico alexandrino. Edidit, praefatus est, et Lectionem publicam Petri Wesselingii adjunxit, Joannes Luzac / Lugduni Batavorum : Apud Samuellem et Joannem Luchtmans , 1806</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/200248510/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>À la croisée des cultures  : les traditions judaïques à la manière grecque  / Jean Riaud / Paris : Les Éditions du Cerf , DL 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003344991/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>La filosofia di Aristobulo  : e sui nessi con il "De mundo" attribuito ad Aristotele  : con due appendici contenenti i frammenti di Aristobulo, traductione a fronte e presentazione delle varianti  / Roberto Radice  ; prefazione di Abraham P. Bos / Milano : Vita e Pensiero , 1994</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/234206063/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Aristobulos in Alexandria  : jüdische Bibelexegese zwischen Griechen und Ägyptern unter Ptolemaios VI. Philometor  / Markus Mülke / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017473535/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Bibliographie hellénique des XVe et XVIe siècles  : ou description raisonnée des ouvrages publiés en grec ou par des Grecs aux XVe et XVIe siècles, accompagnée de notices biographiques, tables chronologiques, notes, documents et index  / par Émile Legrand / Paris : G.-P. Maisonneuve &amp; [et] Larose , 1962</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/129891452/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Degnomologiorum Graecorum historia atque origine commentatio ab Antonio Elter scripta  De Justini monarchia et Aristobulo Iudaeo,  / Bonnae : ex Caroli Georgi typographeo academico , 1889</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086371614/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Fragments from hellenistic jewish authors  III, Aristobulus  / by Carl R. Holladay / Atlanta : Scholars press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/156252155/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033641072/id"/>
+      <dcterms:bibliographicCitation>Ptolemaei Eordaei, Aristobuli Cassandrensis et Charetis Mytilenaei Reliquiae  / Ptolemaei Eordaei, Aristobuli Cassandrensis, Charetis Mytilenaei  ; edidit Janus Gerardus Hulleman / Trajecti ad Rhenum : apud Van Dorp et Heringa , 1844</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

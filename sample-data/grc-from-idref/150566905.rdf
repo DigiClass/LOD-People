@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/150566905">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/150566905/id"/>
+      <dcterms:identifier>150566905</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-07</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-08T07:58:28</dcterms:modified>
+      <skos:editorialNote>Nachträge zu Alexander Trallianus : Fragmente aus Philumenus und Philagrius, nebst einer bisher noch ungedruckten Abhandlung über Augenkrankheiten, 1963</skos:editorialNote>
+      <skos:editorialNote>http://errol.oclc.org/laf/nr 95037759.html</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/150566905/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000382211794"/>
+      <isni:identifierValid>0000000382211794</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/263448851"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Philumenus</skos:prefLabel>
+      <skos:altLabel>Philumenos</skos:altLabel>
+      <skos:altLabel>Philoumenos</skos:altLabel>
+      <skos:altLabel>Philumène</skos:altLabel>
+      <foaf:name>Philumenus</foaf:name>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Médecin grec</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068206313/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/150566905/id"/>
+      <dcterms:bibliographicCitation>[Werke]...  II, Alexander von Tralles  : Original Texte und Ubersetzung... mit ein Beitrag zut Geschichte der Medicin  / von Dr Theodor Puschmann / Amsterdam : M. Hakkert , 1963</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108235416/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/150566905/id"/>
+      <dcterms:bibliographicCitation>Nachträge zu Alexander Trallianus  : Fragmente aus Philumenus und Philagrius : nebst einer bisher noch ungedruckten Abhandlung uber Augenkrankheiten  / Alexandre de Tralles  ; [hrsg von] T. Puschmann / Amsterdam : A.M. Hakkert , 1963</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025560999/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150566905/id"/>
+      <dcterms:bibliographicCitation>Nachträge zu Alexander Trallianus  : Fragmente aus Philumenus und Philagrius, nebst einer bisher noch ungedruckten Abhandlung über Augenkrankheiten  / Nach den Handschriften herausgegeben und ins Deutsche übersetzt von Theodor Puschmann ... / Berlin : Verlag von S. Calvary &amp; Co. , 1886</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109000757/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150566905/id"/>
+      <dcterms:bibliographicCitation>Nachträge zu Alexander Trallianus  : Fragmente aus Philumenus und Philagrius, nebst einer bisher noch ungedruckten Abhandlung über Augenkrankheiten  / nach den Handschriften herausgegeben und ins Deutsche übersetzt von Dr. Theodor Puschmann / Amsterdam : A. M. Hakkert , 1963</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051509350/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150566905/id"/>
+      <dcterms:bibliographicCitation>Philumeni De venenatis animalibus eorumque remediis  / ex codice vaticano primum edidit Maximilianus Wellmann / Lipsiae : in aedibus B. G. Teubneri , 1908</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063796031/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150566905/id"/>
+      <dcterms:bibliographicCitation>Philumeni De Venenatis animalibus eorumque remediis. Ex codice Vaticano primum ed. Maximilianus Wellmann / Lipsiae : B. G. Teubner , 1908</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20171231715066331">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150566905/id"/>
+      <dcterms:bibliographicCitation>[JB 17.9.7.3] « Philoumenos / Aetius » / 2 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/113572182">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:identifier>113572182</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-27</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-01T15:27:39</dcterms:modified>
+      <skos:editorialNote>Procli : in platonis parmenidem, commentaria / Edidit Carlos Steel, 2007</skos:editorialNote>
+      <skos:editorialNote>VIAF, 2014-08-11 : b. 1977-, en fonction à l'Institut Supérieur de Philosophie de Louvain</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/113572182/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000047247052"/>
+      <isni:identifierValid>0000000047247052</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb16909417j#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/66247589"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>D'Hoine, Pieter (1977-....)</skos:prefLabel>
+      <foaf:familyName>D'Hoine</foaf:familyName>
+      <foaf:givenName>Pieter</foaf:givenName>
+      <foaf:name>Pieter D'Hoine</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/113572182/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1977</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2802361/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/nld"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Professeur de philosophie</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179909274/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>Fate, providence and moral responsibility in ancient, medieval and early modern thought  : studies in honour of Carlos Steel  / edited by Pieter d'Hoine and Gerd Van Riel / Leuven : Leuven University Press , cop. 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269624422/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>Le commentaire d'Asclépius aux livres Α-Γ de la "Métaphysique" d'Aristote  : textes choisis et commentaires  / dirigé par Alexandra Michalewski et Pieter d'Hoine / Bruxelles : Ousia</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/250152657/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>The reception of Plato's "Phaedrus" from Antiquity to the Renaissance  / edited by Sylvain Delcomminette, Pieter d'Hoine and Marc-Antoine Gavray / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183601815/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>Lectio  : studies in the transmission of texts &amp; ideas  / editor in chief Pieter D'Hoine  ; editorial board Anthony Dupont, Michèle Goyens, Marleen Reynders, Stefan Schorn / Turnhout : Brepols , 2014-</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/262318741/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>Polemics and Networking in Graeco-Roman antiquity  / edited by Pieter d'Hoine, Geert Roskam, Stefan Schorn... [et al.] / Turnhout :  Brepols , DL 2021</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/189174455/id">
+      <marcrel:pbd rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>Ancient readings of Plato's Phaedo  : [colloque international, 08-10 octobre 2012, Académie royale de Belgique]  / edited by Sylvain Delcomminette, Pieter d'Hoine, Marc-Antoine Gavray / Leiden : Brill</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113570597/id">
+      <marcrel:cwt rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>Procli In Platonis Parmenidem commentaria  Tomus I, Libros I-III continens  / edidit Carlos Steel  ; recognoverunt brevique adnotatione critica instruxerunt Carlos Steel, Caroline Mace, Pieter d'Hoine / Oxonii : e typographeo Clarendoniano , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/224073133/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>All from one  : a guide to Proclus  / Pieter d'Hoine and Marije Martijn / Oxford : Oxford University Press , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/20451200X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>All from one  : a guide to Proclus  / edited by Pieter d'Hoine and Marije Martijn / Oxford, (G.B) : Oxford University Press , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125901925/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>Procli In Platonis Parmenidem commentaria  Tomus II, Libros IV-V continens  / edidit Carlos Steel  ; recognoverunt brevique adnotatione critica instruxerunt Carlos Steel, Aurelie Gribomont, Pieter D'Hoine / Oxonii : e typographeo Clarendoniano , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/200866907/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/113572182/id"/>
+      <dcterms:bibliographicCitation>Ancient readings of Plato's Phaedo  / edited by Sylvain Delcomminette, Pieter d'Hoine, Marc-Antoine Gavray / Leiden : Brill , 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

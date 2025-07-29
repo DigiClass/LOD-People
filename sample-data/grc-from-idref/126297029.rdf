@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/126297029">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/126297029/id"/>
+      <dcterms:identifier>126297029</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-23</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-11T15:23:00</dcterms:modified>
+      <skos:editorialNote>Penser l'économique / Bryson, 1995. - Fī tadbīr al-raǧul li-manzilihi / Barsīs</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/126297029/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000011179983"/>
+      <isni:identifierValid>0000000011179983</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb15507001r#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/17529397"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Bryson_(néopythagoricien)"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Barsīs (02..?-02..? av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>برسيس (02..?-02..? av. J.-C.)</skos:altLabel>
+      <skos:altLabel>Bryson, Pythagoriciens</skos:altLabel>
+      <skos:altLabel>Bryson</skos:altLabel>
+      <skos:altLabel>Brusôn</skos:altLabel>
+      <foaf:familyName>برسيس</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> برسيس</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/126297029/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-02X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/126297029/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-02X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Néo-pythagoricien. Fait partie des pseudépigraphes pythagoriciens. Ses dates sont très discutées. Son ouvrage, « Économique », nous est parvenu dans des versions arabe, hébraïque, et latine (« oeconomica Galieni »).</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117454192/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/126297029/id"/>
+      <dcterms:bibliographicCitation>Der Oikonomikoc des Neupythagoreers 'Bryson' und seine Einfluss auf die islamische Wissenschaft  / edition und Übersetzung der erhaltenen Versionen, nebst einer Geschichte der Ökonomik im Islam mit Quellenproben in Text und Übersetzung von Martin Plessner / Heidelberg : C. Winter , 1928</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/221778837/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/126297029/id"/>
+      <dcterms:bibliographicCitation>مجموعة أربع رسائل لقدماء فلاسفة اليونان ولابن العبري  = = Anciens traités arabes contenant La politique de Themistius, L'économie domestique de Probus (?), Les Récits amusants de Barhebraeus et L'exclusion de la tristesse, attribué à Platon :   / نشرها الأب لويس شيخو اليسوعي  / publiés par le P. Louis Cheikho S. J. / [Fac-similé numérique] / Alexandrie : Bibliotheca Alexandrina , 2009-2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/175281904/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/126297029/id"/>
+      <dcterms:bibliographicCitation>Economy, family, and society from Rome to Islam  : a critical edition, English translation, and study of Bryson's Management of the Estate  / Simon Swain / Cambridge : Cambridge University Press , 2013, cop. 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/19501894X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/126297029/id"/>
+      <dcterms:bibliographicCitation>مجموعة أربع رسائل لقدماء فلاسفة اليونان ولابن العبري  = = Anciens traités arabes contenant La politique de Themistius, L'économie domestique de Probus (?), Les Récits amusants de Barhebraeus et L'exclusion de la tristesse, attribué à Platon :   / نشرها الأب لويس شيخو اليسوعي  / publiés par le P. Louis Cheikho S. J. / ظهرت تباعا في مجلة المشرق / بيروت : مطبعة الآباء اليسوعيين</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/126297282/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/126297029/id"/>
+      <dcterms:bibliographicCitation>في التدبير الرجل لمنزله  / برسيس  / ابن سينا / Tunisie : Edition Media Com , 1995</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

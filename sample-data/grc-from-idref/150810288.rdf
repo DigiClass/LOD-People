@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/150810288">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:identifier>150810288</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-03-17</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T10:07:47</dcterms:modified>
+      <skos:editorialNote>Kaiser Leo I : das oströmische Reich in den ersten drei Jahren seiner Regierung (457-460 n. Chr.) / von Gereon Siebigs, 2010</skos:editorialNote>
+      <skos:editorialNote>Site Web http://fr.wikipedia.org/wiki/L%C3%A9on_Ier_(empereur_byzantin)</skos:editorialNote>
+      <skos:editorialNote>VIAF (20014/12/20) http://viaf.org/viaf/289656465/#Leo_-474_Emperor_of_the_East_I</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/150810288/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000395004452"/>
+      <isni:identifierValid>0000000395004452</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb169332442#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/289656465"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Léon_Ier_(empereur_byzantin)"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Léon Ier (0401-0474 ; empereur d'Orient)</skos:prefLabel>
+      <skos:altLabel>Leo I (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Léon Ier (le Thrace)</skos:altLabel>
+      <skos:altLabel>Léon I (empereur byzantin)</skos:altLabel>
+      <skos:altLabel>Léon I (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Leo 1 imperator</skos:altLabel>
+      <skos:altLabel>Leo imperator I</skos:altLabel>
+      <skos:altLabel>Leo the Thracian</skos:altLabel>
+      <skos:altLabel>Leo (Emperor of the East)</skos:altLabel>
+      <skos:altLabel>Léon le Thrace</skos:altLabel>
+      <skos:altLabel>Leôn I</skos:altLabel>
+      <skos:altLabel>Leone I</skos:altLabel>
+      <skos:altLabel>Leo (Byzantijns keizer)</skos:altLabel>
+      <skos:altLabel>Leo (kaiser)</skos:altLabel>
+      <skos:altLabel>Flavius Valerius Leo</skos:altLabel>
+      <skos:altLabel>Leo, Flavius Valerius</skos:altLabel>
+      <skos:altLabel>Flavius Valerius, Leo Augustus</skos:altLabel>
+      <skos:altLabel>Leo I (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Λέων (empereur de Byzance)</skos:altLabel>
+      <foaf:familyName>Léon</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Léon</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/150810288/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0401</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/150810288/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0474</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Empereur byzantin de 457 à 474</skos:note>
+      <rdfs:seeAlso>
+         <dbpedia-owl:Place rdf:about="http://www.idref.fr/027739783/id">
+            <skos:prefLabel xml:lang="fr">Empire byzantin -- 717-811 (Dynastie isaurienne)</skos:prefLabel>
+         </dbpedia-owl:Place>
+      </rdfs:seeAlso>
+      <rdfs:seeAlso>
+         <skos:Concept rdf:about="http://www.idref.fr/027739783/id">
+            <skos:prefLabel xml:lang="fr">Empire byzantin -- 717-811 (Dynastie isaurienne)</skos:prefLabel>
+         </skos:Concept>
+      </rdfs:seeAlso>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/266175368/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>Aspar and the struggle for the eastern Roman Empire (A.D. 421-471)  / Ronald A. Bleeker / New York [etc.] : Bloomsbury Academic , 2022</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/175538468/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>Kaiser Leo I  : das oströmische Reich in den ersten drei Jahren seiner Regierung (457 - 460 n. Chr.)  / von Gereon Siebigs / Berlin : de Gruyter , 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/148338925/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>Kaiser Leo I  : das oströmische Reich in den ersten drei Jahren seiner Regierung, 457-460 n. Chr.  / von Gereon Siebigs / Berlin : De Gruyter , cop. 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180862758/id">
+      <marcrel:rcp rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>S. Leonis Magni tomus ad Flavianum episc. Constantinopolitanum (epistula XXVIII)  : Additis testimoniis patrum et eiusdem S. Leonis M. epistula ad Leonem I imp. (epistula CLXV)  / Ad codicum fidem recensuit C. Silva Tarouca,... / Romae : Aedes pontificia universitatis gregoriana , 1932</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146967941/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>Corpus juris civilis, pandectis Ad Florentinum archetypum expressis, institutionibus, codice et novellis, Addito textu Graeco, ut &amp; in Digestis &amp; Codice, Legibus &amp; Constitutionibus Graecis, cum optimis quibusque Editionibus collatis. Cum notis integris, repetitae quintum praelectionis, Dionysii Gothofredi, JC. Praeter Justiniani edicta, Leonis &amp; Aliorum imperatorum novellas, Ac Canones Apostolorum, Graecè &amp; Latinè, Feudorum Libros, Leges XII. Tabul. &amp; aliosad jus pertinentes Tractatus, Fastos Consulares, Indicesque Titulorum ac Legum : &amp; quaecunque in ultimis Parisiensi vel Lugdunensi editionibus continentur, Huic editioni novè accesserunt Pauli receptae Sententiae cum selectis notis J. Cujacii. Et sparsim ad universum Corpus Antonii Anselmo, A. F. A. N. JC. Antverp. Observationes singulares, Remissiones &amp; Notae Juris Civilis, Canonici, &amp; Novissimi ac in Praxi recepti differentiam continentes ; Denique, Lectiones variae &amp; Notae selectae Augustini, Bellonii, Goveani, Cujacii, Duareni, Russardi, Hottomanni, Contii, Roberti, Raevardi, Charondae, Grotii, Salmasii &amp; aliorum. Opera &amp; Studio Simonis van Leeuwen, JC. Lugd. Bat. / Prostrema editio omnibus prioribus / Amstelodami :  Apud Joannem Blaeu. Ludovicum, &amp; Danielem Elzevirios. Lugd. Batavorum, Apud Franciscum Hackium.  M D C LXIII. Cum privilegio S. C. Majestatis , 1663</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269690395/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>Corpus juris civilis, Pandectis Ad Florentinum archetypum expressis, Institutionibus, Codice et Novellis, Addito textu Graeco, ut &amp; in Digestis &amp; Codice, Legibus &amp; Constitionibus Graecis, cum optimis quibusque Editionibus collatis. Cum notis integris, repetitae quintum praelectionis, Dionysii Gothofredi, JC. Praeter Justiniani edicta, Leonis &amp; aliorum imperatorum novellas, Ac Canones Apostolorum, Graecè &amp; Latinè, Feudorum Libros, Leges XII. Tabul. &amp; alios ad jus pertinentes Tractatus, Fastos Consulares, Indicesque Titulorum ac Legum : &amp; quaecunque in ultimis Parisiensi vel Lugdunensi editionibus continentur, Huic editioni novè accesserunt Pauli receptae Sententiae cum selectis notis J. Cujacii, Et sparsim ad universum Corpus Antonii Anselmo, A.F.A.N. JC. Antvverp. Observationes singulares, Remissiones &amp; Notae Juris Civilis, Canonici &amp; Novissimi ac in Praxi recepti differentiam continentes ; Denique, Lectiones variae &amp; Notae selectae Augustini, Bellonii, Goveani, Cujacii, Duareni, Russardi, Hottomanni, Contii, Roberti, Raevardi, Charondae, Grotii, Salmasii &amp; aliorum. Opera &amp; Studio Simonis Van Leeuwen, JC. Lugd. Bat.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154417610/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>Corpus juris civilis, Pandectis Ad Florentinum archetypum expressis, Institutionibus, Codice et Novellis, Addito textu Graeco, ut &amp; in Digestis &amp; Codice, Legibus &amp; Constitionibus Graecis, cum optimis quibusque Editionibus collatis. Cum notis integris, repetitae quintum praelectionis, Dionysii Gothofredi, JC. Praeter Justiniani edicta, Leonis &amp; aliorum imperatorum novellas, Ac Canones Apostolorum, Graecè &amp; Latinè, Feudorum Libros, Leges XII. Tabul. &amp; alios ad jus pertinentes Tractatus, Fastos Consulares, Indicesque Titulorum ac Legum : &amp; quaecunque in ultimis Parisiensi vel Lugdunensi editionibus continentur, Huic editioni novè accesserunt Pauli receptae Sententiae cum selectis notis J. Cujacii, Et sparsim ad universum Corpus Antonii Anselmo, A.F.A.N. JC. Antvverp. Observationes singulares, Remissiones &amp; Notae Juris Civilis, Canonici &amp; Novissimi ac in Praxi recepti differentiam continentes ; Denique, Lectiones variae &amp; Notae selectae Augustini, Bellonii, Goveani, Cujacii, Duareni, Russardi, Hottomanni, Contii, Roberti, Raevardi, Charondae, Grotii, Salmasii &amp; aliorum. Opera &amp; Studio Simonis Van Leeuwen, JC. Lugd. Bat. / Amstelodami : , Apud Joannem. Blaeu, Ludovicum, &amp; Danielem Elzevirios. Lugd. Batavorum, Apud Franciscum Hackium.  , M. D. C. LXIII. Cum Privilegio S. C. Majestatis</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197908489/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>Volumen locupletius quam antehac : continet enim præter posteriores tres libros Codicis, Novellas &amp; Feuda, multa alia pagina sequenti declarata</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/235295639/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/150810288/id"/>
+      <dcterms:bibliographicCitation>Justiniani imperatoris edicta : Item Justini, Tiberii ac Leonis Augustorum Novellæ Constitutiones. Henrico Agylæo interprete</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

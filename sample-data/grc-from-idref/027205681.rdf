@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/027205681">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:identifier>027205681</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1985-03-26</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-02T20:05:16</dcterms:modified>
+      <skos:editorialNote>Apollonii Citiensis in Hippocratis de articulis commentarius/ l'auteur.-1965.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/027205681/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11929815</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000072834240"/>
+      <isni:identifierValid>0000000072834240</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb11929815p#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/102333676"/>
+      <skos:prefLabel>Apollonius de Citium</skos:prefLabel>
+      <skos:altLabel>Apollōnios Kitieus</skos:altLabel>
+      <skos:altLabel>Apollōnios von Kition</skos:altLabel>
+      <skos:altLabel>Apollonius Citiensis</skos:altLabel>
+      <foaf:name>Apollonius de Citium</foaf:name>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073727628/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Apollonii citiensis, Stephani, Palladii, Theophili, Meletii, Damascii, Ioannis, aliorum Scholia in Hippocratem et Galenum  : e codicibus mss. vindobonens, monacens, florentin, mediolanens, escorialens, etc  / Primum graece edidit Fridericus Reinholdus Dietz ... / Edition électronique : numérisation 2003 / Paris : BIUM , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063702428/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Der Hippokratestext des Apollonios von Kition  / von Jerker Blomqvist / Lund : C WK. Gleerup , 1974</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108632687/id">
+      <marcrel:clb rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Apollonii Citiensis, Stephani, Palladii, Theophili, Meletii, Damascii, Ioannis, aliorum Scholia in Hippocratem et Galenum  : e codicibus mss. Vindobonens. Monacens. Florentin. Mediolanens. Escorialens. etc. primum graece  / edidit Fridericus Reinholdus Dietz / Amsterdam : A. M. Hakkert , 1966</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073727628/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Apollonii citiensis, Stephani, Palladii, Theophili, Meletii, Damascii, Ioannis, aliorum Scholia in Hippocratem et Galenum  : e codicibus mss. vindobonens, monacens, florentin, mediolanens, escorialens, etc  / Primum graece edidit Fridericus Reinholdus Dietz ... / Edition électronique : numérisation 2003 / Paris : BIUM , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020011113/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Apollonius von Kitium Illustrierter Kommentar zu der Hippokrateischen Schrift "Peri arthrōn"  : mit 31 Tafeln in Lichtdruck  / Apollonius Citiensis  ; hrsg. von Hermann Schöne ... / Leipzig : Teubner , 1896</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007668775/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Illustrierter Kommentar zu der hippokrateischen Schrift  : Peri arthron  / Apollonius von Kitium  ; hrsg. von Hermann Schöne / Leipzig : Teubner , 1896</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/105890200/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Apollonius von Kitium, illustrierter Kommentar zu der hippokrateischen Schrift @  / herausgegeben von Hermann Schöne / Leipzig : B. G. Teubner , 1896</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/059403101/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Kommentar zu Hippokrates über das Einrenken der Gelenke  = = In Hippocratis de articulis commentarius :   / Apollonios von Kition   ; Herausgegeben  von Jutta Kollesch und Fridolf Kudlien  ; übersetz von Jutta Kollesch und  Diethard Nickel / Berlin : Akademie Verl. , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025379224/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/027205681/id"/>
+      <dcterms:bibliographicCitation>Apollonii Citiensis, Stephani, Palladii, Theophili, Meletii, Damascii, Ioannis, aliorum Scholia in Hippocratem et Galenum e codicibus mss. Vindobonens. Monacens. Florentin. Mediolanens. Escorialens. etc.  /  Primum graece edidit Fridericus Reinholdus Dietz Med. et Chir. Doctor, medicinae practicae in Academia Prussorum Albertina Professor Extraordinarius, nosocomii, quod ibi est, Clinices medicae Medicus deuterurgus, pauperum partis Regimontii palaeopolitanae eiusque suburbiorum archiater. / Regimontii Prussorum : apud fratres Borntraeger , MDCCCXXXIV</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

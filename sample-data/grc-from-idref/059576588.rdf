@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/059576588">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:identifier>059576588</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-01-30</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-09-02T02:41:19</dcterms:modified>
+      <skos:editorialNote>Aeschyli Cantica / digessit Otto Schroeder</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/059576588/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000117666843"/>
+      <isni:identifierValid>0000000117666843</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb129160506#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/62316992"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Schroeder, Otto (1851-1937)</skos:prefLabel>
+      <foaf:familyName>Schroeder</foaf:familyName>
+      <foaf:givenName>Otto</foaf:givenName>
+      <foaf:name>Otto Schroeder</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/059576588/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1851</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/059576588/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1937</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Professeur de philosophie classique</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019372612/id">
+      <dcterms:bibliographicCitation>Keilschrifttexte aus Assur, verschiedenen Inhalts  : Autographiert  / mit Inhalts übersicht u. Namenlisten vers. von Otto Schroeder / Leipzig : J. C. Hinrichs , 1920</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/161055893/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Über den gegenwärtigen Stand der griechischen Verswissenschaft  / Otto Schroeder / Naumburg a. S. : Sieling , 1912</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051530422/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindar's Pythien  / erklärt von Otto Schroeder / Berlin : Verlag und Druck von B.G. Teubner , 1922</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06674668X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Horazens Versmasse  / für Anfänger erklärt von Otto Schroeder / Leipzig : B. G. Teubner , 1911</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015904105/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Kontkrakte der Selenkidenzeit aus Warka  / [Vorwort: Friedrich Delitzsch] / Leipzig : J.C. Hinrichs , 1916</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/22769435X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Heilig ist mir die Sonne  : Montagsansprachen  / von Otto Schroeder / Leipzig : B.G. Teubner , 1901</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015377695/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Keilschrifttexte aus Assur historischen inhalts  / Autographien von Leopold Messerschmidt, Otto Schroeder / Leipzig : J. C. Hinrichs , 1911-22</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051529009/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Griechische Singverse  / von Otto Schroeder ... / Leipzig : Dieterich'sche Verlagsbuchhandlung , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090602544/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Vorarbeiten zur griechischen Versgeschichte  / Otto Schroeder / Leipzig : B. G. Teubner , 1908</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051551268/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Vom papiernen Stil / 6. durchgesehne Aufl. / Leipzig : Teubner , 1906</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/161055184/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>De tichoscopia Euripidis Phoenissis inserta  / Otto Schroeder / Berlin : Büxenstein , 1906</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015904059/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Altbabylonische Briefe mit Zeichen- und Namenlisten  / Otto Schroeder / Leipzig : J.C. Hinrichs'sche Buchhandlung , 1917</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064291294/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Kontrakte der Seleukidenzeit aus Warka  / Otto Schroeder / Leipzig : J. C. Hinrichs’sche Buchhandlung , 1916</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/052804798/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Vom Papiernen Stil  / Otto Schrœder / 9. durchgesehne Auflage / Leipzig : Teubner , 1919</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016933281/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Grundriss der griechischen Versgeschichte  / von Otto Schroeder / Heidelberg : C. Winter , 1930</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/062517082/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Vom papiernen Stil / 2. Aufl. / Berlin : [s.n.] , 1891</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019194080/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Nomenclator metricus  : alphabetisch geordnete Terminologie der griechischen Verswissenschaft  / von Otto Schroeder / Heidelberg : C. Winter , 1929</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051529319/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Sophoclis Cantica  / digessit Otto Schroeder / Lipsiae : in aedibus B. G. Teubneri , 1907</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/095912207/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Sophoclis Cantica. Digessit Otto Schroeder  / Sophocle / Lipsiae : in aedibus B. G. Teubner , 1907</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06754892X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindari Carmina, cum fragmentis selectis  / edidit Otto Schroeder / Tertium ed. / Lipsiae : in aedibus B. G. Teubneri , 1930</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065537882/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Eschyli Cantica  / digessit Otto Schroeder / Lipsiae : in Aedibus B.G. Teubneri , 1907</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010214992/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Aristophanis cantica  / digessit stropharum popularium appendiculam adiecit Otto Schroeder / Editio altera correctior anastatice magnam partem iterata / Lipsiae : In aedibus B.G. Teubneri , 1930</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/025034219/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Aeschyli Cantica  / digessit Otto Schroeder / Lipsiae : in aedibus B.G. Teubneri , 1907</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04819073X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Ausgewählte Komödien des Aristophanes  Viertes Bändchen, Die Vögel  / erklärt von Theodor Kock / 4. Aufl. neue Bearbeitung / Berlin : Weidmannsche Buchhandlung , 1927</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/022024654/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Ausgewählte komödien des Aristophanes  / erklärt von Theodor Kock / 4. aufl. / Berlin : Weidmann , 1927</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108999335/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindari Carmina  / [Ed. Schroeder] / Leipzig : Teubner , [s.d.]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/062308467/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindari carmina cum fragmentis selectis, iterum edidit Otto Schroeder / Lipsiae : in aedibus B. G. Teubneri , 1914</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019180551/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Euripidis Cantica  / fragmento Grenfelliano adeicto  ; digessit Otto Schroeder / Lipsiae : in aedibus B. G. Teubneri , 1910</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017218543/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Aristophanes cantica  / digessit stropharum popularium appendiculam adiecit Otto Schroeder / Lipsiae : in aedibus B. G. Teubneri , 1909</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108238407/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindari carmina  : cum fragmentis selectis  / Pindare  ; edidit O. Schroeder / Leipzig : O. Schroeder , 1930</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108238415/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Poetae lyrici graeci  I, Pindari carmina  / [Pindare]  ; edidit O. Schroeder / Leipzig : Teubner , 1923</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047131810/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Aristophanis Cantica  / digessit stropharum popularium appendiculam adiecit Otto Schroeder / Lipsiae : in aedibus B.G. Teubneri , 1909</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/087127520/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindari Carmina. Recensuit Otto Schroeder  / Pindare / Lipsiae : B. G. Teubner , 1900</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010972420/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindari carmina cum fragmentis selectis  / edidit Otto Schroeder / Lipsiae : in aedibus B. G. Teubneri , 1908</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051506386/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindari carmina  / recensuit Otto Schroeder / 5a. ed. / Lipsiae : in aedibus B. G. Teubneri , 1900</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04586635X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Novae comoediae fragmenta in papyris reperta exceptis Menandreis  / edidit Otto Schroeder / Bonn : A. Marcus und E. Weber , 1915</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/05150877X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Pindari Carmina cvm fragmentis selectis  / iterum edidit Otto Schroeder / Lipsiae : in aedibus B. G. Teubneri , 1914</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/052319776/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Poetae lyrici graeci  / quartis curis recensuit Theodorus Bergk / Lipsiae : In aedibus B.G. Teubneri , 1900-1915</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/059576855/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Aeschyli Cantica  / iterum digessit Otto Schroeder / Lipsiae : in aedibus B.G. Teubneri , 1916</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/061075191/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/059576588/id"/>
+      <dcterms:bibliographicCitation>Euripidis Cantica  : novis iisqve vltimis cvris  / digessit Otto Schroeder / Lipsiae : in aedibus B. G. Teubneri , 1928</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

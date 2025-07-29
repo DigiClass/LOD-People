@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/030324149">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:identifier>030324149</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1990-12-10</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-06T16:18:09</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/028729129"/>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/086210467"/>
+      <skos:editorialNote>Flavii Philostrati Heroicus / edidit Ludo de Lannoy, 1977</skos:editorialNote>
+      <skos:editorialNote>GDEL : Philostrate l'Athénien.</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL : Philostratus sophistes II.</skos:editorialNote>
+      <skos:editorialNote>Flavius Philostratus lemnius major.</skos:editorialNote>
+      <skos:editorialNote>Buchwald (art. : Philostrate) : Flavius Philostratus. Encycl. Grèce</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Philostrate (Flavius), l'ancien (Les "Imagines" lui sont attribuées à tort)</skos:editorialNote>
+      <skos:editorialNote>http://catalogue.bnf.fr, 2009-06-24</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/030324149/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13092089</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000453030326"/>
+      <isni:identifierValid>0000000453030326</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb13092089h#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/250889454"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Philostrate l'Athénien (0175?-0246?)</skos:prefLabel>
+      <skos:altLabel>Filóstratos</skos:altLabel>
+      <skos:altLabel>Flavius Philostratus</skos:altLabel>
+      <skos:altLabel>Philostrate</skos:altLabel>
+      <skos:altLabel>Philostrate d'Athènes</skos:altLabel>
+      <skos:altLabel>Philostrate l'ancien</skos:altLabel>
+      <skos:altLabel>Philostratus</skos:altLabel>
+      <skos:altLabel>Philostratus Lesbius</skos:altLabel>
+      <skos:altLabel>Philostratus major</skos:altLabel>
+      <skos:altLabel>Philostratus sophistes</skos:altLabel>
+      <skos:altLabel>Philóstratos</skos:altLabel>
+      <skos:altLabel>Philostratus lemnius major</skos:altLabel>
+      <skos:altLabel>Philostratus Atheniensis (0175?-0246?)</skos:altLabel>
+      <foaf:name>Philostrate l'Athénien</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/030324149/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0175</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/030324149/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0249</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Rhéteur et sophiste né à Lemnos. Beau-père de Philostrate de Lemnos. Auteur d'une "Vie des sophistes" à tendances mystiques et orientales, de "Lettres d'amour" et d'un dialogue sur la croyance aux héros, l'"Hīrōikós</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/198316739/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  I,   : The Epistles of Apollonius and the Treatise of Eusebius  / Philostratus  ; with an english translation by F.C. Conybeare, ... / London : William Heinemann Ltd , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/132969777/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The letters of Alciphron, Aelian and Philostratus  / with an English translation by Allen Rogers Benner,... and Francis H. Fobes,... / Cambridge (Mass.) : Harvard University Press , 1962</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/045582688/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Φιλοστρατεια  τόμος B΄,   = Volume II,   = = Philostratea : έρευνες στη χειρόγραφη παράδοση των φιλοστράτειων επιστολών  / Δημήτρης Κ Ράιος,...  / Dimitris K. Raios / Ioannina : [s.n.] , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063016710/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratus  : biography and belles lettres in the third century A.D.  / Graham Anderson / London : Croom Helm , 1986</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/131354191/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Theios Sophistes  : essays on Flavius Philostratus' "Vita Apollonii"  / edited by Kristoffel Demoen and Danny Praet / Leiden : Brill , 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/174388055/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Theios Sophistes  : essays on Flavius Philostratus' Vita Apollonii  / edited by Kristoffel Demoen and Danny Praet / Boston : Brill , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/013184997/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Peintures d'instruction  : la postérité littéraire des Images de Philostrate en France de Blaise de Vigenère à l'époque classique  / par Richard Crescenzo  ; sous la direction de Marc Fumaroli / [s.l.] : [s.n.] , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151883556/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Mal de amores en las Cartas eróticas de Filóstrato  : teoría retórica y teoría epistolar  / Ana Vicente Sánchez / Zaragoza : Prensas Universitarias de Zaragoza , 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/184770777/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>La vie d'Apollonios de Tyane  : recherches sur la tradition du theios aner  / par Philippe Hanus / Lille : Atelier national de reproduction des thèses , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003900576/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Apollonius de Tyane  : sa vie, ses voyages, ses prodiges  / Philostrate  ; [trad. du grec par A. Chassang]  ; présentation et notes de Guy Rachet / Paris : Sand , DL 1995</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155014714/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Φλαουιου Φιλοστρατου τα σωζομενα, Φιλοστρατου του Νεωτερου εικονες, Καλλιστρατου εκφρασεις  = = Flavii Philostrati quae supersunt Philostrati junioris imagines Callistrati descriptiones :   / edidit C. L. Kayser / Editio altera / Turici : sumtibus C. Meyeri et Zelleri , [18??]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10709598X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>De optativi apud Dionem Chrysostomum et Philostratos usu  / Dissertatio inauguralis philologica quam...ad summos in philosophia honores in Universitate Friderica Guilelma Silesiaca...publice defendet Bertholdus Jaekel / Trebnitziae : Typis Maretzke et Maertin , 1913</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/094372276/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Arica  / scripsit Paulus Boetticher / Halae : [s. n.] , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108178927/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Traduction et Commentaire de "La vie des sophistes" de Philostrate  / [par] Sylvie Charpentier  ; [sous le dir. de] monsieur Schwartz / Strasbourg : [S.n.] , 1982-1983</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/276719573/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratus  : interpreters and interpretation  / Graeme Miles / London and New York : Routledge , 2020</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/048567566/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>L'univers de Philostrate  / Alain Billault / Bruxelles : Latomus , 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135738083/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratus  / edited by Ewen Bowie and Jaś Elsner / Cambridge, United Kingdom : Cambridge University Press , 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/26336674X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Apollonios von tyana und philostratos  / [Theodor Hopfner] / Prague : Seminarium Kondakovianum , 1931</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178052027/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Recueil general des opera representez par l'Academie royale de musique, depuis son etablissement. Tome neuvième / A Paris : , chez Christophe Ballard, seul imprimeur du roi pour la musique, rüe S. Jean de Beauvais, au Mont-Parnasse. M.DCCX, avec Privilège de Sa Majestél. , 1710</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/194362361/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrats Apollonios und seine Welt  : griechische und nichtgriechische Kunst und Religion in der "Vita Apollonii"  / Balbina Bäbler, Heinz-Günther Nesselrath / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04602607X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Peintures d'instruction  : la postérité littéraire des "Images" de Philostrate en France de Blaise de Vigenère à l'époque classique  / Richard Crescenzo / Genève : Droz , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/198332513/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  II,   : The Epistles of Apollonius and the Treatise of Eusebius  / Philostratus  ; with an english translation by F.C. Conybeare, ... / London : William Heinemann Ltd , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099182416/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Kleine Schriften  / Friedrich Solmsen / Hildesheim : G. Olms Verlagsbuchhandlung , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/230986005/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  Vol. 2,   : the epistles of Apollonius and the Treatise of Eusebius  / Philostratus  ; with an English translation by F. C. Conybeare / London : William Heinemann , 1912</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/225818736/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratus  : interpreters and interpretation  / Graeme Miles / London [etc.] : Routledge , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012202835/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Los milagros de la "vida de Apolonio de Tiana"  : morfología del relato de milagro y géneros afines  / Carmen Padilla / Cordoba : Ediciones El Almendro , 1991</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/034045856/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Φιλοστρατεια  τόμος Α΄,   : έρευνες στη χειρόγραφη παράδοση των φιλοστράτειων επιστολών  / Δημήτρης Κ Ράιος,... / Jannina, Grèce : Université de Jannina , 1992</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010168672/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>La vie d'Apollonios de Tyane  : recherches sur la tradition du theios aner  / par Philippe Hanus  ; sous la direction de Colette Annequin /  , 1998</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003494012/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The lives of the sophists  / Philostratus and Eunapius  ; with an English transl. by Wilmer Cave Wright,... / Cambridge, Mass. : Harvard university press , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119121077/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Antiquitatum Aricinarum particula  / Albertus Bormann / Halis : formis expressum Hendelianis , 1843</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/19305535X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>La Religion comme thème littéraire  : la question du jeu dans les mystères d'Adonis, de la Mère, de Glycon (Plutarque-Lucien-Philostrate)  / Raphaël Martin Diégane Wade  ; sous la direction de Bernadette Puech et de Emmanuelle Jouët-Pastré /  , 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/129238546/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philosoph, Magier, Scharlatan und Antichrist  : zur Rezeption von Philostrats "Vita Apollonii" in der Renaissance  / Matthias Dall'Asta / Heidelberg : Winter , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063796007/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  : in two volumes  ;  The epistles of Apollonius and the treatise of Eusebius  / Philostratus  ; with an English transl. by F. C. Conybeare,... / London : William Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051515113/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Opera  Vol. I et II,   : accedunt Apollonii Epistolae, Eusebius Adversus Hieroclem, Philostrati junioris Imagines; Callistrati Descriptiones  / auctiora edidit C. L. Kayser / Lipsiae : in aedibus B. G. Teubneri , 1870-1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/271047275/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Critical Notes on Philostratus' 'Life of Apollonius of Tyana'  / Gerard Boter / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134949021/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Le Γυμναστιϰός [Gymnastikos] de Philostrate a-t-il une signification littéraire ?  / Alain Billault</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183052102/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Greek narratives of the Roman Empire under the Severans  : Cassius Dio, Philostratus and Herodian  / Adam M. Kemezis / Cambridge : Cambridge University press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/121982246/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Kleine Schriften  / Friedrich Solmsen / Hildesheim : G. Olms , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/250190044/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratos' "Life of Apollonios of Tyana" and its literary context  / von Nikoletta Kanavou / München : C.H.Beck</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120193159/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Peintures d'instruction  : la postérité littéraire des Images de Philostrate en France de Blaise de Vigenère à l'époque classique  / par Richard Crescenzo / Lille : Atelier national de reproduction des thèses , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/227307925/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratos' "Life of Apollonios of Tyana" and its literary context  / von Nikoletta Kanavou /  , C 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20230314152016513266">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>[Archives 167/75/1] « Philostrate » / 2 dossiers (environ 250 feuillets)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/FR751142302-AD004110">
+      <dcterms:subject rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>[A2/4 (5)] Sur l'obliquité de l'Ecliptique par les deux hauteurs Solsticiales du Soleil. (1583-1739) / 30 pièces, 65 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162032668/id">
+      <dcterms:bibliographicCitation>Eroico  / Filostrato  ; a cura di Valeria Rossi  ; prefazione di Marcello Massenzio / Venezia : Marsilio , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086536389/id">
+      <dcterms:bibliographicCitation>Helden und Heroen, Homer und Caracalla  : U͏̈bersetzung, Kommentar und Interpretationen zum Heroikos des Flavios Philostratos  / Andreas Beschorner / Bari : Levante , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295673/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Les Images ou tableaux de platte peinture des deux Philostrates... et les statues de Callistrate, mis en françois par Blaise de Vigenère,... Enrichis d'arguments et annotations, reveus et corrigez sur l'original par un docte personnage de ce temps en la langue grecque, et représentez en taille douce en cette nouvelle éd., avec des épigrammes sur chacun d'iceux, par Artus Thomas sieur d'Embry... / Paris : v.ve A. L'Angelier et v.ve M. Guillemot , 1615</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012333085/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>&#x98;The &#x9c;life of Apollonius of Tyana  : [suivi de]  / Philostratus  ;  &#x98;The &#x9c;Epistles of Apollonius  : and  ;  &#x98;The &#x9c;Treatise of Eusebius  / with an English transl. by F.C. Conybeare / London : W. Heinemann , 1927</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183410092/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii Opera quae exstant. Philostrati junioris imagines, et Callistrati ecphrases. Item Eusebii Caesariensis episcopi liber contra Hieroclem, qui ex Philostrati historia aequipararat Apollonium Tyaneum Salvatori nostro Jesu Christo. Graeca latinis è regione posita ; Fed. Morellus professor et interpres regius cum mnss. contulit, recensuit : et hactenus nondum latinitate donata, vertit. Ad virum amplissimum D. Nic. Brulartum, summum Galliarum procancellarium</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071794735/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The lives of the sophists  / Philostratus and Eunapius  ; with an English translation by Wilmer Cave Wright,... / [Réimpr.] / London : William Heinemann , 1961</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/04429025X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii opera quae exstant. Philostrati junioris imagines, et Callistrati ecphrases. Item Eusebii Caesariensis episcopi liber contra Hieroclem, qui ex Philostrati Historia aequiparat Apollonium Tyaneum Salvatori nostro Jesu Christo. Graeca latinis è regione posita; Fed. Morellus professor et interpres regius cum mnss. contulit, recensuit: et hactenus nondum latinitate donata, vertit. Ad virum amplissimum D. Nic. Brulartum / Parisiis. M.DC.VIII. Apud Marcum Orry</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109531108/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Traité sur la gymnastique  / Philostrate  ; texte grec accompagné d'une traduction en regard et de notes par Ch. Daremberg,... / Paris : Librairie de Firmin Didot frères, fils et Cie , 1858</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071961208/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Opera auctoria  2,   / Flavius Philostrate  ; ed. C.L. Kayser accedunt Apollonii Epistolae, Eusebius Adversus Hieroclem, Philostrati Junioris Imagines, Callistrati descriptiones / Hildesheim : G. Olms , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/115456007/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Images, ou description d'une galerie antique de soixante quatre tableaux  / l'ancien Philostrate, A. Bougot  ; introduction traduction &amp; commentaires par A. Bougot / Paris : Librairie Renouard , 1881</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295711/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>De la vie d'Apollonius Thyanéen en VIII livres De la traduction de Vigenère... revue͏̈ et exactement corrigée sur l'original grec par Fed. Morel... et enrichie d'amples commentaires par Artus Thomas, sieur d'Embry... / Paris : Vve A. L'Angellier , 1611</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10029569X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vie d'Apollonius de Tyane... avec les commentaires donnés en anglois par Charles Blount sur les deux premiers livres de cet ouvrage. Le tout traduit... [par J. Castilhon] / Amsterdam : M.M. Rey , 1779</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089277287/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrate  ;  De la vie d'Apollonius  ;  Thianéen  / par B. de Vignère, bourbonnois / Paris : [s.n.] , 1599</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/129337390/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vie d'Apollonius de Tyane par Philostrate, avec les commentaires donnés en anglois par Charles Blount sur les deux premiers livres de cet ouvrage. Le tout traduit en françois. Tome premier [-quatrième] / Amsterdam, chez Marc-Michel Rey, MDCCLXXIX , 1779</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/128877162/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Aesopi Phrygis vita (a maximo Planude composita) et Fabellae, cum latina interpretatione  : Gabriae Graeci fabellae tres &amp; quadraginta ex trimetris iambis, praeter ultimã ex Scazonte, tetrastichis conclusae, cum latina interpretatione  : Ex aphtonii exercitamẽtis de fabula  : Tum de formicis &amp; cicadis graece &amp; latine  : De fabula ex imaginibus Philostrati graece &amp; latine  : Ex Hermogenis exercitamẽtis de fabula Prisciano interprete  / Aphthonius / In Inclyta Basilea :  [Apud Ioannem Frobenium... mense ianuario , . Anno M.D.XVIII]. [Impressum Basel : Froben, Johann, 1518]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042826926/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrate De la vie d'Apollonius Thyaneen en VIII. livres.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/20382475X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Édition critique, avec introd. notes et trad. de l'Héroïque de Philostrate  / Simone Follet  ; dir. de recherche M. P. Chantraine /  , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295746/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>... De vitis sophistarum libri duo, Antonio Bomfino interprete... [Nicolaus Gerbelius edidit] / [Argentorati] : ex aedibus Schurerianis , 1516</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103136487/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Das Leben des Apollonios von Tyana  : Griechisch-Deutsch  / Philostratos  ; herausgegeben, übersetzt und erläutert von Vroni Mumprecht / München : Artemis Verlag , 1983</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/271975385/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Lives of the sophists  / Philostratus  / Eunapius  ; edited and translated by Graeme Miles  ; edited and translated by Han Baltussen / Cambridge (Mass.) : Harvard University Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191250589/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The letters of Alciphron, Aelian and Philostratus  / with an English translation by Allen Rogers Benner and Francis H. Fobes / Cambridge, Massachusetts : Harvard University Press , [2014]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046967907/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratus and Eunapius  = = lives of the sophists :   / with an English translation by Wilmer Cave Wright,... / London : William Heinemann , 1921</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/017628814/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrate l'ancien  : une galerie antique de soixante-quatre tableaux  / introduction, traduction et commentaire par A. Bougot / Paris : Renouard , 1881</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011557915/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Heroicus  / ed. Ludo de Lannoy / Leipzig : B.G. Teubner , 1977</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020317212/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana, the Epistles of Apollonius and the Treatise of Eusebius  / with an English translation by F.C. Conybeare / London : W. Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144459515/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrate De la vie d'Apollonius Thyaneen en VIII. livres. De la traduction de B. de Vigenere, Bourbonnois. Reveuë &amp; exactement corrigée sur l'original grec par Fed. Morel, lecteur &amp; interprete du Roy. Et enrichie d'amples commentaires par Artus Thomas, sieur d'Embry, Parisien / A Paris : Chez la veufve Matthieu Guillemot, en la gallerie des prisonniers au Palais. M. DC. XI. , 1611</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089271890/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vie d'Apollonius de Tyane par Philostrate, avec les commentaires donnés anglais par Charles Blount sur les deux premiers livres de ces ouvrage  / Philostrate / Amsterdam : [s.n.] , 1779</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15500882X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Filostrato Lemnio, Della Vita di Apollonio Tianeo  / Flavius Philostrate  / Eusebius  ; tradotto per Messer Francesco Baldelli / Fiorenza : appresso L. Torrentino , 1549</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295606/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii opera quae extant. Philostrati junioris Imagines et Callistrati Ecphrases. Item Eusebii Caesariensis... Liber contra Hieroclem, qui ex Philostrati historia aequipararat Apollonium Tyaneum Salvatori nostro Jesu Christo Graeca latinis e regione posita: F. Morellus... cum mss. contulit; recensuit et... latinitate donata vertit... / Parisiis : M. Orry , 1608</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16698079X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrate De la vie d'Apollonius thyaneen en VIII. livres. De la traduction de B. Vigenere, bourbonnois. Reveuë &amp; exactement corrigée sur l'original grec par Fed. Morel, lecteur &amp; interprète du roy. Et enrichie d'amples commentaires par Artus Thomas, sieur d'Embry, parisien / A Paris. Chez la veufve Abel L'Angelier, au premier pilier de la grand'Salle du Palais. MDCXI. Avec privilege du Roy , 1611</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108635783/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Heroicus  / Flavii Philostrati  ; edidit Ludo de Lannoy / Leipzig : Teubner , 1977</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10014036X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>... Dialogus quo quicquid in graecarum literarum penetralibus reconditum, quod ad historiae veritatem... conferre quoquo modo possit, in communem studiosorum utitlitatem... congestum in lucem propagatur. His accedunt Philostrati Heroica... / [Milan] , [1517]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100166202/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Loukianou Dialogoi kai alla polla syngrammata hon elenchos estin en tais ephexes selisi. Philostratou Eikones. Tou autou Heroika. Tou autou Bioi sophiston. Philostratou neoterou Eikones. Kallistratou Ekphraseis. Luciani Dialogi et alia multa opera... Imagines Philostrati. Ejusdem Heroi͏̈ca. Ejusdem Vitae sophistarum. Imagines junioris Philostrati. Descriptiones Callistrati. / [Venetiis] : [in aedibus Aldi et Andreae Asulani] , 1522</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/194362361/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrats Apollonios und seine Welt  : griechische und nichtgriechische Kunst und Religion in der "Vita Apollonii"  / Balbina Bäbler, Heinz-Günther Nesselrath / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090938836/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  [1], Books I-IV  / Philostratus  ; edited and translated by Christopher P. Jones / Cambridge (Mass.) : Harvard university press , 2005</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/255307349/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratou eis ton Apollōniou tou Tyaneōs bion biblia octō. Eusebiou Kaisareias tou Pamphilou antirrhētikos pros ta Hierokleous, Apollōnion ton Tuanea toi sōtēri Christoi paraballontes. Philostrati de uita Apollonii Tyanei libri octo. Iidem libri latini interprete Alemano Rinuccino florentino. Eusebius contra Hieroclem qui Tyaneum Christo conferre conatus fuerit. Idem latinus interprete Zenobio Acciolo Florentino ordinis Praedicatorum / [Lieu de publication inconnu] : [éditeur inconnu]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191276340/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Letters of Apollonius  ;  Ancient Testimonia  ;  Eusebius's reply to Hierocles  / Philostratus  ; edited and translated by Christopher P. Jones / Cambridge, Massachusetts : Harvard University Press , [2014]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/063796007/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  : in two volumes  ;  The epistles of Apollonius and the treatise of Eusebius  / Philostratus  ; with an English transl. by F. C. Conybeare,... / London : William Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011318309/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratu Epistolai  = = Philostrati Epistolae :   / Quas Ad Codices Recensvit Et Notis Olearii Svisqve Instrvxit Jo. Fr. Boissonade / Parisiis : Brockhaus &amp; Avenarius , 1842</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/074316826/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Lives of the sophists  / Philostratus  / Eunapius  ; [edited by Kayser]  ; [edited by Boissonade]  ; [each] with an english translation by Wilmer Cave Wright / Cambridge : Harvard University Press , 1998</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295649/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii senioris Historiae de vita Apollonii Tyanei libri octo. Alemano Rhinuccino Florentino interprete. Eusebius contra Hieroclem, qui Tyaneum Christo conferre conatus est. Zenobio Acciolo Florentino interprete. Omnia haec ad graecam castigata, &amp; et restituta, adjectis ubi opus esse videbatur, annotatiunculis.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/274602830/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vie d'Apollonios de Tyane  / Philostrate  ; texte introduit, traduit et commenté par Valentin Decloquement / Paris : Les Belles Lettres</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/125916760/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Lives of the sophists  / Philostratus  / Eunapius  ; [edited by Kayser]  ; [edited by Boissonade]  ; [each] with an english translation by Wilmer Cave Wright / Cambridge (Mass.) : Harvard University Press , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071961194/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Opera auctoria  1,   / Flavius Philostrate  ; ed. C.L. Kayser accedunt Apollonii Epistolae, Eusebius Adversus Hieroclem, Philostrati Junioris Imagines, Callistrati descriptiones / Hildesheim : G. Olms , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/24922500X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Leben der Sophisten  / Philostratos  ; neu übersetzt  von Kai Brodersen / Zweisprachige Ausgabe / Wiesbaden : Marixverlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071961216/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  ;  The Epistles of Apollonius  ;  and the Treatise of Eusebius  I,   / Philostratus  ; with an english translation by F.C. Conybeare, ... / Cambridge, (Mass) : William Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071961224/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  ;  The Epistles of Apollonius  ;  and the Treatise of Eusebius  II,   / Philostratus  ; with an english translation by F.C. Conybeare, ... / Cambridge, (Mass) : William Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15459931X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratorum et Callistrati opera. Recognovit Antonius Westermann...  / Philostrate / Parisiis : sn , 1878</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044285345/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii opera quae exstant. Philostrati junioris imagines, et Callistrati ecphrases. Item Eusebii Caesariensis episcopi liber contra Hieroclem, qui ex Philostrati Historia aequiparat Apollonium Tyaneum Salvatori nostro Jesu Christo. Graeca latinis è regione posita; Fed. Morellus professor et interpres regius cum mnss. contulit, recensuit: et hactenus nondum latinitate donata, vertit. Ad virum amplissimum D. Nic. Brulartum / Parisiis. M.DC.VIII. Apud Marcum Orry</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108594157/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Lives of the sophists  / Philostratus and Eunapius  ; with an english translation by Wilmer Cave Wright,... / London : William Heinemann , 1921</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155007696/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Imagines Philostrati  ;  Ejusdem Heroica  ;  Ejusdem Vitae sophistarum  / Flavius Philostrate  / Junioris Philostrati  / Callistrati / Venetiis : in officina L. A. Junte , 1535</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155917005/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Sur la gymnastique  = = Peri gumnastikēs :   / Philostrate  ; ouvrage découvert, corrigé, traduit en français, et publié pour la première fois, par Minoïde Mynas / Paris : Hector Bossange et fils , 1858</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/236757709/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vies des sophistes  ;  Lettres érotiques  / Philostrate  ; textes introduits, traduits et commentés par Gilles Bounoure et Blandine Serret  ; préface de Pierre Sorlin / Paris : les Belles lettres , 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155014714/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Φλαουιου Φιλοστρατου τα σωζομενα, Φιλοστρατου του Νεωτερου εικονες, Καλλιστρατου εκφρασεις  = = Flavii Philostrati quae supersunt Philostrati junioris imagines Callistrati descriptiones :   / edidit C. L. Kayser / Editio altera / Turici : sumtibus C. Meyeri et Zelleri , [18??]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/267835760/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  I,   : The Epistles of Apollonius and the Treatise of Eusebius  / Philostratus  ; with an english translation by F.C. Conybeare, ... / Cambridge, (Mass) : William Heinemann , 1912</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/201668297/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Opera  Vol. II,   / auctiora edidit C. L. Kayser  ;  accedunt Apollonii Epistolae ; Eusebius Adversus Hieroclem ; Philostrati junioris Imagines ; Callistrati Descriptiones / Lipsiae : in aedibus B. G. Teubneri , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016362357/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratorum et Callistrati opera  / recognovit Antonius Westermann  / edidit Jo. Fr. Boissonade  / emendavit Fr. Dübner / Parisiis : A. Firmin Didot , 1849</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145277283/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Cartas de amor  / Filóstrato  / Aristéneto  ; introducción, traducción y notas de Rafael J. Gallé Cejudo / Madrid : Ed. Gredos , DL 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/071384308/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Heroikos  / Flavius Philostratus  ; translated with an introduction and notes by Jennifer K. Berenson Maclean and Ellen Bradshaw Aitken  ; with a prologue by Gregory Nagy  ; and an epilogue by Helmut Koester / Atlanta (Ga.) : Society of Biblical Literature , cop. 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044290241/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii opera quae exstant. Philostrati junioris imagines, et Callistrati ecphrases. Item Eusebii Caesariensis episcopi liber contra Hieroclem, qui ex Philostrati Historia aequiparat Apollonium Tyaneum Salvatori nostro Jesu Christo. Graeca latinis è regione posita; Fed. Morellus professor et interpres regius cum mnss. contulit, recensuit: et hactenus nondum latinitate donata, vertit. Ad virum amplissimum D. Nic. Brulartum / Parisiis. M.DC.VIII. Apud Marcum Orry</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003900576/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Apollonius de Tyane  : sa vie, ses voyages, ses prodiges  / Philostrate  ; [trad. du grec par A. Chassang]  ; présentation et notes de Guy Rachet / Paris : Sand , DL 1995</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295681/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Lettres de Philostrate, mises de Grec en François et illustrées d'annotations et remarques par Louys de Caseneuve... / Tournon : G. Linocier , 1620</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170801985/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Le vite dei sofisti  / Flavio Filostrato  ; traduzione e introduzione alla nuova sofistica di Mario Prosdocimi / 1a ed. / Bologna : Ponte nuovo edicitrice , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075875365/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Traité sur la gymnastique  : texte Grec accompagné d'une traduction en regard et de notes  / Philostrate  ; par Ch. Daremberg, bibliothécaire de la Bibliothèque Mazarine / Edition électronique:numérisation 2003 / Paris : BIUM , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146743733/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Opera  vol. I/II,   / Flavii Philostrati  ; auctiora ed. C. L. Kayser / Reprod. en fac-sim. / Hildesheim : G. Olms , 1985</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170425436/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Aesopi Phrygis Fabulae graece et latine, cum aliis quibusdam opusculis... / Basileae : apud Nicol. Bryling , 1550</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165614870/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratou Eis ton Apolloniou tou Tyaneos bion biblia octo. Eusebiou Kaisareias tou Pamphilou antirrhetikos pros ta Hierokleous, Apollonion ton Tuanea toi soteri Christoi paraballontes. Philostrati  de vita Apollonii Tyanei libri octo. Idem libri Latini interprete A: Rinuccino Florentino. Eusebius contra Hieroclem qui Tyaneum Christo conferre conatus fuerit. Idem latinus interprete Zenobio Acciolo florentino ordinis praedicatorum / [Venezia : Aldo Manuzio il vecchio] , 1502</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/062302019/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Heroicvs  / edidit Ludo de Lannoy / Leipzig : G. Teubner , 1977</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134387481/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vida de Apolonio de Tiana  / Filóstrato  ; traducción, introducción y notas de Alberto Bernabé Pajares / Madrid : Editorial Gredos , 1979</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042827825/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati de vita Apollonii Tyanei libri octo. Iidem libri latini interprete Alemano Rinuccino ... Eusebius contra Hieroclem qui Tyaneum Christo conferre conatus fuerit. Idem latinus interprete Zenobio Acciolo ... / Venetiis : in aedibus Aldi , 1504(?)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/261585746/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vita Apollonii Tyanei  / Flavius Philostratus  ; editit Gerard Boter / Berlin : De Gruyter</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003139697/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  / Philostratus  / of Apollonius  / of Eusebius  ; with an English translation by F. C. Conybeare,... / Cambridge (Mass.) : Harvard university press , 1969-1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/284386499/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>L'art de la gymnastique  : la naissance du sport  / Philostrate  ; traduit du grec et annoté par Nicolas Waquet  ; préface d'Andrea Marcolongo / [Marseille] : Éditions Payot &amp; Rivage</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/077016564/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>On Heroes  / Flavius Philostratus  ; translated with an introduction and notes by Jennifer K. Berenson Maclean and Ellen Bradshaw Aitken  ; with a preliminary essay by Casey Dué and Gregory Nagy / Leiden : Brill , 2003</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179288938/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Heroicus  ;  Gymnasticus  ;  Discourses 1 and 2  / Philostratus  ; edited and translated by Jeffrey Rusten, Jason König / Cambridge, Mass. : Harvard University Press , 2014, cop. 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/126955778/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  T. 1, Books I-V  : The Epistles of Apollonius and the Treatise of Eusebius  / Philostrate  ; with an English translation by F. C. Conybeare / London : William Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/07315587X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  : The Epistles of Apollonius and the Treatise of Eusebius  / Philostratus  ; With an english translation by F.C. Conybeare / London : W. Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159132819/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratus, des Aeltern und des Jüngern, Werke  Abth. II, Die Gemälde  / Philostratus  / Kallistratus  ; Uebers. von A. F. Lindau / Stuttgart : Metzler , [1830]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155011405/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavius Philostratus, des Aeltern, Werke  Erstes Bändchen, Heldengeschichte  / übersetzt von Hosrath Friedrich Jakobs,... / Stuttgart : J.B. Metzler , 1828</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/087155273/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The letters of Alciphron, Aelian and Philostratus  / with an English translation by Allen Rogers Benner,... and Francis H. Fobes,... / London : William Heinemann , 1949</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155010778/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Le pitture dei Filostrati e le statue di Callistrato  / Philostratus  ; fatte in volgare la prima volta da Filippo Mercuri con le variante lezioni tratte da Mss. Vaticani / Roma : Societa tipografica , 1828</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044354894/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Φιλοστρατου Ήροικα. Philostrati Heroica ad fidem codicum manuscriptorum IX recensuit scholia græca adnotationesque suas addidit J. Fr. Boissonade</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046865926/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii philostrati opera  / auctiora edidit C.L. Kayser  ;  [accedunt] Apollonii epistolae  ;  Eusebius adversus Hieroclem  ;  Philostrati Junioris imagines  ;  Callistrati descriptiones / Editio stereoptypa / Hildesheim : G. Olms , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/046218688/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratos über Gymnastik  / von Julius Jüthner / Leipzig : B. G. Teubner , 1909</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/051515113/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Opera  Vol. I et II,   : accedunt Apollonii Epistolae, Eusebius Adversus Hieroclem, Philostrati junioris Imagines; Callistrati Descriptiones  / auctiora edidit C. L. Kayser / Lipsiae : in aedibus B. G. Teubneri , 1870-1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191783374/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Heroicus  ;  Gymnasticus  ;  Discourses 1 and 2  / Philostratus  ; edited and translated by Jeffrey Rusten, Jason König / Cambridge, Massachusetts [etc.] : Harvard University Press , [2014]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073155861/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  : The Epistles of Apollonius and the Treatise of Eusebius  / Philostratus  ; With an english translation by F.C. Conybeare / London : W. Heinemann , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/114130116/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Aesopi Phrygis fabellae Graece et Latine, cum aliis opusculis, quorum index proxima refertur pagella.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/258353988/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Sport in der Antike  = = Peri gymnastikes :   = = Über das Training :   / Philostratos  ; übersetzt und Herausgegeben von Kai Brodersen / Zweisprachige Ausgabe / Wiesbaden : Marixverlag</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295738/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratou eis ton Apollōniou tou Tyaneōs bion biblia octō. Eusebiou Kaisareias tou Pamphilou antirrhētikos pros ta Hierokleous, Apollōnion ton Tuanea toi sōtēri Christoi paraballontes. Philostrati de vita Apollonii Tyanei libri octo. Idem libri latini interprete Alemano Rinuccino florentino. Eusebius contra Hieroclem qui Tyaneum Christo conferre conatus fuerit. Idem latinus interprete Zenobio Acciolo florentino ordinis Prædicatorum / [Venise : Alde , 1501-1502]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/134748719/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vidas de los sofistas  / Filóstrato  ; introducción, traducción y notas de María Concepción Giner Soria / Madrid : Editorial Gredos , 1982</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003494012/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The lives of the sophists  / Philostratus and Eunapius  ; with an English transl. by Wilmer Cave Wright,... / Cambridge, Mass. : Harvard university press , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096032502/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  II,   / Philostratus  / with an English transl. by F. C. Conybeare,... / London : W. Heinemann , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/114129703/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Aesopi Phrygis fabellae Graece &amp; Latine, cum aliis opusculis, quorum index proxima refertur pagella.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090767640/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrate l'Ancien. Une galerie antique de 64 tableaux  / Introduction, traduction et comment. par A. Bougot / Paris : H. Loones , 1881</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/126128855/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Critiæ tyranni carminum aliorumque ingenii monumentorum quæ supersunt. Disposuit, illustravit, emendavit Nicolaus Bachius, philosophiæ doctor artiumque liberalium magister. Præmissa est Critiæ vita a Flavio Philostrato descripta</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295622/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii sophistae Epistolae quaedam partim nunquam partim auctiores editae. Joannes Meursius primus vulgavit, &amp; adjunxit, de Philostratis dissertatiunculam</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10029572X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>De la vie d'Apollonius Thianéen par B. de Vigenère... / Paris : A. L'Angellier , 1599</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073155810/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Opera auctiora  / edidit C.L. Kayser  ;  Accedunt Apollonii Epistolae, Eusebius adversus hieroclem, Philostrati junioris imagines, Callistrati Descriptiones  2,  / Hildesheim : G. Olms , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136834124/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Stephani Nigri, viri undecunque eruditissimi Dialogus, quo quicquid in graecarum literarum penetralibus reconditum:quod ad historiæ ueritatem ... conferre ... possit ... in lucem propagatur. His accedunt Philostrati Heroica ... latinitati donata ... / S. l. s. n. : Mediolani in officina Minutiana. , [1517]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/242265812/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Voyeurs del arte Grecorromano  / Filóstrato el Viejo  / Filóstrato el Joven  / Calístrato  ; edición a cargo de Luis Alberto de Cuenca y Miguel Angel Elvira  ; ilustraciones de Antoine Caron y su escuela / Madrid : Reino de Cordelia , DL 2019</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/271832479/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Lives of the sophists  / Philostratus  / Eunapius  ; edited and translated by Graeme Miles  ; edited and translated by Han Baltussen / Cambridge (Mass.) : Harvard University Press , 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090938917/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  [2], Books V-VIII  / Philostratus  ; edited and translated by Christopher P. Jones / Cambridge (Mass.) : Harvard university press , 2005</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012333190/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  II,   : [suivi de] The @Epistles of Apollonius and The @Treatise of Eusebius  / Philostratus  / with an English transl. by F.C. Conybeare / Revisé et réimp. / London : W. Heinemann , 1921</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/272069000/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vie d'Apollonios de Tyane  / Philostrate  ; texte introduit, traduit et commenté par Valentin Decloquement / Paris : les Belles lettres , 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135802091/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Les images, ou Tableaus de platte peinture de Philostrate... mis en françois par Blaise de Vigenère,... avec des arguments et annotations sur chacun d'iceux Edition nouvelle, reveue, corrigée et augmentée de beaucoup par le translateur / A Paris : pour A. Langelier , 1602</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10887978X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Apollonius of Tyana  [III],   ;  Letters of Apollonius  ;  Ancient testimonia  ;  Eusebius's reply to Hieroclè  / Philostratus, Apollonius of Tyana  ; edited and translated by Christopher P. Jones / Cambridge, Mass. : Harvard university press , 2006, cop. 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/25628654X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>De la gymnastique  : santé, beauté... la guerre  ;  Traité sur la gymnastique  / Philostrate  ; traduction de Charles Daremberg  ; présentation et notes de Jackie Pigeaud  ; avec la collaboration d'Alfrieda Pigeaud / Arles : Actes Sud , 2021</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/115980563/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>La suite de Philostrate par Blaise de Vigenere bourbonnois / A Paris : chez Abel Langellier , 1597</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/056173954/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>[Tade enestin en tōde tō bibliō. Loukianou. Philostratou eikones. Tou autou Hērōika. Tou autou bioi sophistōn. Philostratou neōterou eikones. Kallistratou ekphraseis. Que hoc volumine continentur. Luciani opera. Icones Philostrati. Ejusdem Heroica. Ejusdem vitae sophistarum. Icones junioris Philostrati. Descriptiones Callistrati.] / [Venezia : in aedibus Aldis , 1503]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090474856/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vie d'Apollonius de Tyane par Philostrate ; avec les commentaires donnés en anglois par Charles Blount sur les deux premiers livres de cet ouvrage. Le tout traduit en françois. Tome I [-IV].</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117453900/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratos Peri gymnastikēs  = = Philostratei Libri de gymnastica quae supersunt ... :   / Flavius Philostrate  / Marcus Eugenius  ; nunc primum edidit et interpretatus est C. L. Kayser / Heidelbergae : J. C. B. Mohr , 1840</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191756849/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Aeliani Variae historiae libri XIV. Rerum publicarum descriptiones ex Heraclide. Cum latina interpretatione. Editio postrema multò quàm antehac emendatior</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/095248951/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Édition critique, avec introd. notes et trad. de l'Héroïque de Philostrate  / Simone Follet  ; dir. de recherche M. P. Chantraine /  , 1968</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/091620899/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Peri gumnastikēs  = = Sur la gymnastique :   / Philostrate  ; ouvrage .. traduit en français et publié pour la 1ère fois par Minoïde Mynas / Paris : H. Bossange , 1858</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/01737281X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Apollonius de Tyane  : Sa vie, ses voyages, ses prodiges  / par Philostrate  / ouvrages traduits du grec avec introduction, notes et éclaircissements par A. Chassang, maître de conférence à l'Ecole normale supérieure / Paris : Librairie académique Didier et Cie , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/079119832/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratorum et Callistrati opera  / recognovit Antonius Westermann  / edidit Jo. Fr. Boissonade  / emendavit Fr. Dübner / Parisiis : A. Firmin Didot , 1878</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099848147/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Epistolai diaphorōn philosophōn, rhētorōn kai sophistōn  / éd. Marcus Musurus / [Venezia : [Aldo Manuzio , 1499]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096032499/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  1,   / Philostratus  / with an English transl. by F. C. Conybeare,... / London : W. Heinemann , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155015192/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratus de vita Apollonii Tyanei  / Philostratus  ; scriptor lvcvlentvs a Philippo Beroaldo castigatvs / Venetiis , 1502</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/110775937/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratos über Gymnastik  / Philostrate  ; [préface, traduction et notes ] von Julius Jüthner / Amsterdam : B.R. Gru͏̈ner , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178133612/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>De la gymnastique  : santé, beauté… la guerre  ;  Traité sur la gymnastique  / Philostrate  ; traduction de Charles Daremberg  ; présentation et notes de Jackie Pigeaud  ; avec la collaboration d'Alfrieda Pigeaud / Arles : Actes Sud , DL 2014</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152564780/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>La Vita del gran philosopho Apollonio Tianeo  / composta da Philostrato scrittor greco  ; et tradotta nella lingua volgare de M. Lodovico Dolce / Tours : CESR , 2008</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073753718/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>La suite de Philostrate par Blaise de Vigenere bourbonnois / A Paris chez Abel Langellier. MD.X.C.V.II</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099855224/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Aesopi Phrygis Fabulae græce et latine, cum aliis opusculis, quorum index proxima refertur pagella / Basileæ, in officina Hervagiana. Anno M.D.XLI</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/193355485/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati Vitas sophistarum  : ad quas accedunt Polemonis Laodicensis Declamationes quae exstant duae  / recognovit brevique adnotatione critica instruxit Rudolf S. Stefec / Oxonii : E Typographeo Clarendoniano , 2016, cop. 2016</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/132969777/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The letters of Alciphron, Aelian and Philostratus  / with an English translation by Allen Rogers Benner,... and Francis H. Fobes,... / Cambridge (Mass.) : Harvard University Press , 1962</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/095884505/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati opera  / auctiora edidit C. L. Kayser / Lipsiae : B. G. Teubner , 1870-1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/173726283/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The two first books of Philostratus, concerning the life of Apollonius Tyaneus  : written originally in Greek, and now published in English : together with philological notes upon each chapter  / by Charles Blount, Gent / Ann Arbor, Michigan : UMI , 1999</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191268208/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  Books I-IV,   / Philostratus  ; edited and translated by Christopher P. Jones / Cambridge, Massachusetts : Harvard University Press , [2014]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/198316739/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  I,   : The Epistles of Apollonius and the Treatise of Eusebius  / Philostratus  ; with an english translation by F.C. Conybeare, ... / London : William Heinemann Ltd , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/08640136X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Letters of Alciphron, Aelian and Philostratus  / with an english translation by Allen Rogers Benner, ... and Francis H. Fobes ... / Cambridge : Harvard University Press , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/003502848/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The letters of Alciphron, Aelian and Philostratus  / with an English translation by Allen Rogers Benner and Francis H. Fobes / Cambridge (Mass.) : Harvard university press , 1979</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/127527877/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Les images ou tableaux de platte peinture des deux Philostrates sophistes grecs, et Les statues de Callistrate mis en francois par Blaise de Vigenere bourbonnois, enrichis d'arguments et annotations. -- Reueus et corrigez sur l'original par un docte personnage de ce temps en la langue grecque et representez en taille douce en cette nouvelle edition avec des epigrammes sur chacun diceux par Artus Thomas sieur d'Embry / A Paris : Sebastien Cramoisy , 1637</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/170555887/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Heroico  ;  Gimnástico  ;  Descripciones de cuadros  / Filóstrato. Descripciones  / Calístrato  ; introducción de Carles Miralles  ; traducción y notas de Francesca Mestre / Madrid : Gredos , 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/061382884/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Life and times of Apollonius of Tyana  / Rendered into english from the greek of Philostratas the Elder by Charles P. Eells / Stanford : Stanford University , 1923</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103197710/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  : the epistles of Apollonius and the treatise of Eusebius  / Philostratus  ; with an English translation by F. C. Conybeare,... / London : William Heinemann , 1912</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295703/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vie d'Apollonius de Tyane avec les commentaires donnés en anglois par Ch. Blount sur les 2 premiers livres de cet ouvrage. Le tout traduit en françois / Amsterdam : P.P. Rey , 1779</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/167018108/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii Opera quae exstant. Philostrati junioris imagines, et Callistrati ecphrases. Item Eusebii Caesariensis episcopi liber contra Hieroclem, qui ex Philostrati historia aequipararat Apollonium Tyaneum Salvatori nostro Jesu Christo. Graeca latinis è regione posita ; Fed. Morellus professor et interpres regius cum mnss. contulit, recensuit : et hactenus nondum latinitate donata, vertit. Ad virum amplissimum D. Nic. Brulartum, summum Galliarum procancellarium. / Parisiis. M. DC. VIII. : apud Marcum Orry, via Jacobaea, sub insigni Leonis salientis. Non sine Regis privilegio. , 1608</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/13539015X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratos erotische Briefe  : nebst den Hetärenbriefen des Alkiphron  / herausgegeben von Paul Hansmann / Frankfurt am Main : Insel Verlag , 1989</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155011650/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Apollonius von Tyana  / Philostratus  / aus dem Griechischen des Philostratus übersetzt und erläutert von Eduard Baltzer / Rudolstadt i. Th. : H. Hartung und Sohn , 1883</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/020811071/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Zhiznʹ Apollonii︠a︡ Tianskogo  / Flaviĭ Filostrat  ; izd. podgotovila E.G. Rabinovich  ; [otv. redaktor M.L. Gasparov] / Moskva : "Nauka , 1985</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/262340755/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Narciso  : la passione dello sguardo  : variazioni sul mito  / Ovidio, Filostrato, La Fontaine... [et al.]  ; a cura di Sonia Macrì / Venezia : Marsilio , 2020</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155010174/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The two first books, of Philostratus, concerning the life of Apollonius Tyaneus  : written originally in Greek, and now published in english: together with philological notes upon each chapter  / Philostratus  ; By Charles Blount / Londini : Thompson , 1680</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/226340899/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Phylostratus De Vita Apollonii Tyanei scriptor luculentus a Philippo Beroaldo castigatus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/183288785/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Lettere d'amore  / Alcifrone, Filostrato, Aristeneto  ; introduzione, restituzione del testo originale, traduzione e note de Fabrizio Conca e Giuseppe Zanetto / 2a edizione / Milano : BUR , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16496116X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vies des sophistes, traduites par R.P.J.A. / Tournon : Linocier , 1611</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/024674877/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati  : équae supersunt Philostrati junioris Imagines, Callistrati Descriptiones  / edidit C. L. Kayser / Turici : C. Meyeri et Zelleri , 1844</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155010441/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Die Werke der Philostrate  I,1-2-II,1-2,   / Philostrati  ; aus dem grieschischen übersetzt von David Christoph Seybold / Lemgo : Meyersche Buchhandlung , 1776-1777</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108293998/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>[Works]  Books I-V, The life of Apollonius of Tyana  / Philostratus  ; with an English transl. by F. C. Conybeare / Cambridge (Massachusetts) : Harvard University Press , cop.1912</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/090247736/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  : books I-IV  : books V-VIII  / Philostratus  / of Apollonius  ; edited and translated by Christopher P. Jones / Cambridge (Mass.) : Harvard university press , 2005</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151822565/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostrati Lemnii senioris historiæ de vita Apollonii libri VIII. Alemano Rhinuccino Florentino interprete. Eusebii Cæsariensis adversus Hieroclem, qui ex Philostrati historia Apollonium Christo æquiparare contendebat,confutatio, sive apologia. Zenobio Acciolo Florentino interprete. Omnia hæc ad græcam veritatem diligenter castigatata, &amp; restituta, adjectis ubi opus esse videbatur, annotationibus per Gybertum Longolium. / Coloniæ excudebat Joannes Gymnicus. Anno M. D. XXXII.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/255306180/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Phylostratus: de vita Apollonii Tyanei scriptor luculentus a Philippo Beroaldo castigatus. / [Lieu de publication inconnu] : [éditeur inconnu]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/283771054/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>L' art de la gymnastique  : la naissance du sport  / Philostrate  ; traduit du grec et annoté par Nicolas Waquet  ; préface d'Andrea Marcolongo / [Paris] : Éditions Payot &amp; Rivages</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/072326638/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vite dei sofisti  : testo greco a fronte  / Filostrato  ; introduzione, traduzione e note di Maurizio Civiletti / Milano : Bompiani , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100295630/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>@ Philostrati Heroica ad fidem codicum manuscriptorum IX recensuit scholia graeca adnotationesque suas addidit J. Fr. Boissonade / Paris : Nicolle , 1806</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/199630828/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Sull'allenamento  / Filostrato  ; a cura di Paolo Madella, Heather L. Reid, Emanuele Isidori [et al.]  ; con una prefazione di Fernando García Romero / Viterbo : Sette città , 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152494286/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>La Vita del gran philosopho Apollonio Tianeo  / composta da Philostrato scrittor greco  ; et tradotta nella lingua volgare de M. Lodovico Dolce / In Vinegia : Appresso Gabriel Giolito de Ferrari , 1549</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098792601/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The lives of the sophists  / Philostratus  / Eunapius  ; with an English translation by Wilmer Cave Wright / [Revised and reprinted] / London : William Heinemann , 1952</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109531094/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Sur la gymnastique  / Philostrate  ; Ouvrage découvert, corrigé  ; traduit en français, et publié pour la première fois par Minoi͏̈de Mynas,.. / Paris : H. Bossange et fils , 1858</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146610032/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Isocratis Opera omnia graecè et latinè, cum versione nova, triplici indice, variantibus lectionibus et notis edidit Athanasius Auger,... Tomus primus [-tertius] / Sumptibus editoris excudebat Parisiis Franc. Ambr. Didot l'ainé. M. DCC. LXXXII , 1782</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007463022/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Romans grecs et latins  / textes présentés, traduits et annotés par Pierre Grimal / [Nouvelle édition] / Paris : Gallimard , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165888636/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratos über Gymnastik  / von Julius Jüthner / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155011618/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavii Philostrati de arte gymnastica libellus  / Flavius Philostratus  ; recognovit, latine reddidit, illustravit C. H. Volckmar, ... / Auricae : Spielmeyer , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159133041/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Flavius Philostratus, des Aeltern, Werke  Abth. III,   / Flavius Philostratus  ; übers. [T. 1:] von Georg Joseph Bekker, [T. 2:] Adolph Heinrich Christian / Stuttgart [u.a.] : Metzler [u.a.] , 1855</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/198332513/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The Life of Apollonius of Tyana  II,   : The Epistles of Apollonius and the Treatise of Eusebius  / Philostratus  ; with an english translation by F.C. Conybeare, ... / London : William Heinemann Ltd , 1960</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/108294005/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>[Works]  Books VI-VIII, The life of Apollonius of Tyana  : Epistles of Apollonius  : Treatise of Eusebius  / Philostratus  ; with an English transl. by F. C. Conybeare, ... / [Revised and reprinted ed.] / Cambridge (Massachusetts) : Harvard University Press , cop. 1912</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/204652871/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Sur les héros  / Philostrate  ; texte établi, traduit et commenté par Simone Follet,... / Paris : Les Belles Lettres , 2017</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/268200807/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Vita di Apollonio di Tiana  / Filostrato  ; a cura di Dario Del Corno / Milano : Adelphi Ed. , cop. 1978</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155009885/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Philostratou Eikones  = = Philostrati Imagines :   ;  Tu autu hērōika  = = Ejusdem Heroica :   ;  Tu autu bioi sophistōn  = = Ejusdem Vitae sophistarum : omnia recenti castigatione emendata  = = Imagines :   = = Descriptiones :   / Flavius Philostrate  / Philostrati junioris  / Callistrati / Venetiis : apud P. et J. M. Nicolinos , 1550</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135384842/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Φλαουίου Φιλοστράτου Βίοι Σοφιστω̃ν  = = Flavii Philostrati Vitae sophistarum : textum ex codd. romanis, florentinis, venetis, parisinis, londinensibus, mediolanensi, havniensi, oxoniensi, gudiano, heidelbergensi  / recensuit, epitomam romanam et parisinam ineditas adjecit, commentarium et indices concinnavit Carolus Ludovicus Kayser,...   ; insertae sunt notae ineditae J. Casauboni, Bentleii, Huetii, Salmasii, Jacobsii, Th. Heysii  ; editae Valesii, Olearii, Jacobsii, A. Jahnii  ; Accedit libellus Galeni Περι Αριστης Διδασκαλιας ex cod. florentino emendatus, et qui vulgo inter lucianeos fertur, Νερων Philostrato vindicatus et ex cod. palatino correctus / Heidelbergae : J. C. B. Mohr , 1838</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/192330985/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Lives of the sophists  / Philostratus  / Eunapius  ; with an english translation by Wilmer Cave Wright / Cambridge, Massachusetts : Harvard University Press , [2014]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/191275689/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>The life of Apollonius of Tyana  Books V-VIII,   / Philostratus  ; edited and translated by Christopher P. Jones / Cambridge, Massachusetts : Harvard University Press , [2014]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06798245X/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/030324149/id"/>
+      <dcterms:bibliographicCitation>Æsopi Phrygis fabulæ græce et latine, cum aliis opusculis, quorum index proxima refertur pagella.</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

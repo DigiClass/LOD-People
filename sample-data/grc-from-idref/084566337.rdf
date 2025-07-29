@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/084566337">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/084566337/id"/>
+      <dcterms:identifier>084566337</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-03-11</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-17T13:31:43</dcterms:modified>
+      <skos:editorialNote>Julien d'Halicarnasse et sa controverse avec Sévère d'Antioche sur l'incorruptibilité du corps du Christ : étude d'histoire littéraire et doctrinale. Suivie des Fragments dogmatiques de Julien : texte syriaque et traduction grecque / par René Draguet,..., 1924</skos:editorialNote>
+      <skos:editorialNote>Catholicisme, hier, aujourd'hui et demain</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/084566337/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/000000035875545X"/>
+      <isni:identifierValid>000000035875545X</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/208930802"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Julien d'Halicarnasse (04..-05..)</skos:prefLabel>
+      <foaf:familyName>Julien d'Halicarnasse</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Julien d'Halicarnasse</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/084566337/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">04XX</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/084566337/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">05..</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/syr"/>
+      <!--skos:note-->
+      <skos:note>Evêque monophysite d'Halicarnasse en Carie. Il se fixe à Alexandrie en 518 et on perd sa trace après 528.</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067547052/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/084566337/id"/>
+      <dcterms:bibliographicCitation>Catenen  : Mitteilungen über ihre Geschichte und handschriftliche Überlieferung  / von Hans Lietzmann  ; mit einem Beitrag von Hermann Usener / Freiburg I. B. : J. C. B. Mohr , 1897</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016133579/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/084566337/id"/>
+      <dcterms:bibliographicCitation>Julien d'Halicarnasse et sa controverse avec Sévère d'Antioche sur l'incorruptibilité du corps du Christ  : étude d'histoire littéraire et doctrinale  : texte syriaque et traduction grecque  / par René Draguet,... / Louvain : P. Smeesters , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/194706028/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/084566337/id"/>
+      <dcterms:bibliographicCitation>Incorruptible bodies  : christology, society, and authority in late Antiquity  / Yonatan Moss / Oakland (Calif.) : University of California Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016133579/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/084566337/id"/>
+      <dcterms:bibliographicCitation>Julien d'Halicarnasse et sa controverse avec Sévère d'Antioche sur l'incorruptibilité du corps du Christ  : étude d'histoire littéraire et doctrinale  : texte syriaque et traduction grecque  / par René Draguet,... / Louvain : P. Smeesters , 1924</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/05513937X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/084566337/id"/>
+      <dcterms:bibliographicCitation>Sévère d'Antioche  I,   : La polémique antijulianiste  / édité [et] traduit par Robert Hespel / Louvain : Secrétariat du CorpusSCO , 1964</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

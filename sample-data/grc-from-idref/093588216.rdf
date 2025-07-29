@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/093588216">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:identifier>093588216</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2005-12-01</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-12-15T09:54:28</dcterms:modified>
+      <skos:editorialNote>Epiphanii, monachi et presbyteri, edita et inedita / cura Alberti Dressel,..., 1843</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/093588216/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000066313772"/>
+      <isni:identifierValid>0000000066313772</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/52436569"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Dressel, Albert Rudolf Maximilian (1808-1875)</skos:prefLabel>
+      <skos:altLabel>Dressel, Albertus</skos:altLabel>
+      <skos:altLabel>Dressel, Albertus Rud. Max.</skos:altLabel>
+      <foaf:familyName>Dressel</foaf:familyName>
+      <foaf:givenName>Albert Rudolf Maximilian</foaf:givenName>
+      <foaf:name>Albert Rudolf Maximilian Dressel</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/093588216/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1808</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/093588216/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1875</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/11919368X/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Patrum apostolicorum opera  : textum ad fidem codicum et graecorum et latinorum, ineditorum copia insignium adhibitis praestantissimis editionibus.  / recensuit atque emendavit, notis illustravit, versione latina passim correcta, prologomenis, indicibus instruxit Albertus Rud. Max. Dressel, accedit Hermae Pastor ex fragmentis graecis lipsiensibus, instituta quaestione de vero eius textus fonte, auctore Constantino Tischendorf / Lipsiae : J. C. Hinrichs , 1857</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064422828/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Johann Winckelmann's Versuch einer Allegorie, besonders für die Kunst  / aus des Verfassers Handexemplar mit vielen Zusätzen von seiner Hand, sowie mit inedirten Briefen Winckelmann's und gleichzeitigen Aufzeichnungen über seine letzten Stunden herausgegeben von Albert Dressel  ; mit einer Vorbemerkung von Constantin Tischendorf / Säcular-Ausgabe / Leipzig : Hermann Mendelssohn , 1866</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124105866/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Clementis Romani quae feruntur homiliae viginti  : nunc primum integrae  / textum ad Codicem Ottobonianum constituit, versionem Cotelerii passim correxit eamque absolvit, selectas virorum doctorum notas suasque subjunxit Albertus Rud. Max. Dressel / Gottingae : Librariae Dieterichianae , 1853</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/128153709/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Vier Documente aus römischen Archiven  : Beitrag zur Geschichte des Protestantismus vor, während und nach der Reformation  / mitgetheilt von Albert Rudolf Maximilian Dressel / 2. Ausgabe / Berlin : Franz Duncker , 1872</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124116183/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Clementinorum epitomae duae  / Saint Clément  ; altera edita correctior, inedita altera nunc primum integra ex codicibus romanis et excerptis Tischendorfianis, cura Alberti Rud. Max. Dressel  ; Accedunt Friderici Wieseleri adnotationes criticae ad Clementis romani quae feruntur homilias / Editio secunda Immutata / Lipsiae : J. C. Hinrichs , 1873</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171632516/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Patrum apostolicorum opera  : Textum ad fidem codicum et graecorum et latinorum, ineditorum copia insignum, adhibitis praestantissimis editionibus  / recensuit atque emendavit, notis illustravit, versione latina passim correcta, prolegomenis, indicibus instruxit Albertus Rud. Max Dressel / Editio altera / Lipsiae [i.e. Leipzig] : J. C. Hinrichs, bibliopola , 1863</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/129109770/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Joannis Du Tillet Historiae belli contra Albigenses initi compendium  : ex bibliothecae vaticanae codice 5422  / Jean Du Tillet  ; nunc primum edidit Alb. Dressel,... / Berolini : sumtibus F. Duemmleri , 1845</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/05151897X/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Aurelii Prudentii Clementis quae exstant Carmina  / ad Vaticc. aliorumque codicum et optimarum editionum fidem recensuit, lectionum varietate illustravit, notis explicavit Albertus Dressel / Lipsiae : H. Mendelssohn , 1860</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/093586191/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/093588216/id"/>
+      <dcterms:bibliographicCitation>Epiphanii, monachi et presbyteri, edita et inedita  / cura Alberti Dressel,... / Parisiis : Brockhaus et Avenarius , 1843</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

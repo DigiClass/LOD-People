@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/061383295">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/061383295/id"/>
+      <dcterms:identifier>061383295</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2002-06-18</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-29T03:16:05</dcterms:modified>
+      <skos:editorialNote>Mourre</skos:editorialNote>
+      <skos:editorialNote>Thessaly in the Fourth century B.C. / H. D. Westlake, 1993</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/061383295/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12437033</bnf-onto:FRBNF>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12437033d#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/190564590"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Jason_de_Phères"/>
+      <skos:prefLabel>Jason (04..-0370? av. J.-C.)</skos:prefLabel>
+      <foaf:name>Jason</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/061383295/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-04X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/061383295/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0370 ?</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Tyran de Phères, en Thessalie</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/061334480/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/061383295/id"/>
+      <dcterms:bibliographicCitation>Thessaly in the fourth century B.C  : with a map  / by H.D. Westlake / Chicago (Il.) : Ares , 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/08357381X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/061383295/id"/>
+      <dcterms:bibliographicCitation>Dissertatio historico-literaria de Jasone Pherarum tyranno...  / Leonardus Hamming / Trajecti ad Rhenum (Pays-Bas) : N. van der Monde , 1828</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/052761355/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/061383295/id"/>
+      <dcterms:bibliographicCitation>Jason of Pherae  : a study on history of Thessaly in years 431-370 BC  / Sławomir Sprawski / [Kraków] : Jagiellonian University Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

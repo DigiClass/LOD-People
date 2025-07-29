@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/123964016">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:identifier>123964016</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-05-15</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-02-13T14:55:46</dcterms:modified>
+      <skos:editorialNote>The res Greciae in Polybius : four studies / David Golan, 1995</skos:editorialNote>
+      <skos:editorialNote>Mourre, 1986</skos:editorialNote>
+      <skos:editorialNote>Philip V of Macedon / Frank-William Walbank, 1940</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/123964016/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15076572</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000138889982"/>
+      <isni:identifierValid>0000000138889982</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb150765720#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/211308880"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Philippe_V_(roi_de_Macédoine)"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Philippe V (0238-0179 av. J.-C. ; roi de Macédoine)</skos:prefLabel>
+      <foaf:name>Philippe V</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/123964016/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">-023-08</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/123964016/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">-017-09</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Roi de Macédoine de 221 à 179, appartenant à la dynastie des Antigonides</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/242442013/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>The rise of Philip V  : kingship and rule in the Hellenistic world  / Monica D'Agostini / Alessandria : Edizioni dell'Orso</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065633717/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>La Repubblica Romana e gli ultimi re di Macedonia  / Luca de Regibus / Roma : L'Erma di Bretschneider , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012143189/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Le royaume de Macédoine de la mort d'Alexandre à sa disparition, 323-168 avant J.-C.  : notes prises aux cours de  / M. andré. Aymard,... / Edition révisée et complétée par M. A. Aymard en 1949 / Paris : Centre de documentation universitaire , 1949</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/010839925/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Etudes d'épigraphie et d'histoire grecques  Tome V, Rome, la Macédoine et l'Orient grec  Deuxième partie, Rome et la conquête de l'Orient  : Philippe V et Antiochos le Grand  / Maurice Holleaux  ; [introduction de Louis Robert] / Paris : Librairie d'Amérique et d'Orient, Adrien-Maisonneuve , 1957</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/080952682/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Philip V of Macedon  / Frank-William Walbank / Cambridge : Univ. press , 1940</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/281746508/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Συμβολή οτη μελέτη της χάλκινης νομισματοκοπίας των αντιγονιδών από τον Αντίγονο Γονατά έως τους πρώτους χρόνους του φιλίππου Ε'  / Βασιλης Δ. Πουλιος / Αθηνα : Ανατυπο , 2006</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/146577086/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Studies in Greek epigraphy and history in honor of Stephen V. Tracy  / edited by Gary Reger, F. X. Ryan and Timothy F. Winters  ; With the support of Trinity College, Connecticut (USA) / Bordeaux : Ausonius , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/026621126/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Rome, la Macédoine et l'Orient Grec  / Maurice Holleaux / Paris : Librairie d'Amérique et d'Orient , 1952-1957</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/265459451/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Philip V of Macedon in Polybius' Histories  : Politics, History, and Fiction  / Emma Nicholson / Oxford : Oxford University Press , 2023</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/190620021/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Die Seepolitik Philipps V. von Makedonien  / Michael Kleu  ; mit einem Vorwort von Ute und Dietrich Redell / Bochum : Verlag Dr. Dieter Winkler , 2015, cop. 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269893903/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Philippe V, roi des Macédoniens (221-179 a.C.)  : étude numismatique et historique  / Pierre Bourrieau  ; sous la direction de Catherine Grandjean /  , 2022</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015946886/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Philip V of Macedon  / by F. W. Walbank,... / [Hamden, Conn.] : Archon Books , 1967</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145031039/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>The expedition of Philip V to Asia Minor in 201/O B.C  / by Fotini Metaxiki-Mitrou / Ann Arbor, Mich. : University Microfilms International , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/137736266/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Koinè symmachia  : Untersuchungen zum Hellenenbund Antigonos' III. Doson und Philipps V., 224-197 v. Chr.  / Klaus Scherberich / Stuttgart : F. Steiner , 2009</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/270607102/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Philip V of Macedon in Polybius' Histories  : Politics, History, and Fiction  / Emma Nicholson / Oxford : Oxford University Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120710285/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>The dawn of the Roman Empire  :  books thirty-one to forty  /  Livy  ; translated by J. C. Yardley  ; with an introduction and notes by Waldemar Heckel / Oxford : Oxford University Press , 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060207086/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Rhodische Traditionen in der hellenistischen Historiographie  / Hans-Ulrich Wiemer / Frankfurt am Main : Buchverlag Marthe Clauss , 2001</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/265460905/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>The last kings of Macedonia and the triumph of Rome  / Ian Worthington / New York : Oxford University Press</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/022008985/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Il valore storico e le fonti del libro macedonico di Appiano  / Piero Meloni / Roma : "L'Erma" di Bretschneider , 1955</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/121459152/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>L'ombra di un'antica alleanza  : (Polibio III, 2, 8 ; XV, 20, 1-8)  / Angela Bellezza / Genova : Fratelli Pagano , 1962</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/234054808/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Studies in Greek epigraphy and history in honor of Stefen V. Tracy  / edited by Gary Reger, F. X. Ryan and Timothy F. Winters / Pessac : Ausonius Éditions</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011550651/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/123964016/id"/>
+      <dcterms:bibliographicCitation>Demetrio di Faro  : un protagonista dimenticato  / Alessandra Coppola / Roma : "L'Erma" di Bretschneider</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

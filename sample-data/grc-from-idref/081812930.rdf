@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/081812930">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:identifier>081812930</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-11-19</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-09-12T10:06:37</dcterms:modified>
+      <skos:editorialNote>Le petit Robert : dictionnaire universel des noms propres. - 1994</skos:editorialNote>
+      <skos:editorialNote>The Oxford dictionary of Byzantium. Volume 2. - 1991</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/081812930/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000353903687"/>
+      <isni:identifierValid>0000000353903687</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/4890522"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Jean_Ier_Tzimiskès"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Jean I (0925?-0976 ; empereur d'Orient)</skos:prefLabel>
+      <skos:altLabel>Tzimiskès, Jean (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Jean Tzimiskès (empereur d'Orient)</skos:altLabel>
+      <skos:altLabel>Iôannês Tzimiskês</skos:altLabel>
+      <foaf:familyName>Jean</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Jean</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/081812930/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0925</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/081812930/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0976-01-10</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/174982/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Général d'origine arménienne. - Empereur d'Orient de 969 à 976</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/279612338/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:bibliographicCitation>Nella stanza dell'imperatore  : [romanzo]  / Sonia Aggio / Roma : Fazi editore , 2024</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139713883/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:bibliographicCitation>L'Épopée byzantine à la fin du dixième siècle  [1], Guerres contre les Russes, les Arabes, les Allemands, les Bulgares. Luttes civiles contre les deux Bardas. Jean Tzimiscès. Les jeunes années de Basile II, le tueur de Bulgares (969-989)  / Gustave Schlumberger  / Gustave Schlumberger / Nouvelle édition / Paris : E. de Boccard , 1925</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/008093865/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:bibliographicCitation>L'épopée byzantine à la fin du dixième siècle  Première partie, Guerres contre les Russes, les Arabes, les Allemands, les Bulgares, luttes civiles contre les deux Bardas, Jean Tzimiscès, les jeunes années de Basile II le tueur de Bulgares (969-989)  / Gustave Schlumberger / Paris : Hachette , 1896</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/26309295X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:bibliographicCitation>Die Chronologie des grossen Feldzuges des Kaisers Johannes Tzimiskes gegen die Russen  / Franz Dölger / Leipzig : B. G. Teubner , 1932</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/023873892/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:bibliographicCitation>L'épopée byzantine à la fin du dixième siècle  / Gustave [Léon] Schlumberger,... / [Paris] : Hachette &amp; cie , 1896-1905</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/238469867/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:bibliographicCitation>L'épopée byzantine à la fin du dixième siècle  Première partie, Guerres contre les Russes, les Arabes, les Allemands, les Bulgares, luttes civiles contre les deux Bardas, Jean Tzimiscès, les jeunes années de Basile II le tueur de Bulgares (969-989)  / Gustave Schlumberger / Aalen : Scientia Verlag , 1969</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/197502830/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:bibliographicCitation>Επίσημα Βυζαντινά έγγραφα σε έργα Αρμενιών μεσαιωνικών συγγραφέων  = = [=Actes byzantins officiels dans des œuvres d’écrivains arméniens médiévaux] : Α΄ Οι επιστολές του Ιωάννη Τσιμισκή στους Αρμένιους  = = [=I. Les lettres de Jean Tzimiskès aux Arméniens :   / Χράτς Μπαρτικιάν  / Hratch Bartikian] / Αθήνα : Εκδόσεις Δόμος , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049183222/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/081812930/id"/>
+      <dcterms:bibliographicCitation>Leonis Diaconi Caloënsis historiae libri decem  / Nicephori Augusti  / e recensione Fr. Jacobsii et Luitprandi legatio cum aliis libellis qui Nicephori Phocae et Joannis Tzimiscis historiam illustrant  ; e recensione Caroli Benedicti Hasii,... / Bonnae : Impensis Ed. Weberi</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

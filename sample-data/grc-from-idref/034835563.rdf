@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/034835563">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:identifier>034835563</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1996-10-07</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-06-08T08:13:57</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/152558497"/>
+      <skos:editorialNote>Palaephatus De non credendis historiis..., 1505</skos:editorialNote>
+      <skos:editorialNote>Clavis SGL : Palaephatus Atheniensis Aegyptius (?). Dizionario biografico universale / G. Garallo, 1980</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/034835563/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12554608</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000122644825"/>
+      <isni:identifierValid>0000000122644825</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12554608q#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/100181721"/>
+      <skos:prefLabel>Palaephatus (03..?-03..? av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Palaéphate</skos:altLabel>
+      <skos:altLabel>Palefato</skos:altLabel>
+      <foaf:name>Palaephatus</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/034835563/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-03X</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/034835563/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">-03X</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Mythographe. Pas de forme française consacrée par l'usage, 1997-03-03</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/268847622/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Mythographi graeci  vol.3, fasc. 1 et 2, Pseudo-Eratosthenis, Catasterismi  / recensuit Alexander Olivieri / Leipzig : B. G. Teubner , 1897-1902</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/242887244/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>On the tradition and reception of Palaephatus in Byzantium  / Minerva Alganza-Roldán</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182052281/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Mythographi graeci  3,2, Palaephati peri apistôn (Περι απιστων) ,Heracliti qui fertus libellus peri aristôv excerpta vaticana, vulgo anonymus de incredibilibus  / recensuit Nicolaus Festa / Leipzig : B. G. Teubner , 1902</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162380321/id">
+      <marcrel:dub rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Le Premier livre des Narrations fabuleuses  [attribué à Palaephatus]  trad. par Guillaume Gueroult / Lyon  : Robert Granjon  , 1558</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/047319623/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaephati peri apistōn  : vulgo anonymus De incredibilibus  / ed. Nicolaus Festa / Lipsiae : in aedibus B. G. Teubneri , 1902</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/189380349/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaiphatou Peri apistōn  = = Palaephati De incredibilibus :   / Cornelius Tollius in Latinum sermonem vertit, &amp; notis illustravit / Amstelodami : Apud Ludovicum Elzevirium , 1649</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/052778029/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaiphatou Peri apistōn. = Palaephati De incredibilibus. Cornelius Tollius in latinum sermonem vertit, &amp; notis illustravit / Londini, typis Guil. Du-Gard. M.DC.LVI</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154821977/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaephati de incredibilibus historiis graece e recensione Segim. Frider. Dresigii cum ejusdem notulis quibus suas animadversiones una cum indice verborum graecorum copiosissimo atque praefatione adjecit Joh. Frider. Fischerus. Editio tertia</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/049262718/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Mythographi graeci / Lipsiae : In aedibus B. G. Teubneri , 1894-1902</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100045243/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygini, Augusti Liberti, fabularum liber, ad omnium poetarum lectionem mire necessarius, &amp; nunc denuo excusus. Ejusdem Poeticon Astronomicon libri quatuor. Quibus accesserunt similis argumenti, Palaephati De fabulosis narrationibus, liber I. F. Fulgentii Placiadis episcopi Carthaginensis Mythologiarum, libri III. Ejusdem De vocum antiquarum interpretatione liber I. Phornuti De natura deorum, sive poeticarum fabularum allegoriis, speculatio. Albrici philosophi De deorum imaginibus liber. Arati Phainomenōn fragmentum, Germanico Caesare interprete. Ejusdem Phaenomena graece, cum interpretatione Latina. Procli De sphaera libellus, graece &amp; latine. Apollodori biblioth. sive De deorum origine. Lilii. G. Gyraldi. De musis syntagma. Index rerum sententiarum &amp; fabularum in his omnibus scitu dignarum copiosissimus [Jacobus Micyllus edidit] / Parisiis : apud J. Parant , 1578</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10004526X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygini... Fabularum liber ad omnium poetarum lectionem mire necessarius et antehac nunquam excusus. Ejusdem Poeticon astronomicon libri quatuor, quibus accesserunt similis argumenti: Palaephati de Fabulosis narrationibus liber I.F. Fulgentii Placiadis... Mythologiarum libri III; ejusdem de Vocum antiquarum interpretatione liber I. Arati @ fragmentum Germanico Caesare interprete; ejusdem Phaenomena graece cum interpretatione latina. Procli de Sphaera libellus graece et latine. Index rerum et fabularum... [J. Micyllus edidit.] / Basileae : apud J. Hervagium , 1536 [N. st]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/151353778/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Die Wahrheit über die griechischen Mythen  : Palaiphatos' "Unglaubliche Geschichten"  : Griechisch/Deutsch  / übersetzt und herausgegeben von Kai Brodersen / Stuttgart : P. Reclam jun. , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119307820/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>On unbelievable tales  = = Peri apiston : with notes and Greek text from the 1902 B.G. Teubner edition  / Palaephatus  ; translation, introduction, and commentary by Jacob Stern / Wauconda, IL : Bolchazy-Carducci Publishers , cop. 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067651348/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Traité de Palaéphate, touchant les histoires incroyables  / traduit du grec avec une préface et des notes du trad. C.-G. P. D. B. / Lausanne : J. P. Heubach , 1771</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/082290369/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygini,... Fabularum liber, ad omnium poetarum lectionem mire neccesarius, &amp; nunc denuo excusus. Ejusdem Poeticon astronomicon libri quatuor. Quibus accesserunt similis argumenti : Palaephati de Fabulosis narrationibus liber I ; P. Fulgentii Placiadis,... Mythologiarum libri III ; Ejusdem de Vocum antiquarum interpretatione liber I ; Phornuti de Natura deorum, sive poeticarum fabularum allegoriis speculatio ; Albrici philosophi de Deorum imaginibus liber ; Arati @ fragmentum, Germanico Caesare interprete ; ejusdem Phaenomena graece, cum interpretatione latina ; Procli de Sphaera libellus, graece et latine ; Apollodori Biblioth., sive de Deorum origine ; Lilii G. Gyraldi de Musis syntagma... [J. Micyllus edidit.] / Parisiis : apud Gulielmum Julianum , 1578</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154148946/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaiphatu Peri Apistōn Historiōn  = = Palaephati De Incredibilibus Historiis : nec Non De Inventione Pvrpvrae Ac Primo Ferri Inventore Graece  / Palaephatus / Editio Secvnda / Lipsiae : Langenheim , 1751</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06515178X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>De incredibilibus  / Graece sextum edidit Joh. Frider. Fischerus. Accessere prolusiones quatuor in Palaephati fabulas una cum orationibus duabus / Lipsiae : Casp. Fritsch , 1789</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165338105/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palæphati de incredibilibus græce sextum edidit ad fidem cod. ms. Mosquensis aliorumque et libri Aldini, denuo recensuit, emendavit, explicavit indicemque verborum Græcorum copiosissimum adjecit Joh. Frider. Fischerus. Accessere Prolusiones quatuor in Palæphati fabulas, una cum orationibus duabus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/140499350/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palefato "Storie incredibili"  / Anna Santoni / Pisa : Ed. ETS , 2000</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154149152/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Paläphatus von unglaublichen Begebenheiten  : mit 2 Anhängen  / Paläphatus  ; aus dem Griechischen übers. und mit Anmerkungen begleitet von Joh. Dav. Büchling / 2. Auflage / Halle : J. Chr. Hendel und Sohn , 1821</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/194988880/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaephati de incredibilibus historiis graece e recensione Segim. Frider. Dresigii cum ejusdem notulis quibus suas animadversiones una cum indice verborum graecorum copiosissimo atque praefatione adjecit Joh. Frider. Fischerus. Editio nova usui studiosae juventutis destinata. / Groningae : Apud Jacobum Bolt, MDCCLXVIII. , 1768</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/021046085/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaephati Περι απιστων  ;  Heracliti qui fertur libellus Περι απιστων  ;  Excerpta vaticana  : vulgo anonymus De incredibilibus  / edidit Nicolaus Festa / Lipsiae : in aedibus B.G. Teubneri , 1902</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099855585/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Habentur hoc volumine haec videlicet vita [M. Planude autore] et fabellae Aesopi cum interpretatione latina ita tamen ut separari a graeco possit pro uniuscujusque arbitrio... Gabriae fabellae tres et quadraginta... cum latina interpretatione... Phurnutus seu ut alii Curnutus de natura deorum. Palaephatus de non credendis historiis. Heraclides Ponticus de allegoriis apud Homerum. Ori Apollinis Niliaci hieroglyphica. Collectio proverbiorum Tarrhaei et Didymi, item eorum quae apud Sudam aliosque habentur per ordinem literarum. Ex Aphthonii exercitamentis de fabula, tum de formicis et cicadis graece et latine. De fabula ex imaginibus Philostrati graece et latine. Ex Hermogenis exercitamentis de fabula Prisciano interprete. Apologus Aesopi de cassita apud Gellium / Venetiis apud Aldum me[n]se Octobri. M. D. V.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075545683/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygini Augusti liberti Fabularum liber, ad omnium poëtarum lectionem mire necessarius &amp; ante hac nunquam excusus. Ejusdem Poeticon Astronomicon libri quatuor, quibus accesserunt similis argumenti. Palaephati De fabulosis narrationibus, liber I. F. Fulgentii Placiadis episcopi Carthaginensis Mythologiarum, libri III. Ejusdem De vocum antiquarum interpretatione, liber I. Arati Phainomenōn fragmentum, Germanico Caesare interprete. Ejusdem Phaenomena Graecae, cum interpretatione latina. Procli De sphera libellus, graece &amp; latine. Index rerum &amp; fabularum in his omnibus scitu dignarum copiosissimus / Basilae : apud Joan. Hervagium anno, M. D. XXXV mense martio , 1535</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100268269/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaephati scriptoris Graeci Opusculum de non credendis fabulosis narrationibus, interpretis Philippo Phasianino Bononiensi</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154149071/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Paläphatus von unglaublichen Begebenheiten  : aus dem Griech. mit mythol. Anm. für Schulen  / Paläphatus / Halle : Gebauer , 1795</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/176417524/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>F. P. Fulgentii christiani philosophi mythologiarum libri tres, in quibus enarrat quid omnes insigniores veterum fabule significent, quo docendi genere, miscentes utilè dulci, sapientissimè sophōtagoi poëtæ &amp; formavere mores &amp; rerum tradiderunt caussas. His non temere, opinor, adjunximus græcum autorem Palæphatum de fabulis supra fidem confictis. Philippo Phasianino italo interprete. / Basileæ excudebat Henricus Petrus.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154149098/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Interpretatio Latina Libelli Palaephati De Incredibilibus  Particula Secunda,   : Particula ó. Oratiunculis Latinis In Schulae Thomanae ó  / Palaephatus  ; Auctore Angelo Cospio / Lipsiae : Tauchnitz , 1800</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100045235/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygini... Fabularum liber... Ejusdem Poeticon astronomicon libri quatuor, quibus accesserunt similis argumenti  ;  Palaephati de fabulosis narrationibus liber I  ;  F. Fulgentii Pladiadis [sic]... Mythologiarum libri III, ejusdem de vocum antiquarum interpretatione liber I  ;  Phurnuti de natura deorum  ;  Albrici philosophi de deorum imaginibus liber  ;  Arati  fragmentum  ;  Procli de Sphaera libellus, graece et latine... (J. Micyllus edidit) / Basileae : per J. Hervagium , 1549</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100268250/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Phalaephati de incredibilibus historiis graece e recensione Segim. Frider. Dresigii, cum ejusdem natulis, quibus suas animadversiones una cum... praefatione adjecit Joh. Frider. Fischerus. Editio 3.a / Lipsiae : sumtu J.C. Langenhemii , 1761</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100268218/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaephati de incredibilibus. Edidit, notasque... adjecit Martinus Brunnerus... / Upsaliae : H. Curius , 1663</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100045251/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygyni fabularum liber... nunc denuo excusus. Ejusdem poeticon astronomicon libri quatuor, Quibus accesserunt similis argumenti Palaephati. De fabulosis narrationibus liber I.F. Fulgentii Placiadis... mythologiarum liber III. Ejusdem de vocum antiquarum interpretatione liber I. Phornuti de natura deorum... speculatio. Albrici... De deorum imaginibus liber. Arati fragmentum Germanico Caesare interprete. Ejusdem phaenomena graece cum interpretatione latine. Procli de sphaera libellus graece et latine. Apollodori Biblioth. sive de Deorum origine. Lilii G. Giraldi De Musis syntagma... Ex Macrobio, Ficino in Plotinum. Natali de Comitibus et aliis excerpta... subjecta sunt... [Edidit Jacobus Micyllus] / Lugduni : apud J. de Gabiano , 1608</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100268234/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>@ Palaephati de incredibilibus. Cornelius Tollius in latinum sermonem vertit et notis illustravit. [De Palaephato Cornelii Tollii, autore Iohanne Witten. In Palaephatum a Cornelio Tollio recensitum ac notis illustratum epigramma, autore Joanne Frederico Gronovio] / Amstelodami : apud L. Elzevirium , 1649</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044338082/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygini, Augusti Liberti, fabularum liber, ad omnium poetarum lectionem mire necessarius, &amp; nunc denuo excusus. Ejusdem Poeticon astronomicon libri quatuor. Quibus accesserunt similis argumenti, Palaephati De fabulosis narrationibus, liber I. F. Fulgentii Placiadis episcopi Carthaginensis Mythologiarum, libri III. Ejusdem De vocum antiquarum interpretatione liber I. Phornuti De natura deorum, sive poeticarum fabularum allegoriis, speculatio. Albrici philosophi De deorum imaginibus liber. Arati Phainomenōn fragmentum, Germanico Caesare interprete. Ejusdem Phaenomena graece, cum interpretatione Latina. Procli De sphaera libellus, graece &amp; latine. Apollodori biblioth. sive De deorum origine. Lilii. G. Gyraldi. De musis syntagma. Index rerum &amp; fabularum in his omnibus scitu dignarum copiosissimus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154148849/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Hē Palaia Diathēkē  = = Palaephati de Incredibilibus :   / Palaephatus  ; cum interpretatione latina Cornelii Tollii  ; et annotationibus Martini Brunneri, denuo recensuit, et animadversiones novas... inspersit... Paulus Pater hungarus... Opusculum... nunc primum in Germania graece et latine editum / Francofurti : apud J. Meyerum , 1685</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/133410978/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Fabularum liber ; ejusd. poeticon astronomicon libri IV : quib us access., similis argumenti, Palaephati de fabulosis narrationibus lib. I ; F. Fulgentii mythologiarum lib. III ; ejusd. de vocum antiquarum interpretatione lib. I ; Phurnuti de natura Deorum speculatio ; Albrici de Deorum imaginib. liber ; Arati phoenomenon fragmentum, Germanico Caesare interprete ; ejusd. phoenomena gr. et lat. ; Procli de sphaera libellus, gr. et lat. / Basileae  : ex offic. Hervagiana par Euseb. Episcopium  , 1570</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/230221289/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Europa und Herr Stier  : Palaiphatos' Wahrheit über die griechischen Mythen  : Griechisch / Deutsch  / übersetzt und herausgegeben von Kai Brodersen / Stuttgart : Reclam</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/132790491/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Cornuti sive Phurnuti de natura deorum gentilium commentarius, è Græco in Latinum conversus, per Conradum Clauserum Tigurinum. Palæphati Pœticarum fabularum explicationes, sive de non credendis fabulosis narrationibus, liber utilissimus, Philippo Phasianino Bononiensi interprete. Adiecti quoq[ue] sunt iidem græce, in utriusq[ue] linguæ studiosorum gratiam, si cui forte conferre libeat, non paucis etiam quibus antea scatebant mendis purgati. Item Juliani Aurelii Lessigniensis de cognominibus deorum gentilium libri tres. Rerum &amp; uerborum in hisce omnibus memorabilium locupletiss. index.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044338074/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygini Augusti Liberti fabularum liber, ad omnium poëtarum lectionem mire necessarius &amp; ante hac nunquam excusus. Ejusdem Poeticon astronomicon, libri quatuor. Quibus accesserunt similis argumenti. Palaephati de fabulosis narrationibus, liber I. F. Fulgentii Placiadis episcopi Carthaginensis Mythologiarum, libri III. Ejusdem de vocum antiquarum interpretatione, liber I. Arati Phainomenōn fragmentum, Germanico Cæsare interprete. Ejusdem Phænomena græce, cum interpretatione latina. Procli de sphæra libellus, græce &amp; latine. Index rerum &amp; fabularum in his omnibus scitu dignarum copiosissimus. / Basileae apud Joan. Hervagium anno, M. D. XXXV mense martio.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065151771/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>De incredibilibus  / Graece quartum edidit Joh. Frid. Fischerus / Lipsiae : J.-F. Langenhem , 1777</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044338090/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Julii Hygini Augusti Liberti fabularum liber, ad omnium poetarum lectionem mirè necessarius, &amp; nunc denuò excusus. Ejusdem Poeticon astronomicon libri quatuor. Quibus accesserunt similis argumenti, Palæphati de fabulosis narrationibus, liber I. F. Fulgentii Placiadis episcopi Carthaginensis Mythologiarum, libri III. Ejusdem de vocum antiquarum interpretatione, liber I. Phurnuti de natura deorum, sive poeticarum fabularum allegoriis, speculatio. Albrici philosophi de deorum imaginibus liber. Arati Phainomenōn fragmentum, Germanico Cæsare interprete. Ejusdem Phænomena græcè, cum interpretatione latina. Procli de sphæra libellus, græce &amp; latine. Index rerum &amp; fabularum in his omnibus scitu dignarum copiosissimus.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044398271/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica, ethica, et physica, græce &amp; latine. Palæphatus, Heraclitus, Anonymus, Phurnutus, Sallustius, Ocellus Lucanus, Timæus Locrus. Demophilus, Democrates, Secundus, Sextius Pythagoricus, Theophrasti Charactêres, Pythagoricorum fragmenta. Heliodori Larissæi Optica.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154148970/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaephatus De Incredibilibus  / Palaephatus  ; Graece, Iterum Edidit Recensvit Indicemqve Verborvm Graecorvm Adiecit Ioh. Frid. Fischervs / Lipsiae : Langenheim , 1770</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044282176/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica, physica et ethica. Graece et latine. Seriem eorum sistit pagina praefationem proxime sequens</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/137445652/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>C. Ivlii Hygini Avgvsti Liberti Fabvlarvm liber, ad omnivm poëtarum lectionem mire necessarius &amp; ante hac nunquam excusus. Eivsdem Poeticon astronomicon libri quatuor. Quibus accesserunt similis argumenti. Palaephati De fabulosis narrationibus, liber I. F. Fvlgentii Placiadis episcopi Carthaginensis Mythologiarum, libri III. Eivsdem De vocum antiquarum interpretatione, liber I. Arati [Ph]ainomen[ō]n fragmentum, Germanico Cæsare interprete. Eivsdem Phænomena græce, cum interpretatione latina. Procli De sphæra libellus, græce &amp; latine. Index rerum &amp; fabularum in his omnibus scitu dignarum copiosissimus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/131193430/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Històries increïbles  / Palèfat  ; text revisat i traducció d'Enric Roquet / Barcelona : Fundació Bernat Metge , 1975</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044282109/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Opuscula mythologica physica et ethica. Græce et latine. Seriem eorum sistit pagina præfationem proxime sequens.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152559159/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaephati de Non credendis historiis libellus utilissimus. Phornuti de Natura deorum libellus, Jodoco Velareo interprete. Epitaphium Isabellae... Danorum reginae, Cornelio Sceppero autore. Luciani de Astrologia oratio / Antwerpiae : vaeneunt Antverpiae à  Gregorio Bontio, sub scuto Basiliensi. An. M.D.XXVIII. mense Octobri , 1528</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154149039/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/034835563/id"/>
+      <dcterms:bibliographicCitation>Palaiphatu Peri tōn apistōn  = = Paläphatus: Von den unglaublichen Begebenheiten :   / Palaephatus  ; mit einem griechisch deutschen Wortregister vermehrt von Johann David Büchling / Halle : Hendel , 1788</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/198222955">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/198222955/id"/>
+      <dcterms:identifier>198222955</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-02-13</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-06T09:57:41</dcterms:modified>
+      <skos:editorialNote>Aristoteles Werke. Erstes Bändchen. Metaphysik / übersetzt von Dr. J. Rieckher, 1860</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/198222955/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000370905924"/>
+      <isni:identifierValid>0000000370905924</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/250314661"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Rieckher, Julius</skos:prefLabel>
+      <foaf:familyName>Rieckher</foaf:familyName>
+      <foaf:givenName>Julius</foaf:givenName>
+      <foaf:name>Julius Rieckher</foaf:name>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/2921044/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/deu"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Traduit de l'ancien grec vers l'allemand</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/198235186/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/198222955/id"/>
+      <dcterms:bibliographicCitation>Werke  [5], Metaphysik  Schriften zur theoretischen Philosophie, Metaphysik  [1], Metaphysik  : in vierzhen Büchern  / Aristoteles  ; uebersetzt von Dr. J. Rieckher / Stuttgart : Verlag der J. B. Metzler'schen Buchhandlung , 1860</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/157783200/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/198222955/id"/>
+      <dcterms:bibliographicCitation>Die zweisprachige Stuttgarter Homerhandschrift, ihre Varianten zur Odyssee, nebst den Lesarten der Uebersetzung des Manuel Chrysoloras  / mitget. von J. Rieckher / Heilbronn : Scheurlen , 1864</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/157783383/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/198222955/id"/>
+      <dcterms:bibliographicCitation>Ueber den Unterschied des antiken, besonders des griechischen, und des modernen Theaters, ...  / von J. Rieckher / Heilbronn : H. Güldig , 1871</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/157783057/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/198222955/id"/>
+      <dcterms:bibliographicCitation>Wissenschaftliche Abhandlung über das Participium des griechischen Aorists  Zweite Hälfte,   / von Rieckher / Heilbronn : Schell'sche Buchdruckerei , 1853</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159721512/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/198222955/id"/>
+      <dcterms:bibliographicCitation>Sammlung von Aufgaben zum Uebersetzen in's Griechische  2, Themata zur griechischen Composition mit grammatikalischen und lexikalischen Anmerkungen für obere Classen  / hrsg. von Wilhelm Bäumlein, Carl Holzer, J. Rieckher / 2. vermehrte und verbesserte Auflage / Stuttgart : Metzler , 1866</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158929950/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/198222955/id"/>
+      <dcterms:bibliographicCitation>Sallustii De conjuratione Catilinae  : mit Anmerkungen zum Übersetzen in das Griechische  / Crispus Sallustius  ; hrsg. von C. Holzer u. J. Rieckher / Stuttgart : Metzler , 1869</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

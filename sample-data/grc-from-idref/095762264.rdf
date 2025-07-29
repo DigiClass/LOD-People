@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/095762264">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/095762264/id"/>
+      <dcterms:identifier>095762264</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-02-03</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-26T11:25:22</dcterms:modified>
+      <skos:editorialNote>Griechisches Biographisches Archiv (GBA), 335, 2-3 ; 335, 42-49</skos:editorialNote>
+      <skos:editorialNote>Ekpaideutike hellenike enkyklopaideia</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/095762264/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000102562726"/>
+      <isni:identifierValid>0000000102562726</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/152962620"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Parthénios_Ier_de_Constantinople"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Parthenios I (....-1646 ; patriarche de Constantinople)</skos:prefLabel>
+      <foaf:name>Parthenios I</foaf:name>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/095762264/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1646</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Patriarche de Constantinople</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099648644/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/095762264/id"/>
+      <dcterms:bibliographicCitation>@. D. Athanasii rhetoris... Antipatelarus de primatu B. Petri. Epistola ad Alexandrinum et Hierosolymorum Patriarchas de unione Ecclesiarum. Anticampanella in compendium redactus. Secunda editio / Parisiis : ex typis J. Jacquin , 1657</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100280064/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/095762264/id"/>
+      <dcterms:bibliographicCitation>Parthenii patriarchae Constantinopolitani Decretum synodale super calvinianis dogmatibus, quae in Epistola Cyrilli nomine ante annos aliquot edita, falso Graecorum &amp; Orientalium consensu recepta ferebantur... Nunc primum ex Oriente allatum, una cum Arsenii Hieromonachi Epistola Venetias missa quae praefationis loco praefixa est [Edidit G. Cossartius] / Parisiis : apud S. Cramoisy , 1643</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100165567/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/095762264/id"/>
+      <dcterms:bibliographicCitation>Cyrilli Lucaris,... Confessio Christianae fidei. Cui adjuncta est gemina ejusdem confessionis censura synodalis, una a Cyrillo Berrhoeensi, altera a Parthenio... promulgata. Omnia graece et latine / [Isaii Moldaviae] : [exursum in... monasterio sanctorum trium Praesulum] , 1645</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/095761918/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/095762264/id"/>
+      <dcterms:bibliographicCitation>Parthenii patriarchae Constantinopolitani decretum synodale super calvinianis dogmatibus, quae in epistola Cyrilli nomine ante annos aliquot edita, falsò graecorum &amp; orientalium consensu recepta ferebantur. Quae omnia damnantur ab iisdem, &amp; anathemate notantur. Nunc primùm ex Oriente allatum, unà cum Arsenii Hieromonachi epistola Venetias missa, qua praefationis loco praefixa est / Parisiis, apud Sebastianum Cramoisy. M.DC.XLIII</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099648628/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/095762264/id"/>
+      <dcterms:bibliographicCitation>... D. Athanasii rhetoris... Antipatellarus. Epistola de unione Ecclesiarum ad Alexandrinum &amp; Hierosolymorum patriarchas. Anticampanella in compendium redactus / Parisiis, ex typis Juliani Jacquin, viâ Latomorum, propè Sorbonam. M.DC.LV. Cum approbatione</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/BSGC11804">
+      <marcrel:aut rdf:resource="http://www.idref.fr/095762264/id"/>
+      <dcterms:bibliographicCitation>[Ms. 3410]  [Suppl. E. gr., in-fol. 51]  [97. I]  [A]  [.] Lettre de Parthénius, archevêque de Constantinople, conférant à Pierre Athanase le pouvoir de prêcher l'Évangile et d'administrer les sacrements dans le patriarcat de Constantinople, mars 1644. (XVIIe siècle (1644 et 1653)) / 3 f.</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

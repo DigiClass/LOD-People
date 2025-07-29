@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/052198073">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/052198073/id"/>
+      <dcterms:identifier>052198073</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2000-10-30</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-04-24T04:09:21</dcterms:modified>
+      <skos:editorialNote>America America/ Elia Kazan, réal.,aut. adapt., scénario ; Manos Hadjidakis, mus. ; Stathis Giallelis, Frank Wolff, Harry Davis... [et al.], act.</skos:editorialNote>
+      <skos:editorialNote>Internet, http://opera.stanford.edu/composers/,  25-08-2004 : Compositeur, Hadjidakis, Manos (23.10.1925 Xanthi) Rinaldos kai Armida (1962 inc)</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/052198073/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000117002967"/>
+      <isni:identifierValid>0000000117002967</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/116045969"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Mános_Hadjidákis"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Hadjidakis, Manos (1925-1994)</skos:prefLabel>
+      <foaf:familyName>Hadjidakis</foaf:familyName>
+      <foaf:givenName>Manos</foaf:givenName>
+      <foaf:name>Manos Hadjidakis</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/052198073/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1925-10-23</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/052198073/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1994-06-15</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Musicien</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/126073872/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/052198073/id"/>
+      <dcterms:bibliographicCitation>Singing poets  : literature and popular music in France and Greece  / Dimitris Papanikolaou / London : Legenda, Modern humanities research association and Maney Publishing , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182256340/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/052198073/id"/>
+      <dcterms:bibliographicCitation>Ο καθρέφτης και το μαχαίρι  / Μάνος Χατζιδάκης / 7η έκδοση / Αθήνα : Ίκαρος , 2013, cop. 2013</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20231214102548782">
+      <dcterms:bibliographicCitation>Représentation de la pièce  Oedipus Rex, traduction        de Photos Politis de Sophocle au Théâtre des Nations, Paris</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/094432694/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/052198073/id"/>
+      <dcterms:bibliographicCitation>Never on sunday  = = Jamais le dimanche :   / Jules Dassin, réal., scénario  ; Manos Hadjidakis, comp.  ; Melina Mercouri, Georges Foundas, Jules Dassin... [et al.], act. / [Paris] : MGM home entertainment France</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/08159481X/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/052198073/id"/>
+      <dcterms:bibliographicCitation>America America  / Elia Kazan, réal., scénario  ; Manos Hadjidakis, mus.  ; Stathis Giallelis, Frank Wolff, Harry Davis... [et al.], act. / [France] : Wild side vidéo [éd.] , [2004]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/120503468/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/052198073/id"/>
+      <dcterms:bibliographicCitation>America America  / Elia Kazan, réal., scénario  ; Manos Hadjidakis, mus.  ; Stathis Giallelis, Frank Wolff, Harry Davis... [et al.], act. / [Paris] : Bac vidéo [éd.] , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014029685/id">
+      <marcrel:cmp rdf:resource="http://www.idref.fr/052198073/id"/>
+      <dcterms:bibliographicCitation>America America  / Elia Kazan, réal., aut. adapt., scénario  ; Haskell Wexler, dir. photogr.  ; Manos Hadjidakis, mus.  ; Stathis Giallelis, Frank Wolff, Harry Davis... [et al.], act / Version originale sous-titrée en français / Paris : La SEPT vidéo, Argos films [éd.] , cop. 1993</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/077600118">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/077600118/id"/>
+      <dcterms:identifier>077600118</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2004-04-21</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-17T07:41:23</dcterms:modified>
+      <skos:editorialNote>Gilberti Jonini e Societate Jesu, libri singulares/Jonin, Gilbert.-Toulouse, 1636</skos:editorialNote>
+      <skos:editorialNote>Nouvelle biographie générale depuis les temps les plus reculés jusqu'à nos jours /sous la dir. de M. le Dr Hoeffer, 1862-1864.</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/077600118/id">&#xD;<!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000110284236"/>
+      <isni:identifierValid>0000000110284236</isni:identifierValid>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/65066436"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Jonin, Gilbert (1596-1638)</skos:prefLabel>
+      <skos:altLabel>Jonin, le Père Gilbert</skos:altLabel>
+      <foaf:familyName>Jonin</foaf:familyName>
+      <foaf:givenName>Gilbert</foaf:givenName>
+      <foaf:name>Gilbert Jonin</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/077600118/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1596</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/077600118/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1638-03-09</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Jésuite. Poète français en grec et latin</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075574012/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/077600118/id"/>
+      <dcterms:bibliographicCitation>Gilberti Jonini e Societate Jesu, libri singulares. Aenigmata. Beatitudines. Vae psalterium. Miracula. Sidera. Bion Christianus. Pleiades. Hyades... / Tolosae : excudebat Arn. Colomerius , 1636</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124808913/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/077600118/id"/>
+      <dcterms:bibliographicCitation>Moralis mythologia... Alphabeta gnomica... Par le père Gilbert Jonin / Lugduni : Cl. Du-Four , 1637</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/159467942/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/077600118/id"/>
+      <dcterms:bibliographicCitation>Gilbert Jonini Arverni e societate Jesu Odarum libri IV et Epodon I / Parisiis : apud Adrianum Taupinart , 1635</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065119886/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/077600118/id"/>
+      <dcterms:bibliographicCitation>Gilberti Ionini... libri singulares / Tolosae : Arn. Colomerius , 1636</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/122652576/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/077600118/id"/>
+      <dcterms:bibliographicCitation>Ethica poesis par Le Père Gilbert  Jonin  de la société de Jesu / Lugduni [Lyon, France] : Cl. Du-Four , 1637</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/18577931X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/077600118/id"/>
+      <dcterms:bibliographicCitation>Gilberti Jonini e Societate Jesu, libri singulares. Aenigmata. Beatitudines. Vae psalterium. Miracula. Sidera. Bion Christianus. Pleiades. Hyades... / Tolosae : excudebat Arn. Colomerius , 1636</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075566257/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/077600118/id"/>
+      <dcterms:bibliographicCitation>Gilberti Jonini E Societate Jesu. Poematum Lib. I. ...[Elegiarum Lib. II...] / Lugduni : apud Joannem Jullieron , 1637</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

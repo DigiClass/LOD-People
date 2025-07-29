@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/033850755">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:identifier>033850755</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1995-06-07</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2023-07-11T16:04:42</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/029685087"/>
+      <skos:editorialNote>Deux livres des venins auxquels il est amplement discouru des bestes venimeuses, thériaques, poisons et contrepoisons. Ensemble, les œuvres / de Nicandre, me��decin et poète grec ; par Jacques Grévin, 1567-1568. Nicandri Alexipharmaca ; Jo. Gorraeo interprete, 1549. Nikándrou Kolophōníou Thīriaká = Nicandri Colophonii Theriaca, 1816</skos:editorialNote>
+      <skos:editorialNote>Larousse 19e s. : Nicandre ou Nicander. Buchwald : Nicandre de Colophon. Clavis SGL : Nicander Colophonius minor. Encycl. Grèce. Dictionnaire de l'Antiquité / Université d'Oxford, 1993 : Nicandre (Nikandros) de Colophon. DOC : Nicander Colophonius. LCNA (CD), 1996-06</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén. : Nicander</skos:editorialNote>
+      <skos:editorialNote>GLE. BN Service grec</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/033850755/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12125619</bnf-onto:FRBNF>
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13016369</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000117505425"/>
+      <isni:identifierValid>0000000117505425</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb130163691#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/22275493"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Nicandre (0250?-0170? av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Nicandre de Colophon</skos:altLabel>
+      <skos:altLabel>Nicander</skos:altLabel>
+      <skos:altLabel>Nicander Colophonius</skos:altLabel>
+      <skos:altLabel>Nicander Colophonius minor</skos:altLabel>
+      <skos:altLabel>Nikándros Kolofōníos</skos:altLabel>
+      <skos:altLabel>Níkandros Kolophōníos</skos:altLabel>
+      <skos:altLabel>Nicandro de Colofone</skos:altLabel>
+      <skos:altLabel>Nicander of Colophon</skos:altLabel>
+      <skos:altLabel>Nikandros aus Kolophon</skos:altLabel>
+      <skos:altLabel>Nikander von Kolophon</skos:altLabel>
+      <skos:altLabel>Nikandros</skos:altLabel>
+      <skos:altLabel>Nicander Colophonius minor (0250?-0170? av. J.-C.)</skos:altLabel>
+      <skos:altLabel>Níkandros (0250?-0170? av. J.-C.)</skos:altLabel>
+      <foaf:name>Nicandre</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/033850755/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0250 ?</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/033850755/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">-0170 ?</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Médecin et poète didactique grec. Auteur de poèmes ayant trait essentiellement à l'histoire naturelle</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/167816217/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandro di Colofone nei secoli XVI-XVIII  : edizioni, traduzioni, commenti  / Livia Radici  ; prefazione di Alain Touwaide / Pisa : F. Serra , 2012, cop. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/008489815/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Studies in the poetry of Nicander  / H. White / Amsterdam : A.M. Hakkert , 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/105737151/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Scholia in Theocritum  / auctiora reddidit et annotatione critica instruxit Fr. Dübner  / partim nunc primum edidit, partim collatis cod. mss. emendavit... U. Cats Bussemaker / Parisiis : A. Firmin-Didot , [1847?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/110090683/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Eutekniou paraphraseis eis ta Nikandrou Thēriaka kai Alexipharmaka  / [éd.] Manolēs Papathōmopoulos  ; [collab.] Pierre Chantraine, Alphonse Dain / Iōannina : Panepistōmion , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119860406/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Oeuvres  Tome III, Les Alexipharmaques  / Nicandre  / texte établi et traduit par Jean-Marie Jacques,... / Paris : Les Belles Lettres , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/005823048/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri Theriacorum et Alexipharmacorum concordantia  / conscripsit Manolis Papathomopoulos / Hildesheim : Olms-Weidmann , 1996</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/082434816/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Anthologie des manuscrits médicaux  : (Bibliothèque Nationale)  / Faculté de Médecine de Paris, 6 octobre 1965 / Paris : Mémento thérapeutique Latéma , 1965</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014772108/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>The poems and poetical fragments  / Nicander  ; edited with a translation and notes by A. S. F. Gow,... and A. F. Scholfield,... / Cambridge (GB) [etc.] : At the University press , 1953</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015040003/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Vergleichende Untersuchungen zur sprachlichen Struktur der beiden erhaltenen Lehrgedichte des Nikander von Kolophon  / Hermann Schneider / Wiesbaden : O. Harrassowitz , 1962</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/166707457/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>The aesthetics of darkness  : a study of Hellenistic romanticism in Apollonius, Lycophron and Nicander  / Evina Sistakou / Leuven : Peeters , 2012, cop. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171863909/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Ευτέκνιου Παραφράσεις εις τα Νικάνδρου Θηριακά και Αλεξιφαρμάκα  / εκδίδει Μανόλης Παπαθωμόπουλος / Ιωάννινα : Πανεπιστήμιον Ιωαννίνων,Φιλοσοφική Σχολή , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068257112/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Oeuvres  Tome II, Les Thériaques  / Nicandre  ; texte établi et trad. par Jean-Marie Jacques,... / Paris : Les Belles Lettres , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06220985X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>The Poems and poetical fragments  / edited with a translation and notes by A. S. F. Gow,... and A. F. Scholfield,... / Cambridge : University press , 1953</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109470141/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Animadversiones ad Nicandri Carmen utrumque, prolusio qua scholas hibernas in Academia Vitebergensi a se aperiendas indicit Joannes Carolus Zeunius  / Johann Carl Zeune / Vitebergae : litteris Caroli Christiani Dürrii , 1776</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/185284264/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>"Salpati dall'Ortigia titanide”  : L'espansionismo etolico di III sec. a.C.  : Mito politico e leggenda poetica al servizio del koinon  / Edoardo Cavalli  ; sous la direction de Dominique Mulliez et de Claudia Antonetti /  , 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/064288269/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Scholia in Theocritum  / auctiora reddidit et annotatione critica instruxit Fr. Dübner  / partim nunc primum edidit, partim collatis cod. mss. emendavit, annotatione critica instruxit et indices confecit U. Cats Bussemaker / Parisiis : Editore Ambrosio Firmin-Didot , 1849</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/MHNA10331">
+      <dcterms:subject rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>[1] Extraits manuscrits sur certains animaux d'Égypte, tirés des Thériaques de Nicandre et de l'Isis et Osiris de Plutarque</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/144262967/id">
+      <dcterms:bibliographicCitation>Pedakíou Dioskorídou anazarbeōs perì hulēs iatrikēs logoi hex / Venetiis : Apud Aldum. , mense Iulio. M.ID. [July 1499]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/137849273/id">
+      <dcterms:bibliographicCitation>Eutekniou paraphraseis eis ta Nikandrou Thēriaka kai Alexipharmaka  / ekdidei, Manolēs Papathōmopoulos / Iōannina : Panepistēmion Iōanninōn, Philosophikē Scholē , 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143034456/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nikandrou Thēriaka. Tou autou Alexipharmaka. Hermēneia tou anōnymou syngrapheōs eis Thēriaka. Scholia diaphorōn syngrapheōn eis Alexipharmaka. Nikandri Theriaca. Ejusdem Alexipharmaca. Interpretatio innominati autoris in Theriaca. Commentarii diversorum autorum in Alexipharmaca. / Coloniae opera Joan. Soteris, anno MDXXX.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153565292/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri Poetae et Medici antiquissimi Theriaca et Alexipharmaca  / Nicander  ; in Latinos uersus redacta, per Euricium Cordum, Medicum / Francofordiae : Ch. Egenolf. , 1532</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098062271/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Deux livres des venins, ausquels il est amplement discouru des bestes venimeuses, thériaques, poisons et contre-poisons  / par Jacques Grévin de Clermont en Beauvaisis, médecin à Paris  ;  Ensemble, les oeuvres de Nicandre, médecin et poète grec, traduictes en vers françois / Anvers : de l'Impr. de Christophe Plantin , 1567-1568</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119860406/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Oeuvres  Tome III, Les Alexipharmaques  / Nicandre  / texte établi et traduit par Jean-Marie Jacques,... / Paris : Les Belles Lettres , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042653576/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Iacobi Grevini Claromontani Bellovaci Parisiensis medici ... De venenis libri duo. Gallice primum ab eo scripti, et à multis hactenus Latini desiderati &amp; nunc tandem opera &amp; labore Hieremiæ Martij ... in Latinum sermonem ... conuersi. Quibus adiunctus est prætereà eiusdem auctoris de Antimonio tractatus, eodem interprete, vnà cum rerum memorabilium, præcipuè ad operis calcem, Indice / Antverpiae, Ex officina Christophori Plantini. MDLXXI. Cum gratia &amp; privilegio ad decennium , 1571</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/091582091/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nikandrou Thēriaka. Nicandri Theriaca interprete Jo. Gorræo Parisiensi. Ad illustrissimum principem Carolum, cardinalem Lotharingum.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/147322111/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Poetae bucolici et didactici  [Volume 2], Theocritus, Bion, Moschus, recognovit et praefatus est C. Fr. Ameis. Nicander, Oppianus, Marcellus de Piscibus, Poeta de Herbis, edidit F. S. Lehrs. Phile de animalibus, elephante, plantic etc. edidit Fr. Dübner. Poetarum de re physica et medica reliquias collegit U. Cats Bussemaker. Aratus, manethonis, maximi et aliorum astrologica recensuit et dissertatione instruxit Arminius Koechly  : graeca et latine / Parisiis : Editore Ambrosio Firmin-Didot , 1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/068257112/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Oeuvres  Tome II, Les Thériaques  / Nicandre  ; texte établi et trad. par Jean-Marie Jacques,... / Paris : Les Belles Lettres , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10020015X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>@. Nicandri Theriaca, interprete Jo. Gorraeo,...  ;  [. Alexipharmaca, Jo. Gorraeo... interprete. Ejusdem interpretis in Alexipharmaca Praefatio  ;  . In Nicandri Theriaca scholia auctoris incerti... In ejusdem Alexipharmaca diversorum auctorum Scholia...] / Parisiis : apud Guil. Morelium , 1557</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044229089/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Les oevvres de Nicandre medecin et poete grec, tradvictes en vers françois. Ensemble, deux livres des venins, ausquels il est amplement discouru des bestes venimeuses, theriaques, poisons &amp; contrepoisons. Par Iaques Gréuin de Clermont en Beauuaisis, medecin à Paris.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/122412532/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>... Nicandri Theriaca. Ejusdem Alexipharmaca. Interpretatio innominati autoris in Theriaca. Co[m]mentarii diversor[um] autor[um] in Alexipharmaca</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/016373340/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Poetae bucolici et didactici  / Theocritus, Bion, Moschus  / edidit F.S. Lehrs  / edidit Fr. Dübner  / collegit U. Cats Bussemaker  / recensuit et dissertatione instruxit Arminus Koechly...  ; recognovit et praefatus est C. Fr. Ameis / Parisiis : A. F. Didot , 1846-1851</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/060591765/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>The Poems and poetical fragments  / edited with a translation and notes by A.S.F. Gow and A.F. Scholfield / Salem : Ayer Company , 1988</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143035193/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri veteris poetae et medici Theriaca et Alexipharmaca, cum scholiis, interprete Iohanne Lonicero cum gratia &amp; privilegio Imperiali ad sexennium / Coloniae Opera Iohan. Soteris, Anno M.D.XXXI. , [1531]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/179959468/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri Colophonij poetae, et medici antiquissimi clarissimique Theriaca. Petro Iacobo Steue medico Valentino interprete, &amp; enarratore. .. / Valentiae : per Ioannem Mey Flandrum, 1552</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/115465758/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Theriaká e Alexiphármaka  / Nicandro  ; introduzione, traduzione e commento di Giuseppe Spatafora / Roma : Carocci , impr. 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143034723/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri Colophonii poetæ et medici antiqvissimi clarissimique Alexipharmaca Io. Goræo Parisiensi medico interprete. Eiusdem interpretis in Alexipharmaca præfatio, omnem de uenenis disputationem summatim complectens et annotationes. Ad Reuerendiss. doctissimúmque Cardinalem Io. Bellaium Episcopum Parisiensem / Parisiis, Apud Vascosanum, uia Iacobaea, ad insigne Fontis, M.D.XLIX. , [1549]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/082081247/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Νικανδρου Αλεξιφαρμακα. Nicandri Alexipharmaca, seu de venenis in potu cibove homini datis eorumque remediis carmen. Cum scholiis græcis et Eutecnii sophistæ paraphrasi græca. Ex libris scriptis emendavit animadversionibusque et paraphrasi latina illustravit Jo. Gottlob Schneider, Saxo, eloqu. et phil. prof. in Viadrina univers.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186130015/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Αλεξιφάρμακα  / Νικάνδρου   ; εκδίδει Κωνσταντίνος Οικονομάκος / Αθήναι : Ακαδημία Αθηνών - Κέντρον εκδόσεως έργων Ελλήνων Συγγραφέων , 2002</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152266518/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>König Enzio, der letzte Hohenstaufe  : ein lyrisches Gedicht in Romanzen  / nach Nicander von Mohnike / Stralsund : Trinius , 1829</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042684218/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Opera. Definitionum medicarum libri XXIIII. A Joanne Gorraeo filio ... locupletati &amp; accessione magna adaucti ... Nicandri Theriaca et Alexipharmaca cum interpretatione &amp; scholiis ejusdem J. Gorraei ... Hippocratis libelli De genitura, De natura pueri, Jusjurandum, De arte, De prisca medicina, De medico, eodem J. Gorraeo interprete cum annotationibus &amp; adjectis unicuique libello brevibus scholiis. Formulae remediorum quibus vulgo medici utuntur authore Petro Gorraeo ...</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/014772108/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>The poems and poetical fragments  / Nicander  ; edited with a translation and notes by A. S. F. Gow,... and A. F. Scholfield,... / Cambridge (GB) [etc.] : At the University press , 1953</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/092625266/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Νικάνδρου Κολοφωνίου Θηριακά. Nicandri Colophonii Theriaca, id est de bestiarum venenis eorumque remediis carmen cum scholiis græcis auctioribus, Eutecnii metaphrasi græca, editoris latina et carminum perditorum fragmentis, ad librorum scriptorum fidem recensuit, emendavit et brevi annotatione illustravit Jo. Gottlob Schneider Saxo</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100004342/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Deux livres des venins, auquels il est amplement discouru des bestes venimeuses, theriaques, poisons et contre-poisons... ensemble les oeuvres de Nicandre... traduites en vers françois [par J. Grévin] / Anvers : de l'impr. de C. Plantin , 1567-1568</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044349173/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Joannis Gorraei... opera. Definitionum medicarum libri XXIIII. A Joanne Gorraeo filio... locupletati &amp; accessione magna adaucti... Nicandri Theriaca et Alexipharmaca cum interpretatione &amp; scholiis ejusdem Gorraei... Hippocratis libelli de genitura. De natura pueri jusjurandum, de arte, de prisca medicina, de medico, eodem J. Gorraeus interprete cum annotationibus &amp; adjectis unicuique libello brevibus scholiis. Formulae remediorum quibus vulgo medici utuntur authore Petro Gorraeo.. / Parisiis, apud Societatem Minimam. M.DCXXII</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/17732502X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Deux livres des venins, ausquels il est amplement discouru des bestes venimeuses, theriaques, poisons &amp; contrepoisons : par Jacques Grevin de Clermont en Beauvaisis, medecin à Paris. Ensemble, Les œuvres de Nicandre, medecin &amp; poëte grec, traduictes en vers françois.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10020452X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri veteris poetae et medici theriaca et alexipharmaca, cum scholiis, interprete Johanne Lonicero. / Cum gratia &amp; privilegio imperiali ad sexennium. Coloniae opera Johan. Soteris, anno MDXXXI.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/135203651/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Theriaca et alexipharmaca, ... Scholia auctoris incerti in Nicandri Alexipharmaca gr. et lat., interprete J. Gorraeo (cum ejusd. scholiis) / Paris : G. Morel , 1557</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155921738/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Deux livres des venins, ausquels il est amplement discouru des bestes venimeuses, theriaques, poisons &amp; contrepoisons  / par Jacques Grevin ... / Edition électronique : numérisation 2010 / Paris : BIUM , 2010</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162030517/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Les Oevvres De Nicandre Medecin Et Poete Grec, Tradvictes En Vers François.Ensemble, deux livres des venins, ausquels il est amplement discouru des bestes venimeuses, theriaques, poisons &amp; contrepoisons....   / Par Iacques Gréuin de Clermont en Beauuaisis, medecin à Paris ... / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109462076/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Theriaca et Alexipharmaca Joannes Gorrhaeus latinis versibus reddidit, italicis vero... Ant. Mar. Salvinius  / @ / Florentiae , 1764</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/224819666/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicander  : the poems and poetical fragments  / edited with a translation and notes by A.S.F. Gow,... and A.F. Scholfield,... / Cambridge : aUniversity Press , 1953</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067880495/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Deux Livres des venins, ausquels il est amplement discouru des bestes venimeuses, theriaques, poisons et contrepoisons par Jaques Grevin,... Ensemble les Oeuvres de Nicandre,... ; traduictes en vers françois [par Jacques Grévin] / A Anvers : de l'impr. de Christofle Plantin , [1567-] 1568</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099994054/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Joannis Gorraei medici parisiensis, Opera. Definitionum medicarum libri XXIIII. A Joanne Gorræo filio, Ludovici XIII. Francorum et Navarrorum regis, medico ordinario locupletati et accessione magna adaucti. Accessio significatur his ad margines notulis : " .Nicandri Theriaca et Alexipharmaca cum interpretatione et scholiis ejusdem J. Gorræi Parisiensis. Hippocratis libelli de genitura, de natura pueri, jusjurandum, de arte, de prisca medicina, de medico, eodem J. Gorræo interprete cum annotationibus et adjectis unicuique libello brevibus scholiis. Formulae remediorum quibus vulgo medici utuntur authore Petro Gorræo Bituricensi.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/015267229/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Scholia in Nicandri Theriaka  : cum glossis  / edidit Annunciata Crugnola / Milano : Istituto editoriale cisalpino , impr. 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/019727380/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Poetae bucolici et didactici  : Theocritus, Bion, Moschus  / recognovit et praefatus est C. Fr. Ameis.  / edidit F.S. Lehrs  / edidit Fr. Dübner  / collegit U. Cats Bussemaker  / recensuit et dissertatione instruxit Arminus Koechly / Parisiis : Ed. Firmin-Didot et socii , 1931</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042603730/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Deux livres des venins, ausquels il est amplement discouru des bestes venimeuses, theriaques, poisons &amp; contrepoisons : par Jacques Grevin ... Ensemble, Les oeuvres de Nicandre, medecin &amp; poe͏̈te grec, traduictes en vers françois</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/085044695/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Scholia in Theocritum  / Auctiora reddidit et annotatione critica instruxit Fr. Dübner  / partim nunc primum edidit, partim collatis cod. mss. emendavit... U. Cats Bussemaker / Parisiis : A. Firmin-Didot , 1849</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/109462084/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri Alexipharmaca seu de Venenis in potu cibove homini datis eorumque remediis carmen cum Scholiis graecis et Eutecnii,... paraphrasi graeca, ex libris scriptis emendavit... et paraphrasi latina illustravit Jo. Gottlob Schneider  / @ / Halae : impensis Orphanotrophei , 1792</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/23853720X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri Theriaca  : traducción latina en verso (1552)  / Pedro Jaime Esteve  ; introducción, edición crítica, traducción y notas, María Teresa Santamaría Hernández / Cuenca : Universidad de Castilla-La Mancha , 2018</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/018024599/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Dioscurides  : Codex Vindobonensis med. Gr. 1 der Österreichischen Nationalbibliothek  : vollständige Facsimile-Ausgabe des Wiener Dioskurides in fünf Teillieferungen  / Akademische Druck- und Verlagsanstalt Graz - Austria / Graz, Austria : Akademische Druck- u. Verlagsanstalt , 1965-1970</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165971436/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri veteris poetae et medici Theriaca et Alexipharmaca, cum scholiis  / interprete Iohanne Lonicero cum gratia &amp; privilegio Imperiali ad sexennium / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/113429266/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Joannis Gorraei... Opera. Definitionum medicarum libri XXIIII. A Joanne Gorraeo filio... locupletati &amp; accessione magna adaucti... Nicandri Theriaca et Alexipharmaca cum interpretatione &amp; scholiis ejusdem Gorraei... Hippocratis libelli de genitura. De natura pueri jusjurandum, de arte, de prisca medicina, de medico, eodem J. Gorraeus interprete cum annotationibus &amp; adjectis unicuique libello brevibus scholiis. Formulae remediorum quibus vulgo medici utuntur authore Petro Gorraeo,... / Parisiis, :  Apud Societatem Minimam , , M. DCXXII.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130678988/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Poetae bucolici et didactici. Theocritus, Bion, Moschus  : Graece et latine  / recognovit et praefatus est C. Fr. Ameis  / edidit F. S. Lehrs  / edidit Fr. Dubner  / collegit U. Cats Bussemaker  / recensuit et dissertatione instruxit Arminus Koechly / Parisiis : editore Ambrosio Firmin Didot , 1862</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/06220985X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>The Poems and poetical fragments  / edited with a translation and notes by A. S. F. Gow,... and A. F. Scholfield,... / Cambridge : University press , 1953</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/096063513/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Scholia in Nicandri Alexipharmaca  : cum glossis  / edidit Marius Geymonat / Milano : Istituto editoriale cisalpino , 1974</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/182895874/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicander of Colophon's Theriaca  : a literary commentary  / by Floris Overduin / Leiden : Brill , cop. 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143034227/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>[Nikandrou Thēriaka. Tou autou Alexipharmaka. Hermēneia tou anōnymou syngrapheōs eis Thēriaka. Scholia diaphorōn syngraheōn eis Alexipharmaka. Exēgēsis stathmōn, metrōn, sēneiōn, kai charaktērōn]. Nicandri Theriaca. Eiusdem Alexipharmaca. Interpretatio innominati authoris in Theriaca. Commentarii diuersorum authoru[m] in Alexipharmaca. Expositio ponderu[m], mensurarum, signorum, &amp; characterum / [Venezia, eredi di Aldo Manuzio il vecchio &amp; Andrea Torresano] , [1523]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/233949194/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Oἱ της ηρωικής ποιήσεως παλαιοί ποιηταί πάντεϛ. Poetae graeci veteres carminis heroici scriptores, qui extant, omnes. Homerus. Hesiodus. Orpheus. Callimachus. Aratus. Nicander. Theocritus. Moschus. Bion. Dionysius. Coluthus. Tryphiodorus. Musaeus. Theognis. Phocylides. Pythagore aurea carmina cum fragmentis alioru[m]. Apollonius Rhodius. Oppianus. Cointus Smyrnaeus. Nonni Dionysiaca. Apposita est e regione latina interpretatio. Notae item &amp; variae lectiones margini adscriptae, cura &amp; recensione Jac. Lectii V. CL. Accessit &amp; index rerum &amp; verborum locupletissimus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16596457X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>[Nikandrou Thēriaka. Tou autou Alexipharmaka. Hermēneia tou anōnymou syngrapheōs eis Thēriaka. Scholia diaphorōn syngraheōn eis Alexipharmaka. Exēgēsis stathmōn, metrōn, sēneiōn, kai charaktērōn]. Nicandri Theriaca. Eiusdem Alexipharmaca. Interpretatio innominati authoris in Theriaca. Commentarii diuersorum authoru[m] in Alexipharmaca. Expositio ponderu[m], mensurarum, signorum, &amp; characterum / Edition électronique : numérisation 2012 / Paris : BIU Santé , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165026448/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Joannis Gorraei... Opera. Definitionum medicarum libri XXIIII  / A Joanne Gorraeo filio... locupletati &amp; accessione magna adaucti... Nicandri Theriaca et Alexipharmaca cum interpretatione &amp; scholiis ejusdem Gorraei... Hippocratis libelli de genitura. De natura pueri jusjurandum, de arte, de prisca medicina, de medico, eodem J. Gorraeus interprete cum annotationibus &amp; adjectis unicuique libello brevibus scholiis. Formulae remediorum quibus vulgo medici utuntur authore Petro Gorraeo,... / Lyon : Université Claude Bernard Lyon 1 , 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/076323366/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandri Theriaca  / interprete Io Gorraeo parisiensi / Edition électronique, numérisation 2003 / Paris : BIUM , 2004</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075568152/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Oἱ της ηρωικής ποιήσεως παλαιοί ποιηταί πάντεϛ. Poetae graeci veteres carminis heroici scriptores, qui extant, omnes,... Apposita est e regione latina interpretatio. Notae item &amp; variae lectiones margini adscriptae, cura &amp; recensione Jac. Lectii V. CL. Accessit &amp; index rerum &amp; verborum locupletissimus</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/136505953/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicander  : the poems and poetical fragments  / edited with introduction, translation and notes by A.S.F. Gow &amp; A.F. Scholfield / London : Bristol Classical Press , 1997</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100307264/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Oi tês hêrôikês poiêseôs prôteuontes poiêtai, kai alloi tines. Homeros, Theokritos, Mousaios, Hesiodos, Moschos, Theognis, Orpheus, Biôn, Phokylidês, Kallimachos, Dionysios, Pythagoros chrysai epê, Aratos, Cdolouthos, Nikandros, Tryphyodoros. Poetae Graeci principes heroici carminis, &amp; alii nonnulli. Homerus, Hesiodus, Orpheus, Callim. Aratus, Nicand. Theocrit. Moschus, Bion, Dionysius, Coluthus, Tryphiodorus, Musaeus, Theognis, Phoecylides, Pythagorae aurea carmina, fragmenta aliorum. Henri Stephani tetrastichon de hac sua editione. Quae facie invitat, plures invitat ocellos. Quum cultu corpus compta decente nitet. Nativo prius hi nos illexere decore, Illecebras cultus dat novus iste novas.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042647525/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Νικάνδρου Θηριακά καὶ Ἀλεξιφάρμακα. Nicandri Theriaca et Alexipharmaca. Joannes Gorrhæus latinis versibus reddidit italicis vero qui nunc primum in lucem prodeunt Ant. Mar. Salvinius. Accedunt variantes codicum lectiones, selectæ adnotationes, et græca Eutecnii Sophistæ Metaphrasis ex codicibus mediceæ, &amp; Vindobon. bibliothecæ descripta ac nondum edita curante Ang. Mar. Bandinio J. U. D., S. C. M. regio mediceæ bibliothecæ et pub. Marucellianæ præfecto</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/265922976/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Theriaka  ;  Alexipharmaka  / Nicandro di Colofone  ; a cura di Valeria Gigante Lanzara / Firenze : Leo S. Olschki editore , 2022</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/094591628/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Nicandrea  : Theriaca et Alexipharmaca  / recensuit et emendavit fragmenta collegit, commentationes addidit Otto Schneider  / ex recensione Henrici Keil  / ex recognitione Bussemakeri et R. Bentlei emendationes partim ineditae / Lipsiae : sumptibus et typis B. G. Teubneri , 1856</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201710161010314873">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>[2] NICANDRE: In Nicandri Theriaca scholia auctoris incerti... In ejusdem Alexipharmaca diversorum auctorum scholia / 72 pages au total (la pagination va jusqu'à 80, mais nombreuses erreurs de pagination)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-201710161010599072">
+      <marcrel:aut rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>[1] NICANDRE : Nicandri Theriaca. Interprete Io. Gorraeo Parisiensi / 116 pages</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/143081764/id">
+      <marcrel:aqt rdf:resource="http://www.idref.fr/033850755/id"/>
+      <dcterms:bibliographicCitation>Scholia anōnymou tinos syngrapheōs palaia te kai chresima eis ta tou Nikandrou Theriaka.  Scholia diaphorōn syngrapheōn eis Alexipharmaka  = = In Nicandri Theriaca scholia auctoris incerti, &amp; vetusta &amp; vtilia.  In eiusdem Alexipharmaca diuersorum auctorum scholia :  / Parisiis : Apud Guil. Morelium, in Graecis typographum regium , M.D.LVII. [1557]</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

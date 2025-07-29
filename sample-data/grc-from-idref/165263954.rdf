@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/165263954">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/165263954/id"/>
+      <dcterms:identifier>165263954</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-11-08</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-09-22T02:51:27</dcterms:modified>
+      <skos:editorialNote>Ιστορία της παλαιάς Ελλάδος απο τους αρχαιοτάτους χρόνους ως την υποδούλωσιν αυτής εις την Ρώμην / Π. Πετρίδης, 1830</skos:editorialNote>
+      <skos:editorialNote>Istoría tīs palaiás Elládos apo tous archaiotátous chrónous ōs tīn ypodoúlōsin autī́s eis tīn Rṓmīn / P. Petrídīs, 1830</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/165263954/id">&#xD;<!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/289439112"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Petrídīs, Plátōn (....-1852)</skos:prefLabel>
+      <skos:altLabel>Πετρίδης, Πλάτων (....-1852)</skos:altLabel>
+      <skos:altLabel>Petrides, Platon</skos:altLabel>
+      <foaf:familyName>Πετρίδης</foaf:familyName>
+      <foaf:givenName>Πλάτων</foaf:givenName>
+      <foaf:name>Πλάτων Πετρίδης</foaf:name>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/165263954/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1852</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/ell"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <!--skos:note-->
+      <skos:note>Hommes de Lettres, originaire de Cnstantinople (Empire Ottoman)</skos:note>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/165263644/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/165263954/id"/>
+      <dcterms:bibliographicCitation>Ιστορία της παλαιάς Ελλάδος απο τους αρχαιοτάτους χρόνους ως την υποδούλωσιν αυτής εις την Ρώμην  / [Π. Πετρίδης] / Κέρκυρα : Εν τη Τυπογρ. της Κυβερνήσεως , 1830</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

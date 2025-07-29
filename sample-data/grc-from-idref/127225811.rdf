@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/127225811">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/127225811/id"/>
+      <dcterms:identifier>127225811</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-09-09</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-11T10:53:28</dcterms:modified>
+      <skos:editorialNote>GLU</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/127225811/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12473587</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000138819773"/>
+      <isni:identifierValid>0000000138819773</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12473587k#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/88969189"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Callisthène"/>
+      <skos:prefLabel>Callisthène d'Olynthe (0360-0327 av. J.-C.)</skos:prefLabel>
+      <skos:altLabel>Callistene di Olinto</skos:altLabel>
+      <skos:altLabel>Callisthenes of Olynthus</skos:altLabel>
+      <skos:altLabel>Kallistenês</skos:altLabel>
+      <skos:altLabel>Kallisthenês</skos:altLabel>
+      <foaf:familyName>Callisthène d'Olynthe</foaf:familyName>
+      <foaf:givenName/>
+      <foaf:name> Callisthène d'Olynthe</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/127225811/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0360</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/127225811/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0327</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/390903/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <skos:note>Historien grec, neveu d'Aristote</skos:note>
+      <!--skos:note-->
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006735991/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/127225811/id"/>
+      <dcterms:bibliographicCitation>Callistene  : uno storico tra Aristotele e i re macedoni  / Luisa Prandi / Milan : Jaca Book , 1985</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/154484970/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/127225811/id"/>
+      <dcterms:bibliographicCitation>Historiens compagnons d'Alexandre  : Callisthène, Onésicrite, Néarque, Ptolémée, Aristobule  / par Paul Pédech / 2e tirage. / Paris : Les Belles Lettres , 2011</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/268727678/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/127225811/id"/>
+      <dcterms:bibliographicCitation>Pseudo-callisthène et la fondation d'Alexandrie  / par Pierre Jouguet / Le Caire : [éditeur inconnu] , 1942</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/285084437/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/127225811/id"/>
+      <dcterms:bibliographicCitation>Callisthenes / [Lieu de publication inconnu] : Selfridge and co. ltd. , [Date de publication inconnue]</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>

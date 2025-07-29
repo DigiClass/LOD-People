@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:bibo="http://purl.org/ontology/bibo/"
+          xmlns:bio="http://purl.org/vocab/bio/0.1/"
+          xmlns:bnf-onto="http://data.bnf.fr/ontology/bnf-onto/"
+          xmlns:dbpedia-owl="http://dbpedia.org/ontology/"
+          xmlns:dbpprop="http://dbpedia.org/property/"
+          xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:dcterms="http://purl.org/dc/terms/"
+          xmlns:fb="http://rdf.freebase.com/ns/"
+          xmlns:foaf="http://xmlns.com/foaf/0.1/"
+          xmlns:frbr="http://purl.org/vocab/frbr/core#"
+          xmlns:hub="http://hub.abes.fr/namespace/"
+          xmlns:isni="http://isni.org/ontology#"
+          xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+          xmlns:org="http://www.w3.org/ns/org#"
+          xmlns:owl="http://www.w3.org/2002/07/owl#"
+          xmlns:rdau="http://rdaregistry.info/Elements/u/"
+          xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+          xmlns:schema="http://schema.org/"
+          xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+          xmlns:sudoc="http://www.idref.fr/ns/"
+          xmlns:vivo="http://vivoweb.org/ontology/core#"><!--
+            Data provider : ABES
+            Stable URL
+            RDF modelization to be enriched and amended
+            Contact : idref at abes dot org
+        -->
+   <bibo:Document rdf:about="http://www.idref.fr/028874102">
+      <foaf:primaryTopic rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:identifier>028874102</dcterms:identifier>
+      <dcterms:creator rdf:resource="http://www.idref.fr/033702462/id"/>
+      <dcterms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1987-12-18</dcterms:created>
+      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-10-17T13:30:06</dcterms:modified>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/029123917"/>
+      <dcterms:replaces rdf:resource="http://www.idref.fr/081794282"/>
+      <skos:editorialNote>Les Adieux de Mars / [par Jean-Jacques Lefranc de Pompignan], 1735</skos:editorialNote>
+      <skos:editorialNote>Les Adieux de Mars / [par M. L.], 1735</skos:editorialNote>
+      <skos:editorialNote>Oeuvres / Jean-Jacques Le Franc de Pompignan, 1971 [reprod. de l'éd. de 1784]</skos:editorialNote>
+      <skos:editorialNote>GDEL et Larousse 19e s. : Pompignan (Jean-Jacques Lefranc, marquis de)</skos:editorialNote>
+      <skos:editorialNote>Annuaire prosopographique, Comité des travaux historiques et scientifiques - http://cths.fr (2010-08-10)</skos:editorialNote>
+      <skos:editorialNote>BN Cat. gén</skos:editorialNote>
+   </bibo:Document>
+   <foaf:Person rdf:about="http://www.idref.fr/028874102/id">
+      <bnf-onto:FRBNF rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12061916</bnf-onto:FRBNF>
+      <!--ISNI-->
+      <owl:sameAs rdf:resource="http://isni.org/isni/0000000081179698"/>
+      <isni:identifierValid>0000000081179698</isni:identifierValid>
+      <!--BNF-->
+      <owl:sameAs rdf:resource="http://data.bnf.fr/ark:/12148/cb12061916s#foaf:Person"/>
+      <!--VIAF-->
+      <owl:sameAs rdf:resource="http://viaf.org/viaf/99339505"/>
+      <!--WIKIPEDIA-->
+      <owl:sameAs rdf:resource="https://fr.wikipedia.org/wiki/Jean-Jacques_Lefranc_de_Pompignan"/>
+      <foaf:gender>male</foaf:gender>
+      <skos:prefLabel>Le Franc de Pompignan, Jean-Jacques (1709-1784)</skos:prefLabel>
+      <skos:altLabel>Lefranc, Jean-Jacques</skos:altLabel>
+      <skos:altLabel>Lefranc de Pompignan, Jean-Jacques</skos:altLabel>
+      <skos:altLabel>Le Franc, Jean-Jacques</skos:altLabel>
+      <skos:altLabel>Le Franc, Johannes Jacobus</skos:altLabel>
+      <skos:altLabel>Pompignan, Jean-Jacques Le Franc</skos:altLabel>
+      <skos:altLabel>Pompignan, Jean-Jacques Lefranc</skos:altLabel>
+      <skos:altLabel>Pompignan, Marquis de</skos:altLabel>
+      <skos:altLabel>I. D. B.</skos:altLabel>
+      <skos:altLabel>M. L.</skos:altLabel>
+      <skos:altLabel>L ***</skos:altLabel>
+      <skos:altLabel>M. L. F ***</skos:altLabel>
+      <skos:altLabel>M. L. F. de P ***</skos:altLabel>
+      <foaf:familyName>Le Franc de Pompignan</foaf:familyName>
+      <foaf:givenName>Jean-Jacques</foaf:givenName>
+      <foaf:name>Jean-Jacques Le Franc de Pompignan</foaf:name>
+      <bio:event>
+         <bio:Birth rdf:about="http://www.idref.fr/028874102/birth">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1709-08-10</bio:date>
+         </bio:Birth>
+      </bio:event>
+      <bio:event>
+         <bio:Death rdf:about="http://www.idref.fr/028874102/death">
+            <bio:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1784-11-01</bio:date>
+         </bio:Death>
+      </bio:event>
+      <dbpedia-owl:citizenship rdf:resource="http://sws.geonames.org/3017382/"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/fra"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/grc"/>
+      <dcterms:language rdf:resource="http://lexvo.org/id/iso639-3/lat"/>
+      <!--skos:note-->
+      <skos:note>A aussi traduit du grec et du latin en français et écrit en latin</skos:note>
+      <skos:note>Premier président de la Cour des aides de Montauban. - Membre de l'Académie française (élu en 1759). - Poète et auteur de tragédies. - Ennemi des Encyclopédistes. - Traducteur d'Eschyle et de Virgile</skos:note>
+      <rdfs:seeAlso>
+         <foaf:Organization rdf:about="http://www.idref.fr/033783373/id">
+            <skos:prefLabel xml:lang="fr">Académie de Montauban</skos:prefLabel>
+         </foaf:Organization>
+      </rdfs:seeAlso>
+      <org:hasMembership>
+         <org:Membership rdf:about="http://www.idref.fr/028874102/affiliation/1">
+            <org:organization>
+               <foaf:Organization rdf:about="http://www.idref.fr/033783373/id">
+                  <skos:prefLabel>Académie de Montauban</skos:prefLabel>
+               </foaf:Organization>
+            </org:organization>
+            <dcterms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">Fond</dcterms:date>
+         </org:Membership>
+      </org:hasMembership>
+   </foaf:Person>
+   <bibo:Document rdf:about="https://www.sudoc.fr/189679085/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>J.-J. Lefranc, marquis de Pompignan (1709-1784), poète et magistrat  : étude sur sa vie et sur ses oeuvres  / François-Albert Duffo / Paris : J &amp; S éditeur (Eurédit) , DL 2015, cop. 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/18637710X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>J.-J. Lefranc de Pompignan  : un humaniste chrétien au siècle des Lumières  / Guillaume Robichez / Nouvelle édition revue, corrigée et augmentée / Paris : Eurédit , DL 2015, cop. 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/18498548X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil des piéces curieuses &amp; intéréssantes, contenant Discours de Mr. Le Franc de Pompignan, élu par l'Academie françoise, à la place de feu Mr. de Maupertuis. Reponse de M. Dupré de Saint Maur, directeur de l'Academie françoise, au Discours prononcé par Mr. Le Franc de Pompignan. Les quand. Notes utiles sur un discours prononcé devant l'Academie françoise le 10e. mars 1760. Le russe à Paris. La vanité. Par un frère de la Doctrine chrétienne. Le pauvre diable. Memoire présenté au Roi, par Mr. de Pompignan, le 11e. may 1760.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/119939363/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Eloge de Jean-Jacques Le Franc de Pompignan, ancien premier président de la cour des aides de Montauban, conseiller d'honneur au parlement de Toulouse, de l'Académie française, &amp;c.&amp;c. Discours couronné par l'académie des Belles lettres de Montauban le 25 août 1787 ; par M. Barere de Vieuzac, avocat au parlement, de l'académie royale des Sciences , Inscriptions et Belles-lettres de Toulouse... / A Toulouse : Chez D. Desclassan... , [1787 ?]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002303612/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Le Franc de Pompignan  : sa vie, ses œuvres, ses rapports avec Voltaire  : un ennemi de Voltaire  / Theodore E. D. Braun / Paris : Lettres modernes Minard , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/114041652/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Lumières voilées  : œuvres choisies d'un magistrat chrétien du XVIIIe siècle  / Le Franc de Pompignan, 1709-1784  ; anthologie préparée et présentée par Theodore E.D. Braun et Guillaume Robichez  ; [publié par la] Société française d'étude du XVIIIe siècle / Saint-Étienne : Publications de l'Université de Saint-Étienne, Jean Monnet , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10921529X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Étude littéraire et anecdotique sur Jean-Jacques Lefranc de Pompignan et l'ancienne Académie de Montauban, lue à la Société académique franco-hispano-portugaise dans la séance du 23 juin 1886  / par le président Henry / Muret : Marquès , 1886</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/280191677/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Les Fastes quercynois  : Lefranc de Pompignan, le poète de Caïx, 1709-1784  : Chroniques et discours prononcés à l'occasion de l'inauguration du monument élevé à sa mémoire, le 27 septembre 1925, à Luzech (Lot), avec 4 illustrations hors texte et un avant-propos / Cahors : A. Bergeon, impr.-éditeur , 1926</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/137747462/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Eschyle à l'aube du théâtre occidental  : neuf exposés suivis de discussions, Vandoeuvres - Genève, 25-29 août 2008  / par Mark Griffith, Jacques Jouanna, Robert Parker... [et al.]  ; entretiens préparés et présidés par Jacques Jouanna et Franco Montanari  ; et édités par Alain-Christian Hernández / Genève : Fondation Hardt</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00564884X/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Un ennemi de Voltaire  : Le Franc de Pompignan, sa vie, ses oeuvres, ses rapports avec voltaire  / E. D.Theodore Braun / Paris : Minard , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/189743409/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Jean-Jacques Lefranc de Pompignan  : un homme de cultures au siècle des Lumières  : actes du colloque international de Toulouse-Montauban-Pompignan, 22-23 septembre 2006  / études réunies et présentées par Nathalie Dauvois / Paris : Eurédit , DL 2015, cop. 2015</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002462419/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>J.-J. Lefranc de Pompignan  : un humaniste chrétien au siècle des Lumières  / Guillaume Robichez / Paris : SEDES , 1987</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/261979272/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Jean-Jacques Lefranc de Pompignan  : Homme de lettres et citoyen  / Par Jacques Carral / Montauban : Académie des sciences, des lettres et des arts de Montauban , 2021</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/253631181/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Les origines des Lefranc de Pompignan, vers 1450- vers 1540  / Jean Lartigaut / [Lieu de publication inconnu] : [éditeur inconnu] , 1985</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006770878/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Un humaniste chrétien au siècle des Lumières  : Jean-Jacques Lefranc de Pompignan  / par Guillaume Robichez / S.I. : [Éditeur inconnu] , 1984</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/241872936/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil des piéces curieuses &amp; intéréssantes, contenant Discours de Mr. Le Franc de Pompignan, élu par l'Academie françoise, à la place de feu Mr. de Maupertuis. Reponse de M. Dupré de Saint Maur, directeur de l'Academie françoise, au Discours prononcé par Mr. Le Franc de Pompignan. Les quand. Notes utiles sur un discours prononcé devant l'Academie françoise le 10e. mars 1760. Le russe à Paris. La vanité. Par un frère de la Doctrine chrétienne. Le pauvre diable. Memoire présenté au Roi, par Mr. de Pompignan, le 11e. may 1760.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/171600681/id">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Lettre de M. de l'Ecluse, chirurgien-dentiste, seigneur du Tilloy, près de Montargis, à M. son curé. / [Liège : Bassompierre,1763]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/IF2020313">
+      <dcterms:subject rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Le Franc de Pompignan (Jean-Jacques, marquis)</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/035999772/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>La Moselle  / d'Ausone  / par Rutilius  ; [E.F. Corpet]  ; [Lefranc de Pompignan]  ; Vassyl Khmeluk / Paris : Le Pot Cassé , 1931</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098218794/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Tragédies d'Eschyle [traduites par Le Franc de Pompignan]  / Eschyle / Paris : Saillant et Nyon , 1770</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/268735166/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Différens poëmes grecs et latins, traduits en vers françois, par M. le Marquis de Pompignan : Les Travaux et les Jours, poëme extrait d'Hésiode. Les Géorgiques et le sixième Livre de l'Enéide de Virgile. Le Départ d'Ovide. Le Voyage d'Horace de Rome à Brindes. Les Vers dorés des Pythagoriciens.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/248738089/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>La Priere universelle. Traduite de l'anglois de M. Pope. Par l'auteur de la Tragédie de Didon, &amp; du Discours sur l'interêt public.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094619/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>La Prière universelle traduite de l'anglais de Mr Pope, par l'auteur du Discours prononcé le 10 mars à l'Académie Française... / S. l : s. n , 1760</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098574418/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Mélange de traductions de différens ouvrages grecs, latins et anglois  : sur des matières de politique, de littérature &amp; d'histoire  / par l'auteur de la traduction d'Eschyle [J. J. Le Franc de Pompignan] / A Paris : chez Nyon l'aîné , 1779</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/180551302/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Mêlange de traductions de différens ouvrages de morale, italiens et anglois. Par l'auteur de la traduction d'Eschyle / A Paris,  : chez Nyon, l'aîné, libraire, rue St-Jean-de-Beauvais. M.DCC.LXXIX. Avec approbation et privilège du roi , 1779</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/098574426/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Tragédies d'Eschyle  / [traduites par Le Franc de Pompignan] / A Paris : chez Saillant &amp; Nyon , 1770</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/234179422/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Œuvres de M. le marquis de Pompignan : tome quatrieme, contenant les travaux et les jours, poëme extrait d'Hésiode. Les Géorgiques et le sixiéme livre de l'Enéide de Virgile. Le départ d'Ovide. Le voyage d'Horace de Rome à Brindes. Les vers dorés des Pythagoriciens.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099854422/id">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Tragédies. [Traduction par Le Franc de Pompignan] / Paris : Saillant et Nyon , 1770</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/UNIA12640">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>[MS 1113] « Traduction nouvelle des Épitres d'Horace et du sixième livre de l'Énéide de Virgile, par Mr l'évêque du Puy et Mr le Premier, » Jean-Georges et Jean-Jacques Lefranc de Pompignan (XVIIIe siècle) / 148 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/UNIA12641">
+      <marcrel:trl rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>[MS 1114] « Traduction nouvelle des Odes d'Horace, du premier livre de l'Énéide de Virgile et des Harangues de Cicéroncontre Catilina par Mr l'évêque du Puy et Mr le Premier, » Jean-Georges et Jean-Jacques Lefranc de Pompignan (XVIIIe siècle) / III et 200 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/248961217/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Le joli recueil, ou L'histoire de la querelle littéraire, où les auteurs s'amusent en amusant le public</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/241872936/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil des piéces curieuses &amp; intéréssantes, contenant Discours de Mr. Le Franc de Pompignan, élu par l'Academie françoise, à la place de feu Mr. de Maupertuis. Reponse de M. Dupré de Saint Maur, directeur de l'Academie françoise, au Discours prononcé par Mr. Le Franc de Pompignan. Les quand. Notes utiles sur un discours prononcé devant l'Academie françoise le 10e. mars 1760. Le russe à Paris. La vanité. Par un frère de la Doctrine chrétienne. Le pauvre diable. Memoire présenté au Roi, par Mr. de Pompignan, le 11e. may 1760.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/001741519/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres  3-4, [Les Opera, La Tragédie de Didon, et Notice de deux Tragédies angloises]  / J.-J. Le Franc de Pompignan  ;  [Les Travaux et les jours: poe͏̈me extrait d'Hésiode, Les Géorgiques et le sixième Livre de l'Enéide de Virgile, Le Départ d'Ovide, Le Voyage d'Horace de Rome à Brindes, Les Vers dorés des Pythagoriciens] / Genève : Slatkine , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/186766181/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon  : tragédie en 5 actes et en vers  / Jean Jacques Le Franc de Pompignan / Paris : Ruault , 1883</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094546/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Chef-d'oeuvre de Le Franc de Pompignan. / Paris : Bélin , M. DCC. LXXXVIII [1788]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/086881922/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Discours philosophiques, tirés des livres saints / M DCC. LXX. [Toulouse, Jean-Florent Baour ?] , 1770</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/18783606X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Réponses aux "quand", aux "si" et aux "pourquoi" / A Bruxelles , 1760</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269813896/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>(Lumières voilées  : oeuvres choisies d'un magistrat chrétien du XVIIIe siècle  / Jean-Jacques Le Franc de Pompignan  ; édition critique par Theodore E.D. Braun et Guillaume Robichez / Paris : Classiques Garnier</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/001713744/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres  1-2, [Les Poésies sacrées et Les Discours philosophiques]; [Les Odes, Epitres et Poésies diverses, Le Voyage de Languedoc et de Provence, et une Dissertation sur le nectar et sur l'ambroisie]  / J.-J. Le Franc de Pompignan / Genève : Slatkine , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/114041652/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Lumières voilées  : œuvres choisies d'un magistrat chrétien du XVIIIe siècle  / Le Franc de Pompignan, 1709-1784  ; anthologie préparée et présentée par Theodore E.D. Braun et Guillaume Robichez  ; [publié par la] Société française d'étude du XVIIIe siècle / Saint-Étienne : Publications de l'Université de Saint-Étienne, Jean Monnet , 2007</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067890687/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Lettre à M. le chancelier / [S.l.] : [s.n.] , [c. 1756]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/18783315X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Mémoire présenté au roi, par M. de Pompignan, le 11 mai 1760</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187831564/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon, tragédie... par L*** [J.-J Le Franc de Pompignan] / A La Haye : chez Jean Neaulme , 1735</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/158863607/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésies  / par Jean-Jacques Lefranc ["sic"] de Pompignan / Paris : Ledoyen , 1856</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/260250325/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres diverses de Monsieur L* F****. Nouvelle édition, revue, corrigée, considérablement augmentée, &amp; ornée de figures en taille-douce. Première [-seconde] partie</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/204679222/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon, tragedie. Représentée pour la premiere fois sur le théatre de la Comédie françoise le 21. du mois de juin 1734</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/115858601/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Noël qui sera chanté dans l'église Notre-Dame de la Daurade, à l'occasion de la fête de MM. les négocians le 6 janvier 1839  / composé par M. Charles Becquié, professeur à l'école royale des Beaux-arts, paroles de Lefranc de Pompignan / [Lieu de publication inconnu] : [éditeur inconnu]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044298579/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Le joli recueil, ou L'histoire de la querelle littéraire, où les auteurs s'amusent en amusant le public</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094570/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Lettre à M. le Chancelier [au sujet de l'exil de M. de Pouzargues. Par J.J. Lefranc de Pompignan] / S. l : s. n , s. d. [post 1756]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/203945719/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres de J. J. Rousseau. Nouvelle édition ; avec un commentaire historique et littéraire, précédé d'un nouvel essai sur la vie et les écrits de l'auteur.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042851726/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Voyage de Languedoc et de Provence, fait en l'année 1740  / [par M. Lefranc de Pompignan] / Edition entièrement différente de celle d'Amsterdam, &amp; plus correcte que celle d'Avignon. / A La Haye , 1745</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187832196/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon tragédie.... Nouvelle édition / A Paris : chez la veuve Duchesne , 1782</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067890679/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Dissertation sur les biens nobles, avec des observations sur le vingtième / [S.l.] : [s.n.] , 1758</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/011989785/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres de J. B. Rousseau. Nouvelle édition ; avec un commentaire historique et littéraire, précédé d'un nouvel essai sur la vie et les écrits de l'auteur.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/084778075/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies  / Jean Jacques Lefranc de Pompignan / Paris : Ménard et Derenne , 1822</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/117164208/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Discours et mémoire de M. de Pompignan / [S. l.] : s. n. d'éd. , 1760</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094600/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Les Pourquoi, réponse aux ridicules Quand de M. le comte de Tornet / S. l , [1760]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065123875/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésies sacrées divisées en quatre livres / Paris : Chaubert , 1754</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/075038285/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Le triomphe de l'harmonie, ballet heroique, représenté pour la premiere fois, par l'Academie royale de musique; le jeudy neuviéme may 1737 / [Paris.] De l'imprimerie de Jean-Baptiste-Christophe Ballard, seul imprimeur du Roy, &amp; de l'Academie royale de musique. M.DCCXXXVII. Avec privilege du Roy. Le prix est de XXX. sols</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/253983207/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon, tragédie, en cinq actes et en vers ; Par Lefranc, de l'Académie Française. Représentée, pour la première fois, à Paris, sur le Théâtre Français, en 1734</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/163081077/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésie  /  de Lefranc de Pompignan / Paris : Vve Dabo , 1823</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094554/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Dissertation sur les biens nobles, avec des observations sur le vingtième [par J.J. Le Franc de Pompignan] / S. l , 1758</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16509947X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésies sacrées de Monsieur L* F****, divisées en quatre livres, et ornée de figures en taille douce [première-seconde partie] / A Paris [i.e. Avignon ?] : Chez Chaubert, Quai des Augustins, près le Pont S. Michel, à la Rénommée, &amp; à la Prudence. M. DCC. LIII. Avec approbation &amp; privilege du Roi , 1753</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/054448921/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil de pieces intéressantes / [Rouen , 1762]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100439551/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Voyages en France et autres pays, par Racine, La Fontaine, Regnard, Chapelle et Bachaumont... [etc.] / Paris : J. Chaumerot , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/130974676/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil de pieces intéressantes / [Rouen , 1762]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155656090/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Œuvres complètes de Jean-Georges Lefranc de Pompignan, ...  : réunies pour la première fois en une seule collection...  augmentées d'un grand nombre d'opuscules inédits, principalement d'un Traité sur le jugement dernier  / par M. Émery, ...  ;  suivies des Œuvres religieuses  / de J.-J. Lefranc...  ; publiées par M. l'abbé Migne,... / Paris : J.-P. Migne , 1855</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103303979/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon  : tragédie en cinq actes et en vers  / par M. Le Franc... / Nouv. éd. / Paris : chez Brunet , 1788</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/283858796/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésies morales et religieuses, ou choix des meilleurs ouvrages de nos poëtes, composés sur des sujets chrétiens, ou tirés de l'Ecriture sainte. Tome premier [-troisième].</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/128961147/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon, tragédie de monsieur Le F****. Nouvelle édition / A Paris, aux dépens de la Compagnie des imprimeurs-libraires. M. DCC. LVIII</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/242858791/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon, tragedie. Nouvelle edition considerablement retouchée : avec la traduction de la même piéce en vers italiens, &amp; plusieurs poësies françoises sur différens sujets.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/042611695/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Œuvres de Louis Racine. Tome premier [-sixième]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/081123841/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Démonstrations évangéliques de Tertullien, Origène, Eusèbe [et al.]  Tome neuvième, Contenant les démonstrations de Saurin, Buffier, Warburton, Tournemine, Bentley, Littleton, Fabricius, Addison, De Bernis, Jean-Jacques Rousseau  : traduites, pour la plupart, des diverses langues dans lesquelles elles avaient été écrites...  / annotées et publiées par M. l'abbé M[igne],... / Paris : chez l'éditeur [J.-P. Migne] , 1843</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067990991/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésies sacrées et philosophiques / Paris : Rault , 1763</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/083348905/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Eloge historique de Monseigneur le duc de Bourgogne.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065102347/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Théâtre des auteurs du second ordre, ou recueil des tragédies et comédies restées au Théâtre Français ; pour faire suite aux éditions stéréotypes de Corneille, Racine, Molière, Regnard, Crébillon et Voltaire ; avec des notices sur chaque auteur, la liste de leurs pièces, et la date des premières représentations. Tragédies. Tome 3 / Paris, de l'imprimerie des frères Mame, rue du Pot-de-fer, n°14, 1808 , 1808</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/007418531/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Voyage de Languedoc et de Provence  / par Lefranc de Pompignan / Aix-en-Provence : Ed. Sextia , 1920</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094562/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Eloge historique de Monseigneur le duc de Bourgogne / Paris : impr. royale , 1761</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/00167241X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres  / J.-J. Le Franc de Pompignan / Genève : Slatkine , 1971</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/012003867/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres choisies de Le Franc de Pompignan. Tome premier [-second]. Edition stéréotype d'après le procédé de Firmin Didot / A Paris, de l'imprimerie et de la fonderie de P. Didot l'aîné et de Firmin Didot. 1813 , 1813</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094589/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poesies sacrées de monsieur L* F****, divisées en quatre livres, et ornées de figures en taille-douce.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094597/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésies sacrées et philosophiques tirées des livres saints... Nouvelle édition... augmentée [suivie de l'Examen des Poésies sacrées, du marquis de Mirabeau] / Paris : impr. de Prault , 1762</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153739355/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Œuvres de M. le marquis de Pompignan : tome second, contenant les odes, épitres et poésies diverses, le voyage de Languedoc et de Provence, et une dissertation sur le nectar et sur l'ambrosie.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/066618908/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésies sacrées et philosophiques, tirées des livres saints  / par M. Le Franc de Pompignan. Nouvelle édition, considérablement augmentée [suivie de l'Examen des poésies sacrées, du marquis de Mirabeau.] / Paris : impr. de Prault , 1763</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155656309/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Choix de poésies sacrées  / de Lefranc de Pompignan / Paris : A. Tardieu, Boulland et Cie , 1824</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089296389/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poësies sacrées et philosophiques, tirées des livres saints. Par M. Le Franc de Pompignan, nouvelle édition considérablement augmentée, &amp; enrichie de gravures.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/139787526/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poésies sacrées de Monsieur L* F****. Divisées en quatre livres, dédiés au Roi. Nouvelle édition.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103304800/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Répertoire du théâtre françois, ou Recueil des tragedies et comedies restées au théatre depuis Rotrou, pour faire suite aux éditions in-octavo de Corneille, Moliere, Racine, Regnard, Crébillon, et au théatre de Voltaire. Avec des notices sur chaque auteur, et l'examen de chaque piece. Par M. Petitot. Tome troisieme</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153740310/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Œuvres de M. le marquis de Pompignan : tome troisiéme, contenant les opéra, la tragédie de Didon, et Notice de deux tragédies angloises.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187832846/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Lettre de M. Le Franc, premier président de la Cour des Aydes de Montauban, à M. le chancelier, au sujet de l'exil de M. le Président de Pourzagues et de M. le procureur général de ladite Cour des aydes de Montauban... / [Sans lieu, 1756]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044343183/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>De antiquitatibus Cadurcorum, ad academiam Cortonensem, epistola / Parisiis, 1746</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/18498548X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil des piéces curieuses &amp; intéréssantes, contenant Discours de Mr. Le Franc de Pompignan, élu par l'Academie françoise, à la place de feu Mr. de Maupertuis. Reponse de M. Dupré de Saint Maur, directeur de l'Academie françoise, au Discours prononcé par Mr. Le Franc de Pompignan. Les quand. Notes utiles sur un discours prononcé devant l'Academie françoise le 10e. mars 1760. Le russe à Paris. La vanité. Par un frère de la Doctrine chrétienne. Le pauvre diable. Memoire présenté au Roi, par Mr. de Pompignan, le 11e. may 1760.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/087073854/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Théatre français. Répertoire complet. [37]. Rotrou, Longepierre, Genest, Duché, Le Franc de Pompignan et Guymond de la Touche / Edition Touquet</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/059885297/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Chefs-d'œuvre tragiques  Tome 1,   / de Rotrou, Crébillon, Lafosse, Saurin, De Belloi, Pompignan et La Harpe / Paris : Librairie de Paris , [1843]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/269083731/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Lumières voilées  : œuvres choisies d'un magistrat chrétien du XVIIIe siècle  / Jean-Jacques Le Franc de Pompignan  ; édition de Theodore E. D. Braun et Guillaume Robichez / Paris : Classiques Garnier Numérique</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/006563694/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Studies on Voltaire and the eighteenth century  Volume CLX,   / edited by Theodore Besterman / Oxford : The Voltaire Foundation at the Taylor Institution , 1976, cop. 1976</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/002303612/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Le Franc de Pompignan  : sa vie, ses œuvres, ses rapports avec Voltaire  : un ennemi de Voltaire  / Theodore E. D. Braun / Paris : Lettres modernes Minard , 1972</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/242746683/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Discours prononcés dans l'Académie françoise, le lundi 10 mars M. DCC. LX. A la reception de M. Le Franc de Pompignan</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/185547087/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Répertoire général du théatre français. Tome XXVI. Second ordre</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/044337299/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil de piéces interessantes / [Rouen , 1760]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/155382551/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Supplément aux Oeuvres de M. L* F***  / [Jean-Jacques Lefranc Pompignan] / [S. l.] : [s.n.] , 1758</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/260254630/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Chef-d'œuvres dramatiques de Le Franc de Pompignan.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099752166/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Voyage de Chapelle et Bachaumont, suivi de quelques autres voyages dans le même genre.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/164147446/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres diverses Ornée de Figures en taille-douce tome 2 Jean Jacques Le Franc de Pompignan / Troisième èd. / Paris : Chaubert , 1753</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/092876420/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Énée et Didon, tragédie, en vers et en 5 actes  / par M. Lefranc ["sic"]. [Avec la préface de l'auteur.] / Paris : Duchesne , 1757</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09975214X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Voyage de Chapelle et de Bachaumont, suivi de quelques autres voyages dans le même genre</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/265558670/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Répertoire du théâtre françois, ou recueil des tragédies et comédies restées au théâtre depuis Rotrou, pour faire suite aux éditions in-octavo de Corneille, Moliere, Racine, Regnard, Crébillon et au théâtre de Voltaire; Avec des notices sur chaque auteur, et l'examen de chaque piece. Par M. Petitot. Tome troisieme.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/166932086/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon  : tragédie en cinq actes  / Jean-Jacques Le Franc de Pompignan  ; édition critique présentée et annotée par Jacques Carral  ; [préface par Théodore E.D. Braun] / Paris : H. Champion , 2012, cop. 2012</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/188166203/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Lettre a M. Racine, sur le théatre en général, &amp; sur les tragédies de son père en particulier. Par M. L. F. de P***. Nouvelle édition, suivie d'une pièce de vers du même auteur, &amp; de trois lettres de Jean Racine qui n'avoient point été imprimées.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/10637723X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Chefs d'oeuvre dramatiques de Lefranc de Pompignan, Guyot de Merville, Pont de Veyle et Lanoue / A Paris, imprimerie de Jules Didot aîné, imprimeur du roi , 1824</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/089271629/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres de M. le Marquis de Pompignan : Tome premier [-sixième]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/09857440X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres de M. le Marquis de Pompignan / A Paris : chez Nyon l'aîné , 1784</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/178284734/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil general des opera representez par l'Academie royale de musique, depuis son etablissement. Tome seizième / Paris : De l'imprimerie de J.-B.-Christophe Ballard, seul imprimeur du roy et de l'académie royale de musique. Au Mont-Parnasse, ruë S. Jean de Beauvais. M.DCCXLV, avec Privilège de Sa Majesté , 1745</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/145363597/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres diverses de Monsieur L***. Nouvelle revue, corrigée, considérablement augmentée / Paris : Chaubert , 1750</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/073673013/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Poètes français, ou collection des poètes du premier ordre  : et des meilleurs ouvrages en vers du second ordre  : Lefranc de Pompignan / Paris : Vve Dabo , 1821</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/067890695/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil de remontrances / [S.l.] : [s.n.] , [v. 1757]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/150479972/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Leandre et Hero, tragedie, représentée pour la premiére fois, par l'Academie royale de musique, le mardi, vingt-un avril mil sept cent cinquante / A Paris : chez la V. Delormel &amp; fils, imprimeur de ladite Academie, rue du foin, à l'Image Ste. Geneviéve , 1750</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/065123891/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon tragedie représentée pour la premiere fois sur le théatre de la Comédie françoise le 21 du mois de juin 1734</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/100094538/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres, de M. le Mis. de Pompignan / Paris : Nyon l'aîné , 1784</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/15540119X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Oeuvres diverses de Monsieur L* F**** / 3e édition / Paris : chez Chaubert , 1753</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/153738987/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Œuvres de M. le marquis de Pompignan : tome premier, contenant les poësies sacrées, et les discours philosophiques.</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/187631859/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon, tragédie en cinq actes en vers, par M. Le Franc,... représentée pour la première fois par les Comédiens français ordinaires du Roi, le 21 juin 1734 / A Paris : chez la veuve Duchesne , 1781</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/103403787/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon  : Tragédie  / Edition Touquet / Paris : A. Belin , 1821</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/162290993/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Voyage de Languedoc et de Provence, fait en l'année 1740. Par MM. le F*, le M. de M*** et l'abbé de M***. Adressé à Madame la comtesse de Caraman. Nouvelle édition revüe &amp; corrigée. / A Amsterdam : chez Chareau &amp; Du Villard. MDCCXLVI. , 1746</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/16229087X/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Didon, tragédie en cinq actes et en vers, par M. Le Franc,... représentée pour la première fois par les Comédiens français ordinaires du Roi, le 21 juin 1734 / Nouvelle éd. / A Paris : chez la veuve Duchesne , 1763</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/152657606/id">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Léandre et Héro, tragedie, mise en musique par l'auteur, du Ballet de l'empire de l'amour. représentée par l'Academie royale de musique, le mardi 14. avril 1750. Partition in folio. Gravée par Labaffée / A Paris : chés Mme Boivin, Mde rue St Honoré, à la Règle d'or, Mr Le Clerc, Md rue du Roule, à la Croix d'or, et à la Porte de l'Opera. Imprimé par Auguste De Lorraine , [ca 1750]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-202402081441411511">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>[Ms 8723] Lettre de Jean-Jacques Le Franc de    Pompignan (27 novembre 1760) / 3 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://calames.abes.fr/pub/ms/Calames-20240209143351771">
+      <marcrel:aut rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>[Ms 8726] Extrait d'une traduction en vers de Les    Travaux et les Jours, par Jean-Jacques Le Franc de   Pompignan (S.d.) / 11 feuillets</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124727018/id">
+      <marcrel:lbt rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Le Triomphe de l'harmonie  : ballet héroïque  / mis en musique par Mr Grenet / Paris : chez l'auteur , [ca 1737]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/124727085/id">
+      <marcrel:lbt rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Apollon berger d'Admette  : nouvel acte adjouté au Triomphe de l'Harmonie  / mis en musique par Mr Grenet / Paris : chez la Ve Boivin , 1745</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/099890879/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Recueil de remonstrances [du Parlement de Toulouse et de la Cour des Aides de Montauban. Publié par J.J. Le Franc de Pompignan] / S. l : s. n , s. d. [c. 1757]</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/163177155/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Répertoire de théâtre français. 13  : Oeuvres de Piron, D'Allainval, Fagan, La Chaussée, Lefranc de Pompignan, Lanoue, Gresset  / Piron Alexis / Nouv. éd / Paris : Baudouin Frères , 1828</dcterms:bibliographicCitation>
+   </bibo:Document>
+   <bibo:Document rdf:about="https://www.sudoc.fr/097759589/id">
+      <marcrel:edt rdf:resource="http://www.idref.fr/028874102/id"/>
+      <dcterms:bibliographicCitation>Voyage de Chapelle et de Bachaumont  ;  suivi de leurs poésies diverses  ;  du voyage de Languedoc et de Provence  / par Lefranc de Pompignan  / par Desmahis  / par de Saint-Marc / Paris : Constant Letellier fils , 1826</dcterms:bibliographicCitation>
+   </bibo:Document>
+</rdf:RDF>
