@@ -1,0 +1,107 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102394571> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102394571/about> .
+
+<https://d-nb.info/gnd/102394571/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2020-12-20T05:33:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102394571> gndo:gndIdentifier "102394571";
+  owl:sameAs <http://viaf.org/viaf/267670410>, <https://isni.org/isni/0000000383179837>,
+    <http://www.wikidata.org/entity/Q3129377>, <http://id.loc.gov/rwo/agents/no2001090876>;
+  gndo:oldAuthorityNumber "(DE-588)1089892667";
+  owl:sameAs <https://d-nb.info/gnd/1089892667>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089892667";
+  gndo:oldAuthorityNumber "(DE-588)1089729650";
+  owl:sameAs <https://d-nb.info/gnd/1089729650>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089729650";
+  gndo:oldAuthorityNumber "(DE-588a)102394571", "(DE-588c)7577635-2";
+  gndo:variantNameForThePerson "Hegemonius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404366 .
+
+_:node1ivpishs6x25404366 gndo:personalName "Hegemonius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/102394571> gndo:variantNameForThePerson "Hegemonius, Quidam";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404367 .
+
+_:node1ivpishs6x25404367 gndo:personalName "Hegemonius";
+  gndo:nameAddition "Quidam" .
+
+<https://d-nb.info/gnd/102394571> gndo:variantNameForThePerson "Pseudo-Hegemonius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404368 .
+
+_:node1ivpishs6x25404368 gndo:personalName "Pseudo-Hegemonius" .
+
+<https://d-nb.info/gnd/102394571> gndo:variantNameForThePerson "Hegemonios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404369 .
+
+_:node1ivpishs6x25404369 gndo:personalName "Hegemonios" .
+
+<https://d-nb.info/gnd/102394571> gndo:preferredNameForThePerson "Hegemonius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404370 .
+
+_:node1ivpishs6x25404370 gndo:personalName "Hegemonius" .
+
+<https://d-nb.info/gnd/102394571> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-SY>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/syr>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102394571/about> .
+
+<https://d-nb.info/gnd/102394571/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102394571> gndo:biographicalOrHistoricalInformation "Syr. Theologe u. Kirchenschriftsteller"@de,
+    "Acta Archelai et Manetis (Adversus haereses)"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25404371 .
+
+_:node1ivpishs6x25404371 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4059756-8> .
+
+<https://d-nb.info/gnd/102394571> gndo:dateOfBirthAndDeath "[4. Jh.]" .
+

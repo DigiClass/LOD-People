@@ -1,0 +1,294 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11952516X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11952516X/about> .
+
+<https://d-nb.info/gnd/11952516X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-05-31T00:31:19.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11952516X> gndo:gndIdentifier "11952516X";
+  foaf:page <https://de.wikipedia.org/wiki/Horapollon>;
+  owl:sameAs <https://dbpedia.org/resource/Horapollo>, <http://viaf.org/viaf/250688796>,
+    <https://isni.org/isni/0000000371198002>, <http://www.wikidata.org/entity/Q364379>,
+    <http://id.loc.gov/rwo/agents/n84141023>;
+  gndo:oldAuthorityNumber "(DE-588)115879634X";
+  owl:sameAs <https://d-nb.info/gnd/115879634X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/115879634X";
+  gndo:oldAuthorityNumber "(DE-588)1089885636";
+  owl:sameAs <https://d-nb.info/gnd/1089885636>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089885636";
+  gndo:oldAuthorityNumber "(DE-588)1089773862";
+  owl:sameAs <https://d-nb.info/gnd/1089773862>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089773862";
+  gndo:oldAuthorityNumber "(DE-588)1089304331";
+  owl:sameAs <https://d-nb.info/gnd/1089304331>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089304331";
+  gndo:oldAuthorityNumber "(DE-588)1056361115";
+  owl:sameAs <https://d-nb.info/gnd/1056361115>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1056361115";
+  gndo:oldAuthorityNumber "(DE-588)172143314";
+  owl:sameAs <https://d-nb.info/gnd/172143314>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172143314";
+  gndo:oldAuthorityNumber "(DE-588a)172143314", "(DE-588)160168619";
+  owl:sameAs <https://d-nb.info/gnd/160168619>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160168619";
+  gndo:oldAuthorityNumber "(DE-588a)160168619", "(DE-588a)11952516X", "(DE-588c)4481037-4";
+  gndo:variantNameForThePerson "Horus Apollo, Niliacus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403421 .
+
+_:node1ivpishs6x25403421 gndo:personalName "Horus Apollo";
+  gndo:nameAddition "Niliacus" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horus, Apoll.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403422 .
+
+_:node1ivpishs6x25403422 gndo:personalName "Horus";
+  gndo:nameAddition "Apoll." .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horus, Apollinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403423 .
+
+_:node1ivpishs6x25403423 gndo:personalName "Horus";
+  gndo:nameAddition "Apollinus" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollon, von Neilopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403424 .
+
+_:node1ivpishs6x25403424 gndo:personalName "Horapollon";
+  gndo:nameAddition "von Neilopolis" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollon, von Nilopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403425 .
+
+_:node1ivpishs6x25403425 gndo:personalName "Horapollon";
+  gndo:nameAddition "von Nilopolis" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollon, Neiloos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403426 .
+
+_:node1ivpishs6x25403426 gndo:personalName "Horapollon";
+  gndo:nameAddition "Neiloos" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollo, Nilous";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403427 .
+
+_:node1ivpishs6x25403427 gndo:personalName "Horapollo";
+  gndo:nameAddition "Nilous" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollo, Niliacus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403428 .
+
+_:node1ivpishs6x25403428 gndo:personalName "Horapollo";
+  gndo:nameAddition "Niliacus" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403429 .
+
+_:node1ivpishs6x25403429 gndo:personalName "Horapollon" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapolo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403430 .
+
+_:node1ivpishs6x25403430 gndo:personalName "Horapolo" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Apollo, Horus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403431 .
+
+_:node1ivpishs6x25403431 gndo:forename "Horus";
+  gndo:surname "Apollo" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horus Apollo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403432 .
+
+_:node1ivpishs6x25403432 gndo:personalName "Horus Apollo" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Orus Apollo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403433 .
+
+_:node1ivpishs6x25403433 gndo:personalName "Orus Apollo" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Orus Apollo N.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403434 .
+
+_:node1ivpishs6x25403434 gndo:personalName "Orus Apollo N." .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Hōros Apollon, Neilōos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403435 .
+
+_:node1ivpishs6x25403435 gndo:personalName "Hōros Apollon";
+  gndo:nameAddition "Neilōos" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Hierapollo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403436 .
+
+_:node1ivpishs6x25403436 gndo:personalName "Hierapollo" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapolle";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403437 .
+
+_:node1ivpishs6x25403437 gndo:personalName "Horapolle" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollo, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403438 .
+
+_:node1ivpishs6x25403438 gndo:personalName "Horapollo";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horus, Apollo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403439 .
+
+_:node1ivpishs6x25403439 gndo:personalName "Horus";
+  gndo:nameAddition "Apollo" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollon, Ägypter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403440 .
+
+_:node1ivpishs6x25403440 gndo:personalName "Horapollon";
+  gndo:nameAddition "Ägypter" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollo, Hieroglyphicorum Exegeta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403441 .
+
+_:node1ivpishs6x25403441 gndo:personalName "Horapollo";
+  gndo:nameAddition "Hieroglyphicorum Exegeta" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollon, von Phenebythis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403442 .
+
+_:node1ivpishs6x25403442 gndo:personalName "Horapollon";
+  gndo:nameAddition "von Phenebythis" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollon, Niliacus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403443 .
+
+_:node1ivpishs6x25403443 gndo:personalName "Horapollon";
+  gndo:nameAddition "Niliacus" .
+
+<https://d-nb.info/gnd/11952516X> gndo:variantNameForThePerson "Horapollon, von Phainebytis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403444 .
+
+_:node1ivpishs6x25403444 gndo:personalName "Horapollon";
+  gndo:nameAddition "von Phainebytis" .
+
+<https://d-nb.info/gnd/11952516X> gndo:preferredNameForThePerson "Horapollo";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403445 .
+
+_:node1ivpishs6x25403445 gndo:personalName "Horapollo" .
+
+<https://d-nb.info/gnd/11952516X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118705695>;
+  gndo:hasRelation _:node1ivpishs6x25403446 .
+
+_:node1ivpishs6x25403446 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118705695>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11952516X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104123397>;
+  gndo:hasRelation _:node1ivpishs6x25403447 .
+
+_:node1ivpishs6x25403447 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104123397>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11952516X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118740652>;
+  gndo:hasRelation _:node1ivpishs6x25403448 .
+
+_:node1ivpishs6x25403448 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118740652>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11952516X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119851660>;
+  gndo:hasRelation _:node1ivpishs6x25403449 .
+
+_:node1ivpishs6x25403449 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119851660>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11952516X> gndo:hasRelation _:node1ivpishs6x25403450 .
+
+_:node1ivpishs6x25403450 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11952516X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25403451 .
+
+_:node1ivpishs6x25403451 gndo:forename "Maximus";
+  gndo:surname "Margunius" .
+
+<https://d-nb.info/gnd/11952516X> gndo:hasRelation _:node1ivpishs6x25403452 .
+
+_:node1ivpishs6x25403452 gndo:functionOrRoleAsLiteral "Uzès; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11952516X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25403453 .
+
+_:node1ivpishs6x25403453 gndo:forename "Jean";
+  gndo:surname "Mercier" .
+
+<https://d-nb.info/gnd/11952516X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/cop>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hieroglyphica de sacris notis ... lib. duo", "Hieroglyphica de sacris notis et sculpturis",
+    "Hieroglyphica", "Hierapollinis hieroglyphica", "Les sculptures", "Von Heyliger schrift Wharzeichen",
+    "Hieroglyphica", "Hieroglyphica de sacris aegyptiorum notis", "Hiéroglyphes", "oder entworffne Wharzeichen dero die uhralten Aegyptier in ihrem G*. - 1554",
+    "Horapollo: HIEROGLYPHICA HORAPOLLINIS, A DAVIDE HOESCHELIO Fide Codicis Augustani ms.correcta, ... 1595. (VD16 H 4847)",
+    "Horapollo: IOANNES FROBENIVS STVDIOSIS S.D. Damus nunc uobis Orum Apollinẽ Niliacũ de Hieroglyphicis ... 1518. (VD16 H 4848)",
+    "Nifo, Agostino: De hieroglyphis notis lib. II. 1534. (VD16 N 1714)";
+  wdrs:describedby <https://d-nb.info/gnd/11952516X/about> .
+
+<https://d-nb.info/gnd/11952516X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/11952516X> gndo:biographicalOrHistoricalInformation "Werk aus dem Koptischen ins Griechische übersetzt; Identität mit Horapollon <von Phainebytis> umstritten; Ägyptischer Schriftsteller, Verfasser einer (koptischen) Abhandlung über die Hieroglyphen, überliefert nur in griechischer Übersetzung durch einen nicht näher identifizierbaren Philippos. Identität mit einem nur in der Suda erwähnten Grammatiker H. von Phainebytis völlig unklar. Da über letzteren keine Literatur zu erwarten, bleibt der hier angesetzte H. ohne HZ"@de;
+  gndo:udkCode "401 - 500";
+  gndo:professionOrOccupation _:node1ivpishs6x25403454 .
+
+_:node1ivpishs6x25403454 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4158016-3>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_3 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/11952516X> gndo:dateOfBirthAndDeath "[5. Jh.]" .
+

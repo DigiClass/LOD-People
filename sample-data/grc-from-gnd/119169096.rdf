@@ -1,0 +1,246 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119169096> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119169096/about> .
+
+<https://d-nb.info/gnd/119169096/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-12-20T10:27:51.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119169096> gndo:gndIdentifier "119169096";
+  owl:sameAs <http://viaf.org/viaf/100897202>, <http://www.wikidata.org/entity/Q3434480>;
+  gndo:oldAuthorityNumber "(DE-588)1090659199";
+  owl:sameAs <https://d-nb.info/gnd/1090659199>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090659199";
+  gndo:oldAuthorityNumber "(DE-588)1090223293";
+  owl:sameAs <https://d-nb.info/gnd/1090223293>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090223293";
+  gndo:oldAuthorityNumber "(DE-588)1089601891";
+  owl:sameAs <https://d-nb.info/gnd/1089601891>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089601891";
+  gndo:oldAuthorityNumber "(DE-588)1089599412";
+  owl:sameAs <https://d-nb.info/gnd/1089599412>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089599412";
+  gndo:oldAuthorityNumber "(DE-588)109030143X";
+  owl:sameAs <https://d-nb.info/gnd/109030143X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/109030143X";
+  gndo:oldAuthorityNumber "(DE-588)187128448";
+  owl:sameAs <https://d-nb.info/gnd/187128448>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187128448";
+  gndo:oldAuthorityNumber "(DE-588a)187128448", "(DE-588)174061080";
+  owl:sameAs <https://d-nb.info/gnd/174061080>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174061080";
+  gndo:oldAuthorityNumber "(DE-588a)174061080", "(DE-588)187044406";
+  owl:sameAs <https://d-nb.info/gnd/187044406>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187044406";
+  gndo:oldAuthorityNumber "(DE-588a)187044406", "(DE-588a)119169096", "(DE-588c)4347714-8";
+  gndo:variantNameForThePerson "Basileios, von Seleucia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590596 .
+
+_:node1ivs02adlx24590596 gndo:personalName "Basileios";
+  gndo:nameAddition "von Seleucia" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basileios, von Seleukeia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590597 .
+
+_:node1ivs02adlx24590597 gndo:personalName "Basileios";
+  gndo:nameAddition "von Seleukeia" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Isauricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590598 .
+
+_:node1ivs02adlx24590598 gndo:personalName "Basilius";
+  gndo:nameAddition "Isauricus" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Isauria, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590599 .
+
+_:node1ivs02adlx24590599 gndo:personalName "Basilius";
+  gndo:nameAddition "Isauria, Episcopus" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, de Seleucia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590600 .
+
+_:node1ivs02adlx24590600 gndo:personalName "Basilius";
+  gndo:nameAddition "de Seleucia" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Seleucia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590601 .
+
+_:node1ivs02adlx24590601 gndo:personalName "Basilius";
+  gndo:nameAddition "Seleucia" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590602 .
+
+_:node1ivs02adlx24590602 gndo:personalName "Basilius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590603 .
+
+_:node1ivs02adlx24590603 gndo:personalName "Basilius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basileios, Metropolit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590604 .
+
+_:node1ivs02adlx24590604 gndo:personalName "Basileios";
+  gndo:nameAddition "Metropolit" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basileios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590605 .
+
+_:node1ivs02adlx24590605 gndo:personalName "Basileios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Archiepiscopus Seleuciae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590606 .
+
+_:node1ivs02adlx24590606 gndo:personalName "Basilius";
+  gndo:nameAddition "Archiepiscopus Seleuciae" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basileios, Archiepiskopos Seleukias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590607 .
+
+_:node1ivs02adlx24590607 gndo:personalName "Basileios";
+  gndo:nameAddition "Archiepiskopos Seleukias" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Seleuciae Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590608 .
+
+_:node1ivs02adlx24590608 gndo:personalName "Basilius";
+  gndo:nameAddition "Seleuciae Archiepiscopus" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basileios, Seleukias Archiepiskopos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590609 .
+
+_:node1ivs02adlx24590609 gndo:personalName "Basileios";
+  gndo:nameAddition "Seleukias Archiepiskopos" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, von Seleucia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590610 .
+
+_:node1ivs02adlx24590610 gndo:personalName "Basilius";
+  gndo:nameAddition "von Seleucia" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basileios, von Seleukia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590611 .
+
+_:node1ivs02adlx24590611 gndo:personalName "Basileios";
+  gndo:nameAddition "von Seleukia" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Seleuciensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590612 .
+
+_:node1ivs02adlx24590612 gndo:personalName "Basilius";
+  gndo:nameAddition "Seleuciensis" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basile, de Séleucie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590613 .
+
+_:node1ivs02adlx24590613 gndo:personalName "Basile";
+  gndo:nameAddition "de Séleucie" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Episcopus Seleuciae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590614 .
+
+_:node1ivs02adlx24590614 gndo:personalName "Basilius";
+  gndo:nameAddition "Episcopus Seleuciae" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, Isauria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590615 .
+
+_:node1ivs02adlx24590615 gndo:personalName "Basilius";
+  gndo:nameAddition "Isauria" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius Seleuciae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590616 .
+
+_:node1ivs02adlx24590616 gndo:personalName "Basilius Seleuciae" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Basilius, von Seleukia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590617 .
+
+_:node1ivs02adlx24590617 gndo:personalName "Basilius";
+  gndo:nameAddition "von Seleukia" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Pseudo-Basilius, Seleucensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590618 .
+
+_:node1ivs02adlx24590618 gndo:personalName "Pseudo-Basilius";
+  gndo:nameAddition "Seleucensis" .
+
+<https://d-nb.info/gnd/119169096> gndo:variantNameForThePerson "Pseudo-Basilius, von Seleukia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590619 .
+
+_:node1ivs02adlx24590619 gndo:personalName "Pseudo-Basilius";
+  gndo:nameAddition "von Seleukia" .
+
+<https://d-nb.info/gnd/119169096> gndo:preferredNameForThePerson "Basilius, Seleucensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590620 .
+
+_:node1ivs02adlx24590620 gndo:personalName "Basilius";
+  gndo:nameAddition "Seleucensis" .
+
+<https://d-nb.info/gnd/119169096> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Opera quae extant", "De vita ... D. Theclae ..", "Orationes", "De Vita ac miraculis D. Theclae virginis martyris Iconensis libri*",
+    "Demonstratio adversus Iudaeos", "Orationes 44", "Gregorius <Thaumaturgus>: Gregorii Thaum., Macarii et Basilii Opera omnia";
+  wdrs:describedby <https://d-nb.info/gnd/119169096/about> .
+
+<https://d-nb.info/gnd/119169096/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/119169096> gndo:biographicalOrHistoricalInformation "Byzantin. Theologe"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24590621 .
+
+_:node1ivs02adlx24590621 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4059756-8>;
+  rdf:_2 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/119169096> gndo:dateOfDeath "0468"^^xsd:gYear .
+

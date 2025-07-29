@@ -1,0 +1,139 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11897291X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11897291X/about> .
+
+<https://d-nb.info/gnd/11897291X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-10-06T00:30:49.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11897291X> gndo:gndIdentifier "11897291X";
+  owl:sameAs <https://dbpedia.org/resource/Corinna>, <http://viaf.org/viaf/62348613>,
+    <http://www.wikidata.org/entity/Q241132>;
+  gndo:oldAuthorityNumber "(DE-588)1053407904";
+  owl:sameAs <https://d-nb.info/gnd/1053407904>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1053407904";
+  gndo:oldAuthorityNumber "(DE-588a)11897291X", "(DE-588c)4258376-7";
+  gndo:variantNameForThePerson "Corinna, Lyrica";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594688 .
+
+_:node1ivs02adlx24594688 gndo:personalName "Corinna";
+  gndo:nameAddition "Lyrica" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Corinna, Dichterin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594689 .
+
+_:node1ivs02adlx24594689 gndo:personalName "Corinna";
+  gndo:nameAddition "Dichterin" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Corinna, Tanagrae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594690 .
+
+_:node1ivs02adlx24594690 gndo:personalName "Corinna";
+  gndo:nameAddition "Tanagrae" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Korinna, von Tanagra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594691 .
+
+_:node1ivs02adlx24594691 gndo:personalName "Korinna";
+  gndo:nameAddition "von Tanagra" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Corinna, of Tanagra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594692 .
+
+_:node1ivs02adlx24594692 gndo:personalName "Corinna";
+  gndo:nameAddition "of Tanagra" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Corinna, of Thebes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594693 .
+
+_:node1ivs02adlx24594693 gndo:personalName "Corinna";
+  gndo:nameAddition "of Thebes" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Korinna, Dichterin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594694 .
+
+_:node1ivs02adlx24594694 gndo:personalName "Korinna";
+  gndo:nameAddition "Dichterin" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Corinna, di Tanagra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594695 .
+
+_:node1ivs02adlx24594695 gndo:personalName "Corinna";
+  gndo:nameAddition "di Tanagra" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Corinna, Poetessa Lirica";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594696 .
+
+_:node1ivs02adlx24594696 gndo:personalName "Corinna";
+  gndo:nameAddition "Poetessa Lirica" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Corinne, de Tanagra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594697 .
+
+_:node1ivs02adlx24594697 gndo:personalName "Corinne";
+  gndo:nameAddition "de Tanagra" .
+
+<https://d-nb.info/gnd/11897291X> gndo:variantNameForThePerson "Korinna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594698 .
+
+_:node1ivs02adlx24594698 gndo:personalName "Korinna" .
+
+<https://d-nb.info/gnd/11897291X> gndo:preferredNameForThePerson "Corinna";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594699 .
+
+_:node1ivs02adlx24594699 gndo:personalName "Corinna" .
+
+<https://d-nb.info/gnd/11897291X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/11897291X/about> .
+
+<https://d-nb.info/gnd/11897291X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/11897291X> gndo:biographicalOrHistoricalInformation "Griech. Lyrikerin, Lebensdaten umstritten"@de;
+  gndo:udkCode "600 - 501 v. Chr. ", "500 - 401 v. Chr. ", "300 - 201 v. Chr. ", "200 - 101 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v6./5. bzw. v3./2. Jh.]" .
+

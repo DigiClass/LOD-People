@@ -1,0 +1,94 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/1018556192> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/1018556192/about> .
+
+<https://d-nb.info/gnd/1018556192/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2012-01-11T21:48:52.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/1018556192> gndo:gndIdentifier "1018556192";
+  owl:sameAs <http://viaf.org/viaf/227740839>;
+  gndo:oldAuthorityNumber "(DE-588a)1018556192", "(DE-588c)7847433-4";
+  gndo:variantNameForThePerson "Sarapammon, Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596258 .
+
+_:node1ivs02adlx24596258 gndo:forename "Aelius";
+  gndo:surname "Sarapammon" .
+
+<https://d-nb.info/gnd/1018556192> gndo:variantNameForThePerson "Titus Aelius, Sarapammon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596259 .
+
+_:node1ivs02adlx24596259 gndo:personalName "Titus Aelius";
+  gndo:nameAddition "Sarapammon" .
+
+<https://d-nb.info/gnd/1018556192> gndo:variantNameForThePerson "Aelius, Sarapammon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596260 .
+
+_:node1ivs02adlx24596260 gndo:personalName "Aelius";
+  gndo:nameAddition "Sarapammon" .
+
+<https://d-nb.info/gnd/1018556192> gndo:preferredNameForThePerson "Sarapammon, Titus Aelius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24596261 .
+
+_:node1ivs02adlx24596261 gndo:forename "Titus Aelius";
+  gndo:surname "Sarapammon" .
+
+<https://d-nb.info/gnd/1018556192> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.4p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/1018556192/about> .
+
+<https://d-nb.info/gnd/1018556192/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/1018556192> gndo:biographicalOrHistoricalInformation "Soldat im röm. Heer und Veteran"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24596262 .
+
+_:node1ivs02adlx24596262 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4055409-0>;
+  rdf:_2 <https://d-nb.info/gnd/4188196-5> .
+

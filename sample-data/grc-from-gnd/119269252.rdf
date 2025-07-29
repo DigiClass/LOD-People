@@ -1,0 +1,108 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119269252> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119269252/about> .
+
+<https://d-nb.info/gnd/119269252/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2013-11-05T10:31:46.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119269252> gndo:gndIdentifier "119269252";
+  owl:sameAs <http://www.wikidata.org/entity/Q11934206>;
+  gndo:oldAuthorityNumber "(DE-588a)119269252", "(DE-588c)4383339-1";
+  gndo:variantNameForThePerson "Lucillius, Tarrhaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593443 .
+
+_:node1ivs02adlx24593443 gndo:personalName "Lucillius";
+  gndo:nameAddition "Tarrhaeus" .
+
+<https://d-nb.info/gnd/119269252> gndo:variantNameForThePerson "Lukillos, von Kreta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593444 .
+
+_:node1ivs02adlx24593444 gndo:personalName "Lukillos";
+  gndo:nameAddition "von Kreta" .
+
+<https://d-nb.info/gnd/119269252> gndo:variantNameForThePerson "Lukillos, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593445 .
+
+_:node1ivs02adlx24593445 gndo:personalName "Lukillos";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/119269252> gndo:variantNameForThePerson "Lucillus, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593446 .
+
+_:node1ivs02adlx24593446 gndo:personalName "Lucillus";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/119269252> gndo:variantNameForThePerson "Lucillus, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593447 .
+
+_:node1ivs02adlx24593447 gndo:personalName "Lucillus";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/119269252> gndo:variantNameForThePerson "Lukillos, von Tarrha";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593448 .
+
+_:node1ivs02adlx24593448 gndo:personalName "Lukillos";
+  gndo:nameAddition "von Tarrha" .
+
+<https://d-nb.info/gnd/119269252> gndo:preferredNameForThePerson "Lucillus, Tarrhaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593449 .
+
+_:node1ivs02adlx24593449 gndo:personalName "Lucillus";
+  gndo:nameAddition "Tarrhaeus" .
+
+<https://d-nb.info/gnd/119269252> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Zēnobiu Epitomē tōn Tarrhain kai Didymu paroimiōn. - 1535";
+  wdrs:describedby <https://d-nb.info/gnd/119269252/about> .
+
+<https://d-nb.info/gnd/119269252/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-21>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/119269252> gndo:biographicalOrHistoricalInformation "Sprichwörtersammlung;  Kommentar zu Apollonius Rhodius; Peri Thessalonikēs; nicht identisch mit  Lucillius <Epigrammaticus>; Griech. Grammatiker . Der Autor ist nicht zu verwechseln mit Lucillius <Epigrammaticus>, einem griech. Epigrammatiker"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[1./2. Jh.]" .
+

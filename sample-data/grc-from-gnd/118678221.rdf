@@ -1,0 +1,202 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118678221> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118678221/about> .
+
+<https://d-nb.info/gnd/118678221/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T12:53:17.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118678221> gndo:gndIdentifier "118678221";
+  owl:sameAs <https://dbpedia.org/resource/Didymus_Chalcenterus>, <http://viaf.org/viaf/100162362>,
+    <https://isni.org/isni/0000000118426956>, <http://www.wikidata.org/entity/Q506540>;
+  gndo:oldAuthorityNumber "(DE-588)1089773765";
+  owl:sameAs <https://d-nb.info/gnd/1089773765>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089773765";
+  gndo:oldAuthorityNumber "(DE-588)108927453X";
+  owl:sameAs <https://d-nb.info/gnd/108927453X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108927453X";
+  gndo:oldAuthorityNumber "(DE-588)187132062";
+  owl:sameAs <https://d-nb.info/gnd/187132062>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187132062";
+  gndo:oldAuthorityNumber "(DE-588a)187132062", "(DE-588)172043387";
+  owl:sameAs <https://d-nb.info/gnd/172043387>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172043387";
+  gndo:oldAuthorityNumber "(DE-588a)172043387", "(DE-588a)118678221", "(DE-588a)119653990",
+    "(DE-588c)4090761-2";
+  gndo:variantNameForThePerson "Didymos, Chalkenteros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594926 .
+
+_:node1ivs02adlx24594926 gndo:personalName "Didymos";
+  gndo:nameAddition "Chalkenteros" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymos, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594927 .
+
+_:node1ivs02adlx24594927 gndo:personalName "Didymos";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymos, Sohn des Didymos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594928 .
+
+_:node1ivs02adlx24594928 gndo:personalName "Didymos";
+  gndo:nameAddition "Sohn des Didymos" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymos, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594929 .
+
+_:node1ivs02adlx24594929 gndo:personalName "Didymos";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymos, Bibliolathas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594930 .
+
+_:node1ivs02adlx24594930 gndo:personalName "Didymos";
+  gndo:nameAddition "Bibliolathas" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymos, Philologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594931 .
+
+_:node1ivs02adlx24594931 gndo:personalName "Didymos";
+  gndo:nameAddition "Philologe" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594932 .
+
+_:node1ivs02adlx24594932 gndo:personalName "Didymus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymus, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594933 .
+
+_:node1ivs02adlx24594933 gndo:personalName "Didymus";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594934 .
+
+_:node1ivs02adlx24594934 gndo:personalName "Didymos" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Chalcenterus, Didymus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594935 .
+
+_:node1ivs02adlx24594935 gndo:forename "Didymus";
+  gndo:surname "Chalcenterus" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymus, Son of Didymus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594936 .
+
+_:node1ivs02adlx24594936 gndo:personalName "Didymus";
+  gndo:nameAddition "Son of Didymus" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didimo, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594937 .
+
+_:node1ivs02adlx24594937 gndo:personalName "Didimo";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118678221> gndo:variantNameForThePerson "Didymus, von Alexandrien, Chalcenterus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594938 .
+
+_:node1ivs02adlx24594938 gndo:personalName "Didymus";
+  gndo:nameAddition "von Alexandrien, Chalcenterus" .
+
+<https://d-nb.info/gnd/118678221> gndo:preferredNameForThePerson "Didymus, Chalcenterus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594939 .
+
+_:node1ivs02adlx24594939 gndo:personalName "Didymus";
+  gndo:nameAddition "Chalcenterus" .
+
+<https://d-nb.info/gnd/118678221> gndo:hasRelation _:node1ivs02adlx24594940 .
+
+_:node1ivs02adlx24594940 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678221> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594941 .
+
+_:node1ivs02adlx24594941 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118678221> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855333X>;
+  gndo:hasRelation _:node1ivs02adlx24594942 .
+
+_:node1ivs02adlx24594942 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855333X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678221> gndo:hasRelation _:node1ivs02adlx24594943 .
+
+_:node1ivs02adlx24594943 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678221> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594944 .
+
+_:node1ivs02adlx24594944 gndo:forename "Jakob";
+  gndo:surname "Moltzer" .
+
+<https://d-nb.info/gnd/118678221> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595873>;
+  gndo:hasRelation _:node1ivs02adlx24594945 .
+
+_:node1ivs02adlx24594945 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595873>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678221> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Interpretatio in Odysseam", "Interpretatio in Odysseam", "Scholia et interpretatione in Homeri Odysseam",
+    "Interpretationes et antiquae, et perquam utiles in Homeri Iliada,*", "Eis tēn Odysseian exēgēsis",
+    "Didymi In Demosthenem commenta", "Zēnobiu Epitomē tōn Tarrhain kai Didymu paroimiōn",
+    "Homerus: \\=GHOMĒRU ILIAS KAI ODYSSEIA META TĒS EXĒGĒSIOS.\\=g HOMERI ILIAS ET VLYSSEA CVM ...  1535.  (VD16 H 4591)",
+    "Homerus: Opera.  1541.  (VD16 H 4592)", "Homerus: Opera.  1551.  (VD16 H 4593)";
+  wdrs:describedby <https://d-nb.info/gnd/118678221/about> .
+
+<https://d-nb.info/gnd/118678221/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118678221> gndo:biographicalOrHistoricalInformation "Griech. Grammatiker u. Lexikograph augusteischer Zeit"@de;
+  gndo:udkCode "100 - 1 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v63 - v10]" .
+

@@ -1,0 +1,111 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/136621198> a gndo:DifferentiatedPerson;
+  owl:sameAs <https://orcid.org/0000-0002-7586-3340>, <https://isni.org/isni/0000000117718914>;
+  wdrs:describedby <https://d-nb.info/gnd/136621198/about> .
+
+<https://d-nb.info/gnd/136621198/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-02-26T17:43:52.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/136621198> gndo:gndIdentifier "136621198";
+  owl:sameAs <http://viaf.org/viaf/79107156>, <https://isni.org/isni/0000000117718914>,
+    <http://www.wikidata.org/entity/Q107707906>, <http://id.loc.gov/rwo/agents/nr95008404>;
+  gndo:oldAuthorityNumber "(DE-588)108934595X";
+  owl:sameAs <https://d-nb.info/gnd/108934595X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108934595X";
+  gndo:oldAuthorityNumber "(DE-588a)136621198", "(DE-588a)113999704";
+  gndo:variantNameForThePerson "Trapp, M. B.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397401 .
+
+_:node1ivpishs6x25397401 gndo:forename "M. B.";
+  gndo:surname "Trapp" .
+
+<https://d-nb.info/gnd/136621198> gndo:variantNameForThePerson "Trapp, Michael Burney";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397402 .
+
+_:node1ivpishs6x25397402 gndo:forename "Michael Burney";
+  gndo:surname "Trapp" .
+
+<https://d-nb.info/gnd/136621198> gndo:fullerFormOfNameOfThePerson _:node1ivpishs6x25397403 .
+
+_:node1ivpishs6x25397403 gndo:forename "Michael Burney";
+  gndo:surname "Trapp";
+  a gndo:FullerFormOfThePerson .
+
+<https://d-nb.info/gnd/136621198> gndo:variantNameForThePerson "Trapp, Michael";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397404 .
+
+_:node1ivpishs6x25397404 gndo:forename "Michael";
+  gndo:surname "Trapp" .
+
+<https://d-nb.info/gnd/136621198> gndo:preferredNameForThePerson "Trapp, Michael B.";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25397405 .
+
+_:node1ivpishs6x25397405 gndo:forename "Michael B.";
+  gndo:surname "Trapp" .
+
+<https://d-nb.info/gnd/136621198> gndo:affiliation <https://d-nb.info/gnd/42229-0>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:academicDegree "Prof. Dr.";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GB>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>,
+    <http://id.loc.gov/vocabulary/iso639-2/eng>;
+  wdrs:describedby <https://d-nb.info/gnd/136621198/about> .
+
+<https://d-nb.info/gnd/136621198/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-77>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-77> .
+
+<https://d-nb.info/gnd/136621198> gndo:homepage <https://www.kcl.ac.uk/artshums/depts/classics/people/academic/trapp/index.aspx>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4074335-4>;
+  gndo:professionOrOccupation _:node1ivpishs6x25397406 .
+
+_:node1ivpishs6x25397406 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4199241-6>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_3 <https://d-nb.info/gnd/4061414-1>;
+  rdf:_4 <https://d-nb.info/gnd/4025243-7> .
+
+<https://d-nb.info/gnd/136621198> gndo:dateOfBirth "1957"^^xsd:gYear .
+

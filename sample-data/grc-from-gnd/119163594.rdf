@@ -1,0 +1,207 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119163594> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119163594/about> .
+
+<https://d-nb.info/gnd/119163594/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T17:04:15.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119163594> gndo:gndIdentifier "119163594";
+  foaf:page <https://de.wikipedia.org/wiki/Nikolaos_von_Damaskus>;
+  owl:sameAs <https://dbpedia.org/resource/Nicolaus_of_Damascus>, <http://viaf.org/viaf/13145066462666591780>,
+    <https://isni.org/isni/000000008938555X>, <http://www.wikidata.org/entity/Q313924>,
+    <http://id.loc.gov/rwo/agents/n85344961>;
+  gndo:oldAuthorityNumber "(DE-588)1089602537";
+  owl:sameAs <https://d-nb.info/gnd/1089602537>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089602537";
+  gndo:oldAuthorityNumber "(DE-588a)119163594", "(DE-588a)186602839", "(DE-588c)4345736-8";
+  gndo:variantNameForThePerson "Nicola, Di Damasco";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593211 .
+
+_:node1ivs02adlx24593211 gndo:personalName "Nicola";
+  gndo:nameAddition "Di Damasco" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicolas, De Damase";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593212 .
+
+_:node1ivs02adlx24593212 gndo:personalName "Nicolas";
+  gndo:nameAddition "De Damase" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nīqūlāus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593213 .
+
+_:node1ivs02adlx24593213 gndo:personalName "Nīqūlāus" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Damasceni, Nicolai";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593214 .
+
+_:node1ivs02adlx24593214 gndo:forename "Nicolai";
+  gndo:surname "Damasceni" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nikolaos, von Damaskus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593215 .
+
+_:node1ivs02adlx24593215 gndo:personalName "Nikolaos";
+  gndo:nameAddition "von Damaskus" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicola, di Damasco";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593216 .
+
+_:node1ivs02adlx24593216 gndo:personalName "Nicola";
+  gndo:nameAddition "di Damasco" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicola, Storico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593217 .
+
+_:node1ivs02adlx24593217 gndo:personalName "Nicola";
+  gndo:nameAddition "Storico" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicolas, de Damase";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593218 .
+
+_:node1ivs02adlx24593218 gndo:personalName "Nicolas";
+  gndo:nameAddition "de Damase" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nikolaos, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593219 .
+
+_:node1ivs02adlx24593219 gndo:personalName "Nikolaos";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicolao, di Damasco";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593220 .
+
+_:node1ivs02adlx24593220 gndo:personalName "Nicolao";
+  gndo:nameAddition "di Damasco" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicolaus, of Damascus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593221 .
+
+_:node1ivs02adlx24593221 gndo:personalName "Nicolaus";
+  gndo:nameAddition "of Damascus" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicolaus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593222 .
+
+_:node1ivs02adlx24593222 gndo:personalName "Nicolaus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nikolaos, von Damaskos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593223 .
+
+_:node1ivs02adlx24593223 gndo:personalName "Nikolaos";
+  gndo:nameAddition "von Damaskos" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nikolaos, ho Damaskēnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593224 .
+
+_:node1ivs02adlx24593224 gndo:personalName "Nikolaos";
+  gndo:nameAddition "ho Damaskēnos" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicolas, de Damas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593225 .
+
+_:node1ivs02adlx24593225 gndo:personalName "Nicolas";
+  gndo:nameAddition "de Damas" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Damasceno, Nicola";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593226 .
+
+_:node1ivs02adlx24593226 gndo:forename "Nicola";
+  gndo:surname "Damasceno" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Damascenus, Nicolaus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593227 .
+
+_:node1ivs02adlx24593227 gndo:forename "Nicolaus";
+  gndo:surname "Damascenus" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicolaos, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593228 .
+
+_:node1ivs02adlx24593228 gndo:personalName "Nicolaos";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nikolaus, Damascenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593229 .
+
+_:node1ivs02adlx24593229 gndo:personalName "Nikolaus";
+  gndo:nameAddition "Damascenus" .
+
+<https://d-nb.info/gnd/119163594> gndo:variantNameForThePerson "Nicolaus Peripateticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593230 .
+
+_:node1ivs02adlx24593230 gndo:personalName "Nicolaus Peripateticus" .
+
+<https://d-nb.info/gnd/119163594> gndo:preferredNameForThePerson "Nicolaus, Damascenus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593231 .
+
+_:node1ivs02adlx24593231 gndo:personalName "Nicolaus";
+  gndo:nameAddition "Damascenus" .
+
+<https://d-nb.info/gnd/119163594> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Opera quae supersunt", "Nicolaus <Damascenus>: Quae supersunt",
+    "Nicolaus <Damascenus>: De natura stirpium liber unus et alter", "Polybius: Excerpta",
+    "Nicolaus <Damascenus>: Life of Augustus", "Nicolaus <Damascenus>: Deplantis libri duo Aristoteli vulgo adscripti",
+    "Nicolaus <Damascenus>: [Nicolaus Damascenus]", "Nicolaus <Damascenus>: Ex unversali Historia";
+  wdrs:describedby <https://d-nb.info/gnd/119163594/about> .
+
+<https://d-nb.info/gnd/119163594/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119163594> gndo:biographicalOrHistoricalInformation "Griechischer Geschichtsschreiber und Aristoteliker"@de;
+  gndo:udkCode "100 - 1 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivs02adlx24593232 .
+
+_:node1ivs02adlx24593232 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4155430-9>;
+  rdf:_3 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/119163594> gndo:dateOfBirth "-0064"^^xsd:gYear;
+  gndo:dateOfDeath "-0004"^^xsd:gYear .
+

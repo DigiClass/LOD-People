@@ -1,0 +1,129 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11878997X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11878997X/about> .
+
+<https://d-nb.info/gnd/11878997X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-02-19T00:30:59.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11878997X> gndo:gndIdentifier "11878997X";
+  owl:sameAs <https://dbpedia.org/resource/Paul_of_Samosata>, <http://viaf.org/viaf/1157523177227030717>,
+    <http://www.wikidata.org/entity/Q357771>;
+  gndo:oldAuthorityNumber "(DE-588)1089743955";
+  owl:sameAs <https://d-nb.info/gnd/1089743955>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089743955";
+  gndo:oldAuthorityNumber "(DE-588a)11878997X", "(DE-588a)10240190X", "(DE-588c)4111725-6";
+  gndo:variantNameForThePerson "Paulus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401860 .
+
+_:node1ivpishs6x25401860 gndo:personalName "Paulus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/11878997X> gndo:variantNameForThePerson "Paulus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401861 .
+
+_:node1ivpishs6x25401861 gndo:personalName "Paulus" .
+
+<https://d-nb.info/gnd/11878997X> gndo:variantNameForThePerson "Paulus, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401862 .
+
+_:node1ivpishs6x25401862 gndo:personalName "Paulus";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/11878997X> gndo:variantNameForThePerson "Paulus, Ducenarius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401863 .
+
+_:node1ivpishs6x25401863 gndo:personalName "Paulus";
+  gndo:nameAddition "Ducenarius" .
+
+<https://d-nb.info/gnd/11878997X> gndo:variantNameForThePerson "Paul, von Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401864 .
+
+_:node1ivpishs6x25401864 gndo:personalName "Paul";
+  gndo:nameAddition "von Samosata" .
+
+<https://d-nb.info/gnd/11878997X> gndo:variantNameForThePerson "Paul, de Samosate";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401865 .
+
+_:node1ivpishs6x25401865 gndo:personalName "Paul";
+  gndo:nameAddition "de Samosate" .
+
+<https://d-nb.info/gnd/11878997X> gndo:variantNameForThePerson "Samosatenus, Paulus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401866 .
+
+_:node1ivpishs6x25401866 gndo:forename "Paulus";
+  gndo:surname "Samosatenus" .
+
+<https://d-nb.info/gnd/11878997X> gndo:variantNameForThePerson "Paulus, von Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401867 .
+
+_:node1ivpishs6x25401867 gndo:personalName "Paulus";
+  gndo:nameAddition "von Samosata" .
+
+<https://d-nb.info/gnd/11878997X> gndo:preferredNameForThePerson "Paulus, Samosatenus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401868 .
+
+_:node1ivpishs6x25401868 gndo:personalName "Paulus";
+  gndo:nameAddition "Samosatenus" .
+
+<https://d-nb.info/gnd/11878997X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/11878997X/about> .
+
+<https://d-nb.info/gnd/11878997X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11878997X> gndo:biographicalOrHistoricalInformation "Griech. Kirchenschriftsteller u. Bischof von Antiochien"@de;
+  gndo:udkCode "201 - 300";
+  gndo:placeOfBirth <https://d-nb.info/gnd/1221277677>;
+  gndo:professionOrOccupation _:node1ivpishs6x25401869 .
+
+_:node1ivpishs6x25401869 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7>;
+  rdf:_2 <https://d-nb.info/gnd/4156443-1> .
+
+<https://d-nb.info/gnd/11878997X> gndo:dateOfBirthAndDeath "[3. Jh.]" .
+

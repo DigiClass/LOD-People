@@ -1,0 +1,121 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119266415> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119266415/about> .
+
+<https://d-nb.info/gnd/119266415/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2016-04-06T00:50:29.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119266415> gndo:gndIdentifier "119266415";
+  owl:sameAs <http://viaf.org/viaf/233458857>, <http://www.wikidata.org/entity/Q719224>,
+    <http://id.loc.gov/rwo/agents/no2004058827>;
+  gndo:oldAuthorityNumber "(DE-588)1089900872";
+  owl:sameAs <https://d-nb.info/gnd/1089900872>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089900872";
+  gndo:oldAuthorityNumber "(DE-588)1089732376";
+  owl:sameAs <https://d-nb.info/gnd/1089732376>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089732376";
+  gndo:oldAuthorityNumber "(DE-588)1089602847";
+  owl:sameAs <https://d-nb.info/gnd/1089602847>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089602847";
+  gndo:oldAuthorityNumber "(DE-588)1089574444";
+  owl:sameAs <https://d-nb.info/gnd/1089574444>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089574444";
+  gndo:oldAuthorityNumber "(DE-588a)119266415", "(DE-588c)4382290-3";
+  gndo:variantNameForThePerson "Makarios, von Magnesia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593435 .
+
+_:node1ivs02adlx24593435 gndo:personalName "Makarios";
+  gndo:nameAddition "von Magnesia" .
+
+<https://d-nb.info/gnd/119266415> gndo:variantNameForThePerson "Makarios, Magnētos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593436 .
+
+_:node1ivs02adlx24593436 gndo:personalName "Makarios";
+  gndo:nameAddition "Magnētos" .
+
+<https://d-nb.info/gnd/119266415> gndo:variantNameForThePerson "Makarios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593437 .
+
+_:node1ivs02adlx24593437 gndo:personalName "Makarios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/119266415> gndo:variantNameForThePerson "Macarius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593438 .
+
+_:node1ivs02adlx24593438 gndo:personalName "Macarius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/119266415> gndo:variantNameForThePerson "Macarios, de Magnésie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593439 .
+
+_:node1ivs02adlx24593439 gndo:personalName "Macarios";
+  gndo:nameAddition "de Magnésie" .
+
+<https://d-nb.info/gnd/119266415> gndo:variantNameForThePerson "Makarios, Magnes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593440 .
+
+_:node1ivs02adlx24593440 gndo:personalName "Makarios";
+  gndo:nameAddition "Magnes" .
+
+<https://d-nb.info/gnd/119266415> gndo:preferredNameForThePerson "Macarius, Magnes";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593441 .
+
+_:node1ivs02adlx24593441 gndo:personalName "Macarius";
+  gndo:nameAddition "Magnes" .
+
+<https://d-nb.info/gnd/119266415> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119266415/about> .
+
+<https://d-nb.info/gnd/119266415/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119266415> gndo:biographicalOrHistoricalInformation "Bischof von Magnesia"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:dateOfBirthAndDeath "[4./5. Jh.]" .
+

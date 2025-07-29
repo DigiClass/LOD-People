@@ -1,0 +1,248 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118549839> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118549839/about> .
+
+<https://d-nb.info/gnd/118549839/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:52:58.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118549839> gndo:gndIdentifier "118549839";
+  foaf:page <https://de.wikipedia.org/wiki/Herodes_Atticus>;
+  owl:sameAs <https://dbpedia.org/resource/Herodes_Atticus>, <http://viaf.org/viaf/64133411>,
+    <https://isni.org/isni/0000000121366093>, <http://www.wikidata.org/entity/Q311879>;
+  gndo:oldAuthorityNumber "(DE-588a)118549839", "(DE-588c)4024547-0";
+  gndo:variantNameForThePerson "Herodes, Lucius Vibullius Hipparchus Tiberius Claudius Atticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400136 .
+
+_:node1ivpishs6x25400136 gndo:forename "Lucius Vibullius Hipparchus Tiberius Claudius Atticus";
+  gndo:surname "Herodes" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Lucius Vibullius Hipparchus Tiberius Claudius Atticus Herodes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400137 .
+
+_:node1ivpishs6x25400137 gndo:personalName "Lucius Vibullius Hipparchus Tiberius Claudius Atticus Herodes" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400138 .
+
+_:node1ivpishs6x25400138 gndo:personalName "Herodes";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, von Attika";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400139 .
+
+_:node1ivpishs6x25400139 gndo:personalName "Herodes";
+  gndo:nameAddition "von Attika" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, von Marathon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400140 .
+
+_:node1ivpishs6x25400140 gndo:personalName "Herodes";
+  gndo:nameAddition "von Marathon" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400141 .
+
+_:node1ivpishs6x25400141 gndo:personalName "Herodes";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Attikos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400142 .
+
+_:node1ivpishs6x25400142 gndo:personalName "Herodes";
+  gndo:nameAddition "Attikos" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400143 .
+
+_:node1ivpishs6x25400143 gndo:personalName "Herodes";
+  gndo:nameAddition "Sophist" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes Atticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400144 .
+
+_:node1ivpishs6x25400144 gndo:personalName "Herodes Atticus" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400145 .
+
+_:node1ivpishs6x25400145 gndo:personalName "Herodes";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400146 .
+
+_:node1ivpishs6x25400146 gndo:personalName "Herodes";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Claudius Atticus Herodes, Tiberius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400147 .
+
+_:node1ivpishs6x25400147 gndo:forename "Tiberius";
+  gndo:surname "Claudius Atticus Herodes" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Atticus, Herodes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400148 .
+
+_:node1ivpishs6x25400148 gndo:forename "Herodes";
+  gndo:surname "Atticus" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Hērōdēs Attikos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400149 .
+
+_:node1ivpishs6x25400149 gndo:personalName "Hērōdēs Attikos" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes Atticus, Tiberius Claudius Atticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400150 .
+
+_:node1ivpishs6x25400150 gndo:forename "Tiberius Claudius Atticus";
+  gndo:surname "Herodes Atticus" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400151 .
+
+_:node1ivpishs6x25400151 gndo:personalName "Herodes" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400152 .
+
+_:node1ivpishs6x25400152 gndo:personalName "Herodes";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes Atticus, Lucius Vibullus Hipparchus Tiberius Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400153 .
+
+_:node1ivpishs6x25400153 gndo:forename "Lucius Vibullus Hipparchus Tiberius Claudius";
+  gndo:surname "Herodes Atticus" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Hérode, de Marathon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400154 .
+
+_:node1ivpishs6x25400154 gndo:personalName "Hérode";
+  gndo:nameAddition "de Marathon" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Hérode, Atticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400155 .
+
+_:node1ivpishs6x25400155 gndo:personalName "Hérode";
+  gndo:nameAddition "Atticus" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Tiberius Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400156 .
+
+_:node1ivpishs6x25400156 gndo:forename "Tiberius Claudius";
+  gndo:surname "Herodes" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Tiberius C.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400157 .
+
+_:node1ivpishs6x25400157 gndo:forename "Tiberius C.";
+  gndo:surname "Herodes" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Atticus, Sophist, Rhetor, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400158 .
+
+_:node1ivpishs6x25400158 gndo:personalName "Herodes";
+  gndo:nameAddition "Atticus, Sophist, Rhetor, Politiker" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Atticus, Herodes, Sophist, Rhetor, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400159 .
+
+_:node1ivpishs6x25400159 gndo:forename "Herodes";
+  gndo:surname "Atticus";
+  gndo:nameAddition "Sophist, Rhetor, Politiker" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Attikos, Sophist, Rhetor, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400160 .
+
+_:node1ivpishs6x25400160 gndo:personalName "Herodes";
+  gndo:nameAddition "Attikos, Sophist, Rhetor, Politiker" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Herodes, Tiberius Claudius, Sophist, Rhetor, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400161 .
+
+_:node1ivpishs6x25400161 gndo:forename "Tiberius Claudius";
+  gndo:surname "Herodes";
+  gndo:nameAddition "Sophist, Rhetor, Politiker" .
+
+<https://d-nb.info/gnd/118549839> gndo:variantNameForThePerson "Erode, Attico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400162 .
+
+_:node1ivpishs6x25400162 gndo:personalName "Erode";
+  gndo:nameAddition "Attico" .
+
+<https://d-nb.info/gnd/118549839> gndo:preferredNameForThePerson "Herodes, Atticus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400163 .
+
+_:node1ivpishs6x25400163 gndo:personalName "Herodes";
+  gndo:nameAddition "Atticus" .
+
+<https://d-nb.info/gnd/118549839> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Herodes <Atticus>: Oratio de republica", "Herodes <Atticus>: Herodis Attici quae supersunt",
+    "Gorgias: Declamationes", "Lesbonax <Rhetoricus>: Lesbonax, Herodes, Antisthenes, Alcidamas, Gorgias",
+    "Dinarchus: Orationes politicae Dinarchi, Lesbonactis, Lycurgi, Herodis, Demadis; gr. [et]*",
+    "Herodes <Atticus>: Orationes";
+  wdrs:describedby <https://d-nb.info/gnd/118549839/about> .
+
+<https://d-nb.info/gnd/118549839/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118549839> gndo:biographicalOrHistoricalInformation "Griechischer Sophist, Rhetor und Politiker"@de;
+  gndo:udkCode "101 - 200";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4114984-1>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4114984-1>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25400164 .
+
+_:node1ivpishs6x25400164 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4048895-0>;
+  rdf:_2 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/118549839> gndo:dateOfBirth "0101"^^xsd:gYear;
+  gndo:dateOfDeath "0177"^^xsd:gYear .
+

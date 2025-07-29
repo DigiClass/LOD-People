@@ -1,0 +1,294 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118550845> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118550845/about> .
+
+<https://d-nb.info/gnd/118550845/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:26:25.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118550845> gndo:gndIdentifier "118550845";
+  owl:sameAs <https://dbpedia.org/resource/Hierocles_of_Alexandria>, <http://viaf.org/viaf/10637381>,
+    <http://www.wikidata.org/entity/Q248840>;
+  gndo:oldAuthorityNumber "(DE-588)1089237995";
+  owl:sameAs <https://d-nb.info/gnd/1089237995>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089237995";
+  gndo:oldAuthorityNumber "(DE-588)1089898398";
+  owl:sameAs <https://d-nb.info/gnd/1089898398>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089898398";
+  gndo:oldAuthorityNumber "(DE-588)1089724292";
+  owl:sameAs <https://d-nb.info/gnd/1089724292>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089724292";
+  gndo:oldAuthorityNumber "(DE-588)174148690";
+  owl:sameAs <https://d-nb.info/gnd/174148690>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174148690";
+  gndo:oldAuthorityNumber "(DE-588a)174148690", "(DE-588a)118550845", "(DE-588a)119709570",
+    "(DE-588c)4024848-3";
+  gndo:variantNameForThePerson "Hierocles, aus Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590060 .
+
+_:node1ivs02adlx24590060 gndo:personalName "Hierocles";
+  gndo:nameAddition "aus Alexandria" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierocles, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590061 .
+
+_:node1ivs02adlx24590061 gndo:personalName "Hierocles";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierocles, Neoplatonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590062 .
+
+_:node1ivs02adlx24590062 gndo:personalName "Hierocles";
+  gndo:nameAddition "Neoplatonicus" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierocles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590063 .
+
+_:node1ivs02adlx24590063 gndo:personalName "Hierocles" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierocles, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590064 .
+
+_:node1ivs02adlx24590064 gndo:personalName "Hierocles";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierocles, Neoplatonist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590065 .
+
+_:node1ivs02adlx24590065 gndo:personalName "Hierocles";
+  gndo:nameAddition "Neoplatonist" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierocles, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590066 .
+
+_:node1ivs02adlx24590066 gndo:personalName "Hierocles";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierocles, Facetiarum Scriptor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590067 .
+
+_:node1ivs02adlx24590067 gndo:personalName "Hierocles";
+  gndo:nameAddition "Facetiarum Scriptor" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierocles, Platonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590068 .
+
+_:node1ivs02adlx24590068 gndo:personalName "Hierocles";
+  gndo:nameAddition "Platonicus" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hiéroclès, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590069 .
+
+_:node1ivs02adlx24590069 gndo:personalName "Hiéroclès";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hieroclis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590070 .
+
+_:node1ivs02adlx24590070 gndo:personalName "Hieroclis" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hieroklēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590071 .
+
+_:node1ivs02adlx24590071 gndo:personalName "Hieroklēs" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierokles, der Neuplatoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590072 .
+
+_:node1ivs02adlx24590072 gndo:personalName "Hierokles";
+  gndo:nameAddition "der Neuplatoniker" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierokles, aus Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590073 .
+
+_:node1ivs02adlx24590073 gndo:personalName "Hierokles";
+  gndo:nameAddition "aus Alexandreia" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierokles, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590074 .
+
+_:node1ivs02adlx24590074 gndo:personalName "Hierokles";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hieroklēs, Alexandrinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590075 .
+
+_:node1ivs02adlx24590075 gndo:personalName "Hieroklēs";
+  gndo:nameAddition "Alexandrinos" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierokles, Neuplatoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590076 .
+
+_:node1ivs02adlx24590076 gndo:personalName "Hierokles";
+  gndo:nameAddition "Neuplatoniker" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierokles, Schüler des Plutarch von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590077 .
+
+_:node1ivs02adlx24590077 gndo:personalName "Hierokles";
+  gndo:nameAddition "Schüler des Plutarch von Athen" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hierokles, Philosophus Stoicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590078 .
+
+_:node1ivs02adlx24590078 gndo:personalName "Hierokles";
+  gndo:nameAddition "Philosophus Stoicus" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hieron, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590079 .
+
+_:node1ivs02adlx24590079 gndo:personalName "Hieron";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Hirocles, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590080 .
+
+_:node1ivs02adlx24590080 gndo:personalName "Hirocles";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Alexandrinus, Hierocles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590081 .
+
+_:node1ivs02adlx24590081 gndo:forename "Hierocles";
+  gndo:surname "Alexandrinus" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Ierocle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590082 .
+
+_:node1ivs02adlx24590082 gndo:personalName "Ierocle" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Ierocle, Filosofo Neoplatonico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590083 .
+
+_:node1ivs02adlx24590083 gndo:personalName "Ierocle";
+  gndo:nameAddition "Filosofo Neoplatonico" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Ierocle, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590084 .
+
+_:node1ivs02adlx24590084 gndo:personalName "Ierocle";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Ierokleus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590085 .
+
+_:node1ivs02adlx24590085 gndo:personalName "Ierokleus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118550845> gndo:variantNameForThePerson "Ieorokleus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590086 .
+
+_:node1ivs02adlx24590086 gndo:personalName "Ieorokleus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118550845> gndo:preferredNameForThePerson "Hierocles, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590087 .
+
+_:node1ivs02adlx24590087 gndo:personalName "Hierocles";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118550845> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118597248>;
+  gndo:hasRelation _:node1ivs02adlx24590088 .
+
+_:node1ivs02adlx24590088 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118597248>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550845> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118772295>;
+  gndo:hasRelation _:node1ivs02adlx24590089 .
+
+_:node1ivs02adlx24590089 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118772295>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550845> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100937047>;
+  gndo:hasRelation _:node1ivs02adlx24590090 .
+
+_:node1ivs02adlx24590090 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100937047>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550845> gndo:hasRelation _:node1ivs02adlx24590091 .
+
+_:node1ivs02adlx24590091 gndo:functionOrRoleAsLiteral "Basel; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550845> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590092 .
+
+_:node1ivs02adlx24590092 gndo:forename "Heinrich";
+  gndo:surname "Petri" .
+
+<https://d-nb.info/gnd/118550845> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/103142908>;
+  gndo:hasRelation _:node1ivs02adlx24590093 .
+
+_:node1ivs02adlx24590093 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/103142908>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550845> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hierocles <aus Alexandria>: HIEROCLIS PHILOSOPHI LIBER, omnia ueteris Philosophiae humanarum & Diuinarũ rerum inuoluta ... 1543. (VD16 H 3475)",
+    "Pythagoras: Carmina aurea. 1511. (VD16 P 5459)", "Hierocles <Alexandrinus>: Commentarius in aurea Pythagoreorum",
+    "Hierocles <Alexandrinus>: Commento di Ierocle sopra i versi die Pitagora, detti d'oro",
+    "Zinkgref, Julius W.: Newlich vermehrte Pennal- und Schul-Possen oder Geschichte",
+    "Hierocles <Alexandrinus>: Hypomnēma eis ta tōn Pythagoreiōn epē ta chrysa", "Hierocles <Alexandrinus>: Commentarius in aurea Pythagoreorum Carmina",
+    "Hierocles <Alexandrinus>: In aurea Carmina Commentarius", "Hierocles <Alexandrinus>: In aureos versus Pythagorae opusculum",
+    "Hierocles <Alexandrinus>: In aurea Pythagorae Carmina Commentarius", "Pythagoras,: Gyldene Vers",
+    "Hierocles <Alexandrinus>: Hypomnēma eis ta tōn Pytagoreiōn epē ta chrysa. - 158";
+  wdrs:describedby <https://d-nb.info/gnd/118550845/about> .
+
+<https://d-nb.info/gnd/118550845/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118550845> gndo:biographicalOrHistoricalInformation "Neuplaton. Philosoph"@de;
+  gndo:udkCode "401 - 500";
+  gndo:professionOrOccupation _:node1ivs02adlx24590094 .
+
+_:node1ivs02adlx24590094 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118550845> gndo:dateOfBirthAndDeath "[5. Jh.]" .
+

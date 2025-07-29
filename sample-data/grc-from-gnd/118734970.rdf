@@ -1,0 +1,298 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118734970> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118734970/about> .
+
+<https://d-nb.info/gnd/118734970/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-08-18T05:51:43.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118734970> gndo:gndIdentifier "118734970";
+  foaf:page <https://de.wikipedia.org/wiki/Nilus_der_%C3%84ltere>;
+  owl:sameAs <https://dbpedia.org/resource/Nilus_of_Sinai>, <http://viaf.org/viaf/71405213>,
+    <https://isni.org/isni/0000000117693729>, <http://www.wikidata.org/entity/Q770938>,
+    <http://id.loc.gov/rwo/agents/n84114935>;
+  gndo:oldAuthorityNumber "(DE-588)1090569106";
+  owl:sameAs <https://d-nb.info/gnd/1090569106>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090569106";
+  gndo:oldAuthorityNumber "(DE-588)1090013965";
+  owl:sameAs <https://d-nb.info/gnd/1090013965>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090013965";
+  gndo:oldAuthorityNumber "(DE-588)1089765630";
+  owl:sameAs <https://d-nb.info/gnd/1089765630>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089765630";
+  gndo:oldAuthorityNumber "(DE-588)174391692";
+  owl:sameAs <https://d-nb.info/gnd/174391692>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174391692";
+  gndo:oldAuthorityNumber "(DE-588a)174391692", "(DE-588a)118734970", "(DE-588a)119774771",
+    "(DE-588c)4101249-5";
+  gndo:variantNameForThePerson "Nilus, der Ältere";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592831 .
+
+_:node1ivs02adlx24592831 gndo:personalName "Nilus";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592832 .
+
+_:node1ivs02adlx24592832 gndo:personalName "Neilos" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, von Ancyra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592833 .
+
+_:node1ivs02adlx24592833 gndo:personalName "Nilus";
+  gndo:nameAddition "von Ancyra" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, aus Ancyra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592834 .
+
+_:node1ivs02adlx24592834 gndo:personalName "Nilus";
+  gndo:nameAddition "aus Ancyra" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Asceta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592835 .
+
+_:node1ivs02adlx24592835 gndo:personalName "Nilus";
+  gndo:nameAddition "Asceta" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Abbas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592836 .
+
+_:node1ivs02adlx24592836 gndo:personalName "Nilus";
+  gndo:nameAddition "Abbas" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Abt";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592837 .
+
+_:node1ivs02adlx24592837 gndo:personalName "Nilus";
+  gndo:nameAddition "Abt" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Eparchus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592838 .
+
+_:node1ivs02adlx24592838 gndo:personalName "Nilus";
+  gndo:nameAddition "Eparchus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Sinaita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592839 .
+
+_:node1ivs02adlx24592839 gndo:personalName "Nilus";
+  gndo:nameAddition "Sinaita" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Sinaiticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592840 .
+
+_:node1ivs02adlx24592840 gndo:personalName "Nilus";
+  gndo:nameAddition "Sinaiticus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilos, von Ankyra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592841 .
+
+_:node1ivs02adlx24592841 gndo:personalName "Neilos";
+  gndo:nameAddition "von Ankyra" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilos, der Asket";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592842 .
+
+_:node1ivs02adlx24592842 gndo:personalName "Neilos";
+  gndo:nameAddition "der Asket" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilos, der Ältere";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592843 .
+
+_:node1ivs02adlx24592843 gndo:personalName "Neilos";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilos, Christlicher Epiktet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592844 .
+
+_:node1ivs02adlx24592844 gndo:personalName "Neilos";
+  gndo:nameAddition "Christlicher Epiktet" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Ancyranus, Nilus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592845 .
+
+_:node1ivs02adlx24592845 gndo:forename "Nilus";
+  gndo:surname "Ancyranus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilos, Askētēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592846 .
+
+_:node1ivs02adlx24592846 gndo:personalName "Neilos";
+  gndo:nameAddition "Askētēs" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilos, Episkopos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592847 .
+
+_:node1ivs02adlx24592847 gndo:personalName "Neilos";
+  gndo:nameAddition "Episkopos" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilos, Martyros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592848 .
+
+_:node1ivs02adlx24592848 gndo:personalName "Neilos";
+  gndo:nameAddition "Martyros" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592849 .
+
+_:node1ivs02adlx24592849 gndo:personalName "Nilus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592850 .
+
+_:node1ivs02adlx24592850 gndo:personalName "Nilus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilo, il Solitario";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592851 .
+
+_:node1ivs02adlx24592851 gndo:personalName "Nilo";
+  gndo:nameAddition "il Solitario" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592852 .
+
+_:node1ivs02adlx24592852 gndo:personalName "Nilus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Martyr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592853 .
+
+_:node1ivs02adlx24592853 gndo:personalName "Nilus";
+  gndo:nameAddition "Martyr" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nil, Abba";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592854 .
+
+_:node1ivs02adlx24592854 gndo:personalName "Nil";
+  gndo:nameAddition "Abba" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Neilus, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592855 .
+
+_:node1ivs02adlx24592855 gndo:personalName "Neilus";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592856 .
+
+_:node1ivs02adlx24592856 gndo:personalName "Nilus";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Pseudo-Nilus, Ancyranus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592857 .
+
+_:node1ivs02adlx24592857 gndo:personalName "Pseudo-Nilus";
+  gndo:nameAddition "Ancyranus" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Pseudo-Neilos, Ankyranos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592858 .
+
+_:node1ivs02adlx24592858 gndo:personalName "Pseudo-Neilos";
+  gndo:nameAddition "Ankyranos" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nil, d'Ancyre";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592859 .
+
+_:node1ivs02adlx24592859 gndo:personalName "Nil";
+  gndo:nameAddition "d'Ancyre" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nil, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592860 .
+
+_:node1ivs02adlx24592860 gndo:personalName "Nil";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Nilus, der Asket";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592861 .
+
+_:node1ivs02adlx24592861 gndo:personalName "Nilus";
+  gndo:nameAddition "der Asket" .
+
+<https://d-nb.info/gnd/118734970> gndo:variantNameForThePerson "Pseudo-Neilos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592862 .
+
+_:node1ivs02adlx24592862 gndo:personalName "Pseudo-Neilos" .
+
+<https://d-nb.info/gnd/118734970> gndo:preferredNameForThePerson "Nilus, Ancyranus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592863 .
+
+_:node1ivs02adlx24592863 gndo:personalName "Nilus";
+  gndo:nameAddition "Ancyranus" .
+
+<https://d-nb.info/gnd/118734970> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Capita de vita piè, christianè exigenda", "Capita", "Capita",
+    "Capita seu praeceptiones Sententiosae", "Epistolae", "Epistolarum libri 4", "Christliche ... underweysung",
+    "Biblos askētikos", "Praecepta", "Beatissi. patris Nili. episcopi et martyris Theologi antiquiss. Sent*",
+    "Beatissimi patr\\[is] Nili Episcopi \\[et] martyris Theologi antiq̃ssimi Sentẽtie morales e ...  1516.  (VD16 N 1758)",
+    "Beatissimi patris Nili Ep̃i et martyris Theologi anti\\oqssimi Sentẽtie morales e graeco ...  1517.  (VD16 ZV 11740)",
+    "Theodoretus <von Cyrus>: Ecclesiastica historia.  1573.  (VD16 ZV 14915)", "BEATISS. PATRIS NILI, EPISCOPI ET martyris Theologi antiquiss, Sentẽtiae morales e graeco ...  1516.  (VD16 N 1759)",
+    "BEATISS. PATRIS NILI, EPISCOPI ET martyris Theologi antiquiss, Sentẽtiae morales e graeco ...  1516.  (VD16 N 1760)",
+    "Christliche vnd Sittliche vnderweysung Des Heiligen Bischoffs vnd Marterers Nili so vor vil ...  1546.  (VD16 N 1768)",
+    "Sententiae morales.  1538.  (VD16 ZV 16135)", "Theodoretus <von Cyrus>: Psalmi.  1567.  (VD16 T 743)",
+    "Christliche vnd Sittliche vnderweysung Des Heiligen Bischoffs vnd Marterers Nili so vor vil ...  1545.  (VD16 ZV 11745)",
+    "BEATISSI. PATRIS NILI. EPIscopi & martyris Theologi antiquiss. Sententiae morales e ...  1517.  (VD16 ZV 11741)";
+  wdrs:describedby <https://d-nb.info/gnd/118734970/about> .
+
+<https://d-nb.info/gnd/118734970/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118734970> gndo:biographicalOrHistoricalInformation "Staatsbeamter im oströmischen Reich, später Mönch; Klostervorsteher in Ankyra; griech. Schriftsteller; zählt zu den Kirchenvätern"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4002075-7>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592864 .
+
+_:node1ivs02adlx24592864 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4039902-3>;
+  rdf:_2 <https://d-nb.info/gnd/4000273-1>;
+  rdf:_3 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_4 <https://d-nb.info/gnd/4005081-6> .
+
+<https://d-nb.info/gnd/118734970> gndo:dateOfDeath "0430"^^xsd:gYear .
+

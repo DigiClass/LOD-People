@@ -1,0 +1,397 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118537202> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118537202/about> .
+
+<https://d-nb.info/gnd/118537202/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-17T22:11:04.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118537202> gndo:gndIdentifier "118537202";
+  foaf:page <https://de.wikipedia.org/wiki/Galenos>;
+  owl:sameAs <https://dbpedia.org/resource/Galen>, <http://viaf.org/viaf/44299175>,
+    <https://isni.org/isni/0000000121302401>, <http://www.wikidata.org/entity/Q8778>,
+    <http://id.loc.gov/rwo/agents/n79059644>;
+  gndo:oldAuthorityNumber "(DE-588)1101689498";
+  owl:sameAs <https://d-nb.info/gnd/1101689498>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1101689498";
+  gndo:oldAuthorityNumber "(DE-588)183331133";
+  owl:sameAs <https://d-nb.info/gnd/183331133>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183331133";
+  gndo:oldAuthorityNumber "(DE-588a)183331133", "(DE-588)1089094655";
+  owl:sameAs <https://d-nb.info/gnd/1089094655>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089094655";
+  gndo:oldAuthorityNumber "(DE-588)174122047";
+  owl:sameAs <https://d-nb.info/gnd/174122047>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174122047";
+  gndo:oldAuthorityNumber "(DE-588a)174122047", "(DE-588)127013334";
+  owl:sameAs <https://d-nb.info/gnd/127013334>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/127013334";
+  gndo:oldAuthorityNumber "(DE-588a)127013334", "(DE-588a)118537202", "(DE-588c)4019113-8";
+  gndo:variantNameForThePerson "Galen, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396131 .
+
+_:node1ivpishs6x25396131 gndo:forename "Claudius";
+  gndo:surname "Galen" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galen, von Pergamon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396132 .
+
+_:node1ivpishs6x25396132 gndo:personalName "Galen";
+  gndo:nameAddition "von Pergamon" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396133 .
+
+_:node1ivpishs6x25396133 gndo:personalName "Galenos" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenus, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396134 .
+
+_:node1ivpishs6x25396134 gndo:personalName "Galenus";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenus, Pergamenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396135 .
+
+_:node1ivpishs6x25396135 gndo:personalName "Galenus";
+  gndo:nameAddition "Pergamenus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galēnos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396136 .
+
+_:node1ivpishs6x25396136 gndo:personalName "Galēnos" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galeno";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396137 .
+
+_:node1ivpishs6x25396137 gndo:personalName "Galeno" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galeno, di Pergamo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396138 .
+
+_:node1ivpishs6x25396138 gndo:personalName "Galeno";
+  gndo:nameAddition "di Pergamo" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galeno, Filosofo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396139 .
+
+_:node1ivpishs6x25396139 gndo:personalName "Galeno";
+  gndo:nameAddition "Filosofo" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galeno, Medico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396140 .
+
+_:node1ivpishs6x25396140 gndo:personalName "Galeno";
+  gndo:nameAddition "Medico" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396141 .
+
+_:node1ivpishs6x25396141 gndo:personalName "Galien" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galè, Claudi";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396142 .
+
+_:node1ivpishs6x25396142 gndo:forename "Claudi";
+  gndo:surname "Galè" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Kaibel, Georgius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396143 .
+
+_:node1ivpishs6x25396143 gndo:forename "Georgius";
+  gndo:surname "Kaibel" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galēnos, Klaudios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396144 .
+
+_:node1ivpishs6x25396144 gndo:forename "Klaudios";
+  gndo:surname "Galēnos" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenos, Klaudios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396145 .
+
+_:node1ivpishs6x25396145 gndo:forename "Klaudios";
+  gndo:surname "Galenos" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Pseudogalenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396146 .
+
+_:node1ivpishs6x25396146 gndo:personalName "Pseudogalenus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galeno, Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396147 .
+
+_:node1ivpishs6x25396147 gndo:forename "Claudio";
+  gndo:surname "Galeno" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galien, Claude";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396148 .
+
+_:node1ivpishs6x25396148 gndo:forename "Claude";
+  gndo:surname "Galien" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396149 .
+
+_:node1ivpishs6x25396149 gndo:personalName "Galen" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396150 .
+
+_:node1ivpishs6x25396150 gndo:forename "Claudius";
+  gndo:surname "Galenus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Claudius, Galenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396151 .
+
+_:node1ivpishs6x25396151 gndo:personalName "Claudius";
+  gndo:nameAddition "Galenus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenos, von Pergamon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396152 .
+
+_:node1ivpishs6x25396152 gndo:personalName "Galenos";
+  gndo:nameAddition "von Pergamon" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galen, aus Pergamon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396153 .
+
+_:node1ivpishs6x25396153 gndo:personalName "Galen";
+  gndo:nameAddition "aus Pergamon" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Pseudo-Galenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396154 .
+
+_:node1ivpishs6x25396154 gndo:personalName "Pseudo-Galenus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Pseudo-Galenos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396155 .
+
+_:node1ivpishs6x25396155 gndo:personalName "Pseudo-Galenos" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galien, de Pergame";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396156 .
+
+_:node1ivpishs6x25396156 gndo:personalName "Galien";
+  gndo:nameAddition "de Pergame" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galienus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396157 .
+
+_:node1ivpishs6x25396157 gndo:personalName "Galienus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Ǧālīnūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396158 .
+
+_:node1ivpishs6x25396158 gndo:personalName "Ǧālīnūs" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galienus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396159 .
+
+_:node1ivpishs6x25396159 gndo:forename "Claudius";
+  gndo:surname "Galienus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenus, Claudius, Pergamenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396160 .
+
+_:node1ivpishs6x25396160 gndo:forename "Claudius";
+  gndo:surname "Galenus";
+  gndo:nameAddition "Pergamenus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenus, Claudius, Pergamensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396161 .
+
+_:node1ivpishs6x25396161 gndo:forename "Claudius";
+  gndo:surname "Galenus";
+  gndo:nameAddition "Pergamensis" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenus, Claudius, Pergameni";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396162 .
+
+_:node1ivpishs6x25396162 gndo:forename "Claudius";
+  gndo:surname "Galenus";
+  gndo:nameAddition "Pergameni" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenus, Claudius, Pergam.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396163 .
+
+_:node1ivpishs6x25396163 gndo:forename "Claudius";
+  gndo:surname "Galenus";
+  gndo:nameAddition "Pergam." .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galenus, Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396164 .
+
+_:node1ivpishs6x25396164 gndo:forename "Aelius";
+  gndo:surname "Galenus" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galienos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396165 .
+
+_:node1ivpishs6x25396165 gndo:personalName "Galienos" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galeni";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396166 .
+
+_:node1ivpishs6x25396166 gndo:personalName "Galeni" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "Galēnu";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396167 .
+
+_:node1ivpishs6x25396167 gndo:personalName "Galēnu" .
+
+<https://d-nb.info/gnd/118537202> gndo:variantNameForThePerson "جالينوس"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396168 .
+
+_:node1ivpishs6x25396168 gndo:personalName "جالينوس" .
+
+<https://d-nb.info/gnd/118537202> gndo:preferredNameForThePerson "Galenus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396169 .
+
+_:node1ivpishs6x25396169 gndo:personalName "Galenus" .
+
+<https://d-nb.info/gnd/118537202> gndo:hasRelation _:node1ivpishs6x25396170 .
+
+_:node1ivpishs6x25396170 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396171 .
+
+_:node1ivpishs6x25396171 gndo:forename "Johannes";
+  gndo:surname "Winther" .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118626469>;
+  gndo:hasRelation _:node1ivpishs6x25396172 .
+
+_:node1ivpishs6x25396172 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118626469>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119613336>;
+  gndo:hasRelation _:node1ivpishs6x25396173 .
+
+_:node1ivpishs6x25396173 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119613336>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118868365>;
+  gndo:hasRelation _:node1ivpishs6x25396174 .
+
+_:node1ivpishs6x25396174 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118868365>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124554342>;
+  gndo:hasRelation _:node1ivpishs6x25396175 .
+
+_:node1ivpishs6x25396175 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124554342>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:hasRelation _:node1ivpishs6x25396176 .
+
+_:node1ivpishs6x25396176 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396177 .
+
+_:node1ivpishs6x25396177 gndo:forename "Johannes";
+  gndo:surname "Fichard" .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119046377>;
+  gndo:hasRelation _:node1ivpishs6x25396178 .
+
+_:node1ivpishs6x25396178 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119046377>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120853302>;
+  gndo:hasRelation _:node1ivpishs6x25396179 .
+
+_:node1ivpishs6x25396179 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120853302>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11769875X>;
+  gndo:hasRelation _:node1ivpishs6x25396180 .
+
+_:node1ivpishs6x25396180 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11769875X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:hasRelation _:node1ivpishs6x25396181 .
+
+_:node1ivpishs6x25396181 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118537202> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396182 .
+
+_:node1ivpishs6x25396182 gndo:personalName "Nicolaus";
+  gndo:nameAddition "aus Reggio di Calabria" .
+
+<https://d-nb.info/gnd/118537202> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Galenus: De constitutione artis medicae. 1561. (VD16 G 156)", "Galenus: LIBER AVREVS CLAVDII GALENI Pergameni Medicorum omnium coriphaei, De Inaequali ... 1539. (VD16 G 172)",
+    "Galenus: GALENO ASSCRIPTVS GRAEcus Liber de Vrinis. AB Innumeris mendis repurgatus et donatus ... 1586. (VD16 ZV 20501)",
+    "Galenus: OPERVM GALENI TOMVS PRIMVS ( OCTAVVS) CLASSEM PRIMAM CONTINET ... [T.IX:] LIBRI ISAGOGICI ... 1542. (VD16 G 127)",
+    "Galenus: Opera. 1586. (VD16 G 141)", "Galenus: Opuscula ad modum rara. 1520. (VD16 ZV 6019)",
+    "Galenus: Ars medicinalis. 1594. (VD16 G 149)", "Galenus: CLAVDI GALENI PERGAMENI DE COMPOSITIONE MEDICAMENTORVM SECVNDVM LOCOS, SEV QVAE unicui\\[que] ... 1537. (VD16 G 153)",
+    "Galenus: GALENI DE VSV PARtium corporis humani. LIBER QVARtus.. 1549. (VD16 ZV 20954)",
+    "Galenus: CLAVDII GALENI PERGAMENI ASCLEPIadeae uerae ueteris\\́[que] Medicinae instauratoris Liber ... 1541. (VD16 G 142)",
+    "Galenus: De dolore evitando. - 2015";
+  wdrs:describedby <https://d-nb.info/gnd/118537202/about> .
+
+<https://d-nb.info/gnd/118537202/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118537202> gndo:usingInstructions "Alle EST sind, sofern nicht anders vermerkt, entnommen der nicht veröffentlichten Ausgabe mit Stand 1995 des \"Corpus Galenicum, Verzeichnis der galenischen und pseudogalenischen Schriften, zusammengestellt von Gerhard Fichtner, Tübingen 1995\" (= Fichtner 1995)"@de;
+  gndo:biographicalOrHistoricalInformation "Griechischer Arzt und Philosoph, Verfasser von medizinischen, philosophischen, philologischen und rhetorischen Werken, der anfangs in Pergamon, später in Rom als kaiserlicher Leibarzt wirkte"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0129"^^xsd:gYear;
+  gndo:dateOfDeath "0199"^^xsd:gYear .
+

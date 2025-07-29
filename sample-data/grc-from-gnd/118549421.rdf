@@ -1,0 +1,320 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118549421> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118549421/about> .
+
+<https://d-nb.info/gnd/118549421/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T12:16:21.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118549421> gndo:gndIdentifier "118549421";
+  foaf:page <https://de.wikipedia.org/wiki/Heraklit>;
+  owl:sameAs <https://dbpedia.org/resource/Heraclitus>, <http://viaf.org/viaf/89314880>,
+    <https://isni.org/isni/0000000458521749>, <http://www.wikidata.org/entity/Q41155>;
+  gndo:oldAuthorityNumber "(DE-588)1089716532";
+  owl:sameAs <https://d-nb.info/gnd/1089716532>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089716532";
+  gndo:oldAuthorityNumber "(DE-588)1070743763";
+  owl:sameAs <https://d-nb.info/gnd/1070743763>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1070743763";
+  gndo:oldAuthorityNumber "(DE-588)1022235567";
+  owl:sameAs <https://d-nb.info/gnd/1022235567>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1022235567";
+  gndo:oldAuthorityNumber "(DE-588)188012702";
+  owl:sameAs <https://d-nb.info/gnd/188012702>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188012702";
+  gndo:oldAuthorityNumber "(DE-588a)188012702", "(DE-588a)118549421", "(DE-588a)103620176",
+    "(DE-588c)4024440-4";
+  gndo:variantNameForThePerson "Heraclitus, Ephesius, Philosophe"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589883 .
+
+_:node1ivs02adlx24589883 gndo:personalName "Heraclitus";
+  gndo:nameAddition "Ephesius, Philosophe" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraclitus, Ephesius, Philosopher"@en;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589884 .
+
+_:node1ivs02adlx24589884 gndo:personalName "Heraclitus";
+  gndo:nameAddition "Ephesius, Philosopher" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Herakleitos, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589885 .
+
+_:node1ivs02adlx24589885 gndo:personalName "Herakleitos";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraclitus, ho Skoteinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589886 .
+
+_:node1ivs02adlx24589886 gndo:personalName "Heraclitus";
+  gndo:nameAddition "ho Skoteinos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraclitus, the Obscur";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589887 .
+
+_:node1ivs02adlx24589887 gndo:personalName "Heraclitus";
+  gndo:nameAddition "the Obscur" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Hērakleitos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589888 .
+
+_:node1ivs02adlx24589888 gndo:personalName "Hērakleitos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Herakleitos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589889 .
+
+_:node1ivs02adlx24589889 gndo:personalName "Herakleitos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Eraclito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589890 .
+
+_:node1ivs02adlx24589890 gndo:personalName "Eraclito" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraclitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589891 .
+
+_:node1ivs02adlx24589891 gndo:personalName "Heraclitus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Herakleites, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589892 .
+
+_:node1ivs02adlx24589892 gndo:personalName "Herakleites";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Héraclide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589893 .
+
+_:node1ivs02adlx24589893 gndo:personalName "Héraclide" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Pseudo-Heraklitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589894 .
+
+_:node1ivs02adlx24589894 gndo:personalName "Pseudo-Heraklitus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraklit, von Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589895 .
+
+_:node1ivs02adlx24589895 gndo:personalName "Heraklit";
+  gndo:nameAddition "von Ephesus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Of Ephesus, Heraclitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589896 .
+
+_:node1ivs02adlx24589896 gndo:forename "Heraclitus";
+  gndo:surname "Of Ephesus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "The Obscur, Heraclitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589897 .
+
+_:node1ivs02adlx24589897 gndo:forename "Heraclitus";
+  gndo:surname "The Obscur" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Von Ephesus, Heraklit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589898 .
+
+_:node1ivs02adlx24589898 gndo:forename "Heraklit";
+  gndo:surname "Von Ephesus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Vonephesos, Herakleitos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589899 .
+
+_:node1ivs02adlx24589899 gndo:forename "Herakleitos";
+  gndo:surname "Vonephesos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Hoskoteinos, Herakleitos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589900 .
+
+_:node1ivs02adlx24589900 gndo:forename "Herakleitos";
+  gndo:surname "Hoskoteinos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Hoskoteinos, Heraclitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589901 .
+
+_:node1ivs02adlx24589901 gndo:forename "Heraclitus";
+  gndo:surname "Hoskoteinos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Diefeso, Eraclito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589902 .
+
+_:node1ivs02adlx24589902 gndo:forename "Eraclito";
+  gndo:surname "Diefeso" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Ephèse, Héraclite d'";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589903 .
+
+_:node1ivs02adlx24589903 gndo:forename "Héraclite";
+  gndo:prefix "d'";
+  gndo:surname "Ephèse" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Ofephesus, Heraclitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589904 .
+
+_:node1ivs02adlx24589904 gndo:forename "Heraclitus";
+  gndo:surname "Ofephesus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Theobscur, Heraclitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589905 .
+
+_:node1ivs02adlx24589905 gndo:forename "Heraclitus";
+  gndo:surname "Theobscur" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Vonephesus, Heraklit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589906 .
+
+_:node1ivs02adlx24589906 gndo:forename "Heraklit";
+  gndo:surname "Vonephesus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heracleitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589907 .
+
+_:node1ivs02adlx24589907 gndo:personalName "Heracleitus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Hērakleitos, Ephesios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589908 .
+
+_:node1ivs02adlx24589908 gndo:personalName "Hērakleitos";
+  gndo:nameAddition "Ephesios" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Herakleitos, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589909 .
+
+_:node1ivs02adlx24589909 gndo:personalName "Herakleitos";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Herakleitos, Vorsokratiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589910 .
+
+_:node1ivs02adlx24589910 gndo:personalName "Herakleitos";
+  gndo:nameAddition "Vorsokratiker" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Herakleitos, ho Skoteinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589911 .
+
+_:node1ivs02adlx24589911 gndo:personalName "Herakleitos";
+  gndo:nameAddition "ho Skoteinos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraclitus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589912 .
+
+_:node1ivs02adlx24589912 gndo:personalName "Heraclitus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Eraclito, di Efeso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589913 .
+
+_:node1ivs02adlx24589913 gndo:personalName "Eraclito";
+  gndo:nameAddition "di Efeso" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Héraclite, d'Ephèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589914 .
+
+_:node1ivs02adlx24589914 gndo:personalName "Héraclite";
+  gndo:nameAddition "d'Ephèse" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraclitus, of Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589915 .
+
+_:node1ivs02adlx24589915 gndo:personalName "Heraclitus";
+  gndo:nameAddition "of Ephesus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraklit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589916 .
+
+_:node1ivs02adlx24589916 gndo:personalName "Heraklit" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Pseudo-Herakleitos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589917 .
+
+_:node1ivs02adlx24589917 gndo:personalName "Pseudo-Herakleitos" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Pseudo-Heraclitus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589918 .
+
+_:node1ivs02adlx24589918 gndo:personalName "Pseudo-Heraclitus" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Herakleitos, Ephesios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589919 .
+
+_:node1ivs02adlx24589919 gndo:personalName "Herakleitos";
+  gndo:nameAddition "Ephesios" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Heraclitus, the Obscure";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589920 .
+
+_:node1ivs02adlx24589920 gndo:personalName "Heraclitus";
+  gndo:nameAddition "the Obscure" .
+
+<https://d-nb.info/gnd/118549421> gndo:variantNameForThePerson "Héraclite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589921 .
+
+_:node1ivs02adlx24589921 gndo:personalName "Héraclite" .
+
+<https://d-nb.info/gnd/118549421> gndo:preferredNameForThePerson "Heraclitus, Ephesius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589922 .
+
+_:node1ivs02adlx24589922 gndo:personalName "Heraclitus";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/118549421> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Heraclitus: Excerpta varia Graecorum, Sophistarum ac Rhetorum",
+    "Palaephatus: Opuscula Mythologica, Ethica et Physica", "Hippocrates: Epistolae",
+    "Heraclitus <Ephesius>: Epistolae", "Heraclitus <Ephesius>: Epistolae", "Heraclitus <Ephesius>: Epistolae",
+    "Heraclitus <Ephesius>: Epistolae quae feruntur", "Heraclitus <Ephesius>: Reliquiae",
+    "Heraclitus <Ephesius>: The Fragments of the work on nature", "Heraclitus <Ephesius>: Herakleitos von Ephesos";
+  wdrs:describedby <https://d-nb.info/gnd/118549421/about> .
+
+<https://d-nb.info/gnd/118549421/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118549421> gndo:udkCode "600 - 501 v. Chr. ", "500 - 401 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24589923 .
+
+_:node1ivs02adlx24589923 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118549421> gndo:dateOfBirth "-0550"^^xsd:gYear;
+  gndo:dateOfDeath "-0480"^^xsd:gYear .
+

@@ -1,0 +1,126 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/1147232768> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/1147232768/about> .
+
+<https://d-nb.info/gnd/1147232768/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-06-15T09:32:44.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/1147232768> gndo:gndIdentifier "1147232768";
+  owl:sameAs <http://viaf.org/viaf/1575145857085522921690>, <http://www.wikidata.org/entity/Q2710720>;
+  gndo:oldAuthorityNumber "(DE-588)108992030X";
+  owl:sameAs <https://d-nb.info/gnd/108992030X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108992030X";
+  gndo:variantNameForThePerson "Benedikt I., Jerusalem, Patriarch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406347 .
+
+_:node1ivpishs6x25406347 gndo:personalName "Benedikt";
+  gndo:counting "I.";
+  gndo:nameAddition "Jerusalem, Patriarch" .
+
+<https://d-nb.info/gnd/1147232768> gndo:variantNameForThePerson "Benedictos, Gr.-orth. Patriarch von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406348 .
+
+_:node1ivpishs6x25406348 gndo:personalName "Benedictos";
+  gndo:nameAddition "Gr.-orth. Patriarch von Jerusalem" .
+
+<https://d-nb.info/gnd/1147232768> gndo:variantNameForThePerson "Benedictos, Griechisch-orthodoxer Patriarch von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406349 .
+
+_:node1ivpishs6x25406349 gndo:personalName "Benedictos";
+  gndo:nameAddition "Griechisch-orthodoxer Patriarch von Jerusalem" .
+
+<https://d-nb.info/gnd/1147232768> gndo:variantNameForThePerson "Benedict, Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406350 .
+
+_:node1ivpishs6x25406350 gndo:personalName "Benedict";
+  gndo:nameAddition "Jerusalem" .
+
+<https://d-nb.info/gnd/1147232768> gndo:variantNameForThePerson "Benedikt I., Patriarch, Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406351 .
+
+_:node1ivpishs6x25406351 gndo:personalName "Benedikt";
+  gndo:counting "I.";
+  gndo:nameAddition "Patriarch, Jerusalem" .
+
+<https://d-nb.info/gnd/1147232768> gndo:variantNameForThePerson "Papadopoulos, Vasileios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406352 .
+
+_:node1ivpishs6x25406352 gndo:forename "Vasileios";
+  gndo:surname "Papadopoulos" .
+
+<https://d-nb.info/gnd/1147232768> gndo:earlierNameOfThePerson _:node1ivpishs6x25406353 .
+
+_:node1ivpishs6x25406353 gndo:forename "Vasileios";
+  gndo:surname "Papadopoulos";
+  a gndo:EarlierNameOfThePerson .
+
+<https://d-nb.info/gnd/1147232768> gndo:preferredNameForThePerson "Benediktos I., Jerusalem, Patriarch";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25406354 .
+
+_:node1ivpishs6x25406354 gndo:personalName "Benediktos";
+  gndo:counting "I.";
+  gndo:nameAddition "Jerusalem, Patriarch" .
+
+<https://d-nb.info/gnd/1147232768> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IL>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-TR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/1147232768/about> .
+
+<https://d-nb.info/gnd/1147232768/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-576>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/1147232768> gndo:biographicalOrHistoricalInformation "Griechisch-orthodoxer Patriarch von Jerusalem von 1957-1980"@de;
+  gndo:placeOfBirthAsLiteral "Cesniero";
+  gndo:placeOfDeath <https://d-nb.info/gnd/4028586-8>;
+  gndo:professionOrOccupation _:node1ivpishs6x25406355 .
+
+_:node1ivpishs6x25406355 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4173551-1> .
+
+<https://d-nb.info/gnd/1147232768> gndo:dateOfBirth "1892"^^xsd:gYear;
+  gndo:dateOfDeath "1980-12-10"^^xsd:date .
+

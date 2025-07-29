@@ -1,0 +1,197 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102132976> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102132976/about> .
+
+<https://d-nb.info/gnd/102132976/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-06T09:15:30.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102132976> gndo:gndIdentifier "102132976";
+  foaf:page <https://de.wikipedia.org/wiki/Publius_Herennius_Dexippus>;
+  owl:sameAs <https://dbpedia.org/resource/Dexippus>, <http://viaf.org/viaf/299034165>,
+    <http://www.wikidata.org/entity/Q363468>, <http://id.loc.gov/rwo/agents/nr2006009268>;
+  gndo:oldAuthorityNumber "(DE-588)1089753772";
+  owl:sameAs <https://d-nb.info/gnd/1089753772>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089753772";
+  gndo:oldAuthorityNumber "(DE-588)1089584229";
+  owl:sameAs <https://d-nb.info/gnd/1089584229>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089584229";
+  gndo:oldAuthorityNumber "(DE-588a)102132976", "(DE-588c)7557652-1";
+  gndo:variantNameForThePerson "Dexippus, Paulus H.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593525 .
+
+_:node1ivs02adlx24593525 gndo:forename "Paulus H.";
+  gndo:surname "Dexippus" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippus, Publius H.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593526 .
+
+_:node1ivs02adlx24593526 gndo:forename "Publius H.";
+  gndo:surname "Dexippus" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593527 .
+
+_:node1ivs02adlx24593527 gndo:personalName "Dexippus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippos, Paulus Herennius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593528 .
+
+_:node1ivs02adlx24593528 gndo:forename "Paulus Herennius";
+  gndo:surname "Dexippos" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippos, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593529 .
+
+_:node1ivs02adlx24593529 gndo:personalName "Dexippos";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippos, Publius Herennius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593530 .
+
+_:node1ivs02adlx24593530 gndo:forename "Publius Herennius";
+  gndo:surname "Dexippos" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippos, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593531 .
+
+_:node1ivs02adlx24593531 gndo:personalName "Dexippos";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593532 .
+
+_:node1ivs02adlx24593532 gndo:personalName "Dexippus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippos, von Hermos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593533 .
+
+_:node1ivs02adlx24593533 gndo:personalName "Dexippos";
+  gndo:nameAddition "von Hermos" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Herennius Dexippus, Publius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593534 .
+
+_:node1ivs02adlx24593534 gndo:forename "Publius";
+  gndo:surname "Herennius Dexippus" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippos, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593535 .
+
+_:node1ivs02adlx24593535 gndo:personalName "Dexippos";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippus, Historian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593536 .
+
+_:node1ivs02adlx24593536 gndo:personalName "Dexippus";
+  gndo:nameAddition "Historian" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippus, Herennius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593537 .
+
+_:node1ivs02adlx24593537 gndo:personalName "Dexippus";
+  gndo:nameAddition "Herennius" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippo, Publio Erennio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593538 .
+
+_:node1ivs02adlx24593538 gndo:forename "Publio Erennio";
+  gndo:surname "Dexippo" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexippo, Alto Sacerdote";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593539 .
+
+_:node1ivs02adlx24593539 gndo:personalName "Dexippo";
+  gndo:nameAddition "Alto Sacerdote" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Herennius, Dexippus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593540 .
+
+_:node1ivs02adlx24593540 gndo:personalName "Herennius";
+  gndo:nameAddition "Dexippus" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexipp, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593541 .
+
+_:node1ivs02adlx24593541 gndo:personalName "Dexipp";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/102132976> gndo:variantNameForThePerson "Dexipp, Publius Herennius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593542 .
+
+_:node1ivs02adlx24593542 gndo:forename "Publius Herennius";
+  gndo:surname "Dexipp" .
+
+<https://d-nb.info/gnd/102132976> gndo:preferredNameForThePerson "Dexippus, Publius Herennius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593543 .
+
+_:node1ivs02adlx24593543 gndo:forename "Publius Herennius";
+  gndo:surname "Dexippus" .
+
+<https://d-nb.info/gnd/102132976> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dexippus, Publius H.: Historiarum quae supersunt", "Nicolaus <Damascenus>: Nicolaus Damascenus. Pausanias Damascenus. Dexippus. Eusebius. Eun*",
+    "Polybius: Fragmenta nova Polybii, Dionysii, Dexippi, Eusebii", "Dexippus, Publius Herennius: Eclogae Legationum",
+    "Dexippus, Publius Herennius: Excerpta de Legationibus";
+  wdrs:describedby <https://d-nb.info/gnd/102132976/about> .
+
+<https://d-nb.info/gnd/102132976/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102132976> gndo:biographicalOrHistoricalInformation "FGrH 100: De bellis Scythicis; Griechischsprachiger römischer Politiker und Geschichtsschreiber des 3. Jahrhunderts"@de;
+  gndo:udkCode "201 - 300";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4003366-1>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593544 .
+
+_:node1ivs02adlx24593544 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4155430-9>;
+  rdf:_2 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/102132976> gndo:dateOfBirthAndDeath "[3. Jh.]" .
+

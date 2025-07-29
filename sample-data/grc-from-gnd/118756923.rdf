@@ -1,0 +1,213 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118756923> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118756923/about> .
+
+<https://d-nb.info/gnd/118756923/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-06-18T00:30:30.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118756923> gndo:gndIdentifier "118756923";
+  owl:sameAs <http://viaf.org/viaf/107036494>, <https://isni.org/isni/0000000118454201>,
+    <http://www.wikidata.org/entity/Q220787>;
+  gndo:oldAuthorityNumber "(DE-588)1090659741";
+  owl:sameAs <https://d-nb.info/gnd/1090659741>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090659741";
+  gndo:oldAuthorityNumber "(DE-588)1090299087";
+  owl:sameAs <https://d-nb.info/gnd/1090299087>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090299087";
+  gndo:oldAuthorityNumber "(DE-588)1090024053";
+  owl:sameAs <https://d-nb.info/gnd/1090024053>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090024053";
+  gndo:oldAuthorityNumber "(DE-588)185982808";
+  owl:sameAs <https://d-nb.info/gnd/185982808>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185982808";
+  gndo:oldAuthorityNumber "(DE-588a)185982808", "(DE-588)174135327";
+  owl:sameAs <https://d-nb.info/gnd/174135327>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174135327";
+  gndo:oldAuthorityNumber "(DE-588a)174135327", "(DE-588)172415241";
+  owl:sameAs <https://d-nb.info/gnd/172415241>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172415241";
+  gndo:oldAuthorityNumber "(DE-588a)172415241", "(DE-588a)118756923", "(DE-588c)4106247-4";
+  gndo:variantNameForThePerson "Theophilos, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403500 .
+
+_:node1ivpishs6x25403500 gndo:personalName "Theophilos";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilos, von Mesopotamien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403501 .
+
+_:node1ivpishs6x25403501 gndo:personalName "Theophilos";
+  gndo:nameAddition "von Mesopotamien" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilus, Antiochensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403502 .
+
+_:node1ivpishs6x25403502 gndo:personalName "Theophilus";
+  gndo:nameAddition "Antiochensis" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilus, Apologeta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403503 .
+
+_:node1ivpishs6x25403503 gndo:personalName "Theophilus";
+  gndo:nameAddition "Apologeta" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilus, von Antiochien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403504 .
+
+_:node1ivpishs6x25403504 gndo:personalName "Theophilus";
+  gndo:nameAddition "von Antiochien" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Teofilo, di Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403505 .
+
+_:node1ivpishs6x25403505 gndo:personalName "Teofilo";
+  gndo:nameAddition "di Antiochia" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilos, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403506 .
+
+_:node1ivpishs6x25403506 gndo:personalName "Theophilos";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilos, Patriarch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403507 .
+
+_:node1ivpishs6x25403507 gndo:personalName "Theophilos";
+  gndo:nameAddition "Patriarch" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403508 .
+
+_:node1ivpishs6x25403508 gndo:personalName "Theophilus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilus, of Antioch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403509 .
+
+_:node1ivpishs6x25403509 gndo:personalName "Theophilus";
+  gndo:nameAddition "of Antioch" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403510 .
+
+_:node1ivpishs6x25403510 gndo:personalName "Theophilus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilus, Episcopus Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403511 .
+
+_:node1ivpishs6x25403511 gndo:personalName "Theophilus";
+  gndo:nameAddition "Episcopus Antiochenus" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophile, d'Antioche";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403512 .
+
+_:node1ivpishs6x25403512 gndo:personalName "Theophile";
+  gndo:nameAddition "d'Antioche" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilus, Antiochus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403513 .
+
+_:node1ivpishs6x25403513 gndo:personalName "Theophilus";
+  gndo:nameAddition "Antiochus" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Pseudo-Theophilus, von Antiochien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403514 .
+
+_:node1ivpishs6x25403514 gndo:personalName "Pseudo-Theophilus";
+  gndo:nameAddition "von Antiochien" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Pseudo-Theophilus, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403515 .
+
+_:node1ivpishs6x25403515 gndo:personalName "Pseudo-Theophilus";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Pseudo-Theophilos, von Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403516 .
+
+_:node1ivpishs6x25403516 gndo:personalName "Pseudo-Theophilos";
+  gndo:nameAddition "von Antiochia" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Theophilos, von Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403517 .
+
+_:node1ivpishs6x25403517 gndo:personalName "Theophilos";
+  gndo:nameAddition "von Antiochia" .
+
+<https://d-nb.info/gnd/118756923> gndo:variantNameForThePerson "Théophile, d'Antioche";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403518 .
+
+_:node1ivpishs6x25403518 gndo:personalName "Théophile";
+  gndo:nameAddition "d'Antioche" .
+
+<https://d-nb.info/gnd/118756923> gndo:preferredNameForThePerson "Theophilus, Antiochenus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403519 .
+
+_:node1ivpishs6x25403519 gndo:personalName "Theophilus";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118756923> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:broaderTermInstantial <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-TR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ad Autolycum", "Pros Autolyku peri theu kai pisteōs christianōn biblia 3",
+    "Apologie", "De Deo et fide Christianorum contra gentes institutionum libri *", "Drey Bücher an Autolykus";
+  wdrs:describedby <https://d-nb.info/gnd/118756923/about> .
+
+<https://d-nb.info/gnd/118756923/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118756923> gndo:biographicalOrHistoricalInformation "Bischof von Antiochia, Apologet und Heiliger"@de;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4112544-7>;
+  gndo:professionOrOccupation _:node1ivpishs6x25403520 .
+
+_:node1ivpishs6x25403520 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118756923> gndo:dateOfDeath "0186"^^xsd:gYear .
+

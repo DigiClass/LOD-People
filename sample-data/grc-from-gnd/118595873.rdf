@@ -1,0 +1,370 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118595873> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118595873/about> .
+
+<https://d-nb.info/gnd/118595873/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-26T18:12:09.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118595873> gndo:gndIdentifier "118595873";
+  owl:sameAs <https://dbpedia.org/resource/Porphyry_(philosopher)>, <http://viaf.org/viaf/64016141>,
+    <http://www.wikidata.org/entity/Q203445>;
+  gndo:oldAuthorityNumber "(DE-588)1089918461";
+  owl:sameAs <https://d-nb.info/gnd/1089918461>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089918461";
+  gndo:oldAuthorityNumber "(DE-588)160460875";
+  owl:sameAs <https://d-nb.info/gnd/160460875>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160460875";
+  gndo:oldAuthorityNumber "(DE-588a)160460875", "(DE-588)188027300";
+  owl:sameAs <https://d-nb.info/gnd/188027300>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188027300";
+  gndo:oldAuthorityNumber "(DE-588a)188027300", "(DE-588)160460883";
+  owl:sameAs <https://d-nb.info/gnd/160460883>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160460883";
+  gndo:oldAuthorityNumber "(DE-588a)160460883", "(DE-588)174166729";
+  owl:sameAs <https://d-nb.info/gnd/174166729>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174166729";
+  gndo:oldAuthorityNumber "(DE-588a)174166729", "(DE-588)174118457";
+  owl:sameAs <https://d-nb.info/gnd/174118457>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174118457";
+  gndo:oldAuthorityNumber "(DE-588a)174118457", "(DE-588)174040903";
+  owl:sameAs <https://d-nb.info/gnd/174040903>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174040903";
+  gndo:oldAuthorityNumber "(DE-588a)174040903", "(DE-588a)118595873", "(DE-588c)4046818-5";
+  gndo:variantNameForThePerson "Porphyrios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396352 .
+
+_:node1ivpishs6x25396352 gndo:personalName "Porphyrios" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Malkos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396353 .
+
+_:node1ivpishs6x25396353 gndo:personalName "Malkos" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Malik";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396354 .
+
+_:node1ivpishs6x25396354 gndo:personalName "Malik" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Malchos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396355 .
+
+_:node1ivpishs6x25396355 gndo:personalName "Malchos" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Malchus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396356 .
+
+_:node1ivpishs6x25396356 gndo:personalName "Malchus" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Malchus, Porphyrius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396357 .
+
+_:node1ivpishs6x25396357 gndo:personalName "Malchus";
+  gndo:nameAddition "Porphyrius" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrios, von Tyros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396358 .
+
+_:node1ivpishs6x25396358 gndo:personalName "Porphyrios";
+  gndo:nameAddition "von Tyros" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrios, aus Tyros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396359 .
+
+_:node1ivpishs6x25396359 gndo:personalName "Porphyrios";
+  gndo:nameAddition "aus Tyros" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrios, von Syros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396360 .
+
+_:node1ivpishs6x25396360 gndo:personalName "Porphyrios";
+  gndo:nameAddition "von Syros" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrios, Neuplatoniker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396361 .
+
+_:node1ivpishs6x25396361 gndo:personalName "Porphyrios";
+  gndo:nameAddition "Neuplatoniker" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrios, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396362 .
+
+_:node1ivpishs6x25396362 gndo:personalName "Porphyrios";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrius, Malchus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396363 .
+
+_:node1ivpishs6x25396363 gndo:personalName "Porphyrius";
+  gndo:nameAddition "Malchus" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrius, Tyrius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396364 .
+
+_:node1ivpishs6x25396364 gndo:personalName "Porphyrius";
+  gndo:nameAddition "Tyrius" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrius, of Tyrus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396365 .
+
+_:node1ivpishs6x25396365 gndo:personalName "Porphyrius";
+  gndo:nameAddition "of Tyrus" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrius, von Syros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396366 .
+
+_:node1ivpishs6x25396366 gndo:personalName "Porphyrius";
+  gndo:nameAddition "von Syros" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrius, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396367 .
+
+_:node1ivpishs6x25396367 gndo:personalName "Porphyrius";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396368 .
+
+_:node1ivpishs6x25396368 gndo:personalName "Porphyrius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyrius, Platonicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396369 .
+
+_:node1ivpishs6x25396369 gndo:personalName "Porphyrius";
+  gndo:nameAddition "Platonicus" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyry, of Tyrus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396370 .
+
+_:node1ivpishs6x25396370 gndo:personalName "Porphyry";
+  gndo:nameAddition "of Tyrus" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyre";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396371 .
+
+_:node1ivpishs6x25396371 gndo:personalName "Porphyre" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyre, de Tyre";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396372 .
+
+_:node1ivpishs6x25396372 gndo:personalName "Porphyre";
+  gndo:nameAddition "de Tyre" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porfirio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396373 .
+
+_:node1ivpishs6x25396373 gndo:personalName "Porfirio" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porfirio, di Tiro";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396374 .
+
+_:node1ivpishs6x25396374 gndo:personalName "Porfirio";
+  gndo:nameAddition "di Tiro" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porfirio, Poligrafo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396375 .
+
+_:node1ivpishs6x25396375 gndo:personalName "Porfirio";
+  gndo:nameAddition "Poligrafo" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porfirio, Scolaro di Plotino";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396376 .
+
+_:node1ivpishs6x25396376 gndo:personalName "Porfirio";
+  gndo:nameAddition "Scolaro di Plotino" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyry";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396377 .
+
+_:node1ivpishs6x25396377 gndo:personalName "Porphyry" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphyry, the Phoenician";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396378 .
+
+_:node1ivpishs6x25396378 gndo:personalName "Porphyry";
+  gndo:nameAddition "the Phoenician" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Porphirius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396379 .
+
+_:node1ivpishs6x25396379 gndo:personalName "Porphirius" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Prophyrius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396380 .
+
+_:node1ivpishs6x25396380 gndo:personalName "Prophyrius" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Furfuriyūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396381 .
+
+_:node1ivpishs6x25396381 gndo:personalName "Furfuriyūs" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Furfūriyūs aṣ-Ṣūrī";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396382 .
+
+_:node1ivpishs6x25396382 gndo:personalName "Furfūriyūs aṣ-Ṣūrī" .
+
+<https://d-nb.info/gnd/118595873> gndo:variantNameForThePerson "Pôrfîryûs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396383 .
+
+_:node1ivpishs6x25396383 gndo:personalName "Pôrfîryûs" .
+
+<https://d-nb.info/gnd/118595873> gndo:preferredNameForThePerson "Porphyrius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396384 .
+
+_:node1ivpishs6x25396384 gndo:personalName "Porphyrius" .
+
+<https://d-nb.info/gnd/118595873> gndo:originalScriptNameOfThePerson "פורפיריוס"@he;
+  gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118532855>;
+  gndo:hasRelation _:node1ivpishs6x25396385 .
+
+_:node1ivpishs6x25396385 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118532855>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118682938>;
+  gndo:hasRelation _:node1ivpishs6x25396386 .
+
+_:node1ivpishs6x25396386 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118682938>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:hasRelation _:node1ivpishs6x25396387 .
+
+_:node1ivpishs6x25396387 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396388 .
+
+_:node1ivpishs6x25396388 gndo:forename "Francesco";
+  gndo:surname "Patrizi" .
+
+<https://d-nb.info/gnd/118595873> gndo:hasRelation _:node1ivpishs6x25396389 .
+
+_:node1ivpishs6x25396389 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396390 .
+
+_:node1ivpishs6x25396390 gndo:forename "Anitius Manlius Torquatus Severinus";
+  gndo:surname "Boethius" .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118657119>;
+  gndo:hasRelation _:node1ivpishs6x25396391 .
+
+_:node1ivpishs6x25396391 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118657119>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119102056>;
+  gndo:hasRelation _:node1ivpishs6x25396392 .
+
+_:node1ivpishs6x25396392 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119102056>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118644319>;
+  gndo:hasRelation _:node1ivpishs6x25396393 .
+
+_:node1ivpishs6x25396393 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118644319>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118642634>;
+  gndo:hasRelation _:node1ivpishs6x25396394 .
+
+_:node1ivpishs6x25396394 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118642634>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:hasRelation _:node1ivpishs6x25396395 .
+
+_:node1ivpishs6x25396395 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396396 .
+
+_:node1ivpishs6x25396396 gndo:forename "Georgius";
+  gndo:surname "Valla" .
+
+<https://d-nb.info/gnd/118595873> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11869488X>;
+  gndo:hasRelation _:node1ivpishs6x25396397 .
+
+_:node1ivpishs6x25396397 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11869488X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595873> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Isagoge", "Porphyriu philosophu Peri apochēs empsychōn biblia tessera",
+    "Porphyriu philosophu Pythagoriku Peri apochēs empsychōn biblia tessera", "Porphyriu philosophu Homērika zētēmata",
+    "Porphyrii Philosophi Opus ineditum ad Marcellam", "Malchus De vita Pythagorae ....",
+    "Peri biu Pythagoriku logos", "Porphyriu, ... tu kai Malchu ... Pythagoru bios", "Traité de Porphyre, touchant l'abstinence de la chair des animaux",
+    "Porphyrii institutiones", "Aristoteles: Aristotelis Stragyrite Dialectica: cũ qui\\[que] vocibus Porphyrii Phenicis: Argyropilo ...(VD16 A 3530)",
+    "Aristoteles: Operum ... latina editio (VD16 A 3286)", "Aristoteles: Isagoge (VD16 ZV 705)",
+    "Bedrott, Jakob: De nympharum antro in Odyssea opusculum (VD16 ZV 1202)", "Homerus: Opera (VD16 H 4592)",
+    "Aristoteles: Metaphysica (VD16 A 3282)", "Porphyrij EisaGOGE, SIVE INSTItutiones Quin\\[que] uocum, ad Chrysaorium: ITEM, ARISTOTELIS ...(VD16 ZV 12675)",
+    "Aristoteles: Isagoge. (VD16 ZV 706)", "Aristoteles: Categoriae. (VD16 ZV 720)", "PORPHYRII INSTITVTIONES IOACHIMO PERIONIO BENEDICTINO Cormoeriaceno interprete. ... (VD16 P 4301)";
+  wdrs:describedby <https://d-nb.info/gnd/118595873/about> .
+
+<https://d-nb.info/gnd/118595873/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118595873> gndo:biographicalOrHistoricalInformation "Griech. Philosoph; Neuplatoniker"@de;
+  gndo:udkCode "201 - 300", "301 - 400";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4061314-8>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4050471-2>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4003366-1>, <https://d-nb.info/gnd/4050471-2>,
+    <https://d-nb.info/gnd/4115025-9>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25396398 .
+
+_:node1ivpishs6x25396398 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118595873> gndo:dateOfBirth "0233"^^xsd:gYear;
+  gndo:dateOfDeath "0301"^^xsd:gYear .
+

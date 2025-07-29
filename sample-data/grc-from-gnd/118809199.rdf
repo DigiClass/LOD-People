@@ -1,0 +1,378 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118809199> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118809199/about> .
+
+<https://d-nb.info/gnd/118809199/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:14:33.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118809199> gndo:gndIdentifier "118809199";
+  owl:sameAs <https://dbpedia.org/resource/Pope_Clement_I>, <http://viaf.org/viaf/46860095>,
+    <https://isni.org/isni/0000000117772144>, <http://www.wikidata.org/entity/Q42887>;
+  gndo:oldAuthorityNumber "(DE-588)1089883625";
+  owl:sameAs <https://d-nb.info/gnd/1089883625>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089883625";
+  gndo:oldAuthorityNumber "(DE-588)1089718497";
+  owl:sameAs <https://d-nb.info/gnd/1089718497>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089718497";
+  gndo:oldAuthorityNumber "(DE-588)1089928726";
+  owl:sameAs <https://d-nb.info/gnd/1089928726>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928726";
+  gndo:oldAuthorityNumber "(DE-588)1089152485";
+  owl:sameAs <https://d-nb.info/gnd/1089152485>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089152485";
+  gndo:oldAuthorityNumber "(DE-588)1026331528";
+  owl:sameAs <https://d-nb.info/gnd/1026331528>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026331528";
+  gndo:oldAuthorityNumber "(DE-588)185877877";
+  owl:sameAs <https://d-nb.info/gnd/185877877>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877877";
+  gndo:oldAuthorityNumber "(DE-588a)185877877", "(DE-588)174113692";
+  owl:sameAs <https://d-nb.info/gnd/174113692>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174113692";
+  gndo:oldAuthorityNumber "(DE-588a)174113692", "(DE-588)172022436";
+  owl:sameAs <https://d-nb.info/gnd/172022436>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172022436";
+  gndo:oldAuthorityNumber "(DE-588a)172022436", "(DE-588a)118809199", "(DE-588a)119642662",
+    "(DE-588c)4119914-5";
+  gndo:variantNameForThePerson "Klemens I., Papa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402308 .
+
+_:node1ivpishs6x25402308 gndo:personalName "Klemens";
+  gndo:counting "I.";
+  gndo:nameAddition "Papa" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Klēmens, ho Hagios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402309 .
+
+_:node1ivpishs6x25402309 gndo:personalName "Klēmens";
+  gndo:nameAddition "ho Hagios" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Klēmēs, ho Rōmēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402310 .
+
+_:node1ivpishs6x25402310 gndo:personalName "Klēmēs";
+  gndo:nameAddition "ho Rōmēs" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Klemens, von Rom";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402311 .
+
+_:node1ivpishs6x25402311 gndo:personalName "Klemens";
+  gndo:nameAddition "von Rom" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Klēmēs, Romaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402312 .
+
+_:node1ivpishs6x25402312 gndo:personalName "Klēmēs";
+  gndo:nameAddition "Romaios" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Pseudo-Klemens I., Papst";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402313 .
+
+_:node1ivpishs6x25402313 gndo:personalName "Pseudo-Klemens";
+  gndo:counting "I.";
+  gndo:nameAddition "Papst" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Pseudo-Klemens, von Rom";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402314 .
+
+_:node1ivpishs6x25402314 gndo:personalName "Pseudo-Klemens";
+  gndo:nameAddition "von Rom" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens I., Papst";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402315 .
+
+_:node1ivpishs6x25402315 gndo:personalName "Clemens";
+  gndo:counting "I.";
+  gndo:nameAddition "Papst" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens I., Papa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402316 .
+
+_:node1ivpishs6x25402316 gndo:personalName "Clemens";
+  gndo:counting "I.";
+  gndo:nameAddition "Papa" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402317 .
+
+_:node1ivpishs6x25402317 gndo:personalName "Clemens";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, de Romein";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402318 .
+
+_:node1ivpishs6x25402318 gndo:personalName "Clemens";
+  gndo:nameAddition "de Romein" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, of Rome";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402319 .
+
+_:node1ivpishs6x25402319 gndo:personalName "Clemens";
+  gndo:nameAddition "of Rome" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, van Rome";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402320 .
+
+_:node1ivpishs6x25402320 gndo:personalName "Clemens";
+  gndo:nameAddition "van Rome" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, von Rom";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402321 .
+
+_:node1ivpishs6x25402321 gndo:personalName "Clemens";
+  gndo:nameAddition "von Rom" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402322 .
+
+_:node1ivpishs6x25402322 gndo:personalName "Clemens";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402323 .
+
+_:node1ivpishs6x25402323 gndo:personalName "Clemens Romanus" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402324 .
+
+_:node1ivpishs6x25402324 gndo:personalName "Clemens";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402325 .
+
+_:node1ivpishs6x25402325 gndo:personalName "Clemens";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402326 .
+
+_:node1ivpishs6x25402326 gndo:personalName "Clemens";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemens";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402327 .
+
+_:node1ivpishs6x25402327 gndo:personalName "Clemens" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Pseudo-Clemens I., Papa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402328 .
+
+_:node1ivpishs6x25402328 gndo:personalName "Pseudo-Clemens";
+  gndo:counting "I.";
+  gndo:nameAddition "Papa" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Pseudo-Clemens, von Rom";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402329 .
+
+_:node1ivpishs6x25402329 gndo:personalName "Pseudo-Clemens";
+  gndo:nameAddition "von Rom" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Pseudo-Clemens, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402330 .
+
+_:node1ivpishs6x25402330 gndo:personalName "Pseudo-Clemens";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clément, de Rome";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402331 .
+
+_:node1ivpishs6x25402331 gndo:personalName "Clément";
+  gndo:nameAddition "de Rome" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clement, of Rome";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402332 .
+
+_:node1ivpishs6x25402332 gndo:personalName "Clement";
+  gndo:nameAddition "of Rome" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clement";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402333 .
+
+_:node1ivpishs6x25402333 gndo:personalName "Clement" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Pseudo Clément";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402334 .
+
+_:node1ivpishs6x25402334 gndo:personalName "Pseudo Clément" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clemente, Romano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402335 .
+
+_:node1ivpishs6x25402335 gndo:personalName "Clemente";
+  gndo:nameAddition "Romano" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Clementus, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402336 .
+
+_:node1ivpishs6x25402336 gndo:personalName "Clementus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "Qlimis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402337 .
+
+_:node1ivpishs6x25402337 gndo:personalName "Qlimis" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "S. Clement of Rome";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402338 .
+
+_:node1ivpishs6x25402338 gndo:personalName "S. Clement of Rome" .
+
+<https://d-nb.info/gnd/118809199> gndo:variantNameForThePerson "San Clemente";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402339 .
+
+_:node1ivpishs6x25402339 gndo:personalName "San Clemente" .
+
+<https://d-nb.info/gnd/118809199> gndo:preferredNameForThePerson "Klemens I., Papst";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402340 .
+
+_:node1ivpishs6x25402340 gndo:personalName "Klemens";
+  gndo:counting "I.";
+  gndo:nameAddition "Papst" .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116170638>;
+  gndo:hasRelation _:node1ivpishs6x25402341 .
+
+_:node1ivpishs6x25402341 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116170638>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119627507>;
+  gndo:hasRelation _:node1ivpishs6x25402342 .
+
+_:node1ivpishs6x25402342 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119627507>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:hasRelation _:node1ivpishs6x25402343 .
+
+_:node1ivpishs6x25402343 gndo:functionOrRoleAsLiteral "Papst; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402344 .
+
+_:node1ivpishs6x25402344 gndo:personalName "Eusebius I.";
+  gndo:nameAddition "Papst" .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100146724>;
+  gndo:hasRelation _:node1ivpishs6x25402345 .
+
+_:node1ivpishs6x25402345 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100146724>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129231983>;
+  gndo:hasRelation _:node1ivpishs6x25402346 .
+
+_:node1ivpishs6x25402346 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129231983>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555340>;
+  gndo:hasRelation _:node1ivpishs6x25402347 .
+
+_:node1ivpishs6x25402347 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555340>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119041545>;
+  gndo:hasRelation _:node1ivpishs6x25402348 .
+
+_:node1ivpishs6x25402348 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119041545>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:hasRelation _:node1ivpishs6x25402349 .
+
+_:node1ivpishs6x25402349 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402350 .
+
+_:node1ivpishs6x25402350 gndo:forename "Gregor";
+  gndo:surname "Meltzer" .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124179916>;
+  gndo:hasRelation _:node1ivpishs6x25402351 .
+
+_:node1ivpishs6x25402351 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124179916>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:hasRelation _:node1ivpishs6x25402352 .
+
+_:node1ivpishs6x25402352 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118809199> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402353 .
+
+_:node1ivpishs6x25402353 gndo:personalName "Rufinus";
+  gndo:nameAddition "aus Aquileia" .
+
+<https://d-nb.info/gnd/118809199> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:broaderTermInstantial <https://d-nb.info/gnd/4044561-6>, <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/lat>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Epistola ad Jacobum episcopum Jerosolymitanum", "DIVI CLEMENTIS RECOGNITIONVM LIBRI X. AD IACOBVM FRATREM DOMINI, RVFINO TORANO ..",
+    "EN DAMVS LECTOR DENVO RECOGNITOS DIVI CLEMENTIS ... RECOGNITIONVM libros X. ad IACOBVM ..",
+    "D.CLEMENTIS OPERA OMNIA, quae quidem in hunc vs\\[que] diem extare comperta sunt,(Rufino ..",
+    "CLEMENTINA. HOC EST, B.CLEMENTIS ROMANI, DIVORVM PETRI ET PAVLI PRINCIPVM APOSTOLORVM ..",
+    "DĊLEMENTIS D· PETRI APOSTOLORVM PRINCIPIS DISCIPVLI,ROMANI PONTIFICIS,OPERA,QVAE IN HVNC ..",
+    "D.CLEMENTIS D. PETRI APOSTOLORVM PRINCIPIS DISCIPVLI, ROMANI PONTIFICIS, OPERA, QVAE IN ..",
+    "De Constitutionibus apostolicis", "Opera . 1569.  (VD16 ZV 3680)", "Opera - 1570.  (VD16 ZV 17157)",
+    "Opera - 1570.  (VD16 ZV 3681)", "Klēmentos pros Korinthius epistolē prōtē", "The first epistle of St. Clement ...",
+    "Clementis ad Corinthios epistola", "Clemetis epistolae duae", "Bibliander, Theodor: Recognitionum libri X ad Jacobum fratrem, Ausz ";
+  wdrs:describedby <https://d-nb.info/gnd/118809199/about> .
+
+<https://d-nb.info/gnd/118809199/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118809199> gndo:biographicalOrHistoricalInformation "Bischof von Rom; dritter Papst der Kirche ca. 90/92-101; zählt zu den Apostolischen Vätern; Verfasser des Ersten und angeblicher Verfasser des Zweiten Clemensbriefes"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4050471-2>;
+  gndo:dateOfBirthAndDeath "[1. Jh.]" .
+

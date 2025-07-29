@@ -1,0 +1,163 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102384746> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102384746/about> .
+
+<https://d-nb.info/gnd/102384746/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-10-24T08:05:49.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102384746> gndo:gndIdentifier "102384746";
+  foaf:page <https://de.wikipedia.org/wiki/Chilon_von_Sparta>;
+  owl:sameAs <https://dbpedia.org/resource/Chilon_of_Sparta>, <http://viaf.org/viaf/5317648>,
+    <https://isni.org/isni/0000000013177842>, <http://www.wikidata.org/entity/Q34601>;
+  gndo:oldAuthorityNumber "(DE-588a)102384746", "(DE-588c)4812195-2";
+  gndo:variantNameForThePerson "Chilo, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592643 .
+
+_:node1ivs02adlx24592643 gndo:personalName "Chilo";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Chilon, Lyriker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592644 .
+
+_:node1ivs02adlx24592644 gndo:personalName "Chilon";
+  gndo:nameAddition "Lyriker" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Chilon, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592645 .
+
+_:node1ivs02adlx24592645 gndo:personalName "Chilon";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Chilon, Ephor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592646 .
+
+_:node1ivs02adlx24592646 gndo:personalName "Chilon";
+  gndo:nameAddition "Ephor" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Chilon, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592647 .
+
+_:node1ivs02adlx24592647 gndo:personalName "Chilon";
+  gndo:nameAddition "Politiker" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Chilon, Staatsmann";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592648 .
+
+_:node1ivs02adlx24592648 gndo:personalName "Chilon";
+  gndo:nameAddition "Staatsmann" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Chilon, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592649 .
+
+_:node1ivs02adlx24592649 gndo:personalName "Chilon";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Chilon, von Sparta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592650 .
+
+_:node1ivs02adlx24592650 gndo:personalName "Chilon";
+  gndo:nameAddition "von Sparta" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Cheilon, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592651 .
+
+_:node1ivs02adlx24592651 gndo:personalName "Cheilon";
+  gndo:nameAddition "Politiker" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Cheilon, Staatsmann";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592652 .
+
+_:node1ivs02adlx24592652 gndo:personalName "Cheilon";
+  gndo:nameAddition "Staatsmann" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Cheilon, von Sparta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592653 .
+
+_:node1ivs02adlx24592653 gndo:personalName "Cheilon";
+  gndo:nameAddition "von Sparta" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Cheilon, Ephor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592654 .
+
+_:node1ivs02adlx24592654 gndo:personalName "Cheilon";
+  gndo:nameAddition "Ephor" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Cheilon, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592655 .
+
+_:node1ivs02adlx24592655 gndo:personalName "Cheilon";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/102384746> gndo:variantNameForThePerson "Cheilon, Lyriker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592656 .
+
+_:node1ivs02adlx24592656 gndo:personalName "Cheilon";
+  gndo:nameAddition "Lyriker" .
+
+<https://d-nb.info/gnd/102384746> gndo:preferredNameForThePerson "Chilon, Lyricus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592657 .
+
+_:node1ivs02adlx24592657 gndo:personalName "Chilon";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/102384746> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102384746/about> .
+
+<https://d-nb.info/gnd/102384746/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102384746> gndo:biographicalOrHistoricalInformation "Griech. Politiker, zählt zu den Sieben Weisen"@de;
+  gndo:udkCode "600 - 501 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592658 .
+
+_:node1ivs02adlx24592658 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/102384746> gndo:dateOfBirthAndDeath "[6. Jh. v. Chr.]" .
+

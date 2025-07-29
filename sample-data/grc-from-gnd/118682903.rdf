@@ -1,0 +1,144 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118682903> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118682903/about> .
+
+<https://d-nb.info/gnd/118682903/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-04-25T00:43:30.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118682903> gndo:gndIdentifier "118682903";
+  owl:sameAs <https://dbpedia.org/resource/Ezekiel_the_Tragedian>, <http://viaf.org/viaf/72188150>,
+    <http://www.wikidata.org/entity/Q1385977>;
+  gndo:oldAuthorityNumber "(DE-588)1089883374";
+  owl:sameAs <https://d-nb.info/gnd/1089883374>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089883374";
+  gndo:oldAuthorityNumber "(DE-588)1089553765";
+  owl:sameAs <https://d-nb.info/gnd/1089553765>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089553765";
+  gndo:oldAuthorityNumber "(DE-588)1089723652";
+  owl:sameAs <https://d-nb.info/gnd/1089723652>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089723652";
+  gndo:oldAuthorityNumber "(DE-588a)118682903", "(DE-588c)4091564-5";
+  gndo:variantNameForThePerson "Ezekiel, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595845 .
+
+_:node1ivs02adlx24595845 gndo:personalName "Ezekiel";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Ezechiel, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595846 .
+
+_:node1ivs02adlx24595846 gndo:personalName "Ezechiel";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Ezechiel, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595847 .
+
+_:node1ivs02adlx24595847 gndo:personalName "Ezechiel";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Ezechiel, Iudaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595848 .
+
+_:node1ivs02adlx24595848 gndo:personalName "Ezechiel";
+  gndo:nameAddition "Iudaeus" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Ezechiel, Jude";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595849 .
+
+_:node1ivs02adlx24595849 gndo:personalName "Ezechiel";
+  gndo:nameAddition "Jude" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Ezechiel, Verfasser Jüdischer Tragödien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595850 .
+
+_:node1ivs02adlx24595850 gndo:personalName "Ezechiel";
+  gndo:nameAddition "Verfasser Jüdischer Tragödien" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Ezekiel, Poeta Iudaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595851 .
+
+_:node1ivs02adlx24595851 gndo:personalName "Ezekiel";
+  gndo:nameAddition "Poeta Iudaeus" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Yeḥezqêl, Tragicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595852 .
+
+_:node1ivs02adlx24595852 gndo:personalName "Yeḥezqêl";
+  gndo:nameAddition "Tragicus" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Ezechiel, Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595853 .
+
+_:node1ivs02adlx24595853 gndo:personalName "Ezechiel";
+  gndo:nameAddition "Schriftsteller" .
+
+<https://d-nb.info/gnd/118682903> gndo:variantNameForThePerson "Ezechiel, Tragiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595854 .
+
+_:node1ivs02adlx24595854 gndo:personalName "Ezechiel";
+  gndo:nameAddition "Tragiker" .
+
+<https://d-nb.info/gnd/118682903> gndo:preferredNameForThePerson "Ezechiel, Tragicus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595855 .
+
+_:node1ivs02adlx24595855 gndo:personalName "Ezechiel";
+  gndo:nameAddition "Tragicus" .
+
+<https://d-nb.info/gnd/118682903> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ezechiel <Iudaeus>: Eductio Hebraeorum. - 1614", "Ezechiel <Tragicus>: Eductio Hebraeorum. - 1614";
+  wdrs:describedby <https://d-nb.info/gnd/118682903/about> .
+
+<https://d-nb.info/gnd/118682903/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118682903> gndo:biographicalOrHistoricalInformation "TGF 1,288-301; Jüd.-hellenist. Schriftsteller in Alexandria; Verf. der \"Exagōgē\""@de;
+  gndo:udkCode "300 - 201 v. Chr. ", "200 - 101 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v3./2. Jh.]" .
+

@@ -1,0 +1,296 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118550292> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118550292/about> .
+
+<https://d-nb.info/gnd/118550292/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:52:50.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118550292> gndo:gndIdentifier "118550292";
+  owl:sameAs <https://dbpedia.org/resource/Hesiod>, <http://viaf.org/viaf/700168850935267620006>,
+    <http://www.wikidata.org/entity/Q44233>;
+  gndo:oldAuthorityNumber "(DE-588)1071887963";
+  owl:sameAs <https://d-nb.info/gnd/1071887963>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1071887963";
+  gndo:oldAuthorityNumber "(DE-588)1089884621";
+  owl:sameAs <https://d-nb.info/gnd/1089884621>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089884621";
+  gndo:oldAuthorityNumber "(DE-588)1089716516";
+  owl:sameAs <https://d-nb.info/gnd/1089716516>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089716516";
+  gndo:oldAuthorityNumber "(DE-588)1089131186";
+  owl:sameAs <https://d-nb.info/gnd/1089131186>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089131186";
+  gndo:oldAuthorityNumber "(DE-588)188026916";
+  owl:sameAs <https://d-nb.info/gnd/188026916>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188026916";
+  gndo:oldAuthorityNumber "(DE-588a)188026916", "(DE-588)160004519";
+  owl:sameAs <https://d-nb.info/gnd/160004519>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160004519";
+  gndo:oldAuthorityNumber "(DE-588a)160004519", "(DE-588)157575403";
+  owl:sameAs <https://d-nb.info/gnd/157575403>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/157575403";
+  gndo:oldAuthorityNumber "(DE-588a)157575403", "(DE-588a)118550292", "(DE-588c)4024712-0";
+  gndo:variantNameForThePerson "Hesiodus, Ascraeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396095 .
+
+_:node1ivpishs6x25396095 gndo:personalName "Hesiodus";
+  gndo:nameAddition "Ascraeus" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesiodus, Ascreus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396096 .
+
+_:node1ivpishs6x25396096 gndo:personalName "Hesiodus";
+  gndo:nameAddition "Ascreus" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesiodus, Askra";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396097 .
+
+_:node1ivpishs6x25396097 gndo:personalName "Hesiodus";
+  gndo:nameAddition "Askra" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesiodus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396098 .
+
+_:node1ivpishs6x25396098 gndo:personalName "Hesiodus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesiod";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396099 .
+
+_:node1ivpishs6x25396099 gndo:personalName "Hesiod" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hésiode";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396100 .
+
+_:node1ivpishs6x25396100 gndo:personalName "Hésiode" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesíodo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396101 .
+
+_:node1ivpishs6x25396101 gndo:personalName "Hesíodo" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hēsiodos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396102 .
+
+_:node1ivpishs6x25396102 gndo:personalName "Hēsiodos" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesiodos, Askraios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396103 .
+
+_:node1ivpishs6x25396103 gndo:personalName "Hesiodos";
+  gndo:nameAddition "Askraios" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesiodos, ho Askraios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396104 .
+
+_:node1ivpishs6x25396104 gndo:personalName "Hesiodos";
+  gndo:nameAddition "ho Askraios" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesiodos, von Askra";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396105 .
+
+_:node1ivpishs6x25396105 gndo:personalName "Hesiodos";
+  gndo:nameAddition "von Askra" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hesiodos, von Kyme";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396106 .
+
+_:node1ivpishs6x25396106 gndo:personalName "Hesiodos";
+  gndo:nameAddition "von Kyme" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Hezyod";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396107 .
+
+_:node1ivpishs6x25396107 gndo:personalName "Hezyod" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Eracle";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396108 .
+
+_:node1ivpishs6x25396108 gndo:personalName "Eracle" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Esiodo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396109 .
+
+_:node1ivpishs6x25396109 gndo:personalName "Esiodo" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Esiodo, Ascraeo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396110 .
+
+_:node1ivpishs6x25396110 gndo:personalName "Esiodo";
+  gndo:nameAddition "Ascraeo" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Ēsiodos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396111 .
+
+_:node1ivpishs6x25396111 gndo:personalName "Ēsiodos" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Isiodos, ho Askraios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396112 .
+
+_:node1ivpishs6x25396112 gndo:personalName "Isiodos";
+  gndo:nameAddition "ho Askraios" .
+
+<https://d-nb.info/gnd/118550292> gndo:variantNameForThePerson "Pseudo-Esiodo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396113 .
+
+_:node1ivpishs6x25396113 gndo:personalName "Pseudo-Esiodo" .
+
+<https://d-nb.info/gnd/118550292> gndo:preferredNameForThePerson "Hesiodus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396114 .
+
+_:node1ivpishs6x25396114 gndo:personalName "Hesiodus" .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121860477>;
+  gndo:hasRelation _:node1ivpishs6x25396115 .
+
+_:node1ivpishs6x25396115 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121860477>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:hasRelation _:node1ivpishs6x25396116 .
+
+_:node1ivpishs6x25396116 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396117 .
+
+_:node1ivpishs6x25396117 gndo:forename "Marcus Porcius";
+  gndo:surname "Cato" .
+
+<https://d-nb.info/gnd/118550292> gndo:hasRelation _:node1ivpishs6x25396118 .
+
+_:node1ivpishs6x25396118 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396119 .
+
+_:node1ivpishs6x25396119 gndo:personalName "Cebes" .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120538520>;
+  gndo:hasRelation _:node1ivpishs6x25396120 .
+
+_:node1ivpishs6x25396120 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120538520>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:hasRelation _:node1ivpishs6x25396121 .
+
+_:node1ivpishs6x25396121 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396122 .
+
+_:node1ivpishs6x25396122 gndo:forename "Matija";
+  gndo:surname "Grbić" .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116702052>;
+  gndo:hasRelation _:node1ivpishs6x25396123 .
+
+_:node1ivpishs6x25396123 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116702052>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118712608>;
+  gndo:hasRelation _:node1ivpishs6x25396124 .
+
+_:node1ivpishs6x25396124 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118712608>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:hasRelation _:node1ivpishs6x25396125 .
+
+_:node1ivpishs6x25396125 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396126 .
+
+_:node1ivpishs6x25396126 gndo:forename "Philipp";
+  gndo:surname "Melanchthon" .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/123590736>;
+  gndo:hasRelation _:node1ivpishs6x25396127 .
+
+_:node1ivpishs6x25396127 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/123590736>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:hasRelation _:node1ivpishs6x25396128 .
+
+_:node1ivpishs6x25396128 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118550292> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396129 .
+
+_:node1ivpishs6x25396129 gndo:forename "Jan";
+  gndo:surname "Tack" .
+
+<https://d-nb.info/gnd/118550292> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Georgicorum liber", "Hesiodi poete Georg corũ liber \\[pro] Nicolaũ de Valle conuersus e greco in latinũ. ...",
+    "Georgicorum liber", "Georgicorum liber", "Hesiodi poete Georgicorũ liber \\[pro] Nicolaũ de Valle conuersus e greco in latinum. ...",
+    "Georgicorum liber", "Hesiodi poete Georgicorum liber per Nicolaum de Valle conuersus e greco in latinum. ...",
+    "Opera Theognidis sententiae ...", "Hesiodi Poete Georgicorum liber per Nicolaum de Valle conuersus e graeco in latinum",
+    "Hesiodi poete Georgicorũ liber: per Nicolaũ de Valle cõuersus e greco in latinum. ...",
+    "Georgicon", "Opera et dies", "Selecta aliquot graecorum epigrammata", "Opera omnia",
+    "HESIODI ASCRAEI OPERA, Quae quidem extant, omnia Graecè, cum interpretatione Latina ...",
+    "HESIODI ASCRAEI OPERA, Quae quidem extant, omnia Graecè, cum interpretatione Latina è ...",
+    "GHĒSIODU TU ASKRAIU ERGA KAI HĒMERAI.\\=g HESIODI ASCRAEI OPERA ET DIES. Vnà cum ...";
+  wdrs:describedby <https://d-nb.info/gnd/118550292/about> .
+
+<https://d-nb.info/gnd/118550292/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118550292> gndo:biographicalOrHistoricalInformation "Griechischer Epiker"@de;
+  gndo:udkCode "800 - 701 v. Chr. ", "700 - 601 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25396130 .
+
+_:node1ivpishs6x25396130 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118550292> gndo:dateOfBirthAndDeath "[v8./7. Jh.]" .
+

@@ -1,0 +1,485 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11867966X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11867966X/about> .
+
+<https://d-nb.info/gnd/11867966X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:50:12.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11867966X> gndo:gndIdentifier "11867966X";
+  foaf:page <https://de.wikipedia.org/wiki/Dion_Chrysostomos>;
+  owl:sameAs <https://dbpedia.org/resource/Dio_Chrysostom>, <http://viaf.org/viaf/100906841>,
+    <https://isni.org/isni/0000000122835285>, <http://www.wikidata.org/entity/Q334457>,
+    <http://id.loc.gov/rwo/agents/n79059104>;
+  gndo:oldAuthorityNumber "(DE-588)1089123205";
+  owl:sameAs <https://d-nb.info/gnd/1089123205>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089123205";
+  gndo:oldAuthorityNumber "(DE-588)186062044";
+  owl:sameAs <https://d-nb.info/gnd/186062044>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186062044";
+  gndo:oldAuthorityNumber "(DE-588a)186062044", "(DE-588)185877648";
+  owl:sameAs <https://d-nb.info/gnd/185877648>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877648";
+  gndo:oldAuthorityNumber "(DE-588a)185877648", "(DE-588)183575067";
+  owl:sameAs <https://d-nb.info/gnd/183575067>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183575067";
+  gndo:oldAuthorityNumber "(DE-588a)183575067", "(DE-588a)11867966X", "(DE-588a)119655039",
+    "(DE-588a)119655020", "(DE-588c)4091030-1";
+  gndo:variantNameForThePerson "Dión, de Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590317 .
+
+_:node1ivs02adlx24590317 gndo:personalName "Dión";
+  gndo:nameAddition "de Prusa" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio Cocceianus, Chrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590318 .
+
+_:node1ivs02adlx24590318 gndo:forename "Chrysostomus";
+  gndo:surname "Dio Cocceianus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio Chrysostom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590319 .
+
+_:node1ivs02adlx24590319 gndo:personalName "Dio Chrysostom" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, Chrysostom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590320 .
+
+_:node1ivs02adlx24590320 gndo:personalName "Dio";
+  gndo:nameAddition "Chrysostom" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio Chrysostomus, Prusaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590321 .
+
+_:node1ivs02adlx24590321 gndo:personalName "Dio Chrysostomus";
+  gndo:nameAddition "Prusaeus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, Chrysostomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590322 .
+
+_:node1ivs02adlx24590322 gndo:personalName "Dio";
+  gndo:nameAddition "Chrysostomos" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590323 .
+
+_:node1ivs02adlx24590323 gndo:personalName "Dio";
+  gndo:nameAddition "Cocceianus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590324 .
+
+_:node1ivs02adlx24590324 gndo:personalName "Dion";
+  gndo:nameAddition "Cocceianus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, of Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590325 .
+
+_:node1ivs02adlx24590325 gndo:personalName "Dio";
+  gndo:nameAddition "of Prusa" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, Prussaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590326 .
+
+_:node1ivs02adlx24590326 gndo:personalName "Dio";
+  gndo:nameAddition "Prussaeus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, Prusaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590327 .
+
+_:node1ivs02adlx24590327 gndo:personalName "Dio";
+  gndo:nameAddition "Prusaeus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, von Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590328 .
+
+_:node1ivs02adlx24590328 gndo:personalName "Dio";
+  gndo:nameAddition "von Prusa" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, Prusaensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590329 .
+
+_:node1ivs02adlx24590329 gndo:personalName "Dio";
+  gndo:nameAddition "Prusaensis" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590330 .
+
+_:node1ivs02adlx24590330 gndo:personalName "Dio";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590331 .
+
+_:node1ivs02adlx24590331 gndo:personalName "Dio" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, von Bursa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590332 .
+
+_:node1ivs02adlx24590332 gndo:personalName "Dion";
+  gndo:nameAddition "von Bursa" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion Cocceianus, Chrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590333 .
+
+_:node1ivs02adlx24590333 gndo:personalName "Dion Cocceianus";
+  gndo:nameAddition "Chrysostomus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion Cocceianos, von Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590334 .
+
+_:node1ivs02adlx24590334 gndo:personalName "Dion Cocceianos";
+  gndo:nameAddition "von Prusa" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion Cocceianus, von Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590335 .
+
+_:node1ivs02adlx24590335 gndo:personalName "Dion Cocceianus";
+  gndo:nameAddition "von Prusa" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Schüler des Musonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590336 .
+
+_:node1ivs02adlx24590336 gndo:personalName "Dion";
+  gndo:nameAddition "Schüler des Musonius" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, kynisch-stoischer Popularphilosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590337 .
+
+_:node1ivs02adlx24590337 gndo:personalName "Dion";
+  gndo:nameAddition "kynisch-stoischer Popularphilosoph" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Prusaensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590338 .
+
+_:node1ivs02adlx24590338 gndo:personalName "Dion";
+  gndo:nameAddition "Prusaensis" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Chrysostomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590339 .
+
+_:node1ivs02adlx24590339 gndo:personalName "Dion";
+  gndo:nameAddition "Chrysostomos" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Prusaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590340 .
+
+_:node1ivs02adlx24590340 gndo:personalName "Dion";
+  gndo:nameAddition "Prusaeus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Chrysostom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590341 .
+
+_:node1ivs02adlx24590341 gndo:personalName "Dion";
+  gndo:nameAddition "Chrysostom" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Chrysostomus Prusensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590342 .
+
+_:node1ivs02adlx24590342 gndo:personalName "Dion";
+  gndo:nameAddition "Chrysostomus Prusensis" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, z Prusy";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590343 .
+
+_:node1ivs02adlx24590343 gndo:personalName "Dion";
+  gndo:nameAddition "z Prusy" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590344 .
+
+_:node1ivs02adlx24590344 gndo:personalName "Dion" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dione, Cocceiano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590345 .
+
+_:node1ivs02adlx24590345 gndo:personalName "Dione";
+  gndo:nameAddition "Cocceiano" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dione, Crisostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590346 .
+
+_:node1ivs02adlx24590346 gndo:personalName "Dione";
+  gndo:nameAddition "Crisostomus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dione Crisostomo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590347 .
+
+_:node1ivs02adlx24590347 gndo:personalName "Dione Crisostomo" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dione, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590348 .
+
+_:node1ivs02adlx24590348 gndo:personalName "Dione";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dionos, Chrysostomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590349 .
+
+_:node1ivs02adlx24590349 gndo:personalName "Dionos";
+  gndo:nameAddition "Chrysostomos" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dionos, ho Chrysostomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590350 .
+
+_:node1ivs02adlx24590350 gndo:personalName "Dionos";
+  gndo:nameAddition "ho Chrysostomos" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Chrysostomus, Dio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590351 .
+
+_:node1ivs02adlx24590351 gndo:forename "Dio";
+  gndo:surname "Chrysostomus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Chrysostome, Jean";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590352 .
+
+_:node1ivs02adlx24590352 gndo:forename "Jean";
+  gndo:surname "Chrysostome" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Chrysostomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590353 .
+
+_:node1ivs02adlx24590353 gndo:personalName "Chrysostomos" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Crisostomo, Dione";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590354 .
+
+_:node1ivs02adlx24590354 gndo:forename "Dione";
+  gndo:surname "Crisostomo" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Crisóstomo, Juan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590355 .
+
+_:node1ivs02adlx24590355 gndo:forename "Juan";
+  gndo:surname "Crisóstomo" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Cocceianus, Dio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590356 .
+
+_:node1ivs02adlx24590356 gndo:forename "Dio";
+  gndo:surname "Cocceianus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Cocceianus, Chrysostomus D.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590357 .
+
+_:node1ivs02adlx24590357 gndo:forename "Chrysostomus D.";
+  gndo:surname "Cocceianus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, von Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590358 .
+
+_:node1ivs02adlx24590358 gndo:personalName "Dion";
+  gndo:nameAddition "von Prusa" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dio, Prusensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590359 .
+
+_:node1ivs02adlx24590359 gndo:personalName "Dio";
+  gndo:nameAddition "Prusensis" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Chrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590360 .
+
+_:node1ivs02adlx24590360 gndo:personalName "Dion";
+  gndo:nameAddition "Chrysostomus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, de Pruse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590361 .
+
+_:node1ivs02adlx24590361 gndo:personalName "Dion";
+  gndo:nameAddition "de Pruse" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dion, Chrysostome";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590362 .
+
+_:node1ivs02adlx24590362 gndo:personalName "Dion";
+  gndo:nameAddition "Chrysostome" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dione, di Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590363 .
+
+_:node1ivs02adlx24590363 gndo:personalName "Dione";
+  gndo:nameAddition "di Prusa" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Dione, Crisostomo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590364 .
+
+_:node1ivs02adlx24590364 gndo:personalName "Dione";
+  gndo:nameAddition "Crisostomo" .
+
+<https://d-nb.info/gnd/11867966X> gndo:variantNameForThePerson "Chrysostomos, Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590365 .
+
+_:node1ivs02adlx24590365 gndo:forename "Dion";
+  gndo:surname "Chrysostomos" .
+
+<https://d-nb.info/gnd/11867966X> gndo:preferredNameForThePerson "Dio, Chrysostomus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590366 .
+
+_:node1ivs02adlx24590366 gndo:personalName "Dio";
+  gndo:nameAddition "Chrysostomus" .
+
+<https://d-nb.info/gnd/11867966X> gndo:hasRelation _:node1ivs02adlx24590367 .
+
+_:node1ivs02adlx24590367 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590368 .
+
+_:node1ivs02adlx24590368 gndo:forename "Konrad";
+  gndo:surname "Gesner" .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118710621>;
+  gndo:hasRelation _:node1ivs02adlx24590369 .
+
+_:node1ivs02adlx24590369 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118710621>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116296909>;
+  gndo:hasRelation _:node1ivs02adlx24590370 .
+
+_:node1ivs02adlx24590370 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116296909>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:hasRelation _:node1ivs02adlx24590371 .
+
+_:node1ivs02adlx24590371 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590372 .
+
+_:node1ivs02adlx24590372 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:hasRelation _:node1ivs02adlx24590373 .
+
+_:node1ivs02adlx24590373 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:hasRelation _:node1ivs02adlx24590374 .
+
+_:node1ivs02adlx24590374 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590375 .
+
+_:node1ivs02adlx24590375 gndo:forename "Thomas";
+  gndo:surname "Kirchmeyer" .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124674585>;
+  gndo:hasRelation _:node1ivs02adlx24590376 .
+
+_:node1ivs02adlx24590376 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124674585>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117205907>;
+  gndo:hasRelation _:node1ivs02adlx24590377 .
+
+_:node1ivs02adlx24590377 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117205907>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/103084681>;
+  gndo:hasRelation _:node1ivs02adlx24590378 .
+
+_:node1ivs02adlx24590378 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/103084681>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:hasRelation _:node1ivs02adlx24590379 .
+
+_:node1ivs02adlx24590379 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590380 .
+
+_:node1ivs02adlx24590380 gndo:forename "Lorenz";
+  gndo:surname "Rhodomann" .
+
+<https://d-nb.info/gnd/11867966X> gndo:hasRelation _:node1ivs02adlx24590381 .
+
+_:node1ivs02adlx24590381 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11867966X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590382 .
+
+_:node1ivs02adlx24590382 gndo:forename "Andrea";
+  gndo:surname "Alciato" .
+
+<https://d-nb.info/gnd/11867966X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dionōs Prusaeōs sophistu peri apistias", "Non temere credendum",
+    "Dionōs tu Chrysostomu logoi 80", "Libelli duo: unus contra Tyrannidem, alter de Gloria",
+    "Libelli duo: unus contra Tyrannidem, alter de gloria", "Orationes LXXX", "Orationes octoginta in latinum conversae",
+    "Olympica sive de prima dei cognitione", "Oratio VIII. Diogenēs ē peri aretēs",
+    "Oratio peri logu askēseōs", "Heraclides Ponticus: De Homero oratio.  1544.  (VD16 H 2191)",
+    "De exercitio dicendi oratio.  1595.  (VD16 ZV 4578)", "Euboicus sive venator.  1579.  (VD16 ZV 4577)",
+    "De exercitio dicendi oratio.  1589.  (VD16 ZV 24349)", "DIOHIS CHRYSOstomi, pre̜stantissimi & philosophi & oratoris, Orationes octoginta, in Latimun ...  1555.  (VD16 D 1813)",
+    "\\=GDIŌNOS PRUSAEŌS SOPHISTU PERI APISTIAS.\\=g DIONIS PRVSAENsis Sophiatae, Non ...  1531.  (VD16 D 1811)",
+    "De regno.  1584.  (VD16 D 1814)", "De gloria.  1556.  (VD16 D 1806)", "De gloria.  1545.  (VD16 D 1805)",
+    "Peri apistias.  1562.  (VD16 S 5892)", "DIONIS CHRYSOSTOMI Elegantes & perbreues orationes duae: altera de Virtute, altera de ...  1600.  (VD16 ZV 21230)";
+  wdrs:describedby <https://d-nb.info/gnd/11867966X/about> .
+
+<https://d-nb.info/gnd/11867966X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11867966X> gndo:biographicalOrHistoricalInformation "Griech. Redner u. Popularphilosoph, ursprünglich Sophist, später Vertreter der kynisch-stoischen Richtung, mit vielseitiger schriftstellerischer Tätigkeit"@de;
+  gndo:professionOrOccupation _:node1ivs02adlx24590383 .
+
+_:node1ivs02adlx24590383 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4048895-0> .
+
+<https://d-nb.info/gnd/11867966X> gndo:dateOfBirth "0040"^^xsd:gYear;
+  gndo:dateOfDeath "0120"^^xsd:gYear .
+

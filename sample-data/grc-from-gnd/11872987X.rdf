@@ -1,0 +1,200 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11872987X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11872987X/about> .
+
+<https://d-nb.info/gnd/11872987X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:49:48.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11872987X> gndo:gndIdentifier "11872987X";
+  owl:sameAs <https://dbpedia.org/resource/Lysias>, <http://viaf.org/viaf/216968860>,
+    <http://www.wikidata.org/entity/Q310164>;
+  gndo:oldAuthorityNumber "(DE-588)1089714645";
+  owl:sameAs <https://d-nb.info/gnd/1089714645>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089714645";
+  gndo:oldAuthorityNumber "(DE-588a)11872987X", "(DE-588a)119749408", "(DE-588c)4099959-2";
+  gndo:variantNameForThePerson "Lysias, Attischer Logograph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401051 .
+
+_:node1ivpishs6x25401051 gndo:personalName "Lysias";
+  gndo:nameAddition "Attischer Logograph" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysias, Metöke";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401052 .
+
+_:node1ivpishs6x25401052 gndo:personalName "Lysias";
+  gndo:nameAddition "Metöke" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysias, von Syracus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401053 .
+
+_:node1ivpishs6x25401053 gndo:personalName "Lysias";
+  gndo:nameAddition "von Syracus" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysias, Sohn des Kephalos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401054 .
+
+_:node1ivpishs6x25401054 gndo:personalName "Lysias";
+  gndo:nameAddition "Sohn des Kephalos" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysia, Siracusano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401055 .
+
+_:node1ivpishs6x25401055 gndo:personalName "Lysia";
+  gndo:nameAddition "Siracusano" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lisia, Logografo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401056 .
+
+_:node1ivpishs6x25401056 gndo:personalName "Lisia";
+  gndo:nameAddition "Logografo" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysias, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401057 .
+
+_:node1ivpishs6x25401057 gndo:personalName "Lysias";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401058 .
+
+_:node1ivpishs6x25401058 gndo:personalName "Lysis" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysias, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401059 .
+
+_:node1ivpishs6x25401059 gndo:personalName "Lysias";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lisia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401060 .
+
+_:node1ivpishs6x25401060 gndo:personalName "Lisia" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Pseudo-Lysias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401061 .
+
+_:node1ivpishs6x25401061 gndo:personalName "Pseudo-Lysias" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401062 .
+
+_:node1ivpishs6x25401062 gndo:personalName "Lysia" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401063 .
+
+_:node1ivpishs6x25401063 gndo:personalName "Lisias" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lisia, Logographo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401064 .
+
+_:node1ivpishs6x25401064 gndo:personalName "Lisia";
+  gndo:nameAddition "Logographo" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysias, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401065 .
+
+_:node1ivpishs6x25401065 gndo:personalName "Lysias";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysias, Orator";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401066 .
+
+_:node1ivpishs6x25401066 gndo:personalName "Lysias";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lysias, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401067 .
+
+_:node1ivpishs6x25401067 gndo:personalName "Lysias";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Lisia, Oratore";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401068 .
+
+_:node1ivpishs6x25401068 gndo:personalName "Lisia";
+  gndo:nameAddition "Oratore" .
+
+<https://d-nb.info/gnd/11872987X> gndo:variantNameForThePerson "Pseduo-Lysias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401069 .
+
+_:node1ivpishs6x25401069 gndo:personalName "Pseduo-Lysias" .
+
+<https://d-nb.info/gnd/11872987X> gndo:preferredNameForThePerson "Lysias";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401070 .
+
+_:node1ivpishs6x25401070 gndo:personalName "Lysias" .
+
+<https://d-nb.info/gnd/11872987X> gndo:hasRelation _:node1ivpishs6x25401071 .
+
+_:node1ivpishs6x25401071 gndo:functionOrRoleAsLiteral "Düren; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11872987X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25401072 .
+
+_:node1ivpishs6x25401072 gndo:forename "Franz";
+  gndo:surname "Fabricius" .
+
+<https://d-nb.info/gnd/11872987X> gndo:professionOrOccupationAsLiteral "logograph";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Lysias <Orator>: Opera omnia", "Lysias <Orator>: Orationes", "Lysias <Orator>: Orationes",
+    "Lysias <Orator>: Lobrede auf die bei der Vertheidigung der Korinther gefallenen Krieger",
+    "Lysias <Orator>: Orationes duae", "Lysias <Orator>: Oeuvres", "Lysias <Orator>: Defensio super caede Eratosthenis",
+    "Lysias <Orator>: Lysiae orationes", "Lysias <Orator>: Erastostenes", "Lysias <Orator>: Orazioni e frammenti",
+    "Lysias: LYSIAE ORATIONES DVAE, VNA PRO ERATOSTHENIS caede, altera funebris: iam primùm integrae ... 1554. (VD16 L 7746)";
+  wdrs:describedby <https://d-nb.info/gnd/11872987X/about> .
+
+<https://d-nb.info/gnd/11872987X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11872987X> gndo:biographicalOrHistoricalInformation "Att. Redner, Logograph u. Rhetor"@de;
+  gndo:udkCode "500 - 401 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0450"^^xsd:gYear;
+  gndo:dateOfDeath "-0380"^^xsd:gYear .
+

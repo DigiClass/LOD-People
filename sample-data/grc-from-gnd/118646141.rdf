@@ -1,0 +1,222 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118646141> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118646141/about> .
+
+<https://d-nb.info/gnd/118646141/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-03-24T16:48:33.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118646141> gndo:gndIdentifier "118646141";
+  foaf:page <https://de.wikipedia.org/wiki/Athenagoras_von_Athen>;
+  owl:sameAs <https://dbpedia.org/resource/Athenagoras_of_Athens>, <http://viaf.org/viaf/106097488>,
+    <http://www.wikidata.org/entity/Q309772>, <http://id.loc.gov/rwo/agents/n89669386>;
+  gndo:oldAuthorityNumber "(DE-588)1089599382";
+  owl:sameAs <https://d-nb.info/gnd/1089599382>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089599382";
+  gndo:oldAuthorityNumber "(DE-588)1089103719";
+  owl:sameAs <https://d-nb.info/gnd/1089103719>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089103719";
+  gndo:oldAuthorityNumber "(DE-588)1089891830";
+  owl:sameAs <https://d-nb.info/gnd/1089891830>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089891830";
+  gndo:oldAuthorityNumber "(DE-588)1089784414";
+  owl:sameAs <https://d-nb.info/gnd/1089784414>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089784414";
+  gndo:oldAuthorityNumber "(DE-588)128232048";
+  owl:sameAs <https://d-nb.info/gnd/128232048>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/128232048";
+  gndo:oldAuthorityNumber "(DE-588a)128232048", "(DE-588)119610256";
+  owl:sameAs <https://d-nb.info/gnd/119610256>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119610256";
+  gndo:oldAuthorityNumber "(DE-588a)119610256", "(DE-588)15836757X";
+  owl:sameAs <https://d-nb.info/gnd/15836757X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/15836757X";
+  gndo:oldAuthorityNumber "(DE-588a)15836757X", "(DE-588)188039929";
+  owl:sameAs <https://d-nb.info/gnd/188039929>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188039929";
+  gndo:oldAuthorityNumber "(DE-588a)188039929", "(DE-588)186601549";
+  owl:sameAs <https://d-nb.info/gnd/186601549>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186601549";
+  gndo:oldAuthorityNumber "(DE-588a)186601549", "(DE-588)174718357";
+  owl:sameAs <https://d-nb.info/gnd/174718357>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174718357";
+  gndo:oldAuthorityNumber "(DE-588a)174718357", "(DE-588)159571596";
+  owl:sameAs <https://d-nb.info/gnd/159571596>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/159571596";
+  gndo:oldAuthorityNumber "(DE-588a)159571596", "(DE-588a)118646141", "(DE-588c)4080200-0";
+  gndo:variantNameForThePerson "Athenagoras, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400383 .
+
+_:node1ivpishs6x25400383 gndo:personalName "Athenagoras";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athenagoras, Philosophus Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400384 .
+
+_:node1ivpishs6x25400384 gndo:personalName "Athenagoras";
+  gndo:nameAddition "Philosophus Atheniensis" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athenagoras";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400385 .
+
+_:node1ivpishs6x25400385 gndo:personalName "Athenagoras" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athenagoras, Apologeta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400386 .
+
+_:node1ivpishs6x25400386 gndo:personalName "Athenagoras";
+  gndo:nameAddition "Apologeta" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athenagoras, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400387 .
+
+_:node1ivpishs6x25400387 gndo:personalName "Athenagoras";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athenagoras, Christlicher Apologet";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400388 .
+
+_:node1ivpishs6x25400388 gndo:personalName "Athenagoras";
+  gndo:nameAddition "Christlicher Apologet" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athenagoras, Christlicher Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400389 .
+
+_:node1ivpishs6x25400389 gndo:personalName "Athenagoras";
+  gndo:nameAddition "Christlicher Philosoph" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Atenagora, di Atene";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400390 .
+
+_:node1ivpishs6x25400390 gndo:personalName "Atenagora";
+  gndo:nameAddition "di Atene" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athénagore, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400391 .
+
+_:node1ivpishs6x25400391 gndo:personalName "Athénagore";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Atenagora, Filosofo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400392 .
+
+_:node1ivpishs6x25400392 gndo:personalName "Atenagora";
+  gndo:nameAddition "Filosofo" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Atenagora, Apologista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400393 .
+
+_:node1ivpishs6x25400393 gndo:personalName "Atenagora";
+  gndo:nameAddition "Apologista" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athenagoras, Philosophus Christianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400394 .
+
+_:node1ivpishs6x25400394 gndo:personalName "Athenagoras";
+  gndo:nameAddition "Philosophus Christianus" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athēnagoras, Athēnaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400395 .
+
+_:node1ivpishs6x25400395 gndo:personalName "Athēnagoras";
+  gndo:nameAddition "Athēnaios" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athénagore";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400396 .
+
+_:node1ivpishs6x25400396 gndo:personalName "Athénagore" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Athenagoras, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400397 .
+
+_:node1ivpishs6x25400397 gndo:personalName "Athenagoras";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Άγιος Αθηναγόρας, ο Αθηναίος";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400398 .
+
+_:node1ivpishs6x25400398 gndo:personalName "Άγιος Αθηναγόρας";
+  gndo:nameAddition "ο Αθηναίος" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Άγιος Αθηναγόρας, ο Απολογητής";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400399 .
+
+_:node1ivpishs6x25400399 gndo:personalName "Άγιος Αθηναγόρας";
+  gndo:nameAddition "ο Απολογητής" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Αθηναγόρας, ο Αθηναίος";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400400 .
+
+_:node1ivpishs6x25400400 gndo:personalName "Αθηναγόρας";
+  gndo:nameAddition "ο Αθηναίος" .
+
+<https://d-nb.info/gnd/118646141> gndo:variantNameForThePerson "Αθηναγόρας, ο Απολογητής";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400401 .
+
+_:node1ivpishs6x25400401 gndo:personalName "Αθηναγόρας";
+  gndo:nameAddition "ο Απολογητής" .
+
+<https://d-nb.info/gnd/118646141> gndo:preferredNameForThePerson "Athenagoras, Atheniensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400402 .
+
+_:node1ivpishs6x25400402 gndo:personalName "Athenagoras";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118646141> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "The most notable discourse touching the resurrection of the *",
+    "Apologie d'Athenagoras pour les chrétiens. - s.a.", "Della risurrettione de'morti",
+    "Tu ... Athenagoru ... Opera", "Apologia pro Christianis", "Legatio pro christianis",
+    "Legatio pro christianis", "Legatio pro christianis", "De resurrectione mortuorum",
+    "De resurrectione mortuorum";
+  wdrs:describedby <https://d-nb.info/gnd/118646141/about> .
+
+<https://d-nb.info/gnd/118646141/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118646141> gndo:udkCode "101 - 200";
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

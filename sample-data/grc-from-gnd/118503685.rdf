@@ -1,0 +1,298 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118503685> a gndo:DifferentiatedPerson;
+  owl:sameAs <https://isni.org/isni/0000000115034009>;
+  wdrs:describedby <https://d-nb.info/gnd/118503685/about> .
+
+<https://d-nb.info/gnd/118503685/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:13:42.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118503685> gndo:gndIdentifier "118503685";
+  owl:sameAs <https://dbpedia.org/resource/Apollonius_of_Tyana>, <http://viaf.org/viaf/161148631193330410716>,
+    <http://www.wikidata.org/entity/Q297040>;
+  gndo:oldAuthorityNumber "(DE-588)1157773559";
+  owl:sameAs <https://d-nb.info/gnd/1157773559>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1157773559";
+  gndo:oldAuthorityNumber "(DE-588)1089714963";
+  owl:sameAs <https://d-nb.info/gnd/1089714963>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089714963";
+  gndo:oldAuthorityNumber "(DE-588)1089103476";
+  owl:sameAs <https://d-nb.info/gnd/1089103476>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089103476";
+  gndo:oldAuthorityNumber "(DE-588a)118503685", "(DE-588a)119608146", "(DE-588c)4002447-7";
+  gndo:variantNameForThePerson "Apollonius, Tyanaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594858 .
+
+_:node1ivs02adlx24594858 gndo:personalName "Apollonius";
+  gndo:nameAddition "Tyanaeus" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonius, Tyaneus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594859 .
+
+_:node1ivs02adlx24594859 gndo:personalName "Apollonius";
+  gndo:nameAddition "Tyaneus" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonios, Wanderprediger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594860 .
+
+_:node1ivs02adlx24594860 gndo:personalName "Apollonios";
+  gndo:nameAddition "Wanderprediger" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonius, Wundertäter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594861 .
+
+_:node1ivs02adlx24594861 gndo:personalName "Apollonius";
+  gndo:nameAddition "Wundertäter" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonius, Neupythagoreer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594862 .
+
+_:node1ivs02adlx24594862 gndo:personalName "Apollonius";
+  gndo:nameAddition "Neupythagoreer" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Tyaneus, Apollonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594863 .
+
+_:node1ivs02adlx24594863 gndo:forename "Apollonius";
+  gndo:surname "Tyaneus" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonius, von Tyana";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594864 .
+
+_:node1ivs02adlx24594864 gndo:personalName "Apollonius";
+  gndo:nameAddition "von Tyana" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonius, of Tyana";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594865 .
+
+_:node1ivs02adlx24594865 gndo:personalName "Apollonius";
+  gndo:nameAddition "of Tyana" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonio, di Tiana";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594866 .
+
+_:node1ivs02adlx24594866 gndo:personalName "Apollonio";
+  gndo:nameAddition "di Tiana" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonio, Neopitagorico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594867 .
+
+_:node1ivs02adlx24594867 gndo:personalName "Apollonio";
+  gndo:nameAddition "Neopitagorico" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594868 .
+
+_:node1ivs02adlx24594868 gndo:personalName "Apollonius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonios, Neupythagoreer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594869 .
+
+_:node1ivs02adlx24594869 gndo:personalName "Apollonios";
+  gndo:nameAddition "Neupythagoreer" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonios, Wundertäter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594870 .
+
+_:node1ivs02adlx24594870 gndo:personalName "Apollonios";
+  gndo:nameAddition "Wundertäter" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonios, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594871 .
+
+_:node1ivs02adlx24594871 gndo:personalName "Apollonios";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonios, de Tyane";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594872 .
+
+_:node1ivs02adlx24594872 gndo:personalName "Apollonios";
+  gndo:nameAddition "de Tyane" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Pseudo-Apollonius, Tyanensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594873 .
+
+_:node1ivs02adlx24594873 gndo:personalName "Pseudo-Apollonius";
+  gndo:nameAddition "Tyanensis" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonius, aus Tyana";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594874 .
+
+_:node1ivs02adlx24594874 gndo:personalName "Apollonius";
+  gndo:nameAddition "aus Tyana" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Apollonios, von Tyana";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594875 .
+
+_:node1ivs02adlx24594875 gndo:personalName "Apollonios";
+  gndo:nameAddition "von Tyana" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Balīnūs al-Ḥakīm";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594876 .
+
+_:node1ivs02adlx24594876 gndo:personalName "Balīnūs al-Ḥakīm" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Balīnās al-Ḥakīm";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594877 .
+
+_:node1ivs02adlx24594877 gndo:personalName "Balīnās al-Ḥakīm" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Bulīnūs al-Ḥakīm";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594878 .
+
+_:node1ivs02adlx24594878 gndo:personalName "Bulīnūs al-Ḥakīm" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Balīnūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594879 .
+
+_:node1ivs02adlx24594879 gndo:personalName "Balīnūs" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Balīnās";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594880 .
+
+_:node1ivs02adlx24594880 gndo:personalName "Balīnās" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Balīnas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594881 .
+
+_:node1ivs02adlx24594881 gndo:personalName "Balīnas" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Būlīnyās";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594882 .
+
+_:node1ivs02adlx24594882 gndo:personalName "Būlīnyās" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Būlīniyās";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594883 .
+
+_:node1ivs02adlx24594883 gndo:personalName "Būlīniyās" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Ābūlūn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594884 .
+
+_:node1ivs02adlx24594884 gndo:personalName "Ābūlūn" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Abullūniyūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594885 .
+
+_:node1ivs02adlx24594885 gndo:personalName "Abullūniyūs" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Ablūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594886 .
+
+_:node1ivs02adlx24594886 gndo:personalName "Ablūs" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Abūlūniyūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594887 .
+
+_:node1ivs02adlx24594887 gndo:personalName "Abūlūniyūs" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Afullūniyūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594888 .
+
+_:node1ivs02adlx24594888 gndo:personalName "Afullūniyūs" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Afūlūniyūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594889 .
+
+_:node1ivs02adlx24594889 gndo:personalName "Afūlūniyūs" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Ablīnas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594890 .
+
+_:node1ivs02adlx24594890 gndo:personalName "Ablīnas" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Abūlūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594891 .
+
+_:node1ivs02adlx24594891 gndo:personalName "Abūlūs" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "Ṣāḥib aṭ-ṭilasmāt";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594892 .
+
+_:node1ivs02adlx24594892 gndo:personalName "Ṣāḥib aṭ-ṭilasmāt" .
+
+<https://d-nb.info/gnd/118503685> gndo:variantNameForThePerson "بلينوس الحكيم"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594893 .
+
+_:node1ivs02adlx24594893 gndo:personalName "بلينوس الحكيم" .
+
+<https://d-nb.info/gnd/118503685> gndo:preferredNameForThePerson "Apollonius, Tyanensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594894 .
+
+_:node1ivs02adlx24594894 gndo:personalName "Apollonius";
+  gndo:nameAddition "Tyanensis" .
+
+<https://d-nb.info/gnd/118503685> gndo:hasRelation _:node1ivs02adlx24594895 .
+
+_:node1ivs02adlx24594895 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503685> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594896 .
+
+_:node1ivs02adlx24594896 gndo:forename "Johannes Alexander";
+  gndo:surname "Brassicanus" .
+
+<https://d-nb.info/gnd/118503685> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Apollonius <Tyaneus>: Epistolae", "Kennedy, James: A new description of the pictures, statues, bustos, basso-relievos, and*",
+    "Epistolae Apollonii Tyanei, Anarcharsidis, Euripidis, Theanus, aliorumque ad eosdem",
+    "APOLLONII TYANEI PHILOSOPHI, de contemptu mortis, ad Valerium uirum consularem, Epistola. ... 1535. (VD16 A 3133)";
+  wdrs:describedby <https://d-nb.info/gnd/118503685/about> .
+
+<https://d-nb.info/gnd/118503685/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118503685> gndo:biographicalOrHistoricalInformation "Griech. Philosoph (Neupythagoreer), Asket, Wanderprediger u. Wundertäter; ihm sind einige arabischsprachige (also angebliche Übersetzungen) zugeschrieben (z.B. \"Kitāb al-ʿIlal\" = \"Sirr al-ḫalīqa\"), insbesondere in den Bereichen Alchimie und Magie"@de;
+  gndo:udkCode "1 - 100 n. Chr.";
+  gndo:professionOrOccupation _:node1ivs02adlx24594897 .
+
+_:node1ivs02adlx24594897 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118503685> gndo:dateOfBirthAndDeath "[1. Jh.]" .
+

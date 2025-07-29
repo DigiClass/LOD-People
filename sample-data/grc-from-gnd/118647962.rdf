@@ -1,0 +1,164 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118647962> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118647962/about> .
+
+<https://d-nb.info/gnd/118647962/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2017-03-01T00:46:08.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118647962> gndo:gndIdentifier "118647962";
+  foaf:page <https://de.wikipedia.org/wiki/Alexandros_Aitolos>;
+  owl:sameAs <https://dbpedia.org/resource/Alexander_Aetolus>, <http://viaf.org/viaf/308292915>,
+    <http://www.wikidata.org/entity/Q622261>, <http://id.loc.gov/rwo/agents/n00036747>;
+  gndo:oldAuthorityNumber "(DE-588)1089758987";
+  owl:sameAs <https://d-nb.info/gnd/1089758987>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089758987";
+  gndo:oldAuthorityNumber "(DE-588)1089601093";
+  owl:sameAs <https://d-nb.info/gnd/1089601093>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089601093";
+  gndo:oldAuthorityNumber "(DE-588a)118647962", "(DE-588c)4084916-8";
+  gndo:variantNameForThePerson "Alexander, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405737 .
+
+_:node1ivpishs6x25405737 gndo:personalName "Alexander";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexander, of Pleuron";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405738 .
+
+_:node1ivpishs6x25405738 gndo:personalName "Alexander";
+  gndo:nameAddition "of Pleuron" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexander, Tragicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405739 .
+
+_:node1ivpishs6x25405739 gndo:personalName "Alexander";
+  gndo:nameAddition "Tragicus" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexander, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405740 .
+
+_:node1ivpishs6x25405740 gndo:personalName "Alexander";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexander, Aitolos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405741 .
+
+_:node1ivpishs6x25405741 gndo:personalName "Alexander";
+  gndo:nameAddition "Aitolos" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexandros, ho Aitoleus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405742 .
+
+_:node1ivpishs6x25405742 gndo:personalName "Alexandros";
+  gndo:nameAddition "ho Aitoleus" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexandros, Aitolos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405743 .
+
+_:node1ivpishs6x25405743 gndo:personalName "Alexandros";
+  gndo:nameAddition "Aitolos" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexandros, von Pleuron";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405744 .
+
+_:node1ivpishs6x25405744 gndo:personalName "Alexandros";
+  gndo:nameAddition "von Pleuron" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexandros, von Ätolien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405745 .
+
+_:node1ivpishs6x25405745 gndo:personalName "Alexandros";
+  gndo:nameAddition "von Ätolien" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alessandro, Etolo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405746 .
+
+_:node1ivpishs6x25405746 gndo:personalName "Alessandro";
+  gndo:nameAddition "Etolo" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alessandro, Bibliotecario";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405747 .
+
+_:node1ivpishs6x25405747 gndo:personalName "Alessandro";
+  gndo:nameAddition "Bibliotecario" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alessandro, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405748 .
+
+_:node1ivpishs6x25405748 gndo:personalName "Alessandro";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Aetolus, Alexander";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405749 .
+
+_:node1ivpishs6x25405749 gndo:forename "Alexander";
+  gndo:surname "Aetolus" .
+
+<https://d-nb.info/gnd/118647962> gndo:variantNameForThePerson "Alexander, von Ätolien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405750 .
+
+_:node1ivpishs6x25405750 gndo:personalName "Alexander";
+  gndo:nameAddition "von Ätolien" .
+
+<https://d-nb.info/gnd/118647962> gndo:preferredNameForThePerson "Alexander, Aetolus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405751 .
+
+_:node1ivpishs6x25405751 gndo:personalName "Alexander";
+  gndo:nameAddition "Aetolus" .
+
+<https://d-nb.info/gnd/118647962> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Alexander <Aetolus>: Fragmenta collecta et illustrata. - 1832";
+  wdrs:describedby <https://d-nb.info/gnd/118647962/about> .
+
+<https://d-nb.info/gnd/118647962/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118647962> gndo:biographicalOrHistoricalInformation "Griech. Dichter, der Tragödien u. Elegien schrieb"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[geb. v315]" .
+

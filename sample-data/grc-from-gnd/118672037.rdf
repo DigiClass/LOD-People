@@ -1,0 +1,517 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118672037> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118672037/about> .
+
+<https://d-nb.info/gnd/118672037/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:50:20.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118672037> gndo:gndIdentifier "118672037";
+  foaf:page <https://de.wikipedia.org/wiki/Dionysios_von_Halikarnassos>;
+  owl:sameAs <https://dbpedia.org/resource/Dionysius_of_Halicarnassus>, <http://viaf.org/viaf/100218889>,
+    <https://isni.org/isni/0000000070015030>, <http://www.wikidata.org/entity/Q26204>,
+    <http://id.loc.gov/rwo/agents/n50082922>;
+  gndo:oldAuthorityNumber "(DE-588)1089135157";
+  owl:sameAs <https://d-nb.info/gnd/1089135157>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089135157";
+  gndo:oldAuthorityNumber "(DE-588)1089898517";
+  owl:sameAs <https://d-nb.info/gnd/1089898517>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089898517";
+  gndo:oldAuthorityNumber "(DE-588)1089836082";
+  owl:sameAs <https://d-nb.info/gnd/1089836082>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089836082";
+  gndo:oldAuthorityNumber "(DE-588)18801361X";
+  owl:sameAs <https://d-nb.info/gnd/18801361X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18801361X";
+  gndo:oldAuthorityNumber "(DE-588a)18801361X", "(DE-588)187784930";
+  owl:sameAs <https://d-nb.info/gnd/187784930>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187784930";
+  gndo:oldAuthorityNumber "(DE-588a)187784930", "(DE-588)185888194";
+  owl:sameAs <https://d-nb.info/gnd/185888194>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185888194";
+  gndo:oldAuthorityNumber "(DE-588a)185888194", "(DE-588)183100794";
+  owl:sameAs <https://d-nb.info/gnd/183100794>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183100794";
+  gndo:oldAuthorityNumber "(DE-588a)183100794", "(DE-588a)118672037", "(DE-588a)119655152",
+    "(DE-588c)4089795-3";
+  gndo:variantNameForThePerson "Aelius Dionysius, Halicarnasseus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587347 .
+
+_:node1ivs02adlx24587347 gndo:personalName "Aelius Dionysius";
+  gndo:nameAddition "Halicarnasseus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Ailios Dionysios, von Halikarnassos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587348 .
+
+_:node1ivs02adlx24587348 gndo:personalName "Ailios Dionysios";
+  gndo:nameAddition "von Halikarnassos" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionisio, de Halicarnaso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587349 .
+
+_:node1ivs02adlx24587349 gndo:personalName "Dionisio";
+  gndo:nameAddition "de Halicarnaso" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, Alikarnaseōs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587350 .
+
+_:node1ivs02adlx24587350 gndo:personalName "Dionysios";
+  gndo:nameAddition "Alikarnaseōs" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, Alikarnasseōs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587351 .
+
+_:node1ivs02adlx24587351 gndo:personalName "Dionysios";
+  gndo:nameAddition "Alikarnasseōs" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, von Halikarnassos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587352 .
+
+_:node1ivs02adlx24587352 gndo:personalName "Dionysios";
+  gndo:nameAddition "von Halikarnassos" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Alexandrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587353 .
+
+_:node1ivs02adlx24587353 gndo:personalName "Dionysius";
+  gndo:nameAddition "Alexandrus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Denys, d'Halicarnasse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587354 .
+
+_:node1ivs02adlx24587354 gndo:personalName "Denys";
+  gndo:nameAddition "d'Halicarnasse" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionigi, d'Alicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587355 .
+
+_:node1ivs02adlx24587355 gndo:personalName "Dionigi";
+  gndo:nameAddition "d'Alicarnasso" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionisio, d'Alicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587356 .
+
+_:node1ivs02adlx24587356 gndo:personalName "Dionisio";
+  gndo:nameAddition "d'Alicarnasso" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionisio, di Alicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587357 .
+
+_:node1ivs02adlx24587357 gndo:personalName "Dionisio";
+  gndo:nameAddition "di Alicarnasso" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, von Halikarnass";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587358 .
+
+_:node1ivs02adlx24587358 gndo:personalName "Dionysios";
+  gndo:nameAddition "von Halikarnass" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, Halikarnasseos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587359 .
+
+_:node1ivs02adlx24587359 gndo:personalName "Dionysios";
+  gndo:nameAddition "Halikarnasseos" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius Halicarnasseus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587360 .
+
+_:node1ivs02adlx24587360 gndo:personalName "Dionysius Halicarnasseus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Alicarnaseus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587361 .
+
+_:node1ivs02adlx24587361 gndo:personalName "Dionysius";
+  gndo:nameAddition "Alicarnaseus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Halicarn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587362 .
+
+_:node1ivs02adlx24587362 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarn" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, Geschichtsschreiber";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587363 .
+
+_:node1ivs02adlx24587363 gndo:personalName "Dionysios";
+  gndo:nameAddition "Geschichtsschreiber" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, Lehrer der Beredsamkeit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587364 .
+
+_:node1ivs02adlx24587364 gndo:personalName "Dionysios";
+  gndo:nameAddition "Lehrer der Beredsamkeit" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587365 .
+
+_:node1ivs02adlx24587365 gndo:personalName "Dionysios";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Halikarnaseus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587366 .
+
+_:node1ivs02adlx24587366 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halikarnaseus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587367 .
+
+_:node1ivs02adlx24587367 gndo:personalName "Dionysius";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587368 .
+
+_:node1ivs02adlx24587368 gndo:personalName "Dionysius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionigi, di Alicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587369 .
+
+_:node1ivs02adlx24587369 gndo:personalName "Dionigi";
+  gndo:nameAddition "di Alicarnasso" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionigi, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587370 .
+
+_:node1ivs02adlx24587370 gndo:personalName "Dionigi";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionigi, Storico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587371 .
+
+_:node1ivs02adlx24587371 gndo:personalName "Dionigi";
+  gndo:nameAddition "Storico" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, of Halicarnassus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587372 .
+
+_:node1ivs02adlx24587372 gndo:personalName "Dionysius";
+  gndo:nameAddition "of Halicarnassus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Denys, Halicarnasse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587373 .
+
+_:node1ivs02adlx24587373 gndo:personalName "Denys";
+  gndo:nameAddition "Halicarnasse" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Denis, Halicarnasse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587374 .
+
+_:node1ivs02adlx24587374 gndo:personalName "Denis";
+  gndo:nameAddition "Halicarnasse" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Halicarnassus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587375 .
+
+_:node1ivs02adlx24587375 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarnassus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, von Halikarnaß";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587376 .
+
+_:node1ivs02adlx24587376 gndo:personalName "Dionysius";
+  gndo:nameAddition "von Halikarnaß" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Halicarnassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587377 .
+
+_:node1ivs02adlx24587377 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarnassius" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Halicarnasseus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587378 .
+
+_:node1ivs02adlx24587378 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarnasseus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Halicarnaseus, Dionysius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587379 .
+
+_:node1ivs02adlx24587379 gndo:forename "Dionysius";
+  gndo:surname "Halicarnaseus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Denis, d'Halicarnasse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587380 .
+
+_:node1ivs02adlx24587380 gndo:personalName "Denis";
+  gndo:nameAddition "d'Halicarnasse" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Halicarnasse, Denys de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587381 .
+
+_:node1ivs02adlx24587381 gndo:forename "Denys";
+  gndo:prefix "de";
+  gndo:surname "Halicarnasse" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587382 .
+
+_:node1ivs02adlx24587382 gndo:personalName "Dionysius" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionigi, Alicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587383 .
+
+_:node1ivs02adlx24587383 gndo:personalName "Dionigi";
+  gndo:nameAddition "Alicarnasso" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysios, von Halikarnaß";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587384 .
+
+_:node1ivs02adlx24587384 gndo:personalName "Dionysios";
+  gndo:nameAddition "von Halikarnaß" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Halicarnassaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587385 .
+
+_:node1ivs02adlx24587385 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarnassaeus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Halicarnasensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587386 .
+
+_:node1ivs02adlx24587386 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarnasensis" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, Halicarnaseus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587387 .
+
+_:node1ivs02adlx24587387 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarnaseus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionisio, de Halicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587388 .
+
+_:node1ivs02adlx24587388 gndo:personalName "Dionisio";
+  gndo:nameAddition "de Halicarnasso" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Pseudo-Dionigi, di Alicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587389 .
+
+_:node1ivs02adlx24587389 gndo:personalName "Pseudo-Dionigi";
+  gndo:nameAddition "di Alicarnasso" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionys, von Halikarnass";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587390 .
+
+_:node1ivs02adlx24587390 gndo:personalName "Dionys";
+  gndo:nameAddition "von Halikarnass" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, von Halicarnass";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587391 .
+
+_:node1ivs02adlx24587391 gndo:personalName "Dionysius";
+  gndo:nameAddition "von Halicarnass" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysius, von Halikarnass";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587392 .
+
+_:node1ivs02adlx24587392 gndo:personalName "Dionysius";
+  gndo:nameAddition "von Halikarnass" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Dionysos, von Halicarnass";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587393 .
+
+_:node1ivs02adlx24587393 gndo:personalName "Dionysos";
+  gndo:nameAddition "von Halicarnass" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Halicarnasse, Denys d'";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587394 .
+
+_:node1ivs02adlx24587394 gndo:forename "Denys";
+  gndo:prefix "d'";
+  gndo:surname "Halicarnasse" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Halikarnass, Dionys von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587395 .
+
+_:node1ivs02adlx24587395 gndo:forename "Dionys von";
+  gndo:surname "Halikarnass" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Halikarnass, Dionys von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587396 .
+
+_:node1ivs02adlx24587396 gndo:forename "Dionys";
+  gndo:prefix "von";
+  gndo:surname "Halikarnass" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Halicarnassus, Dionysius of";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587397 .
+
+_:node1ivs02adlx24587397 gndo:forename "Dionysius";
+  gndo:prefix "of";
+  gndo:surname "Halicarnassus" .
+
+<https://d-nb.info/gnd/118672037> gndo:variantNameForThePerson "Halicarnassensis, Dionysius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587398 .
+
+_:node1ivs02adlx24587398 gndo:forename "Dionysius";
+  gndo:surname "Halicarnassensis" .
+
+<https://d-nb.info/gnd/118672037> gndo:preferredNameForThePerson "Dionysius, Halicarnassensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587399 .
+
+_:node1ivs02adlx24587399 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarnassensis" .
+
+<https://d-nb.info/gnd/118672037> gndo:hasRelation _:node1ivs02adlx24587400 .
+
+_:node1ivs02adlx24587400 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587401 .
+
+_:node1ivs02adlx24587401 gndo:forename "Marcantonio";
+  gndo:surname "Antimaco" .
+
+<https://d-nb.info/gnd/118672037> gndo:hasRelation _:node1ivs02adlx24587402 .
+
+_:node1ivs02adlx24587402 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587403 .
+
+_:node1ivs02adlx24587403 gndo:forename "Lapo";
+  gndo:surname "Birago" .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118859730>;
+  gndo:hasRelation _:node1ivs02adlx24587404 .
+
+_:node1ivs02adlx24587404 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118859730>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677713>;
+  gndo:hasRelation _:node1ivs02adlx24587405 .
+
+_:node1ivs02adlx24587405 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677713>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:hasRelation _:node1ivs02adlx24587406 .
+
+_:node1ivs02adlx24587406 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587407 .
+
+_:node1ivs02adlx24587407 gndo:forename "Sigismundus";
+  gndo:surname "Gelenius" .
+
+<https://d-nb.info/gnd/118672037> gndo:hasRelation _:node1ivs02adlx24587408 .
+
+_:node1ivs02adlx24587408 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587409 .
+
+_:node1ivs02adlx24587409 gndo:forename "Georgius";
+  gndo:surname "Gemistus Pletho" .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719134>;
+  gndo:hasRelation _:node1ivs02adlx24587410 .
+
+_:node1ivs02adlx24587410 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719134>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:hasRelation _:node1ivs02adlx24587411 .
+
+_:node1ivs02adlx24587411 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587412 .
+
+_:node1ivs02adlx24587412 gndo:forename "Heinrich";
+  gndo:surname "Loriti" .
+
+<https://d-nb.info/gnd/118672037> gndo:hasRelation _:node1ivs02adlx24587413 .
+
+_:node1ivs02adlx24587413 gndo:functionOrRoleAsLiteral "Schleiden; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587414 .
+
+_:node1ivs02adlx24587414 gndo:forename "Johannes";
+  gndo:surname "Sturm" .
+
+<https://d-nb.info/gnd/118672037> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117391042>;
+  gndo:hasRelation _:node1ivs02adlx24587415 .
+
+_:node1ivs02adlx24587415 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117391042>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118672037> gndo:professionOrOccupationAsLiteral "Rhetor";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dionysiu tu Halikarnasseōs Rhōmaikēs archaiologias ..", "Antiquitates Romanae",
+    "Dionysiu ... ta heuriskomena historika te kai rhētorika ..", "Responsio ad Cn. Pompeii epistolam",
+    "Antiquitatum sive originum Romanarum libri XI", "Alter tomus antiquitatum romanorum",
+    "De compositione", "De origine urbis Romae libri", "Dionysii Hal. Antiquitatum Romanarum capita undetriginta ..",
+    "Traité de l'arrangement des mots, traduit du grec ..", "Birck, Sixt: Ars rhetorica, Ausz. 1540. (VD16 B 5583)",
+    "Demetrius Phalereus: Comparatio Herodoti cum Thucydide et Xenophontis, Philisti, Theopompi inter se. 1557. (VD16 D 472)",
+    "DIONYSII ALEXANDRI F·HALICARNASSEN· ANTIQVITATVM SIVE ORIGINVM Romanarum Libri X. ... 1549. (VD16 D 1971)",
+    "DIONYSII HALICARNASEI ANTIQVITATVM SIVE ORIGINVM ROMANARVM LIBRI XI. A'LAPO BIRAgo ... 1532. (VD16 D 1970)",
+    "Opera. 1586. (VD16 D 1969)", "Dionysius Halicarnasseus: Opera. 1586. (VD16 ZV 4605)",
+    "Gemistus Pletho, Georgius: Peri hermēneias, Ausz. 1540. (VD16 G 1081)", "Sturm, Johannes: De periodis. 1550. (VD16 S 9977)";
+  wdrs:describedby <https://d-nb.info/gnd/118672037/about> .
+
+<https://d-nb.info/gnd/118672037/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118672037> gndo:biographicalOrHistoricalInformation "Griech. Rhetor und Historiker"@de;
+  gndo:udkCode "100 - 1 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4094554-6>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4050471-2>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24587416 .
+
+_:node1ivs02adlx24587416 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4155430-9> .
+
+<https://d-nb.info/gnd/118672037> gndo:dateOfBirthAndDeath "[v1.Jh.]" .
+

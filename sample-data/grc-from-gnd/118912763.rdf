@@ -1,0 +1,166 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118912763> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118912763/about> .
+
+<https://d-nb.info/gnd/118912763/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-11-08T19:48:20.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118912763> gndo:gndIdentifier "118912763";
+  owl:sameAs <http://viaf.org/viaf/263567849>, <http://www.wikidata.org/entity/Q1406282>;
+  gndo:oldAuthorityNumber "(DE-588)1089999216";
+  owl:sameAs <https://d-nb.info/gnd/1089999216>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089999216";
+  gndo:oldAuthorityNumber "(DE-588)1089603029";
+  owl:sameAs <https://d-nb.info/gnd/1089603029>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089603029";
+  gndo:oldAuthorityNumber "(DE-588a)118912763", "(DE-588c)4233711-2";
+  gndo:variantNameForThePerson "Himerius, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405065 .
+
+_:node1ivpishs6x25405065 gndo:personalName "Himerius";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Imerio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405066 .
+
+_:node1ivpishs6x25405066 gndo:personalName "Imerio" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerio, von Prusias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405067 .
+
+_:node1ivpishs6x25405067 gndo:personalName "Himerio";
+  gndo:nameAddition "von Prusias" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerio, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405068 .
+
+_:node1ivpishs6x25405068 gndo:personalName "Himerio";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerio, von Bithynien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405069 .
+
+_:node1ivpishs6x25405069 gndo:personalName "Himerio";
+  gndo:nameAddition "von Bithynien" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerius, Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405070 .
+
+_:node1ivpishs6x25405070 gndo:personalName "Himerius";
+  gndo:nameAddition "Sophist" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerios, Sohn des Ameinias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405071 .
+
+_:node1ivpishs6x25405071 gndo:personalName "Himerios";
+  gndo:nameAddition "Sohn des Ameinias" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Imerio, di Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405072 .
+
+_:node1ivpishs6x25405072 gndo:personalName "Imerio";
+  gndo:nameAddition "di Prusa" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Imerio, Sofista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405073 .
+
+_:node1ivpishs6x25405073 gndo:personalName "Imerio";
+  gndo:nameAddition "Sofista" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Imerio, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405074 .
+
+_:node1ivpishs6x25405074 gndo:personalName "Imerio";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerios, von Prusias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405075 .
+
+_:node1ivpishs6x25405075 gndo:personalName "Himerios";
+  gndo:nameAddition "von Prusias" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerius, Prusensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405076 .
+
+_:node1ivpishs6x25405076 gndo:personalName "Himerius";
+  gndo:nameAddition "Prusensis" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405077 .
+
+_:node1ivpishs6x25405077 gndo:personalName "Himerius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405078 .
+
+_:node1ivpishs6x25405078 gndo:personalName "Himerios" .
+
+<https://d-nb.info/gnd/118912763> gndo:variantNameForThePerson "Himerius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405079 .
+
+_:node1ivpishs6x25405079 gndo:personalName "Himerius";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118912763> gndo:preferredNameForThePerson "Himerius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405080 .
+
+_:node1ivpishs6x25405080 gndo:personalName "Himerius" .
+
+<https://d-nb.info/gnd/118912763> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Polemo, Antonius: [Meletai]. - 1567", "Polemo, Antonius: Meletai. - 1567";
+  wdrs:describedby <https://d-nb.info/gnd/118912763/about> .
+
+<https://d-nb.info/gnd/118912763/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118912763> gndo:biographicalOrHistoricalInformation "Griech. Rhetor u. Sophist"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0310"^^xsd:gYear;
+  gndo:dateOfDeath "0385"^^xsd:gYear .
+

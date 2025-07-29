@@ -1,0 +1,231 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118591118> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118591118/about> .
+
+<https://d-nb.info/gnd/118591118/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2016-05-18T04:36:02.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118591118> gndo:gndIdentifier "118591118";
+  owl:sameAs <https://dbpedia.org/resource/Pachomius>, <http://viaf.org/viaf/66471887>,
+    <https://isni.org/isni/0000000447151420>, <http://www.wikidata.org/entity/Q298698>;
+  gndo:oldAuthorityNumber "(DE-588)1089959427";
+  owl:sameAs <https://d-nb.info/gnd/1089959427>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089959427";
+  gndo:oldAuthorityNumber "(DE-588)1089828454";
+  owl:sameAs <https://d-nb.info/gnd/1089828454>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089828454";
+  gndo:oldAuthorityNumber "(DE-588)1055579672";
+  owl:sameAs <https://d-nb.info/gnd/1055579672>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1055579672";
+  gndo:oldAuthorityNumber "(DE-588)186696051";
+  owl:sameAs <https://d-nb.info/gnd/186696051>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186696051";
+  gndo:oldAuthorityNumber "(DE-588a)186696051", "(DE-588)102387842";
+  owl:sameAs <https://d-nb.info/gnd/102387842>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/102387842";
+  gndo:oldAuthorityNumber "(DE-588a)102387842", "(DE-588)172504910";
+  owl:sameAs <https://d-nb.info/gnd/172504910>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172504910";
+  gndo:oldAuthorityNumber "(DE-588a)172504910", "(DE-588a)118591118", "(DE-588a)127923721",
+    "(DE-588c)4044277-9";
+  gndo:variantNameForThePerson "Pachomius, Tabennensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592481 .
+
+_:node1ivs02adlx24592481 gndo:personalName "Pachomius";
+  gndo:nameAddition "Tabennensis" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomios, Begründer des Koinobitentums, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592482 .
+
+_:node1ivs02adlx24592482 gndo:personalName "Pachomios";
+  gndo:nameAddition "Begründer des Koinobitentums, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, Scriptor Ecclesiasticus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592483 .
+
+_:node1ivs02adlx24592483 gndo:personalName "Pachomius";
+  gndo:nameAddition "Scriptor Ecclesiasticus, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, Abbas, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592484 .
+
+_:node1ivs02adlx24592484 gndo:personalName "Pachomius";
+  gndo:nameAddition "Abbas, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, Tabenensis, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592485 .
+
+_:node1ivs02adlx24592485 gndo:personalName "Pachomius";
+  gndo:nameAddition "Tabenensis, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, de Tabenna, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592486 .
+
+_:node1ivs02adlx24592486 gndo:personalName "Pachomius";
+  gndo:nameAddition "de Tabenna, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, der Ältere, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592487 .
+
+_:node1ivs02adlx24592487 gndo:personalName "Pachomius";
+  gndo:nameAddition "der Ältere, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomios, der Ältere, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592488 .
+
+_:node1ivs02adlx24592488 gndo:personalName "Pachomios";
+  gndo:nameAddition "der Ältere, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592489 .
+
+_:node1ivs02adlx24592489 gndo:personalName "Pachomius";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, Eremita, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592490 .
+
+_:node1ivs02adlx24592490 gndo:personalName "Pachomius";
+  gndo:nameAddition "Eremita, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomios, Eremit, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592491 .
+
+_:node1ivs02adlx24592491 gndo:personalName "Pachomios";
+  gndo:nameAddition "Eremit, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pacôme, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592492 .
+
+_:node1ivs02adlx24592492 gndo:personalName "Pacôme";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachôme, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592493 .
+
+_:node1ivs02adlx24592493 gndo:personalName "Pachôme";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pakhôme, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592494 .
+
+_:node1ivs02adlx24592494 gndo:personalName "Pakhôme";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pacomio, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592495 .
+
+_:node1ivs02adlx24592495 gndo:personalName "Pacomio";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachom, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592496 .
+
+_:node1ivs02adlx24592496 gndo:personalName "Pachom";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomios, von Tabennisi, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592497 .
+
+_:node1ivs02adlx24592497 gndo:personalName "Pachomios";
+  gndo:nameAddition "von Tabennisi, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, von Tabennis, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592498 .
+
+_:node1ivs02adlx24592498 gndo:personalName "Pachomius";
+  gndo:nameAddition "von Tabennis, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, von Tabenna, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592499 .
+
+_:node1ivs02adlx24592499 gndo:personalName "Pachomius";
+  gndo:nameAddition "von Tabenna, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, Aegyptius, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592500 .
+
+_:node1ivs02adlx24592500 gndo:personalName "Pachomius";
+  gndo:nameAddition "Aegyptius, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pachomius, Monachus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592501 .
+
+_:node1ivs02adlx24592501 gndo:personalName "Pachomius";
+  gndo:nameAddition "Monachus, Heiliger" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Sanctus Pachomius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592502 .
+
+_:node1ivs02adlx24592502 gndo:personalName "Sanctus Pachomius" .
+
+<https://d-nb.info/gnd/118591118> gndo:variantNameForThePerson "Pseudo-Pachomius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592503 .
+
+_:node1ivs02adlx24592503 gndo:personalName "Pseudo-Pachomius" .
+
+<https://d-nb.info/gnd/118591118> gndo:preferredNameForThePerson "Pachomius, Sanctus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592504 .
+
+_:node1ivs02adlx24592504 gndo:personalName "Pachomius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118591118> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/cop>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Pachomius <Sanctus>: Regula, epistolae ac verba mystica. - 1768",
+    "S. Pachomii Abbatis Tabennensis Regulae monasticae. - 1923";
+  wdrs:describedby <https://d-nb.info/gnd/118591118/about> .
+
+<https://d-nb.info/gnd/118591118/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/118591118> gndo:biographicalOrHistoricalInformation "Poenae monachorum; Regula; Ägypt. Mönch, Begründer des cönobitischen Mönchtums"@de;
+  gndo:udkCode "201 - 300", "301 - 400";
+  gndo:dateOfBirth "0290"^^xsd:gYear;
+  gndo:dateOfDeath "0346"^^xsd:gYear .
+

@@ -1,0 +1,123 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118886487> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118886487/about> .
+
+<https://d-nb.info/gnd/118886487/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-04-18T00:43:43.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118886487> gndo:gndIdentifier "118886487";
+  foaf:page <https://de.wikipedia.org/wiki/Demetrios_Lakon>;
+  owl:sameAs <https://dbpedia.org/resource/Demetrius_Lacon>, <http://viaf.org/viaf/518149294109480520841>,
+    <http://www.wikidata.org/entity/Q1185502>, <http://id.loc.gov/rwo/agents/n96084067>;
+  gndo:oldAuthorityNumber "(DE-588)1089150504";
+  owl:sameAs <https://d-nb.info/gnd/1089150504>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089150504";
+  gndo:oldAuthorityNumber "(DE-588)1089718748";
+  owl:sameAs <https://d-nb.info/gnd/1089718748>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089718748";
+  gndo:oldAuthorityNumber "(DE-588)1089604653";
+  owl:sameAs <https://d-nb.info/gnd/1089604653>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089604653";
+  gndo:oldAuthorityNumber "(DE-588a)118886487", "(DE-588c)4221815-9";
+  gndo:variantNameForThePerson "Demetrios, Epikureischer Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592217 .
+
+_:node1ivs02adlx24592217 gndo:personalName "Demetrios";
+  gndo:nameAddition "Epikureischer Philosoph" .
+
+<https://d-nb.info/gnd/118886487> gndo:variantNameForThePerson "Demetrius, Laco";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592218 .
+
+_:node1ivs02adlx24592218 gndo:personalName "Demetrius";
+  gndo:nameAddition "Laco" .
+
+<https://d-nb.info/gnd/118886487> gndo:variantNameForThePerson "Demetrius, Laconicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592219 .
+
+_:node1ivs02adlx24592219 gndo:personalName "Demetrius";
+  gndo:nameAddition "Laconicus" .
+
+<https://d-nb.info/gnd/118886487> gndo:variantNameForThePerson "Demetrius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592220 .
+
+_:node1ivs02adlx24592220 gndo:personalName "Demetrius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118886487> gndo:variantNameForThePerson "Demetrio, Lacone";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592221 .
+
+_:node1ivs02adlx24592221 gndo:personalName "Demetrio";
+  gndo:nameAddition "Lacone" .
+
+<https://d-nb.info/gnd/118886487> gndo:variantNameForThePerson "Demetrios, Lakon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592222 .
+
+_:node1ivs02adlx24592222 gndo:personalName "Demetrios";
+  gndo:nameAddition "Lakon" .
+
+<https://d-nb.info/gnd/118886487> gndo:variantNameForThePerson "Dēmētrios ho Lacōn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592223 .
+
+_:node1ivs02adlx24592223 gndo:personalName "Dēmētrios ho Lacōn" .
+
+<https://d-nb.info/gnd/118886487> gndo:preferredNameForThePerson "Demetrius, Lacon";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592224 .
+
+_:node1ivs02adlx24592224 gndo:personalName "Demetrius";
+  gndo:nameAddition "Lacon" .
+
+<https://d-nb.info/gnd/118886487> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118886487/about> .
+
+<https://d-nb.info/gnd/118886487/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118886487> gndo:biographicalOrHistoricalInformation "Griech. Philosoph, Epikureer"@de;
+  gndo:udkCode "200 - 101 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v2. Jh.]" .
+

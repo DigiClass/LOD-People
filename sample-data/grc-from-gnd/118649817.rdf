@@ -1,0 +1,229 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118649817> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118649817/about> .
+
+<https://d-nb.info/gnd/118649817/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T07:38:44.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118649817> gndo:gndIdentifier "118649817";
+  foaf:page <https://de.wikipedia.org/wiki/Apollinaris_von_Laodicea>;
+  owl:sameAs <https://dbpedia.org/resource/Apollinaris_of_Laodicea>, <http://viaf.org/viaf/261762494>,
+    <https://isni.org/isni/000000038164669X>, <http://www.wikidata.org/entity/Q367946>,
+    <http://id.loc.gov/rwo/agents/n50052496>;
+  gndo:oldAuthorityNumber "(DE-588)1089146701";
+  owl:sameAs <https://d-nb.info/gnd/1089146701>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089146701";
+  gndo:oldAuthorityNumber "(DE-588)186666004";
+  owl:sameAs <https://d-nb.info/gnd/186666004>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186666004";
+  gndo:oldAuthorityNumber "(DE-588a)186666004", "(DE-588)174112009";
+  owl:sameAs <https://d-nb.info/gnd/174112009>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174112009";
+  gndo:oldAuthorityNumber "(DE-588a)174112009", "(DE-588)171952448";
+  owl:sameAs <https://d-nb.info/gnd/171952448>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/171952448";
+  gndo:oldAuthorityNumber "(DE-588a)171952448", "(DE-588)1089715153";
+  owl:sameAs <https://d-nb.info/gnd/1089715153>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089715153";
+  gndo:oldAuthorityNumber "(DE-588a)118649817", "(DE-588c)4085859-5";
+  gndo:variantNameForThePerson "Apolinaris, Laodicenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398847 .
+
+_:node1ivpishs6x25398847 gndo:personalName "Apolinaris";
+  gndo:nameAddition "Laodicenus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apolinarius, Laodicenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398848 .
+
+_:node1ivpishs6x25398848 gndo:personalName "Apolinarius";
+  gndo:nameAddition "Laodicenus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinarios, von Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398849 .
+
+_:node1ivpishs6x25398849 gndo:personalName "Apollinarios";
+  gndo:nameAddition "von Laodicea" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinarius, von Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398850 .
+
+_:node1ivpishs6x25398850 gndo:personalName "Apollinarius";
+  gndo:nameAddition "von Laodicea" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apolinarius, von Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398851 .
+
+_:node1ivpishs6x25398851 gndo:personalName "Apolinarius";
+  gndo:nameAddition "von Laodicea" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinaris, Alexander";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398852 .
+
+_:node1ivpishs6x25398852 gndo:forename "Alexander";
+  gndo:surname "Apollinaris" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinaris, von Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398853 .
+
+_:node1ivpishs6x25398853 gndo:personalName "Apollinaris";
+  gndo:nameAddition "von Laodicea" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinarios, von Laodikeia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398854 .
+
+_:node1ivpishs6x25398854 gndo:personalName "Apollinarios";
+  gndo:nameAddition "von Laodikeia" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinaris, Haereticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398855 .
+
+_:node1ivpishs6x25398855 gndo:personalName "Apollinaris";
+  gndo:nameAddition "Haereticus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinaris, Laodicenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398856 .
+
+_:node1ivpishs6x25398856 gndo:personalName "Apollinaris";
+  gndo:nameAddition "Laodicenus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinarius, Laodicensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398857 .
+
+_:node1ivpishs6x25398857 gndo:personalName "Apollinarius";
+  gndo:nameAddition "Laodicensis" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinarius, Laodicenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398858 .
+
+_:node1ivpishs6x25398858 gndo:personalName "Apollinarius";
+  gndo:nameAddition "Laodicenus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinaris, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398859 .
+
+_:node1ivpishs6x25398859 gndo:personalName "Apollinaris";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinaire, de Laodicée";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398860 .
+
+_:node1ivpishs6x25398860 gndo:personalName "Apollinaire";
+  gndo:nameAddition "de Laodicée" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinarios, Lehrer der Rhetorik";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398861 .
+
+_:node1ivpishs6x25398861 gndo:personalName "Apollinarios";
+  gndo:nameAddition "Lehrer der Rhetorik" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinaris, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398862 .
+
+_:node1ivpishs6x25398862 gndo:personalName "Apollinaris";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinarius, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398863 .
+
+_:node1ivpishs6x25398863 gndo:personalName "Apollinarius";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinare, di Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398864 .
+
+_:node1ivpishs6x25398864 gndo:personalName "Apollinare";
+  gndo:nameAddition "di Laodicea" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apolinaris, Laodicensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398865 .
+
+_:node1ivpishs6x25398865 gndo:personalName "Apolinaris";
+  gndo:nameAddition "Laodicensis" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinare d, di Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398866 .
+
+_:node1ivpishs6x25398866 gndo:personalName "Apollinare d";
+  gndo:nameAddition "di Laodicea" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Appolinarius, Laodicenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398867 .
+
+_:node1ivpishs6x25398867 gndo:personalName "Appolinarius";
+  gndo:nameAddition "Laodicenus" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Apollinaris, of Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398868 .
+
+_:node1ivpishs6x25398868 gndo:personalName "Apollinaris";
+  gndo:nameAddition "of Laodicea" .
+
+<https://d-nb.info/gnd/118649817> gndo:variantNameForThePerson "Appolinaire de Laodicée";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398869 .
+
+_:node1ivpishs6x25398869 gndo:personalName "Appolinaire de Laodicée" .
+
+<https://d-nb.info/gnd/118649817> gndo:preferredNameForThePerson "Apollinaris, Laodicensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25398870 .
+
+_:node1ivpishs6x25398870 gndo:personalName "Apollinaris";
+  gndo:nameAddition "Laodicensis" .
+
+<https://d-nb.info/gnd/118649817> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Interpretatio Psalmorum versibus heroicis", "Apolinarii interpretatio psalmorum versibus heroicis",
+    "Metaphrasis Psalmorum versibus heroicis";
+  wdrs:describedby <https://d-nb.info/gnd/118649817/about> .
+
+<https://d-nb.info/gnd/118649817/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118649817> gndo:biographicalOrHistoricalInformation "nicht identisch mit Apollinarius <Syrus>; Bischof von Laodicea"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0310"^^xsd:gYear;
+  gndo:dateOfDeath "0390"^^xsd:gYear .
+

@@ -1,0 +1,119 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119169649> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119169649/about> .
+
+<https://d-nb.info/gnd/119169649/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:48:36.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119169649> gndo:gndIdentifier "119169649";
+  foaf:page <https://de.wikipedia.org/wiki/Antimachos_von_Kolophon>;
+  owl:sameAs <https://dbpedia.org/resource/Antimachus>, <http://viaf.org/viaf/15573814>,
+    <https://isni.org/isni/0000000453022211>, <http://www.wikidata.org/entity/Q577769>,
+    <http://id.loc.gov/rwo/agents/n87829370>;
+  gndo:oldAuthorityNumber "(DE-588)1089725957";
+  owl:sameAs <https://d-nb.info/gnd/1089725957>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725957";
+  gndo:oldAuthorityNumber "(DE-588)1089229550";
+  owl:sameAs <https://d-nb.info/gnd/1089229550>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089229550";
+  gndo:oldAuthorityNumber "(DE-588a)119169649", "(DE-588c)4347871-2";
+  gndo:variantNameForThePerson "Antimachus, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403716 .
+
+_:node1ivpishs6x25403716 gndo:personalName "Antimachus";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/119169649> gndo:variantNameForThePerson "Antimachus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403717 .
+
+_:node1ivpishs6x25403717 gndo:personalName "Antimachus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/119169649> gndo:variantNameForThePerson "Antimachos, Epiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403718 .
+
+_:node1ivpishs6x25403718 gndo:personalName "Antimachos";
+  gndo:nameAddition "Epiker" .
+
+<https://d-nb.info/gnd/119169649> gndo:variantNameForThePerson "Antimaco, di Colofone";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403719 .
+
+_:node1ivpishs6x25403719 gndo:personalName "Antimaco";
+  gndo:nameAddition "di Colofone" .
+
+<https://d-nb.info/gnd/119169649> gndo:variantNameForThePerson "Antimachus, of Colophon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403720 .
+
+_:node1ivpishs6x25403720 gndo:personalName "Antimachus";
+  gndo:nameAddition "of Colophon" .
+
+<https://d-nb.info/gnd/119169649> gndo:variantNameForThePerson "Antimachos, von Kolophon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403721 .
+
+_:node1ivpishs6x25403721 gndo:personalName "Antimachos";
+  gndo:nameAddition "von Kolophon" .
+
+<https://d-nb.info/gnd/119169649> gndo:preferredNameForThePerson "Antimachus, Colophonius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403722 .
+
+_:node1ivpishs6x25403722 gndo:personalName "Antimachus";
+  gndo:nameAddition "Colophonius" .
+
+<https://d-nb.info/gnd/119169649> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Antimachus <Colophonius>: Lyda sive solamen in adversis", "Antimachus <Colophonius>: Reliquiae",
+    "Antimachus <Colophonius>: Reliquiae", "Antimachus <Colophonius>: [Opera reliquia]",
+    "Antimachus <Colophonius>: Thebaidis Cyclicae Reliquiae", "Antimachus <Colophonius>: [Opera reliquia collecta]";
+  wdrs:describedby <https://d-nb.info/gnd/119169649/about> .
+
+<https://d-nb.info/gnd/119169649/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/119169649> gndo:biographicalOrHistoricalInformation "nicht zu verwechseln mit dem Epiker Antimachus <Teius> (8. Jh. v. Chr.); Griech. Epiker und Elegiker"@de;
+  gndo:udkCode "500 - 401 v. Chr. ", "600 - 501 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v5. Jh..- v348/347]" .
+

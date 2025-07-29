@@ -1,0 +1,196 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11898358X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11898358X/about> .
+
+<https://d-nb.info/gnd/11898358X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-05-15T13:47:11.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11898358X> gndo:gndIdentifier "11898358X";
+  owl:sameAs <http://viaf.org/viaf/265864593>, <http://www.wikidata.org/entity/Q549010>;
+  gndo:oldAuthorityNumber "(DE-588)1089724306";
+  owl:sameAs <https://d-nb.info/gnd/1089724306>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089724306";
+  gndo:oldAuthorityNumber "(DE-588)1089290640";
+  owl:sameAs <https://d-nb.info/gnd/1089290640>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089290640";
+  gndo:oldAuthorityNumber "(DE-588)172480639";
+  owl:sameAs <https://d-nb.info/gnd/172480639>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172480639";
+  gndo:oldAuthorityNumber "(DE-588a)172480639", "(DE-588)160380197";
+  owl:sameAs <https://d-nb.info/gnd/160380197>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160380197";
+  gndo:oldAuthorityNumber "(DE-588a)160380197", "(DE-588a)11898358X", "(DE-588c)4262585-3";
+  gndo:variantNameForThePerson "Hephästion, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594710 .
+
+_:node1ivs02adlx24594710 gndo:personalName "Hephästion";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaestion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594711 .
+
+_:node1ivs02adlx24594711 gndo:personalName "Hephaestion" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaestion, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594712 .
+
+_:node1ivs02adlx24594712 gndo:personalName "Hephaestion";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaistion, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594713 .
+
+_:node1ivs02adlx24594713 gndo:personalName "Hephaistion";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaistion, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594714 .
+
+_:node1ivs02adlx24594714 gndo:personalName "Hephaistion";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaistion, Metriker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594715 .
+
+_:node1ivs02adlx24594715 gndo:personalName "Hephaistion";
+  gndo:nameAddition "Metriker" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaestio, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594716 .
+
+_:node1ivs02adlx24594716 gndo:personalName "Hephaestio";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephestion, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594717 .
+
+_:node1ivs02adlx24594717 gndo:personalName "Hephestion";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Efestione, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594718 .
+
+_:node1ivs02adlx24594718 gndo:personalName "Efestione";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Efestione, Grammatico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594719 .
+
+_:node1ivs02adlx24594719 gndo:personalName "Efestione";
+  gndo:nameAddition "Grammatico" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaestio, Grammarian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594720 .
+
+_:node1ivs02adlx24594720 gndo:personalName "Hephaestio";
+  gndo:nameAddition "Grammarian" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hefestión";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594721 .
+
+_:node1ivs02adlx24594721 gndo:personalName "Hefestión" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hefestión, de Alejandría";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594722 .
+
+_:node1ivs02adlx24594722 gndo:personalName "Hefestión";
+  gndo:nameAddition "de Alejandría" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaestio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594723 .
+
+_:node1ivs02adlx24594723 gndo:personalName "Hephaestio" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaistion, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594724 .
+
+_:node1ivs02adlx24594724 gndo:personalName "Hephaistion";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Ēphaistiōnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594725 .
+
+_:node1ivs02adlx24594725 gndo:personalName "Ēphaistiōnos" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaistion, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594726 .
+
+_:node1ivs02adlx24594726 gndo:personalName "Hephaistion";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hefajstion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594727 .
+
+_:node1ivs02adlx24594727 gndo:personalName "Hefajstion" .
+
+<https://d-nb.info/gnd/11898358X> gndo:variantNameForThePerson "Hephaestio, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594728 .
+
+_:node1ivs02adlx24594728 gndo:personalName "Hephaestio";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/11898358X> gndo:preferredNameForThePerson "Hephaestion, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594729 .
+
+_:node1ivs02adlx24594729 gndo:personalName "Hephaestion";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/11898358X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hephaestion <Alexandrinus>: Enchiridion ... de metris et poemate",
+    "Hephaestion <Alexandrinus>: Enchiridion ... de metris et poemate", "Hephaestion <Alexandrinus>: Enchiridion ... de metris et poemate",
+    "Hephaestion <Alexandrinus>: Encheiridion Hephaistiōnos", "Hephaestion <Alexandrinus>: Hēphaistiōnōs Alexandreōs Encheiridion peri metrōn kai*",
+    "Hephaestion <Alexandrinus>: On metre";
+  wdrs:describedby <https://d-nb.info/gnd/11898358X/about> .
+
+<https://d-nb.info/gnd/11898358X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/11898358X> gndo:biographicalOrHistoricalInformation "Griechischer Grammatiker"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

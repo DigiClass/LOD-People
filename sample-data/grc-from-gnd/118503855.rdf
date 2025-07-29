@@ -1,0 +1,285 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118503855> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118503855/about> .
+
+<https://d-nb.info/gnd/118503855/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T11:42:48.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118503855> gndo:gndIdentifier "118503855";
+  foaf:page <https://de.wikipedia.org/wiki/Archilochos>;
+  owl:sameAs <https://dbpedia.org/resource/Archilochus>, <http://viaf.org/viaf/161630631>,
+    <https://isni.org/isni/0000000449231061>, <http://www.wikidata.org/entity/Q201323>;
+  gndo:oldAuthorityNumber "(DE-588)1089349483";
+  owl:sameAs <https://d-nb.info/gnd/1089349483>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089349483";
+  gndo:oldAuthorityNumber "(DE-588)1089882661";
+  owl:sameAs <https://d-nb.info/gnd/1089882661>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089882661";
+  gndo:oldAuthorityNumber "(DE-588)1089713401";
+  owl:sameAs <https://d-nb.info/gnd/1089713401>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089713401";
+  gndo:oldAuthorityNumber "(DE-588a)118503855", "(DE-588a)119608510", "(DE-588c)4002841-0";
+  gndo:variantNameForThePerson "Archilochos, Iambograph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403173 .
+
+_:node1ivpishs6x25403173 gndo:personalName "Archilochos";
+  gndo:nameAddition "Iambograph" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilochos, von Paros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403174 .
+
+_:node1ivpishs6x25403174 gndo:personalName "Archilochos";
+  gndo:nameAddition "von Paros" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilochus, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403175 .
+
+_:node1ivpishs6x25403175 gndo:personalName "Archilochus";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilochus, Iambicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403176 .
+
+_:node1ivpishs6x25403176 gndo:personalName "Archilochus";
+  gndo:nameAddition "Iambicus" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilocus, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403177 .
+
+_:node1ivpishs6x25403177 gndo:personalName "Archilocus";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilochus, Parius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403178 .
+
+_:node1ivpishs6x25403178 gndo:personalName "Archilochus";
+  gndo:nameAddition "Parius" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilochos, Dichter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403179 .
+
+_:node1ivpishs6x25403179 gndo:personalName "Archilochos";
+  gndo:nameAddition "Dichter" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilochos, Lyriker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403180 .
+
+_:node1ivpishs6x25403180 gndo:personalName "Archilochos";
+  gndo:nameAddition "Lyriker" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archiloco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403181 .
+
+_:node1ivpishs6x25403181 gndo:personalName "Archiloco" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archiloco, di Paro";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403182 .
+
+_:node1ivpishs6x25403182 gndo:personalName "Archiloco";
+  gndo:nameAddition "di Paro" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archiloco, Poeta Giambico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403183 .
+
+_:node1ivpishs6x25403183 gndo:personalName "Archiloco";
+  gndo:nameAddition "Poeta Giambico" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archiloco, Elegiaco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403184 .
+
+_:node1ivpishs6x25403184 gndo:personalName "Archiloco";
+  gndo:nameAddition "Elegiaco" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archiloque, de Paros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403185 .
+
+_:node1ivpishs6x25403185 gndo:personalName "Archiloque";
+  gndo:nameAddition "de Paros" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archiloque";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403186 .
+
+_:node1ivpishs6x25403186 gndo:personalName "Archiloque" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilochus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403187 .
+
+_:node1ivpishs6x25403187 gndo:personalName "Archilochus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Pseudo-Archilocus, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403188 .
+
+_:node1ivpishs6x25403188 gndo:personalName "Pseudo-Archilocus";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Pseudo-Archilochus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403189 .
+
+_:node1ivpishs6x25403189 gndo:personalName "Pseudo-Archilochus" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilocus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403190 .
+
+_:node1ivpishs6x25403190 gndo:personalName "Archilocus" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Archilochos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403191 .
+
+_:node1ivpishs6x25403191 gndo:personalName "Archilochos" .
+
+<https://d-nb.info/gnd/118503855> gndo:variantNameForThePerson "Arquíloco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403192 .
+
+_:node1ivpishs6x25403192 gndo:personalName "Arquíloco" .
+
+<https://d-nb.info/gnd/118503855> gndo:preferredNameForThePerson "Archilochus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403193 .
+
+_:node1ivpishs6x25403193 gndo:personalName "Archilochus" .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607638>;
+  gndo:hasRelation _:node1ivpishs6x25403194 .
+
+_:node1ivpishs6x25403194 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607638>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:hasRelation _:node1ivpishs6x25403195 .
+
+_:node1ivpishs6x25403195 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25403196 .
+
+_:node1ivpishs6x25403196 gndo:personalName "Bēl-rē'ussu" .
+
+<https://d-nb.info/gnd/118503855> gndo:hasRelation _:node1ivpishs6x25403197 .
+
+_:node1ivpishs6x25403197 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25403198 .
+
+_:node1ivpishs6x25403198 gndo:personalName "Bēl-rēússu" .
+
+<https://d-nb.info/gnd/118503855> gndo:hasRelation _:node1ivpishs6x25403199 .
+
+_:node1ivpishs6x25403199 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25403200 .
+
+_:node1ivpishs6x25403200 gndo:forename "Marcus Porcius";
+  gndo:surname "Cato" .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:hasRelation _:node1ivpishs6x25403201 .
+
+_:node1ivpishs6x25403201 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119269554>;
+  gndo:hasRelation _:node1ivpishs6x25403202 .
+
+_:node1ivpishs6x25403202 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119269554>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102398771>;
+  gndo:hasRelation _:node1ivpishs6x25403203 .
+
+_:node1ivpishs6x25403203 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102398771>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119770733>;
+  gndo:hasRelation _:node1ivpishs6x25403204 .
+
+_:node1ivpishs6x25403204 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119770733>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119062380>;
+  gndo:hasRelation _:node1ivpishs6x25403205 .
+
+_:node1ivpishs6x25403205 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119062380>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:hasRelation _:node1ivpishs6x25403206 .
+
+_:node1ivpishs6x25403206 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503855> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25403207 .
+
+_:node1ivpishs6x25403207 gndo:personalName "Philo";
+  gndo:nameAddition "aus Alexandria" .
+
+<https://d-nb.info/gnd/118503855> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Bēl-rē'ussu: Babylōniaka. 1511. (VD16 B 1649)", "Bēl-rēússu: Itinerarium. 1511. (VD16 ZV 22607)",
+    "Carmina ...", "Reliquiae", "Nanni, Giovanni: Epithetum de temporibus", "Fragmenta collecta",
+    "Fragmenta collecta", "De Temporibus", "De Temporibus", "De Temporibus", "De Temporibus",
+    "De Temporibus";
+  wdrs:describedby <https://d-nb.info/gnd/118503855/about> .
+
+<https://d-nb.info/gnd/118503855/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118503855> gndo:udkCode "700 - 601 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4044728-5>;
+  gndo:professionOrOccupation _:node1ivpishs6x25403208 .
+
+_:node1ivpishs6x25403208 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4168391-2> .
+
+<https://d-nb.info/gnd/118503855> gndo:dateOfBirth "-0680"^^xsd:gYear;
+  gndo:dateOfDeath "-0645"^^xsd:gYear .
+

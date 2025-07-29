@@ -1,0 +1,308 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119107430> a gndo:DifferentiatedPerson;
+  owl:sameAs <https://isni.org/isni/0000000107979256>;
+  wdrs:describedby <https://d-nb.info/gnd/119107430/about> .
+
+<https://d-nb.info/gnd/119107430/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-07T09:31:04.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119107430> gndo:gndIdentifier "119107430";
+  foaf:page <https://de.wikipedia.org/wiki/Heron_von_Alexandria>;
+  owl:sameAs <https://dbpedia.org/resource/Hero_of_Alexandria>, <http://viaf.org/viaf/50151776733818010028>,
+    <http://www.wikidata.org/entity/Q161853>, <http://id.loc.gov/rwo/agents/n81055336>;
+  gndo:oldAuthorityNumber "(DE-588)174046189";
+  owl:sameAs <https://d-nb.info/gnd/174046189>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174046189";
+  gndo:oldAuthorityNumber "(DE-588a)174046189", "(DE-588)172135435";
+  owl:sameAs <https://d-nb.info/gnd/172135435>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172135435";
+  gndo:oldAuthorityNumber "(DE-588a)172135435", "(DE-588)108910197X";
+  owl:sameAs <https://d-nb.info/gnd/108910197X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108910197X";
+  gndo:oldAuthorityNumber "(DE-588)119707209";
+  owl:sameAs <https://d-nb.info/gnd/119707209>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119707209";
+  gndo:oldAuthorityNumber "(DE-588a)119707209", "(DE-588)1089726775";
+  owl:sameAs <https://d-nb.info/gnd/1089726775>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726775";
+  gndo:oldAuthorityNumber "(DE-588a)119107430", "(DE-588c)4318863-1";
+  gndo:variantNameForThePerson "Hero, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591035 .
+
+_:node1ivs02adlx24591035 gndo:personalName "Hero";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero, Byzantius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591036 .
+
+_:node1ivs02adlx24591036 gndo:personalName "Hero";
+  gndo:nameAddition "Byzantius" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero, Ctesibius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591037 .
+
+_:node1ivs02adlx24591037 gndo:personalName "Hero";
+  gndo:nameAddition "Ctesibius" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Herone, Alessandrino di";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591038 .
+
+_:node1ivs02adlx24591038 gndo:forename "Alessandrino";
+  gndo:prefix "di";
+  gndo:surname "Herone" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591039 .
+
+_:node1ivs02adlx24591039 gndo:personalName "Hero" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591040 .
+
+_:node1ivs02adlx24591040 gndo:personalName "Hero";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, Mechanicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591041 .
+
+_:node1ivs02adlx24591041 gndo:personalName "Heron";
+  gndo:nameAddition "Mechanicus" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Héron, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591042 .
+
+_:node1ivs02adlx24591042 gndo:personalName "Héron";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591043 .
+
+_:node1ivs02adlx24591043 gndo:personalName "Heron";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Herone, Alessandrino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591044 .
+
+_:node1ivs02adlx24591044 gndo:personalName "Herone";
+  gndo:nameAddition "Alessandrino" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, Techniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591045 .
+
+_:node1ivs02adlx24591045 gndo:personalName "Heron";
+  gndo:nameAddition "Techniker" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591046 .
+
+_:node1ivs02adlx24591046 gndo:personalName "Heron";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, Ingenieur";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591047 .
+
+_:node1ivs02adlx24591047 gndo:personalName "Heron";
+  gndo:nameAddition "Ingenieur" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero, Mechanicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591048 .
+
+_:node1ivs02adlx24591048 gndo:personalName "Hero";
+  gndo:nameAddition "Mechanicus" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero, Ctesibii";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591049 .
+
+_:node1ivs02adlx24591049 gndo:personalName "Hero";
+  gndo:nameAddition "Ctesibii" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, Ctesibii";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591050 .
+
+_:node1ivs02adlx24591050 gndo:personalName "Heron";
+  gndo:nameAddition "Ctesibii" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Héron, l'Ancien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591051 .
+
+_:node1ivs02adlx24591051 gndo:personalName "Héron";
+  gndo:nameAddition "l'Ancien" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Héron, Disciple de Ctésibios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591052 .
+
+_:node1ivs02adlx24591052 gndo:personalName "Héron";
+  gndo:nameAddition "Disciple de Ctésibios" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591053 .
+
+_:node1ivs02adlx24591053 gndo:personalName "Heron";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero, Junior";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591054 .
+
+_:node1ivs02adlx24591054 gndo:personalName "Hero";
+  gndo:nameAddition "Junior" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591055 .
+
+_:node1ivs02adlx24591055 gndo:personalName "Heron";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Irun al-Iskandarani";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591056 .
+
+_:node1ivs02adlx24591056 gndo:personalName "Irun al-Iskandarani" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Īrun al-Iskandarānī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591057 .
+
+_:node1ivs02adlx24591057 gndo:personalName "Īrun al-Iskandarānī" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591058 .
+
+_:node1ivs02adlx24591058 gndo:personalName "Heron" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, Byzantius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591059 .
+
+_:node1ivs02adlx24591059 gndo:personalName "Heron";
+  gndo:nameAddition "Byzantius" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, Ctesibius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591060 .
+
+_:node1ivs02adlx24591060 gndo:personalName "Heron";
+  gndo:nameAddition "Ctesibius" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero, Ctesibus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591061 .
+
+_:node1ivs02adlx24591061 gndo:personalName "Hero";
+  gndo:nameAddition "Ctesibus" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hieron, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591062 .
+
+_:node1ivs02adlx24591062 gndo:personalName "Hieron";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hērōnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591063 .
+
+_:node1ivs02adlx24591063 gndo:personalName "Hērōnos" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "ʾYrun al-ʾIskandrānya";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591064 .
+
+_:node1ivs02adlx24591064 gndo:personalName "ʾYrun al-ʾIskandrānya" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Hero, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591065 .
+
+_:node1ivs02adlx24591065 gndo:personalName "Hero";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591066 .
+
+_:node1ivs02adlx24591066 gndo:personalName "Heron";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Eróne, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591067 .
+
+_:node1ivs02adlx24591067 gndo:personalName "Eróne";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Heron, der Aeltere";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591068 .
+
+_:node1ivs02adlx24591068 gndo:personalName "Heron";
+  gndo:nameAddition "der Aeltere" .
+
+<https://d-nb.info/gnd/119107430> gndo:variantNameForThePerson "Erone, Alessandrino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591069 .
+
+_:node1ivs02adlx24591069 gndo:personalName "Erone";
+  gndo:nameAddition "Alessandrino" .
+
+<https://d-nb.info/gnd/119107430> gndo:preferredNameForThePerson "Heron, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591070 .
+
+_:node1ivs02adlx24591070 gndo:personalName "Heron";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/119107430> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#31.16p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Belopoeeca ...", "Gli artifitiosi curiosi moti spiritali", "Degli automati overo machine se moventi ...",
+    "Di Herone Alessandrino degli automati", "Spiritali ...", "Spiritualium liber", "Spiritualium liber",
+    "Buch von Luft und Wasserdünsten", "De machinis bellicis liber", "Definitiones Geometricae",
+    "Dasypodius, Konrad <der Ältere>: Lexikon seu dictionarium mathematicum. 1579/(1573). (VD16 ZV 4275)",
+    "Euclides: Elementa. 1571. (VD16 ZV 5463)";
+  wdrs:describedby <https://d-nb.info/gnd/119107430/about> .
+
+<https://d-nb.info/gnd/119107430/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/119107430> gndo:biographicalOrHistoricalInformation "Griechischer Mathematiker und Mechaniker"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4001138-0>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4001138-0>;
+  gndo:professionOrOccupation _:node1ivs02adlx24591071 .
+
+_:node1ivs02adlx24591071 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4037945-0>;
+  rdf:_2 <https://d-nb.info/gnd/4132437-7>;
+  rdf:_3 <https://d-nb.info/gnd/4026955-3> .
+
+<https://d-nb.info/gnd/119107430> gndo:dateOfBirthAndDeath "[1./2. Jh.]" .
+

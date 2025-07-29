@@ -1,0 +1,487 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118641778> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118641778/about> .
+
+<https://d-nb.info/gnd/118641778/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:50:32.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118641778> gndo:gndIdentifier "118641778";
+  foaf:page <https://de.wikipedia.org/wiki/Proklos>;
+  owl:sameAs <https://dbpedia.org/resource/Proclus>, <http://viaf.org/viaf/102369543>,
+    <https://isni.org/isni/0000000121459214>, <http://www.wikidata.org/entity/Q271809>,
+    <http://id.loc.gov/rwo/agents/n79007198>;
+  gndo:oldAuthorityNumber "(DE-588)1089749708";
+  owl:sameAs <https://d-nb.info/gnd/1089749708>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089749708";
+  gndo:oldAuthorityNumber "(DE-588)1089094701";
+  owl:sameAs <https://d-nb.info/gnd/1089094701>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089094701";
+  gndo:oldAuthorityNumber "(DE-588)1089717571";
+  owl:sameAs <https://d-nb.info/gnd/1089717571>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089717571";
+  gndo:oldAuthorityNumber "(DE-588a)118641778", "(DE-588a)188345523", "(DE-588a)188119620",
+    "(DE-588a)188030492", "(DE-588a)185879640", "(DE-588a)185834566", "(DE-588a)174123043",
+    "(DE-588a)15842347X", "(DE-588a)158115236", "(DE-588a)157601943", "(DE-588c)4076372-9";
+  gndo:variantNameForThePerson "Proclus Diadochus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589025 .
+
+_:node1ivs02adlx24589025 gndo:personalName "Proclus Diadochus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Diodochus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589026 .
+
+_:node1ivs02adlx24589026 gndo:personalName "Proclus";
+  gndo:nameAddition "Diodochus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, Lykios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589027 .
+
+_:node1ivs02adlx24589027 gndo:personalName "Proklos";
+  gndo:nameAddition "Lykios" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589028 .
+
+_:node1ivs02adlx24589028 gndo:personalName "Proclus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589029 .
+
+_:node1ivs02adlx24589029 gndo:personalName "Proclus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Byzantinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589030 .
+
+_:node1ivs02adlx24589030 gndo:personalName "Proclus";
+  gndo:nameAddition "Byzantinus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Lycius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589031 .
+
+_:node1ivs02adlx24589031 gndo:personalName "Proclus";
+  gndo:nameAddition "Lycius" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, ho Lykios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589032 .
+
+_:node1ivs02adlx24589032 gndo:personalName "Proklos";
+  gndo:nameAddition "ho Lykios" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, Neuplatoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589033 .
+
+_:node1ivs02adlx24589033 gndo:personalName "Proklos";
+  gndo:nameAddition "Neuplatoniker" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589034 .
+
+_:node1ivs02adlx24589034 gndo:personalName "Proklos" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Diadochus, Proclus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589035 .
+
+_:node1ivs02adlx24589035 gndo:forename "Proclus";
+  gndo:surname "Diadochus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Lycius, Proclus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589036 .
+
+_:node1ivs02adlx24589036 gndo:forename "Proclus";
+  gndo:surname "Lycius" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Lydus, Pericles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589037 .
+
+_:node1ivs02adlx24589037 gndo:forename "Pericles";
+  gndo:surname "Lydus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Pericles, Lydus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589038 .
+
+_:node1ivs02adlx24589038 gndo:personalName "Pericles";
+  gndo:nameAddition "Lydus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclo, Diadoco";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589039 .
+
+_:node1ivs02adlx24589039 gndo:personalName "Proclo";
+  gndo:nameAddition "Diadoco" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclo, Licio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589040 .
+
+_:node1ivs02adlx24589040 gndo:personalName "Proclo";
+  gndo:nameAddition "Licio" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, of Lycia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589041 .
+
+_:node1ivs02adlx24589041 gndo:personalName "Proclus";
+  gndo:nameAddition "of Lycia" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, aus Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589042 .
+
+_:node1ivs02adlx24589042 gndo:personalName "Proklos";
+  gndo:nameAddition "aus Konstantinopel" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, der Neuplatoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589043 .
+
+_:node1ivs02adlx24589043 gndo:personalName "Proklos";
+  gndo:nameAddition "der Neuplatoniker" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589044 .
+
+_:node1ivs02adlx24589044 gndo:personalName "Proclus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclo, di Bisanzio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589045 .
+
+_:node1ivs02adlx24589045 gndo:personalName "Proclo";
+  gndo:nameAddition "di Bisanzio" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclo, Filosofo Neoplatonico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589046 .
+
+_:node1ivs02adlx24589046 gndo:personalName "Proclo";
+  gndo:nameAddition "Filosofo Neoplatonico" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Arabus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589047 .
+
+_:node1ivs02adlx24589047 gndo:personalName "Proclus";
+  gndo:nameAddition "Arabus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Buruqlus al-Aflāṭūnī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589048 .
+
+_:node1ivs02adlx24589048 gndo:personalName "Buruqlus al-Aflāṭūnī" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklon, Diadochon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589049 .
+
+_:node1ivs02adlx24589049 gndo:personalName "Proklon";
+  gndo:nameAddition "Diadochon" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, Diadoches";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589050 .
+
+_:node1ivs02adlx24589050 gndo:personalName "Proklos";
+  gndo:nameAddition "Diadoches" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Platonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589051 .
+
+_:node1ivs02adlx24589051 gndo:personalName "Proclus";
+  gndo:nameAddition "Platonicus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589052 .
+
+_:node1ivs02adlx24589052 gndo:personalName "Proclus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589053 .
+
+_:node1ivs02adlx24589053 gndo:personalName "Proclo" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589054 .
+
+_:node1ivs02adlx24589054 gndo:personalName "Proklos";
+  gndo:nameAddition "von Konstantinopel" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus Lycius, Diadochus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589055 .
+
+_:node1ivs02adlx24589055 gndo:forename "Diadochus";
+  gndo:surname "Proclus Lycius" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Diadochus Proclus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589056 .
+
+_:node1ivs02adlx24589056 gndo:personalName "Diadochus Proclus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589057 .
+
+_:node1ivs02adlx24589057 gndo:personalName "Proclos" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proculus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589058 .
+
+_:node1ivs02adlx24589058 gndo:personalName "Proculus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589059 .
+
+_:node1ivs02adlx24589059 gndo:forename "philosophus";
+  gndo:surname "Proclus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Philosophus Platonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589060 .
+
+_:node1ivs02adlx24589060 gndo:personalName "Proclus";
+  gndo:nameAddition "Philosophus Platonicus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, Diadochos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589061 .
+
+_:node1ivs02adlx24589061 gndo:personalName "Proklos";
+  gndo:nameAddition "Diadochos" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, Lycius Diadochus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589062 .
+
+_:node1ivs02adlx24589062 gndo:personalName "Proclus";
+  gndo:nameAddition "Lycius Diadochus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, Likios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589063 .
+
+_:node1ivs02adlx24589063 gndo:personalName "Proklos";
+  gndo:nameAddition "Likios" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclo, Liceo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589064 .
+
+_:node1ivs02adlx24589064 gndo:personalName "Proclo";
+  gndo:nameAddition "Liceo" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklus, Diadochus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589065 .
+
+_:node1ivs02adlx24589065 gndo:personalName "Proklus";
+  gndo:nameAddition "Diadochus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Diadochos, Proklos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589066 .
+
+_:node1ivs02adlx24589066 gndo:forename "Proklos";
+  gndo:surname "Diadochos" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Lycius Diadochus, Proclus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589067 .
+
+_:node1ivs02adlx24589067 gndo:forename "Proclus";
+  gndo:surname "Lycius Diadochus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclvs, Diadochvs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589068 .
+
+_:node1ivs02adlx24589068 gndo:personalName "Proclvs";
+  gndo:nameAddition "Diadochvs" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Prokle, Diadoxosi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589069 .
+
+_:node1ivs02adlx24589069 gndo:personalName "Prokle";
+  gndo:nameAddition "Diadoxosi" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proklos, von Kyzikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589070 .
+
+_:node1ivs02adlx24589070 gndo:personalName "Proklos";
+  gndo:nameAddition "von Kyzikos" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Diadoco, Proclo L.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589071 .
+
+_:node1ivs02adlx24589071 gndo:forename "Proclo L.";
+  gndo:surname "Diadoco" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Prokl";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589072 .
+
+_:node1ivs02adlx24589072 gndo:personalName "Prokl" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclus, de Lycie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589073 .
+
+_:node1ivs02adlx24589073 gndo:personalName "Proclus";
+  gndo:nameAddition "de Lycie" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Ubruqlus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589074 .
+
+_:node1ivs02adlx24589074 gndo:personalName "Ubruqlus" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Proclos, Diadochos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589075 .
+
+_:node1ivs02adlx24589075 gndo:personalName "Proclos";
+  gndo:nameAddition "Diadochos" .
+
+<https://d-nb.info/gnd/118641778> gndo:variantNameForThePerson "Diadochos, Proclos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589076 .
+
+_:node1ivs02adlx24589076 gndo:forename "Proclos";
+  gndo:surname "Diadochos" .
+
+<https://d-nb.info/gnd/118641778> gndo:preferredNameForThePerson "Proclus, Diadochus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589077 .
+
+_:node1ivs02adlx24589077 gndo:personalName "Proclus";
+  gndo:nameAddition "Diadochus" .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship <https://d-nb.info/gnd/118780018>;
+  gndo:hasRelation _:node1ivs02adlx24589078 .
+
+_:node1ivs02adlx24589078 gndo:professionalRelationship <https://d-nb.info/gnd/118780018>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:hasRelation _:node1ivs02adlx24589079 .
+
+_:node1ivs02adlx24589079 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship _:node1ivs02adlx24589080 .
+
+_:node1ivs02adlx24589080 gndo:personalName "Bēl-rē'ussu" .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship <https://d-nb.info/gnd/118772783>;
+  gndo:hasRelation _:node1ivs02adlx24589081 .
+
+_:node1ivs02adlx24589081 gndo:professionalRelationship <https://d-nb.info/gnd/118772783>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship <https://d-nb.info/gnd/11690240X>;
+  gndo:hasRelation _:node1ivs02adlx24589082 .
+
+_:node1ivs02adlx24589082 gndo:professionalRelationship <https://d-nb.info/gnd/11690240X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:hasRelation _:node1ivs02adlx24589083 .
+
+_:node1ivs02adlx24589083 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship _:node1ivs02adlx24589084 .
+
+_:node1ivs02adlx24589084 gndo:personalName "Synesius";
+  gndo:nameAddition "aus Kyrene" .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship <https://d-nb.info/gnd/118638955>;
+  gndo:hasRelation _:node1ivs02adlx24589085 .
+
+_:node1ivs02adlx24589085 gndo:professionalRelationship <https://d-nb.info/gnd/118638955>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:hasRelation _:node1ivs02adlx24589086 .
+
+_:node1ivs02adlx24589086 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship _:node1ivs02adlx24589087 .
+
+_:node1ivs02adlx24589087 gndo:forename "Giovanni Gioviano";
+  gndo:surname "Pontano" .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship <https://d-nb.info/gnd/118798979>;
+  gndo:hasRelation _:node1ivs02adlx24589088 .
+
+_:node1ivs02adlx24589088 gndo:professionalRelationship <https://d-nb.info/gnd/118798979>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship <https://d-nb.info/gnd/118716999>;
+  gndo:hasRelation _:node1ivs02adlx24589089 .
+
+_:node1ivs02adlx24589089 gndo:professionalRelationship <https://d-nb.info/gnd/118716999>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:professionalRelationship <https://d-nb.info/gnd/118679686>;
+  gndo:hasRelation _:node1ivs02adlx24589090 .
+
+_:node1ivs02adlx24589090 gndo:professionalRelationship <https://d-nb.info/gnd/118679686>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641778> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#18p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De Sphaera liber I.", "Proklu sphaira", "Callimachus: Callimachus, Cleanthes, Proclus",
+    "Procli de sphaera liber I", "In Primum Euclidis elementorum librum p.", "In primum Euclidis elementorum librum commentariorum ad universum ma*",
+    "De Sphaera liber", "De Sphaera liber I", "Euclides: Elementa", "PROCLI SPHAERA.(Thoma Linacro Britanno interprete.)",
+    "SPHAERA PROCLI DIADOCHI SPHAERA: ASTRONOMIAM DISCERE INCIPIENTIBVS VTILISSIMA: THOMA ...",
+    "LIBELLVS DE SPHAERA PROCLI Diadochi, translatus ê graeco in latinum per Thomam ...",
+    "\\=GPROKLU TU DIADOCHU TŌN ASAPHŌS eirēmenōn Ptolemaiō ... en tē aytu tetrabiblō, ...",
+    "Nobilissimus procli Libellus de Sphaera", "PROCLI SPHAERA, THOMA LINAcro Britanno interprete",
+    "LIBELLVS DE SPHAERA PROCLI DIADOCHI, EX GRAECO LATINVS FACTVS CARMINE HEROICO, A MARTINO ...",
+    "Apollonius Dyscolus: APOLLONII ALEXANDRINI DE SYNTAXI SEV CONSTRVCTIONE ORATIONIS libri IIII: A FRANCISCO ...",
+    "Dionysius Periegetes: Phaenomena";
+  wdrs:describedby <https://d-nb.info/gnd/118641778/about> .
+
+<https://d-nb.info/gnd/118641778/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118641778> gndo:biographicalOrHistoricalInformation "Griech. Philosoph, Neuplatoniker, Leiter der Akademie"@de;
+  gndo:udkCode "401 - 500";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4073697-0>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4003366-1>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24589091 .
+
+_:node1ivs02adlx24589091 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118641778> gndo:dateOfBirth "0412"^^xsd:gYear;
+  gndo:dateOfDeath "0485"^^xsd:gYear .
+

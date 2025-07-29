@@ -1,0 +1,177 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118530585> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118530585/about> .
+
+<https://d-nb.info/gnd/118530585/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:18.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118530585> gndo:gndIdentifier "118530585";
+  foaf:page <https://de.wikipedia.org/wiki/Epikur>;
+  owl:sameAs <https://dbpedia.org/resource/Epicurus>, <http://viaf.org/viaf/261765060>,
+    <https://isni.org/isni/0000000121366309>, <http://www.wikidata.org/entity/Q43216>;
+  gndo:oldAuthorityNumber "(DE-588)1089876947";
+  owl:sameAs <https://d-nb.info/gnd/1089876947>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089876947";
+  gndo:oldAuthorityNumber "(DE-588)1053439687";
+  owl:sameAs <https://d-nb.info/gnd/1053439687>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1053439687";
+  gndo:oldAuthorityNumber "(DE-588a)118530585", "(DE-588a)128054212", "(DE-588c)4015030-6";
+  gndo:variantNameForThePerson "Epicurus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595210 .
+
+_:node1ivs02adlx24595210 gndo:personalName "Epicurus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epicurus, Samius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595211 .
+
+_:node1ivs02adlx24595211 gndo:personalName "Epicurus";
+  gndo:nameAddition "Samius" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epicurus, von Samius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595212 .
+
+_:node1ivs02adlx24595212 gndo:personalName "Epicurus";
+  gndo:nameAddition "von Samius" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epicurus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595213 .
+
+_:node1ivs02adlx24595213 gndo:personalName "Epicurus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epikuros, von Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595214 .
+
+_:node1ivs02adlx24595214 gndo:personalName "Epikuros";
+  gndo:nameAddition "von Samos" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epikuros, Sohn des Neokles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595215 .
+
+_:node1ivs02adlx24595215 gndo:personalName "Epikuros";
+  gndo:nameAddition "Sohn des Neokles" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epikuros, Sohn eines Atheners";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595216 .
+
+_:node1ivs02adlx24595216 gndo:personalName "Epikuros";
+  gndo:nameAddition "Sohn eines Atheners" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epikuros, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595217 .
+
+_:node1ivs02adlx24595217 gndo:personalName "Epikuros";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Épicure";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595218 .
+
+_:node1ivs02adlx24595218 gndo:personalName "Épicure" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epicure, de Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595219 .
+
+_:node1ivs02adlx24595219 gndo:personalName "Epicure";
+  gndo:nameAddition "de Samos" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epikur";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595220 .
+
+_:node1ivs02adlx24595220 gndo:personalName "Epikur" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Abīqūr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595221 .
+
+_:node1ivs02adlx24595221 gndo:personalName "Abīqūr" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epicuro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595222 .
+
+_:node1ivs02adlx24595222 gndo:personalName "Epicuro" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epicure";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595223 .
+
+_:node1ivs02adlx24595223 gndo:personalName "Epicure" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epikuros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595224 .
+
+_:node1ivs02adlx24595224 gndo:personalName "Epikuros" .
+
+<https://d-nb.info/gnd/118530585> gndo:variantNameForThePerson "Epiḳoros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595225 .
+
+_:node1ivs02adlx24595225 gndo:personalName "Epiḳoros" .
+
+<https://d-nb.info/gnd/118530585> gndo:preferredNameForThePerson "Epicurus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595226 .
+
+_:node1ivs02adlx24595226 gndo:personalName "Epicurus" .
+
+<https://d-nb.info/gnd/118530585> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Epicurus: Morals", "Epicurus: Epicurus's morals", "DesCoutures, Jacques P.: La morale d'Epicure",
+    "Epicurus: La morale d'Epicure", "Epicurus: Physica et meteorologica", "Hill, Nicolaus: Philosophia Epicurea",
+    "Epicurus: Epicuri philosophia", "D****, ...: Les songes d'Epicure.", "Epicurus: Ēthikē",
+    "Epicurus: Kyriai doxai";
+  wdrs:describedby <https://d-nb.info/gnd/118530585/about> .
+
+<https://d-nb.info/gnd/118530585/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118530585> gndo:biographicalOrHistoricalInformation "Gründer der epikureischen Schule"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24595227 .
+
+_:node1ivs02adlx24595227 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118530585> gndo:dateOfBirth "-0341"^^xsd:gYear;
+  gndo:dateOfDeath "-0270"^^xsd:gYear .
+

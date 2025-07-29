@@ -1,0 +1,292 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118678213> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118678213/about> .
+
+<https://d-nb.info/gnd/118678213/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:30:21.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118678213> gndo:gndIdentifier "118678213";
+  foaf:page <https://de.wikipedia.org/wiki/Didymus_der_Blinde>;
+  owl:sameAs <https://dbpedia.org/resource/Didymus_the_Blind>, <http://viaf.org/viaf/261475907>,
+    <https://isni.org/isni/000000038136174X>, <http://www.wikidata.org/entity/Q188232>,
+    <http://id.loc.gov/rwo/agents/n50078862>;
+  gndo:oldAuthorityNumber "(DE-588)1159368899";
+  owl:sameAs <https://d-nb.info/gnd/1159368899>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1159368899";
+  gndo:oldAuthorityNumber "(DE-588)1159102163";
+  owl:sameAs <https://d-nb.info/gnd/1159102163>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1159102163";
+  gndo:oldAuthorityNumber "(DE-588)108992884X";
+  owl:sameAs <https://d-nb.info/gnd/108992884X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108992884X";
+  gndo:oldAuthorityNumber "(DE-588)188119485";
+  owl:sameAs <https://d-nb.info/gnd/188119485>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188119485";
+  gndo:oldAuthorityNumber "(DE-588a)188119485", "(DE-588)18713832X";
+  owl:sameAs <https://d-nb.info/gnd/18713832X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18713832X";
+  gndo:oldAuthorityNumber "(DE-588a)18713832X", "(DE-588)119653982";
+  owl:sameAs <https://d-nb.info/gnd/119653982>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119653982";
+  gndo:oldAuthorityNumber "(DE-588a)119653982", "(DE-588a)118678213", "(DE-588c)4090760-0";
+  gndo:variantNameForThePerson "Didymos, Lehrer des Hieronymus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592968 .
+
+_:node1ivs02adlx24592968 gndo:personalName "Didymos";
+  gndo:nameAddition "Lehrer des Hieronymus" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymos, Lehrer des Rufinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592969 .
+
+_:node1ivs02adlx24592969 gndo:personalName "Didymos";
+  gndo:nameAddition "Lehrer des Rufinus" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymos, von Alexandreia, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592970 .
+
+_:node1ivs02adlx24592970 gndo:personalName "Didymos";
+  gndo:nameAddition "von Alexandreia, Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, von Alexandria, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592971 .
+
+_:node1ivs02adlx24592971 gndo:personalName "Didymus";
+  gndo:nameAddition "von Alexandria, Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, von Alexandrien, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592972 .
+
+_:node1ivs02adlx24592972 gndo:personalName "Didymus";
+  gndo:nameAddition "von Alexandrien, Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592973 .
+
+_:node1ivs02adlx24592973 gndo:personalName "Didymos" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592974 .
+
+_:node1ivs02adlx24592974 gndo:personalName "Didymus";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymos, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592975 .
+
+_:node1ivs02adlx24592975 gndo:personalName "Didymos";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didyme, l'Aveugle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592976 .
+
+_:node1ivs02adlx24592976 gndo:personalName "Didyme";
+  gndo:nameAddition "l'Aveugle" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didyme";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592977 .
+
+_:node1ivs02adlx24592977 gndo:personalName "Didyme" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, the Blind";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592978 .
+
+_:node1ivs02adlx24592978 gndo:personalName "Didymus";
+  gndo:nameAddition "the Blind" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, Theologian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592979 .
+
+_:node1ivs02adlx24592979 gndo:personalName "Didymus";
+  gndo:nameAddition "Theologian" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592980 .
+
+_:node1ivs02adlx24592980 gndo:personalName "Didymus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymos, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592981 .
+
+_:node1ivs02adlx24592981 gndo:personalName "Didymos";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didyme, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592982 .
+
+_:node1ivs02adlx24592982 gndo:personalName "Didyme";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didimo, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592983 .
+
+_:node1ivs02adlx24592983 gndo:personalName "Didimo";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didimo, Alessandrino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592984 .
+
+_:node1ivs02adlx24592984 gndo:personalName "Didimo";
+  gndo:nameAddition "Alessandrino" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592985 .
+
+_:node1ivs02adlx24592985 gndo:personalName "Didymus";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592986 .
+
+_:node1ivs02adlx24592986 gndo:personalName "Didymus" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didimo, il Cieco";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592987 .
+
+_:node1ivs02adlx24592987 gndo:personalName "Didimo";
+  gndo:nameAddition "il Cieco" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymos, der Blinde";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592988 .
+
+_:node1ivs02adlx24592988 gndo:personalName "Didymos";
+  gndo:nameAddition "der Blinde" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, der Blinde";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592989 .
+
+_:node1ivs02adlx24592989 gndo:personalName "Didymus";
+  gndo:nameAddition "der Blinde" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, Alexandrinus, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592990 .
+
+_:node1ivs02adlx24592990 gndo:personalName "Didymus";
+  gndo:nameAddition "Alexandrinus, Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Caecus, Didymus, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592991 .
+
+_:node1ivs02adlx24592991 gndo:forename "Didymus";
+  gndo:surname "Caecus";
+  gndo:nameAddition "Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didyme, l'Aveugle, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592992 .
+
+_:node1ivs02adlx24592992 gndo:personalName "Didyme";
+  gndo:nameAddition "l'Aveugle, Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, Caecus, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592993 .
+
+_:node1ivs02adlx24592993 gndo:personalName "Didymus";
+  gndo:nameAddition "Caecus, Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, of Alexandria, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592994 .
+
+_:node1ivs02adlx24592994 gndo:personalName "Didymus";
+  gndo:nameAddition "of Alexandria, Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymos, Alexandrinus, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592995 .
+
+_:node1ivs02adlx24592995 gndo:personalName "Didymos";
+  gndo:nameAddition "Alexandrinus, Theologe" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Caecus, Didymus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592996 .
+
+_:node1ivs02adlx24592996 gndo:forename "Didymus";
+  gndo:surname "Caecus" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didymus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592997 .
+
+_:node1ivs02adlx24592997 gndo:personalName "Didymus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118678213> gndo:variantNameForThePerson "Didyme, l'aveugle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592998 .
+
+_:node1ivs02adlx24592998 gndo:personalName "Didyme";
+  gndo:nameAddition "l'aveugle" .
+
+<https://d-nb.info/gnd/118678213> gndo:preferredNameForThePerson "Didymus, Caecus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592999 .
+
+_:node1ivs02adlx24592999 gndo:personalName "Didymus";
+  gndo:nameAddition "Caecus" .
+
+<https://d-nb.info/gnd/118678213> gndo:familialRelationship _:node1ivs02adlx24593000 .
+
+_:node1ivs02adlx24593000 gndo:personalName "sophronius" .
+
+<https://d-nb.info/gnd/118678213> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Didymus <Caecus>: Opera quae supersunt", "Didymus <Caecus>: Didymi Alexandrini de Trinitate libri 3",
+    "Didymus <Caecus>: De spiritu sancto libri III", "Didymus <Caecus>: Les Opuscules mathématiques",
+    "Didymus <Caecus>: Eis tēn Odysseian exēgēsis", "Homerus,: Ilias", "Lücke, Friedrich: Quaestiones ac vindiciae Didymianae sive Didymi Alexandrini enarratio i*",
+    "De Spiritu Sancto";
+  wdrs:describedby <https://d-nb.info/gnd/118678213/about> .
+
+<https://d-nb.info/gnd/118678213/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118678213> gndo:biographicalOrHistoricalInformation "Griech. Theologe, Leiter der Katechetenschule in Alexandria"@de;
+  gndo:udkCode "301 - 400";
+  gndo:professionOrOccupation _:node1ivs02adlx24593001 .
+
+_:node1ivs02adlx24593001 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4156443-1>;
+  rdf:_2 <https://d-nb.info/gnd/4059756-8> .
+
+<https://d-nb.info/gnd/118678213> gndo:dateOfBirth "0313"^^xsd:gYear;
+  gndo:dateOfDeath "0398"^^xsd:gYear .
+

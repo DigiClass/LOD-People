@@ -1,0 +1,175 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118591770> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118591770/about> .
+
+<https://d-nb.info/gnd/118591770/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T12:26:02.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118591770> gndo:gndIdentifier "118591770";
+  owl:sameAs <https://dbpedia.org/resource/Parmenides>, <http://viaf.org/viaf/163053136>,
+    <https://isni.org/isni/0000000119450536>, <http://www.wikidata.org/entity/Q125551>;
+  gndo:oldAuthorityNumber "(DE-588)1089928610";
+  owl:sameAs <https://d-nb.info/gnd/1089928610>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928610";
+  gndo:oldAuthorityNumber "(DE-588)17439134X";
+  owl:sameAs <https://d-nb.info/gnd/17439134X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17439134X";
+  gndo:oldAuthorityNumber "(DE-588a)17439134X", "(DE-588)174168578";
+  owl:sameAs <https://d-nb.info/gnd/174168578>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174168578";
+  gndo:oldAuthorityNumber "(DE-588a)174168578", "(DE-588)174039247";
+  owl:sameAs <https://d-nb.info/gnd/174039247>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174039247";
+  gndo:oldAuthorityNumber "(DE-588a)174039247", "(DE-588)158453263";
+  owl:sameAs <https://d-nb.info/gnd/158453263>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158453263";
+  gndo:oldAuthorityNumber "(DE-588a)158453263", "(DE-588a)118591770", "(DE-588a)126562342";
+  gndo:variantNameForThePerson "Parménides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592506 .
+
+_:node1ivs02adlx24592506 gndo:personalName "Parménides" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, Eleatas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592507 .
+
+_:node1ivs02adlx24592507 gndo:personalName "Parmenides";
+  gndo:nameAddition "Eleatas" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, Eleaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592508 .
+
+_:node1ivs02adlx24592508 gndo:personalName "Parmenides";
+  gndo:nameAddition "Eleaticus" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, of Elea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592509 .
+
+_:node1ivs02adlx24592509 gndo:personalName "Parmenides";
+  gndo:nameAddition "of Elea" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, von Elea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592510 .
+
+_:node1ivs02adlx24592510 gndo:personalName "Parmenides";
+  gndo:nameAddition "von Elea" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592511 .
+
+_:node1ivs02adlx24592511 gndo:personalName "Parmenides";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592512 .
+
+_:node1ivs02adlx24592512 gndo:personalName "Parmenides";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592513 .
+
+_:node1ivs02adlx24592513 gndo:personalName "Parmenides";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, Poeta Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592514 .
+
+_:node1ivs02adlx24592514 gndo:personalName "Parmenides";
+  gndo:nameAddition "Poeta Philosophus" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenides, Eleates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592515 .
+
+_:node1ivs02adlx24592515 gndo:forename "Eleates";
+  gndo:surname "Parmenides" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parménide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592516 .
+
+_:node1ivs02adlx24592516 gndo:personalName "Parménide" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenide, di Elea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592517 .
+
+_:node1ivs02adlx24592517 gndo:personalName "Parmenide";
+  gndo:nameAddition "di Elea" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenide, d'Elée";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592518 .
+
+_:node1ivs02adlx24592518 gndo:personalName "Parmenide";
+  gndo:nameAddition "d'Elée" .
+
+<https://d-nb.info/gnd/118591770> gndo:variantNameForThePerson "Parmenidu, tu Eleatu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592519 .
+
+_:node1ivs02adlx24592519 gndo:personalName "Parmenidu";
+  gndo:nameAddition "tu Eleatu" .
+
+<https://d-nb.info/gnd/118591770> gndo:preferredNameForThePerson "Parmenides";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592520 .
+
+_:node1ivs02adlx24592520 gndo:personalName "Parmenides" .
+
+<https://d-nb.info/gnd/118591770> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Fragmenta", "Leipsana", "Eleatae carminis reliquiae", "Lehrgedicht",
+    "Empedocles: Empedoclis et Parmenidis fragmenta", "Empedocles: Fragmenta", "Terzakēs, Dēmētrēs: Die Tore der Nacht und des Tages";
+  wdrs:describedby <https://d-nb.info/gnd/118591770/about> .
+
+<https://d-nb.info/gnd/118591770/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118591770> gndo:biographicalOrHistoricalInformation "Griech. Philosoph, Erfinder des erkenntnistheoretischen Dualismus"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592521 .
+
+_:node1ivs02adlx24592521 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118591770> gndo:dateOfBirth "-0515"^^xsd:gYear;
+  gndo:dateOfDeath "-0445"^^xsd:gYear .
+

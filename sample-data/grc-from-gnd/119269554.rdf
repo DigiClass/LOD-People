@@ -1,0 +1,243 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119269554> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119269554/about> .
+
+<https://d-nb.info/gnd/119269554/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T22:35:30.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119269554> gndo:gndIdentifier "119269554";
+  owl:sameAs <https://dbpedia.org/resource/Quintus_Fabius_Pictor>, <http://viaf.org/viaf/188734888>,
+    <https://isni.org/isni/0000000010686633>, <http://www.wikidata.org/entity/Q313500>;
+  gndo:oldAuthorityNumber "(DE-588)108931275X";
+  owl:sameAs <https://d-nb.info/gnd/108931275X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108931275X";
+  gndo:oldAuthorityNumber "(DE-588)1055305572";
+  owl:sameAs <https://d-nb.info/gnd/1055305572>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1055305572";
+  gndo:oldAuthorityNumber "(DE-588)119667487";
+  owl:sameAs <https://d-nb.info/gnd/119667487>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119667487";
+  gndo:oldAuthorityNumber "(DE-588a)119667487", "(DE-588a)119269554", "(DE-588a)100234992",
+    "(DE-588c)4383491-7";
+  gndo:variantNameForThePerson "Fabius, Pictor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587666 .
+
+_:node1ivs02adlx24587666 gndo:personalName "Fabius";
+  gndo:nameAddition "Pictor" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Fabius, Quintus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587667 .
+
+_:node1ivs02adlx24587667 gndo:forename "Quintus";
+  gndo:surname "Fabius" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Fabius, Quintus, Pictor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587668 .
+
+_:node1ivs02adlx24587668 gndo:forename "Quintus";
+  gndo:surname "Fabius";
+  gndo:nameAddition "Pictor" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Fabius Pictor, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587669 .
+
+_:node1ivs02adlx24587669 gndo:personalName "Fabius Pictor";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Fabius Pictor, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587670 .
+
+_:node1ivs02adlx24587670 gndo:personalName "Fabius Pictor";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Pictor, Quintus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587671 .
+
+_:node1ivs02adlx24587671 gndo:forename "Quintus";
+  gndo:surname "Pictor" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Pseudo-Fabius, Pictor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587672 .
+
+_:node1ivs02adlx24587672 gndo:personalName "Pseudo-Fabius";
+  gndo:nameAddition "Pictor" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Pictor, Quintus Fabius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587673 .
+
+_:node1ivs02adlx24587673 gndo:forename "Quintus Fabius";
+  gndo:surname "Pictor" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Pictor, Fabius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587674 .
+
+_:node1ivs02adlx24587674 gndo:forename "Fabius";
+  gndo:surname "Pictor" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Fabius Pictor, Quidam";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587675 .
+
+_:node1ivs02adlx24587675 gndo:personalName "Fabius Pictor";
+  gndo:nameAddition "Quidam" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Fabio Pittore, Quinto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587676 .
+
+_:node1ivs02adlx24587676 gndo:forename "Quinto";
+  gndo:surname "Fabio Pittore" .
+
+<https://d-nb.info/gnd/119269554> gndo:variantNameForThePerson "Pictor, Fabius Quintus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587677 .
+
+_:node1ivs02adlx24587677 gndo:forename "Fabius Quintus";
+  gndo:surname "Pictor" .
+
+<https://d-nb.info/gnd/119269554> gndo:preferredNameForThePerson "Fabius Pictor, Quintus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587678 .
+
+_:node1ivs02adlx24587678 gndo:forename "Quintus";
+  gndo:surname "Fabius Pictor" .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607638>;
+  gndo:hasRelation _:node1ivs02adlx24587679 .
+
+_:node1ivs02adlx24587679 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607638>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118503855>;
+  gndo:hasRelation _:node1ivs02adlx24587680 .
+
+_:node1ivs02adlx24587680 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118503855>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:hasRelation _:node1ivs02adlx24587681 .
+
+_:node1ivs02adlx24587681 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587682 .
+
+_:node1ivs02adlx24587682 gndo:personalName "Bēl-rēússu" .
+
+<https://d-nb.info/gnd/119269554> gndo:hasRelation _:node1ivs02adlx24587683 .
+
+_:node1ivs02adlx24587683 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587684 .
+
+_:node1ivs02adlx24587684 gndo:forename "Marcus Porcius";
+  gndo:surname "Cato" .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:hasRelation _:node1ivs02adlx24587685 .
+
+_:node1ivs02adlx24587685 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102398771>;
+  gndo:hasRelation _:node1ivs02adlx24587686 .
+
+_:node1ivs02adlx24587686 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102398771>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119770733>;
+  gndo:hasRelation _:node1ivs02adlx24587687 .
+
+_:node1ivs02adlx24587687 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119770733>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119062380>;
+  gndo:hasRelation _:node1ivs02adlx24587688 .
+
+_:node1ivs02adlx24587688 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119062380>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:hasRelation _:node1ivs02adlx24587689 .
+
+_:node1ivs02adlx24587689 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587690 .
+
+_:node1ivs02adlx24587690 gndo:personalName "Philo";
+  gndo:nameAddition "aus Alexandria" .
+
+<https://d-nb.info/gnd/119269554> gndo:hasRelation _:node1ivs02adlx24587691 .
+
+_:node1ivs02adlx24587691 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119269554> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587692 .
+
+_:node1ivs02adlx24587692 gndo:forename "Publius Cornelius";
+  gndo:surname "Tacitus" .
+
+<https://d-nb.info/gnd/119269554> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/lat>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Sacra et satyrica Epigrammata c. a.. - 1518", "Historicorum veterum fragmenta. - 1595",
+    "Bēl-rēússu: Itinerarium.  1511.  (VD16 ZV 22607)";
+  wdrs:describedby <https://d-nb.info/gnd/119269554/about> .
+
+<https://d-nb.info/gnd/119269554/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-21>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/119269554> gndo:biographicalOrHistoricalInformation "Röm. Politiker, der röm. Annalen in griech. Sprache geschrieben hat; Identität mit Fabius  <Pictor> umstritten; FGrH 809"@de;
+  gndo:udkCode "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24587693 .
+
+_:node1ivs02adlx24587693 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/119269554> gndo:dateOfBirthAndDeath "[v3. Jh.]" .
+

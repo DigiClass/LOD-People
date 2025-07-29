@@ -1,0 +1,194 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118736477> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118736477/about> .
+
+<https://d-nb.info/gnd/118736477/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-03-11T16:39:29.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118736477> gndo:gndIdentifier "118736477";
+  owl:sameAs <http://viaf.org/viaf/100036127>, <https://isni.org/isni/0000000094826743>,
+    <http://www.wikidata.org/entity/Q17996276>, <http://id.loc.gov/rwo/agents/n2003032893>;
+  gndo:oldAuthorityNumber "(DE-588)1089726368";
+  owl:sameAs <https://d-nb.info/gnd/1089726368>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726368";
+  gndo:oldAuthorityNumber "(DE-588)1089253176";
+  owl:sameAs <https://d-nb.info/gnd/1089253176>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089253176";
+  gndo:oldAuthorityNumber "(DE-588)172866375";
+  owl:sameAs <https://d-nb.info/gnd/172866375>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172866375";
+  gndo:oldAuthorityNumber "(DE-588a)172866375", "(DE-588a)118736477", "(DE-588c)4102105-8";
+  gndo:variantNameForThePerson "Oppianus, Apameensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592778 .
+
+_:node1ivs02adlx24592778 gndo:personalName "Oppianus";
+  gndo:nameAddition "Apameensis" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppianus, von Syrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592779 .
+
+_:node1ivs02adlx24592779 gndo:personalName "Oppianus";
+  gndo:nameAddition "von Syrien" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppianos, von Syrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592780 .
+
+_:node1ivs02adlx24592780 gndo:personalName "Oppianos";
+  gndo:nameAddition "von Syrien" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppianus, Syrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592781 .
+
+_:node1ivs02adlx24592781 gndo:personalName "Oppianus";
+  gndo:nameAddition "Syrus" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppien, de Syrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592782 .
+
+_:node1ivs02adlx24592782 gndo:personalName "Oppien";
+  gndo:nameAddition "de Syrie" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppianus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592783 .
+
+_:node1ivs02adlx24592783 gndo:personalName "Oppianus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppian, von Apamea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592784 .
+
+_:node1ivs02adlx24592784 gndo:personalName "Oppian";
+  gndo:nameAddition "von Apamea" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppian, von Apameia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592785 .
+
+_:node1ivs02adlx24592785 gndo:personalName "Oppian";
+  gndo:nameAddition "von Apameia" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppianus, von Apameia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592786 .
+
+_:node1ivs02adlx24592786 gndo:personalName "Oppianus";
+  gndo:nameAddition "von Apameia" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppianus, of Apamea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592787 .
+
+_:node1ivs02adlx24592787 gndo:personalName "Oppianus";
+  gndo:nameAddition "of Apamea" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppian, of Apamea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592788 .
+
+_:node1ivs02adlx24592788 gndo:personalName "Oppian";
+  gndo:nameAddition "of Apamea" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppien, d'Apamée";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592789 .
+
+_:node1ivs02adlx24592789 gndo:personalName "Oppien";
+  gndo:nameAddition "d'Apamée" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppiano, di Apamea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592790 .
+
+_:node1ivs02adlx24592790 gndo:personalName "Oppiano";
+  gndo:nameAddition "di Apamea" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppian, der Jüngere";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592791 .
+
+_:node1ivs02adlx24592791 gndo:personalName "Oppian";
+  gndo:nameAddition "der Jüngere" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppianos, von Apameia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592792 .
+
+_:node1ivs02adlx24592792 gndo:personalName "Oppianos";
+  gndo:nameAddition "von Apameia" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppiano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592793 .
+
+_:node1ivs02adlx24592793 gndo:personalName "Oppiano" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592794 .
+
+_:node1ivs02adlx24592794 gndo:personalName "Oppian" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Oppien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592795 .
+
+_:node1ivs02adlx24592795 gndo:personalName "Oppien" .
+
+<https://d-nb.info/gnd/118736477> gndo:variantNameForThePerson "Pseudo-Oppian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592796 .
+
+_:node1ivs02adlx24592796 gndo:personalName "Pseudo-Oppian" .
+
+<https://d-nb.info/gnd/118736477> gndo:preferredNameForThePerson "Oppianus, Apamensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592797 .
+
+_:node1ivs02adlx24592797 gndo:personalName "Oppianus";
+  gndo:nameAddition "Apamensis" .
+
+<https://d-nb.info/gnd/118736477> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#32.10p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Oppianus <Apamensis>: De venatione libri IV", "Oppianus <Apamensis>: Cynegetica",
+    "Oppianus <Apamensis>: La chasse", "Oppianus <Apamensis>: De venatione libri quattuor",
+    "Oppianus <Apamensis>: De venatione Lib. IIII", "Cynegetica et Halieutica";
+  wdrs:describedby <https://d-nb.info/gnd/118736477/about> .
+
+<https://d-nb.info/gnd/118736477/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118736477> gndo:biographicalOrHistoricalInformation "Cynegetica; Griech. Epiker"@de;
+  gndo:udkCode "201 - 300";
+  gndo:dateOfBirthAndDeath "[3. Jahrhundert]" .
+

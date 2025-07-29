@@ -1,0 +1,134 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11876814X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11876814X/about> .
+
+<https://d-nb.info/gnd/11876814X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-01-15T14:28:36.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11876814X> gndo:gndIdentifier "11876814X";
+  foaf:page <https://de.wikipedia.org/wiki/Marcus_Verrius_Flaccus>;
+  owl:sameAs <https://dbpedia.org/resource/Verrius_Flaccus>, <http://viaf.org/viaf/57410497>,
+    <https://isni.org/isni/000000009304968X>, <http://www.wikidata.org/entity/Q454995>,
+    <http://id.loc.gov/rwo/agents/n78088492>;
+  gndo:oldAuthorityNumber "(DE-588)1089493436";
+  owl:sameAs <https://d-nb.info/gnd/1089493436>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089493436";
+  gndo:oldAuthorityNumber "(DE-588)172433339";
+  owl:sameAs <https://d-nb.info/gnd/172433339>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172433339";
+  gndo:oldAuthorityNumber "(DE-588a)172433339", "(DE-588a)11876814X", "(DE-588c)4108211-4";
+  gndo:variantNameForThePerson "Flaccus, Marcus V.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586994 .
+
+_:node1ivs02adlx24586994 gndo:forename "Marcus V.";
+  gndo:surname "Flaccus" .
+
+<https://d-nb.info/gnd/11876814X> gndo:variantNameForThePerson "Verrius, Antiquar";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586995 .
+
+_:node1ivs02adlx24586995 gndo:personalName "Verrius";
+  gndo:nameAddition "Antiquar" .
+
+<https://d-nb.info/gnd/11876814X> gndo:variantNameForThePerson "Verrius, Flaccus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586996 .
+
+_:node1ivs02adlx24586996 gndo:personalName "Verrius";
+  gndo:nameAddition "Flaccus" .
+
+<https://d-nb.info/gnd/11876814X> gndo:variantNameForThePerson "Flaccus, Verrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586997 .
+
+_:node1ivs02adlx24586997 gndo:forename "Verrius";
+  gndo:surname "Flaccus" .
+
+<https://d-nb.info/gnd/11876814X> gndo:variantNameForThePerson "Flaccus, Marcus Verrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586998 .
+
+_:node1ivs02adlx24586998 gndo:forename "Marcus Verrius";
+  gndo:surname "Flaccus" .
+
+<https://d-nb.info/gnd/11876814X> gndo:variantNameForThePerson "Verrius, Grammarian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586999 .
+
+_:node1ivs02adlx24586999 gndo:personalName "Verrius";
+  gndo:nameAddition "Grammarian" .
+
+<https://d-nb.info/gnd/11876814X> gndo:variantNameForThePerson "Verrio, Flacco";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587000 .
+
+_:node1ivs02adlx24587000 gndo:personalName "Verrio";
+  gndo:nameAddition "Flacco" .
+
+<https://d-nb.info/gnd/11876814X> gndo:preferredNameForThePerson "Verrius Flaccus, Marcus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587001 .
+
+_:node1ivs02adlx24587001 gndo:forename "Marcus";
+  gndo:surname "Verrius Flaccus" .
+
+<https://d-nb.info/gnd/11876814X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Verrius Flaccus, Marcus: Quae extant", "Verrius Flaccus, Marcus: Fragmenta",
+    "Verrius Flaccus, Marcus: Fastorum anni Romani ... reliquiae, ex marmorearum Tabularum fra*",
+    "Verrius Flaccus, Marcus: Quae extant. - s.a.", "Verrius Flaccus, Marcus: Quae extant",
+    "Verrius Flaccus, Marcus: Quae extant", "Verrius Flaccus, Marcus: Quae extant", "Verrius Flaccus, Marcus: Quae extant",
+    "Grell, Joachim: Chronologia nova in T. Livii historiam", "Grell, Joachim: Chronologia nova in T. Livii historiam";
+  wdrs:describedby <https://d-nb.info/gnd/11876814X/about> .
+
+<https://d-nb.info/gnd/11876814X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11876814X> gndo:biographicalOrHistoricalInformation "Freigelassener, Lehrer der Enkel des Augustus"@de;
+  gndo:udkCode "100 - 1 v. Chr. ", "1 - 100 n. Chr.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24587002 .
+
+_:node1ivs02adlx24587002 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4158016-3>;
+  rdf:_2 <https://d-nb.info/gnd/4332106-9>;
+  rdf:_3 <https://d-nb.info/gnd/4035088-5> .
+
+<https://d-nb.info/gnd/11876814X> gndo:dateOfBirthAndDeath "[v1./1. Jh.]" .
+

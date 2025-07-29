@@ -1,0 +1,604 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118541900> a gndo:DifferentiatedPerson;
+  owl:sameAs <https://isni.org/isni/000000045004102X>;
+  wdrs:describedby <https://d-nb.info/gnd/118541900/about> .
+
+<https://d-nb.info/gnd/118541900/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:31:53.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118541900> gndo:gndIdentifier "118541900";
+  foaf:page <https://de.wikipedia.org/wiki/Gregor_von_Nazianz>;
+  owl:sameAs <https://dbpedia.org/resource/Gregory_of_Nazianzus>, <http://viaf.org/viaf/108675755>,
+    <https://isni.org/isni/000000045004102X>, <http://www.wikidata.org/entity/Q44011>,
+    <http://id.loc.gov/rwo/agents/n50082276>;
+  gndo:oldAuthorityNumber "(DE-588)1089927401";
+  owl:sameAs <https://d-nb.info/gnd/1089927401>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089927401";
+  gndo:oldAuthorityNumber "(DE-588)1089118015";
+  owl:sameAs <https://d-nb.info/gnd/1089118015>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089118015";
+  gndo:oldAuthorityNumber "(DE-588)1026331625";
+  owl:sameAs <https://d-nb.info/gnd/1026331625>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026331625";
+  gndo:oldAuthorityNumber "(DE-588a)118541900", "(DE-588a)185877192", "(DE-588a)174040970",
+    "(DE-588a)128054298", "(DE-588c)4021947-1";
+  gndo:variantNameForThePerson "Gregorios, von Nazianz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588439 .
+
+_:node1ivs02adlx24588439 gndo:personalName "Gregorios";
+  gndo:nameAddition "von Nazianz" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grēgorios, ho Nazianzēnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588440 .
+
+_:node1ivs02adlx24588440 gndo:personalName "Grēgorios";
+  gndo:nameAddition "ho Nazianzēnos" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grēgorios, tēs Nazianzu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588441 .
+
+_:node1ivs02adlx24588441 gndo:personalName "Grēgorios";
+  gndo:nameAddition "tēs Nazianzu" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grigorie, Teologul";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588442 .
+
+_:node1ivs02adlx24588442 gndo:personalName "Grigorie";
+  gndo:nameAddition "Teologul" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorios, Nazianzenos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588443 .
+
+_:node1ivs02adlx24588443 gndo:personalName "Gregorios";
+  gndo:nameAddition "Nazianzenos" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorios, von Kappadokien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588444 .
+
+_:node1ivs02adlx24588444 gndo:personalName "Gregorios";
+  gndo:nameAddition "von Kappadokien" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grēgorios, ho Theologos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588445 .
+
+_:node1ivs02adlx24588445 gndo:personalName "Grēgorios";
+  gndo:nameAddition "ho Theologos" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Aristotelicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588446 .
+
+_:node1ivs02adlx24588446 gndo:personalName "Gregorius";
+  gndo:nameAddition "Aristotelicus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Astrologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588447 .
+
+_:node1ivs02adlx24588447 gndo:personalName "Gregorius";
+  gndo:nameAddition "Astrologus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Biographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588448 .
+
+_:node1ivs02adlx24588448 gndo:personalName "Gregorius";
+  gndo:nameAddition "Biographus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Nazanzenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588449 .
+
+_:node1ivs02adlx24588449 gndo:personalName "Gregorius";
+  gndo:nameAddition "Nazanzenus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Constantinopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588450 .
+
+_:node1ivs02adlx24588450 gndo:personalName "Gregorius";
+  gndo:nameAddition "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Episcopus Nazianzeni";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588451 .
+
+_:node1ivs02adlx24588451 gndo:personalName "Gregorius";
+  gndo:nameAddition "Episcopus Nazianzeni" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Epistolographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588452 .
+
+_:node1ivs02adlx24588452 gndo:personalName "Gregorius";
+  gndo:nameAddition "Epistolographus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Exegeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588453 .
+
+_:node1ivs02adlx24588453 gndo:personalName "Gregorius";
+  gndo:nameAddition "Exegeta" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588454 .
+
+_:node1ivs02adlx24588454 gndo:personalName "Gregorius";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Liturgicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588455 .
+
+_:node1ivs02adlx24588455 gndo:personalName "Gregorius";
+  gndo:nameAddition "Liturgicus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588456 .
+
+_:node1ivs02adlx24588456 gndo:personalName "Gregorius";
+  gndo:nameAddition "of Constantinople" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Patriarcha";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588457 .
+
+_:node1ivs02adlx24588457 gndo:personalName "Gregorius";
+  gndo:nameAddition "Patriarcha" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588458 .
+
+_:node1ivs02adlx24588458 gndo:personalName "Gregorius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, von Nazianz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588459 .
+
+_:node1ivs02adlx24588459 gndo:personalName "Gregorius";
+  gndo:nameAddition "von Nazianz" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius von Nazianz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588460 .
+
+_:node1ivs02adlx24588460 gndo:personalName "Gregorius von Nazianz" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius Nassiansenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588461 .
+
+_:node1ivs02adlx24588461 gndo:personalName "Gregorius Nassiansenus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregor, der Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588462 .
+
+_:node1ivs02adlx24588462 gndo:personalName "Gregor";
+  gndo:nameAddition "der Theologe" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregor, Nazianzenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588463 .
+
+_:node1ivs02adlx24588463 gndo:personalName "Gregor";
+  gndo:nameAddition "Nazianzenus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorio, de Nacianzo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588464 .
+
+_:node1ivs02adlx24588464 gndo:personalName "Gregorio";
+  gndo:nameAddition "de Nacianzo" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorio, San";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588465 .
+
+_:node1ivs02adlx24588465 gndo:personalName "Gregorio";
+  gndo:nameAddition "San" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorio, il Teologo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588466 .
+
+_:node1ivs02adlx24588466 gndo:personalName "Gregorio";
+  gndo:nameAddition "il Teologo" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorio, Teologo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588467 .
+
+_:node1ivs02adlx24588467 gndo:personalName "Gregorio";
+  gndo:nameAddition "Teologo" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregoris, Nazianzeno";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588468 .
+
+_:node1ivs02adlx24588468 gndo:personalName "Gregoris";
+  gndo:nameAddition "Nazianzeno" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregory, of Nazianzum";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588469 .
+
+_:node1ivs02adlx24588469 gndo:personalName "Gregory";
+  gndo:nameAddition "of Nazianzum" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregory, of Nazianzus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588470 .
+
+_:node1ivs02adlx24588470 gndo:personalName "Gregory";
+  gndo:nameAddition "of Nazianzus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregory, of Nasianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588471 .
+
+_:node1ivs02adlx24588471 gndo:personalName "Gregory";
+  gndo:nameAddition "of Nasianus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grigol, Nazianzeli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588472 .
+
+_:node1ivs02adlx24588472 gndo:personalName "Grigol";
+  gndo:nameAddition "Nazianzeli" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grigor, Nyowsac'i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588473 .
+
+_:node1ivs02adlx24588473 gndo:personalName "Grigor";
+  gndo:nameAddition "Nyowsac'i" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grigorius, Narekensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588474 .
+
+_:node1ivs02adlx24588474 gndo:personalName "Grigorius";
+  gndo:nameAddition "Narekensis" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grigorii, Bogoslov";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588475 .
+
+_:node1ivs02adlx24588475 gndo:personalName "Grigorii";
+  gndo:nameAddition "Bogoslov" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grigorij, Bogoslov";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588476 .
+
+_:node1ivs02adlx24588476 gndo:personalName "Grigorij";
+  gndo:nameAddition "Bogoslov" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grigorij, Nazianzen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588477 .
+
+_:node1ivs02adlx24588477 gndo:personalName "Grigorij";
+  gndo:nameAddition "Nazianzen" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grégoire, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588478 .
+
+_:node1ivs02adlx24588478 gndo:personalName "Grégoire";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregoire, De Nazianze";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588479 .
+
+_:node1ivs02adlx24588479 gndo:personalName "Gregoire";
+  gndo:nameAddition "De Nazianze" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Pseudo-Gregorius, Nazianzenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588480 .
+
+_:node1ivs02adlx24588480 gndo:personalName "Pseudo-Gregorius";
+  gndo:nameAddition "Nazianzenus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grego. Nazian.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588481 .
+
+_:node1ivs02adlx24588481 gndo:personalName "Grego. Nazian." .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianz, Gregorius von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588482 .
+
+_:node1ivs02adlx24588482 gndo:forename "Gregorius";
+  gndo:prefix "von";
+  gndo:surname "Nazianz" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianze, Grégoire de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588483 .
+
+_:node1ivs02adlx24588483 gndo:forename "Grégoire";
+  gndo:prefix "de";
+  gndo:surname "Nazianze" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianzen, Grigorii";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588484 .
+
+_:node1ivs02adlx24588484 gndo:forename "Grigorii";
+  gndo:surname "Nazianzen" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianzeno, Gregorio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588485 .
+
+_:node1ivs02adlx24588485 gndo:forename "Gregorio";
+  gndo:surname "Nazianzeno" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianzēnos, Grēgorios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588486 .
+
+_:node1ivs02adlx24588486 gndo:forename "Grēgorios";
+  gndo:surname "Nazianzēnos" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianzenus, Gregorius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588487 .
+
+_:node1ivs02adlx24588487 gndo:forename "Gregorius";
+  gndo:surname "Nazianzenus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianzin, Grigorij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588488 .
+
+_:node1ivs02adlx24588488 gndo:forename "Grigorij";
+  gndo:surname "Nazianzin" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregor, von Nazianz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588489 .
+
+_:node1ivs02adlx24588489 gndo:personalName "Gregor";
+  gndo:nameAddition "von Nazianz" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grzegorz, z Nazjanzu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588490 .
+
+_:node1ivs02adlx24588490 gndo:personalName "Grzegorz";
+  gndo:nameAddition "z Nazjanzu" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grēgorios, Nazianzēnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588491 .
+
+_:node1ivs02adlx24588491 gndo:personalName "Grēgorios";
+  gndo:nameAddition "Nazianzēnos" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588492 .
+
+_:node1ivs02adlx24588492 gndo:personalName "Gregorius";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Orator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588493 .
+
+_:node1ivs02adlx24588493 gndo:personalName "Gregorius";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588494 .
+
+_:node1ivs02adlx24588494 gndo:personalName "Gregorius";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588495 .
+
+_:node1ivs02adlx24588495 gndo:personalName "Gregorius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorio, Nazianzeno";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588496 .
+
+_:node1ivs02adlx24588496 gndo:personalName "Gregorio";
+  gndo:nameAddition "Nazianzeno" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorio, di Nazianzo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588497 .
+
+_:node1ivs02adlx24588497 gndo:personalName "Gregorio";
+  gndo:nameAddition "di Nazianzo" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregory, Nazianzen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588498 .
+
+_:node1ivs02adlx24588498 gndo:personalName "Gregory";
+  gndo:nameAddition "Nazianzen" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Grégoire, de Nazianze";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588499 .
+
+_:node1ivs02adlx24588499 gndo:personalName "Grégoire";
+  gndo:nameAddition "de Nazianze" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianz, Gregor von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588500 .
+
+_:node1ivs02adlx24588500 gndo:forename "Gregor";
+  gndo:prefix "von";
+  gndo:surname "Nazianz" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Nazianzus, Gregory";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588501 .
+
+_:node1ivs02adlx24588501 gndo:forename "Gregory";
+  gndo:surname "Nazianzus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregory, of Nazianzus, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588502 .
+
+_:node1ivs02adlx24588502 gndo:personalName "Gregory";
+  gndo:nameAddition "of Nazianzus, Saint" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregory, of Nazianzus, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588503 .
+
+_:node1ivs02adlx24588503 gndo:forename "of Nazianzus, Saint";
+  gndo:surname "Gregory" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Gregorius, Nazianzenus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588504 .
+
+_:node1ivs02adlx24588504 gndo:personalName "Gregorius";
+  gndo:nameAddition "Nazianzenus, Sanctus" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Григорий, Богослов"@ru;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588505 .
+
+_:node1ivs02adlx24588505 gndo:personalName "Григорий";
+  gndo:nameAddition "Богослов" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Грыгорый, Багаслоў"@und-Cyrl;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588506 .
+
+_:node1ivs02adlx24588506 gndo:personalName "Грыгорый";
+  gndo:nameAddition "Багаслоў" .
+
+<https://d-nb.info/gnd/118541900> gndo:variantNameForThePerson "Γρηγόριος, ο Ναζιανζηνός"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588507 .
+
+_:node1ivs02adlx24588507 gndo:personalName "Γρηγόριος";
+  gndo:nameAddition "ο Ναζιανζηνός" .
+
+<https://d-nb.info/gnd/118541900> gndo:preferredNameForThePerson "Gregorius, Nazianzenus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24588508 .
+
+_:node1ivs02adlx24588508 gndo:personalName "Gregorius";
+  gndo:nameAddition "Nazianzenus" .
+
+<https://d-nb.info/gnd/118541900> gndo:familialRelationship <https://d-nb.info/gnd/118675249>;
+  agrelon:hasSibling <https://d-nb.info/gnd/118675249>;
+  gndo:hasRelation _:node1ivs02adlx24588509 .
+
+_:node1ivs02adlx24588509 agrelon:hasSibling <https://d-nb.info/gnd/118675249>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119808064>;
+  gndo:hasRelation _:node1ivs02adlx24588510 .
+
+_:node1ivs02adlx24588510 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119808064>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:hasRelation _:node1ivs02adlx24588511 .
+
+_:node1ivs02adlx24588511 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:hasRelation _:node1ivs02adlx24588512 .
+
+_:node1ivs02adlx24588512 gndo:functionOrRoleAsLiteral "Römhild; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588513 .
+
+_:node1ivs02adlx24588513 gndo:forename "Lukas";
+  gndo:surname "Mai" .
+
+<https://d-nb.info/gnd/118541900> gndo:hasRelation _:node1ivs02adlx24588514 .
+
+_:node1ivs02adlx24588514 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588515 .
+
+_:node1ivs02adlx24588515 gndo:personalName "Gregorius";
+  gndo:nameAddition "von Nyssa" .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1089628099>;
+  gndo:hasRelation _:node1ivs02adlx24588516 .
+
+_:node1ivs02adlx24588516 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1089628099>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100199399>;
+  gndo:hasRelation _:node1ivs02adlx24588517 .
+
+_:node1ivs02adlx24588517 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100199399>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100706460>;
+  gndo:hasRelation _:node1ivs02adlx24588518 .
+
+_:node1ivs02adlx24588518 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100706460>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:hasRelation _:node1ivs02adlx24588519 .
+
+_:node1ivs02adlx24588519 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588520 .
+
+_:node1ivs02adlx24588520 gndo:forename "Michael";
+  gndo:surname "Psellus" .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118504843>;
+  gndo:hasRelation _:node1ivs02adlx24588521 .
+
+_:node1ivs02adlx24588521 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118504843>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118705695>;
+  gndo:hasRelation _:node1ivs02adlx24588522 .
+
+_:node1ivs02adlx24588522 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118705695>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541900> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "DIVI GREgorii Nazanzeni ePISCOPI THEOLOGI GRAECA quaedam & sancta Carmina. Cum Latina ... 1561. (VD16 G 3090)",
+    "D.GREGORII COGNOME NTO Theologi, episcopi Nazanzeni opera, è graeco sermone in latinum ... 1530. (VD16 G 3020)",
+    "Ad virginem admonitorius. 1521. (VD16 G 3030)", "DIVI GREGORII NAZIANZENI: Poematum quaedam selectiora: Seorsim edita in vsum Graecae linguae ... 1582. (VD16 ZV 19062)",
+    "De luminibus, quod est de secundis epiphaniis. 1521. (VD16 G 3038)", "In dictum Matthaei, cum consummasset Jesus sermones hos etc. cap. XIX. 1519. (VD16 G 3052)",
+    "DIVI Gregorij TheoLOGI, EPISCOPI NAzanzeni, Sententiarũ spriritualium libelli tres, ... 1550. (VD16 G 3088)",
+    "BEATI GREGORII NAzanzeni de officio Episcopi Oratio. Bilibaldo Pirckeymhero ... 1529. (VD16 G 3073)",
+    "S. GREGORII NAZIANZENI DEFINITIONES RERVM SIMPLICES: GRAECE NVNC PRIMVM EX Augustana ... 1591. (VD16 ZV 7007)",
+    "Basilius Magnus: Homilia sive concio in sanctam Christi nativitatem. 1575. (VD16 ZV 1099)";
+  wdrs:describedby <https://d-nb.info/gnd/118541900/about> .
+
+<https://d-nb.info/gnd/118541900/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118541900> gndo:biographicalOrHistoricalInformation "Griechischer Kirchenlehrer, seit 372 Bischof von Sasima in Kappadokien; nach 374 vorübergehend Administrator des Bistums Nazianz"@de;
+  gndo:udkCode "301 - 400";
+  gndo:placeOfBirthAsLiteral "Nazianz";
+  gndo:professionOrOccupation _:node1ivs02adlx24588523 .
+
+_:node1ivs02adlx24588523 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4059756-8>;
+  rdf:_2 <https://d-nb.info/gnd/4317581-8>;
+  rdf:_3 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118541900> gndo:dateOfBirth "0329"^^xsd:gYear;
+  gndo:dateOfDeath "0390"^^xsd:gYear .
+

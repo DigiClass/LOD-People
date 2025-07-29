@@ -1,0 +1,118 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/116474564> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/116474564/about> .
+
+<https://d-nb.info/gnd/116474564/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-13T23:02:05.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/116474564> gndo:gndIdentifier "116474564";
+  owl:sameAs <http://viaf.org/viaf/3223092>, <https://isni.org/isni/0000000080831402>,
+    <http://www.wikidata.org/entity/Q3876208>, <http://id.loc.gov/rwo/agents/n87905569>;
+  gndo:oldAuthorityNumber "(DE-588a)116474564", "(DE-588a)102206031";
+  gndo:variantNameForThePerson "Festa, Nicc.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402622 .
+
+_:node1ivpishs6x25402622 gndo:forename "Nicc.";
+  gndo:surname "Festa" .
+
+<https://d-nb.info/gnd/116474564> gndo:variantNameForThePerson "Feste, Nicola";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402623 .
+
+_:node1ivpishs6x25402623 gndo:forename "Nicola";
+  gndo:surname "Feste" .
+
+<https://d-nb.info/gnd/116474564> gndo:variantNameForThePerson "Festa, N.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402624 .
+
+_:node1ivpishs6x25402624 gndo:forename "N.";
+  gndo:surname "Festa" .
+
+<https://d-nb.info/gnd/116474564> gndo:variantNameForThePerson "Festa, Niccola";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402625 .
+
+_:node1ivpishs6x25402625 gndo:forename "Niccola";
+  gndo:surname "Festa" .
+
+<https://d-nb.info/gnd/116474564> gndo:variantNameForThePerson "Festa, Nicolaus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402626 .
+
+_:node1ivpishs6x25402626 gndo:forename "Nicolaus";
+  gndo:surname "Festa" .
+
+<https://d-nb.info/gnd/116474564> gndo:preferredNameForThePerson "Festa, Nicola";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402627 .
+
+_:node1ivpishs6x25402627 gndo:forename "Nicola";
+  gndo:surname "Festa" .
+
+<https://d-nb.info/gnd/116474564> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/ita>, <http://id.loc.gov/vocabulary/iso639-2/grc>,
+    <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  gndo:publication "Rostagno, Enrico: Indice dei codici greci Laurenziani non compresi nel catalogo del Bandi*",
+    "Palaephatus: Palaephati peri apistōn. Heracliti qui fertur libellus peri apistōn. Excer*",
+    "Festa, Nicola: Intorno all' opusculo di Palefato de incredibilibus", "Bacchylides,: Odi e frammenti",
+    "Tacitus, Cornelius: L'Agricola e la Germania";
+  wdrs:describedby <https://d-nb.info/gnd/116474564/about> .
+
+<https://d-nb.info/gnd/116474564/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-611>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-611> .
+
+<https://d-nb.info/gnd/116474564> gndo:placeOfBirth <https://d-nb.info/gnd/4237961-1>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4050471-2>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4050471-2>, <https://d-nb.info/gnd/4017581-9>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402628 .
+
+_:node1ivpishs6x25402628 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/7632692-5>;
+  rdf:_2 <https://d-nb.info/gnd/4317125-4>;
+  rdf:_3 <https://d-nb.info/gnd/4025243-7>;
+  rdf:_4 <https://d-nb.info/gnd/4180978-6> .
+
+<https://d-nb.info/gnd/116474564> gndo:dateOfBirth "1866"^^xsd:gYear;
+  gndo:dateOfDeath "1940"^^xsd:gYear .
+

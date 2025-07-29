@@ -1,0 +1,356 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11855333X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11855333X/about> .
+
+<https://d-nb.info/gnd/11855333X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:26:29.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11855333X> gndo:gndIdentifier "11855333X";
+  foaf:page <https://de.wikipedia.org/wiki/Homer>;
+  owl:sameAs <https://dbpedia.org/resource/Homer>, <http://viaf.org/viaf/224924963>,
+    <http://www.wikidata.org/entity/Q6691>, <http://id.loc.gov/rwo/agents/n78095639>;
+  gndo:oldAuthorityNumber "(DE-588)1089883773";
+  owl:sameAs <https://d-nb.info/gnd/1089883773>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089883773";
+  gndo:oldAuthorityNumber "(DE-588)1089816472";
+  owl:sameAs <https://d-nb.info/gnd/1089816472>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089816472";
+  gndo:oldAuthorityNumber "(DE-588)1089103468";
+  owl:sameAs <https://d-nb.info/gnd/1089103468>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089103468";
+  gndo:oldAuthorityNumber "(DE-588)1087985919";
+  owl:sameAs <https://d-nb.info/gnd/1087985919>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1087985919";
+  gndo:oldAuthorityNumber "(DE-588)159580722";
+  owl:sameAs <https://d-nb.info/gnd/159580722>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/159580722";
+  gndo:oldAuthorityNumber "(DE-588a)159580722", "(DE-588a)11855333X", "(DE-588a)174168039",
+    "(DE-588a)174038860", "(DE-588a)15916298X", "(DE-588a)139995609", "(DE-588a)136980376",
+    "(DE-588a)130988693", "(DE-588c)4025775-7";
+  gndo:variantNameForThePerson "Homer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585443 .
+
+_:node1ivs02adlx24585443 gndo:personalName "Homer" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homerus, Dramatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585444 .
+
+_:node1ivs02adlx24585444 gndo:personalName "Homerus";
+  gndo:nameAddition "Dramatiker" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homerus, Colophonus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585445 .
+
+_:node1ivs02adlx24585445 gndo:personalName "Homerus";
+  gndo:nameAddition "Colophonus" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homerosi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585446 .
+
+_:node1ivs02adlx24585446 gndo:personalName "Homerosi" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Omiros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585447 .
+
+_:node1ivs02adlx24585447 gndo:personalName "Omiros" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Khomer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585448 .
+
+_:node1ivs02adlx24585448 gndo:personalName "Khomer" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homėr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585449 .
+
+_:node1ivs02adlx24585449 gndo:personalName "Homėr" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Hūmar";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585450 .
+
+_:node1ivs02adlx24585450 gndo:personalName "Hūmar" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Hūmir";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585451 .
+
+_:node1ivs02adlx24585451 gndo:personalName "Hūmir" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Hūmīrūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585452 .
+
+_:node1ivs02adlx24585452 gndo:personalName "Hūmīrūs" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Hōmar";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585453 .
+
+_:node1ivs02adlx24585453 gndo:personalName "Hōmar" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homérosz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585454 .
+
+_:node1ivs02adlx24585454 gndo:personalName "Homérosz" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homēros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585455 .
+
+_:node1ivs02adlx24585455 gndo:personalName "Homēros" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homerus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585456 .
+
+_:node1ivs02adlx24585456 gndo:personalName "Homerus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homère";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585457 .
+
+_:node1ivs02adlx24585457 gndo:personalName "Homère" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homeros, Tragiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585458 .
+
+_:node1ivs02adlx24585458 gndo:personalName "Homeros";
+  gndo:nameAddition "Tragiker" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homerus, Colophonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585459 .
+
+_:node1ivs02adlx24585459 gndo:personalName "Homerus";
+  gndo:nameAddition "Colophonius" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homero";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585460 .
+
+_:node1ivs02adlx24585460 gndo:personalName "Homero" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homeros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585461 .
+
+_:node1ivs02adlx24585461 gndo:personalName "Homeros" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Gomer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585462 .
+
+_:node1ivs02adlx24585462 gndo:personalName "Gomer" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Pseudo-Homerus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585463 .
+
+_:node1ivs02adlx24585463 gndo:personalName "Pseudo-Homerus" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Pseudo-Homer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585464 .
+
+_:node1ivs02adlx24585464 gndo:personalName "Pseudo-Homer" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Omero";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585465 .
+
+_:node1ivs02adlx24585465 gndo:personalName "Omero" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homeros, von Byzantion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585466 .
+
+_:node1ivs02adlx24585466 gndo:personalName "Homeros";
+  gndo:nameAddition "von Byzantion" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homerus, Dramatist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585467 .
+
+_:node1ivs02adlx24585467 gndo:personalName "Homerus";
+  gndo:nameAddition "Dramatist" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homeros, von Byzanz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585468 .
+
+_:node1ivs02adlx24585468 gndo:personalName "Homeros";
+  gndo:nameAddition "von Byzanz" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homeros, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585469 .
+
+_:node1ivs02adlx24585469 gndo:personalName "Homeros";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Homerus, of Byzantium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585470 .
+
+_:node1ivs02adlx24585470 gndo:personalName "Homerus";
+  gndo:nameAddition "of Byzantium" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "Гомер"@ru;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585471 .
+
+_:node1ivs02adlx24585471 gndo:personalName "Гомер" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "荷馬"@zh-Hant;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585472 .
+
+_:node1ivs02adlx24585472 gndo:personalName "荷馬" .
+
+<https://d-nb.info/gnd/11855333X> gndo:variantNameForThePerson "荷马"@zh-Hans;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585473 .
+
+_:node1ivs02adlx24585473 gndo:personalName "荷马" .
+
+<https://d-nb.info/gnd/11855333X> gndo:preferredNameForThePerson "Homerus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585474 .
+
+_:node1ivs02adlx24585474 gndo:personalName "Homerus" .
+
+<https://d-nb.info/gnd/11855333X> gndo:hasRelation _:node1ivs02adlx24585475 .
+
+_:node1ivs02adlx24585475 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585476 .
+
+_:node1ivs02adlx24585476 gndo:forename "Adrianus";
+  gndo:surname "Junius" .
+
+<https://d-nb.info/gnd/11855333X> gndo:hasRelation _:node1ivs02adlx24585477 .
+
+_:node1ivs02adlx24585477 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585478 .
+
+_:node1ivs02adlx24585478 gndo:forename "Konrad";
+  gndo:surname "Heresbach" .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118626000>;
+  gndo:hasRelation _:node1ivs02adlx24585479 .
+
+_:node1ivs02adlx24585479 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118626000>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119792389>;
+  gndo:hasRelation _:node1ivs02adlx24585480 .
+
+_:node1ivs02adlx24585480 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119792389>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118744658>;
+  gndo:hasRelation _:node1ivs02adlx24585481 .
+
+_:node1ivs02adlx24585481 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118744658>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118942719>;
+  gndo:hasRelation _:node1ivs02adlx24585482 .
+
+_:node1ivs02adlx24585482 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118942719>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102381216>;
+  gndo:hasRelation _:node1ivs02adlx24585483 .
+
+_:node1ivs02adlx24585483 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102381216>;
+  gndo:functionOrRoleAsLiteral "Schüler";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594044>;
+  gndo:hasRelation _:node1ivs02adlx24585484 .
+
+_:node1ivs02adlx24585484 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594044>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:hasRelation _:node1ivs02adlx24585485 .
+
+_:node1ivs02adlx24585485 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585486 .
+
+_:node1ivs02adlx24585486 gndo:forename "Helius";
+  gndo:surname "Eobanus" .
+
+<https://d-nb.info/gnd/11855333X> gndo:hasRelation _:node1ivs02adlx24585487 .
+
+_:node1ivs02adlx24585487 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585488 .
+
+_:node1ivs02adlx24585488 gndo:forename "Johannes";
+  gndo:surname "Stigel" .
+
+<https://d-nb.info/gnd/11855333X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100248896>;
+  gndo:hasRelation _:node1ivs02adlx24585489 .
+
+_:node1ivs02adlx24585489 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100248896>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855333X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Homerus: Odyssea, Das seind die aller zierlichsten vnd lustigsten vier vnd zwaintzig buecher des ... 1538. (VD16 H 4709)",
+    "Homerus: Batrachomyomachia. 1556. (VD16 ZV 8130)", "Homerus: \\=GODYSSEIA. Batrachomyomachia. hymnoi.lb. Eustathiu archiepiskopu Thessalonikēs parekbolai ... 1550. (VD16 H 4695)",
+    "Homerus: Ilias. 1594. (VD16 ZV 8140)", "Homerus: POETARVM OMNIVM SECVLORVM LONGE PRINCIPIS HOMERI ILIAS, HOC EST, DE REBVS AD Troiam ... 1540. (VD16 H 4665)",
+    "Homerus: Ilias. 1512. (VD16 ZV 8124)", "Homerus: HOMERI ILIAS AD VERBVM translata, Andrea Diuo Iustinopolitano interprete.. 1540. (VD16 H 4666)",
+    "Homerus: HOMERI BATRACHOMYOMACHIA Ioanne Capnione Phorcensi metaphraste . 1510. (VD16 H 4627)",
+    "Homerus: \\=GHOMĒRU ILIADOS\\=g A. Homeri Iliados 1.. 1516. (VD16 H 4671)", "Homerus: Pugna ranarum et murium Homeri carmine hexametro reddita a M. Hieronymo Osio Turingo, poeta laureato. 1560. (VD16 ZV 22731)";
+  wdrs:describedby <https://d-nb.info/gnd/11855333X/about> .
+
+<https://d-nb.info/gnd/11855333X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/11855333X> gndo:usingInstructions "Da die historische Person Homers stark mythologisch verklärt ist, kann man kaum mit Bestimmtheit sagen, welches Werk, bzw. welcher Werkteil von ihm stammt. Sehr wahrscheinlich steht sein Name mehr oder weniger als Kollektivbezeichnung für zahlreiche Rhapsoden, v.a. auf Chios, die als Nachkommen bzw. Nachfolger Homers galten. Deshalb ordnet TITAN traditionell alle unter dem Namen Homers tradierten Werke unter diesem als Verfasser. Von anderen Zuschreibungen, sofern bekannt, wird verwiesen"@de;
+  gndo:biographicalOrHistoricalInformation "Griechischer Epiker"@de;
+  gndo:udkCode "800 - 701 v. Chr. ";
+  owl:sameAs <https://www.filmportal.de/39456D1BF89A46318C9A2C572B45DD41>;
+  gndo:professionOrOccupation _:node1ivs02adlx24585490 .
+
+_:node1ivs02adlx24585490 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/11855333X> gndo:dateOfBirthAndDeath "[v8. Jh.]" .
+

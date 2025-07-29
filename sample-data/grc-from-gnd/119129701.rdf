@@ -1,0 +1,161 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119129701> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119129701/about> .
+
+<https://d-nb.info/gnd/119129701/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-02-15T13:17:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119129701> gndo:gndIdentifier "119129701";
+  foaf:page <https://de.wikipedia.org/wiki/Proklos_von_Konstantinopel>;
+  owl:sameAs <http://viaf.org/viaf/102329138>, <https://isni.org/isni/0000000110319013>,
+    <http://www.wikidata.org/entity/Q172926>, <http://id.loc.gov/rwo/agents/n87805335>;
+  gndo:oldAuthorityNumber "(DE-588)1089314590";
+  owl:sameAs <https://d-nb.info/gnd/1089314590>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089314590";
+  gndo:oldAuthorityNumber "(DE-588)119795116";
+  owl:sameAs <https://d-nb.info/gnd/119795116>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119795116";
+  gndo:oldAuthorityNumber "(DE-588a)119795116", "(DE-588a)119129701", "(DE-588a)174061536",
+    "(DE-588a)172314259", "(DE-588a)153714247", "(DE-588c)4327924-7";
+  gndo:variantNameForThePerson "Proclus, Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401290 .
+
+_:node1ivpishs6x25401290 gndo:personalName "Proclus";
+  gndo:nameAddition "Archiepiscopus" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proclus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401291 .
+
+_:node1ivpishs6x25401291 gndo:personalName "Proclus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proclus, de Constantinopoli";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401292 .
+
+_:node1ivpishs6x25401292 gndo:personalName "Proclus";
+  gndo:nameAddition "de Constantinopoli" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proklos, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401293 .
+
+_:node1ivpishs6x25401293 gndo:personalName "Proklos";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proklos, von Kyzikos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401294 .
+
+_:node1ivpishs6x25401294 gndo:personalName "Proklos";
+  gndo:nameAddition "von Kyzikos" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proklos, von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401295 .
+
+_:node1ivpishs6x25401295 gndo:personalName "Proklos";
+  gndo:nameAddition "von Konstantinopel" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proclus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401296 .
+
+_:node1ivpishs6x25401296 gndo:personalName "Proclus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proclus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401297 .
+
+_:node1ivpishs6x25401297 gndo:personalName "Proclus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proclus, Patriarcha";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401298 .
+
+_:node1ivpishs6x25401298 gndo:personalName "Proclus";
+  gndo:nameAddition "Patriarcha" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proklos, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401299 .
+
+_:node1ivpishs6x25401299 gndo:personalName "Proklos";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proklos, Patriarch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401300 .
+
+_:node1ivpishs6x25401300 gndo:personalName "Proklos";
+  gndo:nameAddition "Patriarch" .
+
+<https://d-nb.info/gnd/119129701> gndo:variantNameForThePerson "Proclus, of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401301 .
+
+_:node1ivpishs6x25401301 gndo:personalName "Proclus";
+  gndo:nameAddition "of Constantinople" .
+
+<https://d-nb.info/gnd/119129701> gndo:preferredNameForThePerson "Proclus, Constantinopolitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401302 .
+
+_:node1ivpishs6x25401302 gndo:personalName "Proclus";
+  gndo:nameAddition "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/119129701> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Litterarum monumenta quae superant omnia recensita", "Analecta",
+    "Corollarii vice diversa diversorum fide et religione nati*", "SERMO PROCLI CYZICENsis Episcopi, habitus Constantinopoli, in die natiuitatis Domini, ..";
+  wdrs:describedby <https://d-nb.info/gnd/119129701/about> .
+
+<https://d-nb.info/gnd/119129701/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119129701> gndo:biographicalOrHistoricalInformation "Erzbischof von Konstantinopel"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25401303 .
+
+_:node1ivpishs6x25401303 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4015471-3> .
+
+<https://d-nb.info/gnd/119129701> gndo:dateOfBirth "0390"^^xsd:gYear;
+  gndo:dateOfDeath "0446"^^xsd:gYear .
+

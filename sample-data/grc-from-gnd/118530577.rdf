@@ -1,0 +1,296 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118530577> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118530577/about> .
+
+<https://d-nb.info/gnd/118530577/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:22.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118530577> gndo:gndIdentifier "118530577";
+  owl:sameAs <https://dbpedia.org/resource/Epictetus>, <http://viaf.org/viaf/243791851>,
+    <http://www.wikidata.org/entity/Q183144>, <http://id.loc.gov/rwo/agents/n50082929>;
+  gndo:oldAuthorityNumber "(DE-588)1089928580";
+  owl:sameAs <https://d-nb.info/gnd/1089928580>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928580";
+  gndo:oldAuthorityNumber "(DE-588)1089883668";
+  owl:sameAs <https://d-nb.info/gnd/1089883668>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089883668";
+  gndo:oldAuthorityNumber "(DE-588)1089122217";
+  owl:sameAs <https://d-nb.info/gnd/1089122217>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089122217";
+  gndo:oldAuthorityNumber "(DE-588a)118530577", "(DE-588a)119663937", "(DE-588c)4015028-8";
+  gndo:variantNameForThePerson "Epiktetos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592238 .
+
+_:node1ivs02adlx24592238 gndo:personalName "Epiktetos" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epitteto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592239 .
+
+_:node1ivs02adlx24592239 gndo:personalName "Epitteto" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epictète";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592240 .
+
+_:node1ivs02adlx24592240 gndo:personalName "Epictète" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epictete";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592241 .
+
+_:node1ivs02adlx24592241 gndo:personalName "Epictete" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epicticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592242 .
+
+_:node1ivs02adlx24592242 gndo:personalName "Epicticus" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epiktetos, von Hierapolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592243 .
+
+_:node1ivs02adlx24592243 gndo:personalName "Epiktetos";
+  gndo:nameAddition "von Hierapolis" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epictetus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592244 .
+
+_:node1ivs02adlx24592244 gndo:personalName "Epictetus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epictetus, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592245 .
+
+_:node1ivs02adlx24592245 gndo:personalName "Epictetus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epiktetos, Stoischer Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592246 .
+
+_:node1ivs02adlx24592246 gndo:personalName "Epiktetos";
+  gndo:nameAddition "Stoischer Philosoph" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epictetus, Hierapolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592247 .
+
+_:node1ivs02adlx24592247 gndo:personalName "Epictetus";
+  gndo:nameAddition "Hierapolitanus" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epictète, de Hierapolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592248 .
+
+_:node1ivs02adlx24592248 gndo:personalName "Epictète";
+  gndo:nameAddition "de Hierapolis" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epictetes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592249 .
+
+_:node1ivs02adlx24592249 gndo:personalName "Epictetes" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Épictète";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592250 .
+
+_:node1ivs02adlx24592250 gndo:personalName "Épictète" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epiktetes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592251 .
+
+_:node1ivs02adlx24592251 gndo:personalName "Epiktetes" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epiktētos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592252 .
+
+_:node1ivs02adlx24592252 gndo:personalName "Epiktētos" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epictet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592253 .
+
+_:node1ivs02adlx24592253 gndo:personalName "Epictet" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epicteto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592254 .
+
+_:node1ivs02adlx24592254 gndo:personalName "Epicteto" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epitecto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592255 .
+
+_:node1ivs02adlx24592255 gndo:personalName "Epitecto" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epiktet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592256 .
+
+_:node1ivs02adlx24592256 gndo:personalName "Epiktet" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Epiktetas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592257 .
+
+_:node1ivs02adlx24592257 gndo:personalName "Epiktetas" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Épiktét";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592258 .
+
+_:node1ivs02adlx24592258 gndo:personalName "Épiktét" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "Aibiketaide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592259 .
+
+_:node1ivs02adlx24592259 gndo:personalName "Aibiketaide" .
+
+<https://d-nb.info/gnd/118530577> gndo:variantNameForThePerson "爱比克泰德"@zh-Hans;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592260 .
+
+_:node1ivs02adlx24592260 gndo:personalName "爱比克泰德" .
+
+<https://d-nb.info/gnd/118530577> gndo:preferredNameForThePerson "Epictetus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592261 .
+
+_:node1ivs02adlx24592261 gndo:personalName "Epictetus" .
+
+<https://d-nb.info/gnd/118530577> gndo:originalScriptNameOfThePerson "ئېپىكتېت"@ug-Arab;
+  gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118556010>;
+  gndo:hasRelation _:node1ivs02adlx24592262 .
+
+_:node1ivs02adlx24592262 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118556010>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118504436>;
+  gndo:hasRelation _:node1ivs02adlx24592263 .
+
+_:node1ivs02adlx24592263 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118504436>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivs02adlx24592264 .
+
+_:node1ivs02adlx24592264 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:hasRelation _:node1ivs02adlx24592265 .
+
+_:node1ivs02adlx24592265 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24592266 .
+
+_:node1ivs02adlx24592266 gndo:forename "Marcus Porcius";
+  gndo:surname "Cato" .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118793608>;
+  gndo:hasRelation _:node1ivs02adlx24592267 .
+
+_:node1ivs02adlx24592267 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118793608>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595237>;
+  gndo:hasRelation _:node1ivs02adlx24592268 .
+
+_:node1ivs02adlx24592268 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595237>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118687182>;
+  gndo:hasRelation _:node1ivs02adlx24592269 .
+
+_:node1ivs02adlx24592269 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118687182>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:hasRelation _:node1ivs02adlx24592270 .
+
+_:node1ivs02adlx24592270 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24592271 .
+
+_:node1ivs02adlx24592271 gndo:forename "Jakob";
+  gndo:surname "Schegk";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100706460>;
+  gndo:hasRelation _:node1ivs02adlx24592272 .
+
+_:node1ivs02adlx24592272 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100706460>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118868365>;
+  gndo:hasRelation _:node1ivs02adlx24592273 .
+
+_:node1ivs02adlx24592273 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118868365>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118530577> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Epictetus: Enchiridion", "Epictetus: Enchiridii selcta", "Epictetus: Enchiridion",
+    "Epictetus: Altercacion, en forme de dialogue, de l'empereur Adrian et di philosophe Épic*",
+    "Epictetus: Epicteti Enchiridion, Cebetis Tabula, Cleanthis hymnos", "Epictetus: Arrhianu tōn Epiktētu diatribōn biblia tessera",
+    "Epictetus: Encheiridion Epiktētu", "Epictetus: Encheiridion Epiktētu", "Epictetus: Moralis philosophiae medulla ... nempe Epicteti Enchiridion",
+    "Epictetus: Enchiridion", "Erasmus, Desiderius: Ecloga de vita humana. 1518. (VD16 E 2134)",
+    "Epictetus: Entschließung der hierin benannten Fürsten zu Regensburg versammelt. 1531. (VD16 E 1607)",
+    "Epictetus: Enchiridion. 1595. (VD16 ZV 5095)", "Cato, Marcus Porcius: Christiani hominis institutum. 1519. (VD16 C 1605)",
+    "Cato, Marcus Porcius: Christiani hominis institutum. 1517. (VD16 C 1600)", "Cato, Marcus Porcius: Christiani hominis institutum. 1517. (VD16 C 1599)",
+    "Epictetus: MORALIS PHILOSOPHIAE MEDVLLA, DOcens quo pacto ad animi tranquillitatem, beatitudinem\\́[que] ... 1554. (VD16 E 1609)",
+    "Cato, Marcus Porcius: Disticha moralia. 1521. (VD16 ZV 3156)", "Cato, Marcus Porcius: Christiani hominis institutum. 1518. (VD16 C 1603)",
+    "Arrianus, Flavius: Enchiridion. 1554. (VD16 A 3793)";
+  wdrs:describedby <https://d-nb.info/gnd/118530577/about> .
+
+<https://d-nb.info/gnd/118530577/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118530577> gndo:biographicalOrHistoricalInformation "griech. Philosoph, Stoiker"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:professionOrOccupation _:node1ivs02adlx24592274 .
+
+_:node1ivs02adlx24592274 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118530577> gndo:dateOfBirth "0050"^^xsd:gYear;
+  gndo:dateOfDeath "0130"^^xsd:gYear .
+

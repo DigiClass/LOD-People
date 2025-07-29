@@ -1,0 +1,540 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118575228> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118575228/about> .
+
+<https://d-nb.info/gnd/118575228/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-19T09:40:54.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118575228> gndo:gndIdentifier "118575228";
+  foaf:page <https://de.wikipedia.org/wiki/Lukian_von_Samosata>;
+  owl:sameAs <https://dbpedia.org/resource/Lucian>, <http://viaf.org/viaf/100218901>,
+    <https://isni.org/isni/0000000355081330>, <http://www.wikidata.org/entity/Q177847>,
+    <http://id.loc.gov/rwo/agents/n79073533>;
+  gndo:oldAuthorityNumber "(DE-588)1231592788";
+  owl:sameAs <https://d-nb.info/gnd/1231592788>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1231592788";
+  gndo:oldAuthorityNumber "(DE-588)1089928769";
+  owl:sameAs <https://d-nb.info/gnd/1089928769>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928769";
+  gndo:oldAuthorityNumber "(DE-588)108992268X";
+  owl:sameAs <https://d-nb.info/gnd/108992268X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108992268X";
+  gndo:oldAuthorityNumber "(DE-588)1089879180";
+  owl:sameAs <https://d-nb.info/gnd/1089879180>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089879180";
+  gndo:oldAuthorityNumber "(DE-588)188010025";
+  owl:sameAs <https://d-nb.info/gnd/188010025>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188010025";
+  gndo:oldAuthorityNumber "(DE-588a)188010025", "(DE-588)160421659";
+  owl:sameAs <https://d-nb.info/gnd/160421659>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160421659";
+  gndo:oldAuthorityNumber "(DE-588a)160421659", "(DE-588)119747820";
+  owl:sameAs <https://d-nb.info/gnd/119747820>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119747820";
+  gndo:oldAuthorityNumber "(DE-588a)119747820", "(DE-588)174045409";
+  owl:sameAs <https://d-nb.info/gnd/174045409>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174045409";
+  gndo:oldAuthorityNumber "(DE-588a)174045409", "(DE-588)185877214";
+  owl:sameAs <https://d-nb.info/gnd/185877214>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877214";
+  gndo:oldAuthorityNumber "(DE-588a)185877214", "(DE-588)174118996";
+  owl:sameAs <https://d-nb.info/gnd/174118996>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174118996";
+  gndo:oldAuthorityNumber "(DE-588a)174118996", "(DE-588)174091559";
+  owl:sameAs <https://d-nb.info/gnd/174091559>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174091559";
+  gndo:oldAuthorityNumber "(DE-588a)174091559", "(DE-588a)118575228", "(DE-588a)126561575",
+    "(DE-588a)127444742", "(DE-588a)127444734";
+  gndo:variantNameForThePerson "Lucianus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587177 .
+
+_:node1ivs02adlx24587177 gndo:personalName "Lucianus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianus, Samosateus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587178 .
+
+_:node1ivs02adlx24587178 gndo:personalName "Lucianus";
+  gndo:nameAddition "Samosateus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucíanus, Samosatensīs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587179 .
+
+_:node1ivs02adlx24587179 gndo:forename "Samosatensīs";
+  gndo:surname "Lucíanus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587180 .
+
+_:node1ivs02adlx24587180 gndo:personalName "Lukianus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Luciano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587181 .
+
+_:node1ivs02adlx24587181 gndo:personalName "Luciano" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587182 .
+
+_:node1ivs02adlx24587182 gndo:personalName "Lucien" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lutianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587183 .
+
+_:node1ivs02adlx24587183 gndo:personalName "Lutianus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587184 .
+
+_:node1ivs02adlx24587184 gndo:personalName "Lucius" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Llucià";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587185 .
+
+_:node1ivs02adlx24587185 gndo:personalName "Llucià" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucian, Samosatensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587186 .
+
+_:node1ivs02adlx24587186 gndo:personalName "Lucian";
+  gndo:nameAddition "Samosatensis" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucian, of Samosta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587187 .
+
+_:node1ivs02adlx24587187 gndo:personalName "Lucian";
+  gndo:nameAddition "of Samosta" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukianos, Samosatēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587188 .
+
+_:node1ivs02adlx24587188 gndo:personalName "Lukianos";
+  gndo:nameAddition "Samosatēs" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Samosata, Luciano de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587189 .
+
+_:node1ivs02adlx24587189 gndo:forename "Luciano";
+  gndo:prefix "de";
+  gndo:surname "Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucius, de Patras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587190 .
+
+_:node1ivs02adlx24587190 gndo:personalName "Lucius";
+  gndo:nameAddition "de Patras" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukian, iz Samosaty";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587191 .
+
+_:node1ivs02adlx24587191 gndo:personalName "Lukian";
+  gndo:nameAddition "iz Samosaty" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587192 .
+
+_:node1ivs02adlx24587192 gndo:personalName "Lucius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukian, von Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587193 .
+
+_:node1ivs02adlx24587193 gndo:personalName "Lukian";
+  gndo:nameAddition "von Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Samosata, Lucianus de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587194 .
+
+_:node1ivs02adlx24587194 gndo:forename "Lucianus";
+  gndo:prefix "de";
+  gndo:surname "Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucian, Von Antiochien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587195 .
+
+_:node1ivs02adlx24587195 gndo:personalName "Lucian";
+  gndo:nameAddition "Von Antiochien" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Antiochien, Lucian von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587196 .
+
+_:node1ivs02adlx24587196 gndo:forename "Lucian";
+  gndo:prefix "von";
+  gndo:surname "Antiochien" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukianos, Von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587197 .
+
+_:node1ivs02adlx24587197 gndo:personalName "Lukianos";
+  gndo:nameAddition "Von Antiocheia" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Antiocheia, Lukianos von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587198 .
+
+_:node1ivs02adlx24587198 gndo:forename "Lukianos";
+  gndo:prefix "von";
+  gndo:surname "Antiocheia" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianus, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587199 .
+
+_:node1ivs02adlx24587199 gndo:personalName "Lucianus";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Antiochenus, Lucianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587200 .
+
+_:node1ivs02adlx24587200 gndo:forename "Lucianus";
+  gndo:surname "Antiochenus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukian, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587201 .
+
+_:node1ivs02adlx24587201 gndo:personalName "Lukian";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Antiochenus, Lukian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587202 .
+
+_:node1ivs02adlx24587202 gndo:forename "Lukian";
+  gndo:surname "Antiochenus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukian, Von Antiochien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587203 .
+
+_:node1ivs02adlx24587203 gndo:personalName "Lukian";
+  gndo:nameAddition "Von Antiochien" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "De Samosata, Lucianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587204 .
+
+_:node1ivs02adlx24587204 gndo:forename "Lucianus";
+  gndo:surname "De Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Antiochien, Lukina von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587205 .
+
+_:node1ivs02adlx24587205 gndo:forename "Lukina";
+  gndo:prefix "von";
+  gndo:surname "Antiochien" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianus, De Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587206 .
+
+_:node1ivs02adlx24587206 gndo:personalName "Lucianus";
+  gndo:nameAddition "De Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Somosatensis, Lucianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587207 .
+
+_:node1ivs02adlx24587207 gndo:forename "Lucianus";
+  gndo:surname "Somosatensis" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucian Von Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587208 .
+
+_:node1ivs02adlx24587208 gndo:personalName "Lucian Von Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Samosata, Lucianne de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587209 .
+
+_:node1ivs02adlx24587209 gndo:forename "Lucianne";
+  gndo:prefix "de";
+  gndo:surname "Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucian, Of Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587210 .
+
+_:node1ivs02adlx24587210 gndo:personalName "Lucian";
+  gndo:nameAddition "Of Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Samosata, Lucian of";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587211 .
+
+_:node1ivs02adlx24587211 gndo:forename "Lucian";
+  gndo:prefix "of";
+  gndo:surname "Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukianus, von Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587212 .
+
+_:node1ivs02adlx24587212 gndo:personalName "Lukianus";
+  gndo:nameAddition "von Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Luciano, de Samósata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587213 .
+
+_:node1ivs02adlx24587213 gndo:personalName "Luciano";
+  gndo:nameAddition "de Samósata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "L., de Samosate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587214 .
+
+_:node1ivs02adlx24587214 gndo:personalName "L.";
+  gndo:nameAddition "de Samosate" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Ljukijan, iz Samosati";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587215 .
+
+_:node1ivs02adlx24587215 gndo:personalName "Ljukijan";
+  gndo:nameAddition "iz Samosati" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lūqijānūs, as-Sumaisāṭī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587216 .
+
+_:node1ivs02adlx24587216 gndo:personalName "Lūqijānūs";
+  gndo:nameAddition "as-Sumaisāṭī" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lūkijānūs, as-Sumaisāṭī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587217 .
+
+_:node1ivs02adlx24587217 gndo:personalName "Lūkijānūs";
+  gndo:nameAddition "as-Sumaisāṭī" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianus, Samosatenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587218 .
+
+_:node1ivs02adlx24587218 gndo:personalName "Lucianus";
+  gndo:nameAddition "Samosatenus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587219 .
+
+_:node1ivs02adlx24587219 gndo:personalName "Lucian" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587220 .
+
+_:node1ivs02adlx24587220 gndo:personalName "Lucianus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucian, von Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587221 .
+
+_:node1ivs02adlx24587221 gndo:personalName "Lucian";
+  gndo:nameAddition "von Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianus, de Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587222 .
+
+_:node1ivs02adlx24587222 gndo:personalName "Lucianus";
+  gndo:nameAddition "de Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianne, de Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587223 .
+
+_:node1ivs02adlx24587223 gndo:personalName "Lucianne";
+  gndo:nameAddition "de Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucian, of Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587224 .
+
+_:node1ivs02adlx24587224 gndo:personalName "Lucian";
+  gndo:nameAddition "of Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucien, de Samosate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587225 .
+
+_:node1ivs02adlx24587225 gndo:personalName "Lucien";
+  gndo:nameAddition "de Samosate" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucien, Sophiste";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587226 .
+
+_:node1ivs02adlx24587226 gndo:personalName "Lucien";
+  gndo:nameAddition "Sophiste" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Luciano, di Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587227 .
+
+_:node1ivs02adlx24587227 gndo:personalName "Luciano";
+  gndo:nameAddition "di Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Luciano, Sofista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587228 .
+
+_:node1ivs02adlx24587228 gndo:personalName "Luciano";
+  gndo:nameAddition "Sofista" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587229 .
+
+_:node1ivs02adlx24587229 gndo:personalName "Lucianos" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukianos, Samōsateōs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587230 .
+
+_:node1ivs02adlx24587230 gndo:personalName "Lukianos";
+  gndo:nameAddition "Samōsateōs" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukianos, Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587231 .
+
+_:node1ivs02adlx24587231 gndo:personalName "Lukianos";
+  gndo:nameAddition "Sophist" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukianos, von Samosata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587232 .
+
+_:node1ivs02adlx24587232 gndo:personalName "Lukianos";
+  gndo:nameAddition "von Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Samosata, Luciano di";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587233 .
+
+_:node1ivs02adlx24587233 gndo:forename "Luciano";
+  gndo:prefix "di";
+  gndo:surname "Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianus, Satiricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587234 .
+
+_:node1ivs02adlx24587234 gndo:personalName "Lucianus";
+  gndo:nameAddition "Satiricus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lucianus, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587235 .
+
+_:node1ivs02adlx24587235 gndo:personalName "Lucianus";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Samosata, Lukian von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587236 .
+
+_:node1ivs02adlx24587236 gndo:forename "Lukian";
+  gndo:prefix "von";
+  gndo:surname "Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Loukianos, ho Samosateos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587237 .
+
+_:node1ivs02adlx24587237 gndo:personalName "Loukianos";
+  gndo:nameAddition "ho Samosateos" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Samosata, Lucian von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587238 .
+
+_:node1ivs02adlx24587238 gndo:forename "Lucian";
+  gndo:prefix "von";
+  gndo:surname "Samosata" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587239 .
+
+_:node1ivs02adlx24587239 gndo:personalName "Lukian" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587240 .
+
+_:node1ivs02adlx24587240 gndo:personalName "Lukianos" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Lukios, von Patrai";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587241 .
+
+_:node1ivs02adlx24587241 gndo:personalName "Lukios";
+  gndo:nameAddition "von Patrai" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Luḳiyanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587242 .
+
+_:node1ivs02adlx24587242 gndo:personalName "Luḳiyanus" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Pseudo-Lucianus Samosatensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587243 .
+
+_:node1ivs02adlx24587243 gndo:personalName "Pseudo-Lucianus Samosatensis" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "Λουκιανός"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587244 .
+
+_:node1ivs02adlx24587244 gndo:personalName "Λουκιανός" .
+
+<https://d-nb.info/gnd/118575228> gndo:variantNameForThePerson "לוקיינוס"@und-Hebr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587245 .
+
+_:node1ivs02adlx24587245 gndo:personalName "לוקיינוס" .
+
+<https://d-nb.info/gnd/118575228> gndo:preferredNameForThePerson "Lucianus, Samosatensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587246 .
+
+_:node1ivs02adlx24587246 gndo:personalName "Lucianus";
+  gndo:nameAddition "Samosatensis" .
+
+<https://d-nb.info/gnd/118575228> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:professionOrOccupationAsLiteral "Sophist";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-SY>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Lvciani Samosatensis Dialogi Dvo, Charon Et Tyrannus (VD16 L 2938)",
+    "\\=GLukianu hapanta.\\=g Luciani SamosaTENSIS OPERA, QVAE GRAECE EXtant, omnia, in suos tomos ... (VD16 L 2921)",
+    "LVCIANI FVGITIVI.A BILIBALDO PIRCKAIMERO IN LATINVM VERSVS... (VD16 L 2986)", "Dyalog\\[us] Luciani philosophi quo modo sol\\[us] nudus per Acheronta trãsuehi potest. Vna cum ... (VD16 L 2936)",
+    "Von falschem angeben vnd verschwetzẽ. Ein nützlich büchlin, durch den berümpten ... (VD16 L 3020)",
+    "Von Klaffern. Hernachvolgẽ Zway puechlein: das ein Lu=cianus: vnd das ander Poggius ... (VD16 ZV 9914)",
+    "Luciani Palinur\\[us] vs\\[m] kriechischer sprach durch das latyn in tütsch transferiert sagẽ võ ... (VD16 L 3061)",
+    "IVPPITER TRAGOEDVS, DIALOGVS LVCIANI, QVO DEORVM CONCILIVM de contempta religione ... (VD16 L 2995)",
+    "LVCIANI RHETOR A BILIBALDO PIRCKAIMERO IN LATINVM VERSVS... (VD16 L 3035)", "Ein hubsche history von Lucius apuleius in gestalt eins esels verwãdelt vñ verkert ward vñ ... (VD16 L 3060)",
+    "Lucians von Samosata Sendschreiben an seinen Freund H. Mart. Zi*", "Alexander, Demonax Gallus, Icaro-Menippus, Philopseudes, Ad Hesio*",
+    "Alexander", "Cataplus, Iupiter confutatus Iupiter tragoedus, Alexander", "De veris narrationibus commentarii duo",
+    "Convivium seu Lapithae", "Deorum dialogi, dialogi marini, inferni dialogi [ca. 1510]",
+    "Von Klaffern Hernachvolgen zway puechlein: das ein Lucianus*", "Dialogi aliquot graeci",
+    "Dialogi coelestes, marini et inferni";
+  wdrs:describedby <https://d-nb.info/gnd/118575228/about> .
+
+<https://d-nb.info/gnd/118575228/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118575228> gndo:usingInstructions "Zählung u. Ordnung der Werke nach Lucanus, Opera, rec. M.D.Macleod, Bd.1-4, 1972-1987"@de;
+  gndo:biographicalOrHistoricalInformation "Verfasser satirischer Dialoge"@de;
+  gndo:udkCode "101 - 200";
+  gndo:placeOfBirth <https://d-nb.info/gnd/1221277677>;
+  gndo:professionOrOccupation _:node1ivs02adlx24587247 .
+
+_:node1ivs02adlx24587247 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4333843-4> .
+
+<https://d-nb.info/gnd/118575228> gndo:dateOfBirth "0120"^^xsd:gYear;
+  gndo:dateOfDeath "0180"^^xsd:gYear .
+

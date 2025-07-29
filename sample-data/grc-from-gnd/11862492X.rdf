@@ -1,0 +1,195 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11862492X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11862492X/about> .
+
+<https://d-nb.info/gnd/11862492X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:28:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11862492X> gndo:gndIdentifier "11862492X";
+  owl:sameAs <https://dbpedia.org/resource/Tyrtaeus>, <http://viaf.org/viaf/49272826>,
+    <http://www.wikidata.org/entity/Q316094>;
+  gndo:oldAuthorityNumber "(DE-588)1089898711";
+  owl:sameAs <https://d-nb.info/gnd/1089898711>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089898711";
+  gndo:oldAuthorityNumber "(DE-588)186663749";
+  owl:sameAs <https://d-nb.info/gnd/186663749>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186663749";
+  gndo:oldAuthorityNumber "(DE-588a)186663749", "(DE-588)15979000X";
+  owl:sameAs <https://d-nb.info/gnd/15979000X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/15979000X";
+  gndo:oldAuthorityNumber "(DE-588a)15979000X", "(DE-588)119853787";
+  owl:sameAs <https://d-nb.info/gnd/119853787>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119853787";
+  gndo:oldAuthorityNumber "(DE-588a)119853787", "(DE-588a)11862492X", "(DE-588c)4061336-7";
+  gndo:variantNameForThePerson "Tyrtaios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595260 .
+
+_:node1ivs02adlx24595260 gndo:personalName "Tyrtaios" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaeus, Aphidnaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595261 .
+
+_:node1ivs02adlx24595261 gndo:personalName "Tyrtaeus";
+  gndo:nameAddition "Aphidnaeus" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaeus, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595262 .
+
+_:node1ivs02adlx24595262 gndo:personalName "Tyrtaeus";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaeus, Lacedaemonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595263 .
+
+_:node1ivs02adlx24595263 gndo:personalName "Tyrtaeus";
+  gndo:nameAddition "Lacedaemonius" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaeus, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595264 .
+
+_:node1ivs02adlx24595264 gndo:personalName "Tyrtaeus";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaios, Elegiendichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595265 .
+
+_:node1ivs02adlx24595265 gndo:personalName "Tyrtaios";
+  gndo:nameAddition "Elegiendichter" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaios, Elegiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595266 .
+
+_:node1ivs02adlx24595266 gndo:personalName "Tyrtaios";
+  gndo:nameAddition "Elegiker" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaios, Lakone";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595267 .
+
+_:node1ivs02adlx24595267 gndo:personalName "Tyrtaios";
+  gndo:nameAddition "Lakone" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaios, Milesier";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595268 .
+
+_:node1ivs02adlx24595268 gndo:personalName "Tyrtaios";
+  gndo:nameAddition "Milesier" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaios, Sohn des Archembrotos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595269 .
+
+_:node1ivs02adlx24595269 gndo:personalName "Tyrtaios";
+  gndo:nameAddition "Sohn des Archembrotos" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaios, von Milet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595270 .
+
+_:node1ivs02adlx24595270 gndo:personalName "Tyrtaios";
+  gndo:nameAddition "von Milet" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtaios, von Sparta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595271 .
+
+_:node1ivs02adlx24595271 gndo:personalName "Tyrtaios";
+  gndo:nameAddition "von Sparta" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtäus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595272 .
+
+_:node1ivs02adlx24595272 gndo:personalName "Tyrtäus" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tirteo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595273 .
+
+_:node1ivs02adlx24595273 gndo:personalName "Tirteo" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtée";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595274 .
+
+_:node1ivs02adlx24595274 gndo:personalName "Tyrtée" .
+
+<https://d-nb.info/gnd/11862492X> gndo:variantNameForThePerson "Tyrtée, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595275 .
+
+_:node1ivs02adlx24595275 gndo:personalName "Tyrtée";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/11862492X> gndo:preferredNameForThePerson "Tyrtaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595276 .
+
+_:node1ivs02adlx24595276 gndo:personalName "Tyrtaeus" .
+
+<https://d-nb.info/gnd/11862492X> gndo:hasRelation _:node1ivs02adlx24595277 .
+
+_:node1ivs02adlx24595277 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862492X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24595278 .
+
+_:node1ivs02adlx24595278 gndo:forename "Hiob";
+  gndo:surname "Finzel" .
+
+<https://d-nb.info/gnd/11862492X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ouae restant omnia", "Quae supersunt omnia", "Reliquiae", "Tyrtaiu Elegeion 1. - s.a.",
+    "Die wahrscheinlich noch ganzen Lieder des Tyrtaeus", "Kriegslieder", "I Cantici. - s.a.",
+    "Carminum quae supersunt", "Kriegslieder", "Ek tōn Tyrtaiu, peri tēs polemikēs aretēs",
+    "ELEGIA TYRTAEI POETAE antiquissimi, qua milites fractos metu periculorum & multitudine ...  1550.  (VD16 T 2427)",
+    "ELEGIA TYRTAEI POETAE antiquissimi, qua milites fractos metu periculorum, & multitudine ...  1550.  (VD16 T 2428)";
+  wdrs:describedby <https://d-nb.info/gnd/11862492X/about> .
+
+<https://d-nb.info/gnd/11862492X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11862492X> gndo:biographicalOrHistoricalInformation "Griechischer Dichter"@de;
+  gndo:udkCode "700 - 601 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivs02adlx24595279 .
+
+_:node1ivs02adlx24595279 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/11862492X> gndo:dateOfBirthAndDeath "[v7. Jh.]" .
+

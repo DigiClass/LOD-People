@@ -1,0 +1,126 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102398968> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102398968/about> .
+
+<https://d-nb.info/gnd/102398968/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2020-11-27T08:56:03.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102398968> gndo:gndIdentifier "102398968";
+  foaf:page <https://de.wikipedia.org/wiki/Meletius_von_Antiochien>;
+  owl:sameAs <http://viaf.org/viaf/103016603>, <https://isni.org/isni/000000007854640X>,
+    <http://www.wikidata.org/entity/Q433452>, <http://id.loc.gov/rwo/agents/no2009179143>;
+  gndo:oldAuthorityNumber "(DE-588)114724300X";
+  owl:sameAs <https://d-nb.info/gnd/114724300X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/114724300X";
+  gndo:oldAuthorityNumber "(DE-588)189579765";
+  owl:sameAs <https://d-nb.info/gnd/189579765>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/189579765";
+  gndo:oldAuthorityNumber "(DE-588a)189579765", "(DE-588c)7816337-7", "(DE-588)153708530";
+  owl:sameAs <https://d-nb.info/gnd/153708530>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/153708530";
+  gndo:oldAuthorityNumber "(DE-588a)153708530", "(DE-588a)102398968", "(DE-588c)4810192-8";
+  gndo:variantNameForThePerson "Melitius, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404449 .
+
+_:node1ivpishs6x25404449 gndo:personalName "Melitius";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/102398968> gndo:variantNameForThePerson "Meletios, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404450 .
+
+_:node1ivpishs6x25404450 gndo:personalName "Meletios";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/102398968> gndo:variantNameForThePerson "Meletius, de Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404451 .
+
+_:node1ivpishs6x25404451 gndo:personalName "Meletius";
+  gndo:nameAddition "de Antiochia" .
+
+<https://d-nb.info/gnd/102398968> gndo:variantNameForThePerson "Meletios, von Antiochien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404452 .
+
+_:node1ivpishs6x25404452 gndo:personalName "Meletios";
+  gndo:nameAddition "von Antiochien" .
+
+<https://d-nb.info/gnd/102398968> gndo:variantNameForThePerson "Meletius, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404453 .
+
+_:node1ivpishs6x25404453 gndo:personalName "Meletius";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/102398968> gndo:variantNameForThePerson "Meletios, von Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404454 .
+
+_:node1ivpishs6x25404454 gndo:personalName "Meletios";
+  gndo:nameAddition "von Antiochia" .
+
+<https://d-nb.info/gnd/102398968> gndo:preferredNameForThePerson "Meletius, Antiochenus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404455 .
+
+_:node1ivpishs6x25404455 gndo:personalName "Meletius";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/102398968> gndo:broaderTermInstantial <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-SY>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "On the communion of Damasus and Meletius. - 2004";
+  wdrs:describedby <https://d-nb.info/gnd/102398968/about> .
+
+<https://d-nb.info/gnd/102398968/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102398968> gndo:biographicalOrHistoricalInformation "Bischof und Heiliger; Homilia; Epistula synodalis  ad Iovianum imperatorem; Epistula ad Italos et Gallos"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25404456 .
+
+_:node1ivpishs6x25404456 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/102398968> gndo:dateOfDeath "0381"^^xsd:gYear .
+

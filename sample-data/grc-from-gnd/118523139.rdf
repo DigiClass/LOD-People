@@ -1,0 +1,432 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118523139> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118523139/about> .
+
+<https://d-nb.info/gnd/118523139/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-06-20T11:45:58.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118523139> gndo:gndIdentifier "118523139";
+  owl:sameAs <https://dbpedia.org/resource/Cyril_of_Alexandria>, <http://viaf.org/viaf/36598625>,
+    <http://www.wikidata.org/entity/Q44079>, <http://id.loc.gov/rwo/agents/no2003010870>;
+  gndo:oldAuthorityNumber "(DE-588)1089918151";
+  owl:sameAs <https://d-nb.info/gnd/1089918151>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089918151";
+  gndo:oldAuthorityNumber "(DE-588)175198284";
+  owl:sameAs <https://d-nb.info/gnd/175198284>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/175198284";
+  gndo:oldAuthorityNumber "(DE-588a)175198284", "(DE-588a)118523139", "(DE-588a)119650754",
+    "(DE-588c)4010819-3";
+  gndo:variantNameForThePerson "Kyrill, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594202 .
+
+_:node1ivs02adlx24594202 gndo:personalName "Kyrill";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrill, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594203 .
+
+_:node1ivs02adlx24594203 gndo:personalName "Cyrill";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594204 .
+
+_:node1ivs02adlx24594204 gndo:personalName "Cyrillus";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kyrillos, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594205 .
+
+_:node1ivs02adlx24594205 gndo:personalName "Kyrillos";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Pseudo-Kyrill, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594206 .
+
+_:node1ivs02adlx24594206 gndo:personalName "Pseudo-Kyrill";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Pseudo-Cyrillus, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594207 .
+
+_:node1ivs02adlx24594207 gndo:personalName "Pseudo-Cyrillus";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kyrillos, Patriarch";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594208 .
+
+_:node1ivs02adlx24594208 gndo:personalName "Kyrillos";
+  gndo:nameAddition "Patriarch" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594209 .
+
+_:node1ivs02adlx24594209 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594210 .
+
+_:node1ivs02adlx24594210 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594211 .
+
+_:node1ivs02adlx24594211 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Archiepiscopus" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillo, Alessandrino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594212 .
+
+_:node1ivs02adlx24594212 gndo:personalName "Cyrillo";
+  gndo:nameAddition "Alessandrino" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyril, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594213 .
+
+_:node1ivs02adlx24594213 gndo:personalName "Cyril";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594214 .
+
+_:node1ivs02adlx24594214 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kyrillos, Kirchenschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594215 .
+
+_:node1ivs02adlx24594215 gndo:personalName "Kyrillos";
+  gndo:nameAddition "Kirchenschriftsteller" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594216 .
+
+_:node1ivs02adlx24594216 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Patriarch";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594217 .
+
+_:node1ivs02adlx24594217 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Patriarch" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594218 .
+
+_:node1ivs02adlx24594218 gndo:personalName "Cyrillus";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cirillo, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594219 .
+
+_:node1ivs02adlx24594219 gndo:personalName "Cirillo";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cirillo, Patriarca";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594220 .
+
+_:node1ivs02adlx24594220 gndo:personalName "Cirillo";
+  gndo:nameAddition "Patriarca" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594221 .
+
+_:node1ivs02adlx24594221 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kyrillos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594222 .
+
+_:node1ivs02adlx24594222 gndo:personalName "Kyrillos" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cirillo, d'Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594223 .
+
+_:node1ivs02adlx24594223 gndo:personalName "Cirillo";
+  gndo:nameAddition "d'Alessandria" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594224 .
+
+_:node1ivs02adlx24594224 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Alexandrinus, Cyrillus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594225 .
+
+_:node1ivs02adlx24594225 gndo:forename "Cyrillus";
+  gndo:surname "Alexandrinus" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrille, dÁlexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594226 .
+
+_:node1ivs02adlx24594226 gndo:personalName "Cyrille";
+  gndo:nameAddition "dÁlexandrie" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cirillo, Alessandrino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594227 .
+
+_:node1ivs02adlx24594227 gndo:personalName "Cirillo";
+  gndo:nameAddition "Alessandrino" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kyrill, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594228 .
+
+_:node1ivs02adlx24594228 gndo:personalName "Kyrill";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Alexandrinus, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594229 .
+
+_:node1ivs02adlx24594229 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Alexandrinus, Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Alexandrinus, Cyrillus, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594230 .
+
+_:node1ivs02adlx24594230 gndo:forename "Cyrillus";
+  gndo:surname "Alexandrinus";
+  gndo:nameAddition "Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Sanctus, Heiliger, Kirchenlehrer, Bischof von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594231 .
+
+_:node1ivs02adlx24594231 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Sanctus, Heiliger, Kirchenlehrer, Bischof von Alexandrien" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Episcopus, Heiliger, Kirchenlehrer, Bischof von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594232 .
+
+_:node1ivs02adlx24594232 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Episcopus, Heiliger, Kirchenlehrer, Bischof von Alexandrien" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Archiepiscopus Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594233 .
+
+_:node1ivs02adlx24594233 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Archiepiscopus Alexandrinus" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrill, von Alexandrien, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594234 .
+
+_:node1ivs02adlx24594234 gndo:personalName "Cyrill";
+  gndo:nameAddition "von Alexandrien, Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, von Alexandrien, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594235 .
+
+_:node1ivs02adlx24594235 gndo:personalName "Cyrillus";
+  gndo:nameAddition "von Alexandrien, Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kyrillus, von Alexandrien, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594236 .
+
+_:node1ivs02adlx24594236 gndo:personalName "Kyrillus";
+  gndo:nameAddition "von Alexandrien, Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kyrillos, von Alexandreia, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594237 .
+
+_:node1ivs02adlx24594237 gndo:personalName "Kyrillos";
+  gndo:nameAddition "von Alexandreia, Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyril, of Alexandria, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594238 .
+
+_:node1ivs02adlx24594238 gndo:personalName "Cyril";
+  gndo:nameAddition "of Alexandria, Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrille, d'Alexandrie, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594239 .
+
+_:node1ivs02adlx24594239 gndo:personalName "Cyrille";
+  gndo:nameAddition "d'Alexandrie, Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cirillo, d'Alessandria, Heiliger, Kirchenlehrer, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594240 .
+
+_:node1ivs02adlx24594240 gndo:personalName "Cirillo";
+  gndo:nameAddition "d'Alessandria, Heiliger, Kirchenlehrer, Bischof" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrill, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594241 .
+
+_:node1ivs02adlx24594241 gndo:personalName "Cyrill";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kyrillos, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594242 .
+
+_:node1ivs02adlx24594242 gndo:personalName "Kyrillos";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Pseudo-Cyrillus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594243 .
+
+_:node1ivs02adlx24594243 gndo:personalName "Pseudo-Cyrillus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrille, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594244 .
+
+_:node1ivs02adlx24594244 gndo:personalName "Cyrille";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyril, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594245 .
+
+_:node1ivs02adlx24594245 gndo:personalName "Cyril";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Cyrillus, Patriarcha";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594246 .
+
+_:node1ivs02adlx24594246 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Patriarcha" .
+
+<https://d-nb.info/gnd/118523139> gndo:variantNameForThePerson "Kiwreġ, Aġek'sandraci";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594247 .
+
+_:node1ivs02adlx24594247 gndo:personalName "Kiwreġ";
+  gndo:nameAddition "Aġek'sandraci" .
+
+<https://d-nb.info/gnd/118523139> gndo:preferredNameForThePerson "Cyrillus, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594248 .
+
+_:node1ivs02adlx24594248 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519565>;
+  gndo:hasRelation _:node1ivs02adlx24594249 .
+
+_:node1ivs02adlx24594249 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519565>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121144569>;
+  gndo:hasRelation _:node1ivs02adlx24594250 .
+
+_:node1ivs02adlx24594250 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121144569>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119650789>;
+  gndo:hasRelation _:node1ivs02adlx24594251 .
+
+_:node1ivs02adlx24594251 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119650789>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118716999>;
+  gndo:hasRelation _:node1ivs02adlx24594252 .
+
+_:node1ivs02adlx24594252 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118716999>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119696975>;
+  gndo:hasRelation _:node1ivs02adlx24594253 .
+
+_:node1ivs02adlx24594253 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119696975>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129833037>;
+  gndo:hasRelation _:node1ivs02adlx24594254 .
+
+_:node1ivs02adlx24594254 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129833037>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:hasRelation _:node1ivs02adlx24594255 .
+
+_:node1ivs02adlx24594255 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594256 .
+
+_:node1ivs02adlx24594256 gndo:personalName "Johannes Cassianus" .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100174973>;
+  gndo:hasRelation _:node1ivs02adlx24594257 .
+
+_:node1ivs02adlx24594257 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100174973>;
+  gndo:functionOrRoleAsLiteral "Römhild; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11948370X>;
+  gndo:hasRelation _:node1ivs02adlx24594258 .
+
+_:node1ivs02adlx24594258 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11948370X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118523139> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Contra impium Iulianum libri X", "S. Cyrilli ... et Joannis Damasceni Argumenta contra Nestorian*",
+    "Divi Cyrilli Alexandriae Episcopi commentariorum in Hesaiam Pr*", "Commentaria in quinque priores Moysis libros",
+    "Epistola ad Eusebium Presbyterum", "Epistola ad Joannem Antiochensem de Theoreti Calumnia",
+    "Locus de S. Trinitate", "Liber de sacrosancta Trinitate", "Opus insigne beati patris Cyrilli in Evangelium Joannis",
+    "Opus insigne beati patris Cyrilli in Evangelium Joannis", "Ad Calosyrium episcopum Arsenoiten adversus anthropomorphitas liber. 1573. (VD16 ZV 4222)",
+    "Opera. 1566. (VD16 C 6570)", "De animae decessu. 1590. (VD16 ZV 4223)", "Johannes Cassianus: Sermo de eo, quod verbum Dei factum sit homo. 1534. (VD16 J 391)",
+    "SANCTI Cyrilli Archiep̃i Alexãdrini de Animae decessu. de\\[que] eius uita altera Sermo. C. ... 1521. (VD16 C 6572)",
+    "Commentariorum in Isaiam prophetam libri quinque. 1563. (VD16 C 6576)", "EJn Treffliche Predig, von des Menschen Todt, vnd Juengstem Gericht, durch den Hayligen ... 1583. (VD16 C 6575)",
+    "Ein treffliche Predigt von des Menschen Todt vnd juengstem Gericht durch den heyligen ... 1572. (VD16 C 6574)",
+    "In quattuor libros intermedios ... 1528. (VD16 C 6567)", "In quattuor libros intermedios ... 1528. (VD16 C 6566)";
+  wdrs:describedby <https://d-nb.info/gnd/118523139/about> .
+
+<https://d-nb.info/gnd/118523139/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118523139> gndo:biographicalOrHistoricalInformation "Kirchenlehrer, seit 412 Bischof von Alexandria"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:dateOfBirth "0380"^^xsd:gYear;
+  gndo:dateOfDeath "0444"^^xsd:gYear .
+

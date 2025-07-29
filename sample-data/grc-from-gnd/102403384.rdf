@@ -1,0 +1,110 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102403384> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102403384/about> .
+
+<https://d-nb.info/gnd/102403384/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2019-05-06T11:26:40.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102403384> gndo:gndIdentifier "102403384";
+  owl:sameAs <http://viaf.org/viaf/39767035>, <http://www.wikidata.org/entity/Q2271058>;
+  gndo:oldAuthorityNumber "(DE-588)1089794983";
+  owl:sameAs <https://d-nb.info/gnd/1089794983>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089794983";
+  gndo:oldAuthorityNumber "(DE-588a)102403384", "(DE-588c)4507778-2";
+  gndo:variantNameForThePerson "Pigres, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592323 .
+
+_:node1ivs02adlx24592323 gndo:personalName "Pigres";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/102403384> gndo:variantNameForThePerson "Pigres, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592324 .
+
+_:node1ivs02adlx24592324 gndo:personalName "Pigres";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/102403384> gndo:variantNameForThePerson "Pigres, Karer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592325 .
+
+_:node1ivs02adlx24592325 gndo:personalName "Pigres";
+  gndo:nameAddition "Karer" .
+
+<https://d-nb.info/gnd/102403384> gndo:variantNameForThePerson "Pigrete, di Alicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592326 .
+
+_:node1ivs02adlx24592326 gndo:personalName "Pigrete";
+  gndo:nameAddition "di Alicarnasso" .
+
+<https://d-nb.info/gnd/102403384> gndo:variantNameForThePerson "Pigres, Carius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592327 .
+
+_:node1ivs02adlx24592327 gndo:personalName "Pigres";
+  gndo:nameAddition "Carius" .
+
+<https://d-nb.info/gnd/102403384> gndo:variantNameForThePerson "Pigres, von Halikarnassos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592328 .
+
+_:node1ivs02adlx24592328 gndo:personalName "Pigres";
+  gndo:nameAddition "von Halikarnassos" .
+
+<https://d-nb.info/gnd/102403384> gndo:preferredNameForThePerson "Pigres, Halicarnassensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592329 .
+
+_:node1ivs02adlx24592329 gndo:personalName "Pigres";
+  gndo:nameAddition "Halicarnassensis" .
+
+<https://d-nb.info/gnd/102403384> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102403384/about> .
+
+<https://d-nb.info/gnd/102403384/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102403384> gndo:biographicalOrHistoricalInformation "Griech. Dichter; galt teilweise als Verfasser von Margites und von Batrachomyomachia"@de;
+  gndo:udkCode "600 - 501 v. Chr. ", "500 - 401 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v6./5. Jh.]" .
+

@@ -1,0 +1,178 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118604015> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118604015/about> .
+
+<https://d-nb.info/gnd/118604015/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:51:21.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118604015> gndo:gndIdentifier "118604015";
+  foaf:page <https://de.wikipedia.org/wiki/Rufus_von_Ephesos>;
+  owl:sameAs <https://dbpedia.org/resource/Rufus_of_Ephesus>, <http://viaf.org/viaf/42630594>,
+    <https://isni.org/isni/0000000117602460>, <http://www.wikidata.org/entity/Q1049225>,
+    <http://id.loc.gov/rwo/agents/n83122630>;
+  gndo:oldAuthorityNumber "(DE-588)1089830769";
+  owl:sameAs <https://d-nb.info/gnd/1089830769>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089830769";
+  gndo:oldAuthorityNumber "(DE-588)1089187556";
+  owl:sameAs <https://d-nb.info/gnd/1089187556>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089187556";
+  gndo:oldAuthorityNumber "(DE-588a)118604015", "(DE-588c)4050909-6";
+  gndo:variantNameForThePerson "Ruphos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590555 .
+
+_:node1ivs02adlx24590555 gndo:personalName "Ruphos" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rhouphos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590556 .
+
+_:node1ivs02adlx24590556 gndo:personalName "Rhouphos" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Ephesius, Rufus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590557 .
+
+_:node1ivs02adlx24590557 gndo:forename "Rufus";
+  gndo:surname "Ephesius" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Ephesos, Rufus von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590558 .
+
+_:node1ivs02adlx24590558 gndo:forename "Rufus";
+  gndo:prefix "von";
+  gndo:surname "Ephesos" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rufo, di Efeso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590559 .
+
+_:node1ivs02adlx24590559 gndo:personalName "Rufo";
+  gndo:nameAddition "di Efeso" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rufus, d'Ephèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590560 .
+
+_:node1ivs02adlx24590560 gndo:personalName "Rufus";
+  gndo:nameAddition "d'Ephèse" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rufus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590561 .
+
+_:node1ivs02adlx24590561 gndo:personalName "Rufus" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rufus, von Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590562 .
+
+_:node1ivs02adlx24590562 gndo:personalName "Rufus";
+  gndo:nameAddition "von Ephesus" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rufus, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590563 .
+
+_:node1ivs02adlx24590563 gndo:personalName "Rufus";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rufus, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590564 .
+
+_:node1ivs02adlx24590564 gndo:personalName "Rufus";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Ruffus, Ephesius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590565 .
+
+_:node1ivs02adlx24590565 gndo:personalName "Ruffus";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Ruphos, von Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590566 .
+
+_:node1ivs02adlx24590566 gndo:personalName "Ruphos";
+  gndo:nameAddition "von Ephesus" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rufus, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590567 .
+
+_:node1ivs02adlx24590567 gndo:personalName "Rufus";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Rufus, of Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590568 .
+
+_:node1ivs02adlx24590568 gndo:personalName "Rufus";
+  gndo:nameAddition "of Ephesus" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Roifos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590569 .
+
+_:node1ivs02adlx24590569 gndo:personalName "Roifos" .
+
+<https://d-nb.info/gnd/118604015> gndo:variantNameForThePerson "Royfos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590570 .
+
+_:node1ivs02adlx24590570 gndo:personalName "Royfos" .
+
+<https://d-nb.info/gnd/118604015> gndo:preferredNameForThePerson "Rufus, Ephesius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590571 .
+
+_:node1ivs02adlx24590571 gndo:personalName "Rufus";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/118604015> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Rufus <Ephesius>: De vesicae renumque morbis", "Galenus: Melancholia s. atrae bilis morbo ex Galeni, Rufi, [et] Aetii Sicamii Voluminibus*";
+  wdrs:describedby <https://d-nb.info/gnd/118604015/about> .
+
+<https://d-nb.info/gnd/118604015/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118604015> gndo:biographicalOrHistoricalInformation "Griech. Arzt, Verfasser von medizinischen Werken"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:professionOrOccupation _:node1ivs02adlx24590572 .
+
+_:node1ivs02adlx24590572 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4003157-3> .
+
+<https://d-nb.info/gnd/118604015> gndo:dateOfBirthAndDeath "[1./2. Jh.]" .
+

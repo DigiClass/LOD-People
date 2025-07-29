@@ -1,0 +1,134 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118580663> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118580663/about> .
+
+<https://d-nb.info/gnd/118580663/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-08-11T05:43:42.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118580663> gndo:gndIdentifier "118580663";
+  owl:sameAs <https://dbpedia.org/resource/Menander_Rhetor>, <http://viaf.org/viaf/262607746>,
+    <http://www.wikidata.org/entity/Q923839>;
+  gndo:oldAuthorityNumber "(DE-588)1089721927";
+  owl:sameAs <https://d-nb.info/gnd/1089721927>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089721927";
+  gndo:oldAuthorityNumber "(DE-588)1089215193";
+  owl:sameAs <https://d-nb.info/gnd/1089215193>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089215193";
+  gndo:oldAuthorityNumber "(DE-588a)118580663", "(DE-588a)100207847", "(DE-588c)4038590-5";
+  gndo:variantNameForThePerson "Menander, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592410 .
+
+_:node1ivs02adlx24592410 gndo:personalName "Menander";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118580663> gndo:variantNameForThePerson "Menander, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592411 .
+
+_:node1ivs02adlx24592411 gndo:personalName "Menander";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118580663> gndo:variantNameForThePerson "Menandros, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592412 .
+
+_:node1ivs02adlx24592412 gndo:personalName "Menandros";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118580663> gndo:variantNameForThePerson "Menandros, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592413 .
+
+_:node1ivs02adlx24592413 gndo:personalName "Menandros";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118580663> gndo:variantNameForThePerson "Menandros, von Laodikeia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592414 .
+
+_:node1ivs02adlx24592414 gndo:personalName "Menandros";
+  gndo:nameAddition "von Laodikeia" .
+
+<https://d-nb.info/gnd/118580663> gndo:variantNameForThePerson "Menander, de Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592415 .
+
+_:node1ivs02adlx24592415 gndo:personalName "Menander";
+  gndo:nameAddition "de Laodicea" .
+
+<https://d-nb.info/gnd/118580663> gndo:variantNameForThePerson "Menander, of Laodicea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592416 .
+
+_:node1ivs02adlx24592416 gndo:personalName "Menander";
+  gndo:nameAddition "of Laodicea" .
+
+<https://d-nb.info/gnd/118580663> gndo:variantNameForThePerson "Menandro, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592417 .
+
+_:node1ivs02adlx24592417 gndo:personalName "Menandro";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/118580663> gndo:variantNameForThePerson "Menander, von Laodikeia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592418 .
+
+_:node1ivs02adlx24592418 gndo:personalName "Menander";
+  gndo:nameAddition "von Laodikeia" .
+
+<https://d-nb.info/gnd/118580663> gndo:preferredNameForThePerson "Menander, Laodicensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592419 .
+
+_:node1ivs02adlx24592419 gndo:personalName "Menander";
+  gndo:nameAddition "Laodicensis" .
+
+<https://d-nb.info/gnd/118580663> gndo:professionOrOccupationAsLiteral "Rhetoriker";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Menander <de Laodicea>: Commentarius de encomiis ....", "Menander <de Laodicea>: De genere demonstrativo libri duo";
+  wdrs:describedby <https://d-nb.info/gnd/118580663/about> .
+
+<https://d-nb.info/gnd/118580663/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118580663> gndo:biographicalOrHistoricalInformation "Griech. Rhetor"@de;
+  gndo:udkCode "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[3. Jh.]" .
+

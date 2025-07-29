@@ -1,0 +1,112 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102386064> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102386064/about> .
+
+<https://d-nb.info/gnd/102386064/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T11:00:19.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102386064> gndo:gndIdentifier "102386064";
+  foaf:page <https://de.wikipedia.org/wiki/Kriton_%28Philosoph%29>;
+  owl:sameAs <http://viaf.org/viaf/57001413>, <http://www.wikidata.org/entity/Q934471>;
+  gndo:oldAuthorityNumber "(DE-588a)102386064";
+  gndo:variantNameForThePerson "Crito, Argivus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593645 .
+
+_:node1ivs02adlx24593645 gndo:personalName "Crito";
+  gndo:nameAddition "Argivus" .
+
+<https://d-nb.info/gnd/102386064> gndo:variantNameForThePerson "Kriton, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593646 .
+
+_:node1ivs02adlx24593646 gndo:personalName "Kriton";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/102386064> gndo:variantNameForThePerson "Kriton, Freund des Sokrates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593647 .
+
+_:node1ivs02adlx24593647 gndo:personalName "Kriton";
+  gndo:nameAddition "Freund des Sokrates" .
+
+<https://d-nb.info/gnd/102386064> gndo:variantNameForThePerson "Crito, Pythagoricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593648 .
+
+_:node1ivs02adlx24593648 gndo:personalName "Crito";
+  gndo:nameAddition "Pythagoricus" .
+
+<https://d-nb.info/gnd/102386064> gndo:variantNameForThePerson "Crito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593649 .
+
+_:node1ivs02adlx24593649 gndo:personalName "Crito" .
+
+<https://d-nb.info/gnd/102386064> gndo:preferredNameForThePerson "Crito, Philosophus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593650 .
+
+_:node1ivs02adlx24593650 gndo:personalName "Crito";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/102386064> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118615270>;
+  gndo:hasRelation _:node1ivs02adlx24593651 .
+
+_:node1ivs02adlx24593651 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118615270>;
+  gndo:functionOrRoleAsLiteral "Freund und Lehrer";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/102386064> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102386064/about> .
+
+<https://d-nb.info/gnd/102386064/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102386064> gndo:biographicalOrHistoricalInformation "angebl. Verf. von 17 Dialogen zu Themen vor allem aus dem Bereich der Erkenntnistheorie und der Ethik; Freund und Schülers von Sokrates; nach ihm ist der gleichnamige Platonische Dialog zw. Socrates und Crito benannt"@de;
+  gndo:professionOrOccupation _:node1ivs02adlx24593652 .
+
+_:node1ivs02adlx24593652 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/102386064> gndo:dateOfBirth "-0465"^^xsd:gYear;
+  gndo:dateOfDeath "-0395"^^xsd:gYear .
+

@@ -1,0 +1,91 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102367523> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102367523/about> .
+
+<https://d-nb.info/gnd/102367523/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2019-10-20T05:31:18.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102367523> gndo:gndIdentifier "102367523";
+  foaf:page <https://de.wikipedia.org/wiki/Eusebios_%28Historiker%29>;
+  owl:sameAs <http://viaf.org/viaf/59475398>, <https://isni.org/isni/0000000003842677>,
+    <http://www.wikidata.org/entity/Q1378620>;
+  gndo:oldAuthorityNumber "(DE-588a)102367523";
+  gndo:variantNameForThePerson "Eusebius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593553 .
+
+_:node1ivs02adlx24593553 gndo:personalName "Eusebius" .
+
+<https://d-nb.info/gnd/102367523> gndo:variantNameForThePerson "Eusebios, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593554 .
+
+_:node1ivs02adlx24593554 gndo:personalName "Eusebios";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/102367523> gndo:preferredNameForThePerson "Eusebius, Historicus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593555 .
+
+_:node1ivs02adlx24593555 gndo:personalName "Eusebius";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/102367523> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#ZZ>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Nicolaus <Damascenus>: Nicolaus Damascenus. Pausanias Damascenus. Dexippus. Eusebius. Eun*. - 1870",
+    "Polybius: Fragmenta nova Polybii, Dionysii, Dexippi, Eusebii";
+  wdrs:describedby <https://d-nb.info/gnd/102367523/about> .
+
+<https://d-nb.info/gnd/102367523/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102367523> gndo:biographicalOrHistoricalInformation "FGrH 101"@de;
+  gndo:professionOrOccupation _:node1ivs02adlx24593556 .
+
+_:node1ivs02adlx24593556 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/102367523> gndo:dateOfBirthAndDeath "[Ende 3. Jh.]" .
+

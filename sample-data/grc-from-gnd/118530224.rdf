@@ -1,0 +1,179 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118530224> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118530224/about> .
+
+<https://d-nb.info/gnd/118530224/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T12:14:19.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118530224> gndo:gndIdentifier "118530224";
+  owl:sameAs <https://dbpedia.org/resource/Empedocles>, <http://viaf.org/viaf/83983162>,
+    <http://www.wikidata.org/entity/Q83375>;
+  gndo:oldAuthorityNumber "(DE-588)1089715943";
+  owl:sameAs <https://d-nb.info/gnd/1089715943>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089715943";
+  gndo:oldAuthorityNumber "(DE-588)1089138881";
+  owl:sameAs <https://d-nb.info/gnd/1089138881>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089138881";
+  gndo:oldAuthorityNumber "(DE-588a)118530224", "(DE-588c)4014599-2";
+  gndo:variantNameForThePerson "Empedocles, Agrigentinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402603 .
+
+_:node1ivpishs6x25402603 gndo:personalName "Empedocles";
+  gndo:nameAddition "Agrigentinus" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedokles, von Agrigent";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402604 .
+
+_:node1ivpishs6x25402604 gndo:personalName "Empedokles";
+  gndo:nameAddition "von Agrigent" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedokles, von Akragas";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402605 .
+
+_:node1ivpishs6x25402605 gndo:personalName "Empedokles";
+  gndo:nameAddition "von Akragas" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedokles, Poeta Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402606 .
+
+_:node1ivpishs6x25402606 gndo:personalName "Empedokles";
+  gndo:nameAddition "Poeta Philosophus" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedocles, Poeta Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402607 .
+
+_:node1ivpishs6x25402607 gndo:personalName "Empedocles";
+  gndo:nameAddition "Poeta Philosophus" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedocles, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402608 .
+
+_:node1ivpishs6x25402608 gndo:personalName "Empedocles";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedokles, Naturphilosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402609 .
+
+_:node1ivpishs6x25402609 gndo:personalName "Empedokles";
+  gndo:nameAddition "Naturphilosoph" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedokles, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402610 .
+
+_:node1ivpishs6x25402610 gndo:personalName "Empedokles";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedokles, von Agrigento";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402611 .
+
+_:node1ivpishs6x25402611 gndo:personalName "Empedokles";
+  gndo:nameAddition "von Agrigento" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empédocle";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402612 .
+
+_:node1ivpishs6x25402612 gndo:personalName "Empédocle" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedocles, of Agrigent";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402613 .
+
+_:node1ivpishs6x25402613 gndo:personalName "Empedocles";
+  gndo:nameAddition "of Agrigent" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedocle, d'Agrigent";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402614 .
+
+_:node1ivpishs6x25402614 gndo:personalName "Empedocle";
+  gndo:nameAddition "d'Agrigent" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empédocle, d'Agrigente";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402615 .
+
+_:node1ivpishs6x25402615 gndo:personalName "Empédocle";
+  gndo:nameAddition "d'Agrigente" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedokles, Agrigento";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402616 .
+
+_:node1ivpishs6x25402616 gndo:personalName "Empedokles";
+  gndo:nameAddition "Agrigento" .
+
+<https://d-nb.info/gnd/118530224> gndo:variantNameForThePerson "Empedokles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402617 .
+
+_:node1ivpishs6x25402617 gndo:personalName "Empedokles" .
+
+<https://d-nb.info/gnd/118530224> gndo:preferredNameForThePerson "Empedocles";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402618 .
+
+_:node1ivpishs6x25402618 gndo:personalName "Empedocles" .
+
+<https://d-nb.info/gnd/118530224> gndo:professionOrOccupationAsLiteral "Medizinschriftsteller";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Empedocles: Empedocles Agrigentinus", "Empedocles: Empedoclis et Parmenidis fragmenta",
+    "Empedocles: Empedoclis Agrigentini carminum reliquiae", "Empedocles: Fragmenta",
+    "Empedocles: Fragmenta", "Empedocles: Fragmenta", "Empedocles: Metrische Übersetzung der noch vorhandenen Stellen seines [des Empedokles] Le*",
+    "Empedocles: Sphaira", "Empedocles: Sphaira", "Empedocles: Sphaera";
+  wdrs:describedby <https://d-nb.info/gnd/118530224/about> .
+
+<https://d-nb.info/gnd/118530224/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118530224> gndo:biographicalOrHistoricalInformation "Griech. Philosoph, Vorsokratiker, der sich auch mit medizinischen Problemen beschäftigt hat"@de;
+  gndo:udkCode "500 - 401 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402619 .
+
+_:node1ivpishs6x25402619 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4041423-1>;
+  rdf:_3 <https://d-nb.info/gnd/4046517-2>;
+  rdf:_4 <https://d-nb.info/gnd/4048895-0>;
+  rdf:_5 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118530224> gndo:dateOfBirthAndDeath "[v483-v423]" .
+

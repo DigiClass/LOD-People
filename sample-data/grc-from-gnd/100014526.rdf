@@ -1,0 +1,242 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100014526> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100014526/about> .
+
+<https://d-nb.info/gnd/100014526/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-12-05T13:58:59.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100014526> gndo:gndIdentifier "100014526";
+  foaf:page <https://de.wikipedia.org/wiki/Aphthonios>;
+  owl:sameAs <http://viaf.org/viaf/41938318>, <http://www.wikidata.org/entity/Q4441106>;
+  gndo:oldAuthorityNumber "(DE-588)1089921039";
+  owl:sameAs <https://d-nb.info/gnd/1089921039>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089921039";
+  gndo:oldAuthorityNumber "(DE-588)1089903502";
+  owl:sameAs <https://d-nb.info/gnd/1089903502>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089903502";
+  gndo:oldAuthorityNumber "(DE-588)1089784155";
+  owl:sameAs <https://d-nb.info/gnd/1089784155>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089784155";
+  gndo:oldAuthorityNumber "(DE-588)1089459483";
+  owl:sameAs <https://d-nb.info/gnd/1089459483>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089459483";
+  gndo:oldAuthorityNumber "(DE-588)1055577637";
+  owl:sameAs <https://d-nb.info/gnd/1055577637>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1055577637";
+  gndo:oldAuthorityNumber "(DE-588a)100014526", "(DE-588a)119608030", "(DE-588c)7664194-6";
+  gndo:variantNameForThePerson "Aphthonios, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594500 .
+
+_:node1ivs02adlx24594500 gndo:personalName "Aphthonios";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphthonios, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594501 .
+
+_:node1ivs02adlx24594501 gndo:personalName "Aphthonios";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphthonios, Schüler des Libanios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594502 .
+
+_:node1ivs02adlx24594502 gndo:personalName "Aphthonios";
+  gndo:nameAddition "Schüler des Libanios" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphthonius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594503 .
+
+_:node1ivs02adlx24594503 gndo:personalName "Aphthonius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphthonius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594504 .
+
+_:node1ivs02adlx24594504 gndo:personalName "Aphthonius";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphthonius, Antiochensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594505 .
+
+_:node1ivs02adlx24594505 gndo:personalName "Aphthonius";
+  gndo:nameAddition "Antiochensis" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aftonio, di Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594506 .
+
+_:node1ivs02adlx24594506 gndo:personalName "Aftonio";
+  gndo:nameAddition "di Antiochia" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aftonio, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594507 .
+
+_:node1ivs02adlx24594507 gndo:personalName "Aftonio";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphtonius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594508 .
+
+_:node1ivs02adlx24594508 gndo:personalName "Aphtonius";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphthonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594509 .
+
+_:node1ivs02adlx24594509 gndo:personalName "Aphthonius" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphthonios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594510 .
+
+_:node1ivs02adlx24594510 gndo:personalName "Aphthonios" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Aphtonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594511 .
+
+_:node1ivs02adlx24594511 gndo:personalName "Aphtonius" .
+
+<https://d-nb.info/gnd/100014526> gndo:variantNameForThePerson "Ausonius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594512 .
+
+_:node1ivs02adlx24594512 gndo:personalName "Ausonius";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/100014526> gndo:preferredNameForThePerson "Aphthonius, Antiochenus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594513 .
+
+_:node1ivs02adlx24594513 gndo:personalName "Aphthonius";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/118594044>;
+  gndo:hasRelation _:node1ivs02adlx24594514 .
+
+_:node1ivs02adlx24594514 gndo:professionalRelationship <https://d-nb.info/gnd/118594044>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/119847922>;
+  gndo:hasRelation _:node1ivs02adlx24594515 .
+
+_:node1ivs02adlx24594515 gndo:professionalRelationship <https://d-nb.info/gnd/119847922>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/118647180>;
+  gndo:hasRelation _:node1ivs02adlx24594516 .
+
+_:node1ivs02adlx24594516 gndo:professionalRelationship <https://d-nb.info/gnd/118647180>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/119665174>;
+  gndo:hasRelation _:node1ivs02adlx24594517 .
+
+_:node1ivs02adlx24594517 gndo:professionalRelationship <https://d-nb.info/gnd/119665174>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/124813755>;
+  gndo:hasRelation _:node1ivs02adlx24594518 .
+
+_:node1ivs02adlx24594518 gndo:professionalRelationship <https://d-nb.info/gnd/124813755>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:hasRelation _:node1ivs02adlx24594519 .
+
+_:node1ivs02adlx24594519 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship _:node1ivs02adlx24594520 .
+
+_:node1ivs02adlx24594520 gndo:personalName "Hermogenes" .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/130667919>;
+  gndo:hasRelation _:node1ivs02adlx24594521 .
+
+_:node1ivs02adlx24594521 gndo:professionalRelationship <https://d-nb.info/gnd/130667919>;
+  gndo:functionOrRoleAsLiteral "Mainz; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/128918292>;
+  gndo:hasRelation _:node1ivs02adlx24594522 .
+
+_:node1ivs02adlx24594522 gndo:professionalRelationship <https://d-nb.info/gnd/128918292>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/118756826>;
+  gndo:hasRelation _:node1ivs02adlx24594523 .
+
+_:node1ivs02adlx24594523 gndo:professionalRelationship <https://d-nb.info/gnd/118756826>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:professionalRelationship <https://d-nb.info/gnd/11855333X>;
+  gndo:hasRelation _:node1ivs02adlx24594524 .
+
+_:node1ivs02adlx24594524 gndo:professionalRelationship <https://d-nb.info/gnd/11855333X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100014526> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Progymnasmata", "Praeludia", "Progymnasmata Propylaeum eloquentiae",
+    "Aesopus: De officio regis ...", "Aesopus: De officio regis ...", "APHTHONII SOPHISTAE PROgymnasmata, ex Rodolphi Agricolae & Ioannis Mariae Catanei ...",
+    "PROGYMNASMATA APHTHONII, SOPHISTAE, CRAECE, VT AB AVTORE IPSO conscripta sunt, CVM ...",
+    "APHTHONII SOPHISTAE PROGYMNASMATA, PARTIM A Rodolpho Agricola, partim A Ioanne Maria ...",
+    "PROGYMNASMATA APHTHONII SOPHISTAE, PARTIM A ROdolpho Agricola, partim à Ioanne Maria ...",
+    "APHTHONII SOPHISTAE PROGYMNASMATA, PARTIM A Rodolpho Agricola, partim A Ioanne Maria ...",
+    "Aesopus: Ekthesis parainetikē pros Ioustinianon ton kaisara", "Aesopus: De officio regis ...",
+    "PROGYMNASMATA APHTHO NII SOPHISTAE, PARtim à Rodolpho Agricola, partim à Ioanne Maria ...";
+  wdrs:describedby <https://d-nb.info/gnd/100014526/about> .
+
+<https://d-nb.info/gnd/100014526/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100014526> gndo:biographicalOrHistoricalInformation "Griech. Rhetoriker"@de;
+  gndo:dateOfBirth "[3XX]";
+  gndo:dateOfDeath "[4XX]" .
+

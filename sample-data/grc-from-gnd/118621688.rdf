@@ -1,0 +1,309 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118621688> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118621688/about> .
+
+<https://d-nb.info/gnd/118621688/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:50:56.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118621688> gndo:gndIdentifier "118621688";
+  foaf:page <https://de.wikipedia.org/wiki/Theodor_von_Mopsuestia>;
+  owl:sameAs <https://dbpedia.org/resource/Theodore_of_Mopsuestia>, <http://viaf.org/viaf/38327704>,
+    <https://isni.org/isni/0000000457147134>, <http://www.wikidata.org/entity/Q355664>;
+  gndo:oldAuthorityNumber "(DE-588)1157856667";
+  owl:sameAs <https://d-nb.info/gnd/1157856667>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1157856667";
+  gndo:oldAuthorityNumber "(DE-588)108992836X";
+  owl:sameAs <https://d-nb.info/gnd/108992836X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108992836X";
+  gndo:oldAuthorityNumber "(DE-588)102762325";
+  owl:sameAs <https://d-nb.info/gnd/102762325>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/102762325";
+  gndo:oldAuthorityNumber "(DE-588a)102762325", "(DE-588a)118621688", "(DE-588c)4059742-8";
+  gndo:variantNameForThePerson "Theodorus, Antiochus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400559 .
+
+_:node1ivpishs6x25400559 gndo:personalName "Theodorus";
+  gndo:nameAddition "Antiochus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400560 .
+
+_:node1ivpishs6x25400560 gndo:personalName "Theodorus";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400561 .
+
+_:node1ivpishs6x25400561 gndo:personalName "Theodorus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, Hagiopolita";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400562 .
+
+_:node1ivpishs6x25400562 gndo:personalName "Theodorus";
+  gndo:nameAddition "Hagiopolita" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, Mopsvestenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400563 .
+
+_:node1ivpishs6x25400563 gndo:personalName "Theodorus";
+  gndo:nameAddition "Mopsvestenus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, Mopsuestiae";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400564 .
+
+_:node1ivpishs6x25400564 gndo:personalName "Theodorus";
+  gndo:nameAddition "Mopsuestiae" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, de Mopsueste";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400565 .
+
+_:node1ivpishs6x25400565 gndo:personalName "Theodorus";
+  gndo:nameAddition "de Mopsueste" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, of Mopsuestia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400566 .
+
+_:node1ivpishs6x25400566 gndo:personalName "Theodorus";
+  gndo:nameAddition "of Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, Mopsuestia, Bishop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400567 .
+
+_:node1ivpishs6x25400567 gndo:personalName "Theodorus";
+  gndo:nameAddition "Mopsuestia, Bishop" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400568 .
+
+_:node1ivpishs6x25400568 gndo:personalName "Theodorus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400569 .
+
+_:node1ivpishs6x25400569 gndo:personalName "Theodorus";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodorus Episcopus Mopsuestenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400570 .
+
+_:node1ivpishs6x25400570 gndo:personalName "Theodorus Episcopus Mopsuestenus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodor, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400571 .
+
+_:node1ivpishs6x25400571 gndo:personalName "Theodor";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodor, Mopsuestenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400572 .
+
+_:node1ivpishs6x25400572 gndo:personalName "Theodor";
+  gndo:nameAddition "Mopsuestenus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodor, von Mopsuestia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400573 .
+
+_:node1ivpishs6x25400573 gndo:personalName "Theodor";
+  gndo:nameAddition "von Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodore, Mopsuestia, Bishop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400574 .
+
+_:node1ivpishs6x25400574 gndo:personalName "Theodore";
+  gndo:nameAddition "Mopsuestia, Bishop" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodore, Bishop of Mopsuestia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400575 .
+
+_:node1ivpishs6x25400575 gndo:personalName "Theodore";
+  gndo:nameAddition "Bishop of Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Théodore, Mopsueste";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400576 .
+
+_:node1ivpishs6x25400576 gndo:personalName "Théodore";
+  gndo:nameAddition "Mopsueste" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Théodore, d'Antioche";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400577 .
+
+_:node1ivpishs6x25400577 gndo:personalName "Théodore";
+  gndo:nameAddition "d'Antioche" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Théodore, le Grand";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400578 .
+
+_:node1ivpishs6x25400578 gndo:personalName "Théodore";
+  gndo:nameAddition "le Grand" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodore, Mopsuestia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400579 .
+
+_:node1ivpishs6x25400579 gndo:personalName "Theodore";
+  gndo:nameAddition "Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Théodore, de Mopsueste";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400580 .
+
+_:node1ivpishs6x25400580 gndo:personalName "Théodore";
+  gndo:nameAddition "de Mopsueste" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodore, of Mopsuestia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400581 .
+
+_:node1ivpishs6x25400581 gndo:personalName "Theodore";
+  gndo:nameAddition "of Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodōros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400582 .
+
+_:node1ivpishs6x25400582 gndo:personalName "Theodōros" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodoros, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400583 .
+
+_:node1ivpishs6x25400583 gndo:personalName "Theodoros";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Theodoros, von Mopsuestia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400584 .
+
+_:node1ivpishs6x25400584 gndo:personalName "Theodoros";
+  gndo:nameAddition "von Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Tiyaḍōr, Mopsuvestyāya";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400585 .
+
+_:node1ivpishs6x25400585 gndo:personalName "Tiyaḍōr";
+  gndo:nameAddition "Mopsuvestyāya" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Teodoro, Mopsuesteno";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400586 .
+
+_:node1ivpishs6x25400586 gndo:personalName "Teodoro";
+  gndo:nameAddition "Mopsuesteno" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Teodoro, di Mopsuestia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400587 .
+
+_:node1ivpishs6x25400587 gndo:personalName "Teodoro";
+  gndo:nameAddition "di Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Mopsueste, Théodore de";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400588 .
+
+_:node1ivpishs6x25400588 gndo:forename "Théodore";
+  gndo:prefix "de";
+  gndo:surname "Mopsueste" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Mopsuestia, Teodoro di";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400589 .
+
+_:node1ivpishs6x25400589 gndo:forename "Teodoro";
+  gndo:prefix "di";
+  gndo:surname "Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Mopsuestia, Theodor von";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400590 .
+
+_:node1ivpishs6x25400590 gndo:forename "Theodor";
+  gndo:prefix "von";
+  gndo:surname "Mopsuestia" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Mopsuestenus, Theodorus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400591 .
+
+_:node1ivpishs6x25400591 gndo:forename "Theodorus";
+  gndo:surname "Mopsuestenus" .
+
+<https://d-nb.info/gnd/118621688> gndo:variantNameForThePerson "Mopsuestre, Théodore de";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400592 .
+
+_:node1ivpishs6x25400592 gndo:forename "Théodore";
+  gndo:prefix "de";
+  gndo:surname "Mopsuestre" .
+
+<https://d-nb.info/gnd/118621688> gndo:preferredNameForThePerson "Theodorus, Mopsuestenus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400593 .
+
+_:node1ivpishs6x25400593 gndo:personalName "Theodorus";
+  gndo:nameAddition "Mopsuestenus" .
+
+<https://d-nb.info/gnd/118621688> gndo:familialRelationship <https://d-nb.info/gnd/11896836X>;
+  agrelon:hasSibling <https://d-nb.info/gnd/11896836X>;
+  gndo:hasRelation _:node1ivpishs6x25400594 .
+
+_:node1ivpishs6x25400594 agrelon:hasSibling <https://d-nb.info/gnd/11896836X>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621688> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-TR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Theodori Antiocheni, Mopsuestiae episcopi quae supersunt omnia",
+    "Specht, Franz A.: Der exegetische Standpunkt des Theodor von Mopsuestia und Theodoret ...",
+    "Disquisitio de fragmentis Theodori Mopsuesteni";
+  wdrs:describedby <https://d-nb.info/gnd/118621688/about> .
+
+<https://d-nb.info/gnd/118621688/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118621688> gndo:biographicalOrHistoricalInformation "griech. Kirchenschriftsteller, seit 392 Bischof von Mopsuestia in Kilikien"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4112544-7>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/1221277383>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/1221277383>;
+  gndo:professionOrOccupation _:node1ivpishs6x25400595 .
+
+_:node1ivpishs6x25400595 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7>;
+  rdf:_2 <https://d-nb.info/gnd/4030752-9> .
+
+<https://d-nb.info/gnd/118621688> gndo:dateOfBirth "0352"^^xsd:gYear;
+  gndo:dateOfDeath "0428"^^xsd:gYear .
+

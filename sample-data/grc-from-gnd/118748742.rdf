@@ -1,0 +1,282 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118748742> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118748742/about> .
+
+<https://d-nb.info/gnd/118748742/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-03-30T08:22:50.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118748742> gndo:gndIdentifier "118748742";
+  owl:sameAs <https://dbpedia.org/resource/Socrates_of_Constantinople>, <http://viaf.org/viaf/22180808>,
+    <http://www.wikidata.org/entity/Q336198>;
+  gndo:oldAuthorityNumber "(DE-588)119833794";
+  owl:sameAs <https://d-nb.info/gnd/119833794>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119833794";
+  gndo:oldAuthorityNumber "(DE-588a)119833794", "(DE-588)185877184";
+  owl:sameAs <https://d-nb.info/gnd/185877184>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877184";
+  gndo:oldAuthorityNumber "(DE-588a)185877184", "(DE-588)174129661";
+  owl:sameAs <https://d-nb.info/gnd/174129661>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174129661";
+  gndo:oldAuthorityNumber "(DE-588a)174129661", "(DE-588)172379407";
+  owl:sameAs <https://d-nb.info/gnd/172379407>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172379407";
+  gndo:oldAuthorityNumber "(DE-588a)172379407", "(DE-588a)118748742", "(DE-588c)4104816-7";
+  gndo:variantNameForThePerson "Socrates, Constantinopoliantus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398271 .
+
+_:node1ivpishs6x25398271 gndo:personalName "Socrates";
+  gndo:nameAddition "Constantinopoliantus" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Sokrates, Scholastikos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398272 .
+
+_:node1ivpishs6x25398272 gndo:personalName "Sokrates";
+  gndo:nameAddition "Scholastikos" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Socrates, aus Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398273 .
+
+_:node1ivpishs6x25398273 gndo:personalName "Socrates";
+  gndo:nameAddition "aus Konstantinopel" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Socrate, de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398274 .
+
+_:node1ivpishs6x25398274 gndo:personalName "Socrate";
+  gndo:nameAddition "de Constantinople" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Socrates, Constantinopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398275 .
+
+_:node1ivpishs6x25398275 gndo:personalName "Socrates";
+  gndo:nameAddition "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Sokrates, Kirchenhistoriker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398276 .
+
+_:node1ivpishs6x25398276 gndo:personalName "Sokrates";
+  gndo:nameAddition "Kirchenhistoriker" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Sokrates, von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398277 .
+
+_:node1ivpishs6x25398277 gndo:personalName "Sokrates";
+  gndo:nameAddition "von Konstantinopel" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Socrates, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398278 .
+
+_:node1ivpishs6x25398278 gndo:personalName "Socrates";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Sokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398279 .
+
+_:node1ivpishs6x25398279 gndo:personalName "Sokrates" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Socrates, Historiographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398280 .
+
+_:node1ivpishs6x25398280 gndo:personalName "Socrates";
+  gndo:nameAddition "Historiographus" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Socrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398281 .
+
+_:node1ivpishs6x25398281 gndo:personalName "Socrates" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Sokrates Scholastikos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398282 .
+
+_:node1ivpishs6x25398282 gndo:personalName "Sokrates Scholastikos" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Socrate";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398283 .
+
+_:node1ivpishs6x25398283 gndo:personalName "Socrate" .
+
+<https://d-nb.info/gnd/118748742> gndo:variantNameForThePerson "Sokrates der Kirchenhistoriker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398284 .
+
+_:node1ivpishs6x25398284 gndo:personalName "Sokrates der Kirchenhistoriker" .
+
+<https://d-nb.info/gnd/118748742> gndo:preferredNameForThePerson "Socrates, Scholasticus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25398285 .
+
+_:node1ivpishs6x25398285 gndo:personalName "Socrates";
+  gndo:nameAddition "Scholasticus" .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398286 .
+
+_:node1ivpishs6x25398286 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398287 .
+
+_:node1ivpishs6x25398287 gndo:personalName "Gregorius";
+  gndo:nameAddition "von Nyssa" .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398288 .
+
+_:node1ivpishs6x25398288 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398289 .
+
+_:node1ivpishs6x25398289 gndo:forename "Hermias";
+  gndo:surname "Sozomenus" .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398290 .
+
+_:node1ivpishs6x25398290 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398291 .
+
+_:node1ivpishs6x25398291 gndo:personalName "Eusebius";
+  gndo:nameAddition "von Caesarea" .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119656698>;
+  gndo:hasRelation _:node1ivpishs6x25398292 .
+
+_:node1ivpishs6x25398292 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119656698>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398293 .
+
+_:node1ivpishs6x25398293 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398294 .
+
+_:node1ivpishs6x25398294 gndo:forename "Kaspar";
+  gndo:surname "Hedio" .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398295 .
+
+_:node1ivpishs6x25398295 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398296 .
+
+_:node1ivpishs6x25398296 gndo:forename "Johannes Jakob";
+  gndo:surname "Grynaeus" .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398297 .
+
+_:node1ivpishs6x25398297 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398298 .
+
+_:node1ivpishs6x25398298 gndo:personalName "Euagrius Scholasticus" .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398299 .
+
+_:node1ivpishs6x25398299 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398300 .
+
+_:node1ivpishs6x25398300 gndo:forename "Flavius Magnus Aurelius Senator";
+  gndo:surname "Cassiodorus" .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398301 .
+
+_:node1ivpishs6x25398301 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398302 .
+
+_:node1ivpishs6x25398302 gndo:personalName "Rufinus";
+  gndo:nameAddition "aus Aquileia" .
+
+<https://d-nb.info/gnd/118748742> gndo:hasRelation _:node1ivpishs6x25398303 .
+
+_:node1ivpishs6x25398303 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118748742> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398304 .
+
+_:node1ivpishs6x25398304 gndo:forename "Caecilius";
+  gndo:surname "Cyprianus" .
+
+<https://d-nb.info/gnd/118748742> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Sōkratus Scholastiku kai Hermeiu Sōzomenu Ekklēsiastikē Hi*",
+    "Histoire de l'église. - 1675 - 1676", "Histoire de l'Église", "Historiae ecclesiasticae libri septem",
+    "Eusebius <Caesariensis>: The auncient ecclesiasticall histories", "Eusebius <Caesariensis>: The auncient ecclesiasticall histories",
+    "Eusebius <Caesariensis>: The auncient ecclesiasticall histories", "Eusebius <Caesariensis>: The auncient ecclesiasticall histories",
+    "Eusebius <Caesariensis>: The auncient ecclesiasticall histories. - 1636 - 1637",
+    "Sokratus Scholastiku kai Ermiu Sozomenu ekklesiastike istoria", "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1565.  (VD16 E 4290)",
+    "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1572.  (VD16 E 4291)",
+    "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1545.  (VD16 E 4288)",
+    "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1593.  (VD16 E 4293)",
+    "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1544.  (VD16 E 4277)",
+    "Theodoretus <von Cyrus>: Historia ecclesiastica tripartita.  1510.  (VD16 ZV 24167)",
+    "Eusebius <von Caesarea>: Ecclesiastica historia.  1539.  (VD16 E 4276)", "Eusebius <von Caesarea>: Historiae ecclesiasticae libri quinque, Ausz.  1523.  (VD16 E 4273)",
+    "Eusebius <von Caesarea>: Ad Demetrianum.  1529/1530.  (VD16 E 4286)", "Eusebius <von Caesarea>: Ecclesiastica historia.  1570.  (VD16 E 4283)";
+  wdrs:describedby <https://d-nb.info/gnd/118748742/about> .
+
+<https://d-nb.info/gnd/118748742/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118748742> gndo:biographicalOrHistoricalInformation "Griech. Kirchenhistoriker"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4073697-0>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4073697-0>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25398305 .
+
+_:node1ivpishs6x25398305 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4398113-6> .
+
+<https://d-nb.info/gnd/118748742> gndo:dateOfBirth "0380"^^xsd:gYear;
+  gndo:dateOfDeath "0440"^^xsd:gYear .
+

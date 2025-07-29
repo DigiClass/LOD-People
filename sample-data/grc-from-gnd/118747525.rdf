@@ -1,0 +1,204 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118747525> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118747525/about> .
+
+<https://d-nb.info/gnd/118747525/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:14:22.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118747525> gndo:gndIdentifier "118747525";
+  owl:sameAs <https://dbpedia.org/resource/Menander>, <http://viaf.org/viaf/263687497>,
+    <http://www.wikidata.org/entity/Q118992>;
+  gndo:oldAuthorityNumber "(DE-588)1089723377";
+  owl:sameAs <https://d-nb.info/gnd/1089723377>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089723377";
+  gndo:oldAuthorityNumber "(DE-588)185687105";
+  owl:sameAs <https://d-nb.info/gnd/185687105>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185687105";
+  gndo:oldAuthorityNumber "(DE-588a)185687105", "(DE-588)18450175X";
+  owl:sameAs <https://d-nb.info/gnd/18450175X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18450175X";
+  gndo:oldAuthorityNumber "(DE-588a)18450175X", "(DE-588)182037452";
+  owl:sameAs <https://d-nb.info/gnd/182037452>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182037452";
+  gndo:oldAuthorityNumber "(DE-588a)182037452", "(DE-588)160212243";
+  owl:sameAs <https://d-nb.info/gnd/160212243>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160212243";
+  gndo:oldAuthorityNumber "(DE-588)182037398";
+  owl:sameAs <https://d-nb.info/gnd/182037398>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182037398";
+  gndo:oldAuthorityNumber "(DE-588a)182037398", "(DE-588a)160212243", "(DE-588a)118747525",
+    "(DE-588a)126561958", "(DE-588c)4104538-5";
+  gndo:variantNameForThePerson "Ménandre, Maître De La Comédie Nouvelle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589830 .
+
+_:node1ivs02adlx24589830 gndo:personalName "Ménandre";
+  gndo:nameAddition "Maître De La Comédie Nouvelle" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menandros, Diopeithes' Sohn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589831 .
+
+_:node1ivs02adlx24589831 gndo:personalName "Menandros";
+  gndo:nameAddition "Diopeithes' Sohn" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Ménandre, Maître de la Comédie Nouvelle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589832 .
+
+_:node1ivs02adlx24589832 gndo:personalName "Ménandre";
+  gndo:nameAddition "Maître de la Comédie Nouvelle" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menander, Dramatist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589833 .
+
+_:node1ivs02adlx24589833 gndo:personalName "Menander";
+  gndo:nameAddition "Dramatist" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menandros, Diopeithus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589834 .
+
+_:node1ivs02adlx24589834 gndo:personalName "Menandros";
+  gndo:nameAddition "Diopeithus" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menander, Cephisius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589835 .
+
+_:node1ivs02adlx24589835 gndo:personalName "Menander";
+  gndo:nameAddition "Cephisius" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menander, Comicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589836 .
+
+_:node1ivs02adlx24589836 gndo:forename "Comicus";
+  gndo:surname "Menander" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Ménandre";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589837 .
+
+_:node1ivs02adlx24589837 gndo:personalName "Ménandre" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menander, Comicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589838 .
+
+_:node1ivs02adlx24589838 gndo:personalName "Menander";
+  gndo:nameAddition "Comicus" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menander, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589839 .
+
+_:node1ivs02adlx24589839 gndo:personalName "Menander";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menandros, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589840 .
+
+_:node1ivs02adlx24589840 gndo:personalName "Menandros";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menandros, von Kephisia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589841 .
+
+_:node1ivs02adlx24589841 gndo:personalName "Menandros";
+  gndo:nameAddition "von Kephisia" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menandros, Dichter der Neuen Komödie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589842 .
+
+_:node1ivs02adlx24589842 gndo:personalName "Menandros";
+  gndo:nameAddition "Dichter der Neuen Komödie" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menander, of Athens";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589843 .
+
+_:node1ivs02adlx24589843 gndo:personalName "Menander";
+  gndo:nameAddition "of Athens" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menandro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589844 .
+
+_:node1ivs02adlx24589844 gndo:personalName "Menandro" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Ménandre, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589845 .
+
+_:node1ivs02adlx24589845 gndo:personalName "Ménandre";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menandro, di Cefisia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589846 .
+
+_:node1ivs02adlx24589846 gndo:personalName "Menandro";
+  gndo:nameAddition "di Cefisia" .
+
+<https://d-nb.info/gnd/118747525> gndo:variantNameForThePerson "Menandros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589847 .
+
+_:node1ivs02adlx24589847 gndo:personalName "Menandros" .
+
+<https://d-nb.info/gnd/118747525> gndo:preferredNameForThePerson "Menander";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589848 .
+
+_:node1ivs02adlx24589848 gndo:personalName "Menander" .
+
+<https://d-nb.info/gnd/118747525> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Menander <Comicus>: Fragmenta", "Menander <Comicus>: Reliquiae",
+    "Menander <Comicus>: Flores Poetarum Graecorum Illustres";
+  wdrs:describedby <https://d-nb.info/gnd/118747525/about> .
+
+<https://d-nb.info/gnd/118747525/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118747525> gndo:biographicalOrHistoricalInformation "Griech. Dichter der Neuen Komödie"@de,
+    "Dichter, Griechenland"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivs02adlx24589849 .
+
+_:node1ivs02adlx24589849 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118747525> gndo:dateOfBirth "-0342"^^xsd:gYear;
+  gndo:dateOfDeath "-0291"^^xsd:gYear .
+

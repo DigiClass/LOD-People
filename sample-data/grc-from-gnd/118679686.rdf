@@ -1,0 +1,309 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118679686> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118679686/about> .
+
+<https://d-nb.info/gnd/118679686/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T12:55:40.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118679686> gndo:gndIdentifier "118679686";
+  foaf:page <https://de.wikipedia.org/wiki/Dionysios_von_Alexandria_%28Geograph%29>;
+  owl:sameAs <https://dbpedia.org/resource/Dionysius_Periegetes>, <http://viaf.org/viaf/100902699>,
+    <https://isni.org/isni/0000000390913825>, <http://www.wikidata.org/entity/Q1226993>,
+    <http://id.loc.gov/rwo/agents/n84133347>;
+  gndo:oldAuthorityNumber "(DE-588)1089159552";
+  owl:sameAs <https://d-nb.info/gnd/1089159552>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089159552";
+  gndo:oldAuthorityNumber "(DE-588)1089725655";
+  owl:sameAs <https://d-nb.info/gnd/1089725655>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725655";
+  gndo:oldAuthorityNumber "(DE-588)158407563";
+  owl:sameAs <https://d-nb.info/gnd/158407563>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158407563";
+  gndo:oldAuthorityNumber "(DE-588)187026025";
+  owl:sameAs <https://d-nb.info/gnd/187026025>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187026025";
+  gndo:oldAuthorityNumber "(DE-588a)187026025", "(DE-588a)158407563", "(DE-588)119655179";
+  owl:sameAs <https://d-nb.info/gnd/119655179>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119655179";
+  gndo:oldAuthorityNumber "(DE-588a)119655179", "(DE-588a)118679686", "(DE-588c)4091032-5";
+  gndo:variantNameForThePerson "Dionysios, der Perieget";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397594 .
+
+_:node1ivpishs6x25397594 gndo:personalName "Dionysios";
+  gndo:nameAddition "der Perieget" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysios, der Periheget";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397595 .
+
+_:node1ivpishs6x25397595 gndo:personalName "Dionysios";
+  gndo:nameAddition "der Periheget" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysios, Bibliothekar";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397596 .
+
+_:node1ivpishs6x25397596 gndo:personalName "Dionysios";
+  gndo:nameAddition "Bibliothekar" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysios, Periegetes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397597 .
+
+_:node1ivpishs6x25397597 gndo:personalName "Dionysios";
+  gndo:nameAddition "Periegetes" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Periegeta, Dionysius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397598 .
+
+_:node1ivpishs6x25397598 gndo:forename "Dionysius";
+  gndo:surname "Periegeta" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397599 .
+
+_:node1ivpishs6x25397599 gndo:personalName "Dionysius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysius, Geographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397600 .
+
+_:node1ivpishs6x25397600 gndo:personalName "Dionysius";
+  gndo:nameAddition "Geographus" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysius, Periegetes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397601 .
+
+_:node1ivpishs6x25397601 gndo:personalName "Dionysius";
+  gndo:nameAddition "Periegetes" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionigi, il Periegete";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397602 .
+
+_:node1ivpishs6x25397602 gndo:personalName "Dionigi";
+  gndo:nameAddition "il Periegete" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionigi, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397603 .
+
+_:node1ivpishs6x25397603 gndo:personalName "Dionigi";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Denys, le Périégète";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397604 .
+
+_:node1ivpishs6x25397604 gndo:personalName "Denys";
+  gndo:nameAddition "le Périégète" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Denys, Alexandrin";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397605 .
+
+_:node1ivpishs6x25397605 gndo:personalName "Denys";
+  gndo:nameAddition "Alexandrin" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysios, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397606 .
+
+_:node1ivpishs6x25397606 gndo:personalName "Dionysios";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysius, Afer";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397607 .
+
+_:node1ivpishs6x25397607 gndo:personalName "Dionysius";
+  gndo:nameAddition "Afer" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysius, Apher";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397608 .
+
+_:node1ivpishs6x25397608 gndo:personalName "Dionysius";
+  gndo:nameAddition "Apher" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397609 .
+
+_:node1ivpishs6x25397609 gndo:personalName "Dionysius" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysios, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397610 .
+
+_:node1ivpishs6x25397610 gndo:personalName "Dionysios";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionysius, Halicarnaseus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397611 .
+
+_:node1ivpishs6x25397611 gndo:personalName "Dionysius";
+  gndo:nameAddition "Halicarnaseus" .
+
+<https://d-nb.info/gnd/118679686> gndo:variantNameForThePerson "Dionisius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397612 .
+
+_:node1ivpishs6x25397612 gndo:personalName "Dionisius" .
+
+<https://d-nb.info/gnd/118679686> gndo:preferredNameForThePerson "Dionysius, Periegeta";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25397613 .
+
+_:node1ivpishs6x25397613 gndo:personalName "Dionysius";
+  gndo:nameAddition "Periegeta" .
+
+<https://d-nb.info/gnd/118679686> gndo:hasRelation _:node1ivpishs6x25397614 .
+
+_:node1ivpishs6x25397614 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397615 .
+
+_:node1ivpishs6x25397615 gndo:forename "Rufus Festus";
+  gndo:surname "Avienus" .
+
+<https://d-nb.info/gnd/118679686> gndo:hasRelation _:node1ivpishs6x25397616 .
+
+_:node1ivpishs6x25397616 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397617 .
+
+_:node1ivpishs6x25397617 gndo:forename "Christian Torkelsen";
+  gndo:surname "Morsing" .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118780018>;
+  gndo:hasRelation _:node1ivpishs6x25397618 .
+
+_:node1ivpishs6x25397618 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118780018>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119249316>;
+  gndo:hasRelation _:node1ivpishs6x25397619 .
+
+_:node1ivpishs6x25397619 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119249316>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:hasRelation _:node1ivpishs6x25397620 .
+
+_:node1ivpishs6x25397620 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397621 .
+
+_:node1ivpishs6x25397621 gndo:forename "Petrus";
+  gndo:surname "Schade" .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118682733>;
+  gndo:hasRelation _:node1ivpishs6x25397622 .
+
+_:node1ivpishs6x25397622 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118682733>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:hasRelation _:node1ivpishs6x25397623 .
+
+_:node1ivpishs6x25397623 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397624 .
+
+_:node1ivpishs6x25397624 gndo:forename "Jakob";
+  gndo:surname "Wiesendanger" .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118641778>;
+  gndo:hasRelation _:node1ivpishs6x25397625 .
+
+_:node1ivpishs6x25397625 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118641778>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119843749>;
+  gndo:hasRelation _:node1ivpishs6x25397626 .
+
+_:node1ivpishs6x25397626 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119843749>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:hasRelation _:node1ivpishs6x25397627 .
+
+_:node1ivpishs6x25397627 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679686> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397628 .
+
+_:node1ivpishs6x25397628 gndo:personalName "Priscianus";
+  gndo:nameAddition "aus Caesarea" .
+
+<https://d-nb.info/gnd/118679686> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dionysiu oikumenēs periēgēsis, Aratu phainomena, Proklu spha*",
+    "Dionysiu oikumenēs periēgēsis, Aratu phainomena, Proklu spha*", "De situ orbis liber",
+    "Orbis terrarum descriptio", "De totius orbis situ", "The surveye of the world, or situation of the earth",
+    "Tēs oikumenēs periēgēsis", "Orbis descriptio", "Situs orbis", "Oikumēnēs ...",
+    "Oikumenēs perihēgēsis. 1508. (VD16 D 1986)", "Oikumenēs perihēgēsis. 1556. (VD16 D 1983)",
+    "Phaenomena. 1543. (VD16 D 1978)", "Oikumenēs perihēgēsis. 1515. (VD16 D 1989)",
+    "Phaenomena. 1534. (VD16 D 1981)", "Oikumenēs perihēgēsis. 1530. (VD16 D 1992)",
+    "Oikumenēs perihēgēsis. 1522. (VD16 D 1979)", "Oikumenēs perihēgēsis. 1534. (VD16 D 1993)",
+    "Oikumenēs perihēgēsis. 1512. (VD16 D 1987)", "Proclus Diadochus: De motu circulari corporum caelestium. 1547. (VD16 P 4968)",
+    "Dionysius <Periegetes>: Dionysiu oikumenēs periēgēsis, Aratu phainomena, Proklu spha*",
+    "Dionysius <Periegetes>: Dionysiu oikumenēs periēgēsis, Aratu phainomena, Proklu spha*",
+    "Dionysius <Periegetes>: De situ orbis liber", "Dionysius <Periegetes>: Orbis terrarum descriptio",
+    "Dionysius <Periegetes>: De totius orbis situ", "Dionysius <Periegetes>: The surveye of the world, or situation of the earth",
+    "Dionysius <Periegetes>: Tēs oikumenēs periēgēsis", "Dionysius <Periegetes>: Orbis descriptio",
+    "Dionysius <Periegetes>: Situs orbis", "Dionysius <Periegetes>: Oikumēnēs ...";
+  wdrs:describedby <https://d-nb.info/gnd/118679686/about> .
+
+<https://d-nb.info/gnd/118679686/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118679686> gndo:biographicalOrHistoricalInformation "Griech. Geograph; Bibliothekar und Dichter zur Zeit Kaiser Hadrians; Fragmenta; De aucupio"@de,
+    "Fragmenta; De aucupio; Griech. Geograph, Bibliothekar und Dichter zur Zeit Kaiser Hadrians"@de;
+  gndo:periodOfActivity "ca. 2. Jh.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25397629 .
+
+_:node1ivpishs6x25397629 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4020214-8>;
+  rdf:_2 <https://d-nb.info/gnd/4145258-6> .
+
+<https://d-nb.info/gnd/118679686> gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

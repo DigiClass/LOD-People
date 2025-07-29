@@ -1,0 +1,124 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102395284> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102395284/about> .
+
+<https://d-nb.info/gnd/102395284/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-12-12T00:34:15.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102395284> gndo:gndIdentifier "102395284";
+  foaf:page <https://de.wikipedia.org/wiki/Hermodoros_von_Syrakus>;
+  owl:sameAs <http://viaf.org/viaf/150928190>, <https://isni.org/isni/0000000373536183>,
+    <http://www.wikidata.org/entity/Q11925495>, <http://id.loc.gov/rwo/agents/n83319391>;
+  gndo:oldAuthorityNumber "(DE-588)1089722850";
+  owl:sameAs <https://d-nb.info/gnd/1089722850>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089722850";
+  gndo:oldAuthorityNumber "(DE-588a)102395284", "(DE-588c)4791882-2";
+  gndo:variantNameForThePerson "Hermodorus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404407 .
+
+_:node1ivpishs6x25404407 gndo:personalName "Hermodorus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/102395284> gndo:variantNameForThePerson "Ermodoro, Siracusano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404408 .
+
+_:node1ivpishs6x25404408 gndo:personalName "Ermodoro";
+  gndo:nameAddition "Siracusano" .
+
+<https://d-nb.info/gnd/102395284> gndo:variantNameForThePerson "Hermodoros, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404409 .
+
+_:node1ivpishs6x25404409 gndo:personalName "Hermodoros";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/102395284> gndo:variantNameForThePerson "Hermodoros, Syracusaner";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404410 .
+
+_:node1ivpishs6x25404410 gndo:personalName "Hermodoros";
+  gndo:nameAddition "Syracusaner" .
+
+<https://d-nb.info/gnd/102395284> gndo:variantNameForThePerson "Hermodoros, Schüler Platons";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404411 .
+
+_:node1ivpishs6x25404411 gndo:personalName "Hermodoros";
+  gndo:nameAddition "Schüler Platons" .
+
+<https://d-nb.info/gnd/102395284> gndo:variantNameForThePerson "Hermodore, de Syracuse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404412 .
+
+_:node1ivpishs6x25404412 gndo:personalName "Hermodore";
+  gndo:nameAddition "de Syracuse" .
+
+<https://d-nb.info/gnd/102395284> gndo:variantNameForThePerson "Hermodoros, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404413 .
+
+_:node1ivpishs6x25404413 gndo:personalName "Hermodoros";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/102395284> gndo:variantNameForThePerson "Hermodoros, von Syrakus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404414 .
+
+_:node1ivpishs6x25404414 gndo:personalName "Hermodoros";
+  gndo:nameAddition "von Syrakus" .
+
+<https://d-nb.info/gnd/102395284> gndo:preferredNameForThePerson "Hermodorus, Syracusanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404415 .
+
+_:node1ivpishs6x25404415 gndo:personalName "Hermodorus";
+  gndo:nameAddition "Syracusanus" .
+
+<https://d-nb.info/gnd/102395284> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102395284/about> .
+
+<https://d-nb.info/gnd/102395284/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102395284> gndo:biographicalOrHistoricalInformation "Peri mathēmatōn; Griech. Philosoph aus Syrakus, Schüler Platons"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v4. Jh.]" .
+

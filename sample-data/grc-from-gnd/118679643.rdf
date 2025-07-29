@@ -1,0 +1,131 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118679643> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118679643/about> .
+
+<https://d-nb.info/gnd/118679643/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-07-21T17:56:28.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118679643> gndo:gndIdentifier "118679643";
+  owl:sameAs <https://dbpedia.org/resource/Diocles_of_Carystus>, <http://viaf.org/viaf/100177671>,
+    <http://www.wikidata.org/entity/Q1226889>;
+  gndo:oldAuthorityNumber "(DE-588)1089729766";
+  owl:sameAs <https://d-nb.info/gnd/1089729766>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089729766";
+  gndo:oldAuthorityNumber "(DE-588)1089292619";
+  owl:sameAs <https://d-nb.info/gnd/1089292619>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089292619";
+  gndo:oldAuthorityNumber "(DE-588)173134785";
+  owl:sameAs <https://d-nb.info/gnd/173134785>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/173134785";
+  gndo:oldAuthorityNumber "(DE-588a)173134785", "(DE-588a)118679643", "(DE-588c)4091028-3";
+  gndo:variantNameForThePerson "Diocles, Caristius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590580 .
+
+_:node1ivs02adlx24590580 gndo:personalName "Diocles";
+  gndo:nameAddition "Caristius" .
+
+<https://d-nb.info/gnd/118679643> gndo:variantNameForThePerson "Carystius, Diocles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590581 .
+
+_:node1ivs02adlx24590581 gndo:forename "Diocles";
+  gndo:surname "Carystius" .
+
+<https://d-nb.info/gnd/118679643> gndo:variantNameForThePerson "Caristius, Diocles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590582 .
+
+_:node1ivs02adlx24590582 gndo:forename "Diocles";
+  gndo:surname "Caristius" .
+
+<https://d-nb.info/gnd/118679643> gndo:variantNameForThePerson "Diocles, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590583 .
+
+_:node1ivs02adlx24590583 gndo:personalName "Diocles";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118679643> gndo:variantNameForThePerson "Diokles, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590584 .
+
+_:node1ivs02adlx24590584 gndo:personalName "Diokles";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/118679643> gndo:variantNameForThePerson "Diocle, di Caristo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590585 .
+
+_:node1ivs02adlx24590585 gndo:personalName "Diocle";
+  gndo:nameAddition "di Caristo" .
+
+<https://d-nb.info/gnd/118679643> gndo:variantNameForThePerson "Diocle, Medico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590586 .
+
+_:node1ivs02adlx24590586 gndo:personalName "Diocle";
+  gndo:nameAddition "Medico" .
+
+<https://d-nb.info/gnd/118679643> gndo:variantNameForThePerson "Diokles, von Karystos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590587 .
+
+_:node1ivs02adlx24590587 gndo:personalName "Diokles";
+  gndo:nameAddition "von Karystos" .
+
+<https://d-nb.info/gnd/118679643> gndo:preferredNameForThePerson "Diocles, Carystius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590588 .
+
+_:node1ivs02adlx24590588 gndo:personalName "Diocles";
+  gndo:nameAddition "Carystius" .
+
+<https://d-nb.info/gnd/118679643> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Diocles <Carystius>: De tuenda sanitate libellus", "Diocles <Carystius>: Ad Antigonum regem de tuenda valetudine epistola",
+    "Diocles <Carystius>: Epistola de morborum praesagiis", "Fränkel, Moritz: Dioclis Carystii fragmenta quae supersunt";
+  wdrs:describedby <https://d-nb.info/gnd/118679643/about> .
+
+<https://d-nb.info/gnd/118679643/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118679643> gndo:biographicalOrHistoricalInformation "Griech. Arzt, Synthetiker, der auch medizinische Werke schrieb"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v4./3. Jh.]" .
+

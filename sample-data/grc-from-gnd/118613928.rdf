@@ -1,0 +1,122 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118613928> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118613928/about> .
+
+<https://d-nb.info/gnd/118613928/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-02-20T10:54:17.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118613928> gndo:gndIdentifier "118613928";
+  owl:sameAs <https://dbpedia.org/resource/Seven_Sages_of_Greece>, <http://viaf.org/viaf/25395398>,
+    <http://www.wikidata.org/entity/Q207782>;
+  gndo:oldAuthorityNumber "(DE-588a)118613928", "(DE-588c)4054832-6";
+  gndo:variantNameForThePerson "Sapientes, Septem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402129 .
+
+_:node1ivpishs6x25402129 gndo:forename "Septem";
+  gndo:surname "Sapientes" .
+
+<https://d-nb.info/gnd/118613928> gndo:variantNameForThePerson "Hepta Sophoi";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402130 .
+
+_:node1ivpishs6x25402130 gndo:personalName "Hepta Sophoi" .
+
+<https://d-nb.info/gnd/118613928> gndo:variantNameForThePerson "Sieben Weise";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402131 .
+
+_:node1ivpishs6x25402131 gndo:personalName "Sieben Weise" .
+
+<https://d-nb.info/gnd/118613928> gndo:preferredNameForThePerson "Septem Sapientes";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402132 .
+
+_:node1ivpishs6x25402132 gndo:personalName "Septem Sapientes" .
+
+<https://d-nb.info/gnd/118613928> gndo:relatedPerson <https://d-nb.info/gnd/102383146>;
+  gndo:hasRelation _:node1ivpishs6x25402133 .
+
+_:node1ivpishs6x25402133 gndo:relatedPerson <https://d-nb.info/gnd/102383146> .
+
+<https://d-nb.info/gnd/118613928> gndo:relatedPerson <https://d-nb.info/gnd/102384746>;
+  gndo:hasRelation _:node1ivpishs6x25402134 .
+
+_:node1ivpishs6x25402134 gndo:relatedPerson <https://d-nb.info/gnd/102384746> .
+
+<https://d-nb.info/gnd/118613928> gndo:relatedPerson <https://d-nb.info/gnd/102385106>;
+  gndo:hasRelation _:node1ivpishs6x25402135 .
+
+_:node1ivpishs6x25402135 gndo:relatedPerson <https://d-nb.info/gnd/102385106> .
+
+<https://d-nb.info/gnd/118613928> gndo:relatedPerson <https://d-nb.info/gnd/102402086>;
+  gndo:hasRelation _:node1ivpishs6x25402136 .
+
+_:node1ivpishs6x25402136 gndo:relatedPerson <https://d-nb.info/gnd/102402086> .
+
+<https://d-nb.info/gnd/118613928> gndo:relatedPerson <https://d-nb.info/gnd/102403503>;
+  gndo:hasRelation _:node1ivpishs6x25402137 .
+
+_:node1ivpishs6x25402137 gndo:relatedPerson <https://d-nb.info/gnd/102403503> .
+
+<https://d-nb.info/gnd/118613928> gndo:relatedPerson <https://d-nb.info/gnd/118615394>;
+  gndo:hasRelation _:node1ivpishs6x25402138 .
+
+_:node1ivpishs6x25402138 gndo:relatedPerson <https://d-nb.info/gnd/118615394> .
+
+<https://d-nb.info/gnd/118613928> gndo:relatedPerson <https://d-nb.info/gnd/118801732>;
+  gndo:hasRelation _:node1ivpishs6x25402139 .
+
+_:node1ivpishs6x25402139 gndo:relatedPerson <https://d-nb.info/gnd/118801732> .
+
+<https://d-nb.info/gnd/118613928> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118613928/about> .
+
+<https://d-nb.info/gnd/118613928/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118613928> gndo:biographicalOrHistoricalInformation "Verfasser gnomischer Spruchweisheit; Griech. Politiker u. Philosophen, von denen Spruchweisheiten überliefert sind"@de;
+  gndo:udkCode "700 - 601 v. Chr. ", "600 - 501 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> .
+

@@ -1,0 +1,418 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118621769> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118621769/about> .
+
+<https://d-nb.info/gnd/118621769/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T16:43:55.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118621769> gndo:gndIdentifier "118621769";
+  owl:sameAs <https://dbpedia.org/resource/Theocritus>, <http://viaf.org/viaf/6986153954879605680006>,
+    <http://www.wikidata.org/entity/Q219484>;
+  gndo:oldAuthorityNumber "(DE-588)174391323";
+  owl:sameAs <https://d-nb.info/gnd/174391323>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174391323";
+  gndo:oldAuthorityNumber "(DE-588a)174391323", "(DE-588)1089922647";
+  owl:sameAs <https://d-nb.info/gnd/1089922647>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089922647";
+  gndo:oldAuthorityNumber "(DE-588)1089882327";
+  owl:sameAs <https://d-nb.info/gnd/1089882327>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089882327";
+  gndo:oldAuthorityNumber "(DE-588)1089718233";
+  owl:sameAs <https://d-nb.info/gnd/1089718233>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089718233";
+  gndo:oldAuthorityNumber "(DE-588)1089103891";
+  owl:sameAs <https://d-nb.info/gnd/1089103891>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089103891";
+  gndo:oldAuthorityNumber "(DE-588)174132190";
+  owl:sameAs <https://d-nb.info/gnd/174132190>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174132190";
+  gndo:oldAuthorityNumber "(DE-588a)174132190", "(DE-588a)118621769", "(DE-588a)119847647",
+    "(DE-588a)127807500", "(DE-588c)4059755-6";
+  gndo:variantNameForThePerson "Theokrit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590916 .
+
+_:node1ivs02adlx24590916 gndo:personalName "Theokrit" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokrit, von Syrakus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590917 .
+
+_:node1ivs02adlx24590917 gndo:personalName "Theokrit";
+  gndo:nameAddition "von Syrakus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theocritus, Bucolicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590918 .
+
+_:node1ivs02adlx24590918 gndo:personalName "Theocritus";
+  gndo:nameAddition "Bucolicus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theocritus, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590919 .
+
+_:node1ivs02adlx24590919 gndo:personalName "Theocritus";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theocritus, Syracusanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590920 .
+
+_:node1ivs02adlx24590920 gndo:personalName "Theocritus";
+  gndo:nameAddition "Syracusanus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theocritus, Syracusius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590921 .
+
+_:node1ivs02adlx24590921 gndo:personalName "Theocritus";
+  gndo:nameAddition "Syracusius" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokritos, Syrakusier";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590922 .
+
+_:node1ivs02adlx24590922 gndo:personalName "Theokritos";
+  gndo:nameAddition "Syrakusier" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokritos, von Syrakus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590923 .
+
+_:node1ivs02adlx24590923 gndo:personalName "Theokritos";
+  gndo:nameAddition "von Syrakus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokritos, Syrakusios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590924 .
+
+_:node1ivs02adlx24590924 gndo:personalName "Theokritos";
+  gndo:nameAddition "Syrakusios" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokritos, von Syracus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590925 .
+
+_:node1ivs02adlx24590925 gndo:personalName "Theokritos";
+  gndo:nameAddition "von Syracus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokritos, Dichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590926 .
+
+_:node1ivs02adlx24590926 gndo:personalName "Theokritos";
+  gndo:nameAddition "Dichter" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theocritus, Poeta Bucolicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590927 .
+
+_:node1ivs02adlx24590927 gndo:personalName "Theocritus";
+  gndo:nameAddition "Poeta Bucolicus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokritos, Bukolischer Dichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590928 .
+
+_:node1ivs02adlx24590928 gndo:personalName "Theokritos";
+  gndo:nameAddition "Bukolischer Dichter" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Teocrito, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590929 .
+
+_:node1ivs02adlx24590929 gndo:personalName "Teocrito";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Théocrite, de Syracuse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590930 .
+
+_:node1ivs02adlx24590930 gndo:personalName "Théocrite";
+  gndo:nameAddition "de Syracuse" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokritos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590931 .
+
+_:node1ivs02adlx24590931 gndo:personalName "Theokritos" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theokritus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590932 .
+
+_:node1ivs02adlx24590932 gndo:personalName "Theokritus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Théocrite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590933 .
+
+_:node1ivs02adlx24590933 gndo:personalName "Théocrite" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Theocrit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590934 .
+
+_:node1ivs02adlx24590934 gndo:personalName "Theocrit" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Teocrito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590935 .
+
+_:node1ivs02adlx24590935 gndo:personalName "Teocrito" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Diokrides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590936 .
+
+_:node1ivs02adlx24590936 gndo:personalName "Diokrides" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Pseudo-Theocritus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590937 .
+
+_:node1ivs02adlx24590937 gndo:personalName "Pseudo-Theocritus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Von Syrakus, Theokritos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590938 .
+
+_:node1ivs02adlx24590938 gndo:forename "Theokritos";
+  gndo:surname "Von Syrakus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Bucolicus, Theocritus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590939 .
+
+_:node1ivs02adlx24590939 gndo:forename "Theocritus";
+  gndo:surname "Bucolicus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Dichter, Theokritos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590940 .
+
+_:node1ivs02adlx24590940 gndo:forename "Theokritos";
+  gndo:surname "Dichter" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Poeta Bucolicus, Theocritus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590941 .
+
+_:node1ivs02adlx24590941 gndo:forename "Theocritus";
+  gndo:surname "Poeta Bucolicus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Syrakusier, Theokritos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590942 .
+
+_:node1ivs02adlx24590942 gndo:forename "Theokritos";
+  gndo:surname "Syrakusier" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Poeta, Teocrito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590943 .
+
+_:node1ivs02adlx24590943 gndo:forename "Teocrito";
+  gndo:surname "Poeta" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "De Syracuse, Théocrite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590944 .
+
+_:node1ivs02adlx24590944 gndo:forename "Théocrite";
+  gndo:surname "De Syracuse" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Syracusanus, Theocritus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590945 .
+
+_:node1ivs02adlx24590945 gndo:forename "Theocritus";
+  gndo:surname "Syracusanus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "VonSyrakus, Theokritos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590946 .
+
+_:node1ivs02adlx24590946 gndo:forename "Theokritos";
+  gndo:surname "VonSyrakus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "VonSyrakus, Theokrit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590947 .
+
+_:node1ivs02adlx24590947 gndo:forename "Theokrit";
+  gndo:surname "VonSyrakus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Bucolicus, Theocritus Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590948 .
+
+_:node1ivs02adlx24590948 gndo:forename "Theocritus Poeta";
+  gndo:surname "Bucolicus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "DeSyracuse, Théocrite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590949 .
+
+_:node1ivs02adlx24590949 gndo:forename "Théocrite";
+  gndo:surname "DeSyracuse" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Syrakus, Theokritos von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590950 .
+
+_:node1ivs02adlx24590950 gndo:forename "Theokritos";
+  gndo:prefix "von";
+  gndo:surname "Syrakus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Syrakus, Theokrit von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590951 .
+
+_:node1ivs02adlx24590951 gndo:forename "Theokrit";
+  gndo:prefix "von";
+  gndo:surname "Syrakus" .
+
+<https://d-nb.info/gnd/118621769> gndo:variantNameForThePerson "Syracuse, Théocrite de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590952 .
+
+_:node1ivs02adlx24590952 gndo:forename "Théocrite";
+  gndo:prefix "de";
+  gndo:surname "Syracuse" .
+
+<https://d-nb.info/gnd/118621769> gndo:preferredNameForThePerson "Theocritus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590953 .
+
+_:node1ivs02adlx24590953 gndo:personalName "Theocritus" .
+
+<https://d-nb.info/gnd/118621769> gndo:hasRelation _:node1ivs02adlx24590954 .
+
+_:node1ivs02adlx24590954 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590955 .
+
+_:node1ivs02adlx24590955 gndo:forename "Zacharias";
+  gndo:surname "Calliergus" .
+
+<https://d-nb.info/gnd/118621769> gndo:hasRelation _:node1ivs02adlx24590956 .
+
+_:node1ivs02adlx24590956 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590957 .
+
+_:node1ivs02adlx24590957 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:hasRelation _:node1ivs02adlx24590958 .
+
+_:node1ivs02adlx24590958 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124359655>;
+  gndo:hasRelation _:node1ivs02adlx24590959 .
+
+_:node1ivs02adlx24590959 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124359655>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:hasRelation _:node1ivs02adlx24590960 .
+
+_:node1ivs02adlx24590960 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590961 .
+
+_:node1ivs02adlx24590961 gndo:forename "Helius";
+  gndo:surname "Eobanus" .
+
+<https://d-nb.info/gnd/118621769> gndo:hasRelation _:node1ivs02adlx24590962 .
+
+_:node1ivs02adlx24590962 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590963 .
+
+_:node1ivs02adlx24590963 gndo:forename "Wilhelm";
+  gndo:surname "Holzmann" .
+
+<https://d-nb.info/gnd/118621769> gndo:hasRelation _:node1ivs02adlx24590964 .
+
+_:node1ivs02adlx24590964 gndo:functionOrRoleAsLiteral "Sorau; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590965 .
+
+_:node1ivs02adlx24590965 gndo:forename "Michael";
+  gndo:surname "Neander" .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594427>;
+  gndo:hasRelation _:node1ivs02adlx24590966 .
+
+_:node1ivs02adlx24590966 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594427>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:hasRelation _:node1ivs02adlx24590967 .
+
+_:node1ivs02adlx24590967 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590968 .
+
+_:node1ivs02adlx24590968 gndo:forename "Johannes";
+  gndo:surname "Pinicianus" .
+
+<https://d-nb.info/gnd/118621769> gndo:hasRelation _:node1ivs02adlx24590969 .
+
+_:node1ivs02adlx24590969 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621769> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590970 .
+
+_:node1ivs02adlx24590970 gndo:forename "Veit";
+  gndo:surname "Örtel";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118621769> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Theocritus: THEOCRITI SYRACVSANI EIDYLLIA trigintasex, Latino carmine reddita, Helio Eobano Hesso ... 1531. (VD16 T 722)",
+    "Theocritus: THEOCRITI SYRACVSANI POETAE CLARISSIMI IDYLLIA trigintasex, recens è graeco in latinum, ... 1554. (VD16 T 724)",
+    "Theocritus: Eidyllia. 1596. (VD16 ZV 14911)", "Theocritus: Idyllia, hoc est parva poemata. 1554. (VD16 ZV 25435)",
+    "Theocritus: Idyllia. 1558. (VD16 T 727)", "Theocritus: \\=GTHEOKRITU EIDYLLIA HEX KAI TRIAKONta, meta scholiōn ... TU AYTU THEOKRITU ... 1558. (VD16 T 717)",
+    "Theocritus: Idyllia. 1556. (VD16 T 729)", "Theocritus: Idyllia. 1558. (VD16 T 726)",
+    "Theocritus: THEOCRITI SYRACVSANI IDYLLIA TRIginta sex, Latino Carmine reddita, Helio Eobano Hesso ... 1530/1531. (VD16 T 721)",
+    "Theocritus: \\=GTHEOKRITU EIDYLLIA, TUTEsti mikra poiēmata hex kai triakonta.\\=g THEOCRITI ... 1582. (VD16 T 718)",
+    "Idyllia", "Eidyllia XXXVI", "Eidylla", "Eidyllia kai epigrammata", "Epithalamium Helenae",
+    "Reliquiae", "Theocriti idyllia", "Selecta quaedam Theocriti idyllia", "Theocriti carmina",
+    "Idyllen des Theokrit, Bion, Moschus und Koluthus", "Theocritus: Eidyllia XXXVI",
+    "Theocritus: Eidylla", "Theocritus: Eidyllia kai epigrammata", "Theocritus: Epithalamium Helenae",
+    "Theocritus: Reliquiae", "Theocritus: Theocriti idyllia", "Theocritus: Selecta quaedam Theocriti idyllia",
+    "Theocritus: Theocriti carmina", "Theocritus: Idyllia";
+  wdrs:describedby <https://d-nb.info/gnd/118621769/about> .
+
+<https://d-nb.info/gnd/118621769/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118621769> gndo:biographicalOrHistoricalInformation "Griechischer Bukoliker"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24590971 .
+
+_:node1ivs02adlx24590971 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118621769> gndo:dateOfBirthAndDeath "[v4./3.Jh.]" .
+

@@ -1,0 +1,210 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118793497> a gndo:DifferentiatedPerson;
+  owl:sameAs <https://isni.org/isni/0000000117619908>;
+  wdrs:describedby <https://d-nb.info/gnd/118793497/about> .
+
+<https://d-nb.info/gnd/118793497/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-24T14:42:52.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118793497> gndo:gndIdentifier "118793497";
+  foaf:page <https://de.wikipedia.org/wiki/Prokopios_von_Gaza>;
+  owl:sameAs <http://viaf.org/viaf/48159479>, <https://isni.org/isni/0000000117619908>,
+    <http://www.wikidata.org/entity/Q557776>, <http://id.loc.gov/rwo/agents/n84045623>;
+  gndo:oldAuthorityNumber "(DE-588)1089918690";
+  owl:sameAs <https://d-nb.info/gnd/1089918690>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089918690";
+  gndo:oldAuthorityNumber "(DE-588)1089771037";
+  owl:sameAs <https://d-nb.info/gnd/1089771037>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089771037";
+  gndo:oldAuthorityNumber "(DE-588)187186340";
+  owl:sameAs <https://d-nb.info/gnd/187186340>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187186340";
+  gndo:oldAuthorityNumber "(DE-588a)187186340", "(DE-588)18660534X";
+  owl:sameAs <https://d-nb.info/gnd/18660534X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18660534X";
+  gndo:oldAuthorityNumber "(DE-588a)18660534X", "(DE-588)172314267";
+  owl:sameAs <https://d-nb.info/gnd/172314267>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172314267";
+  gndo:oldAuthorityNumber "(DE-588a)172314267", "(DE-588a)118793497", "(DE-588a)119795132",
+    "(DE-588c)4112115-6";
+  gndo:variantNameForThePerson "Procopius, aus Gaza";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401966 .
+
+_:node1ivpishs6x25401966 gndo:personalName "Procopius";
+  gndo:nameAddition "aus Gaza" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Procopius, Sophistes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401967 .
+
+_:node1ivpishs6x25401967 gndo:personalName "Procopius";
+  gndo:nameAddition "Sophistes" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Procopius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401968 .
+
+_:node1ivpishs6x25401968 gndo:personalName "Procopius" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Prokopios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401969 .
+
+_:node1ivpishs6x25401969 gndo:personalName "Prokopios" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Procopius, Gazaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401970 .
+
+_:node1ivpishs6x25401970 gndo:personalName "Procopius";
+  gndo:nameAddition "Gazaeus" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Procopius, von Gaza";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401971 .
+
+_:node1ivpishs6x25401971 gndo:personalName "Procopius";
+  gndo:nameAddition "von Gaza" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Prokopius, von Gaza";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401972 .
+
+_:node1ivpishs6x25401972 gndo:personalName "Prokopius";
+  gndo:nameAddition "von Gaza" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Procopio, di Gaza";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401973 .
+
+_:node1ivpishs6x25401973 gndo:personalName "Procopio";
+  gndo:nameAddition "di Gaza" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Procope, de Gaza";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401974 .
+
+_:node1ivpishs6x25401974 gndo:personalName "Procope";
+  gndo:nameAddition "de Gaza" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Prokop, von Gaza";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401975 .
+
+_:node1ivpishs6x25401975 gndo:personalName "Prokop";
+  gndo:nameAddition "von Gaza" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Procopius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401976 .
+
+_:node1ivpishs6x25401976 gndo:personalName "Procopius";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Prokopios, ho Gazaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401977 .
+
+_:node1ivpishs6x25401977 gndo:personalName "Prokopios";
+  gndo:nameAddition "ho Gazaios" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Prokopios, Sophistēs Gazēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401978 .
+
+_:node1ivpishs6x25401978 gndo:personalName "Prokopios";
+  gndo:nameAddition "Sophistēs Gazēs" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Prokopios, Sophistēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401979 .
+
+_:node1ivpishs6x25401979 gndo:personalName "Prokopios";
+  gndo:nameAddition "Sophistēs" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Prokopios, Gazēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401980 .
+
+_:node1ivpishs6x25401980 gndo:personalName "Prokopios";
+  gndo:nameAddition "Gazēs" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Prokopios, z Gazy";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401981 .
+
+_:node1ivpishs6x25401981 gndo:personalName "Prokopios";
+  gndo:nameAddition "z Gazy" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Procope, de Gaza";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401982 .
+
+_:node1ivpishs6x25401982 gndo:personalName "Procope";
+  gndo:nameAddition "de Gaza" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Gazaeus, Procopius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401983 .
+
+_:node1ivpishs6x25401983 gndo:forename "Procopius";
+  gndo:surname "Gazaeus" .
+
+<https://d-nb.info/gnd/118793497> gndo:variantNameForThePerson "Προκόπιος, ο Γαζαίος"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401984 .
+
+_:node1ivpishs6x25401984 gndo:personalName "Προκόπιος";
+  gndo:nameAddition "ο Γαζαίος" .
+
+<https://d-nb.info/gnd/118793497> gndo:preferredNameForThePerson "Prokopios, von Gaza";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401985 .
+
+_:node1ivpishs6x25401985 gndo:personalName "Prokopios";
+  gndo:nameAddition "von Gaza" .
+
+<https://d-nb.info/gnd/118793497> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "PROCOPII GAZAEI SOPHISTAE COMMENTARII IN OCTAteuchum, hoc est, in priores octo Veteris ... 1555. (VD16 P 4985)",
+    "PROCOPII GAZAEI SOPHISTAE IN OCTATEVCHVM siue priores octo Veteris Testamenti libros ... 1555. (VD16 P 4986)",
+    "PROCOPII GAZAEI SOPHISTAE IN OCTATEVCHVM siue priores octo Veteris Testamenti libros ... 1560. (VD16 P 4987)";
+  wdrs:describedby <https://d-nb.info/gnd/118793497/about> .
+
+<https://d-nb.info/gnd/118793497/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/118793497> gndo:professionOrOccupation _:node1ivpishs6x25401986 .
+
+_:node1ivpishs6x25401986 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4030752-9> .
+
+<https://d-nb.info/gnd/118793497> gndo:dateOfBirth "0465"^^xsd:gYear;
+  gndo:dateOfDeath "0529"^^xsd:gYear .
+

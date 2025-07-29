@@ -1,0 +1,134 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118733745> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118733745/about> .
+
+<https://d-nb.info/gnd/118733745/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-08-18T07:32:19.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118733745> gndo:gndIdentifier "118733745";
+  foaf:page <https://de.wikipedia.org/wiki/Thomas_Michels>;
+  owl:sameAs <http://viaf.org/viaf/7825795>, <https://isni.org/isni/0000000084100842>,
+    <http://www.wikidata.org/entity/Q1756491>, <http://id.loc.gov/rwo/agents/n88627901>;
+  gndo:oldAuthorityNumber "(DE-588)117020788";
+  owl:sameAs <https://d-nb.info/gnd/117020788>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/117020788";
+  gndo:oldAuthorityNumber "(DE-588a)117020788", "(DE-588a)118733745", "(DE-588c)4100952-6";
+  gndo:variantNameForThePerson "Michels, Thomas Aquinas";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406136 .
+
+_:node1ivpishs6x25406136 gndo:forename "Thomas Aquinas";
+  gndo:surname "Michels" .
+
+<https://d-nb.info/gnd/118733745> gndo:variantNameForThePerson "Michels, Thomas Aqu.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406137 .
+
+_:node1ivpishs6x25406137 gndo:forename "Thomas Aqu.";
+  gndo:surname "Michels" .
+
+<https://d-nb.info/gnd/118733745> gndo:variantNameForThePerson "Michels, Thomas A.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406138 .
+
+_:node1ivpishs6x25406138 gndo:forename "Thomas A.";
+  gndo:surname "Michels" .
+
+<https://d-nb.info/gnd/118733745> gndo:variantNameForThePerson "Michels, Dom Thomas A.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406139 .
+
+_:node1ivpishs6x25406139 gndo:forename "Dom Thomas A.";
+  gndo:surname "Michels" .
+
+<https://d-nb.info/gnd/118733745> gndo:variantNameForThePerson "Michels, Peter Franz";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406140 .
+
+_:node1ivpishs6x25406140 gndo:forename "Peter Franz";
+  gndo:surname "Michels" .
+
+<https://d-nb.info/gnd/118733745> gndo:earlierNameOfThePerson _:node1ivpishs6x25406141 .
+
+_:node1ivpishs6x25406141 gndo:forename "Peter Franz";
+  gndo:surname "Michels";
+  a gndo:EarlierNameOfThePerson .
+
+<https://d-nb.info/gnd/118733745> gndo:preferredNameForThePerson "Michels, Thomas";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25406142 .
+
+_:node1ivpishs6x25406142 gndo:forename "Thomas";
+  gndo:surname "Michels" .
+
+<https://d-nb.info/gnd/118733745> gndo:relatedCorporateBody <https://d-nb.info/gnd/1000060-4>;
+  gndo:affiliation <https://d-nb.info/gnd/36184-7>, <https://d-nb.info/gnd/25880-5>,
+    <https://d-nb.info/gnd/1003892-9>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:academicDegree "Prof. Dr.";
+  gndo:professionOrOccupationAsLiteral "Religionshistoriker", "Liturgiewissenschaftler";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-AT>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-US>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>,
+    <http://id.loc.gov/vocabulary/iso639-2/fre>;
+  gndo:publication "Hrsg. von: Aufgang des Jahres", "Beiträge zur Geschichte des Bischofsweihetages im christlichen Altertum und im Mittelalter",
+    "Christus entgegen", "Die göttliche Gabe der Vollkommenheit", "Übers. von: Mysterien Christi",
+    "Übers. von: Augustinus, Aurelius: Mysterium des neuen Lebens", "Reich Gottes, Kirche, Civitas ...",
+    "Die Salzburger Domtore", "Sarmenta", "Übers. von: Maritain, Jacques: Vom Leben des Gebetes";
+  wdrs:describedby <https://d-nb.info/gnd/118733745/about> .
+
+<https://d-nb.info/gnd/118733745/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118733745> gndo:biographicalOrHistoricalInformation "Religionswissenschaftler, katholischer deutscher Theologe, lebte und lehrte hauptsächlich in Österreich, um 1944/1945 Emigration in die USA, Benediktiner (Dom, OSB) der Abtei Maria Laach"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4032952-5>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4076982-3>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4007666-0>, <https://d-nb.info/gnd/4076982-3>;
+  gndo:professionOrOccupation _:node1ivpishs6x25406143 .
+
+_:node1ivpishs6x25406143 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4030020-1>;
+  rdf:_2 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_3 <https://d-nb.info/gnd/1033885983>;
+  rdf:_4 <https://d-nb.info/gnd/4061414-1> .
+
+<https://d-nb.info/gnd/118733745> gndo:dateOfBirth "1892-10-28"^^xsd:date;
+  gndo:dateOfDeath "1979-01-13"^^xsd:date .
+

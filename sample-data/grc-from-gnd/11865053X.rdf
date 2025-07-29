@@ -1,0 +1,284 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11865053X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11865053X/about> .
+
+<https://d-nb.info/gnd/11865053X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-07-10T13:24:00.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11865053X> gndo:gndIdentifier "11865053X";
+  foaf:page <https://de.wikipedia.org/wiki/Artemidor_von_Daldis>;
+  owl:sameAs <https://dbpedia.org/resource/Artemidorus>, <http://viaf.org/viaf/61683125>,
+    <https://isni.org/isni/0000000118769107>, <http://www.wikidata.org/entity/Q445848>,
+    <http://id.loc.gov/rwo/agents/n50074037>;
+  gndo:oldAuthorityNumber "(DE-588)1089893000";
+  owl:sameAs <https://d-nb.info/gnd/1089893000>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089893000";
+  gndo:oldAuthorityNumber "(DE-588)1089841108";
+  owl:sameAs <https://d-nb.info/gnd/1089841108>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089841108";
+  gndo:oldAuthorityNumber "(DE-588)158258509";
+  owl:sameAs <https://d-nb.info/gnd/158258509>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158258509";
+  gndo:oldAuthorityNumber "(DE-588a)158258509", "(DE-588)157692191";
+  owl:sameAs <https://d-nb.info/gnd/157692191>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/157692191";
+  gndo:oldAuthorityNumber "(DE-588a)157692191", "(DE-588a)11865053X", "(DE-588a)119609711",
+    "(DE-588c)4085986-1";
+  gndo:variantNameForThePerson "Artemidōros, Daldianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592610 .
+
+_:node1ivs02adlx24592610 gndo:personalName "Artemidōros";
+  gndo:nameAddition "Daldianos" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidorus, Onirocriticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592611 .
+
+_:node1ivs02adlx24592611 gndo:personalName "Artemidorus";
+  gndo:nameAddition "Onirocriticus" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoros, von Daldis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592612 .
+
+_:node1ivs02adlx24592612 gndo:personalName "Artemidoros";
+  gndo:nameAddition "von Daldis" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoros, de Daldis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592613 .
+
+_:node1ivs02adlx24592613 gndo:personalName "Artemidoros";
+  gndo:nameAddition "de Daldis" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoros, Traumdeuter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592614 .
+
+_:node1ivs02adlx24592614 gndo:personalName "Artemidoros";
+  gndo:nameAddition "Traumdeuter" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoros, Wahrsager";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592615 .
+
+_:node1ivs02adlx24592615 gndo:personalName "Artemidoros";
+  gndo:nameAddition "Wahrsager" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidor, von Daldis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592616 .
+
+_:node1ivs02adlx24592616 gndo:personalName "Artemidor";
+  gndo:nameAddition "von Daldis" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidōros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592617 .
+
+_:node1ivs02adlx24592617 gndo:personalName "Artemidōros" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592618 .
+
+_:node1ivs02adlx24592618 gndo:personalName "Artemidor" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592619 .
+
+_:node1ivs02adlx24592619 gndo:personalName "Artemidorus" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoro, Daldiano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592620 .
+
+_:node1ivs02adlx24592620 gndo:personalName "Artemidoro";
+  gndo:nameAddition "Daldiano" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoros, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592621 .
+
+_:node1ivs02adlx24592621 gndo:personalName "Artemidoros";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidorus, of Daldis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592622 .
+
+_:node1ivs02adlx24592622 gndo:personalName "Artemidorus";
+  gndo:nameAddition "of Daldis" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoro, di Daldis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592623 .
+
+_:node1ivs02adlx24592623 gndo:personalName "Artemidoro";
+  gndo:nameAddition "di Daldis" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoro, Stoico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592624 .
+
+_:node1ivs02adlx24592624 gndo:personalName "Artemidoro";
+  gndo:nameAddition "Stoico" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Arṭāmīdūrus al-Afsīsī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592625 .
+
+_:node1ivs02adlx24592625 gndo:personalName "Arṭāmīdūrus al-Afsīsī" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Afsīsī, Arṭāmīdūrus al-";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592626 .
+
+_:node1ivs02adlx24592626 gndo:forename "Arṭāmīdūrus";
+  gndo:prefix "al-";
+  gndo:surname "Afsīsī" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Arṭimīdūrus al-Ifisī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592627 .
+
+_:node1ivs02adlx24592627 gndo:personalName "Arṭimīdūrus al-Ifisī" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Arṭimīdūrus ad-Dāldānī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592628 .
+
+_:node1ivs02adlx24592628 gndo:personalName "Arṭimīdūrus ad-Dāldānī" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Daldianus, Artemidorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592629 .
+
+_:node1ivs02adlx24592629 gndo:forename "Artemidorus";
+  gndo:surname "Daldianus" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artémidore, d'Éphèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592630 .
+
+_:node1ivs02adlx24592630 gndo:personalName "Artémidore";
+  gndo:nameAddition "d'Éphèse" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artémidore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592631 .
+
+_:node1ivs02adlx24592631 gndo:personalName "Artémidore" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "Artemidoros, Daldianer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592632 .
+
+_:node1ivs02adlx24592632 gndo:personalName "Artemidoros";
+  gndo:nameAddition "Daldianer" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "أفسسي, أرطاميدورس ال"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592633 .
+
+_:node1ivs02adlx24592633 gndo:forename "أرطاميدورس";
+  gndo:prefix "ال";
+  gndo:surname "أفسسي" .
+
+<https://d-nb.info/gnd/11865053X> gndo:variantNameForThePerson "الأفسسي, أرطاميدورس"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592634 .
+
+_:node1ivs02adlx24592634 gndo:forename "أرطاميدورس";
+  gndo:surname "الأفسسي" .
+
+<https://d-nb.info/gnd/11865053X> gndo:preferredNameForThePerson "Artemidorus, Daldianus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592635 .
+
+_:node1ivs02adlx24592635 gndo:personalName "Artemidorus";
+  gndo:nameAddition "Daldianus" .
+
+<https://d-nb.info/gnd/11865053X> gndo:professionalRelationship <https://d-nb.info/gnd/11769875X>;
+  gndo:hasRelation _:node1ivs02adlx24592636 .
+
+_:node1ivs02adlx24592636 gndo:professionalRelationship <https://d-nb.info/gnd/11769875X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11865053X> gndo:hasRelation _:node1ivs02adlx24592637 .
+
+_:node1ivs02adlx24592637 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11865053X> gndo:professionalRelationship _:node1ivs02adlx24592638 .
+
+_:node1ivs02adlx24592638 gndo:forename "Philipp";
+  gndo:surname "Melanchthon" .
+
+<https://d-nb.info/gnd/11865053X> gndo:hasRelation _:node1ivs02adlx24592639 .
+
+_:node1ivs02adlx24592639 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11865053X> gndo:professionalRelationship _:node1ivs02adlx24592640 .
+
+_:node1ivs02adlx24592640 gndo:forename "Walter Hermann";
+  gndo:surname "Ryff" .
+
+<https://d-nb.info/gnd/11865053X> gndo:professionalRelationship <https://d-nb.info/gnd/118604376>;
+  gndo:hasRelation _:node1ivs02adlx24592641 .
+
+_:node1ivs02adlx24592641 gndo:professionalRelationship <https://d-nb.info/gnd/118604376>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11865053X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#5.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Wahrhaftige, gewisse und unbetrügliche Unterweisung, wie alle Träume, Erscheinungen und nächtliche Gesichte ... ausgelegt werden sollen",
+    "ARTEMIDORI DALDIANI PHILOSOPHI EXCELlentissimi, De somniorum interpretatione, Libri Quin\\[que], ...",
+    "Somniorum interpretatione libri quinque", "Traumbuch Artemidori des Griechischen Philosophi, darinnen ursprung, unterscheid und bedeutung, ...",
+    "Traumbuch Artemidori, vorweilen durch Gualtherum H.Ryff verteutschet. Jetzund von newen überlesen, ...",
+    "ARTEMIDORI DALDIANI PHILOSOPHI EXCELlentissimi, De somniorum interpretatione, Libri Quin\\[que], ...",
+    "Commentarius de anima, Ausz.", "Traumbuch Artemidori des Griechischen Phi-losophi dariñen vrsprung vnterscheid vnd ...",
+    "Wahrhaftige, gewisse und unbetrügliche Unterweisung, wie alle Träume, Erscheinungen und nächtliche Gesichte ... ausgelegt werden sollen",
+    "Commentarius de anima, Ausz.", "De somniorum interpretatione", "Epitome des cinq livres d'Artemidorus",
+    "Artemidore de la explication des songes", "Artemidori et Achmetus Seirini Oneirocritica",
+    "The judgement of dreames", "The interpretation of dreames", "Les jugemens astronomiques de songes ....",
+    "Größeres ... Traumbuch", "The interpretation of dreames";
+  wdrs:describedby <https://d-nb.info/gnd/11865053X/about> .
+
+<https://d-nb.info/gnd/11865053X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11865053X> gndo:biographicalOrHistoricalInformation "Traumdeuter; stammte zwar aus Ephesos, benannte sich aber nach der Heimatstadt seiner Mutter, Daldis in Lydien"@de;
+  gndo:udkCode "101 - 200";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4015012-4>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592642 .
+
+_:node1ivs02adlx24592642 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4117577-3>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/11865053X> gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

@@ -1,0 +1,379 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118555766> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118555766/about> .
+
+<https://d-nb.info/gnd/118555766/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-01-31T13:17:17.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118555766> gndo:gndIdentifier "118555766";
+  foaf:page <https://de.wikipedia.org/wiki/Iren%C3%A4us_von_Lyon>;
+  owl:sameAs <https://dbpedia.org/resource/Irenaeus>, <http://viaf.org/viaf/70051641>,
+    <https://isni.org/isni/000000038521160X>, <http://www.wikidata.org/entity/Q182123>;
+  gndo:oldAuthorityNumber "(DE-588)1089927568";
+  owl:sameAs <https://d-nb.info/gnd/1089927568>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089927568";
+  gndo:oldAuthorityNumber "(DE-588)1089713541";
+  owl:sameAs <https://d-nb.info/gnd/1089713541>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089713541";
+  gndo:oldAuthorityNumber "(DE-588)1089154658";
+  owl:sameAs <https://d-nb.info/gnd/1089154658>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089154658";
+  gndo:oldAuthorityNumber "(DE-588)1026331765";
+  owl:sameAs <https://d-nb.info/gnd/1026331765>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026331765";
+  gndo:oldAuthorityNumber "(DE-588)185877540";
+  owl:sameAs <https://d-nb.info/gnd/185877540>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877540";
+  gndo:oldAuthorityNumber "(DE-588a)185877540", "(DE-588a)118555766", "(DE-588a)119719223",
+    "(DE-588c)4027656-9";
+  gndo:variantNameForThePerson "Irenaeus, von Lyon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398389 .
+
+_:node1ivpishs6x25398389 gndo:personalName "Irenaeus";
+  gndo:nameAddition "von Lyon" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Eirenaios, von Lyon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398390 .
+
+_:node1ivpishs6x25398390 gndo:personalName "Eirenaios";
+  gndo:nameAddition "von Lyon" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Eirenaios, von Kleinasien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398391 .
+
+_:node1ivpishs6x25398391 gndo:personalName "Eirenaios";
+  gndo:nameAddition "von Kleinasien" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Eirenaios, von Lugdunum";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398392 .
+
+_:node1ivpishs6x25398392 gndo:personalName "Eirenaios";
+  gndo:nameAddition "von Lugdunum" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, Martyr";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398393 .
+
+_:node1ivpishs6x25398393 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Martyr" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, Lugdunum, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398394 .
+
+_:node1ivpishs6x25398394 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Lugdunum, Episcopus" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Eirenaios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398395 .
+
+_:node1ivpishs6x25398395 gndo:personalName "Eirenaios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398396 .
+
+_:node1ivpishs6x25398396 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398397 .
+
+_:node1ivpishs6x25398397 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398398 .
+
+_:node1ivpishs6x25398398 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irénée, de Lyon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398399 .
+
+_:node1ivpishs6x25398399 gndo:personalName "Irénée";
+  gndo:nameAddition "de Lyon" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ireneo, de Lyon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398400 .
+
+_:node1ivpishs6x25398400 gndo:personalName "Ireneo";
+  gndo:nameAddition "de Lyon" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irénée, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398401 .
+
+_:node1ivpishs6x25398401 gndo:personalName "Irénée";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ireneo, di Lione";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398402 .
+
+_:node1ivpishs6x25398402 gndo:personalName "Ireneo";
+  gndo:nameAddition "di Lione" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ireneo, San";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398403 .
+
+_:node1ivpishs6x25398403 gndo:personalName "Ireneo";
+  gndo:nameAddition "San" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ireneu, de Lião";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398404 .
+
+_:node1ivpishs6x25398404 gndo:personalName "Ireneu";
+  gndo:nameAddition "de Lião" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398405 .
+
+_:node1ivpishs6x25398405 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, of Lyon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398406 .
+
+_:node1ivpishs6x25398406 gndo:personalName "Irenaeus";
+  gndo:nameAddition "of Lyon" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ireneusz, z Lyonu";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398407 .
+
+_:node1ivpishs6x25398407 gndo:personalName "Ireneusz";
+  gndo:nameAddition "z Lyonu" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ireneusz, Świe̜ty";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398408 .
+
+_:node1ivpishs6x25398408 gndo:personalName "Ireneusz";
+  gndo:nameAddition "Świe̜ty" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Eirēnaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398409 .
+
+_:node1ivpishs6x25398409 gndo:personalName "Eirēnaios" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Hirenaeus, Lugdunensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398410 .
+
+_:node1ivpishs6x25398410 gndo:personalName "Hirenaeus";
+  gndo:nameAddition "Lugdunensis" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Hyrenaeus, Lugdunensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398411 .
+
+_:node1ivpishs6x25398411 gndo:personalName "Hyrenaeus";
+  gndo:nameAddition "Lugdunensis" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenäus, von Lyon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398412 .
+
+_:node1ivpishs6x25398412 gndo:personalName "Irenäus";
+  gndo:nameAddition "von Lyon" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Eirēnaios, Episkopos Lugdunu";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398413 .
+
+_:node1ivpishs6x25398413 gndo:personalName "Eirēnaios";
+  gndo:nameAddition "Episkopos Lugdunu" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398414 .
+
+_:node1ivpishs6x25398414 gndo:personalName "Irenaeus Sanctus" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398415 .
+
+_:node1ivpishs6x25398415 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Irenaeus, Bischof von Lyon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398416 .
+
+_:node1ivpishs6x25398416 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Bischof von Lyon" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Hagios Eirēnaios, Episkopos Lugdunu";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398417 .
+
+_:node1ivpishs6x25398417 gndo:personalName "Hagios Eirēnaios";
+  gndo:nameAddition "Episkopos Lugdunu" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Hagios Eirēnaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398418 .
+
+_:node1ivpishs6x25398418 gndo:personalName "Hagios Eirēnaios" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Eirēnaios, Hagios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398419 .
+
+_:node1ivpishs6x25398419 gndo:personalName "Eirēnaios";
+  gndo:nameAddition "Hagios" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ειρηναίος της Λυών";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398420 .
+
+_:node1ivpishs6x25398420 gndo:personalName "Ειρηναίος της Λυών" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ειρηναίος Λυώνος";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398421 .
+
+_:node1ivpishs6x25398421 gndo:personalName "Ειρηναίος Λυώνος" .
+
+<https://d-nb.info/gnd/118555766> gndo:variantNameForThePerson "Ειρηναίος Λουγδούνου";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398422 .
+
+_:node1ivpishs6x25398422 gndo:personalName "Ειρηναίος Λουγδούνου" .
+
+<https://d-nb.info/gnd/118555766> gndo:preferredNameForThePerson "Irenaeus, Lugdunensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25398423 .
+
+_:node1ivpishs6x25398423 gndo:personalName "Irenaeus";
+  gndo:nameAddition "Lugdunensis" .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivpishs6x25398424 .
+
+_:node1ivpishs6x25398424 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/122143698>;
+  gndo:hasRelation _:node1ivpishs6x25398425 .
+
+_:node1ivpishs6x25398425 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/122143698>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118955179>;
+  gndo:hasRelation _:node1ivpishs6x25398426 .
+
+_:node1ivpishs6x25398426 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118955179>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:hasRelation _:node1ivpishs6x25398427 .
+
+_:node1ivpishs6x25398427 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25398428 .
+
+_:node1ivpishs6x25398428 gndo:forename "Johannes Jakob";
+  gndo:surname "Grynaeus" .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11971843X>;
+  gndo:hasRelation _:node1ivpishs6x25398429 .
+
+_:node1ivpishs6x25398429 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11971843X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119740893>;
+  gndo:hasRelation _:node1ivpishs6x25398430 .
+
+_:node1ivpishs6x25398430 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119740893>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128426764>;
+  gndo:hasRelation _:node1ivpishs6x25398431 .
+
+_:node1ivpishs6x25398431 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128426764>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119689774>;
+  gndo:hasRelation _:node1ivpishs6x25398432 .
+
+_:node1ivpishs6x25398432 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119689774>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119808447>;
+  gndo:hasRelation _:node1ivpishs6x25398433 .
+
+_:node1ivpishs6x25398433 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119808447>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12461650X>;
+  gndo:hasRelation _:node1ivpishs6x25398434 .
+
+_:node1ivpishs6x25398434 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12461650X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555766> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  gndo:publication "Opus eruditissimum adversus Haereses Valentini", "Opus eruditissimum adversus haereses ..",
+    "Opus eruditissimum adversus haereses ..", "Opus eruditissimum adversus haereses ..",
+    "Opus eruditissimum in quinque libros digestum", "Opus eruditissimum in quinque libros digestum",
+    "Opus eruditissimum in quinque libros digestum", "Opus eruditissimum in quinque libros digestum",
+    "Opus eruditissimum in quinque libros digestum", "Opus eruditissimum in quinque libros digestum",
+    "D.IRENAEI EPISCOPI LVGDVNENSIS, OPVS ERVDItissimum, in quinq. libros digestum, in ... 1571. (VD16 I 321)",
+    "DIVI IRENAEI, LVGDVNENSIS EPISCOPI, ET MARTYRIS, Aduersus Valentini, & similium ... 1596. (VD16 I 322)",
+    "OPVS ERVDITISSIMUM DIVI IRENAEI EPISCOPI LVGDVNENSIS, IN QVINQVE LIBROS DIGESTVM, IN QVIBVS ... 1560. (VD16 I 320)",
+    "OPVS ERVDITISSIMVM DIVI IRENAEI EPISCOPI LVGDVNENSIS IN QVINQVE LIBROS DIGEstum, in quibus ... 1526. (VD16 I 316)",
+    "OPVS ERVDITISSIMVM DIVI IRENAEI EPISCOPI LVGDVNENSIS IN QVINQVE LIBROS DIGEstum,in quibus ... 1528. (VD16 I 317)",
+    "OPVS ERVDITISSIMVM DIVI IRENAEI EPISCOPI LVGDVNENSIS IN QVINQVE LIBROS DIGEstum,in quibus ... 1534. (VD16 I 318)",
+    "OPVS ERVDITISSIMVM DIVI IRENAEI EPISCOPI LVGDVNENSIS IN QVINQVE LIBROS DIGESTVM. IN QVIBVS ... 1548. (VD16 I 319)";
+  wdrs:describedby <https://d-nb.info/gnd/118555766/about> .
+
+<https://d-nb.info/gnd/118555766/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118555766> gndo:biographicalOrHistoricalInformation "Aus Kleinasien stammender Kirchenvater u. seit ca. 177/178 Bischof von Lyon"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:professionOrOccupation _:node1ivpishs6x25398435 .
+
+_:node1ivpishs6x25398435 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118555766> gndo:dateOfBirth "0140"^^xsd:gYear;
+  gndo:dateOfDeath "0202"^^xsd:gYear .
+

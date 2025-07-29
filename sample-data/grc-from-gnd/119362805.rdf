@@ -1,0 +1,154 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119362805> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119362805/about> .
+
+<https://d-nb.info/gnd/119362805/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2016-05-04T01:05:20.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119362805> gndo:gndIdentifier "119362805";
+  foaf:page <https://de.wikipedia.org/wiki/Areios_%28Philosoph%29>;
+  owl:sameAs <https://dbpedia.org/resource/Arius_Didymus>, <http://viaf.org/viaf/7670336>,
+    <https://isni.org/isni/0000000002805209>, <http://www.wikidata.org/entity/Q641051>,
+    <http://id.loc.gov/rwo/agents/n83031882>;
+  gndo:oldAuthorityNumber "(DE-588)1089884613";
+  owl:sameAs <https://d-nb.info/gnd/1089884613>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089884613";
+  gndo:oldAuthorityNumber "(DE-588)1089727976";
+  owl:sameAs <https://d-nb.info/gnd/1089727976>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089727976";
+  gndo:oldAuthorityNumber "(DE-588)1089600879";
+  owl:sameAs <https://d-nb.info/gnd/1089600879>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089600879";
+  gndo:oldAuthorityNumber "(DE-588)1089296592";
+  owl:sameAs <https://d-nb.info/gnd/1089296592>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089296592";
+  gndo:oldAuthorityNumber "(DE-588a)119362805", "(DE-588c)4420767-0";
+  gndo:variantNameForThePerson "Areios, Lehrer des Augustus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404217 .
+
+_:node1ivpishs6x25404217 gndo:personalName "Areios";
+  gndo:nameAddition "Lehrer des Augustus" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Areios, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404218 .
+
+_:node1ivpishs6x25404218 gndo:personalName "Areios";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Areios, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404219 .
+
+_:node1ivpishs6x25404219 gndo:personalName "Areios";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Arius, Doxographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404220 .
+
+_:node1ivpishs6x25404220 gndo:personalName "Arius";
+  gndo:nameAddition "Doxographus" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Didymus, Arius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404221 .
+
+_:node1ivpishs6x25404221 gndo:forename "Arius";
+  gndo:surname "Didymus" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Ario, Didimo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404222 .
+
+_:node1ivpishs6x25404222 gndo:personalName "Ario";
+  gndo:nameAddition "Didimo" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Ario, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404223 .
+
+_:node1ivpishs6x25404223 gndo:personalName "Ario";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Ario, Filosofo Stoico-Eclettico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404224 .
+
+_:node1ivpishs6x25404224 gndo:personalName "Ario";
+  gndo:nameAddition "Filosofo Stoico-Eclettico" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Ario, Maestro di Augusto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404225 .
+
+_:node1ivpishs6x25404225 gndo:personalName "Ario";
+  gndo:nameAddition "Maestro di Augusto" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Ario, Amico di Augusto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404226 .
+
+_:node1ivpishs6x25404226 gndo:personalName "Ario";
+  gndo:nameAddition "Amico di Augusto" .
+
+<https://d-nb.info/gnd/119362805> gndo:variantNameForThePerson "Areios, Didymos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404227 .
+
+_:node1ivpishs6x25404227 gndo:personalName "Areios";
+  gndo:nameAddition "Didymos" .
+
+<https://d-nb.info/gnd/119362805> gndo:preferredNameForThePerson "Arius, Didymus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404228 .
+
+_:node1ivpishs6x25404228 gndo:personalName "Arius";
+  gndo:nameAddition "Didymus" .
+
+<https://d-nb.info/gnd/119362805> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119362805/about> .
+
+<https://d-nb.info/gnd/119362805/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/AT-OBV>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/AT-OBV> .
+
+<https://d-nb.info/gnd/119362805> gndo:biographicalOrHistoricalInformation "Griech. Philosoph u. Philosophiehistoriker"@de;
+  gndo:udkCode "100 - 1 v. Chr. ", "1 - 100 n. Chr.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v1. Jh. - 1. Jh.]" .
+

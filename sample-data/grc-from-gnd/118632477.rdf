@@ -1,0 +1,393 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118632477> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118632477/about> .
+
+<https://d-nb.info/gnd/118632477/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-06T14:47:11.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118632477> gndo:gndIdentifier "118632477";
+  foaf:page <https://de.wikipedia.org/wiki/Christoph_Martin_Wieland>;
+  owl:sameAs <https://dbpedia.org/resource/Christoph_Martin_Wieland>, <http://viaf.org/viaf/9856912>,
+    <https://isni.org/isni/0000000120990142>, <http://www.wikidata.org/entity/Q154010>,
+    <http://id.loc.gov/rwo/agents/n50016222>;
+  gndo:oldAuthorityNumber "(DE-588)1325004529";
+  owl:sameAs <https://d-nb.info/gnd/1325004529>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1325004529";
+  gndo:oldAuthorityNumber "(DE-588)1235988406";
+  owl:sameAs <https://d-nb.info/gnd/1235988406>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1235988406";
+  gndo:oldAuthorityNumber "(DE-588)1014850460";
+  owl:sameAs <https://d-nb.info/gnd/1014850460>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1014850460";
+  gndo:oldAuthorityNumber "(DE-588a)1014850460", "(DE-588)186110448";
+  owl:sameAs <https://d-nb.info/gnd/186110448>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186110448";
+  gndo:oldAuthorityNumber "(DE-588a)186110448", "(DE-588)1021835544";
+  owl:sameAs <https://d-nb.info/gnd/1021835544>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1021835544";
+  gndo:oldAuthorityNumber "(DE-588a)118632477", "(DE-588a)135057779", "(DE-588a)127323643",
+    "(DE-588a)12706088X", "(DE-101c)310747775";
+  gndo:relatedWork <https://d-nb.info/gnd/1245974297>;
+  gndo:variantNameForThePerson "Wieland, Christoph-Martin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585896 .
+
+_:node1ivs02adlx24585896 gndo:forename "Christoph-Martin";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Christoph M.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585897 .
+
+_:node1ivs02adlx24585897 gndo:forename "Christoph M.";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Christof Martin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585898 .
+
+_:node1ivs02adlx24585898 gndo:forename "Christof Martin";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Christophorus Martinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585899 .
+
+_:node1ivs02adlx24585899 gndo:forename "Christophorus Martinus";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Christovao Martinho";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585900 .
+
+_:node1ivs02adlx24585900 gndo:forename "Christovao Martinho";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Christian Martin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585901 .
+
+_:node1ivs02adlx24585901 gndo:forename "Christian Martin";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Christian M.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585902 .
+
+_:node1ivs02adlx24585902 gndo:forename "Christian M.";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Cristoph Martin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585903 .
+
+_:node1ivs02adlx24585903 gndo:forename "Cristoph Martin";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, C. M.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585904 .
+
+_:node1ivs02adlx24585904 gndo:forename "C. M.";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, C.M.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585905 .
+
+_:node1ivs02adlx24585905 gndo:forename "C.M.";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Kristóf Márton";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585906 .
+
+_:node1ivs02adlx24585906 gndo:forename "Kristóf Márton";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Kristoóf Márton";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585907 .
+
+_:node1ivs02adlx24585907 gndo:forename "Kristoóf Márton";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Kristoóf M.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585908 .
+
+_:node1ivs02adlx24585908 gndo:forename "Kristoóf M.";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Herr Hofrath";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585909 .
+
+_:node1ivs02adlx24585909 gndo:personalName "Wieland";
+  gndo:nameAddition "Herr Hofrath" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland, Monsieur";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585910 .
+
+_:node1ivs02adlx24585910 gndo:personalName "Wieland";
+  gndo:nameAddition "Monsieur" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wieland";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585911 .
+
+_:node1ivs02adlx24585911 gndo:personalName "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wielland, Christoph Martin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585912 .
+
+_:node1ivs02adlx24585912 gndo:forename "Christoph Martin";
+  gndo:surname "Wielland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "A. W.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585913 .
+
+_:node1ivs02adlx24585913 gndo:personalName "A. W." .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "A.W.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585914 .
+
+_:node1ivs02adlx24585914 gndo:personalName "A.W." .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Beilandos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585915 .
+
+_:node1ivs02adlx24585915 gndo:personalName "Beilandos" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Veilandos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585916 .
+
+_:node1ivs02adlx24585916 gndo:personalName "Veilandos" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Vieland, Christoph Martin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585917 .
+
+_:node1ivs02adlx24585917 gndo:forename "Christoph Martin";
+  gndo:surname "Vieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Vieland";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585918 .
+
+_:node1ivs02adlx24585918 gndo:personalName "Vieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Viland, Kristof Martin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585919 .
+
+_:node1ivs02adlx24585919 gndo:forename "Kristof Martin";
+  gndo:surname "Viland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Viland, K. M.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585920 .
+
+_:node1ivs02adlx24585920 gndo:forename "K. M.";
+  gndo:surname "Viland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Viland, K.M.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585921 .
+
+_:node1ivs02adlx24585921 gndo:forename "K.M.";
+  gndo:surname "Viland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Viland";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585922 .
+
+_:node1ivs02adlx24585922 gndo:personalName "Viland" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Vīrando, Kurisutōfu Marutin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585923 .
+
+_:node1ivs02adlx24585923 gndo:forename "Kurisutōfu Marutin";
+  gndo:surname "Vīrando" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Vīranto, Kurisutofu Marutin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585924 .
+
+_:node1ivs02adlx24585924 gndo:forename "Kurisutofu Marutin";
+  gndo:surname "Vīranto" .
+
+<https://d-nb.info/gnd/118632477> gndo:variantNameForThePerson "Wielland";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585925 .
+
+_:node1ivs02adlx24585925 gndo:personalName "Wielland" .
+
+<https://d-nb.info/gnd/118632477> gndo:preferredNameForThePerson "Wieland, Christoph Martin";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585926 .
+
+_:node1ivs02adlx24585926 gndo:forename "Christoph Martin";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/121093107>;
+  agrelon:hasParent <https://d-nb.info/gnd/121093107>;
+  gndo:hasRelation _:node1ivs02adlx24585927 .
+
+_:node1ivs02adlx24585927 agrelon:hasParent <https://d-nb.info/gnd/121093107>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/1254004807>;
+  agrelon:hasSibling <https://d-nb.info/gnd/1254004807>;
+  gndo:hasRelation _:node1ivs02adlx24585928 .
+
+_:node1ivs02adlx24585928 agrelon:hasSibling <https://d-nb.info/gnd/1254004807>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/129733946>;
+  agrelon:hasSpouse <https://d-nb.info/gnd/129733946>;
+  gndo:hasRelation _:node1ivs02adlx24585929 .
+
+_:node1ivs02adlx24585929 agrelon:hasSpouse <https://d-nb.info/gnd/129733946>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/118807218>;
+  agrelon:hasChild <https://d-nb.info/gnd/118807218>;
+  gndo:hasRelation _:node1ivs02adlx24585930 .
+
+_:node1ivs02adlx24585930 agrelon:hasChild <https://d-nb.info/gnd/118807218>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/117361828>;
+  agrelon:hasChild <https://d-nb.info/gnd/117361828>;
+  gndo:hasRelation _:node1ivs02adlx24585931 .
+
+_:node1ivs02adlx24585931 agrelon:hasChild <https://d-nb.info/gnd/117361828>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/116423293>;
+  agrelon:hasChild <https://d-nb.info/gnd/116423293>;
+  gndo:hasRelation _:node1ivs02adlx24585932 .
+
+_:node1ivs02adlx24585932 agrelon:hasChild <https://d-nb.info/gnd/116423293>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/11691940X>;
+  agrelon:hasChild <https://d-nb.info/gnd/11691940X>;
+  gndo:hasRelation _:node1ivs02adlx24585933 .
+
+_:node1ivs02adlx24585933 agrelon:hasChild <https://d-nb.info/gnd/11691940X>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/117244163>;
+  gndo:hasRelation _:node1ivs02adlx24585934 .
+
+_:node1ivs02adlx24585934 gndo:familialRelationship <https://d-nb.info/gnd/117244163>;
+  gndo:functionOrRoleAsLiteral "Schwiegersohn";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship <https://d-nb.info/gnd/103068112>;
+  agrelon:hasGrandParent <https://d-nb.info/gnd/103068112>;
+  gndo:hasRelation _:node1ivs02adlx24585935 .
+
+_:node1ivs02adlx24585935 agrelon:hasGrandParent <https://d-nb.info/gnd/103068112>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:hasRelation _:node1ivs02adlx24585936 .
+
+_:node1ivs02adlx24585936 a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship _:node1ivs02adlx24585937 .
+
+_:node1ivs02adlx24585937 gndo:forename "Wilhelmine";
+  gndo:surname "Hübsch" .
+
+<https://d-nb.info/gnd/118632477> gndo:hasRelation _:node1ivs02adlx24585938 .
+
+_:node1ivs02adlx24585938 a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship _:node1ivs02adlx24585939 .
+
+_:node1ivs02adlx24585939 gndo:forename "Johann Wilhelm";
+  gndo:surname "Baumer" .
+
+<https://d-nb.info/gnd/118632477> gndo:hasRelation _:node1ivs02adlx24585940 .
+
+_:node1ivs02adlx24585940 gndo:functionOrRoleAsLiteral "Ehepartner";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship _:node1ivs02adlx24585941 .
+
+_:node1ivs02adlx24585941 gndo:forename "Anna Dorothea";
+  gndo:prefix "von";
+  gndo:surname "Hillenbrand" .
+
+<https://d-nb.info/gnd/118632477> gndo:hasRelation _:node1ivs02adlx24585942 .
+
+_:node1ivs02adlx24585942 a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship _:node1ivs02adlx24585943 .
+
+_:node1ivs02adlx24585943 gndo:forename "Regina Katharina";
+  gndo:surname "Kick" .
+
+<https://d-nb.info/gnd/118632477> gndo:hasRelation _:node1ivs02adlx24585944 .
+
+_:node1ivs02adlx24585944 a gndo:Relationship .
+
+<https://d-nb.info/gnd/118632477> gndo:familialRelationship _:node1ivs02adlx24585945 .
+
+_:node1ivs02adlx24585945 gndo:forename "Ludwig Friedrich August";
+  gndo:surname "Wieland" .
+
+<https://d-nb.info/gnd/118632477> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/ger>, <http://id.loc.gov/vocabulary/iso639-2/lat>,
+    <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/eng>;
+  gndo:publication "Agathon", "Auch ein Nonakzeßit zu der Berlinischen Preisaufgabe aufs Jahr 1780 ..",
+    "Geschichte der Abderiten", "Geschichte des Agathon", "Der goldene Spiegel oder die Könige von Scheschian",
+    "Der Neue Amadis", "Der Sieg der Natur über die Schwärmerey, oder Abentheuer des Don Sylvio von Rosalva",
+    "Taschenbuch auf das Jahr 1804", "Übers. von: Briefe einer antiken Philosophin : Griechisch/Deutsch",
+    "Übers. von: Shakespeare, William: Othello. - Online-Ressource";
+  wdrs:describedby <https://d-nb.info/gnd/118632477/about> .
+
+<https://d-nb.info/gnd/118632477/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118632477> gndo:placeOfBirth <https://d-nb.info/gnd/4716023-8>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4006424-4>, <https://d-nb.info/gnd/4015240-6>,
+    <https://d-nb.info/gnd/1203836368>, <https://d-nb.info/gnd/4065105-8>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4065105-8>;
+  owl:sameAs <https://www.filmportal.de/C166E380DBAA4E04A7A7905B8D3DD2F0>;
+  gndo:professionOrOccupation _:node1ivs02adlx24585946 .
+
+_:node1ivs02adlx24585946 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4044300-0>;
+  rdf:_3 <https://d-nb.info/gnd/4061414-1>;
+  rdf:_4 <https://d-nb.info/gnd/4140241-8>;
+  rdf:_5 <https://d-nb.info/gnd/4025243-7>;
+  rdf:_6 <https://d-nb.info/gnd/4168391-2> .
+
+<https://d-nb.info/gnd/118632477> gndo:dateOfBirth "1733-09-05"^^xsd:date;
+  gndo:dateOfDeath "1813-01-20"^^xsd:date .
+

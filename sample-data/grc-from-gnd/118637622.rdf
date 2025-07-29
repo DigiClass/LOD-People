@@ -1,0 +1,293 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118637622> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118637622/about> .
+
+<https://d-nb.info/gnd/118637622/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:28:22.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118637622> gndo:gndIdentifier "118637622";
+  owl:sameAs <https://dbpedia.org/resource/Aeschines>, <http://viaf.org/viaf/62341952>,
+    <http://www.wikidata.org/entity/Q317089>;
+  gndo:oldAuthorityNumber "(DE-588)1089722125";
+  owl:sameAs <https://d-nb.info/gnd/1089722125>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089722125";
+  gndo:oldAuthorityNumber "(DE-588)1089892810";
+  owl:sameAs <https://d-nb.info/gnd/1089892810>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089892810";
+  gndo:oldAuthorityNumber "(DE-588)1089156782";
+  owl:sameAs <https://d-nb.info/gnd/1089156782>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089156782";
+  gndo:oldAuthorityNumber "(DE-588)185993389";
+  owl:sameAs <https://d-nb.info/gnd/185993389>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185993389";
+  gndo:oldAuthorityNumber "(DE-588a)185993389", "(DE-588a)118637622", "(DE-588a)119601672",
+    "(DE-588a)127443002", "(DE-588a)127526714", "(DE-588c)4068485-4";
+  gndo:variantNameForThePerson "Aeschines";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591484 .
+
+_:node1ivs02adlx24591484 gndo:personalName "Aeschines" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aeschinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591485 .
+
+_:node1ivs02adlx24591485 gndo:personalName "Aeschinus" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aeschines, Orator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591486 .
+
+_:node1ivs02adlx24591486 gndo:forename "Orator";
+  gndo:surname "Aeschines" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aeschines, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591487 .
+
+_:node1ivs02adlx24591487 gndo:personalName "Aeschines";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aeschines, Athenensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591488 .
+
+_:node1ivs02adlx24591488 gndo:personalName "Aeschines";
+  gndo:nameAddition "Athenensis" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aeschines, Athensensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591489 .
+
+_:node1ivs02adlx24591489 gndo:personalName "Aeschines";
+  gndo:nameAddition "Athensensis" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aeschines, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591490 .
+
+_:node1ivs02adlx24591490 gndo:personalName "Aeschines";
+  gndo:nameAddition "Politiker" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aeschines, Pseudo-";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591491 .
+
+_:node1ivs02adlx24591491 gndo:personalName "Aeschines";
+  gndo:nameAddition "Pseudo-" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Pseudo-Aeschines";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591492 .
+
+_:node1ivs02adlx24591492 gndo:personalName "Pseudo-Aeschines" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aeschines, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591493 .
+
+_:node1ivs02adlx24591493 gndo:personalName "Aeschines";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aischines";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591494 .
+
+_:node1ivs02adlx24591494 gndo:personalName "Aischines" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aischines, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591495 .
+
+_:node1ivs02adlx24591495 gndo:personalName "Aischines";
+  gndo:nameAddition "Politiker" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aischines, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591496 .
+
+_:node1ivs02adlx24591496 gndo:personalName "Aischines";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aischines, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591497 .
+
+_:node1ivs02adlx24591497 gndo:personalName "Aischines";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Eschine";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591498 .
+
+_:node1ivs02adlx24591498 gndo:personalName "Eschine" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Eschine, d'Athenènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591499 .
+
+_:node1ivs02adlx24591499 gndo:personalName "Eschine";
+  gndo:nameAddition "d'Athenènes" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Eschine, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591500 .
+
+_:node1ivs02adlx24591500 gndo:personalName "Eschine";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Esquines";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591501 .
+
+_:node1ivs02adlx24591501 gndo:personalName "Esquines" .
+
+<https://d-nb.info/gnd/118637622> gndo:variantNameForThePerson "Aescines";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591502 .
+
+_:node1ivs02adlx24591502 gndo:personalName "Aescines" .
+
+<https://d-nb.info/gnd/118637622> gndo:preferredNameForThePerson "Aeschines, Orator";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591503 .
+
+_:node1ivs02adlx24591503 gndo:personalName "Aeschines";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102460531>;
+  gndo:hasRelation _:node1ivs02adlx24591504 .
+
+_:node1ivs02adlx24591504 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102460531>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:hasRelation _:node1ivs02adlx24591505 .
+
+_:node1ivs02adlx24591505 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24591506 .
+
+_:node1ivs02adlx24591506 gndo:forename "Johannes Ludwig";
+  gndo:surname "Hauwenreuter" .
+
+<https://d-nb.info/gnd/118637622> gndo:hasRelation _:node1ivs02adlx24591507 .
+
+_:node1ivs02adlx24591507 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24591508 .
+
+_:node1ivs02adlx24591508 gndo:forename "Johannes";
+  gndo:surname "Sturm" .
+
+<https://d-nb.info/gnd/118637622> gndo:hasRelation _:node1ivs02adlx24591509 .
+
+_:node1ivs02adlx24591509 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24591510 .
+
+_:node1ivs02adlx24591510 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100706460>;
+  gndo:hasRelation _:node1ivs02adlx24591511 .
+
+_:node1ivs02adlx24591511 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100706460>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100442854>;
+  gndo:hasRelation _:node1ivs02adlx24591512 .
+
+_:node1ivs02adlx24591512 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100442854>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118593234>;
+  gndo:hasRelation _:node1ivs02adlx24591513 .
+
+_:node1ivs02adlx24591513 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118593234>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118744658>;
+  gndo:hasRelation _:node1ivs02adlx24591514 .
+
+_:node1ivs02adlx24591514 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118744658>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104131292>;
+  gndo:hasRelation _:node1ivs02adlx24591515 .
+
+_:node1ivs02adlx24591515 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104131292>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118520814>;
+  gndo:hasRelation _:node1ivs02adlx24591516 .
+
+_:node1ivs02adlx24591516 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118520814>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637622> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Orationes de corona", "Aeschines contra Ctesiphontem et Demosthenis Pro corona",
+    "Aischinu ho kata Ktēsēphōntos kai Dēmosthenus ho peri stephanu ..", "Oratio in Timarchum",
+    "Aischinu kata Ktēsiphōntos kai Demosthenus peri tu stephanu", "Aischinu kata Ktēsiphōntos, Dēmosthenus peri stephanu",
+    "Aischinu kata Ktēsiphōntos kai Dēmosthenus peri stephanu", "Aischinu kata Ktēsephōntos, Dēmosthenus peri stephanu",
+    "Orationes inter se contrariae", "Orationes adversariae", "Oratio contra Ctesiphontem. Demosthenes: Oratio pro Ctesiphonte.  1563.  (VD16 A 407)",
+    "Oratio contra Ctesiphontem.  1550.  (VD16 A 399)", "Cicero, Marcus Tullius: Oratio contra Ctesiphontem de corona.  1539-1540.  (VD16 C 2816)",
+    "Cicero, Marcus Tullius: Oratio contra Ctesiphontem de corona.  1534.  (VD16 C 2815)",
+    "Cicero, Marcus Tullius: Opera.  1528.  (VD16 C 2814)", "Oratio pro Ctesiphonte de corona.  1595.  (VD16 A 401)",
+    "Demosthenes: Opera, Ausz.  1570.  (VD16 D 490)", "Oratio contra Ctesiphontem.  1561.  (VD16 ZV 112)",
+    "\\=GEpistolai Aischinu tu rētoros\\=g. Aeschinis oratoris ... Epistolae Graecae. Johannis Caselii ...  1578.  (VD16 A 396)",
+    "Oratio contra Ctesiphontem de corona. Demosthenes: Oratio pro Ctesiphonte de corona.  1522.  (VD16 A 397)";
+  wdrs:describedby <https://d-nb.info/gnd/118637622/about> .
+
+<https://d-nb.info/gnd/118637622/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118637622> gndo:biographicalOrHistoricalInformation "Griech. Redner und Staatsmann"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24591517 .
+
+_:node1ivs02adlx24591517 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4048895-0>;
+  rdf:_2 <https://d-nb.info/gnd/4046517-2>;
+  rdf:_3 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_4 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118637622> gndo:dateOfBirth "-0389"^^xsd:gYear;
+  gndo:dateOfDeath "-0314"^^xsd:gYear .
+

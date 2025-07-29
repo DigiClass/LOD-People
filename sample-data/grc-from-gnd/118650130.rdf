@@ -1,0 +1,446 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118650130> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118650130/about> .
+
+<https://d-nb.info/gnd/118650130/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-06-18T00:30:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118650130> gndo:gndIdentifier "118650130";
+  foaf:page <https://de.wikipedia.org/wiki/Aristoteles>;
+  owl:sameAs <https://dbpedia.org/resource/Aristotle>, <http://viaf.org/viaf/7524651>,
+    <http://www.wikidata.org/entity/Q1783131>, <http://id.loc.gov/rwo/agents/n79004182>;
+  gndo:oldAuthorityNumber "(DE-588)119609738";
+  owl:sameAs <https://d-nb.info/gnd/119609738>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119609738";
+  gndo:oldAuthorityNumber "(DE-588a)119609738", "(DE-588)1154623858";
+  owl:sameAs <https://d-nb.info/gnd/1154623858>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1154623858";
+  gndo:oldAuthorityNumber "(DE-588)1089911343";
+  owl:sameAs <https://d-nb.info/gnd/1089911343>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089911343";
+  gndo:oldAuthorityNumber "(DE-588)1089841086";
+  owl:sameAs <https://d-nb.info/gnd/1089841086>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089841086";
+  gndo:oldAuthorityNumber "(DE-588a)118650130", "(DE-588c)4085924-1";
+  gndo:variantNameForThePerson "Aristoteles, Stagirites";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395856 .
+
+_:node1ivpishs6x25395856 gndo:personalName "Aristoteles";
+  gndo:nameAddition "Stagirites" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395857 .
+
+_:node1ivpishs6x25395857 gndo:personalName "Aristoteles";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395858 .
+
+_:node1ivpishs6x25395858 gndo:personalName "Aristoteles";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, Pellaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395859 .
+
+_:node1ivpishs6x25395859 gndo:personalName "Aristoteles";
+  gndo:nameAddition "Pellaeus" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristote, de Stagyre";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395860 .
+
+_:node1ivpishs6x25395860 gndo:personalName "Aristote";
+  gndo:nameAddition "de Stagyre" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, von Stagiros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395861 .
+
+_:node1ivpishs6x25395861 gndo:personalName "Aristoteles";
+  gndo:nameAddition "von Stagiros" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, von Stageira";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395862 .
+
+_:node1ivpishs6x25395862 gndo:personalName "Aristoteles";
+  gndo:nameAddition "von Stageira" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, Schüler Platons";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395863 .
+
+_:node1ivpishs6x25395863 gndo:personalName "Aristoteles";
+  gndo:nameAddition "Schüler Platons" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, von Stageiros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395864 .
+
+_:node1ivpishs6x25395864 gndo:personalName "Aristoteles";
+  gndo:nameAddition "von Stageiros" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395865 .
+
+_:node1ivpishs6x25395865 gndo:personalName "Aristoteles";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, Stagirita";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395866 .
+
+_:node1ivpishs6x25395866 gndo:personalName "Aristoteles";
+  gndo:nameAddition "Stagirita" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Arystoteles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395867 .
+
+_:node1ivpishs6x25395867 gndo:personalName "Arystoteles" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Arestoteles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395868 .
+
+_:node1ivpishs6x25395868 gndo:personalName "Arestoteles" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Arasṭū";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395869 .
+
+_:node1ivpishs6x25395869 gndo:personalName "Arasṭū" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristū";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395870 .
+
+_:node1ivpishs6x25395870 gndo:personalName "Aristū" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Arisṭū";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395871 .
+
+_:node1ivpishs6x25395871 gndo:personalName "Arisṭū" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Arisṭāṭālīs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395872 .
+
+_:node1ivpishs6x25395872 gndo:personalName "Arisṭāṭālīs" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristotelʹ";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395873 .
+
+_:node1ivpishs6x25395873 gndo:personalName "Aristotelʹ" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Yalishiduode";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395874 .
+
+_:node1ivpishs6x25395874 gndo:personalName "Yalishiduode" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, Stagyrites";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395875 .
+
+_:node1ivpishs6x25395875 gndo:personalName "Aristoteles";
+  gndo:nameAddition "Stagyrites" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristoteles, de Stagyre";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395876 .
+
+_:node1ivpishs6x25395876 gndo:personalName "Aristoteles";
+  gndo:nameAddition "de Stagyre" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristotelus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395877 .
+
+_:node1ivpishs6x25395877 gndo:personalName "Aristotelus" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Pseudo Aristotele";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395878 .
+
+_:node1ivpishs6x25395878 gndo:personalName "Pseudo Aristotele" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Pseudo Aristóteles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395879 .
+
+_:node1ivpishs6x25395879 gndo:personalName "Pseudo Aristóteles" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Ps-Aristoteles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395880 .
+
+_:node1ivpishs6x25395880 gndo:personalName "Ps-Aristoteles" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Pseudoaristoteles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395881 .
+
+_:node1ivpishs6x25395881 gndo:personalName "Pseudoaristoteles" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristóteles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395882 .
+
+_:node1ivpishs6x25395882 gndo:personalName "Aristóteles" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristotelis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395883 .
+
+_:node1ivpishs6x25395883 gndo:personalName "Aristotelis" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristüţālis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395884 .
+
+_:node1ivpishs6x25395884 gndo:personalName "Aristüţālis" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristotelēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395885 .
+
+_:node1ivpishs6x25395885 gndo:personalName "Aristotelēs" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Arisṭūṭālīs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395886 .
+
+_:node1ivpishs6x25395886 gndo:personalName "Arisṭūṭālīs" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristotel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395887 .
+
+_:node1ivpishs6x25395887 gndo:personalName "Aristotel" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristote";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395888 .
+
+_:node1ivpishs6x25395888 gndo:personalName "Aristote" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristotle";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395889 .
+
+_:node1ivpishs6x25395889 gndo:personalName "Aristotle" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristotele";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395890 .
+
+_:node1ivpishs6x25395890 gndo:personalName "Aristotele" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Pseudo-Aristote";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395891 .
+
+_:node1ivpishs6x25395891 gndo:personalName "Pseudo-Aristote" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Pseudo-Aristotele";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395892 .
+
+_:node1ivpishs6x25395892 gndo:personalName "Pseudo-Aristotele" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristotile";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395893 .
+
+_:node1ivpishs6x25395893 gndo:personalName "Aristotile" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Aristòtil";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395894 .
+
+_:node1ivpishs6x25395894 gndo:personalName "Aristòtil" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Pseudo-Aristoteles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395895 .
+
+_:node1ivpishs6x25395895 gndo:personalName "Pseudo-Aristoteles" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Αριστοτελης"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395896 .
+
+_:node1ivpishs6x25395896 gndo:personalName "Αριστοτελης" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "Ἀριστοτέλης"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395897 .
+
+_:node1ivpishs6x25395897 gndo:personalName "Ἀριστοτέλης" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "亚里士多德"@zh-Hans;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395898 .
+
+_:node1ivpishs6x25395898 gndo:personalName "亚里士多德" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "אריסטו"@und-Hebr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395899 .
+
+_:node1ivpishs6x25395899 gndo:personalName "אריסטו" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "أرسطو"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395900 .
+
+_:node1ivpishs6x25395900 gndo:personalName "أرسطو" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "أرسطوطاليس"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395901 .
+
+_:node1ivpishs6x25395901 gndo:personalName "أرسطوطاليس" .
+
+<https://d-nb.info/gnd/118650130> gndo:variantNameForThePerson "ئارىستوتېل"@ug-Arab;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395902 .
+
+_:node1ivpishs6x25395902 gndo:personalName "ئارىستوتېل" .
+
+<https://d-nb.info/gnd/118650130> gndo:preferredNameForThePerson "Aristoteles";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25395903 .
+
+_:node1ivpishs6x25395903 gndo:personalName "Aristoteles" .
+
+<https://d-nb.info/gnd/118650130> skos:exactMatch thesoz:concept_10036746;
+  gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116276967>;
+  gndo:hasRelation _:node1ivpishs6x25395904 .
+
+_:node1ivpishs6x25395904 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116276967>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:relatedPerson <https://d-nb.info/gnd/119101459>;
+  gndo:hasRelation _:node1ivpishs6x25395905 .
+
+_:node1ivpishs6x25395905 gndo:relatedPerson <https://d-nb.info/gnd/119101459> .
+
+<https://d-nb.info/gnd/118650130> gndo:hasRelation _:node1ivpishs6x25395906 .
+
+_:node1ivpishs6x25395906 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25395907 .
+
+_:node1ivpishs6x25395907 gndo:personalName "Priscianus";
+  gndo:nameAddition "aus Lydien" .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117421359>;
+  gndo:hasRelation _:node1ivpishs6x25395908 .
+
+_:node1ivpishs6x25395908 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117421359>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119171902>;
+  gndo:hasRelation _:node1ivpishs6x25395909 .
+
+_:node1ivpishs6x25395909 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119171902>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118513729>;
+  gndo:hasRelation _:node1ivpishs6x25395910 .
+
+_:node1ivpishs6x25395910 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118513729>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:hasRelation _:node1ivpishs6x25395911 .
+
+_:node1ivpishs6x25395911 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25395912 .
+
+_:node1ivpishs6x25395912 gndo:forename "Gerard";
+  gndo:surname "Matthisius" .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100953921>;
+  gndo:hasRelation _:node1ivpishs6x25395913 .
+
+_:node1ivpishs6x25395913 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100953921>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119278642>;
+  gndo:hasRelation _:node1ivpishs6x25395914 .
+
+_:node1ivpishs6x25395914 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119278642>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:hasRelation _:node1ivpishs6x25395915 .
+
+_:node1ivpishs6x25395915 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25395916 .
+
+_:node1ivpishs6x25395916 gndo:forename "Johannes Alexander";
+  gndo:surname "Brassicanus" .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11852870X>;
+  gndo:hasRelation _:node1ivpishs6x25395917 .
+
+_:node1ivpishs6x25395917 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11852870X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100948375>;
+  gndo:hasRelation _:node1ivpishs6x25395918 .
+
+_:node1ivpishs6x25395918 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100948375>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118650130> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:relatedTerm <https://d-nb.info/gnd/4002917-7>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#18p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Organon organōn", "Politicorum sive de optimo statu rei publicae libri VIII",
+    "Naturalis auscultatio", "Commentationes de natura", "Commentationes de natura", "De coelo",
+    "De moribus ad Nicomachum", "De moribus ad Nicomachum", "De moribus ad Nicomachum",
+    "De moribus ad Nicomachum", "Textus Predicamentorũ Aristotelis.. 1509. (VD16 A 3359)",
+    "GARISTOTELUS ORGANON.\\=g ARISTOTELIS ORGANVM (PORPHYRII INTRODVCTIO.) ... 1583. (VD16 A 3524)",
+    "Categoriae. De interpretatione. Analytica posteriora. 1579. (VD16 A 3368)", "Ethica Nicomachea. 1552. (VD16 ZV 716)",
+    "De physico auditu. 1506. (VD16 ZV 698)", "Cousin, Gilbert: Oeconomica. 1547. (VD16 C 5620)",
+    "Ethica Nicomachea. 1579. (VD16 ZV 736)", "GARISTOTELUS ĒTHIKŌN NIKOMACHEIŌN BIBLIA DEKA.\\=g ARISTOTELIS ETHICORVM AD ... 1596. (VD16 A 3411)",
+    "ARISTOTELIS tres de Anima libri per Ioannem Argyropylũ e Graeco in Latinũ traducti. ... . 1521. (VD16 A 3336)",
+    "Ethica Nicomachea. 1545. (VD16 ZV 710)", "Aristoteles: De generatione et corruptione. 1519. (VD16 A 3379)";
+  wdrs:describedby <https://d-nb.info/gnd/118650130/about> .
+
+<https://d-nb.info/gnd/118650130/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118650130> gndo:biographicalOrHistoricalInformation "Griechischer Philosoph; Universalgelehrter der Antike; Begründer zahlreicher Disziplinen u.a. Physik, Logik, Biologie, Ethik, Dichtungstheorie und Staatstheorie"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4823144-7>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4003366-1>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4009713-4>;
+  gndo:professionOrOccupation _:node1ivpishs6x25395919 .
+
+_:node1ivpishs6x25395919 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4035088-5> .
+
+<https://d-nb.info/gnd/118650130> gndo:dateOfBirth "-0384"^^xsd:gYear;
+  gndo:dateOfDeath "-0322"^^xsd:gYear .
+

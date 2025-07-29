@@ -1,0 +1,357 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118588540> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118588540/about> .
+
+<https://d-nb.info/gnd/118588540/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:52:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118588540> gndo:gndIdentifier "118588540";
+  owl:sameAs <https://dbpedia.org/resource/Nonnus>, <http://viaf.org/viaf/61564416>,
+    <http://www.wikidata.org/entity/Q312916>, <http://id.loc.gov/rwo/agents/nr94014167>;
+  gndo:oldAuthorityNumber "(DE-588)1089882505";
+  owl:sameAs <https://d-nb.info/gnd/1089882505>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089882505";
+  gndo:oldAuthorityNumber "(DE-588)1089814208";
+  owl:sameAs <https://d-nb.info/gnd/1089814208>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089814208";
+  gndo:oldAuthorityNumber "(DE-588)1089600283";
+  owl:sameAs <https://d-nb.info/gnd/1089600283>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089600283";
+  gndo:oldAuthorityNumber "(DE-588)1089147457";
+  owl:sameAs <https://d-nb.info/gnd/1089147457>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089147457";
+  gndo:oldAuthorityNumber "(DE-588)17439148X";
+  owl:sameAs <https://d-nb.info/gnd/17439148X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17439148X";
+  gndo:oldAuthorityNumber "(DE-588a)17439148X", "(DE-588)17228712X";
+  owl:sameAs <https://d-nb.info/gnd/17228712X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17228712X";
+  gndo:oldAuthorityNumber "(DE-588a)17228712X", "(DE-588)185993249";
+  owl:sameAs <https://d-nb.info/gnd/185993249>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185993249";
+  gndo:oldAuthorityNumber "(DE-588a)185993249", "(DE-588)174113943";
+  owl:sameAs <https://d-nb.info/gnd/174113943>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174113943";
+  gndo:oldAuthorityNumber "(DE-588a)174113943", "(DE-588)11977531X";
+  owl:sameAs <https://d-nb.info/gnd/11977531X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/11977531X";
+  gndo:oldAuthorityNumber "(DE-588a)11977531X", "(DE-588a)118588540", "(DE-588c)4042471-6";
+  gndo:variantNameForThePerson "Nonnos, de Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587608 .
+
+_:node1ivs02adlx24587608 gndo:personalName "Nonnos";
+  gndo:nameAddition "de Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnos, Epiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587609 .
+
+_:node1ivs02adlx24587609 gndo:personalName "Nonnos";
+  gndo:nameAddition "Epiker" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587610 .
+
+_:node1ivs02adlx24587610 gndo:personalName "Nonnus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587611 .
+
+_:node1ivs02adlx24587611 gndo:personalName "Nonnos" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Panopolitanus, Nonnus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587612 .
+
+_:node1ivs02adlx24587612 gndo:forename "Nonnus";
+  gndo:surname "Panopolitanus" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587613 .
+
+_:node1ivs02adlx24587613 gndo:personalName "Nonnus" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnos, Panopolites";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587614 .
+
+_:node1ivs02adlx24587614 gndo:personalName "Nonnos";
+  gndo:nameAddition "Panopolites" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonno, di Panopoli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587615 .
+
+_:node1ivs02adlx24587615 gndo:personalName "Nonno";
+  gndo:nameAddition "di Panopoli" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnus, Aegyptius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587616 .
+
+_:node1ivs02adlx24587616 gndo:personalName "Nonnus";
+  gndo:nameAddition "Aegyptius" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587617 .
+
+_:node1ivs02adlx24587617 gndo:personalName "Nonnus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnus, of Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587618 .
+
+_:node1ivs02adlx24587618 gndo:personalName "Nonnus";
+  gndo:nameAddition "of Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonno, Poeta Epico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587619 .
+
+_:node1ivs02adlx24587619 gndo:personalName "Nonno";
+  gndo:nameAddition "Poeta Epico" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nono, de Panópolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587620 .
+
+_:node1ivs02adlx24587620 gndo:personalName "Nono";
+  gndo:nameAddition "de Panópolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnos, von Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587621 .
+
+_:node1ivs02adlx24587621 gndo:personalName "Nonnos";
+  gndo:nameAddition "von Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Nonnus, aus Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587622 .
+
+_:node1ivs02adlx24587622 gndo:personalName "Nonnus";
+  gndo:nameAddition "aus Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "VonPanopolis, Nonnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587623 .
+
+_:node1ivs02adlx24587623 gndo:forename "Nonnos";
+  gndo:surname "VonPanopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "De Panopolis, Nonnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587624 .
+
+_:node1ivs02adlx24587624 gndo:forename "Nonnos";
+  gndo:surname "De Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Panopolites, Nonnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587625 .
+
+_:node1ivs02adlx24587625 gndo:forename "Nonnos";
+  gndo:surname "Panopolites" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Di Panopoli, Nonno";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587626 .
+
+_:node1ivs02adlx24587626 gndo:forename "Nonno";
+  gndo:surname "Di Panopoli" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Of Panopolis, Nonnus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587627 .
+
+_:node1ivs02adlx24587627 gndo:forename "Nonnus";
+  gndo:surname "Of Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "DePanopolis, Nonnos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587628 .
+
+_:node1ivs02adlx24587628 gndo:forename "Nonnos";
+  gndo:surname "DePanopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "DiPanopoli, Nonno";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587629 .
+
+_:node1ivs02adlx24587629 gndo:forename "Nonno";
+  gndo:surname "DiPanopoli" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "OfPanopolis, Nonnus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587630 .
+
+_:node1ivs02adlx24587630 gndo:forename "Nonnus";
+  gndo:surname "OfPanopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Panopolis, Nonnos de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587631 .
+
+_:node1ivs02adlx24587631 gndo:forename "Nonnos";
+  gndo:prefix "de";
+  gndo:surname "Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Panopoli, Nonno di";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587632 .
+
+_:node1ivs02adlx24587632 gndo:forename "Nonno";
+  gndo:prefix "di";
+  gndo:surname "Panopoli" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Panopolis, Nonnus of";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587633 .
+
+_:node1ivs02adlx24587633 gndo:forename "Nonnus";
+  gndo:prefix "of";
+  gndo:surname "Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:variantNameForThePerson "Panopolis, Nonnos von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587634 .
+
+_:node1ivs02adlx24587634 gndo:forename "Nonnos";
+  gndo:prefix "von";
+  gndo:surname "Panopolis" .
+
+<https://d-nb.info/gnd/118588540> gndo:preferredNameForThePerson "Nonnus, Panopolitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587635 .
+
+_:node1ivs02adlx24587635 gndo:personalName "Nonnus";
+  gndo:nameAddition "Panopolitanus" .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116236574>;
+  gndo:hasRelation _:node1ivs02adlx24587636 .
+
+_:node1ivs02adlx24587636 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116236574>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119701847>;
+  gndo:hasRelation _:node1ivs02adlx24587637 .
+
+_:node1ivs02adlx24587637 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119701847>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:hasRelation _:node1ivs02adlx24587638 .
+
+_:node1ivs02adlx24587638 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587639 .
+
+_:node1ivs02adlx24587639 gndo:forename "Christoph";
+  gndo:surname "Hegendorff" .
+
+<https://d-nb.info/gnd/118588540> gndo:hasRelation _:node1ivs02adlx24587640 .
+
+_:node1ivs02adlx24587640 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587641 .
+
+_:node1ivs02adlx24587641 gndo:forename "Philipp";
+  gndo:surname "Melanchthon" .
+
+<https://d-nb.info/gnd/118588540> gndo:hasRelation _:node1ivs02adlx24587642 .
+
+_:node1ivs02adlx24587642 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587643 .
+
+_:node1ivs02adlx24587643 gndo:forename "Paul";
+  gndo:surname "Schede" .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117391042>;
+  gndo:hasRelation _:node1ivs02adlx24587644 .
+
+_:node1ivs02adlx24587644 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117391042>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118553690>;
+  gndo:hasRelation _:node1ivs02adlx24587645 .
+
+_:node1ivs02adlx24587645 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118553690>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:hasRelation _:node1ivs02adlx24587646 .
+
+_:node1ivs02adlx24587646 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119610817>;
+  gndo:hasRelation _:node1ivs02adlx24587647 .
+
+_:node1ivs02adlx24587647 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119610817>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121650723>;
+  gndo:hasRelation _:node1ivs02adlx24587648 .
+
+_:node1ivs02adlx24587648 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121650723>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118588540> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Bodmer, Johann J.: Die geraubte Europa von Nonnus", "Dionysiaca",
+    "Bodmer, Johann J.: Die geraubte Europa von Nonnus. [Verf.: Johann Jacob Bodmer]",
+    "Nonni Panopolitani Poetae Graeci Paraphrasis Evangelica s. Joan*", "Nonnu tu Panopolitu Dionysiakōn biblia 48",
+    "Ta kata Hymnon kai Nikaian", "Dionysiacorum libri", "Metaphrasis epica Evangelii Sancti Joannis",
+    "Metaphrasis evangelii secundum Joannem", "Translatio Evangelii Johannis", "NONNI POETAE PANOPOLITANI, In Euangelium Sancti Iohannis Paraphrasis Graeca,à ... 1528. (VD16 N 1837)",
+    "NONNOY \\=GNONNU POIĒTU PANOPOLITU metabolē tu kata Iōannēn hagiu Euangeliu,dia ... 1570. (VD16 N 1831)",
+    "Metabolē tu kata Iōannēn hagiu euangeliu dia stichōn hērōikōn. 1566. (VD16 N 1830)",
+    "NONNOY \\=GNONNU POIĒTU PANOpolitu metabolē tu kata Iōannēn hagiu euangeliu.\\=g ... 1527. (VD16 N 1828)",
+    "NONNI PANOPOLITANI POETAE GRAECI PARAPHRASIS EVANGELICA Secundum S. Ioannem: Carmine ... 1597. (VD16 N 1838)",
+    "NONNOY \\=GNONNU POIĒTU PANOPOLITU METABOLĒ tu kata Iōannēn hagiu Euangeliu.\\=g ... 1571. (VD16 N 1832)",
+    "NONNI POETAE PANOPOLITANI, IN EVANgelium Sancti Ioannis Paraphrasis Graeca, à Christophoro ... 1540. (VD16 ZV 11769)",
+    "\\=GNONNU PANOPOLITU METABOLĒ TU KATA IŌANNĒN HAGIU EUANGELIU, Dia stichōn ... 1596. (VD16 N 1836)",
+    "NONNOY \\=GNONNU POIĒTU PANOPOLITU METABOLĒ tu kata Iōannēn hagiu Euangeliu.\\=g ... 1588. (VD16 N 1834)",
+    "NONNOY \\=GNONNU POIĒTU PANOPOLITU METABOLĒ tu kata Iōannēn hagiu Euangeliu.\\=g ... 1577. (VD16 N 1833)";
+  wdrs:describedby <https://d-nb.info/gnd/118588540/about> .
+
+<https://d-nb.info/gnd/118588540/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118588540> gndo:biographicalOrHistoricalInformation "Griech. Dichter, zum Christentum konvertiert; Dionysiaca; Paraphrasis Sancti Evangelii Johannei"@de;
+  gndo:udkCode "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[5. Jh.]" .
+

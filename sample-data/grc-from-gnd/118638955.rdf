@@ -1,0 +1,358 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118638955> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118638955/about> .
+
+<https://d-nb.info/gnd/118638955/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:28:26.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118638955> gndo:gndIdentifier "118638955";
+  foaf:page <https://de.wikipedia.org/wiki/Euklid>;
+  owl:sameAs <https://dbpedia.org/resource/Euclid>, <http://viaf.org/viaf/176184097>,
+    <https://isni.org/isni/0000000356067426>, <http://www.wikidata.org/entity/Q8747>;
+  gndo:oldAuthorityNumber "(DE-588)172065593";
+  owl:sameAs <https://d-nb.info/gnd/172065593>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172065593";
+  gndo:oldAuthorityNumber "(DE-588a)172065593", "(DE-588)1089918526";
+  owl:sameAs <https://d-nb.info/gnd/1089918526>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089918526";
+  gndo:oldAuthorityNumber "(DE-588)1089714130";
+  owl:sameAs <https://d-nb.info/gnd/1089714130>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089714130";
+  gndo:oldAuthorityNumber "(DE-588)1089093926";
+  owl:sameAs <https://d-nb.info/gnd/1089093926>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089093926";
+  gndo:oldAuthorityNumber "(DE-588)1089903022";
+  owl:sameAs <https://d-nb.info/gnd/1089903022>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089903022";
+  gndo:oldAuthorityNumber "(DE-588a)118638955", "(DE-588c)4070994-2";
+  gndo:variantNameForThePerson "Euclide";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400062 .
+
+_:node1ivpishs6x25400062 gndo:personalName "Euclide" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Eüḳlid";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400063 .
+
+_:node1ivpishs6x25400063 gndo:personalName "Eüḳlid" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Oujilide";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400064 .
+
+_:node1ivpishs6x25400064 gndo:personalName "Oujilide" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400065 .
+
+_:node1ivpishs6x25400065 gndo:personalName "Euclides" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400066 .
+
+_:node1ivpishs6x25400066 gndo:personalName "Euclides" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Ūqlīdis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400067 .
+
+_:node1ivpishs6x25400067 gndo:personalName "Ūqlīdis" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euklid";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400068 .
+
+_:node1ivpishs6x25400068 gndo:personalName "Euklid" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euklides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400069 .
+
+_:node1ivpishs6x25400069 gndo:personalName "Euklides" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclides, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400070 .
+
+_:node1ivpishs6x25400070 gndo:personalName "Euclides";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Eukleides, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400071 .
+
+_:node1ivpishs6x25400071 gndo:personalName "Eukleides";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euklides, Mathematicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400072 .
+
+_:node1ivpishs6x25400072 gndo:personalName "Euklides";
+  gndo:nameAddition "Mathematicus" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euklides, Geometra";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400073 .
+
+_:node1ivpishs6x25400073 gndo:personalName "Euklides";
+  gndo:nameAddition "Geometra" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclid";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400074 .
+
+_:node1ivpishs6x25400074 gndo:personalName "Euclid" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Eukleidēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400075 .
+
+_:node1ivpishs6x25400075 gndo:personalName "Eukleidēs" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400076 .
+
+_:node1ivpishs6x25400076 gndo:personalName "Euclides" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Eukleides, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400077 .
+
+_:node1ivpishs6x25400077 gndo:personalName "Eukleides";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclides, Mathematicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400078 .
+
+_:node1ivpishs6x25400078 gndo:personalName "Euclides";
+  gndo:nameAddition "Mathematicus" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Eukleides, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400079 .
+
+_:node1ivpishs6x25400079 gndo:personalName "Eukleides";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclides, Geometres";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400080 .
+
+_:node1ivpishs6x25400080 gndo:personalName "Euclides";
+  gndo:nameAddition "Geometres" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclide, Géomètre";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400081 .
+
+_:node1ivpishs6x25400081 gndo:personalName "Euclide";
+  gndo:nameAddition "Géomètre" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Iglīdis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400082 .
+
+_:node1ivpishs6x25400082 gndo:personalName "Iglīdis" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Iqlīdis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400083 .
+
+_:node1ivpishs6x25400083 gndo:personalName "Iqlīdis" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Uglīdis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400084 .
+
+_:node1ivpishs6x25400084 gndo:personalName "Uglīdis" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclides, Latinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400085 .
+
+_:node1ivpishs6x25400085 gndo:personalName "Euclides";
+  gndo:nameAddition "Latinus" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Pseudo-Euclides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400086 .
+
+_:node1ivpishs6x25400086 gndo:personalName "Pseudo-Euclides" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Pseudo-Euklid";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400087 .
+
+_:node1ivpishs6x25400087 gndo:personalName "Pseudo-Euklid" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Uqlīdis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400088 .
+
+_:node1ivpishs6x25400088 gndo:personalName "Uqlīdis" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Ewglit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400089 .
+
+_:node1ivpishs6x25400089 gndo:personalName "Ewglit" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Euclides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400090 .
+
+_:node1ivpishs6x25400090 gndo:personalName "Euclides" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Եւգլիտ"@hy;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400091 .
+
+_:node1ivpishs6x25400091 gndo:personalName "Եւգլիտ" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "欧几里得"@zh-Hans;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400092 .
+
+_:node1ivpishs6x25400092 gndo:personalName "欧几里得" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "إقليدس"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400093 .
+
+_:node1ivpishs6x25400093 gndo:personalName "إقليدس" .
+
+<https://d-nb.info/gnd/118638955> gndo:variantNameForThePerson "Εὐκλείδης"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400094 .
+
+_:node1ivpishs6x25400094 gndo:personalName "Εὐκλείδης" .
+
+<https://d-nb.info/gnd/118638955> gndo:preferredNameForThePerson "Euclides";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400095 .
+
+_:node1ivpishs6x25400095 gndo:personalName "Euclides" .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11690240X>;
+  gndo:hasRelation _:node1ivpishs6x25400096 .
+
+_:node1ivpishs6x25400096 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11690240X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119706504>;
+  gndo:hasRelation _:node1ivpishs6x25400097 .
+
+_:node1ivpishs6x25400097 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119706504>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124331025>;
+  gndo:hasRelation _:node1ivpishs6x25400098 .
+
+_:node1ivpishs6x25400098 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124331025>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:hasRelation _:node1ivpishs6x25400099 .
+
+_:node1ivpishs6x25400099 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25400100 .
+
+_:node1ivpishs6x25400100 gndo:forename "Valentin";
+  gndo:surname "Naboth" .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100341691>;
+  gndo:hasRelation _:node1ivpishs6x25400101 .
+
+_:node1ivpishs6x25400101 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100341691>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:hasRelation _:node1ivpishs6x25400102 .
+
+_:node1ivpishs6x25400102 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25400103 .
+
+_:node1ivpishs6x25400103 gndo:forename "Konrad";
+  gndo:surname "Dasypodius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719347>;
+  gndo:hasRelation _:node1ivpishs6x25400104 .
+
+_:node1ivpishs6x25400104 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719347>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119388006>;
+  gndo:hasRelation _:node1ivpishs6x25400105 .
+
+_:node1ivpishs6x25400105 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119388006>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:hasRelation _:node1ivpishs6x25400106 .
+
+_:node1ivpishs6x25400106 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25400107 .
+
+_:node1ivpishs6x25400107 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118638955> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118666797>;
+  gndo:hasRelation _:node1ivpishs6x25400108 .
+
+_:node1ivpishs6x25400108 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118666797>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118638955> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#14.4p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Euclides: Catoptrica", "Elementa geometrica", "Elementa", "Elementa",
+    "Elementa Geometriae", "Arithmetices Euclideae", "Propositiones reliquorum libr. Elementorum geometriae Euclidis",
+    "Analysis geometricae sex librorum", "Elementa", "Elementa geometriae", "Opera. 1571. (VD16 E 4139)",
+    "EVCLIDIS ELEMENTORVM LIBRI XV. Quibus, cùm ad omnem Mathematicae scientiae partem, tùm ... 1580. (VD16 E 4160)",
+    "Elementa. 1564. (VD16 ZV 5462)", "EVCLIDIS MEGARENSIS MATHEMATICI CLARISSIMI ELEMENtorum Geometricorum. Lib.XV. Cum ... 1537. (VD16 E 4154)",
+    "Elementa. 1571. (VD16 ZV 5464)", "EUKLEIDU TŌN PENTE KAI DEKA STOICHEIŌN ek tōn tu Theōnos synusiōn to prōton.\\=g. 1538. (VD16 E 4143)",
+    "Elementa. 1564. (VD16 E 4158)", "Arithmetica demonstratio. 1564. (VD16 E 4148)",
+    "Opera. 1536. (VD16 E 4165)", "EUKLEIDU KATOPTRIKA.\\=g EVCLIDIS CATOPTRICA, ID EST ELEMENTA eius scientiae, qua ... 1557. (VD16 E 4140)";
+  wdrs:describedby <https://d-nb.info/gnd/118638955/about> .
+
+<https://d-nb.info/gnd/118638955/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118638955> gndo:udkCode "300 - 201 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivpishs6x25400109 .
+
+_:node1ivpishs6x25400109 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4037945-0>;
+  rdf:_2 <https://d-nb.info/gnd/4003310-7>;
+  rdf:_3 <https://d-nb.info/gnd/4383394-9> .
+
+<https://d-nb.info/gnd/118638955> gndo:dateOfBirthAndDeath "[v3. Jh.]" .
+

@@ -1,0 +1,291 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118548808> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118548808/about> .
+
+<https://d-nb.info/gnd/118548808/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:26:09.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118548808> gndo:gndIdentifier "118548808";
+  foaf:page <https://de.wikipedia.org/wiki/Heliodoros_%28Autor%29>;
+  owl:sameAs <https://dbpedia.org/resource/Heliodorus_of_Emesa>, <http://viaf.org/viaf/307181873>,
+    <https://isni.org/isni/0000000435364584>, <http://www.wikidata.org/entity/Q313011>,
+    <http://id.loc.gov/rwo/agents/n78048111>;
+  gndo:oldAuthorityNumber "(DE-588)1089897553";
+  owl:sameAs <https://d-nb.info/gnd/1089897553>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089897553";
+  gndo:oldAuthorityNumber "(DE-588)108972649X";
+  owl:sameAs <https://d-nb.info/gnd/108972649X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108972649X";
+  gndo:oldAuthorityNumber "(DE-588)1089323433";
+  owl:sameAs <https://d-nb.info/gnd/1089323433>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089323433";
+  gndo:oldAuthorityNumber "(DE-588)174093136";
+  owl:sameAs <https://d-nb.info/gnd/174093136>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174093136";
+  gndo:oldAuthorityNumber "(DE-588a)174093136", "(DE-588)17404593X";
+  owl:sameAs <https://d-nb.info/gnd/17404593X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17404593X";
+  gndo:oldAuthorityNumber "(DE-588a)17404593X", "(DE-588a)118548808", "(DE-588a)119703920",
+    "(DE-588c)4024297-3";
+  gndo:variantNameForThePerson "Heliodor, Sohn des Theodosios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586640 .
+
+_:node1ivs02adlx24586640 gndo:personalName "Heliodor";
+  gndo:nameAddition "Sohn des Theodosios" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodoros, von Emesa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586641 .
+
+_:node1ivs02adlx24586641 gndo:personalName "Heliodoros";
+  gndo:nameAddition "von Emesa" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodorus, Scriptor Eroticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586642 .
+
+_:node1ivs02adlx24586642 gndo:personalName "Heliodorus";
+  gndo:nameAddition "Scriptor Eroticus" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586643 .
+
+_:node1ivs02adlx24586643 gndo:personalName "Heliodor" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Hēliodōros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586644 .
+
+_:node1ivs02adlx24586644 gndo:personalName "Hēliodōros" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Emesenus, Heliodorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586645 .
+
+_:node1ivs02adlx24586645 gndo:forename "Heliodorus";
+  gndo:surname "Emesenus" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586646 .
+
+_:node1ivs02adlx24586646 gndo:personalName "Heliodorus" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodorus, de Tricca";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586647 .
+
+_:node1ivs02adlx24586647 gndo:personalName "Heliodorus";
+  gndo:nameAddition "de Tricca" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Héliodore, d'Émèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586648 .
+
+_:node1ivs02adlx24586648 gndo:personalName "Héliodore";
+  gndo:nameAddition "d'Émèse" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodoros, von Homs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586649 .
+
+_:node1ivs02adlx24586649 gndo:personalName "Heliodoros";
+  gndo:nameAddition "von Homs" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodorus, of Emesa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586650 .
+
+_:node1ivs02adlx24586650 gndo:personalName "Heliodorus";
+  gndo:nameAddition "of Emesa" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodoros, Sohn des Theodosios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586651 .
+
+_:node1ivs02adlx24586651 gndo:personalName "Heliodoros";
+  gndo:nameAddition "Sohn des Theodosios" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodorus, Tricensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586652 .
+
+_:node1ivs02adlx24586652 gndo:personalName "Heliodorus";
+  gndo:nameAddition "Tricensis" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodorus Emesenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586653 .
+
+_:node1ivs02adlx24586653 gndo:personalName "Heliodorus Emesenus" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Eliodoro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586654 .
+
+_:node1ivs02adlx24586654 gndo:personalName "Eliodoro" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Héliodore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586655 .
+
+_:node1ivs02adlx24586655 gndo:personalName "Héliodore" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Geliodor, Emesskii";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586656 .
+
+_:node1ivs02adlx24586656 gndo:personalName "Geliodor";
+  gndo:nameAddition "Emesskii" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Eliodoro, di Emisa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586657 .
+
+_:node1ivs02adlx24586657 gndo:personalName "Eliodoro";
+  gndo:nameAddition "di Emisa" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Geliodor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586658 .
+
+_:node1ivs02adlx24586658 gndo:personalName "Geliodor" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Eliodorus, di Emisa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586659 .
+
+_:node1ivs02adlx24586659 gndo:personalName "Eliodorus";
+  gndo:nameAddition "di Emisa" .
+
+<https://d-nb.info/gnd/118548808> gndo:variantNameForThePerson "Heliodor, von Emesa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586660 .
+
+_:node1ivs02adlx24586660 gndo:personalName "Heliodor";
+  gndo:nameAddition "von Emesa" .
+
+<https://d-nb.info/gnd/118548808> gndo:preferredNameForThePerson "Heliodorus, Emesenus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586661 .
+
+_:node1ivs02adlx24586661 gndo:personalName "Heliodorus";
+  gndo:nameAddition "Emesenus" .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117696706>;
+  gndo:hasRelation _:node1ivs02adlx24586662 .
+
+_:node1ivs02adlx24586662 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117696706>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:hasRelation _:node1ivs02adlx24586663 .
+
+_:node1ivs02adlx24586663 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124946720>;
+  gndo:hasRelation _:node1ivs02adlx24586664 .
+
+_:node1ivs02adlx24586664 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124946720>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:hasRelation _:node1ivs02adlx24586665 .
+
+_:node1ivs02adlx24586665 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586666 .
+
+_:node1ivs02adlx24586666 gndo:forename "Lodovico";
+  gndo:surname "Ariosto" .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100075657>;
+  gndo:hasRelation _:node1ivs02adlx24586667 .
+
+_:node1ivs02adlx24586667 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100075657>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100068065>;
+  gndo:hasRelation _:node1ivs02adlx24586668 .
+
+_:node1ivs02adlx24586668 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100068065>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:hasRelation _:node1ivs02adlx24586669 .
+
+_:node1ivs02adlx24586669 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586670 .
+
+_:node1ivs02adlx24586670 gndo:forename "Jan";
+  gndo:surname "Gruutere" .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119056526>;
+  gndo:hasRelation _:node1ivs02adlx24586671 .
+
+_:node1ivs02adlx24586671 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119056526>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119750805>;
+  gndo:hasRelation _:node1ivs02adlx24586672 .
+
+_:node1ivs02adlx24586672 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119750805>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118548808> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Historia Aethiopica", "Aethiopica", "Aethiopica", "Aethiopica",
+    "Aethiopica", "L' histoire Ethiopique ...", "L' histoire aethiopique d'Heliodore",
+    "L' histoire aethiopique d'Heliodore", "Histoire Aethiopique", "Histoire Aethiopi",
+    "AETHIOPICA HISTORIA. Ein schoene vnnd Liebliche Histori von einem großmuetigen Helden ... 1559. (VD16 H 1677)",
+    "De parentibus suis narratio. 1584. (VD16 H 1676)", "\\=GHĒLIODŌRU AITHIOPIKĒS HISTORIAS BIBLIA DEKA.\\=g HELIODORI HISTORIAE AETHIOpicae libri ... 1534. (VD16 H 1673)",
+    "\\=GHĒLIODŌRU AITHIOPIKŌN BIBLIA DEKA.\\=g HELIODORI AETHIOPICORVM LIBRI X. ... 1596. (VD16 H 1674)",
+    "HELIODORI AEthiopicae Historiae libri decem, nunc primùm è Gre̜co sermone in Latinum ... 1552. (VD16 H 1675)",
+    "HELIODORI HISTORIA AETHIOPICA. Das ist: Ein schoene liebliche Histori von dem ... 1580. (VD16 ZV 7604)";
+  wdrs:describedby <https://d-nb.info/gnd/118548808/about> .
+
+<https://d-nb.info/gnd/118548808/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118548808> gndo:biographicalOrHistoricalInformation "Aethiopica; Griech. Romanschriftsteller"@de;
+  gndo:udkCode "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24586673 .
+
+_:node1ivs02adlx24586673 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118548808> gndo:dateOfBirthAndDeath "[3. Jh.]" .
+

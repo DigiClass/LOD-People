@@ -1,0 +1,141 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102036160> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102036160/about> .
+
+<https://d-nb.info/gnd/102036160/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-20T00:30:32.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102036160> gndo:gndIdentifier "102036160";
+  foaf:page <https://de.wikipedia.org/wiki/Hierokles_%28Stoiker%29>;
+  owl:sameAs <https://dbpedia.org/resource/Hierocles_(Stoic)>, <http://viaf.org/viaf/10227403>,
+    <http://www.wikidata.org/entity/Q1355265>, <http://id.loc.gov/rwo/agents/n2009044984>;
+  gndo:oldAuthorityNumber "(DE-588)1089127499";
+  owl:sameAs <https://d-nb.info/gnd/1089127499>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089127499";
+  gndo:oldAuthorityNumber "(DE-588)1089784295";
+  owl:sameAs <https://d-nb.info/gnd/1089784295>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089784295";
+  gndo:oldAuthorityNumber "(DE-588)1089584261";
+  owl:sameAs <https://d-nb.info/gnd/1089584261>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089584261";
+  gndo:oldAuthorityNumber "(DE-588a)102036160", "(DE-588c)4546315-3";
+  gndo:variantNameForThePerson "Hierokles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401344 .
+
+_:node1ivpishs6x25401344 gndo:personalName "Hierokles" .
+
+<https://d-nb.info/gnd/102036160> gndo:variantNameForThePerson "Hierokles, Stoiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401345 .
+
+_:node1ivpishs6x25401345 gndo:personalName "Hierokles";
+  gndo:nameAddition "Stoiker" .
+
+<https://d-nb.info/gnd/102036160> gndo:variantNameForThePerson "Hierokles, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401346 .
+
+_:node1ivpishs6x25401346 gndo:personalName "Hierokles";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/102036160> gndo:variantNameForThePerson "Hierocles, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401347 .
+
+_:node1ivpishs6x25401347 gndo:personalName "Hierocles";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/102036160> gndo:variantNameForThePerson "Hierocles, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401348 .
+
+_:node1ivpishs6x25401348 gndo:personalName "Hierocles";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/102036160> gndo:variantNameForThePerson "Ierocle, Stoico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401349 .
+
+_:node1ivpishs6x25401349 gndo:personalName "Ierocle";
+  gndo:nameAddition "Stoico" .
+
+<https://d-nb.info/gnd/102036160> gndo:variantNameForThePerson "Ierocle, Filosofo Stoico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401350 .
+
+_:node1ivpishs6x25401350 gndo:personalName "Ierocle";
+  gndo:nameAddition "Filosofo Stoico" .
+
+<https://d-nb.info/gnd/102036160> gndo:variantNameForThePerson "Hierocles, Stoic";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401351 .
+
+_:node1ivpishs6x25401351 gndo:personalName "Hierocles";
+  gndo:nameAddition "Stoic" .
+
+<https://d-nb.info/gnd/102036160> gndo:variantNameForThePerson "Hierokles, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401352 .
+
+_:node1ivpishs6x25401352 gndo:personalName "Hierokles";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/102036160> gndo:preferredNameForThePerson "Hierocles, Stoicus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401353 .
+
+_:node1ivpishs6x25401353 gndo:personalName "Hierocles";
+  gndo:nameAddition "Stoicus" .
+
+<https://d-nb.info/gnd/102036160> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:relatedSubjectHeading <https://d-nb.info/gnd/4077910-5>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hierocles <Stoicus>: Ethische Elementarlehre (Papyrus 9780). - 1906";
+  wdrs:describedby <https://d-nb.info/gnd/102036160/about> .
+
+<https://d-nb.info/gnd/102036160/about> dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384>;
+  dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102036160> gndo:biographicalOrHistoricalInformation "Früher wurde er „Hierokles von Alexandria“ genannt, da man meinte, dass er aus Alexandria in Ägypten stammte. Dies konnte zu Verwechslungen mit dem Neuplatoniker Hierokles von Alexandria führen."@de;
+  gndo:professionOrOccupation _:node1ivpishs6x25401354 .
+
+_:node1ivpishs6x25401354 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/102036160> gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

@@ -1,0 +1,177 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118775561> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118775561/about> .
+
+<https://d-nb.info/gnd/118775561/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T15:05:34.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118775561> gndo:gndIdentifier "118775561";
+  foaf:page <https://de.wikipedia.org/wiki/Ion_von_Chios>;
+  owl:sameAs <https://dbpedia.org/resource/Ion_of_Chios>, <http://viaf.org/viaf/10642009>,
+    <https://isni.org/isni/0000000390969781>, <http://www.wikidata.org/entity/Q162163>,
+    <http://id.loc.gov/rwo/agents/n95013863>;
+  gndo:oldAuthorityNumber "(DE-588)1089878400";
+  owl:sameAs <https://d-nb.info/gnd/1089878400>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089878400";
+  gndo:oldAuthorityNumber "(DE-588)1089623526";
+  owl:sameAs <https://d-nb.info/gnd/1089623526>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089623526";
+  gndo:oldAuthorityNumber "(DE-588)154044059";
+  owl:sameAs <https://d-nb.info/gnd/154044059>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/154044059";
+  gndo:oldAuthorityNumber "(DE-588a)154044059", "(DE-588a)118775561", "(DE-588a)102634947",
+    "(DE-588a)102396280", "(DE-588c)4109488-8";
+  gndo:variantNameForThePerson "Io, Chius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399843 .
+
+_:node1ivpishs6x25399843 gndo:personalName "Io";
+  gndo:nameAddition "Chius" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Io, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399844 .
+
+_:node1ivpishs6x25399844 gndo:personalName "Io";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ion, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399845 .
+
+_:node1ivpishs6x25399845 gndo:personalName "Ion";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ion, Sohn des Orthomenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399846 .
+
+_:node1ivpishs6x25399846 gndo:personalName "Ion";
+  gndo:nameAddition "Sohn des Orthomenes" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ion, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399847 .
+
+_:node1ivpishs6x25399847 gndo:personalName "Ion";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ion, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399848 .
+
+_:node1ivpishs6x25399848 gndo:personalName "Ion";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Io, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399849 .
+
+_:node1ivpishs6x25399849 gndo:personalName "Io";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ione, de Chio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399850 .
+
+_:node1ivpishs6x25399850 gndo:personalName "Ione";
+  gndo:nameAddition "de Chio" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ion, of Chios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399851 .
+
+_:node1ivpishs6x25399851 gndo:personalName "Ion";
+  gndo:nameAddition "of Chios" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ion, di Chio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399852 .
+
+_:node1ivpishs6x25399852 gndo:personalName "Ion";
+  gndo:nameAddition "di Chio" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ione, di Chio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399853 .
+
+_:node1ivpishs6x25399853 gndo:personalName "Ione";
+  gndo:nameAddition "di Chio" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ion";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399854 .
+
+_:node1ivpishs6x25399854 gndo:personalName "Ion" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Ion, von Chios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399855 .
+
+_:node1ivpishs6x25399855 gndo:personalName "Ion";
+  gndo:nameAddition "von Chios" .
+
+<https://d-nb.info/gnd/118775561> gndo:variantNameForThePerson "Chius, Ion";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399856 .
+
+_:node1ivpishs6x25399856 gndo:forename "Ion";
+  gndo:surname "Chius" .
+
+<https://d-nb.info/gnd/118775561> gndo:preferredNameForThePerson "Ion, Chius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25399857 .
+
+_:node1ivpishs6x25399857 gndo:personalName "Ion";
+  gndo:nameAddition "Chius" .
+
+<https://d-nb.info/gnd/118775561> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ion von Chios. - 1939";
+  wdrs:describedby <https://d-nb.info/gnd/118775561/about> .
+
+<https://d-nb.info/gnd/118775561/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118775561> gndo:biographicalOrHistoricalInformation "Griech. Dichter, Historiker u. Philosoph"@de;
+  gndo:udkCode "500 - 401 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25399858 .
+
+_:node1ivpishs6x25399858 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_3 <https://d-nb.info/gnd/4025098-2> .
+
+<https://d-nb.info/gnd/118775561> gndo:dateOfBirth "-0490"^^xsd:gYear;
+  gndo:dateOfDeath "-0422"^^xsd:gYear .
+

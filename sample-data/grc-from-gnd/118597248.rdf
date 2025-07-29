@@ -1,0 +1,284 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118597248> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118597248/about> .
+
+<https://d-nb.info/gnd/118597248/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T12:36:03.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118597248> gndo:gndIdentifier "118597248";
+  foaf:page <https://de.wikipedia.org/wiki/Pythagoras>;
+  owl:sameAs <https://dbpedia.org/resource/Pythagoras>, <http://viaf.org/viaf/162237897>,
+    <http://www.wikidata.org/entity/Q10261>;
+  gndo:oldAuthorityNumber "(DE-588)1089725760";
+  owl:sameAs <https://d-nb.info/gnd/1089725760>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725760";
+  gndo:oldAuthorityNumber "(DE-588)108990293X";
+  owl:sameAs <https://d-nb.info/gnd/108990293X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108990293X";
+  gndo:oldAuthorityNumber "(DE-588)1089111622";
+  owl:sameAs <https://d-nb.info/gnd/1089111622>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089111622";
+  gndo:oldAuthorityNumber "(DE-588a)118597248", "(DE-588c)4047931-6";
+  gndo:variantNameForThePerson "Pythagoras, von Kroton";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585338 .
+
+_:node1ivs02adlx24585338 gndo:personalName "Pythagoras";
+  gndo:nameAddition "von Kroton" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoras, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585339 .
+
+_:node1ivs02adlx24585339 gndo:personalName "Pythagoras";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoras, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585340 .
+
+_:node1ivs02adlx24585340 gndo:personalName "Pythagoras";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoras, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585341 .
+
+_:node1ivs02adlx24585341 gndo:personalName "Pythagoras";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoras, Samius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585342 .
+
+_:node1ivs02adlx24585342 gndo:personalName "Pythagoras";
+  gndo:nameAddition "Samius" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoras, of Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585343 .
+
+_:node1ivs02adlx24585343 gndo:personalName "Pythagoras";
+  gndo:nameAddition "of Samos" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoras, von Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585344 .
+
+_:node1ivs02adlx24585344 gndo:personalName "Pythagoras";
+  gndo:nameAddition "von Samos" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoras, Sohn des Mnesarchos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585345 .
+
+_:node1ivs02adlx24585345 gndo:personalName "Pythagoras";
+  gndo:nameAddition "Sohn des Mnesarchos" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagore, de Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585346 .
+
+_:node1ivs02adlx24585346 gndo:personalName "Pythagore";
+  gndo:nameAddition "de Samos" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoreus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585347 .
+
+_:node1ivs02adlx24585347 gndo:personalName "Pythagoreus" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagoricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585348 .
+
+_:node1ivs02adlx24585348 gndo:personalName "Pythagoricus" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythogoras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585349 .
+
+_:node1ivs02adlx24585349 gndo:personalName "Pythogoras" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pietagoras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585350 .
+
+_:node1ivs02adlx24585350 gndo:personalName "Pietagoras" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pitagora, di Samo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585351 .
+
+_:node1ivs02adlx24585351 gndo:personalName "Pitagora";
+  gndo:nameAddition "di Samo" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pithagoras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585352 .
+
+_:node1ivs02adlx24585352 gndo:personalName "Pithagoras" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pseudo-Pythagoras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585353 .
+
+_:node1ivs02adlx24585353 gndo:personalName "Pseudo-Pythagoras" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Ps.-Pythagoras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585354 .
+
+_:node1ivs02adlx24585354 gndo:personalName "Ps.-Pythagoras" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pytagoras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585355 .
+
+_:node1ivs02adlx24585355 gndo:personalName "Pytagoras" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pythagore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585356 .
+
+_:node1ivs02adlx24585356 gndo:personalName "Pythagore" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Pitagora";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585357 .
+
+_:node1ivs02adlx24585357 gndo:personalName "Pitagora" .
+
+<https://d-nb.info/gnd/118597248> gndo:variantNameForThePerson "Fīṯāġūras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585358 .
+
+_:node1ivs02adlx24585358 gndo:personalName "Fīṯāġūras" .
+
+<https://d-nb.info/gnd/118597248> gndo:preferredNameForThePerson "Pythagoras";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585359 .
+
+_:node1ivs02adlx24585359 gndo:personalName "Pythagoras" .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119835541>;
+  gndo:hasRelation _:node1ivs02adlx24585360 .
+
+_:node1ivs02adlx24585360 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119835541>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785064>;
+  gndo:hasRelation _:node1ivs02adlx24585361 .
+
+_:node1ivs02adlx24585361 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785064>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118646141>;
+  gndo:hasRelation _:node1ivs02adlx24585362 .
+
+_:node1ivs02adlx24585362 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118646141>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118679694>;
+  gndo:hasRelation _:node1ivs02adlx24585363 .
+
+_:node1ivs02adlx24585363 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118679694>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104347511>;
+  gndo:hasRelation _:node1ivs02adlx24585364 .
+
+_:node1ivs02adlx24585364 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104347511>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118556010>;
+  gndo:hasRelation _:node1ivs02adlx24585365 .
+
+_:node1ivs02adlx24585365 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118556010>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119059835>;
+  gndo:hasRelation _:node1ivs02adlx24585366 .
+
+_:node1ivs02adlx24585366 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119059835>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:hasRelation _:node1ivs02adlx24585367 .
+
+_:node1ivs02adlx24585367 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585368 .
+
+_:node1ivs02adlx24585368 gndo:personalName "Synesius";
+  gndo:nameAddition "aus Kyrene" .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118733605>;
+  gndo:hasRelation _:node1ivs02adlx24585369 .
+
+_:node1ivs02adlx24585369 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118733605>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118644319>;
+  gndo:hasRelation _:node1ivs02adlx24585370 .
+
+_:node1ivs02adlx24585370 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118644319>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118597248> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Carmina aurea", "Carmina aurea", "Poemata Pythagorae et Phocylidis graeca",
+    "POEMATA PYTHAGORAE, ET PHOCYLIDIS: CVM DVPLICI INTERPREtatione Viti Amerbachij ...",
+    "AVREA PYTHAGORAE ET PHOCYLIDIS CARmina, nunc multò quàm antè, castigatiùs de Graeco ...",
+    "POEMATA PYTHAGORAE ET PHOCYLIDIS: CVM DVPLICI INTERPREtatione Viti Amerpachij, et ...",
+    "AVREA DICTA PYTHAGORAE, VVLGO NOMINATA, SVMMI PHILOSOPHI, EX GRAECO IN LAtinum Carmen ...",
+    "POEMATA PYTHAGORAE, & Phocylidis. Cum duplici interpreTATIONE VITI AMERBACHII ...",
+    "Carmina aurea", "POEMATA PYTAGORAE, ET PHOCYLIDIS. CVM DVPLICI INTERPRETATIONE VITI Amerbachij ...",
+    "Ficino, Marsiglio: De mystica theologia", "Isocrates: Carmina aurea";
+  wdrs:describedby <https://d-nb.info/gnd/118597248/about> .
+
+<https://d-nb.info/gnd/118597248/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118597248> gndo:biographicalOrHistoricalInformation "Griech. Philosoph u. Mathematiker; geb. um 569"@de;
+  gndo:udkCode "600 - 501 v. Chr. ", "500 - 401 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivs02adlx24585371 .
+
+_:node1ivs02adlx24585371 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4037945-0> .
+
+<https://d-nb.info/gnd/118597248> gndo:dateOfBirthAndDeath "[6./5. Jh. v. Chr.]" .
+

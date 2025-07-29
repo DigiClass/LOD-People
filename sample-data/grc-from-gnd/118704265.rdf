@@ -1,0 +1,186 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118704265> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118704265/about> .
+
+<https://d-nb.info/gnd/118704265/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-08T18:52:58.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118704265> gndo:gndIdentifier "118704265";
+  foaf:page <https://de.wikipedia.org/wiki/Hesychios_%28Presbyter%29>;
+  owl:sameAs <https://dbpedia.org/resource/Hesychius_of_Jerusalem>, <http://viaf.org/viaf/262453640>,
+    <https://isni.org/isni/0000000444587325>, <http://www.wikidata.org/entity/Q1616094>,
+    <http://id.loc.gov/rwo/agents/n83198243>;
+  gndo:oldAuthorityNumber "(DE-588)119708388";
+  owl:sameAs <https://d-nb.info/gnd/119708388>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119708388";
+  gndo:oldAuthorityNumber "(DE-588a)119708388", "(DE-588)1090659202";
+  owl:sameAs <https://d-nb.info/gnd/1090659202>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090659202";
+  gndo:oldAuthorityNumber "(DE-588)1090239416";
+  owl:sameAs <https://d-nb.info/gnd/1090239416>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090239416";
+  gndo:oldAuthorityNumber "(DE-588)1089770219";
+  owl:sameAs <https://d-nb.info/gnd/1089770219>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089770219";
+  gndo:oldAuthorityNumber "(DE-588)172136504";
+  owl:sameAs <https://d-nb.info/gnd/172136504>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172136504";
+  gndo:oldAuthorityNumber "(DE-588a)172136504", "(DE-588a)118704265", "(DE-588c)4095185-6";
+  gndo:variantNameForThePerson "Hesychios, Presbyter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401127 .
+
+_:node1ivpishs6x25401127 gndo:personalName "Hesychios";
+  gndo:nameAddition "Presbyter" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hesychius, Presbyter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401128 .
+
+_:node1ivpishs6x25401128 gndo:personalName "Hesychius";
+  gndo:nameAddition "Presbyter" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hesychius, von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401129 .
+
+_:node1ivpishs6x25401129 gndo:personalName "Hesychius";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Isychius, Hierosolymitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401130 .
+
+_:node1ivpishs6x25401130 gndo:personalName "Isychius";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Isichius, Hierosolymitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401131 .
+
+_:node1ivpishs6x25401131 gndo:personalName "Isichius";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hesychius, de Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401132 .
+
+_:node1ivpishs6x25401132 gndo:personalName "Hesychius";
+  gndo:nameAddition "de Jerusalem" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hesychius, Presbyter Hierosolymorum";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401133 .
+
+_:node1ivpishs6x25401133 gndo:personalName "Hesychius";
+  gndo:nameAddition "Presbyter Hierosolymorum" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hesychius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401134 .
+
+_:node1ivpishs6x25401134 gndo:personalName "Hesychius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hésychius, de Jérusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401135 .
+
+_:node1ivpishs6x25401135 gndo:personalName "Hésychius";
+  gndo:nameAddition "de Jérusalem" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hesychios, Mönch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401136 .
+
+_:node1ivpishs6x25401136 gndo:personalName "Hesychios";
+  gndo:nameAddition "Mönch" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Isik̕ios, Erowsaġemac̕i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401137 .
+
+_:node1ivpishs6x25401137 gndo:personalName "Isik̕ios";
+  gndo:nameAddition "Erowsaġemac̕i" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hesychios, von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401138 .
+
+_:node1ivpishs6x25401138 gndo:personalName "Hesychios";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Hesychius, of Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401139 .
+
+_:node1ivpishs6x25401139 gndo:personalName "Hesychius";
+  gndo:nameAddition "of Jerusalem" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "Evsuk̕i, Ierusalimeli";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401140 .
+
+_:node1ivpishs6x25401140 gndo:personalName "Evsuk̕i";
+  gndo:nameAddition "Ierusalimeli" .
+
+<https://d-nb.info/gnd/118704265> gndo:variantNameForThePerson "ევსუქი იერუსალიმელ, იერუსალიმელი"@ka;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401141 .
+
+_:node1ivpishs6x25401141 gndo:personalName "ევსუქი იერუსალიმელ";
+  gndo:nameAddition "იერუსალიმელი" .
+
+<https://d-nb.info/gnd/118704265> gndo:preferredNameForThePerson "Hesychius, Hierosolymitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401142 .
+
+_:node1ivpishs6x25401142 gndo:personalName "Hesychius";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118704265> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IL>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Isychii presbyteri Hierosolymorum In leviticum", "In Leviticum libri septem",
+    "EnKōmion eis tēn hagian tēn theotokon", "In Leviticum Comentaria";
+  wdrs:describedby <https://d-nb.info/gnd/118704265/about> .
+
+<https://d-nb.info/gnd/118704265/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118704265> gndo:biographicalOrHistoricalInformation "Mönch u. Presbyter in Jerusalem, bedeutender Exeget"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25401143 .
+
+_:node1ivpishs6x25401143 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4039902-3> .
+
+<https://d-nb.info/gnd/118704265> gndo:dateOfDeath "0451"^^xsd:gYear .
+

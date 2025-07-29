@@ -1,0 +1,105 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/1051222184> a gndo:DifferentiatedPerson;
+  owl:sameAs <https://orcid.org/0000-0002-7662-7200>, <https://isni.org/isni/0000000061551288>;
+  wdrs:describedby <https://d-nb.info/gnd/1051222184/about> .
+
+<https://d-nb.info/gnd/1051222184/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-01-31T16:42:24.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/1051222184> gndo:gndIdentifier "1051222184";
+  owl:sameAs <http://viaf.org/viaf/76454264>, <http://www.wikidata.org/entity/Q95672714>,
+    <http://id.loc.gov/rwo/agents/n97015104>;
+  gndo:oldAuthorityNumber "(DE-588)115240500";
+  owl:sameAs <https://d-nb.info/gnd/115240500>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/115240500";
+  gndo:oldAuthorityNumber "(DE-588)180021206";
+  owl:sameAs <https://d-nb.info/gnd/180021206>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/180021206";
+  gndo:oldAuthorityNumber "(DE-588a)180021206", "(DE-588a)115240500";
+  gndo:variantNameForThePerson "Antōnopulu, Theodōra Ph.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596235 .
+
+_:node1ivs02adlx24596235 gndo:forename "Theodōra Ph.";
+  gndo:surname "Antōnopulu" .
+
+<https://d-nb.info/gnd/1051222184> gndo:variantNameForThePerson "Antonopoulou, Theodora";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596236 .
+
+_:node1ivs02adlx24596236 gndo:forename "Theodora";
+  gndo:surname "Antonopoulou" .
+
+<https://d-nb.info/gnd/1051222184> gndo:variantNameForThePerson "Antonopoulou, Theodora F.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596237 .
+
+_:node1ivs02adlx24596237 gndo:forename "Theodora F.";
+  gndo:surname "Antonopoulou" .
+
+<https://d-nb.info/gnd/1051222184> gndo:preferredNameForThePerson "Antōnopulu, Theodōra";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24596238 .
+
+_:node1ivs02adlx24596238 gndo:forename "Theodōra";
+  gndo:surname "Antōnopulu" .
+
+<https://d-nb.info/gnd/1051222184> gndo:originalScriptNameOfThePerson "Αντωνοπούλου, Θεοδώρα"@gr;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#female>;
+  gndo:fieldOfStudy <https://d-nb.info/gnd/4147095-3>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hrsg. von: Myriobiblos : essays on Byzantine literature and culture. - 2015",
+    "Hrsg. von: Mercuri Grammatici Opera iambica. - 2017";
+  wdrs:describedby <https://d-nb.info/gnd/1051222184/about> .
+
+<https://d-nb.info/gnd/1051222184/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/1051222184> gndo:periodOfActivity "1997-";
+  gndo:professionOrOccupation _:node1ivs02adlx24596239 .
+
+_:node1ivs02adlx24596239 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4362366-9>;
+  rdf:_2 <https://d-nb.info/gnd/4160219-5> .
+
+<https://d-nb.info/gnd/1051222184> gndo:dateOfBirth "1968"^^xsd:gYear .
+

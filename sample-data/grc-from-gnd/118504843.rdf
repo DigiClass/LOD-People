@@ -1,0 +1,533 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118504843> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118504843/about> .
+
+<https://d-nb.info/gnd/118504843/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-02-02T17:54:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118504843> gndo:gndIdentifier "118504843";
+  foaf:page <https://de.wikipedia.org/wiki/Athanasius_der_Gro%C3%9Fe>;
+  owl:sameAs <https://dbpedia.org/resource/Athanasius_of_Alexandria>, <http://viaf.org/viaf/105155222>,
+    <https://isni.org/isni/0000000121035972>, <http://www.wikidata.org/entity/Q44024>,
+    <http://id.loc.gov/rwo/agents/n79145591>;
+  gndo:oldAuthorityNumber "(DE-588)1104018969";
+  owl:sameAs <https://d-nb.info/gnd/1104018969>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1104018969";
+  gndo:oldAuthorityNumber "(DE-588)1089910754";
+  owl:sameAs <https://d-nb.info/gnd/1089910754>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089910754";
+  gndo:oldAuthorityNumber "(DE-588)108979827X";
+  owl:sameAs <https://d-nb.info/gnd/108979827X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108979827X";
+  gndo:oldAuthorityNumber "(DE-588)11961023X";
+  owl:sameAs <https://d-nb.info/gnd/11961023X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/11961023X";
+  gndo:oldAuthorityNumber "(DE-588a)11961023X", "(DE-588)186232063";
+  owl:sameAs <https://d-nb.info/gnd/186232063>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186232063";
+  gndo:oldAuthorityNumber "(DE-588a)186232063", "(DE-588)174166656";
+  owl:sameAs <https://d-nb.info/gnd/174166656>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174166656";
+  gndo:oldAuthorityNumber "(DE-588a)174166656", "(DE-588)174112033";
+  owl:sameAs <https://d-nb.info/gnd/174112033>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174112033";
+  gndo:oldAuthorityNumber "(DE-588a)174112033", "(DE-588)174044011";
+  owl:sameAs <https://d-nb.info/gnd/174044011>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174044011";
+  gndo:oldAuthorityNumber "(DE-588a)174044011", "(DE-588)174040636";
+  owl:sameAs <https://d-nb.info/gnd/174040636>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174040636";
+  gndo:oldAuthorityNumber "(DE-588a)174040636", "(DE-588a)118504843";
+  gndo:variantNameForThePerson "Athanasius, der Große";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588356 .
+
+_:node1ivs02adlx24588356 gndo:personalName "Athanasius";
+  gndo:nameAddition "der Große" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588357 .
+
+_:node1ivs02adlx24588357 gndo:personalName "Athanasius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanazije, Veliki";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588358 .
+
+_:node1ivs02adlx24588358 gndo:personalName "Atanazije";
+  gndo:nameAddition "Veliki" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios, von Alexandria, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588359 .
+
+_:node1ivs02adlx24588359 gndo:personalName "Athanasios";
+  gndo:nameAddition "von Alexandria, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius I., Alexandria, Patriarch, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588360 .
+
+_:node1ivs02adlx24588360 gndo:personalName "Athanasius";
+  gndo:counting "I.";
+  gndo:nameAddition "Alexandria, Patriarch, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios I., Alexandria, Patriarch, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588361 .
+
+_:node1ivs02adlx24588361 gndo:personalName "Athanasios";
+  gndo:counting "I.";
+  gndo:nameAddition "Alexandria, Patriarch, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius I., Alexandria, Patriarcha, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588362 .
+
+_:node1ivs02adlx24588362 gndo:personalName "Athanasius";
+  gndo:counting "I.";
+  gndo:nameAddition "Alexandria, Patriarcha, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, der Große, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588363 .
+
+_:node1ivs02adlx24588363 gndo:personalName "Athanasius";
+  gndo:nameAddition "der Große, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios, der Große, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588364 .
+
+_:node1ivs02adlx24588364 gndo:personalName "Athanasios";
+  gndo:nameAddition "der Große, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, der Grosse, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588365 .
+
+_:node1ivs02adlx24588365 gndo:personalName "Athanasius";
+  gndo:nameAddition "der Grosse, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios, von Alexandrien, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588366 .
+
+_:node1ivs02adlx24588366 gndo:personalName "Athanasios";
+  gndo:nameAddition "von Alexandrien, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios, von Alexandreia, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588367 .
+
+_:node1ivs02adlx24588367 gndo:personalName "Athanasios";
+  gndo:nameAddition "von Alexandreia, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, von Alexandria, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588368 .
+
+_:node1ivs02adlx24588368 gndo:personalName "Athanasius";
+  gndo:nameAddition "von Alexandria, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, von Alexandrien, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588369 .
+
+_:node1ivs02adlx24588369 gndo:personalName "Athanasius";
+  gndo:nameAddition "von Alexandrien, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanazy, Aleksandryjski, Święty";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588370 .
+
+_:node1ivs02adlx24588370 gndo:personalName "Atanazy";
+  gndo:nameAddition "Aleksandryjski, Święty" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanazy, Wielki, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588371 .
+
+_:node1ivs02adlx24588371 gndo:personalName "Atanazy";
+  gndo:nameAddition "Wielki, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanazy, z Aleksandrii, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588372 .
+
+_:node1ivs02adlx24588372 gndo:personalName "Atanazy";
+  gndo:nameAddition "z Aleksandrii, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Archiepiscopus Alexandrinus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588373 .
+
+_:node1ivs02adlx24588373 gndo:personalName "Athanasius";
+  gndo:nameAddition "Archiepiscopus Alexandrinus, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios, Archiepiskopos Alexandreias, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588374 .
+
+_:node1ivs02adlx24588374 gndo:personalName "Athanasios";
+  gndo:nameAddition "Archiepiskopos Alexandreias, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Alexandria, Erzbischof, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588375 .
+
+_:node1ivs02adlx24588375 gndo:personalName "Athanasius";
+  gndo:nameAddition "Alexandria, Erzbischof, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Alexandria, Bischof, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588376 .
+
+_:node1ivs02adlx24588376 gndo:personalName "Athanasius";
+  gndo:nameAddition "Alexandria, Bischof, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Alexandrinus, Episcopus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588377 .
+
+_:node1ivs02adlx24588377 gndo:personalName "Athanasius";
+  gndo:nameAddition "Alexandrinus, Episcopus, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Magnus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588378 .
+
+_:node1ivs02adlx24588378 gndo:personalName "Athanasius";
+  gndo:nameAddition "Magnus, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios, Gegner des Areios, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588379 .
+
+_:node1ivs02adlx24588379 gndo:personalName "Athanasios";
+  gndo:nameAddition "Gegner des Areios, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios, ho Hagios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588380 .
+
+_:node1ivs02adlx24588380 gndo:personalName "Athanasios";
+  gndo:nameAddition "ho Hagios" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasios, Megas, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588381 .
+
+_:node1ivs02adlx24588381 gndo:personalName "Athanasios";
+  gndo:nameAddition "Megas, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Alexandrinus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588382 .
+
+_:node1ivs02adlx24588382 gndo:personalName "Athanasius";
+  gndo:nameAddition "Alexandrinus, Sanctus" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Scriptor Ecclesiasticus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588383 .
+
+_:node1ivs02adlx24588383 gndo:personalName "Athanasius";
+  gndo:nameAddition "Scriptor Ecclesiasticus, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Alexandrinus, Archiepiscopus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588384 .
+
+_:node1ivs02adlx24588384 gndo:personalName "Athanasius";
+  gndo:nameAddition "Alexandrinus, Archiepiscopus, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, Magnus, Episcopus Alexandrinus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588385 .
+
+_:node1ivs02adlx24588385 gndo:personalName "Athanasius";
+  gndo:nameAddition "Magnus, Episcopus Alexandrinus, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, of Alexandria, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588386 .
+
+_:node1ivs02adlx24588386 gndo:personalName "Athanasius";
+  gndo:nameAddition "of Alexandria, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, the Great, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588387 .
+
+_:node1ivs02adlx24588387 gndo:personalName "Athanasius";
+  gndo:nameAddition "the Great, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, of Alexandria, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588388 .
+
+_:node1ivs02adlx24588388 gndo:personalName "Athanasius";
+  gndo:nameAddition "of Alexandria, Saint" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanase, d'Alexandrie, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588389 .
+
+_:node1ivs02adlx24588389 gndo:personalName "Athanase";
+  gndo:nameAddition "d'Alexandrie, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanase, d'Alexandrie, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588390 .
+
+_:node1ivs02adlx24588390 gndo:personalName "Athanase";
+  gndo:nameAddition "d'Alexandrie, Saint" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasij, Aleksandrijski, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588391 .
+
+_:node1ivs02adlx24588391 gndo:personalName "Atanasij";
+  gndo:nameAddition "Aleksandrijski, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Aleksandrii, Atanazy z, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588392 .
+
+_:node1ivs02adlx24588392 gndo:forename "Atanazy";
+  gndo:prefix "z";
+  gndo:surname "Aleksandrii";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Athanasius, av Alexandria, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588393 .
+
+_:node1ivs02adlx24588393 gndo:personalName "Athanasius";
+  gndo:nameAddition "av Alexandria, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Afanasij, Aleksandrijskij, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588394 .
+
+_:node1ivs02adlx24588394 gndo:personalName "Afanasij";
+  gndo:nameAddition "Aleksandrijskij, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "At'anasi, Alek'sandreli, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588395 .
+
+_:node1ivs02adlx24588395 gndo:personalName "At'anasi";
+  gndo:nameAddition "Alek'sandreli, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasio, Alejandría, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588396 .
+
+_:node1ivs02adlx24588396 gndo:personalName "Atanasio";
+  gndo:nameAddition "Alejandría, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "At'anase, cmida, Didi, Alek'sandriis Mt'avarepiskoposi, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588397 .
+
+_:node1ivs02adlx24588397 gndo:forename "cmida";
+  gndo:surname "At'anase";
+  gndo:nameAddition "Didi, Alek'sandriis Mt'avarepiskoposi, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Afanasij, Patriarch Alexandrijskij, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588398 .
+
+_:node1ivs02adlx24588398 gndo:personalName "Afanasij";
+  gndo:nameAddition "Patriarch Alexandrijskij, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasio, di Alessandria, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588399 .
+
+_:node1ivs02adlx24588399 gndo:personalName "Atanasio";
+  gndo:nameAddition "di Alessandria, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasio, di Alessandria, Santo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588400 .
+
+_:node1ivs02adlx24588400 gndo:personalName "Atanasio";
+  gndo:nameAddition "di Alessandria, Santo" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasio, Magno, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588401 .
+
+_:node1ivs02adlx24588401 gndo:personalName "Atanasio";
+  gndo:nameAddition "Magno, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasio, Avversario di Ario, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588402 .
+
+_:node1ivs02adlx24588402 gndo:personalName "Atanasio";
+  gndo:nameAddition "Avversario di Ario, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Sant'Atanasio, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588403 .
+
+_:node1ivs02adlx24588403 gndo:personalName "Sant'Atanasio";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Pseudo-Athanasius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588404 .
+
+_:node1ivs02adlx24588404 gndo:personalName "Pseudo-Athanasius" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Pseudo-Athanasius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588405 .
+
+_:node1ivs02adlx24588405 gndo:personalName "Pseudo-Athanasius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Pseudo-Atanasio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588406 .
+
+_:node1ivs02adlx24588406 gndo:personalName "Pseudo-Atanasio" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasij, Aleksandrijski, Sveti";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588407 .
+
+_:node1ivs02adlx24588407 gndo:personalName "Atanasij";
+  gndo:nameAddition "Aleksandrijski, Sveti" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasij, Aleksandrijski (Veliki)";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588408 .
+
+_:node1ivs02adlx24588408 gndo:personalName "Atanasij";
+  gndo:nameAddition "Aleksandrijski (Veliki)" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Atanasij, Aleksandrijski";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588409 .
+
+_:node1ivs02adlx24588409 gndo:personalName "Atanasij";
+  gndo:nameAddition "Aleksandrijski" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Psevdo-Atanasij, Aleksandrijski";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588410 .
+
+_:node1ivs02adlx24588410 gndo:personalName "Psevdo-Atanasij";
+  gndo:nameAddition "Aleksandrijski" .
+
+<https://d-nb.info/gnd/118504843> gndo:variantNameForThePerson "Атанасий, Александрийски"@bg;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588411 .
+
+_:node1ivs02adlx24588411 gndo:personalName "Атанасий";
+  gndo:nameAddition "Александрийски" .
+
+<https://d-nb.info/gnd/118504843> gndo:preferredNameForThePerson "Athanasius, Alexandrinus, Heiliger";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24588412 .
+
+_:node1ivs02adlx24588412 gndo:personalName "Athanasius";
+  gndo:nameAddition "Alexandrinus, Heiliger" .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/118798170>;
+  gndo:hasRelation _:node1ivs02adlx24588413 .
+
+_:node1ivs02adlx24588413 gndo:professionalRelationship <https://d-nb.info/gnd/118798170>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/100218660>;
+  gndo:hasRelation _:node1ivs02adlx24588414 .
+
+_:node1ivs02adlx24588414 gndo:professionalRelationship <https://d-nb.info/gnd/100218660>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/118595512>;
+  gndo:hasRelation _:node1ivs02adlx24588415 .
+
+_:node1ivs02adlx24588415 gndo:professionalRelationship <https://d-nb.info/gnd/118595512>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/118868365>;
+  gndo:hasRelation _:node1ivs02adlx24588416 .
+
+_:node1ivs02adlx24588416 gndo:professionalRelationship <https://d-nb.info/gnd/118868365>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/118530577>;
+  gndo:hasRelation _:node1ivs02adlx24588417 .
+
+_:node1ivs02adlx24588417 gndo:professionalRelationship <https://d-nb.info/gnd/118530577>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/100363350>;
+  gndo:hasRelation _:node1ivs02adlx24588418 .
+
+_:node1ivs02adlx24588418 gndo:professionalRelationship <https://d-nb.info/gnd/100363350>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/11960616X>;
+  gndo:hasRelation _:node1ivs02adlx24588419 .
+
+_:node1ivs02adlx24588419 gndo:professionalRelationship <https://d-nb.info/gnd/11960616X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/123073081>;
+  gndo:hasRelation _:node1ivs02adlx24588420 .
+
+_:node1ivs02adlx24588420 gndo:professionalRelationship <https://d-nb.info/gnd/123073081>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/118541900>;
+  gndo:hasRelation _:node1ivs02adlx24588421 .
+
+_:node1ivs02adlx24588421 gndo:professionalRelationship <https://d-nb.info/gnd/118541900>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:professionalRelationship <https://d-nb.info/gnd/118687182>;
+  gndo:hasRelation _:node1ivs02adlx24588422 .
+
+_:node1ivs02adlx24588422 gndo:professionalRelationship <https://d-nb.info/gnd/118687182>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504843> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:broaderTermInstantial <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dialogi quinque de sancta trinitate", "Operum aliquot fragmenta",
+    "Homilia in S. Parasceven", "Opera omnia", "Opera omnia", "Vita S. Antonii Eremitae",
+    "Kurz verfaßter ... Lebenslauf des heiligen Einsiedlers Antonii", "Büchlein über das haylig buch den Psalter",
+    "Trattato della semplice e pura chiesa d'Iddio", "Liber contra idololatriam", "Opera",
+    "Paraclesis, id est adhortatio ad sanctissimum ac saluberrimum christianae philosophiae studium",
+    "MAGNI ATHANASII in Psalmos opusculũ pul-cherrimũ.[Übers.v.Angelo Poliziano]",
+    "DE VSV PSALMORVM EPITOME MAGNI Athanasij. Angelo Politiano interprete", "S. ATHANASIVS IN LIBRVM PSALMORVM nuper a Ioanne Reuchlin integre translatus",
+    "Operum tomus secundus", "Vita beati Antonii monachi Aegyptii", "B. ATHANASII LIBRI CONTRA Idolatriam Gentium, et de fide Sancte Trinitatis. CVM ...",
+    "Opera", "DIVI ATHANASII Alexandrini Archiepiscopi de passione Domini ac de Cruce liber optimus, ...";
+  wdrs:describedby <https://d-nb.info/gnd/118504843/about> .
+
+<https://d-nb.info/gnd/118504843/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/118504843> gndo:udkCode "201 - 300", "301 - 400";
+  gndo:periodOfActivity "328-373";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4001138-0>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4001138-0>;
+  gndo:professionOrOccupation _:node1ivs02adlx24588423 .
+
+_:node1ivs02adlx24588423 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4173551-1>;
+  rdf:_2 <https://d-nb.info/gnd/4006949-7>;
+  rdf:_3 <https://d-nb.info/gnd/4030752-9>;
+  rdf:_4 <https://d-nb.info/gnd/4317581-8> .
+
+<https://d-nb.info/gnd/118504843> gndo:dateOfBirth "0295"^^xsd:gYear;
+  gndo:dateOfDeath "0373"^^xsd:gYear .
+

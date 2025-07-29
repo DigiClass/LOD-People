@@ -1,0 +1,252 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11852464X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11852464X/about> .
+
+<https://d-nb.info/gnd/11852464X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:25:31.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11852464X> gndo:gndIdentifier "11852464X";
+  owl:sameAs <https://dbpedia.org/resource/Democritus>, <http://viaf.org/viaf/49224361>,
+    <https://isni.org/isni/0000000444578840>, <http://www.wikidata.org/entity/Q41980>;
+  gndo:oldAuthorityNumber "(DE-588)108988236X";
+  owl:sameAs <https://d-nb.info/gnd/108988236X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108988236X";
+  gndo:oldAuthorityNumber "(DE-588)1089721994";
+  owl:sameAs <https://d-nb.info/gnd/1089721994>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089721994";
+  gndo:oldAuthorityNumber "(DE-588)1089099770";
+  owl:sameAs <https://d-nb.info/gnd/1089099770>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089099770";
+  gndo:oldAuthorityNumber "(DE-588)186670346";
+  owl:sameAs <https://d-nb.info/gnd/186670346>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186670346";
+  gndo:oldAuthorityNumber "(DE-588a)186670346", "(DE-588)186198205";
+  owl:sameAs <https://d-nb.info/gnd/186198205>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186198205";
+  gndo:oldAuthorityNumber "(DE-588a)186198205", "(DE-588)182448827";
+  owl:sameAs <https://d-nb.info/gnd/182448827>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182448827";
+  gndo:oldAuthorityNumber "(DE-588a)182448827", "(DE-588a)11852464X", "(DE-588c)4011418-1";
+  gndo:variantNameForThePerson "Democritus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404175 .
+
+_:node1ivpishs6x25404175 gndo:personalName "Democritus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokrit von Abdera";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404176 .
+
+_:node1ivpishs6x25404176 gndo:personalName "Demokrit von Abdera" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokritos, von Abdera";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404177 .
+
+_:node1ivpishs6x25404177 gndo:personalName "Demokritos";
+  gndo:nameAddition "von Abdera" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokratos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404178 .
+
+_:node1ivpishs6x25404178 gndo:personalName "Demokratos" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democratus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404179 .
+
+_:node1ivpishs6x25404179 gndo:personalName "Democratus" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democritus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404180 .
+
+_:node1ivpishs6x25404180 gndo:personalName "Democritus" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokritus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404181 .
+
+_:node1ivpishs6x25404181 gndo:personalName "Demokritus" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democrit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404182 .
+
+_:node1ivpishs6x25404182 gndo:personalName "Democrit" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404183 .
+
+_:node1ivpishs6x25404183 gndo:personalName "Demokrates" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404184 .
+
+_:node1ivpishs6x25404184 gndo:personalName "Democrates" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokrit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404185 .
+
+_:node1ivpishs6x25404185 gndo:personalName "Demokrit" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democritus, of Abdera";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404186 .
+
+_:node1ivpishs6x25404186 gndo:personalName "Democritus";
+  gndo:nameAddition "of Abdera" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokritos, Schüler des Leukippos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404187 .
+
+_:node1ivpishs6x25404187 gndo:personalName "Demokritos";
+  gndo:nameAddition "Schüler des Leukippos" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Démocrite, d'Abdère";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404188 .
+
+_:node1ivpishs6x25404188 gndo:personalName "Démocrite";
+  gndo:nameAddition "d'Abdère" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Démocrite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404189 .
+
+_:node1ivpishs6x25404189 gndo:personalName "Démocrite" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democrito, di Abdera";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404190 .
+
+_:node1ivpishs6x25404190 gndo:personalName "Democrito";
+  gndo:nameAddition "di Abdera" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democrito, Scolaro di Leucippo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404191 .
+
+_:node1ivpishs6x25404191 gndo:personalName "Democrito";
+  gndo:nameAddition "Scolaro di Leucippo" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demócrito, Atomista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404192 .
+
+_:node1ivpishs6x25404192 gndo:personalName "Demócrito";
+  gndo:nameAddition "Atomista" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democritos, von Abdera";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404193 .
+
+_:node1ivpishs6x25404193 gndo:personalName "Democritos";
+  gndo:nameAddition "von Abdera" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democritus, Abderyta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404194 .
+
+_:node1ivpishs6x25404194 gndo:personalName "Democritus";
+  gndo:nameAddition "Abderyta" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokritos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404195 .
+
+_:node1ivpishs6x25404195 gndo:personalName "Demokritos" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokrit, von Abdera";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404196 .
+
+_:node1ivpishs6x25404196 gndo:personalName "Demokrit";
+  gndo:nameAddition "von Abdera" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Demokrates, Philosophos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404197 .
+
+_:node1ivpishs6x25404197 gndo:personalName "Demokrates";
+  gndo:nameAddition "Philosophos" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Democrates, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404198 .
+
+_:node1ivpishs6x25404198 gndo:personalName "Democrates";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/11852464X> gndo:variantNameForThePerson "Dīmūqrīţis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404199 .
+
+_:node1ivpishs6x25404199 gndo:personalName "Dīmūqrīţis" .
+
+<https://d-nb.info/gnd/11852464X> gndo:preferredNameForThePerson "Democritus, Abderita";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404200 .
+
+_:node1ivpishs6x25404200 gndo:personalName "Democritus";
+  gndo:nameAddition "Abderita" .
+
+<https://d-nb.info/gnd/11852464X> gndo:relatedPerson <https://d-nb.info/gnd/1053956525>;
+  gndo:hasRelation _:node1ivpishs6x25404201 .
+
+_:node1ivpishs6x25404201 gndo:relatedPerson <https://d-nb.info/gnd/1053956525> .
+
+<https://d-nb.info/gnd/11852464X> gndo:relatedPerson <https://d-nb.info/gnd/1053975139>;
+  gndo:hasRelation _:node1ivpishs6x25404202 .
+
+_:node1ivpishs6x25404202 gndo:relatedPerson <https://d-nb.info/gnd/1053975139> .
+
+<https://d-nb.info/gnd/11852464X> gndo:relatedPerson <https://d-nb.info/gnd/119357461>;
+  gndo:hasRelation _:node1ivpishs6x25404203 .
+
+_:node1ivpishs6x25404203 gndo:relatedPerson <https://d-nb.info/gnd/119357461> .
+
+<https://d-nb.info/gnd/11852464X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Goldene Sprüche", "De rebus sacris naturalibus et mysticis", "Democritus redivivus",
+    "De arte magna sive de rebus naturalibus", "[Sententiae]", "Die Seele - der Sitz des Schicksals",
+    "Cebes: Des Platoniker Cebes Gemälde des menschlichen Lebens", "Democriti Turba Philosophorum Oder Derer Etats Malcontenten Meister-Gesang. - ca. 1705",
+    "Carneval Oder Das grosse Hanen und Hennen-Ballett ..", "Demophili, Democritis et Secundi veterum philosophorum sententiae morales";
+  wdrs:describedby <https://d-nb.info/gnd/11852464X/about> .
+
+<https://d-nb.info/gnd/11852464X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11852464X> gndo:udkCode "500 - 401 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25404204 .
+
+_:node1ivpishs6x25404204 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/11852464X> gndo:dateOfBirth "-0460"^^xsd:gYear;
+  gndo:dateOfDeath "-0370"^^xsd:gYear .
+

@@ -1,0 +1,134 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/10076911X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/10076911X/about> .
+
+<https://d-nb.info/gnd/10076911X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-07-21T17:47:20.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/10076911X> gndo:gndIdentifier "10076911X";
+  owl:sameAs <https://dbpedia.org/resource/Conon_(mythographer)>, <http://viaf.org/viaf/32349480>,
+    <http://www.wikidata.org/entity/Q709305>;
+  gndo:oldAuthorityNumber "(DE-588)1089732848";
+  owl:sameAs <https://d-nb.info/gnd/1089732848>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089732848";
+  gndo:oldAuthorityNumber "(DE-588)108930613X";
+  owl:sameAs <https://d-nb.info/gnd/108930613X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108930613X";
+  gndo:oldAuthorityNumber "(DE-588a)10076911X", "(DE-588c)4668216-8";
+  gndo:variantNameForThePerson "Cono, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594617 .
+
+_:node1ivs02adlx24594617 gndo:personalName "Cono";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/10076911X> gndo:variantNameForThePerson "Conon, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594618 .
+
+_:node1ivs02adlx24594618 gndo:personalName "Conon";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/10076911X> gndo:variantNameForThePerson "Conon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594619 .
+
+_:node1ivs02adlx24594619 gndo:personalName "Conon" .
+
+<https://d-nb.info/gnd/10076911X> gndo:variantNameForThePerson "Konon, Mythograph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594620 .
+
+_:node1ivs02adlx24594620 gndo:personalName "Konon";
+  gndo:nameAddition "Mythograph" .
+
+<https://d-nb.info/gnd/10076911X> gndo:variantNameForThePerson "Conon, Mythographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594621 .
+
+_:node1ivs02adlx24594621 gndo:personalName "Conon";
+  gndo:nameAddition "Mythographus" .
+
+<https://d-nb.info/gnd/10076911X> gndo:variantNameForThePerson "Conone, Mitografo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594622 .
+
+_:node1ivs02adlx24594622 gndo:personalName "Conone";
+  gndo:nameAddition "Mitografo" .
+
+<https://d-nb.info/gnd/10076911X> gndo:variantNameForThePerson "Conon, Mythographer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594623 .
+
+_:node1ivs02adlx24594623 gndo:personalName "Conon";
+  gndo:nameAddition "Mythographer" .
+
+<https://d-nb.info/gnd/10076911X> gndo:variantNameForThePerson "Konon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594624 .
+
+_:node1ivs02adlx24594624 gndo:personalName "Konon" .
+
+<https://d-nb.info/gnd/10076911X> gndo:variantNameForThePerson "Konon, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594625 .
+
+_:node1ivs02adlx24594625 gndo:personalName "Konon";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/10076911X> gndo:preferredNameForThePerson "Conon, Historicus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594626 .
+
+_:node1ivs02adlx24594626 gndo:personalName "Conon";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/10076911X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Cono <Historicus>: Narrationes", "Cono <Historicus>: Narrationes",
+    "Apollodorus <Atheniensis>: Historiae poeticae", "Conon <Historicus>: Narrationes",
+    "Cononis narrationes, Ptolemaei historiae ad variam eruditionem pertinentes, Parthenii nar*";
+  wdrs:describedby <https://d-nb.info/gnd/10076911X/about> .
+
+<https://d-nb.info/gnd/10076911X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/10076911X> gndo:biographicalOrHistoricalInformation "FGrH 26: Dihēgēseis"@de;
+  gndo:udkCode "100 - 1 v. Chr. ", "1 - 100 n. Chr.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v1./1. Jh.]" .
+

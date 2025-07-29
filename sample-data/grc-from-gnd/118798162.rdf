@@ -1,0 +1,359 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118798162> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118798162/about> .
+
+<https://d-nb.info/gnd/118798162/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-03-30T08:18:58.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118798162> gndo:gndIdentifier "118798162";
+  foaf:page <https://de.wikipedia.org/wiki/Sozomenos>;
+  owl:sameAs <https://dbpedia.org/resource/Sozomen>, <http://viaf.org/viaf/305409681>,
+    <https://isni.org/isni/0000000453842893>, <http://www.wikidata.org/entity/Q354350>,
+    <http://id.loc.gov/rwo/agents/n84076239>;
+  gndo:oldAuthorityNumber "(DE-588)1103949837";
+  owl:sameAs <https://d-nb.info/gnd/1103949837>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1103949837";
+  gndo:oldAuthorityNumber "(DE-588)1089928831";
+  owl:sameAs <https://d-nb.info/gnd/1089928831>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928831";
+  gndo:oldAuthorityNumber "(DE-588)1089883447";
+  owl:sameAs <https://d-nb.info/gnd/1089883447>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089883447";
+  gndo:oldAuthorityNumber "(DE-588)1089827989";
+  owl:sameAs <https://d-nb.info/gnd/1089827989>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089827989";
+  gndo:oldAuthorityNumber "(DE-588)1089202903";
+  owl:sameAs <https://d-nb.info/gnd/1089202903>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089202903";
+  gndo:oldAuthorityNumber "(DE-588)186791429";
+  owl:sameAs <https://d-nb.info/gnd/186791429>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186791429";
+  gndo:oldAuthorityNumber "(DE-588a)186791429", "(DE-588)182587959";
+  owl:sameAs <https://d-nb.info/gnd/182587959>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182587959";
+  gndo:oldAuthorityNumber "(DE-588a)182587959", "(DE-588)186639325";
+  owl:sameAs <https://d-nb.info/gnd/186639325>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186639325";
+  gndo:oldAuthorityNumber "(DE-588)102633165X";
+  owl:sameAs <https://d-nb.info/gnd/102633165X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/102633165X";
+  gndo:oldAuthorityNumber "(DE-588a)186639325", "(DE-588)177452943";
+  owl:sameAs <https://d-nb.info/gnd/177452943>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/177452943";
+  gndo:oldAuthorityNumber "(DE-588a)177452943", "(DE-588)174137761";
+  owl:sameAs <https://d-nb.info/gnd/174137761>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174137761";
+  gndo:oldAuthorityNumber "(DE-588a)174137761", "(DE-588)17238060X";
+  owl:sameAs <https://d-nb.info/gnd/17238060X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17238060X";
+  gndo:oldAuthorityNumber "(DE-588a)17238060X", "(DE-588a)118798162", "(DE-588c)4113029-7";
+  gndo:variantNameForThePerson "Hermias Sozomenus, Salaminius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402087 .
+
+_:node1ivpishs6x25402087 gndo:forename "Salaminius";
+  gndo:surname "Hermias Sozomenus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Salaminius Hermias, Sozomenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402088 .
+
+_:node1ivpishs6x25402088 gndo:personalName "Salaminius Hermias";
+  gndo:nameAddition "Sozomenus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402089 .
+
+_:node1ivpishs6x25402089 gndo:personalName "Sozomen" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos, Scholastikos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402090 .
+
+_:node1ivpishs6x25402090 gndo:personalName "Sozomenos";
+  gndo:nameAddition "Scholastikos" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos, Rechtsanwalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402091 .
+
+_:node1ivpishs6x25402091 gndo:personalName "Sozomenos";
+  gndo:nameAddition "Rechtsanwalt" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos, von Bethelia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402092 .
+
+_:node1ivpishs6x25402092 gndo:personalName "Sozomenos";
+  gndo:nameAddition "von Bethelia" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos, von Gaza";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402093 .
+
+_:node1ivpishs6x25402093 gndo:personalName "Sozomenos";
+  gndo:nameAddition "von Gaza" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos, von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402094 .
+
+_:node1ivpishs6x25402094 gndo:personalName "Sozomenos";
+  gndo:nameAddition "von Konstantinopel" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos, Salamanes Hermeias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402095 .
+
+_:node1ivpishs6x25402095 gndo:forename "Salamanes Hermeias";
+  gndo:surname "Sozomenos" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus, Constantinopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402096 .
+
+_:node1ivpishs6x25402096 gndo:personalName "Sozomenus";
+  gndo:nameAddition "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus, Gazaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402097 .
+
+_:node1ivpishs6x25402097 gndo:personalName "Sozomenus";
+  gndo:nameAddition "Gazaeus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus, Salaminius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402098 .
+
+_:node1ivpishs6x25402098 gndo:personalName "Sozomenus";
+  gndo:nameAddition "Salaminius" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus, Salaminus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402099 .
+
+_:node1ivpishs6x25402099 gndo:personalName "Sozomenus";
+  gndo:nameAddition "Salaminus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402100 .
+
+_:node1ivpishs6x25402100 gndo:personalName "Sozomenus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus Salaminius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402101 .
+
+_:node1ivpishs6x25402101 gndo:personalName "Sozomenus Salaminius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomène";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402102 .
+
+_:node1ivpishs6x25402102 gndo:personalName "Sozomène" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomeno";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402103 .
+
+_:node1ivpishs6x25402103 gndo:personalName "Sozomeno" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402104 .
+
+_:node1ivpishs6x25402104 gndo:personalName "Sozomenos" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos, von Bethalia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402105 .
+
+_:node1ivpishs6x25402105 gndo:personalName "Sozomenos";
+  gndo:nameAddition "von Bethalia" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402106 .
+
+_:node1ivpishs6x25402106 gndo:personalName "Sozomenus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus, Gazeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402107 .
+
+_:node1ivpishs6x25402107 gndo:personalName "Sozomenus";
+  gndo:nameAddition "Gazeus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus, Hermias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402108 .
+
+_:node1ivpishs6x25402108 gndo:forename "Hermias";
+  gndo:surname "Sozomenus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenus, Hermius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402109 .
+
+_:node1ivpishs6x25402109 gndo:forename "Hermius";
+  gndo:surname "Sozomenus" .
+
+<https://d-nb.info/gnd/118798162> gndo:variantNameForThePerson "Sozomenos, Kirchenhistoriker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402110 .
+
+_:node1ivpishs6x25402110 gndo:personalName "Sozomenos";
+  gndo:nameAddition "Kirchenhistoriker" .
+
+<https://d-nb.info/gnd/118798162> gndo:preferredNameForThePerson "Sozomenus, Salaminius Hermias";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402111 .
+
+_:node1ivpishs6x25402111 gndo:forename "Salaminius Hermias";
+  gndo:surname "Sozomenus" .
+
+<https://d-nb.info/gnd/118798162> gndo:hasRelation _:node1ivpishs6x25402112 .
+
+_:node1ivpishs6x25402112 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402113 .
+
+_:node1ivpishs6x25402113 gndo:forename "Caecilius";
+  gndo:surname "Cyprianus" .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118960563>;
+  gndo:hasRelation _:node1ivpishs6x25402114 .
+
+_:node1ivpishs6x25402114 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118960563>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:hasRelation _:node1ivpishs6x25402115 .
+
+_:node1ivpishs6x25402115 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402116 .
+
+_:node1ivpishs6x25402116 gndo:personalName "Nicephorus Callistus" .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12461650X>;
+  gndo:hasRelation _:node1ivpishs6x25402117 .
+
+_:node1ivpishs6x25402117 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12461650X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118748742>;
+  gndo:hasRelation _:node1ivpishs6x25402118 .
+
+_:node1ivpishs6x25402118 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118748742>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:hasRelation _:node1ivpishs6x25402119 .
+
+_:node1ivpishs6x25402119 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402120 .
+
+_:node1ivpishs6x25402120 gndo:forename "Kaspar";
+  gndo:surname "Hedio" .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11948370X>;
+  gndo:hasRelation _:node1ivpishs6x25402121 .
+
+_:node1ivpishs6x25402121 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11948370X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:hasRelation _:node1ivpishs6x25402122 .
+
+_:node1ivpishs6x25402122 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402123 .
+
+_:node1ivpishs6x25402123 gndo:personalName "Theodorus Anagnostes" .
+
+<https://d-nb.info/gnd/118798162> gndo:hasRelation _:node1ivpishs6x25402124 .
+
+_:node1ivpishs6x25402124 gndo:functionOrRoleAsLiteral "Freistadt; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402125 .
+
+_:node1ivpishs6x25402125 gndo:forename "Johannes";
+  gndo:surname "Lange" .
+
+<https://d-nb.info/gnd/118798162> gndo:hasRelation _:node1ivpishs6x25402126 .
+
+_:node1ivpishs6x25402126 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118798162> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402127 .
+
+_:node1ivpishs6x25402127 gndo:personalName "Rufinus";
+  gndo:nameAddition "aus Aquileia" .
+
+<https://d-nb.info/gnd/118798162> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Socrates <Scholasticus>: Sōkratus Scholastiku kai Hermeiu Sōzomenu Ekklēsiastikē Hi*",
+    "Socrates <Scholasticus>: Histoire de l'église. - 1675 - 1676", "Socrates <Scholasticus>: Histoire de l'Église",
+    "Sozomenus, Hermias: Ein sehr schöne histori von der standhafftigkeit in Bekentnis und l*. - [ca. 1550]",
+    "Socrates <Scholasticus>: Sōkratus Scholastiku kai Hermeiu Sōzomenu EKklēsiastikē Hi*",
+    "Sokratus Scholastiku kai Ermiu Sozomenu ekklesiastike istoria", "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1545.  (VD16 E 4288)",
+    "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1572.  (VD16 E 4291)",
+    "Theodoretus <von Cyrus>: Historia ecclesiastica tripartita.  1510.  (VD16 ZV 24167)",
+    "Sozomenus, Hermias: Ein sehr schoene histori von der standhafftigkeit in Bekentnis vnd leiden des heiligen ...  1550.  (VD16 S 7111)",
+    "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1528.  (VD16 E 4274)",
+    "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1582.  (VD16 E 4292)",
+    "Nicephorus Callistus: Ecclesiasticae historiae.  1588.  (VD16 N 1441)", "Eusebius <von Caesarea>: Ecclesiastica historia.  1593.  (VD16 ZV 5531)",
+    "Sozomenus, Hermias: Ein sehr schoene Histori von der stanrhafftigkeit in Bekentnis vnd leiden des heiligen ...  1550.  (VD16 S 7110)",
+    "Eusebius <von Caesarea>: Ad Demetrianum.  1529/1530.  (VD16 E 4286)";
+  wdrs:describedby <https://d-nb.info/gnd/118798162/about> .
+
+<https://d-nb.info/gnd/118798162/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118798162> gndo:biographicalOrHistoricalInformation "Griech. Kirchenhistoriker und Rechtsanwalt in Konstantinopel"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:placeOfBirth <https://d-nb.info/gnd/1223120651>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4073697-0>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402128 .
+
+_:node1ivpishs6x25402128 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4398113-6>;
+  rdf:_2 <https://d-nb.info/gnd/4029050-5>;
+  rdf:_3 <https://d-nb.info/gnd/4048755-6> .
+
+<https://d-nb.info/gnd/118798162> gndo:dateOfDeath "0450"^^xsd:gYear .
+

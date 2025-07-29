@@ -1,0 +1,492 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118595512> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118595512/about> .
+
+<https://d-nb.info/gnd/118595512/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T20:48:09.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118595512> gndo:gndIdentifier "118595512";
+  foaf:page <https://de.wikipedia.org/wiki/Angelo_Poliziano>;
+  owl:sameAs <https://dbpedia.org/resource/Poliziano>, <http://viaf.org/viaf/9867884>,
+    <https://isni.org/isni/0000000120990193>, <http://www.wikidata.org/entity/Q250414>,
+    <http://id.loc.gov/rwo/agents/n79134158>;
+  gndo:oldAuthorityNumber "(DE-588)185891225";
+  owl:sameAs <https://d-nb.info/gnd/185891225>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185891225";
+  gndo:oldAuthorityNumber "(DE-588a)185891225", "(DE-588)182310493";
+  owl:sameAs <https://d-nb.info/gnd/182310493>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182310493";
+  gndo:oldAuthorityNumber "(DE-588a)182310493", "(DE-588)182310485";
+  owl:sameAs <https://d-nb.info/gnd/182310485>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182310485";
+  gndo:oldAuthorityNumber "(DE-588a)182310485", "(DE-588)180775294";
+  owl:sameAs <https://d-nb.info/gnd/180775294>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/180775294";
+  gndo:oldAuthorityNumber "(DE-588a)180775294", "(DE-588)15370733X";
+  owl:sameAs <https://d-nb.info/gnd/15370733X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/15370733X";
+  gndo:oldAuthorityNumber "(DE-588a)15370733X", "(DE-588a)118595512", "(DE-588a)158168445",
+    "(DE-588a)135105587", "(DE-588a)11979151X", "(DE-101c)310795583", "(DE-588c)4046625-5";
+  gndo:variantNameForThePerson "Ambrogini, Angiolo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589243 .
+
+_:node1ivs02adlx24589243 gndo:forename "Angiolo";
+  gndo:surname "Ambrogini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ambrogini, Angelo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589244 .
+
+_:node1ivs02adlx24589244 gndo:forename "Angelo";
+  gndo:surname "Ambrogini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ambrogini, Angnolo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589245 .
+
+_:node1ivs02adlx24589245 gndo:forename "Angnolo";
+  gndo:surname "Ambrogini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angelo, Poliziano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589246 .
+
+_:node1ivs02adlx24589246 gndo:personalName "Angelo";
+  gndo:nameAddition "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politien, Ange A.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589247 .
+
+_:node1ivs02adlx24589247 gndo:forename "Ange A.";
+  gndo:surname "Politien" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Poliziano, Angelo Ambrogini";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589248 .
+
+_:node1ivs02adlx24589248 gndo:forename "Angelo Ambrogini";
+  gndo:surname "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Poliziano, Angelo A.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589249 .
+
+_:node1ivs02adlx24589249 gndo:forename "Angelo A.";
+  gndo:surname "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ambrogini Poliziano, Angelo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589250 .
+
+_:node1ivs02adlx24589250 gndo:forename "Angelo";
+  gndo:surname "Ambrogini Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politian, Angelo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589251 .
+
+_:node1ivs02adlx24589251 gndo:forename "Angelo";
+  gndo:surname "Politian" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politianus, Angelo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589252 .
+
+_:node1ivs02adlx24589252 gndo:forename "Angelo";
+  gndo:surname "Politianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politianus, Angelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589253 .
+
+_:node1ivs02adlx24589253 gndo:forename "Angelius";
+  gndo:surname "Politianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Poliziano, Giovanni A.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589254 .
+
+_:node1ivs02adlx24589254 gndo:forename "Giovanni A.";
+  gndo:surname "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Poliziano, Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589255 .
+
+_:node1ivs02adlx24589255 gndo:forename "Angelus";
+  gndo:surname "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "A.P.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589256 .
+
+_:node1ivs02adlx24589256 gndo:personalName "A.P." .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ambrogini, Angelo C. de'";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589257 .
+
+_:node1ivs02adlx24589257 gndo:forename "Angelo C.";
+  gndo:prefix "de'";
+  gndo:surname "Ambrogini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Cini De'Ambrogini, Angelo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589258 .
+
+_:node1ivs02adlx24589258 gndo:forename "Angelo";
+  gndo:surname "Cini De'Ambrogini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "De'Ambrogini, Angelo C.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589259 .
+
+_:node1ivs02adlx24589259 gndo:forename "Angelo C.";
+  gndo:surname "De'Ambrogini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politianus, Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589260 .
+
+_:node1ivs02adlx24589260 gndo:forename "Angelus";
+  gndo:surname "Politianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Poliziano, Agnolo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589261 .
+
+_:node1ivs02adlx24589261 gndo:forename "Agnolo";
+  gndo:surname "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ambrogini, Angelo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589262 .
+
+_:node1ivs02adlx24589262 gndo:forename "Angelo";
+  gndo:surname "Ambrogini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ange, Politien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589263 .
+
+_:node1ivs02adlx24589263 gndo:personalName "Ange";
+  gndo:nameAddition "Politien" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angelo, Ambrogini Poliziano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589264 .
+
+_:node1ivs02adlx24589264 gndo:personalName "Angelo";
+  gndo:nameAddition "Ambrogini Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angiolo, de'Ambrosini";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589265 .
+
+_:node1ivs02adlx24589265 gndo:personalName "Angiolo";
+  gndo:nameAddition "de'Ambrosini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politiano, Angelo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589266 .
+
+_:node1ivs02adlx24589266 gndo:forename "Angelo";
+  gndo:surname "Politiano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politanus, Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589267 .
+
+_:node1ivs02adlx24589267 gndo:forename "Angelus";
+  gndo:surname "Politanus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angelus, Politianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589268 .
+
+_:node1ivs02adlx24589268 gndo:personalName "Angelus";
+  gndo:nameAddition "Politianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Policianus, Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589269 .
+
+_:node1ivs02adlx24589269 gndo:forename "Angelus";
+  gndo:surname "Policianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politien, Ange";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589270 .
+
+_:node1ivs02adlx24589270 gndo:forename "Ange";
+  gndo:surname "Politien" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589271 .
+
+_:node1ivs02adlx24589271 gndo:personalName "Angelus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angiolo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589272 .
+
+_:node1ivs02adlx24589272 gndo:personalName "Angiolo" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ambrogini, Angelo Poliziano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589273 .
+
+_:node1ivs02adlx24589273 gndo:forename "Angelo Poliziano";
+  gndo:surname "Ambrogini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Policiano, Angelo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589274 .
+
+_:node1ivs02adlx24589274 gndo:forename "Angelo";
+  gndo:surname "Policiano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589275 .
+
+_:node1ivs02adlx24589275 gndo:personalName "Politian" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Poliziano, Angiolo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589276 .
+
+_:node1ivs02adlx24589276 gndo:forename "Angiolo";
+  gndo:surname "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angiolo Poliziano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589277 .
+
+_:node1ivs02adlx24589277 gndo:personalName "Angiolo Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angelus Politianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589278 .
+
+_:node1ivs02adlx24589278 gndo:personalName "Angelus Politianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ange";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589279 .
+
+_:node1ivs02adlx24589279 gndo:personalName "Ange" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Angiolo de' Ambrosini";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589280 .
+
+_:node1ivs02adlx24589280 gndo:personalName "Angiolo de' Ambrosini" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Pollitianus, Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589281 .
+
+_:node1ivs02adlx24589281 gndo:forename "Angelus";
+  gndo:surname "Pollitianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Poliziano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589282 .
+
+_:node1ivs02adlx24589282 gndo:personalName "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politianus, Johann Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589283 .
+
+_:node1ivs02adlx24589283 gndo:forename "Johann Angelus";
+  gndo:surname "Politianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Poliziano, Johann Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589284 .
+
+_:node1ivs02adlx24589284 gndo:forename "Johann Angelus";
+  gndo:surname "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Polizianus, Johann Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589285 .
+
+_:node1ivs02adlx24589285 gndo:forename "Johann Angelus";
+  gndo:surname "Polizianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Ingolstetter, Johann";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589286 .
+
+_:node1ivs02adlx24589286 gndo:forename "Johann";
+  gndo:surname "Ingolstetter" .
+
+<https://d-nb.info/gnd/118595512> gndo:variantNameForThePerson "Politianus, Johannes Angelus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589287 .
+
+_:node1ivs02adlx24589287 gndo:forename "Johannes Angelus";
+  gndo:surname "Politianus" .
+
+<https://d-nb.info/gnd/118595512> gndo:preferredNameForThePerson "Poliziano, Angelo";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589288 .
+
+_:node1ivs02adlx24589288 gndo:forename "Angelo";
+  gndo:surname "Poliziano" .
+
+<https://d-nb.info/gnd/118595512> gndo:hasRelation _:node1ivs02adlx24589289 .
+
+_:node1ivs02adlx24589289 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24589290 .
+
+_:node1ivs02adlx24589290 gndo:forename "Bruno";
+  gndo:surname "Seidel" .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11955951X>;
+  gndo:hasRelation _:node1ivs02adlx24589291 .
+
+_:node1ivs02adlx24589291 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11955951X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:hasRelation _:node1ivs02adlx24589292 .
+
+_:node1ivs02adlx24589292 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24589293 .
+
+_:node1ivs02adlx24589293 gndo:forename "Guillaume";
+  gndo:surname "Leblanc";
+  gndo:nameAddition "der Jüngere" .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119699818>;
+  gndo:hasRelation _:node1ivs02adlx24589294 .
+
+_:node1ivs02adlx24589294 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119699818>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:hasRelation _:node1ivs02adlx24589295 .
+
+_:node1ivs02adlx24589295 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24589296 .
+
+_:node1ivs02adlx24589296 gndo:forename "Georg";
+  gndo:surname "Fabricius" .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120539896>;
+  gndo:hasRelation _:node1ivs02adlx24589297 .
+
+_:node1ivs02adlx24589297 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120539896>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118660314>;
+  gndo:hasRelation _:node1ivs02adlx24589298 .
+
+_:node1ivs02adlx24589298 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118660314>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118553569>;
+  gndo:hasRelation _:node1ivs02adlx24589299 .
+
+_:node1ivs02adlx24589299 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118553569>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119611104>;
+  gndo:hasRelation _:node1ivs02adlx24589300 .
+
+_:node1ivs02adlx24589300 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119611104>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594605>;
+  gndo:hasRelation _:node1ivs02adlx24589301 .
+
+_:node1ivs02adlx24589301 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594605>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119857944>;
+  gndo:hasRelation _:node1ivs02adlx24589302 .
+
+_:node1ivs02adlx24589302 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119857944>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119133210>;
+  gndo:hasRelation _:node1ivs02adlx24589303 .
+
+_:node1ivs02adlx24589303 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119133210>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719843>;
+  gndo:hasRelation _:node1ivs02adlx24589304 .
+
+_:node1ivs02adlx24589304 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719843>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11976198X>;
+  gndo:hasRelation _:node1ivs02adlx24589305 .
+
+_:node1ivs02adlx24589305 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11976198X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119830299>;
+  gndo:hasRelation _:node1ivs02adlx24589306 .
+
+_:node1ivs02adlx24589306 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119830299>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595512> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/ita>, <http://id.loc.gov/vocabulary/iso639-2/lat>,
+    <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Coniurationis Pactianae anni 1478 commentarius", "Angeli Politiani viri undecunque doctissimi Lamia. - [ca. 1520]",
+    "Alexander <Aphrodisiensis>: Super nonnullis physicis quaestionibus solutionum liber",
+    "Alexander <Aphrodisiensis>: Super quaestionibus nonnullis phys. solutionum liber",
+    "Alexander <Aphrodisiensis>: Super quaestionibus nonnullis physicis, solutionum liber",
+    "Epictetus: Encheiridion Epiktētu", "Epictetus: Encheiridion Epiktētu", "Epictetus: Enchiridion",
+    "Poliziano, Angelo", "Epistolae lepidissimae", "Poliziano, Angelo", "Aesopus: Fabulae. 1542. (VD16 A 495)",
+    "Alexander Aphrodisaeus: Problemata. 1566. (VD16 P 4888)", "Aesopus: Fabulae. 1525. (VD16 A 477)",
+    "ANGELI POLITIANI MISCELLANEORVM CENTVRIA VNA.. 1522. (VD16 P 3993)", "Aesopus: Fabulae. 1571. (VD16 A 523)",
+    "Aesopus: AESOPI PHRYGIS FABVLARVM CELEberrimi autoris Vita. FABELLAE AESOPIcae plures ... 1539. (VD16 A 492)",
+    "Aesopus: FABVLAE AESOPICAE PLVRES QVINGENTIS ET ALIAE QVAEDAM NARRATIONES, CVM historia vitae ... 1564. (VD16 A 516)",
+    "Athanasius: Paraclesis, id est adhortatio ad sanctissimum ac saluberrimum christianae philosophiae studium. 1522. (VD16 A 3977)",
+    "Aesopus: Fabulae. 1534. (VD16 A 486)", "Alexander Aphrodisaeus: Problemata. 1548. (VD16 P 4883)",
+    "Verinus, Michael: MICHAELIS VERINI HISPAni Poe͏̈tae ac iuuenis doctiss. Disticha de moribus. ... . 1538. (VD16 ZV 24119)";
+  wdrs:describedby <https://d-nb.info/gnd/118595512/about> .
+
+<https://d-nb.info/gnd/118595512/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/118595512> gndo:biographicalOrHistoricalInformation "Italienischer Humanist und Poet; Hauslehrer bei Lorenzo de' Medici; Professor in Florenz"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4115211-6>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4017581-9>;
+  gndo:professionOrOccupation _:node1ivs02adlx24589307 .
+
+_:node1ivs02adlx24589307 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4160777-6>;
+  rdf:_2 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_3 <https://d-nb.info/gnd/4061414-1>;
+  rdf:_4 <https://d-nb.info/gnd/4025243-7> .
+
+<https://d-nb.info/gnd/118595512> gndo:dateOfBirth "1454"^^xsd:gYear;
+  gndo:dateOfDeath "1494"^^xsd:gYear .
+

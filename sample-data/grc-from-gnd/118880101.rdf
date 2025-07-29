@@ -1,0 +1,150 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118880101> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118880101/about> .
+
+<https://d-nb.info/gnd/118880101/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2015-04-16T19:08:02.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118880101> gndo:gndIdentifier "118880101";
+  foaf:page <https://de.wikipedia.org/wiki/Dionysios_I._von_Syrakus>;
+  owl:sameAs <https://dbpedia.org/resource/Dionysius_I_of_Syracuse>, <http://viaf.org/viaf/89597856>,
+    <https://isni.org/isni/0000000079795715>, <http://www.wikidata.org/entity/Q332750>,
+    <http://id.loc.gov/rwo/agents/n86036496>;
+  gndo:oldAuthorityNumber "(DE-588a)118880101", "(DE-588c)4219031-9";
+  gndo:variantNameForThePerson "Dionysius, Syracusius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592204 .
+
+_:node1ivs02adlx24592204 gndo:personalName "Dionysius";
+  gndo:nameAddition "Syracusius" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius, Tragicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592205 .
+
+_:node1ivs02adlx24592205 gndo:personalName "Dionysius";
+  gndo:nameAddition "Tragicus" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius, Tyrannus Siceliae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592206 .
+
+_:node1ivs02adlx24592206 gndo:personalName "Dionysius";
+  gndo:nameAddition "Tyrannus Siceliae" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius, Syracusanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592207 .
+
+_:node1ivs02adlx24592207 gndo:personalName "Dionysius";
+  gndo:nameAddition "Syracusanus" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysios, der Ältere";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592208 .
+
+_:node1ivs02adlx24592208 gndo:personalName "Dionysios";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysios, von Syrakus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592209 .
+
+_:node1ivs02adlx24592209 gndo:personalName "Dionysios";
+  gndo:nameAddition "von Syrakus" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius, Maior";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592210 .
+
+_:node1ivs02adlx24592210 gndo:personalName "Dionysius";
+  gndo:nameAddition "Maior" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius I., Syracuse, Tyrant";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592211 .
+
+_:node1ivs02adlx24592211 gndo:personalName "Dionysius";
+  gndo:counting "I.";
+  gndo:nameAddition "Syracuse, Tyrant" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius, Siculus Tragicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592212 .
+
+_:node1ivs02adlx24592212 gndo:personalName "Dionysius";
+  gndo:nameAddition "Siculus Tragicus" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius I., Syracusae, Tyrannus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592213 .
+
+_:node1ivs02adlx24592213 gndo:personalName "Dionysius";
+  gndo:counting "I.";
+  gndo:nameAddition "Syracusae, Tyrannus" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius, l'Aîné";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592214 .
+
+_:node1ivs02adlx24592214 gndo:personalName "Dionysius";
+  gndo:nameAddition "l'Aîné" .
+
+<https://d-nb.info/gnd/118880101> gndo:variantNameForThePerson "Dionysius, l'Aisné";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592215 .
+
+_:node1ivs02adlx24592215 gndo:personalName "Dionysius";
+  gndo:nameAddition "l'Aisné" .
+
+<https://d-nb.info/gnd/118880101> gndo:preferredNameForThePerson "Dionysios I., Syrakus, Tyrann";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592216 .
+
+_:node1ivs02adlx24592216 gndo:personalName "Dionysios";
+  gndo:counting "I.";
+  gndo:nameAddition "Syrakus, Tyrann" .
+
+<https://d-nb.info/gnd/118880101> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118880101/about> .
+
+<https://d-nb.info/gnd/118880101/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118880101> gndo:biographicalOrHistoricalInformation "TGF 1,242-246"@de;
+  gndo:udkCode "500 - 401 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0430"^^xsd:gYear;
+  gndo:dateOfDeath "-0367"^^xsd:gYear .
+

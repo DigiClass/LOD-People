@@ -1,0 +1,82 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102390401> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102390401/about> .
+
+<https://d-nb.info/gnd/102390401/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2013-11-08T07:55:43.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102390401> gndo:gndIdentifier "102390401";
+  owl:sameAs <http://viaf.org/viaf/57001547>, <http://www.wikidata.org/entity/Q111200230>;
+  gndo:oldAuthorityNumber "(DE-588a)102390401";
+  gndo:variantNameForThePerson "Demophilos, Astrologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593664 .
+
+_:node1ivs02adlx24593664 gndo:personalName "Demophilos";
+  gndo:nameAddition "Astrologe" .
+
+<https://d-nb.info/gnd/102390401> gndo:preferredNameForThePerson "Demophilus, Astrologus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593665 .
+
+_:node1ivs02adlx24593665 gndo:personalName "Demophilus";
+  gndo:nameAddition "Astrologus" .
+
+<https://d-nb.info/gnd/102390401> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#5.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102390401/about> .
+
+<https://d-nb.info/gnd/102390401/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102390401> gndo:biographicalOrHistoricalInformation "Astrologe, der sich mit dem Tetrabiblos des Ptolemaeus beschäftigt hat und eventuell einen Kommentar geschrieben hat. Einige Scholien sind im Kommentar des Prophyrius zum Tetrabiblos erhalten. Diese werden in den Handschriften einem Astrologen Demophilus zugeschrieben"@de;
+  gndo:udkCode "101 - 200", "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593666 .
+
+_:node1ivs02adlx24593666 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4415075-1> .
+
+<https://d-nb.info/gnd/102390401> gndo:dateOfBirthAndDeath "[2./5. Jh.]" .
+

@@ -1,0 +1,508 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118549855> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118549855/about> .
+
+<https://d-nb.info/gnd/118549855/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:52:54.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118549855> gndo:gndIdentifier "118549855";
+  foaf:page <https://de.wikipedia.org/wiki/Herodot>;
+  owl:sameAs <https://dbpedia.org/resource/Herodotus>, <http://viaf.org/viaf/100225976>,
+    <https://isni.org/isni/0000000123530133>, <http://www.wikidata.org/entity/Q26825>,
+    <http://id.loc.gov/rwo/agents/n79086888>;
+  gndo:oldAuthorityNumber "(DE-588)187782423";
+  owl:sameAs <https://d-nb.info/gnd/187782423>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187782423";
+  gndo:oldAuthorityNumber "(DE-588a)187782423", "(DE-588)1084572273";
+  owl:sameAs <https://d-nb.info/gnd/1084572273>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1084572273";
+  gndo:oldAuthorityNumber "(DE-588)1089928807";
+  owl:sameAs <https://d-nb.info/gnd/1089928807>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928807";
+  gndo:oldAuthorityNumber "(DE-588)1089854641";
+  owl:sameAs <https://d-nb.info/gnd/1089854641>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089854641";
+  gndo:oldAuthorityNumber "(DE-588a)118549855", "(DE-588a)119707225", "(DE-588c)4024549-4";
+  gndo:variantNameForThePerson "Herodote";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589981 .
+
+_:node1ivs02adlx24589981 gndo:personalName "Herodote" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodoto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589982 .
+
+_:node1ivs02adlx24589982 gndo:personalName "Herodoto" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodoot";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589983 .
+
+_:node1ivs02adlx24589983 gndo:personalName "Herodoot" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodatus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589984 .
+
+_:node1ivs02adlx24589984 gndo:personalName "Herodatus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Hirūdut";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589985 .
+
+_:node1ivs02adlx24589985 gndo:personalName "Hirūdut" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Erodot";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589986 .
+
+_:node1ivs02adlx24589986 gndo:personalName "Erodot" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Hérodotosz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589987 .
+
+_:node1ivs02adlx24589987 gndo:personalName "Hérodotosz" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Hīrūdūtūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589988 .
+
+_:node1ivs02adlx24589988 gndo:personalName "Hīrūdūtūs" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Hīrūdūt";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589989 .
+
+_:node1ivs02adlx24589989 gndo:personalName "Hīrūdūt" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Gerodot";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589990 .
+
+_:node1ivs02adlx24589990 gndo:personalName "Gerodot" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot, von Halikarnass";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589991 .
+
+_:node1ivs02adlx24589991 gndo:personalName "Herodot";
+  gndo:nameAddition "von Halikarnass" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot, von Halicarnass";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589992 .
+
+_:node1ivs02adlx24589992 gndo:personalName "Herodot";
+  gndo:nameAddition "von Halicarnass" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot, von Halikarnaß";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589993 .
+
+_:node1ivs02adlx24589993 gndo:personalName "Herodot";
+  gndo:nameAddition "von Halikarnaß" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot, von Halikarnassos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589994 .
+
+_:node1ivs02adlx24589994 gndo:personalName "Herodot";
+  gndo:nameAddition "von Halikarnassos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotos, von Halikarnassos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589995 .
+
+_:node1ivs02adlx24589995 gndo:personalName "Herodotos";
+  gndo:nameAddition "von Halikarnassos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, von Halikarnassos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589996 .
+
+_:node1ivs02adlx24589996 gndo:personalName "Herodotus";
+  gndo:nameAddition "von Halikarnassos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, von Halicarnassos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589997 .
+
+_:node1ivs02adlx24589997 gndo:personalName "Herodotus";
+  gndo:nameAddition "von Halicarnassos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, von Halikarnassus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589998 .
+
+_:node1ivs02adlx24589998 gndo:personalName "Herodotus";
+  gndo:nameAddition "von Halikarnassus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodoot, van Halikarnassus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589999 .
+
+_:node1ivs02adlx24589999 gndo:personalName "Herodoot";
+  gndo:nameAddition "van Halikarnassus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, of Halicarnassus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590000 .
+
+_:node1ivs02adlx24590000 gndo:personalName "Herodotus";
+  gndo:nameAddition "of Halicarnassus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Hérodote, d'Halicarnasse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590001 .
+
+_:node1ivs02adlx24590001 gndo:personalName "Hérodote";
+  gndo:nameAddition "d'Halicarnasse" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Hérodote, de Halicarnasse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590002 .
+
+_:node1ivs02adlx24590002 gndo:personalName "Hérodote";
+  gndo:nameAddition "de Halicarnasse" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot, iz Halikarnasu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590003 .
+
+_:node1ivs02adlx24590003 gndo:personalName "Herodot";
+  gndo:nameAddition "iz Halikarnasu" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, ho Halikarnasseos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590004 .
+
+_:node1ivs02adlx24590004 gndo:personalName "Herodotus";
+  gndo:nameAddition "ho Halikarnasseos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, ho Halikarnasseus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590005 .
+
+_:node1ivs02adlx24590005 gndo:personalName "Herodotus";
+  gndo:nameAddition "ho Halikarnasseus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Erodoto, di Alicarnasso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590006 .
+
+_:node1ivs02adlx24590006 gndo:personalName "Erodoto";
+  gndo:nameAddition "di Alicarnasso" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Gerodot, iz Galikarnassa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590007 .
+
+_:node1ivs02adlx24590007 gndo:personalName "Gerodot";
+  gndo:nameAddition "iz Galikarnassa" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot, Halicarnassei";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590008 .
+
+_:node1ivs02adlx24590008 gndo:personalName "Herodot";
+  gndo:nameAddition "Halicarnassei" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, Halicarnassensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590009 .
+
+_:node1ivs02adlx24590009 gndo:personalName "Herodotus";
+  gndo:nameAddition "Halicarnassensis" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, Halicarnassei";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590010 .
+
+_:node1ivs02adlx24590010 gndo:personalName "Herodotus";
+  gndo:nameAddition "Halicarnassei" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, Halicarnasseus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590011 .
+
+_:node1ivs02adlx24590011 gndo:personalName "Herodotus";
+  gndo:nameAddition "Halicarnasseus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, Halikarnassēos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590012 .
+
+_:node1ivs02adlx24590012 gndo:personalName "Herodotus";
+  gndo:nameAddition "Halikarnassēos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodoto, Alicarnaseo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590013 .
+
+_:node1ivs02adlx24590013 gndo:personalName "Herodoto";
+  gndo:nameAddition "Alicarnaseo" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodoto, Halicarnasseo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590014 .
+
+_:node1ivs02adlx24590014 gndo:personalName "Herodoto";
+  gndo:nameAddition "Halicarnasseo" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Erodotus, Alikarnassēos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590015 .
+
+_:node1ivs02adlx24590015 gndo:personalName "Erodotus";
+  gndo:nameAddition "Alikarnassēos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Erodoto, Alicarnasseo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590016 .
+
+_:node1ivs02adlx24590016 gndo:personalName "Erodoto";
+  gndo:nameAddition "Alicarnasseo" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot, the Historian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590017 .
+
+_:node1ivs02adlx24590017 gndo:personalName "Herodot";
+  gndo:nameAddition "the Historian" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, the Historian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590018 .
+
+_:node1ivs02adlx24590018 gndo:personalName "Herodotus";
+  gndo:nameAddition "the Historian" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotos, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590019 .
+
+_:node1ivs02adlx24590019 gndo:personalName "Herodotos";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590020 .
+
+_:node1ivs02adlx24590020 gndo:personalName "Herodotus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotos, Sohn des Lyxes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590021 .
+
+_:node1ivs02adlx24590021 gndo:personalName "Herodotos";
+  gndo:nameAddition "Sohn des Lyxes" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotus, Thurius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590022 .
+
+_:node1ivs02adlx24590022 gndo:personalName "Herodotus";
+  gndo:nameAddition "Thurius" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Pseudo-Herodotus, Biographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590023 .
+
+_:node1ivs02adlx24590023 gndo:personalName "Pseudo-Herodotus";
+  gndo:nameAddition "Biographus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Pseudo-Herodotus, Halicarnassensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590024 .
+
+_:node1ivs02adlx24590024 gndo:personalName "Pseudo-Herodotus";
+  gndo:nameAddition "Halicarnassensis" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590025 .
+
+_:node1ivs02adlx24590025 gndo:personalName "Herodot" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Hérodote";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590026 .
+
+_:node1ivs02adlx24590026 gndo:personalName "Hérodote" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodotos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590027 .
+
+_:node1ivs02adlx24590027 gndo:personalName "Herodotos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Erodoto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590028 .
+
+_:node1ivs02adlx24590028 gndo:personalName "Erodoto" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herodot, von Halikarnassus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590029 .
+
+_:node1ivs02adlx24590029 gndo:personalName "Herodot";
+  gndo:nameAddition "von Halikarnassus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Pseudo-Herodotus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590030 .
+
+_:node1ivs02adlx24590030 gndo:personalName "Pseudo-Herodotus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Herdodotus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590031 .
+
+_:node1ivs02adlx24590031 gndo:personalName "Herdodotus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Heródoto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590032 .
+
+_:node1ivs02adlx24590032 gndo:personalName "Heródoto" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Pseudo-Herodotus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590033 .
+
+_:node1ivs02adlx24590033 gndo:personalName "Pseudo-Herodotus" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Xi luo duo de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590034 .
+
+_:node1ivs02adlx24590034 gndo:personalName "Xi luo duo de" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Ērodotos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590035 .
+
+_:node1ivs02adlx24590035 gndo:personalName "Ērodotos" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "Ηροδοτοσ"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590036 .
+
+_:node1ivs02adlx24590036 gndo:personalName "Ηροδοτοσ" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "希羅多德"@zh-Hant;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590037 .
+
+_:node1ivs02adlx24590037 gndo:personalName "希羅多德" .
+
+<https://d-nb.info/gnd/118549855> gndo:variantNameForThePerson "希罗多德"@zh-Hans;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590038 .
+
+_:node1ivs02adlx24590038 gndo:personalName "希罗多德" .
+
+<https://d-nb.info/gnd/118549855> gndo:preferredNameForThePerson "Herodotus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590039 .
+
+_:node1ivs02adlx24590039 gndo:personalName "Herodotus" .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12397142X>;
+  gndo:hasRelation _:node1ivs02adlx24590040 .
+
+_:node1ivs02adlx24590040 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12397142X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:hasRelation _:node1ivs02adlx24590041 .
+
+_:node1ivs02adlx24590041 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590042 .
+
+_:node1ivs02adlx24590042 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519565>;
+  gndo:hasRelation _:node1ivs02adlx24590043 .
+
+_:node1ivs02adlx24590043 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519565>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119379295>;
+  gndo:hasRelation _:node1ivs02adlx24590044 .
+
+_:node1ivs02adlx24590044 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119379295>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:hasRelation _:node1ivs02adlx24590045 .
+
+_:node1ivs02adlx24590045 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590046 .
+
+_:node1ivs02adlx24590046 gndo:forename "Henri";
+  gndo:surname "Etienne" .
+
+<https://d-nb.info/gnd/118549855> gndo:hasRelation _:node1ivs02adlx24590047 .
+
+_:node1ivs02adlx24590047 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590048 .
+
+_:node1ivs02adlx24590048 gndo:forename "Konrad";
+  gndo:surname "Heresbach" .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855333X>;
+  gndo:hasRelation _:node1ivs02adlx24590049 .
+
+_:node1ivs02adlx24590049 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855333X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119344459>;
+  gndo:hasRelation _:node1ivs02adlx24590050 .
+
+_:node1ivs02adlx24590050 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119344459>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:hasRelation _:node1ivs02adlx24590051 .
+
+_:node1ivs02adlx24590051 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549855> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590052 .
+
+_:node1ivs02adlx24590052 gndo:forename "Aldus Pius";
+  gndo:surname "Manutius" .
+
+<https://d-nb.info/gnd/118549855> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Herodotus: Herodoti Plutarchi et Dionis vita Homeri. - s.a.", "Excerptae historiae. 1584. (VD16 H 2515)",
+    "Historiae, Ausz. 1555. (VD16 H 2521)", "Historiae. 1595. (VD16 H 2518)", "HErodotus der aller hochberuemptest Griechische geschichtschreyber von dem Persier vnd ... 1535. (VD16 H 2519)",
+    "\\=GHĒRODOTU LOGOI ENNEA, OIPER EPIKALUNTAI MUSAI.\\=g HERODOTI LIBRI NOVEM, QVIBVS ... 1557. (VD16 H 2508)",
+    "HERODOTI HALICARNASSEI HISTORIAE LIBRI IX. Interprete Laurentio Valla. EIVSDEM ... 1559. (VD16 H 2511)",
+    "HERODOTI HALICARNASSEI HISTORIOGRAPHI LIBRI NOVEM, MVSARVM NOMINIBVS INSCRIPTI, ... 1562. (VD16 H 2512)",
+    "HERODOTI HALICARNASSEI HISTORIOGRAPHI LIBRI NOVEM, MVSARVM NOMINIBVS INSCRIPTI, ... 1526. (VD16 H 2509)",
+    "HERODOTI HALICARNASSEI HISTORIAE LIBRI IX. Interprete Laurentio Valla. EIVSDEM ... 1583. (VD16 H 2514)",
+    "Homerus: Odyssea. 1533. (VD16 ZV 8127)", "Herodotus: Herodoti libri novem", "Herodotus: Herodoti libri novem",
+    "Herodotus: Historia ...", "Herodotus: Herodoti ... historiae", "Herodotus: Historiae. - 1824 - 1826",
+    "Herodotus: Musae (historiae). - 1830 - 1835", "Herodotus: Les histoires d'Herodote",
+    "Herodotus: Les histoires d'Herodote", "Herodotus: Histoire", "Herodotus: Herodoti Plutarchi et Dionis vita Homeri. - s.a";
+  wdrs:describedby <https://d-nb.info/gnd/118549855/about> .
+
+<https://d-nb.info/gnd/118549855/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118549855> gndo:biographicalOrHistoricalInformation "Griech. Historiker u. Schriftsteller; Geschichtsschreiber; Historiograph, Geograph u. Völkerkundler"@de;
+  gndo:udkCode "500 - 401 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4094554-6>;
+  gndo:professionOrOccupation _:node1ivs02adlx24590053 .
+
+_:node1ivs02adlx24590053 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_3 <https://d-nb.info/gnd/4155430-9>;
+  rdf:_4 <https://d-nb.info/gnd/4020214-8>;
+  rdf:_5 <https://d-nb.info/gnd/4153098-6> .
+
+<https://d-nb.info/gnd/118549855> gndo:dateOfBirthAndDeath "[485 v. Chr.-424 v. Chr.]" .
+

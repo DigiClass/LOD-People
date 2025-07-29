@@ -1,0 +1,90 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119425947> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119425947/about> .
+
+<https://d-nb.info/gnd/119425947/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2008-04-06T02:54:28.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119425947> gndo:gndIdentifier "119425947";
+  owl:sameAs <http://viaf.org/viaf/32806267>;
+  gndo:oldAuthorityNumber "(DE-588a)119425947", "(DE-588a)104349840", "(DE-588c)4441894-2";
+  gndo:variantNameForThePerson "Philostratus I.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591342 .
+
+_:node1ivs02adlx24591342 gndo:personalName "Philostratus";
+  gndo:counting "I." .
+
+<https://d-nb.info/gnd/119425947> gndo:variantNameForThePerson "Philostratus, Vater des Flavius Philostratus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591343 .
+
+_:node1ivs02adlx24591343 gndo:personalName "Philostratus";
+  gndo:nameAddition "Vater des Flavius Philostratus" .
+
+<https://d-nb.info/gnd/119425947> gndo:variantNameForThePerson "Philostratos, Sohn des Verus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591344 .
+
+_:node1ivs02adlx24591344 gndo:personalName "Philostratos";
+  gndo:nameAddition "Sohn des Verus" .
+
+<https://d-nb.info/gnd/119425947> gndo:preferredNameForThePerson "Philostratus, Filius Veri";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591345 .
+
+_:node1ivs02adlx24591345 gndo:personalName "Philostratus";
+  gndo:nameAddition "Filius Veri" .
+
+<https://d-nb.info/gnd/119425947> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119425947/about> .
+
+<https://d-nb.info/gnd/119425947/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-21>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/119425947> gndo:biographicalOrHistoricalInformation "Lebensdaten, Sophistenberuf und Werke umstritten; Griech. Schriftsteller aus Lemnos, der in Athen wirkte . Seine Lebensdaten, sein Sophistenberuf und seine Werke sind in der Forschung umstritten. Umstritten ist auch, ob er der Vater von Flavius Philostratus ist"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

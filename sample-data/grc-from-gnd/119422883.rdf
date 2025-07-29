@@ -1,0 +1,153 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119422883> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119422883/about> .
+
+<https://d-nb.info/gnd/119422883/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-05-03T00:31:33.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119422883> gndo:gndIdentifier "119422883";
+  owl:sameAs <http://viaf.org/viaf/14850802>, <https://isni.org/isni/0000000374924583>,
+    <http://www.wikidata.org/entity/Q1231472>, <http://id.loc.gov/rwo/agents/n2007039388>;
+  gndo:oldAuthorityNumber "(DE-588)1089182295";
+  owl:sameAs <https://d-nb.info/gnd/1089182295>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089182295";
+  gndo:oldAuthorityNumber "(DE-588)108980069X";
+  owl:sameAs <https://d-nb.info/gnd/108980069X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108980069X";
+  gndo:oldAuthorityNumber "(DE-588a)119422883", "(DE-588a)127904336", "(DE-588a)100761984",
+    "(DE-588c)4440385-9";
+  gndo:variantNameForThePerson "Philostratus IV.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401448 .
+
+_:node1ivpishs6x25401448 gndo:personalName "Philostratus";
+  gndo:counting "IV." .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratus, Iunior Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401449 .
+
+_:node1ivpishs6x25401449 gndo:personalName "Philostratus";
+  gndo:nameAddition "Iunior Sophista" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratos, Enkel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401450 .
+
+_:node1ivpishs6x25401450 gndo:personalName "Philostratos";
+  gndo:nameAddition "Enkel" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratus, der Jüngere";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401451 .
+
+_:node1ivpishs6x25401451 gndo:personalName "Philostratus";
+  gndo:nameAddition "der Jüngere" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratus, Minor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401452 .
+
+_:node1ivpishs6x25401452 gndo:personalName "Philostratus";
+  gndo:nameAddition "Minor" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratus, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401453 .
+
+_:node1ivpishs6x25401453 gndo:personalName "Philostratus";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratos, Sohn des Philostratos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401454 .
+
+_:node1ivpishs6x25401454 gndo:personalName "Philostratos";
+  gndo:nameAddition "Sohn des Philostratos" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratus, Grandson of Philostratus II.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401455 .
+
+_:node1ivpishs6x25401455 gndo:personalName "Philostratus";
+  gndo:nameAddition "Grandson of Philostratus II." .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratos, Neoteros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401456 .
+
+_:node1ivpishs6x25401456 gndo:personalName "Philostratos";
+  gndo:nameAddition "Neoteros" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratos, der Jüngere";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401457 .
+
+_:node1ivpishs6x25401457 gndo:personalName "Philostratos";
+  gndo:nameAddition "der Jüngere" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Philostratus, Junior";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401458 .
+
+_:node1ivpishs6x25401458 gndo:personalName "Philostratus";
+  gndo:nameAddition "Junior" .
+
+<https://d-nb.info/gnd/119422883> gndo:variantNameForThePerson "Filóstrato, el Joven";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401459 .
+
+_:node1ivpishs6x25401459 gndo:personalName "Filóstrato";
+  gndo:nameAddition "el Joven" .
+
+<https://d-nb.info/gnd/119422883> gndo:preferredNameForThePerson "Philostratus, Iunior";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401460 .
+
+_:node1ivpishs6x25401460 gndo:personalName "Philostratus";
+  gndo:nameAddition "Iunior" .
+
+<https://d-nb.info/gnd/119422883> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Philostratus, Flavius: Werke. - 1828 - 1855", "Philostratus, Flavius: Le pitture dei Filostrati. - 1828";
+  wdrs:describedby <https://d-nb.info/gnd/119422883/about> .
+
+<https://d-nb.info/gnd/119422883/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-21>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/119422883> gndo:biographicalOrHistoricalInformation "Jüngere \"Imagines\"; Griech. Schriftsteller u. Sophist aus Lemnos . Er hat nach dem Vorbild seines Großvaters, d.h. je nach Forschungsansatz Flavius Philostratus oder Philostratus <Lemnius>, Imagines verfaßt"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[3. Jh.]" .
+

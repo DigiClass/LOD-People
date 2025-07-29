@@ -1,0 +1,177 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118808087> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118808087/about> .
+
+<https://d-nb.info/gnd/118808087/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-03-24T16:46:36.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118808087> gndo:gndIdentifier "118808087";
+  foaf:page <https://de.wikipedia.org/wiki/Xenokrates>;
+  owl:sameAs <https://dbpedia.org/resource/Xenocrates>, <http://viaf.org/viaf/265542383>,
+    <http://www.wikidata.org/entity/Q214121>;
+  gndo:oldAuthorityNumber "(DE-588)1089334788";
+  owl:sameAs <https://d-nb.info/gnd/1089334788>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089334788";
+  gndo:oldAuthorityNumber "(DE-588)119875721";
+  owl:sameAs <https://d-nb.info/gnd/119875721>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119875721";
+  gndo:oldAuthorityNumber "(DE-588a)119875721", "(DE-588)1089726457";
+  owl:sameAs <https://d-nb.info/gnd/1089726457>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726457";
+  gndo:oldAuthorityNumber "(DE-588a)118808087", "(DE-588a)100704603", "(DE-588c)4118108-6";
+  gndo:variantNameForThePerson "Xenokrates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589112 .
+
+_:node1ivs02adlx24589112 gndo:personalName "Xenokrates" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenocrates, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589113 .
+
+_:node1ivs02adlx24589113 gndo:personalName "Xenocrates";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenocrates, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589114 .
+
+_:node1ivs02adlx24589114 gndo:personalName "Xenocrates";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenokrates, Sohn des Agathenor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589115 .
+
+_:node1ivs02adlx24589115 gndo:personalName "Xenokrates";
+  gndo:nameAddition "Sohn des Agathenor" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenokrates, von Kalchodon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589116 .
+
+_:node1ivs02adlx24589116 gndo:personalName "Xenokrates";
+  gndo:nameAddition "von Kalchodon" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenokrates, Leiter der Akademie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589117 .
+
+_:node1ivs02adlx24589117 gndo:personalName "Xenokrates";
+  gndo:nameAddition "Leiter der Akademie" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenocrates, of Chalcedon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589118 .
+
+_:node1ivs02adlx24589118 gndo:personalName "Xenocrates";
+  gndo:nameAddition "of Chalcedon" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xénocrate, de Chalcédoine";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589119 .
+
+_:node1ivs02adlx24589119 gndo:personalName "Xénocrate";
+  gndo:nameAddition "de Chalcédoine" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenokrates, von Chalkedon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589120 .
+
+_:node1ivs02adlx24589120 gndo:personalName "Xenokrates";
+  gndo:nameAddition "von Chalkedon" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenocrates, von Chalcedon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589121 .
+
+_:node1ivs02adlx24589121 gndo:personalName "Xenocrates";
+  gndo:nameAddition "von Chalcedon" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xénocrate, le Philosophe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589122 .
+
+_:node1ivs02adlx24589122 gndo:personalName "Xénocrate";
+  gndo:nameAddition "le Philosophe" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenocrates, Platonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589123 .
+
+_:node1ivs02adlx24589123 gndo:personalName "Xenocrates";
+  gndo:nameAddition "Platonicus" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Xenokrat";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589124 .
+
+_:node1ivs02adlx24589124 gndo:personalName "Xenokrat" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Senocrate, di Calcedone";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589125 .
+
+_:node1ivs02adlx24589125 gndo:personalName "Senocrate";
+  gndo:nameAddition "di Calcedone" .
+
+<https://d-nb.info/gnd/118808087> gndo:variantNameForThePerson "Senocrate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589126 .
+
+_:node1ivs02adlx24589126 gndo:personalName "Senocrate" .
+
+<https://d-nb.info/gnd/118808087> gndo:preferredNameForThePerson "Xenocrates, Chalcedonius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589127 .
+
+_:node1ivs02adlx24589127 gndo:personalName "Xenocrates";
+  gndo:nameAddition "Chalcedonius" .
+
+<https://d-nb.info/gnd/118808087> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Liber de morte. - s.a.", "Liber de morte", "Liber de morte", "De morte",
+    "De morte", "Liber de morte", "Liber de Contemnenda morte", "Xenocrates de morte",
+    "Ficino, Marsiglio: De mystica theologia. 1576. (VD16 ZV 5830)";
+  wdrs:describedby <https://d-nb.info/gnd/118808087/about> .
+
+<https://d-nb.info/gnd/118808087/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118808087> gndo:biographicalOrHistoricalInformation "Griechischer Philosoph"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24589128 .
+
+_:node1ivs02adlx24589128 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118808087> gndo:dateOfBirthAndDeath "[v4. Jh.]" .
+

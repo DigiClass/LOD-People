@@ -1,0 +1,175 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118786563> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118786563/about> .
+
+<https://d-nb.info/gnd/118786563/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-07-04T00:35:28.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118786563> gndo:gndIdentifier "118786563";
+  foaf:page <https://de.wikipedia.org/wiki/Numenios_von_Apamea>;
+  owl:sameAs <https://dbpedia.org/resource/Numenius_of_Apamea>, <http://viaf.org/viaf/268463464>,
+    <http://www.wikidata.org/entity/Q707344>;
+  gndo:oldAuthorityNumber "(DE-588)1089893795";
+  owl:sameAs <https://d-nb.info/gnd/1089893795>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089893795";
+  gndo:oldAuthorityNumber "(DE-588)1089813058";
+  owl:sameAs <https://d-nb.info/gnd/1089813058>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089813058";
+  gndo:oldAuthorityNumber "(DE-588)1089600305";
+  owl:sameAs <https://d-nb.info/gnd/1089600305>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089600305";
+  gndo:oldAuthorityNumber "(DE-588)1055656308";
+  owl:sameAs <https://d-nb.info/gnd/1055656308>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1055656308";
+  gndo:oldAuthorityNumber "(DE-588a)118786563", "(DE-588c)4111059-6";
+  gndo:variantNameForThePerson "Numenios, Apameensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591714 .
+
+_:node1ivs02adlx24591714 gndo:personalName "Numenios";
+  gndo:nameAddition "Apameensis" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenius, aus Apamea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591715 .
+
+_:node1ivs02adlx24591715 gndo:personalName "Numenius";
+  gndo:nameAddition "aus Apamea" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenius, Apameensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591716 .
+
+_:node1ivs02adlx24591716 gndo:personalName "Numenius";
+  gndo:nameAddition "Apameensis" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenios, von Apamea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591717 .
+
+_:node1ivs02adlx24591717 gndo:personalName "Numenios";
+  gndo:nameAddition "von Apamea" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591718 .
+
+_:node1ivs02adlx24591718 gndo:personalName "Numenius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenius, Platonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591719 .
+
+_:node1ivs02adlx24591719 gndo:personalName "Numenius";
+  gndo:nameAddition "Platonicus" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenios, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591720 .
+
+_:node1ivs02adlx24591720 gndo:personalName "Numenios";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenios, Platoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591721 .
+
+_:node1ivs02adlx24591721 gndo:personalName "Numenios";
+  gndo:nameAddition "Platoniker" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenios, Pythagoreer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591722 .
+
+_:node1ivs02adlx24591722 gndo:personalName "Numenios";
+  gndo:nameAddition "Pythagoreer" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenius, of Apamea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591723 .
+
+_:node1ivs02adlx24591723 gndo:personalName "Numenius";
+  gndo:nameAddition "of Apamea" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenius, Philosopher";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591724 .
+
+_:node1ivs02adlx24591724 gndo:personalName "Numenius";
+  gndo:nameAddition "Philosopher" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenio, di Apamea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591725 .
+
+_:node1ivs02adlx24591725 gndo:personalName "Numenio";
+  gndo:nameAddition "di Apamea" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenio, Filosofo Platonico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591726 .
+
+_:node1ivs02adlx24591726 gndo:personalName "Numenio";
+  gndo:nameAddition "Filosofo Platonico" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenio, Filosofo Pitagorico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591727 .
+
+_:node1ivs02adlx24591727 gndo:personalName "Numenio";
+  gndo:nameAddition "Filosofo Pitagorico" .
+
+<https://d-nb.info/gnd/118786563> gndo:variantNameForThePerson "Numenios, von Apameia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591728 .
+
+_:node1ivs02adlx24591728 gndo:personalName "Numenios";
+  gndo:nameAddition "von Apameia" .
+
+<https://d-nb.info/gnd/118786563> gndo:preferredNameForThePerson "Numenius, Apamensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591729 .
+
+_:node1ivs02adlx24591729 gndo:personalName "Numenius";
+  gndo:nameAddition "Apamensis" .
+
+<https://d-nb.info/gnd/118786563> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118786563/about> .
+
+<https://d-nb.info/gnd/118786563/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118786563> gndo:biographicalOrHistoricalInformation "Griech. Philosoph"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

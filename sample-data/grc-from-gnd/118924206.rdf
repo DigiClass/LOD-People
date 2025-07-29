@@ -1,0 +1,119 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118924206> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118924206/about> .
+
+<https://d-nb.info/gnd/118924206/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-09-23T05:37:00.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118924206> gndo:gndIdentifier "118924206";
+  foaf:page <https://de.wikipedia.org/wiki/Photinus_von_Sirmium>;
+  owl:sameAs <https://dbpedia.org/resource/Photinus>, <http://viaf.org/viaf/3530153834748864450008>,
+    <https://isni.org/isni/000000007911043X>, <http://www.wikidata.org/entity/Q2062364>,
+    <http://id.loc.gov/rwo/agents/nr89016806>;
+  gndo:oldAuthorityNumber "(DE-588a)118924206", "(DE-588a)102403309", "(DE-588c)4238016-9";
+  gndo:variantNameForThePerson "Photinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594439 .
+
+_:node1ivs02adlx24594439 gndo:personalName "Photinus" .
+
+<https://d-nb.info/gnd/118924206> gndo:variantNameForThePerson "Photinus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594440 .
+
+_:node1ivs02adlx24594440 gndo:personalName "Photinus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118924206> gndo:variantNameForThePerson "Photinus, von Sirmium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594441 .
+
+_:node1ivs02adlx24594441 gndo:personalName "Photinus";
+  gndo:nameAddition "von Sirmium" .
+
+<https://d-nb.info/gnd/118924206> gndo:variantNameForThePerson "Photinus, Sirmii Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594442 .
+
+_:node1ivs02adlx24594442 gndo:personalName "Photinus";
+  gndo:nameAddition "Sirmii Episcopus" .
+
+<https://d-nb.info/gnd/118924206> gndo:variantNameForThePerson "Photeinos, von Sirmium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594443 .
+
+_:node1ivs02adlx24594443 gndo:personalName "Photeinos";
+  gndo:nameAddition "von Sirmium" .
+
+<https://d-nb.info/gnd/118924206> gndo:variantNameForThePerson "Photin, von Sirmium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594444 .
+
+_:node1ivs02adlx24594444 gndo:personalName "Photin";
+  gndo:nameAddition "von Sirmium" .
+
+<https://d-nb.info/gnd/118924206> gndo:preferredNameForThePerson "Photinus, Sirmiensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594445 .
+
+_:node1ivs02adlx24594445 gndo:personalName "Photinus";
+  gndo:nameAddition "Sirmiensis" .
+
+<https://d-nb.info/gnd/118924206> gndo:relatedSubjectHeading <https://d-nb.info/gnd/4444427-8>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  wdrs:describedby <https://d-nb.info/gnd/118924206/about> .
+
+<https://d-nb.info/gnd/118924206/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118924206> gndo:biographicalOrHistoricalInformation "Epistula (Epiph. Const. haer. 72.11-12); Häret. Theologe; Bischof von Sirmium"@de;
+  gndo:udkCode "201 - 300", "301 - 400";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4002075-7>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4101044-9>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594446 .
+
+_:node1ivs02adlx24594446 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4059756-8>;
+  rdf:_2 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118924206> gndo:dateOfDeath "0376"^^xsd:gYear .
+

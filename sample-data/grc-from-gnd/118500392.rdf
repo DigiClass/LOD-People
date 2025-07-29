@@ -1,0 +1,256 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118500392> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118500392/about> .
+
+<https://d-nb.info/gnd/118500392/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-15T13:17:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118500392> gndo:gndIdentifier "118500392";
+  foaf:page <https://de.wikipedia.org/wiki/Achilleus_Tatios_%28Romanautor%29>;
+  owl:sameAs <https://dbpedia.org/resource/Achilles_Tatius>, <http://viaf.org/viaf/89002230>,
+    <https://isni.org/isni/0000000120303082>, <http://www.wikidata.org/entity/Q221951>,
+    <http://id.loc.gov/rwo/agents/n80009786>;
+  gndo:oldAuthorityNumber "(DE-588)1089815719";
+  owl:sameAs <https://d-nb.info/gnd/1089815719>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089815719";
+  gndo:oldAuthorityNumber "(DE-588)1089887469";
+  owl:sameAs <https://d-nb.info/gnd/1089887469>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089887469";
+  gndo:oldAuthorityNumber "(DE-588)108959920X";
+  owl:sameAs <https://d-nb.info/gnd/108959920X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108959920X";
+  gndo:oldAuthorityNumber "(DE-588)1089513860";
+  owl:sameAs <https://d-nb.info/gnd/1089513860>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089513860";
+  gndo:oldAuthorityNumber "(DE-588)188331123";
+  owl:sameAs <https://d-nb.info/gnd/188331123>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188331123";
+  gndo:oldAuthorityNumber "(DE-588)188323880";
+  owl:sameAs <https://d-nb.info/gnd/188323880>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188323880";
+  gndo:oldAuthorityNumber "(DE-588a)188323880", "(DE-588a)188331123", "(DE-588)187137668";
+  owl:sameAs <https://d-nb.info/gnd/187137668>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187137668";
+  gndo:oldAuthorityNumber "(DE-588a)187137668", "(DE-588)185993397";
+  owl:sameAs <https://d-nb.info/gnd/185993397>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185993397";
+  gndo:oldAuthorityNumber "(DE-588a)185993397", "(DE-588)174392192";
+  owl:sameAs <https://d-nb.info/gnd/174392192>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174392192";
+  gndo:oldAuthorityNumber "(DE-588a)174392192", "(DE-588a)118500392", "(DE-588a)119600560",
+    "(DE-588c)4000365-6";
+  gndo:variantNameForThePerson "Statius, Achilles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591558 .
+
+_:node1ivs02adlx24591558 gndo:forename "Achilles";
+  gndo:surname "Statius" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Tatius, Achilles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591559 .
+
+_:node1ivs02adlx24591559 gndo:forename "Achilles";
+  gndo:surname "Tatius" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilleus Tatios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591560 .
+
+_:node1ivs02adlx24591560 gndo:personalName "Achilleus Tatios" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilles Tatius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591561 .
+
+_:node1ivs02adlx24591561 gndo:personalName "Achilles Tatius" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achille, Tazio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591562 .
+
+_:node1ivs02adlx24591562 gndo:personalName "Achille";
+  gndo:nameAddition "Tazio" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilles, Tatius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591563 .
+
+_:node1ivs02adlx24591563 gndo:personalName "Achilles";
+  gndo:nameAddition "Tatius" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilles Tatius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591564 .
+
+_:node1ivs02adlx24591564 gndo:personalName "Achilles Tatius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilles Tatius, Fabularum Scriptor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591565 .
+
+_:node1ivs02adlx24591565 gndo:personalName "Achilles Tatius";
+  gndo:nameAddition "Fabularum Scriptor" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilleus, Tatios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591566 .
+
+_:node1ivs02adlx24591566 gndo:personalName "Achilleus";
+  gndo:nameAddition "Tatios" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilleus Tatius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591567 .
+
+_:node1ivs02adlx24591567 gndo:personalName "Achilleus Tatius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilleus Tatius, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591568 .
+
+_:node1ivs02adlx24591568 gndo:personalName "Achilleus Tatius";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilleus Tatios, Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591569 .
+
+_:node1ivs02adlx24591569 gndo:personalName "Achilleus Tatios";
+  gndo:nameAddition "Schriftsteller" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilles Tatius, Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591570 .
+
+_:node1ivs02adlx24591570 gndo:personalName "Achilles Tatius";
+  gndo:nameAddition "Schriftsteller" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Tatius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591571 .
+
+_:node1ivs02adlx24591571 gndo:personalName "Tatius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilles Statius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591572 .
+
+_:node1ivs02adlx24591572 gndo:personalName "Achilles Statius" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achille Tatius, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591573 .
+
+_:node1ivs02adlx24591573 gndo:personalName "Achille Tatius";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilleus Tatiuson, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591574 .
+
+_:node1ivs02adlx24591574 gndo:personalName "Achilleus Tatiuson";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilles Statius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591575 .
+
+_:node1ivs02adlx24591575 gndo:personalName "Achilles Statius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achile Tatius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591576 .
+
+_:node1ivs02adlx24591576 gndo:personalName "Achile Tatius" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achille Tatius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591577 .
+
+_:node1ivs02adlx24591577 gndo:personalName "Achille Tatius" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilleus Tatios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591578 .
+
+_:node1ivs02adlx24591578 gndo:personalName "Achilleus Tatios" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilleus Tatius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591579 .
+
+_:node1ivs02adlx24591579 gndo:personalName "Achilleus Tatius" .
+
+<https://d-nb.info/gnd/118500392> gndo:variantNameForThePerson "Achilles Tatius, Astronomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591580 .
+
+_:node1ivs02adlx24591580 gndo:personalName "Achilles Tatius";
+  gndo:nameAddition "Astronomus" .
+
+<https://d-nb.info/gnd/118500392> gndo:preferredNameForThePerson "Achilles Tatius, Scriptor Eroticus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591581 .
+
+_:node1ivs02adlx24591581 gndo:personalName "Achilles Tatius";
+  gndo:nameAddition "Scriptor Eroticus" .
+
+<https://d-nb.info/gnd/118500392> gndo:hasRelation _:node1ivs02adlx24591582 .
+
+_:node1ivs02adlx24591582 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118500392> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24591583 .
+
+_:node1ivs02adlx24591583 gndo:forename "Luigi Annibale";
+  gndo:prefix "della";
+  gndo:surname "Croce" .
+
+<https://d-nb.info/gnd/118500392> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dell'amore di Leucippe et di Clitophonte", "Dell'amore di Leucippe et di Clitophonte",
+    "Dell'amore di Leucippe et di Clitophonte", "De Cliophontis and Leucippes amoribus",
+    "The most delectable history of Clitiphon and Leucippe", "The loves of Clitophon and Leucippe",
+    "Leucippe", "De Clitophontis and Leucippes amoribus. - [1589?]", "De Clitophontis et Leucippes amoribus libri VIII",
+    "De Clitophontis et Leucippes amoribus libri VIII", "ACHILLIS STATII ALEXANDRINI DE CLItophontis & Leucippes amorib. Libri VIII. EǴraecis ... 1554. (VD16 A 97)";
+  wdrs:describedby <https://d-nb.info/gnd/118500392/about> .
+
+<https://d-nb.info/gnd/118500392/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118500392> gndo:biographicalOrHistoricalInformation "Griech. Schriftsteller; Verfasser des letzten antiken griech. Liebesromans Leucippe et Clitophon . Er ist vielleicht identisch mit Achilles Tatius <Astronomus>"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:periodOfActivity "450";
+  gndo:professionOrOccupation _:node1ivs02adlx24591584 .
+
+_:node1ivs02adlx24591584 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118500392> gndo:dateOfBirthAndDeath "[2./3. Jh.]" .
+

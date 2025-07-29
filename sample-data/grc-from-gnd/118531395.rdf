@@ -1,0 +1,330 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118531395> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118531395/about> .
+
+<https://d-nb.info/gnd/118531395/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T16:39:05.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118531395> gndo:gndIdentifier "118531395";
+  foaf:page <https://de.wikipedia.org/wiki/Euripides>;
+  owl:sameAs <https://dbpedia.org/resource/Euripides>, <http://viaf.org/viaf/265326651>,
+    <https://isni.org/isni/0000000121382034>, <http://www.wikidata.org/entity/Q48305>,
+    <http://id.loc.gov/rwo/agents/n79063679>;
+  gndo:oldAuthorityNumber "(DE-588)187973296";
+  owl:sameAs <https://d-nb.info/gnd/187973296>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187973296";
+  gndo:oldAuthorityNumber "(DE-588a)187973296", "(DE-588)1089717628";
+  owl:sameAs <https://d-nb.info/gnd/1089717628>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089717628";
+  gndo:oldAuthorityNumber "(DE-588a)118531395", "(DE-588c)4015691-6";
+  gndo:variantNameForThePerson "Euripide, de Salamine";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585224 .
+
+_:node1ivs02adlx24585224 gndo:personalName "Euripide";
+  gndo:nameAddition "de Salamine" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Eyripidēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585225 .
+
+_:node1ivs02adlx24585225 gndo:personalName "Eyripidēs" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripidē";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585226 .
+
+_:node1ivs02adlx24585226 gndo:personalName "Euripidē" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripedes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585227 .
+
+_:node1ivs02adlx24585227 gndo:personalName "Euripedes" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides Alcestis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585228 .
+
+_:node1ivs02adlx24585228 gndo:personalName "Euripides Alcestis" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides\", Pseudo-";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585229 .
+
+_:node1ivs02adlx24585229 gndo:personalName "Euripides\"";
+  gndo:nameAddition "Pseudo-" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Pseudo-Euripides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585230 .
+
+_:node1ivs02adlx24585230 gndo:personalName "Pseudo-Euripides" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Evripede\"";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585231 .
+
+_:node1ivs02adlx24585231 gndo:personalName "Evripede\"" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Evripid\"";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585232 .
+
+_:node1ivs02adlx24585232 gndo:personalName "Evripid\"" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Yūrībidīs\"";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585233 .
+
+_:node1ivs02adlx24585233 gndo:personalName "Yūrībidīs\"" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Yūrı̄bidı̄s\"";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585234 .
+
+_:node1ivs02adlx24585234 gndo:personalName "Yūrı̄bidı̄s\"" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripidis\"";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585235 .
+
+_:node1ivs02adlx24585235 gndo:personalName "Euripidis\"" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Eurípides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585236 .
+
+_:node1ivs02adlx24585236 gndo:personalName "Eurípides" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585237 .
+
+_:node1ivs02adlx24585237 gndo:personalName "Euripides";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides, von Salamis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585238 .
+
+_:node1ivs02adlx24585238 gndo:personalName "Euripides";
+  gndo:nameAddition "von Salamis" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585239 .
+
+_:node1ivs02adlx24585239 gndo:personalName "Euripides";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides, Tragicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585240 .
+
+_:node1ivs02adlx24585240 gndo:personalName "Euripides";
+  gndo:nameAddition "Tragicus" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides, Tragiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585241 .
+
+_:node1ivs02adlx24585241 gndo:personalName "Euripides";
+  gndo:nameAddition "Tragiker" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides, Sohn des Mnesarchos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585242 .
+
+_:node1ivs02adlx24585242 gndo:personalName "Euripides";
+  gndo:nameAddition "Sohn des Mnesarchos" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripides, Sohn des Mnesarchides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585243 .
+
+_:node1ivs02adlx24585243 gndo:personalName "Euripides";
+  gndo:nameAddition "Sohn des Mnesarchides" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585244 .
+
+_:node1ivs02adlx24585244 gndo:personalName "Euripide" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripid";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585245 .
+
+_:node1ivs02adlx24585245 gndo:personalName "Euripid" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Eurypides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585246 .
+
+_:node1ivs02adlx24585246 gndo:personalName "Eurypides" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Evripides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585247 .
+
+_:node1ivs02adlx24585247 gndo:personalName "Evripides" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Pseudo-Euripides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585248 .
+
+_:node1ivs02adlx24585248 gndo:personalName "Pseudo-Euripides" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripidész";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585249 .
+
+_:node1ivs02adlx24585249 gndo:personalName "Euripidész" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripid, Sin Mnesarhov";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585250 .
+
+_:node1ivs02adlx24585250 gndo:personalName "Euripid";
+  gndo:nameAddition "Sin Mnesarhov" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripid, Salaminjanin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585251 .
+
+_:node1ivs02adlx24585251 gndo:personalName "Euripid";
+  gndo:nameAddition "Salaminjanin" .
+
+<https://d-nb.info/gnd/118531395> gndo:variantNameForThePerson "Euripidas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585252 .
+
+_:node1ivs02adlx24585252 gndo:personalName "Euripidas" .
+
+<https://d-nb.info/gnd/118531395> gndo:preferredNameForThePerson "Euripides";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585253 .
+
+_:node1ivs02adlx24585253 gndo:personalName "Euripides" .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119630451>;
+  gndo:hasRelation _:node1ivs02adlx24585254 .
+
+_:node1ivs02adlx24585254 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119630451>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362427>;
+  gndo:hasRelation _:node1ivs02adlx24585255 .
+
+_:node1ivs02adlx24585255 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362427>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116276967>;
+  gndo:hasRelation _:node1ivs02adlx24585256 .
+
+_:node1ivs02adlx24585256 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116276967>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivs02adlx24585257 .
+
+_:node1ivs02adlx24585257 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121650723>;
+  gndo:hasRelation _:node1ivs02adlx24585258 .
+
+_:node1ivs02adlx24585258 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121650723>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:hasRelation _:node1ivs02adlx24585259 .
+
+_:node1ivs02adlx24585259 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585260 .
+
+_:node1ivs02adlx24585260 gndo:forename "Kaspar";
+  gndo:surname "Stiblin" .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119708930>;
+  gndo:hasRelation _:node1ivs02adlx24585261 .
+
+_:node1ivs02adlx24585261 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119708930>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118960563>;
+  gndo:hasRelation _:node1ivs02adlx24585262 .
+
+_:node1ivs02adlx24585262 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118960563>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118575228>;
+  gndo:hasRelation _:node1ivs02adlx24585263 .
+
+_:node1ivs02adlx24585263 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118575228>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:hasRelation _:node1ivs02adlx24585264 .
+
+_:node1ivs02adlx24585264 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531395> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585265 .
+
+_:node1ivs02adlx24585265 gndo:forename "Sigismund";
+  gndo:surname "Gelous" .
+
+<https://d-nb.info/gnd/118531395> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Euripides: Phoenissae", "Euripides: Andromache", "Euripides: Bacchae",
+    "Euripides: Electra", "Euripides: Electra", "Euripides: Fabulae", "Euripides: Tragoediae duae Hecuba et Iphigenia",
+    "Euripides: Tragoediae duae Hecuba et Iphigenia", "Euripides: Hecuba, Orestes et Iphigenia, Phoenissae",
+    "Euripides: Hecuba, Orestes", "Euripides: \\=GARISTOLOGIA EURIPIDEIĒ hellēnikolatinē.\\=g ARISTOLOGIA EVRIPIDEA ... 1559. (VD16 E 4223)",
+    "Euripides: TRAGOEDIA HECVBA, SAPIENTISSIMI ET ELEGANTISSIMI POETAE EVRIPIDIS, CVM INterpretatione ... 1555. (VD16 E 4233)",
+    "Euripides: \\=GHIPPOLYTOS STEPHANĒPHOROS.\\=g HYPPOLYTVS CORONATVS. (L.ANNEI SEnecae. ... 1599. (VD16 E 4242)",
+    "Euripides: Phoenissae EVRIPIDIS TRAGOEDIA Latino metro versa A' M. GEORGIO CALAMINO ... 1577. (VD16 E 4255)",
+    "Euripides: \\=GEURIPIDU EPISTOLAI.\\=g. 1569. (VD16 E 4258)", "Euripides: Orestes. 1551. (VD16 ZV 21765)",
+    "Euripides: TRAGOEDIA PHOENISSARVM. EVRIPIDIS Poetae Tragici. Nicolao Gabllmanno Interprete.. 1592. (VD16 E 4256)",
+    "Euripides: Iphigenia in Aulide, ein überaus schöne Historia oder Comoediotragedia. 1584. (VD16 ZV 25121)",
+    "Euripides: TRAGOEDIA HECVBA, SAPIENTISSIMI ET ELEGANTISSIMI POETAE EVRIPIDIS, CVM INterpretatione ... 1554. (VD16 E 4232)",
+    "Euripides: Jephtes. 1567. (VD16 E 4225)";
+  wdrs:describedby <https://d-nb.info/gnd/118531395/about> .
+
+<https://d-nb.info/gnd/118531395/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118531395> gndo:biographicalOrHistoricalInformation "Griechischer Tragödiendichter der Antike"@de;
+  gndo:udkCode "500 - 401 v. Chr. ";
+  owl:sameAs <https://www.filmportal.de/3CD985506CFF44178FC6AA3EEE9ECC45>;
+  gndo:professionOrOccupation _:node1ivs02adlx24585266 .
+
+_:node1ivs02adlx24585266 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4140241-8> .
+
+<https://d-nb.info/gnd/118531395> gndo:dateOfBirthAndDeath "[485/480 v. Chr.-406 v.Chr.]" .
+

@@ -1,0 +1,165 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118615394> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118615394/about> .
+
+<https://d-nb.info/gnd/118615394/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:51:09.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118615394> gndo:gndIdentifier "118615394";
+  owl:sameAs <https://dbpedia.org/resource/Solon>, <http://viaf.org/viaf/8845160667712103560005>,
+    <http://www.wikidata.org/entity/Q133337>;
+  gndo:oldAuthorityNumber "(DE-588a)118615394", "(DE-588c)4055457-0";
+  gndo:variantNameForThePerson "Solo, Legislator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592669 .
+
+_:node1ivs02adlx24592669 gndo:personalName "Solo";
+  gndo:nameAddition "Legislator" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, Nomographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592670 .
+
+_:node1ivs02adlx24592670 gndo:personalName "Solon";
+  gndo:nameAddition "Nomographus" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, Staatsmann";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592671 .
+
+_:node1ivs02adlx24592671 gndo:personalName "Solon";
+  gndo:nameAddition "Staatsmann" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592672 .
+
+_:node1ivs02adlx24592672 gndo:personalName "Solon";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solo, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592673 .
+
+_:node1ivs02adlx24592673 gndo:personalName "Solo";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, Athener";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592674 .
+
+_:node1ivs02adlx24592674 gndo:personalName "Solon";
+  gndo:nameAddition "Athener" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592675 .
+
+_:node1ivs02adlx24592675 gndo:personalName "Solon";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592676 .
+
+_:node1ivs02adlx24592676 gndo:personalName "Solon";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592677 .
+
+_:node1ivs02adlx24592677 gndo:personalName "Solon";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, Dichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592678 .
+
+_:node1ivs02adlx24592678 gndo:personalName "Solon";
+  gndo:nameAddition "Dichter" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solon, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592679 .
+
+_:node1ivs02adlx24592679 gndo:personalName "Solon";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solone, di Atene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592680 .
+
+_:node1ivs02adlx24592680 gndo:personalName "Solone";
+  gndo:nameAddition "di Atene" .
+
+<https://d-nb.info/gnd/118615394> gndo:variantNameForThePerson "Solo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592681 .
+
+_:node1ivs02adlx24592681 gndo:personalName "Solo" .
+
+<https://d-nb.info/gnd/118615394> gndo:preferredNameForThePerson "Solon";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592682 .
+
+_:node1ivs02adlx24592682 gndo:personalName "Solon" .
+
+<https://d-nb.info/gnd/118615394> gndo:professionalRelationship <https://d-nb.info/gnd/118613928>;
+  gndo:hasRelation _:node1ivs02adlx24592683 .
+
+_:node1ivs02adlx24592683 gndo:professionalRelationship <https://d-nb.info/gnd/118613928> .
+
+<https://d-nb.info/gnd/118615394> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Solon: Carmina", "Solon: Carminum paraphrasis", "Solon: Carminum quae supersunt",
+    "Solon: The fragments of [the] poems", "Solon: Leges", "Solon: Leges", "Solon: Leges",
+    "Solon: Leges", "Solon: Leges", "Expositio versuum Solonis et aliorum quorundam veterum Latina";
+  wdrs:describedby <https://d-nb.info/gnd/118615394/about> .
+
+<https://d-nb.info/gnd/118615394/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118615394> gndo:biographicalOrHistoricalInformation "Athen. Staatsmann, Gesetzgeber u. Lyriker, zählt zu den Sieben Weisen"@de;
+  gndo:udkCode "700 - 601 v. Chr. ", "600 - 501 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4003366-1>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592684 .
+
+_:node1ivs02adlx24592684 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4168391-2>;
+  rdf:_2 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/118615394> gndo:dateOfBirth "-0640"^^xsd:gYear;
+  gndo:dateOfDeath "-0560"^^xsd:gYear .
+

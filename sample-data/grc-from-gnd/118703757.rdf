@@ -1,0 +1,156 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118703757> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118703757/about> .
+
+<https://d-nb.info/gnd/118703757/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-06-27T00:34:40.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118703757> gndo:gndIdentifier "118703757";
+  owl:sameAs <https://dbpedia.org/resource/Hermippus_of_Smyrna>, <http://viaf.org/viaf/209345125>,
+    <http://www.wikidata.org/entity/Q933860>;
+  gndo:oldAuthorityNumber "(DE-588)108975860X";
+  owl:sameAs <https://d-nb.info/gnd/108975860X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108975860X";
+  gndo:oldAuthorityNumber "(DE-588)1089274467";
+  owl:sameAs <https://d-nb.info/gnd/1089274467>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089274467";
+  gndo:oldAuthorityNumber "(DE-588)174171129";
+  owl:sameAs <https://d-nb.info/gnd/174171129>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174171129";
+  gndo:oldAuthorityNumber "(DE-588a)174171129", "(DE-588a)118703757", "(DE-588c)4095097-9";
+  gndo:variantNameForThePerson "Hermippus, Callimachius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406022 .
+
+_:node1ivpishs6x25406022 gndo:personalName "Hermippus";
+  gndo:nameAddition "Callimachius" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippus, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406023 .
+
+_:node1ivpishs6x25406023 gndo:personalName "Hermippus";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406024 .
+
+_:node1ivpishs6x25406024 gndo:personalName "Hermippus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippos, der Kallimacheer";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406025 .
+
+_:node1ivpishs6x25406025 gndo:personalName "Hermippos";
+  gndo:nameAddition "der Kallimacheer" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippos, ho Kallimacheios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406026 .
+
+_:node1ivpishs6x25406026 gndo:personalName "Hermippos";
+  gndo:nameAddition "ho Kallimacheios" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippus, of Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406027 .
+
+_:node1ivpishs6x25406027 gndo:personalName "Hermippus";
+  gndo:nameAddition "of Smyrna" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippos, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406028 .
+
+_:node1ivpishs6x25406028 gndo:personalName "Hermippos";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippe, de Smyrne";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406029 .
+
+_:node1ivpishs6x25406029 gndo:personalName "Hermippe";
+  gndo:nameAddition "de Smyrne" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Ermippo, di Smirna";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406030 .
+
+_:node1ivpishs6x25406030 gndo:personalName "Ermippo";
+  gndo:nameAddition "di Smirna" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippus, Callimachaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406031 .
+
+_:node1ivpishs6x25406031 gndo:personalName "Hermippus";
+  gndo:nameAddition "Callimachaeus" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippus, Peripateticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406032 .
+
+_:node1ivpishs6x25406032 gndo:personalName "Hermippus";
+  gndo:nameAddition "Peripateticus" .
+
+<https://d-nb.info/gnd/118703757> gndo:variantNameForThePerson "Hermippos, von Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406033 .
+
+_:node1ivpishs6x25406033 gndo:personalName "Hermippos";
+  gndo:nameAddition "von Smyrna" .
+
+<https://d-nb.info/gnd/118703757> gndo:preferredNameForThePerson "Hermippus, Smyrnaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25406034 .
+
+_:node1ivpishs6x25406034 gndo:personalName "Hermippus";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/118703757> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118703757/about> .
+
+<https://d-nb.info/gnd/118703757/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118703757> gndo:biographicalOrHistoricalInformation "Griech. Philosoph u. Grammatiker"@de,
+    "lebte in Alexandria"@de;
+  gndo:udkCode "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "[v289/277]";
+  gndo:dateOfDeath "[v208/204]" .
+

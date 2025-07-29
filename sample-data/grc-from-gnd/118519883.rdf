@@ -1,0 +1,167 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118519883> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118519883/about> .
+
+<https://d-nb.info/gnd/118519883/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-09-15T18:50:41.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118519883> gndo:gndIdentifier "118519883";
+  owl:sameAs <https://dbpedia.org/resource/Celsus>, <http://viaf.org/viaf/265815498>,
+    <http://www.wikidata.org/entity/Q315370>;
+  gndo:oldAuthorityNumber "(DE-588)1157308058";
+  owl:sameAs <https://d-nb.info/gnd/1157308058>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1157308058";
+  gndo:oldAuthorityNumber "(DE-588)1089182139";
+  owl:sameAs <https://d-nb.info/gnd/1089182139>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089182139";
+  gndo:oldAuthorityNumber "(DE-588)1089890818";
+  owl:sameAs <https://d-nb.info/gnd/1089890818>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089890818";
+  gndo:oldAuthorityNumber "(DE-588)1089725981";
+  owl:sameAs <https://d-nb.info/gnd/1089725981>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725981";
+  gndo:oldAuthorityNumber "(DE-588)1055461493";
+  owl:sameAs <https://d-nb.info/gnd/1055461493>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1055461493";
+  gndo:oldAuthorityNumber "(DE-588)172017491";
+  owl:sameAs <https://d-nb.info/gnd/172017491>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172017491";
+  gndo:oldAuthorityNumber "(DE-588a)172017491", "(DE-588a)118519883", "(DE-588c)4009664-6";
+  gndo:variantNameForThePerson "Celsus, Platoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595086 .
+
+_:node1ivs02adlx24595086 gndo:personalName "Celsus";
+  gndo:nameAddition "Platoniker" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Celsus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595087 .
+
+_:node1ivs02adlx24595087 gndo:personalName "Celsus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Kelsos, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595088 .
+
+_:node1ivs02adlx24595088 gndo:personalName "Kelsos";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Kelsos, Platonischer Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595089 .
+
+_:node1ivs02adlx24595089 gndo:personalName "Kelsos";
+  gndo:nameAddition "Platonischer Philosoph" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Kelsos, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595090 .
+
+_:node1ivs02adlx24595090 gndo:personalName "Kelsos";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Kelsos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595091 .
+
+_:node1ivs02adlx24595091 gndo:personalName "Kelsos" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Celsus, Philosopher";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595092 .
+
+_:node1ivs02adlx24595092 gndo:personalName "Celsus";
+  gndo:nameAddition "Philosopher" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Celso, Filosofo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595093 .
+
+_:node1ivs02adlx24595093 gndo:personalName "Celso";
+  gndo:nameAddition "Filosofo" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Celsus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595094 .
+
+_:node1ivs02adlx24595094 gndo:personalName "Celsus" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Celsus, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595095 .
+
+_:node1ivs02adlx24595095 gndo:personalName "Celsus";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Celse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595096 .
+
+_:node1ivs02adlx24595096 gndo:personalName "Celse" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Ḳelsus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595097 .
+
+_:node1ivs02adlx24595097 gndo:personalName "Ḳelsus" .
+
+<https://d-nb.info/gnd/118519883> gndo:variantNameForThePerson "Qelsûs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595098 .
+
+_:node1ivs02adlx24595098 gndo:personalName "Qelsûs" .
+
+<https://d-nb.info/gnd/118519883> gndo:preferredNameForThePerson "Celsus, Philosophus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595099 .
+
+_:node1ivs02adlx24595099 gndo:personalName "Celsus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118519883> gndo:originalScriptNameOfThePerson "Κέλσος"@gr,
+    "קלסוס"@he;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "@Gegen die Christen", "Celsi in alternationem Josenis et Papisci praesertio de Judaica incredulitate, ad Vigilium episcopum",
+    "Contra os cristãos", "Lobeck, Christian A.: De Celso philosopho disputatur et fragmenta libri, quem contra Chri*";
+  wdrs:describedby <https://d-nb.info/gnd/118519883/about> .
+
+<https://d-nb.info/gnd/118519883/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118519883> gndo:biographicalOrHistoricalInformation "Griech. Platoniker"@de;
+  gndo:udkCode "101 - 200";
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

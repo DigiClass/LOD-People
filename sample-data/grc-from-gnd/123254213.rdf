@@ -1,0 +1,146 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/123254213> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/123254213/about> .
+
+<https://d-nb.info/gnd/123254213/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-06T17:27:27.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/123254213> gndo:gndIdentifier "123254213";
+  owl:sameAs <http://viaf.org/viaf/64909907>, <https://isni.org/isni/0000000120273813>,
+    <http://www.wikidata.org/entity/Q23710591>, <http://id.loc.gov/rwo/agents/n85049184>;
+  gndo:oldAuthorityNumber "(DE-588a)123254213", "(DE-588c)4655165-7";
+  gndo:variantNameForThePerson "Tarchagnota, Giouanni";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592275 .
+
+_:node1ivs02adlx24592275 gndo:forename "Giouanni";
+  gndo:surname "Tarchagnota" .
+
+<https://d-nb.info/gnd/123254213> gndo:variantNameForThePerson "Tarcagnota, Giouan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592276 .
+
+_:node1ivs02adlx24592276 gndo:forename "Giouan";
+  gndo:surname "Tarcagnota" .
+
+<https://d-nb.info/gnd/123254213> gndo:variantNameForThePerson "Tarcagnota, Giouanni";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592277 .
+
+_:node1ivs02adlx24592277 gndo:forename "Giouanni";
+  gndo:surname "Tarcagnota" .
+
+<https://d-nb.info/gnd/123254213> gndo:variantNameForThePerson "Tarcagnota di Gaeta, Giouanni";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592278 .
+
+_:node1ivs02adlx24592278 gndo:forename "Giouanni";
+  gndo:surname "Tarcagnota di Gaeta" .
+
+<https://d-nb.info/gnd/123254213> gndo:variantNameForThePerson "Fauno, Lucio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592279 .
+
+_:node1ivs02adlx24592279 gndo:forename "Lucio";
+  gndo:surname "Fauno" .
+
+<https://d-nb.info/gnd/123254213> gndo:pseudonymNameOfThePerson _:node1ivs02adlx24592280 .
+
+_:node1ivs02adlx24592280 gndo:forename "Lucio";
+  gndo:surname "Fauno";
+  a gndo:PseudonymNameOfThePerson .
+
+<https://d-nb.info/gnd/123254213> gndo:variantNameForThePerson "Cajetano, Lucio Fauno";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592281 .
+
+_:node1ivs02adlx24592281 gndo:forename "Lucio Fauno";
+  gndo:surname "Cajetano" .
+
+<https://d-nb.info/gnd/123254213> gndo:pseudonymNameOfThePerson _:node1ivs02adlx24592282 .
+
+_:node1ivs02adlx24592282 gndo:forename "Lucio Fauno";
+  gndo:surname "Cajetano";
+  a gndo:PseudonymNameOfThePerson .
+
+<https://d-nb.info/gnd/123254213> gndo:variantNameForThePerson "Tarcagnota, Gio.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592283 .
+
+_:node1ivs02adlx24592283 gndo:forename "Gio.";
+  gndo:surname "Tarcagnota" .
+
+<https://d-nb.info/gnd/123254213> gndo:variantNameForThePerson "Tarchagnota, Giovanni";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592284 .
+
+_:node1ivs02adlx24592284 gndo:forename "Giovanni";
+  gndo:surname "Tarchagnota" .
+
+<https://d-nb.info/gnd/123254213> gndo:preferredNameForThePerson "Tarcagnota, Giovanni";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592285 .
+
+_:node1ivs02adlx24592285 gndo:forename "Giovanni";
+  gndo:surname "Tarcagnota" .
+
+<https://d-nb.info/gnd/123254213> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/ita>, <http://id.loc.gov/vocabulary/iso639-2/grc>,
+    <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  gndo:publication "Delle historie del mondo", "Delle historie del mondo", "Delle historie del mondo",
+    "Delle historie del mondo", "Delle historie del mondo", "Galenus: A che guisa si possano e conoscere e curare le infermità dell'animo",
+    "Galenus: Delli mezzi che si possono tenere per conservarci la sanità", "Delle istorie del mondo",
+    "Plutarchus: Alcuni opusculetti delle cose morali del divino Plutarcho";
+  wdrs:describedby <https://d-nb.info/gnd/123254213/about> .
+
+<https://d-nb.info/gnd/123254213/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-255>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-Y3> .
+
+<https://d-nb.info/gnd/123254213> gndo:biographicalOrHistoricalInformation "Ital. Historiker und Übersetzer"@de,
+    "Historiker"@de;
+  gndo:professionOrOccupation _:node1ivs02adlx24592286 .
+
+_:node1ivs02adlx24592286 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4199241-6>;
+  rdf:_3 <https://d-nb.info/gnd/4061414-1> .
+
+<https://d-nb.info/gnd/123254213> gndo:dateOfBirth "[ca.1508]";
+  gndo:dateOfDeath "1566"^^xsd:gYear .
+

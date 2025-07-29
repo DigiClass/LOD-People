@@ -1,0 +1,150 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119121409> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119121409/about> .
+
+<https://d-nb.info/gnd/119121409/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2020-08-10T12:08:49.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119121409> gndo:gndIdentifier "119121409";
+  owl:sameAs <https://dbpedia.org/resource/Hypatia>, <http://viaf.org/viaf/316731617>,
+    <https://isni.org/isni/0000000450923663>, <http://www.wikidata.org/entity/Q11903>;
+  gndo:oldAuthorityNumber "(DE-588)1090258712";
+  owl:sameAs <https://d-nb.info/gnd/1090258712>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090258712";
+  gndo:oldAuthorityNumber "(DE-588)1089457707";
+  owl:sameAs <https://d-nb.info/gnd/1089457707>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089457707";
+  gndo:oldAuthorityNumber "(DE-588a)119121409", "(DE-588c)4324698-9";
+  gndo:variantNameForThePerson "Ipazia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591072 .
+
+_:node1ivs02adlx24591072 gndo:personalName "Ipazia" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Alexandrina, Hypatia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591073 .
+
+_:node1ivs02adlx24591073 gndo:forename "Hypatia";
+  gndo:surname "Alexandrina" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia, Philosopha";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591074 .
+
+_:node1ivs02adlx24591074 gndo:personalName "Hypatia";
+  gndo:nameAddition "Philosopha" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia, Theonis Filia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591075 .
+
+_:node1ivs02adlx24591075 gndo:personalName "Hypatia";
+  gndo:nameAddition "Theonis Filia" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia, Neuplatonikerin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591076 .
+
+_:node1ivs02adlx24591076 gndo:personalName "Hypatia";
+  gndo:nameAddition "Neuplatonikerin" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591077 .
+
+_:node1ivs02adlx24591077 gndo:personalName "Hypatia";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia, Tochter des Theon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591078 .
+
+_:node1ivs02adlx24591078 gndo:personalName "Hypatia";
+  gndo:nameAddition "Tochter des Theon" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia, Philosophin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591079 .
+
+_:node1ivs02adlx24591079 gndo:personalName "Hypatia";
+  gndo:nameAddition "Philosophin" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia, Mathematikerin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591080 .
+
+_:node1ivs02adlx24591080 gndo:personalName "Hypatia";
+  gndo:nameAddition "Mathematikerin" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591081 .
+
+_:node1ivs02adlx24591081 gndo:personalName "Hypatia" .
+
+<https://d-nb.info/gnd/119121409> gndo:variantNameForThePerson "Hypatia, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591082 .
+
+_:node1ivs02adlx24591082 gndo:personalName "Hypatia";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/119121409> gndo:preferredNameForThePerson "Hypatia, Alexandrina";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591083 .
+
+_:node1ivs02adlx24591083 gndo:personalName "Hypatia";
+  gndo:nameAddition "Alexandrina" .
+
+<https://d-nb.info/gnd/119121409> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119121409/about> .
+
+<https://d-nb.info/gnd/119121409/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-605>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-605> .
+
+<https://d-nb.info/gnd/119121409> gndo:biographicalOrHistoricalInformation "Griech. Mathematikerin u. Philosophin"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24591084 .
+
+_:node1ivs02adlx24591084 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4252788-0>;
+  rdf:_2 <https://d-nb.info/gnd/4174285-0> .
+
+<https://d-nb.info/gnd/119121409> gndo:dateOfBirth "0370"^^xsd:gYear;
+  gndo:dateOfDeath "0415"^^xsd:gYear .
+

@@ -1,0 +1,344 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100941028> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100941028/about> .
+
+<https://d-nb.info/gnd/100941028/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:09:51.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100941028> gndo:gndIdentifier "100941028";
+  foaf:page <https://de.wikipedia.org/wiki/Aelia_Eudocia>;
+  owl:sameAs <http://viaf.org/viaf/105135748>, <https://isni.org/isni/0000000108043783>,
+    <http://www.wikidata.org/entity/Q229307>, <http://id.loc.gov/rwo/agents/n86030065>;
+  gndo:oldAuthorityNumber "(DE-588)119665743";
+  owl:sameAs <https://d-nb.info/gnd/119665743>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119665743";
+  gndo:oldAuthorityNumber "(DE-588a)119665743", "(DE-588)1089611005";
+  owl:sameAs <https://d-nb.info/gnd/1089611005>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089611005";
+  gndo:oldAuthorityNumber "(DE-588)1089723318";
+  owl:sameAs <https://d-nb.info/gnd/1089723318>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089723318";
+  gndo:oldAuthorityNumber "(DE-588a)100941028", "(DE-588c)4514786-3";
+  gndo:variantNameForThePerson "Eudocia, Byzantinisches Reich, Kaiserin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585655 .
+
+_:node1ivs02adlx24585655 gndo:personalName "Eudocia";
+  gndo:nameAddition "Byzantinisches Reich, Kaiserin" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Athenais";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585656 .
+
+_:node1ivs02adlx24585656 gndo:personalName "Athenais" .
+
+<https://d-nb.info/gnd/100941028> gndo:earlierNameOfThePerson _:node1ivs02adlx24585657 .
+
+_:node1ivs02adlx24585657 gndo:personalName "Athenais";
+  a gndo:EarlierNameOfThePerson .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Aelia Eudocia, Byzantinisches Reich, Kaiserin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585658 .
+
+_:node1ivs02adlx24585658 gndo:personalName "Aelia Eudocia";
+  gndo:nameAddition "Byzantinisches Reich, Kaiserin" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Aelia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585659 .
+
+_:node1ivs02adlx24585659 gndo:forename "Aelia";
+  gndo:surname "Eudocia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudokia Ailia Athenais";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585660 .
+
+_:node1ivs02adlx24585660 gndo:personalName "Eudokia Ailia Athenais" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocie, Athénaïs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585661 .
+
+_:node1ivs02adlx24585661 gndo:personalName "Eudocie";
+  gndo:nameAddition "Athénaïs" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudossia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585662 .
+
+_:node1ivs02adlx24585662 gndo:personalName "Eudossia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Ailia, Eudokia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585663 .
+
+_:node1ivs02adlx24585663 gndo:personalName "Ailia";
+  gndo:nameAddition "Eudokia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Aelia, Eudocia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585664 .
+
+_:node1ivs02adlx24585664 gndo:personalName "Aelia";
+  gndo:nameAddition "Eudocia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudokia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585665 .
+
+_:node1ivs02adlx24585665 gndo:personalName "Eudokia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Filia Leontii";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585666 .
+
+_:node1ivs02adlx24585666 gndo:personalName "Eudocia";
+  gndo:nameAddition "Filia Leontii" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudoxie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585667 .
+
+_:node1ivs02adlx24585667 gndo:personalName "Eudoxie" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eodocia, Aelia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585668 .
+
+_:node1ivs02adlx24585668 gndo:forename "Aelia";
+  gndo:surname "Eodocia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Imperium Byzantinum, Imperatrix";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585669 .
+
+_:node1ivs02adlx24585669 gndo:personalName "Eudocia";
+  gndo:nameAddition "Imperium Byzantinum, Imperatrix" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Epica";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585670 .
+
+_:node1ivs02adlx24585670 gndo:personalName "Eudocia";
+  gndo:nameAddition "Epica" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudokia, Ailia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585671 .
+
+_:node1ivs02adlx24585671 gndo:forename "Ailia";
+  gndo:surname "Eudokia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudokia, Athenais";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585672 .
+
+_:node1ivs02adlx24585672 gndo:personalName "Eudokia";
+  gndo:nameAddition "Athenais" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Athenais, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585673 .
+
+_:node1ivs02adlx24585673 gndo:personalName "Athenais";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Imperatrice";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585674 .
+
+_:node1ivs02adlx24585674 gndo:personalName "Eudocia";
+  gndo:nameAddition "Imperatrice" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Aelia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585675 .
+
+_:node1ivs02adlx24585675 gndo:forename "Aelia";
+  gndo:surname "Eudocia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Saint Eudocia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585676 .
+
+_:node1ivs02adlx24585676 gndo:personalName "Saint Eudocia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Sancta Eudocia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585677 .
+
+_:node1ivs02adlx24585677 gndo:personalName "Sancta Eudocia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Sancta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585678 .
+
+_:node1ivs02adlx24585678 gndo:personalName "Eudocia";
+  gndo:nameAddition "Sancta" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Hagia Eudokia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585679 .
+
+_:node1ivs02adlx24585679 gndo:personalName "Hagia Eudokia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Consort of Theodosius II.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585680 .
+
+_:node1ivs02adlx24585680 gndo:personalName "Eudocia";
+  gndo:nameAddition "Consort of Theodosius II." .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Oströmisches Reich, Kaiserin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585681 .
+
+_:node1ivs02adlx24585681 gndo:personalName "Eudocia";
+  gndo:nameAddition "Oströmisches Reich, Kaiserin" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudoxia, Aelia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585682 .
+
+_:node1ivs02adlx24585682 gndo:forename "Aelia";
+  gndo:surname "Eudoxia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585683 .
+
+_:node1ivs02adlx24585683 gndo:personalName "Eudocie" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Aelia, Eudoxia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585684 .
+
+_:node1ivs02adlx24585684 gndo:personalName "Aelia";
+  gndo:nameAddition "Eudoxia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Aelia Augusta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585685 .
+
+_:node1ivs02adlx24585685 gndo:forename "Aelia Augusta";
+  gndo:surname "Eudocia" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudoxie, Impératrice";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585686 .
+
+_:node1ivs02adlx24585686 gndo:personalName "Eudoxie";
+  gndo:nameAddition "Impératrice" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Augusta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585687 .
+
+_:node1ivs02adlx24585687 gndo:personalName "Eudocia";
+  gndo:nameAddition "Augusta" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585688 .
+
+_:node1ivs02adlx24585688 gndo:personalName "Eudocia";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Evdokija, Afinaida";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585689 .
+
+_:node1ivs02adlx24585689 gndo:personalName "Evdokija";
+  gndo:nameAddition "Afinaida" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudoxia, Augusta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585690 .
+
+_:node1ivs02adlx24585690 gndo:personalName "Eudoxia";
+  gndo:nameAddition "Augusta" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Augusta, Eudocia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585691 .
+
+_:node1ivs02adlx24585691 gndo:forename "Eudocia";
+  gndo:surname "Augusta" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudokia, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585692 .
+
+_:node1ivs02adlx24585692 gndo:personalName "Eudokia";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Eudocia, Gattin von Theodosius II.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585693 .
+
+_:node1ivs02adlx24585693 gndo:personalName "Eudocia";
+  gndo:nameAddition "Gattin von Theodosius II." .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Aelia Eudocia, Gattin von Theodosius II.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585694 .
+
+_:node1ivs02adlx24585694 gndo:personalName "Aelia Eudocia";
+  gndo:nameAddition "Gattin von Theodosius II." .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Ailia Eudokia, Gattin von Theodosius II.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585695 .
+
+_:node1ivs02adlx24585695 gndo:personalName "Ailia Eudokia";
+  gndo:nameAddition "Gattin von Theodosius II." .
+
+<https://d-nb.info/gnd/100941028> gndo:variantNameForThePerson "Athenais, Gattin von Theodosius II.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585696 .
+
+_:node1ivs02adlx24585696 gndo:personalName "Athenais";
+  gndo:nameAddition "Gattin von Theodosius II." .
+
+<https://d-nb.info/gnd/100941028> gndo:preferredNameForThePerson "Aelia Eudokia, Byzantinisches Reich, Kaiserin";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585697 .
+
+_:node1ivs02adlx24585697 gndo:personalName "Aelia Eudokia";
+  gndo:nameAddition "Byzantinisches Reich, Kaiserin" .
+
+<https://d-nb.info/gnd/100941028> gndo:familialRelationship <https://d-nb.info/gnd/118756885>;
+  agrelon:hasSpouse <https://d-nb.info/gnd/118756885>;
+  gndo:hasRelation _:node1ivs02adlx24585698 .
+
+_:node1ivs02adlx24585698 agrelon:hasSpouse <https://d-nb.info/gnd/118756885>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100941028> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#female>;
+  gndo:titleOfNobility <https://d-nb.info/gnd/4163019-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Eodocia <Augusta>: Eudociae Augustae de S. Cypriano", "Eudocia <Augusta>: Eudokias tēs basilidos Peri tu hagiu Kyprianu biblos prōtē [-deut*",
+    "Eudocia <Augusta>: Eudokias tēs basilidos Peri tu hagiu Kyprianu biblos prōtē [-deut*",
+    "Eudocia: Homerocenta quae et centones. 1541. (VD16 E 4173)", "Lycurgus: Homerocenta quae et centones. 1554. (VD16 L 7730)";
+  wdrs:describedby <https://d-nb.info/gnd/100941028/about> .
+
+<https://d-nb.info/gnd/100941028/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100941028> gndo:biographicalOrHistoricalInformation "Tochter des athenischen Rhetoriklehrers Leontios; Byzantin. Kaiserin, Gemahlin von Theodosius II. und Verfasserin von Gedichten christl. Inhalts; Heilige der orthodoxen Kirche"@de;
+  gndo:udkCode "401 - 500";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4003366-1>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4028586-8>;
+  gndo:professionOrOccupation _:node1ivs02adlx24585699 .
+
+_:node1ivs02adlx24585699 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053311-6> .
+
+<https://d-nb.info/gnd/100941028> gndo:dateOfBirth "0400"^^xsd:gYear;
+  gndo:dateOfDeath "0460"^^xsd:gYear .
+

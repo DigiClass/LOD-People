@@ -1,0 +1,539 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118595237> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118595237/about> .
+
+<https://d-nb.info/gnd/118595237/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:27:29.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118595237> gndo:gndIdentifier "118595237";
+  foaf:page <https://de.wikipedia.org/wiki/Plutarch>;
+  owl:sameAs <https://dbpedia.org/resource/Plutarch>, <http://viaf.org/viaf/268955446>,
+    <https://isni.org/isni/000000036386663X>, <http://www.wikidata.org/entity/Q41523>;
+  gndo:oldAuthorityNumber "(DE-588)1151843253";
+  owl:sameAs <https://d-nb.info/gnd/1151843253>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1151843253";
+  gndo:oldAuthorityNumber "(DE-588)1024769119";
+  owl:sameAs <https://d-nb.info/gnd/1024769119>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1024769119";
+  gndo:oldAuthorityNumber "(DE-588)1087984009";
+  owl:sameAs <https://d-nb.info/gnd/1087984009>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1087984009";
+  gndo:oldAuthorityNumber "(DE-588)106985056X";
+  owl:sameAs <https://d-nb.info/gnd/106985056X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/106985056X";
+  gndo:oldAuthorityNumber "(DE-588)1089929552";
+  owl:sameAs <https://d-nb.info/gnd/1089929552>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089929552";
+  gndo:oldAuthorityNumber "(DE-588)1089093918";
+  owl:sameAs <https://d-nb.info/gnd/1089093918>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089093918";
+  gndo:oldAuthorityNumber "(DE-588)187718652";
+  owl:sameAs <https://d-nb.info/gnd/187718652>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187718652";
+  gndo:oldAuthorityNumber "(DE-588a)187718652", "(DE-588)18756681X";
+  owl:sameAs <https://d-nb.info/gnd/18756681X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18756681X";
+  gndo:oldAuthorityNumber "(DE-588a)18756681X", "(DE-588a)118595237", "(DE-588a)174392591",
+    "(DE-588a)127888853", "(DE-588c)4046405-2";
+  gndo:variantNameForThePerson "Plutarchos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397278 .
+
+_:node1ivpishs6x25397278 gndo:personalName "Plutarchos" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch, von Chaironeia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397279 .
+
+_:node1ivpishs6x25397279 gndo:personalName "Plutarch";
+  gndo:nameAddition "von Chaironeia" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch von Chaeronea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397280 .
+
+_:node1ivpishs6x25397280 gndo:personalName "Plutarch von Chaeronea" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchos, von Chaironeia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397281 .
+
+_:node1ivpishs6x25397281 gndo:personalName "Plutarchos";
+  gndo:nameAddition "von Chaironeia" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchos, Biograph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397282 .
+
+_:node1ivpishs6x25397282 gndo:personalName "Plutarchos";
+  gndo:nameAddition "Biograph" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchos, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397283 .
+
+_:node1ivpishs6x25397283 gndo:personalName "Plutarchos";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Biographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397284 .
+
+_:node1ivpishs6x25397284 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Biographus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397285 .
+
+_:node1ivpishs6x25397285 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plûṭarḵ, îš Ḥarôneʾā";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397286 .
+
+_:node1ivpishs6x25397286 gndo:personalName "Plûṭarḵ";
+  gndo:nameAddition "îš Ḥarôneʾā" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarche, de Chéronée";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397287 .
+
+_:node1ivpishs6x25397287 gndo:personalName "Plutarche";
+  gndo:nameAddition "de Chéronée" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, of Chaeronea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397288 .
+
+_:node1ivpishs6x25397288 gndo:personalName "Plutarchus";
+  gndo:nameAddition "of Chaeronea" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, von Chäroneia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397289 .
+
+_:node1ivpishs6x25397289 gndo:personalName "Plutarchus";
+  gndo:nameAddition "von Chäroneia" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarque, de Chéronée";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397290 .
+
+_:node1ivpishs6x25397290 gndo:personalName "Plutarque";
+  gndo:nameAddition "de Chéronée" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarco, di Cheronea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397291 .
+
+_:node1ivpishs6x25397291 gndo:personalName "Plutarco";
+  gndo:nameAddition "di Cheronea" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plowtark'";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397292 .
+
+_:node1ivpishs6x25397292 gndo:personalName "Plowtark'" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarke";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397293 .
+
+_:node1ivpishs6x25397293 gndo:personalName "Plutarke" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarche";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397294 .
+
+_:node1ivpishs6x25397294 gndo:personalName "Plutarche" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutharque";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397295 .
+
+_:node1ivpishs6x25397295 gndo:personalName "Plutharque" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Biograph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397296 .
+
+_:node1ivpishs6x25397296 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Biograph" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarche, de Chéroné";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397297 .
+
+_:node1ivpishs6x25397297 gndo:personalName "Plutarche";
+  gndo:nameAddition "de Chéroné" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch, Chaeroneus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397298 .
+
+_:node1ivpishs6x25397298 gndo:personalName "Plutarch";
+  gndo:nameAddition "Chaeroneus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Cheronensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397299 .
+
+_:node1ivpishs6x25397299 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Cheronensis" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch, z Cheronei";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397300 .
+
+_:node1ivpishs6x25397300 gndo:personalName "Plutarch";
+  gndo:nameAddition "z Cheronei" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Chaeroneus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397301 .
+
+_:node1ivpishs6x25397301 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Chaeroneus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Chaeronaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397302 .
+
+_:node1ivpishs6x25397302 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Chaeronaeus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Cheronaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397303 .
+
+_:node1ivpishs6x25397303 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Cheronaeus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarkhos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397304 .
+
+_:node1ivpishs6x25397304 gndo:personalName "Plutarkhos" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plûṭârḵ";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397305 .
+
+_:node1ivpishs6x25397305 gndo:personalName "Plûṭârḵ" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plûṭârḵûs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397306 .
+
+_:node1ivpishs6x25397306 gndo:personalName "Plûṭârḵûs" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarhus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397307 .
+
+_:node1ivpishs6x25397307 gndo:personalName "Plutarhus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutark";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397308 .
+
+_:node1ivpishs6x25397308 gndo:personalName "Plutark" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch z Cheronej";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397309 .
+
+_:node1ivpishs6x25397309 gndo:personalName "Plutarch z Cheronej" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarcho";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397310 .
+
+_:node1ivpishs6x25397310 gndo:personalName "Plutarcho" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarh";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397311 .
+
+_:node1ivpishs6x25397311 gndo:personalName "Plutarh" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, von Chaironeia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397312 .
+
+_:node1ivpishs6x25397312 gndo:personalName "Plutarchus";
+  gndo:nameAddition "von Chaironeia" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Cheroneus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397313 .
+
+_:node1ivpishs6x25397313 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Cheroneus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, von Chaeronea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397314 .
+
+_:node1ivpishs6x25397314 gndo:personalName "Plutarchus";
+  gndo:nameAddition "von Chaeronea" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Chairōneōs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397315 .
+
+_:node1ivpishs6x25397315 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Chairōneōs" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchos, Chairōneōs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397316 .
+
+_:node1ivpishs6x25397316 gndo:personalName "Plutarchos";
+  gndo:nameAddition "Chairōneōs" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch, u Chairōneōs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397317 .
+
+_:node1ivpishs6x25397317 gndo:personalName "Plutarch";
+  gndo:nameAddition "u Chairōneōs" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Chaeron";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397318 .
+
+_:node1ivpishs6x25397318 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Chaeron" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarque, de Chaeronée";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397319 .
+
+_:node1ivpishs6x25397319 gndo:personalName "Plutarque";
+  gndo:nameAddition "de Chaeronée" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch, of Chaeronea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397320 .
+
+_:node1ivpishs6x25397320 gndo:personalName "Plutarch";
+  gndo:nameAddition "of Chaeronea" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch, von Chäronea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397321 .
+
+_:node1ivpishs6x25397321 gndo:personalName "Plutarch";
+  gndo:nameAddition "von Chäronea" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarcus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397322 .
+
+_:node1ivpishs6x25397322 gndo:personalName "Plutarcus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plowtark";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397323 .
+
+_:node1ivpishs6x25397323 gndo:personalName "Plowtark" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarx";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397324 .
+
+_:node1ivpishs6x25397324 gndo:personalName "Plutarx" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarco, Cheronese";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397325 .
+
+_:node1ivpishs6x25397325 gndo:personalName "Plutarco";
+  gndo:nameAddition "Cheronese" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchos, von Chaironea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397326 .
+
+_:node1ivpishs6x25397326 gndo:personalName "Plutarchos";
+  gndo:nameAddition "von Chaironea" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchos, Chaeroneos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397327 .
+
+_:node1ivpishs6x25397327 gndo:personalName "Plutarchos";
+  gndo:nameAddition "Chaeroneos" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, Chaeronensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397328 .
+
+_:node1ivpishs6x25397328 gndo:personalName "Plutarchus";
+  gndo:nameAddition "Chaeronensis" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarque";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397329 .
+
+_:node1ivpishs6x25397329 gndo:personalName "Plutarque" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397330 .
+
+_:node1ivpishs6x25397330 gndo:personalName "Plutarco" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Ploutarchos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397331 .
+
+_:node1ivpishs6x25397331 gndo:personalName "Ploutarchos" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarchus, von Cheronea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397332 .
+
+_:node1ivpishs6x25397332 gndo:personalName "Plutarchus";
+  gndo:nameAddition "von Cheronea" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Plutarch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397333 .
+
+_:node1ivpishs6x25397333 gndo:personalName "Plutarch" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Ploutarchos, Chairōneōs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397334 .
+
+_:node1ivpishs6x25397334 gndo:personalName "Ploutarchos";
+  gndo:nameAddition "Chairōneōs" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Pseudo-Plutarchus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397335 .
+
+_:node1ivpishs6x25397335 gndo:personalName "Pseudo-Plutarchus" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Pseudo-Plutarco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397336 .
+
+_:node1ivpishs6x25397336 gndo:personalName "Pseudo-Plutarco" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Pseudo-Plutarch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397337 .
+
+_:node1ivpishs6x25397337 gndo:personalName "Pseudo-Plutarch" .
+
+<https://d-nb.info/gnd/118595237> gndo:variantNameForThePerson "Плутарх"@und-Cyrl;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397338 .
+
+_:node1ivpishs6x25397338 gndo:personalName "Плутарх" .
+
+<https://d-nb.info/gnd/118595237> gndo:preferredNameForThePerson "Plutarchus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25397339 .
+
+_:node1ivpishs6x25397339 gndo:personalName "Plutarchus" .
+
+<https://d-nb.info/gnd/118595237> gndo:hasRelation _:node1ivpishs6x25397340 .
+
+_:node1ivpishs6x25397340 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397341 .
+
+_:node1ivpishs6x25397341 gndo:forename "Johannes";
+  gndo:surname "Fischart" .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119022257>;
+  gndo:hasRelation _:node1ivpishs6x25397342 .
+
+_:node1ivpishs6x25397342 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119022257>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119615592>;
+  gndo:hasRelation _:node1ivpishs6x25397343 .
+
+_:node1ivpishs6x25397343 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119615592>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118580485>;
+  gndo:hasRelation _:node1ivpishs6x25397344 .
+
+_:node1ivpishs6x25397344 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118580485>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118516868>;
+  gndo:hasRelation _:node1ivpishs6x25397345 .
+
+_:node1ivpishs6x25397345 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118516868>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:hasRelation _:node1ivpishs6x25397346 .
+
+_:node1ivpishs6x25397346 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397347 .
+
+_:node1ivpishs6x25397347 gndo:forename "Caelius Secundus";
+  gndo:surname "Curio" .
+
+<https://d-nb.info/gnd/118595237> gndo:hasRelation _:node1ivpishs6x25397348 .
+
+_:node1ivpishs6x25397348 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397349 .
+
+_:node1ivpishs6x25397349 gndo:forename "Johannes";
+  gndo:surname "Metzler" .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124500099>;
+  gndo:hasRelation _:node1ivpishs6x25397350 .
+
+_:node1ivpishs6x25397350 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124500099>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118699032>;
+  gndo:hasRelation _:node1ivpishs6x25397351 .
+
+_:node1ivpishs6x25397351 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118699032>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:hasRelation _:node1ivpishs6x25397352 .
+
+_:node1ivpishs6x25397352 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118595237> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397353 .
+
+_:node1ivpishs6x25397353 gndo:forename "Adrien";
+  gndo:surname "Turnèbe";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118595237> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#18p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Plutarchus: Das philosophische Ehezuchtbüchlein", "Plutarchus: Alcibiades",
+    "Plutarchus: Apophthegamta Regum et Imperatorum", "Plutarchus: Apophthegmata philosophorum graeco-latina",
+    "Plutarchus: Apophthegmata Philosophorum", "Plutarchus: Apophthegmes ...", "Plutarchus: Apophthegmata regum et imperatorum",
+    "Plutarchus: Septem Sapientium convivium", "Plutarchus: De physicis philosophorum decretis libri quinque",
+    "Plutarchus: De differentia inter odium et invidiam", "Plutarchus: De viris clarissimis liber. 1552. (VD16 ZV 12594)",
+    "Plutarchus: De liberis educandis. 1579. (VD16 ZV 12604)", "Plutarchus: \\=GPLUtarchu Cherōneōs peri paidōn agōgēs.\\=g PLVTAR chi Cheronei de libero\\[RUM] ... 1519. (VD16 P 3651)",
+    "Plutarchus: EX PLVTARCHI CHAEROnei moralibus opuscula aliquot hactenus non conuersa. Num seni sit ... 1542. (VD16 P 3695)",
+    "Plutarchus: EX PLVTARCHO VERSA PER DES. ERASMVM ROTERODAMVM Recognita per eundem, ex collatiõe ... 1520. (VD16 P 3718)",
+    "Plutarchus: Ad Demonicum. 1571. (VD16 P 3654)", "Plutarchus: PLVTARCHI CHAERONENSIS, SVMMI PHILOSOPHI & historici, VTTAE PARALLElae, seu ... 1579. (VD16 P 3766)",
+    "Cato, Marcus Porcius: Disticha moralia. 1521. (VD16 ZV 3156)", "Plutarchus: EPITOME VITARVM PLVTARCHI, HOC EST, VIRORVM APVD GRAEcos quàm Latinos illustrium res gestae ... 1541. (VD16 P 3776)",
+    "Plutarchus: Septem sapientum convivium. 1558. (VD16 ZV 12590)";
+  wdrs:describedby <https://d-nb.info/gnd/118595237/about> .
+
+<https://d-nb.info/gnd/118595237/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/118595237> gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:professionOrOccupation _:node1ivpishs6x25397354 .
+
+_:node1ivpishs6x25397354 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118595237> gndo:dateOfBirth "0045"^^xsd:gYear;
+  gndo:dateOfDeath "0120"^^xsd:gYear .
+

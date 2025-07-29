@@ -1,0 +1,276 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118581422> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118581422/about> .
+
+<https://d-nb.info/gnd/118581422/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:30:02.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118581422> gndo:gndIdentifier "118581422";
+  foaf:page <https://de.wikipedia.org/wiki/Methodios_von_Olympos>;
+  owl:sameAs <https://dbpedia.org/resource/Methodius_of_Olympus>, <http://viaf.org/viaf/288530560>,
+    <https://isni.org/isni/0000000453031492>, <http://www.wikidata.org/entity/Q518300>;
+  gndo:oldAuthorityNumber "(DE-588)1103948334";
+  owl:sameAs <https://d-nb.info/gnd/1103948334>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1103948334";
+  gndo:oldAuthorityNumber "(DE-588)1089272650";
+  owl:sameAs <https://d-nb.info/gnd/1089272650>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089272650";
+  gndo:oldAuthorityNumber "(DE-588)18801327X";
+  owl:sameAs <https://d-nb.info/gnd/18801327X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18801327X";
+  gndo:oldAuthorityNumber "(DE-588a)18801327X", "(DE-588)186600291";
+  owl:sameAs <https://d-nb.info/gnd/186600291>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186600291";
+  gndo:oldAuthorityNumber "(DE-588a)186600291", "(DE-588)183554191";
+  owl:sameAs <https://d-nb.info/gnd/183554191>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183554191";
+  gndo:oldAuthorityNumber "(DE-588a)183554191", "(DE-588)174142528";
+  owl:sameAs <https://d-nb.info/gnd/174142528>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174142528";
+  gndo:oldAuthorityNumber "(DE-588a)174142528", "(DE-588a)118581422", "(DE-588a)127444939",
+    "(DE-588c)4038983-2";
+  gndo:variantNameForThePerson "Methodios, von Olympos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402918 .
+
+_:node1ivpishs6x25402918 gndo:personalName "Methodios";
+  gndo:nameAddition "von Olympos" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, von Olympus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402919 .
+
+_:node1ivpishs6x25402919 gndo:personalName "Methodius";
+  gndo:nameAddition "von Olympus" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Metodio, di Olimpio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402920 .
+
+_:node1ivpishs6x25402920 gndo:personalName "Metodio";
+  gndo:nameAddition "di Olimpio" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, de Patara";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402921 .
+
+_:node1ivpishs6x25402921 gndo:personalName "Methodius";
+  gndo:nameAddition "de Patara" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, de Tyro";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402922 .
+
+_:node1ivpishs6x25402922 gndo:personalName "Methodius";
+  gndo:nameAddition "de Tyro" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, de Olympo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402923 .
+
+_:node1ivpishs6x25402923 gndo:personalName "Methodius";
+  gndo:nameAddition "de Olympo" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Lyciae Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402924 .
+
+_:node1ivpishs6x25402924 gndo:personalName "Methodius";
+  gndo:nameAddition "Lyciae Episcopus" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodios, von Chalkis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402925 .
+
+_:node1ivpishs6x25402925 gndo:personalName "Methodios";
+  gndo:nameAddition "von Chalkis" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodios, Christlicher Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402926 .
+
+_:node1ivpishs6x25402926 gndo:personalName "Methodios";
+  gndo:nameAddition "Christlicher Schriftsteller" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Metodio, di Olimpo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402927 .
+
+_:node1ivpishs6x25402927 gndo:personalName "Metodio";
+  gndo:nameAddition "di Olimpo" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402928 .
+
+_:node1ivpishs6x25402928 gndo:personalName "Methodius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Pseudo-Methodius, de Olympo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402929 .
+
+_:node1ivpishs6x25402929 gndo:personalName "Pseudo-Methodius";
+  gndo:nameAddition "de Olympo" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Pseudo-Methodius, de Patara";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402930 .
+
+_:node1ivpishs6x25402930 gndo:personalName "Pseudo-Methodius";
+  gndo:nameAddition "de Patara" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Philippensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402931 .
+
+_:node1ivpishs6x25402931 gndo:personalName "Methodius";
+  gndo:nameAddition "Philippensis" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Olympus, Methodius von";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402932 .
+
+_:node1ivpishs6x25402932 gndo:forename "Methodius";
+  gndo:prefix "von";
+  gndo:surname "Olympus" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Lycius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402933 .
+
+_:node1ivpishs6x25402933 gndo:personalName "Methodius";
+  gndo:nameAddition "Lycius" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Hieromartyr";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402934 .
+
+_:node1ivpishs6x25402934 gndo:personalName "Methodius";
+  gndo:nameAddition "Hieromartyr" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402935 .
+
+_:node1ivpishs6x25402935 gndo:personalName "Methodius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Patarensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402936 .
+
+_:node1ivpishs6x25402936 gndo:personalName "Methodius";
+  gndo:nameAddition "Patarensis" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Méthode, d'Olympe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402937 .
+
+_:node1ivpishs6x25402937 gndo:personalName "Méthode";
+  gndo:nameAddition "d'Olympe" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Olympius, Methodius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402938 .
+
+_:node1ivpishs6x25402938 gndo:forename "Methodius";
+  gndo:surname "Olympius" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodios, Märtyrer";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402939 .
+
+_:node1ivpishs6x25402939 gndo:personalName "Methodios";
+  gndo:nameAddition "Märtyrer" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402940 .
+
+_:node1ivpishs6x25402940 gndo:personalName "Methodios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402941 .
+
+_:node1ivpishs6x25402941 gndo:personalName "Methodius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402942 .
+
+_:node1ivpishs6x25402942 gndo:personalName "Methodius";
+  gndo:nameAddition "Archiepiscopus" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Pseudo-Methodius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402943 .
+
+_:node1ivpishs6x25402943 gndo:personalName "Pseudo-Methodius" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402944 .
+
+_:node1ivpishs6x25402944 gndo:personalName "Methodius" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Pseudo-Methodos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402945 .
+
+_:node1ivpishs6x25402945 gndo:personalName "Pseudo-Methodos" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Pseudo-Methodios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402946 .
+
+_:node1ivpishs6x25402946 gndo:personalName "Pseudo-Methodios" .
+
+<https://d-nb.info/gnd/118581422> gndo:variantNameForThePerson "Methodius, Tyrus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402947 .
+
+_:node1ivpishs6x25402947 gndo:personalName "Methodius";
+  gndo:nameAddition "Tyrus" .
+
+<https://d-nb.info/gnd/118581422> gndo:preferredNameForThePerson "Methodius, Olympius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402948 .
+
+_:node1ivpishs6x25402948 gndo:personalName "Methodius";
+  gndo:nameAddition "Olympius" .
+
+<https://d-nb.info/gnd/118581422> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Convivium decem Virginum", "Excerpta ac Orationes aliquot", "Opera quotquot exstant",
+    "De revelatione facta Ab angelo beato Methodio in carcere detento", "De revelatione facta ab Angelo",
+    "De revelatione S. Methodio ab angelo facta", "Fragmentum Vaticinii", "Methodii Prophecey",
+    "Gengenbach, Pamphilus: Diß Büchlyn inhelt die prophecien sancti Methodii und Nolhardi w*. - [ca. 1520]",
+    "Amphilochius <Iconiensis>: Opera omnia";
+  wdrs:describedby <https://d-nb.info/gnd/118581422/about> .
+
+<https://d-nb.info/gnd/118581422/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118581422> gndo:biographicalOrHistoricalInformation "Griech. Kirchenschriftsteller"@de;
+  gndo:udkCode "201 - 300", "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0230"^^xsd:gYear;
+  gndo:dateOfDeath "0311"^^xsd:gYear .
+

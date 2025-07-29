@@ -1,0 +1,256 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118682512> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118682512/about> .
+
+<https://d-nb.info/gnd/118682512/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-03-30T08:08:53.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118682512> gndo:gndIdentifier "118682512";
+  owl:sameAs <https://dbpedia.org/resource/Evagrius_Scholasticus>, <http://viaf.org/viaf/6528161696253416120003>,
+    <http://www.wikidata.org/entity/Q365678>, <http://id.loc.gov/rwo/agents/n79095423>;
+  gndo:oldAuthorityNumber "(DE-588)1090099908";
+  owl:sameAs <https://d-nb.info/gnd/1090099908>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090099908";
+  gndo:oldAuthorityNumber "(DE-588)186668961";
+  owl:sameAs <https://d-nb.info/gnd/186668961>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186668961";
+  gndo:oldAuthorityNumber "(DE-588a)186668961", "(DE-588)172065682";
+  owl:sameAs <https://d-nb.info/gnd/172065682>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172065682";
+  gndo:oldAuthorityNumber "(DE-588a)172065682", "(DE-588a)118682512", "(DE-588a)119665638",
+    "(DE-588c)4091520-7";
+  gndo:variantNameForThePerson "Evagrios, Scholastikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594071 .
+
+_:node1ivs02adlx24594071 gndo:personalName "Evagrios";
+  gndo:nameAddition "Scholastikos" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Euagrios, ho Scholastikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594072 .
+
+_:node1ivs02adlx24594072 gndo:personalName "Euagrios";
+  gndo:nameAddition "ho Scholastikos" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Euagrios, Scholastikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594073 .
+
+_:node1ivs02adlx24594073 gndo:personalName "Euagrios";
+  gndo:nameAddition "Scholastikos" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Evagrius, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594074 .
+
+_:node1ivs02adlx24594074 gndo:personalName "Evagrius";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Evagrius, Epiphaniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594075 .
+
+_:node1ivs02adlx24594075 gndo:personalName "Evagrius";
+  gndo:nameAddition "Epiphaniensis" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Evagrio, di Epifania";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594076 .
+
+_:node1ivs02adlx24594076 gndo:personalName "Evagrio";
+  gndo:nameAddition "di Epifania" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Euagrius Scholasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594077 .
+
+_:node1ivs02adlx24594077 gndo:personalName "Euagrius Scholasticus" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Evagre";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594078 .
+
+_:node1ivs02adlx24594078 gndo:personalName "Evagre" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Evagrius, Syrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594079 .
+
+_:node1ivs02adlx24594079 gndo:personalName "Evagrius";
+  gndo:nameAddition "Syrus" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Scholasticus, Evagrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594080 .
+
+_:node1ivs02adlx24594080 gndo:forename "Evagrius";
+  gndo:surname "Scholasticus" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Scholasticus, Euagrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594081 .
+
+_:node1ivs02adlx24594081 gndo:forename "Euagrius";
+  gndo:surname "Scholasticus" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Évagre, le Scholastique";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594082 .
+
+_:node1ivs02adlx24594082 gndo:personalName "Évagre";
+  gndo:nameAddition "le Scholastique" .
+
+<https://d-nb.info/gnd/118682512> gndo:variantNameForThePerson "Évagre, le scholastique";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594083 .
+
+_:node1ivs02adlx24594083 gndo:personalName "Évagre";
+  gndo:nameAddition "le scholastique" .
+
+<https://d-nb.info/gnd/118682512> gndo:preferredNameForThePerson "Evagrius, Scholasticus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594084 .
+
+_:node1ivs02adlx24594084 gndo:personalName "Evagrius";
+  gndo:nameAddition "Scholasticus" .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118504843>;
+  gndo:hasRelation _:node1ivs02adlx24594085 .
+
+_:node1ivs02adlx24594085 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118504843>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12461650X>;
+  gndo:hasRelation _:node1ivs02adlx24594086 .
+
+_:node1ivs02adlx24594086 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12461650X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119656698>;
+  gndo:hasRelation _:node1ivs02adlx24594087 .
+
+_:node1ivs02adlx24594087 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119656698>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:hasRelation _:node1ivs02adlx24594088 .
+
+_:node1ivs02adlx24594088 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594089 .
+
+_:node1ivs02adlx24594089 gndo:personalName "Eusebius";
+  gndo:nameAddition "von Caesarea" .
+
+<https://d-nb.info/gnd/118682512> gndo:hasRelation _:node1ivs02adlx24594090 .
+
+_:node1ivs02adlx24594090 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594091 .
+
+_:node1ivs02adlx24594091 gndo:personalName "Gregorius";
+  gndo:nameAddition "von Nyssa" .
+
+<https://d-nb.info/gnd/118682512> gndo:hasRelation _:node1ivs02adlx24594092 .
+
+_:node1ivs02adlx24594092 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594093 .
+
+_:node1ivs02adlx24594093 gndo:forename "Johannes Jakob";
+  gndo:surname "Grynaeus" .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118550853>;
+  gndo:hasRelation _:node1ivs02adlx24594094 .
+
+_:node1ivs02adlx24594094 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118550853>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11948370X>;
+  gndo:hasRelation _:node1ivs02adlx24594095 .
+
+_:node1ivs02adlx24594095 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11948370X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129891738>;
+  gndo:hasRelation _:node1ivs02adlx24594096 .
+
+_:node1ivs02adlx24594096 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129891738>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:hasRelation _:node1ivs02adlx24594097 .
+
+_:node1ivs02adlx24594097 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118682512> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594098 .
+
+_:node1ivs02adlx24594098 gndo:personalName "Rufinus";
+  gndo:nameAddition "aus Aquileia" .
+
+<https://d-nb.info/gnd/118682512> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-SY>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Athanasius: Vita beati Antonii monachi Aegyptii. 1516. (VD16 ZV 848)",
+    "Athanasius: Vita beati Antonii monachi Aegyptii. 1516. (VD16 ZV 849)", "Eusebius <von Caesarea>: Ecclesiastica historia. 1549. (VD16 E 4278)",
+    "Eusebius <von Caesarea>: Ecclesiastica historia. 1554. (VD16 E 4279)", "Eusebius <von Caesarea>: Ecclesiastica historia. 1557. (VD16 E 4280)",
+    "Eusebius <von Caesarea>: Ecclesiastica historia. 1562. (VD16 E 4281)", "Eusebius <von Caesarea>: Ecclesiastica historia. 1570. (VD16 E 4283)",
+    "Eusebius <von Caesarea>: Ecclesiastica historia. 1581. (VD16 E 4285)", "Eusebius <von Caesarea>: Synopsis apostolorum ac prophetarum vitas complectens. 1570. (VD16 E 4282)";
+  wdrs:describedby <https://d-nb.info/gnd/118682512/about> .
+
+<https://d-nb.info/gnd/118682512/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118682512> gndo:biographicalOrHistoricalInformation "Byzantinischer Kirchenhistoriker und Rechtsanwalt"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4089137-9>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594099 .
+
+_:node1ivs02adlx24594099 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4029050-5>;
+  rdf:_3 <https://d-nb.info/gnd/4398113-6>;
+  rdf:_4 <https://d-nb.info/gnd/4048755-6> .
+
+<https://d-nb.info/gnd/118682512> gndo:dateOfBirth "0536"^^xsd:gYear;
+  gndo:dateOfDeath "0600"^^xsd:gYear .
+

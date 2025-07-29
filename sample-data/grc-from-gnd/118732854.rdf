@@ -1,0 +1,121 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118732854> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118732854/about> .
+
+<https://d-nb.info/gnd/118732854/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-11-01T00:31:52.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118732854> gndo:gndIdentifier "118732854";
+  owl:sameAs <https://dbpedia.org/resource/Melissus_of_Samos>, <http://viaf.org/viaf/190975874>,
+    <http://www.wikidata.org/entity/Q233711>;
+  gndo:oldAuthorityNumber "(DE-588)1158923260";
+  owl:sameAs <https://d-nb.info/gnd/1158923260>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1158923260";
+  gndo:oldAuthorityNumber "(DE-588)1089579020";
+  owl:sameAs <https://d-nb.info/gnd/1089579020>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089579020";
+  gndo:oldAuthorityNumber "(DE-588)1089724527";
+  owl:sameAs <https://d-nb.info/gnd/1089724527>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089724527";
+  gndo:oldAuthorityNumber "(DE-588)174041012";
+  owl:sameAs <https://d-nb.info/gnd/174041012>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174041012";
+  gndo:oldAuthorityNumber "(DE-588a)174041012", "(DE-588a)118732854", "(DE-588c)4100802-9";
+  gndo:variantNameForThePerson "Melissus, Samius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596040 .
+
+_:node1ivs02adlx24596040 gndo:personalName "Melissus";
+  gndo:nameAddition "Samius" .
+
+<https://d-nb.info/gnd/118732854> gndo:variantNameForThePerson "Melissus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596041 .
+
+_:node1ivs02adlx24596041 gndo:personalName "Melissus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118732854> gndo:variantNameForThePerson "Melissus, of Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596042 .
+
+_:node1ivs02adlx24596042 gndo:personalName "Melissus";
+  gndo:nameAddition "of Samos" .
+
+<https://d-nb.info/gnd/118732854> gndo:variantNameForThePerson "Melisso, di Samo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596043 .
+
+_:node1ivs02adlx24596043 gndo:personalName "Melisso";
+  gndo:nameAddition "di Samo" .
+
+<https://d-nb.info/gnd/118732854> gndo:variantNameForThePerson "Mélissos, de Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596044 .
+
+_:node1ivs02adlx24596044 gndo:personalName "Mélissos";
+  gndo:nameAddition "de Samos" .
+
+<https://d-nb.info/gnd/118732854> gndo:preferredNameForThePerson "Melissos, von Samos";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24596045 .
+
+_:node1ivs02adlx24596045 gndo:personalName "Melissos";
+  gndo:nameAddition "von Samos" .
+
+<https://d-nb.info/gnd/118732854> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:relatedSubjectHeading <https://d-nb.info/gnd/4151707-6>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118732854/about> .
+
+<https://d-nb.info/gnd/118732854/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118732854> gndo:placeOfActivity <https://d-nb.info/gnd/4051507-2>;
+  gndo:professionOrOccupation _:node1ivs02adlx24596046 .
+
+_:node1ivs02adlx24596046 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4064025-5> .
+
+<https://d-nb.info/gnd/118732854> gndo:dateOfBirth "-0490"^^xsd:gYear;
+  gndo:dateOfDeath "-0430"^^xsd:gYear .
+

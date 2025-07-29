@@ -1,0 +1,242 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118645552> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118645552/about> .
+
+<https://d-nb.info/gnd/118645552/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:29:00.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118645552> gndo:gndIdentifier "118645552";
+  owl:sameAs <https://dbpedia.org/resource/Aratus>, <http://viaf.org/viaf/4461159477759327990004>,
+    <http://www.wikidata.org/entity/Q180671>;
+  gndo:oldAuthorityNumber "(DE-588)119608405";
+  owl:sameAs <https://d-nb.info/gnd/119608405>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119608405";
+  gndo:oldAuthorityNumber "(DE-588a)119608405", "(DE-588)108992187X";
+  owl:sameAs <https://d-nb.info/gnd/108992187X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108992187X";
+  gndo:oldAuthorityNumber "(DE-588)108971498X";
+  owl:sameAs <https://d-nb.info/gnd/108971498X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108971498X";
+  gndo:oldAuthorityNumber "(DE-588)1089139187";
+  owl:sameAs <https://d-nb.info/gnd/1089139187>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089139187";
+  gndo:oldAuthorityNumber "(DE-588)171952847";
+  owl:sameAs <https://d-nb.info/gnd/171952847>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/171952847";
+  gndo:oldAuthorityNumber "(DE-588a)171952847", "(DE-588a)118645552", "(DE-588c)4080132-9";
+  gndo:variantNameForThePerson "Aratus, Soleus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585278 .
+
+_:node1ivs02adlx24585278 gndo:personalName "Aratus";
+  gndo:nameAddition "Soleus" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratus, von Soloi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585279 .
+
+_:node1ivs02adlx24585279 gndo:personalName "Aratus";
+  gndo:nameAddition "von Soloi" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratus, of Soli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585280 .
+
+_:node1ivs02adlx24585280 gndo:personalName "Aratus";
+  gndo:nameAddition "of Soli" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratus, de Soles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585281 .
+
+_:node1ivs02adlx24585281 gndo:personalName "Aratus";
+  gndo:nameAddition "de Soles" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratus, Solitanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585282 .
+
+_:node1ivs02adlx24585282 gndo:personalName "Aratus";
+  gndo:nameAddition "Solitanus" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585283 .
+
+_:node1ivs02adlx24585283 gndo:personalName "Aratus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratus, Astronomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585284 .
+
+_:node1ivs02adlx24585284 gndo:personalName "Aratus";
+  gndo:nameAddition "Astronomus" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585285 .
+
+_:node1ivs02adlx24585285 gndo:personalName "Aratus" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, Solensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585286 .
+
+_:node1ivs02adlx24585286 gndo:personalName "Aratos";
+  gndo:nameAddition "Solensis" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, Soleus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585287 .
+
+_:node1ivs02adlx24585287 gndo:personalName "Aratos";
+  gndo:nameAddition "Soleus" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, von Soloi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585288 .
+
+_:node1ivs02adlx24585288 gndo:personalName "Aratos";
+  gndo:nameAddition "von Soloi" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, de Soles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585289 .
+
+_:node1ivs02adlx24585289 gndo:personalName "Aratos";
+  gndo:nameAddition "de Soles" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, Solitano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585290 .
+
+_:node1ivs02adlx24585290 gndo:personalName "Aratos";
+  gndo:nameAddition "Solitano" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, Solens";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585291 .
+
+_:node1ivs02adlx24585291 gndo:personalName "Aratos";
+  gndo:nameAddition "Solens" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, Astronom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585292 .
+
+_:node1ivs02adlx24585292 gndo:personalName "Aratos";
+  gndo:nameAddition "Astronom" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, Dichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585293 .
+
+_:node1ivs02adlx24585293 gndo:personalName "Aratos";
+  gndo:nameAddition "Dichter" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, Poète Didactique";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585294 .
+
+_:node1ivs02adlx24585294 gndo:personalName "Aratos";
+  gndo:nameAddition "Poète Didactique" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, Cilicien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585295 .
+
+_:node1ivs02adlx24585295 gndo:personalName "Aratos";
+  gndo:nameAddition "Cilicien" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos, de Tarse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585296 .
+
+_:node1ivs02adlx24585296 gndo:personalName "Aratos";
+  gndo:nameAddition "de Tarse" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Aratos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585297 .
+
+_:node1ivs02adlx24585297 gndo:personalName "Aratos" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Arato, Solitano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585298 .
+
+_:node1ivs02adlx24585298 gndo:personalName "Arato";
+  gndo:nameAddition "Solitano" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Arato, di Soli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585299 .
+
+_:node1ivs02adlx24585299 gndo:personalName "Arato";
+  gndo:nameAddition "di Soli" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Arat, von Soloi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585300 .
+
+_:node1ivs02adlx24585300 gndo:personalName "Arat";
+  gndo:nameAddition "von Soloi" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Arat, aus Soloi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585301 .
+
+_:node1ivs02adlx24585301 gndo:personalName "Arat";
+  gndo:nameAddition "aus Soloi" .
+
+<https://d-nb.info/gnd/118645552> gndo:variantNameForThePerson "Arat";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585302 .
+
+_:node1ivs02adlx24585302 gndo:personalName "Arat" .
+
+<https://d-nb.info/gnd/118645552> gndo:preferredNameForThePerson "Aratus, Solensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585303 .
+
+_:node1ivs02adlx24585303 gndo:personalName "Aratus";
+  gndo:nameAddition "Solensis" .
+
+<https://d-nb.info/gnd/118645552> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Aratus <Solensis>: Astronomicon", "Aratus: Phaenomena et Prognostica. 1570. (VD16 ZV 25321)",
+    "Dionysius Periegetes: Phaenomena. 1523. (VD16 D 1980)", "Aratus: ARATI SOLENSIS PHAENOMENA ET PROGNOSTICA. INTERPRETIBVS. M. TVLLIO CICERONE. RVFO ... 1569. (VD16 A 3200)",
+    "Cicero, Marcus Tullius: Phaenomena. 1581. (VD16 C 2817)", "Hyginus, Caius Julius: Libellus de deorum imaginibus. 1549. (VD16 H 6480)",
+    "Aratus: Phaenomena. 1536. (VD16 S 8303)", "Dionysius Periegetes: Phaenomena. 1534. (VD16 D 1981)",
+    "Aratus: ARATI SOLENSIS PHAENOMENA.. 1521. (VD16 A 3188)", "Aristoteles: Timaeus. 1542. (VD16 A 3420)",
+    "Proclus Diadochus: De motu circulari corporum caelestium. 1561. (VD16 P 4970)";
+  wdrs:describedby <https://d-nb.info/gnd/118645552/about> .
+
+<https://d-nb.info/gnd/118645552/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118645552> gndo:biographicalOrHistoricalInformation "Griech. Dichter und Gelehrter"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0315"^^xsd:gYear;
+  gndo:dateOfDeath "-0245"^^xsd:gYear .
+

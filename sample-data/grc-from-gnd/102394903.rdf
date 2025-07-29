@@ -1,0 +1,128 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102394903> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102394903/about> .
+
+<https://d-nb.info/gnd/102394903/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-06-06T00:34:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102394903> gndo:gndIdentifier "102394903";
+  foaf:page <https://de.wikipedia.org/wiki/Herakleides_von_Tarent>;
+  owl:sameAs <https://dbpedia.org/resource/Heraclides_of_Tarentum>, <http://viaf.org/viaf/79258829>,
+    <https://isni.org/isni/0000000102598569>, <http://www.wikidata.org/entity/Q202505>,
+    <http://id.loc.gov/rwo/agents/nr99004434>;
+  gndo:oldAuthorityNumber "(DE-588)108972795X";
+  owl:sameAs <https://d-nb.info/gnd/108972795X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108972795X";
+  gndo:oldAuthorityNumber "(DE-588)1089600844";
+  owl:sameAs <https://d-nb.info/gnd/1089600844>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089600844";
+  gndo:oldAuthorityNumber "(DE-588a)102394903", "(DE-588c)4564477-9";
+  gndo:variantNameForThePerson "Herakleides, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404398 .
+
+_:node1ivpishs6x25404398 gndo:personalName "Herakleides";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/102394903> gndo:variantNameForThePerson "Herakleides, Empiriker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404399 .
+
+_:node1ivpishs6x25404399 gndo:personalName "Herakleides";
+  gndo:nameAddition "Empiriker" .
+
+<https://d-nb.info/gnd/102394903> gndo:variantNameForThePerson "Heraclides, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404400 .
+
+_:node1ivpishs6x25404400 gndo:personalName "Heraclides";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/102394903> gndo:variantNameForThePerson "Heraclides, of Tarent";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404401 .
+
+_:node1ivpishs6x25404401 gndo:personalName "Heraclides";
+  gndo:nameAddition "of Tarent" .
+
+<https://d-nb.info/gnd/102394903> gndo:variantNameForThePerson "Heraclides, Physician";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404402 .
+
+_:node1ivpishs6x25404402 gndo:personalName "Heraclides";
+  gndo:nameAddition "Physician" .
+
+<https://d-nb.info/gnd/102394903> gndo:variantNameForThePerson "Herakleides, von Taras";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404403 .
+
+_:node1ivpishs6x25404403 gndo:personalName "Herakleides";
+  gndo:nameAddition "von Taras" .
+
+<https://d-nb.info/gnd/102394903> gndo:variantNameForThePerson "Herakleides, von Tarent";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404404 .
+
+_:node1ivpishs6x25404404 gndo:personalName "Herakleides";
+  gndo:nameAddition "von Tarent" .
+
+<https://d-nb.info/gnd/102394903> gndo:variantNameForThePerson "Eraclide, di Taranto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404405 .
+
+_:node1ivpishs6x25404405 gndo:personalName "Eraclide";
+  gndo:nameAddition "di Taranto" .
+
+<https://d-nb.info/gnd/102394903> gndo:preferredNameForThePerson "Heraclides, Tarentinus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404406 .
+
+_:node1ivpishs6x25404406 gndo:personalName "Heraclides";
+  gndo:nameAddition "Tarentinus" .
+
+<https://d-nb.info/gnd/102394903> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102394903/about> .
+
+<https://d-nb.info/gnd/102394903/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102394903> gndo:biographicalOrHistoricalInformation "Griech. Arzt"@de;
+  gndo:udkCode "100 - 1 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v75]" .
+

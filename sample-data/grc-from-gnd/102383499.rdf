@@ -1,0 +1,157 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102383499> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102383499/about> .
+
+<https://d-nb.info/gnd/102383499/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-03-08T17:32:35.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102383499> gndo:gndIdentifier "102383499";
+  owl:sameAs <https://dbpedia.org/resource/Caecilius_of_Calacte>, <http://viaf.org/viaf/264457847>,
+    <http://www.wikidata.org/entity/Q515249>;
+  gndo:oldAuthorityNumber "(DE-588)1089462336";
+  owl:sameAs <https://d-nb.info/gnd/1089462336>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089462336";
+  gndo:oldAuthorityNumber "(DE-588)1089828179";
+  owl:sameAs <https://d-nb.info/gnd/1089828179>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089828179";
+  gndo:oldAuthorityNumber "(DE-588a)102383499", "(DE-588c)7611665-7";
+  gndo:variantNameForThePerson "Caecilius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593619 .
+
+_:node1ivs02adlx24593619 gndo:personalName "Caecilius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Caecilius, von Kalakte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593620 .
+
+_:node1ivs02adlx24593620 gndo:personalName "Caecilius";
+  gndo:nameAddition "von Kalakte" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Caecilius, Literaturkritiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593621 .
+
+_:node1ivs02adlx24593621 gndo:personalName "Caecilius";
+  gndo:nameAddition "Literaturkritiker" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Pseudo-Caecilius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593622 .
+
+_:node1ivs02adlx24593622 gndo:personalName "Pseudo-Caecilius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Caecilius, von Kale Akte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593623 .
+
+_:node1ivs02adlx24593623 gndo:personalName "Caecilius";
+  gndo:nameAddition "von Kale Akte" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Caecilius, von Kaleakte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593624 .
+
+_:node1ivs02adlx24593624 gndo:personalName "Caecilius";
+  gndo:nameAddition "von Kaleakte" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Cecilio, di Calatte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593625 .
+
+_:node1ivs02adlx24593625 gndo:personalName "Cecilio";
+  gndo:nameAddition "di Calatte" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Cecilio, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593626 .
+
+_:node1ivs02adlx24593626 gndo:personalName "Cecilio";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Cecilio, Critico Letterario";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593627 .
+
+_:node1ivs02adlx24593627 gndo:personalName "Cecilio";
+  gndo:nameAddition "Critico Letterario" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Caecilius, of Calacte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593628 .
+
+_:node1ivs02adlx24593628 gndo:personalName "Caecilius";
+  gndo:nameAddition "of Calacte" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Pseudo-Caecilius, Calactinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593629 .
+
+_:node1ivs02adlx24593629 gndo:personalName "Pseudo-Caecilius";
+  gndo:nameAddition "Calactinus" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Calatte, Cecilio di";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593630 .
+
+_:node1ivs02adlx24593630 gndo:forename "Cecilio";
+  gndo:prefix "di";
+  gndo:surname "Calatte" .
+
+<https://d-nb.info/gnd/102383499> gndo:variantNameForThePerson "Caecilius, de Calè-Actè";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593631 .
+
+_:node1ivs02adlx24593631 gndo:personalName "Caecilius";
+  gndo:nameAddition "de Calè-Actè" .
+
+<https://d-nb.info/gnd/102383499> gndo:preferredNameForThePerson "Caecilius, Calactinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593632 .
+
+_:node1ivs02adlx24593632 gndo:personalName "Caecilius";
+  gndo:nameAddition "Calactinus" .
+
+<https://d-nb.info/gnd/102383499> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102383499/about> .
+
+<https://d-nb.info/gnd/102383499/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102383499> gndo:biographicalOrHistoricalInformation "Griech. Rhetor u. Literaturkritiker"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v1./1. Jh.]" .
+

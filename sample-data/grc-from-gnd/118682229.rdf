@@ -1,0 +1,403 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118682229> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118682229/about> .
+
+<https://d-nb.info/gnd/118682229/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-08T19:06:35.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118682229> gndo:gndIdentifier "118682229";
+  foaf:page <https://de.wikipedia.org/wiki/Epiphanios_von_Salamis>;
+  owl:sameAs <https://dbpedia.org/resource/Epiphanius_of_Salamis>, <http://viaf.org/viaf/13651211>,
+    <https://isni.org/isni/0000000108715770>, <http://www.wikidata.org/entity/Q313922>,
+    <http://id.loc.gov/rwo/agents/n82039938>;
+  gndo:oldAuthorityNumber "(DE-588)119663945";
+  owl:sameAs <https://d-nb.info/gnd/119663945>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119663945";
+  gndo:oldAuthorityNumber "(DE-588a)119663945", "(DE-588)108991086X";
+  owl:sameAs <https://d-nb.info/gnd/108991086X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108991086X";
+  gndo:oldAuthorityNumber "(DE-588)188118608";
+  owl:sameAs <https://d-nb.info/gnd/188118608>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188118608";
+  gndo:oldAuthorityNumber "(DE-588a)188118608", "(DE-588)183092538";
+  owl:sameAs <https://d-nb.info/gnd/183092538>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183092538";
+  gndo:oldAuthorityNumber "(DE-588a)183092538", "(DE-588)157600335";
+  owl:sameAs <https://d-nb.info/gnd/157600335>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/157600335";
+  gndo:oldAuthorityNumber "(DE-588)186349335";
+  owl:sameAs <https://d-nb.info/gnd/186349335>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186349335";
+  gndo:oldAuthorityNumber "(DE-588a)186349335", "(DE-588a)157600335", "(DE-588a)118682229",
+    "(DE-588c)4091489-6";
+  gndo:variantNameForThePerson "Epiphanius, Constantiae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586579 .
+
+_:node1ivs02adlx24586579 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Constantiae" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586580 .
+
+_:node1ivs02adlx24586580 gndo:personalName "Epiphanius" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, of Constantia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586581 .
+
+_:node1ivs02adlx24586581 gndo:personalName "Epiphanius";
+  gndo:nameAddition "of Constantia" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, von Constantia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586582 .
+
+_:node1ivs02adlx24586582 gndo:personalName "Epiphanius";
+  gndo:nameAddition "von Constantia" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586583 .
+
+_:node1ivs02adlx24586583 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Archiepiscopus" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Bishop";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586584 .
+
+_:node1ivs02adlx24586584 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Bishop" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586585 .
+
+_:node1ivs02adlx24586585 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Bischof von Constantia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586586 .
+
+_:node1ivs02adlx24586586 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Bischof von Constantia" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Bischof von Zypern";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586587 .
+
+_:node1ivs02adlx24586587 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Bischof von Zypern" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Constantiae Cypri";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586588 .
+
+_:node1ivs02adlx24586588 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Constantiae Cypri" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, of Constantia in Cyprus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586589 .
+
+_:node1ivs02adlx24586589 gndo:personalName "Epiphanius";
+  gndo:nameAddition "of Constantia in Cyprus" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Cypriensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586590 .
+
+_:node1ivs02adlx24586590 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Cypriensis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Cypriota";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586591 .
+
+_:node1ivs02adlx24586591 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Cypriota" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Cyprius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586592 .
+
+_:node1ivs02adlx24586592 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Cyprius" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Cyprus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586593 .
+
+_:node1ivs02adlx24586593 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Cyprus" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, von Cypern";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586594 .
+
+_:node1ivs02adlx24586594 gndo:personalName "Epiphanius";
+  gndo:nameAddition "von Cypern" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Eleutheropolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586595 .
+
+_:node1ivs02adlx24586595 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Eleutheropolis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, aus Eleutheropolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586596 .
+
+_:node1ivs02adlx24586596 gndo:personalName "Epiphanius";
+  gndo:nameAddition "aus Eleutheropolis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, of Eleutheropolis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586597 .
+
+_:node1ivs02adlx24586597 gndo:personalName "Epiphanius";
+  gndo:nameAddition "of Eleutheropolis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586598 .
+
+_:node1ivs02adlx24586598 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Episcopus Constantiae Cypri";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586599 .
+
+_:node1ivs02adlx24586599 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Episcopus Constantiae Cypri" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Iudaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586600 .
+
+_:node1ivs02adlx24586600 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Iudaeus" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Palaestinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586601 .
+
+_:node1ivs02adlx24586601 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Palaestinus" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Polyhistor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586602 .
+
+_:node1ivs02adlx24586602 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Polyhistor" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586603 .
+
+_:node1ivs02adlx24586603 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Salamiensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586604 .
+
+_:node1ivs02adlx24586604 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Salamiensis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Salaminis Cypri";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586605 .
+
+_:node1ivs02adlx24586605 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Salaminis Cypri" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Salaminius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586606 .
+
+_:node1ivs02adlx24586606 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Salaminius" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586607 .
+
+_:node1ivs02adlx24586607 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586608 .
+
+_:node1ivs02adlx24586608 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, of Salamis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586609 .
+
+_:node1ivs02adlx24586609 gndo:personalName "Epiphanius";
+  gndo:nameAddition "of Salamis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, von Salamis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586610 .
+
+_:node1ivs02adlx24586610 gndo:personalName "Epiphanius";
+  gndo:nameAddition "von Salamis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius, von Zypern";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586611 .
+
+_:node1ivs02adlx24586611 gndo:personalName "Epiphanius";
+  gndo:nameAddition "von Zypern" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586612 .
+
+_:node1ivs02adlx24586612 gndo:personalName "Epiphanius" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586613 .
+
+_:node1ivs02adlx24586613 gndo:personalName "Epiphanios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanios, aus Judäa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586614 .
+
+_:node1ivs02adlx24586614 gndo:personalName "Epiphanios";
+  gndo:nameAddition "aus Judäa" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanios, von Judäa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586615 .
+
+_:node1ivs02adlx24586615 gndo:personalName "Epiphanios";
+  gndo:nameAddition "von Judäa" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanios, Kirchenschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586616 .
+
+_:node1ivs02adlx24586616 gndo:personalName "Epiphanios";
+  gndo:nameAddition "Kirchenschriftsteller" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanios, von Konstantia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586617 .
+
+_:node1ivs02adlx24586617 gndo:personalName "Epiphanios";
+  gndo:nameAddition "von Konstantia" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanios, von Salamis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586618 .
+
+_:node1ivs02adlx24586618 gndo:personalName "Epiphanios";
+  gndo:nameAddition "von Salamis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanios, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586619 .
+
+_:node1ivs02adlx24586619 gndo:personalName "Epiphanios";
+  gndo:nameAddition "Theologe" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphanios, von Zypern";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586620 .
+
+_:node1ivs02adlx24586620 gndo:personalName "Epiphanios";
+  gndo:nameAddition "von Zypern" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphane, le Bienheureux";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586621 .
+
+_:node1ivs02adlx24586621 gndo:personalName "Epiphane";
+  gndo:nameAddition "le Bienheureux" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphane, de Chypre";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586622 .
+
+_:node1ivs02adlx24586622 gndo:personalName "Epiphane";
+  gndo:nameAddition "de Chypre" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphane, Evêque";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586623 .
+
+_:node1ivs02adlx24586623 gndo:personalName "Epiphane";
+  gndo:nameAddition "Evêque" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphane, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586624 .
+
+_:node1ivs02adlx24586624 gndo:personalName "Epiphane";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epiphane, de Salamine";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586625 .
+
+_:node1ivs02adlx24586625 gndo:personalName "Epiphane";
+  gndo:nameAddition "de Salamine" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epifanio, di Salamina";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586626 .
+
+_:node1ivs02adlx24586626 gndo:personalName "Epifanio";
+  gndo:nameAddition "di Salamina" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Epip̕an, Kiprac̕i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586627 .
+
+_:node1ivs02adlx24586627 gndo:personalName "Epip̕an";
+  gndo:nameAddition "Kiprac̕i" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Pseudo-Epiphanius, Constantiensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586628 .
+
+_:node1ivs02adlx24586628 gndo:personalName "Pseudo-Epiphanius";
+  gndo:nameAddition "Constantiensis" .
+
+<https://d-nb.info/gnd/118682229> gndo:variantNameForThePerson "Pseudo-Epiphanius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586629 .
+
+_:node1ivs02adlx24586629 gndo:personalName "Pseudo-Epiphanius" .
+
+<https://d-nb.info/gnd/118682229> gndo:preferredNameForThePerson "Epiphanius, Constantiensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586630 .
+
+_:node1ivs02adlx24586630 gndo:personalName "Epiphanius";
+  gndo:nameAddition "Constantiensis" .
+
+<https://d-nb.info/gnd/118682229> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IL>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Miraculum secundum Matthaeum", "Contra octaginta haereses opus",
+    "Liber ancoratus", "Liber ancoratus", "Contra octaginta haereses opus eximium", "Liber ancoratus",
+    "ORATIO D. EPIPHANII, Constantiae Cypri Episcopi, de fide Catholica, & Apostolica ...",
+    "Liber ancoratus", "Liber ancoratus", "Ad Diodorum Tyri episcopum de XII gemmis, quaeeran in vest*",
+    "D. EPIPHANII EPIscopi Constantiae Cypri, contra octoaginta haereses opus, Panarium, siue ...",
+    "Contra octaginta haereses opus", "Opera", "Johannes Chrysostomus: Oratio de fide catholica et apostolica ecclesia";
+  wdrs:describedby <https://d-nb.info/gnd/118682229/about> .
+
+<https://d-nb.info/gnd/118682229/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118682229> gndo:biographicalOrHistoricalInformation "Ankyrōtos; Panarion; Über Maße und Gewichte; Opus de XII gemmis rationalis summi sacerdotis; De praesessionibus patriarcharum et metropolitarum; Aus Judäa/Palästina stammender Kirchenschriftsteller, seit 376 Bischof von Salamis (Konstantia) und Metropolit von Zypern, Gegner des Origenes"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0315"^^xsd:gYear;
+  gndo:dateOfDeath "0403"^^xsd:gYear .
+

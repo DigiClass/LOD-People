@@ -1,0 +1,160 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118775448> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118775448/about> .
+
+<https://d-nb.info/gnd/118775448/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:14:26.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118775448> gndo:gndIdentifier "118775448";
+  owl:sameAs <https://dbpedia.org/resource/Ibycus>, <http://viaf.org/viaf/8839159477630527990005>,
+    <http://www.wikidata.org/entity/Q332802>;
+  gndo:oldAuthorityNumber "(DE-588)1159099596";
+  owl:sameAs <https://d-nb.info/gnd/1159099596>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1159099596";
+  gndo:oldAuthorityNumber "(DE-588)1158444680";
+  owl:sameAs <https://d-nb.info/gnd/1158444680>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1158444680";
+  gndo:oldAuthorityNumber "(DE-588)1089297629";
+  owl:sameAs <https://d-nb.info/gnd/1089297629>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089297629";
+  gndo:oldAuthorityNumber "(DE-588)1089724357";
+  owl:sameAs <https://d-nb.info/gnd/1089724357>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089724357";
+  gndo:oldAuthorityNumber "(DE-588a)118775448", "(DE-588c)4109476-1";
+  gndo:variantNameForThePerson "Ibykos, von Reggio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588250 .
+
+_:node1ivs02adlx24588250 gndo:personalName "Ibykos";
+  gndo:nameAddition "von Reggio" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibykos, Lyriker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588251 .
+
+_:node1ivs02adlx24588251 gndo:personalName "Ibykos";
+  gndo:nameAddition "Lyriker" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibico, di Reggio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588252 .
+
+_:node1ivs02adlx24588252 gndo:personalName "Ibico";
+  gndo:nameAddition "di Reggio" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibycus, of Rhegium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588253 .
+
+_:node1ivs02adlx24588253 gndo:personalName "Ibycus";
+  gndo:nameAddition "of Rhegium" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588254 .
+
+_:node1ivs02adlx24588254 gndo:personalName "Ibikos" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibycus, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588255 .
+
+_:node1ivs02adlx24588255 gndo:personalName "Ibycus";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibycus, Rheginus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588256 .
+
+_:node1ivs02adlx24588256 gndo:personalName "Ibycus";
+  gndo:nameAddition "Rheginus" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibykos, Chorlyriker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588257 .
+
+_:node1ivs02adlx24588257 gndo:personalName "Ibykos";
+  gndo:nameAddition "Chorlyriker" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibykos, Sohn des Phytios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588258 .
+
+_:node1ivs02adlx24588258 gndo:personalName "Ibykos";
+  gndo:nameAddition "Sohn des Phytios" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibykos, von Rhegion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588259 .
+
+_:node1ivs02adlx24588259 gndo:personalName "Ibykos";
+  gndo:nameAddition "von Rhegion" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibykos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588260 .
+
+_:node1ivs02adlx24588260 gndo:personalName "Ibykos" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibykus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588261 .
+
+_:node1ivs02adlx24588261 gndo:personalName "Ibykus" .
+
+<https://d-nb.info/gnd/118775448> gndo:variantNameForThePerson "Ibico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588262 .
+
+_:node1ivs02adlx24588262 gndo:personalName "Ibico" .
+
+<https://d-nb.info/gnd/118775448> gndo:preferredNameForThePerson "Ibycus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24588263 .
+
+_:node1ivs02adlx24588263 gndo:personalName "Ibycus" .
+
+<https://d-nb.info/gnd/118775448> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ibycus: Carminum Reliquiae", "Ibycus: Carminum reliquiae", "Nel giardino delle vergini",
+    "Alcaeus <Mytilenaeus>: Carmina", "Alcaeus <Mytilenaeus>: Lyrikoi. Carminum poetarum novem, lyricae poeseōs principum, frag*",
+    "Ibycus: Ibiku melē", "Frammenti";
+  wdrs:describedby <https://d-nb.info/gnd/118775448/about> .
+
+<https://d-nb.info/gnd/118775448/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118775448> gndo:biographicalOrHistoricalInformation "Griechischer Lyriker"@de;
+  gndo:udkCode "600 - 501 v. Chr. ";
+  gndo:dateOfBirthAndDeath "[v6. Jh.]" .
+

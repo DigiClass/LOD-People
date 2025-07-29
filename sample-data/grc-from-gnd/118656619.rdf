@@ -1,0 +1,392 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118656619> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118656619/about> .
+
+<https://d-nb.info/gnd/118656619/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:11:36.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118656619> gndo:gndIdentifier "118656619";
+  owl:sameAs <https://dbpedia.org/resource/Berossus>, <http://viaf.org/viaf/51787482>,
+    <http://www.wikidata.org/entity/Q312425>;
+  gndo:oldAuthorityNumber "(DE-588)1089737963";
+  owl:sameAs <https://d-nb.info/gnd/1089737963>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089737963";
+  gndo:oldAuthorityNumber "(DE-588)171975006";
+  owl:sameAs <https://d-nb.info/gnd/171975006>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/171975006";
+  gndo:oldAuthorityNumber "(DE-588a)171975006", "(DE-588)1089501668";
+  owl:sameAs <https://d-nb.info/gnd/1089501668>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089501668";
+  gndo:oldAuthorityNumber "(DE-588)1089316801";
+  owl:sameAs <https://d-nb.info/gnd/1089316801>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089316801";
+  gndo:oldAuthorityNumber "(DE-588a)118656619", "(DE-588c)4087406-0";
+  gndo:variantNameForThePerson "Berossus, Babylonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593002 .
+
+_:node1ivs02adlx24593002 gndo:personalName "Berossus";
+  gndo:nameAddition "Babylonius" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berossus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593003 .
+
+_:node1ivs02adlx24593003 gndo:personalName "Berossus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Astrologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593004 .
+
+_:node1ivs02adlx24593004 gndo:personalName "Berosus";
+  gndo:nameAddition "Astrologus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Babilonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593005 .
+
+_:node1ivs02adlx24593005 gndo:personalName "Berosus";
+  gndo:nameAddition "Babilonicus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Balpriester";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593006 .
+
+_:node1ivs02adlx24593006 gndo:personalName "Berosus";
+  gndo:nameAddition "Balpriester" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Belpriester";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593007 .
+
+_:node1ivs02adlx24593007 gndo:personalName "Berosus";
+  gndo:nameAddition "Belpriester" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Chaldaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593008 .
+
+_:node1ivs02adlx24593008 gndo:personalName "Berosus";
+  gndo:nameAddition "Chaldaeus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593009 .
+
+_:node1ivs02adlx24593009 gndo:personalName "Berosus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Sacerdos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593010 .
+
+_:node1ivs02adlx24593010 gndo:personalName "Berosus";
+  gndo:nameAddition "Sacerdos" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, von Babylon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593011 .
+
+_:node1ivs02adlx24593011 gndo:personalName "Berosus";
+  gndo:nameAddition "von Babylon" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Pseudo-Berossos, von Kos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593012 .
+
+_:node1ivs02adlx24593012 gndo:personalName "Pseudo-Berossos";
+  gndo:nameAddition "von Kos" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Pseudo-Berossus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593013 .
+
+_:node1ivs02adlx24593013 gndo:personalName "Pseudo-Berossus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Pseudo-Berosus, Babylonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593014 .
+
+_:node1ivs02adlx24593014 gndo:personalName "Pseudo-Berosus";
+  gndo:nameAddition "Babylonius" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berossos, aus Babylon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593015 .
+
+_:node1ivs02adlx24593015 gndo:personalName "Berossos";
+  gndo:nameAddition "aus Babylon" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosos, Priester des Marduk";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593016 .
+
+_:node1ivs02adlx24593016 gndo:personalName "Berosos";
+  gndo:nameAddition "Priester des Marduk" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berose, de Babylone";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593017 .
+
+_:node1ivs02adlx24593017 gndo:personalName "Berose";
+  gndo:nameAddition "de Babylone" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosos, von Babylon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593018 .
+
+_:node1ivs02adlx24593018 gndo:personalName "Berosos";
+  gndo:nameAddition "von Babylon" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berossus, Astrologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593019 .
+
+_:node1ivs02adlx24593019 gndo:personalName "Berossus";
+  gndo:nameAddition "Astrologus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Beroso, di Babilonia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593020 .
+
+_:node1ivs02adlx24593020 gndo:personalName "Beroso";
+  gndo:nameAddition "di Babilonia" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Beroso, Sacerdote di Bel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593021 .
+
+_:node1ivs02adlx24593021 gndo:personalName "Beroso";
+  gndo:nameAddition "Sacerdote di Bel" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosso, di Babilonia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593022 .
+
+_:node1ivs02adlx24593022 gndo:personalName "Berosso";
+  gndo:nameAddition "di Babilonia" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosso, Sacerdote di Bel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593023 .
+
+_:node1ivs02adlx24593023 gndo:personalName "Berosso";
+  gndo:nameAddition "Sacerdote di Bel" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Pseudo-Berossus, Cous";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593024 .
+
+_:node1ivs02adlx24593024 gndo:personalName "Pseudo-Berossus";
+  gndo:nameAddition "Cous" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Chaldaicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593025 .
+
+_:node1ivs02adlx24593025 gndo:personalName "Berosus";
+  gndo:nameAddition "Chaldaicus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berossos, Belpriester";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593026 .
+
+_:node1ivs02adlx24593026 gndo:personalName "Berossos";
+  gndo:nameAddition "Belpriester" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Bēl-rē'ussu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593027 .
+
+_:node1ivs02adlx24593027 gndo:personalName "Bēl-rē'ussu" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Babylonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593028 .
+
+_:node1ivs02adlx24593028 gndo:personalName "Berosus";
+  gndo:nameAddition "Babylonicus" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Bēl-rēússu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593029 .
+
+_:node1ivs02adlx24593029 gndo:personalName "Bēl-rēússu" .
+
+<https://d-nb.info/gnd/118656619> gndo:variantNameForThePerson "Berosus, Babylonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593030 .
+
+_:node1ivs02adlx24593030 gndo:personalName "Berosus";
+  gndo:nameAddition "Babylonius" .
+
+<https://d-nb.info/gnd/118656619> gndo:preferredNameForThePerson "Berossos, von Babylon";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593031 .
+
+_:node1ivs02adlx24593031 gndo:personalName "Berossos";
+  gndo:nameAddition "von Babylon" .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607638>;
+  gndo:hasRelation _:node1ivs02adlx24593032 .
+
+_:node1ivs02adlx24593032 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607638>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118645552>;
+  gndo:hasRelation _:node1ivs02adlx24593033 .
+
+_:node1ivs02adlx24593033 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118645552>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118503855>;
+  gndo:hasRelation _:node1ivs02adlx24593034 .
+
+_:node1ivs02adlx24593034 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118503855>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:hasRelation _:node1ivs02adlx24593035 .
+
+_:node1ivs02adlx24593035 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24593036 .
+
+_:node1ivs02adlx24593036 gndo:forename "Marcus Porcius";
+  gndo:surname "Cato" .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:hasRelation _:node1ivs02adlx24593037 .
+
+_:node1ivs02adlx24593037 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivs02adlx24593038 .
+
+_:node1ivs02adlx24593038 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118640003>;
+  gndo:hasRelation _:node1ivs02adlx24593039 .
+
+_:node1ivs02adlx24593039 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118640003>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118780018>;
+  gndo:hasRelation _:node1ivs02adlx24593040 .
+
+_:node1ivs02adlx24593040 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118780018>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118641778>;
+  gndo:hasRelation _:node1ivs02adlx24593041 .
+
+_:node1ivs02adlx24593041 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118641778>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:hasRelation _:node1ivs02adlx24593042 .
+
+_:node1ivs02adlx24593042 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24593043 .
+
+_:node1ivs02adlx24593043 gndo:personalName "Rufinus";
+  gndo:nameAddition "aus Aquileia" .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119269554>;
+  gndo:hasRelation _:node1ivs02adlx24593044 .
+
+_:node1ivs02adlx24593044 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119269554>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102398771>;
+  gndo:hasRelation _:node1ivs02adlx24593045 .
+
+_:node1ivs02adlx24593045 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102398771>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119770733>;
+  gndo:hasRelation _:node1ivs02adlx24593046 .
+
+_:node1ivs02adlx24593046 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119770733>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119062380>;
+  gndo:hasRelation _:node1ivs02adlx24593047 .
+
+_:node1ivs02adlx24593047 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119062380>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:hasRelation _:node1ivs02adlx24593048 .
+
+_:node1ivs02adlx24593048 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24593049 .
+
+_:node1ivs02adlx24593049 gndo:personalName "Philo";
+  gndo:nameAddition "aus Alexandria" .
+
+<https://d-nb.info/gnd/118656619> gndo:hasRelation _:node1ivs02adlx24593050 .
+
+_:node1ivs02adlx24593050 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118656619> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24593051 .
+
+_:node1ivs02adlx24593051 gndo:forename "Publius Cornelius";
+  gndo:surname "Tacitus" .
+
+<https://d-nb.info/gnd/118656619> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IQ>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/peo>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Berosus <Chaldaeus>: Chaldaeorum historiae quae supersunt", "Nanni, Giovanni: Berosi Sacerdotis chaldaici antiquitatum libri quinque",
+    "Nanni, Giovanni: Berosus Babilonicus de his quae praecesserunt inundationem terrarum",
+    "Nanni, Giovanni: Berosi sacerd. Chald. Antiquitatum libri V", "Nanni, Giovanni: Berosi Sac. Chald. antiquitatum Italiae ac totius orbis libri V",
+    "Nanni, Giovanni: I cinque libri de la antichità de Beroso", "Berosus <Chaldaeus>: Antiquitatum libri quinque",
+    "Aratus: Phaenomena.  1536.  (VD16 S 8303)", "Bēl-rē'ussu: Babylōniaka.  1511.  (VD16 B 1649)",
+    "Josephus, Flavius: Babylōniaka.  1534.  (VD16 J 959)", "Bēl-rēússu: Itinerarium.  1511.  (VD16 ZV 22607)";
+  wdrs:describedby <https://d-nb.info/gnd/118656619/about> .
+
+<https://d-nb.info/gnd/118656619/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118656619> gndo:biographicalOrHistoricalInformation "FGrH 680; teilw. Fälschungen unter seinem Namen durch Giovanni Nanni; Babylon. Priester u. Geschichtsschreiber"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593052 .
+
+_:node1ivs02adlx24593052 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4047233-4> .
+
+<https://d-nb.info/gnd/118656619> gndo:dateOfBirthAndDeath "[v345-v270]" .
+

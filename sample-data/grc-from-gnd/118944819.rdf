@@ -1,0 +1,270 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118944819> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118944819/about> .
+
+<https://d-nb.info/gnd/118944819/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-11T20:21:07.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118944819> gndo:gndIdentifier "118944819";
+  foaf:page <https://de.wikipedia.org/wiki/Maximos_von_Tyros>;
+  owl:sameAs <https://dbpedia.org/resource/Maximus_of_Tyre>, <http://viaf.org/viaf/100903442>,
+    <https://isni.org/isni/0000000110794711>, <http://www.wikidata.org/entity/Q456649>,
+    <http://id.loc.gov/rwo/agents/n85143899>;
+  gndo:oldAuthorityNumber "(DE-588)1089723016";
+  owl:sameAs <https://d-nb.info/gnd/1089723016>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089723016";
+  gndo:oldAuthorityNumber "(DE-588)1089999208";
+  owl:sameAs <https://d-nb.info/gnd/1089999208>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089999208";
+  gndo:oldAuthorityNumber "(DE-588a)118944819", "(DE-588c)4246369-5";
+  gndo:variantNameForThePerson "Maximos, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594143 .
+
+_:node1ivs02adlx24594143 gndo:personalName "Maximos";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, Platoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594144 .
+
+_:node1ivs02adlx24594144 gndo:personalName "Maximus";
+  gndo:nameAddition "Platoniker" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594145 .
+
+_:node1ivs02adlx24594145 gndo:personalName "Maximus";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Massimo, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594146 .
+
+_:node1ivs02adlx24594146 gndo:personalName "Massimo";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Massimo, Filosofo Platonico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594147 .
+
+_:node1ivs02adlx24594147 gndo:personalName "Massimo";
+  gndo:nameAddition "Filosofo Platonico" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, de Tyro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594148 .
+
+_:node1ivs02adlx24594148 gndo:personalName "Maximus";
+  gndo:nameAddition "de Tyro" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Máximo, de Tiro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594149 .
+
+_:node1ivs02adlx24594149 gndo:personalName "Máximo";
+  gndo:nameAddition "de Tiro" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, Tyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594150 .
+
+_:node1ivs02adlx24594150 gndo:personalName "Maximus";
+  gndo:nameAddition "Tyricus" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximos, Tyrios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594151 .
+
+_:node1ivs02adlx24594151 gndo:personalName "Maximos";
+  gndo:nameAddition "Tyrios" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus von Tyros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594152 .
+
+_:node1ivs02adlx24594152 gndo:personalName "Maximus von Tyros" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Tyrius, Maximus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594153 .
+
+_:node1ivs02adlx24594153 gndo:forename "Maximus";
+  gndo:surname "Tyrius" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximos, von Tyros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594154 .
+
+_:node1ivs02adlx24594154 gndo:personalName "Maximos";
+  gndo:nameAddition "von Tyros" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594155 .
+
+_:node1ivs02adlx24594155 gndo:personalName "Maximus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, von Tyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594156 .
+
+_:node1ivs02adlx24594156 gndo:personalName "Maximus";
+  gndo:nameAddition "von Tyrus" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, von Tyros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594157 .
+
+_:node1ivs02adlx24594157 gndo:personalName "Maximus";
+  gndo:nameAddition "von Tyros" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, of Tyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594158 .
+
+_:node1ivs02adlx24594158 gndo:personalName "Maximus";
+  gndo:nameAddition "of Tyrus" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus, Sophistes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594159 .
+
+_:node1ivs02adlx24594159 gndo:personalName "Maximus";
+  gndo:nameAddition "Sophistes" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maxime, de Tyr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594160 .
+
+_:node1ivs02adlx24594160 gndo:personalName "Maxime";
+  gndo:nameAddition "de Tyr" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Massimo, di Tiro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594161 .
+
+_:node1ivs02adlx24594161 gndo:personalName "Massimo";
+  gndo:nameAddition "di Tiro" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus of Tyre";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594162 .
+
+_:node1ivs02adlx24594162 gndo:personalName "Maximus of Tyre" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594163 .
+
+_:node1ivs02adlx24594163 gndo:personalName "Maximus" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Massimo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594164 .
+
+_:node1ivs02adlx24594164 gndo:personalName "Massimo" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maxime";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594165 .
+
+_:node1ivs02adlx24594165 gndo:personalName "Maxime" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maxomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594166 .
+
+_:node1ivs02adlx24594166 gndo:personalName "Maxomos" .
+
+<https://d-nb.info/gnd/118944819> gndo:variantNameForThePerson "Maximos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594167 .
+
+_:node1ivs02adlx24594167 gndo:personalName "Maximos" .
+
+<https://d-nb.info/gnd/118944819> gndo:preferredNameForThePerson "Maximus, Tyrius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594168 .
+
+_:node1ivs02adlx24594168 gndo:personalName "Maximus";
+  gndo:nameAddition "Tyrius" .
+
+<https://d-nb.info/gnd/118944819> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:hasRelation _:node1ivs02adlx24594169 .
+
+_:node1ivs02adlx24594169 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118944819> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362710>;
+  gndo:hasRelation _:node1ivs02adlx24594170 .
+
+_:node1ivs02adlx24594170 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362710>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118944819> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118955179>;
+  gndo:hasRelation _:node1ivs02adlx24594171 .
+
+_:node1ivs02adlx24594171 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118955179>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118944819> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119782774>;
+  gndo:hasRelation _:node1ivs02adlx24594172 .
+
+_:node1ivs02adlx24594172 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119782774>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118944819> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118960563>;
+  gndo:hasRelation _:node1ivs02adlx24594173 .
+
+_:node1ivs02adlx24594173 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118960563>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118944819> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Maximus <de Tyro>: Logoi", "Maximus <de Tyro>: Dissertationes XVI graece",
+    "Maximus <de Tyro>: Dissertationes philosophicae", "Maximus <de Tyro>: Logoi", "Maximus <de Tyro>: Discours philosophique",
+    "Maximus <de Tyro>: Dissertations", "Maximus <de Tyro>: Philosophische Reden", "Maximus <de Tyro>: Sermones XLI",
+    "Maximus <de Tyro>: Dissertationes", "Maximus <Tyrius>: Tu Maximu Tyriu Logoi.", "Maximus <von Tyros>: MAXIMI TYRII COMMENTATIO. Quemadmodum discernendus sit adulator ab amico. Interprete ...  1590.  (VD16 M 1680)",
+    "Maximus <von Tyros>: ·MAXIMI TYRII PHILOSOPHI PLATONICI SERMONES E GRAECA IN LATINAM LINGVAM VERSI COSMO ...  1519.  (VD16 M 1681)";
+  wdrs:describedby <https://d-nb.info/gnd/118944819/about> .
+
+<https://d-nb.info/gnd/118944819/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-605>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-605> .
+
+<https://d-nb.info/gnd/118944819> gndo:biographicalOrHistoricalInformation "Griech. Populärphilosoph und Redner, Adressat einer Epistula des Athanasius Alexandrinus"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594174 .
+
+_:node1ivs02adlx24594174 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4172703-4> .
+
+<https://d-nb.info/gnd/118944819> gndo:dateOfBirth "0125"^^xsd:gYear;
+  gndo:dateOfDeath "0185"^^xsd:gYear .
+

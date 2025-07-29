@@ -1,0 +1,356 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118594044> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118594044/about> .
+
+<https://d-nb.info/gnd/118594044/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:51:58.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118594044> gndo:gndIdentifier "118594044";
+  owl:sameAs <https://dbpedia.org/resource/Philostratus>, <http://viaf.org/viaf/63984585>,
+    <http://www.wikidata.org/entity/Q2274948>;
+  gndo:oldAuthorityNumber "(DE-588)1089974353";
+  owl:sameAs <https://d-nb.info/gnd/1089974353>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089974353";
+  gndo:oldAuthorityNumber "(DE-588)1089790171";
+  owl:sameAs <https://d-nb.info/gnd/1089790171>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089790171";
+  gndo:oldAuthorityNumber "(DE-588)174391412";
+  owl:sameAs <https://d-nb.info/gnd/174391412>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174391412";
+  gndo:oldAuthorityNumber "(DE-588a)174391412", "(DE-588a)118594044", "(DE-588a)119787415",
+    "(DE-588a)128263210", "(DE-588a)127904328", "(DE-588c)4045810-6";
+  gndo:variantNameForThePerson "Philostratus II.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399545 .
+
+_:node1ivpishs6x25399545 gndo:personalName "Philostratus";
+  gndo:counting "II." .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, Sohn des Philostratus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399546 .
+
+_:node1ivpishs6x25399546 gndo:personalName "Philostratus";
+  gndo:nameAddition "Sohn des Philostratus" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, Lemnius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399547 .
+
+_:node1ivpishs6x25399547 gndo:forename "Lemnius";
+  gndo:surname "Philostratus" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, der Ältere";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399548 .
+
+_:node1ivpishs6x25399548 gndo:personalName "Philostratus";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Flavius Philostratus, der Ältere";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399549 .
+
+_:node1ivpishs6x25399549 gndo:personalName "Flavius Philostratus";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Filostrato, di Lemno";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399550 .
+
+_:node1ivpishs6x25399550 gndo:personalName "Filostrato";
+  gndo:nameAddition "di Lemno" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Filostrato, Flavio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399551 .
+
+_:node1ivpishs6x25399551 gndo:forename "Flavio";
+  gndo:surname "Filostrato" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostrat, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399552 .
+
+_:node1ivpishs6x25399552 gndo:forename "Flavius";
+  gndo:surname "Philostrat" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399553 .
+
+_:node1ivpishs6x25399553 gndo:personalName "Philostratus";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, Lemnius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399554 .
+
+_:node1ivpishs6x25399554 gndo:personalName "Philostratus";
+  gndo:nameAddition "Lemnius" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, von Lemnos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399555 .
+
+_:node1ivpishs6x25399555 gndo:personalName "Philostratus";
+  gndo:nameAddition "von Lemnos" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Filostrato, di Lemnio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399556 .
+
+_:node1ivpishs6x25399556 gndo:personalName "Filostrato";
+  gndo:nameAddition "di Lemnio" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, Maior";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399557 .
+
+_:node1ivpishs6x25399557 gndo:personalName "Philostratus";
+  gndo:nameAddition "Maior" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Filostrato, Maggiore";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399558 .
+
+_:node1ivpishs6x25399558 gndo:personalName "Filostrato";
+  gndo:nameAddition "Maggiore" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Filostrato, Sofista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399559 .
+
+_:node1ivpishs6x25399559 gndo:personalName "Filostrato";
+  gndo:nameAddition "Sofista" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostrate, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399560 .
+
+_:node1ivpishs6x25399560 gndo:personalName "Philostrate";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostrate, l'Athénien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399561 .
+
+_:node1ivpishs6x25399561 gndo:personalName "Philostrate";
+  gndo:nameAddition "l'Athénien" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostrate";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399562 .
+
+_:node1ivpishs6x25399562 gndo:personalName "Philostrate" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostrate, l'Ancien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399563 .
+
+_:node1ivpishs6x25399563 gndo:personalName "Philostrate";
+  gndo:nameAddition "l'Ancien" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostrate, Polygraphe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399564 .
+
+_:node1ivpishs6x25399564 gndo:personalName "Philostrate";
+  gndo:nameAddition "Polygraphe" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostrate, Lemnien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399565 .
+
+_:node1ivpishs6x25399565 gndo:personalName "Philostrate";
+  gndo:nameAddition "Lemnien" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, II.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399566 .
+
+_:node1ivpishs6x25399566 gndo:personalName "Philostratus";
+  gndo:nameAddition "II." .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Filostrato";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399567 .
+
+_:node1ivpishs6x25399567 gndo:personalName "Filostrato" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus, Polygraphus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399568 .
+
+_:node1ivpishs6x25399568 gndo:personalName "Philostratus";
+  gndo:nameAddition "Polygraphus" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Filóstrato, el Viejo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399569 .
+
+_:node1ivpishs6x25399569 gndo:personalName "Filóstrato";
+  gndo:nameAddition "el Viejo" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Filóstrato";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399570 .
+
+_:node1ivpishs6x25399570 gndo:personalName "Filóstrato" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratos, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399571 .
+
+_:node1ivpishs6x25399571 gndo:forename "Flavius";
+  gndo:surname "Philostratos" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Flavius, Philostratus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399572 .
+
+_:node1ivpishs6x25399572 gndo:personalName "Flavius";
+  gndo:nameAddition "Philostratus" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399573 .
+
+_:node1ivpishs6x25399573 gndo:personalName "Philostratos" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostratus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399574 .
+
+_:node1ivpishs6x25399574 gndo:personalName "Philostratus" .
+
+<https://d-nb.info/gnd/118594044> gndo:variantNameForThePerson "Philostatus, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399575 .
+
+_:node1ivpishs6x25399575 gndo:forename "Flavius";
+  gndo:surname "Philostatus" .
+
+<https://d-nb.info/gnd/118594044> gndo:preferredNameForThePerson "Philostratus, Flavius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25399576 .
+
+_:node1ivpishs6x25399576 gndo:forename "Flavius";
+  gndo:surname "Philostratus" .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118930095>;
+  gndo:hasRelation _:node1ivpishs6x25399577 .
+
+_:node1ivpishs6x25399577 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118930095>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100967590>;
+  gndo:hasRelation _:node1ivpishs6x25399578 .
+
+_:node1ivpishs6x25399578 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100967590>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:hasRelation _:node1ivpishs6x25399579 .
+
+_:node1ivpishs6x25399579 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25399580 .
+
+_:node1ivpishs6x25399580 gndo:forename "Nikolaus";
+  gndo:surname "Gerbelius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118868365>;
+  gndo:hasRelation _:node1ivpishs6x25399581 .
+
+_:node1ivpishs6x25399581 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118868365>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855333X>;
+  gndo:hasRelation _:node1ivpishs6x25399582 .
+
+_:node1ivpishs6x25399582 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855333X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855140X>;
+  gndo:hasRelation _:node1ivpishs6x25399583 .
+
+_:node1ivpishs6x25399583 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855140X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118756826>;
+  gndo:hasRelation _:node1ivpishs6x25399584 .
+
+_:node1ivpishs6x25399584 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118756826>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119847922>;
+  gndo:hasRelation _:node1ivpishs6x25399585 .
+
+_:node1ivpishs6x25399585 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119847922>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119601850>;
+  gndo:hasRelation _:node1ivpishs6x25399586 .
+
+_:node1ivpishs6x25399586 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119601850>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119600404>;
+  gndo:hasRelation _:node1ivpishs6x25399587 .
+
+_:node1ivpishs6x25399587 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119600404>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:familialRelationship <https://d-nb.info/gnd/119422719>;
+  gndo:hasRelation _:node1ivpishs6x25399588 .
+
+_:node1ivpishs6x25399588 gndo:familialRelationship <https://d-nb.info/gnd/119422719>;
+  gndo:functionOrRoleAsLiteral "Schwiegersohn";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118594044> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Epistolae quaedam", "Heroica", "Opera", "De vita Apollonii Tyanei libri VIII",
+    "Vie d'Apollonius de Tyan", "La vita di Apollinis T...", "Della vita di Apollonio T.",
+    "De vita Apollonii Tyanei scriptor luculentus. - [ca. 1504]", "De vita Apollonii Tyani",
+    "De vita Apollonii Tyani", "Aesopus: Aesopi vita. 1518. (VD16 A 415)", "Aesopus: Ekthesis parainetikē pros Ioustinianon ton kaisara. 1538. (VD16 ZV 136)",
+    "Aesopus: Ekthesis parainetikē pros Ioustinianon ton kaisara. 1544/(1545). (VD16 ZV 140)",
+    "Aesopus: Ekthesis parainetikē pros Ioustinianon ton kaisara. 1547. (VD16 ZV 141)",
+    "Aesopus: Ekthesis parainetikē pros Ioustinianon ton kaisara. 1550. (VD16 ZV 143)",
+    "Aesopus: Ekthesis parainetikē pros Ioustinianon ton kaisara. 1550. (VD16 ZV 24329)",
+    "Aesopus: Fabulae. 1530. (VD16 A 417)", "Aesopus: Fabulae. 1534. (VD16 ZV 132)", "Philostratus, Flavius: FLAVII PHILOstrati de Vitis Sophistarum Libri duo, Antonio Bomfino interprete. ... 1516. (VD16 P 2502)",
+    "Philostratus, Flavius: PHILOSTRATI LEMNII SEnioris Historiae de uita Apollonij libri VIII. Alemano Rhinuccino ... 1532. (VD16 P 2501)";
+  wdrs:describedby <https://d-nb.info/gnd/118594044/about> .
+
+<https://d-nb.info/gnd/118594044/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118594044> gndo:usingInstructions "Alle Werke des Corpus Philostraeum, die sich den anderen Philostrati nicht mit großer Wahrscheinlichkeit zuordnen lassen und auch von Flavius Philostratus sein können, ordnet TITAN unter diesem"@de;
+  gndo:biographicalOrHistoricalInformation "Vita Sophistarum; Vita Apollonii; Heroicus; Nero; De gymnastica; vermutlich auch Imagines; im Zweifelsfall sind die Werke ihm zuzuordnen; Griech. Schriftsteller u. Sophist aus Lemnos, der in Athen u. Rom wirkte . Er ist der bekannteste der wohl 4 Philostrati aus Lemnos"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:dateOfBirth "0160"^^xsd:gYear;
+  gndo:dateOfDeath "0245"^^xsd:gYear .
+

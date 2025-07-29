@@ -1,0 +1,370 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118677713> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118677713/about> .
+
+<https://d-nb.info/gnd/118677713/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:50:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118677713> gndo:gndIdentifier "118677713";
+  owl:sameAs <https://dbpedia.org/resource/Demetrius_of_Phalerum>, <http://viaf.org/viaf/22955539>,
+    <https://isni.org/isni/0000000013558362>, <http://www.wikidata.org/entity/Q313286>,
+    <http://id.loc.gov/rwo/agents/n2003031235>;
+  gndo:oldAuthorityNumber "(DE-588)1089998902";
+  owl:sameAs <https://d-nb.info/gnd/1089998902>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089998902";
+  gndo:oldAuthorityNumber "(DE-588)1089773617";
+  owl:sameAs <https://d-nb.info/gnd/1089773617>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089773617";
+  gndo:oldAuthorityNumber "(DE-588)172040280";
+  owl:sameAs <https://d-nb.info/gnd/172040280>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172040280";
+  gndo:oldAuthorityNumber "(DE-588a)172040280", "(DE-588)119652994";
+  owl:sameAs <https://d-nb.info/gnd/119652994>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119652994";
+  gndo:oldAuthorityNumber "(DE-588a)119652994", "(DE-588a)118677713", "(DE-588c)4090669-3";
+  gndo:variantNameForThePerson "Demetrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587463 .
+
+_:node1ivs02adlx24587463 gndo:personalName "Demetrius" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios, Athenischer Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587464 .
+
+_:node1ivs02adlx24587464 gndo:personalName "Demetrios";
+  gndo:nameAddition "Athenischer Politiker" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios von Phaleron";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587465 .
+
+_:node1ivs02adlx24587465 gndo:personalName "Demetrios von Phaleron" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Falereus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587466 .
+
+_:node1ivs02adlx24587466 gndo:personalName "Demetrius";
+  gndo:nameAddition "Falereus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587467 .
+
+_:node1ivs02adlx24587467 gndo:personalName "Demetrius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587468 .
+
+_:node1ivs02adlx24587468 gndo:personalName "Demetrius";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Pseudo-Demetrius, Phalereus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587469 .
+
+_:node1ivs02adlx24587469 gndo:personalName "Pseudo-Demetrius";
+  gndo:nameAddition "Phalereus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, von Phaleron";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587470 .
+
+_:node1ivs02adlx24587470 gndo:personalName "Demetrius";
+  gndo:nameAddition "von Phaleron" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios, von Phaleron";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587471 .
+
+_:node1ivs02adlx24587471 gndo:personalName "Demetrios";
+  gndo:nameAddition "von Phaleron" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios, von Phaleros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587472 .
+
+_:node1ivs02adlx24587472 gndo:personalName "Demetrios";
+  gndo:nameAddition "von Phaleros" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios, Freund Theophrasts";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587473 .
+
+_:node1ivs02adlx24587473 gndo:personalName "Demetrios";
+  gndo:nameAddition "Freund Theophrasts" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, of Phaleron";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587474 .
+
+_:node1ivs02adlx24587474 gndo:personalName "Demetrius";
+  gndo:nameAddition "of Phaleron" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrio, Filosofo Peripatetico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587475 .
+
+_:node1ivs02adlx24587475 gndo:personalName "Demetrio";
+  gndo:nameAddition "Filosofo Peripatetico" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrio, Bibliotecario";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587476 .
+
+_:node1ivs02adlx24587476 gndo:personalName "Demetrio";
+  gndo:nameAddition "Bibliotecario" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Démétrios, de Phalère";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587477 .
+
+_:node1ivs02adlx24587477 gndo:personalName "Démétrios";
+  gndo:nameAddition "de Phalère" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587478 .
+
+_:node1ivs02adlx24587478 gndo:personalName "Demetrios";
+  gndo:nameAddition "Politiker" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Formarum Epistolicarum Auctor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587479 .
+
+_:node1ivs02adlx24587479 gndo:personalName "Demetrius";
+  gndo:nameAddition "Formarum Epistolicarum Auctor" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Démétrius, de Phalère";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587480 .
+
+_:node1ivs02adlx24587480 gndo:personalName "Démétrius";
+  gndo:nameAddition "de Phalère" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587481 .
+
+_:node1ivs02adlx24587481 gndo:personalName "Demetrios" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Phalereus Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587482 .
+
+_:node1ivs02adlx24587482 gndo:personalName "Demetrius";
+  gndo:nameAddition "Phalereus Historicus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, of Phalerum";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587483 .
+
+_:node1ivs02adlx24587483 gndo:personalName "Demetrius";
+  gndo:nameAddition "of Phalerum" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius Phalereus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587484 .
+
+_:node1ivs02adlx24587484 gndo:personalName "Demetrius Phalereus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Phaleraeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587485 .
+
+_:node1ivs02adlx24587485 gndo:personalName "Demetrius";
+  gndo:nameAddition "Phaleraeus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Phalerius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587486 .
+
+_:node1ivs02adlx24587486 gndo:personalName "Demetrius";
+  gndo:nameAddition "Phalerius" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Valerius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587487 .
+
+_:node1ivs02adlx24587487 gndo:personalName "Demetrius";
+  gndo:nameAddition "Valerius" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Dēmētrios, Phalēreus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587488 .
+
+_:node1ivs02adlx24587488 gndo:personalName "Dēmētrios";
+  gndo:nameAddition "Phalēreus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Dēmētrios, Phalēreōs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587489 .
+
+_:node1ivs02adlx24587489 gndo:personalName "Dēmētrios";
+  gndo:nameAddition "Phalēreōs" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios, Phalereus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587490 .
+
+_:node1ivs02adlx24587490 gndo:personalName "Demetrios";
+  gndo:nameAddition "Phalereus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587491 .
+
+_:node1ivs02adlx24587491 gndo:personalName "Demetrius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Pseudo-Demetrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587492 .
+
+_:node1ivs02adlx24587492 gndo:personalName "Pseudo-Demetrius" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrios, Peripatetiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587493 .
+
+_:node1ivs02adlx24587493 gndo:personalName "Demetrios";
+  gndo:nameAddition "Peripatetiker" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Demetrio, Falereo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587494 .
+
+_:node1ivs02adlx24587494 gndo:personalName "Demetrio";
+  gndo:nameAddition "Falereo" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Phalereius, Demetrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587495 .
+
+_:node1ivs02adlx24587495 gndo:forename "Demetrius";
+  gndo:surname "Phalereius" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Phalereus, Demetrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587496 .
+
+_:node1ivs02adlx24587496 gndo:forename "Demetrius";
+  gndo:surname "Phalereus" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Phaleron, Demetrios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587497 .
+
+_:node1ivs02adlx24587497 gndo:forename "Demetrios";
+  gndo:surname "Phaleron" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Falereo, Demetrio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587498 .
+
+_:node1ivs02adlx24587498 gndo:forename "Demetrio";
+  gndo:surname "Falereo" .
+
+<https://d-nb.info/gnd/118677713> gndo:variantNameForThePerson "Falereus, Demetrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587499 .
+
+_:node1ivs02adlx24587499 gndo:forename "Demetrius";
+  gndo:surname "Falereus" .
+
+<https://d-nb.info/gnd/118677713> gndo:preferredNameForThePerson "Demetrius, Phalereus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587500 .
+
+_:node1ivs02adlx24587500 gndo:personalName "Demetrius";
+  gndo:nameAddition "Phalereus" .
+
+<https://d-nb.info/gnd/118677713> gndo:hasRelation _:node1ivs02adlx24587501 .
+
+_:node1ivs02adlx24587501 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118677713> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587502 .
+
+_:node1ivs02adlx24587502 gndo:forename "Kaspar";
+  gndo:surname "Stiblin" .
+
+<https://d-nb.info/gnd/118677713> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118751069>;
+  gndo:hasRelation _:node1ivs02adlx24587503 .
+
+_:node1ivs02adlx24587503 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118751069>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118677713> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118627295>;
+  gndo:hasRelation _:node1ivs02adlx24587504 .
+
+_:node1ivs02adlx24587504 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118627295>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118677713> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:hasRelation _:node1ivs02adlx24587505 .
+
+_:node1ivs02adlx24587505 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118677713> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719134>;
+  gndo:hasRelation _:node1ivs02adlx24587506 .
+
+_:node1ivs02adlx24587506 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719134>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118677713> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:hasRelation _:node1ivs02adlx24587507 .
+
+_:node1ivs02adlx24587507 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118677713> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119638061>;
+  gndo:hasRelation _:node1ivs02adlx24587508 .
+
+_:node1ivs02adlx24587508 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119638061>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118677713> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De elocutione liber", "De elocutione liber", "De elocutione liber",
+    "De elocutione liber", "De elocutione liber", "De elocutione liber", "De interpretatione",
+    "Comparatio Herodoti cum Thucydide et Xenophontis, Philisti, Theopompi inter se.  1557.  (VD16 D 472)",
+    "Peri hermēneias.  1583.  (VD16 D 470)", "Peri hermēneias.  1584.  (VD16 D 471)",
+    "Peri hermēneias, Ausz.  1569.  (VD16 ZV 16392)", "Gemistus Pletho, Georgius: Peri hermēneias, Ausz.  1540.  (VD16 G 1081)",
+    "Libanius: Scribendarum epistolarum compendium.  1552.  (VD16 L 1477)", "Libanius: Scribendarum epistolarum compendium.  1558.  (VD16 L 1478)",
+    "Lipsius, Justus: Peri hermēneias, Ausz.  1591.  (VD16 L 1995)", "Lipsius, Justus: Peri hermēneias, Ausz.  1594.  (VD16 L 1996)",
+    "Phalaris: Peri hermēneias, Ausz.  1597.  (VD16 ZV 12438)";
+  wdrs:describedby <https://d-nb.info/gnd/118677713/about> .
+
+<https://d-nb.info/gnd/118677713/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118677713> gndo:biographicalOrHistoricalInformation "angebl. Verf. von \"De elocutione\"  und \"Formae epistolicae\"; Athen. Politiker, Historiker, Peripatetiker, Schüler des Aristoteles"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24587509 .
+
+_:node1ivs02adlx24587509 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/118677713> gndo:dateOfBirth "-0350"^^xsd:gYear;
+  gndo:dateOfDeath "-0283"^^xsd:gYear .
+

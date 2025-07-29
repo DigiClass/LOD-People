@@ -1,0 +1,135 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118593757> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118593757/about> .
+
+<https://d-nb.info/gnd/118593757/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-08-15T05:51:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118593757> gndo:gndIdentifier "118593757";
+  foaf:page <https://de.wikipedia.org/wiki/Pherekydes_von_Syros>;
+  owl:sameAs <https://dbpedia.org/resource/Pherecydes_of_Syros>, <http://viaf.org/viaf/476149294087380520553>,
+    <https://isni.org/isni/0000000394573696>, <http://www.wikidata.org/entity/Q311485>,
+    <http://id.loc.gov/rwo/agents/n88152183>;
+  gndo:oldAuthorityNumber "(DE-588a)118593757", "(DE-588c)4045734-5";
+  gndo:variantNameForThePerson "Pherekydes, von Syros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403045 .
+
+_:node1ivpishs6x25403045 gndo:personalName "Pherekydes";
+  gndo:nameAddition "von Syros" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Pherekydes, Mythograph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403046 .
+
+_:node1ivpishs6x25403046 gndo:personalName "Pherekydes";
+  gndo:nameAddition "Mythograph" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Pherekydes, Kosmologe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403047 .
+
+_:node1ivpishs6x25403047 gndo:personalName "Pherekydes";
+  gndo:nameAddition "Kosmologe" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Pherekydes, der Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403048 .
+
+_:node1ivpishs6x25403048 gndo:personalName "Pherekydes";
+  gndo:nameAddition "der Theologe" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Pherecydes, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403049 .
+
+_:node1ivpishs6x25403049 gndo:personalName "Pherecydes";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Pherecydes, of Syros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403050 .
+
+_:node1ivpishs6x25403050 gndo:personalName "Pherecydes";
+  gndo:nameAddition "of Syros" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Pherecydes, Mythographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403051 .
+
+_:node1ivpishs6x25403051 gndo:personalName "Pherecydes";
+  gndo:nameAddition "Mythographus" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Ferecide, di Siro";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403052 .
+
+_:node1ivpishs6x25403052 gndo:personalName "Ferecide";
+  gndo:nameAddition "di Siro" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Pherecydes, Epistolographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403053 .
+
+_:node1ivpishs6x25403053 gndo:personalName "Pherecydes";
+  gndo:nameAddition "Epistolographus" .
+
+<https://d-nb.info/gnd/118593757> gndo:variantNameForThePerson "Pherecydes, Syrus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403054 .
+
+_:node1ivpishs6x25403054 gndo:personalName "Pherecydes";
+  gndo:nameAddition "Syrus" .
+
+<https://d-nb.info/gnd/118593757> gndo:preferredNameForThePerson "Pherecydes, Syrius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403055 .
+
+_:node1ivpishs6x25403055 gndo:personalName "Pherecydes";
+  gndo:nameAddition "Syrius" .
+
+<https://d-nb.info/gnd/118593757> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118593757/about> .
+
+<https://d-nb.info/gnd/118593757/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118593757> gndo:biographicalOrHistoricalInformation "Pherecydis epistula; Theogonia; Griech. Schriftsteller, Verfasser eines theologisch-kosmogonischen Werkes"@de;
+  gndo:udkCode "600 - 501 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v6. Jh.]" .
+

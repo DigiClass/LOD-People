@@ -1,0 +1,492 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118641786> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118641786/about> .
+
+<https://d-nb.info/gnd/118641786/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:28:34.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118641786> gndo:gndIdentifier "118641786";
+  owl:sameAs <https://dbpedia.org/resource/Ptolemy>, <http://viaf.org/viaf/316036273>,
+    <https://isni.org/isni/0000000122800429>, <http://www.wikidata.org/entity/Q34943>;
+  gndo:oldAuthorityNumber "(DE-588)1089918100";
+  owl:sameAs <https://d-nb.info/gnd/1089918100>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089918100";
+  gndo:oldAuthorityNumber "(DE-588)1089929129";
+  owl:sameAs <https://d-nb.info/gnd/1089929129>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089929129";
+  gndo:oldAuthorityNumber "(DE-588a)118641786", "(DE-588a)159588510", "(DE-588c)4076422-9";
+  gndo:variantNameForThePerson "Ptolomeo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397116 .
+
+_:node1ivpishs6x25397116 gndo:personalName "Ptolomeo" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemäus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397117 .
+
+_:node1ivpishs6x25397117 gndo:forename "Claudius";
+  gndo:surname "Ptolemäus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Pseudo-Ptolemaeus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397118 .
+
+_:node1ivpishs6x25397118 gndo:forename "Claudius";
+  gndo:surname "Pseudo-Ptolemaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaios, Klaudios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397119 .
+
+_:node1ivpishs6x25397119 gndo:forename "Klaudios";
+  gndo:surname "Ptolemaios" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaeus, Cl.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397120 .
+
+_:node1ivpishs6x25397120 gndo:forename "Cl.";
+  gndo:surname "Ptolemaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptholemeus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397121 .
+
+_:node1ivpishs6x25397121 gndo:forename "Claudius";
+  gndo:surname "Ptholemeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptholomeus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397122 .
+
+_:node1ivpishs6x25397122 gndo:forename "Claudius";
+  gndo:surname "Ptholomeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolémée, de Ptolémaïs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397123 .
+
+_:node1ivpishs6x25397123 gndo:personalName "Ptolémée";
+  gndo:nameAddition "de Ptolémaïs" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Tolomeo, Cl.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397124 .
+
+_:node1ivpishs6x25397124 gndo:forename "Cl.";
+  gndo:surname "Tolomeo" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Tolomei, Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397125 .
+
+_:node1ivpishs6x25397125 gndo:forename "Claudio";
+  gndo:surname "Tolomei" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Baṭalmayūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397126 .
+
+_:node1ivpishs6x25397126 gndo:personalName "Baṭalmayūs" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaeus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397127 .
+
+_:node1ivpishs6x25397127 gndo:personalName "Ptolemaeus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaeus, Alexandrius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397128 .
+
+_:node1ivpishs6x25397128 gndo:personalName "Ptolemaeus";
+  gndo:nameAddition "Alexandrius" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaios, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397129 .
+
+_:node1ivpishs6x25397129 gndo:personalName "Ptolemaios";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397130 .
+
+_:node1ivpishs6x25397130 gndo:personalName "Ptolemaios" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemei, Klavdii";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397131 .
+
+_:node1ivpishs6x25397131 gndo:forename "Klavdii";
+  gndo:surname "Ptolemei" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemeus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397132 .
+
+_:node1ivpishs6x25397132 gndo:forename "Claudius";
+  gndo:surname "Ptolemeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolomaeus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397133 .
+
+_:node1ivpishs6x25397133 gndo:forename "Claudius";
+  gndo:surname "Ptolomaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolomeus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397134 .
+
+_:node1ivpishs6x25397134 gndo:forename "Claudius";
+  gndo:surname "Ptolomeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Claudius Ptolemaeus Pelusiensis Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397135 .
+
+_:node1ivpishs6x25397135 gndo:personalName "Claudius Ptolemaeus Pelusiensis Alexandrinus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolomy, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397136 .
+
+_:node1ivpishs6x25397136 gndo:forename "Claudius";
+  gndo:surname "Ptolomy" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemeo, Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397137 .
+
+_:node1ivpishs6x25397137 gndo:forename "Claudio";
+  gndo:surname "Ptolemeo" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolomeo, Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397138 .
+
+_:node1ivpishs6x25397138 gndo:forename "Claudio";
+  gndo:surname "Ptolomeo" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaiu, Klaudiu";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397139 .
+
+_:node1ivpishs6x25397139 gndo:forename "Klaudiu";
+  gndo:surname "Ptolemaiu" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemée, Claude";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397140 .
+
+_:node1ivpishs6x25397140 gndo:forename "Claude";
+  gndo:surname "Ptolemée" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptholomaeus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397141 .
+
+_:node1ivpishs6x25397141 gndo:forename "Claudius";
+  gndo:surname "Ptholomaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptholemaeos, Claudios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397142 .
+
+_:node1ivpishs6x25397142 gndo:forename "Claudios";
+  gndo:surname "Ptholemaeos" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Tolemeo, Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397143 .
+
+_:node1ivpishs6x25397143 gndo:forename "Claudio";
+  gndo:surname "Tolemeo" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Tolomeo, Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397144 .
+
+_:node1ivpishs6x25397144 gndo:forename "Claudio";
+  gndo:surname "Tolomeo" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolémée, Claude";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397145 .
+
+_:node1ivpishs6x25397145 gndo:forename "Claude";
+  gndo:surname "Ptolémée" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolomaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397146 .
+
+_:node1ivpishs6x25397146 gndo:personalName "Ptolomaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolémée";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397147 .
+
+_:node1ivpishs6x25397147 gndo:personalName "Ptolémée" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397148 .
+
+_:node1ivpishs6x25397148 gndo:personalName "Ptolemaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptholemaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397149 .
+
+_:node1ivpishs6x25397149 gndo:personalName "Ptholemaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptholemeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397150 .
+
+_:node1ivpishs6x25397150 gndo:personalName "Ptholemeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397151 .
+
+_:node1ivpishs6x25397151 gndo:personalName "Ptolemeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Pseudo-Ptolemaeus, Gnomologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397152 .
+
+_:node1ivpishs6x25397152 gndo:personalName "Pseudo-Ptolemaeus";
+  gndo:nameAddition "Gnomologus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemy";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397153 .
+
+_:node1ivpishs6x25397153 gndo:personalName "Ptolemy" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemy, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397154 .
+
+_:node1ivpishs6x25397154 gndo:forename "Claudius";
+  gndo:surname "Ptolemy" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Claudius, Ptolemaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397155 .
+
+_:node1ivpishs6x25397155 gndo:personalName "Claudius";
+  gndo:nameAddition "Ptolemaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Claude, Ptolémée";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397156 .
+
+_:node1ivpishs6x25397156 gndo:personalName "Claude";
+  gndo:nameAddition "Ptolémée" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Klaudios, Ptolemaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397157 .
+
+_:node1ivpishs6x25397157 gndo:personalName "Klaudios";
+  gndo:nameAddition "Ptolemaios" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaeus, Mathematicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397158 .
+
+_:node1ivpishs6x25397158 gndo:personalName "Ptolemaeus";
+  gndo:nameAddition "Mathematicus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaius, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397159 .
+
+_:node1ivpishs6x25397159 gndo:personalName "Ptolemaius";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Pseudo-Ptolemaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397160 .
+
+_:node1ivpishs6x25397160 gndo:personalName "Pseudo-Ptolemaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Baṭlamyūs al-Ḥakīm";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397161 .
+
+_:node1ivpishs6x25397161 gndo:personalName "Baṭlamyūs al-Ḥakīm" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Baṭlamyūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397162 .
+
+_:node1ivpishs6x25397162 gndo:personalName "Baṭlamyūs" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Baṭalmiyūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397163 .
+
+_:node1ivpishs6x25397163 gndo:personalName "Baṭalmiyūs" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolemaios, Klaudios, Astronom, Astrologe, Mathematiker, Geograf, Erkenntnistheoretiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397164 .
+
+_:node1ivpishs6x25397164 gndo:forename "Klaudios";
+  gndo:surname "Ptolemaios";
+  gndo:nameAddition "Astronom, Astrologe, Mathematiker, Geograf, Erkenntnistheoretiker" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Batalmayus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397165 .
+
+_:node1ivpishs6x25397165 gndo:personalName "Batalmayus" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Ptolémée, de Ptolémais";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397166 .
+
+_:node1ivpishs6x25397166 gndo:personalName "Ptolémée";
+  gndo:nameAddition "de Ptolémais" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Btūlimayūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397167 .
+
+_:node1ivpishs6x25397167 gndo:personalName "Btūlimayūs" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Baṭlīmūs al-Ḥakīm";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397168 .
+
+_:node1ivpishs6x25397168 gndo:personalName "Baṭlīmūs al-Ḥakīm" .
+
+<https://d-nb.info/gnd/118641786> gndo:variantNameForThePerson "Baṭlamjūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397169 .
+
+_:node1ivpishs6x25397169 gndo:personalName "Baṭlamjūs" .
+
+<https://d-nb.info/gnd/118641786> gndo:preferredNameForThePerson "Ptolemaeus, Claudius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25397170 .
+
+_:node1ivpishs6x25397170 gndo:forename "Claudius";
+  gndo:surname "Ptolemaeus" .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119281155>;
+  gndo:hasRelation _:node1ivpishs6x25397171 .
+
+_:node1ivpishs6x25397171 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119281155>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118590995>;
+  gndo:hasRelation _:node1ivpishs6x25397172 .
+
+_:node1ivpishs6x25397172 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118590995>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:hasRelation _:node1ivpishs6x25397173 .
+
+_:node1ivpishs6x25397173 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397174 .
+
+_:node1ivpishs6x25397174 gndo:forename "Georgius";
+  gndo:surname "Valla" .
+
+<https://d-nb.info/gnd/118641786> gndo:hasRelation _:node1ivpishs6x25397175 .
+
+_:node1ivpishs6x25397175 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397176 .
+
+_:node1ivpishs6x25397176 gndo:forename "Lorenz";
+  gndo:surname "Friese" .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11852786X>;
+  gndo:hasRelation _:node1ivpishs6x25397177 .
+
+_:node1ivpishs6x25397177 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11852786X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594605>;
+  gndo:hasRelation _:node1ivpishs6x25397178 .
+
+_:node1ivpishs6x25397178 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594605>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118580485>;
+  gndo:hasRelation _:node1ivpishs6x25397179 .
+
+_:node1ivpishs6x25397179 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118580485>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:hasRelation _:node1ivpishs6x25397180 .
+
+_:node1ivpishs6x25397180 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397181 .
+
+_:node1ivpishs6x25397181 gndo:forename "Konrad";
+  gndo:surname "Heinfogel" .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119605910>;
+  gndo:hasRelation _:node1ivpishs6x25397182 .
+
+_:node1ivpishs6x25397182 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119605910>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:hasRelation _:node1ivpishs6x25397183 .
+
+_:node1ivpishs6x25397183 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118641786> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397184 .
+
+_:node1ivpishs6x25397184 gndo:personalName "Theon";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118641786> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:professionOrOccupationAsLiteral "Erkenntnistheoretiker";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#5.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#21.5p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ptolemaeus, Claudius: Regulae artis mathematicae", "Ptolemaeus, Claudius: État des étoiles fines au second siecle ... comparé à la positi*",
+    "Ptolemaeus, Claudius: Peri kritēriu kai hegemoniku", "Ptolemaeus, Claudius: Opus Geographiae",
+    "Ptolemaeus, Claudius: Peri tēs geōgraphias biblia oktō", "Ptolemaeus, Claudius: Peri tēs geōgraphias biblia oktō",
+    "Ptolemaeus, Claudius: Peri tēs geōgraphias biblia oktō", "Ptolemaeus, Claudius: Peri tēs geōgraphias biblia oktō",
+    "Ptolemaeus, Claudius: Theatri Geographiae veteris tomus prior", "Ptolemaeus, Claudius: Libri quatuor, compositi Syro fratri",
+    "Bonatti, Guido: Centiloquium. 1550. (VD16 ZV 2251)", "Ptolemaeus, Claudius: GEOGRAPHIAE CLAVDII PTOLEmaei Alexandrini, Philosophi ac Mathematici praestãtissimi, ... 1552. (VD16 P 5218)",
+    "Ptolemaeus, Claudius: CLA. PTOLEMAEI INERRANTIum stellarum significationes per Nicolaum Leonicum è graeco ... 1522. (VD16 P 5224)",
+    "Ptolemaeus, Claudius: GEOGRAPHIAE VNIVERSAE TVM VETERIS, TVM NOVAE ABSOLVVTISSIMVM opus, duobus ... 1597. (VD16 P 5220)",
+    "Ptolemaeus, Claudius: CL. PTOLEMAEI ALEXANDRINI PHILOSOPHI ET MATHEMAtici praestantissimi libri VIII. de ... 1540. (VD16 P 5215)",
+    "Ptolemaeus, Claudius: GEOGRAPHIAE CL. PTOLEMAEI PARS SECVNDA, CONTINENS PRAETER ANTIQVAS IPSIVS PTOL. ... 1597. (VD16 P 5222)",
+    "Ptolemaeus, Claudius: GEOGRAPHIA VNIVERSALIS, VETVS ET NOVA, COMPLECTENS CLAVDII PTOLEMAEI ALEXANDRINI ... 1540. (VD16 P 5214)",
+    "Ptolemaeus, Claudius: CLAVDII PTOLEMAEI PElusiensis Alexandrini omnia quae extant opera, praeter Geographiam, ... 1551. (VD16 P 5205)",
+    "Ptolemaeus, Claudius: Claudij PtoleMAEI, DE PRAEDICTIOnibus Astronomicis, cui titulum fecerunt Quadripartitũ, ... 1553. (VD16 P 5249)",
+    "Ptolemaeus, Claudius: GEOGRAPHIA VNIVERSALIS, VETVS ET NOVA, COMPLECTENS CLAVDII PTOLEMAEI ALEXANDRINI ... 1542. (VD16 P 5216)";
+  wdrs:describedby <https://d-nb.info/gnd/118641786/about> .
+
+<https://d-nb.info/gnd/118641786/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118641786> gndo:udkCode "101 - 200";
+  gndo:professionOrOccupation _:node1ivpishs6x25397185 .
+
+_:node1ivpishs6x25397185 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4041423-1>;
+  rdf:_2 <https://d-nb.info/gnd/4003310-7>;
+  rdf:_3 <https://d-nb.info/gnd/4415075-1>;
+  rdf:_4 <https://d-nb.info/gnd/4020214-8>;
+  rdf:_5 <https://d-nb.info/gnd/4037945-0> .
+
+<https://d-nb.info/gnd/118641786> gndo:dateOfBirth "0100"^^xsd:gYear;
+  gndo:dateOfDeath "0178"^^xsd:gYear .
+

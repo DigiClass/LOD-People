@@ -1,0 +1,255 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118592246> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118592246/about> .
+
+<https://d-nb.info/gnd/118592246/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-09-09T13:23:18.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118592246> gndo:gndIdentifier "118592246";
+  owl:sameAs <https://dbpedia.org/resource/Pausanias_(geographer)>, <http://viaf.org/viaf/262940218>,
+    <http://www.wikidata.org/entity/Q192931>;
+  gndo:oldAuthorityNumber "(DE-588)1089897510";
+  owl:sameAs <https://d-nb.info/gnd/1089897510>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089897510";
+  gndo:oldAuthorityNumber "(DE-588)108986356X";
+  owl:sameAs <https://d-nb.info/gnd/108986356X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108986356X";
+  gndo:oldAuthorityNumber "(DE-588)1089158904";
+  owl:sameAs <https://d-nb.info/gnd/1089158904>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089158904";
+  gndo:oldAuthorityNumber "(DE-588)186362005";
+  owl:sameAs <https://d-nb.info/gnd/186362005>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186362005";
+  gndo:oldAuthorityNumber "(DE-588a)186362005", "(DE-588)160455235";
+  owl:sameAs <https://d-nb.info/gnd/160455235>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160455235";
+  gndo:oldAuthorityNumber "(DE-588)158480341";
+  owl:sameAs <https://d-nb.info/gnd/158480341>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158480341";
+  gndo:oldAuthorityNumber "(DE-588a)158480341", "(DE-588a)160455235", "(DE-588)158297466";
+  owl:sameAs <https://d-nb.info/gnd/158297466>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158297466";
+  gndo:oldAuthorityNumber "(DE-588a)158297466", "(DE-588a)118592246", "(DE-588a)119782642",
+    "(DE-588a)127888810", "(DE-588c)4044962-2";
+  gndo:variantNameForThePerson "Pausania, il Periegeta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403020 .
+
+_:node1ivpishs6x25403020 gndo:personalName "Pausania";
+  gndo:nameAddition "il Periegeta" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, Perieget";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403021 .
+
+_:node1ivpishs6x25403021 gndo:personalName "Pausanias";
+  gndo:nameAddition "Perieget" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, der Periegete";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403022 .
+
+_:node1ivpishs6x25403022 gndo:personalName "Pausanias";
+  gndo:nameAddition "der Periegete" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, der Perieget";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403023 .
+
+_:node1ivpishs6x25403023 gndo:personalName "Pausanias";
+  gndo:nameAddition "der Perieget" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, Periēgētēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403024 .
+
+_:node1ivpishs6x25403024 gndo:personalName "Pausanias";
+  gndo:nameAddition "Periēgētēs" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, Damascenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403025 .
+
+_:node1ivpishs6x25403025 gndo:personalName "Pausanias";
+  gndo:nameAddition "Damascenus" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, Géographe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403026 .
+
+_:node1ivpishs6x25403026 gndo:personalName "Pausanias";
+  gndo:nameAddition "Géographe" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, Geographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403027 .
+
+_:node1ivpishs6x25403027 gndo:personalName "Pausanias";
+  gndo:nameAddition "Geographus" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, Lydius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403028 .
+
+_:node1ivpishs6x25403028 gndo:personalName "Pausanias";
+  gndo:nameAddition "Lydius" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausanias, de Magnésie";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403029 .
+
+_:node1ivpishs6x25403029 gndo:personalName "Pausanias";
+  gndo:nameAddition "de Magnésie" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pausania";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403030 .
+
+_:node1ivpishs6x25403030 gndo:personalName "Pausania" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Pauzanija";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403031 .
+
+_:node1ivpishs6x25403031 gndo:personalName "Pauzanija" .
+
+<https://d-nb.info/gnd/118592246> gndo:variantNameForThePerson "Periegeta, Pausanias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403032 .
+
+_:node1ivpishs6x25403032 gndo:forename "Pausanias";
+  gndo:surname "Periegeta" .
+
+<https://d-nb.info/gnd/118592246> gndo:preferredNameForThePerson "Pausanias, Periegeta";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403033 .
+
+_:node1ivpishs6x25403033 gndo:personalName "Pausanias";
+  gndo:nameAddition "Periegeta" .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124124119>;
+  gndo:hasRelation _:node1ivpishs6x25403034 .
+
+_:node1ivpishs6x25403034 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124124119>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100940056>;
+  gndo:hasRelation _:node1ivpishs6x25403035 .
+
+_:node1ivpishs6x25403035 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100940056>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:hasRelation _:node1ivpishs6x25403036 .
+
+_:node1ivpishs6x25403036 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25403037 .
+
+_:node1ivpishs6x25403037 gndo:forename "Wilhelm";
+  gndo:surname "Holzmann" .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119746018>;
+  gndo:hasRelation _:node1ivpishs6x25403038 .
+
+_:node1ivpishs6x25403038 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119746018>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117391042>;
+  gndo:hasRelation _:node1ivpishs6x25403039 .
+
+_:node1ivpishs6x25403039 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117391042>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119713772>;
+  gndo:hasRelation _:node1ivpishs6x25403040 .
+
+_:node1ivpishs6x25403040 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119713772>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100199399>;
+  gndo:hasRelation _:node1ivpishs6x25403041 .
+
+_:node1ivpishs6x25403041 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100199399>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11953469X>;
+  gndo:hasRelation _:node1ivpishs6x25403042 .
+
+_:node1ivpishs6x25403042 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11953469X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119014386>;
+  gndo:hasRelation _:node1ivpishs6x25403043 .
+
+_:node1ivpishs6x25403043 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119014386>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118592246> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Attica et Corinthiaca", "De tota Graecia libri decem", "PAVSANIAE DE TOta Graecia Libri decem, QVIBVS NON SOLVM VRBIVM SITVS, LOCOrum\\́[que] interualla ...",
+    "PAVSANIAE HISTORICI PRAECLARISSImi Commentariorum Graeciam describentiũ, ATTICA & ...",
+    "PAVSANIAE HISTORICI PRAECLARISSImi Commentariorum Graeciam describentiũ, ATTICA & ...",
+    "Veteris Graeciae descriptio", "De florentiss. veteris Graeciae regionibus commentarii",
+    "PAVSANIAE DE FLORENTISS. VETERIS GRAECIAE REGIONIBVS COMMENTARII A ROMVLO AMASAEO, ...",
+    "Decem regionem veteris Graeciae descriptio ...", "Accurata Graeciae descriptio",
+    "\\=GPAYSANIU TĒS HELLADOS PERIĒGĒSIS.=g HOC EST, PAVSANIAE ACCVRATA GRAECIAE ...",
+    "Pausanias, ou voyage historique de la Grece", "Graeciae descriptio", "De situ Graeciae libri decem",
+    "Mythology and Monuments of ancient Athens";
+  wdrs:describedby <https://d-nb.info/gnd/118592246/about> .
+
+<https://d-nb.info/gnd/118592246/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118592246> gndo:biographicalOrHistoricalInformation "Griech. Reiseschriftsteller"@de;
+  gndo:udkCode "101 - 200";
+  gndo:periodOfActivity "ca. 155-180";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25403044 .
+
+_:node1ivpishs6x25403044 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4798807-1>;
+  rdf:_3 <https://d-nb.info/gnd/4020214-8> .
+
+<https://d-nb.info/gnd/118592246> gndo:dateOfBirthAndDeath "[155-180]" .
+

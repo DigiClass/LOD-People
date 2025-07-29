@@ -1,0 +1,283 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118551418> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118551418/about> .
+
+<https://d-nb.info/gnd/118551418/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-12-20T17:09:37.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118551418> gndo:gndIdentifier "118551418";
+  owl:sameAs <https://dbpedia.org/resource/Hippolytus_of_Rome>, <http://viaf.org/viaf/303199802>,
+    <http://www.wikidata.org/entity/Q110323646>, <http://id.loc.gov/rwo/agents/n94122372>;
+  gndo:oldAuthorityNumber "(DE-588)158706587";
+  owl:sameAs <https://d-nb.info/gnd/158706587>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158706587";
+  gndo:oldAuthorityNumber "(DE-588a)158706587", "(DE-588)158259327";
+  owl:sameAs <https://d-nb.info/gnd/158259327>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158259327";
+  gndo:oldAuthorityNumber "(DE-588)185984681";
+  owl:sameAs <https://d-nb.info/gnd/185984681>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185984681";
+  gndo:oldAuthorityNumber "(DE-588a)185984681", "(DE-588a)158259327", "(DE-588)1090570317";
+  owl:sameAs <https://d-nb.info/gnd/1090570317>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090570317";
+  gndo:oldAuthorityNumber "(DE-588)1090299133";
+  owl:sameAs <https://d-nb.info/gnd/1090299133>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090299133";
+  gndo:oldAuthorityNumber "(DE-588)1089927533";
+  owl:sameAs <https://d-nb.info/gnd/1089927533>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089927533";
+  gndo:oldAuthorityNumber "(DE-588)1090747543";
+  owl:sameAs <https://d-nb.info/gnd/1090747543>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090747543";
+  gndo:oldAuthorityNumber "(DE-588)1089966458";
+  owl:sameAs <https://d-nb.info/gnd/1089966458>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089966458";
+  gndo:oldAuthorityNumber "(DE-588)174112254";
+  owl:sameAs <https://d-nb.info/gnd/174112254>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174112254";
+  gndo:oldAuthorityNumber "(DE-588a)174112254", "(DE-588)119710528";
+  owl:sameAs <https://d-nb.info/gnd/119710528>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119710528";
+  gndo:oldAuthorityNumber "(DE-588a)119710528", "(DE-588a)118551418", "(DE-588c)4024997-9";
+  gndo:variantNameForThePerson "Hippolyt";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590106 .
+
+_:node1ivs02adlx24590106 gndo:personalName "Hippolyt" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytos, von Rom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590107 .
+
+_:node1ivs02adlx24590107 gndo:personalName "Hippolytos";
+  gndo:nameAddition "von Rom" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolyt, von Rom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590108 .
+
+_:node1ivs02adlx24590108 gndo:personalName "Hippolyt";
+  gndo:nameAddition "von Rom" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytos, Kirchenschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590109 .
+
+_:node1ivs02adlx24590109 gndo:personalName "Hippolytos";
+  gndo:nameAddition "Kirchenschriftsteller" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytos, Presbyter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590110 .
+
+_:node1ivs02adlx24590110 gndo:personalName "Hippolytos";
+  gndo:nameAddition "Presbyter" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, Papst, Gegenpapst";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590111 .
+
+_:node1ivs02adlx24590111 gndo:personalName "Hippolytus";
+  gndo:nameAddition "Papst, Gegenpapst" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, Papa, Antipapa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590112 .
+
+_:node1ivs02adlx24590112 gndo:personalName "Hippolytus";
+  gndo:nameAddition "Papa, Antipapa" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590113 .
+
+_:node1ivs02adlx24590113 gndo:personalName "Hippolytus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590114 .
+
+_:node1ivs02adlx24590114 gndo:personalName "Hippolytus";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Pseudo-Hippolytus, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590115 .
+
+_:node1ivs02adlx24590115 gndo:personalName "Pseudo-Hippolytus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, of Rome";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590116 .
+
+_:node1ivs02adlx24590116 gndo:personalName "Hippolytus";
+  gndo:nameAddition "of Rome" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolyte, de Rome";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590117 .
+
+_:node1ivs02adlx24590117 gndo:personalName "Hippolyte";
+  gndo:nameAddition "de Rome" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolyte, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590118 .
+
+_:node1ivs02adlx24590118 gndo:personalName "Hippolyte";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, von Rom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590119 .
+
+_:node1ivs02adlx24590119 gndo:personalName "Hippolytus";
+  gndo:nameAddition "von Rom" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, episcopus et martyr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590120 .
+
+_:node1ivs02adlx24590120 gndo:personalName "Hippolytus";
+  gndo:nameAddition "episcopus et martyr" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Ippolito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590121 .
+
+_:node1ivs02adlx24590121 gndo:personalName "Ippolito" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Ippolito, Vescovo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590122 .
+
+_:node1ivs02adlx24590122 gndo:personalName "Ippolito";
+  gndo:nameAddition "Vescovo" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Ippolito, Epigrafo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590123 .
+
+_:node1ivs02adlx24590123 gndo:personalName "Ippolito";
+  gndo:nameAddition "Epigrafo" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Pseudo-Ippolito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590124 .
+
+_:node1ivs02adlx24590124 gndo:personalName "Pseudo-Ippolito" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590125 .
+
+_:node1ivs02adlx24590125 gndo:personalName "Hippolytus" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590126 .
+
+_:node1ivs02adlx24590126 gndo:personalName "Hippolytos" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Pseudo-Hippolytus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590127 .
+
+_:node1ivs02adlx24590127 gndo:personalName "Pseudo-Hippolytus" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, Romaniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590128 .
+
+_:node1ivs02adlx24590128 gndo:personalName "Hippolytus";
+  gndo:nameAddition "Romaniensis" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Hippolytus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590129 .
+
+_:node1ivs02adlx24590129 gndo:personalName "Hippolytus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Ibūlidus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590130 .
+
+_:node1ivs02adlx24590130 gndo:personalName "Ibūlidus" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Ibbūlīdus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590131 .
+
+_:node1ivs02adlx24590131 gndo:personalName "Ibbūlīdus" .
+
+<https://d-nb.info/gnd/118551418> gndo:variantNameForThePerson "Abūlīdus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590132 .
+
+_:node1ivs02adlx24590132 gndo:personalName "Abūlīdus" .
+
+<https://d-nb.info/gnd/118551418> gndo:preferredNameForThePerson "Hippolytus, Romanus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590133 .
+
+_:node1ivs02adlx24590133 gndo:personalName "Hippolytus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118551418> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1055517774>;
+  gndo:hasRelation _:node1ivs02adlx24590134 .
+
+_:node1ivs02adlx24590134 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1055517774>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118551418> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119796872>;
+  gndo:hasRelation _:node1ivs02adlx24590135 .
+
+_:node1ivs02adlx24590135 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119796872>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118551418> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119652048>;
+  gndo:hasRelation _:node1ivs02adlx24590136 .
+
+_:node1ivs02adlx24590136 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119652048>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118551418> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:broaderTermInstantial <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/lat>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Quae supersunt Opera et fragmenta, ...", "Logos peri tēs synteleias tu kosmu kai peri tu antichristu",
+    "Opera ...", "Fragmentum ad Proverb. VIII, 1 - 5: de sapientia domum sibi aedificante. - 1762",
+    "BEATISSIMI HIPPOLYTI EPISCOPI ET MARTYRIS ORATIO, de Consummatione mundi, ac de ...  1563.  (VD16 H 3822)",
+    "BEATISSIMI HYPPOLITI EPISCOPI et martyris oratio,de Consummatione mundi,ac de ...  1562.  (VD16 H 3821)",
+    "Ein kurtze Doch Christliche hochbewoegliche vnd zu disen letzten zeiten sehr ...  1575.  (VD16 H 3823)";
+  wdrs:describedby <https://d-nb.info/gnd/118551418/about> .
+
+<https://d-nb.info/gnd/118551418/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118551418> gndo:biographicalOrHistoricalInformation "Kirchenschriftsteller, Gegenpapst seit 217 u. Heiliger"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:dateOfDeath "0235"^^xsd:gYear .
+

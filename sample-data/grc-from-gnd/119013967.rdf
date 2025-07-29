@@ -1,0 +1,173 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119013967> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119013967/about> .
+
+<https://d-nb.info/gnd/119013967/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-03-14T00:58:47.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119013967> gndo:gndIdentifier "119013967";
+  owl:sameAs <https://dbpedia.org/resource/Timon_of_Phlius>, <http://viaf.org/viaf/1619159477979027990008>,
+    <http://www.wikidata.org/entity/Q280872>;
+  gndo:oldAuthorityNumber "(DE-588)1089719582";
+  owl:sameAs <https://d-nb.info/gnd/1089719582>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089719582";
+  gndo:oldAuthorityNumber "(DE-588a)119013967", "(DE-588c)4274991-8";
+  gndo:variantNameForThePerson "Timon, Phlilosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594730 .
+
+_:node1ivs02adlx24594730 gndo:personalName "Timon";
+  gndo:nameAddition "Phlilosophus" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timon, Skeptiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594731 .
+
+_:node1ivs02adlx24594731 gndo:personalName "Timon";
+  gndo:nameAddition "Skeptiker" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timon, Sohn des Timarchos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594732 .
+
+_:node1ivs02adlx24594732 gndo:personalName "Timon";
+  gndo:nameAddition "Sohn des Timarchos" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timo, Phliasius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594733 .
+
+_:node1ivs02adlx24594733 gndo:personalName "Timo";
+  gndo:nameAddition "Phliasius" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timo, Poeta Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594734 .
+
+_:node1ivs02adlx24594734 gndo:personalName "Timo";
+  gndo:nameAddition "Poeta Philosophus" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timon, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594735 .
+
+_:node1ivs02adlx24594735 gndo:personalName "Timon";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timone, di Fliunte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594736 .
+
+_:node1ivs02adlx24594736 gndo:personalName "Timone";
+  gndo:nameAddition "di Fliunte" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timon, of Phlius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594737 .
+
+_:node1ivs02adlx24594737 gndo:personalName "Timon";
+  gndo:nameAddition "of Phlius" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timone, di Fliute";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594738 .
+
+_:node1ivs02adlx24594738 gndo:personalName "Timone";
+  gndo:nameAddition "di Fliute" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timon, of Phleius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594739 .
+
+_:node1ivs02adlx24594739 gndo:personalName "Timon";
+  gndo:nameAddition "of Phleius" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timone, Filosofo Scettico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594740 .
+
+_:node1ivs02adlx24594740 gndo:personalName "Timone";
+  gndo:nameAddition "Filosofo Scettico" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timone, Scolaro di Pirrone";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594741 .
+
+_:node1ivs02adlx24594741 gndo:personalName "Timone";
+  gndo:nameAddition "Scolaro di Pirrone" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timon, de Phlionte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594742 .
+
+_:node1ivs02adlx24594742 gndo:personalName "Timon";
+  gndo:nameAddition "de Phlionte" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timon, von Phlius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594743 .
+
+_:node1ivs02adlx24594743 gndo:personalName "Timon";
+  gndo:nameAddition "von Phlius" .
+
+<https://d-nb.info/gnd/119013967> gndo:variantNameForThePerson "Timon, von Phleius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594744 .
+
+_:node1ivs02adlx24594744 gndo:personalName "Timon";
+  gndo:nameAddition "von Phleius" .
+
+<https://d-nb.info/gnd/119013967> gndo:preferredNameForThePerson "Timon, Phliasius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594745 .
+
+_:node1ivs02adlx24594745 gndo:personalName "Timon";
+  gndo:nameAddition "Phliasius" .
+
+<https://d-nb.info/gnd/119013967> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Timon <Phliasius>";
+  wdrs:describedby <https://d-nb.info/gnd/119013967/about> .
+
+<https://d-nb.info/gnd/119013967/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/119013967> gndo:biographicalOrHistoricalInformation "Griech. Philosoph, Skeptiker, der als Sophist lebte u. Epen, Tragödien, Satyrspiele und Komödien verfasste"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594746 .
+
+_:node1ivs02adlx24594746 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/119013967> gndo:dateOfBirth "-0320"^^xsd:gYear;
+  gndo:dateOfDeath "-0230"^^xsd:gYear .
+

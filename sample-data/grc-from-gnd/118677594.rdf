@@ -1,0 +1,432 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118677594> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118677594/about> .
+
+<https://d-nb.info/gnd/118677594/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-08T19:08:27.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118677594> gndo:gndIdentifier "118677594";
+  foaf:page <https://de.wikipedia.org/wiki/Kyrill_von_Jerusalem>;
+  owl:sameAs <https://dbpedia.org/resource/Cyril_of_Jerusalem>, <http://viaf.org/viaf/2437490>,
+    <https://isni.org/isni/0000000022197829>, <http://www.wikidata.org/entity/Q298654>;
+  gndo:oldAuthorityNumber "(DE-588)1089927231";
+  owl:sameAs <https://d-nb.info/gnd/1089927231>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089927231";
+  gndo:oldAuthorityNumber "(DE-588)1089920466";
+  owl:sameAs <https://d-nb.info/gnd/1089920466>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089920466";
+  gndo:oldAuthorityNumber "(DE-588)108977365X";
+  owl:sameAs <https://d-nb.info/gnd/108977365X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108977365X";
+  gndo:oldAuthorityNumber "(DE-588)188122699";
+  owl:sameAs <https://d-nb.info/gnd/188122699>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188122699";
+  gndo:oldAuthorityNumber "(DE-588a)188122699", "(DE-588)119650762";
+  owl:sameAs <https://d-nb.info/gnd/119650762>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119650762";
+  gndo:oldAuthorityNumber "(DE-588a)119650762", "(DE-588)1026331579";
+  owl:sameAs <https://d-nb.info/gnd/1026331579>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026331579";
+  gndo:oldAuthorityNumber "(DE-588)17202952X";
+  owl:sameAs <https://d-nb.info/gnd/17202952X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17202952X";
+  gndo:oldAuthorityNumber "(DE-588a)17202952X", "(DE-588)158352106";
+  owl:sameAs <https://d-nb.info/gnd/158352106>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158352106";
+  gndo:oldAuthorityNumber "(DE-588a)158352106", "(DE-588)174123272";
+  owl:sameAs <https://d-nb.info/gnd/174123272>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174123272";
+  gndo:oldAuthorityNumber "(DE-588a)174123272", "(DE-588a)118677594", "(DE-588c)4090655-3";
+  gndo:variantNameForThePerson "Cirillo, di Gerusalemme";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404875 .
+
+_:node1ivpishs6x25404875 gndo:personalName "Cirillo";
+  gndo:nameAddition "di Gerusalemme" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyril, Jeruzalémský";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404876 .
+
+_:node1ivpishs6x25404876 gndo:personalName "Cyril";
+  gndo:nameAddition "Jeruzalémský" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cirillus, Hierosolymitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404877 .
+
+_:node1ivpishs6x25404877 gndo:personalName "Cirillus";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cirillus, Ierosolomitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404878 .
+
+_:node1ivpishs6x25404878 gndo:personalName "Cirillus";
+  gndo:nameAddition "Ierosolomitanus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyril, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404879 .
+
+_:node1ivpishs6x25404879 gndo:personalName "Cyril";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyril, of Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404880 .
+
+_:node1ivpishs6x25404880 gndo:personalName "Cyril";
+  gndo:nameAddition "of Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrill";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404881 .
+
+_:node1ivpishs6x25404881 gndo:personalName "Cyrill" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrille, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404882 .
+
+_:node1ivpishs6x25404882 gndo:personalName "Cyrille";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404883 .
+
+_:node1ivpishs6x25404883 gndo:personalName "Cyrillus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404884 .
+
+_:node1ivpishs6x25404884 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Archiepiscopus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404885 .
+
+_:node1ivpishs6x25404885 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Hierosolimitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404886 .
+
+_:node1ivpishs6x25404886 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Hierosolimitanus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Pontifex";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404887 .
+
+_:node1ivpishs6x25404887 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Pontifex" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404888 .
+
+_:node1ivpishs6x25404888 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404889 .
+
+_:node1ivpishs6x25404889 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404890 .
+
+_:node1ivpishs6x25404890 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404891 .
+
+_:node1ivpishs6x25404891 gndo:personalName "Cyrillus";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, von Thessalonica";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404892 .
+
+_:node1ivpishs6x25404892 gndo:personalName "Cyrillus";
+  gndo:nameAddition "von Thessalonica" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kirill, Archiepiskop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404893 .
+
+_:node1ivpishs6x25404893 gndo:personalName "Kirill";
+  gndo:nameAddition "Archiepiskop" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kirill, Ierusalimskij";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404894 .
+
+_:node1ivpishs6x25404894 gndo:personalName "Kirill";
+  gndo:nameAddition "Ierusalimskij" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrill";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404895 .
+
+_:node1ivpishs6x25404895 gndo:personalName "Kyrill" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404896 .
+
+_:node1ivpishs6x25404896 gndo:personalName "Kyrillos" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillos, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404897 .
+
+_:node1ivpishs6x25404897 gndo:personalName "Kyrillos";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillos, Hierosolymōn";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404898 .
+
+_:node1ivpishs6x25404898 gndo:personalName "Kyrillos";
+  gndo:nameAddition "Hierosolymōn" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillos, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404899 .
+
+_:node1ivpishs6x25404899 gndo:personalName "Kyrillos";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillos, von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404900 .
+
+_:node1ivpishs6x25404900 gndo:personalName "Kyrillos";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillus, von Basel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404901 .
+
+_:node1ivpishs6x25404901 gndo:personalName "Kyrillus";
+  gndo:nameAddition "von Basel" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kiwregh, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404902 .
+
+_:node1ivpishs6x25404902 gndo:personalName "Kiwregh";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Gerusalemme, Cirillo di";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404903 .
+
+_:node1ivpishs6x25404903 gndo:forename "Cirillo";
+  gndo:prefix "di";
+  gndo:surname "Gerusalemme" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Hierosolymitanus, Cyrillus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404904 .
+
+_:node1ivpishs6x25404904 gndo:forename "Cyrillus";
+  gndo:surname "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kiwreġ, Erowsaġemc'i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404905 .
+
+_:node1ivpishs6x25404905 gndo:personalName "Kiwreġ";
+  gndo:nameAddition "Erowsaġemc'i" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyowreġ, Erowsaġemc'i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404906 .
+
+_:node1ivpishs6x25404906 gndo:personalName "Kyowreġ";
+  gndo:nameAddition "Erowsaġemc'i" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kiureł, Erousałemc̣i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404907 .
+
+_:node1ivpishs6x25404907 gndo:personalName "Kiureł";
+  gndo:nameAddition "Erousałemc̣i" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillus, Hierosolymōn";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404908 .
+
+_:node1ivpishs6x25404908 gndo:personalName "Kyrillus";
+  gndo:nameAddition "Hierosolymōn" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillus, von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404909 .
+
+_:node1ivpishs6x25404909 gndo:personalName "Kyrillus";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrill, von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404910 .
+
+_:node1ivpishs6x25404910 gndo:personalName "Kyrill";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyril, S.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404911 .
+
+_:node1ivpishs6x25404911 gndo:personalName "Cyril";
+  gndo:nameAddition "S." .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Hierosolymorum Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404912 .
+
+_:node1ivpishs6x25404912 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Hierosolymorum Archiepiscopus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Pseudo-Cyril, of Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404913 .
+
+_:node1ivpishs6x25404913 gndo:personalName "Pseudo-Cyril";
+  gndo:nameAddition "of Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Episcopus, Heiliger, Kirchenvater, Bischof von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404914 .
+
+_:node1ivpishs6x25404914 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Episcopus, Heiliger, Kirchenvater, Bischof von Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Archiepiscopus Hierosolymitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404915 .
+
+_:node1ivpishs6x25404915 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Archiepiscopus Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Hierosolymitanus, Heiliger, Kirchenvater, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404916 .
+
+_:node1ivpishs6x25404916 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Hierosolymitanus, Heiliger, Kirchenvater, Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Scriptor ecclesiasticus, Heiliger, Bischof von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404917 .
+
+_:node1ivpishs6x25404917 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Scriptor ecclesiasticus, Heiliger, Bischof von Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrill, von Jerusalem, Heiliger, Kirchenvater, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404918 .
+
+_:node1ivpishs6x25404918 gndo:personalName "Cyrill";
+  gndo:nameAddition "von Jerusalem, Heiliger, Kirchenvater, Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, von Jerusalem, Heiliger, Kirchenvater, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404919 .
+
+_:node1ivpishs6x25404919 gndo:personalName "Cyrillus";
+  gndo:nameAddition "von Jerusalem, Heiliger, Kirchenvater, Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, von Thessalonica, Heiliger, Kirchenvater, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404920 .
+
+_:node1ivpishs6x25404920 gndo:personalName "Cyrillus";
+  gndo:nameAddition "von Thessalonica, Heiliger, Kirchenvater, Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Kyrillos, von Jerusalem, Heiliger, Kirchenvater, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404921 .
+
+_:node1ivpishs6x25404921 gndo:personalName "Kyrillos";
+  gndo:nameAddition "von Jerusalem, Heiliger, Kirchenvater, Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyril, of Jerusalem, Heiliger, Kirchenvater, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404922 .
+
+_:node1ivpishs6x25404922 gndo:personalName "Cyril";
+  gndo:nameAddition "of Jerusalem, Heiliger, Kirchenvater, Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrille, de Jérusalem, Heiliger, Kirchenvater, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404923 .
+
+_:node1ivpishs6x25404923 gndo:personalName "Cyrille";
+  gndo:nameAddition "de Jérusalem, Heiliger, Kirchenvater, Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cirillo, di Gerusalemme, Heiliger, Kirchenvater, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404924 .
+
+_:node1ivpishs6x25404924 gndo:personalName "Cirillo";
+  gndo:nameAddition "di Gerusalemme, Heiliger, Kirchenvater, Bischof" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Pseudo-Cyrillus Hierosolymitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404925 .
+
+_:node1ivpishs6x25404925 gndo:personalName "Pseudo-Cyrillus Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrillus, Sanctus, Heiliger, Kirchenvater, Bischof von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404926 .
+
+_:node1ivpishs6x25404926 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Sanctus, Heiliger, Kirchenvater, Bischof von Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Pseudo-Cirillo di Gerusalemme";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404927 .
+
+_:node1ivpishs6x25404927 gndo:personalName "Pseudo-Cirillo di Gerusalemme" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrill, von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404928 .
+
+_:node1ivpishs6x25404928 gndo:personalName "Cyrill";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:variantNameForThePerson "Cyrille, de Jérusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404929 .
+
+_:node1ivpishs6x25404929 gndo:personalName "Cyrille";
+  gndo:nameAddition "de Jérusalem" .
+
+<https://d-nb.info/gnd/118677594> gndo:preferredNameForThePerson "Cyrillus, Hierosolymitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404930 .
+
+_:node1ivpishs6x25404930 gndo:personalName "Cyrillus";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118677594> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IL>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Apologi morales", "Cyrillus <von Jerusalem>: Catecheses quinque mystagogicae";
+  wdrs:describedby <https://d-nb.info/gnd/118677594/about> .
+
+<https://d-nb.info/gnd/118677594/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118677594> gndo:biographicalOrHistoricalInformation "Kirchenvater, seit 348/50 Bischof von Jerusalem"@de;
+  gndo:professionOrOccupation _:node1ivpishs6x25404931 .
+
+_:node1ivpishs6x25404931 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118677594> gndo:dateOfBirth "0312"^^xsd:gYear;
+  gndo:dateOfDeath "0386"^^xsd:gYear .
+

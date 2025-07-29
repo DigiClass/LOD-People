@@ -1,0 +1,262 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11882158X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11882158X/about> .
+
+<https://d-nb.info/gnd/11882158X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-30T07:45:52.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11882158X> gndo:gndIdentifier "11882158X";
+  foaf:page <https://de.wikipedia.org/wiki/Pseudo-Longinos>;
+  owl:sameAs <http://viaf.org/viaf/281851250>, <https://isni.org/isni/000000045302644X>,
+    <http://www.wikidata.org/entity/Q744540>, <http://id.loc.gov/rwo/agents/n84160046>;
+  gndo:oldAuthorityNumber "(DE-588)1089884508";
+  owl:sameAs <https://d-nb.info/gnd/1089884508>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089884508";
+  gndo:oldAuthorityNumber "(DE-588)1089134746";
+  owl:sameAs <https://d-nb.info/gnd/1089134746>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089134746";
+  gndo:oldAuthorityNumber "(DE-588)174045328";
+  owl:sameAs <https://d-nb.info/gnd/174045328>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174045328";
+  gndo:oldAuthorityNumber "(DE-588a)174045328", "(DE-588)172230187";
+  owl:sameAs <https://d-nb.info/gnd/172230187>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172230187";
+  gndo:oldAuthorityNumber "(DE-588a)172230187", "(DE-588)128286350";
+  owl:sameAs <https://d-nb.info/gnd/128286350>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/128286350";
+  gndo:oldAuthorityNumber "(DE-588a)128286350", "(DE-588a)11882158X", "(DE-588a)119746409",
+    "(DE-588c)4135533-7";
+  gndo:variantNameForThePerson "Longinus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592064 .
+
+_:node1ivs02adlx24592064 gndo:personalName "Longinus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592065 .
+
+_:node1ivs02adlx24592065 gndo:personalName "Longinus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinus, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592066 .
+
+_:node1ivs02adlx24592066 gndo:personalName "Longinus";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinus, Dionysius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592067 .
+
+_:node1ivs02adlx24592067 gndo:forename "Dionysius";
+  gndo:surname "Longinus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinus, Dionysius Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592068 .
+
+_:node1ivs02adlx24592068 gndo:forename "Dionysius Cassius";
+  gndo:surname "Longinus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:fullerFormOfNameOfThePerson _:node1ivs02adlx24592069 .
+
+_:node1ivs02adlx24592069 gndo:forename "Dionysius Cassius";
+  gndo:surname "Longinus";
+  a gndo:FullerFormOfThePerson .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinus, Dionysius C.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592070 .
+
+_:node1ivs02adlx24592070 gndo:forename "Dionysius C.";
+  gndo:surname "Longinus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592071 .
+
+_:node1ivs02adlx24592071 gndo:personalName "Longin" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longin, Denys";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592072 .
+
+_:node1ivs02adlx24592072 gndo:forename "Denys";
+  gndo:surname "Longin" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longin, Dïonisïj";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592073 .
+
+_:node1ivs02adlx24592073 gndo:forename "Dïonisïj";
+  gndo:surname "Longin" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longino, Dionisio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592074 .
+
+_:node1ivs02adlx24592074 gndo:forename "Dionisio";
+  gndo:surname "Longino" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592075 .
+
+_:node1ivs02adlx24592075 gndo:personalName "Longinos" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinos, Platoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592076 .
+
+_:node1ivs02adlx24592076 gndo:personalName "Longinos";
+  gndo:nameAddition "Platoniker" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinos, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592077 .
+
+_:node1ivs02adlx24592077 gndo:personalName "Longinos";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinos, Dionysios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592078 .
+
+_:node1ivs02adlx24592078 gndo:forename "Dionysios";
+  gndo:surname "Longinos" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Longinos ē Dionysios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592079 .
+
+_:node1ivs02adlx24592079 gndo:personalName "Longinos ē Dionysios" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Anonyme, Grec";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592080 .
+
+_:node1ivs02adlx24592080 gndo:personalName "Anonyme";
+  gndo:nameAddition "Grec" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Anonymus, De Sublimitate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592081 .
+
+_:node1ivs02adlx24592081 gndo:personalName "Anonymus";
+  gndo:nameAddition "De Sublimitate" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Anonymus, Graecus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592082 .
+
+_:node1ivs02adlx24592082 gndo:personalName "Anonymus";
+  gndo:nameAddition "Graecus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Anonymus, Vom Erhabenen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592083 .
+
+_:node1ivs02adlx24592083 gndo:personalName "Anonymus";
+  gndo:nameAddition "Vom Erhabenen" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Denys, Longin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592084 .
+
+_:node1ivs02adlx24592084 gndo:personalName "Denys";
+  gndo:nameAddition "Longin" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Dionysios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592085 .
+
+_:node1ivs02adlx24592085 gndo:personalName "Dionysios" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Dionysios, Longinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592086 .
+
+_:node1ivs02adlx24592086 gndo:personalName "Dionysios";
+  gndo:nameAddition "Longinos" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Dionisio, Longino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592087 .
+
+_:node1ivs02adlx24592087 gndo:personalName "Dionisio";
+  gndo:nameAddition "Longino" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Dionysius, Longinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592088 .
+
+_:node1ivs02adlx24592088 gndo:personalName "Dionysius";
+  gndo:nameAddition "Longinus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Pseudo-Longinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592089 .
+
+_:node1ivs02adlx24592089 gndo:personalName "Pseudo-Longinos" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Pseudo-Longinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592090 .
+
+_:node1ivs02adlx24592090 gndo:personalName "Pseudo-Longinus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:variantNameForThePerson "Pseudolonginus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592091 .
+
+_:node1ivs02adlx24592091 gndo:personalName "Pseudolonginus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:preferredNameForThePerson "Longinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592092 .
+
+_:node1ivs02adlx24592092 gndo:personalName "Longinus" .
+
+<https://d-nb.info/gnd/11882158X> gndo:professionalRelationship <https://d-nb.info/gnd/118971034>;
+  gndo:hasRelation _:node1ivs02adlx24592093 .
+
+_:node1ivs02adlx24592093 gndo:professionalRelationship <https://d-nb.info/gnd/118971034>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11882158X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Liber de grandi, sive sublimi orationis genere", "\\=GKATĒCHĒSIS CHRISTIANŌN HELLĒnikōs.\\=g DIONYSII LONGINI RHETORIS ...",
+    "De sublimi genere dicendi", "Liber de grandi eloquentia, sive sublimi dicendi genere ..",
+    "De sublimitate libellus", "An essay upon sublime style", "De sublimi libellus", "Vom Erhabenen ..",
+    "De sublimitate libellus", "De sublimitate ..", "Peri hypsus";
+  wdrs:describedby <https://d-nb.info/gnd/11882158X/about> .
+
+<https://d-nb.info/gnd/11882158X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11882158X> gndo:usingInstructions "Ausschließlich mit der Schrift \"De sublimitate\" zu verbinden"@de;
+  gndo:biographicalOrHistoricalInformation "Angeblicher Verf. der Schrift \"De sublimitate\"; nicht identisch mit Longinus, Cassius und Dionysius <Halicarnassensis>; Notname nach PAN (Vorwort XXIII) für einen unbekannten griech. Autor (ca. 1. Jh. n. Chr.). In der Autorenliste von PAN aber fälschlich mit den Lebensdaten des Longinus, Cassius (fehlt in PAN!) versehen. Von \"PAN\" wurde in der PND entsprechend korrigiert"@de;
+  gndo:udkCode "1 - 100 n. Chr.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[1. Jh.]" .
+

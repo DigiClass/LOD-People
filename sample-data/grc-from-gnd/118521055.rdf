@@ -1,0 +1,420 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118521055> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118521055/about> .
+
+<https://d-nb.info/gnd/118521055/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:34.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118521055> gndo:gndIdentifier "118521055";
+  foaf:page <https://de.wikipedia.org/wiki/Claudian>;
+  owl:sameAs <https://dbpedia.org/resource/Claudian>, <http://viaf.org/viaf/246763674>,
+    <https://isni.org/isni/0000000121452012>, <http://www.wikidata.org/entity/Q205947>,
+    <http://id.loc.gov/rwo/agents/n80098606>;
+  gndo:oldAuthorityNumber "(DE-588)174169418";
+  owl:sameAs <https://d-nb.info/gnd/174169418>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174169418";
+  gndo:oldAuthorityNumber "(DE-588a)174169418", "(DE-588)172022169";
+  owl:sameAs <https://d-nb.info/gnd/172022169>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172022169";
+  gndo:oldAuthorityNumber "(DE-588a)172022169", "(DE-588)159733367";
+  owl:sameAs <https://d-nb.info/gnd/159733367>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/159733367";
+  gndo:oldAuthorityNumber "(DE-588a)159733367", "(DE-588a)118521055", "(DE-588a)127400206",
+    "(DE-588c)4010256-7";
+  gndo:variantNameForThePerson "Claudianus, Cl.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588285 .
+
+_:node1ivs02adlx24588285 gndo:forename "Cl.";
+  gndo:surname "Claudianus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588286 .
+
+_:node1ivs02adlx24588286 gndo:personalName "Claudianus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Klaudianos, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588287 .
+
+_:node1ivs02adlx24588287 gndo:personalName "Klaudianos";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588288 .
+
+_:node1ivs02adlx24588288 gndo:personalName "Claudius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588289 .
+
+_:node1ivs02adlx24588289 gndo:personalName "Claudianus";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus, Epiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588290 .
+
+_:node1ivs02adlx24588290 gndo:personalName "Claudianus";
+  gndo:nameAddition "Epiker" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudiano, Poeta Epico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588291 .
+
+_:node1ivs02adlx24588291 gndo:personalName "Claudiano";
+  gndo:nameAddition "Poeta Epico" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588292 .
+
+_:node1ivs02adlx24588292 gndo:personalName "Claudianus";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus, Poet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588293 .
+
+_:node1ivs02adlx24588293 gndo:personalName "Claudianus";
+  gndo:nameAddition "Poet" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudien, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588294 .
+
+_:node1ivs02adlx24588294 gndo:personalName "Claudien";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudius Claudianus, Aegyptius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588295 .
+
+_:node1ivs02adlx24588295 gndo:personalName "Claudius Claudianus";
+  gndo:nameAddition "Aegyptius" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588296 .
+
+_:node1ivs02adlx24588296 gndo:personalName "Claudianus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudius, Claudianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588297 .
+
+_:node1ivs02adlx24588297 gndo:personalName "Claudius";
+  gndo:nameAddition "Claudianus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus Alexandrinus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588298 .
+
+_:node1ivs02adlx24588298 gndo:forename "Claudius";
+  gndo:surname "Claudianus Alexandrinus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Klaudianos, Klaudios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588299 .
+
+_:node1ivs02adlx24588299 gndo:forename "Klaudios";
+  gndo:surname "Klaudianos" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588300 .
+
+_:node1ivs02adlx24588300 gndo:personalName "Claudian" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudien, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588301 .
+
+_:node1ivs02adlx24588301 gndo:forename "Claudius";
+  gndo:surname "Claudien" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudiano, Cajo Lucio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588302 .
+
+_:node1ivs02adlx24588302 gndo:forename "Cajo Lucio";
+  gndo:surname "Claudiano" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudiano, Cayo Lucio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588303 .
+
+_:node1ivs02adlx24588303 gndo:forename "Cayo Lucio";
+  gndo:surname "Claudiano" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudiano, Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588304 .
+
+_:node1ivs02adlx24588304 gndo:forename "Claudio";
+  gndo:surname "Claudiano" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588305 .
+
+_:node1ivs02adlx24588305 gndo:personalName "Claudien" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Klaudian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588306 .
+
+_:node1ivs02adlx24588306 gndo:personalName "Klaudian" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588307 .
+
+_:node1ivs02adlx24588307 gndo:personalName "Claudianus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudiano, Cajo L.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588308 .
+
+_:node1ivs02adlx24588308 gndo:forename "Cajo L.";
+  gndo:surname "Claudiano" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudiano, Claudis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588309 .
+
+_:node1ivs02adlx24588309 gndo:forename "Claudis";
+  gndo:surname "Claudiano" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Pseudo-Claudius, Claudianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588310 .
+
+_:node1ivs02adlx24588310 gndo:personalName "Pseudo-Claudius";
+  gndo:nameAddition "Claudianus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Pseudo-Claudianus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588311 .
+
+_:node1ivs02adlx24588311 gndo:forename "Claudius";
+  gndo:surname "Pseudo-Claudianus" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Ps.-Claudien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588312 .
+
+_:node1ivs02adlx24588312 gndo:personalName "Ps.-Claudien" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudianus Aegyptius, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588313 .
+
+_:node1ivs02adlx24588313 gndo:forename "Claudius";
+  gndo:surname "Claudianus Aegyptius" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudiano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588314 .
+
+_:node1ivs02adlx24588314 gndo:personalName "Claudiano" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Klaudianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588315 .
+
+_:node1ivs02adlx24588315 gndo:personalName "Klaudianos" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588316 .
+
+_:node1ivs02adlx24588316 gndo:personalName "Claudie" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588317 .
+
+_:node1ivs02adlx24588317 gndo:personalName "Claudius" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Pseudo-Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588318 .
+
+_:node1ivs02adlx24588318 gndo:personalName "Pseudo-Claudius" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Pseudo-Claudien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588319 .
+
+_:node1ivs02adlx24588319 gndo:personalName "Pseudo-Claudien" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Claudiano Klaudianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588320 .
+
+_:node1ivs02adlx24588320 gndo:personalName "Claudiano Klaudianos" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Clodian, Claude";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588321 .
+
+_:node1ivs02adlx24588321 gndo:forename "Claude";
+  gndo:surname "Clodian" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Klaudian, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588322 .
+
+_:node1ivs02adlx24588322 gndo:forename "Claudius";
+  gndo:surname "Klaudian" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Klaudyan, Klaudyusz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588323 .
+
+_:node1ivs02adlx24588323 gndo:forename "Klaudyusz";
+  gndo:surname "Klaudyan" .
+
+<https://d-nb.info/gnd/118521055> gndo:variantNameForThePerson "Clavdiani, Clavdii";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588324 .
+
+_:node1ivs02adlx24588324 gndo:forename "Clavdii";
+  gndo:surname "Clavdiani" .
+
+<https://d-nb.info/gnd/118521055> gndo:preferredNameForThePerson "Claudianus, Claudius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24588325 .
+
+_:node1ivs02adlx24588325 gndo:forename "Claudius";
+  gndo:surname "Claudianus" .
+
+<https://d-nb.info/gnd/118521055> gndo:hasRelation _:node1ivs02adlx24588326 .
+
+_:node1ivs02adlx24588326 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588327 .
+
+_:node1ivs02adlx24588327 gndo:forename "Hermann";
+  gndo:prefix "von dem";
+  gndo:surname "Busch" .
+
+<https://d-nb.info/gnd/118521055> gndo:hasRelation _:node1ivs02adlx24588328 .
+
+_:node1ivs02adlx24588328 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588329 .
+
+_:node1ivs02adlx24588329 gndo:forename "Giovanni Ricuzzi Vellini";
+  gndo:surname "Camers" .
+
+<https://d-nb.info/gnd/118521055> gndo:hasRelation _:node1ivs02adlx24588330 .
+
+_:node1ivs02adlx24588330 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588331 .
+
+_:node1ivs02adlx24588331 gndo:forename "Caecilius";
+  gndo:surname "Cyprianus" .
+
+<https://d-nb.info/gnd/118521055> gndo:hasRelation _:node1ivs02adlx24588332 .
+
+_:node1ivs02adlx24588332 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588333 .
+
+_:node1ivs02adlx24588333 gndo:forename "Philipp";
+  gndo:surname "Gundel" .
+
+<https://d-nb.info/gnd/118521055> gndo:hasRelation _:node1ivs02adlx24588334 .
+
+_:node1ivs02adlx24588334 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588335 .
+
+_:node1ivs02adlx24588335 gndo:forename "Jakob";
+  gndo:surname "Locher" .
+
+<https://d-nb.info/gnd/118521055> gndo:hasRelation _:node1ivs02adlx24588336 .
+
+_:node1ivs02adlx24588336 gndo:functionOrRoleAsLiteral "Roermond; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588337 .
+
+_:node1ivs02adlx24588337 gndo:forename "Johannes";
+  gndo:surname "Murmelius" .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118824112>;
+  gndo:hasRelation _:node1ivs02adlx24588338 .
+
+_:node1ivs02adlx24588338 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118824112>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119639734>;
+  gndo:hasRelation _:node1ivs02adlx24588339 .
+
+_:node1ivs02adlx24588339 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119639734>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119604086>;
+  gndo:hasRelation _:node1ivs02adlx24588340 .
+
+_:node1ivs02adlx24588340 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119604086>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119680645>;
+  gndo:hasRelation _:node1ivs02adlx24588341 .
+
+_:node1ivs02adlx24588341 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119680645>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118521055> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/lat>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Claudianus, Claudius: Invocatio ad Christum", "Claudianus, Claudius: Opera",
+    "Claudianus, Claudius: Opera", "Claudianus, Claudius: Quae exstant", "Claudianus, Claudius: Claudii Claudiani quae extant. - [ca. 1615]",
+    "Claudianus, Claudius: Cl. Claudianus", "Claudianus, Claudius: Opera Quae exstant",
+    "Claudianus, Claudius: Opera", "Claudianus, Claudius: Opera", "Claudianus, Claudius: Opera",
+    "Busch, Hermann von dem: De salvatore.  1506.  (VD16 B 9940)", "Claudianus, Claudius: CL.Claudiani de Proserpine raptu libri tres iucundissimi cũ argumẽ\\[is] Jani Parrhasij ...  1510.  (VD16 C 4038)",
+    "Claudianus, Claudius: Opera.  1534.  (VD16 C 4033)", "Claudianus, Claudius: Hoc in volumine infra scripta continentur. Epistola dedicatoria Philomusi ... Opus ...  1518.  (VD16 C 4043)",
+    "Claudianus, Claudius: CLAVDII CLAVDIANI POETAE CANDIDISSIMI IN RVFFINVM LIBRI DVO. ... [Hrsg. v. (PHILippus ...  1518.  (VD16 C 4034)",
+    "Claudianus, Claudius: Claudianus de Raptu Proserpinae: om̃i cura ac diligentia ex D.Io.Camertis recognitõe ...  1518.  (VD16 C 4042)",
+    "Claudianus, Claudius: De raptu Proserpinae.  1539.  (VD16 C 4045)", "Busch, Hermann von dem: De salvatore.  1508.  (VD16 B 9942)",
+    "Claudianus, Claudius: CL.CLAVDIANI AEGYPTII, POETAE INSIGNIS, LIBRI BE RAPTV PROSERPINAE TRES, emendatissime ...  1517.  (VD16 C 4041)",
+    "Claudianus, Claudius: C.Claudianus de . Raptu Proserpine .  1509.  (VD16 C 4037)";
+  wdrs:describedby <https://d-nb.info/gnd/118521055/about> .
+
+<https://d-nb.info/gnd/118521055/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118521055> gndo:biographicalOrHistoricalInformation "Römischer Dichter, der seine Werke anfangs in griechischer, ab 394/95 bis ca. 403/404 in lateinischer Sprache verfasste"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24588342 .
+
+_:node1ivs02adlx24588342 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118521055> gndo:dateOfBirth "0370"^^xsd:gYear;
+  gndo:dateOfDeath "0408"^^xsd:gYear .
+

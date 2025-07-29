@@ -1,0 +1,537 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118640003> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118640003/about> .
+
+<https://d-nb.info/gnd/118640003/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-12T05:35:31.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118640003> gndo:gndIdentifier "118640003";
+  foaf:page <https://de.wikipedia.org/wiki/Flavius_Josephus>;
+  owl:sameAs <https://dbpedia.org/resource/Josephus>, <http://viaf.org/viaf/22143666>,
+    <https://isni.org/isni/0000000121235616>, <http://www.wikidata.org/entity/Q134461>,
+    <http://id.loc.gov/rwo/agents/n80015583>;
+  gndo:oldAuthorityNumber "(DE-588)1087983622";
+  owl:sameAs <https://d-nb.info/gnd/1087983622>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1087983622";
+  gndo:oldAuthorityNumber "(DE-588)187165327";
+  owl:sameAs <https://d-nb.info/gnd/187165327>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187165327";
+  gndo:oldAuthorityNumber "(DE-588a)187165327", "(DE-588)1089713568";
+  owl:sameAs <https://d-nb.info/gnd/1089713568>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089713568";
+  gndo:oldAuthorityNumber "(DE-588)1089933843";
+  owl:sameAs <https://d-nb.info/gnd/1089933843>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089933843";
+  gndo:oldAuthorityNumber "(DE-588)160143195";
+  owl:sameAs <https://d-nb.info/gnd/160143195>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160143195";
+  gndo:oldAuthorityNumber "(DE-588)185690262";
+  owl:sameAs <https://d-nb.info/gnd/185690262>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185690262";
+  gndo:oldAuthorityNumber "(DE-588a)185690262", "(DE-588a)160143195", "(DE-588)174167601";
+  owl:sameAs <https://d-nb.info/gnd/174167601>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174167601";
+  gndo:oldAuthorityNumber "(DE-588a)174167601", "(DE-588a)118640003", "(DE-588a)130970336",
+    "(DE-588c)4073071-2";
+  gndo:variantNameForThePerson "Josephus, Titus Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586247 .
+
+_:node1ivs02adlx24586247 gndo:forename "Titus Flavius";
+  gndo:surname "Josephus" .
+
+<https://d-nb.info/gnd/118640003> gndo:fullerFormOfNameOfThePerson _:node1ivs02adlx24586248 .
+
+_:node1ivs02adlx24586248 gndo:forename "Titus Flavius";
+  gndo:surname "Josephus";
+  a gndo:FullerFormOfThePerson .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586249 .
+
+_:node1ivs02adlx24586249 gndo:personalName "Josephus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephus, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586250 .
+
+_:node1ivs02adlx24586250 gndo:personalName "Josephus";
+  gndo:nameAddition "Flavius" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephus, Hebraeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586251 .
+
+_:node1ivs02adlx24586251 gndo:personalName "Josephus";
+  gndo:nameAddition "Hebraeus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586252 .
+
+_:node1ivs02adlx24586252 gndo:personalName "Josephus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephus, Latinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586253 .
+
+_:node1ivs02adlx24586253 gndo:personalName "Josephus";
+  gndo:nameAddition "Latinus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephus, Palaestinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586254 .
+
+_:node1ivs02adlx24586254 gndo:personalName "Josephus";
+  gndo:nameAddition "Palaestinus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephus, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586255 .
+
+_:node1ivs02adlx24586255 gndo:personalName "Josephus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Joseph, Flave";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586256 .
+
+_:node1ivs02adlx24586256 gndo:forename "Flave";
+  gndo:surname "Joseph" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flave, Josephe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586257 .
+
+_:node1ivs02adlx24586257 gndo:personalName "Flave";
+  gndo:nameAddition "Josephe" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavien Josèphe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586258 .
+
+_:node1ivs02adlx24586258 gndo:personalName "Flavien Josèphe" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavij, Iosif";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586259 .
+
+_:node1ivs02adlx24586259 gndo:forename "Iosif";
+  gndo:surname "Flavij" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavio, Gioseffo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586260 .
+
+_:node1ivs02adlx24586260 gndo:forename "Gioseffo";
+  gndo:surname "Flavio" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavio, Giuseppe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586261 .
+
+_:node1ivs02adlx24586261 gndo:forename "Giuseppe";
+  gndo:surname "Flavio" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius, Iosephus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586262 .
+
+_:node1ivs02adlx24586262 gndo:forename "Iosephus";
+  gndo:surname "Flavius" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius Iosephus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586263 .
+
+_:node1ivs02adlx24586263 gndo:personalName "Flavius Iosephus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius, Joseph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586264 .
+
+_:node1ivs02adlx24586264 gndo:forename "Joseph";
+  gndo:surname "Flavius" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius, Josèphe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586265 .
+
+_:node1ivs02adlx24586265 gndo:forename "Josèphe";
+  gndo:surname "Flavius" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius Josèphe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586266 .
+
+_:node1ivs02adlx24586266 gndo:personalName "Flavius Josèphe" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius, Josephus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586267 .
+
+_:node1ivs02adlx24586267 gndo:forename "Josephus";
+  gndo:surname "Flavius" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius Josephus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586268 .
+
+_:node1ivs02adlx24586268 gndo:personalName "Flavius Josephus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius, Josephus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586269 .
+
+_:node1ivs02adlx24586269 gndo:personalName "Flavius";
+  gndo:nameAddition "Josephus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flavius Josephus Hebraeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586270 .
+
+_:node1ivs02adlx24586270 gndo:personalName "Flavius Josephus Hebraeus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Flaṿiyus, Yosefus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586271 .
+
+_:node1ivs02adlx24586271 gndo:forename "Yosefus";
+  gndo:surname "Flaṿiyus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Fławius, J.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586272 .
+
+_:node1ivs02adlx24586272 gndo:forename "J.";
+  gndo:surname "Fławius" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Gioseffo, Flavio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586273 .
+
+_:node1ivs02adlx24586273 gndo:forename "Flavio";
+  gndo:surname "Gioseffo" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Giuseppe, Flavio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586274 .
+
+_:node1ivs02adlx24586274 gndo:forename "Flavio";
+  gndo:surname "Giuseppe" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Giuseppe, Flavio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586275 .
+
+_:node1ivs02adlx24586275 gndo:personalName "Giuseppe";
+  gndo:nameAddition "Flavio" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Giuseppe, Storico Ebreo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586276 .
+
+_:node1ivs02adlx24586276 gndo:personalName "Giuseppe";
+  gndo:nameAddition "Storico Ebreo" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Hovsepos, P'lavios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586277 .
+
+_:node1ivs02adlx24586277 gndo:personalName "Hovsepos";
+  gndo:nameAddition "P'lavios" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Ioseb, P'laviosi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586278 .
+
+_:node1ivs02adlx24586278 gndo:personalName "Ioseb";
+  gndo:nameAddition "P'laviosi" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Iōsēpos, Phlabios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586279 .
+
+_:node1ivs02adlx24586279 gndo:forename "Phlabios";
+  gndo:surname "Iōsēpos" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Iosephus, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586280 .
+
+_:node1ivs02adlx24586280 gndo:forename "Flavius";
+  gndo:surname "Iosephus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Iosephus, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586281 .
+
+_:node1ivs02adlx24586281 gndo:personalName "Iosephus";
+  gndo:nameAddition "Flavius" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Iosephus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586282 .
+
+_:node1ivs02adlx24586282 gndo:personalName "Iosephus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josef, Syn Mattitʹjachu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586283 .
+
+_:node1ivs02adlx24586283 gndo:personalName "Josef";
+  gndo:nameAddition "Syn Mattitʹjachu" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josefo, Flavio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586284 .
+
+_:node1ivs02adlx24586284 gndo:forename "Flavio";
+  gndo:surname "Josefo" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Joseph ben Mathitjahu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586285 .
+
+_:node1ivs02adlx24586285 gndo:personalName "Joseph ben Mathitjahu" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josèphe, Flavien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586286 .
+
+_:node1ivs02adlx24586286 gndo:forename "Flavien";
+  gndo:surname "Josèphe" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josèphe, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586287 .
+
+_:node1ivs02adlx24586287 gndo:forename "Flavius";
+  gndo:surname "Josèphe" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josèphe, le Juif";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586288 .
+
+_:node1ivs02adlx24586288 gndo:personalName "Josèphe";
+  gndo:nameAddition "le Juif" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586289 .
+
+_:node1ivs02adlx24586289 gndo:personalName "Josephos" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephos, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586290 .
+
+_:node1ivs02adlx24586290 gndo:forename "Flavius";
+  gndo:surname "Josephos" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josephos, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586291 .
+
+_:node1ivs02adlx24586291 gndo:personalName "Josephos";
+  gndo:nameAddition "Flavius" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josif, Flavij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586292 .
+
+_:node1ivs02adlx24586292 gndo:personalName "Josif";
+  gndo:nameAddition "Flavij" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josippus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586293 .
+
+_:node1ivs02adlx24586293 gndo:personalName "Josippus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Josepus, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586294 .
+
+_:node1ivs02adlx24586294 gndo:forename "Flavius";
+  gndo:surname "Josepus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Phlabios, Iōsēpos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586295 .
+
+_:node1ivs02adlx24586295 gndo:forename "Iōsēpos";
+  gndo:surname "Phlabios" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Yosef ben Matityahu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586296 .
+
+_:node1ivs02adlx24586296 gndo:personalName "Yosef ben Matityahu" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Yosef Ben Matityahu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586297 .
+
+_:node1ivs02adlx24586297 gndo:personalName "Yosef Ben Matityahu" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Yosef ben Matityahu, ha-Kohen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586298 .
+
+_:node1ivs02adlx24586298 gndo:personalName "Yosef ben Matityahu";
+  gndo:nameAddition "ha-Kohen" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Yôsēf Ben-Mattityāhû";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586299 .
+
+_:node1ivs02adlx24586299 gndo:personalName "Yôsēf Ben-Mattityāhû" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Yosefus, Flaṿyus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586300 .
+
+_:node1ivs02adlx24586300 gndo:personalName "Yosefus";
+  gndo:nameAddition "Flaṿyus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Yosefus, Ṭiṭus Flaṿius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586301 .
+
+_:node1ivs02adlx24586301 gndo:forename "Ṭiṭus Flaṿius";
+  gndo:surname "Yosefus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Yosefus, Ṭiṭus Flaṿyus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586302 .
+
+_:node1ivs02adlx24586302 gndo:forename "Ṭiṭus Flaṿyus";
+  gndo:surname "Yosefus" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "Флавий, Иосиф"@und-Cyrl;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586303 .
+
+_:node1ivs02adlx24586303 gndo:forename "Иосиф";
+  gndo:surname "Флавий" .
+
+<https://d-nb.info/gnd/118640003> gndo:variantNameForThePerson "יוסף בן מתתיהו"@und-Hebr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586304 .
+
+_:node1ivs02adlx24586304 gndo:personalName "יוסף בן מתתיהו" .
+
+<https://d-nb.info/gnd/118640003> gndo:preferredNameForThePerson "Josephus, Flavius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586305 .
+
+_:node1ivs02adlx24586305 gndo:forename "Flavius";
+  gndo:surname "Josephus" .
+
+<https://d-nb.info/gnd/118640003> gndo:originalScriptNameOfThePerson "פלאוויוס יוספוס"@und-Hebr;
+  gndo:hasRelation _:node1ivs02adlx24586306 .
+
+_:node1ivs02adlx24586306 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship _:node1ivs02adlx24586307 .
+
+_:node1ivs02adlx24586307 gndo:personalName "Bēl-rē'ussu" .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship <https://d-nb.info/gnd/118519565>;
+  gndo:hasRelation _:node1ivs02adlx24586308 .
+
+_:node1ivs02adlx24586308 gndo:professionalRelationship <https://d-nb.info/gnd/118519565>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivs02adlx24586309 .
+
+_:node1ivs02adlx24586309 gndo:professionalRelationship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:hasRelation _:node1ivs02adlx24586310 .
+
+_:node1ivs02adlx24586310 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship _:node1ivs02adlx24586311 .
+
+_:node1ivs02adlx24586311 gndo:forename "Sigismundus";
+  gndo:surname "Gelenius" .
+
+<https://d-nb.info/gnd/118640003> gndo:hasRelation _:node1ivs02adlx24586312 .
+
+_:node1ivs02adlx24586312 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship _:node1ivs02adlx24586313 .
+
+_:node1ivs02adlx24586313 gndo:forename "Kaspar";
+  gndo:surname "Hedio" .
+
+<https://d-nb.info/gnd/118640003> gndo:hasRelation _:node1ivs02adlx24586314 .
+
+_:node1ivs02adlx24586314 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship _:node1ivs02adlx24586315 .
+
+_:node1ivs02adlx24586315 gndo:forename "Konrad";
+  gndo:surname "Lautenbach" .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship <https://d-nb.info/gnd/119764784>;
+  gndo:hasRelation _:node1ivs02adlx24586316 .
+
+_:node1ivs02adlx24586316 gndo:professionalRelationship <https://d-nb.info/gnd/119764784>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:hasRelation _:node1ivs02adlx24586317 .
+
+_:node1ivs02adlx24586317 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship _:node1ivs02adlx24586318 .
+
+_:node1ivs02adlx24586318 gndo:personalName "Rufinus";
+  gndo:nameAddition "aus Aquileia" .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship <https://d-nb.info/gnd/119127628>;
+  gndo:hasRelation _:node1ivs02adlx24586319 .
+
+_:node1ivs02adlx24586319 gndo:professionalRelationship <https://d-nb.info/gnd/119127628>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:hasRelation _:node1ivs02adlx24586320 .
+
+_:node1ivs02adlx24586320 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118640003> gndo:professionalRelationship _:node1ivs02adlx24586321 .
+
+_:node1ivs02adlx24586321 gndo:forename "Georg";
+  gndo:surname "Witzel";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118640003> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XY>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Babylōniaka", "JOsephi des hochberuempten vnd vast nutzlichen Historici. Zwentzig buecher von den alten ...",
+    "JOsephi des hochberuempten vnd fast nutzlichen histori beschreibers. Zwentzig buecher von ...",
+    "IŌSĒPU Iudaikēs archaiologias logoi k. Iudaikēs halōseōs logoi z. Peri ...",
+    "Jüdische Chronic. Von großmachtiger erhoehung des Judenthumbs Koenigreich vnd Fürstenthumb. ...",
+    "Flauij Josephi Des Hochberüempten Histori beschreibers alle Buecher. Nemlich zwentzig von ...",
+    "Josephi deß Hochberuehmpten Juedischen Geschichtschreibers Historien ...", "OPERA IOSEPHI VIRI INTER IVDAEOS DOCTISSIMI AC DISERTISSIMI, QVAE AD NOSTRAM AETATEM ...",
+    "Flauij Josephi Deß Hochberuehmten Juedischen Geschichtschreibers Historien vnd ...",
+    "Flauij Josephi des Hochberuehmten Juedischen Geschichtschreibers Historien vnd ...";
+  wdrs:describedby <https://d-nb.info/gnd/118640003/about> .
+
+<https://d-nb.info/gnd/118640003/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118640003> gndo:biographicalOrHistoricalInformation "Jüdischer Geschichtsschreiber"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4028586-8>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4050471-2>;
+  gndo:professionOrOccupation _:node1ivs02adlx24586322 .
+
+_:node1ivs02adlx24586322 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4155430-9> .
+
+<https://d-nb.info/gnd/118640003> gndo:dateOfBirth "0037"^^xsd:gYear;
+  gndo:dateOfDeath "0100"^^xsd:gYear .
+

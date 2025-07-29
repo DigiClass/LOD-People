@@ -1,0 +1,326 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118621793> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118621793/about> .
+
+<https://d-nb.info/gnd/118621793/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-28T00:30:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118621793> gndo:gndIdentifier "118621793";
+  owl:sameAs <https://dbpedia.org/resource/Theophrastus>, <http://viaf.org/viaf/100212289>,
+    <https://isni.org/isni/0000000398650994>, <http://www.wikidata.org/entity/Q160362>,
+    <http://id.loc.gov/rwo/agents/n79108364>;
+  gndo:oldAuthorityNumber "(DE-588)1087784360";
+  owl:sameAs <https://d-nb.info/gnd/1087784360>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1087784360";
+  gndo:oldAuthorityNumber "(DE-588a)118621793", "(DE-588a)160502551", "(DE-588a)159721318",
+    "(DE-588a)158377109", "(DE-588a)127445560", "(DE-588a)119848112", "(DE-588c)4059779-9";
+  gndo:variantNameForThePerson "Θεόφραστος";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593131 .
+
+_:node1ivs02adlx24593131 gndo:personalName "Θεόφραστος" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Teofrasto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593132 .
+
+_:node1ivs02adlx24593132 gndo:personalName "Teofrasto" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Téoprastos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593133 .
+
+_:node1ivs02adlx24593133 gndo:personalName "Téoprastos" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophraste";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593134 .
+
+_:node1ivs02adlx24593134 gndo:personalName "Theophraste" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593135 .
+
+_:node1ivs02adlx24593135 gndo:personalName "Theophrastes" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastos, ho Eresios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593136 .
+
+_:node1ivs02adlx24593136 gndo:personalName "Theophrastos";
+  gndo:nameAddition "ho Eresios" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastus, Eresus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593137 .
+
+_:node1ivs02adlx24593137 gndo:personalName "Theophrastus";
+  gndo:nameAddition "Eresus" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastus, of Eresos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593138 .
+
+_:node1ivs02adlx24593138 gndo:personalName "Theophrastus";
+  gndo:nameAddition "of Eresos" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastus, of Eresus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593139 .
+
+_:node1ivs02adlx24593139 gndo:personalName "Theophrastus";
+  gndo:nameAddition "of Eresus" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Théophraste, d'Erèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593140 .
+
+_:node1ivs02adlx24593140 gndo:personalName "Théophraste";
+  gndo:nameAddition "d'Erèse" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Théophraste d'Erèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593141 .
+
+_:node1ivs02adlx24593141 gndo:personalName "Théophraste d'Erèse" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastus, Eresius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593142 .
+
+_:node1ivs02adlx24593142 gndo:forename "Eresius";
+  gndo:surname "Theophrastus" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Teofrast, z Erezu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593143 .
+
+_:node1ivs02adlx24593143 gndo:personalName "Teofrast";
+  gndo:nameAddition "z Erezu" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastos, von Eresos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593144 .
+
+_:node1ivs02adlx24593144 gndo:personalName "Theophrastos";
+  gndo:nameAddition "von Eresos" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastos, von Lesbos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593145 .
+
+_:node1ivs02adlx24593145 gndo:personalName "Theophrastos";
+  gndo:nameAddition "von Lesbos" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastus, of Lesbos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593146 .
+
+_:node1ivs02adlx24593146 gndo:personalName "Theophrastus";
+  gndo:nameAddition "of Lesbos" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastus, von Eresos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593147 .
+
+_:node1ivs02adlx24593147 gndo:personalName "Theophrastus";
+  gndo:nameAddition "von Eresos" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Théophrastus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593148 .
+
+_:node1ivs02adlx24593148 gndo:personalName "Théophrastus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastus, Eresius Peripateticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593149 .
+
+_:node1ivs02adlx24593149 gndo:personalName "Theophrastus";
+  gndo:nameAddition "Eresius Peripateticus" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastos, Leiter der Peripatetischen Schule";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593150 .
+
+_:node1ivs02adlx24593150 gndo:personalName "Theophrastos";
+  gndo:nameAddition "Leiter der Peripatetischen Schule" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastos, Schüler des Aristoteles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593151 .
+
+_:node1ivs02adlx24593151 gndo:personalName "Theophrastos";
+  gndo:nameAddition "Schüler des Aristoteles" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrast";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593152 .
+
+_:node1ivs02adlx24593152 gndo:personalName "Theophrast" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593153 .
+
+_:node1ivs02adlx24593153 gndo:personalName "Theophrastos" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Teofrast";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593154 .
+
+_:node1ivs02adlx24593154 gndo:personalName "Teofrast" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Téopŕastos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593155 .
+
+_:node1ivs02adlx24593155 gndo:personalName "Téopŕastos" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Théophraste";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593156 .
+
+_:node1ivs02adlx24593156 gndo:personalName "Théophraste" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Theophrastus, Eresius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593157 .
+
+_:node1ivs02adlx24593157 gndo:personalName "Theophrastus";
+  gndo:nameAddition "Eresius" .
+
+<https://d-nb.info/gnd/118621793> gndo:variantNameForThePerson "Tyrtamos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593158 .
+
+_:node1ivs02adlx24593158 gndo:personalName "Tyrtamos" .
+
+<https://d-nb.info/gnd/118621793> gndo:preferredNameForThePerson "Theophrastus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593159 .
+
+_:node1ivs02adlx24593159 gndo:personalName "Theophrastus" .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship <https://d-nb.info/gnd/119811626>;
+  gndo:hasRelation _:node1ivs02adlx24593160 .
+
+_:node1ivs02adlx24593160 gndo:professionalRelationship <https://d-nb.info/gnd/119811626>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship <https://d-nb.info/gnd/119738775>;
+  gndo:hasRelation _:node1ivs02adlx24593161 .
+
+_:node1ivs02adlx24593161 gndo:professionalRelationship <https://d-nb.info/gnd/119738775>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship <https://d-nb.info/gnd/100948375>;
+  gndo:hasRelation _:node1ivs02adlx24593162 .
+
+_:node1ivs02adlx24593162 gndo:professionalRelationship <https://d-nb.info/gnd/100948375>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship <https://d-nb.info/gnd/118516132>;
+  gndo:hasRelation _:node1ivs02adlx24593163 .
+
+_:node1ivs02adlx24593163 gndo:professionalRelationship <https://d-nb.info/gnd/118516132>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:hasRelation _:node1ivs02adlx24593164 .
+
+_:node1ivs02adlx24593164 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship _:node1ivs02adlx24593165 .
+
+_:node1ivs02adlx24593165 gndo:forename "Anitius Manlius Torquatus Severinus";
+  gndo:surname "Boethius" .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship <https://d-nb.info/gnd/119102056>;
+  gndo:hasRelation _:node1ivs02adlx24593166 .
+
+_:node1ivs02adlx24593166 gndo:professionalRelationship <https://d-nb.info/gnd/119102056>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship <https://d-nb.info/gnd/118716999>;
+  gndo:hasRelation _:node1ivs02adlx24593167 .
+
+_:node1ivs02adlx24593167 gndo:professionalRelationship <https://d-nb.info/gnd/118716999>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:hasRelation _:node1ivs02adlx24593168 .
+
+_:node1ivs02adlx24593168 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship _:node1ivs02adlx24593169 .
+
+_:node1ivs02adlx24593169 gndo:personalName "Priscianus";
+  gndo:nameAddition "aus Lydien" .
+
+<https://d-nb.info/gnd/118621793> gndo:hasRelation _:node1ivs02adlx24593170 .
+
+_:node1ivs02adlx24593170 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship _:node1ivs02adlx24593171 .
+
+_:node1ivs02adlx24593171 gndo:forename "Georgius";
+  gndo:surname "Valla" .
+
+<https://d-nb.info/gnd/118621793> gndo:professionalRelationship <https://d-nb.info/gnd/118594605>;
+  gndo:hasRelation _:node1ivs02adlx24593172 .
+
+_:node1ivs02adlx24593172 gndo:professionalRelationship <https://d-nb.info/gnd/118594605>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118621793> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#18p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Aristoteles: Metaphysica", "De plantis", "De plantis", "\\=GTHEOPHRASTU CHARAKTĒRES.\\=g Cum interpretatione Latina...",
+    "\\=GTHEOPHRASTU CHARAKTĒRES.\\=g Cum interpretatione Latina per Bilibaldũ ...",
+    "LIBELLVS Theophrasti conTINENS NOTAS ATQVE DESCRIPTIONES MORVM QVORVNDAM VITIOsorum, ...",
+    "THEOPHRASTI DE SVFFRVTICIBVS, HERBISQVE, AC FRVGIBVS LIBRI QVATtuor, Theodoro Gaza ...",
+    "THEOPHRASTI PHILOSOPHI INTER Graecos doctissimi eiusdem\\[que] eloquentissimi, de Caracteribus, ...",
+    "Charaktēres", "Libellus de Notis morum", "Libellus continens notas ... morum", "Characteres ethici",
+    "Les travaux d' Aristee et d' Amarile dans Salamine", "Ēthikoi charaktēres", "Ēthikoi charaktēres, seu Theophrasti notationes morum",
+    "Charaktēres ēthikoi", "Characterum Ethicorum Theophrasti Eresii capita duo";
+  wdrs:describedby <https://d-nb.info/gnd/118621793/about> .
+
+<https://d-nb.info/gnd/118621793/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118621793> gndo:biographicalOrHistoricalInformation "Griech. Philosoph und Schüler des Aristoteles, Leiter der Peripatetischen Schule"@de;
+  gndo:udkCode "300 - 201 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593173 .
+
+_:node1ivs02adlx24593173 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118621793> gndo:dateOfBirth "-0369"^^xsd:gYear;
+  gndo:dateOfDeath "-0288"^^xsd:gYear .
+

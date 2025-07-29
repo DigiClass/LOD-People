@@ -1,0 +1,153 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/138863660> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/138863660/about> .
+
+<https://d-nb.info/gnd/138863660/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-09-28T05:36:58.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/138863660> gndo:gndIdentifier "138863660";
+  foaf:page <https://de.wikipedia.org/wiki/Makarios_I.>;
+  owl:sameAs <http://viaf.org/viaf/189296983>, <https://isni.org/isni/0000000040816531>,
+    <http://www.wikidata.org/entity/Q929275>;
+  gndo:oldAuthorityNumber "(DE-588)1089841132";
+  owl:sameAs <https://d-nb.info/gnd/1089841132>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089841132";
+  gndo:oldAuthorityNumber "(DE-588a)138863660", "(DE-588c)7668604-8";
+  gndo:variantNameForThePerson "Makarios I.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403408 .
+
+_:node1ivpishs6x25403408 gndo:personalName "Makarios";
+  gndo:counting "I." .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Macarius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403409 .
+
+_:node1ivpishs6x25403409 gndo:personalName "Macarius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Makarios, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403410 .
+
+_:node1ivpishs6x25403410 gndo:personalName "Makarios";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Macarius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403411 .
+
+_:node1ivpishs6x25403411 gndo:personalName "Macarius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Makarios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403412 .
+
+_:node1ivpishs6x25403412 gndo:personalName "Makarios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Makarios I., Jerusalem, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403413 .
+
+_:node1ivpishs6x25403413 gndo:personalName "Makarios";
+  gndo:counting "I.";
+  gndo:nameAddition "Jerusalem, Bischof" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Makarios I., von Jerusalem, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403414 .
+
+_:node1ivpishs6x25403414 gndo:personalName "Makarios";
+  gndo:counting "I.";
+  gndo:nameAddition "von Jerusalem, Bischof" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Macarius I., Jerusalem, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403415 .
+
+_:node1ivpishs6x25403415 gndo:personalName "Macarius";
+  gndo:counting "I.";
+  gndo:nameAddition "Jerusalem, Bischof" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Macarius I., von Jerusalem, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403416 .
+
+_:node1ivpishs6x25403416 gndo:personalName "Macarius";
+  gndo:counting "I.";
+  gndo:nameAddition "von Jerusalem, Bischof" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Macarius I., Hierosolymitanus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403417 .
+
+_:node1ivpishs6x25403417 gndo:personalName "Macarius";
+  gndo:counting "I.";
+  gndo:nameAddition "Hierosolymitanus, Episcopus" .
+
+<https://d-nb.info/gnd/138863660> gndo:variantNameForThePerson "Macarius, Bishop of Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403418 .
+
+_:node1ivpishs6x25403418 gndo:personalName "Macarius";
+  gndo:nameAddition "Bishop of Jerusalem" .
+
+<https://d-nb.info/gnd/138863660> gndo:preferredNameForThePerson "Macarius I., Hierosolymitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403419 .
+
+_:node1ivpishs6x25403419 gndo:personalName "Macarius";
+  gndo:counting "I.";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/138863660> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IL>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/138863660/about> .
+
+<https://d-nb.info/gnd/138863660/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-355>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-355> .
+
+<https://d-nb.info/gnd/138863660> gndo:biographicalOrHistoricalInformation "Heiliger, Fest 10. März, Bischof von Jerusalem 313-334, Entdecker des Grab Jesu, von Konstantin dem Großen mit der Errichtung der Kirche des Heiligen Grabes beauftragt, Verfasser des Briefes an die Armenier, fälschlich Macarius II. zugeordnet."@de;
+  gndo:periodOfActivity "313-334";
+  gndo:professionOrOccupation _:node1ivpishs6x25403420 .
+
+_:node1ivpishs6x25403420 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4024055-1>;
+  rdf:_2 <https://d-nb.info/gnd/4006949-7> .
+

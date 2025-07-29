@@ -1,0 +1,143 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119413299> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119413299/about> .
+
+<https://d-nb.info/gnd/119413299/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-02-07T01:20:45.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119413299> gndo:gndIdentifier "119413299";
+  owl:sameAs <http://viaf.org/viaf/266150303>, <http://www.wikidata.org/entity/Q770924>,
+    <http://id.loc.gov/rwo/agents/no2006123357>;
+  gndo:oldAuthorityNumber "(DE-588)1147223602";
+  owl:sameAs <https://d-nb.info/gnd/1147223602>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1147223602";
+  gndo:oldAuthorityNumber "(DE-588)1089902697";
+  owl:sameAs <https://d-nb.info/gnd/1089902697>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089902697";
+  gndo:oldAuthorityNumber "(DE-588)1089751265";
+  owl:sameAs <https://d-nb.info/gnd/1089751265>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089751265";
+  gndo:oldAuthorityNumber "(DE-588)108961117X";
+  owl:sameAs <https://d-nb.info/gnd/108961117X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108961117X";
+  gndo:oldAuthorityNumber "(DE-588)1052806821";
+  owl:sameAs <https://d-nb.info/gnd/1052806821>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1052806821";
+  gndo:oldAuthorityNumber "(DE-588a)119413299", "(DE-588c)4437381-8";
+  gndo:variantNameForThePerson "Basileios, von Ankyra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589485 .
+
+_:node1ivs02adlx24589485 gndo:personalName "Basileios";
+  gndo:nameAddition "von Ankyra" .
+
+<https://d-nb.info/gnd/119413299> gndo:variantNameForThePerson "Basilius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589486 .
+
+_:node1ivs02adlx24589486 gndo:personalName "Basilius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/119413299> gndo:variantNameForThePerson "Basileios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589487 .
+
+_:node1ivs02adlx24589487 gndo:personalName "Basileios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/119413299> gndo:variantNameForThePerson "Basile, d'Ancyre";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589488 .
+
+_:node1ivs02adlx24589488 gndo:personalName "Basile";
+  gndo:nameAddition "d'Ancyre" .
+
+<https://d-nb.info/gnd/119413299> gndo:variantNameForThePerson "Basile, Médecin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589489 .
+
+_:node1ivs02adlx24589489 gndo:personalName "Basile";
+  gndo:nameAddition "Médecin" .
+
+<https://d-nb.info/gnd/119413299> gndo:variantNameForThePerson "Basilius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589490 .
+
+_:node1ivs02adlx24589490 gndo:personalName "Basilius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/119413299> gndo:variantNameForThePerson "Pseudo-Basilius, Ancyranus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589491 .
+
+_:node1ivs02adlx24589491 gndo:personalName "Pseudo-Basilius";
+  gndo:nameAddition "Ancyranus" .
+
+<https://d-nb.info/gnd/119413299> gndo:variantNameForThePerson "Basilius, von Ankyra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589492 .
+
+_:node1ivs02adlx24589492 gndo:personalName "Basilius";
+  gndo:nameAddition "von Ankyra" .
+
+<https://d-nb.info/gnd/119413299> gndo:preferredNameForThePerson "Basilius, Ancyranus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589493 .
+
+_:node1ivs02adlx24589493 gndo:personalName "Basilius";
+  gndo:nameAddition "Ancyranus" .
+
+<https://d-nb.info/gnd/119413299> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119413299/about> .
+
+<https://d-nb.info/gnd/119413299/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-605>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-605> .
+
+<https://d-nb.info/gnd/119413299> gndo:biographicalOrHistoricalInformation "Arzt u. Bischof von Ankyra"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24589494 .
+
+_:node1ivs02adlx24589494 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4003157-3>;
+  rdf:_2 <https://d-nb.info/gnd/4006949-7>;
+  rdf:_3 <https://d-nb.info/gnd/4036915-8> .
+
+<https://d-nb.info/gnd/119413299> gndo:dateOfDeath "0364"^^xsd:gYear .
+

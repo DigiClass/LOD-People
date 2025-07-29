@@ -1,0 +1,141 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118518496> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118518496/about> .
+
+<https://d-nb.info/gnd/118518496/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:25:27.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118518496> gndo:gndIdentifier "118518496";
+  owl:sameAs <https://dbpedia.org/resource/Callinus>, <http://viaf.org/viaf/16085183>,
+    <https://isni.org/isni/0000000092429189>, <http://www.wikidata.org/entity/Q334235>,
+    <http://id.loc.gov/rwo/agents/n81013545>;
+  gndo:oldAuthorityNumber "(DE-588)1089838379";
+  owl:sameAs <https://d-nb.info/gnd/1089838379>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089838379";
+  gndo:oldAuthorityNumber "(DE-588a)118518496", "(DE-588c)4009333-5";
+  gndo:variantNameForThePerson "Kallinos, Elegiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595071 .
+
+_:node1ivs02adlx24595071 gndo:personalName "Kallinos";
+  gndo:nameAddition "Elegiker" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Kallinos, Elegiendichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595072 .
+
+_:node1ivs02adlx24595072 gndo:personalName "Kallinos";
+  gndo:nameAddition "Elegiendichter" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Callinus, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595073 .
+
+_:node1ivs02adlx24595073 gndo:personalName "Callinus";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Callinus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595074 .
+
+_:node1ivs02adlx24595074 gndo:personalName "Callinus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Callinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595075 .
+
+_:node1ivs02adlx24595075 gndo:personalName "Callinus" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Callino, di Efeso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595076 .
+
+_:node1ivs02adlx24595076 gndo:personalName "Callino";
+  gndo:nameAddition "di Efeso" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Callinus, of Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595077 .
+
+_:node1ivs02adlx24595077 gndo:personalName "Callinus";
+  gndo:nameAddition "of Ephesus" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Callinos, d'Ephèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595078 .
+
+_:node1ivs02adlx24595078 gndo:personalName "Callinos";
+  gndo:nameAddition "d'Ephèse" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Callinus Ephesius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595079 .
+
+_:node1ivs02adlx24595079 gndo:personalName "Callinus Ephesius" .
+
+<https://d-nb.info/gnd/118518496> gndo:variantNameForThePerson "Kallinos, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595080 .
+
+_:node1ivs02adlx24595080 gndo:personalName "Kallinos";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/118518496> gndo:preferredNameForThePerson "Callinus, Ephesius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595081 .
+
+_:node1ivs02adlx24595081 gndo:personalName "Callinus";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/118518496> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Callinus: Callini Ephesii, Tyrtaei Aphidnaei, Asii Samii Carminum quae supersunt .... - 1831",
+    "Callinus <Ephesius>: [Carminum] quae supersunt. - 1831";
+  wdrs:describedby <https://d-nb.info/gnd/118518496/about> .
+
+<https://d-nb.info/gnd/118518496/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118518496> gndo:biographicalOrHistoricalInformation "Griech. Elegiker"@de;
+  gndo:udkCode "700 - 601 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24595082 .
+
+_:node1ivs02adlx24595082 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4168391-2> .
+
+<https://d-nb.info/gnd/118518496> gndo:dateOfBirthAndDeath "[v7. Jh.]" .
+

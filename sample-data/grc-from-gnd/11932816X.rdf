@@ -1,0 +1,156 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11932816X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11932816X/about> .
+
+<https://d-nb.info/gnd/11932816X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-02-14T11:30:26.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11932816X> gndo:gndIdentifier "11932816X";
+  foaf:page <https://de.wikipedia.org/wiki/Poseidippos>;
+  owl:sameAs <https://dbpedia.org/resource/Posidippus>, <http://viaf.org/viaf/71427145>,
+    <https://isni.org/isni/000000044296430X>, <http://www.wikidata.org/entity/Q1392801>,
+    <http://id.loc.gov/rwo/agents/nr97044893>;
+  gndo:oldAuthorityNumber "(DE-588)1089312857";
+  owl:sameAs <https://d-nb.info/gnd/1089312857>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089312857";
+  gndo:oldAuthorityNumber "(DE-588)1089736282";
+  owl:sameAs <https://d-nb.info/gnd/1089736282>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089736282";
+  gndo:oldAuthorityNumber "(DE-588a)11932816X", "(DE-588c)4407448-7";
+  gndo:variantNameForThePerson "Poseidippos, Epigrammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593509 .
+
+_:node1ivs02adlx24593509 gndo:personalName "Poseidippos";
+  gndo:nameAddition "Epigrammatiker" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posidippus, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593510 .
+
+_:node1ivs02adlx24593510 gndo:personalName "Posidippus";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posidippus, of Pella";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593511 .
+
+_:node1ivs02adlx24593511 gndo:personalName "Posidippus";
+  gndo:nameAddition "of Pella" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posidippus, Epigrammatist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593512 .
+
+_:node1ivs02adlx24593512 gndo:personalName "Posidippus";
+  gndo:nameAddition "Epigrammatist" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posidippo, di Pella";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593513 .
+
+_:node1ivs02adlx24593513 gndo:personalName "Posidippo";
+  gndo:nameAddition "di Pella" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posidippus, Thebanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593514 .
+
+_:node1ivs02adlx24593514 gndo:personalName "Posidippus";
+  gndo:nameAddition "Thebanus" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posidippus, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593515 .
+
+_:node1ivs02adlx24593515 gndo:personalName "Posidippus";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Poseidippos, von Theben";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593516 .
+
+_:node1ivs02adlx24593516 gndo:personalName "Poseidippos";
+  gndo:nameAddition "von Theben" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posejdippos, z Pelli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593517 .
+
+_:node1ivs02adlx24593517 gndo:personalName "Posejdippos";
+  gndo:nameAddition "z Pelli" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Poseidippos, von Pella";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593518 .
+
+_:node1ivs02adlx24593518 gndo:personalName "Poseidippos";
+  gndo:nameAddition "von Pella" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Poseidipp";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593519 .
+
+_:node1ivs02adlx24593519 gndo:personalName "Poseidipp" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posidipo de Pela";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593520 .
+
+_:node1ivs02adlx24593520 gndo:personalName "Posidipo de Pela" .
+
+<https://d-nb.info/gnd/11932816X> gndo:variantNameForThePerson "Posidippus of Pella";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593521 .
+
+_:node1ivs02adlx24593521 gndo:personalName "Posidippus of Pella" .
+
+<https://d-nb.info/gnd/11932816X> gndo:preferredNameForThePerson "Posidippus, Pellaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593522 .
+
+_:node1ivs02adlx24593522 gndo:personalName "Posidippus";
+  gndo:nameAddition "Pellaeus" .
+
+<https://d-nb.info/gnd/11932816X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/11932816X/about> .
+
+<https://d-nb.info/gnd/11932816X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/11932816X> gndo:biographicalOrHistoricalInformation "Identität mit Posidippus <Thebanus> umstritten; Griech. Epigrammatiker"@de;
+  gndo:udkCode "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0310"^^xsd:gYear;
+  gndo:dateOfDeath "-0240"^^xsd:gYear .
+

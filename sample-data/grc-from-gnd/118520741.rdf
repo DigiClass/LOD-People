@@ -1,0 +1,184 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118520741> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118520741/about> .
+
+<https://d-nb.info/gnd/118520741/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-08-09T00:30:44.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118520741> gndo:gndIdentifier "118520741";
+  foaf:page <https://de.wikipedia.org/wiki/Chrysippos_von_Soloi>;
+  owl:sameAs <https://dbpedia.org/resource/Chrysippus>, <http://viaf.org/viaf/265285548>,
+    <http://www.wikidata.org/entity/Q211411>, <http://id.loc.gov/rwo/agents/nr94013919>;
+  gndo:oldAuthorityNumber "(DE-588)128304944";
+  owl:sameAs <https://d-nb.info/gnd/128304944>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/128304944";
+  gndo:oldAuthorityNumber "(DE-588a)128304944", "(DE-588a)118520741", "(DE-588c)4010181-2";
+  gndo:variantNameForThePerson "Chrysippe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595111 .
+
+_:node1ivs02adlx24595111 gndo:personalName "Chrysippe" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Crisipo, de Solos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595112 .
+
+_:node1ivs02adlx24595112 gndo:personalName "Crisipo";
+  gndo:nameAddition "de Solos" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippos, von Soloi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595113 .
+
+_:node1ivs02adlx24595113 gndo:personalName "Chrysippos";
+  gndo:nameAddition "von Soloi" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595114 .
+
+_:node1ivs02adlx24595114 gndo:personalName "Chrysippos" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysipp";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595115 .
+
+_:node1ivs02adlx24595115 gndo:personalName "Chrysipp" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippus, Stoicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595116 .
+
+_:node1ivs02adlx24595116 gndo:personalName "Chrysippus";
+  gndo:nameAddition "Stoicus" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippos, Theoretiker der Stoa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595117 .
+
+_:node1ivs02adlx24595117 gndo:personalName "Chrysippos";
+  gndo:nameAddition "Theoretiker der Stoa" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysipp, von Soloi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595118 .
+
+_:node1ivs02adlx24595118 gndo:personalName "Chrysipp";
+  gndo:nameAddition "von Soloi" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595119 .
+
+_:node1ivs02adlx24595119 gndo:personalName "Chrysippus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippos, Sohn des Apollonios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595120 .
+
+_:node1ivs02adlx24595120 gndo:personalName "Chrysippos";
+  gndo:nameAddition "Sohn des Apollonios" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Crisippo, di Soli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595121 .
+
+_:node1ivs02adlx24595121 gndo:personalName "Crisippo";
+  gndo:nameAddition "di Soli" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Crisippo, Filosofo Stoico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595122 .
+
+_:node1ivs02adlx24595122 gndo:personalName "Crisippo";
+  gndo:nameAddition "Filosofo Stoico" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippe, de Soloi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595123 .
+
+_:node1ivs02adlx24595123 gndo:personalName "Chrysippe";
+  gndo:nameAddition "de Soloi" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippus, Soleus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595124 .
+
+_:node1ivs02adlx24595124 gndo:personalName "Chrysippus";
+  gndo:nameAddition "Soleus" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippe, de Soles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595125 .
+
+_:node1ivs02adlx24595125 gndo:personalName "Chrysippe";
+  gndo:nameAddition "de Soles" .
+
+<https://d-nb.info/gnd/118520741> gndo:variantNameForThePerson "Chrysippe, de Tarse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595126 .
+
+_:node1ivs02adlx24595126 gndo:personalName "Chrysippe";
+  gndo:nameAddition "de Tarse" .
+
+<https://d-nb.info/gnd/118520741> gndo:preferredNameForThePerson "Chrysippus, Solensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595127 .
+
+_:node1ivs02adlx24595127 gndo:personalName "Chrysippus";
+  gndo:nameAddition "Solensis" .
+
+<https://d-nb.info/gnd/118520741> gndo:professionalRelationship <https://d-nb.info/gnd/119265036>;
+  gndo:hasRelation _:node1ivs02adlx24595128 .
+
+_:node1ivs02adlx24595128 gndo:professionalRelationship <https://d-nb.info/gnd/119265036>;
+  gndo:functionOrRoleAsLiteral "Schüler";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118520741> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:relatedSubjectHeading <https://d-nb.info/gnd/4077910-5>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118520741/about> .
+
+<https://d-nb.info/gnd/118520741/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118520741> gndo:biographicalOrHistoricalInformation "Griech. Philosoph"@de;
+  gndo:udkCode "300 - 201 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/1221279335>;
+  gndo:professionOrOccupation _:node1ivs02adlx24595129 .
+
+_:node1ivs02adlx24595129 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118520741> gndo:dateOfBirth "-0281"^^xsd:gYear;
+  gndo:dateOfDeath "-0208"^^xsd:gYear .
+

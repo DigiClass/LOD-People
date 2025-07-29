@@ -1,0 +1,519 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11850374X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11850374X/about> .
+
+<https://d-nb.info/gnd/11850374X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-16T05:45:28.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11850374X> gndo:gndIdentifier "11850374X";
+  foaf:page <https://de.wikipedia.org/wiki/Apuleius>;
+  owl:sameAs <https://dbpedia.org/resource/Apuleius>, <http://viaf.org/viaf/32115433>,
+    <https://isni.org/isni/0000000121268143>, <http://www.wikidata.org/entity/Q170512>,
+    <http://id.loc.gov/rwo/agents/n80126286>;
+  gndo:oldAuthorityNumber "(DE-588)108994991X";
+  owl:sameAs <https://d-nb.info/gnd/108994991X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108994991X";
+  gndo:oldAuthorityNumber "(DE-588)1095139851";
+  owl:sameAs <https://d-nb.info/gnd/1095139851>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1095139851";
+  gndo:oldAuthorityNumber "(DE-588)1041209843";
+  owl:sameAs <https://d-nb.info/gnd/1041209843>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1041209843";
+  gndo:oldAuthorityNumber "(DE-588)1024769011";
+  owl:sameAs <https://d-nb.info/gnd/1024769011>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1024769011";
+  gndo:oldAuthorityNumber "(DE-588)1014916402";
+  owl:sameAs <https://d-nb.info/gnd/1014916402>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1014916402";
+  gndo:oldAuthorityNumber "(DE-588a)1014916402", "(DE-588)18833114X";
+  owl:sameAs <https://d-nb.info/gnd/18833114X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18833114X";
+  gndo:oldAuthorityNumber "(DE-588a)18833114X", "(DE-588)187842574";
+  owl:sameAs <https://d-nb.info/gnd/187842574>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187842574";
+  gndo:oldAuthorityNumber "(DE-588a)187842574", "(DE-588)186071558";
+  owl:sameAs <https://d-nb.info/gnd/186071558>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186071558";
+  gndo:oldAuthorityNumber "(DE-588a)186071558", "(DE-588)185988695";
+  owl:sameAs <https://d-nb.info/gnd/185988695>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185988695";
+  gndo:oldAuthorityNumber "(DE-588a)11850374X", "(DE-588a)188325697", "(DE-588)188325697";
+  owl:sameAs <https://d-nb.info/gnd/188325697>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188325697";
+  gndo:oldAuthorityNumber "(DE-588a)171952693", "(DE-588)171952693";
+  owl:sameAs <https://d-nb.info/gnd/171952693>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/171952693";
+  gndo:oldAuthorityNumber "(DE-588a)174158912", "(DE-588)174158912";
+  owl:sameAs <https://d-nb.info/gnd/174158912>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174158912";
+  gndo:oldAuthorityNumber "(DE-588a)182830632", "(DE-588)182830632";
+  owl:sameAs <https://d-nb.info/gnd/182830632>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182830632";
+  gndo:oldAuthorityNumber "(DE-588a)185988695";
+  gndo:variantNameForThePerson "Appulejus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590638 .
+
+_:node1ivs02adlx24590638 gndo:personalName "Appulejus" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleyo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590639 .
+
+_:node1ivs02adlx24590639 gndo:personalName "Apuleyo" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulejus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590640 .
+
+_:node1ivs02adlx24590640 gndo:personalName "Apulejus" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Abūljūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590641 .
+
+_:node1ivs02adlx24590641 gndo:personalName "Abūljūs" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulegio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590642 .
+
+_:node1ivs02adlx24590642 gndo:personalName "Apulegio" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590643 .
+
+_:node1ivs02adlx24590643 gndo:personalName "Apuleo" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius Africanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590644 .
+
+_:node1ivs02adlx24590644 gndo:personalName "Apuleius Africanus" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, of Madaura";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590645 .
+
+_:node1ivs02adlx24590645 gndo:personalName "Apuleius";
+  gndo:nameAddition "of Madaura" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleyo, de Madauros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590646 .
+
+_:node1ivs02adlx24590646 gndo:personalName "Apuleyo";
+  gndo:nameAddition "de Madauros" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Lucius, Madaurensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590647 .
+
+_:node1ivs02adlx24590647 gndo:personalName "Lucius";
+  gndo:nameAddition "Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Lūkjūs Abūljūs, al-Madaurī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590648 .
+
+_:node1ivs02adlx24590648 gndo:personalName "Lūkjūs Abūljūs";
+  gndo:nameAddition "al-Madaurī" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Madaurensis, Lucius Apulejus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590649 .
+
+_:node1ivs02adlx24590649 gndo:forename "Lucius Apulejus";
+  gndo:surname "Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590650 .
+
+_:node1ivs02adlx24590650 gndo:forename "Lucius";
+  gndo:surname "Apuleius" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Abūljūs al-Madaurī, Lūkjūs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590651 .
+
+_:node1ivs02adlx24590651 gndo:forename "Lūkjūs";
+  gndo:surname "Abūljūs al-Madaurī" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apullius, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590652 .
+
+_:node1ivs02adlx24590652 gndo:forename "Lucius";
+  gndo:surname "Apullius" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, Lucius, von Madaura";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590653 .
+
+_:node1ivs02adlx24590653 gndo:forename "Lucius";
+  gndo:surname "Apuleius";
+  gndo:nameAddition "von Madaura" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Madaurensis, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590654 .
+
+_:node1ivs02adlx24590654 gndo:forename "Lucius";
+  gndo:surname "Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulée, Luce";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590655 .
+
+_:node1ivs02adlx24590655 gndo:forename "Luce";
+  gndo:surname "Apulée" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleyo, Lucio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590656 .
+
+_:node1ivs02adlx24590656 gndo:forename "Lucio";
+  gndo:surname "Apuleyo" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Madaura, Lucius Apuleius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590657 .
+
+_:node1ivs02adlx24590657 gndo:forename "Lucius Apuleius";
+  gndo:surname "Madaura" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Madaura, Lucius A. von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590658 .
+
+_:node1ivs02adlx24590658 gndo:forename "Lucius A.";
+  gndo:prefix "von";
+  gndo:surname "Madaura" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Appuleius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590659 .
+
+_:node1ivs02adlx24590659 gndo:personalName "Appuleius" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590660 .
+
+_:node1ivs02adlx24590660 gndo:personalName "Apuleio" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, Afer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590661 .
+
+_:node1ivs02adlx24590661 gndo:personalName "Apuleius";
+  gndo:nameAddition "Afer" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, Celsus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590662 .
+
+_:node1ivs02adlx24590662 gndo:personalName "Apuleius";
+  gndo:nameAddition "Celsus" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Appuleius, Philosopher";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590663 .
+
+_:node1ivs02adlx24590663 gndo:personalName "Appuleius";
+  gndo:nameAddition "Philosopher" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590664 .
+
+_:node1ivs02adlx24590664 gndo:personalName "Apuleius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590665 .
+
+_:node1ivs02adlx24590665 gndo:personalName "Apuleius";
+  gndo:nameAddition "Sophist" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleio, Neosofista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590666 .
+
+_:node1ivs02adlx24590666 gndo:personalName "Apuleio";
+  gndo:nameAddition "Neosofista" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, von Madaura";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590667 .
+
+_:node1ivs02adlx24590667 gndo:personalName "Apuleius";
+  gndo:nameAddition "von Madaura" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, von Madauros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590668 .
+
+_:node1ivs02adlx24590668 gndo:personalName "Apuleius";
+  gndo:nameAddition "von Madauros" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulée, de Madaure";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590669 .
+
+_:node1ivs02adlx24590669 gndo:personalName "Apulée";
+  gndo:nameAddition "de Madaure" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulée, de Numidie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590670 .
+
+_:node1ivs02adlx24590670 gndo:personalName "Apulée";
+  gndo:nameAddition "de Numidie" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius Madaurensis, Afer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590671 .
+
+_:node1ivs02adlx24590671 gndo:personalName "Apuleius Madaurensis";
+  gndo:nameAddition "Afer" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, Platonicus Madaurensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590672 .
+
+_:node1ivs02adlx24590672 gndo:personalName "Apuleius";
+  gndo:nameAddition "Platonicus Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Lucius Apulejus, Madaurensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590673 .
+
+_:node1ivs02adlx24590673 gndo:personalName "Lucius Apulejus";
+  gndo:nameAddition "Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Appuleius Madaurensis, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590674 .
+
+_:node1ivs02adlx24590674 gndo:forename "Lucius";
+  gndo:surname "Appuleius Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Appuleius, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590675 .
+
+_:node1ivs02adlx24590675 gndo:forename "Lucius";
+  gndo:surname "Appuleius" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius Madaurensis, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590676 .
+
+_:node1ivs02adlx24590676 gndo:forename "Lucius";
+  gndo:surname "Apuleius Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius Marcellus, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590677 .
+
+_:node1ivs02adlx24590677 gndo:forename "Lucius";
+  gndo:surname "Apuleius Marcellus" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, Lucius, Madaurensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590678 .
+
+_:node1ivs02adlx24590678 gndo:forename "Lucius";
+  gndo:surname "Apuleius";
+  gndo:nameAddition "Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Madaurensis, Lucius Apuleius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590679 .
+
+_:node1ivs02adlx24590679 gndo:forename "Lucius Apuleius";
+  gndo:surname "Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulejus Madaurensis, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590680 .
+
+_:node1ivs02adlx24590680 gndo:forename "Lucius";
+  gndo:surname "Apulejus Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius-Madaurensis, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590681 .
+
+_:node1ivs02adlx24590681 gndo:forename "Lucius";
+  gndo:surname "Apuleius-Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleio, Lucio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590682 .
+
+_:node1ivs02adlx24590682 gndo:forename "Lucio";
+  gndo:surname "Apuleio" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590683 .
+
+_:node1ivs02adlx24590683 gndo:personalName "Apuleius" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulée";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590684 .
+
+_:node1ivs02adlx24590684 gndo:personalName "Apulée" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulejus, von Madaura";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590685 .
+
+_:node1ivs02adlx24590685 gndo:personalName "Apulejus";
+  gndo:nameAddition "von Madaura" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleius, of Madauros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590686 .
+
+_:node1ivs02adlx24590686 gndo:personalName "Apuleius";
+  gndo:nameAddition "of Madauros" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Lucius Apuleius, Madaurensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590687 .
+
+_:node1ivs02adlx24590687 gndo:personalName "Lucius Apuleius";
+  gndo:nameAddition "Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apulejus, Lucius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590688 .
+
+_:node1ivs02adlx24590688 gndo:forename "Lucius";
+  gndo:surname "Apulejus" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Apuleio, di Madaura";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590689 .
+
+_:node1ivs02adlx24590689 gndo:personalName "Apuleio";
+  gndo:nameAddition "di Madaura" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Lucio Apuleyo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590690 .
+
+_:node1ivs02adlx24590690 gndo:personalName "Lucio Apuleyo" .
+
+<https://d-nb.info/gnd/11850374X> gndo:variantNameForThePerson "Lucio, Apuleyo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590691 .
+
+_:node1ivs02adlx24590691 gndo:personalName "Lucio";
+  gndo:nameAddition "Apuleyo" .
+
+<https://d-nb.info/gnd/11850374X> gndo:preferredNameForThePerson "Apuleius, Madaurensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590692 .
+
+_:node1ivs02adlx24590692 gndo:personalName "Apuleius";
+  gndo:nameAddition "Madaurensis" .
+
+<https://d-nb.info/gnd/11850374X> gndo:relatedPerson <https://d-nb.info/gnd/102553556>;
+  gndo:hasRelation _:node1ivs02adlx24590693 .
+
+_:node1ivs02adlx24590693 gndo:relatedPerson <https://d-nb.info/gnd/102553556> .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118973894>;
+  gndo:hasRelation _:node1ivs02adlx24590694 .
+
+_:node1ivs02adlx24590694 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118973894>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102380929>;
+  gndo:hasRelation _:node1ivs02adlx24590695 .
+
+_:node1ivs02adlx24590695 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102380929>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118656589>;
+  gndo:hasRelation _:node1ivs02adlx24590696 .
+
+_:node1ivs02adlx24590696 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118656589>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118985949>;
+  gndo:hasRelation _:node1ivs02adlx24590697 .
+
+_:node1ivs02adlx24590697 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118985949>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119068982>;
+  gndo:hasRelation _:node1ivs02adlx24590698 .
+
+_:node1ivs02adlx24590698 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119068982>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128679646>;
+  gndo:hasRelation _:node1ivs02adlx24590699 .
+
+_:node1ivs02adlx24590699 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128679646>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124900089>;
+  gndo:hasRelation _:node1ivs02adlx24590700 .
+
+_:node1ivs02adlx24590700 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124900089>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118641522>;
+  gndo:hasRelation _:node1ivs02adlx24590701 .
+
+_:node1ivs02adlx24590701 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118641522>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100782787>;
+  gndo:hasRelation _:node1ivs02adlx24590702 .
+
+_:node1ivs02adlx24590702 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100782787>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100411924>;
+  gndo:hasRelation _:node1ivs02adlx24590703 .
+
+_:node1ivs02adlx24590703 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100411924>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11850374X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#18p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/lat>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Floridorum libri. 1516. (VD16 ZV 672)", "Ain Schõn Lieblich auch kurtzweylig gedichte Lutij Apuleij von ainem gulden Esel ... mit ... 1538. (VD16 A 3179)",
+    "L. APVLEII MADAVRENSIS PHILOSOPHI PLATONICI QVAE QVIDEM EXTARE NOVIMVVS monimenta, ... 1533. (VD16 A 3170)",
+    "De dogmate Platonis li. unus. 1516. (VD16 A 3175)", "FAbula psyches lepidissima. ex aureo Lucij Apuleij ... sumpta.. 1512. (VD16 A 3176)",
+    "L. APVLEII MADAVRENSIS philosophi Platonici OPERA Quae quidem extant omnia. IN PRIMIS ... 1597. (VD16 A 3172)",
+    "Patrizi, Francesco: Asclepius de voluntate Dei. 1593. (VD16 P 917)", "LUcij Apuleij fabulosa Enarratio de nuptijs Psyche non minus theologica \\̃///q poetica.. 1515. (VD16 A 3177)",
+    "L.APVLEI MADAVRENSIS PHILOSOPHI PLATONICI Apologia. ISAACVS CASAVBONVS recensuit, Graeca ... 1594. (VD16 A 3173)",
+    "L.APVLEII MADAVRENSIS PHILOSOPHI PLATONICI OPERA, quae quidem extant, omnia: & in primis ... 1560. (VD16 A 3171)";
+  wdrs:describedby <https://d-nb.info/gnd/11850374X/about> .
+
+<https://d-nb.info/gnd/11850374X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11850374X> gndo:biographicalOrHistoricalInformation "Platoniker, Sophist, Rechtsanwalt und Verfasser philosophischer, naturwissenschaftlicher und literarischer Werke in griechischer und lateinischer Sprache. Erhalten sind nur die lateinischen Werke"@de;
+  gndo:professionOrOccupation _:node1ivs02adlx24590704 .
+
+_:node1ivs02adlx24590704 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_3 <https://d-nb.info/gnd/4048755-6> .
+
+<https://d-nb.info/gnd/11850374X> gndo:dateOfBirth "0123"^^xsd:gYear;
+  gndo:dateOfDeath "0170"^^xsd:gYear .
+

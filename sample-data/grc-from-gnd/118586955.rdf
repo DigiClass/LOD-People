@@ -1,0 +1,209 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118586955> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118586955/about> .
+
+<https://d-nb.info/gnd/118586955/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:12:59.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118586955> gndo:gndIdentifier "118586955";
+  owl:sameAs <https://dbpedia.org/resource/Nemesius>, <http://viaf.org/viaf/111352825>,
+    <http://www.wikidata.org/entity/Q960345>;
+  gndo:oldAuthorityNumber "(DE-588)1089892217";
+  owl:sameAs <https://d-nb.info/gnd/1089892217>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089892217";
+  gndo:oldAuthorityNumber "(DE-588)1089726287";
+  owl:sameAs <https://d-nb.info/gnd/1089726287>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726287";
+  gndo:oldAuthorityNumber "(DE-588)1089602804";
+  owl:sameAs <https://d-nb.info/gnd/1089602804>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089602804";
+  gndo:oldAuthorityNumber "(DE-588)176828354";
+  owl:sameAs <https://d-nb.info/gnd/176828354>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/176828354";
+  gndo:oldAuthorityNumber "(DE-588)182158780";
+  owl:sameAs <https://d-nb.info/gnd/182158780>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182158780";
+  gndo:oldAuthorityNumber "(DE-588a)182158780", "(DE-588a)176828354", "(DE-588a)118586955",
+    "(DE-588a)10095426X", "(DE-588c)4041589-2";
+  gndo:variantNameForThePerson "Nemesios, von Homs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402580 .
+
+_:node1ivpishs6x25402580 gndo:personalName "Nemesios";
+  gndo:nameAddition "von Homs" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesius, von Emesa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402581 .
+
+_:node1ivpishs6x25402581 gndo:personalName "Nemesius";
+  gndo:nameAddition "von Emesa" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesius, de Emesa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402582 .
+
+_:node1ivpishs6x25402582 gndo:personalName "Nemesius";
+  gndo:nameAddition "de Emesa" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402583 .
+
+_:node1ivpishs6x25402583 gndo:personalName "Nemesius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Emesenus, Nemesius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402584 .
+
+_:node1ivpishs6x25402584 gndo:forename "Nemesius";
+  gndo:surname "Emesenus" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402585 .
+
+_:node1ivpishs6x25402585 gndo:personalName "Nemesios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesius, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402586 .
+
+_:node1ivpishs6x25402586 gndo:personalName "Nemesius";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesius, of Emesa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402587 .
+
+_:node1ivpishs6x25402587 gndo:personalName "Nemesius";
+  gndo:nameAddition "of Emesa" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402588 .
+
+_:node1ivpishs6x25402588 gndo:personalName "Nemesius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesius, Bishop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402589 .
+
+_:node1ivpishs6x25402589 gndo:personalName "Nemesius";
+  gndo:nameAddition "Bishop" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Némésius, d'Émèse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402590 .
+
+_:node1ivpishs6x25402590 gndo:personalName "Némésius";
+  gndo:nameAddition "d'Émèse" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesios, von Emesa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402591 .
+
+_:node1ivpishs6x25402591 gndo:personalName "Nemesios";
+  gndo:nameAddition "von Emesa" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesio, di Emesa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402592 .
+
+_:node1ivpishs6x25402592 gndo:personalName "Nemesio";
+  gndo:nameAddition "di Emesa" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesios, Emesac̕i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402593 .
+
+_:node1ivpishs6x25402593 gndo:personalName "Nemesios";
+  gndo:nameAddition "Emesac̕i" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesios, p̕ilisop̕ay Emesac̕i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402594 .
+
+_:node1ivpishs6x25402594 gndo:personalName "Nemesios";
+  gndo:nameAddition "p̕ilisop̕ay Emesac̕i" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Nemesius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402595 .
+
+_:node1ivpishs6x25402595 gndo:personalName "Nemesius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Նեմեսիոս, Եմեսացի"@hy;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402596 .
+
+_:node1ivpishs6x25402596 gndo:personalName "Նեմեսիոս";
+  gndo:nameAddition "Եմեսացի" .
+
+<https://d-nb.info/gnd/118586955> gndo:variantNameForThePerson "Նեմեսիոս, փիլիսոփայ Եմեսացի"@hy;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402597 .
+
+_:node1ivpishs6x25402597 gndo:personalName "Նեմեսիոս";
+  gndo:nameAddition "փիլիսոփայ Եմեսացի" .
+
+<https://d-nb.info/gnd/118586955> gndo:preferredNameForThePerson "Nemesius, Emesenus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402598 .
+
+_:node1ivpishs6x25402598 gndo:personalName "Nemesius";
+  gndo:nameAddition "Emesenus" .
+
+<https://d-nb.info/gnd/118586955> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-SY>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/syr>;
+  gndo:publication "De natura hominis Liber unus", "De natura hominis", "De natura hominis",
+    "The nature of man", "De natura hominis liber unus", "Peri physeōs anthrōpu biblion ... de natura hominis.- 1671",
+    "Demetrius <Cydonius>: Demetrii Cydonii sive Nemesii Emeseni Episc. de contemptu mortis, g*",
+    "Nemesii ... de natura hominis liber utilissimus", "Von der Natur des Menschen", "Yaġags bnowt̕ean mardoy";
+  wdrs:describedby <https://d-nb.info/gnd/118586955/about> .
+
+<https://d-nb.info/gnd/118586955/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118586955> gndo:biographicalOrHistoricalInformation "Philosoph, Kirchenschriftsteller u. Bischof von Emesa"@de;
+  gndo:udkCode "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402599 .
+
+_:node1ivpishs6x25402599 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4030752-9>;
+  rdf:_3 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118586955> gndo:dateOfBirthAndDeath "[1. Hälfte 5. Jh.]" .
+

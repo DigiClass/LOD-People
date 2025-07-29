@@ -1,0 +1,207 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/12918814X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/12918814X/about> .
+
+<https://d-nb.info/gnd/12918814X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-24T14:51:25.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/12918814X> gndo:gndIdentifier "12918814X";
+  owl:sameAs <https://dbpedia.org/resource/Saint_Nicholas>, <http://viaf.org/viaf/172332216>,
+    <https://isni.org/isni/0000000122535506>, <http://www.wikidata.org/entity/Q44269>,
+    <http://id.loc.gov/rwo/agents/n50053594>;
+  gndo:oldAuthorityNumber "(DE-588)1159353638";
+  owl:sameAs <https://d-nb.info/gnd/1159353638>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1159353638";
+  gndo:oldAuthorityNumber "(DE-588)1089440227";
+  owl:sameAs <https://d-nb.info/gnd/1089440227>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089440227";
+  gndo:oldAuthorityNumber "(DE-588a)12918814X", "(DE-588c)4785823-0";
+  gndo:variantNameForThePerson "Nikolaus, von Myra, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594175 .
+
+_:node1ivs02adlx24594175 gndo:personalName "Nikolaus";
+  gndo:nameAddition "von Myra, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nicolaus, of Myra, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594176 .
+
+_:node1ivs02adlx24594176 gndo:personalName "Nicolaus";
+  gndo:nameAddition "of Myra, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nicholai, of Myra, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594177 .
+
+_:node1ivs02adlx24594177 gndo:personalName "Nicholai";
+  gndo:nameAddition "of Myra, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nicolas, de Myra, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594178 .
+
+_:node1ivs02adlx24594178 gndo:personalName "Nicolas";
+  gndo:nameAddition "de Myra, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Niccolò, di Mirra, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594179 .
+
+_:node1ivs02adlx24594179 gndo:personalName "Niccolò";
+  gndo:nameAddition "di Mirra, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Niccolò, di Mira, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594180 .
+
+_:node1ivs02adlx24594180 gndo:personalName "Niccolò";
+  gndo:nameAddition "di Mira, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nicola, di Mira, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594181 .
+
+_:node1ivs02adlx24594181 gndo:personalName "Nicola";
+  gndo:nameAddition "di Mira, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Niccolò, di Bari, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594182 .
+
+_:node1ivs02adlx24594182 gndo:personalName "Niccolò";
+  gndo:nameAddition "di Bari, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nikolaus, von Bari, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594183 .
+
+_:node1ivs02adlx24594183 gndo:personalName "Nikolaus";
+  gndo:nameAddition "von Bari, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nicolaus, di Bari, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594184 .
+
+_:node1ivs02adlx24594184 gndo:personalName "Nicolaus";
+  gndo:nameAddition "di Bari, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nicolaus, von Myra, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594185 .
+
+_:node1ivs02adlx24594185 gndo:personalName "Nicolaus";
+  gndo:nameAddition "von Myra, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nicolaus, von Bari, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594186 .
+
+_:node1ivs02adlx24594186 gndo:personalName "Nicolaus";
+  gndo:nameAddition "von Bari, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nikola, Sveti";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594187 .
+
+_:node1ivs02adlx24594187 gndo:personalName "Nikola";
+  gndo:nameAddition "Sveti" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nikola, Sveti Čudotvorac";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594188 .
+
+_:node1ivs02adlx24594188 gndo:personalName "Nikola";
+  gndo:nameAddition "Sveti Čudotvorac" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Sveti Nikola, Čudotvorac";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594189 .
+
+_:node1ivs02adlx24594189 gndo:personalName "Sveti Nikola";
+  gndo:nameAddition "Čudotvorac" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nikolaj Čudotvorec archiepiskop Mir Likijskich";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594190 .
+
+_:node1ivs02adlx24594190 gndo:personalName "Nikolaj Čudotvorec archiepiskop Mir Likijskich" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nicholas, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594191 .
+
+_:node1ivs02adlx24594191 gndo:forename "Saint";
+  gndo:surname "Nicholas" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nikola, Mirlikijski, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594192 .
+
+_:node1ivs02adlx24594192 gndo:personalName "Nikola";
+  gndo:nameAddition "Mirlikijski, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nikola, Episkop Mire Likijske, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594193 .
+
+_:node1ivs02adlx24594193 gndo:personalName "Nikola";
+  gndo:nameAddition "Episkop Mire Likijske, Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:variantNameForThePerson "Nikolaos, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594194 .
+
+_:node1ivs02adlx24594194 gndo:personalName "Nikolaos";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:preferredNameForThePerson "Nikolaus, Heiliger";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594195 .
+
+_:node1ivs02adlx24594195 gndo:personalName "Nikolaus";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/12918814X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:broaderTermInstantial <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/12918814X/about> .
+
+<https://d-nb.info/gnd/12918814X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/12918814X> gndo:biographicalOrHistoricalInformation "Bischof von Myra; Heiliger"@de;
+  gndo:udkCode "201 - 300", "301 - 400";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4759533-4>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594196 .
+
+_:node1ivs02adlx24594196 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/12918814X> gndo:dateOfBirth "0270"^^xsd:gYear;
+  gndo:dateOfDeath "0343"^^xsd:gYear .
+

@@ -1,0 +1,162 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/10240674X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/10240674X/about> .
+
+<https://d-nb.info/gnd/10240674X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-06-27T00:34:40.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/10240674X> gndo:gndIdentifier "10240674X";
+  foaf:page <https://de.wikipedia.org/wiki/Straton_von_Sardis>;
+  owl:sameAs <http://viaf.org/viaf/86796367>, <https://isni.org/isni/000000011468443X>,
+    <http://www.wikidata.org/entity/Q1348069>, <http://id.loc.gov/rwo/agents/no99034552>;
+  gndo:oldAuthorityNumber "(DE-588)1089758707";
+  owl:sameAs <https://d-nb.info/gnd/1089758707>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089758707";
+  gndo:oldAuthorityNumber "(DE-588)1089459467";
+  owl:sameAs <https://d-nb.info/gnd/1089459467>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089459467";
+  gndo:oldAuthorityNumber "(DE-588a)10240674X", "(DE-588a)186059604", "(DE-588a)177496703",
+    "(DE-588c)4521820-1";
+  gndo:variantNameForThePerson "Strato, De Sarde";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404580 .
+
+_:node1ivpishs6x25404580 gndo:personalName "Strato";
+  gndo:nameAddition "De Sarde" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Straton, von Sardeis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404581 .
+
+_:node1ivpishs6x25404581 gndo:personalName "Straton";
+  gndo:nameAddition "von Sardeis" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Strato, of Sardes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404582 .
+
+_:node1ivpishs6x25404582 gndo:personalName "Strato";
+  gndo:nameAddition "of Sardes" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Stratone, di Sardi";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404583 .
+
+_:node1ivpishs6x25404583 gndo:personalName "Stratone";
+  gndo:nameAddition "di Sardi" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Strato, Sardianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404584 .
+
+_:node1ivpishs6x25404584 gndo:personalName "Strato";
+  gndo:nameAddition "Sardianus" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Strato, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404585 .
+
+_:node1ivpishs6x25404585 gndo:personalName "Strato";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Straton, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404586 .
+
+_:node1ivpishs6x25404586 gndo:personalName "Straton";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Strato, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404587 .
+
+_:node1ivpishs6x25404587 gndo:personalName "Strato";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Stratōn";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404588 .
+
+_:node1ivpishs6x25404588 gndo:personalName "Stratōn" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Strato";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404589 .
+
+_:node1ivpishs6x25404589 gndo:personalName "Strato" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Straton";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404590 .
+
+_:node1ivpishs6x25404590 gndo:personalName "Straton" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Stratonicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404591 .
+
+_:node1ivpishs6x25404591 gndo:personalName "Stratonicus" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Strato, de Sarde";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404592 .
+
+_:node1ivpishs6x25404592 gndo:personalName "Strato";
+  gndo:nameAddition "de Sarde" .
+
+<https://d-nb.info/gnd/10240674X> gndo:variantNameForThePerson "Straton, von Sardes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404593 .
+
+_:node1ivpishs6x25404593 gndo:personalName "Straton";
+  gndo:nameAddition "von Sardes" .
+
+<https://d-nb.info/gnd/10240674X> gndo:preferredNameForThePerson "Straton, Sardianus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404594 .
+
+_:node1ivpishs6x25404594 gndo:personalName "Straton";
+  gndo:nameAddition "Sardianus" .
+
+<https://d-nb.info/gnd/10240674X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/10240674X/about> .
+
+<https://d-nb.info/gnd/10240674X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/10240674X> gndo:biographicalOrHistoricalInformation "|Verfasser homoerotischer Epigramme"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

@@ -1,0 +1,207 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118530674> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118530674/about> .
+
+<https://d-nb.info/gnd/118530674/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118530674> gndo:gndIdentifier "118530674";
+  owl:sameAs <https://dbpedia.org/resource/Eratosthenes>, <http://viaf.org/viaf/165484407>,
+    <http://www.wikidata.org/entity/Q43182>;
+  gndo:oldAuthorityNumber "(DE-588)1089156707";
+  owl:sameAs <https://d-nb.info/gnd/1089156707>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089156707";
+  gndo:oldAuthorityNumber "(DE-588)174054408";
+  owl:sameAs <https://d-nb.info/gnd/174054408>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174054408";
+  gndo:oldAuthorityNumber "(DE-588a)174054408", "(DE-588)1089921888";
+  owl:sameAs <https://d-nb.info/gnd/1089921888>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089921888";
+  gndo:oldAuthorityNumber "(DE-588)1089773390";
+  owl:sameAs <https://d-nb.info/gnd/1089773390>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089773390";
+  gndo:oldAuthorityNumber "(DE-588a)118530674", "(DE-588c)4015090-2";
+  gndo:variantNameForThePerson "Eratosthenes, Beta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592728 .
+
+_:node1ivs02adlx24592728 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Beta" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Bibliothekar";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592729 .
+
+_:node1ivs02adlx24592729 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Bibliothekar" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Cyrenaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592730 .
+
+_:node1ivs02adlx24592730 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Cyrenaeus" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, of Cyrene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592731 .
+
+_:node1ivs02adlx24592731 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "of Cyrene" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, von Cyrene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592732 .
+
+_:node1ivs02adlx24592732 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "von Cyrene" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592733 .
+
+_:node1ivs02adlx24592733 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592734 .
+
+_:node1ivs02adlx24592734 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592735 .
+
+_:node1ivs02adlx24592735 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, von Kyrene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592736 .
+
+_:node1ivs02adlx24592736 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "von Kyrene" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Philologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592737 .
+
+_:node1ivs02adlx24592737 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Philologe" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Philologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592738 .
+
+_:node1ivs02adlx24592738 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Philologus" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Prinzenerzieher";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592739 .
+
+_:node1ivs02adlx24592739 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Prinzenerzieher" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Schüler des Kallimachos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592740 .
+
+_:node1ivs02adlx24592740 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Schüler des Kallimachos" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenes, Variae Scientiae Scriptor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592741 .
+
+_:node1ivs02adlx24592741 gndo:personalName "Eratosthenes";
+  gndo:nameAddition "Variae Scientiae Scriptor" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratostene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592742 .
+
+_:node1ivs02adlx24592742 gndo:personalName "Eratostene" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Ératosthène";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592743 .
+
+_:node1ivs02adlx24592743 gndo:personalName "Ératosthène" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthène, de Cyrène";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592744 .
+
+_:node1ivs02adlx24592744 gndo:personalName "Eratosthène";
+  gndo:nameAddition "de Cyrène" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Eratosthenos, Kyrēnaios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592745 .
+
+_:node1ivs02adlx24592745 gndo:personalName "Eratosthenos";
+  gndo:nameAddition "Kyrēnaios" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Pseudo-Eratosthenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592746 .
+
+_:node1ivs02adlx24592746 gndo:personalName "Pseudo-Eratosthenes" .
+
+<https://d-nb.info/gnd/118530674> gndo:variantNameForThePerson "Cyrenaeus, Eratosthenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592747 .
+
+_:node1ivs02adlx24592747 gndo:forename "Eratosthenes";
+  gndo:surname "Cyrenaeus" .
+
+<https://d-nb.info/gnd/118530674> gndo:preferredNameForThePerson "Eratosthenes";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592748 .
+
+_:node1ivs02adlx24592748 gndo:personalName "Eratosthenes" .
+
+<https://d-nb.info/gnd/118530674> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De terrae ambitus vera quantitate", "Katasterismoi", "Canon", "Geographicorum fragmenta",
+    "Catasterismi", "The Laterculus", "Eusebius <Caesariensis>: Sanchoniatho's Phoenician History",
+    "Sanchoniatho's Phoenician History", "Sanchoniatho: Phoenicische Historie";
+  wdrs:describedby <https://d-nb.info/gnd/118530674/about> .
+
+<https://d-nb.info/gnd/118530674/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118530674> gndo:biographicalOrHistoricalInformation "Griech. Universalgelehrter u. Schriftsteller, seit 246 v. Chr. Vorsteher der Bibliothek u. Prinzenerzieher in Alexandria, verfaßte u. a. philosoph., mathemat. u. geograph. Werke . - Er ist nicht zu verwechseln mit dem ebenfalls aus Kyrene stammenden Historiker Eratosthenes <Agacleus> (2. Jh. v. Chr.)"@de;
+  gndo:udkCode "300 - 201 v. Chr. ", "200 - 101 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4033906-3>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4001138-0>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v276/273-194]" .
+

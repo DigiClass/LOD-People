@@ -1,0 +1,175 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118503456> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118503456/about> .
+
+<https://d-nb.info/gnd/118503456/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:24:41.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118503456> gndo:gndIdentifier "118503456";
+  owl:sameAs <https://dbpedia.org/resource/Antisthenes>, <http://viaf.org/viaf/79142525>,
+    <http://www.wikidata.org/entity/Q179149>;
+  gndo:oldAuthorityNumber "(DE-588)1089723865";
+  owl:sameAs <https://d-nb.info/gnd/1089723865>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089723865";
+  gndo:oldAuthorityNumber "(DE-588a)118503456", "(DE-588c)4002338-2";
+  gndo:variantNameForThePerson "Antisthenes, der Sokratiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594352 .
+
+_:node1ivs02adlx24594352 gndo:personalName "Antisthenes";
+  gndo:nameAddition "der Sokratiker" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, Gründer der Kynischen Philosophenschule";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594353 .
+
+_:node1ivs02adlx24594353 gndo:personalName "Antisthenes";
+  gndo:nameAddition "Gründer der Kynischen Philosophenschule" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594354 .
+
+_:node1ivs02adlx24594354 gndo:personalName "Antisthenes";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594355 .
+
+_:node1ivs02adlx24594355 gndo:personalName "Antisthenes";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, Schüler des Sokrates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594356 .
+
+_:node1ivs02adlx24594356 gndo:personalName "Antisthenes";
+  gndo:nameAddition "Schüler des Sokrates" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594357 .
+
+_:node1ivs02adlx24594357 gndo:personalName "Antisthenes";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594358 .
+
+_:node1ivs02adlx24594358 gndo:personalName "Antisthenes" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, Orator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594359 .
+
+_:node1ivs02adlx24594359 gndo:personalName "Antisthenes";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthène, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594360 .
+
+_:node1ivs02adlx24594360 gndo:personalName "Antisthène";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, Disciple of Socrates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594361 .
+
+_:node1ivs02adlx24594361 gndo:personalName "Antisthenes";
+  gndo:nameAddition "Disciple of Socrates" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antistene, di Atene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594362 .
+
+_:node1ivs02adlx24594362 gndo:personalName "Antistene";
+  gndo:nameAddition "di Atene" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthène, Socratique";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594363 .
+
+_:node1ivs02adlx24594363 gndo:personalName "Antisthène";
+  gndo:nameAddition "Socratique" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, Cynicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594364 .
+
+_:node1ivs02adlx24594364 gndo:personalName "Antisthenes";
+  gndo:nameAddition "Cynicus" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes, aus Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594365 .
+
+_:node1ivs02adlx24594365 gndo:personalName "Antisthenes";
+  gndo:nameAddition "aus Athen" .
+
+<https://d-nb.info/gnd/118503456> gndo:variantNameForThePerson "Antisthenes Socraticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594366 .
+
+_:node1ivs02adlx24594366 gndo:personalName "Antisthenes Socraticus" .
+
+<https://d-nb.info/gnd/118503456> gndo:preferredNameForThePerson "Antisthenes, Atheniensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594367 .
+
+_:node1ivs02adlx24594367 gndo:personalName "Antisthenes";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118503456> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Antisthenes: Orationes", "Socrates: Epistolae", "Lesbonax <Rhetoricus>: Lesbonax, Herodes, Antisthenes, Alcidamas, Gorgias",
+    "Aeschines <Orator>: Logoi", "Antisthenes <Atheniensis>: [Fragmenta]", "Antisthenes <Atheniensis>: Orationes duae, Aiax et Ulysses",
+    "Antisthenes <Atheniensis>: Orationes duae, Aiax et Ulysses", "Antisthenes <Atheniensis>: Orationes duae, Aiax et Ulysses",
+    "Antisthenes <Atheniensis>: Orationes duae, Aiax et Ulysses", "Antisthenes <Atheniensis>: Orationes duae, Aiax et Ulysses";
+  wdrs:describedby <https://d-nb.info/gnd/118503456/about> .
+
+<https://d-nb.info/gnd/118503456/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118503456> gndo:biographicalOrHistoricalInformation "Griech. Philosoph, Sokratiker, Begründer der kynischen Philosophie"@de;
+  gndo:udkCode "500 - 401 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594368 .
+
+_:node1ivs02adlx24594368 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_3 <https://d-nb.info/gnd/4140293-5> .
+
+<https://d-nb.info/gnd/118503456> gndo:dateOfBirthAndDeath "[v450/435 - v370/365]" .
+

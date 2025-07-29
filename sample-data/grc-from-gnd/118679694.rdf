@@ -1,0 +1,456 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118679694> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118679694/about> .
+
+<https://d-nb.info/gnd/118679694/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-02-08T00:30:39.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118679694> gndo:gndIdentifier "118679694";
+  foaf:page <https://de.wikipedia.org/wiki/Pseudo-Dionysius_Areopagita>;
+  owl:sameAs <https://dbpedia.org/resource/Pseudo-Dionysius_the_Areopagite>, <http://viaf.org/viaf/59878274>,
+    <https://isni.org/isni/0000000121463424>, <http://www.wikidata.org/entity/Q312816>,
+    <http://id.loc.gov/rwo/agents/n50028822>;
+  gndo:oldAuthorityNumber "(DE-588)1089109512";
+  owl:sameAs <https://d-nb.info/gnd/1089109512>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089109512";
+  gndo:oldAuthorityNumber "(DE-588)1081906227";
+  owl:sameAs <https://d-nb.info/gnd/1081906227>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1081906227";
+  gndo:oldAuthorityNumber "(DE-588)1089910843";
+  owl:sameAs <https://d-nb.info/gnd/1089910843>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089910843";
+  gndo:oldAuthorityNumber "(DE-588)1089882173";
+  owl:sameAs <https://d-nb.info/gnd/1089882173>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089882173";
+  gndo:oldAuthorityNumber "(DE-588)1089836074";
+  owl:sameAs <https://d-nb.info/gnd/1089836074>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089836074";
+  gndo:oldAuthorityNumber "(DE-588)188251367";
+  owl:sameAs <https://d-nb.info/gnd/188251367>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188251367";
+  gndo:oldAuthorityNumber "(DE-588)175309442";
+  owl:sameAs <https://d-nb.info/gnd/175309442>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/175309442";
+  gndo:oldAuthorityNumber "(DE-588a)175309442", "(DE-588a)188251367", "(DE-588)188027939";
+  owl:sameAs <https://d-nb.info/gnd/188027939>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188027939";
+  gndo:oldAuthorityNumber "(DE-588a)188027939", "(DE-588)17411236X";
+  owl:sameAs <https://d-nb.info/gnd/17411236X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17411236X";
+  gndo:oldAuthorityNumber "(DE-588a)17411236X", "(DE-588a)118679694", "(DE-588a)11965511X",
+    "(DE-588c)4091033-7";
+  gndo:variantNameForThePerson "Dionysios, Areopagites";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586022 .
+
+_:node1ivs02adlx24586022 gndo:personalName "Dionysios";
+  gndo:nameAddition "Areopagites" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysios, der Areopagite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586023 .
+
+_:node1ivs02adlx24586023 gndo:personalName "Dionysios";
+  gndo:nameAddition "der Areopagite" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysios, ho Areopagitēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586024 .
+
+_:node1ivs02adlx24586024 gndo:personalName "Dionysios";
+  gndo:nameAddition "ho Areopagitēs" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysios, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586025 .
+
+_:node1ivs02adlx24586025 gndo:personalName "Dionysios";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysios, Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586026 .
+
+_:node1ivs02adlx24586026 gndo:personalName "Dionysios";
+  gndo:nameAddition "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Areopagita, Dionysius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586027 .
+
+_:node1ivs02adlx24586027 gndo:forename "Dionysius";
+  gndo:surname "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Areopagita, Dionisio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586028 .
+
+_:node1ivs02adlx24586028 gndo:forename "Dionisio";
+  gndo:surname "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Areopagita, Dionysios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586029 .
+
+_:node1ivs02adlx24586029 gndo:forename "Dionysios";
+  gndo:surname "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionys, Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586030 .
+
+_:node1ivs02adlx24586030 gndo:forename "Areopagita";
+  gndo:surname "Dionys" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Denis, l'Aréopagite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586031 .
+
+_:node1ivs02adlx24586031 gndo:personalName "Denis";
+  gndo:nameAddition "l'Aréopagite" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Denys, l'Aréopagite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586032 .
+
+_:node1ivs02adlx24586032 gndo:personalName "Denys";
+  gndo:nameAddition "l'Aréopagite" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionigi, l'Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586033 .
+
+_:node1ivs02adlx24586033 gndo:personalName "Dionigi";
+  gndo:nameAddition "l'Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionigi, Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586034 .
+
+_:node1ivs02adlx24586034 gndo:personalName "Dionigi";
+  gndo:nameAddition "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionisie, Areopagitul";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586035 .
+
+_:node1ivs02adlx24586035 gndo:personalName "Dionisie";
+  gndo:nameAddition "Areopagitul" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionisio, el Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586036 .
+
+_:node1ivs02adlx24586036 gndo:personalName "Dionisio";
+  gndo:nameAddition "el Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionisio, Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586037 .
+
+_:node1ivs02adlx24586037 gndo:personalName "Dionisio";
+  gndo:nameAddition "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysios, Areiopagites";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586038 .
+
+_:node1ivs02adlx24586038 gndo:personalName "Dionysios";
+  gndo:nameAddition "Areiopagites" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysius, Gazäus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586039 .
+
+_:node1ivs02adlx24586039 gndo:personalName "Dionysius";
+  gndo:nameAddition "Gazäus" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysius, Mysticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586040 .
+
+_:node1ivs02adlx24586040 gndo:personalName "Dionysius";
+  gndo:nameAddition "Mysticus" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysius, the Areopagite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586041 .
+
+_:node1ivs02adlx24586041 gndo:personalName "Dionysius";
+  gndo:nameAddition "the Areopagite" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionisius, Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586042 .
+
+_:node1ivs02adlx24586042 gndo:personalName "Dionisius";
+  gndo:nameAddition "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysius, vom Areopag";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586043 .
+
+_:node1ivs02adlx24586043 gndo:personalName "Dionysius";
+  gndo:nameAddition "vom Areopag" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Denys, de l'Aréopage";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586044 .
+
+_:node1ivs02adlx24586044 gndo:personalName "Denys";
+  gndo:nameAddition "de l'Aréopage" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Denys, l'Aréopage";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586045 .
+
+_:node1ivs02adlx24586045 gndo:personalName "Denys";
+  gndo:nameAddition "l'Aréopage" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586046 .
+
+_:node1ivs02adlx24586046 gndo:personalName "Dionysios" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586047 .
+
+_:node1ivs02adlx24586047 gndo:personalName "Dionysius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586048 .
+
+_:node1ivs02adlx24586048 gndo:personalName "Dionysios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysios, Paulusschüler";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586049 .
+
+_:node1ivs02adlx24586049 gndo:personalName "Dionysios";
+  gndo:nameAddition "Paulusschüler" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysius, Syrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586050 .
+
+_:node1ivs02adlx24586050 gndo:personalName "Dionysius";
+  gndo:nameAddition "Syrus" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Dionysius, Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586051 .
+
+_:node1ivs02adlx24586051 gndo:personalName "Pseudo-Dionysius";
+  gndo:nameAddition "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Dionysios, Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586052 .
+
+_:node1ivs02adlx24586052 gndo:personalName "Pseudo-Dionysios";
+  gndo:nameAddition "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Dionysios, Aeropagites";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586053 .
+
+_:node1ivs02adlx24586053 gndo:personalName "Pseudo-Dionysios";
+  gndo:nameAddition "Aeropagites" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Dionísio, Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586054 .
+
+_:node1ivs02adlx24586054 gndo:personalName "Pseudo-Dionísio";
+  gndo:nameAddition "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Dionysius, de Areopagiet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586055 .
+
+_:node1ivs02adlx24586055 gndo:personalName "Pseudo-Dionysius";
+  gndo:nameAddition "de Areopagiet" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Dionysius, Areopagiet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586056 .
+
+_:node1ivs02adlx24586056 gndo:personalName "Pseudo-Dionysius";
+  gndo:nameAddition "Areopagiet" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Denys";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586057 .
+
+_:node1ivs02adlx24586057 gndo:personalName "Pseudo-Denys" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Denys, l'Aréopagite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586058 .
+
+_:node1ivs02adlx24586058 gndo:personalName "Pseudo-Denys";
+  gndo:nameAddition "l'Aréopagite" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Pseudo-Dionigi, l'Areopagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586059 .
+
+_:node1ivs02adlx24586059 gndo:personalName "Pseudo-Dionigi";
+  gndo:nameAddition "l'Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysius, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586060 .
+
+_:node1ivs02adlx24586060 gndo:personalName "Dionysius";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionysius, Aeropagita";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586061 .
+
+_:node1ivs02adlx24586061 gndo:personalName "Dionysius";
+  gndo:nameAddition "Aeropagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionisios, Areopagac̕i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586062 .
+
+_:node1ivs02adlx24586062 gndo:personalName "Dionisios";
+  gndo:nameAddition "Areopagac̕i" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Dionisij, Areopagit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586063 .
+
+_:node1ivs02adlx24586063 gndo:personalName "Dionisij";
+  gndo:nameAddition "Areopagit" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "SaintDenys, l'Aréopagite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586064 .
+
+_:node1ivs02adlx24586064 gndo:personalName "SaintDenys";
+  gndo:nameAddition "l'Aréopagite" .
+
+<https://d-nb.info/gnd/118679694> gndo:variantNameForThePerson "Denis, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586065 .
+
+_:node1ivs02adlx24586065 gndo:personalName "Denis";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118679694> gndo:preferredNameForThePerson "Dionysius, Areopagita";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586066 .
+
+_:node1ivs02adlx24586066 gndo:personalName "Dionysius";
+  gndo:nameAddition "Areopagita" .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118808087>;
+  gndo:hasRelation _:node1ivs02adlx24586067 .
+
+_:node1ivs02adlx24586067 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118808087>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119848805>;
+  gndo:hasRelation _:node1ivs02adlx24586068 .
+
+_:node1ivs02adlx24586068 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119848805>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555340>;
+  gndo:hasRelation _:node1ivs02adlx24586069 .
+
+_:node1ivs02adlx24586069 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555340>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:hasRelation _:node1ivs02adlx24586070 .
+
+_:node1ivs02adlx24586070 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586071 .
+
+_:node1ivs02adlx24586071 gndo:personalName "Sulpitius Severus" .
+
+<https://d-nb.info/gnd/118679694> gndo:hasRelation _:node1ivs02adlx24586072 .
+
+_:node1ivs02adlx24586072 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586073 .
+
+_:node1ivs02adlx24586073 gndo:forename "Dirk";
+  gndo:surname "Lo∞er" .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118733605>;
+  gndo:hasRelation _:node1ivs02adlx24586074 .
+
+_:node1ivs02adlx24586074 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118733605>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555154>;
+  gndo:hasRelation _:node1ivs02adlx24586075 .
+
+_:node1ivs02adlx24586075 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555154>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118644319>;
+  gndo:hasRelation _:node1ivs02adlx24586076 .
+
+_:node1ivs02adlx24586076 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118644319>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785064>;
+  gndo:hasRelation _:node1ivs02adlx24586077 .
+
+_:node1ivs02adlx24586077 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785064>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:hasRelation _:node1ivs02adlx24586078 .
+
+_:node1ivs02adlx24586078 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118679694> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586079 .
+
+_:node1ivs02adlx24586079 gndo:forename "Giovanni Battista";
+  gndo:surname "Spagnuoli" .
+
+<https://d-nb.info/gnd/118679694> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Caelestis hierarchia ...- 1502", "Opera", "Tu Makariu Dionysiu tu areopagitu ta heuriskomena",
+    "Opera omnia quae extant", "Opera", "Quae supersunt ex eius operibus et epistolis",
+    "De mystica Theologia liber I", "Die angeblichen Schriften", "Die angeblichen Schriften",
+    "Areopagitica", "D. DIOHYSII AREOpagitae De mystica Theologia lib.I. GRAECE [Sp.i] Ioan. Sarraceno ... 1519. (VD16 D 1854)",
+    "Epistolae. 1556. (VD16 D 1850)", "\\=GDIONYSIU AREOPAGIU EPISKOPU Athēnōn pros Timotheon episkoponperi tēs ... 1539. (VD16 D 1852)",
+    "Opera. 1502-1503. (VD16 D 1848)", "Opera. 1536. (VD16 D 1849)", "Opera. 1557. (VD16 D 1851)",
+    "Opera omnia quae extant. 1557. (VD16 ZV 4584)", "Ficino, Marsiglio: De mystica theologia. 1561. (VD16 F 926)",
+    "Ficino, Marsiglio: De mystica theologia. 1576. (VD16 ZV 5830)", "Sulpitius Severus: De ecclesiastica hierarchia, Ausz. 1556. (VD16 S 10127)";
+  wdrs:describedby <https://d-nb.info/gnd/118679694/about> .
+
+<https://d-nb.info/gnd/118679694/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118679694> gndo:biographicalOrHistoricalInformation "Pseudonym eines anonymen christl. Schriftstellers, der sich selbst als von Paulus zum Christentum bekehrtes Mitglied des Areopag ausgab u. im Mittelalter mit dem Bischof u. Märtyrer Dionysius von Paris gleichgesetzt wurde; bis heute ist er nicht eindeutig identifiziert; als sicher gilt jedoch, daß er sein vom späten Neuplatonismus beeinflußtes Werk, das sog. Corpus Dionysiacum, nicht vor Ende des 5. Jhs. verfaßt hat"@de;
+  gndo:udkCode "401 - 500", "501 - 600";
+  gndo:professionOrOccupation _:node1ivs02adlx24586080 .
+
+_:node1ivs02adlx24586080 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118679694> gndo:dateOfBirthAndDeath "[5./6. Jh.]" .
+

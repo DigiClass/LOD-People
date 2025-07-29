@@ -1,0 +1,210 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119460408> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119460408/about> .
+
+<https://d-nb.info/gnd/119460408/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:47:27.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119460408> gndo:gndIdentifier "119460408";
+  owl:sameAs <https://dbpedia.org/resource/Palaephatus>, <http://viaf.org/viaf/100181713>,
+    <http://www.wikidata.org/entity/Q580565>;
+  gndo:oldAuthorityNumber "(DE-588)1089248830";
+  owl:sameAs <https://d-nb.info/gnd/1089248830>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089248830";
+  gndo:oldAuthorityNumber "(DE-588)1089903464";
+  owl:sameAs <https://d-nb.info/gnd/1089903464>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089903464";
+  gndo:oldAuthorityNumber "(DE-588)1089848560";
+  owl:sameAs <https://d-nb.info/gnd/1089848560>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089848560";
+  gndo:oldAuthorityNumber "(DE-588a)119460408", "(DE-588a)119780089", "(DE-588c)4456252-4";
+  gndo:variantNameForThePerson "Palaephate";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401542 .
+
+_:node1ivpishs6x25401542 gndo:personalName "Palaephate" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Palefato";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401543 .
+
+_:node1ivpishs6x25401543 gndo:personalName "Palefato" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Palaephatus, Mythographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401544 .
+
+_:node1ivpishs6x25401544 gndo:personalName "Palaephatus";
+  gndo:nameAddition "Mythographus" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Palaephatus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401545 .
+
+_:node1ivpishs6x25401545 gndo:personalName "Palaephatus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Palaephatus, Aegyptius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401546 .
+
+_:node1ivpishs6x25401546 gndo:personalName "Palaephatus";
+  gndo:nameAddition "Aegyptius" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Palaephatus, Paradoxographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401547 .
+
+_:node1ivpishs6x25401547 gndo:personalName "Palaephatus";
+  gndo:nameAddition "Paradoxographus" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Palaephatus, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401548 .
+
+_:node1ivpishs6x25401548 gndo:personalName "Palaephatus";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Palaephatus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401549 .
+
+_:node1ivpishs6x25401549 gndo:personalName "Palaephatus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Alaiphatos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401550 .
+
+_:node1ivpishs6x25401550 gndo:personalName "Alaiphatos" .
+
+<https://d-nb.info/gnd/119460408> gndo:variantNameForThePerson "Palaiphatos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401551 .
+
+_:node1ivpishs6x25401551 gndo:personalName "Palaiphatos" .
+
+<https://d-nb.info/gnd/119460408> gndo:preferredNameForThePerson "Palaephatus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401552 .
+
+_:node1ivpishs6x25401552 gndo:personalName "Palaephatus" .
+
+<https://d-nb.info/gnd/119460408> gndo:hasRelation _:node1ivpishs6x25401553 .
+
+_:node1ivpishs6x25401553 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119460408> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25401554 .
+
+_:node1ivpishs6x25401554 gndo:forename "Angelo Bartolommeo";
+  gndo:surname "Cospi" .
+
+<https://d-nb.info/gnd/119460408> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/13148950X>;
+  gndo:hasRelation _:node1ivpishs6x25401555 .
+
+_:node1ivpishs6x25401555 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/13148950X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119460408> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119194031>;
+  gndo:hasRelation _:node1ivpishs6x25401556 .
+
+_:node1ivpishs6x25401556 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119194031>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119460408> gndo:hasRelation _:node1ivpishs6x25401557 .
+
+_:node1ivpishs6x25401557 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119460408> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25401558 .
+
+_:node1ivpishs6x25401558 gndo:forename "Giovanni Ricuzzi Vellini";
+  gndo:surname "Camers" .
+
+<https://d-nb.info/gnd/119460408> gndo:hasRelation _:node1ivpishs6x25401559 .
+
+_:node1ivpishs6x25401559 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119460408> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25401560 .
+
+_:node1ivpishs6x25401560 gndo:forename "Nikolaus";
+  gndo:surname "Gerbelius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/119460408> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119816040>;
+  gndo:hasRelation _:node1ivpishs6x25401561 .
+
+_:node1ivpishs6x25401561 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119816040>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119460408> gndo:hasRelation _:node1ivpishs6x25401562 .
+
+_:node1ivpishs6x25401562 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119460408> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25401563 .
+
+_:node1ivpishs6x25401563 gndo:forename "Joachim";
+  gndo:surname "Vadian" .
+
+<https://d-nb.info/gnd/119460408> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De incredibilibus historiis", "De incredibilibus historiis", "Paläphatus von unglaublichen Begebenheiten",
+    "Anmerkungen von unglaubwürdigen Geschichten", "Opra bellissima, quale narra le Historie ... di tutte le favole ...",
+    "Libellus Palaephati Graeci authoris quo aliquot veteres fabulae, unde tracta*", "Opusculum de non credendis fabulosis narrationibus",
+    "Libellus, quo aliquot veteres fabulae, unde tractae sint, narratur", "Opusculum de non credendis fabulosis narrationibus",
+    "De incredibilibus historiis", "LIBELLVS PALAEPHATI GRAECI AVthoris quo aliquot ueteres fabulae, unde tractae sint narratur, ...  1514.  (VD16 P 93)",
+    "PALAEPHATI scriptoris Graeci Opusculum de non credendis fabulosis narrationibus, ...  1517.  (VD16 P 94)";
+  wdrs:describedby <https://d-nb.info/gnd/119460408/about> .
+
+<https://d-nb.info/gnd/119460408/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/119460408> gndo:biographicalOrHistoricalInformation "vermutl. Pseudonym; Identität  mit den Verf. von FGrH 44 (Palaephatus <Atheniensis>) und FGrH 660 (Palaephatus <Aegyptius>) umstritten; Griech. Schriftsteller, Grammatiker (Pseudonym, Ident. umstritten), (2.H. 4. Jh.v.Chr.)"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25401564 .
+
+_:node1ivpishs6x25401564 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/119460408> gndo:dateOfBirthAndDeath "[v4. Jh.]" .
+

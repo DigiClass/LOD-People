@@ -1,0 +1,207 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118715534> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118715534/about> .
+
+<https://d-nb.info/gnd/118715534/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-03-24T16:48:36.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118715534> gndo:gndIdentifier "118715534";
+  owl:sameAs <https://dbpedia.org/resource/Crates_of_Thebes>, <http://viaf.org/viaf/262594096>,
+    <http://www.wikidata.org/entity/Q317947>;
+  gndo:oldAuthorityNumber "(DE-588)1089720653";
+  owl:sameAs <https://d-nb.info/gnd/1089720653>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089720653";
+  gndo:oldAuthorityNumber "(DE-588)119647605";
+  owl:sameAs <https://d-nb.info/gnd/119647605>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119647605";
+  gndo:oldAuthorityNumber "(DE-588a)119647605", "(DE-588)1089599552";
+  owl:sameAs <https://d-nb.info/gnd/1089599552>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089599552";
+  gndo:oldAuthorityNumber "(DE-588)1089198620";
+  owl:sameAs <https://d-nb.info/gnd/1089198620>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089198620";
+  gndo:oldAuthorityNumber "(DE-588)172945968";
+  owl:sameAs <https://d-nb.info/gnd/172945968>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172945968";
+  gndo:oldAuthorityNumber "(DE-588a)172945968", "(DE-588a)118715534", "(DE-588c)4097000-0";
+  gndo:variantNameForThePerson "Crates, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593488 .
+
+_:node1ivs02adlx24593488 gndo:personalName "Crates";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Crates, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593489 .
+
+_:node1ivs02adlx24593489 gndo:personalName "Crates";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Krates, der Kyniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593490 .
+
+_:node1ivs02adlx24593490 gndo:personalName "Krates";
+  gndo:nameAddition "der Kyniker" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Krates, Schüler des Diogenes von Sinope";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593491 .
+
+_:node1ivs02adlx24593491 gndo:personalName "Krates";
+  gndo:nameAddition "Schüler des Diogenes von Sinope" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Krates, Sohn des Askondas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593492 .
+
+_:node1ivs02adlx24593492 gndo:personalName "Krates";
+  gndo:nameAddition "Sohn des Askondas" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Crates, de Thebes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593493 .
+
+_:node1ivs02adlx24593493 gndo:personalName "Crates";
+  gndo:nameAddition "de Thebes" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Krates, Kyniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593494 .
+
+_:node1ivs02adlx24593494 gndo:personalName "Krates";
+  gndo:nameAddition "Kyniker" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Cratete, di Tebe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593495 .
+
+_:node1ivs02adlx24593495 gndo:personalName "Cratete";
+  gndo:nameAddition "di Tebe" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Cratete, Filosofo Cinico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593496 .
+
+_:node1ivs02adlx24593496 gndo:personalName "Cratete";
+  gndo:nameAddition "Filosofo Cinico" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Cratete, Scolaro di Diogene di Sinope";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593497 .
+
+_:node1ivs02adlx24593497 gndo:personalName "Cratete";
+  gndo:nameAddition "Scolaro di Diogene di Sinope" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Crates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593498 .
+
+_:node1ivs02adlx24593498 gndo:personalName "Crates" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Pseudo-Crates, Thebanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593499 .
+
+_:node1ivs02adlx24593499 gndo:personalName "Pseudo-Crates";
+  gndo:nameAddition "Thebanus" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Crates, von Theben";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593500 .
+
+_:node1ivs02adlx24593500 gndo:personalName "Crates";
+  gndo:nameAddition "von Theben" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Kratēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593501 .
+
+_:node1ivs02adlx24593501 gndo:personalName "Kratēs" .
+
+<https://d-nb.info/gnd/118715534> gndo:variantNameForThePerson "Krates, von Theben";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593502 .
+
+_:node1ivs02adlx24593502 gndo:personalName "Krates";
+  gndo:nameAddition "von Theben" .
+
+<https://d-nb.info/gnd/118715534> gndo:preferredNameForThePerson "Crates, Thebanus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593503 .
+
+_:node1ivs02adlx24593503 gndo:personalName "Crates";
+  gndo:nameAddition "Thebanus" .
+
+<https://d-nb.info/gnd/118715534> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119296039>;
+  gndo:hasRelation _:node1ivs02adlx24593504 .
+
+_:node1ivs02adlx24593504 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119296039>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118715534> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:hasRelation _:node1ivs02adlx24593505 .
+
+_:node1ivs02adlx24593505 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519891>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118715534> gndo:hasRelation _:node1ivs02adlx24593506 .
+
+_:node1ivs02adlx24593506 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118715534> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24593507 .
+
+_:node1ivs02adlx24593507 gndo:forename "Johannes";
+  gndo:surname "Stab" .
+
+<https://d-nb.info/gnd/118715534> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Crates <Thebanus>: Epistolae", "Crates <Thebanus>: Epistolae";
+  wdrs:describedby <https://d-nb.info/gnd/118715534/about> .
+
+<https://d-nb.info/gnd/118715534/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118715534> gndo:biographicalOrHistoricalInformation "Kynischer Philosoph, Verfasser von Elegien und Tragödien"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4078237-2>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4003366-1>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593508 .
+
+_:node1ivs02adlx24593508 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118715534> gndo:dateOfBirth "-0365"^^xsd:gYear;
+  gndo:dateOfDeath "-0285"^^xsd:gYear .
+

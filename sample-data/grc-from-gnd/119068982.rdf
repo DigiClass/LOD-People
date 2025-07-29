@@ -1,0 +1,400 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119068982> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119068982/about> .
+
+<https://d-nb.info/gnd/119068982/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T16:52:43.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119068982> gndo:gndIdentifier "119068982";
+  owl:sameAs <http://viaf.org/viaf/65145970325532252490>, <https://isni.org/isni/0000000487896208>,
+    <http://www.wikidata.org/entity/Q192358>, <http://id.loc.gov/rwo/agents/n80133312>;
+  gndo:oldAuthorityNumber "(DE-588)1089152264";
+  owl:sameAs <https://d-nb.info/gnd/1089152264>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089152264";
+  gndo:oldAuthorityNumber "(DE-588)1089882556";
+  owl:sameAs <https://d-nb.info/gnd/1089882556>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089882556";
+  gndo:oldAuthorityNumber "(DE-588)1089799152";
+  owl:sameAs <https://d-nb.info/gnd/1089799152>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089799152";
+  gndo:oldAuthorityNumber "(DE-588)187041814";
+  owl:sameAs <https://d-nb.info/gnd/187041814>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187041814";
+  gndo:oldAuthorityNumber "(DE-588a)187041814", "(DE-588)185879438";
+  owl:sameAs <https://d-nb.info/gnd/185879438>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185879438";
+  gndo:oldAuthorityNumber "(DE-588a)185879438", "(DE-588)174391099";
+  owl:sameAs <https://d-nb.info/gnd/174391099>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174391099";
+  gndo:oldAuthorityNumber "(DE-588a)174391099", "(DE-588)174314183";
+  owl:sameAs <https://d-nb.info/gnd/174314183>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174314183";
+  gndo:oldAuthorityNumber "(DE-588a)174314183", "(DE-588)174043287";
+  owl:sameAs <https://d-nb.info/gnd/174043287>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174043287";
+  gndo:oldAuthorityNumber "(DE-588a)174043287", "(DE-588a)119068982", "(DE-588a)17416680X",
+    "(DE-588)17416680X";
+  owl:sameAs <https://d-nb.info/gnd/17416680X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17416680X";
+  gndo:variantNameForThePerson "Hermes, Trismegistos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585969 .
+
+_:node1ivs02adlx24585969 gndo:personalName "Hermes";
+  gndo:nameAddition "Trismegistos" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermes, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585970 .
+
+_:node1ivs02adlx24585970 gndo:personalName "Hermes";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Trismegistus, Hermes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585971 .
+
+_:node1ivs02adlx24585971 gndo:forename "Hermes";
+  gndo:surname "Trismegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585972 .
+
+_:node1ivs02adlx24585972 gndo:personalName "Hermes" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermès, Trismégiste";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585973 .
+
+_:node1ivs02adlx24585973 gndo:personalName "Hermès";
+  gndo:nameAddition "Trismégiste" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Trismégiste, Hermès";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585974 .
+
+_:node1ivs02adlx24585974 gndo:forename "Hermès";
+  gndo:surname "Trismégiste" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Trimegistus, Hermes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585975 .
+
+_:node1ivs02adlx24585975 gndo:forename "Hermes";
+  gndo:surname "Trimegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermes, Mercurius Trismegistus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585976 .
+
+_:node1ivs02adlx24585976 gndo:personalName "Hermes";
+  gndo:nameAddition "Mercurius Trismegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermetis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585977 .
+
+_:node1ivs02adlx24585977 gndo:personalName "Hermetis" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Mercurius, Termaximus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585978 .
+
+_:node1ivs02adlx24585978 gndo:personalName "Mercurius";
+  gndo:nameAddition "Termaximus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Ermete, Trismegisto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585979 .
+
+_:node1ivs02adlx24585979 gndo:personalName "Ermete";
+  gndo:nameAddition "Trismegisto" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermes, Latinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585980 .
+
+_:node1ivs02adlx24585980 gndo:personalName "Hermes";
+  gndo:nameAddition "Latinus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Trismegisto, Ermete";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585981 .
+
+_:node1ivs02adlx24585981 gndo:forename "Ermete";
+  gndo:surname "Trismegisto" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermes, Vetustissimus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585982 .
+
+_:node1ivs02adlx24585982 gndo:personalName "Hermes";
+  gndo:nameAddition "Vetustissimus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Mercurius, Trismegistus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585983 .
+
+_:node1ivs02adlx24585983 gndo:personalName "Mercurius";
+  gndo:nameAddition "Trismegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Mercurio, Trimegisto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585984 .
+
+_:node1ivs02adlx24585984 gndo:personalName "Mercurio";
+  gndo:nameAddition "Trimegisto" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Mercurio Trimegisto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585985 .
+
+_:node1ivs02adlx24585985 gndo:personalName "Mercurio Trimegisto" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Trismegistus, Mercurius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585986 .
+
+_:node1ivs02adlx24585986 gndo:forename "Mercurius";
+  gndo:surname "Trismegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Trimegistus, Mercurius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585987 .
+
+_:node1ivs02adlx24585987 gndo:forename "Mercurius";
+  gndo:surname "Trimegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermes Trismegistus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585988 .
+
+_:node1ivs02adlx24585988 gndo:personalName "Hermes Trismegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Pseudo-Hermes Trismegistus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585989 .
+
+_:node1ivs02adlx24585989 gndo:personalName "Pseudo-Hermes Trismegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Alethophilus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585990 .
+
+_:node1ivs02adlx24585990 gndo:personalName "Alethophilus" .
+
+<https://d-nb.info/gnd/119068982> gndo:pseudonymNameOfThePerson _:node1ivs02adlx24585991 .
+
+_:node1ivs02adlx24585991 gndo:personalName "Alethophilus";
+  a gndo:PseudonymNameOfThePerson .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Aletophilus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585992 .
+
+_:node1ivs02adlx24585992 gndo:personalName "Aletophilus" .
+
+<https://d-nb.info/gnd/119068982> gndo:pseudonymNameOfThePerson _:node1ivs02adlx24585993 .
+
+_:node1ivs02adlx24585993 gndo:personalName "Aletophilus";
+  a gndo:PseudonymNameOfThePerson .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Harmīs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585994 .
+
+_:node1ivs02adlx24585994 gndo:personalName "Harmīs" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Harmis ad-Dandarī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585995 .
+
+_:node1ivs02adlx24585995 gndo:personalName "Harmis ad-Dandarī" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Harmis Būdašīrdī Qusṭānis Ibn Arāmīs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585996 .
+
+_:node1ivs02adlx24585996 gndo:personalName "Harmis Būdašīrdī Qusṭānis Ibn Arāmīs" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hirmīs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585997 .
+
+_:node1ivs02adlx24585997 gndo:personalName "Hirmīs" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hirmis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585998 .
+
+_:node1ivs02adlx24585998 gndo:personalName "Hirmis" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hirmis al-Harāmisa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585999 .
+
+_:node1ivs02adlx24585999 gndo:personalName "Hirmis al-Harāmisa" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hirmis al-Ḥakīm";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586000 .
+
+_:node1ivs02adlx24586000 gndo:personalName "Hirmis al-Ḥakīm" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Thoth, the Atlantean";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586001 .
+
+_:node1ivs02adlx24586001 gndo:personalName "Thoth";
+  gndo:nameAddition "the Atlantean" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermys";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586002 .
+
+_:node1ivs02adlx24586002 gndo:personalName "Hermys" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermes Mercurius Triplex";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586003 .
+
+_:node1ivs02adlx24586003 gndo:personalName "Hermes Mercurius Triplex" .
+
+<https://d-nb.info/gnd/119068982> gndo:variantNameForThePerson "Hermes Triplex Mercurius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586004 .
+
+_:node1ivs02adlx24586004 gndo:personalName "Hermes Triplex Mercurius" .
+
+<https://d-nb.info/gnd/119068982> gndo:preferredNameForThePerson "Hermes, Trismegistus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586005 .
+
+_:node1ivs02adlx24586005 gndo:personalName "Hermes";
+  gndo:nameAddition "Trismegistus" .
+
+<https://d-nb.info/gnd/119068982> gndo:relatedTerm <https://d-nb.info/gnd/118757350>;
+  gndo:hasRelation _:node1ivs02adlx24586006 .
+
+_:node1ivs02adlx24586006 gndo:relatedTerm <https://d-nb.info/gnd/118757350> .
+
+<https://d-nb.info/gnd/119068982> gndo:hasRelation _:node1ivs02adlx24586007 .
+
+_:node1ivs02adlx24586007 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586008 .
+
+_:node1ivs02adlx24586008 gndo:personalName "Synesius";
+  gndo:nameAddition "aus Kyrene" .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119835541>;
+  gndo:hasRelation _:node1ivs02adlx24586009 .
+
+_:node1ivs02adlx24586009 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119835541>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118641778>;
+  gndo:hasRelation _:node1ivs02adlx24586010 .
+
+_:node1ivs02adlx24586010 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118641778>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:hasRelation _:node1ivs02adlx24586011 .
+
+_:node1ivs02adlx24586011 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586012 .
+
+_:node1ivs02adlx24586012 gndo:personalName "Arnaldus";
+  gndo:nameAddition "aus Villanova" .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118679694>;
+  gndo:hasRelation _:node1ivs02adlx24586013 .
+
+_:node1ivs02adlx24586013 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118679694>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:hasRelation _:node1ivs02adlx24586014 .
+
+_:node1ivs02adlx24586014 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586015 .
+
+_:node1ivs02adlx24586015 gndo:personalName "Priscianus";
+  gndo:nameAddition "aus Lydien" .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118808087>;
+  gndo:hasRelation _:node1ivs02adlx24586016 .
+
+_:node1ivs02adlx24586016 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118808087>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:hasRelation _:node1ivs02adlx24586017 .
+
+_:node1ivs02adlx24586017 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586018 .
+
+_:node1ivs02adlx24586018 gndo:forename "Marsiglio";
+  gndo:surname "Ficino" .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118712500>;
+  gndo:hasRelation _:node1ivs02adlx24586019 .
+
+_:node1ivs02adlx24586019 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118712500>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595873>;
+  gndo:hasRelation _:node1ivs02adlx24586020 .
+
+_:node1ivs02adlx24586020 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595873>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119068982> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "An die menschliche Seele", "De castigatione animae libellvs", "Pimandras",
+    "Sesthien Boeken von d. vortreffelyken ... Philosophy", "Deux livres ... de la puissance ... de la volonté de Dieu",
+    "Le Pimandre", "Il Pimandro", "Tractatus aureus de lapidis philosophici secreto",
+    "De decubitu infirmorum", "Aureum ... opusculum de potestate ... Dei ...", "Pimander",
+    "Mercurii Trismegisti Pimander, de potestate et sapientia Dei ...", "Ficino, Marsiglio: De mystica theologia. 1576. (VD16 ZV 5830)",
+    "Aureum plane\\[que] diuinũ opusculũ Mercurij Trismegisti de potestate ac sapiencia dei: ... 1503. (VD16 H 2461)",
+    "COMPENDIVM ALCHIMIAE. IOANNIS GARLANDII ANGLI PHILOSOPHI DOctissimi: cum Dictionario ... 1560. (VD16 ZV 7788)",
+    "IATROMATHEMATICA HERMETIS TRISMEGISTI AD AMMONEM AEgyptium. à Davide Hoeschelio ... 1597. (VD16 ZV 7790)",
+    "MERCVRII TRISMEGISTRI PYMANDER, DE POTESTATE ET SAPIENTIA DEI. (MARSILIO FICINO ... 1532. (VD16 H 2462)",
+    "Septem tractatus. 1566. (VD16 ZV 7789)", "Tabula smaragdina in alchemia. 1560. (VD16 H 2466)",
+    "Patrizi, Francesco: Asclepius de voluntate Dei. 1593. (VD16 P 917)", "Schaubert, Johannes: Tabula smaragdina de alchimia. 1600. (VD16 S 2367)";
+  wdrs:describedby <https://d-nb.info/gnd/119068982/about> .
+
+<https://d-nb.info/gnd/119068982/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119068982> gndo:biographicalOrHistoricalInformation "Griech. Name für den ägypt. Gott Thot; die Hermetica (\"Corpus hermeticum\") gelten als Offenbarungen von H.T."@de;
+  gndo:professionOrOccupation _:node1ivs02adlx24586021 .
+
+_:node1ivs02adlx24586021 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4212680-0>;
+  rdf:_2 <https://d-nb.info/gnd/4415075-1> .
+
+<https://d-nb.info/gnd/119068982> gndo:dateOfBirthAndDeath "[2./4. Jh.]" .
+

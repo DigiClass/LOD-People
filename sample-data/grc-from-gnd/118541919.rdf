@@ -1,0 +1,513 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118541919> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118541919/about> .
+
+<https://d-nb.info/gnd/118541919/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:02.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118541919> gndo:gndIdentifier "118541919";
+  foaf:page <https://de.wikipedia.org/wiki/Gregor_von_Nyssa>;
+  owl:sameAs <http://viaf.org/viaf/103646160>, <https://isni.org/isni/0000000463566167>,
+    <http://www.wikidata.org/entity/Q191734>, <http://id.loc.gov/rwo/agents/n79021401>;
+  gndo:oldAuthorityNumber "(DE-588)108992741X";
+  owl:sameAs <https://d-nb.info/gnd/108992741X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108992741X";
+  gndo:oldAuthorityNumber "(DE-588)1089716141";
+  owl:sameAs <https://d-nb.info/gnd/1089716141>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089716141";
+  gndo:oldAuthorityNumber "(DE-588)1089139225";
+  owl:sameAs <https://d-nb.info/gnd/1089139225>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089139225";
+  gndo:oldAuthorityNumber "(DE-588)1026331552";
+  owl:sameAs <https://d-nb.info/gnd/1026331552>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026331552";
+  gndo:oldAuthorityNumber "(DE-588a)118541919", "(DE-588a)185877168", "(DE-588a)174112297",
+    "(DE-588a)139838449", "(DE-588a)119691280", "(DE-588c)4021948-3";
+  gndo:variantNameForThePerson "Gregorio, de Nisa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588630 .
+
+_:node1ivs02adlx24588630 gndo:personalName "Gregorio";
+  gndo:nameAddition "de Nisa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorios, von Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588631 .
+
+_:node1ivs02adlx24588631 gndo:personalName "Gregorios";
+  gndo:nameAddition "von Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nissa, Gregorio di";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588632 .
+
+_:node1ivs02adlx24588632 gndo:forename "Gregorio";
+  gndo:prefix "di";
+  gndo:surname "Nissa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nysse, Grégoire de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588633 .
+
+_:node1ivs02adlx24588633 gndo:forename "Grégoire";
+  gndo:prefix "de";
+  gndo:surname "Nysse" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregor, Von Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588634 .
+
+_:node1ivs02adlx24588634 gndo:personalName "Gregor";
+  gndo:nameAddition "Von Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregory, Of Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588635 .
+
+_:node1ivs02adlx24588635 gndo:personalName "Gregory";
+  gndo:nameAddition "Of Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nyssa, Gregoire de";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588636 .
+
+_:node1ivs02adlx24588636 gndo:forename "Gregoire";
+  gndo:prefix "de";
+  gndo:surname "Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grégoire, De Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588637 .
+
+_:node1ivs02adlx24588637 gndo:personalName "Grégoire";
+  gndo:nameAddition "De Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregor, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588638 .
+
+_:node1ivs02adlx24588638 gndo:personalName "Gregor";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorio, Nisseno";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588639 .
+
+_:node1ivs02adlx24588639 gndo:personalName "Gregorio";
+  gndo:nameAddition "Nisseno" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grēgorios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588640 .
+
+_:node1ivs02adlx24588640 gndo:personalName "Grēgorios" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588641 .
+
+_:node1ivs02adlx24588641 gndo:personalName "Gregorios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grēgorios, Nyssēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588642 .
+
+_:node1ivs02adlx24588642 gndo:personalName "Grēgorios";
+  gndo:nameAddition "Nyssēs" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grēgorios, ho Nyssēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588643 .
+
+_:node1ivs02adlx24588643 gndo:personalName "Grēgorios";
+  gndo:nameAddition "ho Nyssēs" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Bishop";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588644 .
+
+_:node1ivs02adlx24588644 gndo:personalName "Gregorius";
+  gndo:nameAddition "Bishop" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, of Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588645 .
+
+_:node1ivs02adlx24588645 gndo:personalName "Gregorius";
+  gndo:nameAddition "of Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588646 .
+
+_:node1ivs02adlx24588646 gndo:personalName "Gregorius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588647 .
+
+_:node1ivs02adlx24588647 gndo:personalName "Gregorius";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grigor, Nyowsac̕i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588648 .
+
+_:node1ivs02adlx24588648 gndo:personalName "Grigor";
+  gndo:nameAddition "Nyowsac̕i" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grigor, Niwsac'i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588649 .
+
+_:node1ivs02adlx24588649 gndo:personalName "Grigor";
+  gndo:nameAddition "Niwsac'i" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Niwsac'i, Grigor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588650 .
+
+_:node1ivs02adlx24588650 gndo:forename "Grigor";
+  gndo:surname "Niwsac'i" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Pseudo-Gregory, of Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588651 .
+
+_:node1ivs02adlx24588651 gndo:personalName "Pseudo-Gregory";
+  gndo:nameAddition "of Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nisskij, Gregorij Grigorevič";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588652 .
+
+_:node1ivs02adlx24588652 gndo:forename "Gregorij Grigorevič";
+  gndo:surname "Nisskij" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Nysenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588653 .
+
+_:node1ivs02adlx24588653 gndo:personalName "Gregorius";
+  gndo:nameAddition "Nysenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nysenus, Gregorius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588654 .
+
+_:node1ivs02adlx24588654 gndo:forename "Gregorius";
+  gndo:surname "Nysenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Nyssae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588655 .
+
+_:node1ivs02adlx24588655 gndo:personalName "Gregorius";
+  gndo:nameAddition "Nyssae" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, van Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588656 .
+
+_:node1ivs02adlx24588656 gndo:personalName "Gregorius";
+  gndo:nameAddition "van Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregori, de Nissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588657 .
+
+_:node1ivs02adlx24588657 gndo:personalName "Gregori";
+  gndo:nameAddition "de Nissa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grigorij, Nisskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588658 .
+
+_:node1ivs02adlx24588658 gndo:personalName "Grigorij";
+  gndo:nameAddition "Nisskij" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grigol, Noseli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588659 .
+
+_:node1ivs02adlx24588659 gndo:personalName "Grigol";
+  gndo:nameAddition "Noseli" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Hagios Grēgorios, ho Nyssēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588660 .
+
+_:node1ivs02adlx24588660 gndo:personalName "Hagios Grēgorios";
+  gndo:nameAddition "ho Nyssēs" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius von Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588661 .
+
+_:node1ivs02adlx24588661 gndo:personalName "Gregorius von Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nyssenius, Gregorius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588662 .
+
+_:node1ivs02adlx24588662 gndo:forename "Gregorius";
+  gndo:surname "Nyssenius" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregor, von Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588663 .
+
+_:node1ivs02adlx24588663 gndo:personalName "Gregor";
+  gndo:nameAddition "von Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Sanctus Nyssenius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588664 .
+
+_:node1ivs02adlx24588664 gndo:personalName "Gregorius";
+  gndo:nameAddition "Sanctus Nyssenius" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorus, Nyssenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588665 .
+
+_:node1ivs02adlx24588665 gndo:personalName "Gregorus";
+  gndo:nameAddition "Nyssenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Nysaenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588666 .
+
+_:node1ivs02adlx24588666 gndo:personalName "Gregorius";
+  gndo:nameAddition "Nysaenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Neocaesar";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588667 .
+
+_:node1ivs02adlx24588667 gndo:personalName "Gregorius";
+  gndo:nameAddition "Neocaesar" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, von Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588668 .
+
+_:node1ivs02adlx24588668 gndo:personalName "Gregorius";
+  gndo:nameAddition "von Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregory, of Nazianzus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588669 .
+
+_:node1ivs02adlx24588669 gndo:personalName "Gregory";
+  gndo:nameAddition "of Nazianzus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nyssa, Gregorios von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588670 .
+
+_:node1ivs02adlx24588670 gndo:forename "Gregorios";
+  gndo:prefix "von";
+  gndo:surname "Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nyssa, Gregorius van";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588671 .
+
+_:node1ivs02adlx24588671 gndo:forename "Gregorius";
+  gndo:prefix "van";
+  gndo:surname "Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nyssa, Gregory of";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588672 .
+
+_:node1ivs02adlx24588672 gndo:forename "Gregory";
+  gndo:prefix "of";
+  gndo:surname "Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorius, Episcopus Nyssenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588673 .
+
+_:node1ivs02adlx24588673 gndo:personalName "Gregorius";
+  gndo:nameAddition "Episcopus Nyssenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Grégoire, de Nysse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588674 .
+
+_:node1ivs02adlx24588674 gndo:personalName "Grégoire";
+  gndo:nameAddition "de Nysse" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregorio, di Nissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588675 .
+
+_:node1ivs02adlx24588675 gndo:personalName "Gregorio";
+  gndo:nameAddition "di Nissa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Gregory, of Nyssa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588676 .
+
+_:node1ivs02adlx24588676 gndo:personalName "Gregory";
+  gndo:nameAddition "of Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nyssa, Gregor von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588677 .
+
+_:node1ivs02adlx24588677 gndo:forename "Gregor";
+  gndo:prefix "von";
+  gndo:surname "Nyssa" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Pseudo-Gregorius, Nyssenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588678 .
+
+_:node1ivs02adlx24588678 gndo:personalName "Pseudo-Gregorius";
+  gndo:nameAddition "Nyssenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:variantNameForThePerson "Nyssenus, Gregorius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588679 .
+
+_:node1ivs02adlx24588679 gndo:forename "Gregorius";
+  gndo:surname "Nyssenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:preferredNameForThePerson "Gregorius, Nyssenus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24588680 .
+
+_:node1ivs02adlx24588680 gndo:personalName "Gregorius";
+  gndo:nameAddition "Nyssenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100230873>;
+  gndo:hasRelation _:node1ivs02adlx24588681 .
+
+_:node1ivs02adlx24588681 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100230873>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:hasRelation _:node1ivs02adlx24588682 .
+
+_:node1ivs02adlx24588682 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588683 .
+
+_:node1ivs02adlx24588683 gndo:personalName "Theodoretus";
+  gndo:nameAddition "von Cyrus" .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119735881>;
+  gndo:hasRelation _:node1ivs02adlx24588684 .
+
+_:node1ivs02adlx24588684 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119735881>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118913271>;
+  gndo:hasRelation _:node1ivs02adlx24588685 .
+
+_:node1ivs02adlx24588685 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118913271>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:hasRelation _:node1ivs02adlx24588686 .
+
+_:node1ivs02adlx24588686 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588687 .
+
+_:node1ivs02adlx24588687 gndo:forename "Hermias";
+  gndo:surname "Sozomenus" .
+
+<https://d-nb.info/gnd/118541919> gndo:hasRelation _:node1ivs02adlx24588688 .
+
+_:node1ivs02adlx24588688 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588689 .
+
+_:node1ivs02adlx24588689 gndo:forename "Fronton";
+  gndo:surname "DuDuc" .
+
+<https://d-nb.info/gnd/118541919> gndo:hasRelation _:node1ivs02adlx24588690 .
+
+_:node1ivs02adlx24588690 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588691 .
+
+_:node1ivs02adlx24588691 gndo:personalName "Euagrius Scholasticus" .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118701215>;
+  gndo:hasRelation _:node1ivs02adlx24588692 .
+
+_:node1ivs02adlx24588692 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118701215>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102460531>;
+  gndo:hasRelation _:node1ivs02adlx24588693 .
+
+_:node1ivs02adlx24588693 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102460531>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:hasRelation _:node1ivs02adlx24588694 .
+
+_:node1ivs02adlx24588694 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588695 .
+
+_:node1ivs02adlx24588695 gndo:forename "Flavius Magnus Aurelius Senator";
+  gndo:surname "Cassiodorus" .
+
+<https://d-nb.info/gnd/118541919> gndo:familialRelationship <https://d-nb.info/gnd/118813757>;
+  agrelon:hasSibling <https://d-nb.info/gnd/118813757>;
+  gndo:hasRelation _:node1ivs02adlx24588696 .
+
+_:node1ivs02adlx24588696 agrelon:hasSibling <https://d-nb.info/gnd/118813757>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:familialRelationship <https://d-nb.info/gnd/118637797>;
+  agrelon:hasSibling <https://d-nb.info/gnd/118637797>;
+  gndo:hasRelation _:node1ivs02adlx24588697 .
+
+_:node1ivs02adlx24588697 agrelon:hasSibling <https://d-nb.info/gnd/118637797>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:familialRelationship <https://d-nb.info/gnd/118813749>;
+  agrelon:hasGrandParent <https://d-nb.info/gnd/118813749>;
+  gndo:hasRelation _:node1ivs02adlx24588698 .
+
+_:node1ivs02adlx24588698 agrelon:hasGrandParent <https://d-nb.info/gnd/118813749>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118541919> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ad Eustathiam, Ambrosiam et Basilissam epistola", "Ad Eustathiam, Ambrosiam et Basilissam epistola",
+    "De iis, qui adeunt Hierosolyma, opusculum (epistola)", "Epistolae septem", "Homiliae quaedam ...",
+    "Liber de homine", "Liber de homine", "Opera et epistolae, quae in eius operum editionibus desiderantur",
+    "Opus de hominis opificio", "Opuscula nonnulla", "Gregorius <von Nyssa>: Logoi dyo heis eis ton tu kyriu Iēsu gennēsin.  1564.  (VD16 ZV 7011)",
+    "Eusebius <von Caesarea>: Ecclesiastica historia.  1554.  (VD16 E 4279)", "Gregorius <von Nyssa>: D. GREGORII EPISCOPI NXSSENI COMMENTARIVS DVPLEX IN PSALMORVM INSCRIPTIONES. NVNC ...  1600.  (VD16 G 3107)",
+    "Gregorius <von Nyssa>: ORATIO S.GREGORII, Episcopi Nysseni, De filij & Spiritus sancti Deitate. è codice ...  1591.  (VD16 G 3115)",
+    "Gregorius <von Nyssa>: Acta apostolorum.  1568.  (VD16 B 4947)", "Gregorius <von Nyssa>: GREGORII. EPISCOPI. NYSENI. VIRI & uitae sanctitate & ingenii magnitudine inter Graecos ...  1517.  (VD16 G 3120)",
+    "Ephraim Syrus: Vita sancti Ephraem.  1562.  (VD16 E 1576)", "Gregorius <von Nyssa>: Opera.  1562.  (VD16 ZV 7010)",
+    "Gregorius <von Nyssa>: De moderandis disputationibus sermo.  1550/1551.  (VD16 G 3101)",
+    "Gregorius <von Nyssa>: OPERA D.GREGORII, NYSSENI EPISCOPI,FRATRIS BASILII MAGNI, DE GRAECO IN LATINVM ...  1571.  (VD16 G 3103)";
+  wdrs:describedby <https://d-nb.info/gnd/118541919/about> .
+
+<https://d-nb.info/gnd/118541919/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118541919> gndo:biographicalOrHistoricalInformation "Griech. Kirchenvater, seit 371/72 Bischof von Nyssa in Kappadokien, um 380 kurzzeitig Metropolit von Sebaste"@de;
+  gndo:udkCode "301 - 400";
+  gndo:professionOrOccupation _:node1ivs02adlx24588699 .
+
+_:node1ivs02adlx24588699 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118541919> gndo:dateOfBirth "0335"^^xsd:gYear;
+  gndo:dateOfDeath "0394"^^xsd:gYear .
+

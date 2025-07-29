@@ -1,0 +1,109 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/1089166567> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/1089166567/about> .
+
+<https://d-nb.info/gnd/1089166567/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-07-11T00:33:13.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#3> .
+
+<https://d-nb.info/gnd/1089166567> gndo:gndIdentifier "1089166567";
+  owl:sameAs <http://viaf.org/viaf/212948909>, <https://isni.org/isni/0000000110311425>,
+    <http://www.wikidata.org/entity/Q94920154>, <http://id.loc.gov/rwo/agents/n50013307>;
+  gndo:oldAuthorityNumber "(DE-588)1074412583";
+  owl:sameAs <https://d-nb.info/gnd/1074412583>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1074412583";
+  gndo:variantNameForThePerson "Smith, Ole";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596107 .
+
+_:node1ivs02adlx24596107 gndo:forename "Ole";
+  gndo:surname "Smith" .
+
+<https://d-nb.info/gnd/1089166567> gndo:variantNameForThePerson "Langwitz Smith, Ole";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596108 .
+
+_:node1ivs02adlx24596108 gndo:forename "Ole";
+  gndo:surname "Langwitz Smith" .
+
+<https://d-nb.info/gnd/1089166567> gndo:variantNameForThePerson "Smith, Ole L.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596109 .
+
+_:node1ivs02adlx24596109 gndo:forename "Ole L.";
+  gndo:surname "Smith" .
+
+<https://d-nb.info/gnd/1089166567> gndo:variantNameForThePerson "Smith, O. L.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596110 .
+
+_:node1ivs02adlx24596110 gndo:forename "O. L.";
+  gndo:surname "Smith" .
+
+<https://d-nb.info/gnd/1089166567> gndo:preferredNameForThePerson "Smith, Ole Langwitz";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24596111 .
+
+_:node1ivs02adlx24596111 gndo:forename "Ole Langwitz";
+  gndo:surname "Smith" .
+
+<https://d-nb.info/gnd/1089166567> gndo:affiliation <https://d-nb.info/gnd/36485-X>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DK>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/dan>, <http://id.loc.gov/vocabulary/iso639-2/eng>,
+    <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/gre>;
+  gndo:publication "The suppliants", "Studies in the history of the Greek Civil War ...",
+    "Scholia in Agamemnonem, Choephoros, Eumenides, Supplices continens", "Scholia Graeca in Aeschylvm qvae exstant omnia",
+    "Scholia in Septem adversvs Thebas continens", "Studies in the scholia on Aeschylus",
+    "The @Byzantine Achilleid", "The @recensions of Demetrius Triclinius";
+  wdrs:describedby <https://d-nb.info/gnd/1089166567/about> .
+
+<https://d-nb.info/gnd/1089166567/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/CH-ZuETHN>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/CH-ZuETHN> .
+
+<https://d-nb.info/gnd/1089166567> gndo:biographicalOrHistoricalInformation "Altphilologe, Gräzist"@de;
+  gndo:professionOrOccupation _:node1ivs02adlx24596112 .
+
+_:node1ivs02adlx24596112 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4199241-6> .
+
+<https://d-nb.info/gnd/1089166567> gndo:dateOfBirth "1943"^^xsd:gYear;
+  gndo:dateOfDeath "1995-02-06"^^xsd:date .
+

@@ -1,0 +1,94 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119222833> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119222833/about> .
+
+<https://d-nb.info/gnd/119222833/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2010-09-17T13:59:24.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119222833> gndo:gndIdentifier "119222833";
+  foaf:page <https://de.wikipedia.org/wiki/Zosimus_%28Papst%29>;
+  owl:sameAs <https://dbpedia.org/resource/Pope_Zosimus>, <http://viaf.org/viaf/45145424513486830276>,
+    <https://isni.org/isni/0000000078597258>, <http://www.wikidata.org/entity/Q162571>,
+    <http://id.loc.gov/rwo/agents/n91001037>;
+  gndo:oldAuthorityNumber "(DE-588a)119222833", "(DE-588c)4367096-9";
+  gndo:variantNameForThePerson "Zosimus, Graecus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593403 .
+
+_:node1ivs02adlx24593403 gndo:personalName "Zosimus";
+  gndo:nameAddition "Graecus" .
+
+<https://d-nb.info/gnd/119222833> gndo:variantNameForThePerson "Zosimus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593404 .
+
+_:node1ivs02adlx24593404 gndo:personalName "Zosimus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/119222833> gndo:variantNameForThePerson "Zosimus, Papa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593405 .
+
+_:node1ivs02adlx24593405 gndo:personalName "Zosimus";
+  gndo:nameAddition "Papa" .
+
+<https://d-nb.info/gnd/119222833> gndo:preferredNameForThePerson "Zosimus, Papst";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593406 .
+
+_:node1ivs02adlx24593406 gndo:personalName "Zosimus";
+  gndo:nameAddition "Papst" .
+
+<https://d-nb.info/gnd/119222833> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/lat>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Zosimus <Papa>: Epistolae. - 1773";
+  wdrs:describedby <https://d-nb.info/gnd/119222833/about> .
+
+<https://d-nb.info/gnd/119222833/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119222833> gndo:biographicalOrHistoricalInformation "Epistulae; Papst seit 417"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfDeath "0418"^^xsd:gYear .
+

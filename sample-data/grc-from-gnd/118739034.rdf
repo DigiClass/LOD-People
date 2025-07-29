@@ -1,0 +1,226 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118739034> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118739034/about> .
+
+<https://d-nb.info/gnd/118739034/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:14:21.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118739034> gndo:gndIdentifier "118739034";
+  foaf:page <https://de.wikipedia.org/wiki/Palladios>;
+  owl:sameAs <https://dbpedia.org/resource/Palladius_of_Galatia>, <http://viaf.org/viaf/61550437>,
+    <https://isni.org/isni/0000000116549311>, <http://www.wikidata.org/entity/Q2047944>,
+    <http://id.loc.gov/rwo/agents/n82093718>;
+  gndo:oldAuthorityNumber "(DE-588a)118739034", "(DE-588a)127445110", "(DE-588c)4102833-8";
+  gndo:variantNameForThePerson "Palladius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403541 .
+
+_:node1ivpishs6x25403541 gndo:personalName "Palladius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladij, Elenopol'skij";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403542 .
+
+_:node1ivpishs6x25403542 gndo:personalName "Palladij";
+  gndo:nameAddition "Elenopol'skij" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladij, Episkop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403543 .
+
+_:node1ivpishs6x25403543 gndo:personalName "Palladij";
+  gndo:nameAddition "Episkop" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, von Helenopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403544 .
+
+_:node1ivpishs6x25403544 gndo:personalName "Palladios";
+  gndo:nameAddition "von Helenopolis" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Helenopolitanus, Palladius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403545 .
+
+_:node1ivpishs6x25403545 gndo:forename "Palladius";
+  gndo:surname "Helenopolitanus" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, of Helenopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403546 .
+
+_:node1ivpishs6x25403546 gndo:personalName "Palladius";
+  gndo:nameAddition "of Helenopolis" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, Hellenopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403547 .
+
+_:node1ivpishs6x25403547 gndo:personalName "Palladius";
+  gndo:nameAddition "Hellenopolitanus" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, Hellenopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403548 .
+
+_:node1ivpishs6x25403548 gndo:personalName "Palladios";
+  gndo:nameAddition "Hellenopolitanus" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, von Aspona";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403549 .
+
+_:node1ivpishs6x25403549 gndo:personalName "Palladios";
+  gndo:nameAddition "von Aspona" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, Asponensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403550 .
+
+_:node1ivpishs6x25403550 gndo:personalName "Palladius";
+  gndo:nameAddition "Asponensis" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, of Aspona";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403551 .
+
+_:node1ivpishs6x25403551 gndo:personalName "Palladius";
+  gndo:nameAddition "of Aspona" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, von Galatien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403552 .
+
+_:node1ivpishs6x25403552 gndo:personalName "Palladios";
+  gndo:nameAddition "von Galatien" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, Galata";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403553 .
+
+_:node1ivpishs6x25403553 gndo:personalName "Palladius";
+  gndo:nameAddition "Galata" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, Byzantius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403554 .
+
+_:node1ivpishs6x25403554 gndo:personalName "Palladius";
+  gndo:nameAddition "Byzantius" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, Hagiograph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403555 .
+
+_:node1ivpishs6x25403555 gndo:personalName "Palladios";
+  gndo:nameAddition "Hagiograph" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, Mönch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403556 .
+
+_:node1ivpishs6x25403556 gndo:personalName "Palladios";
+  gndo:nameAddition "Mönch" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403557 .
+
+_:node1ivpishs6x25403557 gndo:personalName "Palladios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403558 .
+
+_:node1ivpishs6x25403558 gndo:personalName "Palladius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, Monachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403559 .
+
+_:node1ivpishs6x25403559 gndo:personalName "Palladius";
+  gndo:nameAddition "Monachus" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladius, von Helenopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403560 .
+
+_:node1ivpishs6x25403560 gndo:personalName "Palladius";
+  gndo:nameAddition "von Helenopolis" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, Bischof von Helenopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403561 .
+
+_:node1ivpishs6x25403561 gndo:personalName "Palladios";
+  gndo:nameAddition "Bischof von Helenopolis" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios, Bischof von Aspona";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403562 .
+
+_:node1ivpishs6x25403562 gndo:personalName "Palladios";
+  gndo:nameAddition "Bischof von Aspona" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Palladios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403563 .
+
+_:node1ivpishs6x25403563 gndo:personalName "Palladios" .
+
+<https://d-nb.info/gnd/118739034> gndo:variantNameForThePerson "Pallade, d'Hélénopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403564 .
+
+_:node1ivpishs6x25403564 gndo:personalName "Pallade";
+  gndo:nameAddition "d'Hélénopolis" .
+
+<https://d-nb.info/gnd/118739034> gndo:preferredNameForThePerson "Palladius, Helenopolitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403565 .
+
+_:node1ivpishs6x25403565 gndo:personalName "Palladius";
+  gndo:nameAddition "Helenopolitanus" .
+
+<https://d-nb.info/gnd/118739034> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Palladius <Helenopolitanus>: De vita S. Johannis Chrysostomi dialogus ...",
+    "Palladius <Helenopolitanus>: Lavsaik", "Palladius <Helenopolitanus>: Lavsaik, ili povestvovanie o žizni svjatych i blažennych o*";
+  wdrs:describedby <https://d-nb.info/gnd/118739034/about> .
+
+<https://d-nb.info/gnd/118739034/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118739034> gndo:udkCode "301 - 400", "401 - 500";
+  gndo:professionOrOccupation _:node1ivpishs6x25403566 .
+
+_:node1ivpishs6x25403566 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4039902-3>;
+  rdf:_2 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118739034> gndo:dateOfBirth "0365"^^xsd:gYear;
+  gndo:dateOfDeath "0430"^^xsd:gYear .
+

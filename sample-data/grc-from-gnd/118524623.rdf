@@ -1,0 +1,138 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118524623> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118524623/about> .
+
+<https://d-nb.info/gnd/118524623/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-17T15:39:04.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118524623> gndo:gndIdentifier "118524623";
+  foaf:page <https://de.wikipedia.org/wiki/Demetrios_I._Poliorketes>;
+  owl:sameAs <https://dbpedia.org/resource/Demetrius_I_of_Macedon>, <http://viaf.org/viaf/42629081>,
+    <https://isni.org/isni/0000000063185998>, <http://www.wikidata.org/entity/Q59734>,
+    <http://id.loc.gov/rwo/agents/nr91012570>;
+  gndo:oldAuthorityNumber "(DE-588a)118524623", "(DE-588c)4011406-5";
+  gndo:variantNameForThePerson "Demetrios, Poliorketes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405502 .
+
+_:node1ivpishs6x25405502 gndo:personalName "Demetrios";
+  gndo:nameAddition "Poliorketes" .
+
+<https://d-nb.info/gnd/118524623> gndo:variantNameForThePerson "Demetrios, Megas";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405503 .
+
+_:node1ivpishs6x25405503 gndo:personalName "Demetrios";
+  gndo:nameAddition "Megas" .
+
+<https://d-nb.info/gnd/118524623> gndo:variantNameForThePerson "Demetrius, Macedo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405504 .
+
+_:node1ivpishs6x25405504 gndo:personalName "Demetrius";
+  gndo:nameAddition "Macedo" .
+
+<https://d-nb.info/gnd/118524623> gndo:variantNameForThePerson "Demetrius, Poliorcetes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405505 .
+
+_:node1ivpishs6x25405505 gndo:personalName "Demetrius";
+  gndo:nameAddition "Poliorcetes" .
+
+<https://d-nb.info/gnd/118524623> gndo:variantNameForThePerson "Demetrius I., Poliorcetes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405506 .
+
+_:node1ivpishs6x25405506 gndo:personalName "Demetrius";
+  gndo:counting "I.";
+  gndo:nameAddition "Poliorcetes" .
+
+<https://d-nb.info/gnd/118524623> gndo:variantNameForThePerson "Demetrius, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405507 .
+
+_:node1ivpishs6x25405507 gndo:personalName "Demetrius";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118524623> gndo:variantNameForThePerson "Demetrius I., Macedonia, Rex";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405508 .
+
+_:node1ivpishs6x25405508 gndo:personalName "Demetrius";
+  gndo:counting "I.";
+  gndo:nameAddition "Macedonia, Rex" .
+
+<https://d-nb.info/gnd/118524623> gndo:variantNameForThePerson "Demetrios, Makedonien, König";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405509 .
+
+_:node1ivpishs6x25405509 gndo:personalName "Demetrios";
+  gndo:nameAddition "Makedonien, König" .
+
+<https://d-nb.info/gnd/118524623> gndo:variantNameForThePerson "Demetrius I., Makedonien, König";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405510 .
+
+_:node1ivpishs6x25405510 gndo:personalName "Demetrius";
+  gndo:counting "I.";
+  gndo:nameAddition "Makedonien, König" .
+
+<https://d-nb.info/gnd/118524623> gndo:preferredNameForThePerson "Demetrios I., Makedonien, König";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405511 .
+
+_:node1ivpishs6x25405511 gndo:personalName "Demetrios";
+  gndo:counting "I.";
+  gndo:nameAddition "Makedonien, König" .
+
+<https://d-nb.info/gnd/118524623> gndo:memberOfTheFamily <https://d-nb.info/gnd/1371757054>;
+  gndo:hasRelation _:node1ivpishs6x25405512 .
+
+_:node1ivpishs6x25405512 gndo:memberOfTheFamily <https://d-nb.info/gnd/1371757054> .
+
+<https://d-nb.info/gnd/118524623> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118524623/about> .
+
+<https://d-nb.info/gnd/118524623/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118524623> gndo:biographicalOrHistoricalInformation "Hellenistischer Herrscher, König von Makedonien 294 v. Chr.-287 v. Chr."@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0336"^^xsd:gYear;
+  gndo:dateOfDeath "-0283"^^xsd:gYear .
+

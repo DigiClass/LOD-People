@@ -1,0 +1,619 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118558684> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118558684/about> .
+
+<https://d-nb.info/gnd/118558684/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-22T13:32:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118558684> gndo:gndIdentifier "118558684";
+  foaf:page <https://de.wikipedia.org/wiki/Julian_%28Kaiser%29>;
+  owl:sameAs <https://dbpedia.org/resource/Julian_the_Apostate>, <http://viaf.org/viaf/57406701>,
+    <https://isni.org/isni/0000000121345428>, <http://www.wikidata.org/entity/Q33941>,
+    <http://id.loc.gov/rwo/agents/n79067875>;
+  gndo:oldAuthorityNumber "(DE-588)188145370";
+  owl:sameAs <https://d-nb.info/gnd/188145370>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188145370";
+  gndo:oldAuthorityNumber "(DE-588a)188145370", "(DE-588)188049991";
+  owl:sameAs <https://d-nb.info/gnd/188049991>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188049991";
+  gndo:oldAuthorityNumber "(DE-588a)188049991", "(DE-588)186353162";
+  owl:sameAs <https://d-nb.info/gnd/186353162>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186353162";
+  gndo:oldAuthorityNumber "(DE-588a)186353162", "(DE-588)176067256";
+  owl:sameAs <https://d-nb.info/gnd/176067256>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/176067256";
+  gndo:oldAuthorityNumber "(DE-588a)176067256", "(DE-588a)118558684", "(DE-588c)4028978-3";
+  gndo:variantNameForThePerson "Iulianus, Apostata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588885 .
+
+_:node1ivs02adlx24588885 gndo:personalName "Iulianus";
+  gndo:nameAddition "Apostata" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Apostata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588886 .
+
+_:node1ivs02adlx24588886 gndo:personalName "Julianus";
+  gndo:nameAddition "Apostata" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, Apostata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588887 .
+
+_:node1ivs02adlx24588887 gndo:personalName "Julian";
+  gndo:nameAddition "Apostata" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Emperor of Rome";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588888 .
+
+_:node1ivs02adlx24588888 gndo:personalName "Iulianus";
+  gndo:nameAddition "Emperor of Rome" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Flavius C.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588889 .
+
+_:node1ivs02adlx24588889 gndo:forename "Flavius C.";
+  gndo:surname "Iulianus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus Augustus, Flavius C.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588890 .
+
+_:node1ivs02adlx24588890 gndo:forename "Flavius C.";
+  gndo:surname "Iulianus Augustus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, Augusto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588891 .
+
+_:node1ivs02adlx24588891 gndo:personalName "Giuliano";
+  gndo:nameAddition "Augusto" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, Impero Romano, Imperatore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588892 .
+
+_:node1ivs02adlx24588892 gndo:personalName "Giuliano";
+  gndo:nameAddition "Impero Romano, Imperatore" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, l'Imperatore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588893 .
+
+_:node1ivs02adlx24588893 gndo:personalName "Giuliano";
+  gndo:nameAddition "l'Imperatore" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Ivlianvs, Avgvstvs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588894 .
+
+_:node1ivs02adlx24588894 gndo:personalName "Ivlianvs";
+  gndo:nameAddition "Avgvstvs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, the Emperor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588895 .
+
+_:node1ivs02adlx24588895 gndo:personalName "Julian";
+  gndo:nameAddition "the Emperor" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Römisches Reich, Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588896 .
+
+_:node1ivs02adlx24588896 gndo:personalName "Julianus";
+  gndo:nameAddition "Römisches Reich, Kaiser" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julien, l'Empereur";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588897 .
+
+_:node1ivs02adlx24588897 gndo:personalName "Julien";
+  gndo:nameAddition "l'Empereur" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, Roman Empire, Emperor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588898 .
+
+_:node1ivs02adlx24588898 gndo:personalName "Julian";
+  gndo:nameAddition "Roman Empire, Emperor" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588899 .
+
+_:node1ivs02adlx24588899 gndo:personalName "Julian" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus Apostata, Flavius Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588900 .
+
+_:node1ivs02adlx24588900 gndo:forename "Flavius Claudius";
+  gndo:surname "Julianus Apostata" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Imperator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588901 .
+
+_:node1ivs02adlx24588901 gndo:personalName "Julianus";
+  gndo:nameAddition "Imperator" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588902 .
+
+_:node1ivs02adlx24588902 gndo:personalName "Julien" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588903 .
+
+_:node1ivs02adlx24588903 gndo:personalName "Iulianos" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianos, Flabios Klaudios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588904 .
+
+_:node1ivs02adlx24588904 gndo:forename "Flabios Klaudios";
+  gndo:surname "Iulianos" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Augustus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588905 .
+
+_:node1ivs02adlx24588905 gndo:personalName "Iulianus";
+  gndo:nameAddition "Augustus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Imperator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588906 .
+
+_:node1ivs02adlx24588906 gndo:personalName "Iulianus";
+  gndo:nameAddition "Imperator" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588907 .
+
+_:node1ivs02adlx24588907 gndo:personalName "Iulianus";
+  gndo:nameAddition "Kaiser" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Römischer Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588908 .
+
+_:node1ivs02adlx24588908 gndo:personalName "Iulianus";
+  gndo:nameAddition "Römischer Kaiser" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Rome, Emperor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588909 .
+
+_:node1ivs02adlx24588909 gndo:personalName "Iulianus";
+  gndo:nameAddition "Rome, Emperor" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Flavius Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588910 .
+
+_:node1ivs02adlx24588910 gndo:forename "Flavius Claudius";
+  gndo:surname "Iulianus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Flavius C.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588911 .
+
+_:node1ivs02adlx24588911 gndo:forename "Flavius C.";
+  gndo:surname "Julianus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Claudius Iulianus, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588912 .
+
+_:node1ivs02adlx24588912 gndo:forename "Flavius";
+  gndo:surname "Claudius Iulianus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Flavius Claudius Iulianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588913 .
+
+_:node1ivs02adlx24588913 gndo:personalName "Flavius Claudius Iulianus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, Imperatore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588914 .
+
+_:node1ivs02adlx24588914 gndo:personalName "Giuliano";
+  gndo:nameAddition "Imperatore" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, l'Apostata";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588915 .
+
+_:node1ivs02adlx24588915 gndo:personalName "Giuliano";
+  gndo:nameAddition "l'Apostata" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, Flavio Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588916 .
+
+_:node1ivs02adlx24588916 gndo:forename "Flavio Claudio";
+  gndo:surname "Giuliano" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianos, Autokratōr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588917 .
+
+_:node1ivs02adlx24588917 gndo:personalName "Iulianos";
+  gndo:nameAddition "Autokratōr" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588918 .
+
+_:node1ivs02adlx24588918 gndo:personalName "Julian";
+  gndo:nameAddition "Kaiser" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, der Abtrünnige";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588919 .
+
+_:node1ivs02adlx24588919 gndo:personalName "Julian";
+  gndo:nameAddition "der Abtrünnige" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, the Apostate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588920 .
+
+_:node1ivs02adlx24588920 gndo:personalName "Julian";
+  gndo:nameAddition "the Apostate" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, Flavius Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588921 .
+
+_:node1ivs02adlx24588921 gndo:forename "Flavius Claudius";
+  gndo:surname "Julian" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Juliano, Flavio Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588922 .
+
+_:node1ivs02adlx24588922 gndo:forename "Flavio Claudio";
+  gndo:surname "Juliano" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianos, Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588923 .
+
+_:node1ivs02adlx24588923 gndo:personalName "Julianos";
+  gndo:nameAddition "Kaiser" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Imperium Romanum, Imperator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588924 .
+
+_:node1ivs02adlx24588924 gndo:personalName "Julianus";
+  gndo:nameAddition "Imperium Romanum, Imperator" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julien, de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588925 .
+
+_:node1ivs02adlx24588925 gndo:personalName "Julien";
+  gndo:nameAddition "de Constantinople" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julien, Empereur";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588926 .
+
+_:node1ivs02adlx24588926 gndo:personalName "Julien";
+  gndo:nameAddition "Empereur" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julien, l'Apostat";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588927 .
+
+_:node1ivs02adlx24588927 gndo:personalName "Julien";
+  gndo:nameAddition "l'Apostat" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Imperium Romanum, Imperator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588928 .
+
+_:node1ivs02adlx24588928 gndo:personalName "Iulianus";
+  gndo:nameAddition "Imperium Romanum, Imperator" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Flavius Claudius Julianus, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588929 .
+
+_:node1ivs02adlx24588929 gndo:personalName "Flavius Claudius Julianus";
+  gndo:nameAddition "Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588930 .
+
+_:node1ivs02adlx24588930 gndo:personalName "Iulianus";
+  gndo:nameAddition "Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588931 .
+
+_:node1ivs02adlx24588931 gndo:personalName "Iulianus";
+  gndo:nameAddition "Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Kaiser des Römischen Reiches";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588932 .
+
+_:node1ivs02adlx24588932 gndo:personalName "Julianus";
+  gndo:nameAddition "Kaiser des Römischen Reiches" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Flavius Claudius, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588933 .
+
+_:node1ivs02adlx24588933 gndo:forename "Flavius Claudius";
+  gndo:surname "Iulianus";
+  gndo:nameAddition "Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588934 .
+
+_:node1ivs02adlx24588934 gndo:personalName "Julian";
+  gndo:nameAddition "Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Flavius Claudius, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588935 .
+
+_:node1ivs02adlx24588935 gndo:forename "Flavius Claudius";
+  gndo:surname "Julianus";
+  gndo:nameAddition "Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Flavius Claudius, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588936 .
+
+_:node1ivs02adlx24588936 gndo:forename "Flavius Claudius";
+  gndo:surname "Julianus";
+  gndo:nameAddition "Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Flavius Claudius, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588937 .
+
+_:node1ivs02adlx24588937 gndo:forename "Flavius Claudius";
+  gndo:surname "Julianus";
+  gndo:nameAddition "Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Flavius Claudius, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588938 .
+
+_:node1ivs02adlx24588938 gndo:forename "Flavius Claudius";
+  gndo:surname "Iulianus";
+  gndo:nameAddition "Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Apostata, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588939 .
+
+_:node1ivs02adlx24588939 gndo:personalName "Julianus";
+  gndo:nameAddition "Apostata, Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, der Abtrünnige, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588940 .
+
+_:node1ivs02adlx24588940 gndo:personalName "Julian";
+  gndo:nameAddition "der Abtrünnige, Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, the Restorer, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588941 .
+
+_:node1ivs02adlx24588941 gndo:personalName "Julian";
+  gndo:nameAddition "the Restorer, Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, the Restorer, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588942 .
+
+_:node1ivs02adlx24588942 gndo:personalName "Julian";
+  gndo:nameAddition "the Restorer, Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588943 .
+
+_:node1ivs02adlx24588943 gndo:personalName "Giuliano";
+  gndo:nameAddition "Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588944 .
+
+_:node1ivs02adlx24588944 gndo:personalName "Giuliano";
+  gndo:nameAddition "Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588945 .
+
+_:node1ivs02adlx24588945 gndo:personalName "Giuliano";
+  gndo:nameAddition "Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Flavius Claudius Julianus, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588946 .
+
+_:node1ivs02adlx24588946 gndo:personalName "Flavius Claudius Julianus";
+  gndo:nameAddition "Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Apostata, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588947 .
+
+_:node1ivs02adlx24588947 gndo:personalName "Julianus";
+  gndo:nameAddition "Apostata, Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588948 .
+
+_:node1ivs02adlx24588948 gndo:personalName "Julian";
+  gndo:nameAddition "Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Giuliano, Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588949 .
+
+_:node1ivs02adlx24588949 gndo:personalName "Giuliano";
+  gndo:nameAddition "Kaiser" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, the Apostate, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588950 .
+
+_:node1ivs02adlx24588950 gndo:personalName "Julian";
+  gndo:nameAddition "the Apostate, Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Ioulianou, Autokratoros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588951 .
+
+_:node1ivs02adlx24588951 gndo:personalName "Ioulianou";
+  gndo:nameAddition "Autokratoros" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588952 .
+
+_:node1ivs02adlx24588952 gndo:personalName "Julianus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588953 .
+
+_:node1ivs02adlx24588953 gndo:personalName "Julian";
+  gndo:nameAddition "Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588954 .
+
+_:node1ivs02adlx24588954 gndo:personalName "Iulianus";
+  gndo:nameAddition "Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, the Apostate, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588955 .
+
+_:node1ivs02adlx24588955 gndo:personalName "Julian";
+  gndo:nameAddition "the Apostate, Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Flavius Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588956 .
+
+_:node1ivs02adlx24588956 gndo:forename "Flavius Claudius";
+  gndo:surname "Julianus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Iulianus, Flavius Claudius, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588957 .
+
+_:node1ivs02adlx24588957 gndo:forename "Flavius Claudius";
+  gndo:surname "Iulianus";
+  gndo:nameAddition "Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus Augustus, Flavius C.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588958 .
+
+_:node1ivs02adlx24588958 gndo:forename "Flavius C.";
+  gndo:surname "Julianus Augustus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, der Abtrünnige, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588959 .
+
+_:node1ivs02adlx24588959 gndo:personalName "Julian";
+  gndo:nameAddition "der Abtrünnige, Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, the Apostate, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588960 .
+
+_:node1ivs02adlx24588960 gndo:personalName "Julian";
+  gndo:nameAddition "the Apostate, Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Augustus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588961 .
+
+_:node1ivs02adlx24588961 gndo:personalName "Julianus";
+  gndo:nameAddition "Augustus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Apostata, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588962 .
+
+_:node1ivs02adlx24588962 gndo:personalName "Julianus";
+  gndo:nameAddition "Apostata, Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Empereur de l'Empire Romain"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588963 .
+
+_:node1ivs02adlx24588963 gndo:personalName "Julianus";
+  gndo:nameAddition "Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Flavius Claudius Julianus, Empereur de l'Empire Romain";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588964 .
+
+_:node1ivs02adlx24588964 gndo:personalName "Flavius Claudius Julianus";
+  gndo:nameAddition "Empereur de l'Empire Romain" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, the Restorer, Emperor of the Roman Empire";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588965 .
+
+_:node1ivs02adlx24588965 gndo:personalName "Julian";
+  gndo:nameAddition "the Restorer, Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588966 .
+
+_:node1ivs02adlx24588966 gndo:personalName "Julianus";
+  gndo:nameAddition "Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julianus, Emperor of the Roman Empire"@en;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588967 .
+
+_:node1ivs02adlx24588967 gndo:personalName "Julianus";
+  gndo:nameAddition "Emperor of the Roman Empire" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Julian, der Abtrünnige, Kaiser des Römischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588968 .
+
+_:node1ivs02adlx24588968 gndo:personalName "Julian";
+  gndo:nameAddition "der Abtrünnige, Kaiser des Römischen Reichs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Yulyanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588969 .
+
+_:node1ivs02adlx24588969 gndo:personalName "Yulyanus" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "Yûlyānûs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588970 .
+
+_:node1ivs02adlx24588970 gndo:personalName "Yûlyānûs" .
+
+<https://d-nb.info/gnd/118558684> gndo:variantNameForThePerson "JûlJānûs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588971 .
+
+_:node1ivs02adlx24588971 gndo:personalName "JûlJānûs" .
+
+<https://d-nb.info/gnd/118558684> gndo:preferredNameForThePerson "Julian, Römisches Reich, Kaiser";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24588972 .
+
+_:node1ivs02adlx24588972 gndo:personalName "Julian";
+  gndo:nameAddition "Römisches Reich, Kaiser" .
+
+<https://d-nb.info/gnd/118558684> gndo:originalScriptNameOfThePerson "יוליאנוס"@he;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Iulianus <Imperium Romanum, Imperator>: De Caesaribus sermo", "Iulianus <Imperium Romanum, Imperator>: Epistolae",
+    "Iulianus <Imperium Romanum, Imperator>: Caesares", "Iulianus <Imperium Romanum, Imperator>: Caesares",
+    "Iulianus <Imperium Romanum, Imperator>: Caesares", "Iulianus <Imperium Romanum, Imperator>: Deffense du Paganisme",
+    "Iulianus <Imperium Romanum, Imperator>: Défense du paganisme", "Iulianus <Imperium Romanum, Imperator>: Opera quae extant omnia",
+    "Iulianus <Imperium Romanum, Imperator>: Opera ...", "Iulianus <Imperium Romanum, Imperator>: Les Césars ...";
+  wdrs:describedby <https://d-nb.info/gnd/118558684/about> .
+
+<https://d-nb.info/gnd/118558684/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118558684> gndo:biographicalOrHistoricalInformation "Römischer Kaiser seit 355/361; Schriftsteller, u.a. Verfasser philosophischer und heidnisch-theologischer Schriften"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24588973 .
+
+_:node1ivs02adlx24588973 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118558684> gndo:dateOfBirth "0331"^^xsd:gYear;
+  gndo:dateOfDeath "0363"^^xsd:gYear .
+

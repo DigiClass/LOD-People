@@ -1,0 +1,228 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118797271> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118797271/about> .
+
+<https://d-nb.info/gnd/118797271/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T15:50:34.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118797271> gndo:gndIdentifier "118797271";
+  owl:sameAs <http://viaf.org/viaf/50021597>, <https://isni.org/isni/0000000012135296>,
+    <http://www.wikidata.org/entity/Q770394>, <http://id.loc.gov/rwo/agents/nr95030658>;
+  gndo:oldAuthorityNumber "(DE-588)108973266X";
+  owl:sameAs <https://d-nb.info/gnd/108973266X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108973266X";
+  gndo:oldAuthorityNumber "(DE-588)108960193X";
+  owl:sameAs <https://d-nb.info/gnd/108960193X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108960193X";
+  gndo:oldAuthorityNumber "(DE-588a)118797271", "(DE-588c)4112930-1";
+  gndo:variantNameForThePerson "Simias, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591793 .
+
+_:node1ivs02adlx24591793 gndo:personalName "Simias";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simias, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591794 .
+
+_:node1ivs02adlx24591794 gndo:personalName "Simias";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simias, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591795 .
+
+_:node1ivs02adlx24591795 gndo:personalName "Simias";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simias, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591796 .
+
+_:node1ivs02adlx24591796 gndo:personalName "Simias";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simias, Dichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591797 .
+
+_:node1ivs02adlx24591797 gndo:personalName "Simias";
+  gndo:nameAddition "Dichter" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591798 .
+
+_:node1ivs02adlx24591798 gndo:personalName "Simias" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias, von Rhodos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591799 .
+
+_:node1ivs02adlx24591799 gndo:personalName "Simmias";
+  gndo:nameAddition "von Rhodos" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias, Rhodius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591800 .
+
+_:node1ivs02adlx24591800 gndo:personalName "Simmias";
+  gndo:nameAddition "Rhodius" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591801 .
+
+_:node1ivs02adlx24591801 gndo:personalName "Simmias";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591802 .
+
+_:node1ivs02adlx24591802 gndo:personalName "Simmias";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591803 .
+
+_:node1ivs02adlx24591803 gndo:personalName "Simmias";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591804 .
+
+_:node1ivs02adlx24591804 gndo:personalName "Simmias" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simias Rhodios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591805 .
+
+_:node1ivs02adlx24591805 gndo:personalName "Simias Rhodios" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591806 .
+
+_:node1ivs02adlx24591806 gndo:personalName "Simmia" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simias, of Rhodus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591807 .
+
+_:node1ivs02adlx24591807 gndo:personalName "Simias";
+  gndo:nameAddition "of Rhodus" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias, of Rhodos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591808 .
+
+_:node1ivs02adlx24591808 gndo:personalName "Simmias";
+  gndo:nameAddition "of Rhodos" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias, of Rhodes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591809 .
+
+_:node1ivs02adlx24591809 gndo:personalName "Simmias";
+  gndo:nameAddition "of Rhodes" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmias, de Rhodes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591810 .
+
+_:node1ivs02adlx24591810 gndo:personalName "Simmias";
+  gndo:nameAddition "de Rhodes" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmia, di Rodi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591811 .
+
+_:node1ivs02adlx24591811 gndo:personalName "Simmia";
+  gndo:nameAddition "di Rodi" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simia, di Rodi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591812 .
+
+_:node1ivs02adlx24591812 gndo:personalName "Simia";
+  gndo:nameAddition "di Rodi" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simia, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591813 .
+
+_:node1ivs02adlx24591813 gndo:personalName "Simia";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmia, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591814 .
+
+_:node1ivs02adlx24591814 gndo:personalName "Simmia";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simia, Grammatico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591815 .
+
+_:node1ivs02adlx24591815 gndo:personalName "Simia";
+  gndo:nameAddition "Grammatico" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simmia, Grammatico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591816 .
+
+_:node1ivs02adlx24591816 gndo:personalName "Simmia";
+  gndo:nameAddition "Grammatico" .
+
+<https://d-nb.info/gnd/118797271> gndo:variantNameForThePerson "Simias, von Rhodos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591817 .
+
+_:node1ivs02adlx24591817 gndo:personalName "Simias";
+  gndo:nameAddition "von Rhodos" .
+
+<https://d-nb.info/gnd/118797271> gndo:preferredNameForThePerson "Simias, Rhodius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591818 .
+
+_:node1ivs02adlx24591818 gndo:personalName "Simias";
+  gndo:nameAddition "Rhodius" .
+
+<https://d-nb.info/gnd/118797271> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Simmias: Carmina", "Simmias: Carmina", "Simmias: Ad alas amoris divini",
+    "Theocritus: [Opera] quae extant", "Theocritus: Teocrito, Mosco, Bione, Simmia", "Theocritus: [Omnia] quae extant";
+  wdrs:describedby <https://d-nb.info/gnd/118797271/about> .
+
+<https://d-nb.info/gnd/118797271/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118797271> gndo:biographicalOrHistoricalInformation "Griechischer Dichter und Grammatiker, verfasste u.a. Glossen und Epigramme"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:placeOfBirthAsLiteral "Rhodos";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v300]" .
+

@@ -1,0 +1,215 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/10093630X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/10093630X/about> .
+
+<https://d-nb.info/gnd/10093630X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-01-22T00:31:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/10093630X> gndo:gndIdentifier "10093630X";
+  owl:sameAs <https://dbpedia.org/resource/Anastasius_Sinaita>, <http://viaf.org/viaf/233162839>,
+    <http://www.wikidata.org/entity/Q473291>;
+  gndo:oldAuthorityNumber "(DE-588)1158772890";
+  owl:sameAs <https://d-nb.info/gnd/1158772890>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1158772890";
+  gndo:oldAuthorityNumber "(DE-588)1089758294";
+  owl:sameAs <https://d-nb.info/gnd/1089758294>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089758294";
+  gndo:oldAuthorityNumber "(DE-588)108958685X";
+  owl:sameAs <https://d-nb.info/gnd/108958685X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108958685X";
+  gndo:oldAuthorityNumber "(DE-588)174053428";
+  owl:sameAs <https://d-nb.info/gnd/174053428>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174053428";
+  gndo:oldAuthorityNumber "(DE-588a)174053428", "(DE-588)171950119";
+  owl:sameAs <https://d-nb.info/gnd/171950119>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/171950119";
+  gndo:oldAuthorityNumber "(DE-588a)171950119", "(DE-588a)10093630X", "(DE-588c)7541688-8";
+  gndo:variantNameForThePerson "Anastasius, Sinaita, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594627 .
+
+_:node1ivs02adlx24594627 gndo:personalName "Anastasius";
+  gndo:nameAddition "Sinaita, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasius, Sinaiticus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594628 .
+
+_:node1ivs02adlx24594628 gndo:personalName "Anastasius";
+  gndo:nameAddition "Sinaiticus, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastase, le Sinaite, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594629 .
+
+_:node1ivs02adlx24594629 gndo:personalName "Anastase";
+  gndo:nameAddition "le Sinaite, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasio, Sinaito, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594630 .
+
+_:node1ivs02adlx24594630 gndo:personalName "Anastasio";
+  gndo:nameAddition "Sinaito, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasij, Sinajski, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594631 .
+
+_:node1ivs02adlx24594631 gndo:personalName "Anastasij";
+  gndo:nameAddition "Sinajski, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasius, Hygoumenus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594632 .
+
+_:node1ivs02adlx24594632 gndo:personalName "Anastasius";
+  gndo:nameAddition "Hygoumenus, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasius, of Sinai, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594633 .
+
+_:node1ivs02adlx24594633 gndo:personalName "Anastasius";
+  gndo:nameAddition "of Sinai, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasios, of Sinai, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594634 .
+
+_:node1ivs02adlx24594634 gndo:personalName "Anastasios";
+  gndo:nameAddition "of Sinai, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasius, Sinaita Dogmaticus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594635 .
+
+_:node1ivs02adlx24594635 gndo:personalName "Anastasius";
+  gndo:nameAddition "Sinaita Dogmaticus, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasius, Dogmaticus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594636 .
+
+_:node1ivs02adlx24594636 gndo:personalName "Anastasius";
+  gndo:nameAddition "Dogmaticus, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasios, ho Sinaitēs, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594637 .
+
+_:node1ivs02adlx24594637 gndo:personalName "Anastasios";
+  gndo:nameAddition "ho Sinaitēs, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasius, Hegumenus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594638 .
+
+_:node1ivs02adlx24594638 gndo:personalName "Anastasius";
+  gndo:nameAddition "Hegumenus, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasi, Sineli, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594639 .
+
+_:node1ivs02adlx24594639 gndo:personalName "Anastasi";
+  gndo:nameAddition "Sineli, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Sinajski, Anastasij, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594640 .
+
+_:node1ivs02adlx24594640 gndo:forename "Anastasij";
+  gndo:surname "Sinajski";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Sinaita, Anastasius, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594641 .
+
+_:node1ivs02adlx24594641 gndo:forename "Anastasius";
+  gndo:surname "Sinaita";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Anastasio, Sinaita, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594642 .
+
+_:node1ivs02adlx24594642 gndo:personalName "Anastasio";
+  gndo:nameAddition "Sinaita, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Sinaita, Anastasio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594643 .
+
+_:node1ivs02adlx24594643 gndo:forename "Anastasio";
+  gndo:surname "Sinaita" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "ანასტასი, სინელი"@ka;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594644 .
+
+_:node1ivs02adlx24594644 gndo:personalName "ანასტასი";
+  gndo:nameAddition "სინელი" .
+
+<https://d-nb.info/gnd/10093630X> gndo:variantNameForThePerson "Αναστάσιος, Σιναΐτης"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594645 .
+
+_:node1ivs02adlx24594645 gndo:personalName "Αναστάσιος";
+  gndo:nameAddition "Σιναΐτης" .
+
+<https://d-nb.info/gnd/10093630X> gndo:preferredNameForThePerson "Anastasios, Sinaites, Heiliger";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594646 .
+
+_:node1ivs02adlx24594646 gndo:personalName "Anastasios";
+  gndo:nameAddition "Sinaites, Heiliger" .
+
+<https://d-nb.info/gnd/10093630X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:broaderTermInstantial <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Anastasius <Sinaita>: Anastasii Sinaitae Sermones duo in constitutionem hominis secundu*";
+  wdrs:describedby <https://d-nb.info/gnd/10093630X/about> .
+
+<https://d-nb.info/gnd/10093630X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/10093630X> gndo:biographicalOrHistoricalInformation "Mönch, später Abt des Sinaiklosters, Verfasser theologischer Schriften; Viae dux; Quaestiones exegeticae; Narratio brevis de haeresibus; Identität mit Anastasius <Poeta> umstritten"@de;
+  gndo:periodOfActivity "640-700";
+  gndo:professionOrOccupation _:node1ivs02adlx24594647 .
+
+_:node1ivs02adlx24594647 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4030752-9>;
+  rdf:_2 <https://d-nb.info/gnd/4000273-1>;
+  rdf:_3 <https://d-nb.info/gnd/4039902-3>;
+  rdf:_4 <https://d-nb.info/gnd/4059756-8> .
+
+<https://d-nb.info/gnd/10093630X> gndo:dateOfBirth "0610"^^xsd:gYear;
+  gndo:dateOfDeath "0701"^^xsd:gYear .
+

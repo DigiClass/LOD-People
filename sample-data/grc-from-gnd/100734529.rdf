@@ -1,0 +1,135 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100734529> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100734529/about> .
+
+<https://d-nb.info/gnd/100734529/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-09-26T12:36:57.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100734529> gndo:gndIdentifier "100734529";
+  foaf:page <https://de.wikipedia.org/wiki/Kallistratos_%28Rhetor%29>;
+  owl:sameAs <https://dbpedia.org/resource/Callistratus_(sophist)>, <http://viaf.org/viaf/311306769>,
+    <https://isni.org/isni/0000000376162551>, <http://www.wikidata.org/entity/Q713482>,
+    <http://id.loc.gov/rwo/agents/n85185866>;
+  gndo:oldAuthorityNumber "(DE-588)119635399";
+  owl:sameAs <https://d-nb.info/gnd/119635399>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119635399";
+  gndo:oldAuthorityNumber "(DE-588a)119635399", "(DE-588)1089746520";
+  owl:sameAs <https://d-nb.info/gnd/1089746520>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089746520";
+  gndo:oldAuthorityNumber "(DE-588)1089182309";
+  owl:sameAs <https://d-nb.info/gnd/1089182309>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089182309";
+  gndo:oldAuthorityNumber "(DE-588a)100734529", "(DE-588a)134143272", "(DE-588a)127888691",
+    "(DE-588c)4603185-6";
+  gndo:variantNameForThePerson "Callistratus, Sophistes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594607 .
+
+_:node1ivs02adlx24594607 gndo:personalName "Callistratus";
+  gndo:nameAddition "Sophistes" .
+
+<https://d-nb.info/gnd/100734529> gndo:variantNameForThePerson "Kallistratos, Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594608 .
+
+_:node1ivs02adlx24594608 gndo:personalName "Kallistratos";
+  gndo:nameAddition "Sophist" .
+
+<https://d-nb.info/gnd/100734529> gndo:variantNameForThePerson "Callistratus, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594609 .
+
+_:node1ivs02adlx24594609 gndo:personalName "Callistratus";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/100734529> gndo:variantNameForThePerson "Kallistratus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594610 .
+
+_:node1ivs02adlx24594610 gndo:personalName "Kallistratus" .
+
+<https://d-nb.info/gnd/100734529> gndo:variantNameForThePerson "Callistrate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594611 .
+
+_:node1ivs02adlx24594611 gndo:personalName "Callistrate" .
+
+<https://d-nb.info/gnd/100734529> gndo:variantNameForThePerson "Kallistratos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594612 .
+
+_:node1ivs02adlx24594612 gndo:personalName "Kallistratos" .
+
+<https://d-nb.info/gnd/100734529> gndo:variantNameForThePerson "Callistratus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594613 .
+
+_:node1ivs02adlx24594613 gndo:personalName "Callistratus" .
+
+<https://d-nb.info/gnd/100734529> gndo:variantNameForThePerson "Calístrato";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594614 .
+
+_:node1ivs02adlx24594614 gndo:personalName "Calístrato" .
+
+<https://d-nb.info/gnd/100734529> gndo:preferredNameForThePerson "Callistratus, Sophista";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594615 .
+
+_:node1ivs02adlx24594615 gndo:personalName "Callistratus";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/100734529> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:relatedSubjectHeading <https://d-nb.info/gnd/4055612-8>;
+  gndo:professionOrOccupationAsLiteral "rhetor";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#13.1bp>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Statuae", "Le Statue", "Standbilder", "Philostratus, Flavius: Werke";
+  wdrs:describedby <https://d-nb.info/gnd/100734529/about> .
+
+<https://d-nb.info/gnd/100734529/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100734529> gndo:biographicalOrHistoricalInformation "Verf. von Beschreibungen (ekphraseis) von 14 Statuen in Anlehnung an Philostratus ; K. lebte im 3. oder 4. Jahrhundert"@de;
+  gndo:udkCode "301 - 400";
+  gndo:professionOrOccupation _:node1ivs02adlx24594616 .
+
+_:node1ivs02adlx24594616 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4055612-8> .
+
+<https://d-nb.info/gnd/100734529> gndo:dateOfBirthAndDeath "[4. Jh.]" .
+

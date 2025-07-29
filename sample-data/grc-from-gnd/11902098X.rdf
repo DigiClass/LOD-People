@@ -1,0 +1,145 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11902098X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11902098X/about> .
+
+<https://d-nb.info/gnd/11902098X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T16:48:36.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11902098X> gndo:gndIdentifier "11902098X";
+  owl:sameAs <https://dbpedia.org/resource/Philo_of_Byzantium>, <http://viaf.org/viaf/307157522>,
+    <http://www.wikidata.org/entity/Q28692695>;
+  gndo:oldAuthorityNumber "(DE-588)1089719426";
+  owl:sameAs <https://d-nb.info/gnd/1089719426>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089719426";
+  gndo:oldAuthorityNumber "(DE-588)1089153988";
+  owl:sameAs <https://d-nb.info/gnd/1089153988>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089153988";
+  gndo:oldAuthorityNumber "(DE-588)182491692";
+  owl:sameAs <https://d-nb.info/gnd/182491692>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182491692";
+  gndo:oldAuthorityNumber "(DE-588a)182491692", "(DE-588)172307589";
+  owl:sameAs <https://d-nb.info/gnd/172307589>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172307589";
+  gndo:oldAuthorityNumber "(DE-588a)172307589", "(DE-588a)11902098X", "(DE-588a)100233864",
+    "(DE-588c)4279102-9";
+  gndo:variantNameForThePerson "Philon, von Byzanz, Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594747 .
+
+_:node1ivs02adlx24594747 gndo:personalName "Philon";
+  gndo:nameAddition "von Byzanz, Schriftsteller" .
+
+<https://d-nb.info/gnd/11902098X> gndo:variantNameForThePerson "Philōn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594748 .
+
+_:node1ivs02adlx24594748 gndo:personalName "Philōn" .
+
+<https://d-nb.info/gnd/11902098X> gndo:variantNameForThePerson "Philo, of Byzantium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594749 .
+
+_:node1ivs02adlx24594749 gndo:personalName "Philo";
+  gndo:nameAddition "of Byzantium" .
+
+<https://d-nb.info/gnd/11902098X> gndo:variantNameForThePerson "Philo, Byzantinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594750 .
+
+_:node1ivs02adlx24594750 gndo:personalName "Philo";
+  gndo:nameAddition "Byzantinus" .
+
+<https://d-nb.info/gnd/11902098X> gndo:variantNameForThePerson "Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594751 .
+
+_:node1ivs02adlx24594751 gndo:personalName "Philo" .
+
+<https://d-nb.info/gnd/11902098X> gndo:variantNameForThePerson "Philo, Paradoxographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594752 .
+
+_:node1ivs02adlx24594752 gndo:personalName "Philo";
+  gndo:nameAddition "Paradoxographus" .
+
+<https://d-nb.info/gnd/11902098X> gndo:variantNameForThePerson "Philon, von Byzantion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594753 .
+
+_:node1ivs02adlx24594753 gndo:personalName "Philon";
+  gndo:nameAddition "von Byzantion" .
+
+<https://d-nb.info/gnd/11902098X> gndo:variantNameForThePerson "Philon, de Byzance";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594754 .
+
+_:node1ivs02adlx24594754 gndo:personalName "Philon";
+  gndo:nameAddition "de Byzance" .
+
+<https://d-nb.info/gnd/11902098X> gndo:variantNameForThePerson "Filone, di Bisanzio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594755 .
+
+_:node1ivs02adlx24594755 gndo:personalName "Filone";
+  gndo:nameAddition "di Bisanzio" .
+
+<https://d-nb.info/gnd/11902098X> gndo:preferredNameForThePerson "Philo, Byzantius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594756 .
+
+_:node1ivs02adlx24594756 gndo:personalName "Philo";
+  gndo:nameAddition "Byzantius" .
+
+<https://d-nb.info/gnd/11902098X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Philo <Byzantius>: De septem orbis spectaculis. - 1640", "Philo <Byzantius>: De septem mundi miraculis. - [1661]";
+  wdrs:describedby <https://d-nb.info/gnd/11902098X/about> .
+
+<https://d-nb.info/gnd/11902098X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11902098X> gndo:biographicalOrHistoricalInformation "De septem orbis spectaculis, Werk nur erhalten in der Heidelberger Paradoxographen-Hs. 398, 10.Jh., in die späte Kaiserzeit gehörig"@de,
+    "Griechischer Schriftsteller"@de;
+  gndo:udkCode "301 - 400", "401 - 500", "501 - 600";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594757 .
+
+_:node1ivs02adlx24594757 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/11902098X> gndo:dateOfBirthAndDeath "[4.-6. Jh.]" .
+

@@ -1,0 +1,165 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118549847> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118549847/about> .
+
+<https://d-nb.info/gnd/118549847/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-08T17:56:42.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118549847> gndo:gndIdentifier "118549847";
+  foaf:page <https://de.wikipedia.org/wiki/Herodes>;
+  owl:sameAs <https://dbpedia.org/resource/Herod_the_Great>, <http://viaf.org/viaf/107903854>,
+    <https://isni.org/isni/0000000122592324>, <http://www.wikidata.org/entity/Q51672>,
+    <http://id.loc.gov/rwo/agents/n50051417>;
+  gndo:oldAuthorityNumber "(DE-588a)118549847", "(DE-588c)4024548-2";
+  gndo:variantNameForThePerson "Herodes, Iudaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400217 .
+
+_:node1ivpishs6x25400217 gndo:personalName "Herodes";
+  gndo:nameAddition "Iudaeus" .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Herodes, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400218 .
+
+_:node1ivpishs6x25400218 gndo:personalName "Herodes";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Herodes I., Rex Iudaeorum";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400219 .
+
+_:node1ivpishs6x25400219 gndo:personalName "Herodes";
+  gndo:counting "I.";
+  gndo:nameAddition "Rex Iudaeorum" .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Herodes, Palaestinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400220 .
+
+_:node1ivpishs6x25400220 gndo:personalName "Herodes";
+  gndo:nameAddition "Palaestinus" .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Herodes I., von Judäa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400221 .
+
+_:node1ivpishs6x25400221 gndo:personalName "Herodes";
+  gndo:counting "I.";
+  gndo:nameAddition "von Judäa" .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Herodes I.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400222 .
+
+_:node1ivpishs6x25400222 gndo:personalName "Herodes";
+  gndo:counting "I." .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Herodes, der Große";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400223 .
+
+_:node1ivpishs6x25400223 gndo:personalName "Herodes";
+  gndo:nameAddition "der Große" .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Herodes, Iulius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400224 .
+
+_:node1ivpishs6x25400224 gndo:forename "Iulius";
+  gndo:surname "Herodes" .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Iulius, Herodes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400225 .
+
+_:node1ivpishs6x25400225 gndo:personalName "Iulius";
+  gndo:nameAddition "Herodes" .
+
+<https://d-nb.info/gnd/118549847> gndo:variantNameForThePerson "Herodes I., Iudaea, Rex";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400226 .
+
+_:node1ivpishs6x25400226 gndo:personalName "Herodes";
+  gndo:counting "I.";
+  gndo:nameAddition "Iudaea, Rex" .
+
+<https://d-nb.info/gnd/118549847> gndo:preferredNameForThePerson "Herodes I., Judäa, König";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400227 .
+
+_:node1ivpishs6x25400227 gndo:personalName "Herodes";
+  gndo:counting "I.";
+  gndo:nameAddition "Judäa, König" .
+
+<https://d-nb.info/gnd/118549847> gndo:familialRelationship <https://d-nb.info/gnd/119143380>;
+  agrelon:hasChild <https://d-nb.info/gnd/119143380>;
+  gndo:hasRelation _:node1ivpishs6x25400228 .
+
+_:node1ivpishs6x25400228 agrelon:hasChild <https://d-nb.info/gnd/119143380>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549847> gndo:familialRelationship <https://d-nb.info/gnd/118703781>;
+  agrelon:hasChild <https://d-nb.info/gnd/118703781>;
+  gndo:hasRelation _:node1ivpishs6x25400229 .
+
+_:node1ivpishs6x25400229 agrelon:hasChild <https://d-nb.info/gnd/118703781>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549847> gndo:familialRelationship <https://d-nb.info/gnd/119143372>;
+  agrelon:hasChild <https://d-nb.info/gnd/119143372>;
+  gndo:hasRelation _:node1ivpishs6x25400230 .
+
+_:node1ivpishs6x25400230 agrelon:hasChild <https://d-nb.info/gnd/119143372>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118549847> gndo:titleOfNobility <https://d-nb.info/gnd/4031516-2>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IL>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XY>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/heb>,
+    <http://id.loc.gov/vocabulary/iso639-2/arc>;
+  wdrs:describedby <https://d-nb.info/gnd/118549847/about> .
+
+<https://d-nb.info/gnd/118549847/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118549847> gndo:biographicalOrHistoricalInformation "FGrH 236; König in Judäa, Galiläa, Samaria und angrenzenden Gebieten"@de;
+  gndo:udkCode "100 - 1 v. Chr. ";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4028586-8>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4028579-0>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0073"^^xsd:gYear;
+  gndo:dateOfDeath "-0004"^^xsd:gYear .
+

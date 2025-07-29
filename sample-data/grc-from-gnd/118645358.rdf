@@ -1,0 +1,131 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118645358> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118645358/about> .
+
+<https://d-nb.info/gnd/118645358/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-09-03T05:31:04.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118645358> gndo:gndIdentifier "118645358";
+  owl:sameAs <https://dbpedia.org/resource/Antipater_of_Sidon>, <http://viaf.org/viaf/2100150032982611180007>,
+    <http://www.wikidata.org/entity/Q114280>;
+  gndo:oldAuthorityNumber "(DE-588)108973302X";
+  owl:sameAs <https://d-nb.info/gnd/108973302X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108973302X";
+  gndo:oldAuthorityNumber "(DE-588)1089302800";
+  owl:sameAs <https://d-nb.info/gnd/1089302800>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089302800";
+  gndo:oldAuthorityNumber "(DE-588a)118645358", "(DE-588a)102380074", "(DE-588c)4080106-8";
+  gndo:variantNameForThePerson "Antipater, von Sidon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405679 .
+
+_:node1ivpishs6x25405679 gndo:personalName "Antipater";
+  gndo:nameAddition "von Sidon" .
+
+<https://d-nb.info/gnd/118645358> gndo:variantNameForThePerson "Antipatros, von Sidon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405680 .
+
+_:node1ivpishs6x25405680 gndo:personalName "Antipatros";
+  gndo:nameAddition "von Sidon" .
+
+<https://d-nb.info/gnd/118645358> gndo:variantNameForThePerson "Antipatros, Epigrammdichter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405681 .
+
+_:node1ivpishs6x25405681 gndo:personalName "Antipatros";
+  gndo:nameAddition "Epigrammdichter" .
+
+<https://d-nb.info/gnd/118645358> gndo:variantNameForThePerson "Antipatros, von Tyros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405682 .
+
+_:node1ivpishs6x25405682 gndo:personalName "Antipatros";
+  gndo:nameAddition "von Tyros" .
+
+<https://d-nb.info/gnd/118645358> gndo:variantNameForThePerson "Antipater, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405683 .
+
+_:node1ivpishs6x25405683 gndo:personalName "Antipater";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/118645358> gndo:variantNameForThePerson "Antipatro, di Sidone";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405684 .
+
+_:node1ivpishs6x25405684 gndo:personalName "Antipatro";
+  gndo:nameAddition "di Sidone" .
+
+<https://d-nb.info/gnd/118645358> gndo:variantNameForThePerson "Antipatros, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405685 .
+
+_:node1ivpishs6x25405685 gndo:personalName "Antipatros";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/118645358> gndo:variantNameForThePerson "Antipater, of Sidon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405686 .
+
+_:node1ivpishs6x25405686 gndo:personalName "Antipater";
+  gndo:nameAddition "of Sidon" .
+
+<https://d-nb.info/gnd/118645358> gndo:preferredNameForThePerson "Antipater, Sidonius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405687 .
+
+_:node1ivpishs6x25405687 gndo:personalName "Antipater";
+  gndo:nameAddition "Sidonius" .
+
+<https://d-nb.info/gnd/118645358> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118645358/about> .
+
+<https://d-nb.info/gnd/118645358/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118645358> gndo:biographicalOrHistoricalInformation "Griech. Dichter"@de;
+  gndo:udkCode "200 - 101 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25405688 .
+
+_:node1ivpishs6x25405688 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118645358> gndo:dateOfBirthAndDeath "[Ende v2. Jh.]" .
+

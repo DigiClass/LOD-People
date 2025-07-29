@@ -1,0 +1,212 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119388006> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119388006/about> .
+
+<https://d-nb.info/gnd/119388006/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-08-27T10:18:13.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119388006> gndo:gndIdentifier "119388006";
+  owl:sameAs <https://dbpedia.org/resource/Hypsicles>, <http://viaf.org/viaf/22956881>,
+    <http://www.wikidata.org/entity/Q929483>;
+  gndo:oldAuthorityNumber "(DE-588)1089095643";
+  owl:sameAs <https://d-nb.info/gnd/1089095643>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089095643";
+  gndo:oldAuthorityNumber "(DE-588)1089724330";
+  owl:sameAs <https://d-nb.info/gnd/1089724330>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089724330";
+  gndo:oldAuthorityNumber "(DE-588a)119388006", "(DE-588a)119717921", "(DE-588a)102396019",
+    "(DE-588c)4429146-2";
+  gndo:variantNameForThePerson "Hypsikles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590889 .
+
+_:node1ivs02adlx24590889 gndo:personalName "Hypsikles" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Hypsicles, Mathematicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590890 .
+
+_:node1ivs02adlx24590890 gndo:personalName "Hypsicles";
+  gndo:nameAddition "Mathematicus" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Hypsicles, Astronomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590891 .
+
+_:node1ivs02adlx24590891 gndo:personalName "Hypsicles";
+  gndo:nameAddition "Astronomus" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Hypsicles, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590892 .
+
+_:node1ivs02adlx24590892 gndo:personalName "Hypsicles";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Hypsikles, Astronom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590893 .
+
+_:node1ivs02adlx24590893 gndo:personalName "Hypsikles";
+  gndo:nameAddition "Astronom" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Hypsikles, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590894 .
+
+_:node1ivs02adlx24590894 gndo:personalName "Hypsikles";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Hypsikles, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590895 .
+
+_:node1ivs02adlx24590895 gndo:personalName "Hypsikles";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Hypsicles, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590896 .
+
+_:node1ivs02adlx24590896 gndo:personalName "Hypsicles";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Hypsicles, Mathematician";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590897 .
+
+_:node1ivs02adlx24590897 gndo:personalName "Hypsicles";
+  gndo:nameAddition "Mathematician" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Ipsicle, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590898 .
+
+_:node1ivs02adlx24590898 gndo:personalName "Ipsicle";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Ipsicle, Matematico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590899 .
+
+_:node1ivs02adlx24590899 gndo:personalName "Ipsicle";
+  gndo:nameAddition "Matematico" .
+
+<https://d-nb.info/gnd/119388006> gndo:variantNameForThePerson "Ipsicle, Astronomo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590900 .
+
+_:node1ivs02adlx24590900 gndo:personalName "Ipsicle";
+  gndo:nameAddition "Astronomo" .
+
+<https://d-nb.info/gnd/119388006> gndo:preferredNameForThePerson "Hypsicles";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590901 .
+
+_:node1ivs02adlx24590901 gndo:personalName "Hypsicles" .
+
+<https://d-nb.info/gnd/119388006> gndo:originalScriptNameOfThePerson "ابسقلاوس"@ar;
+  gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118666797>;
+  gndo:hasRelation _:node1ivs02adlx24590902 .
+
+_:node1ivs02adlx24590902 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118666797>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119388006> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118638955>;
+  gndo:hasRelation _:node1ivs02adlx24590903 .
+
+_:node1ivs02adlx24590903 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118638955>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119388006> gndo:hasRelation _:node1ivs02adlx24590904 .
+
+_:node1ivs02adlx24590904 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119388006> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590905 .
+
+_:node1ivs02adlx24590905 gndo:personalName "Theon";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/119388006> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119876213>;
+  gndo:hasRelation _:node1ivs02adlx24590906 .
+
+_:node1ivs02adlx24590906 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119876213>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119388006> gndo:hasRelation _:node1ivs02adlx24590907 .
+
+_:node1ivs02adlx24590907 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119388006> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590908 .
+
+_:node1ivs02adlx24590908 gndo:forename "Johannes";
+  gndo:surname "Herwagen";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/119388006> gndo:hasRelation _:node1ivs02adlx24590909 .
+
+_:node1ivs02adlx24590909 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119388006> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590910 .
+
+_:node1ivs02adlx24590910 gndo:forename "Philipp";
+  gndo:surname "Melanchthon" .
+
+<https://d-nb.info/gnd/119388006> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Euclides: Catoptrica.  1546.  (VD16 E 4155)", "Euclides: EVCLIDIS MEGArensis mathematici clarissimi Elementorum geometricorum libri XV. Cum ...  1558.  (VD16 E 4157)",
+    "Euclides: EVCLIDIS MEGARENSIS MATHEMATICI CLARISSIMI ELEMENtorum Geometricorum. Lib.XV. Cum ...  1537.  (VD16 E 4154)",
+    "Hypsiclis Anaphoricus. - 1657";
+  wdrs:describedby <https://d-nb.info/gnd/119388006/about> .
+
+<https://d-nb.info/gnd/119388006/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-21>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/119388006> gndo:biographicalOrHistoricalInformation "Griech. Mathematiker und Astronom"@de;
+  gndo:udkCode "300 - 201 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24590911 .
+
+_:node1ivs02adlx24590911 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4037945-0>;
+  rdf:_2 <https://d-nb.info/gnd/4003310-7> .
+
+<https://d-nb.info/gnd/119388006> gndo:dateOfBirthAndDeath "[v2. Jh.]" .
+

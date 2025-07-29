@@ -1,0 +1,194 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118798049> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118798049/about> .
+
+<https://d-nb.info/gnd/118798049/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-06-04T10:19:29.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118798049> gndo:gndIdentifier "118798049";
+  foaf:page <https://de.wikipedia.org/wiki/Soranos_von_Ephesos>;
+  owl:sameAs <https://dbpedia.org/resource/Soranus_of_Ephesus>, <http://viaf.org/viaf/35828235>,
+    <http://www.wikidata.org/entity/Q446595>;
+  gndo:oldAuthorityNumber "(DE-588)1089135432";
+  owl:sameAs <https://d-nb.info/gnd/1089135432>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089135432";
+  gndo:oldAuthorityNumber "(DE-588)1089718101";
+  owl:sameAs <https://d-nb.info/gnd/1089718101>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089718101";
+  gndo:oldAuthorityNumber "(DE-588a)118798049", "(DE-588c)4113016-9";
+  gndo:variantNameForThePerson "Soran";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589556 .
+
+_:node1ivs02adlx24589556 gndo:personalName "Soran" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589557 .
+
+_:node1ivs02adlx24589557 gndo:personalName "Soranos" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranos, d'Éphèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589558 .
+
+_:node1ivs02adlx24589558 gndo:personalName "Soranos";
+  gndo:nameAddition "d'Éphèse" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Sōranos, Ephesios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589559 .
+
+_:node1ivs02adlx24589559 gndo:personalName "Sōranos";
+  gndo:nameAddition "Ephesios" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranus, of Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589560 .
+
+_:node1ivs02adlx24589560 gndo:personalName "Soranus";
+  gndo:nameAddition "of Ephesos" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranus, Physician";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589561 .
+
+_:node1ivs02adlx24589561 gndo:personalName "Soranus";
+  gndo:nameAddition "Physician" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranus, Ephesenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589562 .
+
+_:node1ivs02adlx24589562 gndo:personalName "Soranus";
+  gndo:nameAddition "Ephesenus" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranus, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589563 .
+
+_:node1ivs02adlx24589563 gndo:personalName "Soranus";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soran, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589564 .
+
+_:node1ivs02adlx24589564 gndo:personalName "Soran";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranus, von Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589565 .
+
+_:node1ivs02adlx24589565 gndo:personalName "Soranus";
+  gndo:nameAddition "von Ephesus" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Sorano, di Efeso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589566 .
+
+_:node1ivs02adlx24589566 gndo:personalName "Sorano";
+  gndo:nameAddition "di Efeso" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Sorano, Erudito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589567 .
+
+_:node1ivs02adlx24589567 gndo:personalName "Sorano";
+  gndo:nameAddition "Erudito" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Sorano, Medico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589568 .
+
+_:node1ivs02adlx24589568 gndo:personalName "Sorano";
+  gndo:nameAddition "Medico" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranos, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589569 .
+
+_:node1ivs02adlx24589569 gndo:personalName "Soranos";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranos, d'Ephèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589570 .
+
+_:node1ivs02adlx24589570 gndo:personalName "Soranos";
+  gndo:nameAddition "d'Ephèse" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Pseudo-Soranus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589571 .
+
+_:node1ivs02adlx24589571 gndo:personalName "Pseudo-Soranus" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Pseudo-Soranus, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589572 .
+
+_:node1ivs02adlx24589572 gndo:personalName "Pseudo-Soranus";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Pseudo-Soranus, Ephesius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589573 .
+
+_:node1ivs02adlx24589573 gndo:personalName "Pseudo-Soranus";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/118798049> gndo:variantNameForThePerson "Soranos, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589574 .
+
+_:node1ivs02adlx24589574 gndo:personalName "Soranos";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/118798049> gndo:preferredNameForThePerson "Soranus, Ephesius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589575 .
+
+_:node1ivs02adlx24589575 gndo:personalName "Soranus";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/118798049> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Soranus <Ephesius>: De arte obstetricia morbisque mulierum quae supersunt",
+    "Soranus <Ephesius>: Soranus Ephesius. - s.a.", "Soranus <Ephesius>: Soranus Ephesius",
+    "Soranus <Ephesius>: [Soranus Ephesius]", "Soranus <Ephesius>: In artem medendi isagoge",
+    "Soranus <Ephesius>: [Soranus Ephesius]";
+  wdrs:describedby <https://d-nb.info/gnd/118798049/about> .
+
+<https://d-nb.info/gnd/118798049/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118798049> gndo:biographicalOrHistoricalInformation "Griech. Arzt"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

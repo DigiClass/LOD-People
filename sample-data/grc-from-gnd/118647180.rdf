@@ -1,0 +1,416 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118647180> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118647180/about> .
+
+<https://d-nb.info/gnd/118647180/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:29:15.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118647180> gndo:gndIdentifier "118647180";
+  foaf:page <https://de.wikipedia.org/wiki/%C3%84sop>;
+  owl:sameAs <https://dbpedia.org/resource/Aesop>, <http://viaf.org/viaf/64013451>,
+    <https://isni.org/isni/0000000120317310>, <http://www.wikidata.org/entity/Q43423>,
+    <http://id.loc.gov/rwo/agents/n81066350>;
+  gndo:oldAuthorityNumber "(DE-588)1136954856";
+  owl:sameAs <https://d-nb.info/gnd/1136954856>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1136954856";
+  gndo:oldAuthorityNumber "(DE-588)1084571463";
+  owl:sameAs <https://d-nb.info/gnd/1084571463>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1084571463";
+  gndo:oldAuthorityNumber "(DE-588)103857871X";
+  owl:sameAs <https://d-nb.info/gnd/103857871X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/103857871X";
+  gndo:oldAuthorityNumber "(DE-588)188257268";
+  owl:sameAs <https://d-nb.info/gnd/188257268>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188257268";
+  gndo:oldAuthorityNumber "(DE-588)18833159X";
+  owl:sameAs <https://d-nb.info/gnd/18833159X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18833159X";
+  gndo:oldAuthorityNumber "(DE-588a)18833159X", "(DE-588a)188257268", "(DE-588)187640157";
+  owl:sameAs <https://d-nb.info/gnd/187640157>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187640157";
+  gndo:oldAuthorityNumber "(DE-588a)187640157", "(DE-588)1089887345";
+  owl:sameAs <https://d-nb.info/gnd/1089887345>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089887345";
+  gndo:oldAuthorityNumber "(DE-588)1089714521";
+  owl:sameAs <https://d-nb.info/gnd/1089714521>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089714521";
+  gndo:oldAuthorityNumber "(DE-588)1089180721";
+  owl:sameAs <https://d-nb.info/gnd/1089180721>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089180721";
+  gndo:oldAuthorityNumber "(DE-588a)118647180", "(DE-588a)13544327X", "(DE-101c)311133274",
+    "(DE-588c)4084756-1";
+  gndo:variantNameForThePerson "Aesop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396234 .
+
+_:node1ivpishs6x25396234 gndo:personalName "Aesop" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Æsop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396235 .
+
+_:node1ivpishs6x25396235 gndo:personalName "Æsop" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aesopus, Phryx";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396236 .
+
+_:node1ivpishs6x25396236 gndo:forename "Phryx";
+  gndo:surname "Aesopus" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aesopus, Phryx";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396237 .
+
+_:node1ivpishs6x25396237 gndo:personalName "Aesopus";
+  gndo:nameAddition "Phryx" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aesopus, Phrygis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396238 .
+
+_:node1ivpishs6x25396238 gndo:personalName "Aesopus";
+  gndo:nameAddition "Phrygis" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aesopus, der Phrygier";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396239 .
+
+_:node1ivpishs6x25396239 gndo:personalName "Aesopus";
+  gndo:nameAddition "der Phrygier" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Äsop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396240 .
+
+_:node1ivpishs6x25396240 gndo:personalName "Äsop" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aisop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396241 .
+
+_:node1ivpishs6x25396241 gndo:personalName "Aisop" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aisopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396242 .
+
+_:node1ivpishs6x25396242 gndo:personalName "Aisopus" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aisōpos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396243 .
+
+_:node1ivpishs6x25396243 gndo:personalName "Aisōpos" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aisopeios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396244 .
+
+_:node1ivpishs6x25396244 gndo:personalName "Aisopeios" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aesopus, Scriptor Fabularum";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396245 .
+
+_:node1ivpishs6x25396245 gndo:personalName "Aesopus";
+  gndo:nameAddition "Scriptor Fabularum" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aisópas";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396246 .
+
+_:node1ivpishs6x25396246 gndo:personalName "Aisópas" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aisopos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396247 .
+
+_:node1ivpishs6x25396247 gndo:personalName "Aisopos" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aisōpus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396248 .
+
+_:node1ivpishs6x25396248 gndo:personalName "Aisōpus" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aisūbūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396249 .
+
+_:node1ivpishs6x25396249 gndo:personalName "Aisūbūs" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Xe-sob";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396250 .
+
+_:node1ivpishs6x25396250 gndo:personalName "Xe-sob" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Aizopa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396251 .
+
+_:node1ivpishs6x25396251 gndo:personalName "Aizopa" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Asop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396252 .
+
+_:node1ivpishs6x25396252 gndo:personalName "Asop" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "I sob";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396253 .
+
+_:node1ivpishs6x25396253 gndo:personalName "I sob" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Yzopet";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396254 .
+
+_:node1ivpishs6x25396254 gndo:personalName "Yzopet" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ysopet";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396255 .
+
+_:node1ivpishs6x25396255 gndo:personalName "Ysopet" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Esop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396256 .
+
+_:node1ivpishs6x25396256 gndo:personalName "Esop" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Esopo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396257 .
+
+_:node1ivpishs6x25396257 gndo:personalName "Esopo" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Esopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396258 .
+
+_:node1ivpishs6x25396258 gndo:personalName "Esopus" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ésope";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396259 .
+
+_:node1ivpishs6x25396259 gndo:personalName "Ésope" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Esope, Phrygien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396260 .
+
+_:node1ivpishs6x25396260 gndo:personalName "Esope";
+  gndo:nameAddition "Phrygien" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ėsopon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396261 .
+
+_:node1ivpishs6x25396261 gndo:personalName "Ėsopon" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Esopo, Frigio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396262 .
+
+_:node1ivpishs6x25396262 gndo:personalName "Esopo";
+  gndo:nameAddition "Frigio" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ésopet";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396263 .
+
+_:node1ivpishs6x25396263 gndo:personalName "Ésopet" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ezop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396264 .
+
+_:node1ivpishs6x25396264 gndo:personalName "Ezop" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ezop, Frygiyczyk";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396265 .
+
+_:node1ivpishs6x25396265 gndo:personalName "Ezop";
+  gndo:nameAddition "Frygiyczyk" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ezopa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396266 .
+
+_:node1ivpishs6x25396266 gndo:personalName "Ezopa" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ezopas";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396267 .
+
+_:node1ivpishs6x25396267 gndo:personalName "Ezopas" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ezopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396268 .
+
+_:node1ivpishs6x25396268 gndo:personalName "Ezopus" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Isopo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396269 .
+
+_:node1ivpishs6x25396269 gndo:personalName "Isopo" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "I-so";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396270 .
+
+_:node1ivpishs6x25396270 gndo:personalName "I-so" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Isop";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396271 .
+
+_:node1ivpishs6x25396271 gndo:personalName "Isop" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Ysopo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396272 .
+
+_:node1ivpishs6x25396272 gndo:personalName "Ysopo" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Yisuo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396273 .
+
+_:node1ivpishs6x25396273 gndo:personalName "Yisuo" .
+
+<https://d-nb.info/gnd/118647180> gndo:variantNameForThePerson "Dbyi-suvo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396274 .
+
+_:node1ivpishs6x25396274 gndo:personalName "Dbyi-suvo" .
+
+<https://d-nb.info/gnd/118647180> gndo:preferredNameForThePerson "Aesopus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396275 .
+
+_:node1ivpishs6x25396275 gndo:personalName "Aesopus" .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119747022>;
+  gndo:hasRelation _:node1ivpishs6x25396276 .
+
+_:node1ivpishs6x25396276 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119747022>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:hasRelation _:node1ivpishs6x25396277 .
+
+_:node1ivpishs6x25396277 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396278 .
+
+_:node1ivpishs6x25396278 gndo:personalName "Rinucius" .
+
+<https://d-nb.info/gnd/118647180> gndo:hasRelation _:node1ivpishs6x25396279 .
+
+_:node1ivpishs6x25396279 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396280 .
+
+_:node1ivpishs6x25396280 gndo:forename "Gottlieb";
+  gndo:surname "Golius" .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855140X>;
+  gndo:hasRelation _:node1ivpishs6x25396281 .
+
+_:node1ivpishs6x25396281 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855140X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:hasRelation _:node1ivpishs6x25396282 .
+
+_:node1ivpishs6x25396282 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396283 .
+
+_:node1ivpishs6x25396283 gndo:forename "Giovanni Francesco";
+  gndo:surname "Poggio Bracciolini" .
+
+<https://d-nb.info/gnd/118647180> gndo:hasRelation _:node1ivpishs6x25396284 .
+
+_:node1ivpishs6x25396284 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396285 .
+
+_:node1ivpishs6x25396285 gndo:forename "Gregor";
+  gndo:surname "Bersman" .
+
+<https://d-nb.info/gnd/118647180> gndo:hasRelation _:node1ivpishs6x25396286 .
+
+_:node1ivpishs6x25396286 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396287 .
+
+_:node1ivpishs6x25396287 gndo:personalName "Aphthonius" .
+
+<https://d-nb.info/gnd/118647180> gndo:hasRelation _:node1ivpishs6x25396288 .
+
+_:node1ivpishs6x25396288 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396289 .
+
+_:node1ivpishs6x25396289 gndo:forename "Caelius Secundus";
+  gndo:surname "Curio" .
+
+<https://d-nb.info/gnd/118647180> gndo:hasRelation _:node1ivpishs6x25396290 .
+
+_:node1ivpishs6x25396290 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396291 .
+
+_:node1ivpishs6x25396291 gndo:forename "Flavius";
+  gndo:surname "Avianus" .
+
+<https://d-nb.info/gnd/118647180> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118514474>;
+  gndo:hasRelation _:node1ivpishs6x25396292 .
+
+_:node1ivpishs6x25396292 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118514474>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118647180> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Fabellae", "Fabellae quaedam Aesopi graecae", "Fabulae", "Fabulae",
+    "Fabulae", "Fabulae", "Fabulae", "Fabulae", "Fabulae selectae", "Fabulae selectae",
+    "Fabulae. 1589/1590. (VD16 ZV 159)", "FABELLAE AESOPICAE QVAEDAM NOTIORES, ET IN SCOLIS VSITATAE, PARTIM EXCERPTAE DE PRIORI ... 1545. (VD16 A 500)",
+    "FABVLAE AESOPICAE PLVRES QVINGENTIS ET ALIAE QVAEDAM NARRATIONES, CVM historia vitae ... 1564. (VD16 A 516)",
+    "Fabvlae Aesopi Phrygis ex optimis,ac probatissimis avtoribvs ... summa industria concinnatae, ... 1587. (VD16 A 533)",
+    "Fabulae. 1558. (VD16 A 512)", "FABELLAE AESOPICAE QVAEDAM NOTIORES, ET IN SCHOLIS VSITATAE",
+    "Partim excerptae de priori ... 1597. (VD16 A 539)", "\\=GAISŌPU PHRYGOS MYTHOI\\=g. AESOPI PHRYGIS FABVLAE, GRAECÈ, VNÀ CVM illustrium ... 1550. (VD16 A 412)",
+    "Fabulae. 1541. (VD16 A 494)", "FABVLARVM QVAE HOC libro continentur interpretes, at\\[qua...] authores Sunt hi. Guilielmus ... 1519. (VD16 A 461)";
+  wdrs:describedby <https://d-nb.info/gnd/118647180/about> .
+
+<https://d-nb.info/gnd/118647180/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118647180> gndo:biographicalOrHistoricalInformation "Griechischer Dichter von Fabeln und Gleichnissen"@de;
+  gndo:udkCode "600 - 501 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivpishs6x25396293 .
+
+_:node1ivpishs6x25396293 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118647180> gndo:dateOfBirthAndDeath "[v6. Jh.]" .
+

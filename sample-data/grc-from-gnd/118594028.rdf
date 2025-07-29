@@ -1,0 +1,307 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118594028> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118594028/about> .
+
+<https://d-nb.info/gnd/118594028/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:30:32.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118594028> gndo:gndIdentifier "118594028";
+  foaf:page <https://de.wikipedia.org/wiki/Herennios_Philon>;
+  owl:sameAs <https://dbpedia.org/resource/Philo_of_Byblos>, <http://viaf.org/viaf/6297311>,
+    <https://isni.org/isni/0000000115899272>, <http://www.wikidata.org/entity/Q504771>,
+    <http://id.loc.gov/rwo/agents/n82256222>;
+  gndo:oldAuthorityNumber "(DE-588)1089141777";
+  owl:sameAs <https://d-nb.info/gnd/1089141777>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089141777";
+  gndo:oldAuthorityNumber "(DE-588a)118594028", "(DE-588c)4045789-8";
+  gndo:variantNameForThePerson "Herennius, Caius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592522 .
+
+_:node1ivs02adlx24592522 gndo:forename "Caius";
+  gndo:surname "Herennius" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Eranius, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592523 .
+
+_:node1ivs02adlx24592523 gndo:personalName "Eranius";
+  gndo:nameAddition "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Herennios, Philon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592524 .
+
+_:node1ivs02adlx24592524 gndo:personalName "Herennios";
+  gndo:nameAddition "Philon" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Erennio, Filone";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592525 .
+
+_:node1ivs02adlx24592525 gndo:personalName "Erennio";
+  gndo:nameAddition "Filone" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Eranios, Philon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592526 .
+
+_:node1ivs02adlx24592526 gndo:personalName "Eranios";
+  gndo:nameAddition "Philon" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Hérennius, Philon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592527 .
+
+_:node1ivs02adlx24592527 gndo:personalName "Hérennius";
+  gndo:nameAddition "Philon" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Herennios Philon, von Byblos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592528 .
+
+_:node1ivs02adlx24592528 gndo:personalName "Herennios Philon";
+  gndo:nameAddition "von Byblos" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Herennius Philo, Byblius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592529 .
+
+_:node1ivs02adlx24592529 gndo:personalName "Herennius Philo";
+  gndo:nameAddition "Byblius" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philon, von Byblus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592530 .
+
+_:node1ivs02adlx24592530 gndo:personalName "Philon";
+  gndo:nameAddition "von Byblus" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philon, Herennius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592531 .
+
+_:node1ivs02adlx24592531 gndo:personalName "Philon";
+  gndo:nameAddition "Herennius" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Herenius, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592532 .
+
+_:node1ivs02adlx24592532 gndo:personalName "Herenius";
+  gndo:nameAddition "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Haerennius, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592533 .
+
+_:node1ivs02adlx24592533 gndo:personalName "Haerennius";
+  gndo:nameAddition "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Erenius, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592534 .
+
+_:node1ivs02adlx24592534 gndo:personalName "Erenius";
+  gndo:nameAddition "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Erineus, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592535 .
+
+_:node1ivs02adlx24592535 gndo:personalName "Erineus";
+  gndo:nameAddition "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Aerennius, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592536 .
+
+_:node1ivs02adlx24592536 gndo:personalName "Aerennius";
+  gndo:nameAddition "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philo, von Byblos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592537 .
+
+_:node1ivs02adlx24592537 gndo:personalName "Philo";
+  gndo:nameAddition "von Byblos" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Erennius, Lexicographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592538 .
+
+_:node1ivs02adlx24592538 gndo:personalName "Erennius";
+  gndo:nameAddition "Lexicographus" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Erenius, Lexicographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592539 .
+
+_:node1ivs02adlx24592539 gndo:personalName "Erenius";
+  gndo:nameAddition "Lexicographus" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Herennius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592540 .
+
+_:node1ivs02adlx24592540 gndo:personalName "Herennius" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Herennios, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592541 .
+
+_:node1ivs02adlx24592541 gndo:personalName "Herennios";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philo, Bybliensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592542 .
+
+_:node1ivs02adlx24592542 gndo:personalName "Philo";
+  gndo:nameAddition "Bybliensis" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592543 .
+
+_:node1ivs02adlx24592543 gndo:personalName "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philon, von Byblos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592544 .
+
+_:node1ivs02adlx24592544 gndo:personalName "Philon";
+  gndo:nameAddition "von Byblos" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Herennius, C.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592545 .
+
+_:node1ivs02adlx24592545 gndo:forename "C.";
+  gndo:surname "Herennius" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philon, Eranios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592546 .
+
+_:node1ivs02adlx24592546 gndo:forename "Eranios";
+  gndo:surname "Philon" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philo, Eranius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592547 .
+
+_:node1ivs02adlx24592547 gndo:forename "Eranius";
+  gndo:surname "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Filone, Erennio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592548 .
+
+_:node1ivs02adlx24592548 gndo:forename "Erennio";
+  gndo:surname "Filone" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philo of Byblus, Herenius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592549 .
+
+_:node1ivs02adlx24592549 gndo:forename "Herenius";
+  gndo:surname "Philo of Byblus" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Eranius, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592550 .
+
+_:node1ivs02adlx24592550 gndo:forename "Philo";
+  gndo:surname "Eranius" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Eranius of Byblus, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592551 .
+
+_:node1ivs02adlx24592551 gndo:forename "Philo";
+  gndo:surname "Eranius of Byblus" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Herennios, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592552 .
+
+_:node1ivs02adlx24592552 gndo:personalName "Herennios";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Filone, di Biblo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592553 .
+
+_:node1ivs02adlx24592553 gndo:personalName "Filone";
+  gndo:nameAddition "di Biblo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philōn, Byblios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592554 .
+
+_:node1ivs02adlx24592554 gndo:personalName "Philōn";
+  gndo:nameAddition "Byblios" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philo, Byblius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592555 .
+
+_:node1ivs02adlx24592555 gndo:personalName "Philo";
+  gndo:nameAddition "Byblius" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philōn, ho Byblios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592556 .
+
+_:node1ivs02adlx24592556 gndo:personalName "Philōn";
+  gndo:nameAddition "ho Byblios" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Erennius, Philo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592557 .
+
+_:node1ivs02adlx24592557 gndo:personalName "Erennius";
+  gndo:nameAddition "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philo, of Byblos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592558 .
+
+_:node1ivs02adlx24592558 gndo:personalName "Philo";
+  gndo:nameAddition "of Byblos" .
+
+<https://d-nb.info/gnd/118594028> gndo:variantNameForThePerson "Philo, Herennius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592559 .
+
+_:node1ivs02adlx24592559 gndo:forename "Herennius";
+  gndo:surname "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:preferredNameForThePerson "Herennius, Philo";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592560 .
+
+_:node1ivs02adlx24592560 gndo:personalName "Herennius";
+  gndo:nameAddition "Philo" .
+
+<https://d-nb.info/gnd/118594028> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  gndo:publication "Cicero, Marcus T.: Rhetoricorum";
+  wdrs:describedby <https://d-nb.info/gnd/118594028/about> .
+
+<https://d-nb.info/gnd/118594028/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118594028> gndo:biographicalOrHistoricalInformation "Phönik. Geschichtsschreiber u. Grammatiker"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0054"^^xsd:gYear;
+  gndo:dateOfDeath "0140"^^xsd:gYear .
+

@@ -1,0 +1,145 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118646060> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118646060/about> .
+
+<https://d-nb.info/gnd/118646060/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:29:12.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118646060> gndo:gndIdentifier "118646060";
+  owl:sameAs <https://dbpedia.org/resource/Asclepiades_of_Bithynia>, <http://viaf.org/viaf/45095876>,
+    <http://www.wikidata.org/entity/Q261936>;
+  gndo:oldAuthorityNumber "(DE-588)108974479X";
+  owl:sameAs <https://d-nb.info/gnd/108974479X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108974479X";
+  gndo:oldAuthorityNumber "(DE-588)173366384";
+  owl:sameAs <https://d-nb.info/gnd/173366384>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/173366384";
+  gndo:oldAuthorityNumber "(DE-588a)173366384", "(DE-588a)118646060", "(DE-588c)4080191-3";
+  gndo:variantNameForThePerson "Asklepiades, Prusensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405720 .
+
+_:node1ivpishs6x25405720 gndo:personalName "Asklepiades";
+  gndo:nameAddition "Prusensis" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asklepiades, von Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405721 .
+
+_:node1ivpishs6x25405721 gndo:personalName "Asklepiades";
+  gndo:nameAddition "von Prusa" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asklepiades, Atomist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405722 .
+
+_:node1ivpishs6x25405722 gndo:personalName "Asklepiades";
+  gndo:nameAddition "Atomist" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asklepiades, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405723 .
+
+_:node1ivpishs6x25405723 gndo:personalName "Asklepiades";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asclepiades, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405724 .
+
+_:node1ivpishs6x25405724 gndo:personalName "Asclepiades";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asclepiades, of Bithynia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405725 .
+
+_:node1ivpishs6x25405725 gndo:personalName "Asclepiades";
+  gndo:nameAddition "of Bithynia" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asclepiades, of Prusa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405726 .
+
+_:node1ivpishs6x25405726 gndo:personalName "Asclepiades";
+  gndo:nameAddition "of Prusa" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asclepiades, Physician";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405727 .
+
+_:node1ivpishs6x25405727 gndo:personalName "Asclepiades";
+  gndo:nameAddition "Physician" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asclépiade, de Pruse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405728 .
+
+_:node1ivpishs6x25405728 gndo:personalName "Asclépiade";
+  gndo:nameAddition "de Pruse" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asklepiades, von Bithynien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405729 .
+
+_:node1ivpishs6x25405729 gndo:personalName "Asklepiades";
+  gndo:nameAddition "von Bithynien" .
+
+<https://d-nb.info/gnd/118646060> gndo:variantNameForThePerson "Asclepiades, Bithynus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405730 .
+
+_:node1ivpishs6x25405730 gndo:personalName "Asclepiades";
+  gndo:nameAddition "Bithynus" .
+
+<https://d-nb.info/gnd/118646060> gndo:preferredNameForThePerson "Asclepiades, Bithynius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405731 .
+
+_:node1ivpishs6x25405731 gndo:personalName "Asclepiades";
+  gndo:nameAddition "Bithynius" .
+
+<https://d-nb.info/gnd/118646060> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118646060/about> .
+
+<https://d-nb.info/gnd/118646060/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118646060> gndo:biographicalOrHistoricalInformation "Fragm. apud Galenum 3.466-467; 8.757 nicht identisch mit Asclepiades <Myrleanus>; Röm. Arzt griech. Herkunft, Anhänger der Atomistik; ca. 91 v Chr. kam er nach Rom"@de;
+  gndo:udkCode "200 - 101 v. Chr. ", "100 - 1 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0124"^^xsd:gYear;
+  gndo:dateOfDeath "-0060"^^xsd:gYear .
+

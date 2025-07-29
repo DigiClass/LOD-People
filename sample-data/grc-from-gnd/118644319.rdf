@@ -1,0 +1,228 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118644319> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118644319/about> .
+
+<https://d-nb.info/gnd/118644319/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:28:49.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118644319> gndo:gndIdentifier "118644319";
+  foaf:page <https://de.wikipedia.org/wiki/Albinos_%28Philosoph%29>;
+  owl:sameAs <https://dbpedia.org/resource/Albinus_(philosopher)>, <http://viaf.org/viaf/54284156>,
+    <https://isni.org/isni/0000000116452501>, <http://www.wikidata.org/entity/Q657941>,
+    <http://id.loc.gov/rwo/agents/n91064768>;
+  gndo:oldAuthorityNumber "(DE-588)1089599234";
+  owl:sameAs <https://d-nb.info/gnd/1089599234>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089599234";
+  gndo:oldAuthorityNumber "(DE-588)1089718985";
+  owl:sameAs <https://d-nb.info/gnd/1089718985>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089718985";
+  gndo:oldAuthorityNumber "(DE-588a)118644319", "(DE-588a)119603772", "(DE-588c)4079991-8";
+  gndo:variantNameForThePerson "Albinos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400352 .
+
+_:node1ivpishs6x25400352 gndo:personalName "Albinos" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400353 .
+
+_:node1ivpishs6x25400353 gndo:personalName "Albinus" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albin";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400354 .
+
+_:node1ivpishs6x25400354 gndo:personalName "Albin" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albinus, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400355 .
+
+_:node1ivpishs6x25400355 gndo:personalName "Albinus";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albinus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400356 .
+
+_:node1ivpishs6x25400356 gndo:personalName "Albinus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albinus, Smyrnaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400357 .
+
+_:node1ivpishs6x25400357 gndo:personalName "Albinus";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albinos, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400358 .
+
+_:node1ivpishs6x25400358 gndo:personalName "Albinos";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albinos, Platonerklärer";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400359 .
+
+_:node1ivpishs6x25400359 gndo:personalName "Albinos";
+  gndo:nameAddition "Platonerklärer" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albinos, Platoniker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400360 .
+
+_:node1ivpishs6x25400360 gndo:personalName "Albinos";
+  gndo:nameAddition "Platoniker" .
+
+<https://d-nb.info/gnd/118644319> gndo:variantNameForThePerson "Albino, Filosofo Platonico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400361 .
+
+_:node1ivpishs6x25400361 gndo:personalName "Albino";
+  gndo:nameAddition "Filosofo Platonico" .
+
+<https://d-nb.info/gnd/118644319> gndo:preferredNameForThePerson "Albinus, Platonicus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400362 .
+
+_:node1ivpishs6x25400362 gndo:personalName "Albinus";
+  gndo:nameAddition "Platonicus" .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118646141>;
+  gndo:hasRelation _:node1ivpishs6x25400363 .
+
+_:node1ivpishs6x25400363 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118646141>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:hasRelation _:node1ivpishs6x25400364 .
+
+_:node1ivpishs6x25400364 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25400365 .
+
+_:node1ivpishs6x25400365 gndo:forename "Johannes";
+  gndo:surname "Caesarius" .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118679694>;
+  gndo:hasRelation _:node1ivpishs6x25400366 .
+
+_:node1ivpishs6x25400366 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118679694>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:hasRelation _:node1ivpishs6x25400367 .
+
+_:node1ivpishs6x25400367 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25400368 .
+
+_:node1ivpishs6x25400368 gndo:forename "Marsiglio";
+  gndo:surname "Ficino" .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119068982>;
+  gndo:hasRelation _:node1ivpishs6x25400369 .
+
+_:node1ivpishs6x25400369 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119068982>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555154>;
+  gndo:hasRelation _:node1ivpishs6x25400370 .
+
+_:node1ivpishs6x25400370 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555154>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118733605>;
+  gndo:hasRelation _:node1ivpishs6x25400371 .
+
+_:node1ivpishs6x25400371 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118733605>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785064>;
+  gndo:hasRelation _:node1ivpishs6x25400372 .
+
+_:node1ivpishs6x25400372 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785064>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595873>;
+  gndo:hasRelation _:node1ivpishs6x25400373 .
+
+_:node1ivpishs6x25400373 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595873>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:hasRelation _:node1ivpishs6x25400374 .
+
+_:node1ivpishs6x25400374 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118644319> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25400375 .
+
+_:node1ivpishs6x25400375 gndo:personalName "Priscianus";
+  gndo:nameAddition "aus Lydien" .
+
+<https://d-nb.info/gnd/118644319> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Platonis cum Aristotele in universa philosophia comparatio ... quae*",
+    "Epistolae", "Platonis cum Aristotele in universa philosophia comparatio", "De doctrina Platonis liber",
+    "Platonis cum Aristotele in universa philosophia comparatio", "Alcinous <Philosophus>: Alkinou eis ta tu Platōnos eisagoē",
+    "De doctrina Platonis liber", "Elementa atque initia ad Platonis decretorum penetralia",
+    "Institutio ad Platonis doctrinam", "ALCINOI PHILOSOPHI PLATONICI DE DOCTRINA PLATONIS LIBER. SPEVSIPPI PLATONIS DISCIPVLI ... 1532. (VD16 A 1577)",
+    "Caesarius, Johannes: De doctrina Platonis. 1532. (VD16 C 102)", "Ficino, Marsiglio: De mystica theologia. 1561. (VD16 F 926)",
+    "Ficino, Marsiglio: De mystica theologia. 1576. (VD16 ZV 5830)";
+  wdrs:describedby <https://d-nb.info/gnd/118644319/about> .
+
+<https://d-nb.info/gnd/118644319/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118644319> gndo:biographicalOrHistoricalInformation "Griechischer Philosoph, nach neuesten Forschungen nicht identisch mit Alkinoos (Philosoph), mit dem er lange zusammengelegt wurde"@de;
+  gndo:udkCode "101 - 200";
+  gndo:professionOrOccupation _:node1ivpishs6x25400376 .
+
+_:node1ivpishs6x25400376 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118644319> gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

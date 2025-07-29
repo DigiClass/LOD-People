@@ -1,0 +1,116 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102395233> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102395233/about> .
+
+<https://d-nb.info/gnd/102395233/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2017-08-17T10:29:15.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102395233> gndo:gndIdentifier "102395233";
+  foaf:page <https://de.wikipedia.org/wiki/Hermippos_%28Athen%29>;
+  owl:sameAs <http://viaf.org/viaf/22528062>, <https://isni.org/isni/0000000446459933>,
+    <http://www.wikidata.org/entity/Q1235541>;
+  gndo:oldAuthorityNumber "(DE-588)108955219X";
+  owl:sameAs <https://d-nb.info/gnd/108955219X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108955219X";
+  gndo:oldAuthorityNumber "(DE-588a)102395233";
+  gndo:variantNameForThePerson "Hermippos, Komödiendichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593797 .
+
+_:node1ivs02adlx24593797 gndo:personalName "Hermippos";
+  gndo:nameAddition "Komödiendichter" .
+
+<https://d-nb.info/gnd/102395233> gndo:variantNameForThePerson "Hermippos, Dichter der Alten Komödie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593798 .
+
+_:node1ivs02adlx24593798 gndo:personalName "Hermippos";
+  gndo:nameAddition "Dichter der Alten Komödie" .
+
+<https://d-nb.info/gnd/102395233> gndo:variantNameForThePerson "Hermippos, Athener";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593799 .
+
+_:node1ivs02adlx24593799 gndo:personalName "Hermippos";
+  gndo:nameAddition "Athener" .
+
+<https://d-nb.info/gnd/102395233> gndo:variantNameForThePerson "Hermippus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593800 .
+
+_:node1ivs02adlx24593800 gndo:personalName "Hermippus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/102395233> gndo:variantNameForThePerson "Hermippus, of Athens";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593801 .
+
+_:node1ivs02adlx24593801 gndo:personalName "Hermippus";
+  gndo:nameAddition "of Athens" .
+
+<https://d-nb.info/gnd/102395233> gndo:variantNameForThePerson "Hermippus, Writer of Comedies";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593802 .
+
+_:node1ivs02adlx24593802 gndo:personalName "Hermippus";
+  gndo:nameAddition "Writer of Comedies" .
+
+<https://d-nb.info/gnd/102395233> gndo:variantNameForThePerson "Hermippos, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593803 .
+
+_:node1ivs02adlx24593803 gndo:personalName "Hermippos";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/102395233> gndo:preferredNameForThePerson "Hermippus, Comicus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593804 .
+
+_:node1ivs02adlx24593804 gndo:personalName "Hermippus";
+  gndo:nameAddition "Comicus" .
+
+<https://d-nb.info/gnd/102395233> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102395233/about> .
+
+<https://d-nb.info/gnd/102395233/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102395233> gndo:udkCode "500 - 401 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown> .
+

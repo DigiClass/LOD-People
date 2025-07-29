@@ -1,0 +1,166 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118808583> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118808583/about> .
+
+<https://d-nb.info/gnd/118808583/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:14:33.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118808583> gndo:gndIdentifier "118808583";
+  foaf:page <https://de.wikipedia.org/wiki/Zosimos_aus_Panopolis>;
+  owl:sameAs <https://dbpedia.org/resource/Zosimos_of_Panopolis>, <http://viaf.org/viaf/79142489>,
+    <http://www.wikidata.org/entity/Q226868>;
+  gndo:oldAuthorityNumber "(DE-588)1089229658";
+  owl:sameAs <https://d-nb.info/gnd/1089229658>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089229658";
+  gndo:oldAuthorityNumber "(DE-588)172785286";
+  owl:sameAs <https://d-nb.info/gnd/172785286>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172785286";
+  gndo:oldAuthorityNumber "(DE-588a)172785286", "(DE-588)1089828543";
+  owl:sameAs <https://d-nb.info/gnd/1089828543>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089828543";
+  gndo:oldAuthorityNumber "(DE-588a)118808583", "(DE-588c)4118166-9";
+  gndo:variantNameForThePerson "Zosimos, von Panapolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402293 .
+
+_:node1ivpishs6x25402293 gndo:personalName "Zosimos";
+  gndo:nameAddition "von Panapolis" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimos, von Panopolites";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402294 .
+
+_:node1ivpishs6x25402294 gndo:personalName "Zosimos";
+  gndo:nameAddition "von Panopolites" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimos, aus Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402295 .
+
+_:node1ivpishs6x25402295 gndo:personalName "Zosimos";
+  gndo:nameAddition "aus Panopolis" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Panopolitanus, Zosimus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402296 .
+
+_:node1ivpishs6x25402296 gndo:forename "Zosimus";
+  gndo:surname "Panopolitanus" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimus, of Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402297 .
+
+_:node1ivpishs6x25402297 gndo:personalName "Zosimus";
+  gndo:nameAddition "of Panopolis" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimos, of Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402298 .
+
+_:node1ivpishs6x25402298 gndo:personalName "Zosimos";
+  gndo:nameAddition "of Panopolis" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimos, Alchemist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402299 .
+
+_:node1ivpishs6x25402299 gndo:personalName "Zosimos";
+  gndo:nameAddition "Alchemist" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosime, de Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402300 .
+
+_:node1ivpishs6x25402300 gndo:personalName "Zosime";
+  gndo:nameAddition "de Panopolis" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimus, Alchemista Graecus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402301 .
+
+_:node1ivpishs6x25402301 gndo:personalName "Zosimus";
+  gndo:nameAddition "Alchemista Graecus" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimus, Alchemista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402302 .
+
+_:node1ivpishs6x25402302 gndo:personalName "Zosimus";
+  gndo:nameAddition "Alchemista" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Rosinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402303 .
+
+_:node1ivpishs6x25402303 gndo:personalName "Rosinus" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402304 .
+
+_:node1ivpishs6x25402304 gndo:personalName "Zosimus" .
+
+<https://d-nb.info/gnd/118808583> gndo:variantNameForThePerson "Zosimos, von Panopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402305 .
+
+_:node1ivpishs6x25402305 gndo:personalName "Zosimos";
+  gndo:nameAddition "von Panopolis" .
+
+<https://d-nb.info/gnd/118808583> gndo:preferredNameForThePerson "Zosimus, Panopolitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402306 .
+
+_:node1ivpishs6x25402306 gndo:personalName "Zosimus";
+  gndo:nameAddition "Panopolitanus" .
+
+<https://d-nb.info/gnd/118808583> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#5.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#22.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De zythorum confectione fragmentum", "Zosimi De Zythorum confectione fragmentum I.",
+    "Primae fecis origo ad Zosimi fragmentum illustrandum II.";
+  wdrs:describedby <https://d-nb.info/gnd/118808583/about> .
+
+<https://d-nb.info/gnd/118808583/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118808583> gndo:biographicalOrHistoricalInformation "Griech. Alchemist, nicht identisch mit Zosimus dem Historiker"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402307 .
+
+_:node1ivpishs6x25402307 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4212680-0> .
+
+<https://d-nb.info/gnd/118808583> gndo:dateOfBirthAndDeath "[4. Jh.]" .
+

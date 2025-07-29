@@ -1,0 +1,299 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118590189> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118590189/about> .
+
+<https://d-nb.info/gnd/118590189/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-03-11T16:39:54.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118590189> gndo:gndIdentifier "118590189";
+  owl:sameAs <http://viaf.org/viaf/225956084>, <https://isni.org/isni/0000000374059112>,
+    <http://www.wikidata.org/entity/Q116508>;
+  gndo:oldAuthorityNumber "(DE-588)108972635X";
+  owl:sameAs <https://d-nb.info/gnd/108972635X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108972635X";
+  gndo:oldAuthorityNumber "(DE-588)1089273940";
+  owl:sameAs <https://d-nb.info/gnd/1089273940>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089273940";
+  gndo:oldAuthorityNumber "(DE-588)17229519X";
+  owl:sameAs <https://d-nb.info/gnd/17229519X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17229519X";
+  gndo:oldAuthorityNumber "(DE-588a)17229519X", "(DE-588a)118590189", "(DE-588a)119778130",
+    "(DE-588c)4043644-5";
+  gndo:variantNameForThePerson "Oppianos, von Anazarbos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402954 .
+
+_:node1ivpishs6x25402954 gndo:personalName "Oppianos";
+  gndo:nameAddition "von Anazarbos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppian, von Anazarbos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402955 .
+
+_:node1ivpishs6x25402955 gndo:personalName "Oppian";
+  gndo:nameAddition "von Anazarbos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianos, von Kilikien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402956 .
+
+_:node1ivpishs6x25402956 gndo:personalName "Oppianos";
+  gndo:nameAddition "von Kilikien" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianos, von Korykos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402957 .
+
+_:node1ivpishs6x25402957 gndo:personalName "Oppianos";
+  gndo:nameAddition "von Korykos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppian, aus Kilikien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402958 .
+
+_:node1ivpishs6x25402958 gndo:personalName "Oppian";
+  gndo:nameAddition "aus Kilikien" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppian";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402959 .
+
+_:node1ivpishs6x25402959 gndo:personalName "Oppian" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402960 .
+
+_:node1ivpishs6x25402960 gndo:personalName "Oppien" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus, von Kilikien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402961 .
+
+_:node1ivpishs6x25402961 gndo:personalName "Oppianus";
+  gndo:nameAddition "von Kilikien" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402962 .
+
+_:node1ivpishs6x25402962 gndo:personalName "Oppianus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus, of Anazarbos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402963 .
+
+_:node1ivpishs6x25402963 gndo:personalName "Oppianus";
+  gndo:nameAddition "of Anazarbos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppiano, di Cilicia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402964 .
+
+_:node1ivpishs6x25402964 gndo:personalName "Oppiano";
+  gndo:nameAddition "di Cilicia" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianos, Epikos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402965 .
+
+_:node1ivpishs6x25402965 gndo:personalName "Oppianos";
+  gndo:nameAddition "Epikos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppien, de Cilicie";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402966 .
+
+_:node1ivpishs6x25402966 gndo:personalName "Oppien";
+  gndo:nameAddition "de Cilicie" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppiano, di Anazarbo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402967 .
+
+_:node1ivpishs6x25402967 gndo:personalName "Oppiano";
+  gndo:nameAddition "di Anazarbo" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402968 .
+
+_:node1ivpishs6x25402968 gndo:personalName "Oppianus" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus, of Anarzarbos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402969 .
+
+_:node1ivpishs6x25402969 gndo:personalName "Oppianus";
+  gndo:nameAddition "of Anarzarbos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus, poeta Cilicis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402970 .
+
+_:node1ivpishs6x25402970 gndo:personalName "Oppianus";
+  gndo:nameAddition "poeta Cilicis" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402971 .
+
+_:node1ivpishs6x25402971 gndo:personalName "Oppianos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppiano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402972 .
+
+_:node1ivpishs6x25402972 gndo:personalName "Oppiano" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppiano di Cilicia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402973 .
+
+_:node1ivpishs6x25402973 gndo:personalName "Oppiano di Cilicia" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus, di Cilicia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402974 .
+
+_:node1ivpishs6x25402974 gndo:personalName "Oppianus";
+  gndo:nameAddition "di Cilicia" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus, von Anazarbos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402975 .
+
+_:node1ivpishs6x25402975 gndo:personalName "Oppianus";
+  gndo:nameAddition "von Anazarbos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianvs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402976 .
+
+_:node1ivpishs6x25402976 gndo:personalName "Oppianvs" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402977 .
+
+_:node1ivpishs6x25402977 gndo:personalName "Oppianus" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus, Cilix";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402978 .
+
+_:node1ivpishs6x25402978 gndo:personalName "Oppianus";
+  gndo:nameAddition "Cilix" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppian of Cilicia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402979 .
+
+_:node1ivpishs6x25402979 gndo:personalName "Oppian of Cilicia" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus von Anazarbos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402980 .
+
+_:node1ivpishs6x25402980 gndo:personalName "Oppianus von Anazarbos" .
+
+<https://d-nb.info/gnd/118590189> gndo:variantNameForThePerson "Oppianus von Corycus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402981 .
+
+_:node1ivpishs6x25402981 gndo:personalName "Oppianus von Corycus" .
+
+<https://d-nb.info/gnd/118590189> gndo:preferredNameForThePerson "Oppianus, Anazarbensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402982 .
+
+_:node1ivpishs6x25402982 gndo:personalName "Oppianus";
+  gndo:nameAddition "Anazarbensis" .
+
+<https://d-nb.info/gnd/118590189> gndo:hasRelation _:node1ivpishs6x25402983 .
+
+_:node1ivpishs6x25402983 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590189> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402984 .
+
+_:node1ivpishs6x25402984 gndo:personalName "Arnaldus";
+  gndo:nameAddition "aus Villanova" .
+
+<https://d-nb.info/gnd/118590189> gndo:hasRelation _:node1ivpishs6x25402985 .
+
+_:node1ivpishs6x25402985 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590189> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402986 .
+
+_:node1ivpishs6x25402986 gndo:forename "Johannes";
+  gndo:surname "Caesarius" .
+
+<https://d-nb.info/gnd/118590189> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118828274>;
+  gndo:hasRelation _:node1ivpishs6x25402987 .
+
+_:node1ivpishs6x25402987 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118828274>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590189> gndo:hasRelation _:node1ivpishs6x25402988 .
+
+_:node1ivpishs6x25402988 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590189> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402989 .
+
+_:node1ivpishs6x25402989 gndo:forename "Lorenzo";
+  gndo:surname "Lippi" .
+
+<https://d-nb.info/gnd/118590189> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100070043>;
+  gndo:hasRelation _:node1ivpishs6x25402990 .
+
+_:node1ivpishs6x25402990 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100070043>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590189> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129051632>;
+  gndo:hasRelation _:node1ivpishs6x25402991 .
+
+_:node1ivpishs6x25402991 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129051632>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590189> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#32.10p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De natura seu venatione piscium libri quinque", "De piscibus libri V",
+    "Poëmata de venatione et piscatione", "Alieuticon", "Halieutica", "Cynegetica et Halieutica",
+    "OPPIANI POETAE ALIEVTICON, SIVE DE PISCIBVS, Libri quin\\[que] è graeco traducti ... sequuntur ... 1534. (VD16 O 803)",
+    "Pictorius, Georg: De conferentibus et nocentibus principalibus membris nostri corporis. 1560. (VD16 P 2695)";
+  wdrs:describedby <https://d-nb.info/gnd/118590189/about> .
+
+<https://d-nb.info/gnd/118590189/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118590189> gndo:biographicalOrHistoricalInformation "Griechischer Epiker aus Anazarbos oder Korykos in Kilikien (Herkunft nicht gesichert)"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:professionOrOccupation _:node1ivpishs6x25402992 .
+
+_:node1ivpishs6x25402992 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118590189> gndo:dateOfBirthAndDeath "[-211/212]" .
+

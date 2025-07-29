@@ -1,0 +1,272 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118503650> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118503650/about> .
+
+<https://d-nb.info/gnd/118503650/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:24:45.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118503650> gndo:gndIdentifier "118503650";
+  foaf:page <https://de.wikipedia.org/wiki/Apollodor_von_Athen_%28Schriftsteller%29>;
+  owl:sameAs <https://dbpedia.org/resource/Apollodorus_of_Athens>, <http://viaf.org/viaf/100219535>,
+    <https://isni.org/isni/0000000453029368>, <http://www.wikidata.org/entity/Q205704>,
+    <http://id.loc.gov/rwo/agents/n84179566>;
+  gndo:oldAuthorityNumber "(DE-588)186637101";
+  owl:sameAs <https://d-nb.info/gnd/186637101>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186637101";
+  gndo:oldAuthorityNumber "(DE-588a)186637101", "(DE-588)1089887353";
+  owl:sameAs <https://d-nb.info/gnd/1089887353>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089887353";
+  gndo:oldAuthorityNumber "(DE-588)119608138";
+  owl:sameAs <https://d-nb.info/gnd/119608138>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119608138";
+  gndo:oldAuthorityNumber "(DE-588a)119608138", "(DE-588)108971968X";
+  owl:sameAs <https://d-nb.info/gnd/108971968X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108971968X";
+  gndo:oldAuthorityNumber "(DE-588)1089182252";
+  owl:sameAs <https://d-nb.info/gnd/1089182252>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089182252";
+  gndo:oldAuthorityNumber "(DE-588a)118503650", "(DE-588a)12739947X", "(DE-588a)126755507",
+    "(DE-588c)4002440-4";
+  gndo:variantNameForThePerson "Apollodoros, der Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594378 .
+
+_:node1ivs02adlx24594378 gndo:personalName "Apollodoros";
+  gndo:nameAddition "der Grammatiker" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodoros, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594379 .
+
+_:node1ivs02adlx24594379 gndo:personalName "Apollodoros";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodorus, Mythographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594380 .
+
+_:node1ivs02adlx24594380 gndo:personalName "Apollodorus";
+  gndo:nameAddition "Mythographus" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodoros, Sohn des Asklepiades";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594381 .
+
+_:node1ivs02adlx24594381 gndo:personalName "Apollodoros";
+  gndo:nameAddition "Sohn des Asklepiades" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594382 .
+
+_:node1ivs02adlx24594382 gndo:personalName "Apollodor" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodōros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594383 .
+
+_:node1ivs02adlx24594383 gndo:personalName "Apollodōros" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodorus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594384 .
+
+_:node1ivs02adlx24594384 gndo:personalName "Apollodorus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594385 .
+
+_:node1ivs02adlx24594385 gndo:personalName "Apollodorus" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodore, l'athénier";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594386 .
+
+_:node1ivs02adlx24594386 gndo:personalName "Apollodore";
+  gndo:nameAddition "l'athénier" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Pseudo-Apollodorus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594387 .
+
+_:node1ivs02adlx24594387 gndo:personalName "Pseudo-Apollodorus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodorus, of Athens";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594388 .
+
+_:node1ivs02adlx24594388 gndo:personalName "Apollodorus";
+  gndo:nameAddition "of Athens" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodoro, di Atene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594389 .
+
+_:node1ivs02adlx24594389 gndo:personalName "Apollodoro";
+  gndo:nameAddition "di Atene" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodoro, Grammatico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594390 .
+
+_:node1ivs02adlx24594390 gndo:personalName "Apollodoro";
+  gndo:nameAddition "Grammatico" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodore, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594391 .
+
+_:node1ivs02adlx24594391 gndo:personalName "Apollodore";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Aboluoduoluosi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594392 .
+
+_:node1ivs02adlx24594392 gndo:personalName "Aboluoduoluosi" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "A bo luo duo luo si";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594393 .
+
+_:node1ivs02adlx24594393 gndo:personalName "A bo luo duo luo si" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodorus, der Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594394 .
+
+_:node1ivs02adlx24594394 gndo:personalName "Apollodorus";
+  gndo:nameAddition "der Grammatiker" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "Apollodoros, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594395 .
+
+_:node1ivs02adlx24594395 gndo:personalName "Apollodoros";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "阿波罗多罗斯"@zh;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594396 .
+
+_:node1ivs02adlx24594396 gndo:personalName "阿波罗多罗斯" .
+
+<https://d-nb.info/gnd/118503650> gndo:variantNameForThePerson "阿波羅多羅斯"@zh-Hant;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594397 .
+
+_:node1ivs02adlx24594397 gndo:personalName "阿波羅多羅斯" .
+
+<https://d-nb.info/gnd/118503650> gndo:preferredNameForThePerson "Apollodorus, Grammaticus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594398 .
+
+_:node1ivs02adlx24594398 gndo:personalName "Apollodorus";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/118503650> gndo:relatedPerson <https://d-nb.info/gnd/1102938432>;
+  gndo:hasRelation _:node1ivs02adlx24594399 .
+
+_:node1ivs02adlx24594399 gndo:relatedPerson <https://d-nb.info/gnd/1102938432> .
+
+<https://d-nb.info/gnd/118503650> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117696706>;
+  gndo:hasRelation _:node1ivs02adlx24594400 .
+
+_:node1ivs02adlx24594400 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117696706>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503650> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119660946>;
+  gndo:hasRelation _:node1ivs02adlx24594401 .
+
+_:node1ivs02adlx24594401 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119660946>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503650> gndo:hasRelation _:node1ivs02adlx24594402 .
+
+_:node1ivs02adlx24594402 gndo:functionOrRoleAsLiteral "Sorau; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503650> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594403 .
+
+_:node1ivs02adlx24594403 gndo:forename "Michael";
+  gndo:surname "Neander" .
+
+<https://d-nb.info/gnd/118503650> gndo:hasRelation _:node1ivs02adlx24594404 .
+
+_:node1ivs02adlx24594404 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503650> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594405 .
+
+_:node1ivs02adlx24594405 gndo:forename "Lorenz";
+  gndo:surname "Rhodomann" .
+
+<https://d-nb.info/gnd/118503650> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119626160>;
+  gndo:hasRelation _:node1ivs02adlx24594406 .
+
+_:node1ivs02adlx24594406 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119626160>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503650> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:hasRelation _:node1ivs02adlx24594407 .
+
+_:node1ivs02adlx24594407 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503650> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100188826>;
+  gndo:hasRelation _:node1ivs02adlx24594408 .
+
+_:node1ivs02adlx24594408 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100188826>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503650> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Bibliotheke", "Bibliotheca ...", "Apollodorus's Mythische Bibliothek",
+    "Apollodorus Atheniensis", "Bibliotheces libri III", "Apollodorus", "Bibliotheca",
+    "Bibliothèque", "Bibliothek", "Mythologische Bibliothek", "\\=GAPOLLODŌRU TU ATHĒNAIU GRAMMATIKU BIBLIOTHĒKĒS, Ē PERI Theōn,biblia g.\\=g ... 1599. (VD16 A 3122)",
+    "Rhodomann, Lorenz: Argonautica. 1588. (VD16 R 2088)";
+  wdrs:describedby <https://d-nb.info/gnd/118503650/about> .
+
+<https://d-nb.info/gnd/118503650/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118503650> gndo:biographicalOrHistoricalInformation "FGrH 244; Griech. Grammatiker aus Athen"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594409 .
+
+_:node1ivs02adlx24594409 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4158016-3> .
+
+<https://d-nb.info/gnd/118503650> gndo:dateOfBirthAndDeath "[v01]" .
+

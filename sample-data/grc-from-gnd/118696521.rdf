@@ -1,0 +1,249 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118696521> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118696521/about> .
+
+<https://d-nb.info/gnd/118696521/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T13:20:11.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118696521> gndo:gndIdentifier "118696521";
+  owl:sameAs <https://dbpedia.org/resource/Gorgias>, <http://viaf.org/viaf/307487069>,
+    <https://isni.org/isni/0000000112414233>, <http://www.wikidata.org/entity/Q179785>;
+  gndo:oldAuthorityNumber "(DE-588)1089721536";
+  owl:sameAs <https://d-nb.info/gnd/1089721536>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089721536";
+  gndo:oldAuthorityNumber "(DE-588)108959982X";
+  owl:sameAs <https://d-nb.info/gnd/108959982X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108959982X";
+  gndo:oldAuthorityNumber "(DE-588)1089139128";
+  owl:sameAs <https://d-nb.info/gnd/1089139128>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089139128";
+  gndo:oldAuthorityNumber "(DE-588)18811923X";
+  owl:sameAs <https://d-nb.info/gnd/18811923X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18811923X";
+  gndo:oldAuthorityNumber "(DE-588a)18811923X", "(DE-588)175669864";
+  owl:sameAs <https://d-nb.info/gnd/175669864>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/175669864";
+  gndo:oldAuthorityNumber "(DE-588a)175669864", "(DE-588)160366445";
+  owl:sameAs <https://d-nb.info/gnd/160366445>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160366445";
+  gndo:oldAuthorityNumber "(DE-588a)160366445", "(DE-588a)118696521", "(DE-588c)4093783-5";
+  gndo:variantNameForThePerson "Gorgias, Sohn des Charmantides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595873 .
+
+_:node1ivs02adlx24595873 gndo:personalName "Gorgias";
+  gndo:nameAddition "Sohn des Charmantides" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias, of Leontini";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595874 .
+
+_:node1ivs02adlx24595874 gndo:personalName "Gorgias";
+  gndo:nameAddition "of Leontini" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias, de Leontium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595875 .
+
+_:node1ivs02adlx24595875 gndo:personalName "Gorgias";
+  gndo:nameAddition "de Leontium" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias, Leontines";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595876 .
+
+_:node1ivs02adlx24595876 gndo:personalName "Gorgias";
+  gndo:nameAddition "Leontines" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias, Leontinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595877 .
+
+_:node1ivs02adlx24595877 gndo:personalName "Gorgias";
+  gndo:nameAddition "Leontinos" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias Leontinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595878 .
+
+_:node1ivs02adlx24595878 gndo:personalName "Gorgias Leontinos" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias, Leontinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595879 .
+
+_:node1ivs02adlx24595879 gndo:personalName "Gorgias";
+  gndo:nameAddition "Leontinus" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias Leontinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595880 .
+
+_:node1ivs02adlx24595880 gndo:personalName "Gorgias Leontinus" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Leontinus, Gorgias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595881 .
+
+_:node1ivs02adlx24595881 gndo:forename "Gorgias";
+  gndo:surname "Leontinus" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias, von Leontinoi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595882 .
+
+_:node1ivs02adlx24595882 gndo:personalName "Gorgias";
+  gndo:nameAddition "von Leontinoi" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias von Leontinoi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595883 .
+
+_:node1ivs02adlx24595883 gndo:personalName "Gorgias von Leontinoi" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595884 .
+
+_:node1ivs02adlx24595884 gndo:personalName "Gorgias";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgias, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595885 .
+
+_:node1ivs02adlx24595885 gndo:personalName "Gorgias";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595886 .
+
+_:node1ivs02adlx24595886 gndo:personalName "Gorgia" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgia, di Leontini";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595887 .
+
+_:node1ivs02adlx24595887 gndo:personalName "Gorgia";
+  gndo:nameAddition "di Leontini" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgia di Lentini";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595888 .
+
+_:node1ivs02adlx24595888 gndo:personalName "Gorgia di Lentini" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgia da Lentini";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595889 .
+
+_:node1ivs02adlx24595889 gndo:personalName "Gorgia da Lentini" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgia, Leontino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595890 .
+
+_:node1ivs02adlx24595890 gndo:personalName "Gorgia";
+  gndo:nameAddition "Leontino" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgia, Sofista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595891 .
+
+_:node1ivs02adlx24595891 gndo:personalName "Gorgia";
+  gndo:nameAddition "Sofista" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgia, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595892 .
+
+_:node1ivs02adlx24595892 gndo:personalName "Gorgia";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgia, Maestro di Retorica";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595893 .
+
+_:node1ivs02adlx24595893 gndo:personalName "Gorgia";
+  gndo:nameAddition "Maestro di Retorica" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595894 .
+
+_:node1ivs02adlx24595894 gndo:personalName "Gorgios" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgios, Leontinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595895 .
+
+_:node1ivs02adlx24595895 gndo:personalName "Gorgios";
+  gndo:nameAddition "Leontinos" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgios, Leontinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595896 .
+
+_:node1ivs02adlx24595896 gndo:personalName "Gorgios";
+  gndo:nameAddition "Leontinus" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Gorgios, von Leontinoi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595897 .
+
+_:node1ivs02adlx24595897 gndo:personalName "Gorgios";
+  gndo:nameAddition "von Leontinoi" .
+
+<https://d-nb.info/gnd/118696521> gndo:variantNameForThePerson "Georgias, Leontines";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595898 .
+
+_:node1ivs02adlx24595898 gndo:personalName "Georgias";
+  gndo:nameAddition "Leontines" .
+
+<https://d-nb.info/gnd/118696521> gndo:preferredNameForThePerson "Gorgias";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595899 .
+
+_:node1ivs02adlx24595899 gndo:personalName "Gorgias" .
+
+<https://d-nb.info/gnd/118696521> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:professionOrOccupationAsLiteral "Rhetor";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Gorgias: Orationes", "Gorgias: Orationes", "Gorgias: Oratio de Helenae laudibus et pro Palamede Apologia",
+    "Gorgias: Oratio de Helenae laudibus et pro Palamede Apologia", "Gorgias: Oratio de Helenae laudibus et pro Palamede Apologia",
+    "Gorgias: Oratio de Helenae laudibus et pro Palamede Apologia", "Gorgias: Oratio de Helenae laudibus et pro Palamede Apologia",
+    "Gorgias: Helena";
+  wdrs:describedby <https://d-nb.info/gnd/118696521/about> .
+
+<https://d-nb.info/gnd/118696521/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118696521> gndo:udkCode "600 - 501 v. Chr. ", "500 - 401 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivs02adlx24595900 .
+
+_:node1ivs02adlx24595900 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4048895-0> .
+
+<https://d-nb.info/gnd/118696521> gndo:dateOfBirth "-0480"^^xsd:gYear;
+  gndo:dateOfDeath "-0380"^^xsd:gYear .
+

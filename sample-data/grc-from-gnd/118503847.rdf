@@ -1,0 +1,227 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118503847> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118503847/about> .
+
+<https://d-nb.info/gnd/118503847/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-08T18:41:02.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118503847> gndo:gndIdentifier "118503847";
+  foaf:page <https://de.wikipedia.org/wiki/Aulus_Licinius_Archias>;
+  owl:sameAs <https://dbpedia.org/resource/Aulus_Licinius_Archias>, <http://viaf.org/viaf/310149294076280520007>,
+    <https://isni.org/isni/0000000080167492>, <http://www.wikidata.org/entity/Q218251>,
+    <http://id.loc.gov/rwo/agents/n84234520>;
+  gndo:oldAuthorityNumber "(DE-588)1157713955";
+  owl:sameAs <https://d-nb.info/gnd/1157713955>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1157713955";
+  gndo:oldAuthorityNumber "(DE-588a)118503847", "(DE-588c)4002839-2";
+  gndo:variantNameForThePerson "Archias, Epigrammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585515 .
+
+_:node1ivs02adlx24585515 gndo:personalName "Archias";
+  gndo:nameAddition "Epigrammaticus" .
+
+<https://d-nb.info/gnd/118503847> gndo:variantNameForThePerson "Archias, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585516 .
+
+_:node1ivs02adlx24585516 gndo:personalName "Archias";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118503847> gndo:variantNameForThePerson "Archias, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585517 .
+
+_:node1ivs02adlx24585517 gndo:personalName "Archias";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/118503847> gndo:variantNameForThePerson "Archias, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585518 .
+
+_:node1ivs02adlx24585518 gndo:personalName "Archias";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118503847> gndo:variantNameForThePerson "Archias, Iunior";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585519 .
+
+_:node1ivs02adlx24585519 gndo:personalName "Archias";
+  gndo:nameAddition "Iunior" .
+
+<https://d-nb.info/gnd/118503847> gndo:variantNameForThePerson "Licinius, Archias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585520 .
+
+_:node1ivs02adlx24585520 gndo:personalName "Licinius";
+  gndo:nameAddition "Archias" .
+
+<https://d-nb.info/gnd/118503847> gndo:variantNameForThePerson "Licinius Archias, Aulus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585521 .
+
+_:node1ivs02adlx24585521 gndo:forename "Aulus";
+  gndo:surname "Licinius Archias" .
+
+<https://d-nb.info/gnd/118503847> gndo:variantNameForThePerson "Archias, Aulus L.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585522 .
+
+_:node1ivs02adlx24585522 gndo:forename "Aulus L.";
+  gndo:surname "Archias" .
+
+<https://d-nb.info/gnd/118503847> gndo:variantNameForThePerson "Archias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585523 .
+
+_:node1ivs02adlx24585523 gndo:personalName "Archias" .
+
+<https://d-nb.info/gnd/118503847> gndo:preferredNameForThePerson "Archias, Aulus Licinius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585524 .
+
+_:node1ivs02adlx24585524 gndo:forename "Aulus Licinius";
+  gndo:surname "Archias" .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118518488>;
+  gndo:hasRelation _:node1ivs02adlx24585525 .
+
+_:node1ivs02adlx24585525 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118518488>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:hasRelation _:node1ivs02adlx24585526 .
+
+_:node1ivs02adlx24585526 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585527 .
+
+_:node1ivs02adlx24585527 gndo:forename "Nikodemus";
+  gndo:surname "Frischlin" .
+
+<https://d-nb.info/gnd/118503847> gndo:hasRelation _:node1ivs02adlx24585528 .
+
+_:node1ivs02adlx24585528 gndo:functionOrRoleAsLiteral "Pheugarum; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585529 .
+
+_:node1ivs02adlx24585529 gndo:forename "Wilhelm";
+  gndo:surname "Budaeus" .
+
+<https://d-nb.info/gnd/118503847> gndo:hasRelation _:node1ivs02adlx24585530 .
+
+_:node1ivs02adlx24585530 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585531 .
+
+_:node1ivs02adlx24585531 gndo:forename "Joseph Justus";
+  gndo:surname "Scaliger" .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:hasRelation _:node1ivs02adlx24585532 .
+
+_:node1ivs02adlx24585532 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118677446>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/115782702>;
+  gndo:hasRelation _:node1ivs02adlx24585533 .
+
+_:node1ivs02adlx24585533 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/115782702>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:hasRelation _:node1ivs02adlx24585534 .
+
+_:node1ivs02adlx24585534 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585535 .
+
+_:node1ivs02adlx24585535 gndo:forename "Kaspar";
+  gndo:surname "Ursinus Velius" .
+
+<https://d-nb.info/gnd/118503847> gndo:hasRelation _:node1ivs02adlx24585536 .
+
+_:node1ivs02adlx24585536 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585537 .
+
+_:node1ivs02adlx24585537 gndo:forename "Wolfgang";
+  gndo:surname "Virnius" .
+
+<https://d-nb.info/gnd/118503847> gndo:hasRelation _:node1ivs02adlx24585538 .
+
+_:node1ivs02adlx24585538 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585539 .
+
+_:node1ivs02adlx24585539 gndo:forename "Marc Antoine";
+  gndo:surname "Muret" .
+
+<https://d-nb.info/gnd/118503847> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100123015>;
+  gndo:hasRelation _:node1ivs02adlx24585540 .
+
+_:node1ivs02adlx24585540 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100123015>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503847> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Archias, Aulus L.: Carmina quae supersunt. - 1800", "Archias, Aulus L.: Epigrammata Graeca. - 1692",
+    "Callimachus: Epigrammata quaedam Graeca.  1589.  (VD16 C 271)";
+  wdrs:describedby <https://d-nb.info/gnd/118503847/about> .
+
+<https://d-nb.info/gnd/118503847/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118503847> gndo:biographicalOrHistoricalInformation "Zuweisung der Epigramme an verschiedene Personen schwierig; Griech. Dichter ."@de,
+    "Dichter"@de;
+  gndo:udkCode "200 - 101 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24585541 .
+
+_:node1ivs02adlx24585541 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118503847> gndo:dateOfBirth "-0118"^^xsd:gYear;
+  gndo:dateOfDeath "-0062"^^xsd:gYear .
+

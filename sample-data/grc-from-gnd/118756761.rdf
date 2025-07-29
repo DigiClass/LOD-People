@@ -1,0 +1,238 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118756761> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118756761/about> .
+
+<https://d-nb.info/gnd/118756761/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T14:40:05.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118756761> gndo:gndIdentifier "118756761";
+  foaf:page <https://de.wikipedia.org/wiki/Theodor_Studites>;
+  owl:sameAs <https://dbpedia.org/resource/Theodore_the_Studite>, <http://viaf.org/viaf/62875165>,
+    <https://isni.org/isni/000000045767177X>, <http://www.wikidata.org/entity/Q361405>,
+    <http://id.loc.gov/rwo/agents/n81118597>;
+  gndo:oldAuthorityNumber "(DE-588)108960176X";
+  owl:sameAs <https://d-nb.info/gnd/108960176X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108960176X";
+  gndo:oldAuthorityNumber "(DE-588)1089161069";
+  owl:sameAs <https://d-nb.info/gnd/1089161069>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089161069";
+  gndo:oldAuthorityNumber "(DE-588)186608063";
+  owl:sameAs <https://d-nb.info/gnd/186608063>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186608063";
+  gndo:oldAuthorityNumber "(DE-588a)186608063", "(DE-588a)118756761", "(DE-588c)4106230-9";
+  gndo:variantNameForThePerson "Theodorus, Studites";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406170 .
+
+_:node1ivpishs6x25406170 gndo:personalName "Theodorus";
+  gndo:nameAddition "Studites" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Fėodor, Studit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406171 .
+
+_:node1ivpishs6x25406171 gndo:personalName "Fėodor";
+  gndo:nameAddition "Studit" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Studita, Theodorus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406172 .
+
+_:node1ivpishs6x25406172 gndo:forename "Theodorus";
+  gndo:surname "Studita" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Teodoro, Studita";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406173 .
+
+_:node1ivpishs6x25406173 gndo:personalName "Teodoro";
+  gndo:nameAddition "Studita" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Thaddée, Studite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406174 .
+
+_:node1ivpishs6x25406174 gndo:personalName "Thaddée";
+  gndo:nameAddition "Studite" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodor, Studitul";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406175 .
+
+_:node1ivpishs6x25406175 gndo:personalName "Theodor";
+  gndo:nameAddition "Studitul" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodore, of Studium";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406176 .
+
+_:node1ivpishs6x25406176 gndo:personalName "Theodore";
+  gndo:nameAddition "of Studium" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodore, Studita";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406177 .
+
+_:node1ivpishs6x25406177 gndo:personalName "Theodore";
+  gndo:nameAddition "Studita" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Théodore, Studite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406178 .
+
+_:node1ivpishs6x25406178 gndo:personalName "Théodore";
+  gndo:nameAddition "Studite" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodore, the Studite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406179 .
+
+_:node1ivpishs6x25406179 gndo:personalName "Theodore";
+  gndo:nameAddition "the Studite" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodore, the Studite, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406180 .
+
+_:node1ivpishs6x25406180 gndo:personalName "Theodore";
+  gndo:nameAddition "the Studite, Saint" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodoros, Studites";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406181 .
+
+_:node1ivpishs6x25406181 gndo:personalName "Theodoros";
+  gndo:nameAddition "Studites" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodorus, of Studium";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406182 .
+
+_:node1ivpishs6x25406182 gndo:personalName "Theodorus";
+  gndo:nameAddition "of Studium" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodorus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406183 .
+
+_:node1ivpishs6x25406183 gndo:personalName "Theodorus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodorus, Studita, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406184 .
+
+_:node1ivpishs6x25406184 gndo:personalName "Theodorus";
+  gndo:nameAddition "Studita, Sanctus" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodorus, Studita, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406185 .
+
+_:node1ivpishs6x25406185 gndo:personalName "Theodorus";
+  gndo:nameAddition "Studita, Heiliger" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodorus, Studita, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406186 .
+
+_:node1ivpishs6x25406186 gndo:personalName "Theodorus";
+  gndo:nameAddition "Studita, Saint" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Studita, Theodor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406187 .
+
+_:node1ivpishs6x25406187 gndo:forename "Theodor";
+  gndo:surname "Studita" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodor, von Studion";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406188 .
+
+_:node1ivpishs6x25406188 gndo:personalName "Theodor";
+  gndo:nameAddition "von Studion" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodor, von Studion, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406189 .
+
+_:node1ivpishs6x25406189 gndo:personalName "Theodor";
+  gndo:nameAddition "von Studion, Heiliger" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Studites, Theodoros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406190 .
+
+_:node1ivpishs6x25406190 gndo:forename "Theodoros";
+  gndo:surname "Studites" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Theodor, Studites";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406191 .
+
+_:node1ivpishs6x25406191 gndo:personalName "Theodor";
+  gndo:nameAddition "Studites" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Studit, Feodor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406192 .
+
+_:node1ivpishs6x25406192 gndo:forename "Feodor";
+  gndo:surname "Studit" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Feodor Studijskij";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406193 .
+
+_:node1ivpishs6x25406193 gndo:personalName "Feodor Studijskij" .
+
+<https://d-nb.info/gnd/118756761> gndo:variantNameForThePerson "Fėdor Studijskij";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406194 .
+
+_:node1ivpishs6x25406194 gndo:personalName "Fėdor Studijskij" .
+
+<https://d-nb.info/gnd/118756761> gndo:preferredNameForThePerson "Theodorus, Studita";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25406195 .
+
+_:node1ivpishs6x25406195 gndo:personalName "Theodorus";
+  gndo:nameAddition "Studita" .
+
+<https://d-nb.info/gnd/118756761> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Theodorus <Studita>: Sermones catechetici 134";
+  wdrs:describedby <https://d-nb.info/gnd/118756761/about> .
+
+<https://d-nb.info/gnd/118756761/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118756761> gndo:biographicalOrHistoricalInformation "Byzantin. Theologe, war Abt d. Klosters Studion in Konstantinopel"@de;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4073697-0>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25406196 .
+
+_:node1ivpishs6x25406196 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4059756-8> .
+
+<https://d-nb.info/gnd/118756761> gndo:dateOfBirth "0759"^^xsd:gYear;
+  gndo:dateOfDeath "0826"^^xsd:gYear .
+

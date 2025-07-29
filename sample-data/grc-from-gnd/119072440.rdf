@@ -1,0 +1,137 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119072440> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119072440/about> .
+
+<https://d-nb.info/gnd/119072440/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-03-21T00:56:35.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119072440> gndo:gndIdentifier "119072440";
+  foaf:page <https://de.wikipedia.org/wiki/Herakleides_Kritikos>;
+  owl:sameAs <http://viaf.org/viaf/526149294176280521129>, <http://www.wikidata.org/entity/Q16327067>,
+    <http://id.loc.gov/rwo/agents/n2007020565>;
+  gndo:oldAuthorityNumber "(DE-588)1089724276";
+  owl:sameAs <https://d-nb.info/gnd/1089724276>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089724276";
+  gndo:oldAuthorityNumber "(DE-588a)119072440", "(DE-588c)4302678-3";
+  gndo:variantNameForThePerson "Herakleides, Kritikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589167 .
+
+_:node1ivs02adlx24589167 gndo:personalName "Herakleides";
+  gndo:nameAddition "Kritikos" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Heraclides, Creticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589168 .
+
+_:node1ivs02adlx24589168 gndo:personalName "Heraclides";
+  gndo:nameAddition "Creticus" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Heraclides, Periegeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589169 .
+
+_:node1ivs02adlx24589169 gndo:personalName "Heraclides";
+  gndo:nameAddition "Periegeta" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Heraclides, Periegetes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589170 .
+
+_:node1ivs02adlx24589170 gndo:personalName "Heraclides";
+  gndo:nameAddition "Periegetes" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Herakleides, der Kritiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589171 .
+
+_:node1ivs02adlx24589171 gndo:personalName "Herakleides";
+  gndo:nameAddition "der Kritiker" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Herakleides, ho Kritikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589172 .
+
+_:node1ivs02adlx24589172 gndo:personalName "Herakleides";
+  gndo:nameAddition "ho Kritikos" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Herakleides, Kretikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589173 .
+
+_:node1ivs02adlx24589173 gndo:personalName "Herakleides";
+  gndo:nameAddition "Kretikos" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Herakleides, Perieget";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589174 .
+
+_:node1ivs02adlx24589174 gndo:personalName "Herakleides";
+  gndo:nameAddition "Perieget" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Herakleides, Reiseschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589175 .
+
+_:node1ivs02adlx24589175 gndo:personalName "Herakleides";
+  gndo:nameAddition "Reiseschriftsteller" .
+
+<https://d-nb.info/gnd/119072440> gndo:variantNameForThePerson "Pseudo-Dicaearchus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589176 .
+
+_:node1ivs02adlx24589176 gndo:personalName "Pseudo-Dicaearchus" .
+
+<https://d-nb.info/gnd/119072440> gndo:preferredNameForThePerson "Heraclides, Criticus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589177 .
+
+_:node1ivs02adlx24589177 gndo:personalName "Heraclides";
+  gndo:nameAddition "Criticus" .
+
+<https://d-nb.info/gnd/119072440> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119072440/about> .
+
+<https://d-nb.info/gnd/119072440/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-384>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/119072440> gndo:biographicalOrHistoricalInformation "Descriptio Graeciae; Griech. Geograph"@de;
+  gndo:udkCode "300 - 201 v. Chr. ", "200 - 101 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0275"^^xsd:gYear;
+  gndo:dateOfDeath "-0200"^^xsd:gYear .
+

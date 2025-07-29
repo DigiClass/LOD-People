@@ -1,0 +1,320 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118679627> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118679627/about> .
+
+<https://d-nb.info/gnd/118679627/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T12:55:32.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118679627> gndo:gndIdentifier "118679627";
+  owl:sameAs <https://dbpedia.org/resource/Diodorus_Siculus>, <http://viaf.org/viaf/10639948>,
+    <https://isni.org/isni/0000000401560974>, <http://www.wikidata.org/entity/Q171241>;
+  gndo:oldAuthorityNumber "(DE-588)1089883641";
+  owl:sameAs <https://d-nb.info/gnd/1089883641>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089883641";
+  gndo:oldAuthorityNumber "(DE-588)1089723008";
+  owl:sameAs <https://d-nb.info/gnd/1089723008>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089723008";
+  gndo:oldAuthorityNumber "(DE-588)108959965X";
+  owl:sameAs <https://d-nb.info/gnd/108959965X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108959965X";
+  gndo:oldAuthorityNumber "(DE-588)174124546";
+  owl:sameAs <https://d-nb.info/gnd/174124546>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174124546";
+  gndo:oldAuthorityNumber "(DE-588a)174124546", "(DE-588)159078113";
+  owl:sameAs <https://d-nb.info/gnd/159078113>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/159078113";
+  gndo:oldAuthorityNumber "(DE-588a)159078113", "(DE-588)157829162";
+  owl:sameAs <https://d-nb.info/gnd/157829162>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/157829162";
+  gndo:oldAuthorityNumber "(DE-588)185888151";
+  owl:sameAs <https://d-nb.info/gnd/185888151>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185888151";
+  gndo:oldAuthorityNumber "(DE-588a)185888151", "(DE-588a)157829162", "(DE-588a)118679627",
+    "(DE-588a)119655063", "(DE-588c)4091025-8";
+  gndo:variantNameForThePerson "Diodōros, Sikeliōtēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589495 .
+
+_:node1ivs02adlx24589495 gndo:personalName "Diodōros";
+  gndo:nameAddition "Sikeliōtēs" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodor, Sicilian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589496 .
+
+_:node1ivs02adlx24589496 gndo:personalName "Diodor";
+  gndo:nameAddition "Sicilian" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoros, von Agyrion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589497 .
+
+_:node1ivs02adlx24589497 gndo:personalName "Diodoros";
+  gndo:nameAddition "von Agyrion" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodor, von Sizilien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589498 .
+
+_:node1ivs02adlx24589498 gndo:personalName "Diodor";
+  gndo:nameAddition "von Sizilien" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodor, von Sicilien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589499 .
+
+_:node1ivs02adlx24589499 gndo:personalName "Diodor";
+  gndo:nameAddition "von Sicilien" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodorus, Sicilianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589500 .
+
+_:node1ivs02adlx24589500 gndo:personalName "Diodorus";
+  gndo:nameAddition "Sicilianus" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoro, Siciliano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589501 .
+
+_:node1ivs02adlx24589501 gndo:personalName "Diodoro";
+  gndo:nameAddition "Siciliano" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodorus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589502 .
+
+_:node1ivs02adlx24589502 gndo:personalName "Diodorus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodor, von Agyrion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589503 .
+
+_:node1ivs02adlx24589503 gndo:personalName "Diodor";
+  gndo:nameAddition "von Agyrion" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Siculus, Diodorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589504 .
+
+_:node1ivs02adlx24589504 gndo:forename "Diodorus";
+  gndo:surname "Siculus" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Sicilus, Diodorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589505 .
+
+_:node1ivs02adlx24589505 gndo:forename "Diodorus";
+  gndo:surname "Sicilus" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodorus, the Sicilian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589506 .
+
+_:node1ivs02adlx24589506 gndo:personalName "Diodorus";
+  gndo:nameAddition "the Sicilian" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoro, Sículo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589507 .
+
+_:node1ivs02adlx24589507 gndo:personalName "Diodoro";
+  gndo:nameAddition "Sículo" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodore, de Sicile";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589508 .
+
+_:node1ivs02adlx24589508 gndo:personalName "Diodore";
+  gndo:nameAddition "de Sicile" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodore, Sicilien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589509 .
+
+_:node1ivs02adlx24589509 gndo:personalName "Diodore";
+  gndo:nameAddition "Sicilien" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoro, de Sicilia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589510 .
+
+_:node1ivs02adlx24589510 gndo:personalName "Diodoro";
+  gndo:nameAddition "de Sicilia" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoro, di Sicilia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589511 .
+
+_:node1ivs02adlx24589511 gndo:personalName "Diodoro";
+  gndo:nameAddition "di Sicilia" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoro, di Agirio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589512 .
+
+_:node1ivs02adlx24589512 gndo:personalName "Diodoro";
+  gndo:nameAddition "di Agirio" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodōros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589513 .
+
+_:node1ivs02adlx24589513 gndo:personalName "Diodōros" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589514 .
+
+_:node1ivs02adlx24589514 gndo:personalName "Diodor" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodore, dÁgyrium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589515 .
+
+_:node1ivs02adlx24589515 gndo:personalName "Diodore";
+  gndo:nameAddition "dÁgyrium" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodore, d'Agyrium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589516 .
+
+_:node1ivs02adlx24589516 gndo:personalName "Diodore";
+  gndo:nameAddition "d'Agyrium" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoro, Siculo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589517 .
+
+_:node1ivs02adlx24589517 gndo:personalName "Diodoro";
+  gndo:nameAddition "Siculo" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Siculo, Diodoro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589518 .
+
+_:node1ivs02adlx24589518 gndo:forename "Diodoro";
+  gndo:surname "Siculo" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodorus, Simlus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589519 .
+
+_:node1ivs02adlx24589519 gndo:personalName "Diodorus";
+  gndo:nameAddition "Simlus" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589520 .
+
+_:node1ivs02adlx24589520 gndo:personalName "Diodorus" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodorus, of Sicily";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589521 .
+
+_:node1ivs02adlx24589521 gndo:personalName "Diodorus";
+  gndo:nameAddition "of Sicily" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589522 .
+
+_:node1ivs02adlx24589522 gndo:personalName "Diodoros" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodorus, der Sicilier";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589523 .
+
+_:node1ivs02adlx24589523 gndo:personalName "Diodorus";
+  gndo:nameAddition "der Sicilier" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoro Siculo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589524 .
+
+_:node1ivs02adlx24589524 gndo:personalName "Diodoro Siculo" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoro Sicolo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589525 .
+
+_:node1ivs02adlx24589525 gndo:personalName "Diodoro Sicolo" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodor, Sicilijskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589526 .
+
+_:node1ivs02adlx24589526 gndo:personalName "Diodor";
+  gndo:nameAddition "Sicilijskij" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoros, Sikiliac'i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589527 .
+
+_:node1ivs02adlx24589527 gndo:personalName "Diodoros";
+  gndo:nameAddition "Sikiliac'i" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoros, von Sizilien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589528 .
+
+_:node1ivs02adlx24589528 gndo:personalName "Diodoros";
+  gndo:nameAddition "von Sizilien" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoros, Sikeliōtos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589529 .
+
+_:node1ivs02adlx24589529 gndo:personalName "Diodoros";
+  gndo:nameAddition "Sikeliōtos" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoros, Sikelios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589530 .
+
+_:node1ivs02adlx24589530 gndo:personalName "Diodoros";
+  gndo:nameAddition "Sikelios" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodoros, Siculus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589531 .
+
+_:node1ivs02adlx24589531 gndo:personalName "Diodoros";
+  gndo:nameAddition "Siculus" .
+
+<https://d-nb.info/gnd/118679627> gndo:variantNameForThePerson "Diodorus Siculus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589532 .
+
+_:node1ivs02adlx24589532 gndo:personalName "Diodorus Siculus" .
+
+<https://d-nb.info/gnd/118679627> gndo:preferredNameForThePerson "Diodorus, Siculus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589533 .
+
+_:node1ivs02adlx24589533 gndo:personalName "Diodorus";
+  gndo:nameAddition "Siculus" .
+
+<https://d-nb.info/gnd/118679627> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Bellum Troianum. 1548", "De claris mulieribus. 1531";
+  wdrs:describedby <https://d-nb.info/gnd/118679627/about> .
+
+<https://d-nb.info/gnd/118679627/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118679627> gndo:biographicalOrHistoricalInformation "Bibliotheca historica; Griechischer Historiker z.Zt. Caesars und zu Beginn der Ära des Augustus"@de;
+  gndo:periodOfActivity "v60-v30";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24589534 .
+
+_:node1ivs02adlx24589534 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4155430-9> .
+

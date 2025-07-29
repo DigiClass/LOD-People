@@ -1,0 +1,362 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118525859> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118525859/about> .
+
+<https://d-nb.info/gnd/118525859/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:26.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118525859> gndo:gndIdentifier "118525859";
+  foaf:page <https://de.wikipedia.org/wiki/Diogenes_Laertios>;
+  owl:sameAs <https://dbpedia.org/resource/Diogenes_La%C3%ABrtius>, <http://viaf.org/viaf/41839141>,
+    <https://isni.org/isni/0000000081201306>, <http://www.wikidata.org/entity/Q59138>,
+    <http://id.loc.gov/rwo/agents/n80067474>;
+  gndo:oldAuthorityNumber "(DE-588)108988320X";
+  owl:sameAs <https://d-nb.info/gnd/108988320X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108988320X";
+  gndo:oldAuthorityNumber "(DE-588)1089719647";
+  owl:sameAs <https://d-nb.info/gnd/1089719647>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089719647";
+  gndo:oldAuthorityNumber "(DE-588)1089124759";
+  owl:sameAs <https://d-nb.info/gnd/1089124759>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089124759";
+  gndo:oldAuthorityNumber "(DE-588)1089928629";
+  owl:sameAs <https://d-nb.info/gnd/1089928629>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928629";
+  gndo:oldAuthorityNumber "(DE-588)18619594X";
+  owl:sameAs <https://d-nb.info/gnd/18619594X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18619594X";
+  gndo:oldAuthorityNumber "(DE-588a)18619594X", "(DE-588)172044790";
+  owl:sameAs <https://d-nb.info/gnd/172044790>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172044790";
+  gndo:oldAuthorityNumber "(DE-588a)172044790", "(DE-588)188331018";
+  owl:sameAs <https://d-nb.info/gnd/188331018>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188331018";
+  gndo:oldAuthorityNumber "(DE-588a)188331018", "(DE-588)188114556";
+  owl:sameAs <https://d-nb.info/gnd/188114556>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188114556";
+  gndo:oldAuthorityNumber "(DE-588a)188114556", "(DE-588a)118525859", "(DE-588a)119655071";
+  gndo:variantNameForThePerson "Diogenes, Laertios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590384 .
+
+_:node1ivs02adlx24590384 gndo:personalName "Diogenes";
+  gndo:nameAddition "Laertios" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes Laertius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590385 .
+
+_:node1ivs02adlx24590385 gndo:personalName "Diogenes Laertius" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes, Biographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590386 .
+
+_:node1ivs02adlx24590386 gndo:personalName "Diogenes";
+  gndo:nameAddition "Biographus" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Laertius, Diogenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590387 .
+
+_:node1ivs02adlx24590387 gndo:forename "Diogenes";
+  gndo:surname "Laertius" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenēs, Laertios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590388 .
+
+_:node1ivs02adlx24590388 gndo:personalName "Diogenēs";
+  gndo:nameAddition "Laertios" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogène";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590389 .
+
+_:node1ivs02adlx24590389 gndo:personalName "Diogène" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590390 .
+
+_:node1ivs02adlx24590390 gndo:personalName "Diogenes" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogene, Laerte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590391 .
+
+_:node1ivs02adlx24590391 gndo:personalName "Diogene";
+  gndo:nameAddition "Laerte" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogene, Laerzio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590392 .
+
+_:node1ivs02adlx24590392 gndo:personalName "Diogene";
+  gndo:nameAddition "Laerzio" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogène, Laërce";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590393 .
+
+_:node1ivs02adlx24590393 gndo:personalName "Diogène";
+  gndo:nameAddition "Laërce" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590394 .
+
+_:node1ivs02adlx24590394 gndo:personalName "Diogenes";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogène, de Laërte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590395 .
+
+_:node1ivs02adlx24590395 gndo:personalName "Diogène";
+  gndo:nameAddition "de Laërte" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes, von Laërte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590396 .
+
+_:node1ivs02adlx24590396 gndo:personalName "Diogenes";
+  gndo:nameAddition "von Laërte" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogene, di Laerte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590397 .
+
+_:node1ivs02adlx24590397 gndo:personalName "Diogene";
+  gndo:nameAddition "di Laerte" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenēs, Laertios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590398 .
+
+_:node1ivs02adlx24590398 gndo:forename "Laertios";
+  gndo:surname "Diogenēs" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Laerzio, Diogene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590399 .
+
+_:node1ivs02adlx24590399 gndo:forename "Diogene";
+  gndo:surname "Laerzio" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogjen, Laertyn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590400 .
+
+_:node1ivs02adlx24590400 gndo:personalName "Diogjen";
+  gndo:nameAddition "Laertyn" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogen, Laėrtyn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590401 .
+
+_:node1ivs02adlx24590401 gndo:personalName "Diogen";
+  gndo:nameAddition "Laėrtyn" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogen, Laėrtskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590402 .
+
+_:node1ivs02adlx24590402 gndo:personalName "Diogen";
+  gndo:nameAddition "Laėrtskij" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogen, Laėrcij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590403 .
+
+_:node1ivs02adlx24590403 gndo:personalName "Diogen";
+  gndo:nameAddition "Laėrcij" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590404 .
+
+_:node1ivs02adlx24590404 gndo:personalName "Diogene" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogene Laerzio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590405 .
+
+_:node1ivs02adlx24590405 gndo:personalName "Diogene Laerzio" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogene, Laërce";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590406 .
+
+_:node1ivs02adlx24590406 gndo:personalName "Diogene";
+  gndo:nameAddition "Laërce" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes Biographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590407 .
+
+_:node1ivs02adlx24590407 gndo:personalName "Diogenes Biographus" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590408 .
+
+_:node1ivs02adlx24590408 gndo:personalName "Diogenes Philosophus" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diognes, Laertios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590409 .
+
+_:node1ivs02adlx24590409 gndo:personalName "Diognes";
+  gndo:nameAddition "Laertios" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogène Laërce";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590410 .
+
+_:node1ivs02adlx24590410 gndo:personalName "Diogène Laërce" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogène de Laërte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590411 .
+
+_:node1ivs02adlx24590411 gndo:personalName "Diogène de Laërte" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Laertio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590412 .
+
+_:node1ivs02adlx24590412 gndo:personalName "Laertio" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Laertius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590413 .
+
+_:node1ivs02adlx24590413 gndo:personalName "Laertius" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Laerzio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590414 .
+
+_:node1ivs02adlx24590414 gndo:personalName "Laerzio" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes, Cilicianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590415 .
+
+_:node1ivs02adlx24590415 gndo:personalName "Diogenes";
+  gndo:nameAddition "Cilicianus" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogène, de Laerte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590416 .
+
+_:node1ivs02adlx24590416 gndo:personalName "Diogène";
+  gndo:nameAddition "de Laerte" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogène, de Laërce";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590417 .
+
+_:node1ivs02adlx24590417 gndo:personalName "Diogène";
+  gndo:nameAddition "de Laërce" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenes, Laertius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590418 .
+
+_:node1ivs02adlx24590418 gndo:forename "Laertius";
+  gndo:surname "Diogenes" .
+
+<https://d-nb.info/gnd/118525859> gndo:variantNameForThePerson "Diogenēs, ho Laertieus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590419 .
+
+_:node1ivs02adlx24590419 gndo:personalName "Diogenēs";
+  gndo:nameAddition "ho Laertieus" .
+
+<https://d-nb.info/gnd/118525859> gndo:preferredNameForThePerson "Diogenes, Laertius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590420 .
+
+_:node1ivs02adlx24590420 gndo:personalName "Diogenes";
+  gndo:nameAddition "Laertius" .
+
+<https://d-nb.info/gnd/118525859> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119861968>;
+  gndo:hasRelation _:node1ivs02adlx24590421 .
+
+_:node1ivs02adlx24590421 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119861968>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525859> gndo:hasRelation _:node1ivs02adlx24590422 .
+
+_:node1ivs02adlx24590422 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525859> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590423 .
+
+_:node1ivs02adlx24590423 gndo:personalName "Ambrosius Traversari" .
+
+<https://d-nb.info/gnd/118525859> gndo:hasRelation _:node1ivs02adlx24590424 .
+
+_:node1ivs02adlx24590424 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525859> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590425 .
+
+_:node1ivs02adlx24590425 gndo:forename "Valentin";
+  gndo:surname "Curio" .
+
+<https://d-nb.info/gnd/118525859> gndo:hasRelation _:node1ivs02adlx24590426 .
+
+_:node1ivs02adlx24590426 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525859> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590427 .
+
+_:node1ivs02adlx24590427 gndo:forename "Nikolaus";
+  gndo:surname "Episcopius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118525859> gndo:hasRelation _:node1ivs02adlx24590428 .
+
+_:node1ivs02adlx24590428 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525859> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590429 .
+
+_:node1ivs02adlx24590429 gndo:forename "Hieronymus";
+  gndo:surname "Froben";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118525859> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Diogenus Laertiu peri biōn, dogmatōn kai apophthegmatōn tōn en*",
+    "Diogenus Laertiu peri biōn, dogmatōn kai apophthegmatōn tōn en*", "Diogenus Laertiu peri biōn, dogmatōn kai apophthegmatōn tōn en*",
+    "De vitis, dogmatibus et apophtegmatis clarorum virorum", "Diogenus Laertiu peri biōn, dogmatōn kai apophthegmatōn tōn en*",
+    "De vitis dogmatibus ... clarorum philosophorum", "De vitis dogmatibus et apophthegmatis clarorum philosophorum",
+    "De vitis dogmatis et apophthegmatis clarorum philosophorum", "Les vies des plus illustres philosophes",
+    "De vitis, dogmatis et apophthegmatis clarorum philosophorum libri X. - 1828 - 1833",
+    "DIOGENIS LAERTII CLARISS.HISTOrici de uitis ac moribus priscorum philosophorum libri ... 1542. (VD16 D 1839)",
+    "DIOGENIS LAERTII CLARISSIMI HISTOrici de uita, & moribus philosophorum libri decem, ... 1524. (VD16 D 1837)",
+    "DIOGENIS LAERTII CLARISSIMI HISTOrici de uita, & moribus philosophorum libri decem, ... 1535. (VD16 D 1838)",
+    "EX DIOGENIS LAERTII, DE VITIS PHIlosophorum libris sententie & apophthegmata, ... ... 1530. (VD16 D 1840)",
+    "\\=GDIOGENUS LAERTIU PERI BIŌN...tōn en philosophiaeudokimēsantōn,biblia deka,\\=g ... ... 1533. (VD16 D 1836)";
+  wdrs:describedby <https://d-nb.info/gnd/118525859/about> .
+
+<https://d-nb.info/gnd/118525859/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118525859> gndo:biographicalOrHistoricalInformation "Vitae philosophorum; Verfasser einer Philosophiegeschichte"@de;
+  gndo:udkCode "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[3. Jh.]" .
+

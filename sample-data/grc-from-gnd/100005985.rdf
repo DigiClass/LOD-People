@@ -1,0 +1,247 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100005985> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100005985/about> .
+
+<https://d-nb.info/gnd/100005985/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2022-03-10T17:40:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100005985> gndo:gndIdentifier "100005985";
+  foaf:page <https://de.wikipedia.org/wiki/Aelianus_Tacticus>;
+  owl:sameAs <https://dbpedia.org/resource/Aelianus_Tacticus>, <http://viaf.org/viaf/72639048>,
+    <https://isni.org/isni/0000000080777848>, <http://www.wikidata.org/entity/Q380793>,
+    <http://id.loc.gov/rwo/agents/n50057283>;
+  gndo:oldAuthorityNumber "(DE-588)1089895313";
+  owl:sameAs <https://d-nb.info/gnd/1089895313>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089895313";
+  gndo:oldAuthorityNumber "(DE-588)1089210388";
+  owl:sameAs <https://d-nb.info/gnd/1089210388>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089210388";
+  gndo:oldAuthorityNumber "(DE-588)1089782063";
+  owl:sameAs <https://d-nb.info/gnd/1089782063>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089782063";
+  gndo:oldAuthorityNumber "(DE-588a)100005985", "(DE-588a)119601478", "(DE-588c)7540337-7";
+  gndo:variantNameForThePerson "Aelianus, Tacticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594473 .
+
+_:node1ivs02adlx24594473 gndo:forename "Tacticus";
+  gndo:surname "Aelianus" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Aelianus, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594474 .
+
+_:node1ivs02adlx24594474 gndo:forename "Claudius";
+  gndo:surname "Aelianus" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Aelian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594475 .
+
+_:node1ivs02adlx24594475 gndo:personalName "Aelian" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Aelianus, Claudius, Tacticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594476 .
+
+_:node1ivs02adlx24594476 gndo:forename "Claudius";
+  gndo:surname "Aelianus";
+  gndo:nameAddition "Tacticus" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Aelianos, Taktiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594477 .
+
+_:node1ivs02adlx24594477 gndo:personalName "Aelianos";
+  gndo:nameAddition "Taktiker" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Aelianus, Militärschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594478 .
+
+_:node1ivs02adlx24594478 gndo:personalName "Aelianus";
+  gndo:nameAddition "Militärschriftsteller" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Ailianos, Taktikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594479 .
+
+_:node1ivs02adlx24594479 gndo:personalName "Ailianos";
+  gndo:nameAddition "Taktikos" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Aelian, Taktiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594480 .
+
+_:node1ivs02adlx24594480 gndo:personalName "Aelian";
+  gndo:nameAddition "Taktiker" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Ailianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594481 .
+
+_:node1ivs02adlx24594481 gndo:personalName "Ailianos" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Ailainos, Taktikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594482 .
+
+_:node1ivs02adlx24594482 gndo:personalName "Ailainos";
+  gndo:nameAddition "Taktikos" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Élien, le Tacticien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594483 .
+
+_:node1ivs02adlx24594483 gndo:personalName "Élien";
+  gndo:nameAddition "le Tacticien" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Aelianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594484 .
+
+_:node1ivs02adlx24594484 gndo:personalName "Aelianus" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Aelianus, Taktikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594485 .
+
+_:node1ivs02adlx24594485 gndo:personalName "Aelianus";
+  gndo:nameAddition "Taktikos" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Eliano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594486 .
+
+_:node1ivs02adlx24594486 gndo:personalName "Eliano" .
+
+<https://d-nb.info/gnd/100005985> gndo:variantNameForThePerson "Tacticus Aelianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594487 .
+
+_:node1ivs02adlx24594487 gndo:personalName "Tacticus Aelianus" .
+
+<https://d-nb.info/gnd/100005985> gndo:preferredNameForThePerson "Aelianus, Tacticus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594488 .
+
+_:node1ivs02adlx24594488 gndo:personalName "Aelianus";
+  gndo:nameAddition "Tacticus" .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119160285>;
+  gndo:hasRelation _:node1ivs02adlx24594489 .
+
+_:node1ivs02adlx24594489 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119160285>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118657119>;
+  gndo:hasRelation _:node1ivs02adlx24594490 .
+
+_:node1ivs02adlx24594490 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118657119>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118516868>;
+  gndo:hasRelation _:node1ivs02adlx24594491 .
+
+_:node1ivs02adlx24594491 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118516868>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:hasRelation _:node1ivs02adlx24594492 .
+
+_:node1ivs02adlx24594492 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594493 .
+
+_:node1ivs02adlx24594493 gndo:forename "Konrad";
+  gndo:surname "Gesner" .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119064227>;
+  gndo:hasRelation _:node1ivs02adlx24594494 .
+
+_:node1ivs02adlx24594494 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119064227>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118971034>;
+  gndo:hasRelation _:node1ivs02adlx24594495 .
+
+_:node1ivs02adlx24594495 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118971034>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11882497X>;
+  gndo:hasRelation _:node1ivs02adlx24594496 .
+
+_:node1ivs02adlx24594496 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11882497X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11880409X>;
+  gndo:hasRelation _:node1ivs02adlx24594497 .
+
+_:node1ivs02adlx24594497 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11880409X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119694867>;
+  gndo:hasRelation _:node1ivs02adlx24594498 .
+
+_:node1ivs02adlx24594498 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119694867>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100005985> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.4p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Tactica", "Cl. Aeliani et Leonis Imp. Tactica", "De instruendis aciebus",
+    "The art of embattailing an army", "The tactiks of Aelian", "The tacticks of Aelian",
+    "The art of embattailing an army", "Von Schlacht-Ordnungen", "La milice des Grecs et Romains",
+    "The art of embattailling an army, or the second part of *", "Aelianus, Claudius: De militaribus ordinibus instituendis more Graecorum liber. 1556. (VD16 A 320)",
+    "Vegetius Renatus, Flavius: De instruendis aciebus. 1524. (VD16 V 462)", "Vegetius Renatus, Flavius: De instruendis aciebus. 1532. (VD16 V 463)",
+    "Vegetius Renatus, Flavius: De instruendis aciebus. 1580. (VD16 V 464)";
+  wdrs:describedby <https://d-nb.info/gnd/100005985/about> .
+
+<https://d-nb.info/gnd/100005985/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100005985> gndo:biographicalOrHistoricalInformation "Griech. Militärschriftsteller"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594499 .
+
+_:node1ivs02adlx24594499 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/100005985> gndo:dateOfBirthAndDeath "[1./2. Jh.]" .
+

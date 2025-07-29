@@ -1,0 +1,170 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118525867> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118525867/about> .
+
+<https://d-nb.info/gnd/118525867/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-08T19:34:10.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118525867> gndo:gndIdentifier "118525867";
+  owl:sameAs <https://dbpedia.org/resource/Diogenes_of_Sinope>, <http://viaf.org/viaf/13557547>,
+    <http://www.wikidata.org/entity/Q59180>;
+  gndo:oldAuthorityNumber "(DE-588)1089725752";
+  owl:sameAs <https://d-nb.info/gnd/1089725752>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725752";
+  gndo:oldAuthorityNumber "(DE-588)1089130988";
+  owl:sameAs <https://d-nb.info/gnd/1089130988>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089130988";
+  gndo:oldAuthorityNumber "(DE-588a)118525867", "(DE-588a)172660246", "(DE-588c)4012374-1";
+  gndo:variantNameForThePerson "Diogenes, Cynicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404994 .
+
+_:node1ivpishs6x25404994 gndo:personalName "Diogenes";
+  gndo:nameAddition "Cynicus" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogenes, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404995 .
+
+_:node1ivpishs6x25404995 gndo:personalName "Diogenes";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404996 .
+
+_:node1ivpishs6x25404996 gndo:personalName "Diogenes" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogenes, of Sinope";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404997 .
+
+_:node1ivpishs6x25404997 gndo:personalName "Diogenes";
+  gndo:nameAddition "of Sinope" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogenes, der Hund";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404998 .
+
+_:node1ivpishs6x25404998 gndo:personalName "Diogenes";
+  gndo:nameAddition "der Hund" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogenes, Tragicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404999 .
+
+_:node1ivpishs6x25404999 gndo:personalName "Diogenes";
+  gndo:nameAddition "Tragicus" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogène, de Sinope";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405000 .
+
+_:node1ivpishs6x25405000 gndo:personalName "Diogène";
+  gndo:nameAddition "de Sinope" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogenes, von Sinope";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405001 .
+
+_:node1ivpishs6x25405001 gndo:personalName "Diogenes";
+  gndo:nameAddition "von Sinope" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogene, de Synope";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405002 .
+
+_:node1ivpishs6x25405002 gndo:personalName "Diogene";
+  gndo:nameAddition "de Synope" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogenes, the Cynic";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405003 .
+
+_:node1ivpishs6x25405003 gndo:personalName "Diogenes";
+  gndo:nameAddition "the Cynic" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogène, le Cynique";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405004 .
+
+_:node1ivpishs6x25405004 gndo:personalName "Diogène";
+  gndo:nameAddition "le Cynique" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diogenes, der Kyniker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405005 .
+
+_:node1ivpishs6x25405005 gndo:personalName "Diogenes";
+  gndo:nameAddition "der Kyniker" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Diógenes, de Sínope";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405006 .
+
+_:node1ivpishs6x25405006 gndo:personalName "Diógenes";
+  gndo:nameAddition "de Sínope" .
+
+<https://d-nb.info/gnd/118525867> gndo:variantNameForThePerson "Pseuo-Diogenes, Sinopensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405007 .
+
+_:node1ivpishs6x25405007 gndo:personalName "Pseuo-Diogenes";
+  gndo:nameAddition "Sinopensis" .
+
+<https://d-nb.info/gnd/118525867> gndo:preferredNameForThePerson "Diogenes, Sinopensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405008 .
+
+_:node1ivpishs6x25405008 gndo:personalName "Diogenes";
+  gndo:nameAddition "Sinopensis" .
+
+<https://d-nb.info/gnd/118525867> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Epistolae Diogenis, Bruti, Yppocratis", "Hippocrates: Epistolae",
+    "Epistolae";
+  wdrs:describedby <https://d-nb.info/gnd/118525867/about> .
+
+<https://d-nb.info/gnd/118525867/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118525867> gndo:biographicalOrHistoricalInformation "Griech. Philosoph, dem im Altertum auch Tragödien zugeschr. wurden . Begründer des Kynismus"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25405009 .
+
+_:node1ivpishs6x25405009 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118525867> gndo:dateOfBirth "-0400"^^xsd:gYear;
+  gndo:dateOfDeath "-0323"^^xsd:gYear .
+

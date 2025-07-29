@@ -1,0 +1,389 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118504436> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118504436/about> .
+
+<https://d-nb.info/gnd/118504436/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:25:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118504436> gndo:gndIdentifier "118504436";
+  foaf:page <https://de.wikipedia.org/wiki/Arrian>;
+  owl:sameAs <https://dbpedia.org/resource/Arrian>, <http://viaf.org/viaf/100192636>,
+    <https://isni.org/isni/0000000121451319>, <http://www.wikidata.org/entity/Q31845>,
+    <http://id.loc.gov/rwo/agents/n79023201>;
+  gndo:oldAuthorityNumber "(DE-588)1089126158";
+  owl:sameAs <https://d-nb.info/gnd/1089126158>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089126158";
+  gndo:oldAuthorityNumber "(DE-588a)118504436", "(DE-588a)119609649", "(DE-588a)127260366",
+    "(DE-588c)4003035-0";
+  gndo:variantNameForThePerson "Arrianus von Nikomedien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585801 .
+
+_:node1ivs02adlx24585801 gndo:personalName "Arrianus";
+  gndo:prefix "von Nikomedien" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus von Nicomedien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585802 .
+
+_:node1ivs02adlx24585802 gndo:personalName "Arrianus";
+  gndo:prefix "von Nicomedien" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrian von Nikomedien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585803 .
+
+_:node1ivs02adlx24585803 gndo:personalName "Arrian";
+  gndo:prefix "von Nikomedien" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrian von Nicomedien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585804 .
+
+_:node1ivs02adlx24585804 gndo:personalName "Arrian";
+  gndo:prefix "von Nicomedien" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arriano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585805 .
+
+_:node1ivs02adlx24585805 gndo:personalName "Arriano" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrian, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585806 .
+
+_:node1ivs02adlx24585806 gndo:forename "Flavius";
+  gndo:surname "Arrian" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrian, von Nikomedeia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585807 .
+
+_:node1ivs02adlx24585807 gndo:personalName "Arrian";
+  gndo:nameAddition "von Nikomedeia" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus, Bithynius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585808 .
+
+_:node1ivs02adlx24585808 gndo:personalName "Arrianus";
+  gndo:nameAddition "Bithynius" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Flavius, Arrianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585809 .
+
+_:node1ivs02adlx24585809 gndo:personalName "Flavius";
+  gndo:nameAddition "Arrianus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianos, von Nikomedeia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585810 .
+
+_:node1ivs02adlx24585810 gndo:personalName "Arrianos";
+  gndo:nameAddition "von Nikomedeia" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianos, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585811 .
+
+_:node1ivs02adlx24585811 gndo:forename "Flavius";
+  gndo:surname "Arrianos" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus, Nicomediensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585812 .
+
+_:node1ivs02adlx24585812 gndo:personalName "Arrianus";
+  gndo:nameAddition "Nicomediensis" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585813 .
+
+_:node1ivs02adlx24585813 gndo:personalName "Arrianos" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585814 .
+
+_:node1ivs02adlx24585814 gndo:personalName "Arrianus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585815 .
+
+_:node1ivs02adlx24585815 gndo:personalName "Arrianus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianos, Historiograph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585816 .
+
+_:node1ivs02adlx24585816 gndo:personalName "Arrianos";
+  gndo:nameAddition "Historiograph" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arriano, Flavio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585817 .
+
+_:node1ivs02adlx24585817 gndo:personalName "Arriano";
+  gndo:nameAddition "Flavio" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arriano, di Nicomedia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585818 .
+
+_:node1ivs02adlx24585818 gndo:personalName "Arriano";
+  gndo:nameAddition "di Nicomedia" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arriano, Storiografo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585819 .
+
+_:node1ivs02adlx24585819 gndo:personalName "Arriano";
+  gndo:nameAddition "Storiografo" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arriano, Politico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585820 .
+
+_:node1ivs02adlx24585820 gndo:personalName "Arriano";
+  gndo:nameAddition "Politico" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arianus, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585821 .
+
+_:node1ivs02adlx24585821 gndo:forename "Flavius";
+  gndo:surname "Arianus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus, Nicomedensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585822 .
+
+_:node1ivs02adlx24585822 gndo:personalName "Arrianus";
+  gndo:nameAddition "Nicomedensis" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585823 .
+
+_:node1ivs02adlx24585823 gndo:personalName "Arrianus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585824 .
+
+_:node1ivs02adlx24585824 gndo:personalName "Arrianus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus, Flavius, von Nikomedeia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585825 .
+
+_:node1ivs02adlx24585825 gndo:forename "Flavius";
+  gndo:surname "Arrianus";
+  gndo:nameAddition "von Nikomedeia" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrien, de Nicomédie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585826 .
+
+_:node1ivs02adlx24585826 gndo:personalName "Arrien";
+  gndo:nameAddition "de Nicomédie" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Pseudo-Arrianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585827 .
+
+_:node1ivs02adlx24585827 gndo:personalName "Pseudo-Arrianus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arriano, Lucio Flavio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585828 .
+
+_:node1ivs02adlx24585828 gndo:forename "Lucio Flavio";
+  gndo:surname "Arriano" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianus, Lucius Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585829 .
+
+_:node1ivs02adlx24585829 gndo:forename "Lucius Flavius";
+  gndo:surname "Arrianus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrian, von Nicomedien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585830 .
+
+_:node1ivs02adlx24585830 gndo:personalName "Arrian";
+  gndo:nameAddition "von Nicomedien" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrhianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585831 .
+
+_:node1ivs02adlx24585831 gndo:personalName "Arrhianus" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrhianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585832 .
+
+_:node1ivs02adlx24585832 gndo:personalName "Arrhianos" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrien, Nicomédie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585833 .
+
+_:node1ivs02adlx24585833 gndo:personalName "Arrien";
+  gndo:nameAddition "Nicomédie" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrian, von Nicomedeia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585834 .
+
+_:node1ivs02adlx24585834 gndo:personalName "Arrian";
+  gndo:nameAddition "von Nicomedeia" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585835 .
+
+_:node1ivs02adlx24585835 gndo:personalName "Arrian" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrianos von Nikomedeia, Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585836 .
+
+_:node1ivs02adlx24585836 gndo:forename "Flavius";
+  gndo:surname "Arrianos von Nikomedeia" .
+
+<https://d-nb.info/gnd/118504436> gndo:variantNameForThePerson "Arrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585837 .
+
+_:node1ivs02adlx24585837 gndo:personalName "Arrien" .
+
+<https://d-nb.info/gnd/118504436> gndo:preferredNameForThePerson "Arrianus, Flavius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585838 .
+
+_:node1ivs02adlx24585838 gndo:forename "Flavius";
+  gndo:surname "Arrianus" .
+
+<https://d-nb.info/gnd/118504436> gndo:hasRelation _:node1ivs02adlx24585839 .
+
+_:node1ivs02adlx24585839 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585840 .
+
+_:node1ivs02adlx24585840 gndo:personalName "Cebes" .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530577>;
+  gndo:hasRelation _:node1ivs02adlx24585841 .
+
+_:node1ivs02adlx24585841 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530577>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100941060>;
+  gndo:hasRelation _:node1ivs02adlx24585842 .
+
+_:node1ivs02adlx24585842 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100941060>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119698544>;
+  gndo:hasRelation _:node1ivs02adlx24585843 .
+
+_:node1ivs02adlx24585843 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119698544>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595512>;
+  gndo:hasRelation _:node1ivs02adlx24585844 .
+
+_:node1ivs02adlx24585844 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595512>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:hasRelation _:node1ivs02adlx24585845 .
+
+_:node1ivs02adlx24585845 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585846 .
+
+_:node1ivs02adlx24585846 gndo:forename "Jakob";
+  gndo:surname "Schegk";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11983250X>;
+  gndo:hasRelation _:node1ivs02adlx24585847 .
+
+_:node1ivs02adlx24585847 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11983250X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118618806>;
+  gndo:hasRelation _:node1ivs02adlx24585848 .
+
+_:node1ivs02adlx24585848 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118618806>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100706460>;
+  gndo:hasRelation _:node1ivs02adlx24585849 .
+
+_:node1ivs02adlx24585849 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100706460>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100378447>;
+  gndo:hasRelation _:node1ivs02adlx24585850 .
+
+_:node1ivs02adlx24585850 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100378447>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118504436> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.4p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Arrianus, Flavius: Epictetus", "Arrianus, Flavius: De ascensu Alexandri",
+    "Arrianus, Flavius: De expeditione Alexandri", "Arrianus, Flavius: Expeditio Alexandri",
+    "Arrianus, Flavius: Indica", "Arrianus, Flavius: Indische Merkwürdigkeiten", "Arrianus, Flavius: De rebus gestis Alexandri M.",
+    "Arrianus, Flavius: De rebus gestis Alexandri M.", "Arrianus, Flavius: De expeditione Alex. M. libri VII.",
+    "Arrianus, Flavius: Sieben Bücher von den Feldzügen Alexander des Großen", "Arrianus, Flavius: ARRIANI NICOMEDENSIS NOVI XENOPHONTIS APpellati, de rebus gestis Alexandri Magni regis ... 1539. (VD16 ZV 17001)",
+    "Arrianus, Flavius: ARRIANI NICOMEDENSIS NOVI XENOPHONTIS APpel-lati, de rebus gestis Alexandri Magni regis ... 1554. (VD16 A 3797)",
+    "Arrianus, Flavius: De situ orbis libri septendecim, Ausz. 1533. (VD16 A 3798)", "Arrianus, Flavius: Enchiridion. 1554. (VD16 A 3793)",
+    "Arrianus, Flavius: \\=GARRIANU PERI ALEXANDRU ANABASEŌS HISTORIŌN biblia oktō.\\=g ARRIANI DE ... 1539. (VD16 A 3796)",
+    "Epictetus: De Epicteti philosophi ... dissertationibus libri IV. 1563. (VD16 E 1611)",
+    "Epictetus: Enchiridion. 1595. (VD16 ZV 5095)";
+  wdrs:describedby <https://d-nb.info/gnd/118504436/about> .
+
+<https://d-nb.info/gnd/118504436/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118504436> gndo:biographicalOrHistoricalInformation "griechischsprachiger römischer Politiker und Geschichtsschreiber"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4109182-6>;
+  gndo:professionOrOccupation _:node1ivs02adlx24585851 .
+
+_:node1ivs02adlx24585851 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_3 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/118504436> gndo:dateOfBirth "0095"^^xsd:gYear;
+  gndo:dateOfDeath "0175"^^xsd:gYear .
+

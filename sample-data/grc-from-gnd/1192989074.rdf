@@ -1,0 +1,111 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/1192989074> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/1192989074/about> .
+
+<https://d-nb.info/gnd/1192989074/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-01-07T14:55:39.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/1192989074> gndo:gndIdentifier "1192989074";
+  foaf:page <https://de.wikipedia.org/wiki/Irene_von_Thessaloniki_%28%E2%80%A0_304%29>;
+  owl:sameAs <http://viaf.org/viaf/5924156619128128780008>, <http://www.wikidata.org/entity/Q264096>;
+  gndo:variantNameForThePerson "Irene, von Thessalonike, Heilige";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593315 .
+
+_:node1ivs02adlx24593315 gndo:personalName "Irene";
+  gndo:nameAddition "von Thessalonike, Heilige" .
+
+<https://d-nb.info/gnd/1192989074> gndo:variantNameForThePerson "Irini, Heilige";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593316 .
+
+_:node1ivs02adlx24593316 gndo:personalName "Irini";
+  gndo:nameAddition "Heilige" .
+
+<https://d-nb.info/gnd/1192989074> gndo:variantNameForThePerson "Herene, Heilige";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593317 .
+
+_:node1ivs02adlx24593317 gndo:personalName "Herene";
+  gndo:nameAddition "Heilige" .
+
+<https://d-nb.info/gnd/1192989074> gndo:preferredNameForThePerson "Irene, von Thessaloniki, Heilige";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593318 .
+
+_:node1ivs02adlx24593318 gndo:personalName "Irene";
+  gndo:nameAddition "von Thessaloniki, Heilige" .
+
+<https://d-nb.info/gnd/1192989074> gndo:familialRelationship <https://d-nb.info/gnd/119197308>;
+  agrelon:hasSibling <https://d-nb.info/gnd/119197308>;
+  gndo:hasRelation _:node1ivs02adlx24593319 .
+
+_:node1ivs02adlx24593319 agrelon:hasSibling <https://d-nb.info/gnd/119197308>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/1192989074> gndo:familialRelationship <https://d-nb.info/gnd/119197324>;
+  agrelon:hasSibling <https://d-nb.info/gnd/119197324>;
+  gndo:hasRelation _:node1ivs02adlx24593320 .
+
+_:node1ivs02adlx24593320 agrelon:hasSibling <https://d-nb.info/gnd/119197324>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/1192989074> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#female>;
+  gndo:broaderTermInstantial <https://d-nb.info/gnd/4117606-6>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/1192989074/about> .
+
+<https://d-nb.info/gnd/1192989074/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-27>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-601> .
+
+<https://d-nb.info/gnd/1192989074> gndo:biographicalOrHistoricalInformation "Christliche Märtyrerin und Heilige aus Nordgriechenland in der östlichen Reichshälfe des Römischen Reichs, wird besondersin Süditalien (Apulien) verehrt, ihre Reliquien befinden sich in Lecce"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4002522-6>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4051394-4>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593321 .
+
+_:node1ivs02adlx24593321 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4224829-2> .
+
+<https://d-nb.info/gnd/1192989074> gndo:dateOfDeath "0304"^^xsd:gYear .
+

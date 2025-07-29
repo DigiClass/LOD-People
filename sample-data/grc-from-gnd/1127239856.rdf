@@ -1,0 +1,123 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/1127239856> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/1127239856/about> .
+
+<https://d-nb.info/gnd/1127239856/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2020-04-14T11:49:33.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/1127239856> gndo:gndIdentifier "1127239856";
+  owl:sameAs <http://viaf.org/viaf/80148933378554300792>, <http://www.wikidata.org/entity/Q97285259>;
+  gndo:variantNameForThePerson "Johannes VIII., Hierosolymitanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596325 .
+
+_:node1ivs02adlx24596325 gndo:personalName "Johannes";
+  gndo:counting "VIII.";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/1127239856> gndo:variantNameForThePerson "Johannes, Hierosolymitanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596326 .
+
+_:node1ivs02adlx24596326 gndo:personalName "Johannes";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/1127239856> gndo:variantNameForThePerson "Johannes VIII., Hierosolymitanus, Patriarcha";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596327 .
+
+_:node1ivs02adlx24596327 gndo:personalName "Johannes";
+  gndo:counting "VIII.";
+  gndo:nameAddition "Hierosolymitanus, Patriarcha" .
+
+<https://d-nb.info/gnd/1127239856> gndo:variantNameForThePerson "Johannes VIII., Patriarcha";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596328 .
+
+_:node1ivs02adlx24596328 gndo:personalName "Johannes";
+  gndo:counting "VIII.";
+  gndo:nameAddition "Patriarcha" .
+
+<https://d-nb.info/gnd/1127239856> gndo:variantNameForThePerson "Johannes VIII., von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596329 .
+
+_:node1ivs02adlx24596329 gndo:personalName "Johannes";
+  gndo:counting "VIII.";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/1127239856> gndo:variantNameForThePerson "Jean VIII., Jérusalem, Patriarche";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596330 .
+
+_:node1ivs02adlx24596330 gndo:personalName "Jean";
+  gndo:counting "VIII.";
+  gndo:nameAddition "Jérusalem, Patriarche" .
+
+<https://d-nb.info/gnd/1127239856> gndo:variantNameForThePerson "Hierosolymitanus, Johannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596331 .
+
+_:node1ivs02adlx24596331 gndo:forename "Johannes";
+  gndo:surname "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/1127239856> gndo:preferredNameForThePerson "Johannes VIII., Jerusalem, Patriarch";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24596332 .
+
+_:node1ivs02adlx24596332 gndo:personalName "Johannes";
+  gndo:counting "VIII.";
+  gndo:nameAddition "Jerusalem, Patriarch" .
+
+<https://d-nb.info/gnd/1127239856> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-IL>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/1127239856/about> .
+
+<https://d-nb.info/gnd/1127239856/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/1127239856> gndo:biographicalOrHistoricalInformation "Patriarch von Jerusalem 1099-1107"@de;
+  gndo:periodOfActivity "1099-1107";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4028586-8>;
+  gndo:professionOrOccupation _:node1ivs02adlx24596333 .
+
+_:node1ivs02adlx24596333 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4173551-1> .
+

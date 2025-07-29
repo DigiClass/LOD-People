@@ -1,0 +1,184 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118640062> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118640062/about> .
+
+<https://d-nb.info/gnd/118640062/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2017-11-01T00:41:58.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118640062> gndo:gndIdentifier "118640062";
+  owl:sameAs <https://dbpedia.org/resource/Callisthenes>, <http://viaf.org/viaf/316403895>,
+    <https://isni.org/isni/0000000456182536>, <http://www.wikidata.org/entity/Q82793>,
+    <http://id.loc.gov/rwo/agents/n86028308>;
+  gndo:oldAuthorityNumber "(DE-588)1089713789";
+  owl:sameAs <https://d-nb.info/gnd/1089713789>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089713789";
+  gndo:oldAuthorityNumber "(DE-588)1089894325";
+  owl:sameAs <https://d-nb.info/gnd/1089894325>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089894325";
+  gndo:oldAuthorityNumber "(DE-588)1089161360";
+  owl:sameAs <https://d-nb.info/gnd/1089161360>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089161360";
+  gndo:oldAuthorityNumber "(DE-588a)118640062", "(DE-588c)4073169-8";
+  gndo:variantNameForThePerson "Kallisthenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405624 .
+
+_:node1ivpishs6x25405624 gndo:personalName "Kallisthenes" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Callisthenes, Olynthius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405625 .
+
+_:node1ivpishs6x25405625 gndo:personalName "Callisthenes";
+  gndo:nameAddition "Olynthius" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Kallisthenes, Grossneffe des Aristoteles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405626 .
+
+_:node1ivpishs6x25405626 gndo:personalName "Kallisthenes";
+  gndo:nameAddition "Grossneffe des Aristoteles" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Kallisthenes, von Olynth";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405627 .
+
+_:node1ivpishs6x25405627 gndo:personalName "Kallisthenes";
+  gndo:nameAddition "von Olynth" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Pseudo-Kallisthenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405628 .
+
+_:node1ivpishs6x25405628 gndo:personalName "Pseudo-Kallisthenes" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Pseudo-Callisthenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405629 .
+
+_:node1ivpishs6x25405629 gndo:personalName "Pseudo-Callisthenes" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Pseudo-Callisthenes, Olynthius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405630 .
+
+_:node1ivpishs6x25405630 gndo:personalName "Pseudo-Callisthenes";
+  gndo:nameAddition "Olynthius" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Callisthenes, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405631 .
+
+_:node1ivpishs6x25405631 gndo:personalName "Callisthenes";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Kallisthenes, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405632 .
+
+_:node1ivpishs6x25405632 gndo:personalName "Kallisthenes";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Kallisthenes, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405633 .
+
+_:node1ivpishs6x25405633 gndo:personalName "Kallisthenes";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Callisthenes, of Olynth";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405634 .
+
+_:node1ivpishs6x25405634 gndo:personalName "Callisthenes";
+  gndo:nameAddition "of Olynth" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Callisthène, dÓlynthe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405635 .
+
+_:node1ivpishs6x25405635 gndo:personalName "Callisthène";
+  gndo:nameAddition "dÓlynthe" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Callistene, di Olinto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405636 .
+
+_:node1ivpishs6x25405636 gndo:personalName "Callistene";
+  gndo:nameAddition "di Olinto" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Callistene, Storico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405637 .
+
+_:node1ivpishs6x25405637 gndo:personalName "Callistene";
+  gndo:nameAddition "Storico" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Callistene, Filosofo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405638 .
+
+_:node1ivpishs6x25405638 gndo:personalName "Callistene";
+  gndo:nameAddition "Filosofo" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Pseudo-Callisthenes, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405639 .
+
+_:node1ivpishs6x25405639 gndo:personalName "Pseudo-Callisthenes";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118640062> gndo:variantNameForThePerson "Pseudo-Callisthène";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405640 .
+
+_:node1ivpishs6x25405640 gndo:personalName "Pseudo-Callisthène" .
+
+<https://d-nb.info/gnd/118640062> gndo:preferredNameForThePerson "Callisthenes";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405641 .
+
+_:node1ivpishs6x25405641 gndo:personalName "Callisthenes" .
+
+<https://d-nb.info/gnd/118640062> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118640062/about> .
+
+<https://d-nb.info/gnd/118640062/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118640062> gndo:biographicalOrHistoricalInformation "FGrH 124"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivpishs6x25405642 .
+
+_:node1ivpishs6x25405642 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2> .
+
+<https://d-nb.info/gnd/118640062> gndo:dateOfBirthAndDeath "[v370 - v327]" .
+

@@ -1,0 +1,147 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118756931> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118756931/about> .
+
+<https://d-nb.info/gnd/118756931/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T14:40:23.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118756931> gndo:gndIdentifier "118756931";
+  owl:sameAs <https://dbpedia.org/resource/Theopompus>, <http://viaf.org/viaf/100191961>,
+    <http://www.wikidata.org/entity/Q4318>;
+  gndo:oldAuthorityNumber "(DE-588)115935720X";
+  owl:sameAs <https://d-nb.info/gnd/115935720X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/115935720X";
+  gndo:oldAuthorityNumber "(DE-588)1089576005";
+  owl:sameAs <https://d-nb.info/gnd/1089576005>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089576005";
+  gndo:oldAuthorityNumber "(DE-588a)118756931", "(DE-588a)187596433", "(DE-588a)17330351X",
+    "(DE-588c)4106248-6";
+  gndo:variantNameForThePerson "Theopompus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596077 .
+
+_:node1ivs02adlx24596077 gndo:personalName "Theopompus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Theopompos, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596078 .
+
+_:node1ivs02adlx24596078 gndo:personalName "Theopompos";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Theopompus, of Chius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596079 .
+
+_:node1ivs02adlx24596079 gndo:personalName "Theopompus";
+  gndo:nameAddition "of Chius" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Theopompus, Historian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596080 .
+
+_:node1ivs02adlx24596080 gndo:personalName "Theopompus";
+  gndo:nameAddition "Historian" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Theopomp, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596081 .
+
+_:node1ivs02adlx24596081 gndo:personalName "Theopomp";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Theopomp, von Chios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596082 .
+
+_:node1ivs02adlx24596082 gndo:personalName "Theopomp";
+  gndo:nameAddition "von Chios" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Theopompos, von Chios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596083 .
+
+_:node1ivs02adlx24596083 gndo:personalName "Theopompos";
+  gndo:nameAddition "von Chios" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Teopompo, di Chio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596084 .
+
+_:node1ivs02adlx24596084 gndo:personalName "Teopompo";
+  gndo:nameAddition "di Chio" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Theopompus, of Chio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596085 .
+
+_:node1ivs02adlx24596085 gndo:personalName "Theopompus";
+  gndo:nameAddition "of Chio" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Théopompe, de Chios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596086 .
+
+_:node1ivs02adlx24596086 gndo:personalName "Théopompe";
+  gndo:nameAddition "de Chios" .
+
+<https://d-nb.info/gnd/118756931> gndo:variantNameForThePerson "Theopompus, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596087 .
+
+_:node1ivs02adlx24596087 gndo:personalName "Theopompus";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118756931> gndo:preferredNameForThePerson "Theopompus, Chius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24596088 .
+
+_:node1ivs02adlx24596088 gndo:personalName "Theopompus";
+  gndo:nameAddition "Chius" .
+
+<https://d-nb.info/gnd/118756931> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Theopompus <Chius>: Hellenika. - 1909", "Theopompus <Chius>: Fragmenta. - 1829";
+  wdrs:describedby <https://d-nb.info/gnd/118756931/about> .
+
+<https://d-nb.info/gnd/118756931/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118756931> gndo:biographicalOrHistoricalInformation "FGrH 115; Griech. Geschichtsschreiber"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4009976-3>;
+  gndo:dateOfBirth "-0378"^^xsd:gYear;
+  gndo:dateOfDeath "-0300"^^xsd:gYear .
+

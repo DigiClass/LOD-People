@@ -1,0 +1,445 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118843400> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118843400/about> .
+
+<https://d-nb.info/gnd/118843400/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:49:00.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118843400> gndo:gndIdentifier "118843400";
+  foaf:page <https://de.wikipedia.org/wiki/Pedanios_Dioskurides>;
+  owl:sameAs <https://dbpedia.org/resource/Pedanius_Dioscorides>, <http://viaf.org/viaf/78822798>,
+    <https://isni.org/isni/0000000094803939>, <http://www.wikidata.org/entity/Q297776>,
+    <http://id.loc.gov/rwo/agents/n83204415>;
+  gndo:oldAuthorityNumber "(DE-588)1089886918";
+  owl:sameAs <https://d-nb.info/gnd/1089886918>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089886918";
+  gndo:oldAuthorityNumber "(DE-588)1089878702";
+  owl:sameAs <https://d-nb.info/gnd/1089878702>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089878702";
+  gndo:oldAuthorityNumber "(DE-588)1089134118";
+  owl:sameAs <https://d-nb.info/gnd/1089134118>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089134118";
+  gndo:oldAuthorityNumber "(DE-588)186095538";
+  owl:sameAs <https://d-nb.info/gnd/186095538>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186095538";
+  gndo:oldAuthorityNumber "(DE-588a)186095538", "(DE-588)180771019";
+  owl:sameAs <https://d-nb.info/gnd/180771019>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/180771019";
+  gndo:oldAuthorityNumber "(DE-588a)180771019", "(DE-588)159078148";
+  owl:sameAs <https://d-nb.info/gnd/159078148>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/159078148";
+  gndo:oldAuthorityNumber "(DE-588a)159078148", "(DE-588a)118843400", "(DE-588c)4204104-1";
+  gndo:variantNameForThePerson "Dīsqūrīdis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592146 .
+
+_:node1ivs02adlx24592146 gndo:personalName "Dīsqūrīdis" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Diyāsqūrīdis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592147 .
+
+_:node1ivs02adlx24592147 gndo:personalName "Diyāsqūrīdis" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskurides, Pedanios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592148 .
+
+_:node1ivs02adlx24592148 gndo:forename "Pedanios";
+  gndo:surname "Dioskurides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscurides, Pedanius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592149 .
+
+_:node1ivs02adlx24592149 gndo:personalName "Dioscurides";
+  gndo:nameAddition "Pedanius" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592150 .
+
+_:node1ivs02adlx24592150 gndo:personalName "Dioscorides";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides, Anazarbensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592151 .
+
+_:node1ivs02adlx24592151 gndo:personalName "Dioscorides";
+  gndo:nameAddition "Anazarbensis" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides, Anazarbeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592152 .
+
+_:node1ivs02adlx24592152 gndo:personalName "Dioscorides";
+  gndo:nameAddition "Anazarbeus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Pseudo-Dioscorides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592153 .
+
+_:node1ivs02adlx24592153 gndo:personalName "Pseudo-Dioscorides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscurides, Pedanius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592154 .
+
+_:node1ivs02adlx24592154 gndo:forename "Pedanius";
+  gndo:surname "Dioscurides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscurides, of Anazarbus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592155 .
+
+_:node1ivs02adlx24592155 gndo:personalName "Dioscurides";
+  gndo:nameAddition "of Anazarbus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskurides, Pedanius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592156 .
+
+_:node1ivs02adlx24592156 gndo:forename "Pedanius";
+  gndo:surname "Dioskurides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskurides, von Kilikien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592157 .
+
+_:node1ivs02adlx24592157 gndo:personalName "Dioskurides";
+  gndo:nameAddition "von Kilikien" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscurides, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592158 .
+
+_:node1ivs02adlx24592158 gndo:personalName "Dioscurides";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskurides, von Anazarba";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592159 .
+
+_:node1ivs02adlx24592159 gndo:personalName "Dioskurides";
+  gndo:nameAddition "von Anazarba" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskurides, Militärarzt";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592160 .
+
+_:node1ivs02adlx24592160 gndo:personalName "Dioskurides";
+  gndo:nameAddition "Militärarzt" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskurides, Pharmakologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592161 .
+
+_:node1ivs02adlx24592161 gndo:personalName "Dioskurides";
+  gndo:nameAddition "Pharmakologe" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscuride, Pedanio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592162 .
+
+_:node1ivs02adlx24592162 gndo:personalName "Dioscuride";
+  gndo:nameAddition "Pedanio" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscuride, di Anazarbo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592163 .
+
+_:node1ivs02adlx24592163 gndo:personalName "Dioscuride";
+  gndo:nameAddition "di Anazarbo" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscuride, Medico Militare";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592164 .
+
+_:node1ivs02adlx24592164 gndo:personalName "Dioscuride";
+  gndo:nameAddition "Medico Militare" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscoride";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592165 .
+
+_:node1ivs02adlx24592165 gndo:personalName "Dioscoride" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Pseudo-Dioscorides, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592166 .
+
+_:node1ivs02adlx24592166 gndo:personalName "Pseudo-Dioscorides";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Pseudo-Dioscurides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592167 .
+
+_:node1ivs02adlx24592167 gndo:personalName "Pseudo-Dioscurides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscurides, Longobardus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592168 .
+
+_:node1ivs02adlx24592168 gndo:personalName "Dioscurides";
+  gndo:nameAddition "Longobardus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskurides, von Anazarbos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592169 .
+
+_:node1ivs02adlx24592169 gndo:personalName "Dioskurides";
+  gndo:nameAddition "von Anazarbos" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Pedanius, Dioscurides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592170 .
+
+_:node1ivs02adlx24592170 gndo:personalName "Pedanius";
+  gndo:nameAddition "Dioscurides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Pedanius, Anazarbensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592171 .
+
+_:node1ivs02adlx24592171 gndo:personalName "Pedanius";
+  gndo:nameAddition "Anazarbensis" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides, Pedacius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592172 .
+
+_:node1ivs02adlx24592172 gndo:forename "Pedacius";
+  gndo:surname "Dioscorides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides Anazarbeus, Pedanius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592173 .
+
+_:node1ivs02adlx24592173 gndo:forename "Pedanius";
+  gndo:surname "Dioscorides Anazarbeus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskoridēs, Pedakios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592174 .
+
+_:node1ivs02adlx24592174 gndo:forename "Pedakios";
+  gndo:surname "Dioskoridēs" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscurides, Pedianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592175 .
+
+_:node1ivs02adlx24592175 gndo:forename "Pedianus";
+  gndo:surname "Dioscurides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioskorides, Pedanios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592176 .
+
+_:node1ivs02adlx24592176 gndo:forename "Pedanios";
+  gndo:surname "Dioskorides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Pedanius Dioscorides, of Anazarbus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592177 .
+
+_:node1ivs02adlx24592177 gndo:personalName "Pedanius Dioscorides";
+  gndo:nameAddition "of Anazarbus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides, Latinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592178 .
+
+_:node1ivs02adlx24592178 gndo:personalName "Dioscorides";
+  gndo:nameAddition "Latinus" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscoride, dÁnazarbe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592179 .
+
+_:node1ivs02adlx24592179 gndo:personalName "Dioscoride";
+  gndo:nameAddition "dÁnazarbe" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides, Pedanius A.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592180 .
+
+_:node1ivs02adlx24592180 gndo:forename "Pedanius A.";
+  gndo:surname "Dioscorides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides, Pedacius A.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592181 .
+
+_:node1ivs02adlx24592181 gndo:forename "Pedacius A.";
+  gndo:surname "Dioscorides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorida, Pedacius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592182 .
+
+_:node1ivs02adlx24592182 gndo:forename "Pedacius";
+  gndo:surname "Dioscorida" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscórides, Pedacio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592183 .
+
+_:node1ivs02adlx24592183 gndo:forename "Pedacio";
+  gndo:surname "Dioscórides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscoride, Pedacio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592184 .
+
+_:node1ivs02adlx24592184 gndo:forename "Pedacio";
+  gndo:surname "Dioscoride" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscoride Anazarbeo, Pedacio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592185 .
+
+_:node1ivs02adlx24592185 gndo:forename "Pedacio";
+  gndo:surname "Dioscoride Anazarbeo" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Pedacio Dioscoride, Anazarbeo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592186 .
+
+_:node1ivs02adlx24592186 gndo:personalName "Pedacio Dioscoride";
+  gndo:nameAddition "Anazarbeo" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Diascorides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592187 .
+
+_:node1ivs02adlx24592187 gndo:personalName "Diascorides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Pedanius, Dioscorides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592188 .
+
+_:node1ivs02adlx24592188 gndo:personalName "Pedanius";
+  gndo:nameAddition "Dioscorides" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "Dioscorides Pedacius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592189 .
+
+_:node1ivs02adlx24592189 gndo:personalName "Dioscorides Pedacius" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "ديوسقريديس"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592190 .
+
+_:node1ivs02adlx24592190 gndo:personalName "ديوسقريديس" .
+
+<https://d-nb.info/gnd/118843400> gndo:variantNameForThePerson "ديسقوريدس"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592191 .
+
+_:node1ivs02adlx24592191 gndo:personalName "ديسقوريدس" .
+
+<https://d-nb.info/gnd/118843400> gndo:preferredNameForThePerson "Dioscorides, Pedanius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592192 .
+
+_:node1ivs02adlx24592192 gndo:forename "Pedanius";
+  gndo:surname "Dioscorides" .
+
+<https://d-nb.info/gnd/118843400> gndo:originalScriptNameOfThePerson "Διοσκουρίδης, Πεδάνιος"@gr;
+  gndo:professionalRelationship <https://d-nb.info/gnd/118657119>;
+  gndo:hasRelation _:node1ivs02adlx24592193 .
+
+_:node1ivs02adlx24592193 gndo:professionalRelationship <https://d-nb.info/gnd/118657119>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/118670085>;
+  gndo:hasRelation _:node1ivs02adlx24592194 .
+
+_:node1ivs02adlx24592194 gndo:professionalRelationship <https://d-nb.info/gnd/118670085>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/11769875X>;
+  gndo:hasRelation _:node1ivs02adlx24592195 .
+
+_:node1ivs02adlx24592195 gndo:professionalRelationship <https://d-nb.info/gnd/11769875X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/12466508X>;
+  gndo:hasRelation _:node1ivs02adlx24592196 .
+
+_:node1ivs02adlx24592196 gndo:professionalRelationship <https://d-nb.info/gnd/12466508X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/118694413>;
+  gndo:hasRelation _:node1ivs02adlx24592197 .
+
+_:node1ivs02adlx24592197 gndo:professionalRelationship <https://d-nb.info/gnd/118694413>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/117212733>;
+  gndo:hasRelation _:node1ivs02adlx24592198 .
+
+_:node1ivs02adlx24592198 gndo:professionalRelationship <https://d-nb.info/gnd/117212733>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/100378447>;
+  gndo:hasRelation _:node1ivs02adlx24592199 .
+
+_:node1ivs02adlx24592199 gndo:professionalRelationship <https://d-nb.info/gnd/100378447>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/100326099>;
+  gndo:hasRelation _:node1ivs02adlx24592200 .
+
+_:node1ivs02adlx24592200 gndo:professionalRelationship <https://d-nb.info/gnd/100326099>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/118604376>;
+  gndo:hasRelation _:node1ivs02adlx24592201 .
+
+_:node1ivs02adlx24592201 gndo:professionalRelationship <https://d-nb.info/gnd/118604376>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:professionalRelationship <https://d-nb.info/gnd/119814951>;
+  gndo:hasRelation _:node1ivs02adlx24592202 .
+
+_:node1ivs02adlx24592202 gndo:professionalRelationship <https://d-nb.info/gnd/119814951>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118843400> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De curationibus morborum per medicamenta paratu facilia", "Libri octo De materia medica",
+    "Dioskoridēs", "Les VI livres de Ped. Diosc. de la materie medicinale", "Kreutter Buch",
+    "Kreutterbuch", "De materia medica libri sex", "De materia medica", "De simplici medicina",
+    "In Dioscoridis Historiam herbarum Adaptio", "Dioscorides Pedacius: Opera", "Dioscorides Pedacius: Opera",
+    "Dioscorides Pedacius: Opera", "Dioscorides Pedacius: Opera", "Dioscorides Pedacius: Opera, Ausz.",
+    "Dioscorides Pedacius: Opera", "Dioscorides Pedacius: \\=GEuporista\\=g Ped.Dioscoridis ANAZARBEI AD ANDROMACHVM, Hoc est DE CVRATIONIBVS ...",
+    "Dioscorides Pedacius: Opera", "Dioscorides Pedacius: \\=GDIOSKORIDĒS\\=g DIOSCORIDES. ... (de materia medica libri Sex. ... de uenenatis ...",
+    "Dioscorides Pedacius: Opera";
+  wdrs:describedby <https://d-nb.info/gnd/118843400/about> .
+
+<https://d-nb.info/gnd/118843400/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118843400> gndo:biographicalOrHistoricalInformation "Griech. Arzt und Pharmakologe; die latein. \"Retractatio\"  des Werks wird Dioscurides <Longobardus> zugeschrieben"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4336072-5>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592203 .
+
+_:node1ivs02adlx24592203 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4003157-3>;
+  rdf:_2 <https://d-nb.info/gnd/4503114-9> .
+
+<https://d-nb.info/gnd/118843400> gndo:dateOfBirth "0040"^^xsd:gYear;
+  gndo:dateOfDeath "0090"^^xsd:gYear .
+

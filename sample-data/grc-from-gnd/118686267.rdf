@@ -1,0 +1,203 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118686267> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118686267/about> .
+
+<https://d-nb.info/gnd/118686267/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-10-11T00:31:32.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118686267> gndo:gndIdentifier "118686267";
+  owl:sameAs <https://dbpedia.org/resource/Favorinus>, <http://viaf.org/viaf/117056974>,
+    <http://www.wikidata.org/entity/Q554387>;
+  gndo:oldAuthorityNumber "(DE-588)1089241976";
+  owl:sameAs <https://d-nb.info/gnd/1089241976>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089241976";
+  gndo:oldAuthorityNumber "(DE-588a)118686267", "(DE-588c)4092069-0";
+  gndo:variantNameForThePerson "Favorinus, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593053 .
+
+_:node1ivs02adlx24593053 gndo:personalName "Favorinus";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593054 .
+
+_:node1ivs02adlx24593054 gndo:personalName "Favorinus";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, Buntschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593055 .
+
+_:node1ivs02adlx24593055 gndo:personalName "Favorinus";
+  gndo:nameAddition "Buntschriftsteller" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593056 .
+
+_:node1ivs02adlx24593056 gndo:personalName "Favorinus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, Polyhistor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593057 .
+
+_:node1ivs02adlx24593057 gndo:personalName "Favorinus";
+  gndo:nameAddition "Polyhistor" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Faborinus, Arelatensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593058 .
+
+_:node1ivs02adlx24593058 gndo:personalName "Faborinus";
+  gndo:nameAddition "Arelatensis" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorin, von Arelate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593059 .
+
+_:node1ivs02adlx24593059 gndo:personalName "Favorin";
+  gndo:nameAddition "von Arelate" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorino, di Arelate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593060 .
+
+_:node1ivs02adlx24593060 gndo:personalName "Favorino";
+  gndo:nameAddition "di Arelate" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, of Arelate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593061 .
+
+_:node1ivs02adlx24593061 gndo:personalName "Favorinus";
+  gndo:nameAddition "of Arelate" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorino, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593062 .
+
+_:node1ivs02adlx24593062 gndo:personalName "Favorino";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, d'Arles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593063 .
+
+_:node1ivs02adlx24593063 gndo:personalName "Favorinus";
+  gndo:nameAddition "d'Arles" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, Philosophe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593064 .
+
+_:node1ivs02adlx24593064 gndo:personalName "Favorinus";
+  gndo:nameAddition "Philosophe" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Fauorinus, Arelatensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593065 .
+
+_:node1ivs02adlx24593065 gndo:personalName "Fauorinus";
+  gndo:nameAddition "Arelatensis" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, von Arelate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593066 .
+
+_:node1ivs02adlx24593066 gndo:personalName "Favorinus";
+  gndo:nameAddition "von Arelate" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593067 .
+
+_:node1ivs02adlx24593067 gndo:personalName "Favorinus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinus, von Arles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593068 .
+
+_:node1ivs02adlx24593068 gndo:personalName "Favorinus";
+  gndo:nameAddition "von Arles" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Favorinos, d'Arles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593069 .
+
+_:node1ivs02adlx24593069 gndo:personalName "Favorinos";
+  gndo:nameAddition "d'Arles" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Phavorinus, Arelatensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593070 .
+
+_:node1ivs02adlx24593070 gndo:personalName "Phavorinus";
+  gndo:nameAddition "Arelatensis" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Arelate, Favorino di";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593071 .
+
+_:node1ivs02adlx24593071 gndo:forename "Favorino";
+  gndo:prefix "di";
+  gndo:surname "Arelate" .
+
+<https://d-nb.info/gnd/118686267> gndo:variantNameForThePerson "Phabōrinos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593072 .
+
+_:node1ivs02adlx24593072 gndo:personalName "Phabōrinos" .
+
+<https://d-nb.info/gnd/118686267> gndo:preferredNameForThePerson "Favorinus, Arelatensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593073 .
+
+_:node1ivs02adlx24593073 gndo:personalName "Favorinus";
+  gndo:nameAddition "Arelatensis" .
+
+<https://d-nb.info/gnd/118686267> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:relatedSubjectHeading <https://d-nb.info/gnd/4055612-8>, <https://d-nb.info/gnd/1042335362>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  wdrs:describedby <https://d-nb.info/gnd/118686267/about> .
+
+<https://d-nb.info/gnd/118686267/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118686267> gndo:biographicalOrHistoricalInformation "Sophist, Philosoph, Rhetoriker u. Buntschriftsteller, der u.a. in Rom lebte u. wirkte"@de;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4050471-2>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593074 .
+
+_:node1ivs02adlx24593074 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118686267> gndo:dateOfBirth "0080"^^xsd:gYear;
+  gndo:dateOfDeath "0150"^^xsd:gYear .
+

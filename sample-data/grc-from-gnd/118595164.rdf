@@ -1,0 +1,192 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118595164> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118595164/about> .
+
+<https://d-nb.info/gnd/118595164/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:51:37.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118595164> gndo:gndIdentifier "118595164";
+  owl:sameAs <https://dbpedia.org/resource/Plotinus>, <http://viaf.org/viaf/262112102>,
+    <http://www.wikidata.org/entity/Q134189>;
+  gndo:oldAuthorityNumber "(DE-588)1025711653";
+  owl:sameAs <https://d-nb.info/gnd/1025711653>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1025711653";
+  gndo:oldAuthorityNumber "(DE-588)1089928602";
+  owl:sameAs <https://d-nb.info/gnd/1089928602>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928602";
+  gndo:oldAuthorityNumber "(DE-588a)118595164", "(DE-588a)159783364", "(DE-588a)119790769",
+    "(DE-588c)4046391-6";
+  gndo:variantNameForThePerson "Plotinus, Lycopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400674 .
+
+_:node1ivpishs6x25400674 gndo:personalName "Plotinus";
+  gndo:nameAddition "Lycopolitanus" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400675 .
+
+_:node1ivpishs6x25400675 gndo:personalName "Plotinus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinos, Platoniker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400676 .
+
+_:node1ivpishs6x25400676 gndo:personalName "Plotinos";
+  gndo:nameAddition "Platoniker" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotin, de Lycopolis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400677 .
+
+_:node1ivpishs6x25400677 gndo:personalName "Plotin";
+  gndo:nameAddition "de Lycopolis" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinos, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400678 .
+
+_:node1ivpishs6x25400678 gndo:personalName "Plotinos";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotyn";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400679 .
+
+_:node1ivpishs6x25400679 gndo:personalName "Plotyn" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotin";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400680 .
+
+_:node1ivpishs6x25400680 gndo:personalName "Plotin" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plōtinos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400681 .
+
+_:node1ivpishs6x25400681 gndo:personalName "Plōtinos" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400682 .
+
+_:node1ivpishs6x25400682 gndo:personalName "Plotinus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinus, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400683 .
+
+_:node1ivpishs6x25400683 gndo:personalName "Plotinus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotino";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400684 .
+
+_:node1ivpishs6x25400684 gndo:personalName "Plotino" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400685 .
+
+_:node1ivpishs6x25400685 gndo:personalName "Plotinos" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinos, Neuplatoniker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400686 .
+
+_:node1ivpishs6x25400686 gndo:personalName "Plotinos";
+  gndo:nameAddition "Neuplatoniker" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinos, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400687 .
+
+_:node1ivpishs6x25400687 gndo:personalName "Plotinos";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinos, von Ägypten";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400688 .
+
+_:node1ivpishs6x25400688 gndo:personalName "Plotinos";
+  gndo:nameAddition "von Ägypten" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinos, Lycopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400689 .
+
+_:node1ivpishs6x25400689 gndo:personalName "Plotinos";
+  gndo:nameAddition "Lycopolitanus" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Plotinos, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400690 .
+
+_:node1ivpishs6x25400690 gndo:personalName "Plotinos";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118595164> gndo:variantNameForThePerson "Aflūṭīn";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400691 .
+
+_:node1ivpishs6x25400691 gndo:personalName "Aflūṭīn" .
+
+<https://d-nb.info/gnd/118595164> gndo:preferredNameForThePerson "Plotinus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400692 .
+
+_:node1ivpishs6x25400692 gndo:personalName "Plotinus" .
+
+<https://d-nb.info/gnd/118595164> gndo:originalScriptNameOfThePerson "פלוטינוס"@und-Hebr;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De Fato", "Ad Gnosticos Liber", "Operum Philosophicorum omnium Lib. 54",
+    "Opera omnia", "Liber de pulchritudine", "Die Enneaden", "De rebus philosophicis libri LIIII in enneades sex distributi",
+    "De rebus philosophicis libri LIIII in enneades sex distributi", "Opera quae extant omnia",
+    "The substance of Porphyrius's life of Plotinus", "Plotini Diuini illius è Platonica familia Philosophi De rebus Philosophicis libri LIIII. in ... 1559. (VD16 P 3573)",
+    "PLOTINI Platonicorum facile coryphaei OPERVM PHILOSOPHICORVM OMNIVM LIBRI LIV. IN ... 1580. (VD16 P 3571)";
+  wdrs:describedby <https://d-nb.info/gnd/118595164/about> .
+
+<https://d-nb.info/gnd/118595164/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118595164> gndo:biographicalOrHistoricalInformation "Begründer des Neuplatonismus"@de;
+  gndo:udkCode "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25400693 .
+
+_:node1ivpishs6x25400693 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118595164> gndo:dateOfBirth "0205"^^xsd:gYear;
+  gndo:dateOfDeath "0270"^^xsd:gYear .
+

@@ -1,0 +1,184 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118978160> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118978160/about> .
+
+<https://d-nb.info/gnd/118978160/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T19:04:24.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118978160> gndo:gndIdentifier "118978160";
+  foaf:page <https://de.wikipedia.org/wiki/Babrios>;
+  owl:sameAs <https://dbpedia.org/resource/Babrius>, <http://viaf.org/viaf/36151776765518010879>,
+    <http://www.wikidata.org/entity/Q455523>, <http://id.loc.gov/rwo/agents/n84133329>;
+  gndo:oldAuthorityNumber "(DE-588)1089824416";
+  owl:sameAs <https://d-nb.info/gnd/1089824416>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089824416";
+  gndo:oldAuthorityNumber "(DE-588)1089152930";
+  owl:sameAs <https://d-nb.info/gnd/1089152930>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089152930";
+  gndo:oldAuthorityNumber "(DE-588a)118978160", "(DE-588a)101690541", "(DE-588c)4260754-1";
+  gndo:variantNameForThePerson "Babrios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405123 .
+
+_:node1ivpishs6x25405123 gndo:personalName "Babrios" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Babrius, Valerius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405124 .
+
+_:node1ivpishs6x25405124 gndo:forename "Valerius";
+  gndo:surname "Babrius" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Valerius, Babrius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405125 .
+
+_:node1ivpishs6x25405125 gndo:personalName "Valerius";
+  gndo:nameAddition "Babrius" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Babrius, Scriptor Fabularum";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405126 .
+
+_:node1ivpishs6x25405126 gndo:personalName "Babrius";
+  gndo:nameAddition "Scriptor Fabularum" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Babrios, Fabeldichter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405127 .
+
+_:node1ivpishs6x25405127 gndo:personalName "Babrios";
+  gndo:nameAddition "Fabeldichter" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Babrios, Valerius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405128 .
+
+_:node1ivpishs6x25405128 gndo:forename "Valerius";
+  gndo:surname "Babrios" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabrias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405129 .
+
+_:node1ivpishs6x25405129 gndo:personalName "Gabrias" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabrius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405130 .
+
+_:node1ivpishs6x25405130 gndo:personalName "Gabrius" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabrios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405131 .
+
+_:node1ivpishs6x25405131 gndo:personalName "Gabrios" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabrius, Graecus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405132 .
+
+_:node1ivpishs6x25405132 gndo:personalName "Gabrius";
+  gndo:nameAddition "Graecus" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabrias, Graecus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405133 .
+
+_:node1ivpishs6x25405133 gndo:personalName "Gabrias";
+  gndo:nameAddition "Graecus" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabria, Graecus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405134 .
+
+_:node1ivpishs6x25405134 gndo:personalName "Gabria";
+  gndo:nameAddition "Graecus" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Babrius, Fabularum Scriptor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405135 .
+
+_:node1ivpishs6x25405135 gndo:personalName "Babrius";
+  gndo:nameAddition "Fabularum Scriptor" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Babrio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405136 .
+
+_:node1ivpishs6x25405136 gndo:personalName "Babrio" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405137 .
+
+_:node1ivpishs6x25405137 gndo:personalName "Gabria" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabrias, Michael";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405138 .
+
+_:node1ivpishs6x25405138 gndo:forename "Michael";
+  gndo:surname "Gabrias" .
+
+<https://d-nb.info/gnd/118978160> gndo:variantNameForThePerson "Gabria, Michaele";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405139 .
+
+_:node1ivpishs6x25405139 gndo:forename "Michaele";
+  gndo:surname "Gabria" .
+
+<https://d-nb.info/gnd/118978160> gndo:preferredNameForThePerson "Babrius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405140 .
+
+_:node1ivpishs6x25405140 gndo:personalName "Babrius" .
+
+<https://d-nb.info/gnd/118978160> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Tetrasticha eis mythus Aisōpikus", "Babriu mythōn chōliambikōn biblia tria",
+    "Babrius wieder gefundene Fabeln", "Fabulae choliambicae collectae omnes", "Fabulae et fabularum fragmenta",
+    "Fables", "Fabulae", "Fables diverses", "Avienus, Rufius F.: Fables diverses", "Babriu Mythōn chōliambikōn biblia tria",
+    "Ueber den Einfluss des Weines auf die Civilisation";
+  wdrs:describedby <https://d-nb.info/gnd/118978160/about> .
+
+<https://d-nb.info/gnd/118978160/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118978160> gndo:biographicalOrHistoricalInformation "Römisch-griechischer Fabeldichter"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25405141 .
+
+_:node1ivpishs6x25405141 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118978160> gndo:dateOfBirthAndDeath "[1./2. Jh.]" .
+

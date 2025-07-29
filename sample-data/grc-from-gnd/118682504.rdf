@@ -1,0 +1,221 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118682504> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118682504/about> .
+
+<https://d-nb.info/gnd/118682504/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-28T00:30:35.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118682504> gndo:gndIdentifier "118682504";
+  foaf:page <https://de.wikipedia.org/wiki/Euagrios_Pontikos>;
+  owl:sameAs <https://dbpedia.org/resource/Evagrius_Ponticus>, <http://viaf.org/viaf/58103843>,
+    <https://isni.org/isni/0000000121016173>, <http://www.wikidata.org/entity/Q437869>,
+    <http://id.loc.gov/rwo/agents/n86119200>;
+  gndo:oldAuthorityNumber "(DE-588)1147233829";
+  owl:sameAs <https://d-nb.info/gnd/1147233829>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1147233829";
+  gndo:oldAuthorityNumber "(DE-588)1090253338";
+  owl:sameAs <https://d-nb.info/gnd/1090253338>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090253338";
+  gndo:oldAuthorityNumber "(DE-588)1089961367";
+  owl:sameAs <https://d-nb.info/gnd/1089961367>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089961367";
+  gndo:oldAuthorityNumber "(DE-588)1089910762";
+  owl:sameAs <https://d-nb.info/gnd/1089910762>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089910762";
+  gndo:oldAuthorityNumber "(DE-588)1090755031";
+  owl:sameAs <https://d-nb.info/gnd/1090755031>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090755031";
+  gndo:oldAuthorityNumber "(DE-588)185982433";
+  owl:sameAs <https://d-nb.info/gnd/185982433>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185982433";
+  gndo:oldAuthorityNumber "(DE-588a)185982433", "(DE-588a)118682504", "(DE-588a)109756207",
+    "(DE-588c)4091519-0";
+  gndo:variantNameForThePerson "Euagrios, aus dem Pontus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592807 .
+
+_:node1ivs02adlx24592807 gndo:personalName "Euagrios";
+  gndo:nameAddition "aus dem Pontus" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Ponticus, Evagrius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592808 .
+
+_:node1ivs02adlx24592808 gndo:forename "Evagrius";
+  gndo:surname "Ponticus" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrios, vom Pontos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592809 .
+
+_:node1ivs02adlx24592809 gndo:personalName "Evagrios";
+  gndo:nameAddition "vom Pontos" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrios, Ponticos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592810 .
+
+_:node1ivs02adlx24592810 gndo:personalName "Evagrios";
+  gndo:nameAddition "Ponticos" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrios, Kirchenschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592811 .
+
+_:node1ivs02adlx24592811 gndo:personalName "Evagrios";
+  gndo:nameAddition "Kirchenschriftsteller" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrius, Monachus Graecus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592812 .
+
+_:node1ivs02adlx24592812 gndo:personalName "Evagrius";
+  gndo:nameAddition "Monachus Graecus" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrius, Scitis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592813 .
+
+_:node1ivs02adlx24592813 gndo:personalName "Evagrius";
+  gndo:nameAddition "Scitis" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592814 .
+
+_:node1ivs02adlx24592814 gndo:personalName "Evagrius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrio, Pontico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592815 .
+
+_:node1ivs02adlx24592815 gndo:personalName "Evagrio";
+  gndo:nameAddition "Pontico" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrius, von Pontus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592816 .
+
+_:node1ivs02adlx24592816 gndo:personalName "Evagrius";
+  gndo:nameAddition "von Pontus" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592817 .
+
+_:node1ivs02adlx24592817 gndo:personalName "Evagrius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrij, Pontijskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592818 .
+
+_:node1ivs02adlx24592818 gndo:personalName "Evagrij";
+  gndo:nameAddition "Pontijskij" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Pontijskij, Evagrij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592819 .
+
+_:node1ivs02adlx24592819 gndo:forename "Evagrij";
+  gndo:surname "Pontijskij" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Ewagr, Pontac̕i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592820 .
+
+_:node1ivs02adlx24592820 gndo:personalName "Ewagr";
+  gndo:nameAddition "Pontac̕i" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrios, Pontikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592821 .
+
+_:node1ivs02adlx24592821 gndo:personalName "Evagrios";
+  gndo:nameAddition "Pontikos" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Euagrios, Pontikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592822 .
+
+_:node1ivs02adlx24592822 gndo:personalName "Euagrios";
+  gndo:nameAddition "Pontikos" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagrius, of Pontus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592823 .
+
+_:node1ivs02adlx24592823 gndo:personalName "Evagrius";
+  gndo:nameAddition "of Pontus" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Euagrius, Ponticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592824 .
+
+_:node1ivs02adlx24592824 gndo:personalName "Euagrius";
+  gndo:nameAddition "Ponticus" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Pontikos, Evagrios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592825 .
+
+_:node1ivs02adlx24592825 gndo:forename "Evagrios";
+  gndo:surname "Pontikos" .
+
+<https://d-nb.info/gnd/118682504> gndo:variantNameForThePerson "Evagre, le Pontique";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592826 .
+
+_:node1ivs02adlx24592826 gndo:personalName "Evagre";
+  gndo:nameAddition "le Pontique" .
+
+<https://d-nb.info/gnd/118682504> gndo:preferredNameForThePerson "Evagrius, Ponticus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592827 .
+
+_:node1ivs02adlx24592827 gndo:personalName "Evagrius";
+  gndo:nameAddition "Ponticus" .
+
+<https://d-nb.info/gnd/118682504> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-TR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118682504/about> .
+
+<https://d-nb.info/gnd/118682504/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118682504> gndo:biographicalOrHistoricalInformation "Griech. Kirchenschriftsteller, seit 382 Mönch in Ägypten"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592828 .
+
+_:node1ivs02adlx24592828 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4039902-3>;
+  rdf:_2 <https://d-nb.info/gnd/4272063-1> .
+
+<https://d-nb.info/gnd/118682504> gndo:dateOfBirth "0345"^^xsd:gYear;
+  gndo:dateOfDeath "0399"^^xsd:gYear .
+

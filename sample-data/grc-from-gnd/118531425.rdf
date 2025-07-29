@@ -1,0 +1,561 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118531425> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118531425/about> .
+
+<https://d-nb.info/gnd/118531425/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:10.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118531425> gndo:gndIdentifier "118531425";
+  foaf:page <https://de.wikipedia.org/wiki/Eusebius_von_Caesarea>;
+  owl:sameAs <https://dbpedia.org/resource/Eusebius_of_Caesarea>, <http://viaf.org/viaf/4929593>,
+    <https://isni.org/isni/0000000122758806>, <http://www.wikidata.org/entity/Q142999>,
+    <http://id.loc.gov/rwo/agents/n79150225>;
+  gndo:oldAuthorityNumber "(DE-588)1104168790";
+  owl:sameAs <https://d-nb.info/gnd/1104168790>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1104168790";
+  gndo:oldAuthorityNumber "(DE-588)1089974469";
+  owl:sameAs <https://d-nb.info/gnd/1089974469>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089974469";
+  gndo:oldAuthorityNumber "(DE-588)1089929382";
+  owl:sameAs <https://d-nb.info/gnd/1089929382>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089929382";
+  gndo:oldAuthorityNumber "(DE-588)1089921101";
+  owl:sameAs <https://d-nb.info/gnd/1089921101>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089921101";
+  gndo:oldAuthorityNumber "(DE-588)1089882882";
+  owl:sameAs <https://d-nb.info/gnd/1089882882>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089882882";
+  gndo:oldAuthorityNumber "(DE-588)1089798768";
+  owl:sameAs <https://d-nb.info/gnd/1089798768>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089798768";
+  gndo:oldAuthorityNumber "(DE-588)1026331722";
+  owl:sameAs <https://d-nb.info/gnd/1026331722>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026331722";
+  gndo:oldAuthorityNumber "(DE-588)187164460";
+  owl:sameAs <https://d-nb.info/gnd/187164460>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187164460";
+  gndo:oldAuthorityNumber "(DE-588a)187164460", "(DE-588)185819966";
+  owl:sameAs <https://d-nb.info/gnd/185819966>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185819966";
+  gndo:oldAuthorityNumber "(DE-588a)185819966", "(DE-588)172065666";
+  owl:sameAs <https://d-nb.info/gnd/172065666>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172065666";
+  gndo:oldAuthorityNumber "(DE-588a)172065666", "(DE-588a)118531425", "(DE-588a)11966593X",
+    "(DE-588c)4015783-0";
+  gndo:variantNameForThePerson "Eusebius, von Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396915 .
+
+_:node1ivpishs6x25396915 gndo:personalName "Eusebius";
+  gndo:nameAddition "von Caesarea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, von Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396916 .
+
+_:node1ivpishs6x25396916 gndo:personalName "Eusebios";
+  gndo:nameAddition "von Caesarea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, von Cäsarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396917 .
+
+_:node1ivpishs6x25396917 gndo:personalName "Eusebius";
+  gndo:nameAddition "von Cäsarea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, von Kaisareia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396918 .
+
+_:node1ivpishs6x25396918 gndo:personalName "Eusebios";
+  gndo:nameAddition "von Kaisareia" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, von Kaisarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396919 .
+
+_:node1ivpishs6x25396919 gndo:personalName "Eusebios";
+  gndo:nameAddition "von Kaisarea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, von Kaisareia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396920 .
+
+_:node1ivpishs6x25396920 gndo:personalName "Eusebius";
+  gndo:nameAddition "von Kaisareia" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, von Palästina";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396921 .
+
+_:node1ivpishs6x25396921 gndo:personalName "Eusebios";
+  gndo:nameAddition "von Palästina" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, Pamphilos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396922 .
+
+_:node1ivpishs6x25396922 gndo:personalName "Eusebios";
+  gndo:nameAddition "Pamphilos" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, Pamphilu";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396923 .
+
+_:node1ivpishs6x25396923 gndo:personalName "Eusebios";
+  gndo:nameAddition "Pamphilu" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Pamphiliensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396924 .
+
+_:node1ivpishs6x25396924 gndo:personalName "Eusebius";
+  gndo:nameAddition "Pamphiliensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Pamphilus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396925 .
+
+_:node1ivpishs6x25396925 gndo:personalName "Eusebius";
+  gndo:nameAddition "Pamphilus" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, ho Pamfilos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396926 .
+
+_:node1ivpishs6x25396926 gndo:personalName "Eusebios";
+  gndo:nameAddition "ho Pamfilos" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Pamphilius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396927 .
+
+_:node1ivpishs6x25396927 gndo:personalName "Eusebius";
+  gndo:nameAddition "Pamphilius" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Pamffila";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396928 .
+
+_:node1ivpishs6x25396928 gndo:personalName "Eusebius";
+  gndo:nameAddition "Pamffila" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Pamphili";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396929 .
+
+_:node1ivpishs6x25396929 gndo:personalName "Eusebius";
+  gndo:nameAddition "Pamphili" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius Pamphili";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396930 .
+
+_:node1ivpishs6x25396930 gndo:personalName "Eusebius Pamphili" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusèbe, de Pamphil";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396931 .
+
+_:node1ivpishs6x25396931 gndo:personalName "Eusèbe";
+  gndo:nameAddition "de Pamphil" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusèbe, de Pamphile";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396932 .
+
+_:node1ivpishs6x25396932 gndo:personalName "Eusèbe";
+  gndo:nameAddition "de Pamphile" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusèbe, Pamphile";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396933 .
+
+_:node1ivpishs6x25396933 gndo:personalName "Eusèbe";
+  gndo:nameAddition "Pamphile" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Ewsebi, Pampíli";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396934 .
+
+_:node1ivpishs6x25396934 gndo:personalName "Ewsebi";
+  gndo:nameAddition "Pampíli" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, Pamphilios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396935 .
+
+_:node1ivpishs6x25396935 gndo:personalName "Eusebios";
+  gndo:nameAddition "Pamphilios" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius Pamphilus, Caesariensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396936 .
+
+_:node1ivpishs6x25396936 gndo:personalName "Eusebius Pamphilus";
+  gndo:nameAddition "Caesariensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius Pamphilius, Caesariensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396937 .
+
+_:node1ivpishs6x25396937 gndo:personalName "Eusebius Pamphilius";
+  gndo:nameAddition "Caesariensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusèbe, de Crémone";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396938 .
+
+_:node1ivpishs6x25396938 gndo:personalName "Eusèbe";
+  gndo:nameAddition "de Crémone" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebio, di Cesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396939 .
+
+_:node1ivpishs6x25396939 gndo:personalName "Eusebio";
+  gndo:nameAddition "di Cesarea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusèbe, de Césarée";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396940 .
+
+_:node1ivpishs6x25396940 gndo:personalName "Eusèbe";
+  gndo:nameAddition "de Césarée" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Pseudo-Eusebius, Caesariensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396941 .
+
+_:node1ivpishs6x25396941 gndo:personalName "Pseudo-Eusebius";
+  gndo:nameAddition "Caesariensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Pseudo-Eusebius, von Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396942 .
+
+_:node1ivpishs6x25396942 gndo:personalName "Pseudo-Eusebius";
+  gndo:nameAddition "von Caesarea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Evsebi, Kesarieli";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396943 .
+
+_:node1ivpishs6x25396943 gndo:personalName "Evsebi";
+  gndo:nameAddition "Kesarieli" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Ewsebi, Kesaracʿwoy*";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396944 .
+
+_:node1ivpishs6x25396944 gndo:personalName "Ewsebi";
+  gndo:nameAddition "Kesaracʿwoy*" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebio, Cesariense";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396945 .
+
+_:node1ivpishs6x25396945 gndo:personalName "Eusebio";
+  gndo:nameAddition "Cesariense" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebio, Caesariensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396946 .
+
+_:node1ivpishs6x25396946 gndo:personalName "Eusebio";
+  gndo:nameAddition "Caesariensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebiōs, Kaisareias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396947 .
+
+_:node1ivpishs6x25396947 gndo:personalName "Eusebiōs";
+  gndo:nameAddition "Kaisareias" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396948 .
+
+_:node1ivpishs6x25396948 gndo:personalName "Eusebios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, Kaisareus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396949 .
+
+_:node1ivpishs6x25396949 gndo:personalName "Eusebios";
+  gndo:nameAddition "Kaisareus" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, Episkopos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396950 .
+
+_:node1ivpishs6x25396950 gndo:personalName "Eusebios";
+  gndo:nameAddition "Episkopos" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios, Kaisareias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396951 .
+
+_:node1ivpishs6x25396951 gndo:personalName "Eusebios";
+  gndo:nameAddition "Kaisareias" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Caesareae Palestinae";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396952 .
+
+_:node1ivpishs6x25396952 gndo:personalName "Eusebius";
+  gndo:nameAddition "Caesareae Palestinae" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396953 .
+
+_:node1ivpishs6x25396953 gndo:personalName "Eusebius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Episcopus Caesariensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396954 .
+
+_:node1ivpishs6x25396954 gndo:personalName "Eusebius";
+  gndo:nameAddition "Episcopus Caesariensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Caesarejský";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396955 .
+
+_:node1ivpishs6x25396955 gndo:personalName "Eusebius";
+  gndo:nameAddition "Caesarejský" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Caesarensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396956 .
+
+_:node1ivpishs6x25396956 gndo:personalName "Eusebius";
+  gndo:nameAddition "Caesarensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Caesareenensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396957 .
+
+_:node1ivpishs6x25396957 gndo:personalName "Eusebius";
+  gndo:nameAddition "Caesareenensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Cesariensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396958 .
+
+_:node1ivpishs6x25396958 gndo:personalName "Eusebius";
+  gndo:nameAddition "Cesariensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Vercellensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396959 .
+
+_:node1ivpishs6x25396959 gndo:personalName "Eusebius";
+  gndo:nameAddition "Vercellensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, of Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396960 .
+
+_:node1ivpishs6x25396960 gndo:personalName "Eusebius";
+  gndo:nameAddition "of Caesarea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396961 .
+
+_:node1ivpishs6x25396961 gndo:personalName "Eusebius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396962 .
+
+_:node1ivpishs6x25396962 gndo:personalName "Eusebius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396963 .
+
+_:node1ivpishs6x25396963 gndo:personalName "Eusebius";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Ēusēbīs, Qēsarē";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396964 .
+
+_:node1ivpishs6x25396964 gndo:personalName "Ēusēbīs";
+  gndo:nameAddition "Qēsarē" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396965 .
+
+_:node1ivpishs6x25396965 gndo:personalName "Eusebios" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396966 .
+
+_:node1ivpishs6x25396966 gndo:personalName "Eusebius" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Evusēbiyas";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396967 .
+
+_:node1ivpishs6x25396967 gndo:personalName "Evusēbiyas" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Euseb";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396968 .
+
+_:node1ivpishs6x25396968 gndo:personalName "Euseb" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusébe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396969 .
+
+_:node1ivpishs6x25396969 gndo:personalName "Eusébe" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Pamfilov, Evsevij";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396970 .
+
+_:node1ivpishs6x25396970 gndo:forename "Evsevij";
+  gndo:surname "Pamfilov" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Pamphilus, Eusebius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396971 .
+
+_:node1ivpishs6x25396971 gndo:forename "Eusebius";
+  gndo:surname "Pamphilus" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Pamphili, Eusebius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396972 .
+
+_:node1ivpishs6x25396972 gndo:forename "Eusebius";
+  gndo:surname "Pamphili" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Pamphili, Eusebius, Bischof von Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396973 .
+
+_:node1ivpishs6x25396973 gndo:forename "Eusebius";
+  gndo:surname "Pamphili";
+  gndo:nameAddition "Bischof von Caesarea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Eusebiu, de Cezareea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396974 .
+
+_:node1ivpishs6x25396974 gndo:personalName "Eusebiu";
+  gndo:nameAddition "de Cezareea" .
+
+<https://d-nb.info/gnd/118531425> gndo:variantNameForThePerson "Εὐσέβιος, ὁ τῆς Καισαρείας"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396975 .
+
+_:node1ivpishs6x25396975 gndo:personalName "Εὐσέβιος";
+  gndo:nameAddition "ὁ τῆς Καισαρείας" .
+
+<https://d-nb.info/gnd/118531425> gndo:preferredNameForThePerson "Eusebius, Caesariensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396976 .
+
+_:node1ivpishs6x25396976 gndo:personalName "Eusebius";
+  gndo:nameAddition "Caesariensis" .
+
+<https://d-nb.info/gnd/118531425> gndo:hasRelation _:node1ivpishs6x25396977 .
+
+_:node1ivpishs6x25396977 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25396978 .
+
+_:node1ivpishs6x25396978 gndo:forename "Johannes Thomas";
+  gndo:surname "Freige";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118682512>;
+  gndo:hasRelation _:node1ivpishs6x25396979 .
+
+_:node1ivpishs6x25396979 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118682512>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118679716>;
+  gndo:hasRelation _:node1ivpishs6x25396980 .
+
+_:node1ivpishs6x25396980 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118679716>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120540479>;
+  gndo:hasRelation _:node1ivpishs6x25396981 .
+
+_:node1ivpishs6x25396981 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120540479>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118546201>;
+  gndo:hasRelation _:node1ivpishs6x25396982 .
+
+_:node1ivpishs6x25396982 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118546201>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118732188>;
+  gndo:hasRelation _:node1ivpishs6x25396983 .
+
+_:node1ivpishs6x25396983 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118732188>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118508237>;
+  gndo:hasRelation _:node1ivpishs6x25396984 .
+
+_:node1ivpishs6x25396984 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118508237>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118760289>;
+  gndo:hasRelation _:node1ivpishs6x25396985 .
+
+_:node1ivpishs6x25396985 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118760289>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119656698>;
+  gndo:hasRelation _:node1ivpishs6x25396986 .
+
+_:node1ivpishs6x25396986 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119656698>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12461650X>;
+  gndo:hasRelation _:node1ivpishs6x25396987 .
+
+_:node1ivpishs6x25396987 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12461650X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118531425> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Eusebius <Caesariensis>: Evangelicae demonstrationis libri X", "Eusebius <Caesariensis>: Historiae ecclesiasticae libri X",
+    "Eusebius <Caesariensis>: Onomasticon urbium et locorum Sacrae Scripturae", "Eusebius <Caesariensis>: Chronica der alten christlichen Kirchen",
+    "Eusebius <Caesariensis>: Evangelicae demonstrationis libri X", "Eusebius <Caesariensis>: Evangelicae demonstrationis libri X",
+    "Eusebius <Caesariensis>: Ecclesiastice et tripartite hystorie libri XII. - [ca. 1502]",
+    "Eusebius <Caesariensis>: Rerum toto orbe gestarum Chronica", "Eusebius <Caesariensis>: Eusebii, Polychronii, Pselli In Canticum Canticorum exposition*",
+    "Eusebius <Caesariensis>: Chronicon", "Eusebius <von Caesarea>: Chronicon.  1536.  (VD16 ZV 5526)",
+    "Eusebius <von Caesarea>: Ecclesiastica historia.  1570.  (VD16 ZV 22521)", "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1565.  (VD16 E 4290)",
+    "Hrabanus Maurus: Opera, Ausz.  1551.  (VD16 H 5275)", "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1572.  (VD16 E 4291)",
+    "Eusebius <von Caesarea>: Ecclesiasticae historiae libri quinque, Ausz.  1593.  (VD16 E 4293)",
+    "Eusebius <von Caesarea>: Ecclesiastica historia, Ausz.  1571.  (VD16 E 4284)", "Eusebius <von Caesarea>: EVSEBIVS De Euangelica prêparatione, a Georgio Trapezuntio e graeco in latinum traductus, ...  1522.  (VD16 E 4299)",
+    "Eusebius <von Caesarea>: APOPHTEGMATA, SIVE SCITE, ET PIE dicta, collecta ex Eusebij Historia Ecclesiastica, & ...  1552.  (VD16 ZV 18600)",
+    "Eusebius <von Caesarea>: EVSEBII CAESARIENSIS EVANGELICAE DEmonstrationis Libri X. INTERPRETE DONATO VERONENSI. ...  1542.  (VD16 E 4302)";
+  wdrs:describedby <https://d-nb.info/gnd/118531425/about> .
+
+<https://d-nb.info/gnd/118531425/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118531425> gndo:biographicalOrHistoricalInformation "Griech. Kirchenschriftsteller, bedeutender Kirchenhistoriker, seit ca. 313 Bischof von Caesarea"@de;
+  gndo:udkCode "201 - 300", "301 - 400";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4088936-1>;
+  gndo:professionOrOccupation _:node1ivpishs6x25396988 .
+
+_:node1ivpishs6x25396988 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4398113-6>;
+  rdf:_2 <https://d-nb.info/gnd/4059756-8>;
+  rdf:_3 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118531425> gndo:dateOfBirth "0260"^^xsd:gYear;
+  gndo:dateOfDeath "0339"^^xsd:gYear .
+

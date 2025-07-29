@@ -1,0 +1,166 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100635520> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100635520/about> .
+
+<https://d-nb.info/gnd/100635520/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-04-26T05:30:02.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100635520> gndo:gndIdentifier "100635520";
+  foaf:page <https://de.wikipedia.org/wiki/Theon_von_Smyrna>;
+  owl:sameAs <https://dbpedia.org/resource/Theon_of_Smyrna>, <http://viaf.org/viaf/56588190>,
+    <https://isni.org/isni/0000000374562367>, <http://www.wikidata.org/entity/Q705950>,
+    <http://id.loc.gov/rwo/agents/n85813068>;
+  gndo:oldAuthorityNumber "(DE-588)1089725825";
+  owl:sameAs <https://d-nb.info/gnd/1089725825>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725825";
+  gndo:oldAuthorityNumber "(DE-588)1089206607";
+  owl:sameAs <https://d-nb.info/gnd/1089206607>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089206607";
+  gndo:oldAuthorityNumber "(DE-588a)100635520", "(DE-588c)4640797-2";
+  gndo:variantNameForThePerson "Theon, von Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594569 .
+
+_:node1ivs02adlx24594569 gndo:personalName "Theon";
+  gndo:nameAddition "von Smyrna" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theon, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594570 .
+
+_:node1ivs02adlx24594570 gndo:personalName "Theon";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theon, Platoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594571 .
+
+_:node1ivs02adlx24594571 gndo:personalName "Theon";
+  gndo:nameAddition "Platoniker" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theo, Smyrnaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594572 .
+
+_:node1ivs02adlx24594572 gndo:personalName "Theo";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theonos, Smyrnaios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594573 .
+
+_:node1ivs02adlx24594573 gndo:personalName "Theonos";
+  gndo:nameAddition "Smyrnaios" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Théon, de Smyrne";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594574 .
+
+_:node1ivs02adlx24594574 gndo:personalName "Théon";
+  gndo:nameAddition "de Smyrne" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theon, Platonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594575 .
+
+_:node1ivs02adlx24594575 gndo:personalName "Theon";
+  gndo:nameAddition "Platonicus" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theo, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594576 .
+
+_:node1ivs02adlx24594576 gndo:personalName "Theo";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Teone, di Smirne";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594577 .
+
+_:node1ivs02adlx24594577 gndo:personalName "Teone";
+  gndo:nameAddition "di Smirne" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Teone, Filosofo Platonico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594578 .
+
+_:node1ivs02adlx24594578 gndo:personalName "Teone";
+  gndo:nameAddition "Filosofo Platonico" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theon, of Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594579 .
+
+_:node1ivs02adlx24594579 gndo:personalName "Theon";
+  gndo:nameAddition "of Smyrna" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theon, Mathematician";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594580 .
+
+_:node1ivs02adlx24594580 gndo:personalName "Theon";
+  gndo:nameAddition "Mathematician" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theon, Philosopher";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594581 .
+
+_:node1ivs02adlx24594581 gndo:personalName "Theon";
+  gndo:nameAddition "Philosopher" .
+
+<https://d-nb.info/gnd/100635520> gndo:variantNameForThePerson "Theon, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594582 .
+
+_:node1ivs02adlx24594582 gndo:personalName "Theon";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/100635520> gndo:preferredNameForThePerson "Theon, Smyrnaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594583 .
+
+_:node1ivs02adlx24594583 gndo:personalName "Theon";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/100635520> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Theon <Smyrnaeus>: Eorum, quae in mathematicis ad Platonis lectionem utilia sunt, exposit*. - 1644";
+  wdrs:describedby <https://d-nb.info/gnd/100635520/about> .
+
+<https://d-nb.info/gnd/100635520/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100635520> gndo:biographicalOrHistoricalInformation "Griech. Platoniker u. Mathematiker"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

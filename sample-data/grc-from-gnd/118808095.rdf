@@ -1,0 +1,189 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118808095> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118808095/about> .
+
+<https://d-nb.info/gnd/118808095/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T16:10:13.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118808095> gndo:gndIdentifier "118808095";
+  foaf:page <https://de.wikipedia.org/wiki/Xenophon_von_Ephesos>;
+  owl:sameAs <https://dbpedia.org/resource/Xenophon_of_Ephesus>, <http://viaf.org/viaf/83987541>,
+    <https://isni.org/isni/0000000115572149>, <http://www.wikidata.org/entity/Q463564>,
+    <http://id.loc.gov/rwo/agents/n80051712>;
+  gndo:oldAuthorityNumber "(DE-588)1089895291";
+  owl:sameAs <https://d-nb.info/gnd/1089895291>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089895291";
+  gndo:oldAuthorityNumber "(DE-588)1089725361";
+  owl:sameAs <https://d-nb.info/gnd/1089725361>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725361";
+  gndo:oldAuthorityNumber "(DE-588)1089433158";
+  owl:sameAs <https://d-nb.info/gnd/1089433158>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089433158";
+  gndo:oldAuthorityNumber "(DE-588a)118808095", "(DE-588a)187566984", "(DE-588a)174112564",
+    "(DE-588a)127006567", "(DE-588c)4118109-8";
+  gndo:variantNameForThePerson "Ephesos, Xenophon von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591877 .
+
+_:node1ivs02adlx24591877 gndo:forename "Xenophon";
+  gndo:prefix "von";
+  gndo:surname "Ephesos" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenopho, Ephesius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591878 .
+
+_:node1ivs02adlx24591878 gndo:personalName "Xenopho";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenophon, Scriptor Eroticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591879 .
+
+_:node1ivs02adlx24591879 gndo:personalName "Xenophon";
+  gndo:nameAddition "Scriptor Eroticus" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenophon, von Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591880 .
+
+_:node1ivs02adlx24591880 gndo:personalName "Xenophon";
+  gndo:nameAddition "von Ephesus" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenophōn, Ephesios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591881 .
+
+_:node1ivs02adlx24591881 gndo:personalName "Xenophōn";
+  gndo:nameAddition "Ephesios" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenophon, Ephesios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591882 .
+
+_:node1ivs02adlx24591882 gndo:personalName "Xenophon";
+  gndo:nameAddition "Ephesios" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Senofonte, Efesio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591883 .
+
+_:node1ivs02adlx24591883 gndo:personalName "Senofonte";
+  gndo:nameAddition "Efesio" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenophon, Romanschreiber";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591884 .
+
+_:node1ivs02adlx24591884 gndo:personalName "Xenophon";
+  gndo:nameAddition "Romanschreiber" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenopho, Scriptor Eroticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591885 .
+
+_:node1ivs02adlx24591885 gndo:personalName "Xenopho";
+  gndo:nameAddition "Scriptor Eroticus" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenophon, of Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591886 .
+
+_:node1ivs02adlx24591886 gndo:personalName "Xenophon";
+  gndo:nameAddition "of Ephesus" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xénophon, d'Éphèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591887 .
+
+_:node1ivs02adlx24591887 gndo:personalName "Xénophon";
+  gndo:nameAddition "d'Éphèse" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Senofonte, di Efeso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591888 .
+
+_:node1ivs02adlx24591888 gndo:personalName "Senofonte";
+  gndo:nameAddition "di Efeso" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Jenofonte, de Efeso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591889 .
+
+_:node1ivs02adlx24591889 gndo:personalName "Jenofonte";
+  gndo:nameAddition "de Efeso" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenophon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591890 .
+
+_:node1ivs02adlx24591890 gndo:personalName "Xenophon" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Senofonte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591891 .
+
+_:node1ivs02adlx24591891 gndo:personalName "Senofonte" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenophon, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591892 .
+
+_:node1ivs02adlx24591892 gndo:personalName "Xenophon";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/118808095> gndo:variantNameForThePerson "Xenephon, von Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591893 .
+
+_:node1ivs02adlx24591893 gndo:personalName "Xenephon";
+  gndo:nameAddition "von Ephesus" .
+
+<https://d-nb.info/gnd/118808095> gndo:preferredNameForThePerson "Xenophon, Ephesius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591894 .
+
+_:node1ivs02adlx24591894 gndo:personalName "Xenophon";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/118808095> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ephesiacorum de amoribus libri quinque", "Tōn kata Anthian kai Habrokomēn Ephesiakōn logoi pente",
+    "De Anthia et Habrocome ephesiacorum", "Anthia und Abrokomas", "Anthia und Abrokomas",
+    "Anthia und Abrokomas", "Degli Amori di Abracome e Anzia lib. V", "De Anthia et Habrocome Ephesiacorum libri quinque",
+    "Les amours d'Abrocome et d'Anthia", "Les amours d'Abrocome et d'Anthia";
+  wdrs:describedby <https://d-nb.info/gnd/118808095/about> .
+
+<https://d-nb.info/gnd/118808095/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118808095> gndo:biographicalOrHistoricalInformation "Griech. Romanschriftsteller"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2./3. Jh.]" .
+

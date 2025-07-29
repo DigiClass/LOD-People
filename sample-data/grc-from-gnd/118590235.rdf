@@ -1,0 +1,320 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118590235> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118590235/about> .
+
+<https://d-nb.info/gnd/118590235/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-01-26T10:06:06.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118590235> gndo:gndIdentifier "118590235";
+  foaf:page <https://de.wikipedia.org/wiki/Origenes>;
+  owl:sameAs <https://dbpedia.org/resource/Origen>, <http://viaf.org/viaf/95155322>,
+    <https://isni.org/isni/0000000123213322>, <http://www.wikidata.org/entity/Q170472>,
+    <http://id.loc.gov/rwo/agents/n79004180>;
+  gndo:oldAuthorityNumber "(DE-588)1103949829";
+  owl:sameAs <https://d-nb.info/gnd/1103949829>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1103949829";
+  gndo:oldAuthorityNumber "(DE-588)1089151594";
+  owl:sameAs <https://d-nb.info/gnd/1089151594>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089151594";
+  gndo:oldAuthorityNumber "(DE-588)1100922288";
+  owl:sameAs <https://d-nb.info/gnd/1100922288>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1100922288";
+  gndo:oldAuthorityNumber "(DE-588)1089802811";
+  owl:sameAs <https://d-nb.info/gnd/1089802811>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089802811";
+  gndo:oldAuthorityNumber "(DE-588)176913963";
+  owl:sameAs <https://d-nb.info/gnd/176913963>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/176913963";
+  gndo:oldAuthorityNumber "(DE-588a)176913963", "(DE-588a)118590235", "(DE-588a)119778300",
+    "(DE-588c)4043874-0";
+  gndo:variantNameForThePerson "Origenes, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401652 .
+
+_:node1ivpishs6x25401652 gndo:personalName "Origenes";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401653 .
+
+_:node1ivpishs6x25401653 gndo:personalName "Origenes";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401654 .
+
+_:node1ivpishs6x25401654 gndo:personalName "Origenes";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origen, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401655 .
+
+_:node1ivpishs6x25401655 gndo:personalName "Origen";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origene, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401656 .
+
+_:node1ivpishs6x25401656 gndo:personalName "Origene";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origen, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401657 .
+
+_:node1ivpishs6x25401657 gndo:personalName "Origen";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origène, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401658 .
+
+_:node1ivpishs6x25401658 gndo:personalName "Origène";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, Adamantios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401659 .
+
+_:node1ivpishs6x25401659 gndo:personalName "Origenes";
+  gndo:nameAddition "Adamantios" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, Adamantius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401660 .
+
+_:node1ivpishs6x25401660 gndo:personalName "Origenes";
+  gndo:nameAddition "Adamantius" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, Kirchenlehrer";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401661 .
+
+_:node1ivpishs6x25401661 gndo:personalName "Origenes";
+  gndo:nameAddition "Kirchenlehrer" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401662 .
+
+_:node1ivpishs6x25401662 gndo:personalName "Origenes";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401663 .
+
+_:node1ivpishs6x25401663 gndo:personalName "Origenes";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, Presbyter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401664 .
+
+_:node1ivpishs6x25401664 gndo:personalName "Origenes";
+  gndo:nameAddition "Presbyter" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenes, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401665 .
+
+_:node1ivpishs6x25401665 gndo:personalName "Origenes";
+  gndo:nameAddition "Theologe" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origène, Docteur de l'Eglise";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401666 .
+
+_:node1ivpishs6x25401666 gndo:personalName "Origène";
+  gndo:nameAddition "Docteur de l'Eglise" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Ōrigenēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401667 .
+
+_:node1ivpishs6x25401667 gndo:personalName "Ōrigenēs" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origène";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401668 .
+
+_:node1ivpishs6x25401668 gndo:personalName "Origène" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401669 .
+
+_:node1ivpishs6x25401669 gndo:personalName "Origenus" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origene";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401670 .
+
+_:node1ivpishs6x25401670 gndo:personalName "Origene" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Orogines";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401671 .
+
+_:node1ivpishs6x25401671 gndo:personalName "Orogines" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Orygenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401672 .
+
+_:node1ivpishs6x25401672 gndo:personalName "Orygenes" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origenis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401673 .
+
+_:node1ivpishs6x25401673 gndo:personalName "Origenis" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Orijan";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401674 .
+
+_:node1ivpishs6x25401674 gndo:personalName "Orijan" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origines";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401675 .
+
+_:node1ivpishs6x25401675 gndo:personalName "Origines" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Origen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401676 .
+
+_:node1ivpishs6x25401676 gndo:personalName "Origen" .
+
+<https://d-nb.info/gnd/118590235> gndo:variantNameForThePerson "Pseudo-Origenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401677 .
+
+_:node1ivpishs6x25401677 gndo:personalName "Pseudo-Origenes" .
+
+<https://d-nb.info/gnd/118590235> gndo:preferredNameForThePerson "Origenes";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401678 .
+
+_:node1ivpishs6x25401678 gndo:personalName "Origenes" .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118802658>;
+  gndo:hasRelation _:node1ivpishs6x25401679 .
+
+_:node1ivpishs6x25401679 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118802658>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118637797>;
+  gndo:hasRelation _:node1ivpishs6x25401680 .
+
+_:node1ivpishs6x25401680 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118637797>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100750648>;
+  gndo:hasRelation _:node1ivpishs6x25401681 .
+
+_:node1ivpishs6x25401681 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100750648>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivpishs6x25401682 .
+
+_:node1ivpishs6x25401682 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124616453>;
+  gndo:hasRelation _:node1ivpishs6x25401683 .
+
+_:node1ivpishs6x25401683 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124616453>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119048957>;
+  gndo:hasRelation _:node1ivpishs6x25401684 .
+
+_:node1ivpishs6x25401684 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119048957>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118550853>;
+  gndo:hasRelation _:node1ivpishs6x25401685 .
+
+_:node1ivpishs6x25401685 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118550853>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129833037>;
+  gndo:hasRelation _:node1ivpishs6x25401686 .
+
+_:node1ivpishs6x25401686 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129833037>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119760193>;
+  gndo:hasRelation _:node1ivpishs6x25401687 .
+
+_:node1ivpishs6x25401687 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119760193>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119780488>;
+  gndo:hasRelation _:node1ivpishs6x25401688 .
+
+_:node1ivpishs6x25401688 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119780488>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118590235> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Contra Celsum libri 8", "In Sacras Scripturas Commentaria", "In Sacras Scripturas Commentaria",
+    "In sacras Scripturas Commentaria", "Commentarii sive scholia et Annotationes in vetus et novum Testamentum",
+    "Dialogus de recta in Deum fide adversus haereticos", "Hexaplorum Origenis quae supersunt",
+    "Hexaplorum Originis quae supersunt", "Homilia super Evangelio Maria stabat ad monumentum foris plorans",
+    "Opera omnia. - 1733 - 1759", "Erasmus, Desiderius: Opera.  1540.  (VD16 ZV 5304)",
+    "FRAGMENTVM COMMENTARIOrum Origenia in Euangelium secunduin Matthaeum, ERASMO Roterodamo ...  1527.  (VD16 O 913)",
+    "ORIGENIS ADAMANTII EXIMII SCRIPTVRARVM INTERPRETIS OPERA, QVAE QVIDEM EXTANT OMNIA, PER ...  1545.  (VD16 O 909)",
+    "ORIGENIS ADAMANTII EXIMII SCRIPTVRARVM INTERPRETIS, OPERA, QVAE QVIDEM EXTANT OMNIA, PER ...  1557.  (VD16 O 910)",
+    "ORIGENIS ADAMANTII EXIMII SCRIPTVRARVM INTERPRETIS OPERA, QVAE QVIDEM EXTANT OMNIA, PER DES. ...  1536.  (VD16 O 908)",
+    "ORIGENIS ADAMANTII MAGNI ILLIVS ET VETVSTI SCRIPTVRARVM INTERPRETIS OPERA quae ...  1571.  (VD16 O 911)",
+    "ORIGENIS ADAMANTII TROPOLOGIAE, A ̀DOCTISSIMO quodã uiro olim selectae, ex commentariis ...  1537.  (VD16 O 917)";
+  wdrs:describedby <https://d-nb.info/gnd/118590235/about> .
+
+<https://d-nb.info/gnd/118590235/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/118590235> gndo:udkCode "101 - 200", "201 - 300";
+  gndo:professionOrOccupation _:node1ivpishs6x25401689 .
+
+_:node1ivpishs6x25401689 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4030752-9> .
+
+<https://d-nb.info/gnd/118590235> gndo:dateOfBirth "0185"^^xsd:gYear;
+  gndo:dateOfDeath "0254"^^xsd:gYear .
+

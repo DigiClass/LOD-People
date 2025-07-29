@@ -1,0 +1,272 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118796771> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118796771/about> .
+
+<https://d-nb.info/gnd/118796771/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-10-27T13:45:00.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118796771> gndo:gndIdentifier "118796771";
+  owl:sameAs <http://viaf.org/viaf/244139314>, <http://www.wikidata.org/entity/Q722953>;
+  gndo:oldAuthorityNumber "(DE-588)1089883994";
+  owl:sameAs <https://d-nb.info/gnd/1089883994>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089883994";
+  gndo:oldAuthorityNumber "(DE-588)1089761112";
+  owl:sameAs <https://d-nb.info/gnd/1089761112>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089761112";
+  gndo:oldAuthorityNumber "(DE-588)1089361645";
+  owl:sameAs <https://d-nb.info/gnd/1089361645>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089361645";
+  gndo:oldAuthorityNumber "(DE-588)174391307";
+  owl:sameAs <https://d-nb.info/gnd/174391307>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174391307";
+  gndo:oldAuthorityNumber "(DE-588a)174391307", "(DE-588a)118796771", "(DE-588c)4112875-8";
+  gndo:variantNameForThePerson "Severian, von Gabala";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402050 .
+
+_:node1ivpishs6x25402050 gndo:personalName "Severian";
+  gndo:nameAddition "von Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severian, of Gabala";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402051 .
+
+_:node1ivpishs6x25402051 gndo:personalName "Severian";
+  gndo:nameAddition "of Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Gabala, Severian of";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402052 .
+
+_:node1ivpishs6x25402052 gndo:forename "Severian";
+  gndo:prefix "of";
+  gndo:surname "Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianus, von Gabala";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402053 .
+
+_:node1ivpishs6x25402053 gndo:personalName "Severianus";
+  gndo:nameAddition "von Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Seberianus, de Gabala";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402054 .
+
+_:node1ivpishs6x25402054 gndo:personalName "Seberianus";
+  gndo:nameAddition "de Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Seberianos, Emesac'i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402055 .
+
+_:node1ivpishs6x25402055 gndo:personalName "Seberianos";
+  gndo:nameAddition "Emesac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Seberianos, Emerdac'i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402056 .
+
+_:node1ivpishs6x25402056 gndo:personalName "Seberianos";
+  gndo:nameAddition "Emerdac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Emesac'i, Seberianos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402057 .
+
+_:node1ivpishs6x25402057 gndo:forename "Seberianos";
+  gndo:surname "Emesac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Seberianos, Gabaġac'i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402058 .
+
+_:node1ivpishs6x25402058 gndo:personalName "Seberianos";
+  gndo:nameAddition "Gabaġac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Seberianos, Gabaghatsʿi";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402059 .
+
+_:node1ivpishs6x25402059 gndo:personalName "Seberianos";
+  gndo:nameAddition "Gabaghatsʿi" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Gabagac'i, Seberianos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402060 .
+
+_:node1ivpishs6x25402060 gndo:forename "Seberianos";
+  gndo:surname "Gabagac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Sěwerianos, Emesac'i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402061 .
+
+_:node1ivpishs6x25402061 gndo:personalName "Sěwerianos";
+  gndo:nameAddition "Emesac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Emesac'i, Séwerianos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402062 .
+
+_:node1ivpishs6x25402062 gndo:forename "Séwerianos";
+  gndo:surname "Emesac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Sewerianos, Gabaġac'i";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402063 .
+
+_:node1ivpishs6x25402063 gndo:personalName "Sewerianos";
+  gndo:nameAddition "Gabaġac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Gabagac'i, Sewerianos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402064 .
+
+_:node1ivpishs6x25402064 gndo:forename "Sewerianos";
+  gndo:surname "Gabagac'i" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianus, Emesensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402065 .
+
+_:node1ivpishs6x25402065 gndo:personalName "Severianus";
+  gndo:nameAddition "Emesensis" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Emesensis, Severianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402066 .
+
+_:node1ivpishs6x25402066 gndo:forename "Severianus";
+  gndo:surname "Emesensis" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Seberianus, Emesensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402067 .
+
+_:node1ivpishs6x25402067 gndo:personalName "Seberianus";
+  gndo:nameAddition "Emesensis" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Emesensis, Seberianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402068 .
+
+_:node1ivpishs6x25402068 gndo:forename "Seberianus";
+  gndo:surname "Emesensis" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianus, de Gabala";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402069 .
+
+_:node1ivpishs6x25402069 gndo:personalName "Severianus";
+  gndo:nameAddition "de Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Gabala, Severianus de";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402070 .
+
+_:node1ivpishs6x25402070 gndo:forename "Severianus";
+  gndo:prefix "de";
+  gndo:surname "Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "DeGabala, Severianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402071 .
+
+_:node1ivpishs6x25402071 gndo:forename "Severianus";
+  gndo:surname "DeGabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402072 .
+
+_:node1ivpishs6x25402072 gndo:personalName "Severianus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianos, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402073 .
+
+_:node1ivpishs6x25402073 gndo:personalName "Severianos";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianos, von Gabala";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402074 .
+
+_:node1ivpishs6x25402074 gndo:personalName "Severianos";
+  gndo:nameAddition "von Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402075 .
+
+_:node1ivpishs6x25402075 gndo:personalName "Severianus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianus, Gabalorum Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402076 .
+
+_:node1ivpishs6x25402076 gndo:personalName "Severianus";
+  gndo:nameAddition "Gabalorum Episcopus" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianus, Gabalitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402077 .
+
+_:node1ivpishs6x25402077 gndo:personalName "Severianus";
+  gndo:nameAddition "Gabalitanus" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Sévérien, de Gabala";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402078 .
+
+_:node1ivpishs6x25402078 gndo:personalName "Sévérien";
+  gndo:nameAddition "de Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severiano, di Gabala";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402079 .
+
+_:node1ivpishs6x25402079 gndo:personalName "Severiano";
+  gndo:nameAddition "di Gabala" .
+
+<https://d-nb.info/gnd/118796771> gndo:variantNameForThePerson "Severianus, Episcopus Gabalitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402080 .
+
+_:node1ivpishs6x25402080 gndo:personalName "Severianus";
+  gndo:nameAddition "Episcopus Gabalitanus" .
+
+<https://d-nb.info/gnd/118796771> gndo:preferredNameForThePerson "Severianus, Gabalensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402081 .
+
+_:node1ivpishs6x25402081 gndo:personalName "Severianus";
+  gndo:nameAddition "Gabalensis" .
+
+<https://d-nb.info/gnd/118796771> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-SY>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/arm>;
+  gndo:publication "Oratio in Dei apparitionem. - 1781", "Seberianosi kam Sewerianosi Emesac'woy Gabaġac'woc' episkoposi*. - 1827";
+  wdrs:describedby <https://d-nb.info/gnd/118796771/about> .
+
+<https://d-nb.info/gnd/118796771/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118796771> gndo:udkCode "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfDeath "0408"^^xsd:gYear .
+

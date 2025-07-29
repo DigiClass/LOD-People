@@ -1,0 +1,434 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11855140X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11855140X/about> .
+
+<https://d-nb.info/gnd/11855140X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-08T16:58:23.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11855140X> gndo:gndIdentifier "11855140X";
+  owl:sameAs <https://dbpedia.org/resource/Hippocrates>, <http://viaf.org/viaf/312627780>,
+    <http://www.wikidata.org/entity/Q5264>;
+  gndo:oldAuthorityNumber "(DE-588)1325002011";
+  owl:sameAs <https://d-nb.info/gnd/1325002011>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1325002011";
+  gndo:oldAuthorityNumber "(DE-588)1089794622";
+  owl:sameAs <https://d-nb.info/gnd/1089794622>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089794622";
+  gndo:oldAuthorityNumber "(DE-588a)11855140X", "(DE-588c)4024994-3";
+  gndo:variantNameForThePerson "Ibbuqrāṭ";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395995 .
+
+_:node1ivpishs6x25395995 gndo:personalName "Ibbuqrāṭ" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Abiqrāṭ";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395996 .
+
+_:node1ivpishs6x25395996 gndo:personalName "Abiqrāṭ" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hypocrate";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395997 .
+
+_:node1ivpishs6x25395997 gndo:personalName "Hypocrate" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Buqrāṭ";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395998 .
+
+_:node1ivpishs6x25395998 gndo:personalName "Buqrāṭ" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Pseudhippokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395999 .
+
+_:node1ivpishs6x25395999 gndo:personalName "Pseudhippokrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396000 .
+
+_:node1ivpishs6x25396000 gndo:personalName "Hippokrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocrates, of Cos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396001 .
+
+_:node1ivpishs6x25396001 gndo:personalName "Hippocrates";
+  gndo:nameAddition "of Cos" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocratus, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396002 .
+
+_:node1ivpishs6x25396002 gndo:personalName "Hippocratus";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocratus, Cous";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396003 .
+
+_:node1ivpishs6x25396003 gndo:personalName "Hippocratus";
+  gndo:nameAddition "Cous" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokrates, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396004 .
+
+_:node1ivpishs6x25396004 gndo:personalName "Hippokrates";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocrates, Veterinarius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396005 .
+
+_:node1ivpishs6x25396005 gndo:personalName "Hippocrates";
+  gndo:nameAddition "Veterinarius" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ippocrate, di Cos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396006 .
+
+_:node1ivpishs6x25396006 gndo:personalName "Ippocrate";
+  gndo:nameAddition "di Cos" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocrates, Cous";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396007 .
+
+_:node1ivpishs6x25396007 gndo:personalName "Hippocrates";
+  gndo:nameAddition "Cous" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocrates, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396008 .
+
+_:node1ivpishs6x25396008 gndo:personalName "Hippocrates";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocrate, de Cos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396009 .
+
+_:node1ivpishs6x25396009 gndo:personalName "Hippocrate";
+  gndo:nameAddition "de Cos" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Pseudo-Hippocrates, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396010 .
+
+_:node1ivpishs6x25396010 gndo:personalName "Pseudo-Hippocrates";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokrates II.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396011 .
+
+_:node1ivpishs6x25396011 gndo:personalName "Hippokrates";
+  gndo:counting "II." .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hipócrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396012 .
+
+_:node1ivpishs6x25396012 gndo:personalName "Hipócrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hyppocrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396013 .
+
+_:node1ivpishs6x25396013 gndo:personalName "Hyppocrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ypocrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396014 .
+
+_:node1ivpishs6x25396014 gndo:personalName "Ypocrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocras";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396015 .
+
+_:node1ivpishs6x25396015 gndo:personalName "Hippocras" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hyppokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396016 .
+
+_:node1ivpishs6x25396016 gndo:personalName "Hyppokrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Yppokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396017 .
+
+_:node1ivpishs6x25396017 gndo:personalName "Yppokrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Abuqrāṭ";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396018 .
+
+_:node1ivpishs6x25396018 gndo:personalName "Abuqrāṭ" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hypocrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396019 .
+
+_:node1ivpishs6x25396019 gndo:personalName "Hypocrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hipocrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396020 .
+
+_:node1ivpishs6x25396020 gndo:personalName "Hipocrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ypocrares";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396021 .
+
+_:node1ivpishs6x25396021 gndo:personalName "Ypocrares" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hipocrate";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396022 .
+
+_:node1ivpishs6x25396022 gndo:personalName "Hipocrate" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ippokratēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396023 .
+
+_:node1ivpishs6x25396023 gndo:personalName "Ippokratēs" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocrate";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396024 .
+
+_:node1ivpishs6x25396024 gndo:personalName "Hippocrate" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokrates, von Kos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396025 .
+
+_:node1ivpishs6x25396025 gndo:personalName "Hippokrates";
+  gndo:nameAddition "von Kos" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Pseudo-Hippokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396026 .
+
+_:node1ivpishs6x25396026 gndo:personalName "Pseudo-Hippokrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Pseudo-Hippocrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396027 .
+
+_:node1ivpishs6x25396027 gndo:personalName "Pseudo-Hippocrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hipokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396028 .
+
+_:node1ivpishs6x25396028 gndo:personalName "Hipokrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ippocrate";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396029 .
+
+_:node1ivpishs6x25396029 gndo:personalName "Ippocrate" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ypocras";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396030 .
+
+_:node1ivpishs6x25396030 gndo:personalName "Ypocras" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocratus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396031 .
+
+_:node1ivpishs6x25396031 gndo:personalName "Hippocratus" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ippokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396032 .
+
+_:node1ivpishs6x25396032 gndo:personalName "Ippokrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokrates, von Koos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396033 .
+
+_:node1ivpishs6x25396033 gndo:personalName "Hippokrates";
+  gndo:nameAddition "von Koos" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokratēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396034 .
+
+_:node1ivpishs6x25396034 gndo:personalName "Hippokratēs" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocrate, Cous";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396035 .
+
+_:node1ivpishs6x25396035 gndo:personalName "Hippocrate";
+  gndo:nameAddition "Cous" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokrates, Cous";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396036 .
+
+_:node1ivpishs6x25396036 gndo:personalName "Hippokrates";
+  gndo:nameAddition "Cous" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokratēs, Kōos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396037 .
+
+_:node1ivpishs6x25396037 gndo:personalName "Hippokratēs";
+  gndo:nameAddition "Kōos" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ippokratus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396038 .
+
+_:node1ivpishs6x25396038 gndo:personalName "Ippokratus" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocratis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396039 .
+
+_:node1ivpishs6x25396039 gndo:personalName "Hippocratis" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippocrates, Pseudo-";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396040 .
+
+_:node1ivpishs6x25396040 gndo:personalName "Hippocrates";
+  gndo:nameAddition "Pseudo-" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Pseudohippokrates";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396041 .
+
+_:node1ivpishs6x25396041 gndo:personalName "Pseudohippokrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Hippokrates, der Große";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396042 .
+
+_:node1ivpishs6x25396042 gndo:personalName "Hippokrates";
+  gndo:nameAddition "der Große" .
+
+<https://d-nb.info/gnd/11855140X> gndo:variantNameForThePerson "Ἱπποκράτης, ὁ Κῷος"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396043 .
+
+_:node1ivpishs6x25396043 gndo:personalName "Ἱπποκράτης";
+  gndo:nameAddition "ὁ Κῷος" .
+
+<https://d-nb.info/gnd/11855140X> gndo:preferredNameForThePerson "Hippocrates";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396044 .
+
+_:node1ivpishs6x25396044 gndo:personalName "Hippocrates" .
+
+<https://d-nb.info/gnd/11855140X> gndo:originalScriptNameOfThePerson "Гиппократ"@ru;
+  gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/122701933>;
+  gndo:hasRelation _:node1ivpishs6x25396045 .
+
+_:node1ivpishs6x25396045 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/122701933>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119112167>;
+  gndo:hasRelation _:node1ivpishs6x25396046 .
+
+_:node1ivpishs6x25396046 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119112167>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119059487>;
+  gndo:hasRelation _:node1ivpishs6x25396047 .
+
+_:node1ivpishs6x25396047 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119059487>;
+  gndo:functionOrRoleAsLiteral "Wemding; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102432694>;
+  gndo:hasRelation _:node1ivpishs6x25396048 .
+
+_:node1ivpishs6x25396048 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102432694>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119759101>;
+  gndo:hasRelation _:node1ivpishs6x25396049 .
+
+_:node1ivpishs6x25396049 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119759101>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117139440>;
+  gndo:hasRelation _:node1ivpishs6x25396050 .
+
+_:node1ivpishs6x25396050 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117139440>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119046377>;
+  gndo:hasRelation _:node1ivpishs6x25396051 .
+
+_:node1ivpishs6x25396051 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119046377>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118591363>;
+  gndo:hasRelation _:node1ivpishs6x25396052 .
+
+_:node1ivpishs6x25396052 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118591363>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119847922>;
+  gndo:hasRelation _:node1ivpishs6x25396053 .
+
+_:node1ivpishs6x25396053 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119847922>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124960812>;
+  gndo:hasRelation _:node1ivpishs6x25396054 .
+
+_:node1ivpishs6x25396054 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124960812>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11855140X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hippocrates: Von dem leben vnd gelaechter Democriti kurtzweilig vñ fast nutzlich z°ulesen. ... 1521. (VD16 H 3793)",
+    "Hippocrates: Sententia omnis, ac verba, quae in Hippocratis aphorismis continentur",
+    "Hippocrates: De aere, aquis, et locis libellus ...", "Hippocrates: De aere, aquis et locis",
+    "Hippocrates: De aeribus, aquis et locis", "Hippocrates: De aeribus, aquis et locis",
+    "Hippocrates: Aphorismi .... - s.a.", "Hippocrates: Aphorismi", "Hippocrates: Aphorismi",
+    "Hippocrates: Aphorismi", "Hippocrates: Aphorismi", "Hippocrates: Aphorismi Hippocratis interp̃te Laurentio Laurentiano Florentino.. 1523. (VD16 H 3765)",
+    "Hippocrates: De aere, aquis et locis. 1590. (VD16 H 3751)", "Hippocrates: HIPPOCRAtis Coi medicorum OMNIVM SINE CONtrouersia principis Aphorismorum sectiones ... 1544. (VD16 H 3756)",
+    "Hippocrates: HIPOCRATES DE PRAEPARATIONE HOminis ad Ptolomeum Regem è Graeco in Latinum traductus a ... 1562. (VD16 H 3783)",
+    "Hippocrates: NOSOMANTICA HIPPOCRATEA, Siue HIPPOCRATIS PROGNOSTICA CVNCTA, EX OMNIBVS IPSIVS ... 1588. (VD16 H 3749)",
+    "Hippocrates: Aphorismi. 1535. (VD16 H 3766)", "Hippocrates: HIPPOCRATIS COI MEDICOrum Principis: De natura Hominis Liber. ACCESSERVNT BLASII ... 1558. (VD16 H 3813)",
+    "Hippocrates: HIPPOCRATIS COI MEDICORVM OMNIVM LONGE PRINCIPIS, OPERA QVAE AD NOS EXTANT OMnia, per ... 1558. (VD16 H 3746)",
+    "Velsius, Justus: Aphorismi. 1543. (VD16 V 532)", "Hippocrates: Von dem leben vnd gelaechter Democriti kurtzweilig vñ fast nutzlich zůlesen. ... 1521. (VD16 H 3793)";
+  wdrs:describedby <https://d-nb.info/gnd/11855140X/about> .
+
+<https://d-nb.info/gnd/11855140X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11855140X> gndo:usingInstructions "Alle EST sind, sofern nicht anders vermerkt, entnommen der nicht veröffentlichten Ausgabe mit Stand 1995 des \"Corpus Hippocraticum, Verzeichnis der hippokratischen und pseudohippokratischen Schriften, zusammengestellt von Gerhard Fichtner, Tübingen 1995\" (= Fichtner 1995). Eine Vw \"Corpus Hippocraticum\" erfolgt nicht. Siehe dort"@de;
+  gndo:biographicalOrHistoricalInformation "Griech. Arzt; Verfasser medizinischer, philosophischer u.a. naturwissenschaftlicher Werke"@de;
+  gndo:udkCode "500 - 401 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4032541-6>;
+  gndo:professionOrOccupation _:node1ivpishs6x25396055 .
+
+_:node1ivpishs6x25396055 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4003157-3>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/11855140X> gndo:dateOfBirth "-0460"^^xsd:gYear;
+  gndo:dateOfDeath "-0370"^^xsd:gYear .
+

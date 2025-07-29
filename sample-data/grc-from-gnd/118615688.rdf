@@ -1,0 +1,394 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118615688> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118615688/about> .
+
+<https://d-nb.info/gnd/118615688/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-08T19:33:17.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118615688> gndo:gndIdentifier "118615688";
+  owl:sameAs <https://dbpedia.org/resource/Sophocles>, <http://viaf.org/viaf/17689>,
+    <http://www.wikidata.org/entity/Q7235>;
+  gndo:oldAuthorityNumber "(DE-588)1325003999";
+  owl:sameAs <https://d-nb.info/gnd/1325003999>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1325003999";
+  gndo:oldAuthorityNumber "(DE-588)1082837784";
+  owl:sameAs <https://d-nb.info/gnd/1082837784>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1082837784";
+  gndo:oldAuthorityNumber "(DE-588)1089095236";
+  owl:sameAs <https://d-nb.info/gnd/1089095236>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089095236";
+  gndo:oldAuthorityNumber "(DE-588)1089928319";
+  owl:sameAs <https://d-nb.info/gnd/1089928319>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089928319";
+  gndo:oldAuthorityNumber "(DE-588)1089884648";
+  owl:sameAs <https://d-nb.info/gnd/1089884648>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089884648";
+  gndo:oldAuthorityNumber "(DE-588)1089715889";
+  owl:sameAs <https://d-nb.info/gnd/1089715889>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089715889";
+  gndo:oldAuthorityNumber "(DE-588)1028484240";
+  owl:sameAs <https://d-nb.info/gnd/1028484240>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1028484240";
+  gndo:oldAuthorityNumber "(DE-588)1016990472";
+  owl:sameAs <https://d-nb.info/gnd/1016990472>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1016990472";
+  gndo:oldAuthorityNumber "(DE-588a)1016990472", "(DE-588)187566836";
+  owl:sameAs <https://d-nb.info/gnd/187566836>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187566836";
+  gndo:oldAuthorityNumber "(DE-588a)187566836", "(DE-588a)118615688", "(DE-588a)127951679",
+    "(DE-588a)130988847", "(DE-588c)4055614-1";
+  gndo:variantNameForThePerson "Sophocles, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587108 .
+
+_:node1ivs02adlx24587108 gndo:personalName "Sophocles";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Szophoklész, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587109 .
+
+_:node1ivs02adlx24587109 gndo:personalName "Szophoklész";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophocles, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587110 .
+
+_:node1ivs02adlx24587110 gndo:personalName "Sophocles";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophocles, Tragicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587111 .
+
+_:node1ivs02adlx24587111 gndo:personalName "Sophocles";
+  gndo:nameAddition "Tragicus" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Pseudo-Sophocles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587112 .
+
+_:node1ivs02adlx24587112 gndo:personalName "Pseudo-Sophocles" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofocle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587113 .
+
+_:node1ivs02adlx24587113 gndo:personalName "Sofocle" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofocles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587114 .
+
+_:node1ivs02adlx24587114 gndo:personalName "Sofocles" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sófocles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587115 .
+
+_:node1ivs02adlx24587115 gndo:personalName "Sófocles" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofokl";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587116 .
+
+_:node1ivs02adlx24587116 gndo:personalName "Sofokl" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofokle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587117 .
+
+_:node1ivs02adlx24587117 gndo:personalName "Sofokle" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofokles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587118 .
+
+_:node1ivs02adlx24587118 gndo:personalName "Sofokles" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofoklis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587119 .
+
+_:node1ivs02adlx24587119 gndo:personalName "Sofoklis" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofokleo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587120 .
+
+_:node1ivs02adlx24587120 gndo:personalName "Sofokleo" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sôfôqles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587121 .
+
+_:node1ivs02adlx24587121 gndo:personalName "Sôfôqles" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofoklov";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587122 .
+
+_:node1ivs02adlx24587122 gndo:personalName "Sofoklov" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofokŭl";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587123 .
+
+_:node1ivs02adlx24587123 gndo:personalName "Sofokŭl" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Soffocles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587124 .
+
+_:node1ivs02adlx24587124 gndo:personalName "Soffocles" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophocle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587125 .
+
+_:node1ivs02adlx24587125 gndo:personalName "Sophocle" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophocle, de Colone";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587126 .
+
+_:node1ivs02adlx24587126 gndo:personalName "Sophocle";
+  gndo:nameAddition "de Colone" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophoclis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587127 .
+
+_:node1ivs02adlx24587127 gndo:personalName "Sophoclis" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophoklēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587128 .
+
+_:node1ivs02adlx24587128 gndo:personalName "Sophoklēs" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophokles, Athener";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587129 .
+
+_:node1ivs02adlx24587129 gndo:personalName "Sophokles";
+  gndo:nameAddition "Athener" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophokles, Sohn des Sophillos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587130 .
+
+_:node1ivs02adlx24587130 gndo:personalName "Sophokles";
+  gndo:nameAddition "Sohn des Sophillos" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophokles, Sohn des Sophillus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587131 .
+
+_:node1ivs02adlx24587131 gndo:personalName "Sophokles";
+  gndo:nameAddition "Sohn des Sophillus" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophokles, Tragiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587132 .
+
+_:node1ivs02adlx24587132 gndo:personalName "Sophokles";
+  gndo:nameAddition "Tragiker" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophokles, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587133 .
+
+_:node1ivs02adlx24587133 gndo:personalName "Sophokles";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophokles-Piens";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587134 .
+
+_:node1ivs02adlx24587134 gndo:personalName "Sophokles-Piens" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophokleus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587135 .
+
+_:node1ivs02adlx24587135 gndo:personalName "Sophokleus" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sopocles, Tragicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587136 .
+
+_:node1ivs02adlx24587136 gndo:personalName "Sopocles";
+  gndo:nameAddition "Tragicus" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sop'okle";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587137 .
+
+_:node1ivs02adlx24587137 gndo:personalName "Sop'okle" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sūfūklīs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587138 .
+
+_:node1ivs02adlx24587138 gndo:personalName "Sūfūklīs" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofoklo, Sin Sofilov";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587139 .
+
+_:node1ivs02adlx24587139 gndo:personalName "Sofoklo";
+  gndo:nameAddition "Sin Sofilov" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sofoklo, Atenjanin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587140 .
+
+_:node1ivs02adlx24587140 gndo:personalName "Sofoklo";
+  gndo:nameAddition "Atenjanin" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "Sophokles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587141 .
+
+_:node1ivs02adlx24587141 gndo:personalName "Sophokles" .
+
+<https://d-nb.info/gnd/118615688> gndo:variantNameForThePerson "سوفوکلس"@fa;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587142 .
+
+_:node1ivs02adlx24587142 gndo:personalName "سوفوکلس" .
+
+<https://d-nb.info/gnd/118615688> gndo:preferredNameForThePerson "Sophocles";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587143 .
+
+_:node1ivs02adlx24587143 gndo:personalName "Sophocles" .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118518488>;
+  gndo:hasRelation _:node1ivs02adlx24587144 .
+
+_:node1ivs02adlx24587144 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118518488>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:hasRelation _:node1ivs02adlx24587145 .
+
+_:node1ivs02adlx24587145 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587146 .
+
+_:node1ivs02adlx24587146 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100068065>;
+  gndo:hasRelation _:node1ivs02adlx24587147 .
+
+_:node1ivs02adlx24587147 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100068065>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:hasRelation _:node1ivs02adlx24587148 .
+
+_:node1ivs02adlx24587148 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587149 .
+
+_:node1ivs02adlx24587149 gndo:forename "Helius";
+  gndo:surname "Eobanus" .
+
+<https://d-nb.info/gnd/118615688> gndo:hasRelation _:node1ivs02adlx24587150 .
+
+_:node1ivs02adlx24587150 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587151 .
+
+_:node1ivs02adlx24587151 gndo:forename "Thomas";
+  gndo:surname "Kirchmeyer" .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117212733>;
+  gndo:hasRelation _:node1ivs02adlx24587152 .
+
+_:node1ivs02adlx24587152 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117212733>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:hasRelation _:node1ivs02adlx24587153 .
+
+_:node1ivs02adlx24587153 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587154 .
+
+_:node1ivs02adlx24587154 gndo:forename "Veit";
+  gndo:surname "Oertel";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118615688> gndo:hasRelation _:node1ivs02adlx24587155 .
+
+_:node1ivs02adlx24587155 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587156 .
+
+_:node1ivs02adlx24587156 gndo:forename "Ernst";
+  gndo:surname "Rhegius" .
+
+<https://d-nb.info/gnd/118615688> gndo:hasRelation _:node1ivs02adlx24587157 .
+
+_:node1ivs02adlx24587157 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587158 .
+
+_:node1ivs02adlx24587158 gndo:forename "Georg";
+  gndo:surname "Rotaller" .
+
+<https://d-nb.info/gnd/118615688> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121650723>;
+  gndo:hasRelation _:node1ivs02adlx24587159 .
+
+_:node1ivs02adlx24587159 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/121650723>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118615688> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Sophocles: Aiax flagellifer. 1533. (VD16 ZV 14509)", "Sophocles: \\=GSOPHOKLEUS TRAGŌDIAI HEPTA.\\=g SOPHOCLIS TRAgoediae Septem... .. 1567. (VD16 S 7037)",
+    "Sophocles: \\=GSOPHOKLEUS TRAGŌDIAI HEPTA.\\=g SOPHOCLIS TRAgoediae Septem. ... . 1585. (VD16 S 7038)",
+    "Sophocles: \\=GSOPHOKLĒS.\\=g SOPHOCLIS TRAGOEDIAE VII. Ex aduerso respondet Latina interpretatio, in ... 1597. (VD16 S 7039)",
+    "Sophocles: \\=GSOPHOKLEUS TRAGŌDIA, Oidipus tyrannos.\\=g SOPHOCLIS OEDIPVS TYRANNVS. PRO SCHOLA ... 1567. (VD16 S 7048)",
+    "Sophocles: INTERPRETATIO TRAGOEDIARVM SOPHOCLIS AD VTILITATEM IVVENTVTIS QVAE STVDIOSA EST GRAECAE ... 1549. (VD16 ZV 14512)",
+    "Kirchmeyer, Thomas: IVDAS ISCARIOTES TRAGOEDIA NOVA ET SACRA, LECTV & actu festiua & iucunda. Thoma ... 1552. (VD16 K 983)",
+    "Sophocles: TRACHINIAE SOPHOCLIS, POETAE TRAGICI: de extremo Actu rerum gestarum HERCVLIS, ... 1584. (VD16 ZV 14514)",
+    "Sophocles: TRACHINIAE SOPHOCLIS Poëtae Tragici DE Extremo actu rerum gestarum HERCVLIS, ... 1588. (VD16 ZV 14516)",
+    "Sophocles: Sophoclis TRAGOEDIAE SEPTEM, Latino carmine redditae, & Annotationibus illustratae, PER ... 1558. (VD16 S 7040)";
+  wdrs:describedby <https://d-nb.info/gnd/118615688/about> .
+
+<https://d-nb.info/gnd/118615688/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118615688> gndo:biographicalOrHistoricalInformation "Griech. Dichter, der v.a. Tragödien, daneben aber auch Elegien und Paeane schrieb"@de;
+  gndo:udkCode "500 - 401 v. Chr. ";
+  owl:sameAs <https://www.filmportal.de/7E8EBF751C944F37A8D015A87FC036A8>;
+  gndo:professionOrOccupation _:node1ivs02adlx24587160 .
+
+_:node1ivs02adlx24587160 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4140241-8>;
+  rdf:_2 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_3 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118615688> gndo:dateOfBirthAndDeath "[497/496 v. Chr.-406 v. Chr.]" .
+

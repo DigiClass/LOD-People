@@ -1,0 +1,124 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100966136> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100966136/about> .
+
+<https://d-nb.info/gnd/100966136/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2017-09-06T10:00:09.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100966136> gndo:gndIdentifier "100966136";
+  foaf:page <https://de.wikipedia.org/wiki/Philagathos_von_Cerami>;
+  owl:sameAs <http://viaf.org/viaf/88965134>, <https://isni.org/isni/0000000062139586>,
+    <http://www.wikidata.org/entity/Q3744914>, <http://id.loc.gov/rwo/agents/n2013025756>;
+  gndo:oldAuthorityNumber "(DE-588)176994491";
+  owl:sameAs <https://d-nb.info/gnd/176994491>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/176994491";
+  gndo:oldAuthorityNumber "(DE-588a)176994491", "(DE-588a)100966136";
+  gndo:variantNameForThePerson "Philagathos, Philosophos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399498 .
+
+_:node1ivpishs6x25399498 gndo:personalName "Philagathos";
+  gndo:nameAddition "Philosophos" .
+
+<https://d-nb.info/gnd/100966136> gndo:variantNameForThePerson "Philippos, Philosophos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399499 .
+
+_:node1ivpishs6x25399499 gndo:personalName "Philippos";
+  gndo:nameAddition "Philosophos" .
+
+<https://d-nb.info/gnd/100966136> gndo:variantNameForThePerson "Philigatos, le Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399500 .
+
+_:node1ivpishs6x25399500 gndo:personalName "Philigatos";
+  gndo:nameAddition "le Philosoph" .
+
+<https://d-nb.info/gnd/100966136> gndo:variantNameForThePerson "Philosophus, Philagathus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399501 .
+
+_:node1ivpishs6x25399501 gndo:forename "Philagathus";
+  gndo:surname "Philosophus" .
+
+<https://d-nb.info/gnd/100966136> gndo:variantNameForThePerson "Filagato, da Cerami";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399502 .
+
+_:node1ivpishs6x25399502 gndo:personalName "Filagato";
+  gndo:nameAddition "da Cerami" .
+
+<https://d-nb.info/gnd/100966136> gndo:variantNameForThePerson "Philagathus, Cerameus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399503 .
+
+_:node1ivpishs6x25399503 gndo:personalName "Philagathus";
+  gndo:nameAddition "Cerameus" .
+
+<https://d-nb.info/gnd/100966136> gndo:preferredNameForThePerson "Philagathus, Philosophus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25399504 .
+
+_:node1ivpishs6x25399504 gndo:personalName "Philagathus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/100966136> gndo:professionalRelationship <https://d-nb.info/gnd/11860211X>;
+  gndo:hasRelation _:node1ivpishs6x25399505 .
+
+_:node1ivpishs6x25399505 gndo:professionalRelationship <https://d-nb.info/gnd/11860211X>;
+  gndo:functionOrRoleAsLiteral "Herrscher";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/100966136> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  wdrs:describedby <https://d-nb.info/gnd/100966136/about> .
+
+<https://d-nb.info/gnd/100966136/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100966136> gndo:periodOfActivity "ca. 11./12. Jh.";
+  gndo:placeOfBirth <https://d-nb.info/gnd/7695153-4>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4117097-0>, <https://d-nb.info/gnd/4044402-8>;
+  gndo:professionOrOccupation _:node1ivpishs6x25399506 .
+
+_:node1ivpishs6x25399506 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4039902-3>;
+  rdf:_2 <https://d-nb.info/gnd/4130322-2> .
+

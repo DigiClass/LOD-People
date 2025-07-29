@@ -1,0 +1,618 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118637797> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118637797/about> .
+
+<https://d-nb.info/gnd/118637797/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:50:44.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118637797> gndo:gndIdentifier "118637797";
+  foaf:page <https://de.wikipedia.org/wiki/Basilius_der_Gro%C3%9Fe>;
+  owl:sameAs <https://dbpedia.org/resource/Basil_of_Caesarea>, <http://viaf.org/viaf/88967224>,
+    <https://isni.org/isni/0000000121029433>, <http://www.wikidata.org/entity/Q44258>,
+    <http://id.loc.gov/rwo/agents/n80004066>;
+  gndo:oldAuthorityNumber "(DE-588)1089927045";
+  owl:sameAs <https://d-nb.info/gnd/1089927045>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089927045";
+  gndo:oldAuthorityNumber "(DE-588)1089921152";
+  owl:sameAs <https://d-nb.info/gnd/1089921152>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089921152";
+  gndo:oldAuthorityNumber "(DE-588)1089797117";
+  owl:sameAs <https://d-nb.info/gnd/1089797117>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089797117";
+  gndo:oldAuthorityNumber "(DE-588)183080742";
+  owl:sameAs <https://d-nb.info/gnd/183080742>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183080742";
+  gndo:oldAuthorityNumber "(DE-588a)183080742", "(DE-588)182955664";
+  owl:sameAs <https://d-nb.info/gnd/182955664>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182955664";
+  gndo:oldAuthorityNumber "(DE-588a)182955664", "(DE-588)182843122";
+  owl:sameAs <https://d-nb.info/gnd/182843122>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182843122";
+  gndo:oldAuthorityNumber "(DE-588a)182843122", "(DE-588)15850156X";
+  owl:sameAs <https://d-nb.info/gnd/15850156X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/15850156X";
+  gndo:oldAuthorityNumber "(DE-588a)15850156X", "(DE-588)158452518";
+  owl:sameAs <https://d-nb.info/gnd/158452518>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158452518";
+  gndo:oldAuthorityNumber "(DE-588a)158452518", "(DE-588)185878121";
+  owl:sameAs <https://d-nb.info/gnd/185878121>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185878121";
+  gndo:oldAuthorityNumber "(DE-588a)185878121", "(DE-588)182955621";
+  owl:sameAs <https://d-nb.info/gnd/182955621>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182955621";
+  gndo:oldAuthorityNumber "(DE-588a)182955621", "(DE-588a)118637797", "(DE-588a)102446806",
+    "(DE-588a)119614219", "(DE-588c)4069159-7";
+  gndo:variantNameForThePerson "Basileios, der Grosse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585140 .
+
+_:node1ivs02adlx24585140 gndo:personalName "Basileios";
+  gndo:nameAddition "der Grosse" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basileios, der Große";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585141 .
+
+_:node1ivs02adlx24585141 gndo:personalName "Basileios";
+  gndo:nameAddition "der Große" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basileios, ho Megas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585142 .
+
+_:node1ivs02adlx24585142 gndo:personalName "Basileios";
+  gndo:nameAddition "ho Megas" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basileios, Archiepiskopos Seleukias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585143 .
+
+_:node1ivs02adlx24585143 gndo:personalName "Basileios";
+  gndo:nameAddition "Archiepiskopos Seleukias" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basileios, Meg.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585144 .
+
+_:node1ivs02adlx24585144 gndo:personalName "Basileios";
+  gndo:nameAddition "Meg." .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basileios, Megalos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585145 .
+
+_:node1ivs02adlx24585145 gndo:personalName "Basileios";
+  gndo:nameAddition "Megalos" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, von Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585146 .
+
+_:node1ivs02adlx24585146 gndo:personalName "Basilius";
+  gndo:nameAddition "von Caesarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basileios, von Kaisareia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585147 .
+
+_:node1ivs02adlx24585147 gndo:personalName "Basileios";
+  gndo:nameAddition "von Kaisareia" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, von Cäsarea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585148 .
+
+_:node1ivs02adlx24585148 gndo:personalName "Basilius";
+  gndo:nameAddition "von Cäsarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Caesareae Cappadociae Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585149 .
+
+_:node1ivs02adlx24585149 gndo:personalName "Basilius";
+  gndo:nameAddition "Caesareae Cappadociae Archiepiscopus" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Capadociae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585150 .
+
+_:node1ivs02adlx24585150 gndo:personalName "Basilius";
+  gndo:nameAddition "Capadociae" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585151 .
+
+_:node1ivs02adlx24585151 gndo:personalName "Basilius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585152 .
+
+_:node1ivs02adlx24585152 gndo:personalName "Basilius" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, der Große";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585153 .
+
+_:node1ivs02adlx24585153 gndo:personalName "Basilius";
+  gndo:nameAddition "der Große" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585154 .
+
+_:node1ivs02adlx24585154 gndo:personalName "Basilius";
+  gndo:nameAddition "Archiepiscopus" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Archiepiscopus Caesariae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585155 .
+
+_:node1ivs02adlx24585155 gndo:personalName "Basilius";
+  gndo:nameAddition "Archiepiscopus Caesariae" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Divus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585156 .
+
+_:node1ivs02adlx24585156 gndo:personalName "Basilius";
+  gndo:nameAddition "Divus" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Keisareias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585157 .
+
+_:node1ivs02adlx24585157 gndo:personalName "Basilius";
+  gndo:nameAddition "Keisareias" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilio, San";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585158 .
+
+_:node1ivs02adlx24585158 gndo:personalName "Basilio";
+  gndo:nameAddition "San" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilio, di Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585159 .
+
+_:node1ivs02adlx24585159 gndo:personalName "Basilio";
+  gndo:nameAddition "di Caesarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilios, der Grosse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585160 .
+
+_:node1ivs02adlx24585160 gndo:personalName "Basilios";
+  gndo:nameAddition "der Grosse" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Barseġ, Kesarac̕i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585161 .
+
+_:node1ivs02adlx24585161 gndo:personalName "Barseġ";
+  gndo:nameAddition "Kesarac̕i" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Barseġ, Sowrb";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585162 .
+
+_:node1ivs02adlx24585162 gndo:personalName "Barseġ";
+  gndo:nameAddition "Sowrb" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Barseł, Kesarac̣i";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585163 .
+
+_:node1ivs02adlx24585163 gndo:personalName "Barseł";
+  gndo:nameAddition "Kesarac̣i" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basili, Kesarieli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585164 .
+
+_:node1ivs02adlx24585164 gndo:personalName "Basili";
+  gndo:nameAddition "Kesarieli" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basili, Kesarielis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585165 .
+
+_:node1ivs02adlx24585165 gndo:personalName "Basili";
+  gndo:nameAddition "Kesarielis" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basili, Didi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585166 .
+
+_:node1ivs02adlx24585166 gndo:personalName "Basili";
+  gndo:nameAddition "Didi" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basili, el Gran";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585167 .
+
+_:node1ivs02adlx24585167 gndo:personalName "Basili";
+  gndo:nameAddition "el Gran" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basili, Kapadokielis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585168 .
+
+_:node1ivs02adlx24585168 gndo:personalName "Basili";
+  gndo:nameAddition "Kapadokielis" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasilij, Archiepiskop";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585169 .
+
+_:node1ivs02adlx24585169 gndo:personalName "Vasilij";
+  gndo:nameAddition "Archiepiskop" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasilij, Kesarijskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585170 .
+
+_:node1ivs02adlx24585170 gndo:personalName "Vasilij";
+  gndo:nameAddition "Kesarijskij" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasilij, Kesarii Kappadokijskija";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585171 .
+
+_:node1ivs02adlx24585171 gndo:personalName "Vasilij";
+  gndo:nameAddition "Kesarii Kappadokijskija" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasilij, Kappadokijskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585172 .
+
+_:node1ivs02adlx24585172 gndo:personalName "Vasilij";
+  gndo:nameAddition "Kappadokijskij" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasilie, Cel Mare";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585173 .
+
+_:node1ivs02adlx24585173 gndo:personalName "Vasilie";
+  gndo:nameAddition "Cel Mare" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasile, Cel Mare";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585174 .
+
+_:node1ivs02adlx24585174 gndo:personalName "Vasile";
+  gndo:nameAddition "Cel Mare" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasile, Celmare";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585175 .
+
+_:node1ivs02adlx24585175 gndo:personalName "Vasile";
+  gndo:nameAddition "Celmare" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasilie, Čel Mare";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585176 .
+
+_:node1ivs02adlx24585176 gndo:personalName "Vasilie";
+  gndo:nameAddition "Čel Mare" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Bāsīlyūs, al-Kabīr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585177 .
+
+_:node1ivs02adlx24585177 gndo:personalName "Bāsīlyūs";
+  gndo:nameAddition "al-Kabīr" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585178 .
+
+_:node1ivs02adlx24585178 gndo:personalName "Basilissa" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, der Grosse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585179 .
+
+_:node1ivs02adlx24585179 gndo:personalName "Basilius";
+  gndo:nameAddition "der Grosse" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Caesarensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585180 .
+
+_:node1ivs02adlx24585180 gndo:personalName "Basilius";
+  gndo:nameAddition "Caesarensis" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basileios, von Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585181 .
+
+_:node1ivs02adlx24585181 gndo:personalName "Basileios";
+  gndo:nameAddition "von Caesarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585182 .
+
+_:node1ivs02adlx24585182 gndo:personalName "Basilius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Caesareae Cappadociae Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585183 .
+
+_:node1ivs02adlx24585183 gndo:personalName "Basilius";
+  gndo:nameAddition "Caesareae Cappadociae Episcopus" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Cappadociae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585184 .
+
+_:node1ivs02adlx24585184 gndo:personalName "Basilius";
+  gndo:nameAddition "Cappadociae" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Magnus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585185 .
+
+_:node1ivs02adlx24585185 gndo:personalName "Basilius";
+  gndo:nameAddition "Magnus" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585186 .
+
+_:node1ivs02adlx24585186 gndo:personalName "Basilius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basil, of Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585187 .
+
+_:node1ivs02adlx24585187 gndo:personalName "Basil";
+  gndo:nameAddition "of Caesarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basil, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585188 .
+
+_:node1ivs02adlx24585188 gndo:personalName "Basil";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basil, the Great";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585189 .
+
+_:node1ivs02adlx24585189 gndo:personalName "Basil";
+  gndo:nameAddition "the Great" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basile, de Césarée";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585190 .
+
+_:node1ivs02adlx24585190 gndo:personalName "Basile";
+  gndo:nameAddition "de Césarée" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basile, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585191 .
+
+_:node1ivs02adlx24585191 gndo:personalName "Basile";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilio, di Cesarea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585192 .
+
+_:node1ivs02adlx24585192 gndo:personalName "Basilio";
+  gndo:nameAddition "di Cesarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilio, il Grande";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585193 .
+
+_:node1ivs02adlx24585193 gndo:personalName "Basilio";
+  gndo:nameAddition "il Grande" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilio, Magno";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585194 .
+
+_:node1ivs02adlx24585194 gndo:personalName "Basilio";
+  gndo:nameAddition "Magno" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Pseudo-Basilius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585195 .
+
+_:node1ivs02adlx24585195 gndo:personalName "Pseudo-Basilius" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Pseudo-Basilius, Caesariensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585196 .
+
+_:node1ivs02adlx24585196 gndo:personalName "Pseudo-Basilius";
+  gndo:nameAddition "Caesariensis" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Bischof von Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585197 .
+
+_:node1ivs02adlx24585197 gndo:personalName "Basilius";
+  gndo:nameAddition "Bischof von Caesarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basil, der Grosse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585198 .
+
+_:node1ivs02adlx24585198 gndo:personalName "Basil";
+  gndo:nameAddition "der Grosse" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Saint Basil";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585199 .
+
+_:node1ivs02adlx24585199 gndo:personalName "Saint Basil" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Caesarea, Basilius von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585200 .
+
+_:node1ivs02adlx24585200 gndo:forename "Basilius";
+  gndo:prefix "von";
+  gndo:surname "Caesarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Vasilij, Velikij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585201 .
+
+_:node1ivs02adlx24585201 gndo:personalName "Vasilij";
+  gndo:nameAddition "Velikij" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Basilius, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585202 .
+
+_:node1ivs02adlx24585202 gndo:personalName "Basilius";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "Pseudo-Basil, of Caesarea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585203 .
+
+_:node1ivs02adlx24585203 gndo:personalName "Pseudo-Basil";
+  gndo:nameAddition "of Caesarea" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "P̕sevdobasili, Kesarieli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585204 .
+
+_:node1ivs02adlx24585204 gndo:personalName "P̕sevdobasili";
+  gndo:nameAddition "Kesarieli" .
+
+<https://d-nb.info/gnd/118637797> gndo:variantNameForThePerson "ფსევდობასილი, კესარიელი"@ka;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585205 .
+
+_:node1ivs02adlx24585205 gndo:personalName "ფსევდობასილი";
+  gndo:nameAddition "კესარიელი" .
+
+<https://d-nb.info/gnd/118637797> gndo:preferredNameForThePerson "Basilius, Caesariensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585206 .
+
+_:node1ivs02adlx24585206 gndo:personalName "Basilius";
+  gndo:nameAddition "Caesariensis" .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivs02adlx24585207 .
+
+_:node1ivs02adlx24585207 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:hasRelation _:node1ivs02adlx24585208 .
+
+_:node1ivs02adlx24585208 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585209 .
+
+_:node1ivs02adlx24585209 gndo:personalName "Philo";
+  gndo:nameAddition "aus Alexandria" .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124623425>;
+  gndo:hasRelation _:node1ivs02adlx24585210 .
+
+_:node1ivs02adlx24585210 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124623425>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119773708>;
+  gndo:hasRelation _:node1ivs02adlx24585211 .
+
+_:node1ivs02adlx24585211 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119773708>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:hasRelation _:node1ivs02adlx24585212 .
+
+_:node1ivs02adlx24585212 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585213 .
+
+_:node1ivs02adlx24585213 gndo:personalName "Rufinus";
+  gndo:nameAddition "aus Aquileia" .
+
+<https://d-nb.info/gnd/118637797> gndo:hasRelation _:node1ivs02adlx24585214 .
+
+_:node1ivs02adlx24585214 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585215 .
+
+_:node1ivs02adlx24585215 gndo:forename "Raffaello";
+  gndo:surname "Maffei" .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719134>;
+  gndo:hasRelation _:node1ivs02adlx24585216 .
+
+_:node1ivs02adlx24585216 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119719134>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1089628099>;
+  gndo:hasRelation _:node1ivs02adlx24585217 .
+
+_:node1ivs02adlx24585217 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1089628099>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118516868>;
+  gndo:hasRelation _:node1ivs02adlx24585218 .
+
+_:node1ivs02adlx24585218 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118516868>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118505114>;
+  gndo:hasRelation _:node1ivs02adlx24585219 .
+
+_:node1ivs02adlx24585219 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118505114>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:familialRelationship <https://d-nb.info/gnd/118813757>;
+  agrelon:hasSibling <https://d-nb.info/gnd/118813757>;
+  gndo:hasRelation _:node1ivs02adlx24585220 .
+
+_:node1ivs02adlx24585220 agrelon:hasSibling <https://d-nb.info/gnd/118813757>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:familialRelationship <https://d-nb.info/gnd/118541919>;
+  agrelon:hasSibling <https://d-nb.info/gnd/118541919>;
+  gndo:hasRelation _:node1ivs02adlx24585221 .
+
+_:node1ivs02adlx24585221 agrelon:hasSibling <https://d-nb.info/gnd/118541919>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:familialRelationship <https://d-nb.info/gnd/118813749>;
+  agrelon:hasGrandParent <https://d-nb.info/gnd/118813749>;
+  gndo:hasRelation _:node1ivs02adlx24585222 .
+
+_:node1ivs02adlx24585222 agrelon:hasGrandParent <https://d-nb.info/gnd/118813749>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118637797> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "S. S. P. P. Basilii, et Joann. Chrysostomi homiliae selectae", "Opera",
+    "Règle", "Ad adolescentes oratiio de modo e literis graecis utilitatem per*", "Epistolai",
+    "Iulianus <Imperium Romanum, Imperator>: Epistolae", "Homilia eis tēn hagian tu Christu genēsin kai alloi",
+    "Oratio de humana Christi generatione", "Orationes quaedam devotissimae", "Orationes quaedam divotissimae Basilii Magni et Chrisostomi",
+    "Nicephorus <von Konstantinopel>: De spiritu sancto. 1573. (VD16 N 1448)", "Budé, Guillaume: Epistola de vita solitaria. 1557. (VD16 B 9108)",
+    "Monodia. 1551/1552. (VD16 B 644)", "Concio ad adolescentes. 1519. (VD16 ZV 1096)",
+    "De ratione vitae solitariae libellus. 1516. (VD16 B 685)", "Erasmus, Desiderius: Opera. 1540. (VD16 ZV 5304)",
+    "Concio ad adolescentes. 1508. (VD16 ZV 1095)", "Basilii Magni Opera ... verteutscht ... vnd durch ... Schweikart, Graffen zu Helffenstein in Truck ... 1600. (VD16 B 648)",
+    "\\=GHomilia pros tus neus, hopōs an ex hellēnikōn ōphelointo logōn.\\=g Homilia ad adolescentes, ... 1560. (VD16 B 651)",
+    "ORATIO BASILII MAGNI, CVI titulus est, Quòd Deus non sit author malorum: Conuersa in ... 1567. (VD16 B 718)",
+    "Adressat von: Gregorius <Nyssenus>: [Pros Eustathian, Ambrosian kai Basilissan kai Peri Tōn Apiontōn Eis Ierosolyma Epistola]. - Hannoverae, 1644";
+  wdrs:describedby <https://d-nb.info/gnd/118637797/about> .
+
+<https://d-nb.info/gnd/118637797/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118637797> gndo:biographicalOrHistoricalInformation "Griech. Kirchenlehrer, seit 370 Erzbischof von Caesarea u. Metropolit von Kappadokien"@de;
+  gndo:udkCode "301 - 400";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4136229-9>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4136229-9>;
+  gndo:professionOrOccupation _:node1ivs02adlx24585223 .
+
+_:node1ivs02adlx24585223 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4317581-8> .
+
+<https://d-nb.info/gnd/118637797> gndo:dateOfBirth "0330"^^xsd:gYear;
+  gndo:dateOfDeath "0379"^^xsd:gYear .
+

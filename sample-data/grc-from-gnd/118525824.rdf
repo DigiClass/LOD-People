@@ -1,0 +1,526 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118525824> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118525824/about> .
+
+<https://d-nb.info/gnd/118525824/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:25:38.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118525824> gndo:gndIdentifier "118525824";
+  foaf:page <https://de.wikipedia.org/wiki/Cassius_Dio>;
+  owl:sameAs <https://dbpedia.org/resource/Cassius_Dio>, <http://viaf.org/viaf/95167625>,
+    <https://isni.org/isni/0000000121441495>, <http://www.wikidata.org/entity/Q185223>,
+    <http://id.loc.gov/rwo/agents/n79084710>;
+  gndo:oldAuthorityNumber "(DE-588)1089819579";
+  owl:sameAs <https://d-nb.info/gnd/1089819579>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089819579";
+  gndo:oldAuthorityNumber "(DE-588a)118525824", "(DE-588a)119655012", "(DE-588a)127256814",
+    "(DE-588c)4012365-0";
+  gndo:variantNameForThePerson "Cassius Dio, Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590800 .
+
+_:node1ivs02adlx24590800 gndo:personalName "Cassius Dio";
+  gndo:nameAddition "Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius Dio, von Nikaia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590801 .
+
+_:node1ivs02adlx24590801 gndo:personalName "Cassius Dio";
+  gndo:nameAddition "von Nikaia" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius Dio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590802 .
+
+_:node1ivs02adlx24590802 gndo:personalName "Cassius Dio" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Philiscus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590803 .
+
+_:node1ivs02adlx24590803 gndo:personalName "Philiscus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590804 .
+
+_:node1ivs02adlx24590804 gndo:personalName "Dio" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dionysius Cassius, Nicaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590805 .
+
+_:node1ivs02adlx24590805 gndo:personalName "Dionysius Cassius";
+  gndo:nameAddition "Nicaeus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Cassius Nicaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590806 .
+
+_:node1ivs02adlx24590806 gndo:personalName "Dion";
+  gndo:nameAddition "Cassius Nicaeus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius Dio, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590807 .
+
+_:node1ivs02adlx24590807 gndo:personalName "Cassius Dio";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius Dio, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590808 .
+
+_:node1ivs02adlx24590808 gndo:personalName "Cassius Dio";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dione, Cassio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590809 .
+
+_:node1ivs02adlx24590809 gndo:personalName "Dione";
+  gndo:nameAddition "Cassio" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius, Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590810 .
+
+_:node1ivs02adlx24590810 gndo:forename "Dion";
+  gndo:surname "Cassius" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio, Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590811 .
+
+_:node1ivs02adlx24590811 gndo:forename "Cassius";
+  gndo:surname "Dio" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cocceianus, Cassius D.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590812 .
+
+_:node1ivs02adlx24590812 gndo:forename "Cassius D.";
+  gndo:surname "Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590813 .
+
+_:node1ivs02adlx24590813 gndo:forename "Cassius";
+  gndo:surname "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius Nicaeus, Dionysius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590814 .
+
+_:node1ivs02adlx24590814 gndo:forename "Dionysius";
+  gndo:surname "Cassius Nicaeus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dionysius Nicaeus, Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590815 .
+
+_:node1ivs02adlx24590815 gndo:forename "Cassius";
+  gndo:surname "Dionysius Nicaeus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Nicaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590816 .
+
+_:node1ivs02adlx24590816 gndo:personalName "Dion";
+  gndo:nameAddition "Nicaeus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Kassios, Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590817 .
+
+_:node1ivs02adlx24590817 gndo:personalName "Kassios";
+  gndo:nameAddition "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Casio, Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590818 .
+
+_:node1ivs02adlx24590818 gndo:personalName "Casio";
+  gndo:nameAddition "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Casio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590819 .
+
+_:node1ivs02adlx24590819 gndo:forename "Casio";
+  gndo:surname "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Casio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590820 .
+
+_:node1ivs02adlx24590820 gndo:personalName "Dion";
+  gndo:nameAddition "Casio" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Kassij, Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590821 .
+
+_:node1ivs02adlx24590821 gndo:personalName "Kassij";
+  gndo:nameAddition "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Kassij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590822 .
+
+_:node1ivs02adlx24590822 gndo:personalName "Dion";
+  gndo:nameAddition "Kassij" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Kassij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590823 .
+
+_:node1ivs02adlx24590823 gndo:forename "Kassij";
+  gndo:surname "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590824 .
+
+_:node1ivs02adlx24590824 gndo:personalName "Dio Cassius" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cocceianus, Dio C.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590825 .
+
+_:node1ivs02adlx24590825 gndo:forename "Dio C.";
+  gndo:surname "Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio, Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590826 .
+
+_:node1ivs02adlx24590826 gndo:personalName "Dio";
+  gndo:nameAddition "Cassius" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590827 .
+
+_:node1ivs02adlx24590827 gndo:personalName "Dion";
+  gndo:nameAddition "Cassius" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590828 .
+
+_:node1ivs02adlx24590828 gndo:personalName "Cassius";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius, Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590829 .
+
+_:node1ivs02adlx24590829 gndo:personalName "Cassius";
+  gndo:nameAddition "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassio, Dione";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590830 .
+
+_:node1ivs02adlx24590830 gndo:personalName "Cassio";
+  gndo:nameAddition "Dione" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion Cassius, Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590831 .
+
+_:node1ivs02adlx24590831 gndo:personalName "Dion Cassius";
+  gndo:nameAddition "Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cocceianus, Cassius Dio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590832 .
+
+_:node1ivs02adlx24590832 gndo:forename "Cassius Dio";
+  gndo:surname "Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio Cocceianus, Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590833 .
+
+_:node1ivs02adlx24590833 gndo:forename "Cassius";
+  gndo:surname "Dio Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Kassios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590834 .
+
+_:node1ivs02adlx24590834 gndo:personalName "Dion";
+  gndo:nameAddition "Kassios" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Kassios, Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590835 .
+
+_:node1ivs02adlx24590835 gndo:forename "Dion";
+  gndo:surname "Kassios" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio, Cassius Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590836 .
+
+_:node1ivs02adlx24590836 gndo:personalName "Dio";
+  gndo:nameAddition "Cassius Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius Dion, Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590837 .
+
+_:node1ivs02adlx24590837 gndo:personalName "Cassius Dion";
+  gndo:nameAddition "Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius, Dio Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590838 .
+
+_:node1ivs02adlx24590838 gndo:personalName "Cassius";
+  gndo:nameAddition "Dio Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cocceianus, Cassius Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590839 .
+
+_:node1ivs02adlx24590839 gndo:personalName "Cocceianus";
+  gndo:nameAddition "Cassius Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cocceianus, Dion Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590840 .
+
+_:node1ivs02adlx24590840 gndo:personalName "Cocceianus";
+  gndo:nameAddition "Dion Cassius" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio Cassius, Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590841 .
+
+_:node1ivs02adlx24590841 gndo:personalName "Dio Cassius";
+  gndo:nameAddition "Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio, Cassius Nicaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590842 .
+
+_:node1ivs02adlx24590842 gndo:personalName "Dio";
+  gndo:nameAddition "Cassius Nicaeus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dio, Nicaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590843 .
+
+_:node1ivs02adlx24590843 gndo:personalName "Dio";
+  gndo:nameAddition "Nicaeus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590844 .
+
+_:node1ivs02adlx24590844 gndo:personalName "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Cassius Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590845 .
+
+_:node1ivs02adlx24590845 gndo:personalName "Dion";
+  gndo:nameAddition "Cassius Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590846 .
+
+_:node1ivs02adlx24590846 gndo:personalName "Dion";
+  gndo:nameAddition "Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion, Kassios Kokkianos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590847 .
+
+_:node1ivs02adlx24590847 gndo:personalName "Dion";
+  gndo:nameAddition "Kassios Kokkianos" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dione";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590848 .
+
+_:node1ivs02adlx24590848 gndo:personalName "Dione" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Kassius, Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590849 .
+
+_:node1ivs02adlx24590849 gndo:personalName "Kassius";
+  gndo:nameAddition "Dion" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Titus, Dio Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590850 .
+
+_:node1ivs02adlx24590850 gndo:personalName "Titus";
+  gndo:nameAddition "Dio Cassius" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dione, Cassio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590851 .
+
+_:node1ivs02adlx24590851 gndo:forename "Cassio";
+  gndo:surname "Dione" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius Dio Cocceianus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590852 .
+
+_:node1ivs02adlx24590852 gndo:personalName "Cassius Dio Cocceianus" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Kasjusz Dion Kokcejan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590853 .
+
+_:node1ivs02adlx24590853 gndo:personalName "Kasjusz Dion Kokcejan" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Cassius, Dio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590854 .
+
+_:node1ivs02adlx24590854 gndo:forename "Dio";
+  gndo:surname "Cassius" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Kokcejan, Kasjusz Dion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590855 .
+
+_:node1ivs02adlx24590855 gndo:forename "Kasjusz Dion";
+  gndo:surname "Kokcejan" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion Kokcejan, Kasjusz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590856 .
+
+_:node1ivs02adlx24590856 gndo:forename "Kasjusz";
+  gndo:surname "Dion Kokcejan" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Dion Cassius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590857 .
+
+_:node1ivs02adlx24590857 gndo:personalName "Dion Cassius" .
+
+<https://d-nb.info/gnd/118525824> gndo:variantNameForThePerson "Phyliscus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590858 .
+
+_:node1ivs02adlx24590858 gndo:personalName "Phyliscus" .
+
+<https://d-nb.info/gnd/118525824> gndo:preferredNameForThePerson "Cassius, Dio";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590859 .
+
+_:node1ivs02adlx24590859 gndo:personalName "Cassius";
+  gndo:nameAddition "Dio" .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118647180>;
+  gndo:hasRelation _:node1ivs02adlx24590860 .
+
+_:node1ivs02adlx24590860 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118647180>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11851217X>;
+  gndo:hasRelation _:node1ivs02adlx24590861 .
+
+_:node1ivs02adlx24590861 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11851217X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118520814>;
+  gndo:hasRelation _:node1ivs02adlx24590862 .
+
+_:node1ivs02adlx24590862 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118520814>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:hasRelation _:node1ivs02adlx24590863 .
+
+_:node1ivs02adlx24590863 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590864 .
+
+_:node1ivs02adlx24590864 gndo:forename "Caelius Secundus";
+  gndo:surname "Curio" .
+
+<https://d-nb.info/gnd/118525824> gndo:hasRelation _:node1ivs02adlx24590865 .
+
+_:node1ivs02adlx24590865 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590866 .
+
+_:node1ivs02adlx24590866 gndo:forename "Wilhelm";
+  gndo:surname "Holzmann" .
+
+<https://d-nb.info/gnd/118525824> gndo:hasRelation _:node1ivs02adlx24590867 .
+
+_:node1ivs02adlx24590867 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590868 .
+
+_:node1ivs02adlx24590868 gndo:forename "Niccolò";
+  gndo:surname "Macchiavelli" .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129794686>;
+  gndo:hasRelation _:node1ivs02adlx24590869 .
+
+_:node1ivs02adlx24590869 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129794686>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:hasRelation _:node1ivs02adlx24590870 .
+
+_:node1ivs02adlx24590870 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590871 .
+
+_:node1ivs02adlx24590871 gndo:forename "Olimpia Fulvia";
+  gndo:surname "Morati" .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119779978>;
+  gndo:hasRelation _:node1ivs02adlx24590872 .
+
+_:node1ivs02adlx24590872 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119779978>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:hasRelation _:node1ivs02adlx24590873 .
+
+_:node1ivs02adlx24590873 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118525824> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590874 .
+
+_:node1ivs02adlx24590874 gndo:forename "Sylvester";
+  gndo:surname "Telius" .
+
+<https://d-nb.info/gnd/118525824> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Tōn Diōnos Rhōmaikōn historiōn eikosi tria biblia", "Romanae historiae",
+    "Epitome della historia romana", "Pace an bello cum hoste reipublicae agere sit utilibus: Oratio C. Julii Ca*",
+    "Philisci consolatoria M. Ciceroni Colloquenti praestita, dum in Macedoni*", "The Emperor Augustus his two speeches",
+    "Historiae Romanae quae supersunt", "E Dione excerptae Historiae", "Ex Dionis Historia Romana Lib. LIV",
+    "Tōn Diōnis Kassiu Rhōmaikōn historiōn ta sōzomena. - 1824 - 1843", "Macchiavelli, Niccolò: Historia Romana, Ausz. 1600. (VD16 M 14)",
+    "Macchiavelli, Niccolò: Historia Romana, Ausz. 1599. (VD16 M 13)", "Mellemann, Albert Friedrich: Historia Romana, Ausz. 1593. (VD16 M 4461)",
+    "Macchiavelli, Niccolò: Historia Romana, Ausz. 1595. (VD16 M 12)", "Morati, Olimpia Fulvia: Decamerone, Ausz. 1570. (VD16 M 6288)",
+    "Macchiavelli, Niccolò: Historia Romana, Ausz. 1580. (VD16 M 10)", "DIONIS CASSII COCCEIANI HISTORIAE ROMANAE LIBRI XLVI, PARTIM INTEGRI, PARtim mutili, ... 1592. (VD16 D 1794)",
+    "Cicero, Marcus Tullius: Historia Romana, Ausz. 1551. (VD16 C 3544)", "Dio Cassius: Compendium. 1558. (VD16 D 1793)",
+    "Curio, Caelius Secundus: Historia Romana, Ausz. 1553. (VD16 C 6439)";
+  wdrs:describedby <https://d-nb.info/gnd/118525824/about> .
+
+<https://d-nb.info/gnd/118525824/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118525824> gndo:biographicalOrHistoricalInformation "Griechischer Geschichtsschreiber; römischer Staatsmann, Prokonsul von Afrika"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4075415-7>;
+  gndo:professionOrOccupation _:node1ivs02adlx24590875 .
+
+_:node1ivs02adlx24590875 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4155430-9>;
+  rdf:_2 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_3 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/118525824> gndo:dateOfBirth "0163"^^xsd:gYear;
+  gndo:dateOfDeath "0235"^^xsd:gYear .
+

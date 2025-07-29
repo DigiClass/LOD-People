@@ -1,0 +1,241 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118591363> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118591363/about> .
+
+<https://d-nb.info/gnd/118591363/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-12-26T10:13:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118591363> gndo:gndIdentifier "118591363";
+  owl:sameAs <http://viaf.org/viaf/40170779>, <http://www.wikidata.org/entity/Q7127720>;
+  gndo:oldAuthorityNumber "(DE-588)1089832176";
+  owl:sameAs <https://d-nb.info/gnd/1089832176>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089832176";
+  gndo:oldAuthorityNumber "(DE-588a)118591363", "(DE-588a)119780232", "(DE-588a)108966682",
+    "(DE-588c)4044411-9";
+  gndo:variantNameForThePerson "Palladio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396068 .
+
+_:node1ivpishs6x25396068 gndo:personalName "Palladio" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396069 .
+
+_:node1ivpishs6x25396069 gndo:personalName "Palladius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladius, Iatrosophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396070 .
+
+_:node1ivpishs6x25396070 gndo:personalName "Palladius";
+  gndo:nameAddition "Iatrosophista" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladius, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396071 .
+
+_:node1ivpishs6x25396071 gndo:personalName "Palladius";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396072 .
+
+_:node1ivpishs6x25396072 gndo:personalName "Palladius" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladius, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396073 .
+
+_:node1ivpishs6x25396073 gndo:personalName "Palladius";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladius, Iatrosophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396074 .
+
+_:node1ivpishs6x25396074 gndo:personalName "Palladius";
+  gndo:nameAddition "Iatrosophista" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladios, Mediziner";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396075 .
+
+_:node1ivpishs6x25396075 gndo:personalName "Palladios";
+  gndo:nameAddition "Mediziner" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladius, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396076 .
+
+_:node1ivpishs6x25396076 gndo:personalName "Palladius";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladios, Iatrosophistes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396077 .
+
+_:node1ivpishs6x25396077 gndo:personalName "Palladios";
+  gndo:nameAddition "Iatrosophistes" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladios, Medizinischer Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396078 .
+
+_:node1ivpishs6x25396078 gndo:personalName "Palladios";
+  gndo:nameAddition "Medizinischer Schriftsteller" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladio, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396079 .
+
+_:node1ivpishs6x25396079 gndo:personalName "Palladio";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladius, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396080 .
+
+_:node1ivpishs6x25396080 gndo:personalName "Palladius";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladios, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396081 .
+
+_:node1ivpishs6x25396081 gndo:personalName "Palladios";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladios, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396082 .
+
+_:node1ivpishs6x25396082 gndo:personalName "Palladios";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118591363> gndo:variantNameForThePerson "Palladios, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396083 .
+
+_:node1ivpishs6x25396083 gndo:personalName "Palladios";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118591363> gndo:preferredNameForThePerson "Palladius, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396084 .
+
+_:node1ivpishs6x25396084 gndo:personalName "Palladius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362788>;
+  gndo:hasRelation _:node1ivpishs6x25396085 .
+
+_:node1ivpishs6x25396085 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362788>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855140X>;
+  gndo:hasRelation _:node1ivpishs6x25396086 .
+
+_:node1ivpishs6x25396086 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855140X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119610361>;
+  gndo:hasRelation _:node1ivpishs6x25396087 .
+
+_:node1ivpishs6x25396087 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119610361>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119738724>;
+  gndo:hasRelation _:node1ivpishs6x25396088 .
+
+_:node1ivpishs6x25396088 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119738724>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11974144X>;
+  gndo:hasRelation _:node1ivpishs6x25396089 .
+
+_:node1ivpishs6x25396089 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11974144X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119642328>;
+  gndo:hasRelation _:node1ivpishs6x25396090 .
+
+_:node1ivpishs6x25396090 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119642328>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119754703>;
+  gndo:hasRelation _:node1ivpishs6x25396091 .
+
+_:node1ivpishs6x25396091 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119754703>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362427>;
+  gndo:hasRelation _:node1ivpishs6x25396092 .
+
+_:node1ivpishs6x25396092 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362427>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119813475>;
+  gndo:hasRelation _:node1ivpishs6x25396093 .
+
+_:node1ivpishs6x25396093 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119813475>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118591363> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hippocrates: \\=GTU MEGALU HIPPOKRATUS PANTŌN TŌN HIATRŌN KORYPHAIU TA HEURISKOMENA.\\=g MAGNI ... 1595. (VD16 H 3742)",
+    "Hippocrates: MAGNI HIPPOCRATIS MEDICORVM OMNIVM FACILE PRINCIPIS, OPERA OMNIA quae extant In ... 1596. (VD16 H 3747)";
+  wdrs:describedby <https://d-nb.info/gnd/118591363/about> .
+
+<https://d-nb.info/gnd/118591363/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118591363> gndo:biographicalOrHistoricalInformation "Bearb. im VD-16"@de;
+  gndo:udkCode "401 - 500";
+  gndo:periodOfActivity "1595-1596";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25396094 .
+
+_:node1ivpishs6x25396094 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4003157-3> .
+
+<https://d-nb.info/gnd/118591363> gndo:dateOfBirthAndDeath "[5. Jh.]" .
+

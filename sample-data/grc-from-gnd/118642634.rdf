@@ -1,0 +1,309 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118642634> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118642634/about> .
+
+<https://d-nb.info/gnd/118642634/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:28:38.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118642634> gndo:gndIdentifier "118642634";
+  owl:sameAs <https://dbpedia.org/resource/Synesius>, <http://viaf.org/viaf/87947893>,
+    <http://www.wikidata.org/entity/Q357027>;
+  gndo:oldAuthorityNumber "(DE-588)1089160690";
+  owl:sameAs <https://d-nb.info/gnd/1089160690>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089160690";
+  gndo:oldAuthorityNumber "(DE-588)17412371X";
+  owl:sameAs <https://d-nb.info/gnd/17412371X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17412371X";
+  gndo:oldAuthorityNumber "(DE-588a)17412371X", "(DE-588a)118642634", "(DE-588a)126890544",
+    "(DE-588a)119844834", "(DE-588c)4078109-4";
+  gndo:variantNameForThePerson "Synesios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590721 .
+
+_:node1ivs02adlx24590721 gndo:personalName "Synesios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, Cyrenaicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590722 .
+
+_:node1ivs02adlx24590722 gndo:personalName "Synesius";
+  gndo:nameAddition "Cyrenaicus" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590723 .
+
+_:node1ivs02adlx24590723 gndo:personalName "Synesius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590724 .
+
+_:node1ivs02adlx24590724 gndo:personalName "Synesius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590725 .
+
+_:node1ivs02adlx24590725 gndo:personalName "Synesius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, von Cyrene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590726 .
+
+_:node1ivs02adlx24590726 gndo:personalName "Synesius";
+  gndo:nameAddition "von Cyrene" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesios, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590727 .
+
+_:node1ivs02adlx24590727 gndo:personalName "Synesios";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, von Kyrene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590728 .
+
+_:node1ivs02adlx24590728 gndo:personalName "Synesius";
+  gndo:nameAddition "von Kyrene" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesios, Philosophos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590729 .
+
+_:node1ivs02adlx24590729 gndo:personalName "Synesios";
+  gndo:nameAddition "Philosophos" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Cyrenaeus, Synesius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590730 .
+
+_:node1ivs02adlx24590730 gndo:forename "Synesius";
+  gndo:surname "Cyrenaeus" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesios, der Kyrenäer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590731 .
+
+_:node1ivs02adlx24590731 gndo:personalName "Synesios";
+  gndo:nameAddition "der Kyrenäer" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesios, ho Kyrēnaios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590732 .
+
+_:node1ivs02adlx24590732 gndo:personalName "Synesios";
+  gndo:nameAddition "ho Kyrēnaios" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Sinesio, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590733 .
+
+_:node1ivs02adlx24590733 gndo:personalName "Sinesio";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Sinesio, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590734 .
+
+_:node1ivs02adlx24590734 gndo:personalName "Sinesio";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Sinesio, Filosofo Neoplatonico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590735 .
+
+_:node1ivs02adlx24590735 gndo:personalName "Sinesio";
+  gndo:nameAddition "Filosofo Neoplatonico" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, of Cyrene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590736 .
+
+_:node1ivs02adlx24590736 gndo:personalName "Synesius";
+  gndo:nameAddition "of Cyrene" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, Bishop";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590737 .
+
+_:node1ivs02adlx24590737 gndo:personalName "Synesius";
+  gndo:nameAddition "Bishop" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, of Ptolemais";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590738 .
+
+_:node1ivs02adlx24590738 gndo:personalName "Synesius";
+  gndo:nameAddition "of Ptolemais" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, aus Kyrene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590739 .
+
+_:node1ivs02adlx24590739 gndo:personalName "Synesius";
+  gndo:nameAddition "aus Kyrene" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesios, von Kyrene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590740 .
+
+_:node1ivs02adlx24590740 gndo:personalName "Synesios";
+  gndo:nameAddition "von Kyrene" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synesius, Cyrenaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590741 .
+
+_:node1ivs02adlx24590741 gndo:personalName "Synesius";
+  gndo:nameAddition "Cyrenaeus" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Sinesio, di Cirene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590742 .
+
+_:node1ivs02adlx24590742 gndo:personalName "Sinesio";
+  gndo:nameAddition "di Cirene" .
+
+<https://d-nb.info/gnd/118642634> gndo:variantNameForThePerson "Synésios, de Cyrène";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24590743 .
+
+_:node1ivs02adlx24590743 gndo:personalName "Synésios";
+  gndo:nameAddition "de Cyrène" .
+
+<https://d-nb.info/gnd/118642634> gndo:preferredNameForThePerson "Synesius, Cyrenensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24590744 .
+
+_:node1ivs02adlx24590744 gndo:personalName "Synesius";
+  gndo:nameAddition "Cyrenensis" .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119068982>;
+  gndo:hasRelation _:node1ivs02adlx24590745 .
+
+_:node1ivs02adlx24590745 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119068982>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117598690>;
+  gndo:hasRelation _:node1ivs02adlx24590746 .
+
+_:node1ivs02adlx24590746 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117598690>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119787490>;
+  gndo:hasRelation _:node1ivs02adlx24590747 .
+
+_:node1ivs02adlx24590747 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119787490>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595873>;
+  gndo:hasRelation _:node1ivs02adlx24590748 .
+
+_:node1ivs02adlx24590748 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595873>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:hasRelation _:node1ivs02adlx24590749 .
+
+_:node1ivs02adlx24590749 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590750 .
+
+_:node1ivs02adlx24590750 gndo:forename "Marsiglio";
+  gndo:surname "Ficino" .
+
+<https://d-nb.info/gnd/118642634> gndo:hasRelation _:node1ivs02adlx24590751 .
+
+_:node1ivs02adlx24590751 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24590752 .
+
+_:node1ivs02adlx24590752 gndo:forename "Gerard";
+  gndo:surname "Listré" .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119835541>;
+  gndo:hasRelation _:node1ivs02adlx24590753 .
+
+_:node1ivs02adlx24590753 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119835541>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555154>;
+  gndo:hasRelation _:node1ivs02adlx24590754 .
+
+_:node1ivs02adlx24590754 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118555154>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118808087>;
+  gndo:hasRelation _:node1ivs02adlx24590755 .
+
+_:node1ivs02adlx24590755 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118808087>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785064>;
+  gndo:hasRelation _:node1ivs02adlx24590756 .
+
+_:node1ivs02adlx24590756 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785064>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118642634> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "[Epistolai]", "Epistolai", "Hymni", "A paradoxe proving that baldnesse is much better than bushie haire",
+    "Extracts from the treatise of Synesius On Providence", "De dono ad Paeonium", "Epistolae ...",
+    "Epistolae", "Synesios des Kyrenaeers Ägyptische Erzählungen über die Vorsehung",
+    "Erasmus, Desiderius: Apocolocyntosis.  1519.  (VD16 E 3187)", "Synesij Cyrenaei, Aegyptii, seu DE PROVIDENTIA, Disputatio: CONVERSA IN LATINVM ...  1557.  (VD16 S 10407)",
+    "Erasmus, Desiderius: Apocolocyntosis.  1521.  (VD16 E 3191)", "SYNESII philosophi ac epiSCOPI PTOLEMAIDIS CYrenaicae, Epistolae lectu dignissimae, in ...  1559.  (VD16 S 10412)",
+    "Erasmus, Desiderius: Moriae encomium.  1551.  (VD16 E 3201)", "Erasmus, Desiderius: Apocolocyntosis.  1522.  (VD16 E 3193)",
+    "Erasmus, Desiderius: Moriae encomium.  1532.  (VD16 E 3198)", "SYNESII CYRENAEI ORATIO AD ARCADIVM THEODOSII F. DE REGNO, ID EST, De officio ...  1555.  (VD16 S 10424)",
+    "\\=GSYNESIUHyper tu dōru, pros Paionion.Homilia deutera.Katastasis.Hetera ...  1567.  (VD16 S 10410)",
+    "Erasmus, Desiderius: Apocolocyntosis.  1517.  (VD16 E 3185)", "Synesii Episcopi Hymni metrici";
+  wdrs:describedby <https://d-nb.info/gnd/118642634/about> .
+
+<https://d-nb.info/gnd/118642634/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118642634> gndo:biographicalOrHistoricalInformation "Griech. Philosoph (Neuplatoniker), Dichter u. Bischof von Ptolemais"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24590757 .
+
+_:node1ivs02adlx24590757 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118642634> gndo:dateOfBirth "0370"^^xsd:gYear;
+  gndo:dateOfDeath "0412"^^xsd:gYear .
+

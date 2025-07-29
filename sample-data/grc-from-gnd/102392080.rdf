@@ -1,0 +1,149 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102392080> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102392080/about> .
+
+<https://d-nb.info/gnd/102392080/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-06-06T00:34:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102392080> gndo:gndIdentifier "102392080";
+  foaf:page <https://de.wikipedia.org/wiki/Epaphroditos_von_Chaeronea>;
+  owl:sameAs <http://viaf.org/viaf/266259865>, <https://isni.org/isni/0000000382869713>,
+    <http://www.wikidata.org/entity/Q6758334>, <http://id.loc.gov/rwo/agents/n2007063733>;
+  gndo:oldAuthorityNumber "(DE-588)1089829345";
+  owl:sameAs <https://d-nb.info/gnd/1089829345>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089829345";
+  gndo:oldAuthorityNumber "(DE-588)1089439989";
+  owl:sameAs <https://d-nb.info/gnd/1089439989>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089439989";
+  gndo:oldAuthorityNumber "(DE-588a)102392080", "(DE-588c)7591375-6";
+  gndo:variantNameForThePerson "Epaphroditus, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593707 .
+
+_:node1ivs02adlx24593707 gndo:personalName "Epaphroditus";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Epaphroditus, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593708 .
+
+_:node1ivs02adlx24593708 gndo:personalName "Epaphroditus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Epaphroditos, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593709 .
+
+_:node1ivs02adlx24593709 gndo:personalName "Epaphroditos";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Epaphroditos, von Chaironeia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593710 .
+
+_:node1ivs02adlx24593710 gndo:personalName "Epaphroditos";
+  gndo:nameAddition "von Chaironeia" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Epaphroditos, Schüler des Archias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593711 .
+
+_:node1ivs02adlx24593711 gndo:personalName "Epaphroditos";
+  gndo:nameAddition "Schüler des Archias" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Epaphroditos, Marcus Mettius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593712 .
+
+_:node1ivs02adlx24593712 gndo:forename "Marcus Mettius";
+  gndo:surname "Epaphroditos" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Epaphroditus, of Chaeronea";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593713 .
+
+_:node1ivs02adlx24593713 gndo:personalName "Epaphroditus";
+  gndo:nameAddition "of Chaeronea" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Epaphroditus, Grammarian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593714 .
+
+_:node1ivs02adlx24593714 gndo:personalName "Epaphroditus";
+  gndo:nameAddition "Grammarian" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Mettius Epaphroditus, Marcus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593715 .
+
+_:node1ivs02adlx24593715 gndo:forename "Marcus";
+  gndo:surname "Mettius Epaphroditus" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Epaphroditus, Marcus Mettius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593716 .
+
+_:node1ivs02adlx24593716 gndo:forename "Marcus Mettius";
+  gndo:surname "Epaphroditus" .
+
+<https://d-nb.info/gnd/102392080> gndo:variantNameForThePerson "Mettius, Epaphroditus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593717 .
+
+_:node1ivs02adlx24593717 gndo:personalName "Mettius";
+  gndo:nameAddition "Epaphroditus" .
+
+<https://d-nb.info/gnd/102392080> gndo:preferredNameForThePerson "Epaphroditus, Chaeronensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593718 .
+
+_:node1ivs02adlx24593718 gndo:personalName "Epaphroditus";
+  gndo:nameAddition "Chaeronensis" .
+
+<https://d-nb.info/gnd/102392080> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102392080/about> .
+
+<https://d-nb.info/gnd/102392080/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102392080> gndo:udkCode "1 - 100 n. Chr.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593719 .
+
+_:node1ivs02adlx24593719 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4158016-3> .
+
+<https://d-nb.info/gnd/102392080> gndo:dateOfBirthAndDeath "[1. Jh.]" .
+

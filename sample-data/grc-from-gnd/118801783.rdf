@@ -1,0 +1,284 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118801783> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118801783/about> .
+
+<https://d-nb.info/gnd/118801783/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-12-20T11:44:31.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118801783> gndo:gndIdentifier "118801783";
+  foaf:page <https://de.wikipedia.org/wiki/Themistios>;
+  owl:sameAs <https://dbpedia.org/resource/Themistius>, <http://viaf.org/viaf/100219934>,
+    <https://isni.org/isni/0000000109286445>, <http://www.wikidata.org/entity/Q365183>,
+    <http://id.loc.gov/rwo/agents/n79127090>;
+  gndo:oldAuthorityNumber "(DE-588)119847574";
+  owl:sameAs <https://d-nb.info/gnd/119847574>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119847574";
+  gndo:oldAuthorityNumber "(DE-588a)119847574", "(DE-588a)118801783", "(DE-588c)4114732-7";
+  gndo:variantNameForThePerson "Themistios, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402142 .
+
+_:node1ivpishs6x25402142 gndo:personalName "Themistios";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistios, Griechischer Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402143 .
+
+_:node1ivpishs6x25402143 gndo:personalName "Themistios";
+  gndo:nameAddition "Griechischer Sophist" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402144 .
+
+_:node1ivpishs6x25402144 gndo:personalName "Themistios" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistios, Philosophos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402145 .
+
+_:node1ivpishs6x25402145 gndo:personalName "Themistios";
+  gndo:nameAddition "Philosophos" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402146 .
+
+_:node1ivpishs6x25402146 gndo:personalName "Themistius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Temistio, Retore Greco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402147 .
+
+_:node1ivpishs6x25402147 gndo:personalName "Temistio";
+  gndo:nameAddition "Retore Greco" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistios, Sohn des Eugenios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402148 .
+
+_:node1ivpishs6x25402148 gndo:personalName "Themistios";
+  gndo:nameAddition "Sohn des Eugenios" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Euphrada, Themistius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402149 .
+
+_:node1ivpishs6x25402149 gndo:forename "Themistius";
+  gndo:surname "Euphrada" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Euphrades, Themistius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402150 .
+
+_:node1ivpishs6x25402150 gndo:forename "Themistius";
+  gndo:surname "Euphrades" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistias, Euphrades";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402151 .
+
+_:node1ivpishs6x25402151 gndo:personalName "Themistias";
+  gndo:nameAddition "Euphrades" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistios, Euphrades";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402152 .
+
+_:node1ivpishs6x25402152 gndo:personalName "Themistios";
+  gndo:nameAddition "Euphrades" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius, Euphrada";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402153 .
+
+_:node1ivpishs6x25402153 gndo:personalName "Themistius";
+  gndo:nameAddition "Euphrada" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius, Euphrades";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402154 .
+
+_:node1ivpishs6x25402154 gndo:personalName "Themistius";
+  gndo:nameAddition "Euphrades" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius, Euphrades Paphlago";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402155 .
+
+_:node1ivpishs6x25402155 gndo:personalName "Themistius";
+  gndo:nameAddition "Euphrades Paphlago" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistios, von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402156 .
+
+_:node1ivpishs6x25402156 gndo:personalName "Themistios";
+  gndo:nameAddition "von Konstantinopel" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistios, von Paphlagonien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402157 .
+
+_:node1ivpishs6x25402157 gndo:personalName "Themistios";
+  gndo:nameAddition "von Paphlagonien" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Temistio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402158 .
+
+_:node1ivpishs6x25402158 gndo:personalName "Temistio" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402159 .
+
+_:node1ivpishs6x25402159 gndo:personalName "Themistios" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themiste";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402160 .
+
+_:node1ivpishs6x25402160 gndo:personalName "Themiste" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Pseudo-Themistius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402161 .
+
+_:node1ivpishs6x25402161 gndo:personalName "Pseudo-Themistius" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Ṯāmisṭiyūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402162 .
+
+_:node1ivpishs6x25402162 gndo:personalName "Ṯāmisṭiyūs" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Ṯāmisṭīyūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402163 .
+
+_:node1ivpishs6x25402163 gndo:personalName "Ṯāmisṭīyūs" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Ṯāmisṭyūs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402164 .
+
+_:node1ivpishs6x25402164 gndo:personalName "Ṯāmisṭyūs" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius Constantinopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402165 .
+
+_:node1ivpishs6x25402165 gndo:personalName "Themistius Constantinopolitanus" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Temistio della Paflagonia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402166 .
+
+_:node1ivpishs6x25402166 gndo:personalName "Temistio della Paflagonia" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Temistio, della Paflagonia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402167 .
+
+_:node1ivpishs6x25402167 gndo:personalName "Temistio";
+  gndo:nameAddition "della Paflagonia" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402168 .
+
+_:node1ivpishs6x25402168 gndo:personalName "Themistius Sophista" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Temistio Sofista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402169 .
+
+_:node1ivpishs6x25402169 gndo:personalName "Temistio Sofista" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Temistio, Sofista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402170 .
+
+_:node1ivpishs6x25402170 gndo:personalName "Temistio";
+  gndo:nameAddition "Sofista" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius, Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402171 .
+
+_:node1ivpishs6x25402171 gndo:personalName "Themistius";
+  gndo:nameAddition "Sophist" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402172 .
+
+_:node1ivpishs6x25402172 gndo:personalName "Themistius";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius, Peripateticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402173 .
+
+_:node1ivpishs6x25402173 gndo:personalName "Themistius";
+  gndo:nameAddition "Peripateticus" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "Themistius, Orator";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402174 .
+
+_:node1ivpishs6x25402174 gndo:personalName "Themistius";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "ثامسطیوس"@fa;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402175 .
+
+_:node1ivpishs6x25402175 gndo:personalName "ثامسطیوس" .
+
+<https://d-nb.info/gnd/118801783> gndo:variantNameForThePerson "ثامسطيوس"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402176 .
+
+_:node1ivpishs6x25402176 gndo:personalName "ثامسطيوس" .
+
+<https://d-nb.info/gnd/118801783> gndo:preferredNameForThePerson "Themistius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402177 .
+
+_:node1ivpishs6x25402177 gndo:personalName "Themistius" .
+
+<https://d-nb.info/gnd/118801783> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Themistius <Peripateticus>: Logoi hex basilikoi", "Oribasius: Complectens scripta aliquot Oribasii, Procopii, Isaei, Themistii, Porphyrii, P*",
+    "Themistius: Omnia opera", "Iulianus <Imperium Romanum, Imperator>: Epistola a Temistio";
+  wdrs:describedby <https://d-nb.info/gnd/118801783/about> .
+
+<https://d-nb.info/gnd/118801783/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118801783> gndo:biographicalOrHistoricalInformation "Griech. Redner u. Philosoph, Sophist, Rhetoriker"@de,
+    "3.ed., New York 1990. Er lebte ca. 317 - ca. 388 n. Chr. u. war seit ca. 345 Leiter 1 philosophisch/ rhetorisch orient. Schule in Konstantinopel. Den Beinamen <Euphradēs> erhielt er erst später."@de,
+    "EST: Paraphrases n. fachwiss. Gebr. Sammeltit. für d. Paraphrasen zu d. Aristotel. Schriften, wenn 2 o. mehr enth., sonst Einzeltit. s. 973ff"@de,
+    "EST: Orationes n. fachwiss. Gebr. Sammeltit. für d. Reden, wenn 2 o. mehr enth., sonst Einzeltit. Achtung: für d. meisten Reden ist 1 lat. EST ungebräuchlich."@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402178 .
+
+_:node1ivpishs6x25402178 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118801783> gndo:dateOfBirth "0317"^^xsd:gYear;
+  gndo:dateOfDeath "0388"^^xsd:gYear .
+

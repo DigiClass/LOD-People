@@ -1,0 +1,393 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118583107> a gndo:DifferentiatedPerson;
+  owl:sameAs <https://isni.org/isni/0000000110211467>;
+  wdrs:describedby <https://d-nb.info/gnd/118583107/about> .
+
+<https://d-nb.info/gnd/118583107/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-06T14:17:15.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118583107> gndo:gndIdentifier "118583107";
+  foaf:page <https://de.wikipedia.org/wiki/Eduard_M%C3%B6rike>;
+  owl:sameAs <https://dbpedia.org/resource/Eduard_M%C3%B6rike>, <http://viaf.org/viaf/12312842>,
+    <https://isni.org/isni/0000000110211467>, <http://www.wikidata.org/entity/Q63699>,
+    <http://id.loc.gov/rwo/agents/n50006096>;
+  gndo:oldAuthorityNumber "(DE-588)160024064";
+  owl:sameAs <https://d-nb.info/gnd/160024064>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160024064";
+  gndo:oldAuthorityNumber "(DE-588a)160024064", "(DE-588a)118583107", "(DE-588a)138667187",
+    "(DE-588a)134600185", "(DE-588a)127922466", "(DE-101c)31029018X", "(DE-588c)4039911-4";
+  gndo:variantNameForThePerson "Mörike, Eduard Friedrich Phillip";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395924 .
+
+_:node1ivpishs6x25395924 gndo:forename "Eduard Friedrich Phillip";
+  gndo:surname "Mörike" .
+
+<https://d-nb.info/gnd/118583107> gndo:fullerFormOfNameOfThePerson _:node1ivpishs6x25395925 .
+
+_:node1ivpishs6x25395925 gndo:forename "Eduard Friedrich Phillip";
+  gndo:surname "Mörike";
+  a gndo:FullerFormOfThePerson .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mörike, Eduard Friedrich";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395926 .
+
+_:node1ivpishs6x25395926 gndo:forename "Eduard Friedrich";
+  gndo:surname "Mörike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mörike, Edouard";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395927 .
+
+_:node1ivpishs6x25395927 gndo:forename "Edouard";
+  gndo:surname "Mörike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mörike, Ed.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395928 .
+
+_:node1ivpishs6x25395928 gndo:forename "Ed.";
+  gndo:surname "Mörike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mörike, E.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395929 .
+
+_:node1ivpishs6x25395929 gndo:forename "E.";
+  gndo:surname "Mörike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mörike, Friedrich";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395930 .
+
+_:node1ivpishs6x25395930 gndo:forename "Friedrich";
+  gndo:surname "Mörike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mörike";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395931 .
+
+_:node1ivpishs6x25395931 gndo:personalName "Mörike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mórike, Eduard";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395932 .
+
+_:node1ivpishs6x25395932 gndo:forename "Eduard";
+  gndo:surname "Mórike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Moerike, Eduard";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395933 .
+
+_:node1ivpishs6x25395933 gndo:forename "Eduard";
+  gndo:surname "Moerike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Moerike, Édouard";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395934 .
+
+_:node1ivpishs6x25395934 gndo:forename "Édouard";
+  gndo:surname "Moerike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Moerike";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395935 .
+
+_:node1ivpishs6x25395935 gndo:personalName "Moerike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Möricke, Eduard";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395936 .
+
+_:node1ivpishs6x25395936 gndo:forename "Eduard";
+  gndo:surname "Möricke" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Möricke";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395937 .
+
+_:node1ivpishs6x25395937 gndo:personalName "Möricke" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Moericke, Eduard";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395938 .
+
+_:node1ivpishs6x25395938 gndo:forename "Eduard";
+  gndo:surname "Moericke" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Merike, Eduard";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395939 .
+
+_:node1ivpishs6x25395939 gndo:forename "Eduard";
+  gndo:surname "Merike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Merike, Eduards";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395940 .
+
+_:node1ivpishs6x25395940 gndo:forename "Eduards";
+  gndo:surname "Merike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mêrike, Ēduaruto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395941 .
+
+_:node1ivpishs6x25395941 gndo:forename "Ēduaruto";
+  gndo:surname "Mêrike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mêrike";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395942 .
+
+_:node1ivpishs6x25395942 gndo:personalName "Mêrike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mërike, Ėduard";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395943 .
+
+_:node1ivpishs6x25395943 gndo:forename "Ėduard";
+  gndo:surname "Mërike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mërike, Ėduard Fridrich";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395944 .
+
+_:node1ivpishs6x25395944 gndo:forename "Ėduard Fridrich";
+  gndo:surname "Mërike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Molike, Aidehua";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395945 .
+
+_:node1ivpishs6x25395945 gndo:forename "Aidehua";
+  gndo:surname "Molike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Moricke, Eduardo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395946 .
+
+_:node1ivpishs6x25395946 gndo:forename "Eduardo";
+  gndo:surname "Moricke" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Molike, Aidehua";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395947 .
+
+_:node1ivpishs6x25395947 gndo:forename "Aidehua";
+  gndo:surname "Molike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Mørike, Edward";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395948 .
+
+_:node1ivpishs6x25395948 gndo:forename "Edward";
+  gndo:surname "Mørike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Ai de hua Mo li ke";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395949 .
+
+_:node1ivpishs6x25395949 gndo:personalName "Ai de hua Mo li ke" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Aidehua-Molike";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395950 .
+
+_:node1ivpishs6x25395950 gndo:personalName "Aidehua-Molike" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Wispel, Liebmund Maria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395951 .
+
+_:node1ivpishs6x25395951 gndo:forename "Liebmund Maria";
+  gndo:surname "Wispel" .
+
+<https://d-nb.info/gnd/118583107> gndo:pseudonymNameOfThePerson _:node1ivpishs6x25395952 .
+
+_:node1ivpishs6x25395952 gndo:forename "Liebmund Maria";
+  gndo:surname "Wispel";
+  a gndo:PseudonymNameOfThePerson .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "뫼리케, 에두아르트"@ko;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395953 .
+
+_:node1ivpishs6x25395953 gndo:forename "에두아르트";
+  gndo:surname "뫼리케" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "エドゥアルト・メーリケ"@ja;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395954 .
+
+_:node1ivpishs6x25395954 gndo:personalName "エドゥアルト・メーリケ" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "メーリケ, エドゥアルト"@ja;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395955 .
+
+_:node1ivpishs6x25395955 gndo:forename "エドゥアルト";
+  gndo:surname "メーリケ" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Мёрике, Эдуард"@und-Cyrl;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395956 .
+
+_:node1ivpishs6x25395956 gndo:forename "Эдуард";
+  gndo:surname "Мёрике" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Мёрике, Эдуард Фридрих"@und-Cyrl;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395957 .
+
+_:node1ivpishs6x25395957 gndo:forename "Эдуард Фридрих";
+  gndo:surname "Мёрике" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Μέρικε, Έντουαρντ"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395958 .
+
+_:node1ivpishs6x25395958 gndo:forename "Έντουαρντ";
+  gndo:surname "Μέρικε" .
+
+<https://d-nb.info/gnd/118583107> gndo:variantNameForThePerson "Μέρικε, Έντουαρντ Φρίντριχ"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25395959 .
+
+_:node1ivpishs6x25395959 gndo:forename "Έντουαρντ Φρίντριχ";
+  gndo:surname "Μέρικε" .
+
+<https://d-nb.info/gnd/118583107> gndo:preferredNameForThePerson "Mörike, Eduard";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25395960 .
+
+_:node1ivpishs6x25395960 gndo:forename "Eduard";
+  gndo:surname "Mörike" .
+
+<https://d-nb.info/gnd/118583107> gndo:originalScriptNameOfThePerson "Мёрике, Эдуард"@ru;
+  gndo:familialRelationship <https://d-nb.info/gnd/11708798X>;
+  agrelon:hasParent <https://d-nb.info/gnd/11708798X>;
+  gndo:hasRelation _:node1ivpishs6x25395961 .
+
+_:node1ivpishs6x25395961 agrelon:hasParent <https://d-nb.info/gnd/11708798X>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/118931830>;
+  agrelon:hasParent <https://d-nb.info/gnd/118931830>;
+  gndo:hasRelation _:node1ivpishs6x25395962 .
+
+_:node1ivpishs6x25395962 agrelon:hasParent <https://d-nb.info/gnd/118931830>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/117101796>;
+  agrelon:hasSibling <https://d-nb.info/gnd/117101796>;
+  gndo:hasRelation _:node1ivpishs6x25395963 .
+
+_:node1ivpishs6x25395963 agrelon:hasSibling <https://d-nb.info/gnd/117101796>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/117087807>;
+  agrelon:hasSibling <https://d-nb.info/gnd/117087807>;
+  gndo:hasRelation _:node1ivpishs6x25395964 .
+
+_:node1ivpishs6x25395964 agrelon:hasSibling <https://d-nb.info/gnd/117087807>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/11708784X>;
+  gndo:hasRelation _:node1ivpishs6x25395965 .
+
+_:node1ivpishs6x25395965 gndo:familialRelationship <https://d-nb.info/gnd/11708784X>;
+  gndo:functionOrRoleAsLiteral "Schwägerin";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/118583123>;
+  agrelon:hasSpouse <https://d-nb.info/gnd/118583123>;
+  gndo:hasRelation _:node1ivpishs6x25395966 .
+
+_:node1ivpishs6x25395966 agrelon:hasSpouse <https://d-nb.info/gnd/118583123>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/116802413>;
+  agrelon:hasChild <https://d-nb.info/gnd/116802413>;
+  gndo:hasRelation _:node1ivpishs6x25395967 .
+
+_:node1ivpishs6x25395967 agrelon:hasChild <https://d-nb.info/gnd/116802413>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/1082314463>;
+  gndo:hasRelation _:node1ivpishs6x25395968 .
+
+_:node1ivpishs6x25395968 gndo:familialRelationship <https://d-nb.info/gnd/1082314463>;
+  gndo:functionOrRoleAsLiteral "Cousin";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/1012719170>;
+  gndo:hasRelation _:node1ivpishs6x25395969 .
+
+_:node1ivpishs6x25395969 gndo:familialRelationship <https://d-nb.info/gnd/1012719170>;
+  gndo:functionOrRoleAsLiteral "Cousin";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1012175197>;
+  agrelon:hasFriend <https://d-nb.info/gnd/1012175197>;
+  gndo:hasRelation _:node1ivpishs6x25395970 .
+
+_:node1ivpishs6x25395970 agrelon:hasFriend <https://d-nb.info/gnd/1012175197>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1012288641>;
+  gndo:hasRelation _:node1ivpishs6x25395971 .
+
+_:node1ivpishs6x25395971 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/1012288641> .
+
+<https://d-nb.info/gnd/118583107> gndo:familialRelationship <https://d-nb.info/gnd/120475952>;
+  gndo:hasRelation _:node1ivpishs6x25395972 .
+
+_:node1ivpishs6x25395972 gndo:familialRelationship <https://d-nb.info/gnd/120475952>;
+  gndo:functionOrRoleAsLiteral "Großneffe";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118583107> gndo:affiliation <https://d-nb.info/gnd/16214670-X>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:academicDegree "Prof. Dr.";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/lat>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Gedichte", "Vier Erzählungen", "Mozart auf der Reise nach Prag",
+    "Das Stuttgarter Hutzelmännlein", "Miss Jenny Harrower", "Maler Nolten", "Text zu: Schmidt, Martin: Agnes";
+  wdrs:describedby <https://d-nb.info/gnd/118583107/about> .
+
+<https://d-nb.info/gnd/118583107/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118583107> gndo:biographicalOrHistoricalInformation "Deutscher Lyriker und Schriftsteller, Dichter, Übersetzer aus dem Griech. und Latein.; 1834-1843 evangel. Pfarrer; 1856-1866 Lehrer für Literatur in Stuttgart"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4036469-0>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4058282-6>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4036469-0>, <https://d-nb.info/gnd/4058282-6>,
+    <https://d-nb.info/gnd/4241330-8>;
+  owl:sameAs <https://www.filmportal.de/3937983FD99E4B12972CF8BDF33A638F>;
+  gndo:professionOrOccupation _:node1ivpishs6x25395973 .
+
+_:node1ivpishs6x25395973 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4398215-3>;
+  rdf:_3 <https://d-nb.info/gnd/4168391-2>;
+  rdf:_4 <https://d-nb.info/gnd/4391928-5>;
+  rdf:_5 <https://d-nb.info/gnd/4035088-5>;
+  rdf:_6 <https://d-nb.info/gnd/4200345-3>;
+  rdf:_7 <https://d-nb.info/gnd/4132592-8>;
+  rdf:_8 <https://d-nb.info/gnd/4061414-1>;
+  rdf:_9 <https://d-nb.info/gnd/4167564-2> .
+
+<https://d-nb.info/gnd/118583107> gndo:dateOfBirth "1804-09-08"^^xsd:date;
+  gndo:dateOfDeath "1875-06-04"^^xsd:date .
+

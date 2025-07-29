@@ -1,0 +1,224 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118648888> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118648888/about> .
+
+<https://d-nb.info/gnd/118648888/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:31:49.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118648888> gndo:gndIdentifier "118648888";
+  foaf:page <https://de.wikipedia.org/wiki/Amphilochius_von_Ikonium>;
+  owl:sameAs <https://dbpedia.org/resource/Amphilochius_of_Iconium>, <http://viaf.org/viaf/163862769>,
+    <https://isni.org/isni/0000000112449006>, <http://www.wikidata.org/entity/Q474872>,
+    <http://id.loc.gov/rwo/agents/no94034791>;
+  gndo:oldAuthorityNumber "(DE-588)1089725302";
+  owl:sameAs <https://d-nb.info/gnd/1089725302>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725302";
+  gndo:oldAuthorityNumber "(DE-588)174693060";
+  owl:sameAs <https://d-nb.info/gnd/174693060>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174693060";
+  gndo:oldAuthorityNumber "(DE-588a)174693060", "(DE-588)108988625X";
+  owl:sameAs <https://d-nb.info/gnd/108988625X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108988625X";
+  gndo:oldAuthorityNumber "(DE-588)108928098X";
+  owl:sameAs <https://d-nb.info/gnd/108928098X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108928098X";
+  gndo:oldAuthorityNumber "(DE-588a)118648888", "(DE-588c)4085705-0";
+  gndo:variantNameForThePerson "Amphilochius, de Cappadocia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593099 .
+
+_:node1ivs02adlx24593099 gndo:personalName "Amphilochius";
+  gndo:nameAddition "de Cappadocia" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, Iconiensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593100 .
+
+_:node1ivs02adlx24593100 gndo:personalName "Amphilochius";
+  gndo:nameAddition "Iconiensis" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, Lyconiaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593101 .
+
+_:node1ivs02adlx24593101 gndo:personalName "Amphilochius";
+  gndo:nameAddition "Lyconiaeus" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, von Ikonium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593102 .
+
+_:node1ivs02adlx24593102 gndo:personalName "Amphilochius";
+  gndo:nameAddition "von Ikonium" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, von Kappadokien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593103 .
+
+_:node1ivs02adlx24593103 gndo:personalName "Amphilochius";
+  gndo:nameAddition "von Kappadokien" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochios, von Ikonion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593104 .
+
+_:node1ivs02adlx24593104 gndo:personalName "Amphilochios";
+  gndo:nameAddition "von Ikonion" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochios, von Lykaonien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593105 .
+
+_:node1ivs02adlx24593105 gndo:personalName "Amphilochios";
+  gndo:nameAddition "von Lykaonien" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, d'Icone";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593106 .
+
+_:node1ivs02adlx24593106 gndo:personalName "Amphilochius";
+  gndo:nameAddition "d'Icone" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593107 .
+
+_:node1ivs02adlx24593107 gndo:personalName "Amphilochius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593108 .
+
+_:node1ivs02adlx24593108 gndo:personalName "Amphilochius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, of Iconium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593109 .
+
+_:node1ivs02adlx24593109 gndo:personalName "Amphilochius";
+  gndo:nameAddition "of Iconium" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochos, aus Kappadokien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593110 .
+
+_:node1ivs02adlx24593110 gndo:personalName "Amphilochos";
+  gndo:nameAddition "aus Kappadokien" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, Eubulus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593111 .
+
+_:node1ivs02adlx24593111 gndo:personalName "Amphilochius";
+  gndo:nameAddition "Eubulus" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochos, von Kappadokien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593112 .
+
+_:node1ivs02adlx24593112 gndo:personalName "Amphilochos";
+  gndo:nameAddition "von Kappadokien" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593113 .
+
+_:node1ivs02adlx24593113 gndo:personalName "Amphilochius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochos, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593114 .
+
+_:node1ivs02adlx24593114 gndo:personalName "Amphilochos";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochos, Schüler des Libanios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593115 .
+
+_:node1ivs02adlx24593115 gndo:personalName "Amphilochos";
+  gndo:nameAddition "Schüler des Libanios" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochos, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593116 .
+
+_:node1ivs02adlx24593116 gndo:personalName "Amphilochos";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochos, Metropolit";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593117 .
+
+_:node1ivs02adlx24593117 gndo:personalName "Amphilochos";
+  gndo:nameAddition "Metropolit" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochos, von Lykaonien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593118 .
+
+_:node1ivs02adlx24593118 gndo:personalName "Amphilochos";
+  gndo:nameAddition "von Lykaonien" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphilochios, von Kappadokien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593119 .
+
+_:node1ivs02adlx24593119 gndo:personalName "Amphilochios";
+  gndo:nameAddition "von Kappadokien" .
+
+<https://d-nb.info/gnd/118648888> gndo:variantNameForThePerson "Amphiloque, d'Iconium";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593120 .
+
+_:node1ivs02adlx24593120 gndo:personalName "Amphiloque";
+  gndo:nameAddition "d'Iconium" .
+
+<https://d-nb.info/gnd/118648888> gndo:preferredNameForThePerson "Amphilochius, Cappadox";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593121 .
+
+_:node1ivs02adlx24593121 gndo:personalName "Amphilochius";
+  gndo:nameAddition "Cappadox" .
+
+<https://d-nb.info/gnd/118648888> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Amphilochius <Cappadox>: De studiis recte formandis", "Amphilochius <Cappadox>: De studii recte formandis epistola graeca",
+    "Amphilochius <Cappadox>: De recta studiorum ... ratione epistola", "Amphilochius <Cappadox>: SS. Patrum Amphilochi Iconiensis, Methodii Patarensis ..",
+    "Amphilochius <Cappadox>: Opera quae extant omnia", "Amphilochius <Cappadox>: Orationes",
+    "Amphilochius <Cappadox>: In diem s. sabbati sermo", "Amphilochius <Cappadox>: In sabbatum sanctum oratio",
+    "Amphilochius <Cappadox>: Epistola ad Seleucum de recta studiorum ratione";
+  wdrs:describedby <https://d-nb.info/gnd/118648888/about> .
+
+<https://d-nb.info/gnd/118648888/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118648888> gndo:biographicalOrHistoricalInformation "Bischof von Ikonion u. Metropolit von Lykaonien"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[343 - 394]" .
+

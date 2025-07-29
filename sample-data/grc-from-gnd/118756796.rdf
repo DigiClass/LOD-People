@@ -1,0 +1,354 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118756796> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118756796/about> .
+
+<https://d-nb.info/gnd/118756796/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T14:40:08.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118756796> gndo:gndIdentifier "118756796";
+  foaf:page <https://de.wikipedia.org/wiki/Theodoret>;
+  owl:sameAs <https://dbpedia.org/resource/Theodoret>, <http://viaf.org/viaf/77111352>,
+    <https://isni.org/isni/0000000121025168>, <http://www.wikidata.org/entity/Q317029>;
+  gndo:oldAuthorityNumber "(DE-588)185877257";
+  owl:sameAs <https://d-nb.info/gnd/185877257>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877257";
+  gndo:oldAuthorityNumber "(DE-588)1026332001";
+  owl:sameAs <https://d-nb.info/gnd/1026332001>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026332001";
+  gndo:oldAuthorityNumber "(DE-588a)185877257", "(DE-588)18304052X";
+  owl:sameAs <https://d-nb.info/gnd/18304052X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18304052X";
+  gndo:oldAuthorityNumber "(DE-588a)18304052X", "(DE-588)183040481";
+  owl:sameAs <https://d-nb.info/gnd/183040481>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183040481";
+  gndo:oldAuthorityNumber "(DE-588a)183040481", "(DE-588)183040473";
+  owl:sameAs <https://d-nb.info/gnd/183040473>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183040473";
+  gndo:oldAuthorityNumber "(DE-588a)183040473", "(DE-588)1089134053";
+  owl:sameAs <https://d-nb.info/gnd/1089134053>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089134053";
+  gndo:oldAuthorityNumber "(DE-588)1089929072";
+  owl:sameAs <https://d-nb.info/gnd/1089929072>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089929072";
+  gndo:oldAuthorityNumber "(DE-588)156489295";
+  owl:sameAs <https://d-nb.info/gnd/156489295>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/156489295";
+  gndo:oldAuthorityNumber "(DE-588a)156489295", "(DE-588)174133537";
+  owl:sameAs <https://d-nb.info/gnd/174133537>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174133537";
+  gndo:oldAuthorityNumber "(DE-588a)174133537", "(DE-588a)118756796", "(DE-588a)119847728",
+    "(DE-588a)12795192X", "(DE-588c)4106233-4";
+  gndo:variantNameForThePerson "Theodoretos, von Kyros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592925 .
+
+_:node1ivs02adlx24592925 gndo:personalName "Theodoretos";
+  gndo:nameAddition "von Kyros" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretos, von Kyrrhos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592926 .
+
+_:node1ivs02adlx24592926 gndo:personalName "Theodoretos";
+  gndo:nameAddition "von Kyrrhos" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Cyri Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592927 .
+
+_:node1ivs02adlx24592927 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Cyri Episcopus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Kyrrhos, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592928 .
+
+_:node1ivs02adlx24592928 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Kyrrhos, Bischof" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoret, Kyrrhos, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592929 .
+
+_:node1ivs02adlx24592929 gndo:personalName "Theodoret";
+  gndo:nameAddition "Kyrrhos, Bischof" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Ḟeodorit, Kirrskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592930 .
+
+_:node1ivs02adlx24592930 gndo:personalName "Ḟeodorit";
+  gndo:nameAddition "Kirrskij" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Théodorite, Cyrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592931 .
+
+_:node1ivs02adlx24592931 gndo:personalName "Théodorite";
+  gndo:nameAddition "Cyrien" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Cyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592932 .
+
+_:node1ivs02adlx24592932 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Cyrus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Cyri";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592933 .
+
+_:node1ivs02adlx24592933 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Cyri" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Kyros, Theodoretus von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592934 .
+
+_:node1ivs02adlx24592934 gndo:forename "Theodoretus";
+  gndo:prefix "von";
+  gndo:surname "Kyros" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Cyrenensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592935 .
+
+_:node1ivs02adlx24592935 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Cyrenensis" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, von Kyrrhos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592936 .
+
+_:node1ivs02adlx24592936 gndo:personalName "Theodoretus";
+  gndo:nameAddition "von Kyrrhos" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretos, aus Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592937 .
+
+_:node1ivs02adlx24592937 gndo:personalName "Theodoretos";
+  gndo:nameAddition "aus Antiocheia" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Théodoret";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592938 .
+
+_:node1ivs02adlx24592938 gndo:personalName "Théodoret" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, von Kyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592939 .
+
+_:node1ivs02adlx24592939 gndo:personalName "Theodoretus";
+  gndo:nameAddition "von Kyrus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Ḟeodorit, Kẏrskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592940 .
+
+_:node1ivs02adlx24592940 gndo:personalName "Ḟeodorit";
+  gndo:nameAddition "Kẏrskij" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592941 .
+
+_:node1ivs02adlx24592941 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretos, Kirchenschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592942 .
+
+_:node1ivs02adlx24592942 gndo:personalName "Theodoretos";
+  gndo:nameAddition "Kirchenschriftsteller" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretos, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592943 .
+
+_:node1ivs02adlx24592943 gndo:personalName "Theodoretos";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592944 .
+
+_:node1ivs02adlx24592944 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Bishop";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592945 .
+
+_:node1ivs02adlx24592945 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Bishop" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Bishop of Cyrrhus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592946 .
+
+_:node1ivs02adlx24592946 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Bishop of Cyrrhus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, of Cyrrhus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592947 .
+
+_:node1ivs02adlx24592947 gndo:personalName "Theodoretus";
+  gndo:nameAddition "of Cyrrhus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretos, Kirchenhistoriker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592948 .
+
+_:node1ivs02adlx24592948 gndo:personalName "Theodoretos";
+  gndo:nameAddition "Kirchenhistoriker" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoritus, Cyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592949 .
+
+_:node1ivs02adlx24592949 gndo:personalName "Theodoritus";
+  gndo:nameAddition "Cyrus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, von Cyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592950 .
+
+_:node1ivs02adlx24592950 gndo:personalName "Theodoretus";
+  gndo:nameAddition "von Cyrus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoritus, von Cyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592951 .
+
+_:node1ivs02adlx24592951 gndo:personalName "Theodoritus";
+  gndo:nameAddition "von Cyrus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "T'eodorite, Kvireli";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592952 .
+
+_:node1ivs02adlx24592952 gndo:personalName "T'eodorite";
+  gndo:nameAddition "Kvireli" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Kvireli, T'eodorite";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592953 .
+
+_:node1ivs02adlx24592953 gndo:forename "T'eodorite";
+  gndo:surname "Kvireli" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoret, von Kyros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592954 .
+
+_:node1ivs02adlx24592954 gndo:personalName "Theodoret";
+  gndo:nameAddition "von Kyros" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoret";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592955 .
+
+_:node1ivs02adlx24592955 gndo:personalName "Theodoret" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretos, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592956 .
+
+_:node1ivs02adlx24592956 gndo:personalName "Theodoretos";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, Cyrensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592957 .
+
+_:node1ivs02adlx24592957 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Cyrensis" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoritus, Cyrensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592958 .
+
+_:node1ivs02adlx24592958 gndo:personalName "Theodoritus";
+  gndo:nameAddition "Cyrensis" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Teodoreto, di Cirro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592959 .
+
+_:node1ivs02adlx24592959 gndo:personalName "Teodoreto";
+  gndo:nameAddition "di Cirro" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoret, of Cyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592960 .
+
+_:node1ivs02adlx24592960 gndo:personalName "Theodoret";
+  gndo:nameAddition "of Cyrus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Théodoret, de Cyr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592961 .
+
+_:node1ivs02adlx24592961 gndo:personalName "Théodoret";
+  gndo:nameAddition "de Cyr" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoretus, évêque de Cyr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592962 .
+
+_:node1ivs02adlx24592962 gndo:personalName "Theodoretus";
+  gndo:nameAddition "évêque de Cyr" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Theodoret, von Cyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592963 .
+
+_:node1ivs02adlx24592963 gndo:personalName "Theodoret";
+  gndo:nameAddition "von Cyrus" .
+
+<https://d-nb.info/gnd/118756796> gndo:variantNameForThePerson "Pseudo-Theodoretus, Cyrrhensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592964 .
+
+_:node1ivs02adlx24592964 gndo:personalName "Pseudo-Theodoretus";
+  gndo:nameAddition "Cyrrhensis" .
+
+<https://d-nb.info/gnd/118756796> gndo:preferredNameForThePerson "Theodoretus, Cyrrhensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592965 .
+
+_:node1ivs02adlx24592965 gndo:personalName "Theodoretus";
+  gndo:nameAddition "Cyrrhensis" .
+
+<https://d-nb.info/gnd/118756796> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-SY>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/syr>;
+  gndo:publication "Theodoretus <Cyrensis>: Theodōrētu episkopu Kyru kai Euagriu Scholastiku Ekklēsiasti*",
+    "Specht, Franz A.: Der exegetische Standpunkt des Theodor von Mopsuestia und Theodoret v*",
+    "Theodoretus <Cyrrhensis>: Beati Theodoreti, Cyrensis Episcopi, ... Opera", "Pseaumes de David",
+    "Theodoritu episkopu Kyru kai Euagriu Scholastiku ekklesiastike istoria";
+  wdrs:describedby <https://d-nb.info/gnd/118756796/about> .
+
+<https://d-nb.info/gnd/118756796/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118756796> gndo:biographicalOrHistoricalInformation "Bischof von Kyrrhos in Syrien"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4112544-7>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/1029079676>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592966 .
+
+_:node1ivs02adlx24592966 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7>;
+  rdf:_2 <https://d-nb.info/gnd/4398113-6> .
+
+<https://d-nb.info/gnd/118756796> gndo:dateOfBirth "0393"^^xsd:gYear;
+  gndo:dateOfDeath "0466"^^xsd:gYear .
+

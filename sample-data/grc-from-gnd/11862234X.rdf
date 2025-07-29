@@ -1,0 +1,324 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11862234X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11862234X/about> .
+
+<https://d-nb.info/gnd/11862234X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-08T16:38:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11862234X> gndo:gndIdentifier "11862234X";
+  owl:sameAs <https://dbpedia.org/resource/Thucydides>, <http://viaf.org/viaf/268856521>,
+    <http://www.wikidata.org/entity/Q41683>;
+  gndo:oldAuthorityNumber "(DE-588)158730763";
+  owl:sameAs <https://d-nb.info/gnd/158730763>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/158730763";
+  gndo:oldAuthorityNumber "(DE-588a)158730763", "(DE-588)1089921063";
+  owl:sameAs <https://d-nb.info/gnd/1089921063>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089921063";
+  gndo:oldAuthorityNumber "(DE-588)118895761";
+  owl:sameAs <https://d-nb.info/gnd/118895761>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/118895761";
+  gndo:oldAuthorityNumber "(DE-588a)118895761", "(DE-588c)4227612-3", "(DE-588)1089930038";
+  owl:sameAs <https://d-nb.info/gnd/1089930038>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089930038";
+  gndo:oldAuthorityNumber "(DE-588)172417414";
+  owl:sameAs <https://d-nb.info/gnd/172417414>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172417414";
+  gndo:oldAuthorityNumber "(DE-588a)172417414", "(DE-588a)11862234X", "(DE-588c)4059974-7";
+  gndo:variantNameForThePerson "Thucydides, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399228 .
+
+_:node1ivpishs6x25399228 gndo:personalName "Thucydides";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucydides, Geschichtsschreiber";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399229 .
+
+_:node1ivpishs6x25399229 gndo:personalName "Thucydides";
+  gndo:nameAddition "Geschichtsschreiber" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thukydides, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399230 .
+
+_:node1ivpishs6x25399230 gndo:personalName "Thukydides";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thukydides, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399231 .
+
+_:node1ivpishs6x25399231 gndo:personalName "Thukydides";
+  gndo:nameAddition "Politiker" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thukydides, Geschichtsschreiber";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399232 .
+
+_:node1ivpishs6x25399232 gndo:personalName "Thukydides";
+  gndo:nameAddition "Geschichtsschreiber" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucydydes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399233 .
+
+_:node1ivpishs6x25399233 gndo:personalName "Thucydydes" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucydides, Olori filius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399234 .
+
+_:node1ivpishs6x25399234 gndo:personalName "Thucydides";
+  gndo:nameAddition "Olori filius" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thukydides, Syggrapheus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399235 .
+
+_:node1ivpishs6x25399235 gndo:personalName "Thukydides";
+  gndo:nameAddition "Syggrapheus" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucidides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399236 .
+
+_:node1ivpishs6x25399236 gndo:personalName "Thucidides" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucydides, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399237 .
+
+_:node1ivpishs6x25399237 gndo:personalName "Thucydides";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucydides, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399238 .
+
+_:node1ivpishs6x25399238 gndo:personalName "Thucydides";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thukydides, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399239 .
+
+_:node1ivpishs6x25399239 gndo:personalName "Thukydides";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucydide";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399240 .
+
+_:node1ivpishs6x25399240 gndo:personalName "Thucydide" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Tucídides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399241 .
+
+_:node1ivpishs6x25399241 gndo:personalName "Tucídides" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Tucidide";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399242 .
+
+_:node1ivpishs6x25399242 gndo:personalName "Tucidide" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thoukydides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399243 .
+
+_:node1ivpishs6x25399243 gndo:personalName "Thoukydides" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucydide, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399244 .
+
+_:node1ivpishs6x25399244 gndo:personalName "Thucydide";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thucydidis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399245 .
+
+_:node1ivpishs6x25399245 gndo:personalName "Thucydidis" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Tukidydes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399246 .
+
+_:node1ivpishs6x25399246 gndo:personalName "Tukidydes" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thukydides";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399247 .
+
+_:node1ivpishs6x25399247 gndo:personalName "Thukydides" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thukydidēs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399248 .
+
+_:node1ivpishs6x25399248 gndo:personalName "Thukydidēs" .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Thukyd.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399249 .
+
+_:node1ivpishs6x25399249 gndo:personalName "Thukyd." .
+
+<https://d-nb.info/gnd/11862234X> gndo:variantNameForThePerson "Θουκυδ."@gr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399250 .
+
+_:node1ivpishs6x25399250 gndo:personalName "Θουκυδ." .
+
+<https://d-nb.info/gnd/11862234X> gndo:preferredNameForThePerson "Thucydides";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25399251 .
+
+_:node1ivpishs6x25399251 gndo:personalName "Thucydides" .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12397142X>;
+  gndo:hasRelation _:node1ivpishs6x25399252 .
+
+_:node1ivpishs6x25399252 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/12397142X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:hasRelation _:node1ivpishs6x25399253 .
+
+_:node1ivpishs6x25399253 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25399254 .
+
+_:node1ivpishs6x25399254 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/11862234X> gndo:hasRelation _:node1ivpishs6x25399255 .
+
+_:node1ivpishs6x25399255 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25399256 .
+
+_:node1ivpishs6x25399256 gndo:forename "Giovanni";
+  gndo:prefix "della";
+  gndo:surname "Casa" .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:hasRelation _:node1ivpishs6x25399257 .
+
+_:node1ivpishs6x25399257 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:hasRelation _:node1ivpishs6x25399258 .
+
+_:node1ivpishs6x25399258 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25399259 .
+
+_:node1ivpishs6x25399259 gndo:forename "Georg Achatius";
+  gndo:surname "Enenckel" .
+
+<https://d-nb.info/gnd/11862234X> gndo:hasRelation _:node1ivpishs6x25399260 .
+
+_:node1ivpishs6x25399260 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25399261 .
+
+_:node1ivpishs6x25399261 gndo:forename "Henri";
+  gndo:surname "Estienne" .
+
+<https://d-nb.info/gnd/11862234X> gndo:hasRelation _:node1ivpishs6x25399262 .
+
+_:node1ivpishs6x25399262 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25399263 .
+
+_:node1ivpishs6x25399263 gndo:forename "Konrad";
+  gndo:surname "Heresbach" .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362427>;
+  gndo:hasRelation _:node1ivpishs6x25399264 .
+
+_:node1ivpishs6x25399264 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124362427>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104375248>;
+  gndo:hasRelation _:node1ivpishs6x25399265 .
+
+_:node1ivpishs6x25399265 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104375248>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:hasRelation _:node1ivpishs6x25399266 .
+
+_:node1ivpishs6x25399266 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11862234X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25399267 .
+
+_:node1ivpishs6x25399267 gndo:forename "Ernst";
+  gndo:surname "Rhegius" .
+
+<https://d-nb.info/gnd/11862234X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Thucydides: The history of the Grecian war", "Thucydides: Excerpta ex libro primo",
+    "Thucydides: Thucydidis De bello peloponnesiaco libri octo", "Thucydides: De bello Peloponnesiaco libri octo",
+    "Thucydides: De Bello Peloponnesiaco libri octo", "Thucydides: Thucydidis De bello Peloponnesiaco libri octo",
+    "Thucydides: Thucydidis De Bello Peloponnesiaco libri octo", "Thucydides: Thukydides",
+    "Thucydides: Thucydidis Orationes", "Thucydides: The hystory", "Thucydides: DESCRIPTIO SEDITIONIS LVCVLENTA, EX THVCYDIDE.. 1549. (VD16 ZV 16863)",
+    "Thucydides: Thucydidis Atheniensis DE BELLO PELOPONNESIACO LIBRI OCTO, E GRAECO sermone in ... 1596. (VD16 T 1127)",
+    "Thucydides: THVCYDIDIS ATHENIENSIS HISTORIOGRAPHI DE BELLO PELOPONNENSIVM ATHENIENSIVM\\́[que] LIBRI ... 1550. (VD16 T 1119)",
+    "Thucydides: THVCYDIDIS DE BELLO PELOPONNESIACO, PARS PRIOR, LIBROS QVATVOR CONTINENS, ad vsum ... 1561/1562. (VD16 T 1115)",
+    "Thucydides: ... THVCYDIDIS ATHENIENSIS HISTORIOGRAPHI DE BELLO PELOPONNENSIVM ATHENIENSIVMQVE ... 1527. (VD16 T 1117)",
+    "Thucydides: THVCYDIDIS OLORI FILII DE BELLO PELOPONNESIACO LIBRI OCTO. Iidem Latinè, ex ... 1594. (VD16 T 1125)",
+    "Thucydides: Thucidides der aller thewrest vnd dapfferest Historienschreiber von dem Peloponnenser krieg ... 1533. (VD16 T 1128)",
+    "Thucydides: \\=GTHUKYDIDĒS META SCHOLIŌN PALAIŌN, KAI PANY ŌPHELIMŌN,\\=g ... THVCYDIDES CVM SCHOLIIS ... 1540. (VD16 T 1113)",
+    "Thucydides: \\=GTHUKYDIDĒS META SCHOLIŌN PALAIŌN KAI PANY ŌPHELIMŌN\\=g ... THVCYDIDES CVM SCHOLIIS ET ... 1540. (VD16 T 1114)",
+    "Thucydides: DESCRIPTIO SEDITIONIS LVCVLENTA, Ex Thucydide.. 1550. (VD16 T 1131)";
+  wdrs:describedby <https://d-nb.info/gnd/11862234X/about> .
+
+<https://d-nb.info/gnd/11862234X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11862234X> gndo:biographicalOrHistoricalInformation "Athener Stratege und einer der bedeutendsten antiken griechischen Geschichtsschreiber."@de;
+  gndo:udkCode "500 - 401 v. Chr. ";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4003366-1>;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4003366-1>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4003366-1>;
+  gndo:professionOrOccupation _:node1ivpishs6x25399268 .
+
+_:node1ivpishs6x25399268 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2> .
+
+<https://d-nb.info/gnd/11862234X> gndo:dateOfBirthAndDeath "[460 v. Chr.-400 v. Chr.]" .
+

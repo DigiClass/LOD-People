@@ -1,0 +1,166 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11877431X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11877431X/about> .
+
+<https://d-nb.info/gnd/11877431X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:14:26.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11877431X> gndo:gndIdentifier "11877431X";
+  owl:sameAs <https://dbpedia.org/resource/Hesychius_of_Alexandria>, <http://viaf.org/viaf/3266817>,
+    <http://www.wikidata.org/entity/Q443510>;
+  gndo:oldAuthorityNumber "(DE-588)1089892586";
+  owl:sameAs <https://d-nb.info/gnd/1089892586>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089892586";
+  gndo:oldAuthorityNumber "(DE-588)108972490X";
+  owl:sameAs <https://d-nb.info/gnd/108972490X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108972490X";
+  gndo:oldAuthorityNumber "(DE-588)1089608683";
+  owl:sameAs <https://d-nb.info/gnd/1089608683>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089608683";
+  gndo:oldAuthorityNumber "(DE-588)1089180624";
+  owl:sameAs <https://d-nb.info/gnd/1089180624>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089180624";
+  gndo:oldAuthorityNumber "(DE-588a)11877431X", "(DE-588a)100967752", "(DE-588a)11970837X",
+    "(DE-588c)4109350-1";
+  gndo:variantNameForThePerson "Hesychios, Philologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588148 .
+
+_:node1ivs02adlx24588148 gndo:personalName "Hesychios";
+  gndo:nameAddition "Philologe" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Hesychios, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588149 .
+
+_:node1ivs02adlx24588149 gndo:personalName "Hesychios";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Esichio, d'Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588150 .
+
+_:node1ivs02adlx24588150 gndo:personalName "Esichio";
+  gndo:nameAddition "d'Alessandria" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Hesychius, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588151 .
+
+_:node1ivs02adlx24588151 gndo:personalName "Hesychius";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Alexandrinus, Hesychius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588152 .
+
+_:node1ivs02adlx24588152 gndo:forename "Hesychius";
+  gndo:surname "Alexandrinus" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Hesychius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588153 .
+
+_:node1ivs02adlx24588153 gndo:personalName "Hesychius" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Hesychius, Lexicographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588154 .
+
+_:node1ivs02adlx24588154 gndo:personalName "Hesychius";
+  gndo:nameAddition "Lexicographus" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Hesychios, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588155 .
+
+_:node1ivs02adlx24588155 gndo:personalName "Hesychios";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Esichio, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588156 .
+
+_:node1ivs02adlx24588156 gndo:personalName "Esichio";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Hesychius, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588157 .
+
+_:node1ivs02adlx24588157 gndo:personalName "Hesychius";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/11877431X> gndo:variantNameForThePerson "Hesychios, Lexikograf";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588158 .
+
+_:node1ivs02adlx24588158 gndo:personalName "Hesychios";
+  gndo:nameAddition "Lexikograf" .
+
+<https://d-nb.info/gnd/11877431X> gndo:preferredNameForThePerson "Hesychius, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24588159 .
+
+_:node1ivs02adlx24588159 gndo:personalName "Hesychius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/11877431X> gndo:hasRelation _:node1ivs02adlx24588160 .
+
+_:node1ivs02adlx24588160 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11877431X> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24588161 .
+
+_:node1ivs02adlx24588161 gndo:forename "Aldus Pius";
+  gndo:surname "Manutius" .
+
+<https://d-nb.info/gnd/11877431X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dictionarium", "Lexicon", "Lexicon", "\\=GHĒESYCHIU LEXIKON.\\=g HESYCHII DICTIONARIVM LOCVPLETISS. EA FIDE AC DILlgentia excusum, ...  1530.  (VD16 H 3185)",
+    "\\=GHĒSYCHIU LEXIKON.\\=g HESYCHII DICTIONARIVM..  1521.  (VD16 H 3184)", "Lexikon.  1530.  (VD16 ZV 7877)";
+  wdrs:describedby <https://d-nb.info/gnd/11877431X/about> .
+
+<https://d-nb.info/gnd/11877431X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11877431X> gndo:biographicalOrHistoricalInformation "Griechischer Philologe und Lexikograph"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24588162 .
+
+_:node1ivs02adlx24588162 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4247850-9> .
+
+<https://d-nb.info/gnd/11877431X> gndo:dateOfBirthAndDeath "[5. Jh.]" .
+

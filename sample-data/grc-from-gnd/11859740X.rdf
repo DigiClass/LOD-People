@@ -1,0 +1,237 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11859740X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11859740X/about> .
+
+<https://d-nb.info/gnd/11859740X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:51:25.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11859740X> gndo:gndIdentifier "11859740X";
+  owl:sameAs <https://dbpedia.org/resource/Quintus_Smyrnaeus>, <http://viaf.org/viaf/251073881>,
+    <https://isni.org/isni/0000000121399856>, <http://www.wikidata.org/entity/Q352702>,
+    <http://id.loc.gov/rwo/agents/n84058406>;
+  gndo:oldAuthorityNumber "(DE-588)108915609X";
+  owl:sameAs <https://d-nb.info/gnd/108915609X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108915609X";
+  gndo:oldAuthorityNumber "(DE-588)1089896956";
+  owl:sameAs <https://d-nb.info/gnd/1089896956>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089896956";
+  gndo:oldAuthorityNumber "(DE-588)1089726384";
+  owl:sameAs <https://d-nb.info/gnd/1089726384>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726384";
+  gndo:oldAuthorityNumber "(DE-588a)11859740X", "(DE-588c)4048091-4";
+  gndo:variantNameForThePerson "Kointos, von Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403231 .
+
+_:node1ivpishs6x25403231 gndo:personalName "Kointos";
+  gndo:nameAddition "von Smyrna" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Kointos, Smyrnaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403232 .
+
+_:node1ivpishs6x25403232 gndo:personalName "Kointos";
+  gndo:nameAddition "Smyrnaios" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403233 .
+
+_:node1ivpishs6x25403233 gndo:personalName "Quintus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Cointus, Smyrnaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403234 .
+
+_:node1ivpishs6x25403234 gndo:personalName "Cointus";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Kointos, Kalabros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403235 .
+
+_:node1ivpishs6x25403235 gndo:personalName "Kointos";
+  gndo:nameAddition "Kalabros" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus, von Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403236 .
+
+_:node1ivpishs6x25403236 gndo:personalName "Quintus";
+  gndo:nameAddition "von Smyrna" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus, Calabrus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403237 .
+
+_:node1ivpishs6x25403237 gndo:personalName "Quintus";
+  gndo:nameAddition "Calabrus" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus, Kalabros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403238 .
+
+_:node1ivpishs6x25403238 gndo:personalName "Quintus";
+  gndo:nameAddition "Kalabros" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus, de Smyrne";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403239 .
+
+_:node1ivpishs6x25403239 gndo:personalName "Quintus";
+  gndo:nameAddition "de Smyrne" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus, of Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403240 .
+
+_:node1ivpishs6x25403240 gndo:personalName "Quintus";
+  gndo:nameAddition "of Smyrna" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quinto, de Esmirna";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403241 .
+
+_:node1ivpishs6x25403241 gndo:personalName "Quinto";
+  gndo:nameAddition "de Esmirna" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quinto, di Smirne";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403242 .
+
+_:node1ivpishs6x25403242 gndo:personalName "Quinto";
+  gndo:nameAddition "di Smirne" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus, Calaber";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403243 .
+
+_:node1ivpishs6x25403243 gndo:personalName "Quintus";
+  gndo:nameAddition "Calaber" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Calaber, Quintus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403244 .
+
+_:node1ivpishs6x25403244 gndo:forename "Quintus";
+  gndo:surname "Calaber" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus von Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403245 .
+
+_:node1ivpishs6x25403245 gndo:personalName "Quintus von Smyrna" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Smyrnaeus, Quintus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403246 .
+
+_:node1ivpishs6x25403246 gndo:forename "Quintus";
+  gndo:surname "Smyrnaeus" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quintus Smyrnaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403247 .
+
+_:node1ivpishs6x25403247 gndo:personalName "Quintus Smyrnaeus" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Cointus Smyrneus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403248 .
+
+_:node1ivpishs6x25403248 gndo:personalName "Cointus Smyrneus" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Koïntos, Kalabros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403249 .
+
+_:node1ivpishs6x25403249 gndo:personalName "Koïntos";
+  gndo:nameAddition "Kalabros" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Kointus, Smyrnaius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403250 .
+
+_:node1ivpishs6x25403250 gndo:personalName "Kointus";
+  gndo:nameAddition "Smyrnaius" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Quinto, Smirneo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403251 .
+
+_:node1ivpishs6x25403251 gndo:personalName "Quinto";
+  gndo:nameAddition "Smirneo" .
+
+<https://d-nb.info/gnd/11859740X> gndo:variantNameForThePerson "Smirnskij, Kvint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403252 .
+
+_:node1ivpishs6x25403252 gndo:forename "Kvint";
+  gndo:surname "Smirnskij" .
+
+<https://d-nb.info/gnd/11859740X> gndo:preferredNameForThePerson "Quintus, Smyrnaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403253 .
+
+_:node1ivpishs6x25403253 gndo:personalName "Quintus";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/11859740X> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11914624X>;
+  gndo:hasRelation _:node1ivpishs6x25403254 .
+
+_:node1ivpishs6x25403254 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11914624X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11859740X> gndo:hasRelation _:node1ivpishs6x25403255 .
+
+_:node1ivpishs6x25403255 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11859740X> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25403256 .
+
+_:node1ivpishs6x25403256 gndo:forename "Johannes Thomas";
+  gndo:surname "Freige";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/11859740X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Quintus <Smyrnaeus>: Kointu Kalabru paraleipomenōn Homēru biblia tessares kai deka. - s.a.",
+    "Quintus <Smyrnaeus>: Kointu Kalabru ... paraleipomenōn Homēru biblia tessares kai deka",
+    "Quintus <Smyrnaeus>: Ilii excidium libri duo", "Quintus <Smyrnaeus>: Reditus Graecorum Troia capta liber unus",
+    "Quintus <Smyrnaeus>: De Troiae excidio", "Quintus <Smyrnaeus>: Derelictorum ab Homero ..",
+    "Quintus <Smyrnaeus>: Paralippomeni d'Omero", "Quintus <Smyrnaeus>: Die Fortsetzung der Ilias",
+    "Quintus <Smyrnaeus>: Paraleipomenōn Homerou, biblia tessareskaideka", "Quintus <Smyrnaeus>: Paraleipomenon Homerou biblia tessareskaideka",
+    "Quintus <von Smyrna>: Helenēs harpagē. 1569. (VD16 Q 113)";
+  wdrs:describedby <https://d-nb.info/gnd/11859740X/about> .
+
+<https://d-nb.info/gnd/11859740X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11859740X> gndo:biographicalOrHistoricalInformation "Griech. Epiker"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[4. Jh.]" .
+

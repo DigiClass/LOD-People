@@ -1,0 +1,133 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/123279933> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/123279933/about> .
+
+<https://d-nb.info/gnd/123279933/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-14T10:49:28.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/123279933> gndo:gndIdentifier "123279933";
+  foaf:page <https://de.wikipedia.org/wiki/Richard_Rudolf_Walzer>;
+  owl:sameAs <https://dbpedia.org/resource/Richard_Rudolf_Walzer>, <http://viaf.org/viaf/66506686>,
+    <https://isni.org/isni/0000000083443034>, <http://www.wikidata.org/entity/Q98291>,
+    <http://id.loc.gov/rwo/agents/n85130823>;
+  gndo:oldAuthorityNumber "(DE-588a)123279933", "(DE-588a)130597104", "(DE-588c)4656416-0";
+  gndo:variantNameForThePerson "Walzer, Richard Rudolf";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402497 .
+
+_:node1ivpishs6x25402497 gndo:forename "Richard Rudolf";
+  gndo:surname "Walzer" .
+
+<https://d-nb.info/gnd/123279933> gndo:variantNameForThePerson "Walzer, R.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402498 .
+
+_:node1ivpishs6x25402498 gndo:forename "R.";
+  gndo:surname "Walzer" .
+
+<https://d-nb.info/gnd/123279933> gndo:variantNameForThePerson "Walzer, Ricardus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402499 .
+
+_:node1ivpishs6x25402499 gndo:forename "Ricardus";
+  gndo:surname "Walzer" .
+
+<https://d-nb.info/gnd/123279933> gndo:variantNameForThePerson "Walzer, Richardus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402500 .
+
+_:node1ivpishs6x25402500 gndo:forename "Richardus";
+  gndo:surname "Walzer" .
+
+<https://d-nb.info/gnd/123279933> gndo:variantNameForThePerson "Walzer, R. R.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402501 .
+
+_:node1ivpishs6x25402501 gndo:forename "R. R.";
+  gndo:surname "Walzer" .
+
+<https://d-nb.info/gnd/123279933> gndo:variantNameForThePerson "Walzer, R.R.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402502 .
+
+_:node1ivpishs6x25402502 gndo:forename "R.R.";
+  gndo:surname "Walzer" .
+
+<https://d-nb.info/gnd/123279933> gndo:preferredNameForThePerson "Walzer, Richard";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402503 .
+
+_:node1ivpishs6x25402503 gndo:forename "Richard";
+  gndo:surname "Walzer" .
+
+<https://d-nb.info/gnd/123279933> gndo:affiliation <https://d-nb.info/gnd/1020403-9>,
+    <https://d-nb.info/gnd/5258314-4>, <https://d-nb.info/gnd/35534-3>, <https://d-nb.info/gnd/1004443-7>,
+    <https://d-nb.info/gnd/5221166-6>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:academicDegree "Dr. Phil., M.A., F.B.A.";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-DE>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GB>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XD-US>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/ita>,
+    <http://id.loc.gov/vocabulary/iso639-2/heb>;
+  gndo:publication "Hrsg. von: Aristoteles: Aristotelis Dialogorum fragmenta", "Übers. und Hrsg. von: Heraclitus <Ephesius>: Eraclito : raccolta dei frammenti e traduzione italiana",
+    "Galen on Jews and Christians", "Galens Schrift über die medizinische Erfahrung : Vorläufiger Bericht",
+    "Greek into Arabic : essays on Islamic philosophy", "Islamic philosophy and the classical tradition : essays presented by his friends and pupils to Richard Walzer on his seventhieth birthday. - Columbia, [1972]",
+    "Magna moralia und aristotelische Ethik : wesentl. erw. u. umgestaltete Diss. - Berlin, 1929",
+    "Übers. von: Steinberg, Jehuda: Der Soldat des Zaren";
+  wdrs:describedby <https://d-nb.info/gnd/123279933/about> .
+
+<https://d-nb.info/gnd/123279933/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-605>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-605> .
+
+<https://d-nb.info/gnd/123279933> gndo:biographicalOrHistoricalInformation "Engl. Altphilologe, Philosoph und Orientalist dt. Herkunft; studierte klass. Philologie in Berlin; anfangs Privatdozent für klassische Philologie; Emigration 1933-1938 nach Italien, dort Dozent für griech. Philosophie und Übersetzer von Heraklit ins Ital.; anschließend Emigration nach Großbritannien, Lehrstuhlinhaber für mittelalterliche arab. und griech. Philosophie an der Universität Oxford; 1953-1954 Forschungen am Institute for Advanced Study (IAS) in Princeton, NJ"@de,
+    "Altphilologe"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4005728-8>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4044234-2>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402504 .
+
+_:node1ivpishs6x25402504 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4199241-6>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_3 <https://d-nb.info/gnd/4415844-0>;
+  rdf:_4 <https://d-nb.info/gnd/4061414-1> .
+
+<https://d-nb.info/gnd/123279933> gndo:dateOfBirth "1900-07-14"^^xsd:date;
+  gndo:dateOfDeath "1975-04-16"^^xsd:date .
+

@@ -1,0 +1,128 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/10239654X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/10239654X/about> .
+
+<https://d-nb.info/gnd/10239654X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-03-13T00:32:00.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/10239654X> gndo:gndIdentifier "10239654X";
+  owl:sameAs <http://viaf.org/viaf/71783763>, <http://www.wikidata.org/entity/Q674387>;
+  gndo:oldAuthorityNumber "(DE-588)1089146442";
+  owl:sameAs <https://d-nb.info/gnd/1089146442>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089146442";
+  gndo:oldAuthorityNumber "(DE-588a)10239654X", "(DE-588c)4571155-0";
+  gndo:variantNameForThePerson "Iulianus, Theurgus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404424 .
+
+_:node1ivpishs6x25404424 gndo:personalName "Iulianus";
+  gndo:nameAddition "Theurgus" .
+
+<https://d-nb.info/gnd/10239654X> gndo:variantNameForThePerson "Julianus, Theurgus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404425 .
+
+_:node1ivpishs6x25404425 gndo:personalName "Julianus";
+  gndo:nameAddition "Theurgus" .
+
+<https://d-nb.info/gnd/10239654X> gndo:variantNameForThePerson "Iulianus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404426 .
+
+_:node1ivpishs6x25404426 gndo:personalName "Iulianus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/10239654X> gndo:variantNameForThePerson "Julien, le Théurge";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404427 .
+
+_:node1ivpishs6x25404427 gndo:personalName "Julien";
+  gndo:nameAddition "le Théurge" .
+
+<https://d-nb.info/gnd/10239654X> gndo:variantNameForThePerson "Theurgus, Iulianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404428 .
+
+_:node1ivpishs6x25404428 gndo:forename "Iulianus";
+  gndo:surname "Theurgus" .
+
+<https://d-nb.info/gnd/10239654X> gndo:variantNameForThePerson "Julianus, the Theurgist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404429 .
+
+_:node1ivpishs6x25404429 gndo:personalName "Julianus";
+  gndo:nameAddition "the Theurgist" .
+
+<https://d-nb.info/gnd/10239654X> gndo:variantNameForThePerson "Julianos, Theurg";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404430 .
+
+_:node1ivpishs6x25404430 gndo:personalName "Julianos";
+  gndo:nameAddition "Theurg" .
+
+<https://d-nb.info/gnd/10239654X> gndo:variantNameForThePerson "Giuliano, il Teurgo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404431 .
+
+_:node1ivpishs6x25404431 gndo:personalName "Giuliano";
+  gndo:nameAddition "il Teurgo" .
+
+<https://d-nb.info/gnd/10239654X> gndo:preferredNameForThePerson "Julianus, der Theurg";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404432 .
+
+_:node1ivpishs6x25404432 gndo:personalName "Julianus";
+  gndo:nameAddition "der Theurg" .
+
+<https://d-nb.info/gnd/10239654X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:relatedSubjectHeading <https://d-nb.info/gnd/4384007-3>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/10239654X/about> .
+
+<https://d-nb.info/gnd/10239654X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/10239654X> gndo:biographicalOrHistoricalInformation "Es könnte sich auch um eine fiktive Gestalt handeln"@de;
+  gndo:udkCode "101 - 200";
+  gndo:professionOrOccupation _:node1ivpishs6x25404433 .
+
+_:node1ivpishs6x25404433 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4003982-1> .
+
+<https://d-nb.info/gnd/10239654X> gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

@@ -1,0 +1,359 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118635808> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118635808/about> .
+
+<https://d-nb.info/gnd/118635808/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-06-04T11:29:44.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118635808> gndo:gndIdentifier "118635808";
+  foaf:page <https://de.wikipedia.org/wiki/Xenophon>;
+  owl:sameAs <https://dbpedia.org/resource/Xenophon>, <http://viaf.org/viaf/262187455>,
+    <https://isni.org/isni/0000000123212506>, <http://www.wikidata.org/entity/Q129772>;
+  gndo:oldAuthorityNumber "(DE-588)1089920393";
+  owl:sameAs <https://d-nb.info/gnd/1089920393>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089920393";
+  gndo:oldAuthorityNumber "(DE-588)108912614X";
+  owl:sameAs <https://d-nb.info/gnd/108912614X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108912614X";
+  gndo:oldAuthorityNumber "(DE-588)188114831";
+  owl:sameAs <https://d-nb.info/gnd/188114831>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/188114831";
+  gndo:oldAuthorityNumber "(DE-588a)188114831", "(DE-588a)118635808", "(DE-588a)11987573X",
+    "(DE-588c)4067149-5";
+  gndo:variantNameForThePerson "Xenophōntos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587268 .
+
+_:node1ivs02adlx24587268 gndo:personalName "Xenophōntos" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophōntos, Rētoros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587269 .
+
+_:node1ivs02adlx24587269 gndo:personalName "Xenophōntos";
+  gndo:nameAddition "Rētoros" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenopho, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587270 .
+
+_:node1ivs02adlx24587270 gndo:personalName "Xenopho";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587271 .
+
+_:node1ivs02adlx24587271 gndo:personalName "Xenophon";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Pseudo-Xenophón";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587272 .
+
+_:node1ivs02adlx24587272 gndo:personalName "Pseudo-Xenophón" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xénophon, d'Erchia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587273 .
+
+_:node1ivs02adlx24587273 gndo:personalName "Xénophon";
+  gndo:nameAddition "d'Erchia" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophōntōs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587274 .
+
+_:node1ivs02adlx24587274 gndo:personalName "Xenophōntōs" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Gizinufūn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587275 .
+
+_:node1ivs02adlx24587275 gndo:personalName "Gizinufūn" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Jenofonte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587276 .
+
+_:node1ivs02adlx24587276 gndo:personalName "Jenofonte" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenofont";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587277 .
+
+_:node1ivs02adlx24587277 gndo:personalName "Xenofont" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Ksenofontas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587278 .
+
+_:node1ivs02adlx24587278 gndo:personalName "Ksenofontas" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Themistogenes, Syracusanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587279 .
+
+_:node1ivs02adlx24587279 gndo:personalName "Themistogenes";
+  gndo:nameAddition "Syracusanus" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Themistogenes, von Syrakus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587280 .
+
+_:node1ivs02adlx24587280 gndo:personalName "Themistogenes";
+  gndo:nameAddition "von Syrakus" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Themistogenes, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587281 .
+
+_:node1ivs02adlx24587281 gndo:personalName "Themistogenes";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587282 .
+
+_:node1ivs02adlx24587282 gndo:personalName "Xenophon";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587283 .
+
+_:node1ivs02adlx24587283 gndo:personalName "Xenophon";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, Sokratiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587284 .
+
+_:node1ivs02adlx24587284 gndo:personalName "Xenophon";
+  gndo:nameAddition "Sokratiker" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, Biograph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587285 .
+
+_:node1ivs02adlx24587285 gndo:personalName "Xenophon";
+  gndo:nameAddition "Biograph" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Senofonte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587286 .
+
+_:node1ivs02adlx24587286 gndo:personalName "Senofonte" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587287 .
+
+_:node1ivs02adlx24587287 gndo:personalName "Xenophon";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Pseudo-Xenophon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587288 .
+
+_:node1ivs02adlx24587288 gndo:personalName "Pseudo-Xenophon" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Pseudo-Senofonte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587289 .
+
+_:node1ivs02adlx24587289 gndo:personalName "Pseudo-Senofonte" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Ksenofont";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587290 .
+
+_:node1ivs02adlx24587290 gndo:personalName "Ksenofont" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenofon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587291 .
+
+_:node1ivs02adlx24587291 gndo:personalName "Xenofon" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenofonte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587292 .
+
+_:node1ivs02adlx24587292 gndo:personalName "Xenofonte" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophontos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587293 .
+
+_:node1ivs02adlx24587293 gndo:personalName "Xenophontos" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, d'Erchia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587294 .
+
+_:node1ivs02adlx24587294 gndo:personalName "Xenophon";
+  gndo:nameAddition "d'Erchia" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Pseudoxenophon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587295 .
+
+_:node1ivs02adlx24587295 gndo:personalName "Pseudoxenophon" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587296 .
+
+_:node1ivs02adlx24587296 gndo:personalName "Xenophon";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Xenophon, Socraticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587297 .
+
+_:node1ivs02adlx24587297 gndo:personalName "Xenophon";
+  gndo:nameAddition "Socraticus" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Pseudosenofonte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587298 .
+
+_:node1ivs02adlx24587298 gndo:personalName "Pseudosenofonte" .
+
+<https://d-nb.info/gnd/118635808> gndo:variantNameForThePerson "Ξενοφωντος"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587299 .
+
+_:node1ivs02adlx24587299 gndo:personalName "Ξενοφωντος" .
+
+<https://d-nb.info/gnd/118635808> gndo:preferredNameForThePerson "Xenophon";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587300 .
+
+_:node1ivs02adlx24587300 gndo:personalName "Xenophon" .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship <https://d-nb.info/gnd/100188826>;
+  gndo:hasRelation _:node1ivs02adlx24587301 .
+
+_:node1ivs02adlx24587301 gndo:professionalRelationship <https://d-nb.info/gnd/100188826>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship <https://d-nb.info/gnd/118744658>;
+  gndo:hasRelation _:node1ivs02adlx24587302 .
+
+_:node1ivs02adlx24587302 gndo:professionalRelationship <https://d-nb.info/gnd/118744658>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:hasRelation _:node1ivs02adlx24587303 .
+
+_:node1ivs02adlx24587303 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship _:node1ivs02adlx24587304 .
+
+_:node1ivs02adlx24587304 gndo:forename "Johannes";
+  gndo:surname "Spangenberg" .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship <https://d-nb.info/gnd/124124119>;
+  gndo:hasRelation _:node1ivs02adlx24587305 .
+
+_:node1ivs02adlx24587305 gndo:professionalRelationship <https://d-nb.info/gnd/124124119>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:hasRelation _:node1ivs02adlx24587306 .
+
+_:node1ivs02adlx24587306 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship _:node1ivs02adlx24587307 .
+
+_:node1ivs02adlx24587307 gndo:forename "Jean";
+  gndo:surname "Ribit" .
+
+<https://d-nb.info/gnd/118635808> gndo:hasRelation _:node1ivs02adlx24587308 .
+
+_:node1ivs02adlx24587308 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship _:node1ivs02adlx24587309 .
+
+_:node1ivs02adlx24587309 gndo:forename "Giovanni Gioviano";
+  gndo:surname "Pontano" .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship <https://d-nb.info/gnd/118662554>;
+  gndo:hasRelation _:node1ivs02adlx24587310 .
+
+_:node1ivs02adlx24587310 gndo:professionalRelationship <https://d-nb.info/gnd/118662554>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:hasRelation _:node1ivs02adlx24587311 .
+
+_:node1ivs02adlx24587311 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship _:node1ivs02adlx24587312 .
+
+_:node1ivs02adlx24587312 gndo:forename "Ognibene";
+  gndo:surname "Leoniceno" .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship <https://d-nb.info/gnd/123193788>;
+  gndo:hasRelation _:node1ivs02adlx24587313 .
+
+_:node1ivs02adlx24587313 gndo:professionalRelationship <https://d-nb.info/gnd/123193788>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:hasRelation _:node1ivs02adlx24587314 .
+
+_:node1ivs02adlx24587314 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118635808> gndo:professionalRelationship _:node1ivs02adlx24587315 .
+
+_:node1ivs02adlx24587315 gndo:forename "Wolfgang";
+  gndo:surname "Ruß" .
+
+<https://d-nb.info/gnd/118635808> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hippocomicus, quae est disputatio de curandis equis", "Xenophōntos logos",
+    "Apomnēmoneumata", "La retraitte de dix mille, ou l'expedition de Cyras", "Kyru paideias",
+    "De Cyri institutione", "Apologia Socratis ... , Agesilaus, Hieron.", "Socratis apologia",
+    "Convivium", "Cyri Paediae Liber unus", "De rebus Graecorum, Ausz.", "Ein sehr Liebliche Historische Narration oder erzelung von dem Edlen iungen Helde dem ... (vd16)X55",
+    "Camerarius, Joachim <der Ältere>: Historiola rei nummariae sive de nomismatis Graecorum et Latinorum (vd16)C534",
+    "XENOPHONTIS CYRI PAEDIAE LIBER PRIMVS. Ioanne Caselio interprete (vd16)X28", "XENOPHONTIS HERCVLES. CARmine redditus à Ioanne Spangenbergo, Apud Northusanos VERBI ... (vd16)X50",
+    "\\=GXENOPHŌNTOS RETOROS LOGOS EIS AGESILAON TON basilea\\=g. XENOPHONTIS RHETORIS IN ... (vd16)ZV21886",
+    "Cornarius, Janus: Symposium (vd16)C5132", "Xenophon: Dialogus Xenophontis in quo non minus uere \\[qua...] eleganter quid inter priuatam et tyrannicam ... (vd16)X57",
+    "XENOPHONTIS ORATORIS ET HISTORICI, PROPTER SVMMAM EIVS ELOQVENTIAM, DOCTISSIMORVM OMNIVM ... (vd16)X5",
+    "XENOPHONTIS CYRI PAEDIAE LIBER SECVNDVS. AD ILLVSTRISSIMVM PRINCIPEM HENRICVM IVLIVM ... (vd16)X26";
+  wdrs:describedby <https://d-nb.info/gnd/118635808/about> .
+
+<https://d-nb.info/gnd/118635808/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118635808> gndo:biographicalOrHistoricalInformation "Hrsg. der \"Anabasis\" unter dem Pseud. Themistogenes <Syracusanus>"@de;
+  gndo:udkCode "500 - 401 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivs02adlx24587316 .
+
+_:node1ivs02adlx24587316 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2>;
+  rdf:_2 <https://d-nb.info/gnd/4140293-5> .
+
+<https://d-nb.info/gnd/118635808> gndo:dateOfBirth "-0430"^^xsd:gYear;
+  gndo:dateOfDeath "-0354"^^xsd:gYear .
+

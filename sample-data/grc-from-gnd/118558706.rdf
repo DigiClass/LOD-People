@@ -1,0 +1,345 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118558706> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118558706/about> .
+
+<https://d-nb.info/gnd/118558706/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:52:41.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118558706> gndo:gndIdentifier "118558706";
+  foaf:page <https://de.wikipedia.org/wiki/Sextus_Iulius_Africanus>;
+  owl:sameAs <https://dbpedia.org/resource/Sextus_Julius_Africanus>, <http://viaf.org/viaf/160788177>,
+    <https://isni.org/isni/0000000138848953>, <http://www.wikidata.org/entity/Q317014>,
+    <http://id.loc.gov/rwo/agents/n84081378>;
+  gndo:oldAuthorityNumber "(DE-588)1089611528";
+  owl:sameAs <https://d-nb.info/gnd/1089611528>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089611528";
+  gndo:oldAuthorityNumber "(DE-588)1089787219";
+  owl:sameAs <https://d-nb.info/gnd/1089787219>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089787219";
+  gndo:oldAuthorityNumber "(DE-588)174142633";
+  owl:sameAs <https://d-nb.info/gnd/174142633>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174142633";
+  gndo:oldAuthorityNumber "(DE-588a)174142633", "(DE-588a)118558706", "(DE-588a)100297889",
+    "(DE-588c)4028983-7";
+  gndo:variantNameForThePerson "Africanus, Sextus Julius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402662 .
+
+_:node1ivpishs6x25402662 gndo:forename "Sextus Julius";
+  gndo:surname "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africano, Giulio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402663 .
+
+_:node1ivpishs6x25402663 gndo:forename "Giulio";
+  gndo:surname "Africano" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africano, Sesto Giulio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402664 .
+
+_:node1ivpishs6x25402664 gndo:forename "Sesto Giulio";
+  gndo:surname "Africano" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africanus, Sextus I.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402665 .
+
+_:node1ivpishs6x25402665 gndo:forename "Sextus I.";
+  gndo:surname "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Julius Africanus, Sextus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402666 .
+
+_:node1ivpishs6x25402666 gndo:forename "Sextus";
+  gndo:surname "Julius Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius Africanus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402667 .
+
+_:node1ivpishs6x25402667 gndo:personalName "Iulius Africanus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius Africanus, Hierosolymitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402668 .
+
+_:node1ivpishs6x25402668 gndo:personalName "Iulius Africanus";
+  gndo:nameAddition "Hierosolymitanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius Africanus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402669 .
+
+_:node1ivpishs6x25402669 gndo:personalName "Iulius Africanus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Giulio, Africano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402670 .
+
+_:node1ivpishs6x25402670 gndo:personalName "Giulio";
+  gndo:nameAddition "Africano" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Giulio, Scolaro di Eracla";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402671 .
+
+_:node1ivpishs6x25402671 gndo:personalName "Giulio";
+  gndo:nameAddition "Scolaro di Eracla" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Giulio, Amico di Origene";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402672 .
+
+_:node1ivpishs6x25402672 gndo:personalName "Giulio";
+  gndo:nameAddition "Amico di Origene" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Sextus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402673 .
+
+_:node1ivpishs6x25402673 gndo:forename "Sextus";
+  gndo:surname "Iulius" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius Sextus, Africanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402674 .
+
+_:node1ivpishs6x25402674 gndo:personalName "Iulius Sextus";
+  gndo:nameAddition "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africanus, von Jerusalem";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402675 .
+
+_:node1ivpishs6x25402675 gndo:personalName "Africanus";
+  gndo:nameAddition "von Jerusalem" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Sextus Iulius, Africanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402676 .
+
+_:node1ivpishs6x25402676 gndo:personalName "Sextus Iulius";
+  gndo:nameAddition "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Agricultor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402677 .
+
+_:node1ivpishs6x25402677 gndo:personalName "Iulius";
+  gndo:nameAddition "Agricultor" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Chemicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402678 .
+
+_:node1ivpishs6x25402678 gndo:personalName "Iulius";
+  gndo:nameAddition "Chemicus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Chronographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402679 .
+
+_:node1ivpishs6x25402679 gndo:personalName "Iulius";
+  gndo:nameAddition "Chronographus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Scriptor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402680 .
+
+_:node1ivpishs6x25402680 gndo:personalName "Iulius";
+  gndo:nameAddition "Scriptor" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Epistolographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402681 .
+
+_:node1ivpishs6x25402681 gndo:personalName "Iulius";
+  gndo:nameAddition "Epistolographus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402682 .
+
+_:node1ivpishs6x25402682 gndo:personalName "Iulius";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402683 .
+
+_:node1ivpishs6x25402683 gndo:personalName "Iulius";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402684 .
+
+_:node1ivpishs6x25402684 gndo:personalName "Iulius";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Physicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402685 .
+
+_:node1ivpishs6x25402685 gndo:personalName "Iulius";
+  gndo:nameAddition "Physicus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Tacticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402686 .
+
+_:node1ivpishs6x25402686 gndo:personalName "Iulius";
+  gndo:nameAddition "Tacticus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Syrus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402687 .
+
+_:node1ivpishs6x25402687 gndo:personalName "Iulius";
+  gndo:nameAddition "Syrus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africanus, Julius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402688 .
+
+_:node1ivpishs6x25402688 gndo:forename "Julius";
+  gndo:surname "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Aphrikanos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402689 .
+
+_:node1ivpishs6x25402689 gndo:personalName "Aphrikanos" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402690 .
+
+_:node1ivpishs6x25402690 gndo:personalName "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Julius, Sextus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402691 .
+
+_:node1ivpishs6x25402691 gndo:forename "Sextus";
+  gndo:surname "Julius" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Julius, Africanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402692 .
+
+_:node1ivpishs6x25402692 gndo:personalName "Julius";
+  gndo:nameAddition "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africanus, Iulius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402693 .
+
+_:node1ivpishs6x25402693 gndo:forename "Iulius";
+  gndo:surname "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius, Africanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402694 .
+
+_:node1ivpishs6x25402694 gndo:personalName "Iulius";
+  gndo:nameAddition "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africanus, Sextus Iulius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402695 .
+
+_:node1ivpishs6x25402695 gndo:forename "Sextus Iulius";
+  gndo:surname "Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Africanus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402696 .
+
+_:node1ivpishs6x25402696 gndo:personalName "Africanus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Julius Africanus, Sextus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402697 .
+
+_:node1ivpishs6x25402697 gndo:personalName "Julius Africanus";
+  gndo:nameAddition "Sextus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Iulius Africanus, Sextus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402698 .
+
+_:node1ivpishs6x25402698 gndo:personalName "Iulius Africanus";
+  gndo:nameAddition "Sextus" .
+
+<https://d-nb.info/gnd/118558706> gndo:variantNameForThePerson "Julius, Sextus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402699 .
+
+_:node1ivpishs6x25402699 gndo:personalName "Julius";
+  gndo:nameAddition "Sextus" .
+
+<https://d-nb.info/gnd/118558706> gndo:preferredNameForThePerson "Iulius Africanus, Sextus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402700 .
+
+_:node1ivpishs6x25402700 gndo:forename "Sextus";
+  gndo:surname "Iulius Africanus" .
+
+<https://d-nb.info/gnd/118558706> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124179916>;
+  gndo:hasRelation _:node1ivpishs6x25402701 .
+
+_:node1ivpishs6x25402701 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124179916>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118558706> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119640619>;
+  gndo:hasRelation _:node1ivpishs6x25402702 .
+
+_:node1ivpishs6x25402702 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119640619>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118558706> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118726870>;
+  gndo:hasRelation _:node1ivpishs6x25402703 .
+
+_:node1ivpishs6x25402703 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118726870>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118558706> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Iulius Africanus, Sextus: Epistola ad Aristidem de Consensu Evangelistarum Matthaei et Lu*",
+    "Iulius Africanus, Sextus: Quae supersunt", "Iulius Africanus, Sextus: Quae supersunt ex quinque Libris Chronographiae, ad rem sacram *",
+    "Iulius Africanus, Sextus: Cesti", "Abdias <de Babylonia>: De historia certaminis apostolici libri decem",
+    "Abdias <de Babylonia>: De historia certaminis apostolici libri decem", "Abdias <de Babylonia>: De historia certaminis apostolici libri decem",
+    "Abdias <de Babylonia>: De historia certaminis apostolici libri decem", "Abdias <de Babylonia>: De historia certaminis Apostolici",
+    "Abdias <de Babylonia>: De historia certaminis Apostolici", "Périon, Joachim: Biblia, NT., Apocrypha. 1569. (VD16 B 5298)",
+    "Périon, Joachim: Biblia, NT., Apocrypha. 1576. (VD16 B 5299)";
+  wdrs:describedby <https://d-nb.info/gnd/118558706/about> .
+
+<https://d-nb.info/gnd/118558706/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118558706> gndo:usingInstructions "Nicht verwechseln mit Julius Africanus 1. Jh."@de;
+  gndo:biographicalOrHistoricalInformation "Cpg 1690-1695; Röm. Chronograph u. Polyhistor"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402704 .
+
+_:node1ivpishs6x25402704 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4155430-9> .
+
+<https://d-nb.info/gnd/118558706> gndo:dateOfBirth "0160"^^xsd:gYear;
+  gndo:dateOfDeath "0240"^^xsd:gYear .
+

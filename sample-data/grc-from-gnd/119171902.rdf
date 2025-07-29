@@ -1,0 +1,118 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119171902> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119171902/about> .
+
+<https://d-nb.info/gnd/119171902/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-12-20T12:39:26.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119171902> gndo:gndIdentifier "119171902";
+  foaf:page <https://de.wikipedia.org/wiki/Cassius_Iatrosophista>;
+  owl:sameAs <http://viaf.org/viaf/311312889>, <http://www.wikidata.org/entity/Q61474378>;
+  gndo:oldAuthorityNumber "(DE-588)1089748558";
+  owl:sameAs <https://d-nb.info/gnd/1089748558>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089748558";
+  gndo:oldAuthorityNumber "(DE-588)119638134";
+  owl:sameAs <https://d-nb.info/gnd/119638134>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119638134";
+  gndo:oldAuthorityNumber "(DE-588a)119638134", "(DE-588a)119171902", "(DE-588c)4348863-8";
+  gndo:variantNameForThePerson "Cassius, Iatrosophistes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399862 .
+
+_:node1ivpishs6x25399862 gndo:personalName "Cassius";
+  gndo:nameAddition "Iatrosophistes" .
+
+<https://d-nb.info/gnd/119171902> gndo:variantNameForThePerson "Kassios, Iatrosophistes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399863 .
+
+_:node1ivpishs6x25399863 gndo:personalName "Kassios";
+  gndo:nameAddition "Iatrosophistes" .
+
+<https://d-nb.info/gnd/119171902> gndo:variantNameForThePerson "Cassius, Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399864 .
+
+_:node1ivpishs6x25399864 gndo:personalName "Cassius";
+  gndo:nameAddition "Medicus" .
+
+<https://d-nb.info/gnd/119171902> gndo:variantNameForThePerson "Kassios, Iatrosophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399865 .
+
+_:node1ivpishs6x25399865 gndo:personalName "Kassios";
+  gndo:nameAddition "Iatrosophista" .
+
+<https://d-nb.info/gnd/119171902> gndo:variantNameForThePerson "Cassius, Felix";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399866 .
+
+_:node1ivpishs6x25399866 gndo:personalName "Cassius";
+  gndo:nameAddition "Felix" .
+
+<https://d-nb.info/gnd/119171902> gndo:variantNameForThePerson "Kasios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399867 .
+
+_:node1ivpishs6x25399867 gndo:personalName "Kasios" .
+
+<https://d-nb.info/gnd/119171902> gndo:preferredNameForThePerson "Cassius, Iatrosophista";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25399868 .
+
+_:node1ivpishs6x25399868 gndo:personalName "Cassius";
+  gndo:nameAddition "Iatrosophista" .
+
+<https://d-nb.info/gnd/119171902> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Cassius Iatrosophista: Naturales et medicinales quaestiones LXXXIIII.",
+    "Aristoteles: Aristotelus, Alexandru te kai Kasiu problēmata syn Theophrastiōn tinōn...",
+    "Cassius <Iatrosophista>: Kassiu iatrosophistu, kai Theophylaktu tu Simokatu Problēmata*",
+    "Cassius <Iatrosophista>: De Animalibus medicae Quaestiones", "Cassius <Iatrosophista>: Iatrikai aporiai kai problēmata peri zoon kai tetrapodōn";
+  wdrs:describedby <https://d-nb.info/gnd/119171902/about> .
+
+<https://d-nb.info/gnd/119171902/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119171902> gndo:biographicalOrHistoricalInformation "Quaestiones medicae et problemata physica; Griech. Arzt"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "[1XX]";
+  gndo:dateOfDeath "[2XX]" .
+

@@ -1,0 +1,387 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118503979> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118503979/about> .
+
+<https://d-nb.info/gnd/118503979/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:25:08.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118503979> gndo:gndIdentifier "118503979";
+  foaf:page <https://de.wikipedia.org/wiki/Aelius_Aristides>;
+  owl:sameAs <https://dbpedia.org/resource/Aelius_Aristides>, <http://viaf.org/viaf/89043754>,
+    <https://isni.org/isni/000000044940193X>, <http://www.wikidata.org/entity/Q354431>,
+    <http://id.loc.gov/rwo/agents/n50030692>;
+  gndo:oldAuthorityNumber "(DE-588)160297699";
+  owl:sameAs <https://d-nb.info/gnd/160297699>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/160297699";
+  gndo:oldAuthorityNumber "(DE-588a)160297699", "(DE-588a)118503979", "(DE-588c)4002914-1";
+  gndo:variantNameForThePerson "Aristides, Publius A.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591094 .
+
+_:node1ivs02adlx24591094 gndo:forename "Publius A.";
+  gndo:surname "Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides, Mysius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591095 .
+
+_:node1ivs02adlx24591095 gndo:personalName "Aristides";
+  gndo:nameAddition "Mysius" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides, Adrianensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591096 .
+
+_:node1ivs02adlx24591096 gndo:personalName "Aristides";
+  gndo:nameAddition "Adrianensis" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591097 .
+
+_:node1ivs02adlx24591097 gndo:personalName "Aristides";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeides, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591098 .
+
+_:node1ivs02adlx24591098 gndo:personalName "Aristeides";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeides, Sohn des Eudaimon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591099 .
+
+_:node1ivs02adlx24591099 gndo:personalName "Aristeides";
+  gndo:nameAddition "Sohn des Eudaimon" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeides, aus Mysien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591100 .
+
+_:node1ivs02adlx24591100 gndo:personalName "Aristeides";
+  gndo:nameAddition "aus Mysien" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeides, Theodoros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591101 .
+
+_:node1ivs02adlx24591101 gndo:personalName "Aristeides";
+  gndo:nameAddition "Theodoros" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeides, Publius Ailios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591102 .
+
+_:node1ivs02adlx24591102 gndo:forename "Publius Ailios";
+  gndo:surname "Aristeides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristide, Pseudo-Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591103 .
+
+_:node1ivs02adlx24591103 gndo:forename "Pseudo-Aelius";
+  gndo:surname "Aristide" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides, Elio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591104 .
+
+_:node1ivs02adlx24591104 gndo:forename "Elio";
+  gndo:surname "Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Theodorus, Publius A.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591105 .
+
+_:node1ivs02adlx24591105 gndo:forename "Publius A.";
+  gndo:surname "Theodorus" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aelius, Aristide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591106 .
+
+_:node1ivs02adlx24591106 gndo:personalName "Aelius";
+  gndo:nameAddition "Aristide" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Ailios, Aristides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591107 .
+
+_:node1ivs02adlx24591107 gndo:personalName "Ailios";
+  gndo:nameAddition "Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides, of Adrianutherae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591108 .
+
+_:node1ivs02adlx24591108 gndo:personalName "Aristides";
+  gndo:nameAddition "of Adrianutherae" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeides, von Mysien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591109 .
+
+_:node1ivs02adlx24591109 gndo:personalName "Aristeides";
+  gndo:nameAddition "von Mysien" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides, P. Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591110 .
+
+_:node1ivs02adlx24591110 gndo:forename "P. Aelius";
+  gndo:surname "Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides Smyrnaeus, Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591111 .
+
+_:node1ivs02adlx24591111 gndo:forename "Aelius";
+  gndo:surname "Aristides Smyrnaeus" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Pseudo-Aelius Aristide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591112 .
+
+_:node1ivs02adlx24591112 gndo:personalName "Pseudo-Aelius Aristide" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristide, Pseudo-Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591113 .
+
+_:node1ivs02adlx24591113 gndo:personalName "Aristide";
+  gndo:nameAddition "Pseudo-Aelius" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeides, Ailios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591114 .
+
+_:node1ivs02adlx24591114 gndo:forename "Ailios";
+  gndo:surname "Aristeides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Pseudo-Aristides, Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591115 .
+
+_:node1ivs02adlx24591115 gndo:forename "Aelius";
+  gndo:surname "Pseudo-Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Pseudo-Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591116 .
+
+_:node1ivs02adlx24591116 gndo:personalName "Pseudo-Aelius" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Pseudo-Aristides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591117 .
+
+_:node1ivs02adlx24591117 gndo:personalName "Pseudo-Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aelius Aristides, Publius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591118 .
+
+_:node1ivs02adlx24591118 gndo:forename "Publius";
+  gndo:surname "Aelius Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides Theodorus, Publius Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591119 .
+
+_:node1ivs02adlx24591119 gndo:forename "Publius Aelius";
+  gndo:surname "Aristides Theodorus" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Theodorus, Publius Aelius Aristides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591120 .
+
+_:node1ivs02adlx24591120 gndo:forename "Publius Aelius Aristides";
+  gndo:surname "Theodorus" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Ailios, Aristeides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591121 .
+
+_:node1ivs02adlx24591121 gndo:personalName "Ailios";
+  gndo:nameAddition "Aristeides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeidēs, Ailios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591122 .
+
+_:node1ivs02adlx24591122 gndo:forename "Ailios";
+  gndo:surname "Aristeidēs" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristide, Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591123 .
+
+_:node1ivs02adlx24591123 gndo:forename "Aelius";
+  gndo:surname "Aristide" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristide, Elio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591124 .
+
+_:node1ivs02adlx24591124 gndo:forename "Elio";
+  gndo:surname "Aristide" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aelius, Aristides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591125 .
+
+_:node1ivs02adlx24591125 gndo:personalName "Aelius";
+  gndo:nameAddition "Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591126 .
+
+_:node1ivs02adlx24591126 gndo:personalName "Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristeides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591127 .
+
+_:node1ivs02adlx24591127 gndo:personalName "Aristeides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591128 .
+
+_:node1ivs02adlx24591128 gndo:personalName "Aelius" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Aristides, Publius Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591129 .
+
+_:node1ivs02adlx24591129 gndo:forename "Publius Aelius";
+  gndo:surname "Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:variantNameForThePerson "Pseudo-Aelius Aristides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591130 .
+
+_:node1ivs02adlx24591130 gndo:personalName "Pseudo-Aelius Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:preferredNameForThePerson "Aristides, Aelius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591131 .
+
+_:node1ivs02adlx24591131 gndo:forename "Aelius";
+  gndo:surname "Aristides" .
+
+<https://d-nb.info/gnd/118503979> gndo:hasRelation _:node1ivs02adlx24591132 .
+
+_:node1ivs02adlx24591132 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24591133 .
+
+_:node1ivs02adlx24591133 gndo:forename "Joachim";
+  gndo:surname "Camerarius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100068065>;
+  gndo:hasRelation _:node1ivs02adlx24591134 .
+
+_:node1ivs02adlx24591134 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100068065>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118678876>;
+  gndo:hasRelation _:node1ivs02adlx24591135 .
+
+_:node1ivs02adlx24591135 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118678876>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118858750>;
+  gndo:hasRelation _:node1ivs02adlx24591136 .
+
+_:node1ivs02adlx24591136 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118858750>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:hasRelation _:node1ivs02adlx24591137 .
+
+_:node1ivs02adlx24591137 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24591138 .
+
+_:node1ivs02adlx24591138 gndo:forename "Helius";
+  gndo:surname "Eobanus" .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivs02adlx24591139 .
+
+_:node1ivs02adlx24591139 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855333X>;
+  gndo:hasRelation _:node1ivs02adlx24591140 .
+
+_:node1ivs02adlx24591140 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11855333X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11857258X>;
+  gndo:hasRelation _:node1ivs02adlx24591141 .
+
+_:node1ivs02adlx24591141 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11857258X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118747681>;
+  gndo:hasRelation _:node1ivs02adlx24591142 .
+
+_:node1ivs02adlx24591142 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118747681>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:hasRelation _:node1ivs02adlx24591143 .
+
+_:node1ivs02adlx24591143 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503979> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24591144 .
+
+_:node1ivs02adlx24591144 gndo:forename "Vincentius";
+  gndo:surname "Opsopaeus" .
+
+<https://d-nb.info/gnd/118503979> gndo:professionOrOccupationAsLiteral "Rhetoriker";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Aristides, Aelius: Aristidis oratio adversus Leptinem, Libanii declamatio pro Socrate .*",
+    "Aristides, Aelius: Declamationes Leptineae", "Aristides, Aelius: Oratio de laudibus urbi Romae ...",
+    "Aristides, Aelius: Opera omnia", "Aristides, Aelius: Aristides", "Aristides, Aelius: Presbeutikos",
+    "Aristides, Aelius: Nomine legatorum graecorum ad Achillem scripta", "Aristides, Aelius: Oratio adversus Leptinem",
+    "Aristides, Aelius: Orationes", "Aristides, Aelius: Orationum tomi tres", "Aristides, Aelius: AELII ARISTIDIS Adrianensis ORATORIS CLARISSIMI ORATIONVM TOMI TRES nunc primum ... 1566. (VD16 A 3263)",
+    "Aristides, Aelius: IN LIBELLO HOC, INSVNT. \\=GPresbeutikos Aristeidu.Antirrētikos Libaniu.\\=g Hoc est. Quid ... 1535. (VD16 A 3265)",
+    "Dictys Cretensis: Ephemeris belli Troiani. 1573. (VD16 D 1410)";
+  wdrs:describedby <https://d-nb.info/gnd/118503979/about> .
+
+<https://d-nb.info/gnd/118503979/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118503979> gndo:biographicalOrHistoricalInformation "Griech. Rhetor"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24591145 .
+
+_:node1ivs02adlx24591145 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4048895-0> .
+
+<https://d-nb.info/gnd/118503979> gndo:dateOfBirth "0117"^^xsd:gYear;
+  gndo:dateOfDeath "0187"^^xsd:gYear .
+

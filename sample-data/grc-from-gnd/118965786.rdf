@@ -1,0 +1,399 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118965786> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118965786/about> .
+
+<https://d-nb.info/gnd/118965786/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-10-12T18:33:49.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118965786> gndo:gndIdentifier "118965786";
+  foaf:page <https://de.wikipedia.org/wiki/Johannes_Stobaios>;
+  owl:sameAs <https://dbpedia.org/resource/Stobaeus>, <http://viaf.org/viaf/164895588>,
+    <https://isni.org/isni/0000000113008835>, <http://www.wikidata.org/entity/Q444079>,
+    <http://id.loc.gov/rwo/agents/n83035348>;
+  gndo:oldAuthorityNumber "(DE-588)1089903529";
+  owl:sameAs <https://d-nb.info/gnd/1089903529>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089903529";
+  gndo:oldAuthorityNumber "(DE-588)1089793049";
+  owl:sameAs <https://d-nb.info/gnd/1089793049>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089793049";
+  gndo:oldAuthorityNumber "(DE-588)1089600887";
+  owl:sameAs <https://d-nb.info/gnd/1089600887>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089600887";
+  gndo:oldAuthorityNumber "(DE-588)1089156677";
+  owl:sameAs <https://d-nb.info/gnd/1089156677>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089156677";
+  gndo:oldAuthorityNumber "(DE-588a)118965786", "(DE-588a)131190571", "(DE-588c)4255064-6";
+  gndo:variantNameForThePerson "Stobäus, Johannes, Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587532 .
+
+_:node1ivs02adlx24587532 gndo:forename "Johannes";
+  gndo:surname "Stobäus";
+  gndo:nameAddition "Schriftsteller" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, Johannes, Anthologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587533 .
+
+_:node1ivs02adlx24587533 gndo:forename "Johannes";
+  gndo:surname "Stobaeus";
+  gndo:nameAddition "Anthologus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobäus, Johannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587534 .
+
+_:node1ivs02adlx24587534 gndo:forename "Johannes";
+  gndo:surname "Stobäus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, Joannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587535 .
+
+_:node1ivs02adlx24587535 gndo:forename "Joannes";
+  gndo:surname "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaios, Johannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587536 .
+
+_:node1ivs02adlx24587536 gndo:forename "Johannes";
+  gndo:surname "Stobaios" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaios, Joannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587537 .
+
+_:node1ivs02adlx24587537 gndo:forename "Joannes";
+  gndo:surname "Stobaios" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, Anthologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587538 .
+
+_:node1ivs02adlx24587538 gndo:personalName "Stobaeus";
+  gndo:nameAddition "Anthologus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, Macedonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587539 .
+
+_:node1ivs02adlx24587539 gndo:personalName "Stobaeus";
+  gndo:nameAddition "Macedonius" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Jōannēs, ho Stobaios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587540 .
+
+_:node1ivs02adlx24587540 gndo:personalName "Jōannēs";
+  gndo:nameAddition "ho Stobaios" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Johannes, von Stoboi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587541 .
+
+_:node1ivs02adlx24587541 gndo:personalName "Johannes";
+  gndo:nameAddition "von Stoboi" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Johannes, Macedonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587542 .
+
+_:node1ivs02adlx24587542 gndo:personalName "Johannes";
+  gndo:nameAddition "Macedonius" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaios, von Stoboi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587543 .
+
+_:node1ivs02adlx24587543 gndo:personalName "Stobaios";
+  gndo:nameAddition "von Stoboi" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaios, von Makedonien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587544 .
+
+_:node1ivs02adlx24587544 gndo:personalName "Stobaios";
+  gndo:nameAddition "von Makedonien" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Johannes, von Makedonien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587545 .
+
+_:node1ivs02adlx24587545 gndo:personalName "Johannes";
+  gndo:nameAddition "von Makedonien" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Joannes, Stobaios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587546 .
+
+_:node1ivs02adlx24587546 gndo:personalName "Joannes";
+  gndo:nameAddition "Stobaios" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, Johannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587547 .
+
+_:node1ivs02adlx24587547 gndo:forename "Johannes";
+  gndo:surname "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Johannes Stobaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587548 .
+
+_:node1ivs02adlx24587548 gndo:personalName "Johannes Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobeus, Johannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587549 .
+
+_:node1ivs02adlx24587549 gndo:forename "Johannes";
+  gndo:surname "Stobeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stovaios, Iōannēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587550 .
+
+_:node1ivs02adlx24587550 gndo:forename "Iōannēs";
+  gndo:surname "Stovaios" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobeo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587551 .
+
+_:node1ivs02adlx24587551 gndo:personalName "Stobeo" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaios, Iōannēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587552 .
+
+_:node1ivs02adlx24587552 gndo:forename "Iōannēs";
+  gndo:surname "Stobaios" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobée, Jean";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587553 .
+
+_:node1ivs02adlx24587553 gndo:forename "Jean";
+  gndo:surname "Stobée" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobeĭ";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587554 .
+
+_:node1ivs02adlx24587554 gndo:personalName "Stobeĭ" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, John";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587555 .
+
+_:node1ivs02adlx24587555 gndo:forename "John";
+  gndo:surname "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobi, John of";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587556 .
+
+_:node1ivs02adlx24587556 gndo:forename "John";
+  gndo:prefix "of";
+  gndo:surname "Stobi" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587557 .
+
+_:node1ivs02adlx24587557 gndo:personalName "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobíe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587558 .
+
+_:node1ivs02adlx24587558 gndo:personalName "Stobíe" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Joannes, Stobaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587559 .
+
+_:node1ivs02adlx24587559 gndo:personalName "Joannes";
+  gndo:nameAddition "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Johann, von Stoboi";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587560 .
+
+_:node1ivs02adlx24587560 gndo:personalName "Johann";
+  gndo:nameAddition "von Stoboi" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, Ioannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587561 .
+
+_:node1ivs02adlx24587561 gndo:forename "Ioannes";
+  gndo:surname "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, Iohannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587562 .
+
+_:node1ivs02adlx24587562 gndo:forename "Iohannes";
+  gndo:surname "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobaeus, Macedonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587563 .
+
+_:node1ivs02adlx24587563 gndo:forename "Macedonius";
+  gndo:surname "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Stobäus, Joh.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587564 .
+
+_:node1ivs02adlx24587564 gndo:forename "Joh.";
+  gndo:surname "Stobäus" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Johannes, Stobensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587565 .
+
+_:node1ivs02adlx24587565 gndo:personalName "Johannes";
+  gndo:nameAddition "Stobensis" .
+
+<https://d-nb.info/gnd/118965786> gndo:variantNameForThePerson "Jean, Stobée";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587566 .
+
+_:node1ivs02adlx24587566 gndo:personalName "Jean";
+  gndo:nameAddition "Stobée" .
+
+<https://d-nb.info/gnd/118965786> gndo:preferredNameForThePerson "Johannes, Stobaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587567 .
+
+_:node1ivs02adlx24587567 gndo:personalName "Johannes";
+  gndo:nameAddition "Stobaeus" .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607751>;
+  gndo:hasRelation _:node1ivs02adlx24587568 .
+
+_:node1ivs02adlx24587568 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607751>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119669714>;
+  gndo:hasRelation _:node1ivs02adlx24587569 .
+
+_:node1ivs02adlx24587569 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119669714>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:hasRelation _:node1ivs02adlx24587570 .
+
+_:node1ivs02adlx24587570 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587571 .
+
+_:node1ivs02adlx24587571 gndo:forename "Konrad";
+  gndo:surname "Gesner" .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118732188>;
+  gndo:hasRelation _:node1ivs02adlx24587572 .
+
+_:node1ivs02adlx24587572 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118732188>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:hasRelation _:node1ivs02adlx24587573 .
+
+_:node1ivs02adlx24587573 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587574 .
+
+_:node1ivs02adlx24587574 gndo:forename "Otmar";
+  gndo:surname "Nachtigall" .
+
+<https://d-nb.info/gnd/118965786> gndo:hasRelation _:node1ivs02adlx24587575 .
+
+_:node1ivs02adlx24587575 gndo:functionOrRoleAsLiteral "Sorau; VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587576 .
+
+_:node1ivs02adlx24587576 gndo:forename "Michael";
+  gndo:surname "Neander" .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594893>;
+  gndo:hasRelation _:node1ivs02adlx24587577 .
+
+_:node1ivs02adlx24587577 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118594893>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:hasRelation _:node1ivs02adlx24587578 .
+
+_:node1ivs02adlx24587578 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587579 .
+
+_:node1ivs02adlx24587579 gndo:forename "Konrad";
+  gndo:surname "Wolfhart" .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124577008>;
+  gndo:hasRelation _:node1ivs02adlx24587580 .
+
+_:node1ivs02adlx24587580 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124577008>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:hasRelation _:node1ivs02adlx24587581 .
+
+_:node1ivs02adlx24587581 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118965786> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587582 .
+
+_:node1ivs02adlx24587582 gndo:forename "Marcantonio";
+  gndo:surname "Antimaco" .
+
+<https://d-nb.info/gnd/118965786> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#18p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#33.3p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hippodamus <Milesius>: Fragmentum in sermone CXLI", "Nicolaus <Damascenus>: Ex unversali Historia",
+    "Johannes <Stobaeus>: Senarii proverbiales", "Johannes <Stobaeus>: Dicta poetarum",
+    "Johannes <Stobaeus>: Florilegium", "Johannes <Stobaeus>: Keras Amalthaias", "Pythagoreorvm Fragmenta Politica, ad philosophiae Aristoteleae de Rep. illustrationem plu*",
+    "Johannes Stobaeus: EPITOME IOANNIS STOBAEI SENTENTIARVM SIVE LOCORVM COMMVNIVM ex Graecis autoribus numero ... 1557. (VD16 J 775)",
+    "Johannes Stobaeus: \\=GGNŌMŌLOGIA HELLĒNIKOLATINĒ,Ek iōannu tu tu stōbaiu eklogōn parainetikōn ... 1557. (VD16 J 771)",
+    "Johannes Stobaeus: \\=GKERAS AMALTHAIAS. IŌANNU TU STOBAIU EKLOGAI APOPHTHEGMATŌN KAI HYPOTHĒKŌN.\\=g ... 1559. (VD16 J 772)",
+    "Johannes Stobaeus: Sententiae ex thesauris Graecorum delectae, Ausz. 1543. (VD16 J 769)",
+    "Johannes Stobaeus: GRAECE ET LATINE. SENARII PROVERBIAles ex diuersis Poẽtis graecis, à Stoboeo collecti, ... 1521. (VD16 J 768)",
+    "Johannes Stobaeus: \\=GKERAS AMALTHAIAS. IŌANNU TU STOBAIU EKLOGAI APOPHTHEGMATŌN KAI HYPOTHĒKŌN.\\=g ... 1549. (VD16 J 770)",
+    "Johannes Stobaeus: ILLVSTRIVM GRAECORVM, PRAEclare̜ sententiae, partim morales, & arcanis confines literis, ... 1518. (VD16 ZV 8730)",
+    "Johannes Stobaeus: LOCI COMMVNES SACRI ET PROFANI SENTENTIARVM OMNIS GENERIS EX AVTHORIBVS GRAECIS PLVS ... 1581. (VD16 J 773)",
+    "Johannes Stobaeus: NOBILES ALIQVOT,ET AD VITAM REcte instituendam mirè conducentes sententiae,ex Stobaeo ... 1530. (VD16 J 774)",
+    "Johannes Stobaeus: Joannis Stobei Scharfpffsinniger Sprüche ausz den schrifften der aller ... 1551. (VD16 J 776)";
+  wdrs:describedby <https://d-nb.info/gnd/118965786/about> .
+
+<https://d-nb.info/gnd/118965786/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118965786> gndo:biographicalOrHistoricalInformation "Griech. Kompilator und Autor aus Makedonien"@de;
+  gndo:udkCode "401 - 500";
+  gndo:professionOrOccupation _:node1ivs02adlx24587583 .
+
+_:node1ivs02adlx24587583 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4159575-0> .
+
+<https://d-nb.info/gnd/118965786> gndo:dateOfBirthAndDeath "[5. Jh.]" .
+

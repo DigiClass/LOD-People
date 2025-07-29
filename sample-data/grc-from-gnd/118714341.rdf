@@ -1,0 +1,369 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118714341> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118714341/about> .
+
+<https://d-nb.info/gnd/118714341/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:50:00.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118714341> gndo:gndIdentifier "118714341";
+  owl:sameAs <https://dbpedia.org/resource/Justin_Martyr>, <http://viaf.org/viaf/120152370>,
+    <https://isni.org/isni/0000000100892086>, <http://www.wikidata.org/entity/Q185117>,
+    <http://id.loc.gov/rwo/agents/n95035323>;
+  gndo:oldAuthorityNumber "(DE-588)1089798423";
+  owl:sameAs <https://d-nb.info/gnd/1089798423>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089798423";
+  gndo:oldAuthorityNumber "(DE-588)1090570414";
+  owl:sameAs <https://d-nb.info/gnd/1090570414>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090570414";
+  gndo:oldAuthorityNumber "(DE-588)1089962827";
+  owl:sameAs <https://d-nb.info/gnd/1089962827>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089962827";
+  gndo:oldAuthorityNumber "(DE-588)157660354";
+  owl:sameAs <https://d-nb.info/gnd/157660354>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/157660354";
+  gndo:oldAuthorityNumber "(DE-588)187185700";
+  owl:sameAs <https://d-nb.info/gnd/187185700>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187185700";
+  gndo:oldAuthorityNumber "(DE-588a)187185700", "(DE-588a)157660354", "(DE-588)119725053";
+  owl:sameAs <https://d-nb.info/gnd/119725053>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119725053";
+  gndo:oldAuthorityNumber "(DE-588a)119725053", "(DE-588)185877281";
+  owl:sameAs <https://d-nb.info/gnd/185877281>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877281";
+  gndo:oldAuthorityNumber "(DE-588)1026331846";
+  owl:sameAs <https://d-nb.info/gnd/1026331846>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026331846";
+  gndo:oldAuthorityNumber "(DE-588a)185877281", "(DE-588)174114036";
+  owl:sameAs <https://d-nb.info/gnd/174114036>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174114036";
+  gndo:oldAuthorityNumber "(DE-588a)174114036", "(DE-588)174060289";
+  owl:sameAs <https://d-nb.info/gnd/174060289>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174060289";
+  gndo:oldAuthorityNumber "(DE-588a)174060289", "(DE-588a)118714341", "(DE-588c)4096814-5";
+  gndo:variantNameForThePerson "Justin, Philosoph, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396752 .
+
+_:node1ivpishs6x25396752 gndo:personalName "Justin";
+  gndo:nameAddition "Philosoph, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinus, der Philosoph, Hiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396753 .
+
+_:node1ivpishs6x25396753 gndo:personalName "Justinus";
+  gndo:nameAddition "der Philosoph, Hiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinus, der Märtyrer, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396754 .
+
+_:node1ivpishs6x25396754 gndo:personalName "Justinus";
+  gndo:nameAddition "der Märtyrer, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justin, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396755 .
+
+_:node1ivpishs6x25396755 gndo:personalName "Justin";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinos, Philosophos, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396756 .
+
+_:node1ivpishs6x25396756 gndo:personalName "Iustinos";
+  gndo:nameAddition "Philosophos, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinus, Philosoph, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396757 .
+
+_:node1ivpishs6x25396757 gndo:personalName "Iustinus";
+  gndo:nameAddition "Philosoph, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinus, Märtyrer, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396758 .
+
+_:node1ivpishs6x25396758 gndo:personalName "Justinus";
+  gndo:nameAddition "Märtyrer, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinos, Märtyrer, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396759 .
+
+_:node1ivpishs6x25396759 gndo:personalName "Justinos";
+  gndo:nameAddition "Märtyrer, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinus, Philosophus et Martyr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396760 .
+
+_:node1ivpishs6x25396760 gndo:personalName "Iustinus";
+  gndo:nameAddition "Philosophus et Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Giustino, San";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396761 .
+
+_:node1ivpishs6x25396761 gndo:personalName "Giustino";
+  gndo:nameAddition "San" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Yûsṭînûs, Marṭîr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396762 .
+
+_:node1ivpishs6x25396762 gndo:personalName "Yûsṭînûs";
+  gndo:nameAddition "Marṭîr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinus, Apologeticus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396763 .
+
+_:node1ivpishs6x25396763 gndo:personalName "Iustinus";
+  gndo:nameAddition "Apologeticus, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustini, Martyr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396764 .
+
+_:node1ivpishs6x25396764 gndo:personalName "Iustini";
+  gndo:nameAddition "Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justino, Mártir, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396765 .
+
+_:node1ivpishs6x25396765 gndo:personalName "Justino";
+  gndo:nameAddition "Mártir, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justin, Märtyrer, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396766 .
+
+_:node1ivpishs6x25396766 gndo:personalName "Justin";
+  gndo:nameAddition "Märtyrer, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justyn, Mec̨zennik, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396767 .
+
+_:node1ivpishs6x25396767 gndo:personalName "Justyn";
+  gndo:nameAddition "Mec̨zennik, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justin, der Märtyrer, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396768 .
+
+_:node1ivpishs6x25396768 gndo:personalName "Justin";
+  gndo:nameAddition "der Märtyrer, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinos, Martyr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396769 .
+
+_:node1ivpishs6x25396769 gndo:personalName "Iustinos";
+  gndo:nameAddition "Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinos, Hagios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396770 .
+
+_:node1ivpishs6x25396770 gndo:personalName "Iustinos";
+  gndo:nameAddition "Hagios" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinus, Philosophus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396771 .
+
+_:node1ivpishs6x25396771 gndo:personalName "Iustinus";
+  gndo:nameAddition "Philosophus, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinus, Apologeta, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396772 .
+
+_:node1ivpishs6x25396772 gndo:personalName "Iustinus";
+  gndo:nameAddition "Apologeta, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinus, Romanus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396773 .
+
+_:node1ivpishs6x25396773 gndo:personalName "Iustinus";
+  gndo:nameAddition "Romanus, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinus, Samaritanus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396774 .
+
+_:node1ivpishs6x25396774 gndo:personalName "Iustinus";
+  gndo:nameAddition "Samaritanus, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustinus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396775 .
+
+_:node1ivpishs6x25396775 gndo:personalName "Iustinus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinus, von Nablus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396776 .
+
+_:node1ivpishs6x25396776 gndo:personalName "Justinus";
+  gndo:nameAddition "von Nablus, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinus, von Sichem, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396777 .
+
+_:node1ivpishs6x25396777 gndo:personalName "Justinus";
+  gndo:nameAddition "von Sichem, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinus, von Flavia Neapolis, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396778 .
+
+_:node1ivpishs6x25396778 gndo:personalName "Justinus";
+  gndo:nameAddition "von Flavia Neapolis, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinus, Philosophus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396779 .
+
+_:node1ivpishs6x25396779 gndo:personalName "Justinus";
+  gndo:nameAddition "Philosophus, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Giustino, Martyr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396780 .
+
+_:node1ivpishs6x25396780 gndo:personalName "Giustino";
+  gndo:nameAddition "Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Giustino, Martire, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396781 .
+
+_:node1ivpishs6x25396781 gndo:personalName "Giustino";
+  gndo:nameAddition "Martire, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Iustin, Martyr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396782 .
+
+_:node1ivpishs6x25396782 gndo:personalName "Iustin";
+  gndo:nameAddition "Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justinus, Martyr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396783 .
+
+_:node1ivpishs6x25396783 gndo:personalName "Justinus";
+  gndo:nameAddition "Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justin, Martyr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396784 .
+
+_:node1ivpishs6x25396784 gndo:personalName "Justin";
+  gndo:nameAddition "Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Justin, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396785 .
+
+_:node1ivpishs6x25396785 gndo:personalName "Justin";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Pseudo-Iustinus, Martyr, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396786 .
+
+_:node1ivpishs6x25396786 gndo:personalName "Pseudo-Iustinus";
+  gndo:nameAddition "Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Pseudo-Iustinus, Martyr";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396787 .
+
+_:node1ivpishs6x25396787 gndo:personalName "Pseudo-Iustinus";
+  gndo:nameAddition "Martyr" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Pseudojustino";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396788 .
+
+_:node1ivpishs6x25396788 gndo:personalName "Pseudojustino" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Pseudo-Giustino";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396789 .
+
+_:node1ivpishs6x25396789 gndo:personalName "Pseudo-Giustino" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Pseudo-Justinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396790 .
+
+_:node1ivpishs6x25396790 gndo:personalName "Pseudo-Justinus" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Pseudojustin";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396791 .
+
+_:node1ivpishs6x25396791 gndo:personalName "Pseudojustin" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Pseudo-Justin";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396792 .
+
+_:node1ivpishs6x25396792 gndo:personalName "Pseudo-Justin" .
+
+<https://d-nb.info/gnd/118714341> gndo:variantNameForThePerson "Pseudo-Iustinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396793 .
+
+_:node1ivpishs6x25396793 gndo:personalName "Pseudo-Iustinus" .
+
+<https://d-nb.info/gnd/118714341> gndo:preferredNameForThePerson "Iustinus, Martyr, Heiliger";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396794 .
+
+_:node1ivpishs6x25396794 gndo:personalName "Iustinus";
+  gndo:nameAddition "Martyr, Heiliger" .
+
+<https://d-nb.info/gnd/118714341> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:broaderTermInstantial <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Iustinus <Martyr>: SS. patrum S. Iustini S. Gregorii Orationes et epistolae selectae. - s.a.",
+    "Iustinus <Martyr>: Apologiae duae et dialogus cum Tryphone Iudaco", "Iustinus <Martyr>: Zweite Apologie",
+    "Iustinus <Martyr>: Fragmenta duo", "Iustinus <Martyr>: De sacris Christianorum publicis saeculi secundi narratio",
+    "Iustinus <Martyr>: Logos parainetikos pros Hellenas ...", "Iustinus <Martyr>: Opera ...",
+    "Iustinus <Martyr>: Opera ...", "Iustinus <Martyr>: Opera", "Iustinus <Martyr>: Erzehlung wie er zur Erkäntnis Gottes gelanget sey",
+    "Flacius Illyricus, Matthias <der Ältere>: Historia certaminum inter Romanos episcopos et 6. Carthaginensem synodum Afracanasque ecclesias de primatu sive potestate papae. 1555. (VD16 ZV 5905)",
+    "Justinus Martyr: APOSTOLICA TRADITIO DE Caena Domini & Baptismo a Iustino martyre conscripta. Dat ys. Ein ... 1556. (VD16 J 1177)",
+    "Justinus Martyr: DIVI IVSTINI, PHILOSOPHI AC MARTYRIS OPERA NON ITA PRIDEM GRAECE EDITA, NVPER uerò Latinè ... 1555. (VD16 J 1173)",
+    "Justinus Martyr: DIVI IVSTINI, PHILOSOPHI ET MARTYris Christi, OPERVM, QVAE EXTANT, OMNIVM per IOANNEM ... 1565. (VD16 J 1174)",
+    "Justinus Martyr: \\=GTU HAGIU IUSTINU PHILOSOPHU KAI MARTYROS TA HEURISKOMENA.\\=g S.IVSTINI, ... 1593. (VD16 J 1172)",
+    "Pico della Mirandola, Giovanni Francesco: IOANNIS FRANCISCI PICI MIRANDVLAE DOMINI ET CONCORDIAE COMITIS DE RERVM PRAENOTIONE ... 1507/(1506). (VD16 P 2636)",
+    "Sulpitius Severus: De ecclesiastica hierarchia, Ausz. 1556. (VD16 S 10127)";
+  wdrs:describedby <https://d-nb.info/gnd/118714341/about> .
+
+<https://d-nb.info/gnd/118714341/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-384> .
+
+<https://d-nb.info/gnd/118714341> gndo:biographicalOrHistoricalInformation "Christl. Philosoph, Apologet u. Märtyrer"@de;
+  gndo:udkCode "101 - 200";
+  gndo:professionOrOccupation _:node1ivpishs6x25396795 .
+
+_:node1ivpishs6x25396795 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4036915-8> .
+
+<https://d-nb.info/gnd/118714341> gndo:dateOfDeath "0165"^^xsd:gYear .
+

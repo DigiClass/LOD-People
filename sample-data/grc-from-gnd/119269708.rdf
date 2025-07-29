@@ -1,0 +1,98 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119269708> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119269708/about> .
+
+<https://d-nb.info/gnd/119269708/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2020-04-20T12:45:30.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119269708> gndo:gndIdentifier "119269708";
+  foaf:page <https://de.wikipedia.org/wiki/Ephoros_der_J%C3%BCngere>;
+  owl:sameAs <https://dbpedia.org/resource/Ephorus_the_Younger>, <http://viaf.org/viaf/45107807>,
+    <http://www.wikidata.org/entity/Q999504>;
+  gndo:oldAuthorityNumber "(DE-588a)119269708", "(DE-588a)102392137", "(DE-588c)4383549-1";
+  gndo:variantNameForThePerson "Ephorus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404009 .
+
+_:node1ivpishs6x25404009 gndo:personalName "Ephorus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/119269708> gndo:variantNameForThePerson "Ephorus, Cumaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404010 .
+
+_:node1ivpishs6x25404010 gndo:personalName "Ephorus";
+  gndo:nameAddition "Cumaeus" .
+
+<https://d-nb.info/gnd/119269708> gndo:variantNameForThePerson "Ephoros, der Jüngere";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404011 .
+
+_:node1ivpishs6x25404011 gndo:personalName "Ephoros";
+  gndo:nameAddition "der Jüngere" .
+
+<https://d-nb.info/gnd/119269708> gndo:preferredNameForThePerson "Ephorus, Iunior";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404012 .
+
+_:node1ivpishs6x25404012 gndo:personalName "Ephorus";
+  gndo:nameAddition "Iunior" .
+
+<https://d-nb.info/gnd/119269708> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119269708/about> .
+
+<https://d-nb.info/gnd/119269708/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-21>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/119269708> gndo:biographicalOrHistoricalInformation "Griech. Historiker aus Kyme . Er ist nicht zu verwechseln mit dem ebenfalls aus Kyme stammenden Historiker Ephorus <Cumaeus> (4. Jh. v. Chr.) GND-ID: 118682180"@de,
+    "FGrH 212"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25404013 .
+
+_:node1ivpishs6x25404013 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4155430-9>;
+  rdf:_2 <https://d-nb.info/gnd/4025098-2> .
+
+<https://d-nb.info/gnd/119269708> gndo:dateOfBirthAndDeath "[3. Jh.]" .
+

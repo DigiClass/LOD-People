@@ -1,0 +1,218 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11864548X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11864548X/about> .
+
+<https://d-nb.info/gnd/11864548X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-08T19:11:13.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11864548X> gndo:gndIdentifier "11864548X";
+  owl:sameAs <https://dbpedia.org/resource/Apollonius_of_Perga>, <http://viaf.org/viaf/190478515>,
+    <https://isni.org/isni/0000000072834240>, <http://www.wikidata.org/entity/Q180109>;
+  gndo:oldAuthorityNumber "(DE-588)1089094825";
+  owl:sameAs <https://d-nb.info/gnd/1089094825>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089094825";
+  gndo:oldAuthorityNumber "(DE-588)1089853289";
+  owl:sameAs <https://d-nb.info/gnd/1089853289>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089853289";
+  gndo:oldAuthorityNumber "(DE-588)17470433X";
+  owl:sameAs <https://d-nb.info/gnd/17470433X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17470433X";
+  gndo:oldAuthorityNumber "(DE-588a)17470433X", "(DE-588)157693082";
+  owl:sameAs <https://d-nb.info/gnd/157693082>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/157693082";
+  gndo:oldAuthorityNumber "(DE-588a)157693082", "(DE-588a)11864548X", "(DE-588c)4080123-8";
+  gndo:variantNameForThePerson "Apollonius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398898 .
+
+_:node1ivpishs6x25398898 gndo:personalName "Apollonius" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonius, de Perge";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398899 .
+
+_:node1ivpishs6x25398899 gndo:personalName "Apollonius";
+  gndo:nameAddition "de Perge" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonius, Geometra";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398900 .
+
+_:node1ivpishs6x25398900 gndo:personalName "Apollonius";
+  gndo:nameAddition "Geometra" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonius, of Perga";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398901 .
+
+_:node1ivpishs6x25398901 gndo:personalName "Apollonius";
+  gndo:nameAddition "of Perga" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonius, of Perge";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398902 .
+
+_:node1ivpishs6x25398902 gndo:personalName "Apollonius";
+  gndo:nameAddition "of Perge" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonios, de Perga";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398903 .
+
+_:node1ivpishs6x25398903 gndo:personalName "Apollonios";
+  gndo:nameAddition "de Perga" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonio, di Perga";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398904 .
+
+_:node1ivpishs6x25398904 gndo:personalName "Apollonio";
+  gndo:nameAddition "di Perga" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonio, Matematico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398905 .
+
+_:node1ivpishs6x25398905 gndo:personalName "Apollonio";
+  gndo:nameAddition "Matematico" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Perga, Apollonius de";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398906 .
+
+_:node1ivpishs6x25398906 gndo:forename "Apollonius";
+  gndo:prefix "de";
+  gndo:surname "Perga" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Perga, Apollonius of";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398907 .
+
+_:node1ivpishs6x25398907 gndo:forename "Apollonius";
+  gndo:prefix "of";
+  gndo:surname "Perga" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Perge, Apollonius von";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398908 .
+
+_:node1ivpishs6x25398908 gndo:forename "Apollonius";
+  gndo:prefix "von";
+  gndo:surname "Perge" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonios, von Perge";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398909 .
+
+_:node1ivpishs6x25398909 gndo:personalName "Apollonios";
+  gndo:nameAddition "von Perge" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Απολλώνιος, ο Περγαίος";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398910 .
+
+_:node1ivpishs6x25398910 gndo:personalName "Απολλώνιος";
+  gndo:nameAddition "ο Περγαίος" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonius, de Perga";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398911 .
+
+_:node1ivpishs6x25398911 gndo:personalName "Apollonius";
+  gndo:nameAddition "de Perga" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonius, von Perge";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398912 .
+
+_:node1ivpishs6x25398912 gndo:personalName "Apollonius";
+  gndo:nameAddition "von Perge" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollōnios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398913 .
+
+_:node1ivpishs6x25398913 gndo:personalName "Apollōnios" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonios, de Perge";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398914 .
+
+_:node1ivpishs6x25398914 gndo:personalName "Apollonios";
+  gndo:nameAddition "de Perge" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Pergaeus, Apollonius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398915 .
+
+_:node1ivpishs6x25398915 gndo:forename "Apollonius";
+  gndo:surname "Pergaeus" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonius, Geometricus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398916 .
+
+_:node1ivpishs6x25398916 gndo:personalName "Apollonius";
+  gndo:nameAddition "Geometricus" .
+
+<https://d-nb.info/gnd/11864548X> gndo:variantNameForThePerson "Apollonius, von Perga";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25398917 .
+
+_:node1ivpishs6x25398917 gndo:personalName "Apollonius";
+  gndo:nameAddition "von Perga" .
+
+<https://d-nb.info/gnd/11864548X> gndo:preferredNameForThePerson "Apollonius, Pergaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25398918 .
+
+_:node1ivpishs6x25398918 gndo:personalName "Apollonius";
+  gndo:nameAddition "Pergaeus" .
+
+<https://d-nb.info/gnd/11864548X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Die Bücher des Apollonius von Perga de sectione rationis", "Die Bücher de sectione spatii",
+    "Bücher de sectione spatii", "Conica: methodo nova", "Conicorum libri VIII et Sereni Antiss. de sectione cylindri & coni*",
+    "Die Bücher des Apollonius von Perga de Inclinationibus", "Apollonius von Pergen Ebene Örter",
+    "Opera", "Conicorum libri IV";
+  wdrs:describedby <https://d-nb.info/gnd/11864548X/about> .
+
+<https://d-nb.info/gnd/11864548X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11864548X> gndo:placeOfBirth <https://d-nb.info/gnd/4214930-7>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4001138-0>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25398919 .
+
+_:node1ivpishs6x25398919 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4037945-0>;
+  rdf:_2 <https://d-nb.info/gnd/4003310-7> .
+
+<https://d-nb.info/gnd/11864548X> gndo:dateOfBirth "-0262"^^xsd:gYear;
+  gndo:dateOfDeath "-0190"^^xsd:gYear .
+

@@ -1,0 +1,347 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118555340> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118555340/about> .
+
+<https://d-nb.info/gnd/118555340/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:52:45.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118555340> gndo:gndIdentifier "118555340";
+  owl:sameAs <https://dbpedia.org/resource/Ignatius_of_Antioch>, <http://viaf.org/viaf/105150684>,
+    <https://isni.org/isni/0000000449348120>, <http://www.wikidata.org/entity/Q44170>;
+  gndo:oldAuthorityNumber "(DE-588)1089143346";
+  owl:sameAs <https://d-nb.info/gnd/1089143346>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089143346";
+  gndo:oldAuthorityNumber "(DE-588)105557140X";
+  owl:sameAs <https://d-nb.info/gnd/105557140X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/105557140X";
+  gndo:oldAuthorityNumber "(DE-588)187185999";
+  owl:sameAs <https://d-nb.info/gnd/187185999>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187185999";
+  gndo:oldAuthorityNumber "(DE-588a)187185999", "(DE-588)187139644";
+  owl:sameAs <https://d-nb.info/gnd/187139644>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187139644";
+  gndo:oldAuthorityNumber "(DE-588)1026331714";
+  owl:sameAs <https://d-nb.info/gnd/1026331714>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1026331714";
+  gndo:oldAuthorityNumber "(DE-588a)187139644", "(DE-588)1090570376";
+  owl:sameAs <https://d-nb.info/gnd/1090570376>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090570376";
+  gndo:oldAuthorityNumber "(DE-588)1089920318";
+  owl:sameAs <https://d-nb.info/gnd/1089920318>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089920318";
+  gndo:oldAuthorityNumber "(DE-588)1089802986";
+  owl:sameAs <https://d-nb.info/gnd/1089802986>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089802986";
+  gndo:oldAuthorityNumber "(DE-588)1089601123";
+  owl:sameAs <https://d-nb.info/gnd/1089601123>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089601123";
+  gndo:oldAuthorityNumber "(DE-588)119718413";
+  owl:sameAs <https://d-nb.info/gnd/119718413>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119718413";
+  gndo:oldAuthorityNumber "(DE-588a)119718413", "(DE-588)186623054";
+  owl:sameAs <https://d-nb.info/gnd/186623054>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186623054";
+  gndo:oldAuthorityNumber "(DE-588a)186623054", "(DE-588a)118555340", "(DE-588c)4026520-1";
+  gndo:variantNameForThePerson "Ignatios, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587802 .
+
+_:node1ivs02adlx24587802 gndo:personalName "Ignatios";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, von Antiochien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587803 .
+
+_:node1ivs02adlx24587803 gndo:personalName "Ignatius";
+  gndo:nameAddition "von Antiochien" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587804 .
+
+_:node1ivs02adlx24587804 gndo:personalName "Ignatios" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587805 .
+
+_:node1ivs02adlx24587805 gndo:personalName "Ignatius" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Julian, der Arianer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587806 .
+
+_:node1ivs02adlx24587806 gndo:personalName "Julian";
+  gndo:nameAddition "der Arianer" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, Martyrus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587807 .
+
+_:node1ivs02adlx24587807 gndo:personalName "Ignatius";
+  gndo:nameAddition "Martyrus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, Märtyrer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587808 .
+
+_:node1ivs02adlx24587808 gndo:personalName "Ignatius";
+  gndo:nameAddition "Märtyrer" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, Martyr";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587809 .
+
+_:node1ivs02adlx24587809 gndo:personalName "Ignatius";
+  gndo:nameAddition "Martyr" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Theoporus, Ignatius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587810 .
+
+_:node1ivs02adlx24587810 gndo:forename "Ignatius";
+  gndo:surname "Theoporus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, de Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587811 .
+
+_:node1ivs02adlx24587811 gndo:personalName "Ignatius";
+  gndo:nameAddition "de Antiochia" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587812 .
+
+_:node1ivs02adlx24587812 gndo:personalName "Ignatius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignace, d'Antioche";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587813 .
+
+_:node1ivs02adlx24587813 gndo:personalName "Ignace";
+  gndo:nameAddition "d'Antioche" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, of Antioch";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587814 .
+
+_:node1ivs02adlx24587814 gndo:personalName "Ignatius";
+  gndo:nameAddition "of Antioch" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignacio, de Antioquia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587815 .
+
+_:node1ivs02adlx24587815 gndo:personalName "Ignacio";
+  gndo:nameAddition "de Antioquia" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587816 .
+
+_:node1ivs02adlx24587816 gndo:personalName "Ignatius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, Episcopus Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587817 .
+
+_:node1ivs02adlx24587817 gndo:personalName "Ignatius";
+  gndo:nameAddition "Episcopus Antiochenus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignacio, San";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587818 .
+
+_:node1ivs02adlx24587818 gndo:personalName "Ignacio";
+  gndo:nameAddition "San" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignazio, Santo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587819 .
+
+_:node1ivs02adlx24587819 gndo:personalName "Ignazio";
+  gndo:nameAddition "Santo" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignazio, d'Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587820 .
+
+_:node1ivs02adlx24587820 gndo:personalName "Ignazio";
+  gndo:nameAddition "d'Antiochia" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587821 .
+
+_:node1ivs02adlx24587821 gndo:personalName "Ignatius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatij Bogonosec";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587822 .
+
+_:node1ivs02adlx24587822 gndo:personalName "Ignatij Bogonosec" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatij, Bogonosec";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587823 .
+
+_:node1ivs02adlx24587823 gndo:personalName "Ignatij";
+  gndo:nameAddition "Bogonosec" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587824 .
+
+_:node1ivs02adlx24587824 gndo:personalName "Ignatij" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Sanctus Martyrus Ignatius Antiochiae archiepiscopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587825 .
+
+_:node1ivs02adlx24587825 gndo:personalName "Sanctus Martyrus Ignatius Antiochiae archiepiscopus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Pseudo-Ignatius, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587826 .
+
+_:node1ivs02adlx24587826 gndo:personalName "Pseudo-Ignatius";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Pseudo Ignatius, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587827 .
+
+_:node1ivs02adlx24587827 gndo:personalName "Pseudo Ignatius";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118555340> gndo:variantNameForThePerson "Ignatius, von Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24587828 .
+
+_:node1ivs02adlx24587828 gndo:personalName "Ignatius";
+  gndo:nameAddition "von Antiochia" .
+
+<https://d-nb.info/gnd/118555340> gndo:preferredNameForThePerson "Ignatius, Antiochenus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24587829 .
+
+_:node1ivs02adlx24587829 gndo:personalName "Ignatius";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118555340> gndo:hasRelation _:node1ivs02adlx24587830 .
+
+_:node1ivs02adlx24587830 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587831 .
+
+_:node1ivs02adlx24587831 gndo:personalName "Polycarpus";
+  gndo:nameAddition "von Smyrna" .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607700>;
+  gndo:hasRelation _:node1ivs02adlx24587832 .
+
+_:node1ivs02adlx24587832 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119607700>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:hasRelation _:node1ivs02adlx24587833 .
+
+_:node1ivs02adlx24587833 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587834 .
+
+_:node1ivs02adlx24587834 gndo:forename "Giovanni Battista";
+  gndo:surname "Spagnuoli" .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118557955>;
+  gndo:hasRelation _:node1ivs02adlx24587835 .
+
+_:node1ivs02adlx24587835 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118557955>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119627507>;
+  gndo:hasRelation _:node1ivs02adlx24587836 .
+
+_:node1ivs02adlx24587836 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119627507>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100146724>;
+  gndo:hasRelation _:node1ivs02adlx24587837 .
+
+_:node1ivs02adlx24587837 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100146724>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119041545>;
+  gndo:hasRelation _:node1ivs02adlx24587838 .
+
+_:node1ivs02adlx24587838 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119041545>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:hasRelation _:node1ivs02adlx24587839 .
+
+_:node1ivs02adlx24587839 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587840 .
+
+_:node1ivs02adlx24587840 gndo:personalName "Dionysius Carthusianus" .
+
+<https://d-nb.info/gnd/118555340> gndo:hasRelation _:node1ivs02adlx24587841 .
+
+_:node1ivs02adlx24587841 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118555340> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24587842 .
+
+_:node1ivs02adlx24587842 gndo:personalName "Johannes Saracenus" .
+
+<https://d-nb.info/gnd/118555340> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Clemens I. <Papst>: Opera. 1570. (VD16 ZV 17157)", "Clemens I. <Papst>: Opera. 1570. (VD16 ZV 3681)",
+    "Die Episteln Des heyligen Maerters Ignatij des Ertzbischoffes zu Antiochia in ... 1592. (VD16 I 67)",
+    "GLORIOSI CHRISTI MARTYRIS IGNATII ANTIOCHENI Antistitis, Epistolae undecim.Item una ... 1527. (VD16 I 61)",
+    "Dionysius Areopagita: Opera. 1536. (VD16 D 1849)", "GLORIOSI CHRISTI MARTYRIS IGNATII ANTIOcheni antistitis ,Epistolae undecim.Item una beati ... 1520. (VD16 I 60)",
+    "\\=GTU MAKARIU, EN TOIS HAGIOIS, HIEROMARTYROS IGNATIU, ... ARCHIEPISKOPU THEUPOLEŌS ... 1557. (VD16 I 57)",
+    "Dionysius Areopagita: Epistolae. 1556. (VD16 D 1850)", "Die Episteln Des heiligen Merters Jgnatij des Ertzbischoffs zu Antiochia in Syrien. ... ... 1578. (VD16 I 66)",
+    "\\=GTU HAGIU HIEROMARTYROS IGNATIU ARCHIEPISKOPU THEOPOLEŌS ANTIOCHEIAS, EPISTOLAI ... 1559. (VD16 I 58)";
+  wdrs:describedby <https://d-nb.info/gnd/118555340/about> .
+
+<https://d-nb.info/gnd/118555340/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118555340> gndo:biographicalOrHistoricalInformation "Bischof von Antiochia und Märtyrer; zählt zu den Apostolischen Vätern"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24587843 .
+
+_:node1ivs02adlx24587843 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118555340> gndo:dateOfDeath "0110"^^xsd:gYear .
+

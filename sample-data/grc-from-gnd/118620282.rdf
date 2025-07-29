@@ -1,0 +1,256 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118620282> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118620282/about> .
+
+<https://d-nb.info/gnd/118620282/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2019-05-08T10:43:40.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118620282> gndo:gndIdentifier "118620282";
+  foaf:page <https://de.wikipedia.org/wiki/Symeon_Stylites_der_%C3%84ltere>;
+  owl:sameAs <https://dbpedia.org/resource/Simeon_Stylites>, <http://viaf.org/viaf/75503404>,
+    <https://isni.org/isni/0000000110296456>, <http://www.wikidata.org/entity/Q310987>,
+    <http://id.loc.gov/rwo/agents/n92017615>;
+  gndo:oldAuthorityNumber "(DE-588)1158968043";
+  owl:sameAs <https://d-nb.info/gnd/1158968043>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1158968043";
+  gndo:oldAuthorityNumber "(DE-588)189575670";
+  owl:sameAs <https://d-nb.info/gnd/189575670>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/189575670";
+  gndo:oldAuthorityNumber "(DE-588a)189575670", "(DE-588c)7815878-3", "(DE-588)1089521154";
+  owl:sameAs <https://d-nb.info/gnd/1089521154>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089521154";
+  gndo:oldAuthorityNumber "(DE-588)1053524889";
+  owl:sameAs <https://d-nb.info/gnd/1053524889>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1053524889";
+  gndo:oldAuthorityNumber "(DE-588)173136478";
+  owl:sameAs <https://d-nb.info/gnd/173136478>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/173136478";
+  gndo:oldAuthorityNumber "(DE-588a)173136478", "(DE-588a)118620282", "(DE-588c)4058720-4";
+  gndo:variantNameForThePerson "Symeon, Stylites, der Ältere, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403358 .
+
+_:node1ivpishs6x25403358 gndo:personalName "Symeon";
+  gndo:nameAddition "Stylites, der Ältere, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, der Säulensteher, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403359 .
+
+_:node1ivpishs6x25403359 gndo:personalName "Simeon";
+  gndo:nameAddition "der Säulensteher, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Symeon, Stylites";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403360 .
+
+_:node1ivpishs6x25403360 gndo:personalName "Symeon";
+  gndo:nameAddition "Stylites" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, Stylites";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403361 .
+
+_:node1ivpishs6x25403361 gndo:personalName "Simeon";
+  gndo:nameAddition "Stylites" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Siméon, Stylite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403362 .
+
+_:node1ivpishs6x25403362 gndo:personalName "Siméon";
+  gndo:nameAddition "Stylite" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Stylita, Simeon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403363 .
+
+_:node1ivpishs6x25403363 gndo:forename "Simeon";
+  gndo:surname "Stylita" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Symeo, Stylites, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403364 .
+
+_:node1ivpishs6x25403364 gndo:personalName "Symeo";
+  gndo:nameAddition "Stylites, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Symeo, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403365 .
+
+_:node1ivpishs6x25403365 gndo:personalName "Symeo";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Syméon, lÁlépin";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403366 .
+
+_:node1ivpishs6x25403366 gndo:personalName "Syméon";
+  gndo:nameAddition "lÁlépin" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Syméon, dÁlep";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403367 .
+
+_:node1ivpishs6x25403367 gndo:personalName "Syméon";
+  gndo:nameAddition "dÁlep" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Symeon, Stylita, Senior, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403368 .
+
+_:node1ivpishs6x25403368 gndo:personalName "Symeon";
+  gndo:nameAddition "Stylita, Senior, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, Senior";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403369 .
+
+_:node1ivpishs6x25403369 gndo:personalName "Simeon";
+  gndo:nameAddition "Senior" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Symeon, Stylites, Maior";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403370 .
+
+_:node1ivpishs6x25403370 gndo:personalName "Symeon";
+  gndo:nameAddition "Stylites, Maior" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeone, Stilita";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403371 .
+
+_:node1ivpishs6x25403371 gndo:personalName "Simeone";
+  gndo:nameAddition "Stilita" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeone, Stilita, il Vecchio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403372 .
+
+_:node1ivpishs6x25403372 gndo:personalName "Simeone";
+  gndo:nameAddition "Stilita, il Vecchio" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, Stylita";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403373 .
+
+_:node1ivpishs6x25403373 gndo:personalName "Simeon";
+  gndo:nameAddition "Stylita" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, Stylita, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403374 .
+
+_:node1ivpishs6x25403374 gndo:personalName "Simeon";
+  gndo:nameAddition "Stylita, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, Stylita, Saint"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403375 .
+
+_:node1ivpishs6x25403375 gndo:personalName "Simeon";
+  gndo:nameAddition "Stylita, Saint" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, Stylita, Saint"@en;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403376 .
+
+_:node1ivpishs6x25403376 gndo:personalName "Simeon";
+  gndo:nameAddition "Stylita, Saint" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Symeon, Stylites, der Ältere, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403377 .
+
+_:node1ivpishs6x25403377 gndo:personalName "Symeon";
+  gndo:nameAddition "Stylites, der Ältere, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Symeon, Stylites, l'Ancien, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403378 .
+
+_:node1ivpishs6x25403378 gndo:personalName "Symeon";
+  gndo:nameAddition "Stylites, l'Ancien, Saint" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Symeon, Stylites, the Elder, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403379 .
+
+_:node1ivpishs6x25403379 gndo:personalName "Symeon";
+  gndo:nameAddition "Stylites, the Elder, Saint" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, der Säulensteher, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403380 .
+
+_:node1ivpishs6x25403380 gndo:personalName "Simeon";
+  gndo:nameAddition "der Säulensteher, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Simeon, der Säulensteher, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403381 .
+
+_:node1ivpishs6x25403381 gndo:personalName "Simeon";
+  gndo:nameAddition "der Säulensteher, Saint" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Siméon, le Stylite, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403382 .
+
+_:node1ivpishs6x25403382 gndo:personalName "Siméon";
+  gndo:nameAddition "le Stylite, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:variantNameForThePerson "Siméon, le Stylite, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403383 .
+
+_:node1ivpishs6x25403383 gndo:personalName "Siméon";
+  gndo:nameAddition "le Stylite, Saint" .
+
+<https://d-nb.info/gnd/118620282> gndo:preferredNameForThePerson "Simeon, Stylita, Senior, Heiliger";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403384 .
+
+_:node1ivpishs6x25403384 gndo:personalName "Simeon";
+  gndo:nameAddition "Stylita, Senior, Heiliger" .
+
+<https://d-nb.info/gnd/118620282> gndo:broaderTermInstantial <https://d-nb.info/gnd/4024055-1>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XB-SY>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/syr>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Vies géorgiennes de S. Syméon Stylite [Simeon Stylites] l'ancien et de S. Éphrem [Ephraem Syrus] [georgisch u. lat.]. - 1957";
+  wdrs:describedby <https://d-nb.info/gnd/118620282/about> .
+
+<https://d-nb.info/gnd/118620282/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118620282> gndo:biographicalOrHistoricalInformation "Syr. Säulenheiliger"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4622288-1>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25403385 .
+
+_:node1ivpishs6x25403385 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4272063-1> .
+
+<https://d-nb.info/gnd/118620282> gndo:dateOfBirth "0390"^^xsd:gYear;
+  gndo:dateOfDeath "0459"^^xsd:gYear .
+

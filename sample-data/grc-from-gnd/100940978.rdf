@@ -1,0 +1,140 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100940978> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100940978/about> .
+
+<https://d-nb.info/gnd/100940978/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-02-11T17:53:03.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100940978> gndo:gndIdentifier "100940978";
+  owl:sameAs <http://viaf.org/viaf/76402897>, <http://www.wikidata.org/entity/Q3061090>,
+    <http://id.loc.gov/rwo/agents/nr94015220>;
+  gndo:oldAuthorityNumber "(DE-588)1089754124";
+  owl:sameAs <https://d-nb.info/gnd/1089754124>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089754124";
+  gndo:oldAuthorityNumber "(DE-588)1089889747";
+  owl:sameAs <https://d-nb.info/gnd/1089889747>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089889747";
+  gndo:oldAuthorityNumber "(DE-588)1089168071";
+  owl:sameAs <https://d-nb.info/gnd/1089168071>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089168071";
+  gndo:oldAuthorityNumber "(DE-588a)100940978", "(DE-588c)7552068-0";
+  gndo:variantNameForThePerson "Eustratios, der Schüler des Eutychios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396454 .
+
+_:node1ivpishs6x25396454 gndo:personalName "Eustratios";
+  gndo:nameAddition "der Schüler des Eutychios" .
+
+<https://d-nb.info/gnd/100940978> gndo:variantNameForThePerson "Eustratius, Presbyter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396455 .
+
+_:node1ivpishs6x25396455 gndo:personalName "Eustratius";
+  gndo:nameAddition "Presbyter" .
+
+<https://d-nb.info/gnd/100940978> gndo:variantNameForThePerson "Constantinopolitanus, Eustratius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396456 .
+
+_:node1ivpishs6x25396456 gndo:forename "Eustratius";
+  gndo:surname "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/100940978> gndo:variantNameForThePerson "Eustratius, von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396457 .
+
+_:node1ivpishs6x25396457 gndo:personalName "Eustratius";
+  gndo:nameAddition "von Konstantinopel" .
+
+<https://d-nb.info/gnd/100940978> gndo:variantNameForThePerson "Eustratius, von Constantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396458 .
+
+_:node1ivpishs6x25396458 gndo:personalName "Eustratius";
+  gndo:nameAddition "von Constantinopel" .
+
+<https://d-nb.info/gnd/100940978> gndo:variantNameForThePerson "Eustratios, Presbyteros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396459 .
+
+_:node1ivpishs6x25396459 gndo:personalName "Eustratios";
+  gndo:nameAddition "Presbyteros" .
+
+<https://d-nb.info/gnd/100940978> gndo:variantNameForThePerson "Eustratios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396460 .
+
+_:node1ivpishs6x25396460 gndo:personalName "Eustratios" .
+
+<https://d-nb.info/gnd/100940978> gndo:variantNameForThePerson "Eustratios, von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396461 .
+
+_:node1ivpishs6x25396461 gndo:personalName "Eustratios";
+  gndo:nameAddition "von Konstantinopel" .
+
+<https://d-nb.info/gnd/100940978> gndo:variantNameForThePerson "ustrazio, di Costantinopoli";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396462 .
+
+_:node1ivpishs6x25396462 gndo:personalName "ustrazio";
+  gndo:nameAddition "di Costantinopoli" .
+
+<https://d-nb.info/gnd/100940978> gndo:preferredNameForThePerson "Eustratius, Constantinopolitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396463 .
+
+_:node1ivpishs6x25396463 gndo:personalName "Eustratius";
+  gndo:nameAddition "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/100940978> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  wdrs:describedby <https://d-nb.info/gnd/100940978/about> .
+
+<https://d-nb.info/gnd/100940978/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100940978> gndo:biographicalOrHistoricalInformation "Griech. Hagiograph, Presbyter in Konstantinopel; Schüler des Patriarchen Eutychios von Konstantinopel"@de;
+  gndo:professionOrOccupation _:node1ivpishs6x25396464 .
+
+_:node1ivpishs6x25396464 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4059756-8>;
+  rdf:_2 <https://d-nb.info/gnd/4047139-1> .
+
+<https://d-nb.info/gnd/100940978> gndo:dateOfBirthAndDeath "[6. Jh.]" .
+

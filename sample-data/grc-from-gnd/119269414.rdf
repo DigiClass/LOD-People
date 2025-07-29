@@ -1,0 +1,128 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119269414> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119269414/about> .
+
+<https://d-nb.info/gnd/119269414/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-11-03T05:34:04.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119269414> gndo:gndIdentifier "119269414";
+  foaf:page <https://de.wikipedia.org/wiki/Phrynichos_%28Kom%C3%B6diendichter%29>;
+  owl:sameAs <http://viaf.org/viaf/224144647704709794591>, <http://www.wikidata.org/entity/Q2089113>,
+    <http://id.loc.gov/rwo/agents/no2015134775>;
+  gndo:oldAuthorityNumber "(DE-588a)119269414", "(DE-588a)102403333", "(DE-588c)4383393-7";
+  gndo:variantNameForThePerson "Phrynichos, Dichter der Alten Komödie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593462 .
+
+_:node1ivs02adlx24593462 gndo:personalName "Phrynichos";
+  gndo:nameAddition "Dichter der Alten Komödie" .
+
+<https://d-nb.info/gnd/119269414> gndo:variantNameForThePerson "Phrynichus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593463 .
+
+_:node1ivs02adlx24593463 gndo:personalName "Phrynichus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/119269414> gndo:variantNameForThePerson "Phrynichus, Writer of Comedies";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593464 .
+
+_:node1ivs02adlx24593464 gndo:personalName "Phrynichus";
+  gndo:nameAddition "Writer of Comedies" .
+
+<https://d-nb.info/gnd/119269414> gndo:variantNameForThePerson "Frinico, Comico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593465 .
+
+_:node1ivs02adlx24593465 gndo:personalName "Frinico";
+  gndo:nameAddition "Comico" .
+
+<https://d-nb.info/gnd/119269414> gndo:variantNameForThePerson "Frinico, Poeta della Commedia Antica";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593466 .
+
+_:node1ivs02adlx24593466 gndo:personalName "Frinico";
+  gndo:nameAddition "Poeta della Commedia Antica" .
+
+<https://d-nb.info/gnd/119269414> gndo:variantNameForThePerson "Phrynichos, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593467 .
+
+_:node1ivs02adlx24593467 gndo:personalName "Phrynichos";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/119269414> gndo:variantNameForThePerson "Phrynicos, Auteur Attique";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593468 .
+
+_:node1ivs02adlx24593468 gndo:personalName "Phrynicos";
+  gndo:nameAddition "Auteur Attique" .
+
+<https://d-nb.info/gnd/119269414> gndo:variantNameForThePerson "Phrynichos, Komödiendichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593469 .
+
+_:node1ivs02adlx24593469 gndo:personalName "Phrynichos";
+  gndo:nameAddition "Komödiendichter" .
+
+<https://d-nb.info/gnd/119269414> gndo:preferredNameForThePerson "Phrynichus, Comicus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593470 .
+
+_:node1ivs02adlx24593470 gndo:personalName "Phrynichus";
+  gndo:nameAddition "Comicus" .
+
+<https://d-nb.info/gnd/119269414> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119269414/about> .
+
+<https://d-nb.info/gnd/119269414/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-21>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/119269414> gndo:biographicalOrHistoricalInformation "Griech. Komödiendichter Athens"@de;
+  gndo:udkCode "500 - 401 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4003366-1>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4003366-1>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593471 .
+
+_:node1ivs02adlx24593471 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/119269414> gndo:dateOfBirthAndDeath "[v5. Jh.]" .
+

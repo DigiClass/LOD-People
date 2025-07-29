@@ -1,0 +1,235 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118556010> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118556010/about> .
+
+<https://d-nb.info/gnd/118556010/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:26:33.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118556010> gndo:gndIdentifier "118556010";
+  owl:sameAs <https://dbpedia.org/resource/Isocrates>, <http://viaf.org/viaf/267021111>,
+    <http://www.wikidata.org/entity/Q221182>;
+  gndo:oldAuthorityNumber "(DE-588)1089815980";
+  owl:sameAs <https://d-nb.info/gnd/1089815980>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089815980";
+  gndo:oldAuthorityNumber "(DE-588a)118556010", "(DE-588a)12744453X", "(DE-588a)127644245",
+    "(DE-588c)4027762-8";
+  gndo:variantNameForThePerson "Isocrates, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586388 .
+
+_:node1ivs02adlx24586388 gndo:personalName "Isocrates";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isokrates, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586389 .
+
+_:node1ivs02adlx24586389 gndo:personalName "Isokrates";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isocrates, Orator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586390 .
+
+_:node1ivs02adlx24586390 gndo:personalName "Isocrates";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isokrates, Sohn des Theodoros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586391 .
+
+_:node1ivs02adlx24586391 gndo:personalName "Isokrates";
+  gndo:nameAddition "Sohn des Theodoros" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isokrates, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586392 .
+
+_:node1ivs02adlx24586392 gndo:personalName "Isokrates";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isocrate, Oratore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586393 .
+
+_:node1ivs02adlx24586393 gndo:personalName "Isocrate";
+  gndo:nameAddition "Oratore" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isocrate, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586394 .
+
+_:node1ivs02adlx24586394 gndo:personalName "Isocrate";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Pseudo-Isocrates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586395 .
+
+_:node1ivs02adlx24586395 gndo:personalName "Pseudo-Isocrates" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isokrates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586396 .
+
+_:node1ivs02adlx24586396 gndo:personalName "Isokrates" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isocrate";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586397 .
+
+_:node1ivs02adlx24586397 gndo:personalName "Isocrate" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isokratēs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586398 .
+
+_:node1ivs02adlx24586398 gndo:personalName "Isokratēs" .
+
+<https://d-nb.info/gnd/118556010> gndo:variantNameForThePerson "Isokrat";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586399 .
+
+_:node1ivs02adlx24586399 gndo:personalName "Isokrat" .
+
+<https://d-nb.info/gnd/118556010> gndo:preferredNameForThePerson "Isocrates";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586400 .
+
+_:node1ivs02adlx24586400 gndo:personalName "Isocrates" .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivs02adlx24586401 .
+
+_:node1ivs02adlx24586401 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119601850>;
+  gndo:hasRelation _:node1ivs02adlx24586402 .
+
+_:node1ivs02adlx24586402 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119601850>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124408494>;
+  gndo:hasRelation _:node1ivs02adlx24586403 .
+
+_:node1ivs02adlx24586403 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/124408494>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119055538>;
+  gndo:hasRelation _:node1ivs02adlx24586404 .
+
+_:node1ivs02adlx24586404 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119055538>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595237>;
+  gndo:hasRelation _:node1ivs02adlx24586405 .
+
+_:node1ivs02adlx24586405 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595237>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595512>;
+  gndo:hasRelation _:node1ivs02adlx24586406 .
+
+_:node1ivs02adlx24586406 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118595512>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:hasRelation _:node1ivs02adlx24586407 .
+
+_:node1ivs02adlx24586407 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586408 .
+
+_:node1ivs02adlx24586408 gndo:forename "Jakob";
+  gndo:surname "Wimpheling" .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/115720367>;
+  gndo:hasRelation _:node1ivs02adlx24586409 .
+
+_:node1ivs02adlx24586409 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/115720367>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118505165>;
+  gndo:hasRelation _:node1ivs02adlx24586410 .
+
+_:node1ivs02adlx24586410 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118505165>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:hasRelation _:node1ivs02adlx24586411 .
+
+_:node1ivs02adlx24586411 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118556010> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24586412 .
+
+_:node1ivs02adlx24586412 gndo:forename "Filippo";
+  gndo:surname "Beroaldo";
+  gndo:nameAddition "der Jüngere" .
+
+<https://d-nb.info/gnd/118556010> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Orationes selectae", "Orationes tres", "Nicocles", "Isocrates: Oratio ad Nicoclem de regno",
+    "Orationes", "Orationes 21", "Siber, Adam: Ad Demonicum.  1555.  (VD16 S 6214)", "Cato, Marcus Porcius: Christiani hominis institutum.  1583.  (VD16 C 1661)",
+    "Isocrates: Hoc volumine haec continentur. Isocratis Oratoris clarissimi ad bene beateque vivendum oratio ...  1512.  (VD16 I 444)",
+    "Plutarchus: Ad Demonicum.  1595.  (VD16 P 3657)", "Plutarchus: De liberis educandis.  1579.  (VD16 ZV 12604)",
+    "Cato, Marcus Porcius: Christiani hominis institutum.  1523.  (VD16 C 1613)", "Siber, Adam: Ad Demonicum.  1559.  (VD16 S 6215)",
+    "Isocrates: \\=GISOKRATUS HAPANTA.\\=g ... Isocratis scripta, QVAE NVNC EXTANT, OMNIA, per Hieronymum ...  1558.  (VD16 I 400)",
+    "Cato, Marcus Porcius: Christiani hominis institutum.  1540.  (VD16 C 1631)", "Isocrates: Orationes due luculentissime: quarum prior est Jsocratis preceptiua ad Demonicun: A Philippo ...  1507.  (VD16 I 440)";
+  wdrs:describedby <https://d-nb.info/gnd/118556010/about> .
+
+<https://d-nb.info/gnd/118556010/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118556010> gndo:biographicalOrHistoricalInformation "Griech. Rhetoriker und Schriftsteller; Logograph"@de;
+  gndo:udkCode "500 - 401 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24586413 .
+
+_:node1ivs02adlx24586413 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4048895-0>;
+  rdf:_2 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118556010> gndo:dateOfBirth "-0436"^^xsd:gYear;
+  gndo:dateOfDeath "-0338"^^xsd:gYear .
+

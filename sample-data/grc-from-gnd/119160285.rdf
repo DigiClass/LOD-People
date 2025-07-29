@@ -1,0 +1,332 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119160285> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119160285/about> .
+
+<https://d-nb.info/gnd/119160285/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-07-12T13:40:43.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119160285> gndo:gndIdentifier "119160285";
+  foaf:page <https://de.wikipedia.org/wiki/Claudius_Aelianus>;
+  owl:sameAs <https://dbpedia.org/resource/Claudius_Aelianus>, <http://viaf.org/viaf/100219416>,
+    <https://isni.org/isni/000000007980209X>, <http://www.wikidata.org/entity/Q313782>,
+    <http://id.loc.gov/rwo/agents/n82032651>;
+  gndo:oldAuthorityNumber "(DE-588)1089918798";
+  owl:sameAs <https://d-nb.info/gnd/1089918798>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089918798";
+  gndo:oldAuthorityNumber "(DE-588)1089153996";
+  owl:sameAs <https://d-nb.info/gnd/1089153996>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089153996";
+  gndo:oldAuthorityNumber "(DE-588)1089778724";
+  owl:sameAs <https://d-nb.info/gnd/1089778724>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089778724";
+  gndo:oldAuthorityNumber "(DE-588a)119160285", "(DE-588a)138423369", "(DE-588a)11960146X",
+    "(DE-588c)4344756-9";
+  gndo:variantNameForThePerson "Ailianos, Klaudios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396538 .
+
+_:node1ivpishs6x25396538 gndo:forename "Klaudios";
+  gndo:surname "Ailianos" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Ailianos, Klaudios, römischer Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396539 .
+
+_:node1ivpishs6x25396539 gndo:forename "Klaudios";
+  gndo:surname "Ailianos";
+  gndo:nameAddition "römischer Sophist" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelianus, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396540 .
+
+_:node1ivpishs6x25396540 gndo:personalName "Aelianus";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Elien, Claude";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396541 .
+
+_:node1ivpishs6x25396541 gndo:forename "Claude";
+  gndo:surname "Elien" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelianus, Claudius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396542 .
+
+_:node1ivpishs6x25396542 gndo:forename "Claudius";
+  gndo:surname "Aelianus";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelianus, Claudius, römischer Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396543 .
+
+_:node1ivpishs6x25396543 gndo:forename "Claudius";
+  gndo:surname "Aelianus";
+  gndo:nameAddition "römischer Sophist" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Ailianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396544 .
+
+_:node1ivpishs6x25396544 gndo:personalName "Ailianus" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Eliano, Claudio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396545 .
+
+_:node1ivpishs6x25396545 gndo:forename "Claudio";
+  gndo:surname "Eliano" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Claudio, Eliano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396546 .
+
+_:node1ivpishs6x25396546 gndo:personalName "Claudio";
+  gndo:nameAddition "Eliano" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelian, Claudius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396547 .
+
+_:node1ivpishs6x25396547 gndo:forename "Claudius";
+  gndo:surname "Aelian" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Claudius Aelianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396548 .
+
+_:node1ivpishs6x25396548 gndo:personalName "Claudius Aelianus" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelianus, Praenestinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396549 .
+
+_:node1ivpishs6x25396549 gndo:personalName "Aelianus";
+  gndo:nameAddition "Praenestinus" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Klaudios Ailianos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396550 .
+
+_:node1ivpishs6x25396550 gndo:personalName "Klaudios Ailianos" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Ailianos, Romaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396551 .
+
+_:node1ivpishs6x25396551 gndo:personalName "Ailianos";
+  gndo:nameAddition "Romaios" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Élien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396552 .
+
+_:node1ivpishs6x25396552 gndo:personalName "Élien" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396553 .
+
+_:node1ivpishs6x25396553 gndo:personalName "Aelianus" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelianus, Sophistes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396554 .
+
+_:node1ivpishs6x25396554 gndo:personalName "Aelianus";
+  gndo:nameAddition "Sophistes" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Claudius, Aelianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396555 .
+
+_:node1ivpishs6x25396555 gndo:personalName "Claudius";
+  gndo:nameAddition "Aelianus" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Ailianos, Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396556 .
+
+_:node1ivpishs6x25396556 gndo:personalName "Ailianos";
+  gndo:nameAddition "Sophist" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Älian";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396557 .
+
+_:node1ivpishs6x25396557 gndo:personalName "Älian" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelianus, Claudius, Praenestinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396558 .
+
+_:node1ivpishs6x25396558 gndo:forename "Claudius";
+  gndo:surname "Aelianus";
+  gndo:nameAddition "Praenestinus" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelianus Praenestinus, Claudius, römischer Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396559 .
+
+_:node1ivpishs6x25396559 gndo:forename "Claudius";
+  gndo:surname "Aelianus Praenestinus";
+  gndo:nameAddition "römischer Sophist" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Elien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396560 .
+
+_:node1ivpishs6x25396560 gndo:personalName "Elien" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Elien, römischer Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396561 .
+
+_:node1ivpishs6x25396561 gndo:personalName "Elien";
+  gndo:nameAddition "römischer Sophist" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Ailianos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396562 .
+
+_:node1ivpishs6x25396562 gndo:personalName "Ailianos" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Eliano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396563 .
+
+_:node1ivpishs6x25396563 gndo:personalName "Eliano" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Eliano, römischer Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396564 .
+
+_:node1ivpishs6x25396564 gndo:personalName "Eliano";
+  gndo:nameAddition "römischer Sophist" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelian";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396565 .
+
+_:node1ivpishs6x25396565 gndo:personalName "Aelian" .
+
+<https://d-nb.info/gnd/119160285> gndo:variantNameForThePerson "Aelian, römischer Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396566 .
+
+_:node1ivpishs6x25396566 gndo:personalName "Aelian";
+  gndo:nameAddition "römischer Sophist" .
+
+<https://d-nb.info/gnd/119160285> gndo:preferredNameForThePerson "Aelianus, Claudius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396567 .
+
+_:node1ivpishs6x25396567 gndo:forename "Claudius";
+  gndo:surname "Aelianus" .
+
+<https://d-nb.info/gnd/119160285> gndo:hasRelation _:node1ivpishs6x25396568 .
+
+_:node1ivpishs6x25396568 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship _:node1ivpishs6x25396569 .
+
+_:node1ivpishs6x25396569 gndo:forename "Tacticus";
+  gndo:surname "Aelianus" .
+
+<https://d-nb.info/gnd/119160285> gndo:hasRelation _:node1ivpishs6x25396570 .
+
+_:node1ivpishs6x25396570 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship _:node1ivpishs6x25396571 .
+
+_:node1ivpishs6x25396571 gndo:forename "Konrad";
+  gndo:surname "Gesner" .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship <https://d-nb.info/gnd/118971034>;
+  gndo:hasRelation _:node1ivpishs6x25396572 .
+
+_:node1ivpishs6x25396572 gndo:professionalRelationship <https://d-nb.info/gnd/118971034>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:hasRelation _:node1ivpishs6x25396573 .
+
+_:node1ivpishs6x25396573 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship _:node1ivpishs6x25396574 .
+
+_:node1ivpishs6x25396574 gndo:forename "Justus";
+  gndo:surname "Vulteius" .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship <https://d-nb.info/gnd/119640104>;
+  gndo:hasRelation _:node1ivpishs6x25396575 .
+
+_:node1ivpishs6x25396575 gndo:professionalRelationship <https://d-nb.info/gnd/119640104>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship <https://d-nb.info/gnd/100941060>;
+  gndo:hasRelation _:node1ivpishs6x25396576 .
+
+_:node1ivpishs6x25396576 gndo:professionalRelationship <https://d-nb.info/gnd/100941060>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:hasRelation _:node1ivpishs6x25396577 .
+
+_:node1ivpishs6x25396577 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship _:node1ivpishs6x25396578 .
+
+_:node1ivpishs6x25396578 gndo:forename "Pierre";
+  gndo:surname "Gilles" .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship <https://d-nb.info/gnd/119694867>;
+  gndo:hasRelation _:node1ivpishs6x25396579 .
+
+_:node1ivpishs6x25396579 gndo:professionalRelationship <https://d-nb.info/gnd/119694867>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:professionalRelationship <https://d-nb.info/gnd/11882497X>;
+  gndo:hasRelation _:node1ivpishs6x25396580 .
+
+_:node1ivpishs6x25396580 gndo:professionalRelationship <https://d-nb.info/gnd/11882497X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/119160285> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-IT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De animalium natura", "A registre of hystories", "Various Histories",
+    "His various history", "Variae historiae libri XIV", "AELIANI DE VARIA HISTORIA LIbri XIIII, nunc primùm & latinitate donati, & in lucem ...",
+    "De militaribus ordinibus instituendis more Graecorum liber";
+  wdrs:describedby <https://d-nb.info/gnd/119160285/about> .
+
+<https://d-nb.info/gnd/119160285/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119160285> gndo:biographicalOrHistoricalInformation "Freigelassener aus Praeneste, Schüler des Sophisten Pausanias, der seine Werke nicht in seiner lateinischen Muttersprache veröffentlichte, sondern in der später erlernten griechischen Sprache"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0170"^^xsd:gYear;
+  gndo:dateOfDeath "0240"^^xsd:gYear .
+

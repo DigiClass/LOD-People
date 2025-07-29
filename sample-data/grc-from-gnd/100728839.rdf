@@ -1,0 +1,144 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100728839> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100728839/about> .
+
+<https://d-nb.info/gnd/100728839/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-03-24T16:48:05.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100728839> gndo:gndIdentifier "100728839";
+  foaf:page <https://de.wikipedia.org/wiki/Alexandros_Numeniu>;
+  owl:sameAs <http://viaf.org/viaf/63981926>, <https://isni.org/isni/0000000061213609>,
+    <http://www.wikidata.org/entity/Q622258>, <http://id.loc.gov/rwo/agents/no90011334>;
+  gndo:oldAuthorityNumber "(DE-588)119604493";
+  owl:sameAs <https://d-nb.info/gnd/119604493>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119604493";
+  gndo:oldAuthorityNumber "(DE-588a)119604493", "(DE-588a)100728839", "(DE-588c)4792991-1";
+  gndo:variantNameForThePerson "Alexander, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594587 .
+
+_:node1ivs02adlx24594587 gndo:personalName "Alexander";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Alexander, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594588 .
+
+_:node1ivs02adlx24594588 gndo:personalName "Alexander";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Alexandros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594589 .
+
+_:node1ivs02adlx24594589 gndo:personalName "Alexandros" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Alexander, Numenius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594590 .
+
+_:node1ivs02adlx24594590 gndo:personalName "Alexander";
+  gndo:nameAddition "Numenius" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Alexandros, Sophist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594591 .
+
+_:node1ivs02adlx24594591 gndo:personalName "Alexandros";
+  gndo:nameAddition "Sophist" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Alexandros, Sohn des Rhetors Numenios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594592 .
+
+_:node1ivs02adlx24594592 gndo:personalName "Alexandros";
+  gndo:nameAddition "Sohn des Rhetors Numenios" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Alexander, Son of the Rhetor Numenius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594593 .
+
+_:node1ivs02adlx24594593 gndo:personalName "Alexander";
+  gndo:nameAddition "Son of the Rhetor Numenius" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Numenius, Alexander";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594594 .
+
+_:node1ivs02adlx24594594 gndo:forename "Alexander";
+  gndo:surname "Numenius" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Numenii, Alexander";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594595 .
+
+_:node1ivs02adlx24594595 gndo:forename "Alexander";
+  gndo:surname "Numenii" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Numenius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594596 .
+
+_:node1ivs02adlx24594596 gndo:personalName "Numenius";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/100728839> gndo:variantNameForThePerson "Alexandros, Numeniu";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594597 .
+
+_:node1ivs02adlx24594597 gndo:personalName "Alexandros";
+  gndo:nameAddition "Numeniu" .
+
+<https://d-nb.info/gnd/100728839> gndo:preferredNameForThePerson "Alexander, Numenii";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594598 .
+
+_:node1ivs02adlx24594598 gndo:personalName "Alexander";
+  gndo:nameAddition "Numenii" .
+
+<https://d-nb.info/gnd/100728839> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De figuris sensus. - 1508", "Peri tōn tēs Dianoias Schēmatōn kai peri tōn tēs Schēmatōn.*. - 1690",
+    "Alexandri Sophistae de Figuris rerum et uerba rum libellus longe utilissimus recens ...  1553.  (VD16 A 1783)";
+  wdrs:describedby <https://d-nb.info/gnd/100728839/about> .
+
+<https://d-nb.info/gnd/100728839/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100728839> gndo:biographicalOrHistoricalInformation "Griech. Sophist u. Rhetoriker"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

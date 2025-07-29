@@ -1,0 +1,450 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118518488> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118518488/about> .
+
+<https://d-nb.info/gnd/118518488/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:38.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118518488> gndo:gndIdentifier "118518488";
+  owl:sameAs <https://dbpedia.org/resource/Callimachus>, <http://viaf.org/viaf/122037216>,
+    <http://www.wikidata.org/entity/Q192417>;
+  gndo:oldAuthorityNumber "(DE-588)1089133340";
+  owl:sameAs <https://d-nb.info/gnd/1089133340>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089133340";
+  gndo:oldAuthorityNumber "(DE-588)1089887361";
+  owl:sameAs <https://d-nb.info/gnd/1089887361>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089887361";
+  gndo:oldAuthorityNumber "(DE-588)1089714610";
+  owl:sameAs <https://d-nb.info/gnd/1089714610>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089714610";
+  gndo:oldAuthorityNumber "(DE-588)185888224";
+  owl:sameAs <https://d-nb.info/gnd/185888224>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185888224";
+  gndo:oldAuthorityNumber "(DE-588a)185888224", "(DE-588)174391706";
+  owl:sameAs <https://d-nb.info/gnd/174391706>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174391706";
+  gndo:oldAuthorityNumber "(DE-588a)174391706", "(DE-588a)118518488", "(DE-588a)119635380",
+    "(DE-588c)4009332-3";
+  gndo:variantNameForThePerson "Callimachos, Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397828 .
+
+_:node1ivpishs6x25397828 gndo:personalName "Callimachos";
+  gndo:nameAddition "Schriftsteller" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kallimachos, Schriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397829 .
+
+_:node1ivpishs6x25397829 gndo:personalName "Kallimachos";
+  gndo:nameAddition "Schriftsteller" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimachus, von Cyrene";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397830 .
+
+_:node1ivpishs6x25397830 gndo:personalName "Callimachus";
+  gndo:nameAddition "von Cyrene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kallimachos, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397831 .
+
+_:node1ivpishs6x25397831 gndo:personalName "Kallimachos";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimachus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397832 .
+
+_:node1ivpishs6x25397832 gndo:personalName "Callimachus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimachus, Cyrenaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397833 .
+
+_:node1ivpishs6x25397833 gndo:personalName "Callimachus";
+  gndo:nameAddition "Cyrenaeus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimachus, Cyraenaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397834 .
+
+_:node1ivpishs6x25397834 gndo:personalName "Callimachus";
+  gndo:nameAddition "Cyraenaeus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kallimachos, von Kyrene";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397835 .
+
+_:node1ivpishs6x25397835 gndo:personalName "Kallimachos";
+  gndo:nameAddition "von Kyrene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kallimachos, Sohn des Battos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397836 .
+
+_:node1ivpishs6x25397836 gndo:personalName "Kallimachos";
+  gndo:nameAddition "Sohn des Battos" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimachus, Cyrenensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397837 .
+
+_:node1ivpishs6x25397837 gndo:personalName "Callimachus";
+  gndo:nameAddition "Cyrenensis" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kallimachos, Kyrēnaios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397838 .
+
+_:node1ivpishs6x25397838 gndo:personalName "Kallimachos";
+  gndo:nameAddition "Kyrēnaios" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimaque";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397839 .
+
+_:node1ivpishs6x25397839 gndo:personalName "Callimaque" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kallimachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397840 .
+
+_:node1ivpishs6x25397840 gndo:personalName "Kallimachus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimachus, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397841 .
+
+_:node1ivpishs6x25397841 gndo:personalName "Callimachus";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimachus, Epicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397842 .
+
+_:node1ivpishs6x25397842 gndo:personalName "Callimachus";
+  gndo:nameAddition "Epicus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimachus, Philologus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397843 .
+
+_:node1ivpishs6x25397843 gndo:personalName "Callimachus";
+  gndo:nameAddition "Philologus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimaco, di Cirene";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397844 .
+
+_:node1ivpishs6x25397844 gndo:personalName "Callimaco";
+  gndo:nameAddition "di Cirene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimaco, Cirenese";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397845 .
+
+_:node1ivpishs6x25397845 gndo:personalName "Callimaco";
+  gndo:nameAddition "Cirenese" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kallimachos, Alexandrinischer Dichter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397846 .
+
+_:node1ivpishs6x25397846 gndo:personalName "Kallimachos";
+  gndo:nameAddition "Alexandrinischer Dichter" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimaco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397847 .
+
+_:node1ivpishs6x25397847 gndo:personalName "Callimaco" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Callimaque, de Cyrène";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397848 .
+
+_:node1ivpishs6x25397848 gndo:personalName "Callimaque";
+  gndo:nameAddition "de Cyrène" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kallimachos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397849 .
+
+_:node1ivpishs6x25397849 gndo:personalName "Kallimachos" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Von Alexandria, Kallimachos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397850 .
+
+_:node1ivpishs6x25397850 gndo:forename "Kallimachos";
+  gndo:surname "Von Alexandria" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Cyrenaeus, Callimachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397851 .
+
+_:node1ivpishs6x25397851 gndo:forename "Callimachus";
+  gndo:surname "Cyrenaeus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Von Kyrene, Kallimachos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397852 .
+
+_:node1ivpishs6x25397852 gndo:forename "Kallimachos";
+  gndo:surname "Von Kyrene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Sohn des Battos, Kallimachos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397853 .
+
+_:node1ivpishs6x25397853 gndo:forename "Kallimachos";
+  gndo:surname "Sohn des Battos" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Cyrenensis, Callimachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397854 .
+
+_:node1ivpishs6x25397854 gndo:forename "Callimachus";
+  gndo:surname "Cyrenensis" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kyrenaios, Kallimachos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397855 .
+
+_:node1ivpishs6x25397855 gndo:forename "Kallimachos";
+  gndo:surname "Kyrenaios" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Poeta, Callimachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397856 .
+
+_:node1ivpishs6x25397856 gndo:forename "Callimachus";
+  gndo:surname "Poeta" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Epicus, Callimachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397857 .
+
+_:node1ivpishs6x25397857 gndo:forename "Callimachus";
+  gndo:surname "Epicus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Philologus, Callimachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397858 .
+
+_:node1ivpishs6x25397858 gndo:forename "Callimachus";
+  gndo:surname "Philologus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Di Cirene, Callimaco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397859 .
+
+_:node1ivpishs6x25397859 gndo:forename "Callimaco";
+  gndo:surname "Di Cirene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "De Cyréne, Callimaque";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397860 .
+
+_:node1ivpishs6x25397860 gndo:forename "Callimaque";
+  gndo:surname "De Cyréne" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Alexandrinus, Callimachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397861 .
+
+_:node1ivpishs6x25397861 gndo:forename "Callimachus";
+  gndo:surname "Alexandrinus" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "VonCyrene, Callimachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397862 .
+
+_:node1ivpishs6x25397862 gndo:forename "Callimachus";
+  gndo:surname "VonCyrene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "VonAlexandria, Kallimachos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397863 .
+
+_:node1ivpishs6x25397863 gndo:forename "Kallimachos";
+  gndo:surname "VonAlexandria" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "VonKyrene, Kallimachos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397864 .
+
+_:node1ivpishs6x25397864 gndo:forename "Kallimachos";
+  gndo:surname "VonKyrene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "DiCirene, Callimaco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397865 .
+
+_:node1ivpishs6x25397865 gndo:forename "Callimaco";
+  gndo:surname "DiCirene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "DeCyréne, Callimaque";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397866 .
+
+_:node1ivpishs6x25397866 gndo:forename "Callimaque";
+  gndo:surname "DeCyréne" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Cyrene, Callimachus von";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397867 .
+
+_:node1ivpishs6x25397867 gndo:forename "Callimachus";
+  gndo:prefix "von";
+  gndo:surname "Cyrene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Alexandria, Kallimachos von";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397868 .
+
+_:node1ivpishs6x25397868 gndo:forename "Kallimachos";
+  gndo:prefix "von";
+  gndo:surname "Alexandria" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Kyrene, Kallimachos von";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397869 .
+
+_:node1ivpishs6x25397869 gndo:forename "Kallimachos";
+  gndo:prefix "von";
+  gndo:surname "Kyrene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Cirene, Callimaco di";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397870 .
+
+_:node1ivpishs6x25397870 gndo:forename "Callimaco";
+  gndo:prefix "di";
+  gndo:surname "Cirene" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Cyréne, Callimaque de";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397871 .
+
+_:node1ivpishs6x25397871 gndo:forename "Callimaque";
+  gndo:prefix "de";
+  gndo:surname "Cyréne" .
+
+<https://d-nb.info/gnd/118518488> gndo:variantNameForThePerson "Calímaco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25397872 .
+
+_:node1ivpishs6x25397872 gndo:personalName "Calímaco" .
+
+<https://d-nb.info/gnd/118518488> gndo:preferredNameForThePerson "Callimachus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25397873 .
+
+_:node1ivpishs6x25397873 gndo:personalName "Callimachus" .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118503847>;
+  gndo:hasRelation _:node1ivpishs6x25397874 .
+
+_:node1ivpishs6x25397874 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118503847>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:hasRelation _:node1ivpishs6x25397875 .
+
+_:node1ivpishs6x25397875 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397876 .
+
+_:node1ivpishs6x25397876 gndo:forename "Francesco";
+  gndo:surname "Florido" .
+
+<https://d-nb.info/gnd/118518488> gndo:hasRelation _:node1ivpishs6x25397877 .
+
+_:node1ivpishs6x25397877 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397878 .
+
+_:node1ivpishs6x25397878 gndo:forename "Nikodemus";
+  gndo:surname "Frischlin" .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117212733>;
+  gndo:hasRelation _:node1ivpishs6x25397879 .
+
+_:node1ivpishs6x25397879 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117212733>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128521546>;
+  gndo:hasRelation _:node1ivpishs6x25397880 .
+
+_:node1ivpishs6x25397880 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128521546>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118615688>;
+  gndo:hasRelation _:node1ivpishs6x25397881 .
+
+_:node1ivpishs6x25397881 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118615688>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119714876>;
+  gndo:hasRelation _:node1ivpishs6x25397882 .
+
+_:node1ivpishs6x25397882 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119714876>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11977318X>;
+  gndo:hasRelation _:node1ivpishs6x25397883 .
+
+_:node1ivpishs6x25397883 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11977318X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:hasRelation _:node1ivpishs6x25397884 .
+
+_:node1ivpishs6x25397884 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25397885 .
+
+_:node1ivpishs6x25397885 gndo:forename "Henri";
+  gndo:surname "Estienne" .
+
+<https://d-nb.info/gnd/118518488> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119799200>;
+  gndo:hasRelation _:node1ivpishs6x25397886 .
+
+_:node1ivpishs6x25397886 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119799200>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118518488> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.4p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hymni", "Hymni", "Hymni", "Hymni et epigrammata", "Callimaco Greco-Italiano ora publicato",
+    "Hymni quae supersunt", "Hymnoi, epigrammata kai alla atta", "Hymni et epigrammata",
+    "Hymni et epigrammata", "The Hymns of Callimachus", "Epigrammata quaedam Graeca. 1589. (VD16 C 271)",
+    "Hymni. 1532. (VD16 C 270)", "Florido, Francesco: In Dianam hymnus. 1540. (VD16 F 1676)",
+    "Sophocles: Aiax flagellifer. 1533. (VD16 ZV 14509)", "Sohn, Georg: SYNOPSIS CORPORIS DOCTRINAE PHILIPPI MELANCHTHONIS THESIBVS BREVITER COMPREHENSA ET ... 1588. (VD16 S 6910)";
+  wdrs:describedby <https://d-nb.info/gnd/118518488/about> .
+
+<https://d-nb.info/gnd/118518488/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118518488> gndo:biographicalOrHistoricalInformation "Griech. Gelehrter und Dichter"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4033906-3>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4001138-0>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25397887 .
+
+_:node1ivpishs6x25397887 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4156443-1> .
+
+<https://d-nb.info/gnd/118518488> gndo:dateOfBirthAndDeath "[v300-v240]" .
+

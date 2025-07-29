@@ -1,0 +1,536 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118575651> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118575651/about> .
+
+<https://d-nb.info/gnd/118575651/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-03-24T16:48:31.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118575651> gndo:gndIdentifier "118575651";
+  foaf:page <https://de.wikipedia.org/wiki/Makarios_der_%C3%84gypter>;
+  owl:sameAs <https://dbpedia.org/resource/Macarius_of_Egypt>, <http://viaf.org/viaf/100191654>,
+    <http://www.wikidata.org/entity/Q15695469>, <http://id.loc.gov/rwo/agents/n82031613>;
+  gndo:oldAuthorityNumber "(DE-588)186232357";
+  owl:sameAs <https://d-nb.info/gnd/186232357>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186232357";
+  gndo:oldAuthorityNumber "(DE-588a)186232357", "(DE-588)108971341X";
+  owl:sameAs <https://d-nb.info/gnd/108971341X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108971341X";
+  gndo:oldAuthorityNumber "(DE-588)11974953X";
+  owl:sameAs <https://d-nb.info/gnd/11974953X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/11974953X";
+  gndo:oldAuthorityNumber "(DE-588a)11974953X", "(DE-588)17412189X";
+  owl:sameAs <https://d-nb.info/gnd/17412189X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17412189X";
+  gndo:oldAuthorityNumber "(DE-588a)17412189X", "(DE-588)174046138";
+  owl:sameAs <https://d-nb.info/gnd/174046138>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174046138";
+  gndo:oldAuthorityNumber "(DE-588a)174046138", "(DE-588)172242657";
+  owl:sameAs <https://d-nb.info/gnd/172242657>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172242657";
+  gndo:oldAuthorityNumber "(DE-588a)172242657", "(DE-588a)118575651", "(DE-588c)4036793-9";
+  gndo:variantNameForThePerson "Macarius, Senior";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402812 .
+
+_:node1ivpishs6x25402812 gndo:personalName "Macarius";
+  gndo:nameAddition "Senior" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makar, Mec";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402813 .
+
+_:node1ivpishs6x25402813 gndo:personalName "Makar";
+  gndo:nameAddition "Mec" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Grosse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402814 .
+
+_:node1ivpishs6x25402814 gndo:personalName "Makarios";
+  gndo:nameAddition "der Grosse" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Ältere";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402815 .
+
+_:node1ivpishs6x25402815 gndo:personalName "Makarios";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Serapion Macarius, Paphnutius et alter Macarius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402816 .
+
+_:node1ivpishs6x25402816 gndo:forename "Paphnutius et alter Macarius";
+  gndo:surname "Serapion Macarius" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarius, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402817 .
+
+_:node1ivpishs6x25402817 gndo:personalName "Makarius";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402818 .
+
+_:node1ivpishs6x25402818 gndo:personalName "Makarios";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402819 .
+
+_:node1ivpishs6x25402819 gndo:personalName "Makarios" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios-Symeon, ...";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402820 .
+
+_:node1ivpishs6x25402820 gndo:forename "...";
+  gndo:surname "Makarios-Symeon" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402821 .
+
+_:node1ivpishs6x25402821 gndo:personalName "Makarius" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402822 .
+
+_:node1ivpishs6x25402822 gndo:personalName "Macarius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402823 .
+
+_:node1ivpishs6x25402823 gndo:personalName "Makarios";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, Hosios Pateras";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402824 .
+
+_:node1ivpishs6x25402824 gndo:personalName "Makarios";
+  gndo:nameAddition "Hosios Pateras" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Aegyptius, Macarius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402825 .
+
+_:node1ivpishs6x25402825 gndo:forename "Macarius";
+  gndo:surname "Aegyptius" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, der Große";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402826 .
+
+_:node1ivpishs6x25402826 gndo:personalName "Macarius";
+  gndo:nameAddition "der Große" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402827 .
+
+_:node1ivpishs6x25402827 gndo:personalName "Macarius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, dÉgypte";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402828 .
+
+_:node1ivpishs6x25402828 gndo:personalName "Macaire";
+  gndo:nameAddition "dÉgypte" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, dÁlexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402829 .
+
+_:node1ivpishs6x25402829 gndo:personalName "Macaire";
+  gndo:nameAddition "dÁlexandrie" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, ho Aigyptios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402830 .
+
+_:node1ivpishs6x25402830 gndo:personalName "Makarios";
+  gndo:nameAddition "ho Aigyptios" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Pseudo-Macarius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402831 .
+
+_:node1ivpishs6x25402831 gndo:personalName "Pseudo-Macarius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Pseudo-Macarius, Mesopotamius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402832 .
+
+_:node1ivpishs6x25402832 gndo:personalName "Pseudo-Macarius";
+  gndo:nameAddition "Mesopotamius" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Pseudo-Macarius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402833 .
+
+_:node1ivpishs6x25402833 gndo:personalName "Pseudo-Macarius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Pseudo-Macarius, Magnus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402834 .
+
+_:node1ivpishs6x25402834 gndo:personalName "Pseudo-Macarius";
+  gndo:nameAddition "Magnus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Pseudo-Macarius-Simeon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402835 .
+
+_:node1ivpishs6x25402835 gndo:personalName "Pseudo-Macarius-Simeon" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "P'sevdomakari";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402836 .
+
+_:node1ivpishs6x25402836 gndo:personalName "P'sevdomakari" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Psevdo-Makarij";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402837 .
+
+_:node1ivpishs6x25402837 gndo:personalName "Psevdo-Makarij" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, l'Égyptien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402838 .
+
+_:node1ivpishs6x25402838 gndo:personalName "Macaire";
+  gndo:nameAddition "l'Égyptien" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Ägypter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402839 .
+
+_:node1ivpishs6x25402839 gndo:personalName "Makarios";
+  gndo:nameAddition "der Ägypter" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Magnus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402840 .
+
+_:node1ivpishs6x25402840 gndo:personalName "Macarius";
+  gndo:nameAddition "Magnus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Maior";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402841 .
+
+_:node1ivpishs6x25402841 gndo:personalName "Macarius";
+  gndo:nameAddition "Maior" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, von Ägypten";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402842 .
+
+_:node1ivpishs6x25402842 gndo:personalName "Macarius";
+  gndo:nameAddition "von Ägypten" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius-Symeon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402843 .
+
+_:node1ivpishs6x25402843 gndo:personalName "Macarius-Symeon" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macharius, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402844 .
+
+_:node1ivpishs6x25402844 gndo:personalName "Macharius";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarius, der Ägypter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402845 .
+
+_:node1ivpishs6x25402845 gndo:personalName "Makarius";
+  gndo:nameAddition "der Ägypter" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarius-Symeon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402846 .
+
+_:node1ivpishs6x25402846 gndo:personalName "Makarius-Symeon" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarius, der Grosse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402847 .
+
+_:node1ivpishs6x25402847 gndo:personalName "Makarius";
+  gndo:nameAddition "der Grosse" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Monachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402848 .
+
+_:node1ivpishs6x25402848 gndo:personalName "Macarius";
+  gndo:nameAddition "Monachus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402849 .
+
+_:node1ivpishs6x25402849 gndo:personalName "Macarius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Mesopotamius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402850 .
+
+_:node1ivpishs6x25402850 gndo:personalName "Macarius";
+  gndo:nameAddition "Mesopotamius" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, Mönch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402851 .
+
+_:node1ivpishs6x25402851 gndo:personalName "Makarios";
+  gndo:nameAddition "Mönch" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, Ermite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402852 .
+
+_:node1ivpishs6x25402852 gndo:personalName "Macaire";
+  gndo:nameAddition "Ermite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, Abbé";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402853 .
+
+_:node1ivpishs6x25402853 gndo:personalName "Macaire";
+  gndo:nameAddition "Abbé" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402854 .
+
+_:node1ivpishs6x25402854 gndo:personalName "Macaire";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Pseudo-Macarius, Aegyptius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402855 .
+
+_:node1ivpishs6x25402855 gndo:personalName "Pseudo-Macarius";
+  gndo:nameAddition "Aegyptius" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Pseudo-Makarios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402856 .
+
+_:node1ivpishs6x25402856 gndo:personalName "Pseudo-Makarios" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402857 .
+
+_:node1ivpishs6x25402857 gndo:personalName "Macaire";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Aegyptius, Ermite"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402858 .
+
+_:node1ivpishs6x25402858 gndo:personalName "Macarius";
+  gndo:nameAddition "Aegyptius, Ermite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Aegyptius, Eremite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402859 .
+
+_:node1ivpishs6x25402859 gndo:personalName "Macarius";
+  gndo:nameAddition "Aegyptius, Eremite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, Abba";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402860 .
+
+_:node1ivpishs6x25402860 gndo:personalName "Macaire";
+  gndo:nameAddition "Abba" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Ältere, Ermite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402861 .
+
+_:node1ivpishs6x25402861 gndo:personalName "Makarios";
+  gndo:nameAddition "der Ältere, Ermite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Ältere, Eremite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402862 .
+
+_:node1ivpishs6x25402862 gndo:personalName "Makarios";
+  gndo:nameAddition "der Ältere, Eremite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Scriptor ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402863 .
+
+_:node1ivpishs6x25402863 gndo:personalName "Macarius";
+  gndo:nameAddition "Scriptor ecclesiasticus" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, von Ägypten, Eremit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402864 .
+
+_:node1ivpishs6x25402864 gndo:personalName "Macarius";
+  gndo:nameAddition "von Ägypten, Eremit" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, von Ägypten, Ermite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402865 .
+
+_:node1ivpishs6x25402865 gndo:personalName "Macarius";
+  gndo:nameAddition "von Ägypten, Ermite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, von Ägypten, Eremite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402866 .
+
+_:node1ivpishs6x25402866 gndo:personalName "Macarius";
+  gndo:nameAddition "von Ägypten, Eremite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Ägypter, Ermite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402867 .
+
+_:node1ivpishs6x25402867 gndo:personalName "Makarios";
+  gndo:nameAddition "der Ägypter, Ermite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, d'Egypte";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402868 .
+
+_:node1ivpishs6x25402868 gndo:personalName "Macaire";
+  gndo:nameAddition "d'Egypte" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Ägypter, Eremit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402869 .
+
+_:node1ivpishs6x25402869 gndo:personalName "Makarios";
+  gndo:nameAddition "der Ägypter, Eremit" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Ältere, Eremit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402870 .
+
+_:node1ivpishs6x25402870 gndo:personalName "Makarios";
+  gndo:nameAddition "der Ältere, Eremit" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Ägypter, Eremite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402871 .
+
+_:node1ivpishs6x25402871 gndo:personalName "Makarios";
+  gndo:nameAddition "der Ägypter, Eremite" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Serapion, Macarius, Paphnutius et alter Macarius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402872 .
+
+_:node1ivpishs6x25402872 gndo:forename "Macarius, Paphnutius et alter Macarius";
+  gndo:surname "Serapion" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Symeon, Mesopotamius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402873 .
+
+_:node1ivpishs6x25402873 gndo:personalName "Symeon";
+  gndo:nameAddition "Mesopotamius" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Symeon, von Ägypten";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402874 .
+
+_:node1ivpishs6x25402874 gndo:personalName "Symeon";
+  gndo:nameAddition "von Ägypten" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Symeon, von Mesopotamien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402875 .
+
+_:node1ivpishs6x25402875 gndo:personalName "Symeon";
+  gndo:nameAddition "von Mesopotamien" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macarius, Aegyptius, Eremit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402876 .
+
+_:node1ivpishs6x25402876 gndo:personalName "Macarius";
+  gndo:nameAddition "Aegyptius, Eremit" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarios, der Aegypter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402877 .
+
+_:node1ivpishs6x25402877 gndo:personalName "Makarios";
+  gndo:nameAddition "der Aegypter" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Makarius, der Aegypter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402878 .
+
+_:node1ivpishs6x25402878 gndo:personalName "Makarius";
+  gndo:nameAddition "der Aegypter" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, l'Egyptien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402879 .
+
+_:node1ivpishs6x25402879 gndo:personalName "Macaire";
+  gndo:nameAddition "l'Egyptien" .
+
+<https://d-nb.info/gnd/118575651> gndo:variantNameForThePerson "Macaire, le Grand";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402880 .
+
+_:node1ivpishs6x25402880 gndo:personalName "Macaire";
+  gndo:nameAddition "le Grand" .
+
+<https://d-nb.info/gnd/118575651> gndo:preferredNameForThePerson "Macarius, Aegyptius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402881 .
+
+_:node1ivpishs6x25402881 gndo:personalName "Macarius";
+  gndo:nameAddition "Aegyptius" .
+
+<https://d-nb.info/gnd/118575651> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100383661>;
+  gndo:hasRelation _:node1ivpishs6x25402882 .
+
+_:node1ivpishs6x25402882 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100383661>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118575651> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100075657>;
+  gndo:hasRelation _:node1ivpishs6x25402883 .
+
+_:node1ivpishs6x25402883 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100075657>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118575651> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/122113357>;
+  gndo:hasRelation _:node1ivpishs6x25402884 .
+
+_:node1ivpishs6x25402884 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/122113357>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118575651> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118642960>;
+  gndo:hasRelation _:node1ivpishs6x25402885 .
+
+_:node1ivpishs6x25402885 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118642960>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118575651> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Homiliae spirituales quinquaginta", "Tu hagiu patros Makariu tu Aigyptiu homiliai. - 1698 - 1699",
+    "Opuscula nonnulla et apophthegmata", "Homiliae quinquaginta", "T'xzulebat'a k'art'ul versia",
+    "Novye duchovnye besedy", "Gregorius <Thaumaturgus>: Gregorii Thaum., Macarii et Basilii Opera omnia",
+    "SANCTI PATRIS MACARII, EREMITAE AEGYPTII, HOMILIAE SPIRITVALES QVINQVAGINTA. DE ... 1594. (VD16 M 1)";
+  wdrs:describedby <https://d-nb.info/gnd/118575651/about> .
+
+<https://d-nb.info/gnd/118575651/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118575651> gndo:biographicalOrHistoricalInformation "Ägypt. Mönch; die unter seinem Namen überlieferten Schriften wurden vermutlich von Symeon von Mesopotamien verfaßt; beide Personen sind nicht identisch"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402886 .
+
+_:node1ivpishs6x25402886 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4039902-3> .
+
+<https://d-nb.info/gnd/118575651> gndo:dateOfBirth "0300"^^xsd:gYear;
+  gndo:dateOfDeath "0390"^^xsd:gYear .
+

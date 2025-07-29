@@ -1,0 +1,176 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/10041768X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/10041768X/about> .
+
+<https://d-nb.info/gnd/10041768X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-16T14:37:42.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/10041768X> gndo:gndIdentifier "10041768X";
+  foaf:page <https://de.wikipedia.org/wiki/Artemidor_von_Ephesos>;
+  owl:sameAs <https://dbpedia.org/resource/Artemidorus_Ephesius>, <http://viaf.org/viaf/317093855>,
+    <https://isni.org/isni/0000000120337661>, <http://www.wikidata.org/entity/Q472620>;
+  gndo:oldAuthorityNumber "(DE-588)1089465858";
+  owl:sameAs <https://d-nb.info/gnd/1089465858>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089465858";
+  gndo:oldAuthorityNumber "(DE-588)1089786344";
+  owl:sameAs <https://d-nb.info/gnd/1089786344>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089786344";
+  gndo:oldAuthorityNumber "(DE-588a)10041768X", "(DE-588c)7521942-6";
+  gndo:variantNameForThePerson "Artemidorus, von Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594545 .
+
+_:node1ivs02adlx24594545 gndo:personalName "Artemidorus";
+  gndo:nameAddition "von Ephesus" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594546 .
+
+_:node1ivs02adlx24594546 gndo:personalName "Artemidorus" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidorus, of Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594547 .
+
+_:node1ivs02adlx24594547 gndo:personalName "Artemidorus";
+  gndo:nameAddition "of Ephesus" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidorus, Geographer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594548 .
+
+_:node1ivs02adlx24594548 gndo:personalName "Artemidorus";
+  gndo:nameAddition "Geographer" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidoros, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594549 .
+
+_:node1ivs02adlx24594549 gndo:personalName "Artemidoros";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidorus, Geographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594550 .
+
+_:node1ivs02adlx24594550 gndo:personalName "Artemidorus";
+  gndo:nameAddition "Geographus" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidoros, Geograph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594551 .
+
+_:node1ivs02adlx24594551 gndo:personalName "Artemidoros";
+  gndo:nameAddition "Geograph" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidorus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594552 .
+
+_:node1ivs02adlx24594552 gndo:personalName "Artemidorus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidor, von Ephesus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594553 .
+
+_:node1ivs02adlx24594553 gndo:personalName "Artemidor";
+  gndo:nameAddition "von Ephesus" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidor, von Ephesos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594554 .
+
+_:node1ivs02adlx24594554 gndo:personalName "Artemidor";
+  gndo:nameAddition "von Ephesos" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidoro, di Efeso";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594555 .
+
+_:node1ivs02adlx24594555 gndo:personalName "Artemidoro";
+  gndo:nameAddition "di Efeso" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidoro, Geografo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594556 .
+
+_:node1ivs02adlx24594556 gndo:personalName "Artemidoro";
+  gndo:nameAddition "Geografo" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artemidoros, Politiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594557 .
+
+_:node1ivs02adlx24594557 gndo:personalName "Artemidoros";
+  gndo:nameAddition "Politiker" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Artémidore, dÉphèse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594558 .
+
+_:node1ivs02adlx24594558 gndo:personalName "Artémidore";
+  gndo:nameAddition "dÉphèse" .
+
+<https://d-nb.info/gnd/10041768X> gndo:variantNameForThePerson "Pseudo-Artemidoro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594559 .
+
+_:node1ivs02adlx24594559 gndo:personalName "Pseudo-Artemidoro" .
+
+<https://d-nb.info/gnd/10041768X> gndo:preferredNameForThePerson "Artemidorus, Ephesius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594560 .
+
+_:node1ivs02adlx24594560 gndo:personalName "Artemidorus";
+  gndo:nameAddition "Ephesius" .
+
+<https://d-nb.info/gnd/10041768X> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Artemidorus <Ephesius>: Epitome", "Menippus: Peripli fragmentum quod Artemidori nomine ferebatur",
+    "Marcianus <Heracleensis>: Geographica";
+  wdrs:describedby <https://d-nb.info/gnd/10041768X/about> .
+
+<https://d-nb.info/gnd/10041768X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/10041768X> gndo:biographicalOrHistoricalInformation "FGrH 438: Geographumena; Iōnika hypomnēmata"@de;
+  gndo:udkCode "200 - 101 v. Chr. ";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4015012-4>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594561 .
+
+_:node1ivs02adlx24594561 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4020214-8>;
+  rdf:_2 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/10041768X> gndo:dateOfBirthAndDeath "[v100-]" .
+

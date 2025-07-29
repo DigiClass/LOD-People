@@ -1,0 +1,165 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118589911> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118589911/about> .
+
+<https://d-nb.info/gnd/118589911/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:13:55.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118589911> gndo:gndIdentifier "118589911";
+  owl:sameAs <https://dbpedia.org/resource/Olympiodorus_of_Thebes>, <http://viaf.org/viaf/69722074>,
+    <http://www.wikidata.org/entity/Q506553>;
+  gndo:oldAuthorityNumber "(DE-588)153723432";
+  owl:sameAs <https://d-nb.info/gnd/153723432>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/153723432";
+  gndo:oldAuthorityNumber "(DE-588a)153723432", "(DE-588)1089879776";
+  owl:sameAs <https://d-nb.info/gnd/1089879776>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089879776";
+  gndo:oldAuthorityNumber "(DE-588)1055406204";
+  owl:sameAs <https://d-nb.info/gnd/1055406204>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1055406204";
+  gndo:oldAuthorityNumber "(DE-588a)118589911", "(DE-588c)4043510-6";
+  gndo:variantNameForThePerson "Olympiodor, von Theben";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592455 .
+
+_:node1ivs02adlx24592455 gndo:personalName "Olympiodor";
+  gndo:nameAddition "von Theben" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodoros, Historiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592456 .
+
+_:node1ivs02adlx24592456 gndo:personalName "Olympiodoros";
+  gndo:nameAddition "Historiker" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodorus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592457 .
+
+_:node1ivs02adlx24592457 gndo:personalName "Olympiodorus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodorus, of Thebae";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592458 .
+
+_:node1ivs02adlx24592458 gndo:personalName "Olympiodorus";
+  gndo:nameAddition "of Thebae" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodorus, Historian";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592459 .
+
+_:node1ivs02adlx24592459 gndo:personalName "Olympiodorus";
+  gndo:nameAddition "Historian" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olimpiodoro, di Tebe in Egitto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592460 .
+
+_:node1ivs02adlx24592460 gndo:personalName "Olimpiodoro";
+  gndo:nameAddition "di Tebe in Egitto" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olimpiodoro, Storico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592461 .
+
+_:node1ivs02adlx24592461 gndo:personalName "Olimpiodoro";
+  gndo:nameAddition "Storico" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodoros, von Theben";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592462 .
+
+_:node1ivs02adlx24592462 gndo:personalName "Olympiodoros";
+  gndo:nameAddition "von Theben" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodoros, Thebanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592463 .
+
+_:node1ivs02adlx24592463 gndo:personalName "Olympiodoros";
+  gndo:nameAddition "Thebanus" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodoros, Thebaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592464 .
+
+_:node1ivs02adlx24592464 gndo:personalName "Olympiodoros";
+  gndo:nameAddition "Thebaeus" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodorus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592465 .
+
+_:node1ivs02adlx24592465 gndo:personalName "Olympiodorus" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olympiodorus, of Thebes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592466 .
+
+_:node1ivs02adlx24592466 gndo:personalName "Olympiodorus";
+  gndo:nameAddition "of Thebes" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Olimpiodoro, Tebano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592467 .
+
+_:node1ivs02adlx24592467 gndo:personalName "Olimpiodoro";
+  gndo:nameAddition "Tebano" .
+
+<https://d-nb.info/gnd/118589911> gndo:variantNameForThePerson "Tebano, Olimpiodoro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592468 .
+
+_:node1ivs02adlx24592468 gndo:forename "Olimpiodoro";
+  gndo:surname "Tebano" .
+
+<https://d-nb.info/gnd/118589911> gndo:preferredNameForThePerson "Olympiodorus, Thebanus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592469 .
+
+_:node1ivs02adlx24592469 gndo:personalName "Olympiodorus";
+  gndo:nameAddition "Thebanus" .
+
+<https://d-nb.info/gnd/118589911> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Olympiodorus <Thebanus>: Excerpta ex Olympiodori historia", "Olympiodorus <Thebanus>: Excerpta",
+    "Olympiodorus <Thebanus>: Ex historia Olympodori excerpta ...";
+  wdrs:describedby <https://d-nb.info/gnd/118589911/about> .
+
+<https://d-nb.info/gnd/118589911/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118589911> gndo:biographicalOrHistoricalInformation "Blemyomachia; Griech. Historiker"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[4./5. Jh.]" .
+

@@ -1,0 +1,138 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119539551> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119539551/about> .
+
+<https://d-nb.info/gnd/119539551/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-03-16T19:00:52.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119539551> gndo:gndIdentifier "119539551";
+  foaf:page <https://de.wikipedia.org/wiki/Hermeias_von_Alexandria>;
+  owl:sameAs <https://dbpedia.org/resource/Hermias_(philosopher)>, <http://viaf.org/viaf/22953744>,
+    <http://www.wikidata.org/entity/Q1613489>, <http://id.loc.gov/rwo/agents/no96039842>;
+  gndo:oldAuthorityNumber "(DE-588)108992111X";
+  owl:sameAs <https://d-nb.info/gnd/108992111X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108992111X";
+  gndo:oldAuthorityNumber "(DE-588)1089882696";
+  owl:sameAs <https://d-nb.info/gnd/1089882696>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089882696";
+  gndo:oldAuthorityNumber "(DE-588)1089726694";
+  owl:sameAs <https://d-nb.info/gnd/1089726694>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726694";
+  gndo:oldAuthorityNumber "(DE-588)1089256779";
+  owl:sameAs <https://d-nb.info/gnd/1089256779>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089256779";
+  gndo:oldAuthorityNumber "(DE-588)17412807X";
+  owl:sameAs <https://d-nb.info/gnd/17412807X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17412807X";
+  gndo:oldAuthorityNumber "(DE-588a)17412807X", "(DE-588)172135354";
+  owl:sameAs <https://d-nb.info/gnd/172135354>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172135354";
+  gndo:oldAuthorityNumber "(DE-588a)172135354", "(DE-588a)119539551", "(DE-588c)4484744-0";
+  gndo:variantNameForThePerson "Hermeias, Neuplatoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594259 .
+
+_:node1ivs02adlx24594259 gndo:personalName "Hermeias";
+  gndo:nameAddition "Neuplatoniker" .
+
+<https://d-nb.info/gnd/119539551> gndo:variantNameForThePerson "Hermeias, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594260 .
+
+_:node1ivs02adlx24594260 gndo:personalName "Hermeias";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/119539551> gndo:variantNameForThePerson "Hermeias, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594261 .
+
+_:node1ivs02adlx24594261 gndo:personalName "Hermeias";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/119539551> gndo:variantNameForThePerson "Hermias, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594262 .
+
+_:node1ivs02adlx24594262 gndo:personalName "Hermias";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/119539551> gndo:variantNameForThePerson "Hermias, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594263 .
+
+_:node1ivs02adlx24594263 gndo:personalName "Hermias";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/119539551> gndo:variantNameForThePerson "Hermias, Philosopher";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594264 .
+
+_:node1ivs02adlx24594264 gndo:personalName "Hermias";
+  gndo:nameAddition "Philosopher" .
+
+<https://d-nb.info/gnd/119539551> gndo:variantNameForThePerson "Hermeias, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594265 .
+
+_:node1ivs02adlx24594265 gndo:personalName "Hermeias";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/119539551> gndo:preferredNameForThePerson "Hermias, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594266 .
+
+_:node1ivs02adlx24594266 gndo:personalName "Hermias";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/119539551> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Scholia in Platonis Phaedrum";
+  wdrs:describedby <https://d-nb.info/gnd/119539551/about> .
+
+<https://d-nb.info/gnd/119539551/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119539551> gndo:biographicalOrHistoricalInformation "griech. Philosoph, Neuplatoniker"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594267 .
+
+_:node1ivs02adlx24594267 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/119539551> gndo:dateOfBirth "[4XX]" .
+

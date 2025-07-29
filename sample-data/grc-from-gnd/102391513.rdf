@@ -1,0 +1,122 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102391513> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102391513/about> .
+
+<https://d-nb.info/gnd/102391513/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-24T14:32:06.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102391513> gndo:gndIdentifier "102391513";
+  owl:sameAs <http://viaf.org/viaf/32386370>, <http://www.wikidata.org/entity/Q467835>;
+  gndo:oldAuthorityNumber "(DE-588)172055415";
+  owl:sameAs <https://d-nb.info/gnd/172055415>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172055415";
+  gndo:oldAuthorityNumber "(DE-588a)172055415", "(DE-588a)102391513", "(DE-588c)7737103-3";
+  gndo:variantNameForThePerson "Dioskoros, von Aphrodito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593698 .
+
+_:node1ivs02adlx24593698 gndo:personalName "Dioskoros";
+  gndo:nameAddition "von Aphrodito" .
+
+<https://d-nb.info/gnd/102391513> gndo:variantNameForThePerson "Dioskoros, Patriarch";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593699 .
+
+_:node1ivs02adlx24593699 gndo:personalName "Dioskoros";
+  gndo:nameAddition "Patriarch" .
+
+<https://d-nb.info/gnd/102391513> gndo:variantNameForThePerson "Dioskoros, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593700 .
+
+_:node1ivs02adlx24593700 gndo:personalName "Dioskoros";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/102391513> gndo:variantNameForThePerson "Dioscorus, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593701 .
+
+_:node1ivs02adlx24593701 gndo:personalName "Dioscorus";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/102391513> gndo:variantNameForThePerson "Dioscorus, Aphroditopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593702 .
+
+_:node1ivs02adlx24593702 gndo:personalName "Dioscorus";
+  gndo:nameAddition "Aphroditopolitanus" .
+
+<https://d-nb.info/gnd/102391513> gndo:variantNameForThePerson "Dioscorus, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593703 .
+
+_:node1ivs02adlx24593703 gndo:personalName "Dioscorus";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/102391513> gndo:variantNameForThePerson "Dioscorus, Alexandria, Patriarch";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593704 .
+
+_:node1ivs02adlx24593704 gndo:personalName "Dioscorus";
+  gndo:nameAddition "Alexandria, Patriarch" .
+
+<https://d-nb.info/gnd/102391513> gndo:preferredNameForThePerson "Dioscorus, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593705 .
+
+_:node1ivs02adlx24593705 gndo:personalName "Dioscorus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/102391513> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/cop>;
+  wdrs:describedby <https://d-nb.info/gnd/102391513/about> .
+
+<https://d-nb.info/gnd/102391513/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102391513> gndo:biographicalOrHistoricalInformation "Patriarch von Alexandria 444-451"@de;
+  gndo:udkCode "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24593706 .
+
+_:node1ivs02adlx24593706 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4173551-1> .
+
+<https://d-nb.info/gnd/102391513> gndo:dateOfDeath "0454"^^xsd:gYear .
+

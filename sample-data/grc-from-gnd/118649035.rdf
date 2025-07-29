@@ -1,0 +1,235 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118649035> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118649035/about> .
+
+<https://d-nb.info/gnd/118649035/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-08T19:10:08.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118649035> gndo:gndIdentifier "118649035";
+  owl:sameAs <https://dbpedia.org/resource/Anacreon>, <http://viaf.org/viaf/250706576>,
+    <http://www.wikidata.org/entity/Q213484>;
+  gndo:oldAuthorityNumber "(DE-588)1089758480";
+  owl:sameAs <https://d-nb.info/gnd/1089758480>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089758480";
+  gndo:oldAuthorityNumber "(DE-588)1087970717";
+  owl:sameAs <https://d-nb.info/gnd/1087970717>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1087970717";
+  gndo:oldAuthorityNumber "(DE-588)1089180748";
+  owl:sameAs <https://d-nb.info/gnd/1089180748>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089180748";
+  gndo:oldAuthorityNumber "(DE-588)187625352";
+  owl:sameAs <https://d-nb.info/gnd/187625352>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/187625352";
+  gndo:oldAuthorityNumber "(DE-588a)187625352", "(DE-588)174693656";
+  owl:sameAs <https://d-nb.info/gnd/174693656>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174693656";
+  gndo:oldAuthorityNumber "(DE-588a)174693656", "(DE-588)174133936";
+  owl:sameAs <https://d-nb.info/gnd/174133936>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174133936";
+  gndo:oldAuthorityNumber "(DE-588a)174133936", "(DE-588a)118649035", "(DE-588a)119606321",
+    "(DE-588c)4085725-6";
+  gndo:variantNameForThePerson "Anacreon, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589397 .
+
+_:node1ivs02adlx24589397 gndo:personalName "Anacreon";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anacreon, Teius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589398 .
+
+_:node1ivs02adlx24589398 gndo:personalName "Anacreon";
+  gndo:nameAddition "Teius" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anakreion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589399 .
+
+_:node1ivs02adlx24589399 gndo:personalName "Anakreion" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anakreon, Lyriker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589400 .
+
+_:node1ivs02adlx24589400 gndo:personalName "Anakreon";
+  gndo:nameAddition "Lyriker" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anakreon, von Teos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589401 .
+
+_:node1ivs02adlx24589401 gndo:personalName "Anakreon";
+  gndo:nameAddition "von Teos" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anacréon, de Théos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589402 .
+
+_:node1ivs02adlx24589402 gndo:personalName "Anacréon";
+  gndo:nameAddition "de Théos" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anacreon, of Teos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589403 .
+
+_:node1ivs02adlx24589403 gndo:personalName "Anacreon";
+  gndo:nameAddition "of Teos" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anacréon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589404 .
+
+_:node1ivs02adlx24589404 gndo:personalName "Anacréon" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Ανακρέων";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589405 .
+
+_:node1ivs02adlx24589405 gndo:personalName "Ανακρέων" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Ανακρέων ο Τήιος";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589406 .
+
+_:node1ivs02adlx24589406 gndo:personalName "Ανακρέων ο Τήιος" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anacreo, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589407 .
+
+_:node1ivs02adlx24589407 gndo:personalName "Anacreo";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anacreonte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589408 .
+
+_:node1ivs02adlx24589408 gndo:personalName "Anacreonte" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anacreonte, di Teo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589409 .
+
+_:node1ivs02adlx24589409 gndo:personalName "Anacreonte";
+  gndo:nameAddition "di Teo" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anacréon, de Téos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589410 .
+
+_:node1ivs02adlx24589410 gndo:personalName "Anacréon";
+  gndo:nameAddition "de Téos" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anakreōn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589411 .
+
+_:node1ivs02adlx24589411 gndo:personalName "Anakreōn" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anakreōn, Thios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589412 .
+
+_:node1ivs02adlx24589412 gndo:personalName "Anakreōn";
+  gndo:nameAddition "Thios" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anakreonte";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589413 .
+
+_:node1ivs02adlx24589413 gndo:personalName "Anakreonte" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anakreon, Tēios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589414 .
+
+_:node1ivs02adlx24589414 gndo:personalName "Anakreon";
+  gndo:nameAddition "Tēios" .
+
+<https://d-nb.info/gnd/118649035> gndo:variantNameForThePerson "Anakreon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24589415 .
+
+_:node1ivs02adlx24589415 gndo:personalName "Anakreon" .
+
+<https://d-nb.info/gnd/118649035> gndo:preferredNameForThePerson "Anacreon";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24589416 .
+
+_:node1ivs02adlx24589416 gndo:personalName "Anacreon" .
+
+<https://d-nb.info/gnd/118649035> gndo:professionalRelationship <https://d-nb.info/gnd/100974325>;
+  gndo:hasRelation _:node1ivs02adlx24589417 .
+
+_:node1ivs02adlx24589417 gndo:professionalRelationship <https://d-nb.info/gnd/100974325>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118649035> gndo:hasRelation _:node1ivs02adlx24589418 .
+
+_:node1ivs02adlx24589418 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118649035> gndo:professionalRelationship _:node1ivs02adlx24589419 .
+
+_:node1ivs02adlx24589419 gndo:forename "Henri";
+  gndo:surname "Estienne" .
+
+<https://d-nb.info/gnd/118649035> gndo:hasRelation _:node1ivs02adlx24589420 .
+
+_:node1ivs02adlx24589420 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118649035> gndo:professionalRelationship _:node1ivs02adlx24589421 .
+
+_:node1ivs02adlx24589421 gndo:forename "Johannes";
+  gndo:surname "Simon" .
+
+<https://d-nb.info/gnd/118649035> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "The works of Anacreon", "Carmina", "Les oeuvres d'Anacreon et de Sapho",
+    "Anacreontis Teii carmina", "Carmina", "Odes d'Anacréon", "Anacreontis nomine quae feruntur carmina",
+    "Anacreontis Reliquiae, Basilii, Iuliani, Pauli Silentiarii Anacreontica", "Anacreontis quae feruntur Carmina, Sapphus et Erinnae fragmenta",
+    "The first twenty-eight Odes of Anacreon", "ANACREONTIS Lyricorum Poe͏̈tarum festivissimi quae restant carmina cum interpretatione ...";
+  wdrs:describedby <https://d-nb.info/gnd/118649035/about> .
+
+<https://d-nb.info/gnd/118649035/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118649035> gndo:biographicalOrHistoricalInformation "Griechischer Lyriker"@de,
+    "Lebensdaten: 560-478 v. Chr."@de;
+  gndo:udkCode "600 - 501 v. Chr. ", "500 - 401 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24589422 .
+
+_:node1ivs02adlx24589422 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4168391-2> .
+
+<https://d-nb.info/gnd/118649035> gndo:dateOfBirth "-0580"^^xsd:gYear;
+  gndo:dateOfDeath "-0495"^^xsd:gYear .
+

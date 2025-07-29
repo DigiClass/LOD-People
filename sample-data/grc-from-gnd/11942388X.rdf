@@ -1,0 +1,86 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11942388X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11942388X/about> .
+
+<https://d-nb.info/gnd/11942388X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2009-09-02T01:01:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11942388X> gndo:gndIdentifier "11942388X";
+  foaf:page <https://de.wikipedia.org/wiki/Olympias_von_Konstantinopel>;
+  owl:sameAs <http://viaf.org/viaf/261745888>, <https://isni.org/isni/0000000381591596>,
+    <http://www.wikidata.org/entity/Q1609579>, <http://id.loc.gov/rwo/agents/n82159065>;
+  gndo:oldAuthorityNumber "(DE-588a)11942388X", "(DE-588a)10238861X", "(DE-588c)4440832-8";
+  gndo:variantNameForThePerson "Olympias, Heilige";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591311 .
+
+_:node1ivs02adlx24591311 gndo:personalName "Olympias";
+  gndo:nameAddition "Heilige" .
+
+<https://d-nb.info/gnd/11942388X> gndo:variantNameForThePerson "Olympias, Diakonisse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591312 .
+
+_:node1ivs02adlx24591312 gndo:personalName "Olympias";
+  gndo:nameAddition "Diakonisse" .
+
+<https://d-nb.info/gnd/11942388X> gndo:preferredNameForThePerson "Olympias, Diaconissa";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591313 .
+
+_:node1ivs02adlx24591313 gndo:personalName "Olympias";
+  gndo:nameAddition "Diaconissa" .
+
+<https://d-nb.info/gnd/11942388X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/11942388X/about> .
+
+<https://d-nb.info/gnd/11942388X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-386>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/11942388X> gndo:biographicalOrHistoricalInformation "Diakonisse in Konstantinopel; Cpg 4405: Adressatin von Briefen  des Johannes <Chrysostomus> (PG 52,549 ff.), (Epist. 1-17)"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[ca. 361/368-ca. 408/09]" .
+

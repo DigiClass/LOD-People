@@ -1,0 +1,121 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11910234X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11910234X/about> .
+
+<https://d-nb.info/gnd/11910234X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-02-14T00:51:04.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11910234X> gndo:gndIdentifier "11910234X";
+  owl:sameAs <http://viaf.org/viaf/59886787>, <http://www.wikidata.org/entity/Q87771481>;
+  gndo:oldAuthorityNumber "(DE-588)1089747276";
+  owl:sameAs <https://d-nb.info/gnd/1089747276>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089747276";
+  gndo:oldAuthorityNumber "(DE-588)1089620071";
+  owl:sameAs <https://d-nb.info/gnd/1089620071>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089620071";
+  gndo:oldAuthorityNumber "(DE-588a)11910234X", "(DE-588a)186057407", "(DE-588a)102391076",
+    "(DE-588c)4316747-0";
+  gndo:variantNameForThePerson "Dionysios, Sohn des Kalliphon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591027 .
+
+_:node1ivs02adlx24591027 gndo:personalName "Dionysios";
+  gndo:nameAddition "Sohn des Kalliphon" .
+
+<https://d-nb.info/gnd/11910234X> gndo:variantNameForThePerson "Dionysius, Geographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591028 .
+
+_:node1ivs02adlx24591028 gndo:personalName "Dionysius";
+  gndo:nameAddition "Geographus" .
+
+<https://d-nb.info/gnd/11910234X> gndo:variantNameForThePerson "Dionysius, Sohn des Kalliphon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591029 .
+
+_:node1ivs02adlx24591029 gndo:personalName "Dionysius";
+  gndo:nameAddition "Sohn des Kalliphon" .
+
+<https://d-nb.info/gnd/11910234X> gndo:variantNameForThePerson "Dionysios, tu Kalliphōntos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591030 .
+
+_:node1ivs02adlx24591030 gndo:personalName "Dionysios";
+  gndo:nameAddition "tu Kalliphōntos" .
+
+<https://d-nb.info/gnd/11910234X> gndo:variantNameForThePerson "Dionysius, Calliphontis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591031 .
+
+_:node1ivs02adlx24591031 gndo:personalName "Dionysius";
+  gndo:nameAddition "Calliphontis" .
+
+<https://d-nb.info/gnd/11910234X> gndo:variantNameForThePerson "Dionysios, Kalliphons Sohn";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591032 .
+
+_:node1ivs02adlx24591032 gndo:personalName "Dionysios";
+  gndo:nameAddition "Kalliphons Sohn" .
+
+<https://d-nb.info/gnd/11910234X> gndo:variantNameForThePerson "Dionysios, fils de Calliphon";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591033 .
+
+_:node1ivs02adlx24591033 gndo:personalName "Dionysios";
+  gndo:nameAddition "fils de Calliphon" .
+
+<https://d-nb.info/gnd/11910234X> gndo:preferredNameForThePerson "Dionysius, Calliphontis Filius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591034 .
+
+_:node1ivs02adlx24591034 gndo:personalName "Dionysius";
+  gndo:nameAddition "Calliphontis Filius" .
+
+<https://d-nb.info/gnd/11910234X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/11910234X/about> .
+
+<https://d-nb.info/gnd/11910234X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/11910234X> gndo:biographicalOrHistoricalInformation "Griech. Dichter; Descriptio Graeciae, früher Dicaearchus <Messenius> zugeschrieben"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[1./2. Jh.]" .
+

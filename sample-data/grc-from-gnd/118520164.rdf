@@ -1,0 +1,164 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118520164> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118520164/about> .
+
+<https://d-nb.info/gnd/118520164/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T16:24:40.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118520164> gndo:gndIdentifier "118520164";
+  owl:sameAs <https://dbpedia.org/resource/Chariton>, <http://viaf.org/viaf/8662159478337527990005>,
+    <http://www.wikidata.org/entity/Q434567>;
+  gndo:oldAuthorityNumber "(DE-588)108989306X";
+  owl:sameAs <https://d-nb.info/gnd/108989306X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108989306X";
+  gndo:oldAuthorityNumber "(DE-588)1089133278";
+  owl:sameAs <https://d-nb.info/gnd/1089133278>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089133278";
+  gndo:oldAuthorityNumber "(DE-588)1089716893";
+  owl:sameAs <https://d-nb.info/gnd/1089716893>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089716893";
+  gndo:oldAuthorityNumber "(DE-588)186350902";
+  owl:sameAs <https://d-nb.info/gnd/186350902>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186350902";
+  gndo:oldAuthorityNumber "(DE-588a)186350902", "(DE-588a)118520164", "(DE-588c)4009780-8";
+  gndo:variantNameForThePerson "Chariton, Aphrodiensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403486 .
+
+_:node1ivpishs6x25403486 gndo:personalName "Chariton";
+  gndo:nameAddition "Aphrodiensis" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Chariton, Scriptor Eroticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403487 .
+
+_:node1ivpishs6x25403487 gndo:personalName "Chariton";
+  gndo:nameAddition "Scriptor Eroticus" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Chariton, Romanschriftsteller";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403488 .
+
+_:node1ivpishs6x25403488 gndo:personalName "Chariton";
+  gndo:nameAddition "Romanschriftsteller" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Charito, Scriptor Eroticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403489 .
+
+_:node1ivpishs6x25403489 gndo:personalName "Charito";
+  gndo:nameAddition "Scriptor Eroticus" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Charito, Aphrodisiensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403490 .
+
+_:node1ivpishs6x25403490 gndo:personalName "Charito";
+  gndo:nameAddition "Aphrodisiensis" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Chariton, d'Aphrodise";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403491 .
+
+_:node1ivpishs6x25403491 gndo:personalName "Chariton";
+  gndo:nameAddition "d'Aphrodise" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Chariton, d'Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403492 .
+
+_:node1ivpishs6x25403492 gndo:personalName "Chariton";
+  gndo:nameAddition "d'Aphrodisias" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Chariton";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403493 .
+
+_:node1ivpishs6x25403493 gndo:personalName "Chariton" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Caritone, Afrodiseo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403494 .
+
+_:node1ivpishs6x25403494 gndo:personalName "Caritone";
+  gndo:nameAddition "Afrodiseo" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Caritone, d'Afrodisia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403495 .
+
+_:node1ivpishs6x25403495 gndo:personalName "Caritone";
+  gndo:nameAddition "d'Afrodisia" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Caritone, di Afrodisia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403496 .
+
+_:node1ivpishs6x25403496 gndo:personalName "Caritone";
+  gndo:nameAddition "di Afrodisia" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Chariton, of Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403497 .
+
+_:node1ivpishs6x25403497 gndo:personalName "Chariton";
+  gndo:nameAddition "of Aphrodisias" .
+
+<https://d-nb.info/gnd/118520164> gndo:variantNameForThePerson "Chariton, von Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403498 .
+
+_:node1ivpishs6x25403498 gndo:personalName "Chariton";
+  gndo:nameAddition "von Aphrodisias" .
+
+<https://d-nb.info/gnd/118520164> gndo:preferredNameForThePerson "Chariton, Aphrodisiensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403499 .
+
+_:node1ivpishs6x25403499 gndo:personalName "Chariton";
+  gndo:nameAddition "Aphrodisiensis" .
+
+<https://d-nb.info/gnd/118520164> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Chariton <Aphrodisiensis>: Charitonis Aphrodisiensis De Chaerea et Callirrhoe amatoriar*",
+    "Chariton <Aphrodisiensis>: Histoire des amours de Chereas et de Callirrhoe", "Chariton <Aphrodisiensis>: Dei racconti amorosi di Cherea e di Callirroe",
+    "Chariton <Aphrodisiensis>: Les amours de Chereas et Calirrhoë", "Chariton <Aphrodisiensis>: Charitōnos Aphrodisieōs tōn peri Chairean kai Kallirroēn*";
+  wdrs:describedby <https://d-nb.info/gnd/118520164/about> .
+
+<https://d-nb.info/gnd/118520164/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118520164> gndo:biographicalOrHistoricalInformation "Sekretär des Rechtsanwalts Athenagoras u. Verfasser eines Liebesromans aus Karien. Er war wahrscheinlich Christ, sein Roman spielt aber in der Welt der antiken Götter u. Helden"@de;
+  gndo:udkCode "100 - 1 v. Chr. ", "1 - 100 n. Chr.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[1. Jh. v. Chr./1. Jh.]" .
+

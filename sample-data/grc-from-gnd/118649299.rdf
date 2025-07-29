@@ -1,0 +1,145 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118649299> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118649299/about> .
+
+<https://d-nb.info/gnd/118649299/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:36:46.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118649299> gndo:gndIdentifier "118649299";
+  owl:sameAs <http://viaf.org/viaf/5724424>, <http://www.wikidata.org/entity/Q891741>;
+  gndo:oldAuthorityNumber "(DE-588)10001240X";
+  owl:sameAs <https://d-nb.info/gnd/10001240X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/10001240X";
+  gndo:oldAuthorityNumber "(DE-588)1089820305";
+  owl:sameAs <https://d-nb.info/gnd/1089820305>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089820305";
+  gndo:oldAuthorityNumber "(DE-588)186669984";
+  owl:sameAs <https://d-nb.info/gnd/186669984>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186669984";
+  gndo:oldAuthorityNumber "(DE-588a)186669984", "(DE-588)173343554";
+  owl:sameAs <https://d-nb.info/gnd/173343554>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/173343554";
+  gndo:oldAuthorityNumber "(DE-588a)173343554", "(DE-588a)10001240X", "(DE-588a)118649299",
+    "(DE-588c)4085770-0";
+  gndo:variantNameForThePerson "Andromachus, Senior";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405752 .
+
+_:node1ivpishs6x25405752 gndo:personalName "Andromachus";
+  gndo:nameAddition "Senior" .
+
+<https://d-nb.info/gnd/118649299> gndo:variantNameForThePerson "Andromachos, von Kreta";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405753 .
+
+_:node1ivpishs6x25405753 gndo:personalName "Andromachos";
+  gndo:nameAddition "von Kreta" .
+
+<https://d-nb.info/gnd/118649299> gndo:variantNameForThePerson "Andromachos, Arzt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405754 .
+
+_:node1ivpishs6x25405754 gndo:personalName "Andromachos";
+  gndo:nameAddition "Arzt" .
+
+<https://d-nb.info/gnd/118649299> gndo:variantNameForThePerson "Andromachos, Leibarzt des Kaisers Nero";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405755 .
+
+_:node1ivpishs6x25405755 gndo:personalName "Andromachos";
+  gndo:nameAddition "Leibarzt des Kaisers Nero" .
+
+<https://d-nb.info/gnd/118649299> gndo:variantNameForThePerson "Andromachus, Poeta Medicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405756 .
+
+_:node1ivpishs6x25405756 gndo:personalName "Andromachus";
+  gndo:nameAddition "Poeta Medicus" .
+
+<https://d-nb.info/gnd/118649299> gndo:variantNameForThePerson "Andromachos, de Crète";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405757 .
+
+_:node1ivpishs6x25405757 gndo:personalName "Andromachos";
+  gndo:nameAddition "de Crète" .
+
+<https://d-nb.info/gnd/118649299> gndo:variantNameForThePerson "Andromachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405758 .
+
+_:node1ivpishs6x25405758 gndo:personalName "Andromachus" .
+
+<https://d-nb.info/gnd/118649299> gndo:variantNameForThePerson "Andromachos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405759 .
+
+_:node1ivpishs6x25405759 gndo:personalName "Andromachos" .
+
+<https://d-nb.info/gnd/118649299> gndo:preferredNameForThePerson "Andromachus, Cretensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405760 .
+
+_:node1ivpishs6x25405760 gndo:personalName "Andromachus";
+  gndo:nameAddition "Cretensis" .
+
+<https://d-nb.info/gnd/118649299> gndo:professionalRelationship <https://d-nb.info/gnd/118586998>;
+  gndo:hasRelation _:node1ivpishs6x25405761 .
+
+_:node1ivpishs6x25405761 gndo:professionalRelationship <https://d-nb.info/gnd/118586998> .
+
+<https://d-nb.info/gnd/118649299> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  gndo:publication "De theriaca carmen", "Andromachus <Senior>: Theriaca ... cui nomen: Galene ad Neronem imp. quae Viperas habet j*",
+    "Antiquissimum de theriaca carmen ad Imperatorem Neronem", "Andromachus <Cretensis>: De theriaca carmen ... recusum",
+    "Tidicaeus, Franciscus: De theriaca et eius multiplici utilitate ac recta conficiendi rati*";
+  wdrs:describedby <https://d-nb.info/gnd/118649299/about> .
+
+<https://d-nb.info/gnd/118649299/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118649299> gndo:biographicalOrHistoricalInformation "Leibarzt des römischen Kaisers Nero"@de;
+  gndo:periodOfActivity "54-68";
+  gndo:professionOrOccupation _:node1ivpishs6x25405762 .
+
+_:node1ivpishs6x25405762 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4003157-3>;
+  rdf:_2 <https://d-nb.info/gnd/4268052-9>;
+  rdf:_3 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118649299> gndo:dateOfBirthAndDeath "[1. Jh.]" .
+

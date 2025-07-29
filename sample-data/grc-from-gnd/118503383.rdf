@@ -1,0 +1,130 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118503383> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118503383/about> .
+
+<https://d-nb.info/gnd/118503383/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-05-31T13:35:32.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118503383> gndo:gndIdentifier "118503383";
+  foaf:page <https://de.wikipedia.org/wiki/Antigonos_von_Karystos_%28Schriftsteller%29>;
+  owl:sameAs <https://dbpedia.org/resource/Antigonus_of_Carystus>, <http://viaf.org/viaf/201149294362080522165>,
+    <https://isni.org/isni/0000000068841376>, <http://www.wikidata.org/entity/Q554362>;
+  gndo:oldAuthorityNumber "(DE-588)186061250";
+  owl:sameAs <https://d-nb.info/gnd/186061250>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186061250";
+  gndo:oldAuthorityNumber "(DE-588a)186061250", "(DE-588)119607530";
+  owl:sameAs <https://d-nb.info/gnd/119607530>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119607530";
+  gndo:oldAuthorityNumber "(DE-588a)119607530", "(DE-588)1089726902";
+  owl:sameAs <https://d-nb.info/gnd/1089726902>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726902";
+  gndo:oldAuthorityNumber "(DE-588)108928506X";
+  owl:sameAs <https://d-nb.info/gnd/108928506X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108928506X";
+  gndo:oldAuthorityNumber "(DE-588a)118503383", "(DE-588c)4002280-8";
+  gndo:variantNameForThePerson "Antigonus, Paradoxographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592393 .
+
+_:node1ivs02adlx24592393 gndo:personalName "Antigonus";
+  gndo:nameAddition "Paradoxographus" .
+
+<https://d-nb.info/gnd/118503383> gndo:variantNameForThePerson "Antigonus, of Carystos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592394 .
+
+_:node1ivs02adlx24592394 gndo:personalName "Antigonus";
+  gndo:nameAddition "of Carystos" .
+
+<https://d-nb.info/gnd/118503383> gndo:variantNameForThePerson "Antigonus, Paradoxographer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592395 .
+
+_:node1ivs02adlx24592395 gndo:personalName "Antigonus";
+  gndo:nameAddition "Paradoxographer" .
+
+<https://d-nb.info/gnd/118503383> gndo:variantNameForThePerson "Antigono, di Caristo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592396 .
+
+_:node1ivs02adlx24592396 gndo:personalName "Antigono";
+  gndo:nameAddition "di Caristo" .
+
+<https://d-nb.info/gnd/118503383> gndo:variantNameForThePerson "Antigonus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592397 .
+
+_:node1ivs02adlx24592397 gndo:personalName "Antigonus" .
+
+<https://d-nb.info/gnd/118503383> gndo:variantNameForThePerson "Antigonos, von Karystos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592398 .
+
+_:node1ivs02adlx24592398 gndo:personalName "Antigonos";
+  gndo:nameAddition "von Karystos" .
+
+<https://d-nb.info/gnd/118503383> gndo:preferredNameForThePerson "Antigonus, Carystius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592399 .
+
+_:node1ivs02adlx24592399 gndo:personalName "Antigonus";
+  gndo:nameAddition "Carystius" .
+
+<https://d-nb.info/gnd/118503383> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:professionOrOccupationAsLiteral "Erzgießer";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#13.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Antigonus <Carystius>: Mirabilium narrationum congeries", "Antigonus <Carystius>: Admirandarum narrationum collectanea",
+    "Antigonus <Carystius>: Historiarum mirabilium collectanea", "Antigonus <Carystius>: Historiarum mirabilium collectanea",
+    "Antigonus <Carystius>: Historiarum mirabilium collectanea", "Antoninus Liberalis: Mirab. narrationum congeries. 1568. (VD16 A 2960)",
+    "Marcus Aurelius Antoninus: Mirabilium narrationum congeries. 1590. (VD16 M 966)";
+  wdrs:describedby <https://d-nb.info/gnd/118503383/about> .
+
+<https://d-nb.info/gnd/118503383/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118503383> gndo:biographicalOrHistoricalInformation "Mirabilia; AP 9.406; Erzgiesser u. Schriftsteller"@de;
+  gndo:udkCode "300 - 201 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivs02adlx24592400 .
+
+_:node1ivs02adlx24592400 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118503383> gndo:dateOfBirthAndDeath "[v3. Jh.]" .
+

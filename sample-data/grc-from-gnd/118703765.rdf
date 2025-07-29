@@ -1,0 +1,256 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118703765> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118703765/about> .
+
+<https://d-nb.info/gnd/118703765/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T13:29:41.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118703765> gndo:gndIdentifier "118703765";
+  owl:sameAs <http://viaf.org/viaf/265524319>, <http://www.wikidata.org/entity/Q738027>;
+  gndo:oldAuthorityNumber "(DE-588)1089921047";
+  owl:sameAs <https://d-nb.info/gnd/1089921047>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089921047";
+  gndo:oldAuthorityNumber "(DE-588)108972652X";
+  owl:sameAs <https://d-nb.info/gnd/108972652X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108972652X";
+  gndo:oldAuthorityNumber "(DE-588)186602871";
+  owl:sameAs <https://d-nb.info/gnd/186602871>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186602871";
+  gndo:oldAuthorityNumber "(DE-588a)186602871", "(DE-588a)118703765", "(DE-588a)11970711X",
+    "(DE-588c)4095098-0";
+  gndo:variantNameForThePerson "Hermogenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402549 .
+
+_:node1ivpishs6x25402549 gndo:personalName "Hermogenes" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Hermogenes, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402550 .
+
+_:node1ivpishs6x25402550 gndo:personalName "Hermogenes";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Hermogenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402551 .
+
+_:node1ivpishs6x25402551 gndo:personalName "Hermogenes" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Pseudo-Hermogenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402552 .
+
+_:node1ivpishs6x25402552 gndo:personalName "Pseudo-Hermogenes" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Ps-Hermogenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402553 .
+
+_:node1ivpishs6x25402553 gndo:personalName "Ps-Hermogenes" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Hermogenes, von Tarsos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402554 .
+
+_:node1ivpishs6x25402554 gndo:personalName "Hermogenes";
+  gndo:nameAddition "von Tarsos" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Hermogenes, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402555 .
+
+_:node1ivpishs6x25402555 gndo:personalName "Hermogenes";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Hermogène";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402556 .
+
+_:node1ivpishs6x25402556 gndo:personalName "Hermogène" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Hermogène, le Rhéteur";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402557 .
+
+_:node1ivpishs6x25402557 gndo:personalName "Hermogène";
+  gndo:nameAddition "le Rhéteur" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Ermogene, di Tarso";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402558 .
+
+_:node1ivpishs6x25402558 gndo:personalName "Ermogene";
+  gndo:nameAddition "di Tarso" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Hermogenes, of Tarsus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402559 .
+
+_:node1ivpishs6x25402559 gndo:personalName "Hermogenes";
+  gndo:nameAddition "of Tarsus" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Hermogène, de Tarse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402560 .
+
+_:node1ivpishs6x25402560 gndo:personalName "Hermogène";
+  gndo:nameAddition "de Tarse" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Pseudo-Hermogène";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402561 .
+
+_:node1ivpishs6x25402561 gndo:personalName "Pseudo-Hermogène" .
+
+<https://d-nb.info/gnd/118703765> gndo:variantNameForThePerson "Ermogene";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402562 .
+
+_:node1ivpishs6x25402562 gndo:personalName "Ermogene" .
+
+<https://d-nb.info/gnd/118703765> gndo:preferredNameForThePerson "Hermogenes, Tarsensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25402563 .
+
+_:node1ivpishs6x25402563 gndo:personalName "Hermogenes";
+  gndo:nameAddition "Tarsensis" .
+
+<https://d-nb.info/gnd/118703765> gndo:hasRelation _:node1ivpishs6x25402564 .
+
+_:node1ivpishs6x25402564 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402565 .
+
+_:node1ivpishs6x25402565 gndo:personalName "Aphthonius" .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128918292>;
+  gndo:hasRelation _:node1ivpishs6x25402566 .
+
+_:node1ivpishs6x25402566 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128918292>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:hasRelation _:node1ivpishs6x25402567 .
+
+_:node1ivpishs6x25402567 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402568 .
+
+_:node1ivpishs6x25402568 gndo:personalName "Priscianus";
+  gndo:nameAddition "aus Caesarea" .
+
+<https://d-nb.info/gnd/118703765> gndo:hasRelation _:node1ivpishs6x25402569 .
+
+_:node1ivpishs6x25402569 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402570 .
+
+_:node1ivpishs6x25402570 gndo:forename "Johannes";
+  gndo:surname "Sturm" .
+
+<https://d-nb.info/gnd/118703765> gndo:hasRelation _:node1ivpishs6x25402571 .
+
+_:node1ivpishs6x25402571 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402572 .
+
+_:node1ivpishs6x25402572 gndo:forename "Claude";
+  gndo:surname "Auberi" .
+
+<https://d-nb.info/gnd/118703765> gndo:hasRelation _:node1ivpishs6x25402573 .
+
+_:node1ivpishs6x25402573 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402574 .
+
+_:node1ivpishs6x25402574 gndo:forename "Konrad";
+  gndo:surname "Dasypodius";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118703765> gndo:hasRelation _:node1ivpishs6x25402575 .
+
+_:node1ivpishs6x25402575 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25402576 .
+
+_:node1ivpishs6x25402576 gndo:forename "Georg";
+  gndo:surname "Fabricius" .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120261367>;
+  gndo:hasRelation _:node1ivpishs6x25402577 .
+
+_:node1ivpishs6x25402577 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120261367>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119805812>;
+  gndo:hasRelation _:node1ivpishs6x25402578 .
+
+_:node1ivpishs6x25402578 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119805812>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118703765> gndo:professionOrOccupationAsLiteral "Rhetoriker";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Ars rhetorica absolutissima", "De formis orationum", "De inventione artis oratoriae",
+    "\\=GHERMOGENUS PERI IDEŌN TOMOI DYO.\\=g HERMOGENIS DE FORMIS ORATIONVM Tomi duo.. 1555. (VD16 H 2471)",
+    "HERMOGENIS RHETORIS AD artem oratoriam praeexercitamenta, Prisciano interprete.. 1544. (VD16 H 2481)",
+    "HERMOGENIS TARSENSIS RHETORIS ACVTISSIMI, DE DICENDI GENERIBVS siue formis orationum ... 1571. (VD16 H 2474)",
+    "HERMOGENIS TARSENSIS RHETORIS ACVTISSIMI De ratione inueniendi oratoria, libri IIII. ... 1570. (VD16 H 2473)",
+    "HERMOGENIS TARSENSIS RHETORISACVTISSIMI, DE RATIONE TRACTANdae grauitatis occultae ... 1571. (VD16 H 2475)",
+    "HERMOGENIS TARSENSIS RHETORIS ACVTISSIMI Partitionum Rhetoricarum liber vnus, qui vulgò de ... 1570. (VD16 H 2472)",
+    "Peri methodu deinotētos. 1556. (VD16 ZV 7792)", "Progymnasmata. 1560. (VD16 H 2470)",
+    "Technē rētorikē. 1558. (VD16 ZV 7793)";
+  wdrs:describedby <https://d-nb.info/gnd/118703765/about> .
+
+<https://d-nb.info/gnd/118703765/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118703765> gndo:biographicalOrHistoricalInformation "Griech. Rhetor, Grammatiker, Rhetoriker"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25402579 .
+
+_:node1ivpishs6x25402579 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4048895-0>;
+  rdf:_2 <https://d-nb.info/gnd/4158016-3> .
+
+<https://d-nb.info/gnd/118703765> gndo:dateOfBirth "0160"^^xsd:gYear;
+  gndo:dateOfDeath "0225"^^xsd:gYear .
+

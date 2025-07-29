@@ -1,0 +1,258 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118756885> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118756885/about> .
+
+<https://d-nb.info/gnd/118756885/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T14:40:16.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118756885> gndo:gndIdentifier "118756885";
+  foaf:page <https://de.wikipedia.org/wiki/Theodosius_II.>;
+  owl:sameAs <https://dbpedia.org/resource/Theodosius_II>, <http://viaf.org/viaf/46929243>,
+    <https://isni.org/isni/0000000121312669>, <http://www.wikidata.org/entity/Q160353>,
+    <http://id.loc.gov/rwo/agents/n93049411>;
+  gndo:oldAuthorityNumber "(DE-588a)118756885", "(DE-588c)4106243-7";
+  gndo:variantNameForThePerson "Theodosius II., Imperium Romanum, Imperator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585705 .
+
+_:node1ivs02adlx24585705 gndo:personalName "Theodosius";
+  gndo:counting "II.";
+  gndo:nameAddition "Imperium Romanum, Imperator" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II., Römisches Reich, Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585706 .
+
+_:node1ivs02adlx24585706 gndo:personalName "Theodosius";
+  gndo:counting "II.";
+  gndo:nameAddition "Römisches Reich, Kaiser" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosios II., Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585707 .
+
+_:node1ivs02adlx24585707 gndo:personalName "Theodosios";
+  gndo:counting "II.";
+  gndo:nameAddition "Kaiser" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II., Imperator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585708 .
+
+_:node1ivs02adlx24585708 gndo:personalName "Theodosius";
+  gndo:counting "II.";
+  gndo:nameAddition "Imperator" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius, Oströmischer Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585709 .
+
+_:node1ivs02adlx24585709 gndo:personalName "Theodosius";
+  gndo:nameAddition "Oströmischer Kaiser" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II., Augustus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585710 .
+
+_:node1ivs02adlx24585710 gndo:personalName "Theodosius";
+  gndo:counting "II.";
+  gndo:nameAddition "Augustus" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II., Imperium Byzantinum, Imperator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585711 .
+
+_:node1ivs02adlx24585711 gndo:personalName "Theodosius";
+  gndo:counting "II.";
+  gndo:nameAddition "Imperium Byzantinum, Imperator" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodose";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585712 .
+
+_:node1ivs02adlx24585712 gndo:personalName "Theodose" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius, Arcadii Filius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585713 .
+
+_:node1ivs02adlx24585713 gndo:personalName "Theodosius";
+  gndo:nameAddition "Arcadii Filius" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius, Iunior";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585714 .
+
+_:node1ivs02adlx24585714 gndo:personalName "Theodosius";
+  gndo:nameAddition "Iunior" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Imperator, Imperium Byzantinum";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585715 .
+
+_:node1ivs02adlx24585715 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Imperator, Imperium Byzantinum" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Arcadii filius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585716 .
+
+_:node1ivs02adlx24585716 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Arcadii filius" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Kaiser des Byzantinischen Reichs";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585717 .
+
+_:node1ivs02adlx24585717 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Kaiser des Byzantinischen Reichs" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Imperator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585718 .
+
+_:node1ivs02adlx24585718 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Imperator" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Imperator, Imperium Romanum";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585719 .
+
+_:node1ivs02adlx24585719 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Imperator, Imperium Romanum" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Iunior";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585720 .
+
+_:node1ivs02adlx24585720 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Iunior" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Kaiser von Rom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585721 .
+
+_:node1ivs02adlx24585721 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Kaiser von Rom" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Imperator Romanorum";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585722 .
+
+_:node1ivs02adlx24585722 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Imperator Romanorum" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Kaiser von Byzanz";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585723 .
+
+_:node1ivs02adlx24585723 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Kaiser von Byzanz" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Kaiser des Römischen Reiches";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585724 .
+
+_:node1ivs02adlx24585724 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Kaiser des Römischen Reiches" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosios II, Kaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585725 .
+
+_:node1ivs02adlx24585725 gndo:personalName "Theodosios";
+  gndo:counting "II";
+  gndo:nameAddition "Kaiser" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius, Imperium Byzantinum, Imperator, II.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585726 .
+
+_:node1ivs02adlx24585726 gndo:personalName "Theodosius";
+  gndo:nameAddition "Imperium Byzantinum, Imperator, II." .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius II, Kaiser des Byzantinischen Reiches";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585727 .
+
+_:node1ivs02adlx24585727 gndo:personalName "Theodosius";
+  gndo:counting "II";
+  gndo:nameAddition "Kaiser des Byzantinischen Reiches" .
+
+<https://d-nb.info/gnd/118756885> gndo:variantNameForThePerson "Theodosius, Augustus, II.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585728 .
+
+_:node1ivs02adlx24585728 gndo:personalName "Theodosius";
+  gndo:nameAddition "Augustus, II." .
+
+<https://d-nb.info/gnd/118756885> gndo:preferredNameForThePerson "Theodosius II., Byzantinisches Reich, Kaiser";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585729 .
+
+_:node1ivs02adlx24585729 gndo:personalName "Theodosius";
+  gndo:counting "II.";
+  gndo:nameAddition "Byzantinisches Reich, Kaiser" .
+
+<https://d-nb.info/gnd/118756885> gndo:familialRelationship <https://d-nb.info/gnd/118848445>;
+  agrelon:hasParent <https://d-nb.info/gnd/118848445>;
+  gndo:hasRelation _:node1ivs02adlx24585730 .
+
+_:node1ivs02adlx24585730 agrelon:hasParent <https://d-nb.info/gnd/118848445>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118756885> gndo:familialRelationship <https://d-nb.info/gnd/118682598>;
+  agrelon:hasParent <https://d-nb.info/gnd/118682598>;
+  gndo:hasRelation _:node1ivs02adlx24585731 .
+
+_:node1ivs02adlx24585731 agrelon:hasParent <https://d-nb.info/gnd/118682598>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118756885> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>, <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  gndo:publication "Theodosius <Imperium Byzantinum, Imperator, II.>: Codicis Theodosiani Lib. XVI",
+    "Theodosius <Imperium Byzantinum, Imperator, II.>: Codicis Theodosiani Lib. XVI",
+    "Theodosius <Imperium Byzantinum, Imperator, II.>: Codicis Theodosiani libri XVI",
+    "Theodosius <Imperium Byzantinum, Imperator, II.>: Appendix Codicis Theodosiani, novis Con*",
+    "Theodosius <Imperium Byzantinum, Imperator, II.>: Novellae Theodosii Valentiniani III con*",
+    "Theodosius <Imperium Byzantinum, Imperator, II.>: Novellae Theodosii";
+  wdrs:describedby <https://d-nb.info/gnd/118756885/about> .
+
+<https://d-nb.info/gnd/118756885/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118756885> gndo:biographicalOrHistoricalInformation "(Ost-)Röm. Kaiser seit 408; Begründer der Gesetzessammlung Codex Theodosianus"@de;
+  gndo:udkCode "401 - 500";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0401"^^xsd:gYear;
+  gndo:dateOfDeath "0450"^^xsd:gYear .
+

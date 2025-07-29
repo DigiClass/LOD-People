@@ -1,0 +1,219 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118636510> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118636510/about> .
+
+<https://d-nb.info/gnd/118636510/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-02T00:30:34.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118636510> gndo:gndIdentifier "118636510";
+  owl:sameAs <https://dbpedia.org/resource/Zeno_of_Citium>, <http://viaf.org/viaf/45095721>,
+    <http://www.wikidata.org/entity/Q171303>;
+  gndo:oldAuthorityNumber "(DE-588)1056100184";
+  owl:sameAs <https://d-nb.info/gnd/1056100184>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1056100184";
+  gndo:oldAuthorityNumber "(DE-588)1089727941";
+  owl:sameAs <https://d-nb.info/gnd/1089727941>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089727941";
+  gndo:oldAuthorityNumber "(DE-588)174132573";
+  owl:sameAs <https://d-nb.info/gnd/174132573>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174132573";
+  gndo:oldAuthorityNumber "(DE-588a)174132573", "(DE-588a)118636510", "(DE-588c)4067598-1";
+  gndo:variantNameForThePerson "Zeno, von Kittion";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405589 .
+
+_:node1ivpishs6x25405589 gndo:personalName "Zeno";
+  gndo:nameAddition "von Kittion" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zeno, of Citium";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405590 .
+
+_:node1ivpishs6x25405590 gndo:personalName "Zeno";
+  gndo:nameAddition "of Citium" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, Begründer der Stoa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405591 .
+
+_:node1ivpishs6x25405591 gndo:personalName "Zenon";
+  gndo:nameAddition "Begründer der Stoa" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, Sohn des Mnaseas";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405592 .
+
+_:node1ivpishs6x25405592 gndo:personalName "Zenon";
+  gndo:nameAddition "Sohn des Mnaseas" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, Stoiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405593 .
+
+_:node1ivpishs6x25405593 gndo:personalName "Zenon";
+  gndo:nameAddition "Stoiker" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, der Ältere";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405594 .
+
+_:node1ivpishs6x25405594 gndo:personalName "Zenon";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, von Kition";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405595 .
+
+_:node1ivpishs6x25405595 gndo:personalName "Zenon";
+  gndo:nameAddition "von Kition" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, von Kittion";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405596 .
+
+_:node1ivpishs6x25405596 gndo:personalName "Zenon";
+  gndo:nameAddition "von Kittion" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenone, Filosofo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405597 .
+
+_:node1ivpishs6x25405597 gndo:personalName "Zenone";
+  gndo:nameAddition "Filosofo" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenone, Fondatore della Stoa";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405598 .
+
+_:node1ivpishs6x25405598 gndo:personalName "Zenone";
+  gndo:nameAddition "Fondatore della Stoa" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenone, Stoico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405599 .
+
+_:node1ivpishs6x25405599 gndo:personalName "Zenone";
+  gndo:nameAddition "Stoico" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, Citieus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405600 .
+
+_:node1ivpishs6x25405600 gndo:personalName "Zenon";
+  gndo:nameAddition "Citieus" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zeno, von Kition";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405601 .
+
+_:node1ivpishs6x25405601 gndo:personalName "Zeno";
+  gndo:nameAddition "von Kition" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zeno, Stoicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405602 .
+
+_:node1ivpishs6x25405602 gndo:personalName "Zeno";
+  gndo:nameAddition "Stoicus" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zeno, Citiensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405603 .
+
+_:node1ivpishs6x25405603 gndo:personalName "Zeno";
+  gndo:nameAddition "Citiensis" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zeno, Stoicorum Dux";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405604 .
+
+_:node1ivpishs6x25405604 gndo:personalName "Zeno";
+  gndo:nameAddition "Stoicorum Dux" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zeno, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405605 .
+
+_:node1ivpishs6x25405605 gndo:personalName "Zeno";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405606 .
+
+_:node1ivpishs6x25405606 gndo:personalName "Zenon";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zénon, de Cition";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405607 .
+
+_:node1ivpishs6x25405607 gndo:personalName "Zénon";
+  gndo:nameAddition "de Cition" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenone, di Cizio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405608 .
+
+_:node1ivpishs6x25405608 gndo:personalName "Zenone";
+  gndo:nameAddition "di Cizio" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zeno, Epistolographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405609 .
+
+_:node1ivpishs6x25405609 gndo:personalName "Zeno";
+  gndo:nameAddition "Epistolographus" .
+
+<https://d-nb.info/gnd/118636510> gndo:variantNameForThePerson "Zenon, von Kition";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405610 .
+
+_:node1ivpishs6x25405610 gndo:personalName "Zenon";
+  gndo:nameAddition "von Kition" .
+
+<https://d-nb.info/gnd/118636510> gndo:preferredNameForThePerson "Zeno, Citieus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405611 .
+
+_:node1ivpishs6x25405611 gndo:personalName "Zeno";
+  gndo:nameAddition "Citieus" .
+
+<https://d-nb.info/gnd/118636510> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118636510/about> .
+
+<https://d-nb.info/gnd/118636510/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118636510> gndo:biographicalOrHistoricalInformation "Begründer der Stoa"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivpishs6x25405612 .
+
+_:node1ivpishs6x25405612 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+
+<https://d-nb.info/gnd/118636510> gndo:dateOfBirth "-0335"^^xsd:gYear;
+  gndo:dateOfDeath "-0262"^^xsd:gYear .
+

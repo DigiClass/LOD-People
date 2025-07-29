@@ -1,0 +1,503 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118501887> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118501887/about> .
+
+<https://d-nb.info/gnd/118501887/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:24:26.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118501887> gndo:gndIdentifier "118501887";
+  foaf:page <https://de.wikipedia.org/wiki/Alexander_von_Aphrodisias>;
+  owl:sameAs <https://dbpedia.org/resource/Alexander_of_Aphrodisias>, <http://viaf.org/viaf/95239377>,
+    <https://isni.org/isni/0000000449231010>, <http://www.wikidata.org/entity/Q317146>,
+    <http://id.loc.gov/rwo/agents/n80024530>;
+  gndo:oldAuthorityNumber "(DE-588)1196736650";
+  owl:sameAs <https://d-nb.info/gnd/1196736650>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1196736650";
+  gndo:oldAuthorityNumber "(DE-588)1089884893";
+  owl:sameAs <https://d-nb.info/gnd/1089884893>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089884893";
+  gndo:oldAuthorityNumber "(DE-588)1089714548";
+  owl:sameAs <https://d-nb.info/gnd/1089714548>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089714548";
+  gndo:oldAuthorityNumber "(DE-588)1089095368";
+  owl:sameAs <https://d-nb.info/gnd/1089095368>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089095368";
+  gndo:oldAuthorityNumber "(DE-588)174392567";
+  owl:sameAs <https://d-nb.info/gnd/174392567>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174392567";
+  gndo:oldAuthorityNumber "(DE-588a)174392567", "(DE-588a)118501887", "(DE-588a)119604469",
+    "(DE-588c)4001130-6";
+  gndo:variantNameForThePerson "Alexander, Aphrodisaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404805 .
+
+_:node1ivpishs6x25404805 gndo:personalName "Alexander";
+  gndo:nameAddition "Aphrodisaeus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Allesandro, d'Afrodisia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404806 .
+
+_:node1ivpishs6x25404806 gndo:personalName "Allesandro";
+  gndo:nameAddition "d'Afrodisia" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alessandro, d'Afrodisia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404807 .
+
+_:node1ivpishs6x25404807 gndo:personalName "Alessandro";
+  gndo:nameAddition "d'Afrodisia" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandre, d'Aphrodise";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404808 .
+
+_:node1ivpishs6x25404808 gndo:personalName "Alexandre";
+  gndo:nameAddition "d'Aphrodise" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404809 .
+
+_:node1ivpishs6x25404809 gndo:personalName "Alexandros" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, von Aphrodisia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404810 .
+
+_:node1ivpishs6x25404810 gndo:personalName "Alexander";
+  gndo:nameAddition "von Aphrodisia" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, von Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404811 .
+
+_:node1ivpishs6x25404811 gndo:personalName "Alexander";
+  gndo:nameAddition "von Aphrodisias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Tito Aurelio Alessandro";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404812 .
+
+_:node1ivpishs6x25404812 gndo:personalName "Tito Aurelio Alessandro" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404813 .
+
+_:node1ivpishs6x25404813 gndo:personalName "Alexander" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, Aphrodisiaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404814 .
+
+_:node1ivpishs6x25404814 gndo:personalName "Alexander";
+  gndo:nameAddition "Aphrodisiaeus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandre, Aphrodisé";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404815 .
+
+_:node1ivpishs6x25404815 gndo:personalName "Alexandre";
+  gndo:nameAddition "Aphrodisé" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandre, Aphrodisee";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404816 .
+
+_:node1ivpishs6x25404816 gndo:personalName "Alexandre";
+  gndo:nameAddition "Aphrodisee" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandre, d'Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404817 .
+
+_:node1ivpishs6x25404817 gndo:personalName "Alexandre";
+  gndo:nameAddition "d'Aphrodisias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandros, von Aphrodidias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404818 .
+
+_:node1ivpishs6x25404818 gndo:personalName "Alexandros";
+  gndo:nameAddition "von Aphrodidias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandrus, Aphrodiseus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404819 .
+
+_:node1ivpishs6x25404819 gndo:personalName "Alexandrus";
+  gndo:nameAddition "Aphrodiseus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandrique, Aphrodisieus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404820 .
+
+_:node1ivpishs6x25404820 gndo:personalName "Alexandrique";
+  gndo:nameAddition "Aphrodisieus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandrus, Aphrodisaeus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404821 .
+
+_:node1ivpishs6x25404821 gndo:personalName "Alexandrus";
+  gndo:nameAddition "Aphrodisaeus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandri, Aphrodisiensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404822 .
+
+_:node1ivpishs6x25404822 gndo:personalName "Alexandri";
+  gndo:nameAddition "Aphrodisiensis" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Aphrodisias, Alexander von";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404823 .
+
+_:node1ivpishs6x25404823 gndo:forename "Alexander";
+  gndo:prefix "von";
+  gndo:surname "Aphrodisias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404824 .
+
+_:node1ivpishs6x25404824 gndo:personalName "Aphrodisias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alejandro, de Afrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404825 .
+
+_:node1ivpishs6x25404825 gndo:personalName "Alejandro";
+  gndo:nameAddition "de Afrodisias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Aphrodisaeus, Alexander";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404826 .
+
+_:node1ivpishs6x25404826 gndo:forename "Alexander";
+  gndo:surname "Aphrodisaeus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, of Aphrodisaias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404827 .
+
+_:node1ivpishs6x25404827 gndo:personalName "Alexander";
+  gndo:nameAddition "of Aphrodisaias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, Aphrodiseus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404828 .
+
+_:node1ivpishs6x25404828 gndo:personalName "Alexander";
+  gndo:nameAddition "Aphrodiseus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, Aphrodisieus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404829 .
+
+_:node1ivpishs6x25404829 gndo:personalName "Alexander";
+  gndo:nameAddition "Aphrodisieus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Aphrodisieus, Alexander";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404830 .
+
+_:node1ivpishs6x25404830 gndo:forename "Alexander";
+  gndo:surname "Aphrodisieus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandrus, Aphrodisiensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404831 .
+
+_:node1ivpishs6x25404831 gndo:personalName "Alexandrus";
+  gndo:nameAddition "Aphrodisiensis" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404832 .
+
+_:node1ivpishs6x25404832 gndo:personalName "Alexander";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, d'Aphrodise";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404833 .
+
+_:node1ivpishs6x25404833 gndo:personalName "Alexander";
+  gndo:nameAddition "d'Aphrodise" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alessandro, di Afrodisia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404834 .
+
+_:node1ivpishs6x25404834 gndo:personalName "Alessandro";
+  gndo:nameAddition "di Afrodisia" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandre, d'Aphrodisie";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404835 .
+
+_:node1ivpishs6x25404835 gndo:personalName "Alexandre";
+  gndo:nameAddition "d'Aphrodisie" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandros, Peripatetiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404836 .
+
+_:node1ivpishs6x25404836 gndo:personalName "Alexandros";
+  gndo:nameAddition "Peripatetiker" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandros, Aristoteleserklärer";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404837 .
+
+_:node1ivpishs6x25404837 gndo:personalName "Alexandros";
+  gndo:nameAddition "Aristoteleserklärer" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandros, von Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404838 .
+
+_:node1ivpishs6x25404838 gndo:personalName "Alexandros";
+  gndo:nameAddition "von Aphrodisias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandros, Aphrodisieus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404839 .
+
+_:node1ivpishs6x25404839 gndo:personalName "Alexandros";
+  gndo:nameAddition "Aphrodisieus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404840 .
+
+_:node1ivpishs6x25404840 gndo:personalName "Alexander";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alessandro, Filosofo Peripatetico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404841 .
+
+_:node1ivpishs6x25404841 gndo:personalName "Alessandro";
+  gndo:nameAddition "Filosofo Peripatetico" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, of Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404842 .
+
+_:node1ivpishs6x25404842 gndo:personalName "Alexander";
+  gndo:nameAddition "of Aphrodisias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexander, Aphrodisias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404843 .
+
+_:node1ivpishs6x25404843 gndo:personalName "Alexander";
+  gndo:nameAddition "Aphrodisias" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Pseudo-Alexander";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404844 .
+
+_:node1ivpishs6x25404844 gndo:personalName "Pseudo-Alexander" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Pseudo-Alexander, Aphrodisiensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404845 .
+
+_:node1ivpishs6x25404845 gndo:personalName "Pseudo-Alexander";
+  gndo:nameAddition "Aphrodisiensis" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Pseudo-Alessandro";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404846 .
+
+_:node1ivpishs6x25404846 gndo:personalName "Pseudo-Alessandro" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandre, dÁphrodise";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404847 .
+
+_:node1ivpishs6x25404847 gndo:personalName "Alexandre";
+  gndo:nameAddition "dÁphrodise" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Alexandre, dÁphrodisie";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404848 .
+
+_:node1ivpishs6x25404848 gndo:personalName "Alexandre";
+  gndo:nameAddition "dÁphrodisie" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "al-Iskandar al-Afrūdīsī";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404849 .
+
+_:node1ivpishs6x25404849 gndo:personalName "al-Iskandar al-Afrūdīsī" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Iskandar al-Afrūdīsī al-";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404850 .
+
+_:node1ivpishs6x25404850 gndo:personalName "Iskandar al-Afrūdīsī";
+  gndo:prefix "al-" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Afrūdīsī, al-Iskandar al-";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404851 .
+
+_:node1ivpishs6x25404851 gndo:forename "al-Iskandar";
+  gndo:prefix "al-";
+  gndo:surname "Afrūdīsī" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Iskandar Afrūdīsī";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404852 .
+
+_:node1ivpishs6x25404852 gndo:personalName "Iskandar Afrūdīsī" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "Afrūdīsī, Iskandar";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404853 .
+
+_:node1ivpishs6x25404853 gndo:forename "Iskandar";
+  gndo:surname "Afrūdīsī" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "إسكندر الأفروديسي ال"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404854 .
+
+_:node1ivpishs6x25404854 gndo:personalName "إسكندر الأفروديسي";
+  gndo:prefix "ال" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "أفروديسي, الإسكندر ال"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404855 .
+
+_:node1ivpishs6x25404855 gndo:forename "الإسكندر";
+  gndo:prefix "ال";
+  gndo:surname "أفروديسي" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "الأفروديسي, الإسكندر"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404856 .
+
+_:node1ivpishs6x25404856 gndo:forename "الإسكندر";
+  gndo:surname "الأفروديسي" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "اسکندر افرودیسی"@fa;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404857 .
+
+_:node1ivpishs6x25404857 gndo:personalName "اسکندر افرودیسی" .
+
+<https://d-nb.info/gnd/118501887> gndo:variantNameForThePerson "افرودیسی, اسکندر"@fa;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25404858 .
+
+_:node1ivpishs6x25404858 gndo:forename "اسکندر";
+  gndo:surname "افرودیسی" .
+
+<https://d-nb.info/gnd/118501887> gndo:preferredNameForThePerson "Alexander, Aphrodisiensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25404859 .
+
+_:node1ivpishs6x25404859 gndo:personalName "Alexander";
+  gndo:nameAddition "Aphrodisiensis" .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119171902>;
+  gndo:hasRelation _:node1ivpishs6x25404860 .
+
+_:node1ivpishs6x25404860 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119171902>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:hasRelation _:node1ivpishs6x25404861 .
+
+_:node1ivpishs6x25404861 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25404862 .
+
+_:node1ivpishs6x25404862 gndo:forename "Jakob";
+  gndo:surname "Schegk";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118501887> gndo:hasRelation _:node1ivpishs6x25404863 .
+
+_:node1ivpishs6x25404863 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25404864 .
+
+_:node1ivpishs6x25404864 gndo:forename "Georgius";
+  gndo:surname "Valla" .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129231983>;
+  gndo:hasRelation _:node1ivpishs6x25404865 .
+
+_:node1ivpishs6x25404865 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129231983>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:hasRelation _:node1ivpishs6x25404866 .
+
+_:node1ivpishs6x25404866 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25404867 .
+
+_:node1ivpishs6x25404867 gndo:forename "Girolamo";
+  gndo:surname "Donati" .
+
+<https://d-nb.info/gnd/118501887> gndo:hasRelation _:node1ivpishs6x25404868 .
+
+_:node1ivpishs6x25404868 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25404869 .
+
+_:node1ivpishs6x25404869 gndo:personalName "Yuhanna ibn Masawaih" .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118635808>;
+  gndo:hasRelation _:node1ivpishs6x25404870 .
+
+_:node1ivpishs6x25404870 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118635808>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118637649>;
+  gndo:hasRelation _:node1ivpishs6x25404871 .
+
+_:node1ivpishs6x25404871 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118637649>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:hasRelation _:node1ivpishs6x25404872 .
+
+_:node1ivpishs6x25404872 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/116118547>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120156784>;
+  gndo:hasRelation _:node1ivpishs6x25404873 .
+
+_:node1ivpishs6x25404873 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/120156784>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118501887> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Iatrica aporemata et physica problemata", "In priora analytica Aristotelis commentaria",
+    "In sophisticos Aristotelis Elenchos commentaria", "In Topica Aristotelis Commentarii",
+    "In octo libros topicorum Aristotelis explicatio", "Hieronymi Bagolini Veronensis in interpretationem ... de fato*",
+    "Quaestiones naturales", "De mixtione libellus", "Libri duo de anima et de fato unus",
+    "Knaust, Heinrich: Problemata  ... 1570. (VD16 K 1410)", "ALEXANDRI APHRODISEI, SVPER nonnullis Physicis quaestionibus Solutionum Liber. ITEM ... 1520. (VD16 A 1769)",
+    "Problemata ... 1566 (VD16 P 4888)", "Albertus Magnus: Liber aggregationis ... 1558 (VD16 P 4887)",
+    "Aristoteles: Quod virtus non sufficiat ad beatitudinem ... 1584 (VD16 A 3604)", "Problemata ... 1549 (VD16 P 4884)",
+    "Aristoteles: Ethica Nicomachea ... 1535 (VD16 A 3631)", "Enarratio de anima ex Aristotelis institutione ... 1535 (VD16 ZV 393)",
+    "Problemata ... 1548 (VD16 P 4883)", "Albertus Magnus: Liber aggregationis ... 1554 (VD16 P 4886)";
+  wdrs:describedby <https://d-nb.info/gnd/118501887/about> .
+
+<https://d-nb.info/gnd/118501887/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118501887> gndo:biographicalOrHistoricalInformation "Peripatetiker, Aristoteleserklärer"@de;
+  gndo:udkCode "101 - 200", "201 - 300";
+  gndo:periodOfActivity "198";
+  gndo:professionOrOccupation _:node1ivpishs6x25404874 .
+
+_:node1ivpishs6x25404874 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4> .
+

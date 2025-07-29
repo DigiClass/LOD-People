@@ -1,0 +1,179 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118502581> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118502581/about> .
+
+<https://d-nb.info/gnd/118502581/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T20:34:35.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118502581> gndo:gndIdentifier "118502581";
+  foaf:page <https://de.wikipedia.org/wiki/Ammianus_Marcellinus>;
+  owl:sameAs <https://dbpedia.org/resource/Ammianus_Marcellinus>, <http://viaf.org/viaf/89594750>,
+    <https://isni.org/isni/0000000121287256>, <http://www.wikidata.org/entity/Q172198>,
+    <http://id.loc.gov/rwo/agents/n80065875>;
+  gndo:oldAuthorityNumber "(DE-588)159730341";
+  owl:sameAs <https://d-nb.info/gnd/159730341>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/159730341";
+  gndo:oldAuthorityNumber "(DE-588a)159730341", "(DE-588a)118502581", "(DE-588c)4001734-5";
+  gndo:variantNameForThePerson "Ammiano, Geografo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401635 .
+
+_:node1ivpishs6x25401635 gndo:personalName "Ammiano";
+  gndo:nameAddition "Geografo" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Ammian, Marcellin";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401636 .
+
+_:node1ivpishs6x25401636 gndo:personalName "Ammian";
+  gndo:nameAddition "Marcellin" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Ammianus, Marcellinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401637 .
+
+_:node1ivpishs6x25401637 gndo:forename "Marcellinus";
+  gndo:surname "Ammianus" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Marcellino, Ammiano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401638 .
+
+_:node1ivpishs6x25401638 gndo:forename "Ammiano";
+  gndo:surname "Marcellino" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Ammianus Marcellinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401639 .
+
+_:node1ivpishs6x25401639 gndo:personalName "Ammianus Marcellinus" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Amiano, Marcelino";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401640 .
+
+_:node1ivpishs6x25401640 gndo:personalName "Amiano";
+  gndo:nameAddition "Marcelino" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Marcelino, Amiano";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401641 .
+
+_:node1ivpishs6x25401641 gndo:forename "Amiano";
+  gndo:surname "Marcelino" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Ammianus, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401642 .
+
+_:node1ivpishs6x25401642 gndo:personalName "Ammianus";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Ammianus, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401643 .
+
+_:node1ivpishs6x25401643 gndo:personalName "Ammianus";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Ammianus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401644 .
+
+_:node1ivpishs6x25401644 gndo:personalName "Ammianus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Ammien, Marcellin";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401645 .
+
+_:node1ivpishs6x25401645 gndo:personalName "Ammien";
+  gndo:nameAddition "Marcellin" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Ammiano, Marcellino";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401646 .
+
+_:node1ivpishs6x25401646 gndo:personalName "Ammiano";
+  gndo:nameAddition "Marcellino" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Marcellin, Ammien";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401647 .
+
+_:node1ivpishs6x25401647 gndo:forename "Ammien";
+  gndo:surname "Marcellin" .
+
+<https://d-nb.info/gnd/118502581> gndo:variantNameForThePerson "Marcellinus, Ammianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401648 .
+
+_:node1ivpishs6x25401648 gndo:forename "Ammianus";
+  gndo:surname "Marcellinus" .
+
+<https://d-nb.info/gnd/118502581> gndo:preferredNameForThePerson "Ammianus, Marcellinus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401649 .
+
+_:node1ivpishs6x25401649 gndo:personalName "Ammianus";
+  gndo:nameAddition "Marcellinus" .
+
+<https://d-nb.info/gnd/118502581> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128807830>;
+  gndo:hasRelation _:node1ivpishs6x25401650 .
+
+_:node1ivpishs6x25401650 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128807830>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118502581> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-GR>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>, <http://id.loc.gov/vocabulary/iso639-2/lat>;
+  gndo:publication "Ammianus Marcellinus", "Ammianus Marcellinus", "Res gestae", "Rerum sub Imperatoribus Constantio, Juliano, Joviano, Valentinian*",
+    "Res gestae", "Rerum gestarum qui de 31 supersunt libri XVIII.", "Ammien Marcellin ou les dix-huit livres de son histoire",
+    "Ammiani Marcellini quae supersunt", "Rerum gestarum libri qui supersunt", "AMMIANVS.MARCELLINVS A.MAHIANGELO.ACCVRSIO mendis quinque millibus purgatus, & Libris ... 1533. (VD16 A 2311)";
+  wdrs:describedby <https://d-nb.info/gnd/118502581/about> .
+
+<https://d-nb.info/gnd/118502581/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118502581> gndo:biographicalOrHistoricalInformation "Römischer Geschichtsschreiber griechischer Herkunft; schrieb in lateinischer Sprache Res gestae"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4112544-7>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4050471-2>;
+  gndo:professionOrOccupation _:node1ivpishs6x25401651 .
+
+_:node1ivpishs6x25401651 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4155430-9>;
+  rdf:_2 <https://d-nb.info/gnd/4025098-2> .
+
+<https://d-nb.info/gnd/118502581> gndo:dateOfBirth "0330"^^xsd:gYear;
+  gndo:dateOfDeath "0395"^^xsd:gYear .
+

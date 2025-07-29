@@ -1,0 +1,165 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119052474> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119052474/about> .
+
+<https://d-nb.info/gnd/119052474/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-24T14:43:55.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119052474> gndo:gndIdentifier "119052474";
+  owl:sameAs <https://dbpedia.org/resource/Sacramentary_of_Serapion_of_Thmuis>, <http://viaf.org/viaf/24714373>,
+    <https://isni.org/isni/0000000079720959>, <http://www.wikidata.org/entity/Q861803>;
+  gndo:oldAuthorityNumber "(DE-588)1089166702";
+  owl:sameAs <https://d-nb.info/gnd/1089166702>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089166702";
+  gndo:oldAuthorityNumber "(DE-588)174148739";
+  owl:sameAs <https://d-nb.info/gnd/174148739>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174148739";
+  gndo:oldAuthorityNumber "(DE-588a)174148739", "(DE-588a)119052474", "(DE-588c)4292975-1";
+  gndo:variantNameForThePerson "Serapio, Thmuitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396183 .
+
+_:node1ivpishs6x25396183 gndo:personalName "Serapio";
+  gndo:nameAddition "Thmuitanus" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396184 .
+
+_:node1ivpishs6x25396184 gndo:personalName "Serapion";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion, Thmuisiensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396185 .
+
+_:node1ivpishs6x25396185 gndo:personalName "Serapion";
+  gndo:nameAddition "Thmuisiensis" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion, de Thmuis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396186 .
+
+_:node1ivpishs6x25396186 gndo:personalName "Serapion";
+  gndo:nameAddition "de Thmuis" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396187 .
+
+_:node1ivpishs6x25396187 gndo:personalName "Serapion";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion, Scholasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396188 .
+
+_:node1ivpishs6x25396188 gndo:personalName "Serapion";
+  gndo:nameAddition "Scholasticus" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Sarapiōn, Thmueōs";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396189 .
+
+_:node1ivpishs6x25396189 gndo:personalName "Sarapiōn";
+  gndo:nameAddition "Thmueōs" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion, von Thmuis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396190 .
+
+_:node1ivpishs6x25396190 gndo:personalName "Serapion";
+  gndo:nameAddition "von Thmuis" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Sarapion, of Thmuis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396191 .
+
+_:node1ivpishs6x25396191 gndo:personalName "Sarapion";
+  gndo:nameAddition "of Thmuis" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapio, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396192 .
+
+_:node1ivpishs6x25396192 gndo:personalName "Serapio";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396193 .
+
+_:node1ivpishs6x25396193 gndo:personalName "Serapion";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion Thmuitanus, Evêque"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396194 .
+
+_:node1ivpishs6x25396194 gndo:personalName "Serapion Thmuitanus";
+  gndo:nameAddition "Evêque" .
+
+<https://d-nb.info/gnd/119052474> gndo:variantNameForThePerson "Serapion Thmuitanus, Bishop"@en;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25396195 .
+
+_:node1ivpishs6x25396195 gndo:personalName "Serapion Thmuitanus";
+  gndo:nameAddition "Bishop" .
+
+<https://d-nb.info/gnd/119052474> gndo:preferredNameForThePerson "Serapion, Thmuitanus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25396196 .
+
+_:node1ivpishs6x25396196 gndo:personalName "Serapion";
+  gndo:nameAddition "Thmuitanus" .
+
+<https://d-nb.info/gnd/119052474> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Adversus Manichaeos. - um 300", "Epistula ad Antonii discipulos",
+    "Ad Eudixium", "Über die Jungfräulichkeit", "Serapion <Thmuitanus>: Liber adversus Manichaeos. - 1769";
+  wdrs:describedby <https://d-nb.info/gnd/119052474/about> .
+
+<https://d-nb.info/gnd/119052474/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/119052474> gndo:biographicalOrHistoricalInformation "Mönch u. Bischof von Thmuis, Unterägypten"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25396197 .
+
+_:node1ivpishs6x25396197 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7>;
+  rdf:_2 <https://d-nb.info/gnd/4024055-1> .
+
+<https://d-nb.info/gnd/119052474> gndo:dateOfBirth "0300"^^xsd:gYear;
+  gndo:dateOfDeath "0370"^^xsd:gYear .
+

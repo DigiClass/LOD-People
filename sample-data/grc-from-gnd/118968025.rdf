@@ -1,0 +1,163 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118968025> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118968025/about> .
+
+<https://d-nb.info/gnd/118968025/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-08-22T05:49:42.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118968025> gndo:gndIdentifier "118968025";
+  owl:sameAs <http://viaf.org/viaf/13107371>, <http://www.wikidata.org/entity/Q747775>;
+  gndo:oldAuthorityNumber "(DE-588)1089299168";
+  owl:sameAs <https://d-nb.info/gnd/1089299168>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089299168";
+  gndo:oldAuthorityNumber "(DE-588)1089723938";
+  owl:sameAs <https://d-nb.info/gnd/1089723938>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089723938";
+  gndo:oldAuthorityNumber "(DE-588)171955080";
+  owl:sameAs <https://d-nb.info/gnd/171955080>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/171955080";
+  gndo:oldAuthorityNumber "(DE-588a)171955080", "(DE-588a)118968025", "(DE-588c)4256548-0";
+  gndo:variantNameForThePerson "Asterios, von Amasia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400647 .
+
+_:node1ivpishs6x25400647 gndo:personalName "Asterios";
+  gndo:nameAddition "von Amasia" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, von Amasea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400648 .
+
+_:node1ivpishs6x25400648 gndo:personalName "Asterius";
+  gndo:nameAddition "von Amasea" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400649 .
+
+_:node1ivpishs6x25400649 gndo:personalName "Asterius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400650 .
+
+_:node1ivpishs6x25400650 gndo:personalName "Asterius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, of Amasea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400651 .
+
+_:node1ivpishs6x25400651 gndo:personalName "Asterius";
+  gndo:nameAddition "of Amasea" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, Amasianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400652 .
+
+_:node1ivpishs6x25400652 gndo:personalName "Asterius";
+  gndo:nameAddition "Amasianus" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, Amaseae Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400653 .
+
+_:node1ivpishs6x25400653 gndo:personalName "Asterius";
+  gndo:nameAddition "Amaseae Episcopus" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, Amaseae";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400654 .
+
+_:node1ivpishs6x25400654 gndo:personalName "Asterius";
+  gndo:nameAddition "Amaseae" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, van Amaseia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400655 .
+
+_:node1ivpishs6x25400655 gndo:personalName "Asterius";
+  gndo:nameAddition "van Amaseia" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterios, Amaseias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400656 .
+
+_:node1ivpishs6x25400656 gndo:personalName "Asterios";
+  gndo:nameAddition "Amaseias" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterius, Amasea, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400657 .
+
+_:node1ivpishs6x25400657 gndo:personalName "Asterius";
+  gndo:nameAddition "Amasea, Episcopus" .
+
+<https://d-nb.info/gnd/118968025> gndo:variantNameForThePerson "Asterios, von Amaseia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400658 .
+
+_:node1ivpishs6x25400658 gndo:personalName "Asterios";
+  gndo:nameAddition "von Amaseia" .
+
+<https://d-nb.info/gnd/118968025> gndo:preferredNameForThePerson "Asterius, Amasenus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400659 .
+
+_:node1ivpishs6x25400659 gndo:personalName "Asterius";
+  gndo:nameAddition "Amasenus" .
+
+<https://d-nb.info/gnd/118968025> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Die Homilien des Asterius von Amasea. - 1830-1836", "Homiliae",
+    "S. Patris Nostri Asterii Amaseae Episcopi, Aliorvmqve Plvrivm Dissertissimorvm Ecclesiæ Græcæ Patrvm ac Tractatorum lectæ nouæ eruditissimæque, cum pari pietate Orationes & Homiliæ: in Dominicas præsertim, sanctissimæque Dei Genitricis solennitates",
+    "Historia haeresis Monothelitarum";
+  wdrs:describedby <https://d-nb.info/gnd/118968025/about> .
+
+<https://d-nb.info/gnd/118968025/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118968025> gndo:biographicalOrHistoricalInformation "Kirchenschriftsteller, Rhetor, um 400 Bischof von Amasea in Pontus; 787 heiliggesprochen"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4207452-6>, <https://d-nb.info/gnd/4103218-4>;
+  gndo:professionOrOccupation _:node1ivpishs6x25400660 .
+
+_:node1ivpishs6x25400660 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7>;
+  rdf:_2 <https://d-nb.info/gnd/4030752-9>;
+  rdf:_3 <https://d-nb.info/gnd/4048895-0> .
+
+<https://d-nb.info/gnd/118968025> gndo:dateOfBirthAndDeath "[330/35-420/25]" .
+

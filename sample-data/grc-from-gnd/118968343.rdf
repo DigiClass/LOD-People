@@ -1,0 +1,377 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118968343> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118968343/about> .
+
+<https://d-nb.info/gnd/118968343/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-26T18:59:55.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118968343> gndo:gndIdentifier "118968343";
+  foaf:page <https://de.wikipedia.org/wiki/Gregor_der_Wundert%C3%A4ter>;
+  owl:sameAs <https://dbpedia.org/resource/Gregory_Thaumaturgus>, <http://viaf.org/viaf/88726043>,
+    <http://www.wikidata.org/entity/Q337537>, <http://id.loc.gov/rwo/agents/n84058437>;
+  gndo:oldAuthorityNumber "(DE-588)108971615X";
+  owl:sameAs <https://d-nb.info/gnd/108971615X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108971615X";
+  gndo:oldAuthorityNumber "(DE-588)185877931";
+  owl:sameAs <https://d-nb.info/gnd/185877931>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877931";
+  gndo:oldAuthorityNumber "(DE-588a)185877931", "(DE-588)119691159";
+  owl:sameAs <https://d-nb.info/gnd/119691159>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119691159";
+  gndo:oldAuthorityNumber "(DE-588a)119691159", "(DE-588a)118968343", "(DE-588a)187186030",
+    "(DE-588c)4256661-7";
+  gndo:variantNameForThePerson "Grēgorios, Thaumaturgos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400596 .
+
+_:node1ivpishs6x25400596 gndo:personalName "Grēgorios";
+  gndo:nameAddition "Thaumaturgos" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Grēgorios, ho Thaumaturgos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400597 .
+
+_:node1ivpishs6x25400597 gndo:personalName "Grēgorios";
+  gndo:nameAddition "ho Thaumaturgos" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Grēgorios, Neokaisareias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400598 .
+
+_:node1ivpishs6x25400598 gndo:personalName "Grēgorios";
+  gndo:nameAddition "Neokaisareias" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorios, von Neocaesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400599 .
+
+_:node1ivpishs6x25400599 gndo:personalName "Gregorios";
+  gndo:nameAddition "von Neocaesarea" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregory, Thaumaturgos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400600 .
+
+_:node1ivpishs6x25400600 gndo:personalName "Gregory";
+  gndo:nameAddition "Thaumaturgos" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Grégoire, le Thaumaturge";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400601 .
+
+_:node1ivpishs6x25400601 gndo:personalName "Grégoire";
+  gndo:nameAddition "le Thaumaturge" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorius, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400602 .
+
+_:node1ivpishs6x25400602 gndo:personalName "Gregorius";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Grigorij, Čudotvorec";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400603 .
+
+_:node1ivpishs6x25400603 gndo:personalName "Grigorij";
+  gndo:nameAddition "Čudotvorec" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorio, il Taumaturgo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400604 .
+
+_:node1ivpishs6x25400604 gndo:personalName "Gregorio";
+  gndo:nameAddition "il Taumaturgo" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorius, aus Neocaesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400605 .
+
+_:node1ivpishs6x25400605 gndo:personalName "Gregorius";
+  gndo:nameAddition "aus Neocaesarea" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregory, the Wonderworker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400606 .
+
+_:node1ivpishs6x25400606 gndo:personalName "Gregory";
+  gndo:nameAddition "the Wonderworker" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorios, Neokaisareias";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400607 .
+
+_:node1ivpishs6x25400607 gndo:personalName "Gregorios";
+  gndo:nameAddition "Neokaisareias" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregor, der Wundertäter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400608 .
+
+_:node1ivpishs6x25400608 gndo:personalName "Gregor";
+  gndo:nameAddition "der Wundertäter" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorios, der Wundertäter";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400609 .
+
+_:node1ivpishs6x25400609 gndo:personalName "Gregorios";
+  gndo:nameAddition "der Wundertäter" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorios, von Neokaisareia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400610 .
+
+_:node1ivpishs6x25400610 gndo:personalName "Gregorios";
+  gndo:nameAddition "von Neokaisareia" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorius, Neocaesariensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400611 .
+
+_:node1ivpishs6x25400611 gndo:personalName "Gregorius";
+  gndo:nameAddition "Neocaesariensis" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Theodorus, Thaumaturgus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400612 .
+
+_:node1ivpishs6x25400612 gndo:personalName "Theodorus";
+  gndo:nameAddition "Thaumaturgus" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregory, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400613 .
+
+_:node1ivpishs6x25400613 gndo:personalName "Gregory";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregory, Thaumaturgus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400614 .
+
+_:node1ivpishs6x25400614 gndo:personalName "Gregory";
+  gndo:nameAddition "Thaumaturgus" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregory, of Neocaesarea";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400615 .
+
+_:node1ivpishs6x25400615 gndo:personalName "Gregory";
+  gndo:nameAddition "of Neocaesarea" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorios, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400616 .
+
+_:node1ivpishs6x25400616 gndo:personalName "Gregorios";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorio, Taumaturgo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400617 .
+
+_:node1ivpishs6x25400617 gndo:personalName "Gregorio";
+  gndo:nameAddition "Taumaturgo" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorius, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400618 .
+
+_:node1ivpishs6x25400618 gndo:personalName "Gregorius";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregory, the Wonder Worker, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400619 .
+
+_:node1ivpishs6x25400619 gndo:personalName "Gregory";
+  gndo:nameAddition "the Wonder Worker, Saint" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregoire, le Thaumaturge";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400620 .
+
+_:node1ivpishs6x25400620 gndo:personalName "Gregoire";
+  gndo:nameAddition "le Thaumaturge" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregor, der Wundertäter, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400621 .
+
+_:node1ivpishs6x25400621 gndo:personalName "Gregor";
+  gndo:nameAddition "der Wundertäter, Heiliger" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregory, Thaumaturgos, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400622 .
+
+_:node1ivpishs6x25400622 gndo:personalName "Gregory";
+  gndo:nameAddition "Thaumaturgos, Saint" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorius, Thaumaturgus, Saint"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400623 .
+
+_:node1ivpishs6x25400623 gndo:personalName "Gregorius";
+  gndo:nameAddition "Thaumaturgus, Saint" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorios, ho Thaumaturgos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400624 .
+
+_:node1ivpishs6x25400624 gndo:personalName "Gregorios";
+  gndo:nameAddition "ho Thaumaturgos" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorios, Thaumaturgos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400625 .
+
+_:node1ivpishs6x25400625 gndo:personalName "Gregorios";
+  gndo:nameAddition "Thaumaturgos" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorius, Thaumaturgus, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400626 .
+
+_:node1ivpishs6x25400626 gndo:personalName "Gregorius";
+  gndo:nameAddition "Thaumaturgus, Saint" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Grégoire, le Thaumaturge, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400627 .
+
+_:node1ivpishs6x25400627 gndo:personalName "Grégoire";
+  gndo:nameAddition "le Thaumaturge, Saint" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Thaumaturgus, Gregorius, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400628 .
+
+_:node1ivpishs6x25400628 gndo:forename "Gregorius";
+  gndo:surname "Thaumaturgus";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorius, Scriptor ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400629 .
+
+_:node1ivpishs6x25400629 gndo:personalName "Gregorius";
+  gndo:nameAddition "Scriptor ecclesiasticus" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Thaumaturgus, Gregorius, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400630 .
+
+_:node1ivpishs6x25400630 gndo:forename "Gregorius";
+  gndo:surname "Thaumaturgus";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregory, Thaumaturgos, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400631 .
+
+_:node1ivpishs6x25400631 gndo:personalName "Gregory";
+  gndo:nameAddition "Thaumaturgos, Heiliger" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Gregorius, Thaumaturgus, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400632 .
+
+_:node1ivpishs6x25400632 gndo:personalName "Gregorius";
+  gndo:nameAddition "Thaumaturgus, Heiliger" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "Grigol, Neokesarieli";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400633 .
+
+_:node1ivpishs6x25400633 gndo:personalName "Grigol";
+  gndo:nameAddition "Neokesarieli" .
+
+<https://d-nb.info/gnd/118968343> gndo:variantNameForThePerson "გრიგოლ, ნეოკესარიელი"@ka;
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25400634 .
+
+_:node1ivpishs6x25400634 gndo:personalName "გრიგოლ";
+  gndo:nameAddition "ნეოკესარიელი" .
+
+<https://d-nb.info/gnd/118968343> gndo:preferredNameForThePerson "Gregorius, Thaumaturgus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25400635 .
+
+_:node1ivpishs6x25400635 gndo:personalName "Gregorius";
+  gndo:nameAddition "Thaumaturgus" .
+
+<https://d-nb.info/gnd/118968343> gndo:hasRelation _:node1ivpishs6x25400636 .
+
+_:node1ivpishs6x25400636 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118968343> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25400637 .
+
+_:node1ivpishs6x25400637 gndo:personalName "Aristeas" .
+
+<https://d-nb.info/gnd/118968343> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100956955>;
+  gndo:hasRelation _:node1ivpishs6x25400638 .
+
+_:node1ivpishs6x25400638 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100956955>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118968343> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11709711X>;
+  gndo:hasRelation _:node1ivpishs6x25400639 .
+
+_:node1ivpishs6x25400639 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/11709711X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118968343> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119777789>;
+  gndo:hasRelation _:node1ivpishs6x25400640 .
+
+_:node1ivpishs6x25400640 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119777789>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118968343> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785277>;
+  gndo:hasRelation _:node1ivpishs6x25400641 .
+
+_:node1ivpishs6x25400641 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119785277>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118968343> gndo:hasRelation _:node1ivpishs6x25400642 .
+
+_:node1ivpishs6x25400642 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118968343> gndo:acquaintanceshipOrFriendship _:node1ivpishs6x25400643 .
+
+_:node1ivpishs6x25400643 gndo:forename "Petrus";
+  gndo:surname "Schade" .
+
+<https://d-nb.info/gnd/118968343> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Fragmentum in illud Matth. VI, 22. 23.", "In Ecclesiasten Salomonis metaphrasis. - s.a.",
+    "Opera quotquot extant.", "Panegyricus ad Origenem", "Canones", "Libellus de anima",
+    "Libellus de anima", "In Ecclesiasten Solomonis metaphrasis", "Gregorii Thaum., Macarii et Basilii Opera omnia";
+  wdrs:describedby <https://d-nb.info/gnd/118968343/about> .
+
+<https://d-nb.info/gnd/118968343/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118968343> gndo:biographicalOrHistoricalInformation "Bischof von Neocaesarea u. Kirchenschriftsteller"@de;
+  gndo:udkCode "201 - 300";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25400644 .
+
+_:node1ivpishs6x25400644 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7>;
+  rdf:_2 <https://d-nb.info/gnd/4030752-9> .
+
+<https://d-nb.info/gnd/118968343> gndo:dateOfBirth "0213"^^xsd:gYear;
+  gndo:dateOfDeath "0270"^^xsd:gYear .
+

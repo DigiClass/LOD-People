@@ -1,0 +1,116 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119432730> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119432730/about> .
+
+<https://d-nb.info/gnd/119432730/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-06-06T00:34:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119432730> gndo:gndIdentifier "119432730";
+  foaf:page <https://de.wikipedia.org/wiki/Pamphile_von_Epidaurus>;
+  owl:sameAs <http://viaf.org/viaf/52498957>, <http://www.wikidata.org/entity/Q3361814>,
+    <http://id.loc.gov/rwo/agents/no98130511>;
+  gndo:oldAuthorityNumber "(DE-588)1089727895";
+  owl:sameAs <https://d-nb.info/gnd/1089727895>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089727895";
+  gndo:oldAuthorityNumber "(DE-588a)119432730", "(DE-588a)102401357", "(DE-588c)4444827-2";
+  gndo:variantNameForThePerson "Pamphila, Grammatikerin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591350 .
+
+_:node1ivs02adlx24591350 gndo:personalName "Pamphila";
+  gndo:nameAddition "Grammatikerin" .
+
+<https://d-nb.info/gnd/119432730> gndo:variantNameForThePerson "Pamphila, Historica";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591351 .
+
+_:node1ivs02adlx24591351 gndo:personalName "Pamphila";
+  gndo:nameAddition "Historica" .
+
+<https://d-nb.info/gnd/119432730> gndo:variantNameForThePerson "Pamphila, von Epidauros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591352 .
+
+_:node1ivs02adlx24591352 gndo:personalName "Pamphila";
+  gndo:nameAddition "von Epidauros" .
+
+<https://d-nb.info/gnd/119432730> gndo:variantNameForThePerson "Pamphila, Epidauria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591353 .
+
+_:node1ivs02adlx24591353 gndo:personalName "Pamphila";
+  gndo:nameAddition "Epidauria" .
+
+<https://d-nb.info/gnd/119432730> gndo:variantNameForThePerson "Pamphilē";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591354 .
+
+_:node1ivs02adlx24591354 gndo:personalName "Pamphilē" .
+
+<https://d-nb.info/gnd/119432730> gndo:variantNameForThePerson "Pamphila, of Epidauros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591355 .
+
+_:node1ivs02adlx24591355 gndo:personalName "Pamphila";
+  gndo:nameAddition "of Epidauros" .
+
+<https://d-nb.info/gnd/119432730> gndo:variantNameForThePerson "Panfila, di Epidauro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591356 .
+
+_:node1ivs02adlx24591356 gndo:personalName "Panfila";
+  gndo:nameAddition "di Epidauro" .
+
+<https://d-nb.info/gnd/119432730> gndo:preferredNameForThePerson "Pamphila";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591357 .
+
+_:node1ivs02adlx24591357 gndo:personalName "Pamphila" .
+
+<https://d-nb.info/gnd/119432730> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119432730/about> .
+
+<https://d-nb.info/gnd/119432730/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-21>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-576> .
+
+<https://d-nb.info/gnd/119432730> gndo:biographicalOrHistoricalInformation "Historikerin aus Epidaurus; FHG 3.520-522"@de;
+  gndo:udkCode "1 - 100 n. Chr.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[1. Jh.]" .
+

@@ -1,0 +1,203 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118679449> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118679449/about> .
+
+<https://d-nb.info/gnd/118679449/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-02-05T00:31:11.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118679449> gndo:gndIdentifier "118679449";
+  owl:sameAs <https://dbpedia.org/resource/Dicaearchus>, <http://viaf.org/viaf/264655174>,
+    <http://www.wikidata.org/entity/Q352621>;
+  gndo:oldAuthorityNumber "(DE-588)1089536577";
+  owl:sameAs <https://d-nb.info/gnd/1089536577>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089536577";
+  gndo:oldAuthorityNumber "(DE-588)1089715706";
+  owl:sameAs <https://d-nb.info/gnd/1089715706>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089715706";
+  gndo:oldAuthorityNumber "(DE-588)1089601964";
+  owl:sameAs <https://d-nb.info/gnd/1089601964>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089601964";
+  gndo:oldAuthorityNumber "(DE-588)174171110";
+  owl:sameAs <https://d-nb.info/gnd/174171110>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174171110";
+  gndo:oldAuthorityNumber "(DE-588a)174171110", "(DE-588)172500060";
+  owl:sameAs <https://d-nb.info/gnd/172500060>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172500060";
+  gndo:oldAuthorityNumber "(DE-588a)172500060", "(DE-588a)118679449", "(DE-588c)4090997-9";
+  gndo:variantNameForThePerson "Dikaiarchos, Peripatetischer Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595722 .
+
+_:node1ivs02adlx24595722 gndo:personalName "Dikaiarchos";
+  gndo:nameAddition "Peripatetischer Philosoph" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dikaiarchos, Schüler des Aristoteles";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595723 .
+
+_:node1ivs02adlx24595723 gndo:personalName "Dikaiarchos";
+  gndo:nameAddition "Schüler des Aristoteles" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicaearchus, Geographus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595724 .
+
+_:node1ivs02adlx24595724 gndo:personalName "Dicaearchus";
+  gndo:nameAddition "Geographus" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicaearchus, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595725 .
+
+_:node1ivs02adlx24595725 gndo:personalName "Dicaearchus";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicaearchus, Messanius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595727 .
+
+_:node1ivs02adlx24595727 gndo:personalName "Dicaearchus";
+  gndo:nameAddition "Messanius" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Pseudo-Dicaearchus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595728 .
+
+_:node1ivs02adlx24595728 gndo:personalName "Pseudo-Dicaearchus" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dikaiarchos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595729 .
+
+_:node1ivs02adlx24595729 gndo:personalName "Dikaiarchos" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicaearchus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595730 .
+
+_:node1ivs02adlx24595730 gndo:personalName "Dicaearchus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicaearchus, of Messana";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595731 .
+
+_:node1ivs02adlx24595731 gndo:personalName "Dicaearchus";
+  gndo:nameAddition "of Messana" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicearco, di Messene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595732 .
+
+_:node1ivs02adlx24595732 gndo:personalName "Dicearco";
+  gndo:nameAddition "di Messene" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicearco, Filosofo Peripatetico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595733 .
+
+_:node1ivs02adlx24595733 gndo:personalName "Dicearco";
+  gndo:nameAddition "Filosofo Peripatetico" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicearco, Scolaro di Aristotele";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595734 .
+
+_:node1ivs02adlx24595734 gndo:personalName "Dicearco";
+  gndo:nameAddition "Scolaro di Aristotele" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicéarque, de Messène";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595735 .
+
+_:node1ivs02adlx24595735 gndo:personalName "Dicéarque";
+  gndo:nameAddition "de Messène" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dikaiarch, von Messene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595736 .
+
+_:node1ivs02adlx24595736 gndo:personalName "Dikaiarch";
+  gndo:nameAddition "von Messene" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dikaiarchos, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595737 .
+
+_:node1ivs02adlx24595737 gndo:personalName "Dikaiarchos";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Heraclides, Creticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595738 .
+
+_:node1ivs02adlx24595738 gndo:personalName "Heraclides";
+  gndo:nameAddition "Creticus" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dicearco, da Messina";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595739 .
+
+_:node1ivs02adlx24595739 gndo:personalName "Dicearco";
+  gndo:nameAddition "da Messina" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Pseudo-Dicaearchus vel Heraclides, Creticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595740 .
+
+_:node1ivs02adlx24595740 gndo:personalName "Pseudo-Dicaearchus vel Heraclides";
+  gndo:nameAddition "Creticus" .
+
+<https://d-nb.info/gnd/118679449> gndo:variantNameForThePerson "Dikaiarchos, von Messene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595741 .
+
+_:node1ivs02adlx24595741 gndo:personalName "Dikaiarchos";
+  gndo:nameAddition "von Messene" .
+
+<https://d-nb.info/gnd/118679449> gndo:preferredNameForThePerson "Dicaearchus, Messenius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595742 .
+
+_:node1ivs02adlx24595742 gndo:personalName "Dicaearchus";
+  gndo:nameAddition "Messenius" .
+
+<https://d-nb.info/gnd/118679449> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#6.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dicaearchus <Messenius>: Geographica quaedam sive de vita Graeciae. - 1589";
+  wdrs:describedby <https://d-nb.info/gnd/118679449/about> .
+
+<https://d-nb.info/gnd/118679449/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118679449> gndo:biographicalOrHistoricalInformation "angebl. Verf. der \"Descriptio Graeciae\", deren wirklicher Verf. Dionysius <Calliphontis Filius> ist; Griech. Philosoph, Peripatetiker, Lebensdaten unbekannt"@de,
+    "Ans. in Übereinst. m. PAN, n.TLG (Thesaurus Linguae Graecae), 2.ed New York 1990. Der Peripathetiker und Aristotelesschüler lebte im 3. Jh. v. Chr."@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:dateOfBirthAndDeath "[v4./3. Jh.]" .
+

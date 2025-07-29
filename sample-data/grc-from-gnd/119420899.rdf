@@ -1,0 +1,156 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119420899> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119420899/about> .
+
+<https://d-nb.info/gnd/119420899/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-06T20:43:38.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119420899> gndo:gndIdentifier "119420899";
+  owl:sameAs <https://dbpedia.org/resource/Aeschines_of_Sphettus>, <http://viaf.org/viaf/91967715>,
+    <http://www.wikidata.org/entity/Q409647>;
+  gndo:oldAuthorityNumber "(DE-588)1089803931";
+  owl:sameAs <https://d-nb.info/gnd/1089803931>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089803931";
+  gndo:oldAuthorityNumber "(DE-588)1089903073";
+  owl:sameAs <https://d-nb.info/gnd/1089903073>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089903073";
+  gndo:oldAuthorityNumber "(DE-588a)119420899", "(DE-588a)127413669", "(DE-588c)4439724-0";
+  gndo:variantNameForThePerson "Aeschines, der Socratiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591273 .
+
+_:node1ivs02adlx24591273 gndo:personalName "Aeschines";
+  gndo:nameAddition "der Socratiker" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aeschines";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591274 .
+
+_:node1ivs02adlx24591274 gndo:personalName "Aeschines" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aeschines, Antheniensis Socraticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591275 .
+
+_:node1ivs02adlx24591275 gndo:personalName "Aeschines";
+  gndo:nameAddition "Antheniensis Socraticus" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aischines, Sohn des Lysanias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591276 .
+
+_:node1ivs02adlx24591276 gndo:personalName "Aischines";
+  gndo:nameAddition "Sohn des Lysanias" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aischines, Schüler des Sokrates";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591277 .
+
+_:node1ivs02adlx24591277 gndo:personalName "Aischines";
+  gndo:nameAddition "Schüler des Sokrates" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aischines, Sokratikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591278 .
+
+_:node1ivs02adlx24591278 gndo:personalName "Aischines";
+  gndo:nameAddition "Sokratikos" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aischines, Sokratiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591279 .
+
+_:node1ivs02adlx24591279 gndo:personalName "Aischines";
+  gndo:nameAddition "Sokratiker" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aeschines, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591280 .
+
+_:node1ivs02adlx24591280 gndo:personalName "Aeschines";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aeschines, Sphettius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591281 .
+
+_:node1ivs02adlx24591281 gndo:personalName "Aeschines";
+  gndo:nameAddition "Sphettius" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Aischines, von Sphettos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591282 .
+
+_:node1ivs02adlx24591282 gndo:personalName "Aischines";
+  gndo:nameAddition "von Sphettos" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Eschine, le Socratique";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591283 .
+
+_:node1ivs02adlx24591283 gndo:personalName "Eschine";
+  gndo:nameAddition "le Socratique" .
+
+<https://d-nb.info/gnd/119420899> gndo:variantNameForThePerson "Eschine, di Sfetto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591284 .
+
+_:node1ivs02adlx24591284 gndo:personalName "Eschine";
+  gndo:nameAddition "di Sfetto" .
+
+<https://d-nb.info/gnd/119420899> gndo:preferredNameForThePerson "Aeschines, Socraticus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591285 .
+
+_:node1ivs02adlx24591285 gndo:personalName "Aeschines";
+  gndo:nameAddition "Socraticus" .
+
+<https://d-nb.info/gnd/119420899> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Aeschines <Socraticus>: Gespräche über Tugend, Reichthum und Tod",
+    "Aeschines <Socraticus>: Axiochus Platonis de contemnenda morte", "Aeschines <Socraticus>: Axiochus graece",
+    "Aeschines <Socraticus>: Epistola", "Aeschines <Socraticus>: Axiochus", "Aeschines <Socraticus>: Axiochus",
+    "Aeschines <Socraticus>: Axiochus", "Aeschines <Socraticus>: Dialogi tres", "Aeschines <Socraticus>: Dialogi tres",
+    "Aeschines <Socraticus>: Dialogi tres";
+  wdrs:describedby <https://d-nb.info/gnd/119420899/about> .
+
+<https://d-nb.info/gnd/119420899/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-7>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-601> .
+
+<https://d-nb.info/gnd/119420899> gndo:biographicalOrHistoricalInformation "Schüler des Sokrates, verfaßte sokratische Dialoge und wohl auch Gerichtsreden"@de;
+  gndo:udkCode "500 - 401 v. Chr. ", "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0430"^^xsd:gYear;
+  gndo:dateOfDeath "-0375"^^xsd:gYear .
+

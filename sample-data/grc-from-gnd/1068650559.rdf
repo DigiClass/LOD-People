@@ -1,0 +1,85 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/1068650559> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/1068650559/about> .
+
+<https://d-nb.info/gnd/1068650559/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-02-18T13:59:08.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#3> .
+
+<https://d-nb.info/gnd/1068650559> gndo:gndIdentifier "1068650559";
+  owl:sameAs <http://viaf.org/viaf/14765781>, <https://isni.org/isni/000000011021449X>,
+    <http://www.wikidata.org/entity/Q59526408>, <http://id.loc.gov/rwo/agents/n50021117>;
+  gndo:variantNameForThePerson "Barbotin, E.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25406330 .
+
+_:node1ivpishs6x25406330 gndo:forename "E.";
+  gndo:surname "Barbotin" .
+
+<https://d-nb.info/gnd/1068650559> gndo:preferredNameForThePerson "Barbotin, Edmond";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25406331 .
+
+_:node1ivpishs6x25406331 gndo:forename "Edmond";
+  gndo:surname "Barbotin" .
+
+<https://d-nb.info/gnd/1068650559> gndo:affiliation <https://d-nb.info/gnd/1010669-8>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XA-FR>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/1068650559/about> .
+
+<https://d-nb.info/gnd/1068650559/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-18>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-601> .
+
+<https://d-nb.info/gnd/1068650559> gndo:placeOfDeath <https://d-nb.info/gnd/4057878-1>;
+  gndo:professionOrOccupation _:node1ivpishs6x25406332 .
+
+_:node1ivpishs6x25406332 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4061414-1>;
+  rdf:_2 <https://d-nb.info/gnd/4059756-8>;
+  rdf:_3 <https://d-nb.info/gnd/4317125-4>;
+  rdf:_4 <https://d-nb.info/gnd/4047233-4> .
+
+<https://d-nb.info/gnd/1068650559> gndo:dateOfBirth "1920"^^xsd:gYear;
+  gndo:dateOfDeath "2014"^^xsd:gYear .
+

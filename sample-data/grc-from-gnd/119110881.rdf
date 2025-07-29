@@ -1,0 +1,202 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119110881> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119110881/about> .
+
+<https://d-nb.info/gnd/119110881/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-08-11T06:23:22.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119110881> gndo:gndIdentifier "119110881";
+  owl:sameAs <http://viaf.org/viaf/268224700>, <http://www.wikidata.org/entity/Q473421>;
+  gndo:oldAuthorityNumber "(DE-588)1089758049";
+  owl:sameAs <https://d-nb.info/gnd/1089758049>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089758049";
+  gndo:oldAuthorityNumber "(DE-588)108914864X";
+  owl:sameAs <https://d-nb.info/gnd/108914864X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108914864X";
+  gndo:oldAuthorityNumber "(DE-588)100776930";
+  owl:sameAs <https://d-nb.info/gnd/100776930>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/100776930";
+  gndo:oldAuthorityNumber "(DE-588a)100776930", "(DE-588a)119110881", "(DE-588c)4319913-6";
+  gndo:variantNameForThePerson "Deinarch, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401269 .
+
+_:node1ivpishs6x25401269 gndo:personalName "Deinarch";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Deinarchos, von Korinth";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401270 .
+
+_:node1ivpishs6x25401270 gndo:personalName "Deinarchos";
+  gndo:nameAddition "von Korinth" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Deinarch, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401271 .
+
+_:node1ivpishs6x25401271 gndo:personalName "Deinarch";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarchus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401272 .
+
+_:node1ivpishs6x25401272 gndo:personalName "Dinarchus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarchus, Corinthius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401273 .
+
+_:node1ivpishs6x25401273 gndo:personalName "Dinarchus";
+  gndo:nameAddition "Corinthius" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Deinarchos, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401274 .
+
+_:node1ivpishs6x25401274 gndo:personalName "Deinarchos";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarchus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401275 .
+
+_:node1ivpishs6x25401275 gndo:personalName "Dinarchus" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Deinarchos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401276 .
+
+_:node1ivpishs6x25401276 gndo:personalName "Deinarchos" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarchos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401277 .
+
+_:node1ivpishs6x25401277 gndo:personalName "Dinarchos" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarque";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401278 .
+
+_:node1ivpishs6x25401278 gndo:personalName "Dinarque" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Deinarchos, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401279 .
+
+_:node1ivpishs6x25401279 gndo:personalName "Deinarchos";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarque, Orateur";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401280 .
+
+_:node1ivpishs6x25401280 gndo:personalName "Dinarque";
+  gndo:nameAddition "Orateur" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarco, di Corinto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401281 .
+
+_:node1ivpishs6x25401281 gndo:personalName "Dinarco";
+  gndo:nameAddition "di Corinto" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarco, Logografo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401282 .
+
+_:node1ivpishs6x25401282 gndo:personalName "Dinarco";
+  gndo:nameAddition "Logografo" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Deinarchus, Orator";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401283 .
+
+_:node1ivpishs6x25401283 gndo:personalName "Deinarchus";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarchus, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401284 .
+
+_:node1ivpishs6x25401284 gndo:personalName "Dinarchus";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Dinarque, de Corinthe";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401285 .
+
+_:node1ivpishs6x25401285 gndo:personalName "Dinarque";
+  gndo:nameAddition "de Corinthe" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Deinarch";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401286 .
+
+_:node1ivpishs6x25401286 gndo:personalName "Deinarch" .
+
+<https://d-nb.info/gnd/119110881> gndo:variantNameForThePerson "Deinarchus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401287 .
+
+_:node1ivpishs6x25401287 gndo:personalName "Deinarchus" .
+
+<https://d-nb.info/gnd/119110881> gndo:preferredNameForThePerson "Dinarchus, Orator";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401288 .
+
+_:node1ivpishs6x25401288 gndo:personalName "Dinarchus";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/119110881> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Wurm, Christian: Commentarius in Dinarchi Orationes tres", "Dinarchus: Orationes",
+    "Isaeus: Isaeus, Dinarchus, Lycurgus, Aeschines, Demades", "Demosthenes: Ta sōzomena",
+    "Lycurgus <Orator>: Lycurgus, Aeschines, Hyperides, Dinarchus, Gorgiae Lesbonactis, Herodi*",
+    "Lycurgus <Orator>: Discours", "Isaeus: Isaeus, Dinarchus, Lycurgus, Demades et sophistarum quae extant omnia",
+    "Isocrates,: Isocratis, Isaei, Dinarchi, Lycurgi, Demadis et Sophistarum interpretatio Lat*";
+  wdrs:describedby <https://d-nb.info/gnd/119110881/about> .
+
+<https://d-nb.info/gnd/119110881/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/119110881> gndo:biographicalOrHistoricalInformation "Aus Korinth, Redner, Logograph in Athen. Letzter der attischen Redner. Von seinen zahlreichen Reden (ca. 60) haben sich nur drei, erhalten, darunter eine gegen Demosthenes"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4032477-1>;
+  gndo:placeOfActivity <https://d-nb.info/gnd/4003366-1>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25401289 .
+
+_:node1ivpishs6x25401289 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4048895-0> .
+
+<https://d-nb.info/gnd/119110881> gndo:dateOfBirth "-0360"^^xsd:gYear;
+  gndo:dateOfDeath "-0292"^^xsd:gYear .
+

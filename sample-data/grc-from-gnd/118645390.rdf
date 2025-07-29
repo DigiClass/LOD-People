@@ -1,0 +1,120 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118645390> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118645390/about> .
+
+<https://d-nb.info/gnd/118645390/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2020-12-25T18:11:38.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118645390> gndo:gndIdentifier "118645390";
+  owl:sameAs <https://dbpedia.org/resource/Antonius_Diogenes>, <http://viaf.org/viaf/25395881>,
+    <https://isni.org/isni/0000000043522563>, <http://www.wikidata.org/entity/Q606249>;
+  gndo:oldAuthorityNumber "(DE-588)1089742754";
+  owl:sameAs <https://d-nb.info/gnd/1089742754>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089742754";
+  gndo:oldAuthorityNumber "(DE-588)127852816";
+  owl:sameAs <https://d-nb.info/gnd/127852816>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/127852816";
+  gndo:oldAuthorityNumber "(DE-588a)127852816", "(DE-588a)118645390", "(DE-588c)4080112-3";
+  gndo:variantNameForThePerson "Antonius, Scriptor Eroticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595454 .
+
+_:node1ivs02adlx24595454 gndo:personalName "Antonius";
+  gndo:nameAddition "Scriptor Eroticus" .
+
+<https://d-nb.info/gnd/118645390> gndo:variantNameForThePerson "Diogenes Antonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595455 .
+
+_:node1ivs02adlx24595455 gndo:personalName "Diogenes Antonius" .
+
+<https://d-nb.info/gnd/118645390> gndo:variantNameForThePerson "Diogenes, Antonius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595456 .
+
+_:node1ivs02adlx24595456 gndo:forename "Antonius";
+  gndo:surname "Diogenes" .
+
+<https://d-nb.info/gnd/118645390> gndo:variantNameForThePerson "Antonio, Diogene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595457 .
+
+_:node1ivs02adlx24595457 gndo:personalName "Antonio";
+  gndo:nameAddition "Diogene" .
+
+<https://d-nb.info/gnd/118645390> gndo:variantNameForThePerson "Antonius, Diogenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595458 .
+
+_:node1ivs02adlx24595458 gndo:forename "Diogenes";
+  gndo:surname "Antonius" .
+
+<https://d-nb.info/gnd/118645390> gndo:variantNameForThePerson "Antonius Diogenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595459 .
+
+_:node1ivs02adlx24595459 gndo:personalName "Antonius Diogenes" .
+
+<https://d-nb.info/gnd/118645390> gndo:variantNameForThePerson "Diogenes, Antonios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24595460 .
+
+_:node1ivs02adlx24595460 gndo:forename "Antonios";
+  gndo:surname "Diogenes" .
+
+<https://d-nb.info/gnd/118645390> gndo:preferredNameForThePerson "Antonius, Diogenes";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24595461 .
+
+_:node1ivs02adlx24595461 gndo:personalName "Antonius";
+  gndo:nameAddition "Diogenes" .
+
+<https://d-nb.info/gnd/118645390> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "\"Thule\"";
+  wdrs:describedby <https://d-nb.info/gnd/118645390/about> .
+
+<https://d-nb.info/gnd/118645390/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118645390> gndo:biographicalOrHistoricalInformation "Verfasser eines Romans"@de;
+  gndo:udkCode "1 - 100 n. Chr.", "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[1./2. Jh.]" .
+

@@ -1,0 +1,861 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118557831> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118557831/about> .
+
+<https://d-nb.info/gnd/118557831/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-05T21:30:44.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118557831> gndo:gndIdentifier "118557831";
+  foaf:page <https://de.wikipedia.org/wiki/Johannes_Chrysostomos>;
+  owl:sameAs <https://dbpedia.org/resource/John_Chrysostom>, <http://viaf.org/viaf/305214868>,
+    <https://isni.org/isni/0000000456059482>, <http://www.wikidata.org/entity/Q43706>,
+    <http://id.loc.gov/rwo/agents/n80001460>;
+  gndo:oldAuthorityNumber "(DE-588)1089927649";
+  owl:sameAs <https://d-nb.info/gnd/1089927649>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089927649";
+  gndo:oldAuthorityNumber "(DE-588)17515144X";
+  owl:sameAs <https://d-nb.info/gnd/17515144X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/17515144X";
+  gndo:oldAuthorityNumber "(DE-588)185877729";
+  owl:sameAs <https://d-nb.info/gnd/185877729>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877729";
+  gndo:oldAuthorityNumber "(DE-588a)185877729", "(DE-588a)17515144X", "(DE-588)157546489";
+  owl:sameAs <https://d-nb.info/gnd/157546489>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/157546489";
+  gndo:oldAuthorityNumber "(DE-588a)157546489", "(DE-588a)118557831", "(DE-588a)138241651",
+    "(DE-588a)127319662", "(DE-588c)4028669-1";
+  gndo:variantNameForThePerson "Johannes I., Konstantinopel, Patriarch";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586732 .
+
+_:node1ivs02adlx24586732 gndo:personalName "Johannes";
+  gndo:counting "I.";
+  gndo:nameAddition "Konstantinopel, Patriarch" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586733 .
+
+_:node1ivs02adlx24586733 gndo:personalName "John";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes I., Constantinopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586734 .
+
+_:node1ivs02adlx24586734 gndo:personalName "Johannes";
+  gndo:counting "I.";
+  gndo:nameAddition "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Īoann, Zlatoust";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586735 .
+
+_:node1ivs02adlx24586735 gndo:personalName "Īoann";
+  gndo:nameAddition "Zlatoust" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Yuḥannā ad-Dahabī al-Fam";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586736 .
+
+_:node1ivs02adlx24586736 gndo:personalName "Yuḥannā ad-Dahabī al-Fam" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Yovhan, Oskeberan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586737 .
+
+_:node1ivs02adlx24586737 gndo:personalName "Yovhan";
+  gndo:nameAddition "Oskeberan" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Yowhan, Oskeberan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586738 .
+
+_:node1ivs02adlx24586738 gndo:personalName "Yowhan";
+  gndo:nameAddition "Oskeberan" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Oskeberan, Yovhan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586739 .
+
+_:node1ivs02adlx24586739 gndo:forename "Yovhan";
+  gndo:surname "Oskeberan" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Oskeberan, Yowhan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586740 .
+
+_:node1ivs02adlx24586740 gndo:forename "Yowhan";
+  gndo:surname "Oskeberan" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Zlatoust";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586741 .
+
+_:node1ivs02adlx24586741 gndo:personalName "Johannes";
+  gndo:nameAddition "Zlatoust" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Giovanni, Boccadoro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586742 .
+
+_:node1ivs02adlx24586742 gndo:personalName "Giovanni";
+  gndo:nameAddition "Boccadoro" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomos, Joannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586743 .
+
+_:node1ivs02adlx24586743 gndo:forename "Joannes";
+  gndo:surname "Chrysostomos" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Jan, Zlatousty";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586744 .
+
+_:node1ivs02adlx24586744 gndo:personalName "Jan";
+  gndo:nameAddition "Zlatousty" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Boccadoro, Giovanni";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586745 .
+
+_:node1ivs02adlx24586745 gndo:forename "Giovanni";
+  gndo:surname "Boccadoro" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Yuḥannā Fam-ad-Dahab";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586746 .
+
+_:node1ivs02adlx24586746 gndo:personalName "Yuḥannā Fam-ad-Dahab" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Jōṇ, Krisōstōminṭe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586747 .
+
+_:node1ivs02adlx24586747 gndo:personalName "Jōṇ";
+  gndo:nameAddition "Krisōstōminṭe" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Ioane, Ok'ropiri";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586748 .
+
+_:node1ivs02adlx24586748 gndo:personalName "Ioane";
+  gndo:nameAddition "Ok'ropiri" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Yūwānīs, al-Anṭākī";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586749 .
+
+_:node1ivs02adlx24586749 gndo:personalName "Yūwānīs";
+  gndo:nameAddition "al-Anṭākī" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586750 .
+
+_:node1ivs02adlx24586750 gndo:personalName "Chrysostomus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrisostomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586751 .
+
+_:node1ivs02adlx24586751 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrisostomos" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Iōannēs, Chrysostomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586752 .
+
+_:node1ivs02adlx24586752 gndo:personalName "Iōannēs";
+  gndo:nameAddition "Chrysostomos" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Giovanni, Grisostomo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586753 .
+
+_:node1ivs02adlx24586753 gndo:personalName "Giovanni";
+  gndo:nameAddition "Grisostomo" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Zlatoust, Ioann";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586754 .
+
+_:node1ivs02adlx24586754 gndo:forename "Ioann";
+  gndo:surname "Zlatoust" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrisostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586755 .
+
+_:node1ivs02adlx24586755 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrisostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Ioann, Zlatoust";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586756 .
+
+_:node1ivs02adlx24586756 gndo:personalName "Ioann";
+  gndo:nameAddition "Zlatoust" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Ioann, Zlatoustyj";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586757 .
+
+_:node1ivs02adlx24586757 gndo:personalName "Ioann";
+  gndo:nameAddition "Zlatoustyj" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Giovanni, Crisostomo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586758 .
+
+_:node1ivs02adlx24586758 gndo:personalName "Giovanni";
+  gndo:nameAddition "Crisostomo" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Jean, Chrysostome";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586759 .
+
+_:node1ivs02adlx24586759 gndo:personalName "Jean";
+  gndo:nameAddition "Chrysostome" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Pseudo-Chrysostome";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586760 .
+
+_:node1ivs02adlx24586760 gndo:personalName "Pseudo-Chrysostome" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes Chrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586761 .
+
+_:node1ivs02adlx24586761 gndo:personalName "Johannes Chrysostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes Chrysostomus aus Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586762 .
+
+_:node1ivs02adlx24586762 gndo:personalName "Johannes Chrysostomus aus Antiochia" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Constantinopolitanus, I.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586763 .
+
+_:node1ivs02adlx24586763 gndo:personalName "Johannes";
+  gndo:nameAddition "Constantinopolitanus, I." .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Konstantinopel, Patriarch, I.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586764 .
+
+_:node1ivs02adlx24586764 gndo:personalName "Johannes";
+  gndo:nameAddition "Konstantinopel, Patriarch, I." .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Patriarcha, I.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586765 .
+
+_:node1ivs02adlx24586765 gndo:personalName "Johannes";
+  gndo:nameAddition "Patriarcha, I." .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Yuḥannā ad̲-D̲ahabī al-Fam";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586766 .
+
+_:node1ivs02adlx24586766 gndo:personalName "Yuḥannā ad̲-D̲ahabī al-Fam" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes I., Patriarcha";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586767 .
+
+_:node1ivs02adlx24586767 gndo:personalName "Johannes";
+  gndo:counting "I.";
+  gndo:nameAddition "Patriarcha" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Crisostomo, Giovanni";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586768 .
+
+_:node1ivs02adlx24586768 gndo:forename "Giovanni";
+  gndo:surname "Crisostomo" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostome, Jean";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586769 .
+
+_:node1ivs02adlx24586769 gndo:forename "Jean";
+  gndo:surname "Chrysostome" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Juan, Crisóstomo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586770 .
+
+_:node1ivs02adlx24586770 gndo:personalName "Juan";
+  gndo:nameAddition "Crisóstomo" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586771 .
+
+_:node1ivs02adlx24586771 gndo:personalName "Johannes";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrysostomos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586772 .
+
+_:node1ivs02adlx24586772 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrysostomos" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Constantinopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586773 .
+
+_:node1ivs02adlx24586773 gndo:personalName "Johannes";
+  gndo:nameAddition "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586774 .
+
+_:node1ivs02adlx24586774 gndo:personalName "Johannes";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586775 .
+
+_:node1ivs02adlx24586775 gndo:personalName "Chrysostomus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586776 .
+
+_:node1ivs02adlx24586776 gndo:personalName "Johannes";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Chrysostome";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586777 .
+
+_:node1ivs02adlx24586777 gndo:personalName "John";
+  gndo:nameAddition "Chrysostome" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Pseudo-Johannes, Chrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586778 .
+
+_:node1ivs02adlx24586778 gndo:personalName "Pseudo-Johannes";
+  gndo:nameAddition "Chrysostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Jean, Chrysostôme";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586779 .
+
+_:node1ivs02adlx24586779 gndo:personalName "Jean";
+  gndo:nameAddition "Chrysostôme" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Goldmund";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586780 .
+
+_:node1ivs02adlx24586780 gndo:personalName "Johannes";
+  gndo:nameAddition "Goldmund" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Chrysostom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586781 .
+
+_:node1ivs02adlx24586781 gndo:personalName "John";
+  gndo:nameAddition "Chrysostom" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Jowhannes, Oskeberan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586782 .
+
+_:node1ivs02adlx24586782 gndo:personalName "Jowhannes";
+  gndo:nameAddition "Oskeberan" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostom, John";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586783 .
+
+_:node1ivs02adlx24586783 gndo:forename "John";
+  gndo:surname "Chrysostom" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John Chrysostom, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586784 .
+
+_:node1ivs02adlx24586784 gndo:personalName "John Chrysostom";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Pseudo-Chrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586785 .
+
+_:node1ivs02adlx24586785 gndo:personalName "Pseudo-Chrysostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomos, Johannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586786 .
+
+_:node1ivs02adlx24586786 gndo:forename "Johannes";
+  gndo:surname "Chrysostomos" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomus, Johannes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586787 .
+
+_:node1ivs02adlx24586787 gndo:forename "Johannes";
+  gndo:surname "Chrysostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Crisostomo, Giovanni, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586788 .
+
+_:node1ivs02adlx24586788 gndo:forename "Giovanni";
+  gndo:surname "Crisostomo";
+  gndo:nameAddition "Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Crisostomo, Giovanni, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586789 .
+
+_:node1ivs02adlx24586789 gndo:forename "Giovanni";
+  gndo:surname "Crisostomo";
+  gndo:nameAddition "Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Crisostomo, Giovanni, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586790 .
+
+_:node1ivs02adlx24586790 gndo:forename "Giovanni";
+  gndo:surname "Crisostomo";
+  gndo:nameAddition "Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Chrysostom, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586791 .
+
+_:node1ivs02adlx24586791 gndo:personalName "John";
+  gndo:nameAddition "Chrysostom, Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Chrysostom, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586792 .
+
+_:node1ivs02adlx24586792 gndo:personalName "John";
+  gndo:nameAddition "Chrysostom, Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Chrysostom, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586793 .
+
+_:node1ivs02adlx24586793 gndo:personalName "John";
+  gndo:nameAddition "Chrysostom, Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostom, John, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586794 .
+
+_:node1ivs02adlx24586794 gndo:forename "John";
+  gndo:surname "Chrysostom";
+  gndo:nameAddition "Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostom, John, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586795 .
+
+_:node1ivs02adlx24586795 gndo:forename "John";
+  gndo:surname "Chrysostom";
+  gndo:nameAddition "Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostom, John, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586796 .
+
+_:node1ivs02adlx24586796 gndo:forename "John";
+  gndo:surname "Chrysostom";
+  gndo:nameAddition "Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Chrysostum, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586797 .
+
+_:node1ivs02adlx24586797 gndo:personalName "John";
+  gndo:nameAddition "Chrysostum, Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Chrysostum, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586798 .
+
+_:node1ivs02adlx24586798 gndo:personalName "John";
+  gndo:nameAddition "Chrysostum, Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John, Chrysostum, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586799 .
+
+_:node1ivs02adlx24586799 gndo:personalName "John";
+  gndo:nameAddition "Chrysostum, Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostum, John, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586800 .
+
+_:node1ivs02adlx24586800 gndo:forename "John";
+  gndo:surname "Chrysostum";
+  gndo:nameAddition "Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostum, John, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586801 .
+
+_:node1ivs02adlx24586801 gndo:forename "John";
+  gndo:surname "Chrysostum";
+  gndo:nameAddition "Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostum, John, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586802 .
+
+_:node1ivs02adlx24586802 gndo:forename "John";
+  gndo:surname "Chrysostum";
+  gndo:nameAddition "Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Aranyszájú Szent János, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586803 .
+
+_:node1ivs02adlx24586803 gndo:personalName "Aranyszájú Szent János";
+  gndo:nameAddition "Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Szent János, Aranyszájú, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586804 .
+
+_:node1ivs02adlx24586804 gndo:forename "Aranyszájú";
+  gndo:surname "Szent János";
+  gndo:nameAddition "Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "John Chrysostom, St.";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586805 .
+
+_:node1ivs02adlx24586805 gndo:personalName "John Chrysostom";
+  gndo:nameAddition "St." .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomos, Johannes, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586806 .
+
+_:node1ivs02adlx24586806 gndo:forename "Johannes";
+  gndo:surname "Chrysostomos";
+  gndo:nameAddition "Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomus, Scriptor ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586807 .
+
+_:node1ivs02adlx24586807 gndo:personalName "Chrysostomus";
+  gndo:nameAddition "Scriptor ecclesiasticus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrysostomus, Archbishop of Constantinople"@en;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586808 .
+
+_:node1ivs02adlx24586808 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrysostomus, Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrysostomus, Archevêque de Constantinople"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586809 .
+
+_:node1ivs02adlx24586809 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrysostomus, Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomus, Johannes, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586810 .
+
+_:node1ivs02adlx24586810 gndo:forename "Johannes";
+  gndo:surname "Chrysostomus";
+  gndo:nameAddition "Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes Chrysostomus, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586811 .
+
+_:node1ivs02adlx24586811 gndo:personalName "Johannes Chrysostomus";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrysostomos, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586812 .
+
+_:node1ivs02adlx24586812 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrysostomos, Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomos, Johannes, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586813 .
+
+_:node1ivs02adlx24586813 gndo:forename "Johannes";
+  gndo:surname "Chrysostomos";
+  gndo:nameAddition "Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomos, Johannes, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586814 .
+
+_:node1ivs02adlx24586814 gndo:forename "Johannes";
+  gndo:surname "Chrysostomos";
+  gndo:nameAddition "Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Giovanni, Crisostomo, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586815 .
+
+_:node1ivs02adlx24586815 gndo:personalName "Giovanni";
+  gndo:nameAddition "Crisostomo, Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Jean, Chrysostome, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586816 .
+
+_:node1ivs02adlx24586816 gndo:personalName "Jean";
+  gndo:nameAddition "Chrysostome, Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Jean, Chrysostome, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586817 .
+
+_:node1ivs02adlx24586817 gndo:personalName "Jean";
+  gndo:nameAddition "Chrysostome, Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrysostomos, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586818 .
+
+_:node1ivs02adlx24586818 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrysostomos, Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Jean, Chrysostome, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586819 .
+
+_:node1ivs02adlx24586819 gndo:personalName "Jean";
+  gndo:nameAddition "Chrysostome, Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostome, Jean, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586820 .
+
+_:node1ivs02adlx24586820 gndo:forename "Jean";
+  gndo:surname "Chrysostome";
+  gndo:nameAddition "Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Yuḥannā Fam-aḏ-Ḏahab";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586821 .
+
+_:node1ivs02adlx24586821 gndo:personalName "Yuḥannā Fam-aḏ-Ḏahab" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrysostomos, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586822 .
+
+_:node1ivs02adlx24586822 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrysostomos, Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Chrysostomus, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586823 .
+
+_:node1ivs02adlx24586823 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrysostomus, Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Pseudochrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586824 .
+
+_:node1ivs02adlx24586824 gndo:personalName "Pseudochrysostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Johannes, Konstantinopel ; Patriarch 1";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586825 .
+
+_:node1ivs02adlx24586825 gndo:personalName "Johannes";
+  gndo:nameAddition "Konstantinopel ; Patriarch";
+  gndo:counting "1" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Giovanni, Crisostomo, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586826 .
+
+_:node1ivs02adlx24586826 gndo:personalName "Giovanni";
+  gndo:nameAddition "Crisostomo, Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomus, Johannes, Archevêque de Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586827 .
+
+_:node1ivs02adlx24586827 gndo:forename "Johannes";
+  gndo:surname "Chrysostomus";
+  gndo:nameAddition "Archevêque de Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostome, Jean, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586828 .
+
+_:node1ivs02adlx24586828 gndo:forename "Jean";
+  gndo:surname "Chrysostome";
+  gndo:nameAddition "Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Giovanni, Crisostomo, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586829 .
+
+_:node1ivs02adlx24586829 gndo:personalName "Giovanni";
+  gndo:nameAddition "Crisostomo, Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomus, Johannes, Erzbischof von Konstantinopel";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586830 .
+
+_:node1ivs02adlx24586830 gndo:forename "Johannes";
+  gndo:surname "Chrysostomus";
+  gndo:nameAddition "Erzbischof von Konstantinopel" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Pseudo-Iohannes Chrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586831 .
+
+_:node1ivs02adlx24586831 gndo:personalName "Pseudo-Iohannes Chrysostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586832 .
+
+_:node1ivs02adlx24586832 gndo:personalName "Chrysostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Crisóstomo, Juan, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586833 .
+
+_:node1ivs02adlx24586833 gndo:forename "Juan";
+  gndo:surname "Crisóstomo";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chrysostome, Jean, Archbishop of Constantinople";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586834 .
+
+_:node1ivs02adlx24586834 gndo:forename "Jean";
+  gndo:surname "Chrysostome";
+  gndo:nameAddition "Archbishop of Constantinople" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Hovhannes, Oskeberan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586835 .
+
+_:node1ivs02adlx24586835 gndo:personalName "Hovhannes";
+  gndo:nameAddition "Oskeberan" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "St. John Chrysostom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586836 .
+
+_:node1ivs02adlx24586836 gndo:personalName "St. John Chrysostom" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Chryzostom, Jan";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586837 .
+
+_:node1ivs02adlx24586837 gndo:forename "Jan";
+  gndo:surname "Chryzostom" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Յովհան Ոսկեբերան"@hy;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586838 .
+
+_:node1ivs02adlx24586838 gndo:personalName "Յովհան Ոսկեբերան" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Іоанн, Златоуст"@ru;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586839 .
+
+_:node1ivs02adlx24586839 gndo:personalName "Іоанн";
+  gndo:nameAddition "Златоуст" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "يوانيس, الأنطاكي"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586840 .
+
+_:node1ivs02adlx24586840 gndo:personalName "يوانيس";
+  gndo:nameAddition "الأنطاكي" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "يوانيس, الانطاكي"@ar;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586841 .
+
+_:node1ivs02adlx24586841 gndo:personalName "يوانيس";
+  gndo:nameAddition "الانطاكي" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Ἰωάννης ὁ Χρυσόστομος"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586842 .
+
+_:node1ivs02adlx24586842 gndo:personalName "Ἰωάννης ὁ Χρυσόστομος" .
+
+<https://d-nb.info/gnd/118557831> gndo:variantNameForThePerson "Ἰωάννης, τῆς Ἀντιόχειας"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586843 .
+
+_:node1ivs02adlx24586843 gndo:personalName "Ἰωάννης";
+  gndo:nameAddition "τῆς Ἀντιόχειας" .
+
+<https://d-nb.info/gnd/118557831> gndo:preferredNameForThePerson "Johannes, Chrysostomus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586844 .
+
+_:node1ivs02adlx24586844 gndo:personalName "Johannes";
+  gndo:nameAddition "Chrysostomus" .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104251468>;
+  gndo:hasRelation _:node1ivs02adlx24586845 .
+
+_:node1ivs02adlx24586845 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/104251468>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100320937>;
+  gndo:hasRelation _:node1ivs02adlx24586846 .
+
+_:node1ivs02adlx24586846 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100320937>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119775034>;
+  gndo:hasRelation _:node1ivs02adlx24586847 .
+
+_:node1ivs02adlx24586847 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119775034>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118521330>;
+  gndo:hasRelation _:node1ivs02adlx24586848 .
+
+_:node1ivs02adlx24586848 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118521330>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118707531>;
+  gndo:hasRelation _:node1ivs02adlx24586849 .
+
+_:node1ivs02adlx24586849 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118707531>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119846993>;
+  gndo:hasRelation _:node1ivs02adlx24586850 .
+
+_:node1ivs02adlx24586850 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119846993>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100972160>;
+  gndo:hasRelation _:node1ivs02adlx24586851 .
+
+_:node1ivs02adlx24586851 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/100972160>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519565>;
+  gndo:hasRelation _:node1ivs02adlx24586852 .
+
+_:node1ivs02adlx24586852 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118519565>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118503278>;
+  gndo:hasRelation _:node1ivs02adlx24586853 .
+
+_:node1ivs02adlx24586853 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118503278>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118552953>;
+  gndo:hasRelation _:node1ivs02adlx24586854 .
+
+_:node1ivs02adlx24586854 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118552953>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118557831> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128575212>;
+  gndo:hasRelation _:node1ivs02adlx24586855 .
+
+_:node1ivs02adlx24586855 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128575212> .
+
+<https://d-nb.info/gnd/118557831> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Johannes Chrysostomus: In omnes d. Pauli epistolas commentarii. 1536. (VD16 J 433)",
+    "Johannes Chrysostomus: De orando deum libri duo. 1564. (VD16 ZV 23416)", "Corrozet, Gilles: Sermo de mortalitate. 1560. (VD16 C 5278)",
+    "Johannes Chrysostomus: Johãnis Chrysostomi des hailigen Bischoffs Homely oder Predig Wie daß kain mensch ... 1550. (VD16 J 440)",
+    "Johannes Chrysostomus: Sermo DIVI IOANNIS CHRYSOSTOMI VRbis Comstantini Archiepiscopi de Magistratibus & ... 1523. (VD16 J 419)",
+    "Johannes Chrysostomus: D. IOANNIS CHRYSOSTOMI Orationes quatuor. I. Quod nemo laedatur nisi à seipso. II. De ... 1595. (VD16 J 437)",
+    "Johannes Chrysostomus: S. P. NOSTRI, IOANNIS CHRYSOSTOMI, ARCHIEPISCOPI CONSTANTINOPOLEOS, ORATIONES ... 1582. (VD16 ZV 8699)",
+    "Johannes Chrysostomus: Modus orandi Deum. 1525. (VD16 J 443)", "Erasmus, Desiderius: Dilucida et pia explanatio symboli, quod apostolorum dicitur, et decalogi praeceptorum. 1551. (VD16 E 2627)",
+    "Johannes Chrysostomus: Ain schoene Predig des hailgen Bischoffs Joannis Chrisostomi. Das man die sünder lebendig ... 1521. (VD16 J 464)";
+  wdrs:describedby <https://d-nb.info/gnd/118557831/about> .
+
+<https://d-nb.info/gnd/118557831/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118557831> gndo:biographicalOrHistoricalInformation "Patriarch von Konstantinopel seit 398 u. Kirchenvater; Geburtsjahr evtl. 354"@de;
+  gndo:udkCode "301 - 400", "401 - 500";
+  gndo:professionOrOccupation _:node1ivs02adlx24586856 .
+
+_:node1ivs02adlx24586856 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4030752-9>;
+  rdf:_2 <https://d-nb.info/gnd/4173551-1>;
+  rdf:_3 <https://d-nb.info/gnd/4317581-8> .
+
+<https://d-nb.info/gnd/118557831> gndo:dateOfBirth "0344"^^xsd:gYear;
+  gndo:dateOfDeath "0407"^^xsd:gYear .
+

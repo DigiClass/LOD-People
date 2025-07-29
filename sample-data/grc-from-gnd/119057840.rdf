@@ -1,0 +1,122 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119057840> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119057840/about> .
+
+<https://d-nb.info/gnd/119057840/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-12-06T13:39:19.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119057840> gndo:gndIdentifier "119057840";
+  owl:sameAs <http://viaf.org/viaf/4485149296158080670009>, <https://isni.org/isni/0000000118391204>,
+    <http://www.wikidata.org/entity/Q11916866>, <http://id.loc.gov/rwo/agents/n85144190>;
+  gndo:oldAuthorityNumber "(DE-588)172944287";
+  owl:sameAs <https://d-nb.info/gnd/172944287>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172944287";
+  gndo:oldAuthorityNumber "(DE-588a)172944287", "(DE-588a)119057840", "(DE-588c)4295643-2";
+  gndo:variantNameForThePerson "Demophilos, Verfasser einer Sammlung Gnomischer Lebensregeln";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586702 .
+
+_:node1ivs02adlx24586702 gndo:personalName "Demophilos";
+  gndo:nameAddition "Verfasser einer Sammlung Gnomischer Lebensregeln" .
+
+<https://d-nb.info/gnd/119057840> gndo:variantNameForThePerson "Demophilus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586703 .
+
+_:node1ivs02adlx24586703 gndo:personalName "Demophilus" .
+
+<https://d-nb.info/gnd/119057840> gndo:variantNameForThePerson "Demophilos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586704 .
+
+_:node1ivs02adlx24586704 gndo:personalName "Demophilos" .
+
+<https://d-nb.info/gnd/119057840> gndo:variantNameForThePerson "Demophilus, Gnomicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586705 .
+
+_:node1ivs02adlx24586705 gndo:personalName "Demophilus";
+  gndo:nameAddition "Gnomicus" .
+
+<https://d-nb.info/gnd/119057840> gndo:variantNameForThePerson "Démophile";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586706 .
+
+_:node1ivs02adlx24586706 gndo:personalName "Démophile" .
+
+<https://d-nb.info/gnd/119057840> gndo:variantNameForThePerson "Demophilus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586707 .
+
+_:node1ivs02adlx24586707 gndo:personalName "Demophilus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/119057840> gndo:variantNameForThePerson "Demophilos, Gnomologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586708 .
+
+_:node1ivs02adlx24586708 gndo:personalName "Demophilos";
+  gndo:nameAddition "Gnomologus" .
+
+<https://d-nb.info/gnd/119057840> gndo:preferredNameForThePerson "Demophilus, Gnomologus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586709 .
+
+_:node1ivs02adlx24586709 gndo:personalName "Demophilus";
+  gndo:nameAddition "Gnomologus" .
+
+<https://d-nb.info/gnd/119057840> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Demophilus: Demophili et Democratis sententiae", "Demophilus: Sentences de Démophile, des sages de la Grèce",
+    "Demophilus: Pythagoreische Vergleichungen oder Lebensarznei nebst dessen Pythagoreischer *",
+    "Cebes: Des Platoniker Cebes Gemälde des menschlichen Lebens", "Demophilus: Sententiae morales",
+    "Demophilus: Sententiae morales", "Demophilus: Similitudines seu vitae curatio e Pythagoreis",
+    "Demophili, Democritis et Secundi veterum philosophorum sententiae morales", "Demophili, Democritis et Secundi veterum philosophorum sententiae morales";
+  wdrs:describedby <https://d-nb.info/gnd/119057840/about> .
+
+<https://d-nb.info/gnd/119057840/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/119057840> gndo:biographicalOrHistoricalInformation "Similitudines; Griech. Schriftsteller, Philosoph unbekannter Zeit u. Herkunft, der eine Sammlung von Sprüchen (Gnomai) über moralische Lebensführung verfasste. Diese sind im Cod. Vaticanus Gr. 743 überliefert"@de;
+  gndo:professionOrOccupation _:node1ivs02adlx24586710 .
+
+_:node1ivs02adlx24586710 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8>;
+  rdf:_2 <https://d-nb.info/gnd/4045790-4> .
+

@@ -1,0 +1,123 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119165368> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119165368/about> .
+
+<https://d-nb.info/gnd/119165368/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2017-02-09T17:09:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119165368> gndo:gndIdentifier "119165368";
+  owl:sameAs <http://viaf.org/viaf/32800577>, <http://www.wikidata.org/entity/Q1050414>;
+  gndo:oldAuthorityNumber "(DE-588)109023659X";
+  owl:sameAs <https://d-nb.info/gnd/109023659X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/109023659X";
+  gndo:oldAuthorityNumber "(DE-588a)119165368", "(DE-588c)4346376-9";
+  gndo:variantNameForThePerson "Phädrus, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593257 .
+
+_:node1ivs02adlx24593257 gndo:personalName "Phädrus";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/119165368> gndo:variantNameForThePerson "Phaedrus, Lehrer Ciceros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593258 .
+
+_:node1ivs02adlx24593258 gndo:personalName "Phaedrus";
+  gndo:nameAddition "Lehrer Ciceros" .
+
+<https://d-nb.info/gnd/119165368> gndo:variantNameForThePerson "Phaedrus, Epikureer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593259 .
+
+_:node1ivs02adlx24593259 gndo:personalName "Phaedrus";
+  gndo:nameAddition "Epikureer" .
+
+<https://d-nb.info/gnd/119165368> gndo:variantNameForThePerson "Phaedrus, Epicurean";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593260 .
+
+_:node1ivs02adlx24593260 gndo:personalName "Phaedrus";
+  gndo:nameAddition "Epicurean" .
+
+<https://d-nb.info/gnd/119165368> gndo:variantNameForThePerson "Phaedrus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593261 .
+
+_:node1ivs02adlx24593261 gndo:personalName "Phaedrus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/119165368> gndo:variantNameForThePerson "Phaidros, Epikureer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593262 .
+
+_:node1ivs02adlx24593262 gndo:personalName "Phaidros";
+  gndo:nameAddition "Epikureer" .
+
+<https://d-nb.info/gnd/119165368> gndo:variantNameForThePerson "Phaidros, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593263 .
+
+_:node1ivs02adlx24593263 gndo:personalName "Phaidros";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/119165368> gndo:variantNameForThePerson "Fedro, Epicureo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593264 .
+
+_:node1ivs02adlx24593264 gndo:personalName "Fedro";
+  gndo:nameAddition "Epicureo" .
+
+<https://d-nb.info/gnd/119165368> gndo:preferredNameForThePerson "Phaedrus, Epicureus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593265 .
+
+_:node1ivs02adlx24593265 gndo:personalName "Phaedrus";
+  gndo:nameAddition "Epicureus" .
+
+<https://d-nb.info/gnd/119165368> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/119165368/about> .
+
+<https://d-nb.info/gnd/119165368/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119165368> gndo:biographicalOrHistoricalInformation "Epikureer"@de;
+  gndo:udkCode "200 - 101 v. Chr. ", "100 - 1 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0138"^^xsd:gYear;
+  gndo:dateOfDeath "-0077"^^xsd:gYear .
+

@@ -1,0 +1,256 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11857258X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11857258X/about> .
+
+<https://d-nb.info/gnd/11857258X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T19:15:36.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11857258X> gndo:gndIdentifier "11857258X";
+  foaf:page <https://de.wikipedia.org/wiki/Libanios>;
+  owl:sameAs <https://dbpedia.org/resource/Libanius>, <http://viaf.org/viaf/17225859>,
+    <https://isni.org/isni/0000000121222137>, <http://www.wikidata.org/entity/Q263892>,
+    <http://id.loc.gov/rwo/agents/n50052091>;
+  gndo:oldAuthorityNumber "(DE-588)11974340X";
+  owl:sameAs <https://d-nb.info/gnd/11974340X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/11974340X";
+  gndo:oldAuthorityNumber "(DE-588a)11974340X", "(DE-588)1090298730";
+  owl:sameAs <https://d-nb.info/gnd/1090298730>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090298730";
+  gndo:oldAuthorityNumber "(DE-588)18649405X";
+  owl:sameAs <https://d-nb.info/gnd/18649405X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/18649405X";
+  gndo:oldAuthorityNumber "(DE-588a)18649405X", "(DE-588a)11857258X", "(DE-588c)4035566-4";
+  gndo:variantNameForThePerson "Libanius, Constantinopolitanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401187 .
+
+_:node1ivpishs6x25401187 gndo:personalName "Libanius";
+  gndo:nameAddition "Constantinopolitanus" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanius, Nicomediensis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401188 .
+
+_:node1ivpishs6x25401188 gndo:personalName "Libanius";
+  gndo:nameAddition "Nicomediensis" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanios, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401189 .
+
+_:node1ivpishs6x25401189 gndo:personalName "Libanios";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanius, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401190 .
+
+_:node1ivpishs6x25401190 gndo:personalName "Libanius";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanius, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401191 .
+
+_:node1ivpishs6x25401191 gndo:personalName "Libanius";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanio, di Antiochia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401192 .
+
+_:node1ivpishs6x25401192 gndo:personalName "Libanio";
+  gndo:nameAddition "di Antiochia" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanio, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401193 .
+
+_:node1ivpishs6x25401193 gndo:personalName "Libanio";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanus, Sophista";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401194 .
+
+_:node1ivpishs6x25401194 gndo:personalName "Libanus";
+  gndo:nameAddition "Sophista" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401195 .
+
+_:node1ivpishs6x25401195 gndo:personalName "Libanus" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanius, d'Antioche";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401196 .
+
+_:node1ivpishs6x25401196 gndo:personalName "Libanius";
+  gndo:nameAddition "d'Antioche" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401197 .
+
+_:node1ivpishs6x25401197 gndo:personalName "Libanios" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanius, Antiochenus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401198 .
+
+_:node1ivpishs6x25401198 gndo:personalName "Libanius";
+  gndo:nameAddition "Antiochenus" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanios, von Antiocheia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401199 .
+
+_:node1ivpishs6x25401199 gndo:personalName "Libanios";
+  gndo:nameAddition "von Antiocheia" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Libanio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401200 .
+
+_:node1ivpishs6x25401200 gndo:personalName "Libanio" .
+
+<https://d-nb.info/gnd/11857258X> gndo:variantNameForThePerson "Livanios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401201 .
+
+_:node1ivpishs6x25401201 gndo:personalName "Livanios" .
+
+<https://d-nb.info/gnd/11857258X> gndo:preferredNameForThePerson "Libanius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401202 .
+
+_:node1ivpishs6x25401202 gndo:personalName "Libanius" .
+
+<https://d-nb.info/gnd/11857258X> gndo:hasRelation _:node1ivpishs6x25401203 .
+
+_:node1ivpishs6x25401203 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship _:node1ivpishs6x25401204 .
+
+_:node1ivpishs6x25401204 gndo:forename "Kaspar";
+  gndo:surname "Stiblin" .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship <https://d-nb.info/gnd/118575228>;
+  gndo:hasRelation _:node1ivpishs6x25401205 .
+
+_:node1ivpishs6x25401205 gndo:professionalRelationship <https://d-nb.info/gnd/118575228>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship <https://d-nb.info/gnd/118747681>;
+  gndo:hasRelation _:node1ivpishs6x25401206 .
+
+_:node1ivpishs6x25401206 gndo:professionalRelationship <https://d-nb.info/gnd/118747681>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship <https://d-nb.info/gnd/118516868>;
+  gndo:hasRelation _:node1ivpishs6x25401207 .
+
+_:node1ivpishs6x25401207 gndo:professionalRelationship <https://d-nb.info/gnd/118516868>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:hasRelation _:node1ivpishs6x25401208 .
+
+_:node1ivpishs6x25401208 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship _:node1ivpishs6x25401209 .
+
+_:node1ivpishs6x25401209 gndo:forename "Petrus";
+  gndo:surname "Schade" .
+
+<https://d-nb.info/gnd/11857258X> gndo:hasRelation _:node1ivpishs6x25401210 .
+
+_:node1ivpishs6x25401210 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship _:node1ivpishs6x25401211 .
+
+_:node1ivpishs6x25401211 gndo:forename "Vincentius";
+  gndo:surname "Opsopaeus" .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship <https://d-nb.info/gnd/118678876>;
+  gndo:hasRelation _:node1ivpishs6x25401212 .
+
+_:node1ivpishs6x25401212 gndo:professionalRelationship <https://d-nb.info/gnd/118678876>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship <https://d-nb.info/gnd/118627295>;
+  gndo:hasRelation _:node1ivpishs6x25401213 .
+
+_:node1ivpishs6x25401213 gndo:professionalRelationship <https://d-nb.info/gnd/118627295>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship <https://d-nb.info/gnd/11855333X>;
+  gndo:hasRelation _:node1ivpishs6x25401214 .
+
+_:node1ivpishs6x25401214 gndo:professionalRelationship <https://d-nb.info/gnd/11855333X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:professionalRelationship <https://d-nb.info/gnd/118677713>;
+  gndo:hasRelation _:node1ivpishs6x25401215 .
+
+_:node1ivpishs6x25401215 gndo:professionalRelationship <https://d-nb.info/gnd/118677713>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/11857258X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Characteres, seu notae et formulae epistolarum", "Declamatiunculae aliquot ...",
+    "De conscribendis epistolis libellus", "Pro templis gentilium non excindendis ... oratio ...",
+    "Orationes", "Orationes IV.", "Orationes XVII.", "Progymnasmatum paradigmatu", "Responsio Achillis ad Ulyssem legatum",
+    "Vita Demosthenis", "Scribendarum epistolarum compendium", "Declamatio de uxore loquace",
+    "Demosthenes: Orationes Olynthiacae tres", "Erasmus, Desiderius: OMNIA OPERA DES. ERASMI ROTERODAMI, QVAECVNQVE IPSE AVTOR PRO SVIS AGNOVIT, NOVEM TOMIS ...",
+    "LIBANII SOPHISTAE GRAECI declamatiunculae aliquot, eaedem[que] Latinae, per DES. ERASMVM ...",
+    "Demosthenes: \\=GDĒMOSTHENUS LOGOI DYO KAI HEXĒKONTA.\\=g HABES LECTOR DEMOSTHENIS ... orationes ...",
+    "Dictys Cretensis: Ephemeris belli Troiani", "Demosthenes: De falsa legatione contra Aeschinem oratio";
+  wdrs:describedby <https://d-nb.info/gnd/11857258X/about> .
+
+<https://d-nb.info/gnd/11857258X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11857258X> gndo:biographicalOrHistoricalInformation "Griech. Sophist u. Rhetor, Der Redner, Rhetoriklehrer und Sophist stammte aus Antiochia"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0314"^^xsd:gYear;
+  gndo:dateOfDeath "0393"^^xsd:gYear .
+

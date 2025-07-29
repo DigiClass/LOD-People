@@ -1,0 +1,225 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118649728> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118649728/about> .
+
+<https://d-nb.info/gnd/118649728/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-10-24T00:33:48.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118649728> gndo:gndIdentifier "118649728";
+  foaf:page <https://de.wikipedia.org/wiki/Antonius_der_Gro%C3%9Fe>;
+  owl:sameAs <https://dbpedia.org/resource/Anthony_the_Great>, <http://viaf.org/viaf/107024917>,
+    <https://isni.org/isni/0000000109303858>, <http://www.wikidata.org/entity/Q170547>,
+    <http://id.loc.gov/rwo/agents/n50030399>;
+  gndo:oldAuthorityNumber "(DE-588)189531525";
+  owl:sameAs <https://d-nb.info/gnd/189531525>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/189531525";
+  gndo:oldAuthorityNumber "(DE-588a)189531525", "(DE-588c)7810918-8", "(DE-588)1089177380";
+  owl:sameAs <https://d-nb.info/gnd/1089177380>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089177380";
+  gndo:oldAuthorityNumber "(DE-588)1089894457";
+  owl:sameAs <https://d-nb.info/gnd/1089894457>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089894457";
+  gndo:oldAuthorityNumber "(DE-588)1089726198";
+  owl:sameAs <https://d-nb.info/gnd/1089726198>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726198";
+  gndo:oldAuthorityNumber "(DE-588a)118649728", "(DE-588a)111795354", "(DE-588c)4085840-6";
+  gndo:variantNameForThePerson "Antonius, Heiliger";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401357 .
+
+_:node1ivpishs6x25401357 gndo:personalName "Antonius";
+  gndo:nameAddition "Heiliger" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonios, der Eremit";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401358 .
+
+_:node1ivpishs6x25401358 gndo:personalName "Antonios";
+  gndo:nameAddition "der Eremit" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonius, von Ägypten";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401359 .
+
+_:node1ivpishs6x25401359 gndo:personalName "Antonius";
+  gndo:nameAddition "von Ägypten" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonius, Eremita";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401360 .
+
+_:node1ivpishs6x25401360 gndo:personalName "Antonius";
+  gndo:nameAddition "Eremita" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonius, Magnus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401361 .
+
+_:node1ivpishs6x25401361 gndo:personalName "Antonius";
+  gndo:nameAddition "Magnus" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401362 .
+
+_:node1ivpishs6x25401362 gndo:personalName "Antonius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonius, der Einsiedler";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401363 .
+
+_:node1ivpishs6x25401363 gndo:personalName "Antonius";
+  gndo:nameAddition "der Einsiedler" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonius, Abt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401364 .
+
+_:node1ivpishs6x25401364 gndo:personalName "Antonius";
+  gndo:nameAddition "Abt" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonios, der Einsiedler";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401365 .
+
+_:node1ivpishs6x25401365 gndo:personalName "Antonios";
+  gndo:nameAddition "der Einsiedler" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonios, der Grosse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401366 .
+
+_:node1ivpishs6x25401366 gndo:personalName "Antonios";
+  gndo:nameAddition "der Grosse" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonios, Abt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401367 .
+
+_:node1ivpishs6x25401367 gndo:personalName "Antonios";
+  gndo:nameAddition "Abt" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Anthony, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401368 .
+
+_:node1ivpishs6x25401368 gndo:personalName "Anthony";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antoine, l'Érmite";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401369 .
+
+_:node1ivpishs6x25401369 gndo:personalName "Antoine";
+  gndo:nameAddition "l'Érmite" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antoine, Saint";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401370 .
+
+_:node1ivpishs6x25401370 gndo:personalName "Antoine";
+  gndo:nameAddition "Saint" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antoine, Abba";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401371 .
+
+_:node1ivpishs6x25401371 gndo:personalName "Antoine";
+  gndo:nameAddition "Abba" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonius, Aegypticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401372 .
+
+_:node1ivpishs6x25401372 gndo:personalName "Antonius";
+  gndo:nameAddition "Aegypticus" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Pseudo-Antonius, Sanctus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401373 .
+
+_:node1ivpishs6x25401373 gndo:personalName "Pseudo-Antonius";
+  gndo:nameAddition "Sanctus" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Pseudo-Antonius, Abbas";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401374 .
+
+_:node1ivpishs6x25401374 gndo:personalName "Pseudo-Antonius";
+  gndo:nameAddition "Abbas" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonius, der Grosse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401375 .
+
+_:node1ivpishs6x25401375 gndo:personalName "Antonius";
+  gndo:nameAddition "der Grosse" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Anton, Mec";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401376 .
+
+_:node1ivpishs6x25401376 gndo:personalName "Anton";
+  gndo:nameAddition "Mec" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antonios, ho Megalos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401377 .
+
+_:node1ivpishs6x25401377 gndo:personalName "Antonios";
+  gndo:nameAddition "ho Megalos" .
+
+<https://d-nb.info/gnd/118649728> gndo:variantNameForThePerson "Antoine, le Grand";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25401378 .
+
+_:node1ivpishs6x25401378 gndo:personalName "Antoine";
+  gndo:nameAddition "le Grand" .
+
+<https://d-nb.info/gnd/118649728> gndo:preferredNameForThePerson "Antonius, Abbas";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25401379 .
+
+_:node1ivpishs6x25401379 gndo:personalName "Antonius";
+  gndo:nameAddition "Abbas" .
+
+<https://d-nb.info/gnd/118649728> gndo:professionOrOccupationAsLiteral "Heiliger";
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/cop>, <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Antonius <Abbas>: Sanctissimi patris nostri B. Antonii Magni Monachorum omnium Paren*",
+    "Antonius <Abbas>: Epistolae septem ad fratres suos", "Antonius <Abbas>: Epistolae septem ad fratres suos",
+    "Antonius <Abbas>: Regulae, Sermones, epistolae et documenta", "Antonius <Abbas>: Regulae, Sermones, epistolae et documenta",
+    "Der hl. Antonius, die Antoniter und die Crux mit dem Kreuz. - 1998";
+  wdrs:describedby <https://d-nb.info/gnd/118649728/about> .
+
+<https://d-nb.info/gnd/118649728/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118649728> gndo:biographicalOrHistoricalInformation "Ägypt. Einsiedler u. Heiliger"@de;
+  gndo:udkCode "201 - 300", "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0251"^^xsd:gYear;
+  gndo:dateOfDeath "0356"^^xsd:gYear .
+

@@ -1,0 +1,96 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/1129723461> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/1129723461/about> .
+
+<https://d-nb.info/gnd/1129723461/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2017-04-11T16:48:41.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/1129723461> gndo:gndIdentifier "1129723461";
+  owl:sameAs <http://viaf.org/viaf/3233149235093676690008>;
+  gndo:variantNameForThePerson "Konstantin, Byzantinisches Reich, Mitkaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596242 .
+
+_:node1ivs02adlx24596242 gndo:personalName "Konstantin";
+  gndo:nameAddition "Byzantinisches Reich, Mitkaiser" .
+
+<https://d-nb.info/gnd/1129723461> gndo:variantNameForThePerson "Konstantin, Byzantinischer Mitkaiser";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24596243 .
+
+_:node1ivs02adlx24596243 gndo:personalName "Konstantin";
+  gndo:nameAddition "Byzantinischer Mitkaiser" .
+
+<https://d-nb.info/gnd/1129723461> gndo:preferredNameForThePerson "Konstantin, Imperium Byzantinum, Mitkaiser";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24596244 .
+
+_:node1ivs02adlx24596244 gndo:personalName "Konstantin";
+  gndo:nameAddition "Imperium Byzantinum, Mitkaiser" .
+
+<https://d-nb.info/gnd/1129723461> gndo:familialRelationship <https://d-nb.info/gnd/118867741>;
+  agrelon:hasParent <https://d-nb.info/gnd/118867741>;
+  gndo:hasRelation _:node1ivs02adlx24596245 .
+
+_:node1ivs02adlx24596245 agrelon:hasParent <https://d-nb.info/gnd/118867741>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/1129723461> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/1129723461/about> .
+
+<https://d-nb.info/gnd/1129723461/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-Y2>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-255> .
+
+<https://d-nb.info/gnd/1129723461> gndo:biographicalOrHistoricalInformation "Laut Schriftquellen und Münzprägungen wurde Konstantin in seinem ersten Lebensjahr 831 zum Mitkaiser gekrönt und ertrank höchstwahrscheinlich unaufbesichtigt im daraufkommenden Jahr 832"@de;
+  gndo:placeOfBirth <https://d-nb.info/gnd/4073697-0>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4073697-0>;
+  gndo:professionOrOccupation _:node1ivs02adlx24596246 .
+
+_:node1ivs02adlx24596246 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4771859-6> .
+
+<https://d-nb.info/gnd/1129723461> gndo:dateOfBirth "0830"^^xsd:gYear;
+  gndo:dateOfDeath "0832"^^xsd:gYear .
+

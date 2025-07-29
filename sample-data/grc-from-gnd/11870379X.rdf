@@ -1,0 +1,183 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/11870379X> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/11870379X/about> .
+
+<https://d-nb.info/gnd/11870379X/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2019-05-07T09:01:53.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/11870379X> gndo:gndIdentifier "11870379X";
+  foaf:page <https://de.wikipedia.org/wiki/Ailios_Herodianos>;
+  owl:sameAs <https://dbpedia.org/resource/Aelius_Herodianus>, <http://viaf.org/viaf/88626271>,
+    <https://isni.org/isni/0000000121428274>, <http://www.wikidata.org/entity/Q380826>,
+    <http://id.loc.gov/rwo/agents/n88039759>;
+  gndo:oldAuthorityNumber "(DE-588)1089903553";
+  owl:sameAs <https://d-nb.info/gnd/1089903553>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089903553";
+  gndo:oldAuthorityNumber "(DE-588)1089718721";
+  owl:sameAs <https://d-nb.info/gnd/1089718721>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089718721";
+  gndo:oldAuthorityNumber "(DE-588)1089156448";
+  owl:sameAs <https://d-nb.info/gnd/1089156448>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089156448";
+  gndo:oldAuthorityNumber "(DE-588)186058896";
+  owl:sameAs <https://d-nb.info/gnd/186058896>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186058896";
+  gndo:oldAuthorityNumber "(DE-588a)186058896", "(DE-588)175870128";
+  owl:sameAs <https://d-nb.info/gnd/175870128>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/175870128";
+  gndo:oldAuthorityNumber "(DE-588a)175870128", "(DE-588a)11870379X", "(DE-588c)4095106-6";
+  gndo:variantNameForThePerson "Aelius, Herodianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403588 .
+
+_:node1ivpishs6x25403588 gndo:forename "Herodianus";
+  gndo:surname "Aelius" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianus, Grammaticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403589 .
+
+_:node1ivpishs6x25403589 gndo:personalName "Herodianus";
+  gndo:nameAddition "Grammaticus" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianus, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403590 .
+
+_:node1ivpishs6x25403590 gndo:personalName "Herodianus";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianus, Romanus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403591 .
+
+_:node1ivpishs6x25403591 gndo:personalName "Herodianus";
+  gndo:nameAddition "Romanus" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianos, Technikos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403592 .
+
+_:node1ivpishs6x25403592 gndo:personalName "Herodianos";
+  gndo:nameAddition "Technikos" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianos, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403593 .
+
+_:node1ivpishs6x25403593 gndo:personalName "Herodianos";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianos, Sohn des Apollonios Dyskolos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403594 .
+
+_:node1ivpishs6x25403594 gndo:personalName "Herodianos";
+  gndo:nameAddition "Sohn des Apollonios Dyskolos" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianos, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403595 .
+
+_:node1ivpishs6x25403595 gndo:personalName "Herodianos";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodian, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403596 .
+
+_:node1ivpishs6x25403596 gndo:personalName "Herodian";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Pseudo-Herodianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403597 .
+
+_:node1ivpishs6x25403597 gndo:personalName "Pseudo-Herodianus" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianus, Technicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403598 .
+
+_:node1ivpishs6x25403598 gndo:personalName "Herodianus";
+  gndo:nameAddition "Technicus" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Hérodien, dÁlexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403599 .
+
+_:node1ivpishs6x25403599 gndo:personalName "Hérodien";
+  gndo:nameAddition "dÁlexandrie" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianus, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403600 .
+
+_:node1ivpishs6x25403600 gndo:personalName "Herodianus";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Aelius, Herodianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403601 .
+
+_:node1ivpishs6x25403601 gndo:personalName "Aelius";
+  gndo:nameAddition "Herodianus" .
+
+<https://d-nb.info/gnd/11870379X> gndo:variantNameForThePerson "Herodianos, Ailios";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403602 .
+
+_:node1ivpishs6x25403602 gndo:forename "Ailios";
+  gndo:surname "Herodianos" .
+
+<https://d-nb.info/gnd/11870379X> gndo:preferredNameForThePerson "Herodianus, Aelius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403603 .
+
+_:node1ivpishs6x25403603 gndo:forename "Aelius";
+  gndo:surname "Herodianus" .
+
+<https://d-nb.info/gnd/11870379X> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/11870379X/about> .
+
+<https://d-nb.info/gnd/11870379X/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/11870379X> gndo:biographicalOrHistoricalInformation "Griech. Grammatiker"@de;
+  gndo:udkCode "101 - 200";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25403604 .
+
+_:node1ivpishs6x25403604 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4158016-3> .
+
+<https://d-nb.info/gnd/11870379X> gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

@@ -1,0 +1,222 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118835874> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118835874/about> .
+
+<https://d-nb.info/gnd/118835874/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-01-21T14:09:01.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118835874> gndo:gndIdentifier "118835874";
+  owl:sameAs <https://dbpedia.org/resource/Bion_of_Smyrna>, <http://viaf.org/viaf/2497159477708227990005>,
+    <http://www.wikidata.org/entity/Q463364>;
+  gndo:oldAuthorityNumber "(DE-588)1089880316";
+  owl:sameAs <https://d-nb.info/gnd/1089880316>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089880316";
+  gndo:oldAuthorityNumber "(DE-588)174132204";
+  owl:sameAs <https://d-nb.info/gnd/174132204>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174132204";
+  gndo:oldAuthorityNumber "(DE-588a)174132204", "(DE-588)108913472X";
+  owl:sameAs <https://d-nb.info/gnd/108913472X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108913472X";
+  gndo:oldAuthorityNumber "(DE-588)1089889739";
+  owl:sameAs <https://d-nb.info/gnd/1089889739>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089889739";
+  gndo:oldAuthorityNumber "(DE-588a)118835874", "(DE-588a)127806806", "(DE-588c)4198958-2";
+  gndo:variantNameForThePerson "Bio, Bucolicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591244 .
+
+_:node1ivs02adlx24591244 gndo:personalName "Bio";
+  gndo:nameAddition "Bucolicus" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bio, Smyrnaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591245 .
+
+_:node1ivs02adlx24591245 gndo:personalName "Bio";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, Bukoliker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591246 .
+
+_:node1ivs02adlx24591246 gndo:personalName "Bion";
+  gndo:nameAddition "Bukoliker" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, Nachahmer Theokrits";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591247 .
+
+_:node1ivs02adlx24591247 gndo:personalName "Bion";
+  gndo:nameAddition "Nachahmer Theokrits" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, de Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591248 .
+
+_:node1ivs02adlx24591248 gndo:personalName "Bion";
+  gndo:nameAddition "de Smyrna" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bio, de Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591249 .
+
+_:node1ivs02adlx24591249 gndo:personalName "Bio";
+  gndo:nameAddition "de Smyrna" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591250 .
+
+_:node1ivs02adlx24591250 gndo:personalName "Bion" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bione";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591251 .
+
+_:node1ivs02adlx24591251 gndo:personalName "Bione" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591252 .
+
+_:node1ivs02adlx24591252 gndo:personalName "Bio" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, Bucolicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591253 .
+
+_:node1ivs02adlx24591253 gndo:personalName "Bion";
+  gndo:nameAddition "Bucolicus" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, of Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591254 .
+
+_:node1ivs02adlx24591254 gndo:personalName "Bion";
+  gndo:nameAddition "of Smyrna" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, de Smyrne";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591255 .
+
+_:node1ivs02adlx24591255 gndo:personalName "Bion";
+  gndo:nameAddition "de Smyrne" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, Phlossa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591256 .
+
+_:node1ivs02adlx24591256 gndo:personalName "Bion";
+  gndo:nameAddition "Phlossa" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, of Phlossa near Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591257 .
+
+_:node1ivs02adlx24591257 gndo:personalName "Bion";
+  gndo:nameAddition "of Phlossa near Smyrna" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bione, di Smirne";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591258 .
+
+_:node1ivs02adlx24591258 gndo:personalName "Bione";
+  gndo:nameAddition "di Smirne" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bione, Poeta Bucolico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591259 .
+
+_:node1ivs02adlx24591259 gndo:personalName "Bione";
+  gndo:nameAddition "Poeta Bucolico" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bionos, Smyrnaios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591260 .
+
+_:node1ivs02adlx24591260 gndo:personalName "Bionos";
+  gndo:nameAddition "Smyrnaios" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, Smyrnaios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591261 .
+
+_:node1ivs02adlx24591261 gndo:personalName "Bion";
+  gndo:nameAddition "Smyrnaios" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bion, von Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591262 .
+
+_:node1ivs02adlx24591262 gndo:personalName "Bion";
+  gndo:nameAddition "von Smyrna" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bionus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591263 .
+
+_:node1ivs02adlx24591263 gndo:personalName "Bionus" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bionus, Smyrnaeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591264 .
+
+_:node1ivs02adlx24591264 gndo:personalName "Bionus";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Bionus, de Smyrna";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591265 .
+
+_:node1ivs02adlx24591265 gndo:personalName "Bionus";
+  gndo:nameAddition "de Smyrna" .
+
+<https://d-nb.info/gnd/118835874> gndo:variantNameForThePerson "Smyrnaeus, Bion";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591266 .
+
+_:node1ivs02adlx24591266 gndo:forename "Bion";
+  gndo:surname "Smyrnaeus" .
+
+<https://d-nb.info/gnd/118835874> gndo:preferredNameForThePerson "Bion, Smyrnaeus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591267 .
+
+_:node1ivs02adlx24591267 gndo:personalName "Bion";
+  gndo:nameAddition "Smyrnaeus" .
+
+<https://d-nb.info/gnd/118835874> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Carmina", "Les Idylles de Bion et de Moschus", "Bionis et Moschi Idyllia et quae praeterea exstant graece et latine",
+    "The works of Bion", "Moschus: Moschi et Bionis idyllia", "Moschus: Moschi et Bionis idyllia ...",
+    "Moschus: Moschi et Bionis idyllia ...", "Moschus: Poésies de Moschus et de Bion",
+    "Theocritus: Theocritus Bion et Moschus", "Theocritus: Quae supersunt";
+  wdrs:describedby <https://d-nb.info/gnd/118835874/about> .
+
+<https://d-nb.info/gnd/118835874/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118835874> gndo:biographicalOrHistoricalInformation "Griechischer Bukoliker aus Phlossa bei Smyrna"@de;
+  gndo:udkCode "200 - 101 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[2. Jh. v. Chr.]" .
+

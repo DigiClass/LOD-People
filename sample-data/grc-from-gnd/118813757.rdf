@@ -1,0 +1,109 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118813757> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118813757/about> .
+
+<https://d-nb.info/gnd/118813757/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2009-11-16T14:52:17.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118813757> gndo:gndIdentifier "118813757";
+  foaf:page <https://de.wikipedia.org/wiki/Makrina_die_J%C3%BCngere>;
+  owl:sameAs <https://dbpedia.org/resource/Macrina_the_Younger>, <http://viaf.org/viaf/104722758>,
+    <https://isni.org/isni/000000008010941X>, <http://www.wikidata.org/entity/Q239081>,
+    <http://id.loc.gov/rwo/agents/n92118162>;
+  gndo:oldAuthorityNumber "(DE-588a)118813757", "(DE-588c)4125809-5";
+  gndo:variantNameForThePerson "Makrina, Heilige, 327-380";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399125 .
+
+_:node1ivpishs6x25399125 gndo:personalName "Makrina";
+  gndo:nameAddition "Heilige, 327-380" .
+
+<https://d-nb.info/gnd/118813757> gndo:variantNameForThePerson "Macrina, Heilige, 327-380";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399126 .
+
+_:node1ivpishs6x25399126 gndo:personalName "Macrina";
+  gndo:nameAddition "Heilige, 327-380" .
+
+<https://d-nb.info/gnd/118813757> gndo:preferredNameForThePerson "Makrina, die Jüngere";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25399127 .
+
+_:node1ivpishs6x25399127 gndo:personalName "Makrina";
+  gndo:nameAddition "die Jüngere" .
+
+<https://d-nb.info/gnd/118813757> gndo:familialRelationship <https://d-nb.info/gnd/118541919>;
+  agrelon:hasSibling <https://d-nb.info/gnd/118541919>;
+  gndo:hasRelation _:node1ivpishs6x25399128 .
+
+_:node1ivpishs6x25399128 agrelon:hasSibling <https://d-nb.info/gnd/118541919>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118813757> gndo:familialRelationship <https://d-nb.info/gnd/118637797>;
+  agrelon:hasSibling <https://d-nb.info/gnd/118637797>;
+  gndo:hasRelation _:node1ivpishs6x25399129 .
+
+_:node1ivpishs6x25399129 agrelon:hasSibling <https://d-nb.info/gnd/118637797>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118813757> gndo:familialRelationship <https://d-nb.info/gnd/118813749>;
+  agrelon:hasGrandParent <https://d-nb.info/gnd/118813749>;
+  gndo:hasRelation _:node1ivpishs6x25399130 .
+
+_:node1ivpishs6x25399130 agrelon:hasGrandParent <https://d-nb.info/gnd/118813749>;
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118813757> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XU>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118813757/about> .
+
+<https://d-nb.info/gnd/118813757/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118813757> gndo:biographicalOrHistoricalInformation "Griech. Heilige"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "0327"^^xsd:gYear;
+  gndo:dateOfDeath "0380"^^xsd:gYear .
+

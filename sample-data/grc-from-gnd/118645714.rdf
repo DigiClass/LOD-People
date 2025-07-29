@@ -1,0 +1,178 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118645714> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118645714/about> .
+
+<https://d-nb.info/gnd/118645714/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-07-23T17:14:04.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118645714> gndo:gndIdentifier "118645714";
+  owl:sameAs <https://dbpedia.org/resource/Aristarchus_of_Samos>, <http://viaf.org/viaf/268676381>,
+    <http://www.wikidata.org/entity/Q140188>;
+  gndo:oldAuthorityNumber "(DE-588)1158999488";
+  owl:sameAs <https://d-nb.info/gnd/1158999488>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1158999488";
+  gndo:oldAuthorityNumber "(DE-588)1157376320";
+  owl:sameAs <https://d-nb.info/gnd/1157376320>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1157376320";
+  gndo:oldAuthorityNumber "(DE-588)1089784236";
+  owl:sameAs <https://d-nb.info/gnd/1089784236>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089784236";
+  gndo:oldAuthorityNumber "(DE-588a)118645714", "(DE-588c)4080151-2";
+  gndo:variantNameForThePerson "Aristarch, von Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594949 .
+
+_:node1ivs02adlx24594949 gndo:personalName "Aristarch";
+  gndo:nameAddition "von Samos" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchos, von Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594950 .
+
+_:node1ivs02adlx24594950 gndo:personalName "Aristarchos";
+  gndo:nameAddition "von Samos" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchos, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594951 .
+
+_:node1ivs02adlx24594951 gndo:personalName "Aristarchos";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchos, Astronom";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594952 .
+
+_:node1ivs02adlx24594952 gndo:personalName "Aristarchos";
+  gndo:nameAddition "Astronom" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchus, Astronomus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594953 .
+
+_:node1ivs02adlx24594953 gndo:personalName "Aristarchus";
+  gndo:nameAddition "Astronomus" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchos, of Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594954 .
+
+_:node1ivs02adlx24594954 gndo:personalName "Aristarchos";
+  gndo:nameAddition "of Samos" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchus, Astronomer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594955 .
+
+_:node1ivs02adlx24594955 gndo:personalName "Aristarchus";
+  gndo:nameAddition "Astronomer" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarco, di Samo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594956 .
+
+_:node1ivs02adlx24594956 gndo:personalName "Aristarco";
+  gndo:nameAddition "di Samo" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarco, Astronomo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594957 .
+
+_:node1ivs02adlx24594957 gndo:personalName "Aristarco";
+  gndo:nameAddition "Astronomo" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchus, of Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594958 .
+
+_:node1ivs02adlx24594958 gndo:personalName "Aristarchus";
+  gndo:nameAddition "of Samos" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarque, de Samos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594959 .
+
+_:node1ivs02adlx24594959 gndo:personalName "Aristarque";
+  gndo:nameAddition "de Samos" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594960 .
+
+_:node1ivs02adlx24594960 gndo:personalName "Aristarchus" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarchos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594961 .
+
+_:node1ivs02adlx24594961 gndo:personalName "Aristarchos" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarco";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594962 .
+
+_:node1ivs02adlx24594962 gndo:personalName "Aristarco" .
+
+<https://d-nb.info/gnd/118645714> gndo:variantNameForThePerson "Aristarch";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594963 .
+
+_:node1ivs02adlx24594963 gndo:personalName "Aristarch" .
+
+<https://d-nb.info/gnd/118645714> gndo:preferredNameForThePerson "Aristarchus, Samius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594964 .
+
+_:node1ivs02adlx24594964 gndo:personalName "Aristarchus";
+  gndo:nameAddition "Samius" .
+
+<https://d-nb.info/gnd/118645714> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#20p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Aristarchus <Samius>: Aristarchu Samu Peri megethōn", "Aristarchus <Samius>: De magnitudinibus et distantiis solis et lunae liber",
+    "Aristarchus <Samius>: De magnitudinibus et distantiis solis et lunae";
+  wdrs:describedby <https://d-nb.info/gnd/118645714/about> .
+
+<https://d-nb.info/gnd/118645714/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118645714> gndo:biographicalOrHistoricalInformation "Griech. Mathematiker und Astronom"@de,
+    "Astronom, Griechenland"@de;
+  gndo:udkCode "400 - 301 v. Chr. ", "300 - 201 v. Chr. ";
+  gndo:professionOrOccupation _:node1ivs02adlx24594965 .
+
+_:node1ivs02adlx24594965 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4003310-7>;
+  rdf:_2 <https://d-nb.info/gnd/4037945-0>;
+  rdf:_3 <https://d-nb.info/gnd/4003310-7> .
+
+<https://d-nb.info/gnd/118645714> gndo:dateOfBirth "-0310"^^xsd:gYear;
+  gndo:dateOfDeath "-0230"^^xsd:gYear .
+

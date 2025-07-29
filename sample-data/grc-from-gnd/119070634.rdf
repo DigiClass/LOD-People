@@ -1,0 +1,202 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119070634> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119070634/about> .
+
+<https://d-nb.info/gnd/119070634/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-11T20:21:14.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119070634> gndo:gndIdentifier "119070634";
+  foaf:page <https://de.wikipedia.org/wiki/Phlegon_von_Tralleis>;
+  owl:sameAs <https://dbpedia.org/resource/Phlegon_of_Tralles>, <http://viaf.org/viaf/2633773>,
+    <https://isni.org/isni/0000000115862613>, <http://www.wikidata.org/entity/Q138531>,
+    <http://id.loc.gov/rwo/agents/no97040169>;
+  gndo:oldAuthorityNumber "(DE-588)1089876998";
+  owl:sameAs <https://d-nb.info/gnd/1089876998>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089876998";
+  gndo:oldAuthorityNumber "(DE-588)1089262507";
+  owl:sameAs <https://d-nb.info/gnd/1089262507>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089262507";
+  gndo:oldAuthorityNumber "(DE-588)186062265";
+  owl:sameAs <https://d-nb.info/gnd/186062265>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186062265";
+  gndo:oldAuthorityNumber "(DE-588a)186062265", "(DE-588a)119070634", "(DE-588c)4301715-0";
+  gndo:variantNameForThePerson "Phlegon, Publius A.";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399388 .
+
+_:node1ivpishs6x25399388 gndo:forename "Publius A.";
+  gndo:surname "Phlegon" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399389 .
+
+_:node1ivpishs6x25399389 gndo:personalName "Phlegon" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon, von Tralleis";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399390 .
+
+_:node1ivpishs6x25399390 gndo:personalName "Phlegon";
+  gndo:nameAddition "von Tralleis" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon, von Tralles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399391 .
+
+_:node1ivpishs6x25399391 gndo:personalName "Phlegon";
+  gndo:nameAddition "von Tralles" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon, Publius Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399392 .
+
+_:node1ivpishs6x25399392 gndo:forename "Publius Aelius";
+  gndo:surname "Phlegon" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon, Paradoxographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399393 .
+
+_:node1ivpishs6x25399393 gndo:personalName "Phlegon";
+  gndo:nameAddition "Paradoxographus" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlego, Trallianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399394 .
+
+_:node1ivpishs6x25399394 gndo:personalName "Phlego";
+  gndo:nameAddition "Trallianus" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlego, Paradoxographus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399395 .
+
+_:node1ivpishs6x25399395 gndo:personalName "Phlego";
+  gndo:nameAddition "Paradoxographus" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon, Historian";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399396 .
+
+_:node1ivpishs6x25399396 gndo:personalName "Phlegon";
+  gndo:nameAddition "Historian" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Aelius Phlegon, Publius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399397 .
+
+_:node1ivpishs6x25399397 gndo:forename "Publius";
+  gndo:surname "Aelius Phlegon" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Flegonte, Publio Elio";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399398 .
+
+_:node1ivpishs6x25399398 gndo:forename "Publio Elio";
+  gndo:surname "Flegonte" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Flegonte, di Tralle";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399399 .
+
+_:node1ivpishs6x25399399 gndo:personalName "Flegonte";
+  gndo:nameAddition "di Tralle" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlego, Publius Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399400 .
+
+_:node1ivpishs6x25399400 gndo:forename "Publius Aelius";
+  gndo:surname "Phlego" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon Trallianus, Publius Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399401 .
+
+_:node1ivpishs6x25399401 gndo:forename "Publius Aelius";
+  gndo:surname "Phlegon Trallianus" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon, a Tralles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399402 .
+
+_:node1ivpishs6x25399402 gndo:personalName "Phlegon";
+  gndo:nameAddition "a Tralles" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon, of Tralles";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399403 .
+
+_:node1ivpishs6x25399403 gndo:personalName "Phlegon";
+  gndo:nameAddition "of Tralles" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon, Publius Aelius, Trallianus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399404 .
+
+_:node1ivpishs6x25399404 gndo:forename "Publius Aelius";
+  gndo:surname "Phlegon";
+  gndo:nameAddition "Trallianus" .
+
+<https://d-nb.info/gnd/119070634> gndo:variantNameForThePerson "Phlegon von Tralleis, Publius Aelius";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25399405 .
+
+_:node1ivpishs6x25399405 gndo:forename "Publius Aelius";
+  gndo:surname "Phlegon von Tralleis" .
+
+<https://d-nb.info/gnd/119070634> gndo:preferredNameForThePerson "Phlegon, Trallianus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25399406 .
+
+_:node1ivpishs6x25399406 gndo:personalName "Phlegon";
+  gndo:nameAddition "Trallianus" .
+
+<https://d-nb.info/gnd/119070634> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XT>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Phlegon <Trallianus>: Quae extant opuscula", "Phlegon <Trallianus>: Opuscula graece et lat.",
+    "Phlegon <Trallianus>: De mirabilibus et longaeuis libellus de Olympiis fragmentum",
+    "Phlegon <Trallianus>: De rebus miris", "Phlegon <Trallianus>: Opuscula Graece et Latine",
+    "Antigonus <Carystius>: Paradoxographi", "Antigonus <Carystius>: Historiae mirabiles",
+    "Phlegon <Trallianus>: Quae extant opuscula";
+  wdrs:describedby <https://d-nb.info/gnd/119070634/about> .
+
+<https://d-nb.info/gnd/119070634/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-605>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-605> .
+
+<https://d-nb.info/gnd/119070634> gndo:biographicalOrHistoricalInformation "FGrH 257; 257a; Griech. Historiker und Freigelassener des Kaisers"@de;
+  gndo:udkCode "101 - 200";
+  gndo:professionOrOccupation _:node1ivpishs6x25399407 .
+
+_:node1ivpishs6x25399407 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4025098-2> .
+
+<https://d-nb.info/gnd/119070634> gndo:dateOfBirthAndDeath "[2. Jh.]" .
+

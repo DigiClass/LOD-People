@@ -1,0 +1,135 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119265842> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119265842/about> .
+
+<https://d-nb.info/gnd/119265842/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-03-21T00:56:35.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119265842> gndo:gndIdentifier "119265842";
+  owl:sameAs <http://viaf.org/viaf/263618434>, <http://www.wikidata.org/entity/Q1320609>;
+  gndo:oldAuthorityNumber "(DE-588)1089724284";
+  owl:sameAs <https://d-nb.info/gnd/1089724284>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089724284";
+  gndo:oldAuthorityNumber "(DE-588a)119265842", "(DE-588c)4382072-4";
+  gndo:variantNameForThePerson "Hephaestion, Astrologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592717 .
+
+_:node1ivs02adlx24592717 gndo:personalName "Hephaestion";
+  gndo:nameAddition "Astrologus" .
+
+<https://d-nb.info/gnd/119265842> gndo:variantNameForThePerson "Hephaestio, Astrologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592718 .
+
+_:node1ivs02adlx24592718 gndo:personalName "Hephaestio";
+  gndo:nameAddition "Astrologus" .
+
+<https://d-nb.info/gnd/119265842> gndo:variantNameForThePerson "Hephaestion, von Theben";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592719 .
+
+_:node1ivs02adlx24592719 gndo:personalName "Hephaestion";
+  gndo:nameAddition "von Theben" .
+
+<https://d-nb.info/gnd/119265842> gndo:variantNameForThePerson "Hephaistion, von Theben";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592720 .
+
+_:node1ivs02adlx24592720 gndo:personalName "Hephaistion";
+  gndo:nameAddition "von Theben" .
+
+<https://d-nb.info/gnd/119265842> gndo:variantNameForThePerson "Hephaistio, Thebanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592721 .
+
+_:node1ivs02adlx24592721 gndo:personalName "Hephaistio";
+  gndo:nameAddition "Thebanus" .
+
+<https://d-nb.info/gnd/119265842> gndo:variantNameForThePerson "Hephaistion, Astrologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592722 .
+
+_:node1ivs02adlx24592722 gndo:personalName "Hephaistion";
+  gndo:nameAddition "Astrologe" .
+
+<https://d-nb.info/gnd/119265842> gndo:variantNameForThePerson "Heféstion, de Tebas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592723 .
+
+_:node1ivs02adlx24592723 gndo:personalName "Heféstion";
+  gndo:nameAddition "de Tebas" .
+
+<https://d-nb.info/gnd/119265842> gndo:variantNameForThePerson "Hephaistio, Astronomer";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592724 .
+
+_:node1ivs02adlx24592724 gndo:personalName "Hephaistio";
+  gndo:nameAddition "Astronomer" .
+
+<https://d-nb.info/gnd/119265842> gndo:variantNameForThePerson "Efestione, Tebano";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592725 .
+
+_:node1ivs02adlx24592725 gndo:personalName "Efestione";
+  gndo:nameAddition "Tebano" .
+
+<https://d-nb.info/gnd/119265842> gndo:preferredNameForThePerson "Hephaestion, Thebanus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592726 .
+
+_:node1ivs02adlx24592726 gndo:personalName "Hephaestion";
+  gndo:nameAddition "Thebanus" .
+
+<https://d-nb.info/gnd/119265842> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#5.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Hephaestion <Thebanus>: Excerpta ex Hephaestionis Thebani iudiciis, eque aliis veteribus *. - s.a.",
+    "Hephaestion <Thebanus>: Excerpta ex Hephaestionis Thebani iudiciis, eque aliis veteribus *. - [1532]";
+  wdrs:describedby <https://d-nb.info/gnd/119265842/about> .
+
+<https://d-nb.info/gnd/119265842/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/AT-OBV>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/AT-OBV> .
+
+<https://d-nb.info/gnd/119265842> gndo:biographicalOrHistoricalInformation "Astrologe"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592727 .
+
+_:node1ivs02adlx24592727 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4415075-1> .
+
+<https://d-nb.info/gnd/119265842> gndo:dateOfBirthAndDeath "[4.Jh.]" .
+

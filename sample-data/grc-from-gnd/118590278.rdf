@@ -1,0 +1,151 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118590278> a gndo:LiteraryOrLegendaryCharacter, gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118590278/about> .
+
+<https://d-nb.info/gnd/118590278/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:52:06.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118590278> gndo:gndIdentifier "118590278";
+  foaf:page <https://de.wikipedia.org/wiki/Pseudo-Orpheus>;
+  owl:sameAs <https://dbpedia.org/resource/Orpheus>, <http://viaf.org/viaf/185999944>,
+    <https://isni.org/isni/0000000356413528>, <http://www.wikidata.org/entity/Q174353>;
+  gndo:oldAuthorityNumber "(DE-588)11977836X";
+  owl:sameAs <https://d-nb.info/gnd/11977836X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/11977836X";
+  gndo:oldAuthorityNumber "(DE-588a)11977836X", "(DE-588)1089184611";
+  owl:sameAs <https://d-nb.info/gnd/1089184611>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089184611";
+  gndo:oldAuthorityNumber "(DE-588a)118590278", "(DE-588c)4043897-1";
+  gndo:variantNameForThePerson "Orpheus, Legendary Poet";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402993 .
+
+_:node1ivpishs6x25402993 gndo:personalName "Orpheus";
+  gndo:nameAddition "Legendary Poet" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orphas, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402994 .
+
+_:node1ivpishs6x25402994 gndo:personalName "Orphas";
+  gndo:nameAddition "Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orpheus, Paradoxographus, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402995 .
+
+_:node1ivpishs6x25402995 gndo:personalName "Orpheus";
+  gndo:nameAddition "Paradoxographus, Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orpheus, Sänger, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402996 .
+
+_:node1ivpishs6x25402996 gndo:personalName "Orpheus";
+  gndo:nameAddition "Sänger, Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orpheus, von Kroton, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402997 .
+
+_:node1ivpishs6x25402997 gndo:personalName "Orpheus";
+  gndo:nameAddition "von Kroton, Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orpée, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402998 .
+
+_:node1ivpishs6x25402998 gndo:personalName "Orpée";
+  gndo:nameAddition "Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orphée, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25402999 .
+
+_:node1ivpishs6x25402999 gndo:personalName "Orphée";
+  gndo:nameAddition "Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orpheus, Dichter, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403000 .
+
+_:node1ivpishs6x25403000 gndo:personalName "Orpheus";
+  gndo:nameAddition "Dichter, Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orfeo, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403001 .
+
+_:node1ivpishs6x25403001 gndo:personalName "Orfeo";
+  gndo:nameAddition "Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Orfeus, Fiktive Gestalt";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403002 .
+
+_:node1ivpishs6x25403002 gndo:personalName "Orfeus";
+  gndo:nameAddition "Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:variantNameForThePerson "Pseudo-Orpheus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403003 .
+
+_:node1ivpishs6x25403003 gndo:personalName "Pseudo-Orpheus" .
+
+<https://d-nb.info/gnd/118590278> gndo:preferredNameForThePerson "Orpheus, Fiktive Gestalt";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403004 .
+
+_:node1ivpishs6x25403004 gndo:personalName "Orpheus";
+  gndo:nameAddition "Fiktive Gestalt" .
+
+<https://d-nb.info/gnd/118590278> gndo:broaderTermInstantial <https://d-nb.info/gnd/4306746-3>,
+    <https://d-nb.info/gnd/4221861-5>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Orpheus: Argonauticōn opus graecum", "Orpheus: Argonautica, Hymni, de Lapidibus",
+    "Orpheus: Hymnen", "Orpheus: De Lapidibus", "Orpheus: Orphei seu Mercurii ter maximi prognostica a terrae motibus",
+    "Orpheus: Orpheōs peri seismōn", "Orpheus: Orphica", "Orpheus: Die Argonauten",
+    "Orpheus: Dreißig Hymnen", "Orpheus: Opera", "Orpheus: Orphei poetae VETVSTISSIMI OPERA, iam primùm ad uerbum translata, & diligentius quàm antea ...  1555.  (VD16 O 939)",
+    "Orpheus: ORPHEI POETARVM VETVstissimi Argonautic\\=Gō\\=gn opus Graecũ, cũ interpretatione Latina ...  1523.  (VD16 O 940)";
+  wdrs:describedby <https://d-nb.info/gnd/118590278/about> .
+
+<https://d-nb.info/gnd/118590278/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118590278> gndo:biographicalOrHistoricalInformation "Orphica; Griech. myth. Sänger"@de;
+  gndo:udkCode "600 - 501 v. Chr. ", "500 - 401 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[6.-5. Jh. v. Chr.]" .
+

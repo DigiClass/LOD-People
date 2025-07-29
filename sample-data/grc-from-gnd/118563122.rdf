@@ -1,0 +1,359 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118563122> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118563122/about> .
+
+<https://d-nb.info/gnd/118563122/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-11-05T17:26:19.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118563122> gndo:gndIdentifier "118563122";
+  foaf:page <https://de.wikipedia.org/wiki/Clemens_von_Alexandria>;
+  owl:sameAs <https://dbpedia.org/resource/Clement_of_Alexandria>, <http://viaf.org/viaf/100185827>,
+    <https://isni.org/isni/0000000121451167>, <http://www.wikidata.org/entity/Q188883>,
+    <http://id.loc.gov/rwo/agents/n50066849>;
+  gndo:oldAuthorityNumber "(DE-588)1104019655";
+  owl:sameAs <https://d-nb.info/gnd/1104019655>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1104019655";
+  gndo:oldAuthorityNumber "(DE-588)1089927193";
+  owl:sameAs <https://d-nb.info/gnd/1089927193>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089927193";
+  gndo:oldAuthorityNumber "(DE-588)1089912226";
+  owl:sameAs <https://d-nb.info/gnd/1089912226>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089912226";
+  gndo:oldAuthorityNumber "(DE-588)1089802838";
+  owl:sameAs <https://d-nb.info/gnd/1089802838>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089802838";
+  gndo:oldAuthorityNumber "(DE-588)183339665";
+  owl:sameAs <https://d-nb.info/gnd/183339665>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/183339665";
+  gndo:oldAuthorityNumber "(DE-588a)183339665", "(DE-588)185877443";
+  owl:sameAs <https://d-nb.info/gnd/185877443>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185877443";
+  gndo:oldAuthorityNumber "(DE-588a)185877443", "(DE-588)182969126";
+  owl:sameAs <https://d-nb.info/gnd/182969126>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/182969126";
+  gndo:oldAuthorityNumber "(DE-588a)182969126", "(DE-588)172022428";
+  owl:sameAs <https://d-nb.info/gnd/172022428>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172022428";
+  gndo:oldAuthorityNumber "(DE-588a)172022428", "(DE-588a)118563122", "(DE-588a)119642719",
+    "(DE-588c)4031127-2";
+  gndo:variantNameForThePerson "Clemens, Alexandrinus, Theologist"@en;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592340 .
+
+_:node1ivs02adlx24592340 gndo:personalName "Clemens";
+  gndo:nameAddition "Alexandrinus, Theologist" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, Alexandrinus, Théologien"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592341 .
+
+_:node1ivs02adlx24592341 gndo:personalName "Clemens";
+  gndo:nameAddition "Alexandrinus, Théologien" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Klemens, Titus Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592342 .
+
+_:node1ivs02adlx24592342 gndo:forename "Titus Flavius";
+  gndo:surname "Klemens" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, von Alexandreia";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592343 .
+
+_:node1ivs02adlx24592343 gndo:personalName "Clemens";
+  gndo:nameAddition "von Alexandreia" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, Titus Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592344 .
+
+_:node1ivs02adlx24592344 gndo:forename "Titus Flavius";
+  gndo:surname "Clemens" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens Alexandrinus, Titus Flavius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592345 .
+
+_:node1ivs02adlx24592345 gndo:forename "Titus Flavius";
+  gndo:surname "Clemens Alexandrinus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Flavius Clemens, Titus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592346 .
+
+_:node1ivs02adlx24592346 gndo:forename "Titus";
+  gndo:surname "Flavius Clemens" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Flavius Clemens Alexandrinus, Titus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592347 .
+
+_:node1ivs02adlx24592347 gndo:forename "Titus";
+  gndo:surname "Flavius Clemens Alexandrinus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Klēmēs, ho Alexandreus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592348 .
+
+_:node1ivs02adlx24592348 gndo:personalName "Klēmēs";
+  gndo:nameAddition "ho Alexandreus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemente, Alessandrino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592349 .
+
+_:node1ivs02adlx24592349 gndo:personalName "Clemente";
+  gndo:nameAddition "Alessandrino" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemente, Alexandrino";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592350 .
+
+_:node1ivs02adlx24592350 gndo:personalName "Clemente";
+  gndo:nameAddition "Alexandrino" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemente, Alexandrio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592351 .
+
+_:node1ivs02adlx24592351 gndo:personalName "Clemente";
+  gndo:nameAddition "Alexandrio" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemente, de Alejandría";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592352 .
+
+_:node1ivs02adlx24592352 gndo:personalName "Clemente";
+  gndo:nameAddition "de Alejandría" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Flavius, Clemens";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592353 .
+
+_:node1ivs02adlx24592353 gndo:personalName "Flavius";
+  gndo:nameAddition "Clemens" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Alexandrinus, Clemens";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592354 .
+
+_:node1ivs02adlx24592354 gndo:forename "Clemens";
+  gndo:surname "Alexandrinus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592355 .
+
+_:node1ivs02adlx24592355 gndo:personalName "Clemens";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, Titus Flavius Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592356 .
+
+_:node1ivs02adlx24592356 gndo:forename "Titus Flavius Alexandrinus";
+  gndo:surname "Clemens" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592357 .
+
+_:node1ivs02adlx24592357 gndo:personalName "Clemens";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, Stromataeus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592358 .
+
+_:node1ivs02adlx24592358 gndo:personalName "Clemens";
+  gndo:nameAddition "Stromataeus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clement, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592359 .
+
+_:node1ivs02adlx24592359 gndo:personalName "Clement";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Klēmentos, Alexandreos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592360 .
+
+_:node1ivs02adlx24592360 gndo:personalName "Klēmentos";
+  gndo:nameAddition "Alexandreos" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Klemens, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592361 .
+
+_:node1ivs02adlx24592361 gndo:personalName "Klemens";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Alexandreia, Clemens von";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592362 .
+
+_:node1ivs02adlx24592362 gndo:forename "Clemens";
+  gndo:prefix "von";
+  gndo:surname "Alexandreia" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Titus Flavius Clemens, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592363 .
+
+_:node1ivs02adlx24592363 gndo:personalName "Titus Flavius Clemens";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Klēmēs, Alexandreus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592364 .
+
+_:node1ivs02adlx24592364 gndo:personalName "Klēmēs";
+  gndo:nameAddition "Alexandreus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Titus Flavius Clemens, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592365 .
+
+_:node1ivs02adlx24592365 gndo:personalName "Titus Flavius Clemens";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clément, Alexandrin";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592366 .
+
+_:node1ivs02adlx24592366 gndo:personalName "Clément";
+  gndo:nameAddition "Alexandrin" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Klemens, von Alexandrien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592367 .
+
+_:node1ivs02adlx24592367 gndo:personalName "Klemens";
+  gndo:nameAddition "von Alexandrien" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, Theologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592368 .
+
+_:node1ivs02adlx24592368 gndo:personalName "Clemens";
+  gndo:nameAddition "Theologus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clément, d'Alexandrie";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592369 .
+
+_:node1ivs02adlx24592369 gndo:personalName "Clément";
+  gndo:nameAddition "d'Alexandrie" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clement, of Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592370 .
+
+_:node1ivs02adlx24592370 gndo:personalName "Clement";
+  gndo:nameAddition "of Alexandria" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Pseudo-Clemens, Alexandrinus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592371 .
+
+_:node1ivs02adlx24592371 gndo:personalName "Pseudo-Clemens";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Titus Flavius Klemens, von Alexandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592372 .
+
+_:node1ivs02adlx24592372 gndo:personalName "Titus Flavius Klemens";
+  gndo:nameAddition "von Alexandria" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemente, di Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592373 .
+
+_:node1ivs02adlx24592373 gndo:personalName "Clemente";
+  gndo:nameAddition "di Alessandria" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemente, d'Alessandria";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592374 .
+
+_:node1ivs02adlx24592374 gndo:personalName "Clemente";
+  gndo:nameAddition "d'Alessandria" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Kliment, Aleksandrijskij";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592375 .
+
+_:node1ivs02adlx24592375 gndo:personalName "Kliment";
+  gndo:nameAddition "Aleksandrijskij" .
+
+<https://d-nb.info/gnd/118563122> gndo:variantNameForThePerson "Clemens, Titus Flavius, Theologe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24592376 .
+
+_:node1ivs02adlx24592376 gndo:forename "Titus Flavius";
+  gndo:surname "Clemens";
+  gndo:nameAddition "Theologe" .
+
+<https://d-nb.info/gnd/118563122> gndo:preferredNameForThePerson "Clemens, Alexandrinus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24592377 .
+
+_:node1ivs02adlx24592377 gndo:personalName "Clemens";
+  gndo:nameAddition "Alexandrinus" .
+
+<https://d-nb.info/gnd/118563122> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129231983>;
+  gndo:hasRelation _:node1ivs02adlx24592378 .
+
+_:node1ivs02adlx24592378 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129231983>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118563122> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117391042>;
+  gndo:hasRelation _:node1ivs02adlx24592379 .
+
+_:node1ivs02adlx24592379 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/117391042>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118563122> gndo:hasRelation _:node1ivs02adlx24592380 .
+
+_:node1ivs02adlx24592380 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118563122> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24592381 .
+
+_:node1ivs02adlx24592381 gndo:forename "Pietro";
+  gndo:surname "Vettori" .
+
+<https://d-nb.info/gnd/118563122> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>,
+    <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XC-EG>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Klēmentos Alexandreōs ta heuriskomena", "Klēmentos Alexandreōs ta heuriskomena",
+    "Klēmentos Alexandreōs ta heuriskomena", "Opera omnia", "Opera omnia", "Klēmentos Logos Liber",
+    "Zinsmeister, Johann F.: Canonici Spalatini De veri cognitione et ignoratione ex S. Clem*",
+    "Liber, quis dives salutem consequi possit", "Fragmenta", "Klēmentos Alexandreōs ta heuriskomena",
+    "CLEMENTIS Alexandrini uiri longe doctissimi, qui Panteni quidem martyris fuit discipulus, ... 1556. (VD16 C 4069)",
+    "Opera. 1566. (VD16 C 4070)", "Opera. 1592. (VD16 C 4068)", "Opera quae extant. 1592. (VD16 ZV 16387)";
+  wdrs:describedby <https://d-nb.info/gnd/118563122/about> .
+
+<https://d-nb.info/gnd/118563122/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118563122> gndo:biographicalOrHistoricalInformation "Griech. Kirchenschriftsteller, Mystiker und Philosoph"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24592382 .
+
+_:node1ivs02adlx24592382 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4053309-8> .
+
+<https://d-nb.info/gnd/118563122> gndo:dateOfBirthAndDeath "[150-215]" .
+

@@ -1,0 +1,212 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118791990> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118791990/about> .
+
+<https://d-nb.info/gnd/118791990/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-08T20:13:32.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118791990> gndo:gndIdentifier "118791990";
+  foaf:page <https://de.wikipedia.org/wiki/Phokylides_von_Milet>;
+  owl:sameAs <https://dbpedia.org/resource/Phocylides>, <http://viaf.org/viaf/262316432>,
+    <http://www.wikidata.org/entity/Q972799>;
+  gndo:oldAuthorityNumber "(DE-588)1089902921";
+  owl:sameAs <https://d-nb.info/gnd/1089902921>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089902921";
+  gndo:oldAuthorityNumber "(DE-588)1089721846";
+  owl:sameAs <https://d-nb.info/gnd/1089721846>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089721846";
+  gndo:oldAuthorityNumber "(DE-588)1089228805";
+  owl:sameAs <https://d-nb.info/gnd/1089228805>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089228805";
+  gndo:oldAuthorityNumber "(DE-588)186607776";
+  owl:sameAs <https://d-nb.info/gnd/186607776>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/186607776";
+  gndo:oldAuthorityNumber "(DE-588a)186607776", "(DE-588)119787466";
+  owl:sameAs <https://d-nb.info/gnd/119787466>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119787466";
+  gndo:oldAuthorityNumber "(DE-588a)119787466", "(DE-588a)118791990", "(DE-588a)100233597",
+    "(DE-588c)4111950-2";
+  gndo:variantNameForThePerson "Phocylides, Elegiacus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585108 .
+
+_:node1ivs02adlx24585108 gndo:personalName "Phocylides";
+  gndo:nameAddition "Elegiacus" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Phocylides, Gnomologus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585109 .
+
+_:node1ivs02adlx24585109 gndo:personalName "Phocylides";
+  gndo:nameAddition "Gnomologus" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Phokylides, Spruchdichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585110 .
+
+_:node1ivs02adlx24585110 gndo:personalName "Phokylides";
+  gndo:nameAddition "Spruchdichter" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Phocilides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585111 .
+
+_:node1ivs02adlx24585111 gndo:personalName "Phocilides" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Phocylides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585112 .
+
+_:node1ivs02adlx24585112 gndo:personalName "Phocylides" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Phokylides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585113 .
+
+_:node1ivs02adlx24585113 gndo:personalName "Phokylides" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Pythagoras";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585114 .
+
+_:node1ivs02adlx24585114 gndo:personalName "Pythagoras" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Phocilide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585115 .
+
+_:node1ivs02adlx24585115 gndo:personalName "Phocilide" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Focilide, di Mileto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585116 .
+
+_:node1ivs02adlx24585116 gndo:personalName "Focilide";
+  gndo:nameAddition "di Mileto" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Focílides, de Mileto";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585117 .
+
+_:node1ivs02adlx24585117 gndo:personalName "Focílides";
+  gndo:nameAddition "de Mileto" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Focilide, Poeta Gnomico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585118 .
+
+_:node1ivs02adlx24585118 gndo:personalName "Focilide";
+  gndo:nameAddition "Poeta Gnomico" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Phocylide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585119 .
+
+_:node1ivs02adlx24585119 gndo:personalName "Phocylide" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Pseudo-Phokylides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585120 .
+
+_:node1ivs02adlx24585120 gndo:personalName "Pseudo-Phokylides" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Pseudo-Phocylides";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585121 .
+
+_:node1ivs02adlx24585121 gndo:personalName "Pseudo-Phocylides" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Pseudo-Phocylides, Milesius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585122 .
+
+_:node1ivs02adlx24585122 gndo:personalName "Pseudo-Phocylides";
+  gndo:nameAddition "Milesius" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Pseudo-Phocylide";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585123 .
+
+_:node1ivs02adlx24585123 gndo:personalName "Pseudo-Phocylide" .
+
+<https://d-nb.info/gnd/118791990> gndo:variantNameForThePerson "Phokylides, von Milet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585124 .
+
+_:node1ivs02adlx24585124 gndo:personalName "Phokylides";
+  gndo:nameAddition "von Milet" .
+
+<https://d-nb.info/gnd/118791990> gndo:preferredNameForThePerson "Phocylides, Milesius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585125 .
+
+_:node1ivs02adlx24585125 gndo:personalName "Phocylides";
+  gndo:nameAddition "Milesius" .
+
+<https://d-nb.info/gnd/118791990> gndo:hasRelation _:node1ivs02adlx24585126 .
+
+_:node1ivs02adlx24585126 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118791990> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585127 .
+
+_:node1ivs02adlx24585127 gndo:forename "Jakob";
+  gndo:surname "Locher" .
+
+<https://d-nb.info/gnd/118791990> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118654233>;
+  gndo:hasRelation _:node1ivs02adlx24585128 .
+
+_:node1ivs02adlx24585128 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118654233>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118791990> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118528718>;
+  gndo:hasRelation _:node1ivs02adlx24585129 .
+
+_:node1ivs02adlx24585129 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118528718>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118791990> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Poema admonitorium", "Carmen admonitorium", "Poiēma nuthetikon",
+    "Pythagoras: Poemata Pythagorae et Phocylidis graeca", "Pythagoras: Poemata Pythagorae et Phocylidis graeca",
+    "Pythagoras: Poemata Pythagorae et Phocylidis graeca", "Pythagoras: Poemata Pythagorae et Phocylidis",
+    "Pythagoras: Poemata Pythagorae et Phocylidis", "Pythagoras: Poemata Pythagorae et Phocylidis",
+    "Sententiosa poetarum vetustissimorum quae supersunt opera", "Poema nutheticon Phocylidis, greci poete christianissimi, a Jacobo Locher phylomuso ad latinos ... 1509. (VD16 P 2531)";
+  wdrs:describedby <https://d-nb.info/gnd/118791990/about> .
+
+<https://d-nb.info/gnd/118791990/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118791990> gndo:biographicalOrHistoricalInformation "Griech. Dichter, von dem einige Lebensregeln in Spruchform erhalten sind"@de;
+  gndo:udkCode "700 - 601 v. Chr. ", "600 - 501 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4039299-5>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[v6. Jh.]" .
+

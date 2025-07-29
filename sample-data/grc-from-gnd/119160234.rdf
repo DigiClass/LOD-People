@@ -1,0 +1,154 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/119160234> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/119160234/about> .
+
+<https://d-nb.info/gnd/119160234/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-23T17:04:01.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/119160234> gndo:gndIdentifier "119160234";
+  foaf:page <https://de.wikipedia.org/wiki/Anaximenes_von_Lampsakos>;
+  owl:sameAs <https://dbpedia.org/resource/Anaximenes_of_Lampsacus>, <http://viaf.org/viaf/87346566>,
+    <https://isni.org/isni/0000000355214543>, <http://www.wikidata.org/entity/Q221787>,
+    <http://id.loc.gov/rwo/agents/n84134246>;
+  gndo:oldAuthorityNumber "(DE-588)108977866X";
+  owl:sameAs <https://d-nb.info/gnd/108977866X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/108977866X";
+  gndo:oldAuthorityNumber "(DE-588)1089158939";
+  owl:sameAs <https://d-nb.info/gnd/1089158939>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089158939";
+  gndo:oldAuthorityNumber "(DE-588a)119160234", "(DE-588c)4344663-2";
+  gndo:variantNameForThePerson "Anaximenes, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403675 .
+
+_:node1ivpishs6x25403675 gndo:personalName "Anaximenes";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anaximenes, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403676 .
+
+_:node1ivpishs6x25403676 gndo:personalName "Anaximenes";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anaximenes, Lehrer Alexanders des Großen";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403677 .
+
+_:node1ivpishs6x25403677 gndo:personalName "Anaximenes";
+  gndo:nameAddition "Lehrer Alexanders des Großen" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anaximenes, of Lampsacus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403678 .
+
+_:node1ivpishs6x25403678 gndo:personalName "Anaximenes";
+  gndo:nameAddition "of Lampsacus" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anaximenes, ho Lampsakenos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403679 .
+
+_:node1ivpishs6x25403679 gndo:personalName "Anaximenes";
+  gndo:nameAddition "ho Lampsakenos" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anassimene, di Lampsaco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403680 .
+
+_:node1ivpishs6x25403680 gndo:personalName "Anassimene";
+  gndo:nameAddition "di Lampsaco" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anassimene, Retore";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403681 .
+
+_:node1ivpishs6x25403681 gndo:personalName "Anassimene";
+  gndo:nameAddition "Retore" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anassimene, Storico";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403682 .
+
+_:node1ivpishs6x25403682 gndo:personalName "Anassimene";
+  gndo:nameAddition "Storico" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anaximenes, ho Rhētor";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403683 .
+
+_:node1ivpishs6x25403683 gndo:personalName "Anaximenes";
+  gndo:nameAddition "ho Rhētor" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anaxímenes, de Lámpsaco";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403684 .
+
+_:node1ivpishs6x25403684 gndo:personalName "Anaxímenes";
+  gndo:nameAddition "de Lámpsaco" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anaximenes, von Lampsakos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403685 .
+
+_:node1ivpishs6x25403685 gndo:personalName "Anaximenes";
+  gndo:nameAddition "von Lampsakos" .
+
+<https://d-nb.info/gnd/119160234> gndo:variantNameForThePerson "Anaximenes";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25403686 .
+
+_:node1ivpishs6x25403686 gndo:personalName "Anaximenes" .
+
+<https://d-nb.info/gnd/119160234> gndo:preferredNameForThePerson "Anaximenes, Lampsacenus";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25403687 .
+
+_:node1ivpishs6x25403687 gndo:personalName "Anaximenes";
+  gndo:nameAddition "Lampsacenus" .
+
+<https://d-nb.info/gnd/119160234> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Anaximenes <Lampsacenus>: Ars rhetorica ad Alexandrum. - 1844";
+  wdrs:describedby <https://d-nb.info/gnd/119160234/about> .
+
+<https://d-nb.info/gnd/119160234/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/119160234> gndo:biographicalOrHistoricalInformation "Griech. Rhetor und Historiker"@de;
+  gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0380"^^xsd:gYear;
+  gndo:dateOfDeath "-0320"^^xsd:gYear .
+

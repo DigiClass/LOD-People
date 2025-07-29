@@ -1,0 +1,202 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118801635> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118801635/about> .
+
+<https://d-nb.info/gnd/118801635/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2023-11-08T19:44:09.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118801635> gndo:gndIdentifier "118801635";
+  foaf:page <https://de.wikipedia.org/wiki/Terpandros>;
+  owl:sameAs <https://dbpedia.org/resource/Terpander>, <http://viaf.org/viaf/281232934>,
+    <http://www.wikidata.org/entity/Q113417>, <http://id.loc.gov/rwo/agents/n91128768>;
+  gndo:oldAuthorityNumber "(DE-588a)118801635", "(DE-588c)4114716-9";
+  gndo:variantNameForThePerson "Terpander, von Antissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591819 .
+
+_:node1ivs02adlx24591819 gndo:personalName "Terpander";
+  gndo:nameAddition "von Antissa" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpander, Lyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591820 .
+
+_:node1ivs02adlx24591820 gndo:personalName "Terpander";
+  gndo:nameAddition "Lyricus" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpander, Lesbius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591821 .
+
+_:node1ivs02adlx24591821 gndo:personalName "Terpander";
+  gndo:nameAddition "Lesbius" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandros, von Lesbos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591822 .
+
+_:node1ivs02adlx24591822 gndo:personalName "Terpandros";
+  gndo:nameAddition "von Lesbos" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandros, Dichter";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591823 .
+
+_:node1ivs02adlx24591823 gndo:personalName "Terpandros";
+  gndo:nameAddition "Dichter" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandros, Musiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591824 .
+
+_:node1ivs02adlx24591824 gndo:personalName "Terpandros";
+  gndo:nameAddition "Musiker" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpander, of Antissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591825 .
+
+_:node1ivs02adlx24591825 gndo:personalName "Terpander";
+  gndo:nameAddition "of Antissa" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpander, of Lesbos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591826 .
+
+_:node1ivs02adlx24591826 gndo:personalName "Terpander";
+  gndo:nameAddition "of Lesbos" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandro, di Antissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591827 .
+
+_:node1ivs02adlx24591827 gndo:personalName "Terpandro";
+  gndo:nameAddition "di Antissa" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandro, di Lesbo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591828 .
+
+_:node1ivs02adlx24591828 gndo:personalName "Terpandro";
+  gndo:nameAddition "di Lesbo" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandro, Musico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591829 .
+
+_:node1ivs02adlx24591829 gndo:personalName "Terpandro";
+  gndo:nameAddition "Musico" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandro, Poeta";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591830 .
+
+_:node1ivs02adlx24591830 gndo:personalName "Terpandro";
+  gndo:nameAddition "Poeta" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandre, d'Antissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591831 .
+
+_:node1ivs02adlx24591831 gndo:personalName "Terpandre";
+  gndo:nameAddition "d'Antissa" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpander, Lyriker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591832 .
+
+_:node1ivs02adlx24591832 gndo:personalName "Terpander";
+  gndo:nameAddition "Lyriker" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Pseudo-Terpander";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591833 .
+
+_:node1ivs02adlx24591833 gndo:personalName "Pseudo-Terpander" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Pseudo-Terpandros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591834 .
+
+_:node1ivs02adlx24591834 gndo:personalName "Pseudo-Terpandros" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Pseudo-Terpander, Antissenis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591835 .
+
+_:node1ivs02adlx24591835 gndo:personalName "Pseudo-Terpander";
+  gndo:nameAddition "Antissenis" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Pseudo-Terpandros, von Antissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591836 .
+
+_:node1ivs02adlx24591836 gndo:personalName "Pseudo-Terpandros";
+  gndo:nameAddition "von Antissa" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandros, von Antissa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591837 .
+
+_:node1ivs02adlx24591837 gndo:personalName "Terpandros";
+  gndo:nameAddition "von Antissa" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpander";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591838 .
+
+_:node1ivs02adlx24591838 gndo:personalName "Terpander" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandros";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591839 .
+
+_:node1ivs02adlx24591839 gndo:personalName "Terpandros" .
+
+<https://d-nb.info/gnd/118801635> gndo:variantNameForThePerson "Terpandro";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591840 .
+
+_:node1ivs02adlx24591840 gndo:personalName "Terpandro" .
+
+<https://d-nb.info/gnd/118801635> gndo:preferredNameForThePerson "Terpander, Antissensis";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591841 .
+
+_:node1ivs02adlx24591841 gndo:personalName "Terpander";
+  gndo:nameAddition "Antissensis" .
+
+<https://d-nb.info/gnd/118801635> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#14.4p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118801635/about> .
+
+<https://d-nb.info/gnd/118801635/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118801635> gndo:biographicalOrHistoricalInformation "Griech. Musiker u. Dichter"@de;
+  gndo:udkCode "800 - 701 v. Chr. ", "700 - 601 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "-0741"^^xsd:gYear;
+  gndo:dateOfDeath "-0696"^^xsd:gYear .
+

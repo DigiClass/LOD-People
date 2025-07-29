@@ -1,0 +1,334 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118503863> a gndo:DifferentiatedPerson;
+  owl:sameAs <https://isni.org/isni/0000000122778575>;
+  wdrs:describedby <https://d-nb.info/gnd/118503863/about> .
+
+<https://d-nb.info/gnd/118503863/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:58.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118503863> gndo:gndIdentifier "118503863";
+  foaf:page <https://de.wikipedia.org/wiki/Archimedes>;
+  owl:sameAs <https://dbpedia.org/resource/Archimedes>, <http://viaf.org/viaf/29547910>,
+    <https://isni.org/isni/0000000122778575>, <http://www.wikidata.org/entity/Q8739>,
+    <http://id.loc.gov/rwo/agents/n80104666>;
+  gndo:oldAuthorityNumber "(DE-588)1090630239";
+  owl:sameAs <https://d-nb.info/gnd/1090630239>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090630239";
+  gndo:oldAuthorityNumber "(DE-588)1089726406";
+  owl:sameAs <https://d-nb.info/gnd/1089726406>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089726406";
+  gndo:oldAuthorityNumber "(DE-588)119608529";
+  owl:sameAs <https://d-nb.info/gnd/119608529>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/119608529";
+  gndo:oldAuthorityNumber "(DE-588a)119608529", "(DE-588a)118503863", "(DE-588c)4002842-2";
+  gndo:variantNameForThePerson "Archimedes, von Syrakus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594308 .
+
+_:node1ivs02adlx24594308 gndo:personalName "Archimedes";
+  gndo:nameAddition "von Syrakus" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Arkhimed";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594309 .
+
+_:node1ivs02adlx24594309 gndo:personalName "Arkhimed" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Arkhimedes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594310 .
+
+_:node1ivs02adlx24594310 gndo:personalName "Arkhimedes" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Arquímedes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594311 .
+
+_:node1ivs02adlx24594311 gndo:personalName "Arquímedes" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Arshimidis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594312 .
+
+_:node1ivs02adlx24594312 gndo:personalName "Arshimidis" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Arshimīdas";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594313 .
+
+_:node1ivs02adlx24594313 gndo:personalName "Arshimīdas" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Arhimed";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594314 .
+
+_:node1ivs02adlx24594314 gndo:personalName "Arhimed" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Arhimet";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594315 .
+
+_:node1ivs02adlx24594315 gndo:personalName "Arhimet" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Aršimīdis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594316 .
+
+_:node1ivs02adlx24594316 gndo:personalName "Aršimīdis" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Sohn des Pheidias";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594317 .
+
+_:node1ivs02adlx24594317 gndo:personalName "Archimedes";
+  gndo:nameAddition "Sohn des Pheidias" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Syracusanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594318 .
+
+_:node1ivs02adlx24594318 gndo:personalName "Archimedes";
+  gndo:nameAddition "Syracusanus" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Geometra";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594319 .
+
+_:node1ivs02adlx24594319 gndo:personalName "Archimedes";
+  gndo:nameAddition "Geometra" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimède, de Syracuse";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594320 .
+
+_:node1ivs02adlx24594320 gndo:personalName "Archimède";
+  gndo:nameAddition "de Syracuse" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594321 .
+
+_:node1ivs02adlx24594321 gndo:personalName "Archimedes";
+  gndo:nameAddition "Mathematiker" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Physiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594322 .
+
+_:node1ivs02adlx24594322 gndo:personalName "Archimedes";
+  gndo:nameAddition "Physiker" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Mechaniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594323 .
+
+_:node1ivs02adlx24594323 gndo:personalName "Archimedes";
+  gndo:nameAddition "Mechaniker" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimède";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594324 .
+
+_:node1ivs02adlx24594324 gndo:personalName "Archimède" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimede, di Siracusa";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594325 .
+
+_:node1ivs02adlx24594325 gndo:personalName "Archimede";
+  gndo:nameAddition "di Siracusa" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimede, Matematico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594326 .
+
+_:node1ivs02adlx24594326 gndo:personalName "Archimede";
+  gndo:nameAddition "Matematico" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimede, Fisico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594327 .
+
+_:node1ivs02adlx24594327 gndo:personalName "Archimede";
+  gndo:nameAddition "Fisico" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimede, Meccanico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594328 .
+
+_:node1ivs02adlx24594328 gndo:personalName "Archimede";
+  gndo:nameAddition "Meccanico" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Mathématicien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594329 .
+
+_:node1ivs02adlx24594329 gndo:personalName "Archimedes";
+  gndo:nameAddition "Mathématicien" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Mathematician";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594330 .
+
+_:node1ivs02adlx24594330 gndo:personalName "Archimedes";
+  gndo:nameAddition "Mathematician" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Syracusanus, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594331 .
+
+_:node1ivs02adlx24594331 gndo:personalName "Archimedes";
+  gndo:nameAddition "Syracusanus, Mathematiker" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimède, de Syracuse, Mathematician";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594332 .
+
+_:node1ivs02adlx24594332 gndo:personalName "Archimède";
+  gndo:nameAddition "de Syracuse, Mathematician" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, von Syrakus, Mathématicien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594333 .
+
+_:node1ivs02adlx24594333 gndo:personalName "Archimedes";
+  gndo:nameAddition "von Syrakus, Mathématicien" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimede, di Siracusa, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594334 .
+
+_:node1ivs02adlx24594334 gndo:personalName "Archimede";
+  gndo:nameAddition "di Siracusa, Mathematiker" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimede, di Siracusa, Mathematician";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594335 .
+
+_:node1ivs02adlx24594335 gndo:personalName "Archimede";
+  gndo:nameAddition "di Siracusa, Mathematician" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimede, di Siracusa, Mathématicien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594336 .
+
+_:node1ivs02adlx24594336 gndo:personalName "Archimede";
+  gndo:nameAddition "di Siracusa, Mathématicien" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, von Syrakus, Mathematician";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594337 .
+
+_:node1ivs02adlx24594337 gndo:personalName "Archimedes";
+  gndo:nameAddition "von Syrakus, Mathematician" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, von Syrakus, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594338 .
+
+_:node1ivs02adlx24594338 gndo:personalName "Archimedes";
+  gndo:nameAddition "von Syrakus, Mathematiker" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimède, de Syracuse, Mathématicien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594339 .
+
+_:node1ivs02adlx24594339 gndo:personalName "Archimède";
+  gndo:nameAddition "de Syracuse, Mathématicien" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimède, de Syracuse, Mathematiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594340 .
+
+_:node1ivs02adlx24594340 gndo:personalName "Archimède";
+  gndo:nameAddition "de Syracuse, Mathematiker" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimḗdēs, ho Syrakoúsios";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594341 .
+
+_:node1ivs02adlx24594341 gndo:personalName "Archimḗdēs";
+  gndo:nameAddition "ho Syrakoúsios" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Syracusanus, Mathematician"@en;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594342 .
+
+_:node1ivs02adlx24594342 gndo:personalName "Archimedes";
+  gndo:nameAddition "Syracusanus, Mathematician" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Archimedes, Syracusanus, Mathématicien"@fr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594343 .
+
+_:node1ivs02adlx24594343 gndo:personalName "Archimedes";
+  gndo:nameAddition "Syracusanus, Mathématicien" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Архимед"@und-Cyrl;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594344 .
+
+_:node1ivs02adlx24594344 gndo:personalName "Архимед" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Ἀρχιμήδης"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594345 .
+
+_:node1ivs02adlx24594345 gndo:personalName "Ἀρχιμήδης" .
+
+<https://d-nb.info/gnd/118503863> gndo:variantNameForThePerson "Ἀρχιμήδης, ὁ Συρακούσιος"@gr;
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24594346 .
+
+_:node1ivs02adlx24594346 gndo:personalName "Ἀρχιμήδης";
+  gndo:nameAddition "ὁ Συρακούσιος" .
+
+<https://d-nb.info/gnd/118503863> gndo:preferredNameForThePerson "Archimedes";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24594347 .
+
+_:node1ivs02adlx24594347 gndo:personalName "Archimedes" .
+
+<https://d-nb.info/gnd/118503863> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119665999>;
+  gndo:hasRelation _:node1ivs02adlx24594348 .
+
+_:node1ivs02adlx24594348 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/119665999>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503863> gndo:hasRelation _:node1ivs02adlx24594349 .
+
+_:node1ivs02adlx24594349 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118503863> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24594350 .
+
+_:node1ivs02adlx24594350 gndo:forename "Thomas";
+  gndo:surname "Gechauf" .
+
+<https://d-nb.info/gnd/118503863> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#28p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#21.5p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Assumptorum Liber", "Opera", "Die Quadratur der Parabel", "Opera",
+    "Archimedus ... psammitēs", "Arenarius", "Dimensio circuli, et Eutocii Ascolonitae in hanc commentarius",
+    "Fragmenta", "Opera quae extant", "Oeuvres", "\\=GARCHIMĒDUS TU SYRAKUSIU, TA MECHRI nyn sōzomena, hapanta.\\=g ARCHIMEDIS SYRACVSANI ...  1544.  (VD16 A 3217)";
+  wdrs:describedby <https://d-nb.info/gnd/118503863/about> .
+
+<https://d-nb.info/gnd/118503863/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118503863> gndo:udkCode "300 - 201 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4106466-5>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4106466-5>;
+  gndo:professionOrOccupation _:node1ivs02adlx24594351 .
+
+_:node1ivs02adlx24594351 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4037945-0>;
+  rdf:_2 <https://d-nb.info/gnd/4045968-8> .
+
+<https://d-nb.info/gnd/118503863> gndo:dateOfBirth "-0287"^^xsd:gYear;
+  gndo:dateOfDeath "-0212"^^xsd:gYear .
+

@@ -1,0 +1,238 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118678876> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118678876/about> .
+
+<https://d-nb.info/gnd/118678876/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2024-11-26T17:52:52.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118678876> gndo:gndIdentifier "118678876";
+  owl:sameAs <https://dbpedia.org/resource/Dares_Phrygius>, <http://viaf.org/viaf/219236940>,
+    <https://isni.org/isni/0000000079756898>, <http://www.wikidata.org/entity/Q544378>;
+  gndo:oldAuthorityNumber "(DE-588)1089895720";
+  owl:sameAs <https://d-nb.info/gnd/1089895720>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089895720";
+  gndo:oldAuthorityNumber "(DE-588)1089719892";
+  owl:sameAs <https://d-nb.info/gnd/1089719892>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089719892";
+  gndo:oldAuthorityNumber "(DE-588)1089182406";
+  owl:sameAs <https://d-nb.info/gnd/1089182406>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089182406";
+  gndo:oldAuthorityNumber "(DE-588a)118678876", "(DE-588c)4090902-5";
+  gndo:variantNameForThePerson "Dares, Historicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588740 .
+
+_:node1ivs02adlx24588740 gndo:personalName "Dares";
+  gndo:nameAddition "Historicus" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Phrygius, Dares";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588741 .
+
+_:node1ivs02adlx24588741 gndo:personalName "Phrygius";
+  gndo:nameAddition "Dares" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Darete, Frigio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588742 .
+
+_:node1ivs02adlx24588742 gndo:personalName "Darete";
+  gndo:nameAddition "Frigio" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Dares, der Phryger";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588743 .
+
+_:node1ivs02adlx24588743 gndo:personalName "Dares";
+  gndo:nameAddition "der Phryger" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Phrygius, Dares";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588744 .
+
+_:node1ivs02adlx24588744 gndo:forename "Dares";
+  gndo:surname "Phrygius" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Dares Phrygius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588745 .
+
+_:node1ivs02adlx24588745 gndo:personalName "Dares Phrygius" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Dares, Frigius";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588746 .
+
+_:node1ivs02adlx24588746 gndo:personalName "Dares";
+  gndo:nameAddition "Frigius" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Darete, Frigio";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588747 .
+
+_:node1ivs02adlx24588747 gndo:forename "Frigio";
+  gndo:surname "Darete" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Darses, Priscus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588748 .
+
+_:node1ivs02adlx24588748 gndo:personalName "Darses";
+  gndo:nameAddition "Priscus" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Darés, Phrygien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588749 .
+
+_:node1ivs02adlx24588749 gndo:personalName "Darés";
+  gndo:nameAddition "Phrygien" .
+
+<https://d-nb.info/gnd/118678876> gndo:variantNameForThePerson "Dares, von Phrygien";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24588750 .
+
+_:node1ivs02adlx24588750 gndo:personalName "Dares";
+  gndo:nameAddition "von Phrygien" .
+
+<https://d-nb.info/gnd/118678876> gndo:preferredNameForThePerson "Dares, Phrygius";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24588751 .
+
+_:node1ivs02adlx24588751 gndo:personalName "Dares";
+  gndo:nameAddition "Phrygius" .
+
+<https://d-nb.info/gnd/118678876> gndo:hasRelation _:node1ivs02adlx24588752 .
+
+_:node1ivs02adlx24588752 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship _:node1ivs02adlx24588753 .
+
+_:node1ivs02adlx24588753 gndo:forename "Giovanni Francesco";
+  gndo:surname "Poggio Bracciolini" .
+
+<https://d-nb.info/gnd/118678876> gndo:hasRelation _:node1ivs02adlx24588754 .
+
+_:node1ivs02adlx24588754 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship _:node1ivs02adlx24588755 .
+
+_:node1ivs02adlx24588755 gndo:personalName "Guido";
+  gndo:nameAddition "de Columna" .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship <https://d-nb.info/gnd/118747681>;
+  gndo:hasRelation _:node1ivs02adlx24588756 .
+
+_:node1ivs02adlx24588756 gndo:professionalRelationship <https://d-nb.info/gnd/118747681>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship <https://d-nb.info/gnd/118530666>;
+  gndo:hasRelation _:node1ivs02adlx24588757 .
+
+_:node1ivs02adlx24588757 gndo:professionalRelationship <https://d-nb.info/gnd/118530666>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:hasRelation _:node1ivs02adlx24588758 .
+
+_:node1ivs02adlx24588758 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship _:node1ivs02adlx24588759 .
+
+_:node1ivs02adlx24588759 gndo:forename "Vincentius";
+  gndo:surname "Opsopaeus" .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship <https://d-nb.info/gnd/11855333X>;
+  gndo:hasRelation _:node1ivs02adlx24588760 .
+
+_:node1ivs02adlx24588760 gndo:professionalRelationship <https://d-nb.info/gnd/11855333X>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:hasRelation _:node1ivs02adlx24588761 .
+
+_:node1ivs02adlx24588761 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship _:node1ivs02adlx24588762 .
+
+_:node1ivs02adlx24588762 gndo:forename "Angelo Bartolommeo";
+  gndo:surname "Cospi" .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship <https://d-nb.info/gnd/118503979>;
+  gndo:hasRelation _:node1ivs02adlx24588763 .
+
+_:node1ivs02adlx24588763 gndo:professionalRelationship <https://d-nb.info/gnd/118503979>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:hasRelation _:node1ivs02adlx24588764 .
+
+_:node1ivs02adlx24588764 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship _:node1ivs02adlx24588765 .
+
+_:node1ivs02adlx24588765 gndo:forename "Markus";
+  gndo:surname "Tatius" .
+
+<https://d-nb.info/gnd/118678876> gndo:professionalRelationship <https://d-nb.info/gnd/118858750>;
+  gndo:hasRelation _:node1ivs02adlx24588766 .
+
+_:node1ivs02adlx24588766 gndo:professionalRelationship <https://d-nb.info/gnd/118858750>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118678876> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "De bello Troiano", "Relation de la Destruction de Troye", "De excidio Troiae",
+    "De excidio Troiae Historia", "Daretis Phrygii de bello Troiano", "De bello troiano, in quo ipse militavit, libri sex",
+    "Dictys Cretensis: Bellum Troianum", "Bellum Troianum", "Historia Daretis Phrygij de Excidio Troie. [Übers.v. Cornelius Nepos]",
+    "Diodorus Siculus: Bellum Troianum", "BELLVM TROIANVM ...", "Dictys Cretensis: Bellum Troianum",
+    "Diodorus Siculus: Bellum Troianum", "Diodorus Siculus: Bellum Troianum", "Bellum Troianum",
+    "Diodorus Siculus: Bellum Troianum";
+  wdrs:describedby <https://d-nb.info/gnd/118678876/about> .
+
+<https://d-nb.info/gnd/118678876/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118678876> gndo:biographicalOrHistoricalInformation "Troianischer Hephaistospriester, Berater Hektors; angeblicher Verfasser der \"Phrygischen Ilias\", von der eine lateinische Bearbeitung aus dem 5. Jh. n. Chr. (\"Historia de excidio Troiae\") existiert"@de;
+  gndo:udkCode "800 - 701 v. Chr. ";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirth "[v7XX]" .
+

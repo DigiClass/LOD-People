@@ -1,0 +1,199 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118764853> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118764853/about> .
+
+<https://d-nb.info/gnd/118764853/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-08T18:50:01.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118764853> gndo:gndIdentifier "118764853";
+  foaf:page <https://de.wikipedia.org/wiki/Sextus_Empiricus>;
+  owl:sameAs <https://dbpedia.org/resource/Sextus_Empiricus>, <http://viaf.org/viaf/60320706>,
+    <https://isni.org/isni/000000037405571X>, <http://www.wikidata.org/entity/Q236594>,
+    <http://id.loc.gov/rwo/agents/n50002828>;
+  gndo:oldAuthorityNumber "(DE-588)1089103077";
+  owl:sameAs <https://d-nb.info/gnd/1089103077>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089103077";
+  gndo:oldAuthorityNumber "(DE-588)1089884826";
+  owl:sameAs <https://d-nb.info/gnd/1089884826>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089884826";
+  gndo:oldAuthorityNumber "(DE-588)1089773412";
+  owl:sameAs <https://d-nb.info/gnd/1089773412>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089773412";
+  gndo:oldAuthorityNumber "(DE-588)174143745";
+  owl:sameAs <https://d-nb.info/gnd/174143745>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/174143745";
+  gndo:oldAuthorityNumber "(DE-588a)174143745", "(DE-588)172370647";
+  owl:sameAs <https://d-nb.info/gnd/172370647>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/172370647";
+  gndo:oldAuthorityNumber "(DE-588a)172370647", "(DE-588)157830853";
+  owl:sameAs <https://d-nb.info/gnd/157830853>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/157830853";
+  gndo:oldAuthorityNumber "(DE-588)185992501";
+  owl:sameAs <https://d-nb.info/gnd/185992501>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/185992501";
+  gndo:oldAuthorityNumber "(DE-588a)185992501", "(DE-588a)157830853", "(DE-588a)118764853",
+    "(DE-588c)4107663-1";
+  gndo:variantNameForThePerson "Empiricus, Sextus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586932 .
+
+_:node1ivs02adlx24586932 gndo:forename "Sextus";
+  gndo:surname "Empiricus" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Empeirikos, Sextos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586933 .
+
+_:node1ivs02adlx24586933 gndo:forename "Sextos";
+  gndo:surname "Empeirikos" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Empiricus, de Lesbos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586934 .
+
+_:node1ivs02adlx24586934 gndo:personalName "Empiricus";
+  gndo:nameAddition "de Lesbos" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586935 .
+
+_:node1ivs02adlx24586935 gndo:personalName "Sextus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextos, Empeirikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586936 .
+
+_:node1ivs02adlx24586936 gndo:personalName "Sextos";
+  gndo:nameAddition "Empeirikos" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586937 .
+
+_:node1ivs02adlx24586937 gndo:personalName "Sextos" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sesto, Empirico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586938 .
+
+_:node1ivs02adlx24586938 gndo:personalName "Sesto";
+  gndo:nameAddition "Empirico" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sesto, Filosofo Scettico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586939 .
+
+_:node1ivs02adlx24586939 gndo:personalName "Sesto";
+  gndo:nameAddition "Filosofo Scettico" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextos, Empirikos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586940 .
+
+_:node1ivs02adlx24586940 gndo:personalName "Sextos";
+  gndo:nameAddition "Empirikos" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextus Empirikus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586941 .
+
+_:node1ivs02adlx24586941 gndo:personalName "Sextus Empirikus" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Empiricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586942 .
+
+_:node1ivs02adlx24586942 gndo:personalName "Empiricus" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextus, Africanus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586943 .
+
+_:node1ivs02adlx24586943 gndo:personalName "Sextus";
+  gndo:nameAddition "Africanus" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextus, Empirikus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586944 .
+
+_:node1ivs02adlx24586944 gndo:personalName "Sextus";
+  gndo:nameAddition "Empirikus" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextus, Empyricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586945 .
+
+_:node1ivs02adlx24586945 gndo:personalName "Sextus";
+  gndo:nameAddition "Empyricus" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sextus, Empiricus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586946 .
+
+_:node1ivs02adlx24586946 gndo:forename "Empiricus";
+  gndo:surname "Sextus" .
+
+<https://d-nb.info/gnd/118764853> gndo:variantNameForThePerson "Sexto, Empírico";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24586947 .
+
+_:node1ivs02adlx24586947 gndo:personalName "Sexto";
+  gndo:nameAddition "Empírico" .
+
+<https://d-nb.info/gnd/118764853> gndo:preferredNameForThePerson "Sextus, Empiricus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24586948 .
+
+_:node1ivs02adlx24586948 gndo:personalName "Sextus";
+  gndo:nameAddition "Empiricus" .
+
+<https://d-nb.info/gnd/118764853> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#27.20p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Opera omnia graece et latine", "Les hipotiposes", "Adversus mathematicos ... opus",
+    "Sextus Empirikus oder der Skepticismus der Griechen", "Adversus mathematicos - decem modorum epochēs s. dubitationis cum ph*",
+    "Sexti Empyrici adversus mathematicos decem modorum epachēs seu dubit*";
+  wdrs:describedby <https://d-nb.info/gnd/118764853/about> .
+
+<https://d-nb.info/gnd/118764853/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118764853> gndo:biographicalOrHistoricalInformation "Griech. Philosoph, pyrrhon. Skeptiker, Angehöriger der empirischen Ärzteschule"@de;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivs02adlx24586949 .
+
+_:node1ivs02adlx24586949 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4003157-3> .
+
+<https://d-nb.info/gnd/118764853> gndo:dateOfBirth "[1XX]";
+  gndo:dateOfDeath "[2XX]" .
+

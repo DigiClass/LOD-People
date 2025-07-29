@@ -1,0 +1,175 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118645102> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118645102/about> .
+
+<https://d-nb.info/gnd/118645102/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-04-09T12:02:06.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118645102> gndo:gndIdentifier "118645102";
+  owl:sameAs <https://dbpedia.org/resource/Anaximander>, <http://viaf.org/viaf/124118488>,
+    <http://www.wikidata.org/entity/Q42458>;
+  gndo:oldAuthorityNumber "(DE-588)1089819870";
+  owl:sameAs <https://d-nb.info/gnd/1089819870>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089819870";
+  gndo:oldAuthorityNumber "(DE-588)1089599285";
+  owl:sameAs <https://d-nb.info/gnd/1089599285>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089599285";
+  gndo:oldAuthorityNumber "(DE-588)1053395302";
+  owl:sameAs <https://d-nb.info/gnd/1053395302>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1053395302";
+  gndo:oldAuthorityNumber "(DE-588)171950127";
+  owl:sameAs <https://d-nb.info/gnd/171950127>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/171950127";
+  gndo:oldAuthorityNumber "(DE-588a)171950127", "(DE-588a)118645102", "(DE-588c)4080078-7";
+  gndo:variantNameForThePerson "Anaximander, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405662 .
+
+_:node1ivpishs6x25405662 gndo:personalName "Anaximander";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaximander, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405663 .
+
+_:node1ivpishs6x25405663 gndo:personalName "Anaximander";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaximandros, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405664 .
+
+_:node1ivpishs6x25405664 gndo:personalName "Anaximandros";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaximandros, von Milet";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405665 .
+
+_:node1ivpishs6x25405665 gndo:personalName "Anaximandros";
+  gndo:nameAddition "von Milet" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaximandros, Schüler des Thales";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405666 .
+
+_:node1ivpishs6x25405666 gndo:personalName "Anaximandros";
+  gndo:nameAddition "Schüler des Thales" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaximandros, Sohn des Praxiades";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405667 .
+
+_:node1ivpishs6x25405667 gndo:personalName "Anaximandros";
+  gndo:nameAddition "Sohn des Praxiades" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anassimandro, di Mileto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405668 .
+
+_:node1ivpishs6x25405668 gndo:personalName "Anassimandro";
+  gndo:nameAddition "di Mileto" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anassimandro, Filosofo";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405669 .
+
+_:node1ivpishs6x25405669 gndo:personalName "Anassimandro";
+  gndo:nameAddition "Filosofo" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anassimandro, Scolaro di Taleto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405670 .
+
+_:node1ivpishs6x25405670 gndo:personalName "Anassimandro";
+  gndo:nameAddition "Scolaro di Taleto" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaximander, von Milet";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405671 .
+
+_:node1ivpishs6x25405671 gndo:personalName "Anaximander";
+  gndo:nameAddition "von Milet" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaximandre, de Milet";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405672 .
+
+_:node1ivpishs6x25405672 gndo:personalName "Anaximandre";
+  gndo:nameAddition "de Milet" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaximander";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405673 .
+
+_:node1ivpishs6x25405673 gndo:personalName "Anaximander" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anassimandro de Mileto";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405674 .
+
+_:node1ivpishs6x25405674 gndo:personalName "Anassimandro de Mileto" .
+
+<https://d-nb.info/gnd/118645102> gndo:variantNameForThePerson "Anaksimandros";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405675 .
+
+_:node1ivpishs6x25405675 gndo:personalName "Anaksimandros" .
+
+<https://d-nb.info/gnd/118645102> gndo:preferredNameForThePerson "Anaximander, Milesius";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405676 .
+
+_:node1ivpishs6x25405676 gndo:personalName "Anaximander";
+  gndo:nameAddition "Milesius" .
+
+<https://d-nb.info/gnd/118645102> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.1dp>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#19.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/118645102/about> .
+
+<https://d-nb.info/gnd/118645102/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118645102> gndo:biographicalOrHistoricalInformation "Naturphilosoph, Vorsokratiker, u. nach Eratosthenes Schöpfer der wiss. Geographie. Er ist nicht zu verwechseln mit dem ebenfalls aus Milet stammenden Historiker \"Anaximander <Iunior>\" (4. Jh. v. Chr.)"@de;
+  gndo:udkCode "700 - 601 v. Chr. ", "600 - 501 v. Chr. ";
+  gndo:placeOfBirth <https://d-nb.info/gnd/4039299-5>;
+  gndo:placeOfDeath <https://d-nb.info/gnd/4039299-5>;
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25405677 .
+
+_:node1ivpishs6x25405677 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4045790-4>;
+  rdf:_2 <https://d-nb.info/gnd/4003310-7> .
+
+<https://d-nb.info/gnd/118645102> gndo:dateOfBirth "-0610"^^xsd:gYear;
+  gndo:dateOfDeath "-0546"^^xsd:gYear .
+

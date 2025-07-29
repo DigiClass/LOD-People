@@ -1,0 +1,114 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/102394997> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/102394997/about> .
+
+<https://d-nb.info/gnd/102394997/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-06-27T00:34:37.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/102394997> gndo:gndIdentifier "102394997";
+  owl:sameAs <http://viaf.org/viaf/218794913>, <http://www.wikidata.org/entity/Q1057422>,
+    <http://id.loc.gov/rwo/agents/no00010470>;
+  gndo:oldAuthorityNumber "(DE-588)1089752431";
+  owl:sameAs <https://d-nb.info/gnd/1089752431>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089752431";
+  gndo:oldAuthorityNumber "(DE-588)1089379307";
+  owl:sameAs <https://d-nb.info/gnd/1089379307>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089379307";
+  gndo:oldAuthorityNumber "(DE-588a)102394997", "(DE-588c)4675241-9";
+  gndo:variantNameForThePerson "Héraclite, Philosophe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593777 .
+
+_:node1ivs02adlx24593777 gndo:personalName "Héraclite";
+  gndo:nameAddition "Philosophe" .
+
+<https://d-nb.info/gnd/102394997> gndo:variantNameForThePerson "Heraclitus, Philosophus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593778 .
+
+_:node1ivs02adlx24593778 gndo:personalName "Heraclitus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/102394997> gndo:variantNameForThePerson "Herakleitos, Grammatiker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593779 .
+
+_:node1ivs02adlx24593779 gndo:personalName "Herakleitos";
+  gndo:nameAddition "Grammatiker" .
+
+<https://d-nb.info/gnd/102394997> gndo:variantNameForThePerson "Heraclitus, Scriptor Quaestionum Homericarum";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593780 .
+
+_:node1ivs02adlx24593780 gndo:personalName "Heraclitus";
+  gndo:nameAddition "Scriptor Quaestionum Homericarum" .
+
+<https://d-nb.info/gnd/102394997> gndo:variantNameForThePerson "Eraclito";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593781 .
+
+_:node1ivs02adlx24593781 gndo:personalName "Eraclito" .
+
+<https://d-nb.info/gnd/102394997> gndo:variantNameForThePerson "Herakleitos, Homerallegorist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24593782 .
+
+_:node1ivs02adlx24593782 gndo:personalName "Herakleitos";
+  gndo:nameAddition "Homerallegorist" .
+
+<https://d-nb.info/gnd/102394997> gndo:preferredNameForThePerson "Heraclitus, Allegorista";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24593783 .
+
+_:node1ivs02adlx24593783 gndo:personalName "Heraclitus";
+  gndo:nameAddition "Allegorista" .
+
+<https://d-nb.info/gnd/102394997> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#11.2p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  wdrs:describedby <https://d-nb.info/gnd/102394997/about> .
+
+<https://d-nb.info/gnd/102394997/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/102394997> gndo:biographicalOrHistoricalInformation "Griech. Philosoph u. Verfasser eines Homer-Kommentars. Der Verfasser der Homerallegorien ist in der besten handschriftlichen Überlieferung als Heraclitus überliefert; erst später wurde er fälschlich mit dem Vorsokratiker Heraclitus <Ephesius> bzw. dem Heraclides <Ponticus> (geht auf Gessner zurück) identifiziert"@de;
+  gndo:udkCode "1 - 100 n. Chr.";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[1. Jh.]" .
+

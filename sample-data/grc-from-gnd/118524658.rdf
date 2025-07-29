@@ -1,0 +1,277 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118524658> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118524658/about> .
+
+<https://d-nb.info/gnd/118524658/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2025-05-09T18:53:30.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118524658> gndo:gndIdentifier "118524658";
+  owl:sameAs <https://dbpedia.org/resource/Demosthenes>, <http://viaf.org/viaf/1835153063163019320001>,
+    <http://www.wikidata.org/entity/Q117253>;
+  gndo:oldAuthorityNumber "(DE-588)1089896034";
+  owl:sameAs <https://d-nb.info/gnd/1089896034>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089896034";
+  gndo:oldAuthorityNumber "(DE-588)1089829191";
+  owl:sameAs <https://d-nb.info/gnd/1089829191>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089829191";
+  gndo:oldAuthorityNumber "(DE-588a)118524658", "(DE-588c)4011426-0";
+  gndo:variantNameForThePerson "Demosthenes, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585304 .
+
+_:node1ivs02adlx24585304 gndo:personalName "Demosthenes";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demosthenes, von Athen";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585305 .
+
+_:node1ivs02adlx24585305 gndo:personalName "Demosthenes";
+  gndo:nameAddition "von Athen" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demosthenes, von Paiania";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585306 .
+
+_:node1ivs02adlx24585306 gndo:personalName "Demosthenes";
+  gndo:nameAddition "von Paiania" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Pseudo-Demosthenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585307 .
+
+_:node1ivs02adlx24585307 gndo:personalName "Pseudo-Demosthenes" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demosthenes, Sohn des Demosthenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585308 .
+
+_:node1ivs02adlx24585308 gndo:personalName "Demosthenes";
+  gndo:nameAddition "Sohn des Demosthenes" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Démosthène, Orateur";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585309 .
+
+_:node1ivs02adlx24585309 gndo:personalName "Démosthène";
+  gndo:nameAddition "Orateur" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demostene, di Peania";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585310 .
+
+_:node1ivs02adlx24585310 gndo:personalName "Demostene";
+  gndo:nameAddition "di Peania" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demostene, Oratore";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585311 .
+
+_:node1ivs02adlx24585311 gndo:personalName "Demostene";
+  gndo:nameAddition "Oratore" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demosthenes, Redner";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585312 .
+
+_:node1ivs02adlx24585312 gndo:personalName "Demosthenes";
+  gndo:nameAddition "Redner" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demosthenes, Orator";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585313 .
+
+_:node1ivs02adlx24585313 gndo:personalName "Demosthenes";
+  gndo:nameAddition "Orator" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Démosthene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585314 .
+
+_:node1ivs02adlx24585314 gndo:personalName "Démosthene" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demosthenes, Rhetor";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585315 .
+
+_:node1ivs02adlx24585315 gndo:personalName "Demosthenes";
+  gndo:nameAddition "Rhetor" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Démosthène, d'Athènes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585316 .
+
+_:node1ivs02adlx24585316 gndo:personalName "Démosthène";
+  gndo:nameAddition "d'Athènes" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demosthene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585317 .
+
+_:node1ivs02adlx24585317 gndo:personalName "Demosthene" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demostenes";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585318 .
+
+_:node1ivs02adlx24585318 gndo:personalName "Demostenes" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Dēmosthenus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585319 .
+
+_:node1ivs02adlx24585319 gndo:personalName "Dēmosthenus" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Demostene";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585320 .
+
+_:node1ivs02adlx24585320 gndo:personalName "Demostene" .
+
+<https://d-nb.info/gnd/118524658> gndo:variantNameForThePerson "Démosthène";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24585321 .
+
+_:node1ivs02adlx24585321 gndo:personalName "Démosthène" .
+
+<https://d-nb.info/gnd/118524658> gndo:preferredNameForThePerson "Demosthenes";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24585322 .
+
+_:node1ivs02adlx24585322 gndo:personalName "Demosthenes" .
+
+<https://d-nb.info/gnd/118524658> gndo:hasRelation _:node1ivs02adlx24585323 .
+
+_:node1ivs02adlx24585323 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585324 .
+
+_:node1ivs02adlx24585324 gndo:personalName "Lycurgus" .
+
+<https://d-nb.info/gnd/118524658> gndo:hasRelation _:node1ivs02adlx24585325 .
+
+_:node1ivs02adlx24585325 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585326 .
+
+_:node1ivs02adlx24585326 gndo:forename "Veit";
+  gndo:surname "Örtel";
+  gndo:nameAddition "der Ältere" .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102460531>;
+  gndo:hasRelation _:node1ivs02adlx24585327 .
+
+_:node1ivs02adlx24585327 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/102460531>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118593234>;
+  gndo:hasRelation _:node1ivs02adlx24585328 .
+
+_:node1ivs02adlx24585328 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118593234>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118520814>;
+  gndo:hasRelation _:node1ivs02adlx24585329 .
+
+_:node1ivs02adlx24585329 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118520814>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118660047>;
+  gndo:hasRelation _:node1ivs02adlx24585330 .
+
+_:node1ivs02adlx24585330 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/118660047>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128884967>;
+  gndo:hasRelation _:node1ivs02adlx24585331 .
+
+_:node1ivs02adlx24585331 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/128884967>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129665223>;
+  gndo:hasRelation _:node1ivs02adlx24585332 .
+
+_:node1ivs02adlx24585332 gndo:acquaintanceshipOrFriendship <https://d-nb.info/gnd/129665223>;
+  gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:hasRelation _:node1ivs02adlx24585333 .
+
+_:node1ivs02adlx24585333 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585334 .
+
+_:node1ivs02adlx24585334 gndo:forename "Johannes";
+  gndo:surname "Sturm" .
+
+<https://d-nb.info/gnd/118524658> gndo:hasRelation _:node1ivs02adlx24585335 .
+
+_:node1ivs02adlx24585335 gndo:functionOrRoleAsLiteral "VD-16 Mitverf.";
+  a gndo:Relationship .
+
+<https://d-nb.info/gnd/118524658> gndo:acquaintanceshipOrFriendship _:node1ivs02adlx24585336 .
+
+_:node1ivs02adlx24585336 gndo:forename "Johannes Ludwig";
+  gndo:surname "Hauwenreuter" .
+
+<https://d-nb.info/gnd/118524658> gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#male>;
+  gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#12.2p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#16.1p>,
+    <https://d-nb.info/standards/vocab/gnd/gnd-sc#7.14p>, <https://d-nb.info/standards/vocab/gnd/gnd-sc#8.1p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Orationes 62", "Orationes 62", "Orationes 62", "Orationes", "Opera Orationum",
+    "Opera Orationum", "Opera Orationum", "Oratio de classibus", "Contra legem Leptinae oratio",
+    "Oratio in Midiam", "Aeschines: Oratio contra Ctesiphontem. 1564. (VD16 ZV 113)",
+    "Orationes Olynthiacae. 1557. (VD16 D 518)", "Aeschines: Oratio contra Ctesiphontem. Demosthenes: Oratio pro Ctesiphonte. 1563. (VD16 A 407)",
+    "\\=GDĒMOSTHENUS LOGŌN tmēma prōton(deuteron,triton).\\=g DEMOSTHENIS ORATIONVM, NVNC ... 1547. (VD16 D 485)",
+    "Encomium Suevorum. 1527. (VD16 D 497)", "\\=GDĒMOSTHENUS LOGOI DYO KAI HEXĒKONTA.\\=g HABES LECTOR DEMOSTHENIS ... orationes ... 1532. (VD16 D 484)",
+    "Philippicae. 1544. (VD16 ZV 22548)", "Orationes Olynthiacae. 1535. (VD16 ZV 4342)",
+    "Isocrates: Orationes Olynthiacae. 1553. (VD16 I 413)", "Lycurgus: Oratio de pace. 1548. (VD16 L 7731)";
+  wdrs:describedby <https://d-nb.info/gnd/118524658/about> .
+
+<https://d-nb.info/gnd/118524658/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-101>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-101> .
+
+<https://d-nb.info/gnd/118524658> gndo:udkCode "400 - 301 v. Chr. ";
+  gndo:placeOfActivity <https://d-nb.info/gnd/4003366-1>;
+  gndo:professionOrOccupation _:node1ivs02adlx24585337 .
+
+_:node1ivs02adlx24585337 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4048895-0>;
+  rdf:_2 <https://d-nb.info/gnd/4323328-4>;
+  rdf:_3 <https://d-nb.info/gnd/4046517-2> .
+
+<https://d-nb.info/gnd/118524658> gndo:dateOfBirth "-0384"^^xsd:gYear;
+  gndo:dateOfDeath "-0322"^^xsd:gYear .
+

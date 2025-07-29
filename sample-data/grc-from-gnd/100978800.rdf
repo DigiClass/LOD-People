@@ -1,0 +1,127 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/100978800> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/100978800/about> .
+
+<https://d-nb.info/gnd/100978800/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2018-04-04T00:43:32.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/100978800> gndo:gndIdentifier "100978800";
+  foaf:page <https://de.wikipedia.org/wiki/Dexippos_%28Philosoph%29>;
+  owl:sameAs <https://dbpedia.org/resource/Dexippus_(philosopher)>, <http://viaf.org/viaf/16383095>,
+    <https://isni.org/isni/0000000403023187>, <http://www.wikidata.org/entity/Q369129>,
+    <http://id.loc.gov/rwo/agents/n90614269>;
+  gndo:oldAuthorityNumber "(DE-588)1089725337";
+  owl:sameAs <https://d-nb.info/gnd/1089725337>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1089725337";
+  gndo:oldAuthorityNumber "(DE-588a)100978800";
+  gndo:variantNameForThePerson "Dexippus, Atheniensis";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591085 .
+
+_:node1ivs02adlx24591085 gndo:personalName "Dexippus";
+  gndo:nameAddition "Atheniensis" .
+
+<https://d-nb.info/gnd/100978800> gndo:variantNameForThePerson "Dexippus, Neuplatoniker";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591086 .
+
+_:node1ivs02adlx24591086 gndo:personalName "Dexippus";
+  gndo:nameAddition "Neuplatoniker" .
+
+<https://d-nb.info/gnd/100978800> gndo:variantNameForThePerson "Dexippus, Schüler des Iamblichos";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591087 .
+
+_:node1ivs02adlx24591087 gndo:personalName "Dexippus";
+  gndo:nameAddition "Schüler des Iamblichos" .
+
+<https://d-nb.info/gnd/100978800> gndo:variantNameForThePerson "Dexippos, Philosoph";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591088 .
+
+_:node1ivs02adlx24591088 gndo:personalName "Dexippos";
+  gndo:nameAddition "Philosoph" .
+
+<https://d-nb.info/gnd/100978800> gndo:variantNameForThePerson "Dexippus, Neoplatonicus";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591089 .
+
+_:node1ivs02adlx24591089 gndo:personalName "Dexippus";
+  gndo:nameAddition "Neoplatonicus" .
+
+<https://d-nb.info/gnd/100978800> gndo:variantNameForThePerson "Dessipo, Filosofo";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591090 .
+
+_:node1ivs02adlx24591090 gndo:personalName "Dessipo";
+  gndo:nameAddition "Filosofo" .
+
+<https://d-nb.info/gnd/100978800> gndo:variantNameForThePerson "Dexippe, Philosophe";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591091 .
+
+_:node1ivs02adlx24591091 gndo:personalName "Dexippe";
+  gndo:nameAddition "Philosophe" .
+
+<https://d-nb.info/gnd/100978800> gndo:variantNameForThePerson "Dexippus, Neoplatonist";
+  gndo:variantNameEntityForThePerson _:node1ivs02adlx24591092 .
+
+_:node1ivs02adlx24591092 gndo:personalName "Dexippus";
+  gndo:nameAddition "Neoplatonist" .
+
+<https://d-nb.info/gnd/100978800> gndo:preferredNameForThePerson "Dexippus, Philosophus";
+  gndo:preferredNameEntityForThePerson _:node1ivs02adlx24591093 .
+
+_:node1ivs02adlx24591093 gndo:personalName "Dexippus";
+  gndo:nameAddition "Philosophus" .
+
+<https://d-nb.info/gnd/100978800> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#4.7p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Dexippus <Philosophus>: In Aristotelis Praedicamenta Quaestionum Libri III. - 1546",
+    "Eklogai peri presbeiōn. - 1729";
+  wdrs:describedby <https://d-nb.info/gnd/100978800/about> .
+
+<https://d-nb.info/gnd/100978800/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/100978800> gndo:biographicalOrHistoricalInformation "In Aristotelis categorias commentarium"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:dateOfBirthAndDeath "[4. Jh.]" .
+

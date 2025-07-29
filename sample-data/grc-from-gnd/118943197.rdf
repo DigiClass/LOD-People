@@ -1,0 +1,156 @@
+@prefix schema: <http://schema.org/> .
+@prefix gndo: <https://d-nb.info/standards/elementset/gnd#> .
+@prefix lib: <http://purl.org/library/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix editeur: <https://ns.editeur.org/thema/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix umbel: <http://umbel.org/umbel#> .
+@prefix naf: <https://id.loc.gov/authorities/names/> .
+@prefix sf: <http://www.opengis.net/ont/sf#> .
+@prefix rdau: <http://rdaregistry.info/Elements/u/> .
+@prefix bflc: <http://id.loc.gov/ontologies/bflc/> .
+@prefix thesoz: <http://lod.gesis.org/thesoz/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix mesh: <http://id.nlm.nih.gov/mesh/vocab#> .
+@prefix ram: <https://data.bnf.fr/ark:/12148/> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix marcRole: <http://id.loc.gov/vocabulary/relators/> .
+@prefix agrelon: <https://d-nb.info/standards/elementset/agrelon#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix nsogg: <https://purl.org/bncf/tid/> .
+@prefix dnbt: <https://d-nb.info/standards/elementset/dnb#> .
+@prefix dbp: <http://dbpedia.org/property/> .
+@prefix embne: <https://datos.bne.es/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dnb_intern: <http://dnb.de/> .
+@prefix madsrdf: <http://www.loc.gov/mads/rdf/v1#> .
+@prefix v: <http://www.w3.org/2006/vcard/ns#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcatde: <http://dcat-ap.de/def/dcatde/> .
+@prefix ebu: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix wdrs: <http://www.w3.org/2007/05/powder-s#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix gbv: <http://purl.org/ontology/gbv/> .
+@prefix agrovoc: <https://aims.fao.org/aos/agrovoc/> .
+@prefix lcsh: <https://id.loc.gov/authorities/subjects/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+<https://d-nb.info/gnd/118943197> a gndo:DifferentiatedPerson;
+  wdrs:describedby <https://d-nb.info/gnd/118943197/about> .
+
+<https://d-nb.info/gnd/118943197/about> dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/>;
+  dcterms:modified "2021-06-02T00:32:11.000"^^xsd:dateTime;
+  gndo:descriptionLevel <https://d-nb.info/standards/vocab/gnd/description-level#1> .
+
+<https://d-nb.info/gnd/118943197> gndo:gndIdentifier "118943197";
+  owl:sameAs <http://viaf.org/viaf/312627871>, <http://www.wikidata.org/entity/Q729492>;
+  gndo:oldAuthorityNumber "(DE-588)115879715X";
+  owl:sameAs <https://d-nb.info/gnd/115879715X>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/115879715X";
+  gndo:oldAuthorityNumber "(DE-588)1090448759";
+  owl:sameAs <https://d-nb.info/gnd/1090448759>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090448759";
+  gndo:oldAuthorityNumber "(DE-588)1090627793";
+  owl:sameAs <https://d-nb.info/gnd/1090627793>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090627793";
+  gndo:oldAuthorityNumber "(DE-588)1090145594";
+  owl:sameAs <https://d-nb.info/gnd/1090145594>;
+  dnbt:deprecatedUri "https://d-nb.info/gnd/1090145594";
+  gndo:oldAuthorityNumber "(DE-588a)118943197", "(DE-588a)102390789", "(DE-588c)4245575-3";
+  gndo:variantNameForThePerson "Diodorus, Monachus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405093 .
+
+_:node1ivpishs6x25405093 gndo:personalName "Diodorus";
+  gndo:nameAddition "Monachus" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Tarsus, Diodor von";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405094 .
+
+_:node1ivpishs6x25405094 gndo:forename "Diodor";
+  gndo:prefix "von";
+  gndo:surname "Tarsus" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodorus, Tarsensis, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405095 .
+
+_:node1ivpishs6x25405095 gndo:personalName "Diodorus";
+  gndo:nameAddition "Tarsensis, Episcopus" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodor, von Tarsus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405096 .
+
+_:node1ivpishs6x25405096 gndo:personalName "Diodor";
+  gndo:nameAddition "von Tarsus" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodorus, von Tarsus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405097 .
+
+_:node1ivpishs6x25405097 gndo:personalName "Diodorus";
+  gndo:nameAddition "von Tarsus" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodore, de Tarse";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405098 .
+
+_:node1ivpishs6x25405098 gndo:personalName "Diodore";
+  gndo:nameAddition "de Tarse" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodore, of Tarsus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405099 .
+
+_:node1ivpishs6x25405099 gndo:personalName "Diodore";
+  gndo:nameAddition "of Tarsus" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodorus, Scriptor Ecclesiasticus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405100 .
+
+_:node1ivpishs6x25405100 gndo:personalName "Diodorus";
+  gndo:nameAddition "Scriptor Ecclesiasticus" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodorus, Episcopus";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405101 .
+
+_:node1ivpishs6x25405101 gndo:personalName "Diodorus";
+  gndo:nameAddition "Episcopus" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodoros, Bischof";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405102 .
+
+_:node1ivpishs6x25405102 gndo:personalName "Diodoros";
+  gndo:nameAddition "Bischof" .
+
+<https://d-nb.info/gnd/118943197> gndo:variantNameForThePerson "Diodoros, von Tarsos";
+  gndo:variantNameEntityForThePerson _:node1ivpishs6x25405103 .
+
+_:node1ivpishs6x25405103 gndo:personalName "Diodoros";
+  gndo:nameAddition "von Tarsos" .
+
+<https://d-nb.info/gnd/118943197> gndo:preferredNameForThePerson "Diodorus, Tarsensis";
+  gndo:preferredNameEntityForThePerson _:node1ivpishs6x25405104 .
+
+_:node1ivpishs6x25405104 gndo:personalName "Diodorus";
+  gndo:nameAddition "Tarsensis" .
+
+<https://d-nb.info/gnd/118943197> gndo:gndSubjectCategory <https://d-nb.info/standards/vocab/gnd/gnd-sc#3.6p>;
+  gndo:geographicAreaCode <https://d-nb.info/standards/vocab/gnd/geographic-area-code#XS>;
+  gndo:languageCode <http://id.loc.gov/vocabulary/iso639-2/grc>;
+  gndo:publication "Diodori Tarsensis episcopi fragmenta ex catenis in Genesin, in Douteronomium, in librum judicum, in regum primum, in Psalmos";
+  wdrs:describedby <https://d-nb.info/gnd/118943197/about> .
+
+<https://d-nb.info/gnd/118943197/about> dcterms:creator <https://ld.zdb-services.de/resource/organisations/DE-12>;
+  dcatde:maintainer <https://ld.zdb-services.de/resource/organisations/DE-12> .
+
+<https://d-nb.info/gnd/118943197> gndo:biographicalOrHistoricalInformation "Antiochen. Theologe, Bischof von Tarsus"@de;
+  gndo:udkCode "301 - 400";
+  gndo:gender <https://d-nb.info/standards/vocab/gnd/gender#notKnown>;
+  gndo:professionOrOccupation _:node1ivpishs6x25405105 .
+
+_:node1ivpishs6x25405105 a rdf:Seq;
+  rdf:_1 <https://d-nb.info/gnd/4006949-7> .
+
+<https://d-nb.info/gnd/118943197> gndo:dateOfDeath "0394"^^xsd:gYear .
+
