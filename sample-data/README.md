@@ -5,7 +5,7 @@ Three ways to add your data:
 
 
 1. Add a description and download link to the ticket at https://github.com/DigiClass/LOD-People/issues/1
-1. Fork the repository at https://github.com/DigiClass/LOD-People, and your data in your fork, and issue a Pull Request to get it added to the main repo
+1. Fork the repository at https://github.com/DigiClass/LOD-People, push your sample data to your fork, and issue a Pull Request to get it added to the main repo
 1. Email gabriel.bodard@sas.ac.uk with your Github username, and ask to be give write permissions to the repo, and add it directly to the main branch
 
 
