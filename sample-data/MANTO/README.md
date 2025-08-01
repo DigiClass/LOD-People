@@ -1,12 +1,20 @@
 ## Dataset: grc-from-idref
 
 **Project title**: MANTO
+
 **URL**: https://www.manto-myth.org
+
 **Project description**: MANTO is a dynamic digital portal of Greek myth
+
 **Sample data description**: Minimal data for all agents and collectives in MANTO that have both WD and digital LIMC alignments (646 records).  
+
 **License**: CC-BY-NC
+
 **Contact person**: Greta Hawes
+
 **Date uploaded**: 2025-07-31
+
+
 **Data format(s)**: CSV
 
 Further notes:
