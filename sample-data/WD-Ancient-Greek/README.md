@@ -8,10 +8,10 @@
 
 **Sample data description**: 740 person-entities dumped using https://wdumps.toolforge.org/ with the following parameters:
 
-* P31 = Q5
-* P1343 = Q1138524
-* P1412 = Q35497
-* P2348 - Null
+* [P31](https://www.wikidata.org/wiki/Property:P31) (instance of) = [Q5](https://www.wikidata.org/wiki/Q5) (Human)
+* [P1343](https://www.wikidata.org/wiki/Property:P1343) (described by source) = [Q1138524](https://www.wikidata.org/wiki/Q1138524) (Pauly–Wissowa)
+* [P1412](https://www.wikidata.org/wiki/Property:P1412) (languages spoken, written or signed) = [Q35497](https://www.wikidata.org/wiki/Q35497) (Ancient Greek)
+* [P2348](https://www.wikidata.org/wiki/Property:P2348) (time period) - Null
 
 **License**: [CC0](https://www.wikidata.org/wiki/Wikidata:Copyright)
 
